@@ -1,0 +1,920 @@
+[
+  {
+    "source_id": "s-8db598db944dae03b981",
+    "original_asset": "assets/originals/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.png",
+    "variant_id": "v-11d0e8a2e26330e06509",
+    "asset": "assets/display/cf9148084d9d6dfa1c5c2e581ed5f4f74094b52dc8d95f3b947269b4d2d4e377.webp",
+    "zoom_asset": "assets/zoom/cf9148084d9d6dfa1c5c2e581ed5f4f74094b52dc8d95f3b947269b4d2d4e377.png",
+    "transform": {
+      "type": "selective_label_mask",
+      "mask_regions": [
+        [
+          0.6,
+          0.075,
+          0.99,
+          0.145
+        ]
+      ],
+      "reason": "Hide only the directly revealing structure name in blank annotation space. Preserve anatomy, source crosses, hormone labels and pathway arrows.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1440,
+        1807
+      ]
+    },
+    "output_dimensions": [
+      1440,
+      1807
+    ],
+    "display_sha256": "b3ca6881c11ab57e2c09282fd8a2523a387022ffc97a57eb4fa905722108cc7e",
+    "zoom_sha256": "72681385928d33baff4628b4892039b66cb2a18f7b3e65b91915e4d0dfd4f16e"
+  },
+  {
+    "source_id": "s-8105c60b45881b70511e",
+    "original_asset": "assets/originals/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.png",
+    "variant_id": "v-011b2c99e2c849f72c28",
+    "asset": "assets/display/e5fe8bb2bae482c8d8e304c6d2307efb1761ff23d9b0b97e5d9be60b87dab520.webp",
+    "zoom_asset": "assets/zoom/e5fe8bb2bae482c8d8e304c6d2307efb1761ff23d9b0b97e5d9be60b87dab520.png",
+    "transform": {
+      "type": "selective_label_mask",
+      "mask_regions": [
+        [
+          0.025,
+          0.735,
+          0.145,
+          0.77
+        ],
+        [
+          0.025,
+          0.773,
+          0.176,
+          0.815
+        ],
+        [
+          0.45,
+          0.735,
+          0.61,
+          0.817
+        ],
+        [
+          0.69,
+          0.754,
+          0.94,
+          0.817
+        ]
+      ],
+      "reason": "Hide only the directly revealing structure name in blank annotation space. Preserve anatomy, source crosses, hormone labels and pathway arrows.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1473,
+        1851
+      ]
+    },
+    "output_dimensions": [
+      1473,
+      1851
+    ],
+    "display_sha256": "a5583ee6b30c6ff27b1ba5beb00e6752b512bca141e01bb7120c0e95cd845398",
+    "zoom_sha256": "cb37412df94e66fc48b9305fbe3392be11ce2c76d9b0376bcf6ceac94cfadd57"
+  },
+  {
+    "source_id": "s-8c7636d4a73314ab9ba3",
+    "original_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+    "variant_id": "v-067fb173adc9f3d39740",
+    "asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+    "zoom_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        4722,
+        3415
+      ]
+    },
+    "output_dimensions": [
+      4722,
+      3415
+    ],
+    "display_sha256": "0039cad7f697f280a404539822a8041ba26046a6e386811c8fd20b16989eeda8",
+    "zoom_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f"
+  },
+  {
+    "source_id": "s-8c7636d4a73314ab9ba3",
+    "original_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+    "variant_id": "v-067fb173adc9f3d39740",
+    "asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+    "zoom_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        4722,
+        3415
+      ]
+    },
+    "output_dimensions": [
+      4722,
+      3415
+    ],
+    "display_sha256": "0039cad7f697f280a404539822a8041ba26046a6e386811c8fd20b16989eeda8",
+    "zoom_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f"
+  },
+  {
+    "source_id": "s-ade393e39a021284e7de",
+    "original_asset": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+    "variant_id": "v-c494d36dd43a08fa60f2",
+    "asset": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+    "zoom_asset": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        2552,
+        2312
+      ]
+    },
+    "output_dimensions": [
+      2552,
+      2312
+    ],
+    "display_sha256": "8a202a133f85bf0a6034a86ae71abad09ca428ddaf5b65abebd4c2f37697e023",
+    "zoom_sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3"
+  },
+  {
+    "source_id": "s-acab2b86147928f44556",
+    "original_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+    "variant_id": "v-2b286242ac38526c2a58",
+    "asset": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+    "zoom_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        3344,
+        952
+      ]
+    },
+    "output_dimensions": [
+      3344,
+      952
+    ],
+    "display_sha256": "240f2f19366966c9b7c60d8e24792e245544609747bffe2df40a26fbf31eea31",
+    "zoom_sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4"
+  },
+  {
+    "source_id": "s-acab2b86147928f44556",
+    "original_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+    "variant_id": "v-2b286242ac38526c2a58",
+    "asset": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+    "zoom_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        3344,
+        952
+      ]
+    },
+    "output_dimensions": [
+      3344,
+      952
+    ],
+    "display_sha256": "240f2f19366966c9b7c60d8e24792e245544609747bffe2df40a26fbf31eea31",
+    "zoom_sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4"
+  },
+  {
+    "source_id": "s-1f36b2bcb507ae62ca8f",
+    "original_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+    "variant_id": "v-2bd51742da1ef6bd9774",
+    "asset": "assets/display/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.webp",
+    "zoom_asset": "assets/zoom/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.png",
+    "transform": {
+      "type": "selective_label_mask",
+      "mask_regions": [
+        [
+          0,
+          0.244,
+          0.211,
+          0.289
+        ],
+        [
+          0,
+          0.289,
+          0.237,
+          0.334
+        ],
+        [
+          0,
+          0.334,
+          0.09,
+          0.378
+        ]
+      ],
+      "reason": "Hide the target annotation only, preserving villi, fetal vessels, maternal inlet, and label leader.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1573,
+        1100
+      ]
+    },
+    "output_dimensions": [
+      1573,
+      1100
+    ],
+    "display_sha256": "2def7b81245157aebbd122a6d6bd0e106ea215e424c8cb2acb2530a75d9c8f86",
+    "zoom_sha256": "d6be096b9da29c4f94fccf0d90763af3bf9e1c83c3c65ae10e17705076d94d75"
+  },
+  {
+    "source_id": "s-1f36b2bcb507ae62ca8f",
+    "original_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+    "variant_id": "v-fd8f78fd0008a8edcacf",
+    "asset": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+    "zoom_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1573,
+        1100
+      ]
+    },
+    "output_dimensions": [
+      1573,
+      1100
+    ],
+    "display_sha256": "b4b223c3745a7efc3475086c63c76eecb51b423e95f52179a10d889b38cc3680",
+    "zoom_sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0"
+  },
+  {
+    "source_id": "s-629d99f7cc406d24fd58",
+    "original_asset": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+    "variant_id": "v-19c25195991ebbee1800",
+    "asset": "assets/display/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.webp",
+    "zoom_asset": "assets/zoom/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.png",
+    "transform": {
+      "type": "selective_label_mask",
+      "mask_regions": [
+        [
+          0.12,
+          0.232,
+          0.21,
+          0.257
+        ],
+        [
+          0.13,
+          0.257,
+          0.191,
+          0.278
+        ]
+      ],
+      "reason": "Hide only the foramen ovale text. Preserve the leader, atrial septum, and all other labels.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        2728,
+        2414
+      ]
+    },
+    "output_dimensions": [
+      2728,
+      2414
+    ],
+    "display_sha256": "8481fb4dfcaa0169de3d9560c131544a78310e711cf7a7f42e2ffdf0643f6752",
+    "zoom_sha256": "c6c7bd005ae7ed41e229ade4c982440d9b08825510884655d89e9b43443854bd"
+  },
+  {
+    "source_id": "s-629d99f7cc406d24fd58",
+    "original_asset": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+    "variant_id": "v-4206821f037d89a276d3",
+    "asset": "assets/display/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.webp",
+    "zoom_asset": "assets/zoom/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.png",
+    "transform": {
+      "type": "selective_label_mask",
+      "mask_regions": [
+        [
+          0.679,
+          0.128,
+          0.773,
+          0.154
+        ],
+        [
+          0.665,
+          0.154,
+          0.773,
+          0.182
+        ]
+      ],
+      "reason": "Hide only the ductus arteriosus annotation in white space. Preserve the diagonal leader and great-vessel connection.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        2728,
+        2414
+      ]
+    },
+    "output_dimensions": [
+      2728,
+      2414
+    ],
+    "display_sha256": "72cec9ff5303cc5f6d5d2a4cce9a44386c36b70f697a351d3d2319e428abccee",
+    "zoom_sha256": "2c7f01c02f5a9bd33d27a546d5eedaca543c6db2f780d48c12d0017c18b03e1d"
+  },
+  {
+    "source_id": "s-629d99f7cc406d24fd58",
+    "original_asset": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+    "variant_id": "v-f52242e8ab352d22adfb",
+    "asset": "assets/display/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.webp",
+    "zoom_asset": "assets/zoom/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.png",
+    "transform": {
+      "type": "selective_label_mask",
+      "mask_regions": [
+        [
+          0.595,
+          0.487,
+          0.752,
+          0.513
+        ]
+      ],
+      "reason": "Hide only the ductus venosus annotation in white space. Preserve the liver bypass channel and horizontal leader.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        2728,
+        2414
+      ]
+    },
+    "output_dimensions": [
+      2728,
+      2414
+    ],
+    "display_sha256": "3dac8179eeacd3bc6d20baad9b6b8b4529bcfc84c21a8d8fb2879b354743ea40",
+    "zoom_sha256": "e9a1e3fb5da3fb0edfbe760a623850dd8382e2f4dcf83b412cf95f407c0666e6"
+  },
+  {
+    "source_id": "s-505b29a9b47453eb2dd4",
+    "original_asset": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+    "variant_id": "v-7e8cb9d44294d899b1e0",
+    "asset": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+    "zoom_asset": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        684,
+        535
+      ]
+    },
+    "output_dimensions": [
+      684,
+      535
+    ],
+    "display_sha256": "f4a1d4c96f1939e05a2aa4307b0f753f13739ea1ea6b012ddd88d625baef9c1d",
+    "zoom_sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5"
+  },
+  {
+    "source_id": "s-68fbb7b8a93b707536af",
+    "original_asset": "assets/originals/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.png",
+    "variant_id": "v-6a9d4ffa796749539279",
+    "asset": "assets/display/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.webp",
+    "zoom_asset": "assets/originals/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1667,
+        1108
+      ]
+    },
+    "output_dimensions": [
+      1667,
+      1108
+    ],
+    "display_sha256": "0a5141b0447fa8fb45563f966cd44b8db8d0c48043affd8242f529d1dab7e7ba",
+    "zoom_sha256": "c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f"
+  },
+  {
+    "source_id": "s-e7980b5adfc54b356536",
+    "original_asset": "assets/originals/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.png",
+    "variant_id": "v-67f1b46a8c1a33456c5b",
+    "asset": "assets/display/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.webp",
+    "zoom_asset": "assets/originals/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1574,
+        1260
+      ]
+    },
+    "output_dimensions": [
+      1574,
+      1260
+    ],
+    "display_sha256": "e8f9dc288522029c1aae18762c1003bef2b4f54f80cfb584750ea3acf6450372",
+    "zoom_sha256": "82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457"
+  },
+  {
+    "source_id": "s-d12868828175c3acc621",
+    "original_asset": "assets/originals/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.png",
+    "variant_id": "v-70654741a75cdd57c8c8",
+    "asset": "assets/display/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.webp",
+    "zoom_asset": "assets/zoom/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.png",
+    "transform": {
+      "type": "isolate_complete_panel",
+      "crop_pixels": [
+        8,
+        4,
+        795,
+        592
+      ],
+      "reason": "Remove only outside padding and the thin unrelated adjacent-panel strip. Preserve the complete main histology panel.",
+      "crop_normalized": [
+        0.0099626401,
+        0.0066666667,
+        0.9900373599,
+        0.9866666667
+      ],
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        803,
+        600
+      ]
+    },
+    "output_dimensions": [
+      787,
+      588
+    ],
+    "display_sha256": "629489cbdd864753a1e200204de801d3c35f4c896baef182c3dfaa5b9227a2b1",
+    "zoom_sha256": "302fa2d67bc0403918e332e231887bbe15c02f8a3b5b3a35b6845ebbded0a97f"
+  },
+  {
+    "source_id": "s-d3793453f669cb1d17e8",
+    "original_asset": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+    "variant_id": "v-50db3cfa435d98e23dca",
+    "asset": "assets/display/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.webp",
+    "zoom_asset": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1231,
+        888
+      ]
+    },
+    "output_dimensions": [
+      1231,
+      888
+    ],
+    "display_sha256": "afea97d02e8fe0f0aeaa3d325585c6d485e77a9b5c72e454b08da8af436afcdb",
+    "zoom_sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd"
+  },
+  {
+    "source_id": "s-f6c5fed871e6e30bdd0d",
+    "original_asset": "assets/originals/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.png",
+    "variant_id": "v-ade80d540549f41ed564",
+    "asset": "assets/display/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.webp",
+    "zoom_asset": "assets/originals/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        932,
+        1283
+      ]
+    },
+    "output_dimensions": [
+      932,
+      1283
+    ],
+    "display_sha256": "e899b64385b23e313a62d2476774b3692a4ee0242cd43ebfb81dad29e96a8c3e",
+    "zoom_sha256": "e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564"
+  },
+  {
+    "source_id": "s-18e8d9096c2d2b10aa56",
+    "original_asset": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+    "variant_id": "v-ad3db49ed6bcb257b619",
+    "asset": "assets/display/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.webp",
+    "zoom_asset": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1004,
+        675
+      ]
+    },
+    "output_dimensions": [
+      1004,
+      675
+    ],
+    "display_sha256": "19004e6aaf152051bfefe0c8fd07e0660564eb8e681b9a0e6f8b169095b4d15c",
+    "zoom_sha256": "fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f"
+  },
+  {
+    "source_id": "s-993a4a76db6059ca4497",
+    "original_asset": "assets/originals/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.png",
+    "variant_id": "v-cc9bb4daba10698c0a0d",
+    "asset": "assets/display/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.webp",
+    "zoom_asset": "assets/originals/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1853,
+        1393
+      ]
+    },
+    "output_dimensions": [
+      1853,
+      1393
+    ],
+    "display_sha256": "0116de3f9fe769cdc0863d5304f490be3a7b92ff40edae18b5cf191c0f74b39e",
+    "zoom_sha256": "481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836"
+  },
+  {
+    "source_id": "s-46267dac97652c1979f8",
+    "original_asset": "assets/originals/2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208.png",
+    "variant_id": "v-f5dd2e88e4dc231c043a",
+    "asset": "assets/display/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.webp",
+    "zoom_asset": "assets/zoom/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.png",
+    "transform": {
+      "type": "trim_outside_caption_fragment",
+      "crop_pixels": [
+        0,
+        7,
+        1361,
+        1063
+      ],
+      "reason": "Remove the seven-pixel top margin containing a clipped outside slide letter. Preserve the complete histology panel beginning below the white margin.",
+      "crop_normalized": [
+        0.0,
+        0.0065851364,
+        1.0,
+        1.0
+      ],
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1361,
+        1063
+      ]
+    },
+    "output_dimensions": [
+      1361,
+      1056
+    ],
+    "display_sha256": "2b1dcc2a0007a846911821a49764ef767df6d2c99398396b0a4dc557be845ae2",
+    "zoom_sha256": "3d41daa0f1e9fe52d88c2af1557d3d2a4e8aa18e2fac8d0d6efe7a471c9a1414"
+  },
+  {
+    "source_id": "s-805d330947df150af768",
+    "original_asset": "assets/originals/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.png",
+    "variant_id": "v-fc92498c66e51c23ce95",
+    "asset": "assets/display/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.webp",
+    "zoom_asset": "assets/originals/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1190,
+        786
+      ]
+    },
+    "output_dimensions": [
+      1190,
+      786
+    ],
+    "display_sha256": "94a8a759053f5a8b938cb3c264dbd42c7cd549e9079b3997d768516b4dc69b7c",
+    "zoom_sha256": "48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2"
+  },
+  {
+    "source_id": "s-7a38590a71cadfd42816",
+    "original_asset": "assets/originals/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.png",
+    "variant_id": "v-c1c2c42e50fd3fccd365",
+    "asset": "assets/display/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.webp",
+    "zoom_asset": "assets/originals/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1551,
+        1030
+      ]
+    },
+    "output_dimensions": [
+      1551,
+      1030
+    ],
+    "display_sha256": "e5877ed64a7bca7fc2fbc7501159e4c768430f72ab0189c1ba585ac4101defcc",
+    "zoom_sha256": "130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101"
+  },
+  {
+    "source_id": "s-1be67aad3476dbacd061",
+    "original_asset": "assets/originals/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.png",
+    "variant_id": "v-1e8acb809c2011c50330",
+    "asset": "assets/display/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.webp",
+    "zoom_asset": "assets/originals/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1191,
+        768
+      ]
+    },
+    "output_dimensions": [
+      1191,
+      768
+    ],
+    "display_sha256": "f77875b10562e28261b0124eb3bd9034fdfc483cfb87473b73790bea775f3252",
+    "zoom_sha256": "ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72"
+  },
+  {
+    "source_id": "s-1483ee179e0ca6e5da53",
+    "original_asset": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+    "variant_id": "v-61d6b55a66abd959efff",
+    "asset": "assets/display/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.webp",
+    "zoom_asset": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        2055,
+        1392
+      ]
+    },
+    "output_dimensions": [
+      2055,
+      1392
+    ],
+    "display_sha256": "63a7bd5972d3f8f49a7ee72b5d4068fa2b7c0000cbbb646366ba033a434bbad5",
+    "zoom_sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208"
+  },
+  {
+    "source_id": "s-cdc0834a2484d28439cb",
+    "original_asset": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
+    "variant_id": "v-b4e5c24868f874e8ce2c",
+    "asset": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
+    "zoom_asset": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1147,
+        859
+      ]
+    },
+    "output_dimensions": [
+      1147,
+      859
+    ],
+    "display_sha256": "11d495585906e5646c87b213882fb8132ed4bb657aaa3b4b462655876efdc698",
+    "zoom_sha256": "13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0"
+  },
+  {
+    "source_id": "s-5ed12814993139211aa2",
+    "original_asset": "assets/originals/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.png",
+    "variant_id": "v-e901c323d0172a1b3735",
+    "asset": "assets/display/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.webp",
+    "zoom_asset": "assets/originals/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        668,
+        593
+      ]
+    },
+    "output_dimensions": [
+      668,
+      593
+    ],
+    "display_sha256": "6cd295de62a19063ee1ad39bd21061dabfdc6c70160b8a70cbe8e766e248b5ee",
+    "zoom_sha256": "20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0"
+  },
+  {
+    "source_id": "s-24decf80b73e3305937d",
+    "original_asset": "assets/originals/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.png",
+    "variant_id": "v-117ab7055a327a4bc0db",
+    "asset": "assets/display/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.webp",
+    "zoom_asset": "assets/originals/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1568,
+        1355
+      ]
+    },
+    "output_dimensions": [
+      1568,
+      1355
+    ],
+    "display_sha256": "1fe237040146edd3228abea516733ff0a4da8b26f4396268522e1b504285ca36",
+    "zoom_sha256": "23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751"
+  },
+  {
+    "source_id": "s-c1e2cb5b88a62f41967c",
+    "original_asset": "assets/originals/b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0.png",
+    "variant_id": "v-b9334df5060a3851f88f",
+    "asset": "assets/display/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.webp",
+    "zoom_asset": "assets/zoom/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.png",
+    "transform": {
+      "type": "trim_slide_border",
+      "crop_pixels": [
+        9,
+        9,
+        1380,
+        1393
+      ],
+      "reason": "Remove the purple slide border outside the MRI. Preserve the full actual scan and source arrow.",
+      "crop_normalized": [
+        0.0064608758,
+        0.0064608758,
+        0.9906676238,
+        1.0
+      ],
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1393,
+        1393
+      ]
+    },
+    "output_dimensions": [
+      1371,
+      1384
+    ],
+    "display_sha256": "6e6d06d3cb1391936e6e02d30b372d8ee58444be01fc31cf7a52f7c6284929c2",
+    "zoom_sha256": "ce881e43a39fb1c49872e29596965611cde3f2ca98fdc8341a5463b0f3e66d01"
+  },
+  {
+    "source_id": "s-758b3536e15c2512e544",
+    "original_asset": "assets/originals/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.png",
+    "variant_id": "v-a778c046ddca9b15f096",
+    "asset": "assets/display/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.webp",
+    "zoom_asset": "assets/originals/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1597,
+        1214
+      ]
+    },
+    "output_dimensions": [
+      1597,
+      1214
+    ],
+    "display_sha256": "d379e392b102d78a14dcd2f42b4e8e136920e64323fb7037b4c477a6b91305fd",
+    "zoom_sha256": "6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db"
+  },
+  {
+    "source_id": "s-1c62c6893430d2562a39",
+    "original_asset": "assets/originals/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.png",
+    "variant_id": "v-05801acab1e53a9f46f2",
+    "asset": "assets/display/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.webp",
+    "zoom_asset": "assets/originals/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        3723,
+        1330
+      ]
+    },
+    "output_dimensions": [
+      3723,
+      1330
+    ],
+    "display_sha256": "538b104aad6adc24b212661abe680c475ec606e578eb4502d8305c420b68f9fc",
+    "zoom_sha256": "32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a"
+  },
+  {
+    "source_id": "s-36277504ed01bbeee25a",
+    "original_asset": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+    "variant_id": "v-1af5eafb8bfe64bf2b19",
+    "asset": "assets/display/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.webp",
+    "zoom_asset": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1871,
+        1409
+      ]
+    },
+    "output_dimensions": [
+      1871,
+      1409
+    ],
+    "display_sha256": "560d9d27139d0a2107506f4f87728bdc41d3910106e851920d578eec5896e368",
+    "zoom_sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215"
+  },
+  {
+    "source_id": "s-2b661ede4faf8f67f2f3",
+    "original_asset": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+    "variant_id": "v-d410498a62efd83bc657",
+    "asset": "assets/display/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.webp",
+    "zoom_asset": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        801,
+        968
+      ]
+    },
+    "output_dimensions": [
+      801,
+      968
+    ],
+    "display_sha256": "b12466d5c4a3bdd301981d0e5550f4c20f6da825479f458766af0544b4f303e7",
+    "zoom_sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46"
+  },
+  {
+    "source_id": "s-ffcd6787536ab1c42240",
+    "original_asset": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+    "variant_id": "v-75ec3aa33ca773474211",
+    "asset": "assets/display/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.webp",
+    "zoom_asset": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1163,
+        871
+      ]
+    },
+    "output_dimensions": [
+      1163,
+      871
+    ],
+    "display_sha256": "54d274f5ba028a2efa6de045dc7dfa1e9c607fb26d7ad4b475130017c0fbe58e",
+    "zoom_sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c"
+  },
+  {
+    "source_id": "s-1b5bb660762c5fbea52d",
+    "original_asset": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+    "variant_id": "v-28759e20054e25c7e853",
+    "asset": "assets/display/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.webp",
+    "zoom_asset": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        897,
+        889
+      ]
+    },
+    "output_dimensions": [
+      897,
+      889
+    ],
+    "display_sha256": "9eacda248e138f059645d147637ed0ce8c7b8fc7d3a473c39d9ca31bc1f2717b",
+    "zoom_sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02"
+  },
+  {
+    "source_id": "s-d8e97e2d467c4f195296",
+    "original_asset": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+    "variant_id": "v-c0150ff625250671f482",
+    "asset": "assets/display/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.webp",
+    "zoom_asset": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+    "transform": {
+      "type": "display_resize",
+      "reason": "Retain the complete teaching image and native aspect ratio.",
+      "coordinate_basis": "immutable teaching original",
+      "input_dimensions": [
+        1137,
+        756
+      ]
+    },
+    "output_dimensions": [
+      1137,
+      756
+    ],
+    "display_sha256": "cafa1195a0e066875fe8e174376abc1ff8a5fd56cf1789a91e7c0a61d2b33bdd",
+    "zoom_sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40"
+  }
+]

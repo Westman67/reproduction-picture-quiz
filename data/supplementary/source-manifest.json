@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "scope": "supplementary",
+  "scope": "All available R lectures and supplied supplementary images",
   "review_complete": false,
   "sources": [
     {
@@ -1010,7 +1010,480 @@
           "full_image_required": true
         }
       ]
+    },
+    {
+      "asset_id": "a-06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215",
+      "source_id": "s-36277504ed01bbeee25a",
+      "source_group_id": "g-26ce3d4831f1e1d1b3a4",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Intraductal papilloma - Histology.png",
+      "sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215",
+      "perceptual_hash": "1e073e7cc5e03c87",
+      "dimensions": [
+        1871,
+        1409
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Intraductal Papilloma",
+      "original_asset": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+      "display_asset": "assets/display/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 526
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "526",
+        "file": "Intraductal papilloma - Histology.png",
+        "slide_title": "Intraductal Papilloma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.159",
+        "y0": "0.223",
+        "x1": "0.783",
+        "y1": "0.849",
+        "size": "1871x1409@300dpi",
+        "note": "",
+        "png_sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3556",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-1af5eafb8bfe64bf2b19",
+          "asset": "assets/display/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.webp",
+          "zoom_asset": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1871,
+              1409
+            ]
+          },
+          "output_dimensions": [
+            1871,
+            1409
+          ],
+          "display_sha256": "560d9d27139d0a2107506f4f87728bdc41d3910106e851920d578eec5896e368",
+          "zoom_sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Papillary fibrovascular cores",
+          "full_image_required": true,
+          "conditions": "Keep in the separate Boards and Beyond bank."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fibrovascular papillae in an intraductal breast lesion",
+          "variant_id": "v-1af5eafb8bfe64bf2b19",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46",
+      "source_id": "s-2b661ede4faf8f67f2f3",
+      "source_group_id": "g-41ef96b7872190c3ea41",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Invasive lobular carcinoma single file - Histology.png",
+      "sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46",
+      "perceptual_hash": "012dafa63a7b26f3",
+      "dimensions": [
+        801,
+        968
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Invasive Lobular Carcinoma",
+      "original_asset": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+      "display_asset": "assets/display/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 558
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "558",
+        "file": "Invasive lobular carcinoma single file - Histology.png",
+        "slide_title": "Invasive Lobular Carcinoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.324",
+        "y0": "0.502",
+        "x1": "0.591",
+        "y1": "0.932",
+        "size": "801x968@300dpi",
+        "note": "",
+        "png_sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3764",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d410498a62efd83bc657",
+          "asset": "assets/display/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.webp",
+          "zoom_asset": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              801,
+              968
+            ]
+          },
+          "output_dimensions": [
+            801,
+            968
+          ],
+          "display_sha256": "b12466d5c4a3bdd301981d0e5550f4c20f6da825479f458766af0544b4f303e7",
+          "zoom_sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Single file stromal cell arrangement",
+          "full_image_required": true,
+          "conditions": "Keep in the separate Boards and Beyond bank."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Single-file stromal infiltration in breast tissue",
+          "variant_id": "v-d410498a62efd83bc657",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c",
+      "source_id": "s-ffcd6787536ab1c42240",
+      "source_group_id": "g-907c34727f18b00eb2ee",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Phyllodes tumor - Histology.png",
+      "sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c",
+      "perceptual_hash": "a342b55fd8158bf1",
+      "dimensions": [
+        1163,
+        871
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Phyllodes Tumor",
+      "original_asset": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+      "display_asset": "assets/display/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 532
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "532",
+        "file": "Phyllodes tumor - Histology.png",
+        "slide_title": "Phyllodes Tumor",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.517",
+        "y0": "0.323",
+        "x1": "0.905",
+        "y1": "0.71",
+        "size": "1163x871@300dpi",
+        "note": "",
+        "png_sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3597",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-75ec3aa33ca773474211",
+          "asset": "assets/display/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.webp",
+          "zoom_asset": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1163,
+              871
+            ]
+          },
+          "output_dimensions": [
+            1163,
+            871
+          ],
+          "display_sha256": "54d274f5ba028a2efa6de045dc7dfa1e9c607fb26d7ad4b475130017c0fbe58e",
+          "zoom_sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Leaflike stromal architecture",
+          "full_image_required": true,
+          "conditions": "Do not infer tumor grade from this architecture alone."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Leaflike architecture in a breast stromal lesion",
+          "variant_id": "v-75ec3aa33ca773474211",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02",
+      "source_id": "s-1b5bb660762c5fbea52d",
+      "source_group_id": "g-f522e17227fb3b9e5e26",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Single umbilical artery cord cross section - Histology.png",
+      "sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02",
+      "perceptual_hash": "f623ed8d4d2306df",
+      "dimensions": [
+        897,
+        889
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Single Umbilical Artery",
+      "original_asset": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+      "display_asset": "assets/display/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 222
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "222",
+        "file": "Single umbilical artery cord cross section - Histology.png",
+        "slide_title": "Single Umbilical Artery",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.51",
+        "y0": "0.479",
+        "x1": "0.808",
+        "y1": "0.874",
+        "size": "897x889@300dpi",
+        "note": "",
+        "png_sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 1559",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-28759e20054e25c7e853",
+          "asset": "assets/display/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.webp",
+          "zoom_asset": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              897,
+              889
+            ]
+          },
+          "output_dimensions": [
+            897,
+            889
+          ],
+          "display_sha256": "9eacda248e138f059645d147637ed0ce8c7b8fc7d3a473c39d9ca31bc1f2717b",
+          "zoom_sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Two vascular lumina in a cord cross section",
+          "full_image_required": true,
+          "conditions": "The source supports a single umbilical artery example. Preserve the complete cord cross section."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Vessel count in a complete umbilical cord section",
+          "variant_id": "v-28759e20054e25c7e853",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40",
+      "source_id": "s-d8e97e2d467c4f195296",
+      "source_group_id": "g-e7a53b5e4fbd0a9559b9",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Struma ovarii - Histology.png",
+      "sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40",
+      "perceptual_hash": "c17fd4dad11704dd",
+      "dimensions": [
+        1137,
+        756
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Struma Ovarii",
+      "original_asset": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+      "display_asset": "assets/display/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 489
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "489",
+        "file": "Struma ovarii - Histology.png",
+        "slide_title": "Struma Ovarii",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.459",
+        "y0": "0.556",
+        "x1": "0.838",
+        "y1": "0.892",
+        "size": "1137x756@300dpi",
+        "note": "",
+        "png_sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3316",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c0150ff625250671f482",
+          "asset": "assets/display/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.webp",
+          "zoom_asset": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1137,
+              756
+            ]
+          },
+          "output_dimensions": [
+            1137,
+            756
+          ],
+          "display_sha256": "cafa1195a0e066875fe8e174376abc1ff8a5fd56cf1789a91e7c0a61d2b33bdd",
+          "zoom_sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Thyroid follicles and colloid in ovarian context",
+          "full_image_required": true,
+          "conditions": "Preserve source-supported ovarian context if asking for the tumor identity."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Colloid-filled thyroid follicles in an ovarian lesion",
+          "variant_id": "v-c0150ff625250671f482",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
     }
   ],
-  "publication_scope": "Verified active draft only. Unfinished review archive is local."
+  "audit_date": "2026-11-09",
+  "library_png_count": 1127,
+  "bank_version": "2026-11-09-histology-expansion-2",
+  "publication_scope": "Reviewed active questions only. Remaining source review archive stays local."
 }

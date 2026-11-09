@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "scope": "All available R lectures",
+  "scope": "All available R lectures and supplied supplementary images",
   "review_complete": false,
   "sources": [
     {
@@ -1012,6 +1012,476 @@
       ]
     },
     {
+      "asset_id": "a-06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215",
+      "source_id": "s-36277504ed01bbeee25a",
+      "source_group_id": "g-26ce3d4831f1e1d1b3a4",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Intraductal papilloma - Histology.png",
+      "sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215",
+      "perceptual_hash": "1e073e7cc5e03c87",
+      "dimensions": [
+        1871,
+        1409
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Intraductal Papilloma",
+      "original_asset": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+      "display_asset": "assets/display/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 526
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "526",
+        "file": "Intraductal papilloma - Histology.png",
+        "slide_title": "Intraductal Papilloma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.159",
+        "y0": "0.223",
+        "x1": "0.783",
+        "y1": "0.849",
+        "size": "1871x1409@300dpi",
+        "note": "",
+        "png_sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3556",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-1af5eafb8bfe64bf2b19",
+          "asset": "assets/display/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.webp",
+          "zoom_asset": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1871,
+              1409
+            ]
+          },
+          "output_dimensions": [
+            1871,
+            1409
+          ],
+          "display_sha256": "560d9d27139d0a2107506f4f87728bdc41d3910106e851920d578eec5896e368",
+          "zoom_sha256": "06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Papillary fibrovascular cores",
+          "full_image_required": true,
+          "conditions": "Keep in the separate Boards and Beyond bank."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fibrovascular papillae in an intraductal breast lesion",
+          "variant_id": "v-1af5eafb8bfe64bf2b19",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46",
+      "source_id": "s-2b661ede4faf8f67f2f3",
+      "source_group_id": "g-41ef96b7872190c3ea41",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Invasive lobular carcinoma single file - Histology.png",
+      "sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46",
+      "perceptual_hash": "012dafa63a7b26f3",
+      "dimensions": [
+        801,
+        968
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Invasive Lobular Carcinoma",
+      "original_asset": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+      "display_asset": "assets/display/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 558
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "558",
+        "file": "Invasive lobular carcinoma single file - Histology.png",
+        "slide_title": "Invasive Lobular Carcinoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.324",
+        "y0": "0.502",
+        "x1": "0.591",
+        "y1": "0.932",
+        "size": "801x968@300dpi",
+        "note": "",
+        "png_sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3764",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d410498a62efd83bc657",
+          "asset": "assets/display/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.webp",
+          "zoom_asset": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              801,
+              968
+            ]
+          },
+          "output_dimensions": [
+            801,
+            968
+          ],
+          "display_sha256": "b12466d5c4a3bdd301981d0e5550f4c20f6da825479f458766af0544b4f303e7",
+          "zoom_sha256": "64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Single file stromal cell arrangement",
+          "full_image_required": true,
+          "conditions": "Keep in the separate Boards and Beyond bank."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Single-file stromal infiltration in breast tissue",
+          "variant_id": "v-d410498a62efd83bc657",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c",
+      "source_id": "s-ffcd6787536ab1c42240",
+      "source_group_id": "g-907c34727f18b00eb2ee",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Phyllodes tumor - Histology.png",
+      "sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c",
+      "perceptual_hash": "a342b55fd8158bf1",
+      "dimensions": [
+        1163,
+        871
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Phyllodes Tumor",
+      "original_asset": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+      "display_asset": "assets/display/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 532
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "532",
+        "file": "Phyllodes tumor - Histology.png",
+        "slide_title": "Phyllodes Tumor",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.517",
+        "y0": "0.323",
+        "x1": "0.905",
+        "y1": "0.71",
+        "size": "1163x871@300dpi",
+        "note": "",
+        "png_sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3597",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-75ec3aa33ca773474211",
+          "asset": "assets/display/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.webp",
+          "zoom_asset": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1163,
+              871
+            ]
+          },
+          "output_dimensions": [
+            1163,
+            871
+          ],
+          "display_sha256": "54d274f5ba028a2efa6de045dc7dfa1e9c607fb26d7ad4b475130017c0fbe58e",
+          "zoom_sha256": "b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Leaflike stromal architecture",
+          "full_image_required": true,
+          "conditions": "Do not infer tumor grade from this architecture alone."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Leaflike architecture in a breast stromal lesion",
+          "variant_id": "v-75ec3aa33ca773474211",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02",
+      "source_id": "s-1b5bb660762c5fbea52d",
+      "source_group_id": "g-f522e17227fb3b9e5e26",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Single umbilical artery cord cross section - Histology.png",
+      "sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02",
+      "perceptual_hash": "f623ed8d4d2306df",
+      "dimensions": [
+        897,
+        889
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Single Umbilical Artery",
+      "original_asset": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+      "display_asset": "assets/display/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 222
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "222",
+        "file": "Single umbilical artery cord cross section - Histology.png",
+        "slide_title": "Single Umbilical Artery",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.51",
+        "y0": "0.479",
+        "x1": "0.808",
+        "y1": "0.874",
+        "size": "897x889@300dpi",
+        "note": "",
+        "png_sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 1559",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-28759e20054e25c7e853",
+          "asset": "assets/display/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.webp",
+          "zoom_asset": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              897,
+              889
+            ]
+          },
+          "output_dimensions": [
+            897,
+            889
+          ],
+          "display_sha256": "9eacda248e138f059645d147637ed0ce8c7b8fc7d3a473c39d9ca31bc1f2717b",
+          "zoom_sha256": "f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Two vascular lumina in a cord cross section",
+          "full_image_required": true,
+          "conditions": "The source supports a single umbilical artery example. Preserve the complete cord cross section."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Vessel count in a complete umbilical cord section",
+          "variant_id": "v-28759e20054e25c7e853",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40",
+      "source_id": "s-d8e97e2d467c4f195296",
+      "source_group_id": "g-e7a53b5e4fbd0a9559b9",
+      "lecture_id": "Boards and Beyond Slides",
+      "relative_path": "3rd Party/Boards and Beyond Slides/Struma ovarii - Histology.png",
+      "sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40",
+      "perceptual_hash": "c17fd4dad11704dd",
+      "dimensions": [
+        1137,
+        756
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Struma Ovarii",
+      "original_asset": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+      "display_asset": "assets/display/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.webp",
+      "source_origin": "third_party",
+      "source_citation": {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 489
+      },
+      "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "current_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": "489",
+        "file": "Struma ovarii - Histology.png",
+        "slide_title": "Struma Ovarii",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.459",
+        "y0": "0.556",
+        "x1": "0.838",
+        "y1": "0.892",
+        "size": "1137x756@300dpi",
+        "note": "",
+        "png_sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40",
+        "pdf_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+        "extracted_name": "xref 3316",
+        "lecture_category": "Third Party"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c0150ff625250671f482",
+          "asset": "assets/display/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.webp",
+          "zoom_asset": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1137,
+              756
+            ]
+          },
+          "output_dimensions": [
+            1137,
+            756
+          ],
+          "display_sha256": "cafa1195a0e066875fe8e174376abc1ff8a5fd56cf1789a91e7c0a61d2b33bdd",
+          "zoom_sha256": "54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Thyroid follicles and colloid in ovarian context",
+          "full_image_required": true,
+          "conditions": "Preserve source-supported ovarian context if asking for the tumor identity."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Colloid-filled thyroid follicles in an ovarian lesion",
+          "variant_id": "v-c0150ff625250671f482",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39",
       "source_id": "s-c00307597f84470ea8e0",
       "source_group_id": "g-0f84b72b224950232653",
@@ -1080,6 +1550,312 @@
           "type": "Visual interpretation",
           "target": "Endometrial layer preservation",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "lecture_id": "R1",
+      "relative_path": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+      "sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+      "perceptual_hash": "d687b2de09392977",
+      "dimensions": [
+        4722,
+        3415
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Two Cell Two Gonadotropin Hypothesis",
+      "original_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "display_asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "current_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R1 Female Physiology RLS.pdf",
+        "page": "22",
+        "file": "Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+        "slide_title": "Two Cell Two Gonadotropin Hypothesis",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.07",
+        "y0": "0.18",
+        "x1": "0.9",
+        "y1": "0.98",
+        "size": "4722x3415@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+        "pdf_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "LH",
+          "box": [
+            89,
+            306,
+            317,
+            503
+          ]
+        },
+        {
+          "text": "Theca",
+          "box": [
+            1029,
+            238,
+            1523,
+            435
+          ]
+        },
+        {
+          "text": "Cell",
+          "box": [
+            1123,
+            455,
+            1429,
+            651
+          ]
+        },
+        {
+          "text": "Granulosa Cell",
+          "box": [
+            2581,
+            1013,
+            3683,
+            1201
+          ]
+        },
+        {
+          "text": "androstenedione",
+          "box": [
+            1867,
+            407,
+            2862,
+            554
+          ]
+        },
+        {
+          "text": "Blood   Vessel",
+          "box": [
+            1772,
+            2922,
+            2837,
+            3110
+          ]
+        },
+        {
+          "text": "Aromatase converts androstenedione to estrone",
+          "box": [
+            1707,
+            1297,
+            4555,
+            1445
+          ]
+        },
+        {
+          "text": "17 b -HSD converts estrone to estradiol",
+          "box": [
+            2000,
+            1635,
+            4258,
+            1796
+          ]
+        },
+        {
+          "text": "17 b -HSD converts androstenedione to testosterone",
+          "box": [
+            1611,
+            1975,
+            4647,
+            2136
+          ]
+        },
+        {
+          "text": "Aromatase converts testosterone to estradiol",
+          "box": [
+            1807,
+            2148,
+            4450,
+            2295
+          ]
+        },
+        {
+          "text": "estradiol",
+          "box": [
+            3186,
+            2488,
+            3691,
+            2636
+          ]
+        },
+        {
+          "text": "FSH",
+          "box": [
+            4276,
+            306,
+            4631,
+            503
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-067fb173adc9f3d39740",
+          "asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+          "zoom_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              4722,
+              3415
+            ]
+          },
+          "output_dimensions": [
+            4722,
+            3415
+          ],
+          "display_sha256": "0039cad7f697f280a404539822a8041ba26046a6e386811c8fd20b16989eeda8",
+          "zoom_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Theca and granulosa cell cooperation",
+          "full_image_required": true,
+          "conditions": "Select one visual pathway target. Mask only a revealing label in safe diagram space and preserve transport arrows."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Androstenedione transfer between ovarian cells",
+          "variant_id": "v-067fb173adc9f3d39740",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Branched LH signal in the two cell diagram",
+          "variant_id": "v-067fb173adc9f3d39740",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f",
+      "source_id": "s-68fbb7b8a93b707536af",
+      "source_group_id": "g-7c1ff843e62473c8899c",
+      "lecture_id": "R10",
+      "relative_path": "R10/Bacterial Vaginosis Pap Smear - Histology.png",
+      "sha256": "c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f",
+      "perceptual_hash": "d7d903192d693ae7",
+      "dimensions": [
+        1667,
+        1108
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Bacterial Vaginosis Pap Smear",
+      "original_asset": "assets/originals/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.png",
+      "display_asset": "assets/display/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 20
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "20",
+        "file": "Bacterial Vaginosis Pap Smear - Histology.png",
+        "slide_title": "Bacterial Vaginosis Pap Smear",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.075",
+        "y0": "0.293",
+        "x1": "0.582",
+        "y1": "0.733",
+        "size": "1667x1108@300dpi",
+        "note": "",
+        "png_sha256": "c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "CANDIDA IN TISSUE BIOPSIES - Diagram (5).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-6a9d4ffa796749539279",
+          "asset": "assets/display/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.webp",
+          "zoom_asset": "assets/originals/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1667,
+              1108
+            ]
+          },
+          "output_dimensions": [
+            1667,
+            1108
+          ],
+          "display_sha256": "0a5141b0447fa8fb45563f966cd44b8db8d0c48043affd8242f529d1dab7e7ba",
+          "zoom_sha256": "c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Bacterial coating of a clue cell",
+          "full_image_required": true,
+          "conditions": "Use the visible dense bacterial coating. Do not infer a clinical diagnosis from unsupported symptoms."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Bacterial coating of squamous cells",
+          "variant_id": "v-6a9d4ffa796749539279",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -1156,6 +1932,206 @@
       ]
     },
     {
+      "asset_id": "a-82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457",
+      "source_id": "s-e7980b5adfc54b356536",
+      "source_group_id": "g-38a2fc6c9b3311fd9ff1",
+      "lecture_id": "R10",
+      "relative_path": "R10/Candida in Tissue Biopsy - Histology.png",
+      "sha256": "82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457",
+      "perceptual_hash": "2cd3b4ab03c58fa9",
+      "dimensions": [
+        1574,
+        1260
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Candida in Tissue Biopsy",
+      "original_asset": "assets/originals/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.png",
+      "display_asset": "assets/display/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 12
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "12",
+        "file": "Candida in Tissue Biopsy - Histology.png",
+        "slide_title": "Candida in Tissue Biopsy",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.046",
+        "y0": "0.223",
+        "x1": "0.524",
+        "y1": "0.719",
+        "size": "1574x1260@300dpi",
+        "note": "",
+        "png_sha256": "82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "CANDIDA IN TISSUE BIOPSIES - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-67f1b46a8c1a33456c5b",
+          "asset": "assets/display/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.webp",
+          "zoom_asset": "assets/originals/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1574,
+              1260
+            ]
+          },
+          "output_dimensions": [
+            1574,
+            1260
+          ],
+          "display_sha256": "e8f9dc288522029c1aae18762c1003bef2b4f54f80cfb584750ea3acf6450372",
+          "zoom_sha256": "82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fungal elements in superficial keratin",
+          "full_image_required": true,
+          "conditions": "Source identifies the PAS preparation. Distinguish this tissue pattern from the existing Candida Pap smear question."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fungal elements within superficial keratin",
+          "variant_id": "v-67f1b46a8c1a33456c5b",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
+      "source_id": "s-d12868828175c3acc621",
+      "source_group_id": "g-d704173017ca63e782d3",
+      "lecture_id": "R10",
+      "relative_path": "R10/Condyloma Exophytic Papillary Architecture - Histology.png",
+      "sha256": "d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
+      "perceptual_hash": "064d63a753a3e955",
+      "dimensions": [
+        803,
+        600
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Condyloma Exophytic Papillary Architecture",
+      "original_asset": "assets/originals/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.png",
+      "display_asset": "assets/display/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 47
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "47",
+        "file": "Condyloma Exophytic Papillary Architecture - Histology.png",
+        "slide_title": "Condyloma Exophytic Papillary Architecture",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.488",
+        "y0": "0.268",
+        "x1": "0.731",
+        "y1": "0.504",
+        "size": "803x600@300dpi",
+        "note": "small unlabeled clip art, no testable content",
+        "png_sha256": "d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "_Not for quiz/BARTHOLIN CYST - Diagram (5).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-70654741a75cdd57c8c8",
+          "asset": "assets/display/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.webp",
+          "zoom_asset": "assets/zoom/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.png",
+          "transform": {
+            "type": "isolate_complete_panel",
+            "crop_pixels": [
+              8,
+              4,
+              795,
+              592
+            ],
+            "reason": "Remove only outside padding and the thin unrelated adjacent-panel strip. Preserve the complete main histology panel.",
+            "crop_normalized": [
+              0.0099626401,
+              0.0066666667,
+              0.9900373599,
+              0.9866666667
+            ],
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              803,
+              600
+            ]
+          },
+          "output_dimensions": [
+            787,
+            588
+          ],
+          "display_sha256": "629489cbdd864753a1e200204de801d3c35f4c896baef182c3dfaa5b9227a2b1",
+          "zoom_sha256": "302fa2d67bc0403918e332e231887bbe15c02f8a3b5b3a35b6845ebbded0a97f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Exophytic papillary squamous architecture",
+          "full_image_required": true,
+          "conditions": "Trim only the thin adjacent panel strip at the right edge. Preserve the complete main histology panel. The old clip art note does not describe this figure accurately."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Exophytic squamous papillary architecture",
+          "variant_id": "v-70654741a75cdd57c8c8",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313",
       "source_id": "s-e2746f85a31dbe9904de",
       "source_group_id": "g-36b149d256c5fa6f7f7f",
@@ -1224,6 +2200,194 @@
           "type": "Visual interpretation",
           "target": "Herpetic multinucleation and molding",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd",
+      "source_id": "s-d3793453f669cb1d17e8",
+      "source_group_id": "g-890b68d1e9b7e418b806",
+      "lecture_id": "R10",
+      "relative_path": "R10/Squamous Hyperplasia - Histology.png",
+      "sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd",
+      "perceptual_hash": "c2a9db195b09d555",
+      "dimensions": [
+        1231,
+        888
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Squamous Hyperplasia",
+      "original_asset": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+      "display_asset": "assets/display/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 43
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "43",
+        "file": "Squamous Hyperplasia - Histology.png",
+        "slide_title": "Squamous Hyperplasia",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.602",
+        "y0": "0.176",
+        "x1": "0.975",
+        "y1": "0.524",
+        "size": "1231x888@300dpi",
+        "note": "",
+        "png_sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "BARTHOLIN CYST - Histology (4).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-50db3cfa435d98e23dca",
+          "asset": "assets/display/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.webp",
+          "zoom_asset": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1231,
+              888
+            ]
+          },
+          "output_dimensions": [
+            1231,
+            888
+          ],
+          "display_sha256": "afea97d02e8fe0f0aeaa3d325585c6d485e77a9b5c72e454b08da8af436afcdb",
+          "zoom_sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Squamous epithelial thickening and rete ridges",
+          "full_image_required": true,
+          "conditions": "Use the visible epithelial architecture."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Acanthosis in squamous hyperplasia",
+          "variant_id": "v-50db3cfa435d98e23dca",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564",
+      "source_id": "s-f6c5fed871e6e30bdd0d",
+      "source_group_id": "g-7ade377f2b7993da38ab",
+      "lecture_id": "R10",
+      "relative_path": "R10/Trichomonas vaginalis Morphology - Histology.png",
+      "sha256": "e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564",
+      "perceptual_hash": "24336373f6c91967",
+      "dimensions": [
+        932,
+        1283
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Trichomonas vaginalis Morphology",
+      "original_asset": "assets/originals/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.png",
+      "display_asset": "assets/display/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "25",
+        "file": "Trichomonas vaginalis Morphology - Histology.png",
+        "slide_title": "Trichomonas vaginalis Morphology",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.654",
+        "y0": "0.294",
+        "x1": "0.938",
+        "y1": "0.799",
+        "size": "932x1283@300dpi",
+        "note": "",
+        "png_sha256": "e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "Trichomonas vaginalis - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ade80d540549f41ed564",
+          "asset": "assets/display/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.webp",
+          "zoom_asset": "assets/originals/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              932,
+              1283
+            ]
+          },
+          "output_dimensions": [
+            932,
+            1283
+          ],
+          "display_sha256": "e899b64385b23e313a62d2476774b3692a4ee0242cd43ebfb81dad29e96a8c3e",
+          "zoom_sha256": "e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Trichomonas organism morphology",
+          "full_image_required": true,
+          "conditions": "Keep both organism profiles together if referenced. A still image cannot establish motility."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Trichomonas profiles with flagellar extensions",
+          "variant_id": "v-ade80d540549f41ed564",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -1300,6 +2464,100 @@
       ]
     },
     {
+      "asset_id": "a-fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f",
+      "source_id": "s-18e8d9096c2d2b10aa56",
+      "source_group_id": "g-c729792c7c7dd5ab1f6a",
+      "lecture_id": "R10",
+      "relative_path": "R10/Vulvar Paget Cells - Histology.png",
+      "sha256": "fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f",
+      "perceptual_hash": "23818b2f678dd563",
+      "dimensions": [
+        1004,
+        675
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Vulvar Paget Cells",
+      "original_asset": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+      "display_asset": "assets/display/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 53
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "53",
+        "file": "Vulvar Paget Cells - Histology.png",
+        "slide_title": "Vulvar Paget Cells",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.301",
+        "y0": "0.475",
+        "x1": "0.605",
+        "y1": "0.739",
+        "size": "1004x675@300dpi",
+        "note": "",
+        "png_sha256": "fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "Vulvar Paget Disease - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ad3db49ed6bcb257b619",
+          "asset": "assets/display/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.webp",
+          "zoom_asset": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1004,
+              675
+            ]
+          },
+          "output_dimensions": [
+            1004,
+            675
+          ],
+          "display_sha256": "19004e6aaf152051bfefe0c8fd07e0660564eb8e681b9a0e6f8b169095b4d15c",
+          "zoom_sha256": "fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Pale atypical intraepidermal cells",
+          "full_image_required": true,
+          "conditions": "Test the visible cells and compartment. Do not claim a mucin stain that is not shown."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Pale atypical cells in the epidermis",
+          "variant_id": "v-ad3db49ed6bcb257b619",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027",
       "source_id": "s-4fb4e8925cc77acafd44",
       "source_group_id": "g-9c21eabf7d7177f5b816",
@@ -1372,6 +2630,206 @@
       ]
     },
     {
+      "asset_id": "a-481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836",
+      "source_id": "s-993a4a76db6059ca4497",
+      "source_group_id": "g-5d95de5b116ba73f0ea1",
+      "lecture_id": "R12",
+      "relative_path": "R12/Clear Cell Carcinoma Hobnail Cells - Histology.png",
+      "sha256": "481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836",
+      "perceptual_hash": "0ca7ac6d88997d9b",
+      "dimensions": [
+        1853,
+        1393
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Clear Cell Carcinoma Hobnail Cells",
+      "original_asset": "assets/originals/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.png",
+      "display_asset": "assets/display/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 84
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "84",
+        "file": "Clear Cell Carcinoma Hobnail Cells - Histology.png",
+        "slide_title": "Clear Cell Carcinoma Hobnail Cells",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.414",
+        "y0": "0.242",
+        "x1": "0.975",
+        "y1": "0.788",
+        "size": "1853x1393@300dpi",
+        "note": "",
+        "png_sha256": "481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Ovarian Clear Cell Carcinoma - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-cc9bb4daba10698c0a0d",
+          "asset": "assets/display/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.webp",
+          "zoom_asset": "assets/originals/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1853,
+              1393
+            ]
+          },
+          "output_dimensions": [
+            1853,
+            1393
+          ],
+          "display_sha256": "0116de3f9fe769cdc0863d5304f490be3a7b92ff40edae18b5cf191c0f74b39e",
+          "zoom_sha256": "481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Hobnail epithelial morphology",
+          "full_image_required": true,
+          "conditions": "Use the protrusion of nuclei into glandular lumina."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Hobnail cell morphology",
+          "variant_id": "v-cc9bb4daba10698c0a0d",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208",
+      "source_id": "s-46267dac97652c1979f8",
+      "source_group_id": "g-5d2e421a1fb02781e20a",
+      "lecture_id": "R12",
+      "relative_path": "R12/Endometriosis - Histology.png",
+      "sha256": "2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208",
+      "perceptual_hash": "978f990437b1c9cd",
+      "dimensions": [
+        1361,
+        1063
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Endometriosis",
+      "original_asset": "assets/originals/2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208.png",
+      "display_asset": "assets/display/2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 59
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "59",
+        "file": "Endometriosis - Histology.png",
+        "slide_title": "Endometriosis",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.557",
+        "y0": "0.334",
+        "x1": "0.969",
+        "y1": "0.751",
+        "size": "1361x1063@300dpi",
+        "note": "",
+        "png_sha256": "2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "UTERINE SMOOTH MUSCLE TUMORS ENDOMETRIOSIS - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-f5dd2e88e4dc231c043a",
+          "asset": "assets/display/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.webp",
+          "zoom_asset": "assets/zoom/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.png",
+          "transform": {
+            "type": "trim_outside_caption_fragment",
+            "crop_pixels": [
+              0,
+              7,
+              1361,
+              1063
+            ],
+            "reason": "Remove the seven-pixel top margin containing a clipped outside slide letter. Preserve the complete histology panel beginning below the white margin.",
+            "crop_normalized": [
+              0.0,
+              0.0065851364,
+              1.0,
+              1.0
+            ],
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1361,
+              1063
+            ]
+          },
+          "output_dimensions": [
+            1361,
+            1056
+          ],
+          "display_sha256": "2b1dcc2a0007a846911821a49764ef767df6d2c99398396b0a4dc557be845ae2",
+          "zoom_sha256": "3d41daa0f1e9fe52d88c2af1557d3d2a4e8aa18e2fac8d0d6efe7a471c9a1414"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Endometrial glands with stroma and hemorrhage",
+          "full_image_required": true,
+          "conditions": "Use a morphology target or source-supported extrauterine context. Do not distinguish endometriosis from adenomyosis using gland morphology alone."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Endometrial gland stroma and hemorrhage",
+          "variant_id": "v-f5dd2e88e4dc231c043a",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79",
       "source_id": "s-942d79c22486729c346e",
       "source_group_id": "g-a1ae8c257ad3c97df2ab",
@@ -1440,6 +2898,100 @@
           "type": "Visual interpretation",
           "target": "Call-Exner bodies",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2",
+      "source_id": "s-805d330947df150af768",
+      "source_group_id": "g-f30c2ea8a0264605648c",
+      "lecture_id": "R12",
+      "relative_path": "R12/Invasive SCC Cervix - Histology.png",
+      "sha256": "48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2",
+      "perceptual_hash": "c926c7f4946479e3",
+      "dimensions": [
+        1190,
+        786
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Invasive SCC Cervix",
+      "original_asset": "assets/originals/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.png",
+      "display_asset": "assets/display/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 28
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "28",
+        "file": "Invasive SCC Cervix - Histology.png",
+        "slide_title": "Invasive SCC Cervix",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.049",
+        "y0": "0.549",
+        "x1": "0.41",
+        "y1": "0.858",
+        "size": "1190x786@300dpi",
+        "note": "",
+        "png_sha256": "48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "UTERINE CERVIX INVASIVE SQUAMOUS CELL CARCINOMA - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-fc92498c66e51c23ce95",
+          "asset": "assets/display/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.webp",
+          "zoom_asset": "assets/originals/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1190,
+              786
+            ]
+          },
+          "output_dimensions": [
+            1190,
+            786
+          ],
+          "display_sha256": "94a8a759053f5a8b938cb3c264dbd42c7cd549e9079b3997d768516b4dc69b7c",
+          "zoom_sha256": "48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Keratin pearl in cervical squamous carcinoma",
+          "full_image_required": true,
+          "conditions": "Shares the keratin pearl target with candidate 732. Select the stronger image or genuinely different task rather than counting recrops as separate concepts."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Keratin pearls in a cervical squamous lesion",
+          "variant_id": "v-fc92498c66e51c23ce95",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -1706,20 +3258,42 @@
         "extracted_name": "",
         "lecture_category": "Primary"
       },
-      "leak_regions": [],
+      "leak_regions": [
+        [
+          0.6,
+          0.075,
+          0.99,
+          0.145
+        ]
+      ],
       "variants": [
         {
-          "variant_id": "v-d7004596b6079d2732c0",
-          "asset": "assets/display/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.webp",
+          "variant_id": "v-11d0e8a2e26330e06509",
+          "asset": "assets/display/cf9148084d9d6dfa1c5c2e581ed5f4f74094b52dc8d95f3b947269b4d2d4e377.webp",
+          "zoom_asset": "assets/zoom/cf9148084d9d6dfa1c5c2e581ed5f4f74094b52dc8d95f3b947269b4d2d4e377.png",
           "transform": {
-            "type": "display_resize",
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.6,
+                0.075,
+                0.99,
+                0.145
+              ]
+            ],
+            "reason": "Hide only the directly revealing structure name in blank annotation space. Preserve anatomy, source crosses, hormone labels and pathway arrows.",
             "coordinate_basis": "immutable teaching original",
             "input_dimensions": [
               1440,
               1807
-            ],
-            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
-          }
+            ]
+          },
+          "output_dimensions": [
+            1440,
+            1807
+          ],
+          "display_sha256": "b3ca6881c11ab57e2c09282fd8a2523a387022ffc97a57eb4fa905722108cc7e",
+          "zoom_sha256": "72681385928d33baff4628b4892039b66cb2a18f7b3e65b91915e4d0dfd4f16e"
         }
       ],
       "question_type_matrix": [
@@ -1778,20 +3352,78 @@
         "extracted_name": "",
         "lecture_category": "Primary"
       },
-      "leak_regions": [],
+      "leak_regions": [
+        [
+          0.025,
+          0.735,
+          0.145,
+          0.77
+        ],
+        [
+          0.025,
+          0.773,
+          0.176,
+          0.815
+        ],
+        [
+          0.45,
+          0.735,
+          0.61,
+          0.817
+        ],
+        [
+          0.69,
+          0.754,
+          0.94,
+          0.817
+        ]
+      ],
       "variants": [
         {
-          "variant_id": "v-030cdc58925353faa0a9",
-          "asset": "assets/display/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.webp",
+          "variant_id": "v-011b2c99e2c849f72c28",
+          "asset": "assets/display/e5fe8bb2bae482c8d8e304c6d2307efb1761ff23d9b0b97e5d9be60b87dab520.webp",
+          "zoom_asset": "assets/zoom/e5fe8bb2bae482c8d8e304c6d2307efb1761ff23d9b0b97e5d9be60b87dab520.png",
           "transform": {
-            "type": "display_resize",
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.025,
+                0.735,
+                0.145,
+                0.77
+              ],
+              [
+                0.025,
+                0.773,
+                0.176,
+                0.815
+              ],
+              [
+                0.45,
+                0.735,
+                0.61,
+                0.817
+              ],
+              [
+                0.69,
+                0.754,
+                0.94,
+                0.817
+              ]
+            ],
+            "reason": "Hide only the directly revealing structure name in blank annotation space. Preserve anatomy, source crosses, hormone labels and pathway arrows.",
             "coordinate_basis": "immutable teaching original",
             "input_dimensions": [
               1473,
               1851
-            ],
-            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
-          }
+            ]
+          },
+          "output_dimensions": [
+            1473,
+            1851
+          ],
+          "display_sha256": "a5583ee6b30c6ff27b1ba5beb00e6752b512bca141e01bb7120c0e95cd845398",
+          "zoom_sha256": "cb37412df94e66fc48b9305fbe3392be11ce2c76d9b0376bcf6ceac94cfadd57"
         }
       ],
       "question_type_matrix": [
@@ -2020,6 +3652,110 @@
       ]
     },
     {
+      "asset_id": "a-379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+      "source_id": "s-ade393e39a021284e7de",
+      "source_group_id": "g-fd5d52a09d789cc75793",
+      "lecture_id": "R2",
+      "relative_path": "R2/Mechanism of Penile Erection - Diagram.png",
+      "sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+      "perceptual_hash": "5a1e1e49c99b3c57",
+      "dimensions": [
+        2552,
+        2312
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Mechanism of Penile Erection",
+      "original_asset": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+      "display_asset": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "18",
+        "file": "Mechanism of Penile Erection - Diagram.png",
+        "slide_title": "Mechanism of Penile Erection",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.41",
+        "y0": "0.2",
+        "x1": "0.99",
+        "y1": "0.88",
+        "size": "2552x2312@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "18",
+          "box": [
+            2287,
+            2120,
+            2343,
+            2175
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-c494d36dd43a08fa60f2",
+          "asset": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+          "zoom_asset": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2552,
+              2312
+            ]
+          },
+          "output_dimensions": [
+            2552,
+            2312
+          ],
+          "display_sha256": "8a202a133f85bf0a6034a86ae71abad09ca428ddaf5b65abebd4c2f37697e023",
+          "zoom_sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "NO and cGMP erection pathway",
+          "full_image_required": true,
+          "conditions": "Select one pathway step and remove its direct answer label without covering arrows."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "PDE inhibitor location in the erection pathway",
+          "variant_id": "v-c494d36dd43a08fa60f2",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659",
       "source_id": "s-4f8605f40c0606074905",
       "source_group_id": "g-4419f99d91fa111aff78",
@@ -2125,6 +3861,353 @@
           "type": "Visual interpretation",
           "target": "Fetal testosterone without spermatogenesis",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
+      "source_id": "s-acab2b86147928f44556",
+      "source_group_id": "g-19013451b0d65c2c10c0",
+      "lecture_id": "R2",
+      "relative_path": "R2/Spermatogenesis Germ Cell Stages - Diagram.png",
+      "sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
+      "perceptual_hash": "07e57c39d0c31e5d",
+      "dimensions": [
+        3344,
+        952
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Spermatogenesis Germ Cell Stages",
+      "original_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+      "display_asset": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "8",
+        "file": "Spermatogenesis Germ Cell Stages - Diagram.png",
+        "slide_title": "Spermatogenesis Germ Cell Stages",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.56",
+        "x1": "0.76",
+        "y1": "0.84",
+        "size": "3344x952@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "1N",
+          "box": [
+            1295,
+            686,
+            1362,
+            759
+          ]
+        },
+        {
+          "text": "Spermatogonium",
+          "box": [
+            51,
+            420,
+            543,
+            491
+          ]
+        },
+        {
+          "text": "( diploid )",
+          "box": [
+            185,
+            505,
+            410,
+            576
+          ]
+        },
+        {
+          "text": "Primary",
+          "box": [
+            692,
+            295,
+            932,
+            366
+          ]
+        },
+        {
+          "text": "Spermatocyte",
+          "box": [
+            692,
+            379,
+            1092,
+            450
+          ]
+        },
+        {
+          "text": "Spermatids",
+          "box": [
+            1671,
+            35,
+            1995,
+            106
+          ]
+        },
+        {
+          "text": "( immature\u00a0haploid\u00a0gametes )",
+          "box": [
+            1671,
+            120,
+            2445,
+            191
+          ]
+        },
+        {
+          "text": "Secondary",
+          "box": [
+            1162,
+            142,
+            1477,
+            213
+          ]
+        },
+        {
+          "text": "Spermatocyte",
+          "box": [
+            1162,
+            226,
+            1561,
+            297
+          ]
+        },
+        {
+          "text": "2N",
+          "box": [
+            323,
+            646,
+            391,
+            720
+          ]
+        },
+        {
+          "text": "2N",
+          "box": [
+            800,
+            524,
+            867,
+            598
+          ]
+        },
+        {
+          "text": "meiosis\u00a0I",
+          "box": [
+            1058,
+            518,
+            1313,
+            589
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1295,
+            363,
+            1362,
+            437
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1766,
+            442,
+            1833,
+            516
+          ]
+        },
+        {
+          "text": "meiosis\u00a0II",
+          "box": [
+            1444,
+            523,
+            1716,
+            594
+          ]
+        },
+        {
+          "text": "Spermatozoa",
+          "box": [
+            2532,
+            36,
+            2914,
+            107
+          ]
+        },
+        {
+          "text": "(mature\u00a0haploid\u00a0gametes)",
+          "box": [
+            2532,
+            120,
+            3220,
+            184
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2424,
+            779,
+            2491,
+            853
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2430,
+            599,
+            2498,
+            672
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2430,
+            418,
+            2498,
+            492
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2430,
+            238,
+            2498,
+            312
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1769,
+            266,
+            1836,
+            340
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1763,
+            618,
+            1831,
+            692
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1763,
+            794,
+            1831,
+            867
+          ]
+        },
+        {
+          "text": "2N",
+          "box": [
+            800,
+            763,
+            867,
+            837
+          ]
+        },
+        {
+          "text": "mitosis",
+          "box": [
+            542,
+            644,
+            754,
+            715
+          ]
+        },
+        {
+          "text": "spermiogenesis",
+          "box": [
+            1944,
+            541,
+            2402,
+            612
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-2b286242ac38526c2a58",
+          "asset": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+          "zoom_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3344,
+              952
+            ]
+          },
+          "output_dimensions": [
+            3344,
+            952
+          ],
+          "display_sha256": "240f2f19366966c9b7c60d8e24792e245544609747bffe2df40a26fbf31eea31",
+          "zoom_sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Spermatogenesis stage relationships",
+          "full_image_required": true,
+          "conditions": "Preserve the complete branching sequence and ploidy cues. Hide only the tested stage label."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Chromosome set reduction in spermatogenesis",
+          "variant_id": "v-2b286242ac38526c2a58",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Cell number and ploidy during spermiogenesis",
+          "variant_id": "v-2b286242ac38526c2a58",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -2489,6 +4572,347 @@
       ]
     },
     {
+      "asset_id": "a-00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "lecture_id": "R5",
+      "relative_path": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+      "perceptual_hash": "55332d31db79091f",
+      "dimensions": [
+        1573,
+        1100
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Maternal Placental Fetal Unit",
+      "original_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "display_asset": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": "15",
+        "file": "Maternal Placental Fetal Unit - Diagram.png",
+        "slide_title": "Maternal Placental Fetal Unit",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.266",
+        "y0": "0.189",
+        "x1": "0.75",
+        "y1": "0.641",
+        "size": "1573x1100@300dpi",
+        "note": "",
+        "png_sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+        "pdf_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+        "extracted_name": "RLS Slide 15 - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-fd8f78fd0008a8edcacf",
+          "asset": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+          "zoom_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1573,
+              1100
+            ]
+          },
+          "output_dimensions": [
+            1573,
+            1100
+          ],
+          "display_sha256": "b4b223c3745a7efc3475086c63c76eecb51b423e95f52179a10d889b38cc3680",
+          "zoom_sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0"
+        },
+        {
+          "variant_id": "v-2bd51742da1ef6bd9774",
+          "asset": "assets/display/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.webp",
+          "zoom_asset": "assets/zoom/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0,
+                0.244,
+                0.211,
+                0.289
+              ],
+              [
+                0,
+                0.289,
+                0.237,
+                0.334
+              ],
+              [
+                0,
+                0.334,
+                0.09,
+                0.378
+              ]
+            ],
+            "reason": "Hide the target annotation only, preserving villi, fetal vessels, maternal inlet, and label leader.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1573,
+              1100
+            ]
+          },
+          "output_dimensions": [
+            1573,
+            1100
+          ],
+          "display_sha256": "2def7b81245157aebbd122a6d6bd0e106ea215e424c8cb2acb2530a75d9c8f86",
+          "zoom_sha256": "d6be096b9da29c4f94fccf0d90763af3bf9e1c83c3c65ae10e17705076d94d75"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Maternal and fetal placental circulation",
+          "full_image_required": true,
+          "conditions": "Preserve the complete maternal and fetal compartments and flow arrows. Hide only the target label."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Maternal blood compartment around chorionic villi",
+          "variant_id": "v-2bd51742da1ef6bd9774",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Placental vessel returning toward the fetus",
+          "variant_id": "v-fd8f78fd0008a8edcacf",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "lecture_id": "R7",
+      "relative_path": "R7/Fetal Circulation - Diagram.png",
+      "sha256": "cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "perceptual_hash": "e493c33913e38ecd",
+      "dimensions": [
+        2728,
+        2414
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Fetal Circulation",
+      "original_asset": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "display_asset": "assets/display/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "5",
+        "file": "Fetal Circulation - Diagram.png",
+        "slide_title": "Fetal Circulation",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.15",
+        "x1": "0.62",
+        "y1": "0.86",
+        "size": "2728x2414@400dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "(PO 2  55-60% O 2  )",
+          "box": [
+            2245,
+            1694,
+            2690,
+            1774
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-19c25195991ebbee1800",
+          "asset": "assets/display/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.webp",
+          "zoom_asset": "assets/zoom/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.12,
+                0.232,
+                0.21,
+                0.257
+              ],
+              [
+                0.13,
+                0.257,
+                0.191,
+                0.278
+              ]
+            ],
+            "reason": "Hide only the foramen ovale text. Preserve the leader, atrial septum, and all other labels.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2728,
+              2414
+            ]
+          },
+          "output_dimensions": [
+            2728,
+            2414
+          ],
+          "display_sha256": "8481fb4dfcaa0169de3d9560c131544a78310e711cf7a7f42e2ffdf0643f6752",
+          "zoom_sha256": "c6c7bd005ae7ed41e229ade4c982440d9b08825510884655d89e9b43443854bd"
+        },
+        {
+          "variant_id": "v-f52242e8ab352d22adfb",
+          "asset": "assets/display/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.webp",
+          "zoom_asset": "assets/zoom/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.595,
+                0.487,
+                0.752,
+                0.513
+              ]
+            ],
+            "reason": "Hide only the ductus venosus annotation in white space. Preserve the liver bypass channel and horizontal leader.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2728,
+              2414
+            ]
+          },
+          "output_dimensions": [
+            2728,
+            2414
+          ],
+          "display_sha256": "3dac8179eeacd3bc6d20baad9b6b8b4529bcfc84c21a8d8fb2879b354743ea40",
+          "zoom_sha256": "e9a1e3fb5da3fb0edfbe760a623850dd8382e2f4dcf83b412cf95f407c0666e6"
+        },
+        {
+          "variant_id": "v-4206821f037d89a276d3",
+          "asset": "assets/display/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.webp",
+          "zoom_asset": "assets/zoom/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.679,
+                0.128,
+                0.773,
+                0.154
+              ],
+              [
+                0.665,
+                0.154,
+                0.773,
+                0.182
+              ]
+            ],
+            "reason": "Hide only the ductus arteriosus annotation in white space. Preserve the diagonal leader and great-vessel connection.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2728,
+              2414
+            ]
+          },
+          "output_dimensions": [
+            2728,
+            2414
+          ],
+          "display_sha256": "72cec9ff5303cc5f6d5d2a4cce9a44386c36b70f697a351d3d2319e428abccee",
+          "zoom_sha256": "2c7f01c02f5a9bd33d27a546d5eedaca543c6db2f780d48c12d0017c18b03e1d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fetal circulation shunt localization",
+          "full_image_required": true,
+          "conditions": "Preserve connections, direction arrows, and legend. Hide only the tested shunt label."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Foramen ovale location",
+          "variant_id": "v-19c25195991ebbee1800",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Ductus arteriosus location",
+          "variant_id": "v-4206821f037d89a276d3",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Ductus venosus location",
+          "variant_id": "v-f52242e8ab352d22adfb",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-075385c286db6c30e5727f3413ef2dd62a3f95af395672577bc7f160c5142333",
       "source_id": "s-1aea6b2ec22c65f3e713",
       "source_group_id": "g-dd19844f28fd57697223",
@@ -2557,6 +4981,100 @@
           "type": "Visual interpretation",
           "target": "Pulmonary vascular resistance at birth",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+      "source_id": "s-505b29a9b47453eb2dd4",
+      "source_group_id": "g-0411737b8a59d7d69dc5",
+      "lecture_id": "R7",
+      "relative_path": "R7/UCP1 in Mitochondrial Membrane - Diagram.png",
+      "sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+      "perceptual_hash": "745a52adf0298fd7",
+      "dimensions": [
+        684,
+        535
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "UCP1 in Mitochondrial Membrane",
+      "original_asset": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+      "display_asset": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "13",
+        "file": "UCP1 in Mitochondrial Membrane - Diagram.png",
+        "slide_title": "UCP1 in Mitochondrial Membrane",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.076",
+        "y0": "0.424",
+        "x1": "0.285",
+        "y1": "0.655",
+        "size": "684x535@300dpi",
+        "note": "small unlabeled clip art, no testable content",
+        "png_sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "_Not for quiz/Non-shivering Thermogenesis (NST) via BAT stimulating pathway - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7e8cb9d44294d899b1e0",
+          "asset": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+          "zoom_asset": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              684,
+              535
+            ]
+          },
+          "output_dimensions": [
+            684,
+            535
+          ],
+          "display_sha256": "f4a1d4c96f1939e05a2aa4307b0f753f13739ea1ea6b012ddd88d625baef9c1d",
+          "zoom_sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "UCP1 proton return pathway",
+          "full_image_required": true,
+          "conditions": "The full diagram supports a proton return pathway target. Hide the revealing protein name if testing identification. The old clip art note does not describe this figure accurately."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Proton route bypassing ATP synthase",
+          "variant_id": "v-7e8cb9d44294d899b1e0",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -2777,6 +5295,100 @@
       ]
     },
     {
+      "asset_id": "a-32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a",
+      "source_id": "s-1c62c6893430d2562a39",
+      "source_group_id": "g-5b046db3d961b7ec1b15",
+      "lecture_id": "R9",
+      "relative_path": "R9/Normal vs Atrophic Seminiferous Tubules - Histology.png",
+      "sha256": "32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a",
+      "perceptual_hash": "bf346c4370b61943",
+      "dimensions": [
+        3723,
+        1330
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Normal vs Atrophic Seminiferous Tubules",
+      "original_asset": "assets/originals/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.png",
+      "display_asset": "assets/display/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R9 Reproductive Histology RLS.pdf",
+        "page": 39
+      },
+      "source_document_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+      "current_document_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R9 Reproductive Histology RLS.pdf",
+        "page": "39",
+        "file": "Normal vs Atrophic Seminiferous Tubules - Histology.png",
+        "slide_title": "Normal vs Atrophic Seminiferous Tubules",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.034",
+        "y0": "0.166",
+        "x1": "0.964",
+        "y1": "0.756",
+        "size": "3723x1330@300dpi",
+        "note": "",
+        "png_sha256": "32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a",
+        "pdf_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+        "extracted_name": "Power of observation Compare the histological appearance of a normal seminiferous tubule to that of a seminiferous - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-05801acab1e53a9f46f2",
+          "asset": "assets/display/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.webp",
+          "zoom_asset": "assets/originals/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3723,
+              1330
+            ]
+          },
+          "output_dimensions": [
+            3723,
+            1330
+          ],
+          "display_sha256": "538b104aad6adc24b212661abe680c475ec606e578eb4502d8305c420b68f9fc",
+          "zoom_sha256": "32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Normal versus depleted seminiferous epithelium",
+          "full_image_required": true,
+          "conditions": "Retain both panels and identify which panel is referenced."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Seminiferous epithelial depletion in paired panels",
+          "variant_id": "v-05801acab1e53a9f46f2",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4",
       "source_id": "s-bbbe6e7aa9ebdd17f6e1",
       "source_group_id": "g-22dc7fb864b26703a544",
@@ -2907,7 +5519,765 @@
           "full_image_required": true
         }
       ]
+    },
+    {
+      "asset_id": "a-130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101",
+      "source_id": "s-7a38590a71cadfd42816",
+      "source_group_id": "g-10b16cb9ccd089117529",
+      "lecture_id": "R15",
+      "relative_path": "R15/Collecting System Urothelium Histology - Histology (2).png",
+      "sha256": "130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101",
+      "perceptual_hash": "d219e7a6905937a1",
+      "dimensions": [
+        1551,
+        1030
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Collecting System (Renal Pelves, Ureter and Bladder)",
+      "original_asset": "assets/originals/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.png",
+      "display_asset": "assets/display/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "7",
+        "file": "Collecting System Urothelium Histology - Histology (2).png",
+        "slide_title": "Collecting System (Renal Pelves, Ureter and Bladder)",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.505",
+        "y0": "0.33",
+        "x1": "0.975",
+        "y1": "0.734",
+        "size": "1551x1030@300dpi",
+        "note": "",
+        "png_sha256": "130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c1c2c42e50fd3fccd365",
+          "asset": "assets/display/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.webp",
+          "zoom_asset": "assets/originals/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1551,
+              1030
+            ]
+          },
+          "output_dimensions": [
+            1551,
+            1030
+          ],
+          "display_sha256": "e5877ed64a7bca7fc2fbc7501159e4c768430f72ab0189c1ba585ac4101defcc",
+          "zoom_sha256": "130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Urothelial layers and umbrella cells",
+          "full_image_required": true,
+          "conditions": "Use the visible multilayered lining and superficial cells."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Preserved urothelial lining",
+          "variant_id": "v-c1c2c42e50fd3fccd365",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208",
+      "source_id": "s-1483ee179e0ca6e5da53",
+      "source_group_id": "g-70a76ce24c7bdef5de54",
+      "lecture_id": "R15",
+      "relative_path": "R15/Flat Urothelial Carcinoma in Situ Histology - Histology.png",
+      "sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208",
+      "perceptual_hash": "2431ad8b637bcaab",
+      "dimensions": [
+        2055,
+        1392
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Flat Urothelial Carcinoma in-situ (CIS)",
+      "original_asset": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+      "display_asset": "assets/display/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "30",
+        "file": "Flat Urothelial Carcinoma in Situ Histology - Histology.png",
+        "slide_title": "Flat Urothelial Carcinoma in-situ (CIS)",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.346",
+        "y0": "0.266",
+        "x1": "0.968",
+        "y1": "0.812",
+        "size": "2055x1392@300dpi",
+        "note": "",
+        "png_sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-61d6b55a66abd959efff",
+          "asset": "assets/display/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.webp",
+          "zoom_asset": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2055,
+              1392
+            ]
+          },
+          "output_dimensions": [
+            2055,
+            1392
+          ],
+          "display_sha256": "63a7bd5972d3f8f49a7ee72b5d4068fa2b7c0000cbbb646366ba033a434bbad5",
+          "zoom_sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Flat urothelial atypia",
+          "full_image_required": true,
+          "conditions": "Use the flat surface architecture and marked cellular atypia."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Flat urothelial atypia",
+          "variant_id": "v-61d6b55a66abd959efff",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0",
+      "source_id": "s-cdc0834a2484d28439cb",
+      "source_group_id": "g-9d30b5dd9a0b100c9732",
+      "lecture_id": "R15",
+      "relative_path": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png",
+      "sha256": "13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0",
+      "perceptual_hash": "990ab52eaeb532b9",
+      "dimensions": [
+        1147,
+        859
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Malakoplakia (\u201cSoft Plaque\u201d)",
+      "original_asset": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
+      "display_asset": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 19
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "19",
+        "file": "Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png",
+        "slide_title": "Malakoplakia (\u201cSoft Plaque\u201d)",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.619",
+        "y0": "0.487",
+        "x1": "0.966",
+        "y1": "0.824",
+        "size": "1147x859@300dpi",
+        "note": "",
+        "png_sha256": "13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-b4e5c24868f874e8ce2c",
+          "asset": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
+          "zoom_asset": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1147,
+              859
+            ]
+          },
+          "output_dimensions": [
+            1147,
+            859
+          ],
+          "display_sha256": "11d495585906e5646c87b213882fb8132ed4bb657aaa3b4b462655876efdc698",
+          "zoom_sha256": "13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Michaelis Gutmann type inclusions",
+          "full_image_required": true,
+          "conditions": "Use the arrowed inclusions within the histiocyte-rich field."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Michaelis Gutmann inclusions in histiocytes",
+          "variant_id": "v-b4e5c24868f874e8ce2c",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0",
+      "source_id": "s-5ed12814993139211aa2",
+      "source_group_id": "g-95e272f26e9e4527995e",
+      "lecture_id": "R15",
+      "relative_path": "R15/Schistosoma haematobium Eggs - Histology.png",
+      "sha256": "20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0",
+      "perceptual_hash": "780b6c471db9a3f7",
+      "dimensions": [
+        668,
+        593
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Squamous Cell Carcinoma of",
+      "original_asset": "assets/originals/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.png",
+      "display_asset": "assets/display/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 40
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "40",
+        "file": "Schistosoma haematobium Eggs - Histology.png",
+        "slide_title": "Squamous Cell Carcinoma of",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.611",
+        "y0": "0.577",
+        "x1": "0.813",
+        "y1": "0.809",
+        "size": "668x593@300dpi",
+        "note": "",
+        "png_sha256": "20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-e901c323d0172a1b3735",
+          "asset": "assets/display/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.webp",
+          "zoom_asset": "assets/originals/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              668,
+              593
+            ]
+          },
+          "output_dimensions": [
+            668,
+            593
+          ],
+          "display_sha256": "6cd295de62a19063ee1ad39bd21061dabfdc6c70160b8a70cbe8e766e248b5ee",
+          "zoom_sha256": "20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Schistosoma ova in tissue",
+          "full_image_required": true,
+          "conditions": "The page supports Schistosoma. Do not identify species from the filename alone or claim a spine that is not clearly visible."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Schistosoma ova in the supplied bladder example",
+          "variant_id": "v-e901c323d0172a1b3735",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751",
+      "source_id": "s-24decf80b73e3305937d",
+      "source_group_id": "g-d60ce84f60878cdf9407",
+      "lecture_id": "R19",
+      "relative_path": "R19/Asherman Syndrome HSG Filling Defects - Radiograph.png",
+      "sha256": "23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751",
+      "perceptual_hash": "2106dff2ea892d33",
+      "dimensions": [
+        1568,
+        1355
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "HSG Asherman Syndrome -  Multiple filling Defects",
+      "original_asset": "assets/originals/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.png",
+      "display_asset": "assets/display/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": 92
+      },
+      "source_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+      "current_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": "92",
+        "file": "Asherman Syndrome HSG Filling Defects - Radiograph.png",
+        "slide_title": "HSG Asherman Syndrome -  Multiple filling Defects",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "manual",
+        "x0": "0.293",
+        "y0": "0.319",
+        "x1": "0.685",
+        "y1": "0.92",
+        "size": "1568x1355@300dpi",
+        "note": "",
+        "png_sha256": "23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751",
+        "pdf_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-117ab7055a327a4bc0db",
+          "asset": "assets/display/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.webp",
+          "zoom_asset": "assets/originals/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1568,
+              1355
+            ]
+          },
+          "output_dimensions": [
+            1568,
+            1355
+          ],
+          "display_sha256": "1fe237040146edd3228abea516733ff0a4da8b26f4396268522e1b504285ca36",
+          "zoom_sha256": "23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Abnormal intrauterine filling defects on HSG",
+          "full_image_required": true,
+          "conditions": "Retain source clinical context if naming Asherman syndrome. Otherwise test the visible cavity abnormality. Compare with 785 only if both are needed."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Intrauterine filling defects on hysterosalpingography",
+          "variant_id": "v-117ab7055a327a4bc0db",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0",
+      "source_id": "s-c1e2cb5b88a62f41967c",
+      "source_group_id": "g-4e945486bbd2a926f6fe",
+      "lecture_id": "R19",
+      "relative_path": "R19/Mullerian Agenesis MRI Absent Uterus and Vagina - Radiograph.png",
+      "sha256": "b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0",
+      "perceptual_hash": "6ea91ce3f01acaa5",
+      "dimensions": [
+        1393,
+        1393
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Diagnosis",
+      "original_asset": "assets/originals/b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0.png",
+      "display_asset": "assets/display/b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": 148
+      },
+      "source_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+      "current_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": "148",
+        "file": "Mullerian Agenesis MRI Absent Uterus and Vagina - Radiograph.png",
+        "slide_title": "Diagnosis",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "manual",
+        "x0": "0.167",
+        "y0": "0.254",
+        "x1": "0.515",
+        "y1": "0.872",
+        "size": "1393x1393@300dpi",
+        "note": "MRI typed Radiograph",
+        "png_sha256": "b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0",
+        "pdf_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-b9334df5060a3851f88f",
+          "asset": "assets/display/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.webp",
+          "zoom_asset": "assets/zoom/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.png",
+          "transform": {
+            "type": "trim_slide_border",
+            "crop_pixels": [
+              9,
+              9,
+              1380,
+              1393
+            ],
+            "reason": "Remove the purple slide border outside the MRI. Preserve the full actual scan and source arrow.",
+            "crop_normalized": [
+              0.0064608758,
+              0.0064608758,
+              0.9906676238,
+              1.0
+            ],
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1393,
+              1393
+            ]
+          },
+          "output_dimensions": [
+            1371,
+            1384
+          ],
+          "display_sha256": "6e6d06d3cb1391936e6e02d30b372d8ee58444be01fc31cf7a52f7c6284929c2",
+          "zoom_sha256": "ce881e43a39fb1c49872e29596965611cde3f2ca98fdc8341a5463b0f3e66d01"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Absent uterine structure on supplied MRI",
+          "full_image_required": true,
+          "conditions": "Trim only the purple slide border fragment above the MRI. Preserve the whole scan and source arrow. Do not infer a genetic cause from the scan alone."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Absent uterine body in the supplied sagittal MRI",
+          "variant_id": "v-b9334df5060a3851f88f",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db",
+      "source_id": "s-758b3536e15c2512e544",
+      "source_group_id": "g-204f4f0133f0522978b7",
+      "lecture_id": "R19",
+      "relative_path": "R19/Normal Hysterosalpingogram - Radiograph.png",
+      "sha256": "6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db",
+      "perceptual_hash": "ca69712ba5474b99",
+      "dimensions": [
+        1597,
+        1214
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Hysterosalpingogram (HSG)  Normal",
+      "original_asset": "assets/originals/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.png",
+      "display_asset": "assets/display/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": 91
+      },
+      "source_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+      "current_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": "91",
+        "file": "Normal Hysterosalpingogram - Radiograph.png",
+        "slide_title": "Hysterosalpingogram (HSG)  Normal",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "manual",
+        "x0": "0.292",
+        "y0": "0.385",
+        "x1": "0.691",
+        "y1": "0.924",
+        "size": "1597x1214@300dpi",
+        "note": "",
+        "png_sha256": "6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db",
+        "pdf_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-a778c046ddca9b15f096",
+          "asset": "assets/display/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.webp",
+          "zoom_asset": "assets/originals/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1597,
+              1214
+            ]
+          },
+          "output_dimensions": [
+            1597,
+            1214
+          ],
+          "display_sha256": "d379e392b102d78a14dcd2f42b4e8e136920e64323fb7037b4c477a6b91305fd",
+          "zoom_sha256": "6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Normal triangular uterine cavity on HSG",
+          "full_image_required": true,
+          "conditions": "Use the smooth triangular cavity and bilateral tubal contrast."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Normal uterine cavity on hysterosalpingography",
+          "variant_id": "v-a778c046ddca9b15f096",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72",
+      "source_id": "s-1be67aad3476dbacd061",
+      "source_group_id": "g-8d190b2a70651a2a0add",
+      "lecture_id": "R15",
+      "relative_path": "PDF panel extraction/R15p31xref282.png",
+      "sha256": "ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72",
+      "perceptual_hash": "db06767a0bca26b1",
+      "dimensions": [
+        1191,
+        768
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Invasive Urothelial Ca",
+      "original_asset": "assets/originals/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.png",
+      "display_asset": "assets/display/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 31
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": 31,
+        "embedded_xref": 282,
+        "embedded_original_sha256": "28c4e5cf7f24ab11ca13092dbdbd6eef7577b863d1eaaccc1deb75b4bd65cb9b",
+        "transform": "Lossless RGB PNG encoding of the complete embedded JPEG panel. No label mask, tissue edits, crop, or reconstruction."
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-1e8acb809c2011c50330",
+          "asset": "assets/display/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.webp",
+          "zoom_asset": "assets/originals/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1191,
+              768
+            ]
+          },
+          "output_dimensions": [
+            1191,
+            768
+          ],
+          "display_sha256": "f77875b10562e28261b0124eb3bd9034fdfc483cfb87473b73790bea775f3252",
+          "zoom_sha256": "ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Tumor between detrusor muscle bundles",
+          "full_image_required": true,
+          "conditions": "Preserve the source arrow and muscle context. Test visible muscle involvement rather than inferring a precise stage from a limited field."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Urothelial tumor invading muscle bundles",
+          "variant_id": "v-1e8acb809c2011c50330",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ],
+      "aliases": [
+        "R15/Detrusor Muscle Invasion Histology - Histology.png"
+      ]
     }
   ],
-  "publication_scope": "Verified active draft only. Unfinished review archive is local."
+  "audit_date": "2026-11-09",
+  "library_png_count": 1127,
+  "bank_version": "2026-11-09-histology-expansion-2",
+  "publication_scope": "Reviewed active questions only. Remaining source review archive stays local."
 }

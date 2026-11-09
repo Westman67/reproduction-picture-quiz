@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-08-review-1",
-  "release_status": "Working review draft; full collection review remains incomplete",
+  "bank_version": "2026-11-09-histology-expansion-2",
+  "release_status": "Reviewed active bank. Full collection target review remains incomplete.",
   "questions": [
     {
       "stem": "Which developmental stage is shown in the complete micrograph?",
@@ -40,7 +40,8 @@
         }
       ],
       "visual_clues": [
-        "A large cavity is enclosed by a thin cellular rim, with a compact inner cell mass at one pole."
+        "A thin cellular rim encloses a large cavity.",
+        "A compact inner cell mass projects from one pole of that rim."
       ],
       "visual_target": "Which developmental stage is shown in the complete micrograph?",
       "joint_panels": false,
@@ -132,7 +133,8 @@
         }
       ],
       "visual_clues": [
-        "Crowded epithelial cells bridge and partially fill one expanded ductal lumen."
+        "Crowded epithelium bridges and partly fills one expanded duct.",
+        "Residual irregular spaces remain between the proliferating cells."
       ],
       "visual_target": "What architectural change occupies the breast duct in this field?",
       "joint_panels": false,
@@ -178,7 +180,8 @@
         }
       ],
       "visual_clues": [
-        "Numerous empty fat spaces are surrounded by cellular inflammatory and fibrous tissue."
+        "Large empty fat spaces dominate the field.",
+        "Cellular inflammatory and fibrous tissue expands the intervening areas, especially in the lower field."
       ],
       "visual_target": "Which tissue reaction is most evident in this breast micrograph?",
       "joint_panels": false,
@@ -224,7 +227,8 @@
         }
       ],
       "visual_clues": [
-        "Broad rounded nests of pale epithelial cells sit in dense, pink fibrous stroma."
+        "Rounded pale epithelial nests lie in dense pink fibrous stroma.",
+        "The task concerns the nested architecture, distinct from the nuclear groove task on the related higher-power image."
       ],
       "visual_target": "Which arrangement best describes the ovarian tumor in this field?",
       "joint_panels": false,
@@ -270,7 +274,8 @@
         }
       ],
       "visual_clues": [
-        "Several oval nuclei have longitudinal clefts, producing a coffee-bean appearance."
+        "Several oval nuclei have a longitudinal cleft.",
+        "Inspect individual nuclei rather than relying only on the surrounding tumor nest."
       ],
       "visual_target": "Which nuclear feature is visible in these ovarian tumor cells?",
       "joint_panels": false,
@@ -316,7 +321,8 @@
         }
       ],
       "visual_clues": [
-        "The multilayered squamous surface on the left meets tall columnar cells on the right."
+        "The left surface has many layers of squamous cells.",
+        "The right surface has tall columnar cells. The transition is the target."
       ],
       "visual_target": "Which epithelial transition is present across this cervical section?",
       "joint_panels": false,
@@ -362,7 +368,8 @@
         }
       ],
       "visual_clues": [
-        "Upper epithelial cells have sharply defined perinuclear clear halos with enlarged dark nuclei."
+        "Upper epithelial cells show conspicuous perinuclear clear spaces.",
+        "The halos occur with enlarged dark nuclei, rather than being empty spaces outside the cells."
       ],
       "visual_target": "Which cytopathic feature is most conspicuous in the squamous epithelium?",
       "joint_panels": false,
@@ -500,7 +507,8 @@
         }
       ],
       "visual_clues": [
-        "Rounded punched-out spaces perforate crowded epithelial proliferations within ducts."
+        "Rounded punched-out spaces perforate the crowded ductal cell population.",
+        "The cells form an epithelial lattice rather than delicate stromal papillary cores."
       ],
       "visual_target": "Which growth pattern is shown within the expanded breast ducts?",
       "joint_panels": false,
@@ -546,7 +554,8 @@
         }
       ],
       "visual_clues": [
-        "The duct center contains granular dark debris surrounded by a rim of tumor cells."
+        "The center of the large duct contains granular dark necrotic material.",
+        "A rim of viable tumor cells surrounds that center."
       ],
       "visual_target": "What occupies the center of the large involved breast duct?",
       "joint_panels": false,
@@ -638,7 +647,8 @@
         }
       ],
       "visual_clues": [
-        "Large pale tumor cells with conspicuous nuclei are interspersed with much smaller dark lymphocytes."
+        "Large pale cells have conspicuous round nuclear profiles.",
+        "Much smaller dark lymphocytes are interspersed among the tumor cells."
       ],
       "visual_target": "Which paired cell populations characterize this ovarian tumor field?",
       "joint_panels": false,
@@ -647,7 +657,241 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null
+    },
+    {
+      "stem": "Which architecture is present in this breast lesion micrograph?",
+      "options": [
+        "Solid epithelial nests with central comedo necrosis",
+        "Single-file tumor cells infiltrating dense stroma",
+        "Concentric keratin pearls in squamous nests",
+        "Branching fibrovascular cores covered by epithelium"
+      ],
+      "correct_index": 3,
+      "explanation": "Branching stromal cores with vessels are covered by epithelial cells and project into open spaces.",
+      "choice_rationales": [
+        "The dominant structures are papillary cores rather than solid necrotic ductal centers.",
+        "Cells cover cohesive papillae rather than infiltrating as isolated single-file rows.",
+        "The papillary cores lack the concentric eosinophilic laminations of keratin pearls.",
+        "Branching stromal cores with vessels are covered by epithelial cells and project into open spaces."
+      ],
+      "question_id": "q-329ac74667b2f9cd08aa",
+      "source_id": "s-36277504ed01bbeee25a",
+      "source_group_id": "g-26ce3d4831f1e1d1b3a4",
+      "variant_id": "v-1af5eafb8bfe64bf2b19",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Fibrovascular papillae in an intraductal breast lesion",
+      "category": "Histology",
+      "collection": "Boards and Beyond Slides",
+      "source_origin": "third_party",
+      "image": "assets/display/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.webp",
+      "zoom_image": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+      "original_image": "assets/originals/06599b026c5e2f9e5ac278560d8d1402d142eaf40b1387b9fc612c3be07f7215.png",
+      "original_filename": "3rd Party/Boards and Beyond Slides/Intraductal papilloma - Histology.png",
+      "citations": [
+        {
+          "document": "ReproductiveSlides2022-FullSize-1.pdf",
+          "page": 526
+        }
+      ],
+      "visual_clues": [
+        "Branching stromal cores are covered by cohesive epithelial layers.",
+        "Open spaces surround these papillary structures."
+      ],
+      "visual_target": "Which architecture is present in this breast lesion micrograph?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "How are the small tumor cells arranged within the pink stroma in this breast specimen?",
+      "options": [
+        "Branching papillae around fibrovascular cores",
+        "Round ducts filled by central comedo necrosis",
+        "Thin single-file rows of individual cells",
+        "Large rounded nests containing laminated keratin"
+      ],
+      "correct_index": 2,
+      "explanation": "Small cells extend through the fibrous stroma in narrow single-file rows.",
+      "choice_rationales": [
+        "No branching stromal papillae covered by cohesive epithelium dominate this field.",
+        "The cells infiltrate the stroma rather than filling large necrotic ductal spaces.",
+        "Small cells extend through the fibrous stroma in narrow single-file rows.",
+        "The cells form thin rows rather than broad squamous nests with keratin centers."
+      ],
+      "question_id": "q-58d9a2b5510f374b0cf9",
+      "source_id": "s-2b661ede4faf8f67f2f3",
+      "source_group_id": "g-41ef96b7872190c3ea41",
+      "variant_id": "v-d410498a62efd83bc657",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Single-file stromal infiltration in breast tissue",
+      "category": "Histology",
+      "collection": "Boards and Beyond Slides",
+      "source_origin": "third_party",
+      "image": "assets/display/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.webp",
+      "zoom_image": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+      "original_image": "assets/originals/64495cc10405a279d6388040cf68c0e3a107c6de4ad3dad8d539f481ced51f46.png",
+      "original_filename": "3rd Party/Boards and Beyond Slides/Invasive lobular carcinoma single file - Histology.png",
+      "citations": [
+        {
+          "document": "ReproductiveSlides2022-FullSize-1.pdf",
+          "page": 558
+        }
+      ],
+      "visual_clues": [
+        "Small cells form narrow linear rows through the pink fibrous stroma.",
+        "The rows contrast with broad cohesive nests or duct-filling tumor."
+      ],
+      "visual_target": "How are the small tumor cells arranged within the pink stroma in this breast specimen?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which low-power architecture is visible in this breast lesion?",
+      "options": [
+        "Round thyroid follicles filled with colloid",
+        "Broad leaflike stromal projections lined by epithelium",
+        "Fine single-file rows of cells through dense stroma",
+        "Multiple ducts packed with central necrosis"
+      ],
+      "correct_index": 1,
+      "explanation": "Broad stromal fronds bulge into epithelial-lined cleftlike spaces, producing a leaflike pattern.",
+      "choice_rationales": [
+        "The spaces are epithelial-lined clefts around stromal fronds, not colloid-filled thyroid follicles.",
+        "Broad stromal fronds bulge into epithelial-lined cleftlike spaces, producing a leaflike pattern.",
+        "The dominant finding is broad stromal fronds rather than isolated rows of cells.",
+        "The clefts are open and lined by epithelium rather than packed with central necrosis."
+      ],
+      "question_id": "q-3dc96e7ecc3e984a04db",
+      "source_id": "s-ffcd6787536ab1c42240",
+      "source_group_id": "g-907c34727f18b00eb2ee",
+      "variant_id": "v-75ec3aa33ca773474211",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Leaflike architecture in a breast stromal lesion",
+      "category": "Histology",
+      "collection": "Boards and Beyond Slides",
+      "source_origin": "third_party",
+      "image": "assets/display/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.webp",
+      "zoom_image": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+      "original_image": "assets/originals/b57aecf4bbf367f3dc4d175c4392d684ed0967aa1a0e1e8a5c08e3baca511f3c.png",
+      "original_filename": "3rd Party/Boards and Beyond Slides/Phyllodes tumor - Histology.png",
+      "citations": [
+        {
+          "document": "ReproductiveSlides2022-FullSize-1.pdf",
+          "page": 532
+        }
+      ],
+      "visual_clues": [
+        "Broad stromal fronds bulge into epithelial-lined clefts.",
+        "This is an architectural target and does not establish a tumor grade."
+      ],
+      "visual_target": "Which low-power architecture is visible in this breast lesion?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Count the large vascular profiles in this complete umbilical cord cross section. Which pattern is shown?",
+      "options": [
+        "Two vessels with one artery and one vein",
+        "Three vessels with two arteries and one vein",
+        "Three vessels with one artery and two veins",
+        "Four vessels with two arteries and two veins"
+      ],
+      "correct_index": 0,
+      "explanation": "Two large vascular profiles are present, corresponding to the supplied single umbilical artery example with one artery and one vein.",
+      "choice_rationales": [
+        "Two large vascular profiles are present, corresponding to the supplied single umbilical artery example with one artery and one vein.",
+        "A second arterial profile is not visible in the complete cord section.",
+        "Only two large vascular profiles are shown, not one artery and two veins.",
+        "The complete section contains two large vascular profiles rather than four."
+      ],
+      "question_id": "q-5870e4aa826915268881",
+      "source_id": "s-1b5bb660762c5fbea52d",
+      "source_group_id": "g-f522e17227fb3b9e5e26",
+      "variant_id": "v-28759e20054e25c7e853",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Vessel count in a complete umbilical cord section",
+      "category": "Histology",
+      "collection": "Boards and Beyond Slides",
+      "source_origin": "third_party",
+      "image": "assets/display/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.webp",
+      "zoom_image": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+      "original_image": "assets/originals/f464c2b34a4578869c033b7f242ff2811e1111a2c03672c8b34ec0d09945ee02.png",
+      "original_filename": "3rd Party/Boards and Beyond Slides/Single umbilical artery cord cross section - Histology.png",
+      "citations": [
+        {
+          "document": "ReproductiveSlides2022-FullSize-1.pdf",
+          "page": 222
+        }
+      ],
+      "visual_clues": [
+        "The whole cord circumference is retained.",
+        "Two large vascular profiles are present rather than the usual three-vessel pattern shown in the source context."
+      ],
+      "visual_target": "Count the large vascular profiles in this complete umbilical cord cross section. Which pattern is shown?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "This section comes from the supplied ovarian tumor example. Which tissue pattern is present?",
+      "options": [
+        "Squamous nests containing keratin pearls",
+        "Granulosa cells surrounding Call-Exner spaces",
+        "Dysgerminoma cells separated by lymphocytic septa",
+        "Thyroid-type follicles containing colloid"
+      ],
+      "correct_index": 3,
+      "explanation": "Numerous rounded follicles contain dense pink colloid and have an epithelial lining, demonstrating thyroid-type tissue.",
+      "choice_rationales": [
+        "The pink material fills follicular lumina rather than forming concentric squamous keratin whorls.",
+        "These are large colloid-filled follicles rather than small Call-Exner spaces among uniform granulosa cells.",
+        "The dominant pattern is follicular, not sheets of large pale cells separated by lymphocyte-rich septa.",
+        "Numerous rounded follicles contain dense pink colloid and have an epithelial lining, demonstrating thyroid-type tissue."
+      ],
+      "question_id": "q-f74cc70b8f318de257a7",
+      "source_id": "s-d8e97e2d467c4f195296",
+      "source_group_id": "g-e7a53b5e4fbd0a9559b9",
+      "variant_id": "v-c0150ff625250671f482",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Colloid-filled thyroid follicles in an ovarian lesion",
+      "category": "Histology",
+      "collection": "Boards and Beyond Slides",
+      "source_origin": "third_party",
+      "image": "assets/display/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.webp",
+      "zoom_image": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+      "original_image": "assets/originals/54ef6b8e3afd050bbec11ae48184d18e308f12edd945f4f7fe067e729ff1bf40.png",
+      "original_filename": "3rd Party/Boards and Beyond Slides/Struma ovarii - Histology.png",
+      "citations": [
+        {
+          "document": "ReproductiveSlides2022-FullSize-1.pdf",
+          "page": 489
+        }
+      ],
+      "visual_clues": [
+        "Rounded epithelial-lined follicles contain dense pink colloid.",
+        "The supplied source establishes that this thyroid-type tissue is in an ovarian lesion."
+      ],
+      "visual_target": "This section comes from the supplied ovarian tumor example. Which tissue pattern is present?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
     }
-  ],
-  "bank_id": "supplementary"
+  ]
 }

@@ -1,0 +1,682 @@
+[
+  {
+    "question_id": "q-53d71034debb1ee8ae94",
+    "tested_concept": "Blastocyst",
+    "explanation": "A large cavity is enclosed by a thin cellular rim, with a compact inner cell mass at one pole.",
+    "visual_clues": [
+      "A thin cellular rim encloses a large cavity.",
+      "A compact inner cell mass projects from one pole of that rim."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 29
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-7ce0714751d84202aecc",
+    "tested_concept": "Intraluminal epithelial proliferation",
+    "explanation": "Crowded epithelial cells bridge and partially fill one expanded ductal lumen.",
+    "visual_clues": [
+      "Crowded epithelium bridges and partly fills one expanded duct.",
+      "Residual irregular spaces remain between the proliferating cells."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 523
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-731c877190379265631b",
+    "tested_concept": "Inflammation around disrupted fat spaces",
+    "explanation": "Numerous empty fat spaces are surrounded by cellular inflammatory and fibrous tissue.",
+    "visual_clues": [
+      "Large empty fat spaces dominate the field.",
+      "Cellular inflammatory and fibrous tissue expands the intervening areas, especially in the lower field."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 535
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-787f6b88c832a87acf17",
+    "tested_concept": "Rounded epithelial nests in fibrous stroma",
+    "explanation": "Broad rounded nests of pale epithelial cells sit in dense, pink fibrous stroma.",
+    "visual_clues": [
+      "Rounded pale epithelial nests lie in dense pink fibrous stroma.",
+      "The task concerns the nested architecture, distinct from the nuclear groove task on the related higher-power image."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 465
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-adeca1866eb00d3d5589",
+    "tested_concept": "Longitudinal nuclear grooves",
+    "explanation": "Several oval nuclei have longitudinal clefts, producing a coffee-bean appearance.",
+    "visual_clues": [
+      "Several oval nuclei have a longitudinal cleft.",
+      "Inspect individual nuclei rather than relying only on the surrounding tumor nest."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 465
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-0886343a8defe5956c63",
+    "tested_concept": "Stratified squamous to columnar epithelium",
+    "explanation": "The multilayered squamous surface on the left meets tall columnar cells on the right.",
+    "visual_clues": [
+      "The left surface has many layers of squamous cells.",
+      "The right surface has tall columnar cells. The transition is the target."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 374
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-3e7fefc266a4db17c7bc",
+    "tested_concept": "Koilocytosis",
+    "explanation": "Upper epithelial cells have sharply defined perinuclear clear halos with enlarged dark nuclei.",
+    "visual_clues": [
+      "Upper epithelial cells show conspicuous perinuclear clear spaces.",
+      "The halos occur with enlarged dark nuclei, rather than being empty spaces outside the cells."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 580
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-10cb3243c5717e33eceb",
+    "tested_concept": "Cribriform pattern",
+    "explanation": "Rounded punched-out spaces perforate crowded epithelial proliferations within ducts.",
+    "visual_clues": [
+      "Rounded punched-out spaces perforate the crowded ductal cell population.",
+      "The cells form an epithelial lattice rather than delicate stromal papillary cores."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 548
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-243ff431e360433d34f7",
+    "tested_concept": "Comedo-type central necrosis",
+    "explanation": "The duct center contains granular dark debris surrounded by a rim of tumor cells.",
+    "visual_clues": [
+      "The center of the large duct contains granular dark necrotic material.",
+      "A rim of viable tumor cells surrounds that center."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 549
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-7bbaf776756d5ccbd612",
+    "tested_concept": "Dysgerminoma cell morphology",
+    "explanation": "Large pale tumor cells with conspicuous nuclei are interspersed with much smaller dark lymphocytes.",
+    "visual_clues": [
+      "Large pale cells have conspicuous round nuclear profiles.",
+      "Much smaller dark lymphocytes are interspersed among the tumor cells."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 492
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-aa8e402115dc3e729c21",
+    "tested_concept": "Nuclear immunostaining localization",
+    "explanation": "Brown staining occupies rounded nuclear profiles among blue unstained nuclei.",
+    "visual_clues": [
+      "Brown staining follows rounded nuclear profiles.",
+      "The neighboring pale cytoplasm and blue unstained nuclei help localize the signal."
+    ],
+    "citations": [
+      {
+        "document": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 10
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-0d244a6e80f19a13809f",
+    "tested_concept": "Candida pseudohyphae",
+    "explanation": "Long branching filamentous forms cross and entangle squamous cells, the pseudohyphal pattern described for Candida in the lecture.",
+    "visual_clues": [
+      "Long filamentous fungal forms cross and entangle the squamous cells.",
+      "Their shape and length differ from a fine bacterial coating."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 13
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-e4981618058d5cfafb67",
+    "tested_concept": "Herpetic multinucleation and molding",
+    "explanation": "Multiple enlarged nuclei crowd together and mold against one another in individual cells.",
+    "visual_clues": [
+      "Several enlarged nuclei occupy a single affected cell.",
+      "Adjacent nuclear contours press against one another, producing molding."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 35
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-041224110b45eaf147f0",
+    "tested_concept": "Lichen sclerosus morphology",
+    "explanation": "A broad pale sclerotic band lies beneath a relatively thin surface epithelium, with inflammation deeper in the dermis.",
+    "visual_clues": [
+      "The epidermis is relatively thin over a broad pale superficial dermal band.",
+      "A deeper inflammatory zone contrasts with the pale sclerotic band."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 42
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-b7ec5e932aa86c92d6b7",
+    "tested_concept": "Adenomyosis morphology",
+    "explanation": "Islands of endometrial-type glands and dark stroma interrupt the surrounding pink smooth-muscle bundles.",
+    "visual_clues": [
+      "Endometrial-type glands and densely cellular stroma lie within smooth muscle.",
+      "The supplied uterine location distinguishes this task from an extrauterine endometriosis specimen."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 58
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-842cb379056a3a478d51",
+    "tested_concept": "Call-Exner bodies",
+    "explanation": "Small rosettelike groups of cells enclose rounded pink material, producing Call-Exner bodies.",
+    "visual_clues": [
+      "Small groups of tumor cells surround rounded pink material.",
+      "These small rosettelike formations are the target rather than the whole tumor architecture."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 105
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-c71b67c58ee0ac7ec39d",
+    "tested_concept": "Signet-ring morphology",
+    "explanation": "Large pale cytoplasmic vacuoles displace nuclei toward the cell edges, producing signet-ring forms.",
+    "visual_clues": [
+      "Large pale vacuoles occupy much of the cytoplasm.",
+      "The nuclei are displaced to the cell edges, creating signet-ring outlines."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 109
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-543520487b1f9e8fc8e2",
+    "tested_concept": "Reinke crystals",
+    "explanation": "Bright red, angular rods lie within the cytoplasm of these Leydig-type cells.",
+    "visual_clues": [
+      "Bright red angular rods lie inside the cells.",
+      "The target is the crystalline cytoplasmic material, not the dark round nuclei."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 106
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-550170db0283c5241df0",
+    "tested_concept": "Schiller-Duval body",
+    "explanation": "A central vessel containing red cells is surrounded by tumor within a larger space, creating a glomeruloid Schiller-Duval body.",
+    "visual_clues": [
+      "A central vessel contains red blood cells.",
+      "Tumor cells surround that vessel within a larger space, creating the glomeruloid arrangement."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 97
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-7e8864d8551dcbc515d0",
+    "tested_concept": "Atretic follicles",
+    "explanation": "Irregular collapsed follicular outlines contain thick folded pink glassy membranes, matching atretic follicles.",
+    "visual_clues": [
+      "Follicular profiles have irregular collapsed outlines.",
+      "Thick folded pink glassy membranes occupy their centers."
+    ],
+    "citations": [
+      {
+        "document": "R9 Reproductive Histology RLS.pdf",
+        "page": 21
+      }
+    ],
+    "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-5cc0b00745866eeec77a",
+    "tested_concept": "Bacterial coating of squamous cells",
+    "explanation": "Numerous tiny bacterial forms densely coat the central squamous cells and blur their outlines.",
+    "visual_clues": [
+      "Fine bacterial forms coat the large central squamous cells.",
+      "Compare their indistinct stippled outlines with the cleaner pale cell at the upper left."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 20
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-b5e8d9012139d2455f1c",
+    "tested_concept": "Fungal elements within superficial keratin",
+    "explanation": "The dark filamentous and yeastlike forms lie in the pale keratin above the viable squamous epithelial layer.",
+    "visual_clues": [
+      "Dark filaments and small yeastlike profiles occupy the superficial pale keratin.",
+      "The viable squamous epithelium forms the darker cellular band beneath the keratin."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 12
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-b46869efe0df234e7a4c",
+    "tested_concept": "Exophytic squamous papillary architecture",
+    "explanation": "Multiple elongated stromal cores project outward under a thick squamous epithelial covering.",
+    "visual_clues": [
+      "Elongated stromal cores project above the surface.",
+      "A thick squamous epithelial covering follows each projection."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 47
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-22c0049449c5698bd9c9",
+    "tested_concept": "Acanthosis in squamous hyperplasia",
+    "explanation": "The squamous epithelium is markedly thickened and extends downward in long rete ridges.",
+    "visual_clues": [
+      "The epidermis is thick, with elongated downward rete ridges.",
+      "This contrasts with the thin epidermis and pale dermal band in the lichen sclerosus example."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 43
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-360b0188b3b5074efb17",
+    "tested_concept": "Trichomonas profiles with flagellar extensions",
+    "explanation": "Both profiles are nucleated, roughly pear-shaped organisms with thin external projections.",
+    "visual_clues": [
+      "Both profiles are roughly pear shaped and have conspicuous nuclei.",
+      "Thin external projections are visible, but a still image does not establish motility."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 25
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-e9beb872fc21106f3610",
+    "tested_concept": "Pale atypical cells in the epidermis",
+    "explanation": "The large pale cells are interspersed among smaller squamous cells within the epidermal layer.",
+    "visual_clues": [
+      "Large pale cells interrupt the darker population of epidermal keratinocytes.",
+      "The target is their intraepidermal position, without inferring an unseen mucin stain."
+    ],
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 53
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-2248afc89054d3f4f92d",
+    "tested_concept": "Hobnail cell morphology",
+    "explanation": "Enlarged nuclei protrude from the lining into the glandular spaces, producing a hobnail contour.",
+    "visual_clues": [
+      "Bulbous nuclei protrude into the glandular lumina.",
+      "The protruding lining cells are most evident along the right side of the section."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 84
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-3a584ed4d93cabec739a",
+    "tested_concept": "Endometrial gland stroma and hemorrhage",
+    "explanation": "A densely cellular stromal cuff and adjacent red blood cells surround the endometrial-type gland.",
+    "visual_clues": [
+      "The elongated gland is encircled by densely cellular endometrial-type stroma.",
+      "Red blood cells near the gland provide the hemorrhagic component."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 59
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-d148e7c820844c21476e",
+    "tested_concept": "Keratin pearls in a cervical squamous lesion",
+    "explanation": "Concentric layers of eosinophilic keratin form rounded pearls within nests of squamous cells.",
+    "visual_clues": [
+      "Concentric pink keratin whorls lie within squamous cell nests.",
+      "The rounded laminated centers are the decisive structures."
+    ],
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 28
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-23cbabd7872c4f1b4fae",
+    "tested_concept": "Preserved urothelial lining",
+    "explanation": "Several orderly cell layers are capped by broad rounded superficial cells without the marked atypia of the supplied CIS example.",
+    "visual_clues": [
+      "Several orderly epithelial layers line the lumen.",
+      "Broad superficial cells cap the lining, without the marked pleomorphism of the CIS example."
+    ],
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 7
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-8fd0498140bd8d97530f",
+    "tested_concept": "Urothelial tumor invading muscle bundles",
+    "explanation": "Irregular dark nests and cords extend among broad eosinophilic muscle bundles throughout the field.",
+    "visual_clues": [
+      "Dark irregular nests and cords are interspersed among broad pink muscle bundles.",
+      "The relevant relationship is invasion of muscle, without assigning a precise stage from this field alone."
+    ],
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 31
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-1c1a70064566a1499235",
+    "tested_concept": "Flat urothelial atypia",
+    "explanation": "The flat lining contains enlarged irregular nuclei and disordered cells without an exophytic papillary architecture.",
+    "visual_clues": [
+      "The surface is flat rather than papillary.",
+      "Cells within the lining show enlarged irregular nuclei and marked variation in nuclear size."
+    ],
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 30
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-d1773153dab13844e466",
+    "tested_concept": "Michaelis Gutmann inclusions in histiocytes",
+    "explanation": "The arrows highlight rounded inclusions within the large histiocytic cells, identified by the supplied lecture as Michaelis-Gutmann bodies.",
+    "visual_clues": [
+      "Two source arrows localize rounded inclusions within large histiocytic cells.",
+      "The lecture identifies these inclusions as Michaelis-Gutmann bodies."
+    ],
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 19
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-3e7d75058268ce8ba3f0",
+    "tested_concept": "Schistosoma ova in the supplied bladder example",
+    "explanation": "Multiple oval thick-outlined structures with internal material correspond to the Schistosoma egg example in the supplied lecture.",
+    "visual_clues": [
+      "Multiple ovoid structures have distinct outer contours and internal material.",
+      "The panel supports an egg-level target, without a species or spine claim."
+    ],
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 40
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-161227dd6be779561e16",
+    "tested_concept": "Seminiferous epithelial depletion in paired panels",
+    "explanation": "Panel B has markedly fewer germ cells and lacks the dense multilayered population lining the tubule in A.",
+    "visual_clues": [
+      "Panel A has a dense multilayered germ-cell population.",
+      "Panel B has a depleted lining. Both panels are required for the comparison."
+    ],
+    "citations": [
+      {
+        "document": "R9 Reproductive Histology RLS.pdf",
+        "page": 39
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-329ac74667b2f9cd08aa",
+    "tested_concept": "Fibrovascular papillae in an intraductal breast lesion",
+    "explanation": "Branching stromal cores with vessels are covered by epithelial cells and project into open spaces.",
+    "visual_clues": [
+      "Branching stromal cores are covered by cohesive epithelial layers.",
+      "Open spaces surround these papillary structures."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 526
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-58d9a2b5510f374b0cf9",
+    "tested_concept": "Single-file stromal infiltration in breast tissue",
+    "explanation": "Small cells extend through the fibrous stroma in narrow single-file rows.",
+    "visual_clues": [
+      "Small cells form narrow linear rows through the pink fibrous stroma.",
+      "The rows contrast with broad cohesive nests or duct-filling tumor."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 558
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-3dc96e7ecc3e984a04db",
+    "tested_concept": "Leaflike architecture in a breast stromal lesion",
+    "explanation": "Broad stromal fronds bulge into epithelial-lined cleftlike spaces, producing a leaflike pattern.",
+    "visual_clues": [
+      "Broad stromal fronds bulge into epithelial-lined clefts.",
+      "This is an architectural target and does not establish a tumor grade."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 532
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-5870e4aa826915268881",
+    "tested_concept": "Vessel count in a complete umbilical cord section",
+    "explanation": "Two large vascular profiles are present, corresponding to the supplied single umbilical artery example with one artery and one vein.",
+    "visual_clues": [
+      "The whole cord circumference is retained.",
+      "Two large vascular profiles are present rather than the usual three-vessel pattern shown in the source context."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 222
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  },
+  {
+    "question_id": "q-f74cc70b8f318de257a7",
+    "tested_concept": "Colloid-filled thyroid follicles in an ovarian lesion",
+    "explanation": "Numerous rounded follicles contain dense pink colloid and have an epithelial lining, demonstrating thyroid-type tissue.",
+    "visual_clues": [
+      "Rounded epithelial-lined follicles contain dense pink colloid.",
+      "The supplied source establishes that this thyroid-type tissue is in an ovarian lesion."
+    ],
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 489
+      }
+    ],
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "interpretation_basis": "Visible morphology inspected directly against the supplied source image. The cited lecture establishes context and explicit teaching statements. Descriptive observations are not represented as verbatim lecture text."
+  }
+]

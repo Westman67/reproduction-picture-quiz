@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-08-review-1",
-  "release_status": "Working review draft; full collection review remains incomplete",
+  "bank_version": "2026-11-09-histology-expansion-2",
+  "release_status": "Reviewed active bank. Full collection target review remains incomplete.",
   "questions": [
     {
-      "stem": "Compare both panels. Which relationship between the growth spurt and gonadal development is plotted?",
+      "stem": "Compare both panels. In which sex does peak height velocity occur earlier on the age axis?",
       "options": [
         "The two peaks occur at the same age",
         "Both peaks occur before gonadal development begins",
@@ -43,7 +43,7 @@
       "visual_clues": [
         "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14."
       ],
-      "visual_target": "Compare both panels. Which relationship between the growth spurt and gonadal development is plotted?",
+      "visual_target": "Compare both panels. In which sex does peak height velocity occur earlier on the age axis?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
@@ -180,7 +180,8 @@
         }
       ],
       "visual_clues": [
-        "Brown staining occupies rounded nuclear profiles among blue unstained nuclei."
+        "Brown staining follows rounded nuclear profiles.",
+        "The neighboring pale cytoplasm and blue unstained nuclei help localize the signal."
       ],
       "visual_target": "Where is the positive brown immunostaining located in this field?",
       "joint_panels": false,
@@ -272,7 +273,8 @@
         }
       ],
       "visual_clues": [
-        "Long branching filamentous forms cross and entangle squamous cells, the pseudohyphal pattern described for Candida in the lecture."
+        "Long filamentous fungal forms cross and entangle the squamous cells.",
+        "Their shape and length differ from a fine bacterial coating."
       ],
       "visual_target": "Which organism form crosses the squamous cells in this smear?",
       "joint_panels": false,
@@ -318,7 +320,8 @@
         }
       ],
       "visual_clues": [
-        "Multiple enlarged nuclei crowd together and mold against one another in individual cells."
+        "Several enlarged nuclei occupy a single affected cell.",
+        "Adjacent nuclear contours press against one another, producing molding."
       ],
       "visual_target": "Which combination of nuclear changes is most evident in the large blue cells?",
       "joint_panels": false,
@@ -329,7 +332,7 @@
       "case_context": null
     },
     {
-      "stem": "Which pattern in this vulvar biopsy best supports lichen sclerosus?",
+      "stem": "Which combination of epidermal and superficial dermal changes is visible in this vulvar biopsy?",
       "options": [
         "Marked acanthosis with long rete ridges",
         "Papillary squamous fronds with koilocytes",
@@ -364,9 +367,10 @@
         }
       ],
       "visual_clues": [
-        "A broad pale sclerotic band lies beneath a relatively thin surface epithelium, with inflammation deeper in the dermis."
+        "The epidermis is relatively thin over a broad pale superficial dermal band.",
+        "A deeper inflammatory zone contrasts with the pale sclerotic band."
       ],
-      "visual_target": "Which pattern in this vulvar biopsy best supports lichen sclerosus?",
+      "visual_target": "Which combination of epidermal and superficial dermal changes is visible in this vulvar biopsy?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
@@ -375,7 +379,7 @@
       "case_context": null
     },
     {
-      "stem": "In this section of uterine muscle, which finding supports adenomyosis?",
+      "stem": "Which finding is visible within the smooth muscle in this uterine section?",
       "options": [
         "Malignant squamous nests with keratin pearls",
         "Chorionic villi inside a blood-filled space",
@@ -410,9 +414,10 @@
         }
       ],
       "visual_clues": [
-        "Islands of endometrial-type glands and dark stroma interrupt the surrounding pink smooth-muscle bundles."
+        "Endometrial-type glands and densely cellular stroma lie within smooth muscle.",
+        "The supplied uterine location distinguishes this task from an extrauterine endometriosis specimen."
       ],
-      "visual_target": "In this section of uterine muscle, which finding supports adenomyosis?",
+      "visual_target": "Which finding is visible within the smooth muscle in this uterine section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
@@ -456,7 +461,8 @@
         }
       ],
       "visual_clues": [
-        "Small rosettelike groups of cells enclose rounded pink material, producing Call-Exner bodies."
+        "Small groups of tumor cells surround rounded pink material.",
+        "These small rosettelike formations are the target rather than the whole tumor architecture."
       ],
       "visual_target": "Which named structure is visible in this ovarian tumor field?",
       "joint_panels": false,
@@ -502,7 +508,8 @@
         }
       ],
       "visual_clues": [
-        "Large pale cytoplasmic vacuoles displace nuclei toward the cell edges, producing signet-ring forms."
+        "Large pale vacuoles occupy much of the cytoplasm.",
+        "The nuclei are displaced to the cell edges, creating signet-ring outlines."
       ],
       "visual_target": "Which tumor-cell morphology is prominent in this field?",
       "joint_panels": false,
@@ -548,7 +555,8 @@
         }
       ],
       "visual_clues": [
-        "Bright red, angular rods lie within the cytoplasm of these Leydig-type cells."
+        "Bright red angular rods lie inside the cells.",
+        "The target is the crystalline cytoplasmic material, not the dark round nuclei."
       ],
       "visual_target": "What are the brightly eosinophilic rodlike structures in the cytoplasm?",
       "joint_panels": false,
@@ -594,7 +602,8 @@
         }
       ],
       "visual_clues": [
-        "A central vessel containing red cells is surrounded by tumor within a larger space, creating a glomeruloid Schiller-Duval body."
+        "A central vessel contains red blood cells.",
+        "Tumor cells surround that vessel within a larger space, creating the glomeruloid arrangement."
       ],
       "visual_target": "Which architectural structure is present at the center of this field?",
       "joint_panels": false,
@@ -640,7 +649,8 @@
         }
       ],
       "visual_clues": [
-        "Irregular collapsed follicular outlines contain thick folded pink glassy membranes, matching atretic follicles."
+        "Follicular profiles have irregular collapsed outlines.",
+        "Thick folded pink glassy membranes occupy their centers."
       ],
       "visual_target": "Which follicular change is evident in this ovarian section?",
       "joint_panels": false,
@@ -763,13 +773,13 @@
       "question_id": "q-5df3c448db9be978593f",
       "source_id": "s-8db598db944dae03b981",
       "source_group_id": "g-eece7dbda2294229e325",
-      "variant_id": "v-d7004596b6079d2732c0",
+      "variant_id": "v-11d0e8a2e26330e06509",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R13",
       "source_origin": "lecture",
-      "image": "assets/display/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.webp",
-      "zoom_image": "assets/originals/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.png",
+      "image": "assets/display/cf9148084d9d6dfa1c5c2e581ed5f4f74094b52dc8d95f3b947269b4d2d4e377.webp",
+      "zoom_image": "assets/zoom/cf9148084d9d6dfa1c5c2e581ed5f4f74094b52dc8d95f3b947269b4d2d4e377.png",
       "original_image": "assets/originals/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.png",
       "original_filename": "R13/Functional Hypogonadotropic Hypogonadism HPG Axis - Diagram.png",
       "citations": [
@@ -809,13 +819,13 @@
       "question_id": "q-7935525bda53399b8741",
       "source_id": "s-8105c60b45881b70511e",
       "source_group_id": "g-eece7dbda2294229e325",
-      "variant_id": "v-030cdc58925353faa0a9",
+      "variant_id": "v-011b2c99e2c849f72c28",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R13",
       "source_origin": "lecture",
-      "image": "assets/display/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.webp",
-      "zoom_image": "assets/originals/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.png",
+      "image": "assets/display/e5fe8bb2bae482c8d8e304c6d2307efb1761ff23d9b0b97e5d9be60b87dab520.webp",
+      "zoom_image": "assets/zoom/e5fe8bb2bae482c8d8e304c6d2307efb1761ff23d9b0b97e5d9be60b87dab520.png",
       "original_image": "assets/originals/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.png",
       "original_filename": "R13/Hypergonadotropic Hypogonadism HPG Axis - Diagram.png",
       "citations": [
@@ -880,7 +890,849 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null
+    },
+    {
+      "stem": "What accounts for the densely stippled surface of the large squamous cells in the center of this Pap smear?",
+      "options": [
+        "Multiple molded nuclei within each cell",
+        "Adherent bacterial forms coating the cells",
+        "Long branching fungal filaments crossing the cells",
+        "Large pear-shaped flagellated organisms"
+      ],
+      "correct_index": 1,
+      "explanation": "Numerous tiny bacterial forms densely coat the central squamous cells and blur their outlines.",
+      "choice_rationales": [
+        "The prominent change is the diffuse surface coating rather than a cluster of molded nuclei.",
+        "Numerous tiny bacterial forms densely coat the central squamous cells and blur their outlines.",
+        "The coating consists of fine short forms rather than long branching filaments.",
+        "There are no discrete large pear-shaped organisms in the central coating."
+      ],
+      "question_id": "q-5cc0b00745866eeec77a",
+      "source_id": "s-68fbb7b8a93b707536af",
+      "source_group_id": "g-7c1ff843e62473c8899c",
+      "variant_id": "v-6a9d4ffa796749539279",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Bacterial coating of squamous cells",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.webp",
+      "zoom_image": "assets/originals/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.png",
+      "original_image": "assets/originals/c05b00b13334aea6d8f86c2aae7fa662162a4722e4ebad1b7361c45e05749c6f.png",
+      "original_filename": "R10/Bacterial Vaginosis Pap Smear - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 20
+        }
+      ],
+      "visual_clues": [
+        "Fine bacterial forms coat the large central squamous cells.",
+        "Compare their indistinct stippled outlines with the cleaner pale cell at the upper left."
+      ],
+      "visual_target": "What accounts for the densely stippled surface of the large squamous cells in the center of this Pap smear?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "In this supplied PAS-stained biopsy, where are the conspicuous dark fungal elements concentrated?",
+      "options": [
+        "Within the thick superficial keratin layer",
+        "Within basal epithelial cell nuclei",
+        "Within dermal vascular lumina",
+        "Within deep stromal cell aggregates"
+      ],
+      "correct_index": 0,
+      "explanation": "The dark filamentous and yeastlike forms lie in the pale keratin above the viable squamous epithelial layer.",
+      "choice_rationales": [
+        "The dark filamentous and yeastlike forms lie in the pale keratin above the viable squamous epithelial layer.",
+        "The forms occupy surface keratin rather than the nuclei of basal epithelial cells.",
+        "The organisms are superficial and are not enclosed by dermal vessel walls.",
+        "The dark forms are concentrated above the living epithelium rather than within deep stromal aggregates."
+      ],
+      "question_id": "q-b5e8d9012139d2455f1c",
+      "source_id": "s-e7980b5adfc54b356536",
+      "source_group_id": "g-38a2fc6c9b3311fd9ff1",
+      "variant_id": "v-67f1b46a8c1a33456c5b",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Fungal elements within superficial keratin",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.webp",
+      "zoom_image": "assets/originals/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.png",
+      "original_image": "assets/originals/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.png",
+      "original_filename": "R10/Candida in Tissue Biopsy - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 12
+        }
+      ],
+      "visual_clues": [
+        "Dark filaments and small yeastlike profiles occupy the superficial pale keratin.",
+        "The viable squamous epithelium forms the darker cellular band beneath the keratin."
+      ],
+      "visual_target": "In this supplied PAS-stained biopsy, where are the conspicuous dark fungal elements concentrated?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which architectural pattern is present in this complete low-power squamous lesion panel?",
+      "options": [
+        "Flat thin epidermis above a broad pale sclerotic band",
+        "Small tumor nests infiltrating between muscle bundles",
+        "Rounded glands containing central colloid",
+        "Outward papillary projections with stromal cores and thick squamous covering"
+      ],
+      "correct_index": 3,
+      "explanation": "Multiple elongated stromal cores project outward under a thick squamous epithelial covering.",
+      "choice_rationales": [
+        "The surface is prominently papillary and thickened rather than flat and atrophic.",
+        "The dominant pattern is an outward surface proliferation, not small nests separating muscle bundles.",
+        "The projections are solid stromal papillae, not colloid-filled follicles.",
+        "Multiple elongated stromal cores project outward under a thick squamous epithelial covering."
+      ],
+      "question_id": "q-b46869efe0df234e7a4c",
+      "source_id": "s-d12868828175c3acc621",
+      "source_group_id": "g-d704173017ca63e782d3",
+      "variant_id": "v-70654741a75cdd57c8c8",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Exophytic squamous papillary architecture",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.webp",
+      "zoom_image": "assets/zoom/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.png",
+      "original_image": "assets/originals/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.png",
+      "original_filename": "R10/Condyloma Exophytic Papillary Architecture - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 47
+        }
+      ],
+      "visual_clues": [
+        "Elongated stromal cores project above the surface.",
+        "A thick squamous epithelial covering follows each projection."
+      ],
+      "visual_target": "Which architectural pattern is present in this complete low-power squamous lesion panel?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which change dominates the epidermis in this vulvar biopsy?",
+      "options": [
+        "Large pale cells scattered through otherwise preserved epidermis",
+        "A superficial keratin layer packed with fungal filaments",
+        "Acanthosis with elongated downward epithelial ridges",
+        "Epidermal thinning above a broad hyalinized band"
+      ],
+      "correct_index": 2,
+      "explanation": "The squamous epithelium is markedly thickened and extends downward in long rete ridges.",
+      "choice_rationales": [
+        "The dominant change is thickened architecture rather than scattered large pale intraepidermal cells.",
+        "The surface does not show the conspicuous dark filaments that dominate the supplied Candida biopsy.",
+        "The squamous epithelium is markedly thickened and extends downward in long rete ridges.",
+        "The epithelium is thick rather than atrophic and no broad pale subepithelial band dominates."
+      ],
+      "question_id": "q-22c0049449c5698bd9c9",
+      "source_id": "s-d3793453f669cb1d17e8",
+      "source_group_id": "g-890b68d1e9b7e418b806",
+      "variant_id": "v-50db3cfa435d98e23dca",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Acanthosis in squamous hyperplasia",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.webp",
+      "zoom_image": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+      "original_image": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+      "original_filename": "R10/Squamous Hyperplasia - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 43
+        }
+      ],
+      "visual_clues": [
+        "The epidermis is thick, with elongated downward rete ridges.",
+        "This contrasts with the thin epidermis and pale dermal band in the lichen sclerosus example."
+      ],
+      "visual_target": "Which change dominates the epidermis in this vulvar biopsy?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Consider both organism profiles together. Which morphology is demonstrated?",
+      "options": [
+        "A cluster of cells with multiple molded nuclei",
+        "Pear-shaped nucleated organisms with thin projecting extensions",
+        "Budding yeasts joined to branching filaments",
+        "Squamous cells densely covered by fine bacterial forms"
+      ],
+      "correct_index": 1,
+      "explanation": "Both profiles are nucleated, roughly pear-shaped organisms with thin external projections.",
+      "choice_rationales": [
+        "Each profile has a conspicuous nucleus rather than a cluster of molded nuclei.",
+        "Both profiles are nucleated, roughly pear-shaped organisms with thin external projections.",
+        "The profiles are discrete larger organisms rather than budding yeasts along fungal filaments.",
+        "The organisms are separate profiles rather than a fine coat over a squamous cell."
+      ],
+      "question_id": "q-360b0188b3b5074efb17",
+      "source_id": "s-f6c5fed871e6e30bdd0d",
+      "source_group_id": "g-7ade377f2b7993da38ab",
+      "variant_id": "v-ade80d540549f41ed564",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Trichomonas profiles with flagellar extensions",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.webp",
+      "zoom_image": "assets/originals/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.png",
+      "original_image": "assets/originals/e1a6397e500da605e5adc0ffc9f60eb9cdbfce3636f3cd2395478cc4955aa564.png",
+      "original_filename": "R10/Trichomonas vaginalis Morphology - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 25
+        }
+      ],
+      "visual_clues": [
+        "Both profiles are roughly pear shaped and have conspicuous nuclei.",
+        "Thin external projections are visible, but a still image does not establish motility."
+      ],
+      "visual_target": "Consider both organism profiles together. Which morphology is demonstrated?",
+      "joint_panels": true,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "In this vulvar biopsy, where are the conspicuous large pale cells located?",
+      "options": [
+        "Scattered within the squamous epidermis",
+        "Confined to dermal vascular lumina",
+        "Within gland lumina below the epidermis",
+        "Only within the surface keratin"
+      ],
+      "correct_index": 0,
+      "explanation": "The large pale cells are interspersed among smaller squamous cells within the epidermal layer.",
+      "choice_rationales": [
+        "The large pale cells are interspersed among smaller squamous cells within the epidermal layer.",
+        "The pale cells lie in the epithelial compartment rather than within dermal vessels.",
+        "They are among epidermal cells rather than lining or filling deep glands.",
+        "They extend through viable epidermis rather than being limited to surface keratin."
+      ],
+      "question_id": "q-e9beb872fc21106f3610",
+      "source_id": "s-18e8d9096c2d2b10aa56",
+      "source_group_id": "g-c729792c7c7dd5ab1f6a",
+      "variant_id": "v-ad3db49ed6bcb257b619",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Pale atypical cells in the epidermis",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.webp",
+      "zoom_image": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+      "original_image": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+      "original_filename": "R10/Vulvar Paget Cells - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 53
+        }
+      ],
+      "visual_clues": [
+        "Large pale cells interrupt the darker population of epidermal keratinocytes.",
+        "The target is their intraepidermal position, without inferring an unseen mucin stain."
+      ],
+      "visual_target": "In this vulvar biopsy, where are the conspicuous large pale cells located?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Inspect the cells lining the open glandular spaces, especially at the right edge. Which feature is shown?",
+      "options": [
+        "Concentric keratin pearls within solid squamous nests",
+        "Small uniform cells around eosinophilic Call-Exner spaces",
+        "Cells with a single vacuole displacing the nucleus to the edge",
+        "Bulbous nuclei projecting into the lumina as hobnail cells"
+      ],
+      "correct_index": 3,
+      "explanation": "Enlarged nuclei protrude from the lining into the glandular spaces, producing a hobnail contour.",
+      "choice_rationales": [
+        "The spaces are lined by protruding epithelial cells rather than concentric squamous keratin.",
+        "The lining cells have conspicuous protruding nuclei rather than the small uniform cells of Call-Exner formations.",
+        "The dominant feature is projection into a lumen, not peripheral nuclear displacement by a large intracellular vacuole.",
+        "Enlarged nuclei protrude from the lining into the glandular spaces, producing a hobnail contour."
+      ],
+      "question_id": "q-2248afc89054d3f4f92d",
+      "source_id": "s-993a4a76db6059ca4497",
+      "source_group_id": "g-5d95de5b116ba73f0ea1",
+      "variant_id": "v-cc9bb4daba10698c0a0d",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Hobnail cell morphology",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.webp",
+      "zoom_image": "assets/originals/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.png",
+      "original_image": "assets/originals/481911b38101922745ef38f4ea1fa0302462c8c2f9f573d6038dd5a0e6b02836.png",
+      "original_filename": "R12/Clear Cell Carcinoma Hobnail Cells - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 84
+        }
+      ],
+      "visual_clues": [
+        "Bulbous nuclei protrude into the glandular lumina.",
+        "The protruding lining cells are most evident along the right side of the section."
+      ],
+      "visual_target": "Inspect the cells lining the open glandular spaces, especially at the right edge. Which feature is shown?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which combination of features surrounds the elongated gland in this supplied extrauterine tissue section?",
+      "options": [
+        "Large nests of atypical squamous cells",
+        "A predominantly neutrophilic microabscess",
+        "Endometrial-type stroma with recent hemorrhage",
+        "Dense hyalinized collagen without a cellular cuff"
+      ],
+      "correct_index": 2,
+      "explanation": "A densely cellular stromal cuff and adjacent red blood cells surround the endometrial-type gland.",
+      "choice_rationales": [
+        "The tissue beside the gland is finely cellular stroma rather than broad atypical squamous nests.",
+        "The dominant surrounding combination is cellular stroma and red blood cells rather than a localized collection of neutrophils.",
+        "A densely cellular stromal cuff and adjacent red blood cells surround the endometrial-type gland.",
+        "The gland has a conspicuous cellular stromal cuff rather than only dense acellular collagen."
+      ],
+      "question_id": "q-3a584ed4d93cabec739a",
+      "source_id": "s-46267dac97652c1979f8",
+      "source_group_id": "g-5d2e421a1fb02781e20a",
+      "variant_id": "v-f5dd2e88e4dc231c043a",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Endometrial gland stroma and hemorrhage",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.webp",
+      "zoom_image": "assets/zoom/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.png",
+      "original_image": "assets/originals/2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208.png",
+      "original_filename": "R12/Endometriosis - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 59
+        }
+      ],
+      "visual_clues": [
+        "The elongated gland is encircled by densely cellular endometrial-type stroma.",
+        "Red blood cells near the gland provide the hemorrhagic component."
+      ],
+      "visual_target": "Which combination of features surrounds the elongated gland in this supplied extrauterine tissue section?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which named feature is represented by the rounded pink whorls within this cervical tumor?",
+      "options": [
+        "Reinke crystals",
+        "Keratin pearls",
+        "Call-Exner bodies",
+        "Schiller-Duval bodies"
+      ],
+      "correct_index": 1,
+      "explanation": "Concentric layers of eosinophilic keratin form rounded pearls within nests of squamous cells.",
+      "choice_rationales": [
+        "The structures are round laminated deposits rather than elongated intracellular crystals.",
+        "Concentric layers of eosinophilic keratin form rounded pearls within nests of squamous cells.",
+        "These are large laminated squamous whorls, not small spaces ringed by uniform granulosa cells.",
+        "No central vessel surrounded by a glomerulus-like tumor structure defines these whorls."
+      ],
+      "question_id": "q-d148e7c820844c21476e",
+      "source_id": "s-805d330947df150af768",
+      "source_group_id": "g-f30c2ea8a0264605648c",
+      "variant_id": "v-fc92498c66e51c23ce95",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Keratin pearls in a cervical squamous lesion",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.webp",
+      "zoom_image": "assets/originals/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.png",
+      "original_image": "assets/originals/48c6af64901141767ee63a5c090a012c47b43db682c152c80a670c1639f2e6e2.png",
+      "original_filename": "R12/Invasive SCC Cervix - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 28
+        }
+      ],
+      "visual_clues": [
+        "Concentric pink keratin whorls lie within squamous cell nests.",
+        "The rounded laminated centers are the decisive structures."
+      ],
+      "visual_target": "Which named feature is represented by the rounded pink whorls within this cervical tumor?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which description best fits the surface lining in this urinary collecting-system section?",
+      "options": [
+        "Orderly multilayered urothelium with broad superficial cells",
+        "Flat urothelium with marked nuclear pleomorphism throughout",
+        "Keratinizing squamous epithelium with a surface keratin layer",
+        "Papillary urothelial fronds with fibrovascular cores"
+      ],
+      "correct_index": 0,
+      "explanation": "Several orderly cell layers are capped by broad rounded superficial cells without the marked atypia of the supplied CIS example.",
+      "choice_rationales": [
+        "Several orderly cell layers are capped by broad rounded superficial cells without the marked atypia of the supplied CIS example.",
+        "The nuclei lack the striking size variation and disorganization shown in the supplied CIS comparison source.",
+        "A thick keratin layer and squamous maturation pattern are absent from this lining.",
+        "The lining follows a relatively flat surface without branching fibrovascular fronds."
+      ],
+      "question_id": "q-23cbabd7872c4f1b4fae",
+      "source_id": "s-7a38590a71cadfd42816",
+      "source_group_id": "g-10b16cb9ccd089117529",
+      "variant_id": "v-c1c2c42e50fd3fccd365",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Preserved urothelial lining",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.webp",
+      "zoom_image": "assets/originals/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.png",
+      "original_image": "assets/originals/130a2f9142e42bc25b47f63f95766d60e163661bcf4811dbbb39e09dae0c1101.png",
+      "original_filename": "R15/Collecting System Urothelium Histology - Histology (2).png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 7
+        }
+      ],
+      "visual_clues": [
+        "Several orderly epithelial layers line the lumen.",
+        "Broad superficial cells cap the lining, without the marked pleomorphism of the CIS example."
+      ],
+      "visual_target": "Which description best fits the surface lining in this urinary collecting-system section?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "How are the dark tumor nests distributed relative to the broad pink smooth muscle bundles in this bladder specimen?",
+      "options": [
+        "Tumor is confined to a flat luminal epithelial lining",
+        "Tumor forms only delicate papillae around vascular cores",
+        "Tumor floats only within an otherwise empty gland lumen",
+        "Tumor nests infiltrate between and separate muscle bundles"
+      ],
+      "correct_index": 3,
+      "explanation": "Irregular dark nests and cords extend among broad eosinophilic muscle bundles throughout the field.",
+      "choice_rationales": [
+        "The nests extend through the muscle field rather than remaining on a surface epithelial lining.",
+        "There are no delicate exophytic fibrovascular papillae explaining this infiltrative pattern.",
+        "The nests are embedded between muscle bundles, not floating within a gland lumen.",
+        "Irregular dark nests and cords extend among broad eosinophilic muscle bundles throughout the field."
+      ],
+      "question_id": "q-8fd0498140bd8d97530f",
+      "source_id": "s-1be67aad3476dbacd061",
+      "source_group_id": "g-8d190b2a70651a2a0add",
+      "variant_id": "v-1e8acb809c2011c50330",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Urothelial tumor invading muscle bundles",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.webp",
+      "zoom_image": "assets/originals/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.png",
+      "original_image": "assets/originals/ea4ffce21c3a37c4df63afc2e3c5d05bedc38c8cd68063a9417ac6502cabfe72.png",
+      "original_filename": "PDF panel extraction/R15p31xref282.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 31
+        }
+      ],
+      "visual_clues": [
+        "Dark irregular nests and cords are interspersed among broad pink muscle bundles.",
+        "The relevant relationship is invasion of muscle, without assigning a precise stage from this field alone."
+      ],
+      "visual_target": "How are the dark tumor nests distributed relative to the broad pink smooth muscle bundles in this bladder specimen?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which pattern is present in the urothelial lining of this bladder biopsy?",
+      "options": [
+        "Branching papillae with delicate fibrovascular cores",
+        "Tumor nests diffusely infiltrating thick muscle bundles",
+        "Marked cellular atypia in a flat epithelial layer",
+        "Orderly stratification with broad bland superficial cells"
+      ],
+      "correct_index": 2,
+      "explanation": "The flat lining contains enlarged irregular nuclei and disordered cells without an exophytic papillary architecture.",
+      "choice_rationales": [
+        "No branching fibrovascular papillae project from the surface.",
+        "The displayed target is atypia within the flat epithelial layer, not the muscle infiltration shown in the separate invasive specimen.",
+        "The flat lining contains enlarged irregular nuclei and disordered cells without an exophytic papillary architecture.",
+        "The nuclei show striking size variation and loss of orderly maturation rather than a bland umbrella-cell lining."
+      ],
+      "question_id": "q-1c1a70064566a1499235",
+      "source_id": "s-1483ee179e0ca6e5da53",
+      "source_group_id": "g-70a76ce24c7bdef5de54",
+      "variant_id": "v-61d6b55a66abd959efff",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Flat urothelial atypia",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.webp",
+      "zoom_image": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+      "original_image": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+      "original_filename": "R15/Flat Urothelial Carcinoma in Situ Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 30
+        }
+      ],
+      "visual_clues": [
+        "The surface is flat rather than papillary.",
+        "Cells within the lining show enlarged irregular nuclei and marked variation in nuclear size."
+      ],
+      "visual_target": "Which pattern is present in the urothelial lining of this bladder biopsy?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "What do the two black arrows identify in this histiocyte-rich bladder lesion?",
+      "options": [
+        "Reinke crystals",
+        "Michaelis-Gutmann bodies",
+        "Keratin pearls",
+        "Call-Exner bodies"
+      ],
+      "correct_index": 1,
+      "explanation": "The arrows highlight rounded inclusions within the large histiocytic cells, identified by the supplied lecture as Michaelis-Gutmann bodies.",
+      "choice_rationales": [
+        "The arrowed structures are rounded inclusions rather than elongated crystalline rods.",
+        "The arrows highlight rounded inclusions within the large histiocytic cells, identified by the supplied lecture as Michaelis-Gutmann bodies.",
+        "The arrows do not point to concentric layers of keratin within squamous nests.",
+        "No small glandlike space ringed by granulosa cells is present at the arrows."
+      ],
+      "question_id": "q-d1773153dab13844e466",
+      "source_id": "s-cdc0834a2484d28439cb",
+      "source_group_id": "g-9d30b5dd9a0b100c9732",
+      "variant_id": "v-b4e5c24868f874e8ce2c",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Michaelis Gutmann inclusions in histiocytes",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
+      "zoom_image": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
+      "original_image": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
+      "original_filename": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 19
+        }
+      ],
+      "visual_clues": [
+        "Two source arrows localize rounded inclusions within large histiocytic cells.",
+        "The lecture identifies these inclusions as Michaelis-Gutmann bodies."
+      ],
+      "visual_target": "What do the two black arrows identify in this histiocyte-rich bladder lesion?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which description best fits the multiple dark structures in this bladder-associated microscopic panel?",
+      "options": [
+        "Ovoid parasitic eggs",
+        "Branching fungal pseudohyphae",
+        "Bacterial coating on a squamous cell",
+        "Concentric keratin pearls"
+      ],
+      "correct_index": 0,
+      "explanation": "Multiple oval thick-outlined structures with internal material correspond to the Schistosoma egg example in the supplied lecture.",
+      "choice_rationales": [
+        "Multiple oval thick-outlined structures with internal material correspond to the Schistosoma egg example in the supplied lecture.",
+        "The structures are discrete ovoid profiles rather than long branching filaments.",
+        "They are large separate profiles rather than a fine bacterial coat on one epithelial cell.",
+        "The panel lacks the concentric pink squamous whorls of keratin pearls."
+      ],
+      "question_id": "q-3e7d75058268ce8ba3f0",
+      "source_id": "s-5ed12814993139211aa2",
+      "source_group_id": "g-95e272f26e9e4527995e",
+      "variant_id": "v-e901c323d0172a1b3735",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Schistosoma ova in the supplied bladder example",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.webp",
+      "zoom_image": "assets/originals/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.png",
+      "original_image": "assets/originals/20b1ffae7f9c3a7d0d9dbcc8f21cfac63d4049a65d3480625952f4c1361e37e0.png",
+      "original_filename": "R15/Schistosoma haematobium Eggs - Histology.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 40
+        }
+      ],
+      "visual_clues": [
+        "Multiple ovoid structures have distinct outer contours and internal material.",
+        "The panel supports an egg-level target, without a species or spine claim."
+      ],
+      "visual_target": "Which description best fits the multiple dark structures in this bladder-associated microscopic panel?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which abnormality is visible within the contrast-filled uterine cavity on this hysterosalpingogram?",
+      "options": [
+        "A smooth uniformly filled triangular cavity",
+        "Complete absence of uterine contrast filling",
+        "Two separate widely divergent uterine cavities",
+        "Multiple irregular internal filling defects"
+      ],
+      "correct_index": 3,
+      "explanation": "Irregular non-opacified areas interrupt the contrast column within the uterine cavity.",
+      "choice_rationales": [
+        "The internal contrast is interrupted rather than uniformly filling a smooth triangular cavity.",
+        "Contrast clearly enters the uterine cavity despite the internal defects.",
+        "The image shows one irregular cavity rather than two separate divergent cavities.",
+        "Irregular non-opacified areas interrupt the contrast column within the uterine cavity."
+      ],
+      "question_id": "q-9da061b2bda1ffa824c1",
+      "source_id": "s-24decf80b73e3305937d",
+      "source_group_id": "g-d60ce84f60878cdf9407",
+      "variant_id": "v-117ab7055a327a4bc0db",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Intrauterine filling defects on hysterosalpingography",
+      "category": "Radiograph",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "image": "assets/display/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.webp",
+      "zoom_image": "assets/originals/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.png",
+      "original_image": "assets/originals/23ff5036256af3286071439f305ff3dd39b695d3227db330f99337fca0fca751.png",
+      "original_filename": "R19/Asherman Syndrome HSG Filling Defects - Radiograph.png",
+      "citations": [
+        {
+          "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+          "page": 92
+        }
+      ],
+      "visual_clues": [
+        "Irregular non-opacified areas interrupt the contrast column within the uterine cavity."
+      ],
+      "visual_target": "Which abnormality is visible within the contrast-filled uterine cavity on this hysterosalpingogram?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "In this supplied sagittal pelvic MRI, what structural finding is illustrated at the white arrow between the bladder and rectum?",
+      "options": [
+        "A large uterine mass displacing the bladder",
+        "Two separate enlarged uterine bodies",
+        "Absence of an identifiable uterine body in its expected location",
+        "An enlarged uterine body distended by fluid"
+      ],
+      "correct_index": 2,
+      "explanation": "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption.",
+      "choice_rationales": [
+        "No large solid uterine mass occupies the arrowed region or displaces the bladder there.",
+        "The marked region does not show duplicated enlarged uterine bodies.",
+        "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption.",
+        "The marked region does not contain an enlarged fluid-distended uterine body."
+      ],
+      "question_id": "q-2b8bdccc317474991233",
+      "source_id": "s-c1e2cb5b88a62f41967c",
+      "source_group_id": "g-4e945486bbd2a926f6fe",
+      "variant_id": "v-b9334df5060a3851f88f",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Absent uterine body in the supplied sagittal MRI",
+      "category": "Radiograph",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "image": "assets/display/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.webp",
+      "zoom_image": "assets/zoom/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.png",
+      "original_image": "assets/originals/b10d83e8911751d6d42d36d636e4b9c57415554e1ac5e5755c06d7846d6045e0.png",
+      "original_filename": "R19/Mullerian Agenesis MRI Absent Uterus and Vagina - Radiograph.png",
+      "citations": [
+        {
+          "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+          "page": 148
+        }
+      ],
+      "visual_clues": [
+        "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption."
+      ],
+      "visual_target": "In this supplied sagittal pelvic MRI, what structural finding is illustrated at the white arrow between the bladder and rectum?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which description best fits the uterine cavity on this hysterosalpingogram?",
+      "options": [
+        "No contrast entering the uterine cavity",
+        "A single smooth triangular contrast-filled cavity",
+        "A cavity interrupted by multiple irregular filling defects",
+        "Two widely divergent contrast-filled uterine horns"
+      ],
+      "correct_index": 1,
+      "explanation": "Contrast outlines one smooth triangular uterine cavity with tubal contrast visible on both sides.",
+      "choice_rationales": [
+        "The central uterine cavity is clearly filled with contrast.",
+        "Contrast outlines one smooth triangular uterine cavity with tubal contrast visible on both sides.",
+        "The cavity lacks the irregular internal defects shown in the supplied abnormal HSG example.",
+        "The upper cavity is a single continuous triangle rather than two separated divergent horns."
+      ],
+      "question_id": "q-1e19a70c7a81a6763e47",
+      "source_id": "s-758b3536e15c2512e544",
+      "source_group_id": "g-204f4f0133f0522978b7",
+      "variant_id": "v-a778c046ddca9b15f096",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Normal uterine cavity on hysterosalpingography",
+      "category": "Radiograph",
+      "collection": "R19",
+      "source_origin": "lecture",
+      "image": "assets/display/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.webp",
+      "zoom_image": "assets/originals/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.png",
+      "original_image": "assets/originals/6c17fe45051a1563501a6625ae6190dafe3451c63d912b5ede8aaa4586d404db.png",
+      "original_filename": "R19/Normal Hysterosalpingogram - Radiograph.png",
+      "citations": [
+        {
+          "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+          "page": 91
+        }
+      ],
+      "visual_clues": [
+        "Contrast outlines one smooth triangular uterine cavity with tubal contrast visible on both sides."
+      ],
+      "visual_target": "Which description best fits the uterine cavity on this hysterosalpingogram?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Compare panels A and B together. Which difference in the seminiferous epithelium is visible in panel B?",
+      "options": [
+        "Loss of the dense multilayered germ-cell population present in A",
+        "More numerous layers of small germ cells than in A",
+        "Preserved dense germ-cell layers with more luminal sperm",
+        "Expansion of interstitial tissue without a change in germ-cell layers"
+      ],
+      "correct_index": 0,
+      "explanation": "Panel B has markedly fewer germ cells and lacks the dense multilayered population lining the tubule in A.",
+      "choice_rationales": [
+        "Panel B has markedly fewer germ cells and lacks the dense multilayered population lining the tubule in A.",
+        "The lining in B is depleted rather than more densely multilayered.",
+        "Panel B lacks the dense layered germ-cell population seen in A, regardless of luminal contents.",
+        "The most conspicuous difference is within the tubular lining itself, not solely the interstitial tissue."
+      ],
+      "question_id": "q-161227dd6be779561e16",
+      "source_id": "s-1c62c6893430d2562a39",
+      "source_group_id": "g-5b046db3d961b7ec1b15",
+      "variant_id": "v-05801acab1e53a9f46f2",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Seminiferous epithelial depletion in paired panels",
+      "category": "Histology",
+      "collection": "R9",
+      "source_origin": "lecture",
+      "image": "assets/display/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.webp",
+      "zoom_image": "assets/originals/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.png",
+      "original_image": "assets/originals/32747bb4f444fb174964899228e0ffbb517978ed005d091fbd2033381a31062a.png",
+      "original_filename": "R9/Normal vs Atrophic Seminiferous Tubules - Histology.png",
+      "citations": [
+        {
+          "document": "R9 Reproductive Histology RLS.pdf",
+          "page": 39
+        }
+      ],
+      "visual_clues": [
+        "Panel A has a dense multilayered germ-cell population.",
+        "Panel B has a depleted lining. Both panels are required for the comparison."
+      ],
+      "visual_target": "Compare panels A and B together. Which difference in the seminiferous epithelium is visible in panel B?",
+      "joint_panels": true,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
     }
-  ],
-  "bank_id": "pathology"
+  ]
 }

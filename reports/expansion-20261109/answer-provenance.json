@@ -1,0 +1,600 @@
+[
+  {
+    "question_id": "q-d0278e945dcbad4d32f9",
+    "tested_concept": "Androstenedione transfer between ovarian cells",
+    "citations": [
+      {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 22
+      }
+    ],
+    "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The arrow starts at the theca compartment and points into the granulosa compartment."
+    ],
+    "source_library_index": 260
+  },
+  {
+    "question_id": "q-cae0d42d1fc611027802",
+    "tested_concept": "Branched LH signal in the two cell diagram",
+    "citations": [
+      {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 22
+      }
+    ],
+    "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment."
+    ],
+    "source_library_index": 260
+  },
+  {
+    "question_id": "q-d1e5ffdf201a67b44980",
+    "tested_concept": "PDE inhibitor location in the erection pathway",
+    "citations": [
+      {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 18
+      }
+    ],
+    "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP."
+    ],
+    "source_library_index": 840
+  },
+  {
+    "question_id": "q-a440bb111a2894124aba",
+    "tested_concept": "Chromosome set reduction in spermatogenesis",
+    "citations": [
+      {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 8
+      }
+    ],
+    "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The meiosis I arrows connect the primary spermatocytes marked 2N to secondary spermatocytes marked 1N."
+    ],
+    "source_library_index": 858
+  },
+  {
+    "question_id": "q-c6569bfdb433949f84fc",
+    "tested_concept": "Cell number and ploidy during spermiogenesis",
+    "citations": [
+      {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 8
+      }
+    ],
+    "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Four separate arrows connect four immature cells marked 1N to four elongated mature cells also marked 1N."
+    ],
+    "source_library_index": 858
+  },
+  {
+    "question_id": "q-2b4c55f0dbbfcd38f2b8",
+    "tested_concept": "Maternal blood compartment around chorionic villi",
+    "citations": [
+      {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 15
+      }
+    ],
+    "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The maternal arterial inlet empties into the space outside the villous vascular loops."
+    ],
+    "source_library_index": 951
+  },
+  {
+    "question_id": "q-f28c39f507bdb2ea27b2",
+    "tested_concept": "Placental vessel returning toward the fetus",
+    "citations": [
+      {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 15
+      }
+    ],
+    "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The To fetus arrow leaves the red vessel labeled umbilical vein."
+    ],
+    "source_library_index": 951
+  },
+  {
+    "question_id": "q-96485c2e2fc0c6b5ef78",
+    "tested_concept": "Foramen ovale location",
+    "citations": [
+      {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 5
+      }
+    ],
+    "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The leader reaches the interatrial connection with flow directed from the right atrium toward the left atrium."
+    ],
+    "source_library_index": 984
+  },
+  {
+    "question_id": "q-488d7a4302e79dea7b12",
+    "tested_concept": "Ductus arteriosus location",
+    "citations": [
+      {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 5
+      }
+    ],
+    "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The leader points to the connection between the pulmonary trunk and the aortic arch."
+    ],
+    "source_library_index": 984
+  },
+  {
+    "question_id": "q-db8d1bb1839c2f82cc9e",
+    "tested_concept": "Ductus venosus location",
+    "citations": [
+      {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 5
+      }
+    ],
+    "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The leader reaches the channel that carries placental venous blood through the liver region toward the inferior vena cava."
+    ],
+    "source_library_index": 984
+  },
+  {
+    "question_id": "q-527d5512e91fb5bd455b",
+    "tested_concept": "Proton route bypassing ATP synthase",
+    "citations": [
+      {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 13
+      }
+    ],
+    "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling."
+    ],
+    "source_library_index": 997
+  },
+  {
+    "question_id": "q-5cc0b00745866eeec77a",
+    "tested_concept": "Bacterial coating of squamous cells",
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 20
+      }
+    ],
+    "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Fine bacterial forms coat the large central squamous cells.",
+      "Compare their indistinct stippled outlines with the cleaner pale cell at the upper left."
+    ],
+    "source_library_index": 264
+  },
+  {
+    "question_id": "q-b5e8d9012139d2455f1c",
+    "tested_concept": "Fungal elements within superficial keratin",
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 12
+      }
+    ],
+    "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Dark filaments and small yeastlike profiles occupy the superficial pale keratin.",
+      "The viable squamous epithelium forms the darker cellular band beneath the keratin."
+    ],
+    "source_library_index": 276
+  },
+  {
+    "question_id": "q-b46869efe0df234e7a4c",
+    "tested_concept": "Exophytic squamous papillary architecture",
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 47
+      }
+    ],
+    "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Elongated stromal cores project above the surface.",
+      "A thick squamous epithelial covering follows each projection."
+    ],
+    "source_library_index": 281
+  },
+  {
+    "question_id": "q-22c0049449c5698bd9c9",
+    "tested_concept": "Acanthosis in squamous hyperplasia",
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 43
+      }
+    ],
+    "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The epidermis is thick, with elongated downward rete ridges.",
+      "This contrasts with the thin epidermis and pale dermal band in the lichen sclerosus example."
+    ],
+    "source_library_index": 314
+  },
+  {
+    "question_id": "q-360b0188b3b5074efb17",
+    "tested_concept": "Trichomonas profiles with flagellar extensions",
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 25
+      }
+    ],
+    "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Both profiles are roughly pear shaped and have conspicuous nuclei.",
+      "Thin external projections are visible, but a still image does not establish motility."
+    ],
+    "source_library_index": 325
+  },
+  {
+    "question_id": "q-e9beb872fc21106f3610",
+    "tested_concept": "Pale atypical cells in the epidermis",
+    "citations": [
+      {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 53
+      }
+    ],
+    "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Large pale cells interrupt the darker population of epidermal keratinocytes.",
+      "The target is their intraepidermal position, without inferring an unseen mucin stain."
+    ],
+    "source_library_index": 339
+  },
+  {
+    "question_id": "q-2248afc89054d3f4f92d",
+    "tested_concept": "Hobnail cell morphology",
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 84
+      }
+    ],
+    "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Bulbous nuclei protrude into the glandular lumina.",
+      "The protruding lining cells are most evident along the right side of the section."
+    ],
+    "source_library_index": 373
+  },
+  {
+    "question_id": "q-3a584ed4d93cabec739a",
+    "tested_concept": "Endometrial gland stroma and hemorrhage",
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 59
+      }
+    ],
+    "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The elongated gland is encircled by densely cellular endometrial-type stroma.",
+      "Red blood cells near the gland provide the hemorrhagic component."
+    ],
+    "source_library_index": 392
+  },
+  {
+    "question_id": "q-d148e7c820844c21476e",
+    "tested_concept": "Keratin pearls in a cervical squamous lesion",
+    "citations": [
+      {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 28
+      }
+    ],
+    "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Concentric pink keratin whorls lie within squamous cell nests.",
+      "The rounded laminated centers are the decisive structures."
+    ],
+    "source_library_index": 423
+  },
+  {
+    "question_id": "q-23cbabd7872c4f1b4fae",
+    "tested_concept": "Preserved urothelial lining",
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 7
+      }
+    ],
+    "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Several orderly epithelial layers line the lumen.",
+      "Broad superficial cells cap the lining, without the marked pleomorphism of the CIS example."
+    ],
+    "source_library_index": 677
+  },
+  {
+    "question_id": "q-8fd0498140bd8d97530f",
+    "tested_concept": "Urothelial tumor invading muscle bundles",
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 31
+      }
+    ],
+    "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Dark irregular nests and cords are interspersed among broad pink muscle bundles.",
+      "The relevant relationship is invasion of muscle, without assigning a precise stage from this field alone."
+    ],
+    "source_library_index": 684
+  },
+  {
+    "question_id": "q-1c1a70064566a1499235",
+    "tested_concept": "Flat urothelial atypia",
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 30
+      }
+    ],
+    "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The surface is flat rather than papillary.",
+      "Cells within the lining show enlarged irregular nuclei and marked variation in nuclear size."
+    ],
+    "source_library_index": 690
+  },
+  {
+    "question_id": "q-d1773153dab13844e466",
+    "tested_concept": "Michaelis Gutmann inclusions in histiocytes",
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 19
+      }
+    ],
+    "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Two source arrows localize rounded inclusions within large histiocytic cells.",
+      "The lecture identifies these inclusions as Michaelis-Gutmann bodies."
+    ],
+    "source_library_index": 713
+  },
+  {
+    "question_id": "q-3e7d75058268ce8ba3f0",
+    "tested_concept": "Schistosoma ova in the supplied bladder example",
+    "citations": [
+      {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 40
+      }
+    ],
+    "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Multiple ovoid structures have distinct outer contours and internal material.",
+      "The panel supports an egg-level target, without a species or spine claim."
+    ],
+    "source_library_index": 734
+  },
+  {
+    "question_id": "q-9da061b2bda1ffa824c1",
+    "tested_concept": "Intrauterine filling defects on hysterosalpingography",
+    "citations": [
+      {
+        "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": 92
+      }
+    ],
+    "source_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Irregular non-opacified areas interrupt the contrast column within the uterine cavity."
+    ],
+    "source_library_index": 766
+  },
+  {
+    "question_id": "q-2b8bdccc317474991233",
+    "tested_concept": "Absent uterine body in the supplied sagittal MRI",
+    "citations": [
+      {
+        "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": 148
+      }
+    ],
+    "source_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption."
+    ],
+    "source_library_index": 781
+  },
+  {
+    "question_id": "q-1e19a70c7a81a6763e47",
+    "tested_concept": "Normal uterine cavity on hysterosalpingography",
+    "citations": [
+      {
+        "document": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
+        "page": 91
+      }
+    ],
+    "source_document_sha256": "5c108fa697f31af4a367d45a4d6674928cdffae39169e0e1421b471a65d978bc",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Contrast outlines one smooth triangular uterine cavity with tubal contrast visible on both sides."
+    ],
+    "source_library_index": 785
+  },
+  {
+    "question_id": "q-161227dd6be779561e16",
+    "tested_concept": "Seminiferous epithelial depletion in paired panels",
+    "citations": [
+      {
+        "document": "R9 Reproductive Histology RLS.pdf",
+        "page": 39
+      }
+    ],
+    "source_document_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Panel A has a dense multilayered germ-cell population.",
+      "Panel B has a depleted lining. Both panels are required for the comparison."
+    ],
+    "source_library_index": 1083
+  },
+  {
+    "question_id": "q-329ac74667b2f9cd08aa",
+    "tested_concept": "Fibrovascular papillae in an intraductal breast lesion",
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 526
+      }
+    ],
+    "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Branching stromal cores are covered by cohesive epithelial layers.",
+      "Open spaces surround these papillary structures."
+    ],
+    "source_library_index": 55
+  },
+  {
+    "question_id": "q-58d9a2b5510f374b0cf9",
+    "tested_concept": "Single-file stromal infiltration in breast tissue",
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 558
+      }
+    ],
+    "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Small cells form narrow linear rows through the pink fibrous stroma.",
+      "The rows contrast with broad cohesive nests or duct-filling tumor."
+    ],
+    "source_library_index": 57
+  },
+  {
+    "question_id": "q-3dc96e7ecc3e984a04db",
+    "tested_concept": "Leaflike architecture in a breast stromal lesion",
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 532
+      }
+    ],
+    "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Broad stromal fronds bulge into epithelial-lined clefts.",
+      "This is an architectural target and does not establish a tumor grade."
+    ],
+    "source_library_index": 73
+  },
+  {
+    "question_id": "q-5870e4aa826915268881",
+    "tested_concept": "Vessel count in a complete umbilical cord section",
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 222
+      }
+    ],
+    "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "The whole cord circumference is retained.",
+      "Two large vascular profiles are present rather than the usual three-vessel pattern shown in the source context."
+    ],
+    "source_library_index": 91
+  },
+  {
+    "question_id": "q-f74cc70b8f318de257a7",
+    "tested_concept": "Colloid-filled thyroid follicles in an ovarian lesion",
+    "citations": [
+      {
+        "document": "ReproductiveSlides2022-FullSize-1.pdf",
+        "page": 489
+      }
+    ],
+    "source_document_sha256": "2374be1f4e8f456ffb9ddcdf9796d17958e1744a0439f2e215068a7ad34777f2",
+    "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+    "explanation_basis": "Direct visual observations from the individually inspected specimen plus the cited lecture identification. Not a claim that every descriptive sentence is stated verbatim on the slide.",
+    "visual_clues": [
+      "Rounded epithelial-lined follicles contain dense pink colloid.",
+      "The supplied source establishes that this thyroid-type tissue is in an ovarian lesion."
+    ],
+    "source_library_index": 93
+  }
+]

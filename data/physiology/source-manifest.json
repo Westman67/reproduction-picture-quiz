@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "scope": "physiology",
+  "scope": "All available R lectures and supplied supplementary images",
   "review_complete": false,
   "sources": [
     {
@@ -72,6 +72,322 @@
           "type": "Visual interpretation",
           "target": "Endometrial layer preservation",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "lecture_id": "R1",
+      "relative_path": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+      "sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+      "perceptual_hash": "d687b2de09392977",
+      "dimensions": [
+        4722,
+        3415
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Two Cell Two Gonadotropin Hypothesis",
+      "original_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "display_asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "current_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R1 Female Physiology RLS.pdf",
+        "page": "22",
+        "file": "Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+        "slide_title": "Two Cell Two Gonadotropin Hypothesis",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.07",
+        "y0": "0.18",
+        "x1": "0.9",
+        "y1": "0.98",
+        "size": "4722x3415@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+        "pdf_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "LH",
+          "box": [
+            89,
+            306,
+            317,
+            503
+          ]
+        },
+        {
+          "text": "Theca",
+          "box": [
+            1029,
+            238,
+            1523,
+            435
+          ]
+        },
+        {
+          "text": "Cell",
+          "box": [
+            1123,
+            455,
+            1429,
+            651
+          ]
+        },
+        {
+          "text": "Granulosa Cell",
+          "box": [
+            2581,
+            1013,
+            3683,
+            1201
+          ]
+        },
+        {
+          "text": "androstenedione",
+          "box": [
+            1867,
+            407,
+            2862,
+            554
+          ]
+        },
+        {
+          "text": "Blood   Vessel",
+          "box": [
+            1772,
+            2922,
+            2837,
+            3110
+          ]
+        },
+        {
+          "text": "Aromatase converts androstenedione to estrone",
+          "box": [
+            1707,
+            1297,
+            4555,
+            1445
+          ]
+        },
+        {
+          "text": "17 b -HSD converts estrone to estradiol",
+          "box": [
+            2000,
+            1635,
+            4258,
+            1796
+          ]
+        },
+        {
+          "text": "17 b -HSD converts androstenedione to testosterone",
+          "box": [
+            1611,
+            1975,
+            4647,
+            2136
+          ]
+        },
+        {
+          "text": "Aromatase converts testosterone to estradiol",
+          "box": [
+            1807,
+            2148,
+            4450,
+            2295
+          ]
+        },
+        {
+          "text": "estradiol",
+          "box": [
+            3186,
+            2488,
+            3691,
+            2636
+          ]
+        },
+        {
+          "text": "FSH",
+          "box": [
+            4276,
+            306,
+            4631,
+            503
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-067fb173adc9f3d39740",
+          "asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+          "zoom_asset": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              4722,
+              3415
+            ]
+          },
+          "output_dimensions": [
+            4722,
+            3415
+          ],
+          "display_sha256": "0039cad7f697f280a404539822a8041ba26046a6e386811c8fd20b16989eeda8",
+          "zoom_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Theca and granulosa cell cooperation",
+          "full_image_required": true,
+          "conditions": "Select one visual pathway target. Mask only a revealing label in safe diagram space and preserve transport arrows."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Androstenedione transfer between ovarian cells",
+          "variant_id": "v-067fb173adc9f3d39740",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Branched LH signal in the two cell diagram",
+          "variant_id": "v-067fb173adc9f3d39740",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+      "source_id": "s-ade393e39a021284e7de",
+      "source_group_id": "g-fd5d52a09d789cc75793",
+      "lecture_id": "R2",
+      "relative_path": "R2/Mechanism of Penile Erection - Diagram.png",
+      "sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+      "perceptual_hash": "5a1e1e49c99b3c57",
+      "dimensions": [
+        2552,
+        2312
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Mechanism of Penile Erection",
+      "original_asset": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+      "display_asset": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "18",
+        "file": "Mechanism of Penile Erection - Diagram.png",
+        "slide_title": "Mechanism of Penile Erection",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.41",
+        "y0": "0.2",
+        "x1": "0.99",
+        "y1": "0.88",
+        "size": "2552x2312@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "18",
+          "box": [
+            2287,
+            2120,
+            2343,
+            2175
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-c494d36dd43a08fa60f2",
+          "asset": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+          "zoom_asset": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2552,
+              2312
+            ]
+          },
+          "output_dimensions": [
+            2552,
+            2312
+          ],
+          "display_sha256": "8a202a133f85bf0a6034a86ae71abad09ca428ddaf5b65abebd4c2f37697e023",
+          "zoom_sha256": "379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "NO and cGMP erection pathway",
+          "full_image_required": true,
+          "conditions": "Select one pathway step and remove its direct answer label without covering arrows."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "PDE inhibitor location in the erection pathway",
+          "variant_id": "v-c494d36dd43a08fa60f2",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -181,6 +497,353 @@
           "type": "Visual interpretation",
           "target": "Fetal testosterone without spermatogenesis",
           "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
+      "source_id": "s-acab2b86147928f44556",
+      "source_group_id": "g-19013451b0d65c2c10c0",
+      "lecture_id": "R2",
+      "relative_path": "R2/Spermatogenesis Germ Cell Stages - Diagram.png",
+      "sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
+      "perceptual_hash": "07e57c39d0c31e5d",
+      "dimensions": [
+        3344,
+        952
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Spermatogenesis Germ Cell Stages",
+      "original_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+      "display_asset": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "8",
+        "file": "Spermatogenesis Germ Cell Stages - Diagram.png",
+        "slide_title": "Spermatogenesis Germ Cell Stages",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.56",
+        "x1": "0.76",
+        "y1": "0.84",
+        "size": "3344x952@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "1N",
+          "box": [
+            1295,
+            686,
+            1362,
+            759
+          ]
+        },
+        {
+          "text": "Spermatogonium",
+          "box": [
+            51,
+            420,
+            543,
+            491
+          ]
+        },
+        {
+          "text": "( diploid )",
+          "box": [
+            185,
+            505,
+            410,
+            576
+          ]
+        },
+        {
+          "text": "Primary",
+          "box": [
+            692,
+            295,
+            932,
+            366
+          ]
+        },
+        {
+          "text": "Spermatocyte",
+          "box": [
+            692,
+            379,
+            1092,
+            450
+          ]
+        },
+        {
+          "text": "Spermatids",
+          "box": [
+            1671,
+            35,
+            1995,
+            106
+          ]
+        },
+        {
+          "text": "( immature\u00a0haploid\u00a0gametes )",
+          "box": [
+            1671,
+            120,
+            2445,
+            191
+          ]
+        },
+        {
+          "text": "Secondary",
+          "box": [
+            1162,
+            142,
+            1477,
+            213
+          ]
+        },
+        {
+          "text": "Spermatocyte",
+          "box": [
+            1162,
+            226,
+            1561,
+            297
+          ]
+        },
+        {
+          "text": "2N",
+          "box": [
+            323,
+            646,
+            391,
+            720
+          ]
+        },
+        {
+          "text": "2N",
+          "box": [
+            800,
+            524,
+            867,
+            598
+          ]
+        },
+        {
+          "text": "meiosis\u00a0I",
+          "box": [
+            1058,
+            518,
+            1313,
+            589
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1295,
+            363,
+            1362,
+            437
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1766,
+            442,
+            1833,
+            516
+          ]
+        },
+        {
+          "text": "meiosis\u00a0II",
+          "box": [
+            1444,
+            523,
+            1716,
+            594
+          ]
+        },
+        {
+          "text": "Spermatozoa",
+          "box": [
+            2532,
+            36,
+            2914,
+            107
+          ]
+        },
+        {
+          "text": "(mature\u00a0haploid\u00a0gametes)",
+          "box": [
+            2532,
+            120,
+            3220,
+            184
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2424,
+            779,
+            2491,
+            853
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2430,
+            599,
+            2498,
+            672
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2430,
+            418,
+            2498,
+            492
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            2430,
+            238,
+            2498,
+            312
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1769,
+            266,
+            1836,
+            340
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1763,
+            618,
+            1831,
+            692
+          ]
+        },
+        {
+          "text": "1N",
+          "box": [
+            1763,
+            794,
+            1831,
+            867
+          ]
+        },
+        {
+          "text": "2N",
+          "box": [
+            800,
+            763,
+            867,
+            837
+          ]
+        },
+        {
+          "text": "mitosis",
+          "box": [
+            542,
+            644,
+            754,
+            715
+          ]
+        },
+        {
+          "text": "spermiogenesis",
+          "box": [
+            1944,
+            541,
+            2402,
+            612
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-2b286242ac38526c2a58",
+          "asset": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+          "zoom_asset": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3344,
+              952
+            ]
+          },
+          "output_dimensions": [
+            3344,
+            952
+          ],
+          "display_sha256": "240f2f19366966c9b7c60d8e24792e245544609747bffe2df40a26fbf31eea31",
+          "zoom_sha256": "4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Spermatogenesis stage relationships",
+          "full_image_required": true,
+          "conditions": "Preserve the complete branching sequence and ploidy cues. Hide only the tested stage label."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Chromosome set reduction in spermatogenesis",
+          "variant_id": "v-2b286242ac38526c2a58",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Cell number and ploidy during spermiogenesis",
+          "variant_id": "v-2b286242ac38526c2a58",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
     },
@@ -401,6 +1064,347 @@
       ]
     },
     {
+      "asset_id": "a-00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "lecture_id": "R5",
+      "relative_path": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+      "perceptual_hash": "55332d31db79091f",
+      "dimensions": [
+        1573,
+        1100
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Maternal Placental Fetal Unit",
+      "original_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "display_asset": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": "15",
+        "file": "Maternal Placental Fetal Unit - Diagram.png",
+        "slide_title": "Maternal Placental Fetal Unit",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.266",
+        "y0": "0.189",
+        "x1": "0.75",
+        "y1": "0.641",
+        "size": "1573x1100@300dpi",
+        "note": "",
+        "png_sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+        "pdf_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+        "extracted_name": "RLS Slide 15 - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-fd8f78fd0008a8edcacf",
+          "asset": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+          "zoom_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1573,
+              1100
+            ]
+          },
+          "output_dimensions": [
+            1573,
+            1100
+          ],
+          "display_sha256": "b4b223c3745a7efc3475086c63c76eecb51b423e95f52179a10d889b38cc3680",
+          "zoom_sha256": "00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0"
+        },
+        {
+          "variant_id": "v-2bd51742da1ef6bd9774",
+          "asset": "assets/display/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.webp",
+          "zoom_asset": "assets/zoom/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0,
+                0.244,
+                0.211,
+                0.289
+              ],
+              [
+                0,
+                0.289,
+                0.237,
+                0.334
+              ],
+              [
+                0,
+                0.334,
+                0.09,
+                0.378
+              ]
+            ],
+            "reason": "Hide the target annotation only, preserving villi, fetal vessels, maternal inlet, and label leader.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1573,
+              1100
+            ]
+          },
+          "output_dimensions": [
+            1573,
+            1100
+          ],
+          "display_sha256": "2def7b81245157aebbd122a6d6bd0e106ea215e424c8cb2acb2530a75d9c8f86",
+          "zoom_sha256": "d6be096b9da29c4f94fccf0d90763af3bf9e1c83c3c65ae10e17705076d94d75"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Maternal and fetal placental circulation",
+          "full_image_required": true,
+          "conditions": "Preserve the complete maternal and fetal compartments and flow arrows. Hide only the target label."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Maternal blood compartment around chorionic villi",
+          "variant_id": "v-2bd51742da1ef6bd9774",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Placental vessel returning toward the fetus",
+          "variant_id": "v-fd8f78fd0008a8edcacf",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "lecture_id": "R7",
+      "relative_path": "R7/Fetal Circulation - Diagram.png",
+      "sha256": "cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "perceptual_hash": "e493c33913e38ecd",
+      "dimensions": [
+        2728,
+        2414
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Fetal Circulation",
+      "original_asset": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "display_asset": "assets/display/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "5",
+        "file": "Fetal Circulation - Diagram.png",
+        "slide_title": "Fetal Circulation",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.15",
+        "x1": "0.62",
+        "y1": "0.86",
+        "size": "2728x2414@400dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "(PO 2  55-60% O 2  )",
+          "box": [
+            2245,
+            1694,
+            2690,
+            1774
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-19c25195991ebbee1800",
+          "asset": "assets/display/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.webp",
+          "zoom_asset": "assets/zoom/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.12,
+                0.232,
+                0.21,
+                0.257
+              ],
+              [
+                0.13,
+                0.257,
+                0.191,
+                0.278
+              ]
+            ],
+            "reason": "Hide only the foramen ovale text. Preserve the leader, atrial septum, and all other labels.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2728,
+              2414
+            ]
+          },
+          "output_dimensions": [
+            2728,
+            2414
+          ],
+          "display_sha256": "8481fb4dfcaa0169de3d9560c131544a78310e711cf7a7f42e2ffdf0643f6752",
+          "zoom_sha256": "c6c7bd005ae7ed41e229ade4c982440d9b08825510884655d89e9b43443854bd"
+        },
+        {
+          "variant_id": "v-f52242e8ab352d22adfb",
+          "asset": "assets/display/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.webp",
+          "zoom_asset": "assets/zoom/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.595,
+                0.487,
+                0.752,
+                0.513
+              ]
+            ],
+            "reason": "Hide only the ductus venosus annotation in white space. Preserve the liver bypass channel and horizontal leader.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2728,
+              2414
+            ]
+          },
+          "output_dimensions": [
+            2728,
+            2414
+          ],
+          "display_sha256": "3dac8179eeacd3bc6d20baad9b6b8b4529bcfc84c21a8d8fb2879b354743ea40",
+          "zoom_sha256": "e9a1e3fb5da3fb0edfbe760a623850dd8382e2f4dcf83b412cf95f407c0666e6"
+        },
+        {
+          "variant_id": "v-4206821f037d89a276d3",
+          "asset": "assets/display/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.webp",
+          "zoom_asset": "assets/zoom/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "mask_regions": [
+              [
+                0.679,
+                0.128,
+                0.773,
+                0.154
+              ],
+              [
+                0.665,
+                0.154,
+                0.773,
+                0.182
+              ]
+            ],
+            "reason": "Hide only the ductus arteriosus annotation in white space. Preserve the diagonal leader and great-vessel connection.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2728,
+              2414
+            ]
+          },
+          "output_dimensions": [
+            2728,
+            2414
+          ],
+          "display_sha256": "72cec9ff5303cc5f6d5d2a4cce9a44386c36b70f697a351d3d2319e428abccee",
+          "zoom_sha256": "2c7f01c02f5a9bd33d27a546d5eedaca543c6db2f780d48c12d0017c18b03e1d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fetal circulation shunt localization",
+          "full_image_required": true,
+          "conditions": "Preserve connections, direction arrows, and legend. Hide only the tested shunt label."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Foramen ovale location",
+          "variant_id": "v-19c25195991ebbee1800",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Ductus arteriosus location",
+          "variant_id": "v-4206821f037d89a276d3",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Ductus venosus location",
+          "variant_id": "v-f52242e8ab352d22adfb",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-075385c286db6c30e5727f3413ef2dd62a3f95af395672577bc7f160c5142333",
       "source_id": "s-1aea6b2ec22c65f3e713",
       "source_group_id": "g-dd19844f28fd57697223",
@@ -473,6 +1477,100 @@
       ]
     },
     {
+      "asset_id": "a-194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+      "source_id": "s-505b29a9b47453eb2dd4",
+      "source_group_id": "g-0411737b8a59d7d69dc5",
+      "lecture_id": "R7",
+      "relative_path": "R7/UCP1 in Mitochondrial Membrane - Diagram.png",
+      "sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+      "perceptual_hash": "745a52adf0298fd7",
+      "dimensions": [
+        684,
+        535
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "UCP1 in Mitochondrial Membrane",
+      "original_asset": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+      "display_asset": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "13",
+        "file": "UCP1 in Mitochondrial Membrane - Diagram.png",
+        "slide_title": "UCP1 in Mitochondrial Membrane",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.076",
+        "y0": "0.424",
+        "x1": "0.285",
+        "y1": "0.655",
+        "size": "684x535@300dpi",
+        "note": "small unlabeled clip art, no testable content",
+        "png_sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "_Not for quiz/Non-shivering Thermogenesis (NST) via BAT stimulating pathway - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7e8cb9d44294d899b1e0",
+          "asset": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+          "zoom_asset": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              684,
+              535
+            ]
+          },
+          "output_dimensions": [
+            684,
+            535
+          ],
+          "display_sha256": "f4a1d4c96f1939e05a2aa4307b0f753f13739ea1ea6b012ddd88d625baef9c1d",
+          "zoom_sha256": "194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "UCP1 proton return pathway",
+          "full_image_required": true,
+          "conditions": "The full diagram supports a proton return pathway target. Hide the revealing protein name if testing identification. The old clip art note does not describe this figure accurately."
+        },
+        {
+          "supported": "NO",
+          "type": "Unsupported finer diagnosis or repeated task",
+          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Proton route bypassing ATP synthase",
+          "variant_id": "v-7e8cb9d44294d899b1e0",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
       "asset_id": "a-6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4",
       "source_id": "s-bbbe6e7aa9ebdd17f6e1",
       "source_group_id": "g-22dc7fb864b26703a544",
@@ -539,5 +1637,8 @@
       ]
     }
   ],
-  "publication_scope": "Verified active draft only. Unfinished review archive is local."
+  "audit_date": "2026-11-09",
+  "library_png_count": 1127,
+  "bank_version": "2026-11-09-histology-expansion-2",
+  "publication_scope": "Reviewed active questions only. Remaining source review archive stays local."
 }

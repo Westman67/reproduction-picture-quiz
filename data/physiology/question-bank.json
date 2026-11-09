@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-08-review-1",
-  "release_status": "Working review draft; full collection review remains incomplete",
+  "bank_version": "2026-11-09-histology-expansion-2",
+  "release_status": "Reviewed active bank. Full collection target review remains incomplete.",
   "questions": [
     {
       "stem": "Which labeled interval shows a testosterone peak while sperm production remains at baseline?",
@@ -325,7 +325,512 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null
+    },
+    {
+      "stem": "Follow the arrow labeled androstenedione. Which direction does it run between the two ovarian cell compartments?",
+      "options": [
+        "Theca cell to granulosa cell",
+        "Granulosa cell to theca cell",
+        "Theca cell directly to the blood vessel",
+        "Blood vessel directly to theca cell"
+      ],
+      "correct_index": 0,
+      "explanation": "The arrow starts at the theca compartment and points into the granulosa compartment.",
+      "choice_rationales": [
+        "The arrow starts at the theca compartment and points into the granulosa compartment.",
+        "The arrowhead points toward granulosa cells, not back toward theca cells.",
+        "The labeled transfer arrow ends in the granulosa compartment rather than at the blood vessel.",
+        "The arrow starts beside the theca cell rather than inside the blood vessel."
+      ],
+      "question_id": "q-d0278e945dcbad4d32f9",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "variant_id": "v-067fb173adc9f3d39740",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Androstenedione transfer between ovarian cells",
+      "category": "Diagram",
+      "collection": "R1",
+      "source_origin": "lecture",
+      "image": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+      "zoom_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "original_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "original_filename": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+      "citations": [
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 22
+        }
+      ],
+      "visual_clues": [
+        "The arrow starts at the theca compartment and points into the granulosa compartment."
+      ],
+      "visual_target": "Follow the arrow labeled androstenedione. Which direction does it run between the two ovarian cell compartments?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which hormonal signal has arrows directed toward both ovarian cell compartments in this diagram?",
+      "options": [
+        "FSH",
+        "Estradiol",
+        "Androstenedione",
+        "LH"
+      ],
+      "correct_index": 3,
+      "explanation": "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment.",
+      "choice_rationales": [
+        "FSH has a single displayed arrow toward the granulosa compartment.",
+        "Estradiol is shown leaving the granulosa compartment toward the blood vessel.",
+        "Androstenedione is shown transferring between theca and granulosa cells, not signaling to both from outside.",
+        "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment."
+      ],
+      "question_id": "q-cae0d42d1fc611027802",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "variant_id": "v-067fb173adc9f3d39740",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Branched LH signal in the two cell diagram",
+      "category": "Diagram",
+      "collection": "R1",
+      "source_origin": "lecture",
+      "image": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+      "zoom_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "original_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "original_filename": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+      "citations": [
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 22
+        }
+      ],
+      "visual_clues": [
+        "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment."
+      ],
+      "visual_target": "Which hormonal signal has arrows directed toward both ovarian cell compartments in this diagram?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Use the inhibitory bar in the upper right of the pathway. Which conversion does it block?",
+      "options": [
+        "NO delivery to guanylyl cyclase",
+        "Relaxation to increased cavernous blood flow",
+        "cGMP to GMP",
+        "GTP to cGMP"
+      ],
+      "correct_index": 2,
+      "explanation": "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP.",
+      "choice_rationales": [
+        "The NO arrow descends at the left of the smooth muscle compartment, away from the inhibitory bar.",
+        "The downward arrow from relaxation to blood flow has no inhibitory bar.",
+        "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP.",
+        "GTP to cGMP is the separate left-hand arrow beneath guanylyl cyclase."
+      ],
+      "question_id": "q-d1e5ffdf201a67b44980",
+      "source_id": "s-ade393e39a021284e7de",
+      "source_group_id": "g-fd5d52a09d789cc75793",
+      "variant_id": "v-c494d36dd43a08fa60f2",
+      "question_type": "Visual interpretation",
+      "tested_concept": "PDE inhibitor location in the erection pathway",
+      "category": "Diagram",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "image": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+      "zoom_image": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+      "original_image": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+      "original_filename": "R2/Mechanism of Penile Erection - Diagram.png",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_clues": [
+        "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP."
+      ],
+      "visual_target": "Use the inhibitory bar in the upper right of the pathway. Which conversion does it block?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "At which labeled step does the branching sequence first change from cells marked 2N to cells marked 1N?",
+      "options": [
+        "Spermiogenesis",
+        "Meiosis I",
+        "Mitosis",
+        "Meiosis II"
+      ],
+      "correct_index": 1,
+      "explanation": "The meiosis I arrows connect the primary spermatocytes marked 2N to secondary spermatocytes marked 1N.",
+      "choice_rationales": [
+        "The cells remain labeled 1N during the final change into mature sperm.",
+        "The meiosis I arrows connect the primary spermatocytes marked 2N to secondary spermatocytes marked 1N.",
+        "The mitotic branch connects cells that all retain the displayed 2N label.",
+        "Both sides of the meiosis II branch are already labeled 1N."
+      ],
+      "question_id": "q-a440bb111a2894124aba",
+      "source_id": "s-acab2b86147928f44556",
+      "source_group_id": "g-19013451b0d65c2c10c0",
+      "variant_id": "v-2b286242ac38526c2a58",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Chromosome set reduction in spermatogenesis",
+      "category": "Diagram",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "image": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+      "zoom_image": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+      "original_image": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+      "original_filename": "R2/Spermatogenesis Germ Cell Stages - Diagram.png",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 8
+        }
+      ],
+      "visual_clues": [
+        "The meiosis I arrows connect the primary spermatocytes marked 2N to secondary spermatocytes marked 1N."
+      ],
+      "visual_target": "At which labeled step does the branching sequence first change from cells marked 2N to cells marked 1N?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Compare the spermatids with the mature sperm at the far right. What happens across the spermiogenesis arrows?",
+      "options": [
+        "Four 1N cells become four 1N cells with mature sperm morphology",
+        "Two 2N cells divide into four 1N cells",
+        "Four 1N cells fuse into two 2N cells",
+        "One 2N cell divides into two 2N cells"
+      ],
+      "correct_index": 0,
+      "explanation": "Four separate arrows connect four immature cells marked 1N to four elongated mature cells also marked 1N.",
+      "choice_rationales": [
+        "Four separate arrows connect four immature cells marked 1N to four elongated mature cells also marked 1N.",
+        "The spermiogenesis arrows start after the meiotic branches, when all four cells already carry 1N labels.",
+        "No fusion arrows appear and the mature cells remain separate and labeled 1N.",
+        "The one-to-two branch between 2N cells is at the left, not at the spermiogenesis step."
+      ],
+      "question_id": "q-c6569bfdb433949f84fc",
+      "source_id": "s-acab2b86147928f44556",
+      "source_group_id": "g-19013451b0d65c2c10c0",
+      "variant_id": "v-2b286242ac38526c2a58",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Cell number and ploidy during spermiogenesis",
+      "category": "Diagram",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "image": "assets/display/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.webp",
+      "zoom_image": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+      "original_image": "assets/originals/4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4.png",
+      "original_filename": "R2/Spermatogenesis Germ Cell Stages - Diagram.png",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 8
+        }
+      ],
+      "visual_clues": [
+        "Four separate arrows connect four immature cells marked 1N to four elongated mature cells also marked 1N."
+      ],
+      "visual_target": "Compare the spermatids with the mature sperm at the far right. What happens across the spermiogenesis arrows?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "The upper left compartment label is hidden. Which space surrounds the villous fetal vessels and receives the maternal arterial inflow?",
+      "options": [
+        "Fetal capillary lumen within a villus",
+        "Umbilical vein lumen",
+        "Umbilical artery lumen",
+        "Intervillous space"
+      ],
+      "correct_index": 3,
+      "explanation": "The maternal arterial inlet empties into the space outside the villous vascular loops.",
+      "choice_rationales": [
+        "The fetal vessels remain within the branching villi rather than forming the surrounding maternal blood space.",
+        "The umbilical vein is a discrete vessel at the fetal side, not the space around the villi.",
+        "The umbilical arteries are paired vessels entering the fetal villous circulation, not the surrounding space.",
+        "The maternal arterial inlet empties into the space outside the villous vascular loops."
+      ],
+      "question_id": "q-2b4c55f0dbbfcd38f2b8",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "variant_id": "v-2bd51742da1ef6bd9774",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Maternal blood compartment around chorionic villi",
+      "category": "Diagram",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "image": "assets/display/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.webp",
+      "zoom_image": "assets/zoom/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.png",
+      "original_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 15
+        }
+      ],
+      "visual_clues": [
+        "The maternal arterial inlet empties into the space outside the villous vascular loops."
+      ],
+      "visual_target": "The upper left compartment label is hidden. Which space surrounds the villous fetal vessels and receives the maternal arterial inflow?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Follow the flow arrow marked To fetus at the lower left. Which umbilical vessel does that arrow leave?",
+      "options": [
+        "Maternal artery",
+        "Maternal vein",
+        "Umbilical vein",
+        "Umbilical arteries"
+      ],
+      "correct_index": 2,
+      "explanation": "The To fetus arrow leaves the red vessel labeled umbilical vein.",
+      "choice_rationales": [
+        "The maternal arterial inflow is at the upper maternal side of the figure.",
+        "The maternal venous return is marked To mother at the top of the figure.",
+        "The To fetus arrow leaves the red vessel labeled umbilical vein.",
+        "The paired blue umbilical arteries are associated with the From fetus arrows."
+      ],
+      "question_id": "q-f28c39f507bdb2ea27b2",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "variant_id": "v-fd8f78fd0008a8edcacf",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Placental vessel returning toward the fetus",
+      "category": "Diagram",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "image": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+      "zoom_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "original_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 15
+        }
+      ],
+      "visual_clues": [
+        "The To fetus arrow leaves the red vessel labeled umbilical vein."
+      ],
+      "visual_target": "Follow the flow arrow marked To fetus at the lower left. Which umbilical vessel does that arrow leave?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "The label beside the horizontal leader into the atrial septum is hidden. Which fetal shunt is indicated?",
+      "options": [
+        "Umbilical vein",
+        "Foramen ovale",
+        "Ductus arteriosus",
+        "Ductus venosus"
+      ],
+      "correct_index": 1,
+      "explanation": "The leader reaches the interatrial connection with flow directed from the right atrium toward the left atrium.",
+      "choice_rationales": [
+        "The umbilical vein approaches the liver from the placenta, far below the atrial septum.",
+        "The leader reaches the interatrial connection with flow directed from the right atrium toward the left atrium.",
+        "The ductus arteriosus is the separate connection between the pulmonary trunk and aorta above the heart.",
+        "The ductus venosus is the channel in the liver region below the heart."
+      ],
+      "question_id": "q-96485c2e2fc0c6b5ef78",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "variant_id": "v-19c25195991ebbee1800",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Foramen ovale location",
+      "category": "Diagram",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "image": "assets/display/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.webp",
+      "zoom_image": "assets/zoom/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.png",
+      "original_image": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "original_filename": "R7/Fetal Circulation - Diagram.png",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 5
+        }
+      ],
+      "visual_clues": [
+        "The leader reaches the interatrial connection with flow directed from the right atrium toward the left atrium."
+      ],
+      "visual_target": "The label beside the horizontal leader into the atrial septum is hidden. Which fetal shunt is indicated?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "The upper right shunt label is hidden. Which connection is reached by its diagonal leader above the heart?",
+      "options": [
+        "Ductus arteriosus",
+        "Foramen ovale",
+        "Ductus venosus",
+        "Umbilical artery"
+      ],
+      "correct_index": 0,
+      "explanation": "The leader points to the connection between the pulmonary trunk and the aortic arch.",
+      "choice_rationales": [
+        "The leader points to the connection between the pulmonary trunk and the aortic arch.",
+        "The foramen ovale lies within the atrial septum rather than between the great vessels.",
+        "The ductus venosus lies in the liver region below the heart.",
+        "The umbilical arteries run toward the placenta at the lower part of the diagram."
+      ],
+      "question_id": "q-488d7a4302e79dea7b12",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "variant_id": "v-4206821f037d89a276d3",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Ductus arteriosus location",
+      "category": "Diagram",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "image": "assets/display/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.webp",
+      "zoom_image": "assets/zoom/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.png",
+      "original_image": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "original_filename": "R7/Fetal Circulation - Diagram.png",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 5
+        }
+      ],
+      "visual_clues": [
+        "The leader points to the connection between the pulmonary trunk and the aortic arch."
+      ],
+      "visual_target": "The upper right shunt label is hidden. Which connection is reached by its diagonal leader above the heart?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "The shunt label in the liver region is hidden. Which channel is indicated by the horizontal leader between the left hepatic vein and aorta labels?",
+      "options": [
+        "Ductus arteriosus",
+        "Foramen ovale",
+        "Umbilical artery",
+        "Ductus venosus"
+      ],
+      "correct_index": 3,
+      "explanation": "The leader reaches the channel that carries placental venous blood through the liver region toward the inferior vena cava.",
+      "choice_rationales": [
+        "The ductus arteriosus connects the pulmonary trunk and aorta above the heart.",
+        "The foramen ovale is the interatrial connection inside the heart.",
+        "The umbilical arteries leave the lower fetal circulation toward the placenta rather than bypassing the liver.",
+        "The leader reaches the channel that carries placental venous blood through the liver region toward the inferior vena cava."
+      ],
+      "question_id": "q-db8d1bb1839c2f82cc9e",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "variant_id": "v-f52242e8ab352d22adfb",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Ductus venosus location",
+      "category": "Diagram",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "image": "assets/display/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.webp",
+      "zoom_image": "assets/zoom/d9bf105ad244927f6caffc9859b03e0ed4b9c981a69a6d1da881fc7cfc108b61.png",
+      "original_image": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "original_filename": "R7/Fetal Circulation - Diagram.png",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 5
+        }
+      ],
+      "visual_clues": [
+        "The leader reaches the channel that carries placental venous blood through the liver region toward the inferior vena cava."
+      ],
+      "visual_target": "The shunt label in the liver region is hidden. Which channel is indicated by the horizontal leader between the left hepatic vein and aorta labels?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Compare the central UCP1 route with ATP synthase at the left. Which relationship is drawn?",
+      "options": [
+        "UCP1 carries oxygen directly to water",
+        "UCP1 is drawn as the ATP-producing head of ATP synthase",
+        "Protons can return across the membrane without passing through ATP synthase",
+        "All returning protons must pass through ATP synthase"
+      ],
+      "correct_index": 2,
+      "explanation": "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling.",
+      "choice_rationales": [
+        "The oxygen to water step is drawn at the respiratory chain on the right, not at UCP1.",
+        "ATP synthase is the separate left-hand complex with the ATP label beneath it.",
+        "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling.",
+        "A second inward proton route is shown through the central channel."
+      ],
+      "question_id": "q-527d5512e91fb5bd455b",
+      "source_id": "s-505b29a9b47453eb2dd4",
+      "source_group_id": "g-0411737b8a59d7d69dc5",
+      "variant_id": "v-7e8cb9d44294d899b1e0",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Proton route bypassing ATP synthase",
+      "category": "Diagram",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "image": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+      "zoom_image": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+      "original_image": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+      "original_filename": "R7/UCP1 in Mitochondrial Membrane - Diagram.png",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 13
+        }
+      ],
+      "visual_clues": [
+        "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling."
+      ],
+      "visual_target": "Compare the central UCP1 route with ATP synthase at the left. Which relationship is drawn?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
     }
-  ],
-  "bank_id": "physiology"
+  ]
 }
