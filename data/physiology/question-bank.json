@@ -1,0 +1,331 @@
+{
+  "schema_version": 2,
+  "title": "Reproduction Picture Quiz",
+  "bank_version": "2026-11-08-review-1",
+  "release_status": "Working review draft; full collection review remains incomplete",
+  "questions": [
+    {
+      "stem": "Which labeled interval shows a testosterone peak while sperm production remains at baseline?",
+      "options": [
+        "Interval c",
+        "Interval d",
+        "Interval a",
+        "Interval b"
+      ],
+      "correct_index": 2,
+      "explanation": "Interval a contains the fetal testosterone peak without a corresponding rise in the blue sperm-production curve.",
+      "choice_rationales": [
+        "Both curves rise through interval c.",
+        "Both curves are high in interval d.",
+        "Interval a contains the fetal testosterone peak without a corresponding rise in the blue sperm-production curve.",
+        "Interval b is the low childhood interval."
+      ],
+      "tested_concept": "Fetal testosterone without spermatogenesis",
+      "question_id": "q-e2b73e2d9c23b9c305b2",
+      "source_id": "s-4f8605f40c0606074905",
+      "source_group_id": "g-4419f99d91fa111aff78",
+      "variant_id": "v-a4e67e097c180aea643e",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "image": "assets/display/a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659.webp",
+      "zoom_image": "assets/originals/a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659.png",
+      "original_image": "assets/originals/a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659.png",
+      "original_filename": "R2/Plasma Testosterone and Sperm Production Across Lifespan - Diagram.png",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 24
+        }
+      ],
+      "visual_clues": [
+        "Interval a contains the fetal testosterone peak without a corresponding rise in the blue sperm-production curve."
+      ],
+      "visual_target": "Which labeled interval shows a testosterone peak while sperm production remains at baseline?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "How does estrogen excretion change after the point marked menopause on this graph?",
+      "options": [
+        "Falls immediately to zero",
+        "Declines toward a low plateau",
+        "Continues with large cyclic peaks",
+        "Rises steadily to its lifetime maximum"
+      ],
+      "correct_index": 1,
+      "explanation": "The red curve falls after menopause and then levels off above zero.",
+      "choice_rationales": [
+        "The final segment remains above the zero baseline.",
+        "The red curve falls after menopause and then levels off above zero.",
+        "Large repeated peaks occur before menopause.",
+        "The postmenopausal segment slopes downward."
+      ],
+      "tested_concept": "Postmenopausal estrogen trajectory",
+      "question_id": "q-5b908de6c57d5c183aff",
+      "source_id": "s-2bca46ebc3b5fca40b06",
+      "source_group_id": "g-c91065199d6eb818143d",
+      "variant_id": "v-4f8df3f59ca9778e8c10",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "image": "assets/display/4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff.webp",
+      "zoom_image": "assets/originals/4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff.png",
+      "original_image": "assets/originals/4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff.png",
+      "original_filename": "R4/Estrone Excretion Across Lifespan - Diagram.png",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 7
+        }
+      ],
+      "visual_clues": [
+        "The red curve falls after menopause and then levels off above zero."
+      ],
+      "visual_target": "How does estrogen excretion change after the point marked menopause on this graph?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which curve peaks in the first trimester and then falls to a lower plateau?",
+      "options": [
+        "Human chorionic gonadotropin",
+        "Progesterone",
+        "Estrogens",
+        "All three curves"
+      ],
+      "correct_index": 0,
+      "explanation": "The red hCG curve peaks near weeks 10 to 12 and falls while the other two rise later.",
+      "choice_rationales": [
+        "The red hCG curve peaks near weeks 10 to 12 and falls while the other two rise later.",
+        "The black progesterone curve rises through much of pregnancy.",
+        "The blue estrogen curve rises markedly in later pregnancy.",
+        "Only the red curve has the large early peak."
+      ],
+      "tested_concept": "Pregnancy hormone timing",
+      "question_id": "q-fd5ceb7b3656ded73051",
+      "source_id": "s-fb80b9844e2ab41c596c",
+      "source_group_id": "g-30d4a3847b1a7fada26f",
+      "variant_id": "v-881d8934f4bad82b95a0",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "image": "assets/display/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.webp",
+      "zoom_image": "assets/originals/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.png",
+      "original_image": "assets/originals/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.png",
+      "original_filename": "R5/Hormone Levels During Pregnancy - Diagram.png",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 24
+        }
+      ],
+      "visual_clues": [
+        "The red hCG curve peaks near weeks 10 to 12 and falls while the other two rise later."
+      ],
+      "visual_target": "Which curve peaks in the first trimester and then falls to a lower plateau?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Between which adjacent stages does the plotted pulmonary vascular resistance fall most sharply?",
+      "options": [
+        "Newborn to infant",
+        "Infant to adult",
+        "Resistance rises at every transition",
+        "Fetus to newborn"
+      ],
+      "correct_index": 3,
+      "explanation": "The first segment has the largest downward slope, from about 200 to about 60 arbitrary units.",
+      "choice_rationales": [
+        "This segment falls only modestly compared with the first.",
+        "The final segment has a smaller decline.",
+        "Every plotted segment slopes downward.",
+        "The first segment has the largest downward slope, from about 200 to about 60 arbitrary units."
+      ],
+      "tested_concept": "Pulmonary vascular resistance at birth",
+      "question_id": "q-f8d93208cc2de47bcbc9",
+      "source_id": "s-1aea6b2ec22c65f3e713",
+      "source_group_id": "g-dd19844f28fd57697223",
+      "variant_id": "v-075385c286db6c30e572",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "image": "assets/display/075385c286db6c30e5727f3413ef2dd62a3f95af395672577bc7f160c5142333.webp",
+      "zoom_image": "assets/originals/075385c286db6c30e5727f3413ef2dd62a3f95af395672577bc7f160c5142333.png",
+      "original_image": "assets/originals/075385c286db6c30e5727f3413ef2dd62a3f95af395672577bc7f160c5142333.png",
+      "original_filename": "R7/Pulmonary Vascular Resistance Fetus to Adult - Diagram.png",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 6
+        }
+      ],
+      "visual_clues": [
+        "The first segment has the largest downward slope, from about 200 to about 60 arbitrary units."
+      ],
+      "visual_target": "Between which adjacent stages does the plotted pulmonary vascular resistance fall most sharply?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which layer is retained when the drawn endometrium sheds during menstruation?",
+      "options": [
+        "Basal layer",
+        "Entire functional layer",
+        "Both layers are lost completely",
+        "Neither layer changes"
+      ],
+      "correct_index": 0,
+      "explanation": "The basal band remains continuous while the tall functional layer breaks down at the menstrual intervals.",
+      "choice_rationales": [
+        "The basal band remains continuous while the tall functional layer breaks down at the menstrual intervals.",
+        "The functional layer visibly thins and sheds.",
+        "The basal band remains in the drawing.",
+        "The upper contour changes substantially across the cycle."
+      ],
+      "tested_concept": "Endometrial layer preservation",
+      "question_id": "q-e5f4ce6000a934b4486c",
+      "source_id": "s-c00307597f84470ea8e0",
+      "source_group_id": "g-0f84b72b224950232653",
+      "variant_id": "v-6cdae41c29263246fb2e",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R1",
+      "source_origin": "lecture",
+      "image": "assets/display/6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39.webp",
+      "zoom_image": "assets/originals/6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39.png",
+      "original_image": "assets/originals/6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39.png",
+      "original_filename": "R1/Menstrual Cycle of the Uterine Endometrium - Diagram.png",
+      "citations": [
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 30
+        }
+      ],
+      "visual_clues": [
+        "The basal band remains continuous while the tall functional layer breaks down at the menstrual intervals."
+      ],
+      "visual_target": "Which layer is retained when the drawn endometrium sheds during menstruation?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which lifespan interval contains the prolonged lowest gonadotropin activity in this schematic?",
+      "options": [
+        "Gestation",
+        "Adult reproductive period",
+        "Senescence",
+        "Childhood"
+      ],
+      "correct_index": 3,
+      "explanation": "The red line is lowest over the extended childhood interval, between the infant peak and pubertal rise.",
+      "choice_rationales": [
+        "Gestation includes a large early peak.",
+        "The adult female curve has repeated peaks.",
+        "Both senescent curves rise above their preceding baselines.",
+        "The red line is lowest over the extended childhood interval, between the infant peak and pubertal rise."
+      ],
+      "tested_concept": "Childhood gonadotropin quiescence",
+      "question_id": "q-1e04ee2cbe77578045fd",
+      "source_id": "s-b5d106778c439860f43c",
+      "source_group_id": "g-2a22925846985faa9291",
+      "variant_id": "v-b94c5262131af825d009",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R3",
+      "source_origin": "lecture",
+      "image": "assets/display/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.webp",
+      "zoom_image": "assets/originals/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.png",
+      "original_image": "assets/originals/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.png",
+      "original_filename": "R3/LH and FSH Secretion Throughout Life - Diagram.png",
+      "citations": [
+        {
+          "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+          "page": 20
+        }
+      ],
+      "visual_clues": [
+        "The red line is lowest over the extended childhood interval, between the infant peak and pubertal rise."
+      ],
+      "visual_target": "Which lifespan interval contains the prolonged lowest gonadotropin activity in this schematic?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which cell type forms the flattened outer layer surrounding the illustrated secretory epithelium?",
+      "options": [
+        "Adipocytes",
+        "Vascular endothelial cells",
+        "Myoepithelial cells",
+        "Milk-secreting luminal cells"
+      ],
+      "correct_index": 2,
+      "explanation": "Flattened elongated cells wrap around the outside of the cuboidal secretory epithelial ring, the position of myoepithelial cells in the supplied lecture.",
+      "choice_rationales": [
+        "The illustrated outer cells are elongated, not large lipid-filled adipocytes.",
+        "They surround the secretory unit rather than lining a blood vessel.",
+        "Flattened elongated cells wrap around the outside of the cuboidal secretory epithelial ring, the position of myoepithelial cells in the supplied lecture.",
+        "The luminal cells are the taller inner ring bordering the blue cavity."
+      ],
+      "tested_concept": "Mammary myoepithelial layer",
+      "question_id": "q-a23143c7183bbad50dcd",
+      "source_id": "s-bbbe6e7aa9ebdd17f6e1",
+      "source_group_id": "g-22dc7fb864b26703a544",
+      "variant_id": "v-6588d6a0d2024598fd35",
+      "question_type": "Visual interpretation",
+      "category": "Diagram",
+      "collection": "R6",
+      "source_origin": "lecture",
+      "image": "assets/display/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.webp",
+      "zoom_image": "assets/originals/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.png",
+      "original_image": "assets/originals/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.png",
+      "original_filename": "PDF panel extraction/R6.png",
+      "citations": [
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 10
+        }
+      ],
+      "visual_clues": [
+        "Flattened elongated cells wrap around the outside of the cuboidal secretory epithelial ring, the position of myoepithelial cells in the supplied lecture."
+      ],
+      "visual_target": "Which cell type forms the flattened outer layer surrounding the illustrated secretory epithelium?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    }
+  ],
+  "bank_id": "physiology"
+}

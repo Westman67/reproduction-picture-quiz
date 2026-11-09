@@ -1,0 +1,1370 @@
+{
+  "schema_version": 2,
+  "scope": "pathology",
+  "review_complete": false,
+  "sources": [
+    {
+      "asset_id": "a-7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540",
+      "source_id": "s-6b06c08afb745b08a6c8",
+      "source_group_id": "g-1de090a8f1f3c58f6e02",
+      "lecture_id": "R10",
+      "relative_path": "R10/Candida Pseudohyphae Pap Smear - Histology.png",
+      "sha256": "7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540",
+      "perceptual_hash": "8c66929cf9a396f5",
+      "dimensions": [
+        1373,
+        911
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Candida Pseudohyphae Pap Smear",
+      "original_asset": "assets/originals/7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540.png",
+      "display_asset": "assets/display/7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "13",
+        "file": "Candida Pseudohyphae Pap Smear - Histology.png",
+        "slide_title": "Candida Pseudohyphae Pap Smear",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.547",
+        "y0": "0.136",
+        "x1": "0.964",
+        "y1": "0.503",
+        "size": "1373x911@300dpi",
+        "note": "",
+        "png_sha256": "7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "CANDIDA IN TISSUE BIOPSIES - Diagram (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7992deee4442086bf775",
+          "asset": "assets/display/7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1373,
+              911
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Candida pseudohyphae",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313",
+      "source_id": "s-e2746f85a31dbe9904de",
+      "source_group_id": "g-36b149d256c5fa6f7f7f",
+      "lecture_id": "R10",
+      "relative_path": "R10/HSV Pap Smear Multinucleation - Histology.png",
+      "sha256": "8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313",
+      "perceptual_hash": "8cdbf82381f1c63d",
+      "dimensions": [
+        1999,
+        1339
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "HSV Pap Smear Multinucleation",
+      "original_asset": "assets/originals/8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313.png",
+      "display_asset": "assets/display/8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 35
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "35",
+        "file": "HSV Pap Smear Multinucleation - Histology.png",
+        "slide_title": "HSV Pap Smear Multinucleation",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.012",
+        "y0": "0.315",
+        "x1": "0.619",
+        "y1": "0.842",
+        "size": "1999x1339@300dpi",
+        "note": "",
+        "png_sha256": "8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "HERPES SIMPLEX - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-8b61d912e9bca6bcaa2d",
+          "asset": "assets/display/8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1999,
+              1339
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Herpetic multinucleation and molding",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c",
+      "source_id": "s-c16db3d77db7ae02fa59",
+      "source_group_id": "g-fbda0daa0c26a909bc91",
+      "lecture_id": "R10",
+      "relative_path": "R10/Vulvar Lichen Sclerosus Histology - Histology.png",
+      "sha256": "c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c",
+      "perceptual_hash": "9323af072aca6b2b",
+      "dimensions": [
+        1032,
+        824
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Vulvar Lichen Sclerosus Histology",
+      "original_asset": "assets/originals/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.png",
+      "display_asset": "assets/display/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 42
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "42",
+        "file": "Vulvar Lichen Sclerosus Histology - Histology.png",
+        "slide_title": "Vulvar Lichen Sclerosus Histology",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.663",
+        "y0": "0.524",
+        "x1": "0.976",
+        "y1": "0.847",
+        "size": "1032x824@300dpi",
+        "note": "",
+        "png_sha256": "c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "BARTHOLIN CYST - Histology (3).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c3f88901c86bc983fe28",
+          "asset": "assets/display/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1032,
+              824
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Lichen sclerosus morphology",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027",
+      "source_id": "s-4fb4e8925cc77acafd44",
+      "source_group_id": "g-9c21eabf7d7177f5b816",
+      "lecture_id": "R12",
+      "relative_path": "R12/Adenomyosis - Histology.png",
+      "sha256": "a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027",
+      "perceptual_hash": "3a56d4e505857b93",
+      "dimensions": [
+        1653,
+        1209
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Adenomyosis",
+      "original_asset": "assets/originals/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.png",
+      "display_asset": "assets/display/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 58
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "58",
+        "file": "Adenomyosis - Histology.png",
+        "slide_title": "Adenomyosis",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.431",
+        "y0": "0.338",
+        "x1": "0.932",
+        "y1": "0.812",
+        "size": "1653x1209@300dpi",
+        "note": "",
+        "png_sha256": "a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "UTERINE SMOOTH MUSCLE TUMORS Adenomyosis - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-a7607cf3973b2f96e2f4",
+          "asset": "assets/display/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1653,
+              1209
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Adenomyosis morphology",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79",
+      "source_id": "s-942d79c22486729c346e",
+      "source_group_id": "g-a1ae8c257ad3c97df2ab",
+      "lecture_id": "R12",
+      "relative_path": "R12/Granulosa Cell Tumor - Histology.png",
+      "sha256": "056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79",
+      "perceptual_hash": "4f46f406f4bcd0f3",
+      "dimensions": [
+        1028,
+        1548
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Granulosa Cell Tumor",
+      "original_asset": "assets/originals/056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79.png",
+      "display_asset": "assets/display/056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 105
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "105",
+        "file": "Granulosa Cell Tumor - Histology.png",
+        "slide_title": "Granulosa Cell Tumor",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.007",
+        "y0": "0.24",
+        "x1": "0.318",
+        "y1": "0.846",
+        "size": "1028x1548@300dpi",
+        "note": "",
+        "png_sha256": "056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Granulosa Cell Tumor - Histology (4).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-056928916a3c13bc2f53",
+          "asset": "assets/display/056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1028,
+              1548
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Call-Exner bodies",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00",
+      "source_id": "s-1cd0d8102d9547ef4110",
+      "source_group_id": "g-a1d7b369c16abd8e19bd",
+      "lecture_id": "R12",
+      "relative_path": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png",
+      "sha256": "25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00",
+      "perceptual_hash": "f1c5874cf1d14307",
+      "dimensions": [
+        1560,
+        1100
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Krukenberg Tumor Signet Ring Cells",
+      "original_asset": "assets/originals/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.png",
+      "display_asset": "assets/display/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 109
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "109",
+        "file": "Krukenberg Tumor Signet Ring Cells - Histology.png",
+        "slide_title": "Krukenberg Tumor Signet Ring Cells",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "split",
+        "x0": "0.46",
+        "y0": "0.425",
+        "x1": "0.933",
+        "y1": "0.856",
+        "size": "1560x1100@300dpi",
+        "note": "",
+        "png_sha256": "25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Metastatic Ovarian Cancer - Histology (3).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-25182158bf91bcbe1f6f",
+          "asset": "assets/display/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1560,
+              1100
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Signet-ring morphology",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0",
+      "source_id": "s-bee9bfae304412c2a1ec",
+      "source_group_id": "g-a80687358fdfe7fc9a11",
+      "lecture_id": "R12",
+      "relative_path": "R12/Reinke Crystalloids - Histology.png",
+      "sha256": "2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0",
+      "perceptual_hash": "03a776680eddb833",
+      "dimensions": [
+        896,
+        714
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Reinke Crystalloids",
+      "original_asset": "assets/originals/2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0.png",
+      "display_asset": "assets/display/2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 106
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "106",
+        "file": "Reinke Crystalloids - Histology.png",
+        "slide_title": "Reinke Crystalloids",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.728",
+        "y0": "0.544",
+        "x1": "0.999",
+        "y1": "0.824",
+        "size": "896x714@300dpi",
+        "note": "",
+        "png_sha256": "2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Virilizing Sex Cord Tumors - Histology (3).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-2e9973ad047c9ff1002f",
+          "asset": "assets/display/2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              896,
+              714
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Reinke crystals",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4",
+      "source_id": "s-948d8125d0aad617d5a3",
+      "source_group_id": "g-dce861ade6becd2b590e",
+      "lecture_id": "R12",
+      "relative_path": "R12/Yolk Sac Tumor Schiller-Duval Body - Histology.png",
+      "sha256": "18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4",
+      "perceptual_hash": "4d7676d604fc1283",
+      "dimensions": [
+        1792,
+        1193
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Yolk Sac Tumor Schiller-Duval Body",
+      "original_asset": "assets/originals/18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4.png",
+      "display_asset": "assets/display/18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 97
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "97",
+        "file": "Yolk Sac Tumor Schiller-Duval Body - Histology.png",
+        "slide_title": "Yolk Sac Tumor Schiller-Duval Body",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.432",
+        "y0": "0.616",
+        "x1": "0.704",
+        "y1": "0.85",
+        "size": "1792x1193@600dpi",
+        "note": "",
+        "png_sha256": "18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Embryonal Carcinoma - Histology (5).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-18d4c414b592a4f80e3f",
+          "asset": "assets/display/18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1792,
+              1193
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Schiller-Duval body",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407",
+      "source_id": "s-8db598db944dae03b981",
+      "source_group_id": "g-eece7dbda2294229e325",
+      "lecture_id": "R13",
+      "relative_path": "R13/Functional Hypogonadotropic Hypogonadism HPG Axis - Diagram.png",
+      "sha256": "d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407",
+      "perceptual_hash": "d03d7cf238e8381d",
+      "dimensions": [
+        1440,
+        1807
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Functional  Hypogonadotropic  Hypogonadism",
+      "original_asset": "assets/originals/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.png",
+      "display_asset": "assets/display/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R13 Puberty:Transgender Health RLS.pdf",
+        "page": 37
+      },
+      "source_document_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+      "current_document_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R13 Puberty:Transgender Health RLS.pdf",
+        "page": "37",
+        "file": "Functional Hypogonadotropic Hypogonadism HPG Axis - Diagram.png",
+        "slide_title": "Functional  Hypogonadotropic  Hypogonadism",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.406",
+        "y0": "0.313",
+        "x1": "0.765",
+        "y1": "0.915",
+        "size": "1440x1807@400dpi",
+        "note": "",
+        "png_sha256": "d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407",
+        "pdf_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d7004596b6079d2732c0",
+          "asset": "assets/display/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1440,
+              1807
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Central HPG axis impairment",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d",
+      "source_id": "s-8105c60b45881b70511e",
+      "source_group_id": "g-eece7dbda2294229e325",
+      "lecture_id": "R13",
+      "relative_path": "R13/Hypergonadotropic Hypogonadism HPG Axis - Diagram.png",
+      "sha256": "030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d",
+      "perceptual_hash": "d03d7cf238e0391d",
+      "dimensions": [
+        1473,
+        1851
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Gonadal Insufficiency: Hypergonadotropic  Hypogonadism",
+      "original_asset": "assets/originals/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.png",
+      "display_asset": "assets/display/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R13 Puberty:Transgender Health RLS.pdf",
+        "page": 41
+      },
+      "source_document_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+      "current_document_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R13 Puberty:Transgender Health RLS.pdf",
+        "page": "41",
+        "file": "Hypergonadotropic Hypogonadism HPG Axis - Diagram.png",
+        "slide_title": "Gonadal Insufficiency: Hypergonadotropic  Hypogonadism",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.564",
+        "y0": "0.307",
+        "x1": "0.932",
+        "y1": "0.924",
+        "size": "1473x1851@400dpi",
+        "note": "",
+        "png_sha256": "030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d",
+        "pdf_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-030cdc58925353faa0a9",
+          "asset": "assets/display/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1473,
+              1851
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Primary gonadal HPG axis impairment",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78",
+      "source_id": "s-3bac125627cfb1c551bc",
+      "source_group_id": "g-a924ef7cade544280725",
+      "lecture_id": "R13",
+      "relative_path": "R13/Sequence of Pubertal Events by Sex - Diagram.png",
+      "sha256": "0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78",
+      "perceptual_hash": "f7f609600e07e535",
+      "dimensions": [
+        3500,
+        2023
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Sequence of Secondary  Sex Characteristics",
+      "original_asset": "assets/originals/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.png",
+      "display_asset": "assets/display/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R13 Puberty:Transgender Health RLS.pdf",
+        "page": 26
+      },
+      "source_document_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+      "current_document_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R13 Puberty:Transgender Health RLS.pdf",
+        "page": "26",
+        "file": "Sequence of Pubertal Events by Sex - Diagram.png",
+        "slide_title": "Sequence of Secondary  Sex Characteristics",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.062",
+        "y0": "0.274",
+        "x1": "0.938",
+        "y1": "0.948",
+        "size": "3500x2023@400dpi",
+        "note": "",
+        "png_sha256": "0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78",
+        "pdf_sha256": "7504fa6c45124c1539d5be60c8f19158c8f5ddbc8dfccab61b26e5524e37be19",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-0b55f06923f02b8cd12a",
+          "asset": "assets/display/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3500,
+              2023
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Sex comparison of pubertal growth spurts",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+      "source_id": "s-b0eca288e181646319c6",
+      "source_group_id": "g-acfb802fa6b62d8fb710",
+      "lecture_id": "R14.1",
+      "relative_path": "R14.1/Fetal Station - Diagram.png",
+      "sha256": "ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+      "perceptual_hash": "4e8766199cc37967",
+      "dimensions": [
+        3207,
+        2196
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Fetal Station - Diagram",
+      "original_asset": "assets/originals/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.png",
+      "display_asset": "assets/display/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "current_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": "25",
+        "file": "Fetal Station - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.344",
+        "y0": "0.135",
+        "x1": "0.945",
+        "y1": "0.867",
+        "size": "3207x2196@400dpi",
+        "note": "",
+        "png_sha256": "ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+        "pdf_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ccdc348bbdcf6b771662",
+          "asset": "assets/display/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3207,
+              2196
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fetal station at the ischial spines",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17",
+      "source_id": "s-6b0a8c592db890d56be5",
+      "source_group_id": "g-89873b411907df862e5e",
+      "lecture_id": "R14.2",
+      "relative_path": "R14.2/Timing of Pubertal Events Girls and Boys - Diagram.png",
+      "sha256": "86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17",
+      "perceptual_hash": "e666c5520dce2d67",
+      "dimensions": [
+        3356,
+        4262
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Timing of Pubertal Events Girls and Boys - Diagram",
+      "original_asset": "assets/originals/86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17.png",
+      "display_asset": "assets/display/86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R14.2 Puberty Case Study RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "0ebc805b3b07e2a4f9f09a3ad845e6c1643b83c01754e1868f3fdca32eca2855",
+      "current_document_sha256": "0ebc805b3b07e2a4f9f09a3ad845e6c1643b83c01754e1868f3fdca32eca2855",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R14.2 Puberty Case Study RLS.pdf",
+        "page": "4",
+        "file": "Timing of Pubertal Events Girls and Boys - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.292",
+        "y0": "0.025",
+        "x1": "0.711",
+        "y1": "0.972",
+        "size": "3356x4262@400dpi",
+        "note": "presenter cursor baked into the source raster over the girls chart",
+        "png_sha256": "86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17",
+        "pdf_sha256": "0ebc805b3b07e2a4f9f09a3ad845e6c1643b83c01754e1868f3fdca32eca2855",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-86eb4070d24105ceecd3",
+          "asset": "assets/display/86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3356,
+              4262
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Sequence of pubertal event ranges",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218",
+      "source_id": "s-db6f0947a0d32b9deca8",
+      "source_group_id": "g-b62553ae0a96c4eef04f",
+      "lecture_id": "R20",
+      "relative_path": "R20/DVT Rate with Oral Contraceptives and Factor V Leiden - Diagram.png",
+      "sha256": "ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218",
+      "perceptual_hash": "4c5b52a4a5ad5b53",
+      "dimensions": [
+        1467,
+        1773
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "\u2022   Estrogen  \uf0e9  risk of VTE in pre-menopausal women.",
+      "original_asset": "assets/originals/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.png",
+      "display_asset": "assets/display/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 41
+      },
+      "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
+      "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "document_hash_matches": false,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": "41",
+        "file": "DVT Rate with Oral Contraceptives and Factor V Leiden - Diagram.png",
+        "slide_title": "\u2022   Estrogen  \uf0e9  risk of VTE in pre-menopausal women.",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.521",
+        "y0": "0.185",
+        "x1": "0.887",
+        "y1": "0.776",
+        "size": "1467x1773@400dpi",
+        "note": "",
+        "png_sha256": "ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218",
+        "pdf_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ae62652e6b134b21203f",
+          "asset": "assets/display/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1467,
+              1773
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Interpreting the supplied DVT rate chart",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924",
+      "source_id": "s-f8852e25de3a0dc53e05",
+      "source_group_id": "g-49c3b1f6eaca24a6bfe6",
+      "lecture_id": "R20",
+      "relative_path": "R20/ER Alpha Nuclear Immunostaining - Histology.png",
+      "sha256": "83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924",
+      "perceptual_hash": "3521e95d8523cfdd",
+      "dimensions": [
+        1987,
+        1528
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "ER Alpha Nuclear Immunostaining - Histology",
+      "original_asset": "assets/originals/83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924.png",
+      "display_asset": "assets/display/83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
+      "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "document_hash_matches": false,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": "10",
+        "file": "ER Alpha Nuclear Immunostaining - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "native",
+        "x0": "0.203",
+        "y0": "-0.033",
+        "x1": "0.865",
+        "y1": "0.644",
+        "size": "1987x1528",
+        "note": "native image extracted (62 ppi) and upscaled to 300 ppi, overlapping slide text removed",
+        "png_sha256": "83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924",
+        "pdf_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-83bb8febba0a90efd924",
+          "asset": "assets/display/83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1987,
+              1528
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Nuclear immunostaining localization",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246",
+      "source_id": "s-2606b79db47557de0ff7",
+      "source_group_id": "g-39ffe14ff36af266e330",
+      "lecture_id": "R8",
+      "relative_path": "R8/Complete and Partial Double Ureter - Gross.png",
+      "sha256": "028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246",
+      "perceptual_hash": "0fb92ba60d4dd153",
+      "dimensions": [
+        1596,
+        1012
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Complete and Partial Double Ureter",
+      "original_asset": "assets/originals/028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246.png",
+      "display_asset": "assets/display/028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
+      "current_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": "7",
+        "file": "Complete and Partial Double Ureter - Gross.png",
+        "slide_title": "Complete and Partial Double Ureter",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.228",
+        "y0": "0.575",
+        "x1": "0.804",
+        "y1": "0.84",
+        "size": "1596x1012@350dpi",
+        "note": "textbook figure, photos only per request; panels D and E of Figure 16.9; caption calls them photomicrographs, type is a best fit",
+        "png_sha256": "028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246",
+        "pdf_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-028cd5e5cfbb4b3c802e",
+          "asset": "assets/display/028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1596,
+              1012
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Complete versus partial ureteral duplication",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c",
+      "source_id": "s-d56531ba44451b89cf38",
+      "source_group_id": "g-8ad2bea348638e8d049a",
+      "lecture_id": "R8",
+      "relative_path": "R8/Horseshoe Kidney - Gross.png",
+      "sha256": "16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c",
+      "perceptual_hash": "61237b6da5c91afd",
+      "dimensions": [
+        810,
+        1174
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Horseshoe Kidney",
+      "original_asset": "assets/originals/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.png",
+      "display_asset": "assets/display/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
+      "current_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": "9",
+        "file": "Horseshoe Kidney - Gross.png",
+        "slide_title": "Horseshoe Kidney",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.204",
+        "y0": "0.365",
+        "x1": "0.496",
+        "y1": "0.673",
+        "size": "810x1174@349dpi",
+        "note": "textbook figure, photos only per request; panel C of Figure 16.11",
+        "png_sha256": "16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c",
+        "pdf_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-16e5d084d51e64f7e582",
+          "asset": "assets/display/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              810,
+              1174
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Horseshoe kidney",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498",
+      "source_id": "s-c7f5cd445a31fb5d20cf",
+      "source_group_id": "g-63487edd1b46320c1a04",
+      "lecture_id": "R9",
+      "relative_path": "R9/Atretic Follicles - Histology.png",
+      "sha256": "4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498",
+      "perceptual_hash": "423ce1cbc6ec365b",
+      "dimensions": [
+        947,
+        1302
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Atretic Follicles",
+      "original_asset": "assets/originals/4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498.png",
+      "display_asset": "assets/display/4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R9 Reproductive Histology RLS.pdf",
+        "page": 21
+      },
+      "source_document_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+      "current_document_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R9 Reproductive Histology RLS.pdf",
+        "page": "21",
+        "file": "Atretic Follicles - Histology.png",
+        "slide_title": "Atretic Follicles",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.045",
+        "y0": "0.25",
+        "x1": "0.282",
+        "y1": "0.828",
+        "size": "947x1302@300dpi",
+        "note": "",
+        "png_sha256": "4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498",
+        "pdf_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
+        "extracted_name": "Atretic follicles 3-5 week fetal \u2013 2000 oogonia 5-6 mo. Fetal \u2013 6-7x10 6 Birth \u2013 approx. 1x10 6 oocytes - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-4df3166d6df9981020b9",
+          "asset": "assets/display/4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              947,
+              1302
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Atretic follicles",
+          "full_image_required": true
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d",
+      "source_id": "s-4d5e41940ec7883a9c08",
+      "source_group_id": "g-3b05dd84f82ba7e0a8fa",
+      "lecture_id": "R11",
+      "relative_path": "PDF panel extraction/R11.png",
+      "sha256": "ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d",
+      "perceptual_hash": "6b984de0168afee5",
+      "dimensions": [
+        750,
+        650
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "R11",
+      "original_asset": "assets/originals/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.png",
+      "display_asset": "assets/display/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
+        "page": 36
+      },
+      "source_document_sha256": "4878aa02fae65d4f42eb10d85e718782120fc08f588e684b98c8a720fbc3276f",
+      "current_document_sha256": "4878aa02fae65d4f42eb10d85e718782120fc08f588e684b98c8a720fbc3276f",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
+        "page": "36",
+        "pdf_sha256": "4878aa02fae65d4f42eb10d85e718782120fc08f588e684b98c8a720fbc3276f",
+        "type": "Ultrasound",
+        "lecture_id": "R11",
+        "extraction_box_pdf_points": [
+          465,
+          115,
+          715,
+          331.5
+        ]
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ae103f6b7855e077911f",
+          "asset": "assets/display/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              750,
+              650
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Ovarian follicle ultrasound appearance",
+          "full_image_required": true
+        }
+      ]
+    }
+  ],
+  "publication_scope": "Verified active draft only. Unfinished review archive is local."
+}

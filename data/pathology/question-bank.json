@@ -1,0 +1,886 @@
+{
+  "schema_version": 2,
+  "title": "Reproduction Picture Quiz",
+  "bank_version": "2026-11-08-review-1",
+  "release_status": "Working review draft; full collection review remains incomplete",
+  "questions": [
+    {
+      "stem": "Compare both panels. Which relationship between the growth spurt and gonadal development is plotted?",
+      "options": [
+        "The two peaks occur at the same age",
+        "Both peaks occur before gonadal development begins",
+        "Female peak height velocity occurs earlier in age than the male peak",
+        "Male peak height velocity occurs earlier in age than the female peak"
+      ],
+      "correct_index": 2,
+      "explanation": "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14.",
+      "choice_rationales": [
+        "The maxima occupy different ages.",
+        "The gonadal-development bars begin before the curve maxima.",
+        "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14.",
+        "The male peak sits farther right on its age axis."
+      ],
+      "tested_concept": "Sex comparison of pubertal growth spurts",
+      "panels": "joint",
+      "question_id": "q-252e47be5fa40a7c23ee",
+      "source_id": "s-3bac125627cfb1c551bc",
+      "source_group_id": "g-a924ef7cade544280725",
+      "variant_id": "v-0b55f06923f02b8cd12a",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R13",
+      "source_origin": "lecture",
+      "image": "assets/display/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.webp",
+      "zoom_image": "assets/originals/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.png",
+      "original_image": "assets/originals/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.png",
+      "original_filename": "R13/Sequence of Pubertal Events by Sex - Diagram.png",
+      "citations": [
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 26
+        }
+      ],
+      "visual_clues": [
+        "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14."
+      ],
+      "visual_target": "Compare both panels. Which relationship between the growth spurt and gonadal development is plotted?",
+      "joint_panels": true,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Using both panels, which pair of plotted ranges has the earliest left boundary for its sex?",
+      "options": [
+        "Underarm hair in girls and body-shape change in boys",
+        "Breast budding in girls and growth of scrotum/testes in boys",
+        "Menarche in girls and growth spurt in boys",
+        "Adult breast size in girls and facial hair in boys"
+      ],
+      "correct_index": 1,
+      "explanation": "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel.",
+      "choice_rationales": [
+        "These ranges also start later on their respective axes.",
+        "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel.",
+        "Both selected ranges begin later than the earliest bars.",
+        "These bars begin well after the earliest changes."
+      ],
+      "tested_concept": "Sequence of pubertal event ranges",
+      "panels": "joint",
+      "question_id": "q-bc32cbf267435fae96db",
+      "source_id": "s-6b0a8c592db890d56be5",
+      "source_group_id": "g-89873b411907df862e5e",
+      "variant_id": "v-86eb4070d24105ceecd3",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R14.2",
+      "source_origin": "lecture",
+      "image": "assets/display/86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17.webp",
+      "zoom_image": "assets/originals/86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17.png",
+      "original_image": "assets/originals/86eb4070d24105ceecd3b4b927337259c6c10d33910508fefcd31922cc4c5c17.png",
+      "original_filename": "R14.2/Timing of Pubertal Events Girls and Boys - Diagram.png",
+      "citations": [
+        {
+          "document": "R14.2 Puberty Case Study RLS.pdf",
+          "page": 4
+        }
+      ],
+      "visual_clues": [
+        "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel."
+      ],
+      "visual_target": "Using both panels, which pair of plotted ranges has the earliest left boundary for its sex?",
+      "joint_panels": true,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "What station corresponds to the head contour whose presenting point lies on the red line connecting the ischial spines?",
+      "options": [
+        "0 station",
+        "Minus 3 station",
+        "Plus 3 station",
+        "Plus 5 station"
+      ],
+      "correct_index": 0,
+      "explanation": "The red line joining the ischial spines defines zero; the contour at that line is station 0.",
+      "choice_rationales": [
+        "The red line joining the ischial spines defines zero; the contour at that line is station 0.",
+        "Minus 3 lies above the line.",
+        "Plus 3 lies below the line.",
+        "Plus 5 is near the outlet, well below the line."
+      ],
+      "tested_concept": "Fetal station at the ischial spines",
+      "question_id": "q-e4aa906e785617cd7cb1",
+      "source_id": "s-b0eca288e181646319c6",
+      "source_group_id": "g-acfb802fa6b62d8fb710",
+      "variant_id": "v-ccdc348bbdcf6b771662",
+      "question_type": "Visual interpretation",
+      "category": "Diagram",
+      "collection": "R14.1",
+      "source_origin": "lecture",
+      "image": "assets/display/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.webp",
+      "zoom_image": "assets/originals/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.png",
+      "original_image": "assets/originals/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.png",
+      "original_filename": "R14.1/Fetal Station - Diagram.png",
+      "citations": [
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 25
+        }
+      ],
+      "visual_clues": [
+        "The red line joining the ischial spines defines zero; the contour at that line is station 0."
+      ],
+      "visual_target": "What station corresponds to the head contour whose presenting point lies on the red line connecting the ischial spines?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Where is the positive brown immunostaining located in this field?",
+      "options": [
+        "Exclusively along cell membranes",
+        "Only in extracellular stroma",
+        "Only inside glandular lumina",
+        "Predominantly in nuclei"
+      ],
+      "correct_index": 3,
+      "explanation": "Brown staining occupies rounded nuclear profiles among blue unstained nuclei.",
+      "choice_rationales": [
+        "There are no continuous brown rings outlining cell membranes.",
+        "The brown signal is concentrated in cells rather than stromal matrix.",
+        "The signal is not confined to empty glandular spaces.",
+        "Brown staining occupies rounded nuclear profiles among blue unstained nuclei."
+      ],
+      "tested_concept": "Nuclear immunostaining localization",
+      "question_id": "q-aa8e402115dc3e729c21",
+      "source_id": "s-f8852e25de3a0dc53e05",
+      "source_group_id": "g-49c3b1f6eaca24a6bfe6",
+      "variant_id": "v-83bb8febba0a90efd924",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "image": "assets/display/83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924.webp",
+      "zoom_image": "assets/originals/83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924.png",
+      "original_image": "assets/originals/83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924.png",
+      "original_filename": "R20/ER Alpha Nuclear Immunostaining - Histology.png",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 10
+        }
+      ],
+      "visual_clues": [
+        "Brown staining occupies rounded nuclear profiles among blue unstained nuclei."
+      ],
+      "visual_target": "Where is the positive brown immunostaining located in this field?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "According to this supplied chart, how does the rate with both exposures compare with the rate with neither exposure?",
+      "options": [
+        "Approximately fivefold higher",
+        "Lower",
+        "More than thirtyfold higher",
+        "Approximately equal"
+      ],
+      "correct_index": 2,
+      "explanation": "The displayed rates are 28.5 and 0.8 per 10,000 person-years, giving a ratio of 35.63. This is interpretation of the supplied figure, not a current risk estimate.",
+      "choice_rationales": [
+        "A fivefold increase would be much smaller than the ratio shown.",
+        "The combined-exposure bar is the tallest.",
+        "The displayed rates are 28.5 and 0.8 per 10,000 person-years, giving a ratio of 35.63. This is interpretation of the supplied figure, not a current risk estimate.",
+        "The bars differ greatly in height."
+      ],
+      "tested_concept": "Interpreting the supplied DVT rate chart",
+      "question_id": "q-b18865c8701eb5eab8ee",
+      "source_id": "s-db6f0947a0d32b9deca8",
+      "source_group_id": "g-b62553ae0a96c4eef04f",
+      "variant_id": "v-ae62652e6b134b21203f",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "image": "assets/display/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.webp",
+      "zoom_image": "assets/originals/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.png",
+      "original_image": "assets/originals/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.png",
+      "original_filename": "R20/DVT Rate with Oral Contraceptives and Factor V Leiden - Diagram.png",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 41
+        }
+      ],
+      "visual_clues": [
+        "The displayed rates are 28.5 and 0.8 per 10,000 person-years, giving a ratio of 35.63. This is interpretation of the supplied figure, not a current risk estimate."
+      ],
+      "visual_target": "According to this supplied chart, how does the rate with both exposures compare with the rate with neither exposure?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which organism form crosses the squamous cells in this smear?",
+      "options": [
+        "Intracellular viral nuclear inclusions",
+        "Branching fungal pseudohyphae",
+        "A carpet of coccobacilli obscuring cell borders",
+        "Pear-shaped flagellated protozoa"
+      ],
+      "correct_index": 1,
+      "explanation": "Long branching filamentous forms cross and entangle squamous cells, the pseudohyphal pattern described for Candida in the lecture.",
+      "choice_rationales": [
+        "The structures extend across the field outside nuclei.",
+        "Long branching filamentous forms cross and entangle squamous cells, the pseudohyphal pattern described for Candida in the lecture.",
+        "The prominent structures are long filaments rather than a bacterial coating.",
+        "No discrete pear-shaped organisms with axostyles are the dominant finding."
+      ],
+      "tested_concept": "Candida pseudohyphae",
+      "question_id": "q-0d244a6e80f19a13809f",
+      "source_id": "s-6b06c08afb745b08a6c8",
+      "source_group_id": "g-1de090a8f1f3c58f6e02",
+      "variant_id": "v-7992deee4442086bf775",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540.webp",
+      "zoom_image": "assets/originals/7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540.png",
+      "original_image": "assets/originals/7992deee4442086bf7751ef6e1979114910a00ead79be1bcaea6ac721a648540.png",
+      "original_filename": "R10/Candida Pseudohyphae Pap Smear - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 13
+        }
+      ],
+      "visual_clues": [
+        "Long branching filamentous forms cross and entangle squamous cells, the pseudohyphal pattern described for Candida in the lecture."
+      ],
+      "visual_target": "Which organism form crosses the squamous cells in this smear?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which combination of nuclear changes is most evident in the large blue cells?",
+      "options": [
+        "Multinucleation with nuclear molding",
+        "Perinuclear halos around isolated nuclei",
+        "Peripheral nuclei displaced by mucin",
+        "Longitudinal grooves in isolated nuclei"
+      ],
+      "correct_index": 0,
+      "explanation": "Multiple enlarged nuclei crowd together and mold against one another in individual cells.",
+      "choice_rationales": [
+        "Multiple enlarged nuclei crowd together and mold against one another in individual cells.",
+        "The dominant change is crowded multinucleation rather than a halo around one nucleus.",
+        "Large cytoplasmic mucin vacuoles are absent.",
+        "The nuclei crowd and mold rather than showing isolated longitudinal clefts."
+      ],
+      "tested_concept": "Herpetic multinucleation and molding",
+      "question_id": "q-e4981618058d5cfafb67",
+      "source_id": "s-e2746f85a31dbe9904de",
+      "source_group_id": "g-36b149d256c5fa6f7f7f",
+      "variant_id": "v-8b61d912e9bca6bcaa2d",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313.webp",
+      "zoom_image": "assets/originals/8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313.png",
+      "original_image": "assets/originals/8b61d912e9bca6bcaa2d13a12f6f1242a40645b4dab436a2babdbe8465902313.png",
+      "original_filename": "R10/HSV Pap Smear Multinucleation - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 35
+        }
+      ],
+      "visual_clues": [
+        "Multiple enlarged nuclei crowd together and mold against one another in individual cells."
+      ],
+      "visual_target": "Which combination of nuclear changes is most evident in the large blue cells?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which pattern in this vulvar biopsy best supports lichen sclerosus?",
+      "options": [
+        "Marked acanthosis with long rete ridges",
+        "Papillary squamous fronds with koilocytes",
+        "Invasive keratinizing nests",
+        "Pale superficial dermal sclerosis beneath thinned epithelium"
+      ],
+      "correct_index": 3,
+      "explanation": "A broad pale sclerotic band lies beneath a relatively thin surface epithelium, with inflammation deeper in the dermis.",
+      "choice_rationales": [
+        "The epidermis is relatively thin rather than markedly acanthotic.",
+        "Exophytic papillary fronds are absent.",
+        "No infiltrating nests with keratin pearls are shown.",
+        "A broad pale sclerotic band lies beneath a relatively thin surface epithelium, with inflammation deeper in the dermis."
+      ],
+      "tested_concept": "Lichen sclerosus morphology",
+      "question_id": "q-041224110b45eaf147f0",
+      "source_id": "s-c16db3d77db7ae02fa59",
+      "source_group_id": "g-fbda0daa0c26a909bc91",
+      "variant_id": "v-c3f88901c86bc983fe28",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.webp",
+      "zoom_image": "assets/originals/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.png",
+      "original_image": "assets/originals/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.png",
+      "original_filename": "R10/Vulvar Lichen Sclerosus Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 42
+        }
+      ],
+      "visual_clues": [
+        "A broad pale sclerotic band lies beneath a relatively thin surface epithelium, with inflammation deeper in the dermis."
+      ],
+      "visual_target": "Which pattern in this vulvar biopsy best supports lichen sclerosus?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "In this section of uterine muscle, which finding supports adenomyosis?",
+      "options": [
+        "Malignant squamous nests with keratin pearls",
+        "Chorionic villi inside a blood-filled space",
+        "Endometrial glands and stroma embedded in myometrium",
+        "Only interlacing smooth-muscle fascicles"
+      ],
+      "correct_index": 2,
+      "explanation": "Islands of endometrial-type glands and dark stroma interrupt the surrounding pink smooth-muscle bundles.",
+      "choice_rationales": [
+        "The islands are glands with stroma, not keratinizing squamous nests.",
+        "No villous branching structures are shown.",
+        "Islands of endometrial-type glands and dark stroma interrupt the surrounding pink smooth-muscle bundles.",
+        "Glandular and stromal islands are clearly present within the muscle."
+      ],
+      "tested_concept": "Adenomyosis morphology",
+      "question_id": "q-b7ec5e932aa86c92d6b7",
+      "source_id": "s-4fb4e8925cc77acafd44",
+      "source_group_id": "g-9c21eabf7d7177f5b816",
+      "variant_id": "v-a7607cf3973b2f96e2f4",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.webp",
+      "zoom_image": "assets/originals/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.png",
+      "original_image": "assets/originals/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.png",
+      "original_filename": "R12/Adenomyosis - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 58
+        }
+      ],
+      "visual_clues": [
+        "Islands of endometrial-type glands and dark stroma interrupt the surrounding pink smooth-muscle bundles."
+      ],
+      "visual_target": "In this section of uterine muscle, which finding supports adenomyosis?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which named structure is visible in this ovarian tumor field?",
+      "options": [
+        "Keratin pearls",
+        "Call-Exner bodies",
+        "Schiller-Duval bodies",
+        "Psammoma bodies"
+      ],
+      "correct_index": 1,
+      "explanation": "Small rosettelike groups of cells enclose rounded pink material, producing Call-Exner bodies.",
+      "choice_rationales": [
+        "There are no concentric layers of squamous keratin.",
+        "Small rosettelike groups of cells enclose rounded pink material, producing Call-Exner bodies.",
+        "There is no central vessel within a tumor-lined glomeruloid space.",
+        "The bodies are pink microfollicular spaces rather than concentric calcific spherules."
+      ],
+      "tested_concept": "Call-Exner bodies",
+      "question_id": "q-842cb379056a3a478d51",
+      "source_id": "s-942d79c22486729c346e",
+      "source_group_id": "g-a1ae8c257ad3c97df2ab",
+      "variant_id": "v-056928916a3c13bc2f53",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79.webp",
+      "zoom_image": "assets/originals/056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79.png",
+      "original_image": "assets/originals/056928916a3c13bc2f5345a86acbd4b8a1343ee602dbca4f861670e424223c79.png",
+      "original_filename": "R12/Granulosa Cell Tumor - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 105
+        }
+      ],
+      "visual_clues": [
+        "Small rosettelike groups of cells enclose rounded pink material, producing Call-Exner bodies."
+      ],
+      "visual_target": "Which named structure is visible in this ovarian tumor field?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which tumor-cell morphology is prominent in this field?",
+      "options": [
+        "Signet-ring cells",
+        "Spindle cells in fascicles",
+        "Squamous cells forming keratin pearls",
+        "Cells forming colloid-filled follicles"
+      ],
+      "correct_index": 0,
+      "explanation": "Large pale cytoplasmic vacuoles displace nuclei toward the cell edges, producing signet-ring forms.",
+      "choice_rationales": [
+        "Large pale cytoplasmic vacuoles displace nuclei toward the cell edges, producing signet-ring forms.",
+        "The cells are rounded and vacuolated rather than elongated bundles.",
+        "Concentric keratin pearls are absent.",
+        "The pale spaces are intracellular rather than extracellular follicular colloid."
+      ],
+      "tested_concept": "Signet-ring morphology",
+      "question_id": "q-c71b67c58ee0ac7ec39d",
+      "source_id": "s-1cd0d8102d9547ef4110",
+      "source_group_id": "g-a1d7b369c16abd8e19bd",
+      "variant_id": "v-25182158bf91bcbe1f6f",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.webp",
+      "zoom_image": "assets/originals/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.png",
+      "original_image": "assets/originals/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.png",
+      "original_filename": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 109
+        }
+      ],
+      "visual_clues": [
+        "Large pale cytoplasmic vacuoles displace nuclei toward the cell edges, producing signet-ring forms."
+      ],
+      "visual_target": "Which tumor-cell morphology is prominent in this field?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "What are the brightly eosinophilic rodlike structures in the cytoplasm?",
+      "options": [
+        "Psammoma bodies",
+        "Call-Exner bodies",
+        "Schiller-Duval bodies",
+        "Reinke crystals"
+      ],
+      "correct_index": 3,
+      "explanation": "Bright red, angular rods lie within the cytoplasm of these Leydig-type cells.",
+      "choice_rationales": [
+        "Psammoma bodies are rounded laminated deposits, not intracellular rods.",
+        "Call-Exner bodies are multicellular microfollicular arrangements.",
+        "Schiller-Duval bodies are vascular glomeruloid structures.",
+        "Bright red, angular rods lie within the cytoplasm of these Leydig-type cells."
+      ],
+      "tested_concept": "Reinke crystals",
+      "question_id": "q-543520487b1f9e8fc8e2",
+      "source_id": "s-bee9bfae304412c2a1ec",
+      "source_group_id": "g-a80687358fdfe7fc9a11",
+      "variant_id": "v-2e9973ad047c9ff1002f",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0.webp",
+      "zoom_image": "assets/originals/2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0.png",
+      "original_image": "assets/originals/2e9973ad047c9ff1002f216c414ec3055f8dbf993b5c5822b0fdd0bb0942a7f0.png",
+      "original_filename": "R12/Reinke Crystalloids - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 106
+        }
+      ],
+      "visual_clues": [
+        "Bright red, angular rods lie within the cytoplasm of these Leydig-type cells."
+      ],
+      "visual_target": "What are the brightly eosinophilic rodlike structures in the cytoplasm?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which architectural structure is present at the center of this field?",
+      "options": [
+        "Psammoma body",
+        "Keratin pearl",
+        "Schiller-Duval body",
+        "Call-Exner body"
+      ],
+      "correct_index": 2,
+      "explanation": "A central vessel containing red cells is surrounded by tumor within a larger space, creating a glomeruloid Schiller-Duval body.",
+      "choice_rationales": [
+        "There is no concentric laminated calcific sphere.",
+        "There are no concentric squamous keratin layers.",
+        "A central vessel containing red cells is surrounded by tumor within a larger space, creating a glomeruloid Schiller-Duval body.",
+        "The central core contains a blood vessel rather than pink microfollicular secretion."
+      ],
+      "tested_concept": "Schiller-Duval body",
+      "question_id": "q-550170db0283c5241df0",
+      "source_id": "s-948d8125d0aad617d5a3",
+      "source_group_id": "g-dce861ade6becd2b590e",
+      "variant_id": "v-18d4c414b592a4f80e3f",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4.webp",
+      "zoom_image": "assets/originals/18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4.png",
+      "original_image": "assets/originals/18d4c414b592a4f80e3f763c7ac63a152b2f8a877c52ad40b255222d093996e4.png",
+      "original_filename": "R12/Yolk Sac Tumor Schiller-Duval Body - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 97
+        }
+      ],
+      "visual_clues": [
+        "A central vessel containing red cells is surrounded by tumor within a larger space, creating a glomeruloid Schiller-Duval body."
+      ],
+      "visual_target": "Which architectural structure is present at the center of this field?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which follicular change is evident in this ovarian section?",
+      "options": [
+        "Colloid-filled thyroid follicles",
+        "Atresia with folded glassy membranes",
+        "Large intact fluid-filled antrum",
+        "Sheets of large luteinized cells"
+      ],
+      "correct_index": 1,
+      "explanation": "Irregular collapsed follicular outlines contain thick folded pink glassy membranes, matching atretic follicles.",
+      "choice_rationales": [
+        "The folded membranes are not smooth colloid-filled thyroid follicles.",
+        "Irregular collapsed follicular outlines contain thick folded pink glassy membranes, matching atretic follicles.",
+        "The structures are collapsed rather than dominated by a large intact antrum.",
+        "Large pale luteinized cell sheets are not the dominant pattern."
+      ],
+      "tested_concept": "Atretic follicles",
+      "question_id": "q-7e8864d8551dcbc515d0",
+      "source_id": "s-c7f5cd445a31fb5d20cf",
+      "source_group_id": "g-63487edd1b46320c1a04",
+      "variant_id": "v-4df3166d6df9981020b9",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R9",
+      "source_origin": "lecture",
+      "image": "assets/display/4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498.webp",
+      "zoom_image": "assets/originals/4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498.png",
+      "original_image": "assets/originals/4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498.png",
+      "original_filename": "R9/Atretic Follicles - Histology.png",
+      "citations": [
+        {
+          "document": "R9 Reproductive Histology RLS.pdf",
+          "page": 21
+        }
+      ],
+      "visual_clues": [
+        "Irregular collapsed follicular outlines contain thick folded pink glassy membranes, matching atretic follicles."
+      ],
+      "visual_target": "Which follicular change is evident in this ovarian section?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Compare panels D and E. How does ureteral duplication differ in the kidney on the image right of each panel?",
+      "options": [
+        "Both show one ureter from the kidney onward",
+        "Both show complete separation to the bladder",
+        "D has two separate distal ureters; E has distal fusion",
+        "D has distal fusion; E has two separate distal ureters"
+      ],
+      "correct_index": 2,
+      "explanation": "The duplicated ureters in D remain separate to the bladder, whereas those in E join into a single distal segment.",
+      "choice_rationales": [
+        "Two upper ureteral channels are visible on the affected side.",
+        "E clearly shows a Y-shaped junction before the bladder.",
+        "The duplicated ureters in D remain separate to the bladder, whereas those in E join into a single distal segment.",
+        "The visible connections show the reverse relationship."
+      ],
+      "tested_concept": "Complete versus partial ureteral duplication",
+      "panels": "joint",
+      "question_id": "q-68ff2bb7ca7a2f09b884",
+      "source_id": "s-2606b79db47557de0ff7",
+      "source_group_id": "g-39ffe14ff36af266e330",
+      "variant_id": "v-028cd5e5cfbb4b3c802e",
+      "question_type": "Visual interpretation",
+      "category": "Gross",
+      "collection": "R8",
+      "source_origin": "lecture",
+      "image": "assets/display/028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246.webp",
+      "zoom_image": "assets/originals/028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246.png",
+      "original_image": "assets/originals/028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246.png",
+      "original_filename": "R8/Complete and Partial Double Ureter - Gross.png",
+      "citations": [
+        {
+          "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+          "page": 7
+        }
+      ],
+      "visual_clues": [
+        "The duplicated ureters in D remain separate to the bladder, whereas those in E join into a single distal segment."
+      ],
+      "visual_target": "Compare panels D and E. How does ureteral duplication differ in the kidney on the image right of each panel?",
+      "joint_panels": true,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which congenital renal configuration is demonstrated by the complete specimen?",
+      "options": [
+        "Duplicated bladder",
+        "Horseshoe kidney",
+        "Two completely separate kidneys",
+        "Unilateral renal agenesis"
+      ],
+      "correct_index": 1,
+      "explanation": "The two renal masses are joined across the midline by a broad inferior bridge.",
+      "choice_rationales": [
+        "The specimen shows renal tissue rather than two bladders.",
+        "The two renal masses are joined across the midline by a broad inferior bridge.",
+        "An isthmus visibly connects the two sides.",
+        "Two renal masses are present."
+      ],
+      "tested_concept": "Horseshoe kidney",
+      "question_id": "q-8808fba90e48054ec6fe",
+      "source_id": "s-d56531ba44451b89cf38",
+      "source_group_id": "g-8ad2bea348638e8d049a",
+      "variant_id": "v-16e5d084d51e64f7e582",
+      "question_type": "Visual interpretation",
+      "category": "Gross",
+      "collection": "R8",
+      "source_origin": "lecture",
+      "image": "assets/display/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.webp",
+      "zoom_image": "assets/originals/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.png",
+      "original_image": "assets/originals/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.png",
+      "original_filename": "R8/Horseshoe Kidney - Gross.png",
+      "citations": [
+        {
+          "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+          "page": 9
+        }
+      ],
+      "visual_clues": [
+        "The two renal masses are joined across the midline by a broad inferior bridge."
+      ],
+      "visual_target": "Which congenital renal configuration is demonstrated by the complete specimen?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "options": [
+        "Hypothalamic level",
+        "Anterior pituitary level",
+        "Gonadal level",
+        "Peripheral sex-hormone level"
+      ],
+      "correct_index": 0,
+      "explanation": "The red cross lies over the hypothalamic brain image, upstream of the GnRH arrow.",
+      "choice_rationales": [
+        "The red cross lies over the hypothalamic brain image, upstream of the GnRH arrow.",
+        "The pituitary is below the crossed region.",
+        "The gonads at the bottom are uncrossed.",
+        "The hormone labels below the gonads are uncrossed."
+      ],
+      "tested_concept": "Central HPG axis impairment",
+      "question_id": "q-5df3c448db9be978593f",
+      "source_id": "s-8db598db944dae03b981",
+      "source_group_id": "g-eece7dbda2294229e325",
+      "variant_id": "v-d7004596b6079d2732c0",
+      "question_type": "Visual interpretation",
+      "category": "Diagram",
+      "collection": "R13",
+      "source_origin": "lecture",
+      "image": "assets/display/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.webp",
+      "zoom_image": "assets/originals/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.png",
+      "original_image": "assets/originals/d7004596b6079d2732c0ff2a74a7a15157c97bcc6ad1a0b17d29602ee387c407.png",
+      "original_filename": "R13/Functional Hypogonadotropic Hypogonadism HPG Axis - Diagram.png",
+      "citations": [
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 37
+        }
+      ],
+      "visual_clues": [
+        "The red cross lies over the hypothalamic brain image, upstream of the GnRH arrow."
+      ],
+      "visual_target": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "options": [
+        "Hypothalamic level",
+        "Anterior pituitary level",
+        "GnRH secretion arrow",
+        "Gonadal level"
+      ],
+      "correct_index": 3,
+      "explanation": "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow.",
+      "choice_rationales": [
+        "The brain at the top is uncrossed.",
+        "The pituitary image is uncrossed.",
+        "The GnRH arrow is high above the crossed region.",
+        "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow."
+      ],
+      "tested_concept": "Primary gonadal HPG axis impairment",
+      "question_id": "q-7935525bda53399b8741",
+      "source_id": "s-8105c60b45881b70511e",
+      "source_group_id": "g-eece7dbda2294229e325",
+      "variant_id": "v-030cdc58925353faa0a9",
+      "question_type": "Visual interpretation",
+      "category": "Diagram",
+      "collection": "R13",
+      "source_origin": "lecture",
+      "image": "assets/display/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.webp",
+      "zoom_image": "assets/originals/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.png",
+      "original_image": "assets/originals/030cdc58925353faa0a9e516ec308007c25c6e5aa935215e644a54081d0b367d.png",
+      "original_filename": "R13/Hypergonadotropic Hypogonadism HPG Axis - Diagram.png",
+      "citations": [
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 41
+        }
+      ],
+      "visual_clues": [
+        "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow."
+      ],
+      "visual_target": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "stem": "What sonographic appearance do the two yellow arrows identify within this ovary?",
+      "options": [
+        "Irregular infiltrating tissue replacing the ovary",
+        "Rounded anechoic spaces",
+        "Dense calcific foci with acoustic shadows",
+        "Uniformly solid echogenic nodules"
+      ],
+      "correct_index": 1,
+      "explanation": "Both arrows point to dark rounded fluid spaces within ovarian tissue, consistent with follicles.",
+      "choice_rationales": [
+        "The ovarian outline remains visible around discrete rounded spaces.",
+        "Both arrows point to dark rounded fluid spaces within ovarian tissue, consistent with follicles.",
+        "The targets are dark spaces without bright calcific foci or posterior shadows.",
+        "Their interiors are anechoic rather than uniformly solid and bright."
+      ],
+      "tested_concept": "Ovarian follicle ultrasound appearance",
+      "question_id": "q-32cc1d3c9c693ac77402",
+      "source_id": "s-4d5e41940ec7883a9c08",
+      "source_group_id": "g-3b05dd84f82ba7e0a8fa",
+      "variant_id": "v-ae103f6b7855e077911f",
+      "question_type": "Visual interpretation",
+      "category": "Ultrasound",
+      "collection": "R11",
+      "source_origin": "lecture",
+      "image": "assets/display/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.webp",
+      "zoom_image": "assets/originals/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.png",
+      "original_image": "assets/originals/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.png",
+      "original_filename": "PDF panel extraction/R11.png",
+      "citations": [
+        {
+          "document": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
+          "page": 36
+        }
+      ],
+      "visual_clues": [
+        "Both arrows point to dark rounded fluid spaces within ovarian tissue, consistent with follicles."
+      ],
+      "visual_target": "What sonographic appearance do the two yellow arrows identify within this ovary?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null
+    }
+  ],
+  "bank_id": "pathology"
+}
