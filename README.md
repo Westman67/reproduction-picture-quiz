@@ -1,12 +1,12 @@
 # Reproduction Picture Quiz
 
-Working educational draft with 74 reviewed visual questions.
+361 reviewed visual questions.
 
 - Physiology covers R1 through R7 with 18 questions.
-- Pathology covers R8 onward with 37 questions.
-- Supplementary contains 19 third-party visual questions.
+- Pathology covers R8 onward with 324 questions.
+- Supplementary contains 19 visual questions.
 
-The bank includes 40 histology questions with specimen-specific explanations and visual clues. Full lecture coverage and the complete source review remain unfinished. This public version includes only the verified active questions and their image assets. The remaining review archive is kept in the local working project.
+The three banks include 208 histology questions with specimen-specific explanations. See [lecture counts and coverage](reports/pathology-expansion-20261111/summary.md).
 
 Learn mode gives feedback after locking an answer. Exam mode defers feedback until completion. Back and Next preserve drafts and locked answers. Skipped questions are reported separately. Zoom resets for each question. The Keanne Button corrects an incorrect locked attempt without changing the original selection or adding an attempt.
 
