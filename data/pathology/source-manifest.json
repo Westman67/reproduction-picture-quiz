@@ -159,18 +159,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Bacterial coating of a clue cell",
-          "full_image_required": true,
-          "conditions": "Use the visible dense bacterial coating. Do not infer a clinical diagnosis from unsupported symptoms."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Bacterial coating of squamous cells",
           "variant_id": "v-6a9d4ffa796749539279",
           "full_image_required": true,
@@ -324,14 +312,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Candida pseudohyphae",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-0a21b4169d4f3d9f3c1384147dbb037a0b75daa6233c6cbd0948041a89321a8c",
@@ -665,18 +646,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Fungal elements in superficial keratin",
-          "full_image_required": true,
-          "conditions": "Source identifies the PAS preparation. Distinguish this tissue pattern from the existing Candida Pap smear question."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Fungal elements within superficial keratin",
           "variant_id": "v-67f1b46a8c1a33456c5b",
           "full_image_required": true,
@@ -859,18 +828,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Exophytic papillary squamous architecture",
-          "full_image_required": true,
-          "conditions": "Trim only the thin adjacent panel strip at the right edge. Preserve the complete main histology panel. The old clip art note does not describe this figure accurately."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -1209,14 +1166,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Herpetic multinucleation and molding",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-19d8ef47928eac6e54701f777fc843dbd44119e2853f5e932134223ea62b37d7",
@@ -2030,18 +1980,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Squamous epithelial thickening and rete ridges",
-          "full_image_required": true,
-          "conditions": "Use the visible epithelial architecture."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Acanthosis in squamous hyperplasia",
           "variant_id": "v-50db3cfa435d98e23dca",
           "full_image_required": true,
@@ -2449,18 +2387,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Trichomonas organism morphology",
-          "full_image_required": true,
-          "conditions": "Keep both organism profiles together if referenced. A still image cannot establish motility."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -2969,12 +2895,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Lichen sclerosus morphology",
-          "full_image_required": true
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Lichen sclerosus inflammatory band",
           "variant_id": "v-6a75b8658b9bc64813dc",
           "full_image_required": true,
@@ -3054,18 +2974,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Pale atypical intraepidermal cells",
-          "full_image_required": true,
-          "conditions": "Test the visible cells and compartment. Do not claim a mucin stain that is not shown."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -3559,14 +3467,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Adenomyosis morphology",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-c9d08ae28873bcf646468f128027706ca7e57b7f4fa2828454306610e581b10e",
@@ -4298,18 +4199,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Hobnail epithelial morphology",
-          "full_image_required": true,
-          "conditions": "Use the protrusion of nuclei into glandular lumina."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Hobnail cell morphology",
           "variant_id": "v-cc9bb4daba10698c0a0d",
           "full_image_required": true,
@@ -4608,7 +4497,7 @@
         "note": "",
         "png_sha256": "54ecf32745db350697f113f0d5d361b48d74b467e6815b6bd56a76bd27259fed",
         "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
-        "extracted_name": "Endometrial Adenocarcinoma \u2013 Grading and Staging - Histology (2).png",
+        "extracted_name": "Endometrial Adenocarcinoma – Grading and Staging - Histology (2).png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -4729,18 +4618,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Endometrial glands with stroma and hemorrhage",
-          "full_image_required": true,
-          "conditions": "Use a morphology target or source-supported extrauterine context. Do not distinguish endometriosis from adenomyosis using gland morphology alone."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -5471,14 +5348,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Call-Exner bodies",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a",
@@ -6292,18 +6162,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Keratin pearl in cervical squamous carcinoma",
-          "full_image_required": true,
-          "conditions": "Shares the keratin pearl target with candidate 732. Select the stronger image or genuinely different task rather than counting recrops as separate concepts."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Keratin pearls in a cervical squamous lesion",
           "variant_id": "v-fc92498c66e51c23ce95",
           "full_image_required": true,
@@ -6375,14 +6233,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Signet-ring morphology",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c",
@@ -7771,7 +7622,7 @@
         "note": "",
         "png_sha256": "87b80b28f2583cc903c1249dcc8b092c08bf0c18bfb840926c986ae3d9f6636c",
         "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
-        "extracted_name": "Ovarian Serous Carcinoma \u2013 Omental Caking Normal omentum - Diagram.png",
+        "extracted_name": "Ovarian Serous Carcinoma – Omental Caking Normal omentum - Diagram.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [
@@ -7868,7 +7719,7 @@
         "note": "",
         "png_sha256": "b2b049d49ae1118b35aaba4eb752111337fee73a05e8edc6168f79e26c908219",
         "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
-        "extracted_name": "Ovarian Serous Carcinoma \u2013 Omental Caking - Histology.png",
+        "extracted_name": "Ovarian Serous Carcinoma – Omental Caking - Histology.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -7950,7 +7801,7 @@
         "note": "",
         "png_sha256": "64d85f1959399c1d4254927c62651c246f9ea7872bff7b40454046e7970b301d",
         "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
-        "extracted_name": "Ovarian Serous Carcinoma \u2013 Omental Caking - Gross.png",
+        "extracted_name": "Ovarian Serous Carcinoma – Omental Caking - Gross.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -8880,14 +8731,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Reinke crystals",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-e01d311855768cf155f1c250c8b5e9d8e0a02f09bc967ff6bcc51e7e0c19e1e9",
@@ -10112,14 +9956,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Schiller-Duval body",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-2cc550e5c84099f6a47a7e9827b56778f88510f5bef9a8e48becd12d4178e443",
@@ -10288,14 +10125,7 @@
           "zoom_sha256": "72681385928d33baff4628b4892039b66cb2a18f7b3e65b91915e4d0dfd4f16e"
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Central HPG axis impairment",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-ff12166508a14963eb0ef5e8986cf2df7ae271947c8643b7ed0343e0239cc7ed",
@@ -10509,14 +10339,7 @@
           "zoom_sha256": "cb37412df94e66fc48b9305fbe3392be11ce2c76d9b0376bcf6ceac94cfadd57"
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Primary gonadal HPG axis impairment",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-96e9cccf2db654e051c448768ed8e52d933ff17b23ff328bb28fd49bc67759fe",
@@ -10698,7 +10521,7 @@
       "review_reason": "Individually checked original and image-dependent question.",
       "tested_concept": "Sequence of Secondary  Sex Characteristics",
       "original_asset": "assets/originals/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.png",
-      "display_asset": "assets/display/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.webp",
+      "display_asset": "assets/zoom/25b0fe676950630896eb9f1d7cd5c37924a9570a5c0deb621ecf7b869be76852.png",
       "source_origin": "lecture",
       "source_citation": {
         "document": "R13 Puberty:Transgender Health RLS.pdf",
@@ -10743,16 +10566,45 @@
             ],
             "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
           }
+        },
+        {
+          "variant_id": "v-fab068e1cbe9f03e36cc",
+          "asset": "assets/zoom/25b0fe676950630896eb9f1d7cd5c37924a9570a5c0deb621ecf7b869be76852.png",
+          "zoom_asset": "assets/zoom/25b0fe676950630896eb9f1d7cd5c37924a9570a5c0deb621ecf7b869be76852.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "prior quiz zoom asset",
+            "input_asset": "assets/originals/0b55f06923f02b8cd12af08ca4f0c141095325bdc85b31126da51be4eca72f78.png",
+            "input_dimensions": [
+              3500,
+              2023
+            ],
+            "boxes": [
+              [
+                2622,
+                332,
+                2874,
+                478
+              ],
+              [
+                2705,
+                472,
+                2764,
+                495
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover the Tanner stage III annotation beside the female peak. Preserve both height curves and the age axes."
+          },
+          "output_dimensions": [
+            3500,
+            2023
+          ],
+          "display_sha256": "25b0fe676950630896eb9f1d7cd5c37924a9570a5c0deb621ecf7b869be76852",
+          "zoom_sha256": "25b0fe676950630896eb9f1d7cd5c37924a9570a5c0deb621ecf7b869be76852"
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Sex comparison of pubertal growth spurts",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-d682bf0dc4f54ea0b66e90cddae16db71648182d95cb50f7cd04ae3bfae8c3f8",
@@ -11145,14 +10997,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Fetal station at the ischial spines",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-6c78d1efc9ea189c9b0481defb33ad01645252f8840855c4ec558bcf9b841b9a",
@@ -11170,7 +11015,7 @@
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
       "tested_concept": "Labor Curve Phases and Stages - Diagram",
       "original_asset": "assets/originals/6c78d1efc9ea189c9b0481defb33ad01645252f8840855c4ec558bcf9b841b9a.png",
-      "display_asset": "assets/display/6c78d1efc9ea189c9b0481defb33ad01645252f8840855c4ec558bcf9b841b9a.webp",
+      "display_asset": "assets/zoom/9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a.png",
       "source_origin": "lecture",
       "source_citation": {
         "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
@@ -11222,6 +11067,42 @@
           ],
           "display_sha256": "a497ebbcb91cbf7ada44de03ab392f821e9baca06783d3e2dcbbf3455a8dd979",
           "zoom_sha256": "6c78d1efc9ea189c9b0481defb33ad01645252f8840855c4ec558bcf9b841b9a"
+        },
+        {
+          "variant_id": "v-e5a4b13a3f2cbd694706",
+          "asset": "assets/zoom/9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a.png",
+          "zoom_asset": "assets/zoom/9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "prior quiz zoom asset",
+            "input_asset": "assets/originals/6c78d1efc9ea189c9b0481defb33ad01645252f8840855c4ec558bcf9b841b9a.png",
+            "input_dimensions": [
+              2908,
+              2427
+            ],
+            "boxes": [
+              [
+                1465,
+                646,
+                1744,
+                765
+              ],
+              [
+                1515,
+                762,
+                1691,
+                834
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover the words identifying the maximum slope. Preserve the cervical dilation trace and both dotted phase boundaries."
+          },
+          "output_dimensions": [
+            2908,
+            2427
+          ],
+          "display_sha256": "9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a",
+          "zoom_sha256": "9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a"
         }
       ],
       "question_type_matrix": [
@@ -11229,7 +11110,7 @@
           "supported": "YES",
           "type": "Visual interpretation",
           "target": "Labor curve steepest cervical dilation",
-          "variant_id": "v-41dfa497e467b8333116",
+          "variant_id": "v-e5a4b13a3f2cbd694706",
           "full_image_required": true,
           "preserve": "Complete required panel, source arrows and relevant annotation.",
           "reason": "The curve climbs most sharply during the middle of the active phase."
@@ -11554,14 +11435,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Sequence of pubertal event ranges",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-0f828b4fc4364cdc64904f35c6d33d15c1c66fa07fbbf14f5972930cff2b67f0",
@@ -11660,7 +11534,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Individually checked original and image-dependent question.",
-      "tested_concept": "\u2022   Estrogen  \uf0e9  risk of VTE in pre-menopausal women.",
+      "tested_concept": "•   Estrogen    risk of VTE in pre-menopausal women.",
       "original_asset": "assets/originals/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.png",
       "display_asset": "assets/display/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.webp",
       "source_origin": "lecture",
@@ -11678,7 +11552,7 @@
         "source": "R20 Sex Hormones Pharm RLS.pdf",
         "page": "41",
         "file": "DVT Rate with Oral Contraceptives and Factor V Leiden - Diagram.png",
-        "slide_title": "\u2022   Estrogen  \uf0e9  risk of VTE in pre-menopausal women.",
+        "slide_title": "•   Estrogen    risk of VTE in pre-menopausal women.",
         "overlay_labels": "",
         "type": "Diagram",
         "mode": "manual",
@@ -11709,14 +11583,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Interpreting the supplied DVT rate chart",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-2a3b3de8aa8e6dfceb73402fb57be55f8d32feac33dceacc36ae55ec4c126feb",
@@ -11732,7 +11599,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "\u2022 Synthetic non-steroidal estrogen - diethylstilbesterol (DES) (p.o.) -  potent estrogen with prolonged effects.   Rarely used in large  'pharmacological doses' for palliative Rx of advanced prostate or  breast cancer after other Rx fails.",
+      "tested_concept": "• Synthetic non-steroidal estrogen - diethylstilbesterol (DES) (p.o.) -  potent estrogen with prolonged effects.   Rarely used in large  'pharmacological doses' for palliative Rx of advanced prostate or  breast cancer after other Rx fails.",
       "original_asset": "assets/originals/2a3b3de8aa8e6dfceb73402fb57be55f8d32feac33dceacc36ae55ec4c126feb.png",
       "display_asset": "assets/display/2a3b3de8aa8e6dfceb73402fb57be55f8d32feac33dceacc36ae55ec4c126feb.webp",
       "source_origin": "lecture",
@@ -11750,7 +11617,7 @@
         "source": "R20 Sex Hormones Pharm RLS.pdf",
         "page": "19",
         "file": "Diethylstilbestrol Structure - Diagram.png",
-        "slide_title": "\u2022 Synthetic non-steroidal estrogen - diethylstilbesterol (DES) (p.o.) -  potent estrogen with prolonged effects.   Rarely used in large  'pharmacological doses' for palliative Rx of advanced prostate or  breast cancer after other Rx fails.",
+        "slide_title": "• Synthetic non-steroidal estrogen - diethylstilbesterol (DES) (p.o.) -  potent estrogen with prolonged effects.   Rarely used in large  'pharmacological doses' for palliative Rx of advanced prostate or  breast cancer after other Rx fails.",
         "overlay_labels": "",
         "type": "Diagram",
         "mode": "manual",
@@ -11864,14 +11731,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Nuclear immunostaining localization",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-70b4ed216b55654d1811e7680636dc4257093fb0627602b8944fcdab75a519ae",
@@ -11887,7 +11747,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "\u2022   Esterified estrogens - (estradiol valerate, estradiol cypionate); given by i.m. injections in oil vehicle.  Released from oil vehicle much more slowly 17 \uf062 -estradiol.  After drug enters plasma, the ester bond rapidly hydrolyzed to release free estradiol  Single i.m. dose provides systemic delivery of 17 \uf062 -estradiol for 2 to 4 weeks with  less hepatic effects than oral estrogens.  Can be used to treat hypogonadism.   Estradiol valerate also used in some combination oral contraceptives.",
+      "tested_concept": "•   Esterified estrogens - (estradiol valerate, estradiol cypionate); given by i.m. injections in oil vehicle.  Released from oil vehicle much more slowly 17  -estradiol.  After drug enters plasma, the ester bond rapidly hydrolyzed to release free estradiol  Single i.m. dose provides systemic delivery of 17  -estradiol for 2 to 4 weeks with  less hepatic effects than oral estrogens.  Can be used to treat hypogonadism.   Estradiol valerate also used in some combination oral contraceptives.",
       "original_asset": "assets/originals/70b4ed216b55654d1811e7680636dc4257093fb0627602b8944fcdab75a519ae.png",
       "display_asset": "assets/display/70b4ed216b55654d1811e7680636dc4257093fb0627602b8944fcdab75a519ae.webp",
       "source_origin": "lecture",
@@ -11905,7 +11765,7 @@
         "source": "R20 Sex Hormones Pharm RLS.pdf",
         "page": "18",
         "file": "Esterified and Synthetic Estrogen Structures - Diagram.png",
-        "slide_title": "\u2022   Esterified estrogens - (estradiol valerate, estradiol cypionate); given by i.m. injections in oil vehicle.  Released from oil vehicle much more slowly 17 \uf062 -estradiol.  After drug enters plasma, the ester bond rapidly hydrolyzed to release free estradiol  Single i.m. dose provides systemic delivery of 17 \uf062 -estradiol for 2 to 4 weeks with  less hepatic effects than oral estrogens.  Can be used to treat hypogonadism.   Estradiol valerate also used in some combination oral contraceptives.",
+        "slide_title": "•   Esterified estrogens - (estradiol valerate, estradiol cypionate); given by i.m. injections in oil vehicle.  Released from oil vehicle much more slowly 17  -estradiol.  After drug enters plasma, the ester bond rapidly hydrolyzed to release free estradiol  Single i.m. dose provides systemic delivery of 17  -estradiol for 2 to 4 weeks with  less hepatic effects than oral estrogens.  Can be used to treat hypogonadism.   Estradiol valerate also used in some combination oral contraceptives.",
         "overlay_labels": "",
         "type": "Diagram",
         "mode": "manual",
@@ -11980,7 +11840,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "Intrauterine devices (IUDs)  \u2013 include non-hormonal forms  (copper - produces inflammatory reaction that prevents  implantation), and hormonal forms that release  levonorgestrel (local effects on uterus plus systemic effects  to prevent ovulation).",
+      "tested_concept": "Intrauterine devices (IUDs)  – include non-hormonal forms  (copper - produces inflammatory reaction that prevents  implantation), and hormonal forms that release  levonorgestrel (local effects on uterus plus systemic effects  to prevent ovulation).",
       "original_asset": "assets/originals/c98bbf6bd458a2c4119a11c95ed91cf796e5c3bd29906de601a98fc8ad1ee5a4.png",
       "display_asset": "assets/display/c98bbf6bd458a2c4119a11c95ed91cf796e5c3bd29906de601a98fc8ad1ee5a4.webp",
       "source_origin": "lecture",
@@ -11998,7 +11858,7 @@
         "source": "R20 Sex Hormones Pharm RLS.pdf",
         "page": "30",
         "file": "Intrauterine Devices - Diagram.png",
-        "slide_title": "Intrauterine devices (IUDs)  \u2013 include non-hormonal forms  (copper - produces inflammatory reaction that prevents  implantation), and hormonal forms that release  levonorgestrel (local effects on uterus plus systemic effects  to prevent ovulation).",
+        "slide_title": "Intrauterine devices (IUDs)  – include non-hormonal forms  (copper - produces inflammatory reaction that prevents  implantation), and hormonal forms that release  levonorgestrel (local effects on uterus plus systemic effects  to prevent ovulation).",
         "overlay_labels": "",
         "type": "Diagram",
         "mode": "manual",
@@ -12063,7 +11923,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "\u2022   Steroid hormone receptors like the estrogen receptor (ER) are  \u2018ligand-activated\u2019 nuclear receptors (NR) that bind DNA and  mediate hormone-dependent effects by activating or repressing  mRNA transcription of specific genes in target cells and organs.",
+      "tested_concept": "•   Steroid hormone receptors like the estrogen receptor (ER) are  ‘ligand-activated’ nuclear receptors (NR) that bind DNA and  mediate hormone-dependent effects by activating or repressing  mRNA transcription of specific genes in target cells and organs.",
       "original_asset": "assets/originals/4aca79c917b6bf72d58fbfa162977cdaa4f5e59a73c4ba8ed412a9d1eeb09325.png",
       "display_asset": "assets/display/4aca79c917b6bf72d58fbfa162977cdaa4f5e59a73c4ba8ed412a9d1eeb09325.webp",
       "source_origin": "lecture",
@@ -12081,7 +11941,7 @@
         "source": "R20 Sex Hormones Pharm RLS.pdf",
         "page": "7",
         "file": "Nuclear Receptor Domain Structure - Diagram.png",
-        "slide_title": "\u2022   Steroid hormone receptors like the estrogen receptor (ER) are  \u2018ligand-activated\u2019 nuclear receptors (NR) that bind DNA and  mediate hormone-dependent effects by activating or repressing  mRNA transcription of specific genes in target cells and organs.",
+        "slide_title": "•   Steroid hormone receptors like the estrogen receptor (ER) are  ‘ligand-activated’ nuclear receptors (NR) that bind DNA and  mediate hormone-dependent effects by activating or repressing  mRNA transcription of specific genes in target cells and organs.",
         "overlay_labels": "",
         "type": "Diagram",
         "mode": "native",
@@ -12297,14 +12157,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Complete versus partial ureteral duplication",
-          "full_image_required": true
-        }
-      ],
+      "question_type_matrix": [],
       "original_source_citation": {
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 7
@@ -12572,12 +12425,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Horseshoe kidney",
-          "full_image_required": true
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Horseshoe kidney fused poles",
           "variant_id": "v-77e48de6d73b6882fd45",
           "full_image_required": true,
@@ -12722,7 +12569,7 @@
         "note": "",
         "png_sha256": "4df3166d6df9981020b95f7e25bea695e8cf55c8fb1f00e56e06433efee44498",
         "pdf_sha256": "6fb3a8dd7e0462d0cb2fbd15ba9e6c7f464b531f895e82c30dd23e62737688d1",
-        "extracted_name": "Atretic follicles 3-5 week fetal \u2013 2000 oogonia 5-6 mo. Fetal \u2013 6-7x10 6 Birth \u2013 approx. 1x10 6 oocytes - Histology.png",
+        "extracted_name": "Atretic follicles 3-5 week fetal – 2000 oogonia 5-6 mo. Fetal – 6-7x10 6 Birth – approx. 1x10 6 oocytes - Histology.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -12741,14 +12588,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Atretic follicles",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-cd8473ebccd890dc3808df3955f958ad61a22fc8ff2bd42fbee32671648ab24d",
@@ -13152,18 +12992,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Normal versus depleted seminiferous epithelium",
-          "full_image_required": true,
-          "conditions": "Retain both panels and identify which panel is referenced."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Seminiferous epithelial depletion in paired panels",
           "variant_id": "v-05801acab1e53a9f46f2",
           "full_image_required": true,
@@ -13311,14 +13139,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Ovarian follicle ultrasound appearance",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-991d0c1200f1f86d86bfb9b9678161ee9e2a6b09649f5684de7db63fb228e26f",
@@ -13826,7 +13647,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "Brunn\u2019s Nests",
+      "tested_concept": "Brunn’s Nests",
       "original_asset": "assets/originals/2866b2007f4cf053c3e33b5f3a0a04fe5926fa8b4f142f13c00f2c86183f0600.png",
       "display_asset": "assets/display/2866b2007f4cf053c3e33b5f3a0a04fe5926fa8b4f142f13c00f2c86183f0600.webp",
       "source_origin": "lecture",
@@ -13844,7 +13665,7 @@
         "source": "R15 GU Pathology I RLS.pdf",
         "page": "15",
         "file": "Brunn Nests Histology - Histology.png",
-        "slide_title": "Brunn\u2019s Nests",
+        "slide_title": "Brunn’s Nests",
         "overlay_labels": "",
         "type": "Histology",
         "mode": "manual",
@@ -14138,18 +13959,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Urothelial layers and umbrella cells",
-          "full_image_required": true,
-          "conditions": "Use the visible multilayered lining and superficial cells."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -14642,18 +14451,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Flat urothelial atypia",
-          "full_image_required": true,
-          "conditions": "Use the flat surface architecture and marked cellular atypia."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -15186,7 +14983,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "Malakoplakia (\u201cSoft Plaque\u201d)",
+      "tested_concept": "Malakoplakia (“Soft Plaque”)",
       "original_asset": "assets/originals/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.png",
       "display_asset": "assets/display/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.webp",
       "source_origin": "lecture",
@@ -15204,7 +15001,7 @@
         "source": "R15 GU Pathology I RLS.pdf",
         "page": "19",
         "file": "Malakoplakia Bladder - Gross.png",
-        "slide_title": "Malakoplakia (\u201cSoft Plaque\u201d)",
+        "slide_title": "Malakoplakia (“Soft Plaque”)",
         "overlay_labels": "",
         "type": "Gross",
         "mode": "manual",
@@ -15268,7 +15065,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
-      "tested_concept": "Malakoplakia (\u201cSoft Plaque\u201d)",
+      "tested_concept": "Malakoplakia (“Soft Plaque”)",
       "original_asset": "assets/originals/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.png",
       "display_asset": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
       "source_origin": "lecture",
@@ -15286,7 +15083,7 @@
         "source": "R15 GU Pathology I RLS.pdf",
         "page": "19",
         "file": "Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png",
-        "slide_title": "Malakoplakia (\u201cSoft Plaque\u201d)",
+        "slide_title": "Malakoplakia (“Soft Plaque”)",
         "overlay_labels": "",
         "type": "Histology",
         "mode": "manual",
@@ -15325,18 +15122,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Michaelis Gutmann type inclusions",
-          "full_image_required": true,
-          "conditions": "Use the arrowed inclusions within the histiocyte-rich field."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -15595,12 +15380,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "REVIEW",
-          "type": "Visual interpretation",
-          "target": "Urothelial papilloma",
-          "reason": "Adjacent panel fragments require a clean complete-panel extraction before activation."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -16094,12 +15873,6 @@
       ],
       "question_type_matrix": [
         {
-          "supported": "NO",
-          "type": "Visual interpretation",
-          "target": "Concentric keratin pearl",
-          "reason": "The same keratin pearl teaching target is covered by the selected R12 image. No new independent task is added."
-        },
-        {
           "supported": "YES",
           "type": "Visual interpretation",
           "target": "Arrowed concentric keratinization in bladder carcinoma",
@@ -16181,18 +15954,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Schistosoma ova in tissue",
-          "full_image_required": true,
-          "conditions": "The page supports Schistosoma. Do not identify species from the filename alone or claim a spine that is not clearly visible."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -16710,7 +16471,7 @@
       ],
       "status": "USABLE",
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
-      "tested_concept": "Cavity in Asherman\u2019s Syndrome",
+      "tested_concept": "Cavity in Asherman’s Syndrome",
       "original_asset": "assets/originals/8c31668396bf8925c8e49a33f14ad18ada25b0bf96778983b9c777d8000d2682.png",
       "display_asset": "assets/display/8c31668396bf8925c8e49a33f14ad18ada25b0bf96778983b9c777d8000d2682.webp",
       "source_origin": "lecture",
@@ -16728,7 +16489,7 @@
         "source": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
         "page": "95",
         "file": "Asherman Syndrome Cavity Hysteroscopy - Clinical Photo.png",
-        "slide_title": "Cavity in Asherman\u2019s Syndrome",
+        "slide_title": "Cavity in Asherman’s Syndrome",
         "overlay_labels": "",
         "type": "Clinical Photo",
         "mode": "manual",
@@ -16849,18 +16610,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Abnormal intrauterine filling defects on HSG",
-          "full_image_required": true,
-          "conditions": "Retain source clinical context if naming Asherman syndrome. Otherwise test the visible cavity abnormality. Compare with 785 only if both are needed."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -17040,18 +16789,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Absent uterine structure on supplied MRI",
-          "full_image_required": true,
-          "conditions": "Trim only the purple slide border fragment above the MRI. Preserve the whole scan and source arrow. Do not infer a genetic cause from the scan alone."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Absent uterine body in the supplied sagittal MRI",
           "variant_id": "v-b9334df5060a3851f88f",
           "full_image_required": true,
@@ -17131,18 +16868,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Normal triangular uterine cavity on HSG",
-          "full_image_required": true,
-          "conditions": "Use the smooth triangular cavity and bilateral tubal contrast."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -17423,7 +17148,7 @@
       ],
       "status": "USABLE",
       "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
-      "tested_concept": "Turner\u2019s Syndrome",
+      "tested_concept": "Turner’s Syndrome",
       "original_asset": "assets/originals/ca239befa6f704638a4e81c461747e27aada13e1cbdcec4d18d8bdd369f74aa2.png",
       "display_asset": "assets/display/ca239befa6f704638a4e81c461747e27aada13e1cbdcec4d18d8bdd369f74aa2.webp",
       "source_origin": "lecture",
@@ -17441,7 +17166,7 @@
         "source": "R19 Clinical Gyn Primary and Secondary Amenorrhea RLS.pdf",
         "page": "161",
         "file": "Streak Gonads - Gross.png",
-        "slide_title": "Turner\u2019s Syndrome",
+        "slide_title": "Turner’s Syndrome",
         "overlay_labels": "",
         "type": "Gross",
         "mode": "manual",
@@ -17632,18 +17357,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Tumor between detrusor muscle bundles",
-          "full_image_required": true,
-          "conditions": "Preserve the source arrow and muscle context. Test visible muscle involvement rather than inferring a precise stage from a limited field."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -18953,7 +18666,7 @@
         "note": "",
         "png_sha256": "278ed4fba9810792e28f6ab21ced1baa25d3497cf78ea58316de1b83639d37c7",
         "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
-        "extracted_name": "Importance of Gleason \u2019 s scoring Bacterial Orchidoepididymitis - Histology.png",
+        "extracted_name": "Importance of Gleason ’ s scoring Bacterial Orchidoepididymitis - Histology.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -20511,7 +20224,7 @@
         "note": "caption text inside crop",
         "png_sha256": "2585f378b57caa5d72c01329e128e61034d6ba7e094ee53e04d3baff12b98588",
         "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
-        "extracted_name": "Importance of Gleason \u2019 s scoring - Histology (8).png",
+        "extracted_name": "Importance of Gleason ’ s scoring - Histology (8).png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -20605,7 +20318,7 @@
         "note": "caption text inside crop",
         "png_sha256": "8464c39092edc91a490d1614e7db3149352efea7ce90291b5e0a5cd4f9f6a2e1",
         "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
-        "extracted_name": "Importance of Gleason \u2019 s scoring - Histology (7).png",
+        "extracted_name": "Importance of Gleason ’ s scoring - Histology (7).png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -21282,7 +20995,7 @@
         "note": "stray blue line at right edge trimmed",
         "png_sha256": "0decd6bedbfc2793112980531d7c0038d47310afc79786408ecbb3f0c74677af",
         "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
-        "extracted_name": "Importance of Gleason \u2019 s scoring - Gross.png",
+        "extracted_name": "Importance of Gleason ’ s scoring - Gross.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -21364,7 +21077,7 @@
         "note": "",
         "png_sha256": "ee2e1cad54fecfaad8c4046ee7f1a2893debfac6271f767d4f03af39006b3448",
         "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
-        "extracted_name": "Importance of Gleason \u2019 s scoring - Histology (2).png",
+        "extracted_name": "Importance of Gleason ’ s scoring - Histology (2).png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -21446,7 +21159,7 @@
         "note": "",
         "png_sha256": "9d7cdac942d88013daa30419288143765c90acc339b8c0c9ead0ae0226cb0940",
         "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
-        "extracted_name": "Importance of Gleason \u2019 s scoring - Histology.png",
+        "extracted_name": "Importance of Gleason ’ s scoring - Histology.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -22522,7 +22235,7 @@
         "page": "20",
         "file": "Complete Mole Vesicles Gross - Gross.png",
         "slide_title": "",
-        "overlay_labels": "Hydatidiform Mole \u03b2-hCG Complete mole (46 XX 46XY) Exclusively Paternal Derivation",
+        "overlay_labels": "Hydatidiform Mole β-hCG Complete mole (46 XX 46XY) Exclusively Paternal Derivation",
         "type": "Gross",
         "mode": "single",
         "x0": "0.122",
@@ -22533,7 +22246,7 @@
         "note": "slide text overlay (hCG, karyotype) inside crop",
         "png_sha256": "d28aceb940b5964c864914362e4fff1512d07f8a9ece34ce70cdffb971795189",
         "pdf_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
-        "extracted_name": "Complete Mole Hydatidiform Mole \u03b2-hCG Complete mole (46 XX 46XY) Exclusively Paternal Derivation - Diagram.png",
+        "extracted_name": "Complete Mole Hydatidiform Mole β-hCG Complete mole (46 XX 46XY) Exclusively Paternal Derivation - Diagram.png",
         "lecture_category": "Primary"
       },
       "leak_regions": [],
@@ -30807,7 +30520,7 @@
           "variant_id": "v-2a2df90718b04e0660bd",
           "full_image_required": true,
           "preserve": "Complete required panel, source arrows and relevant annotation.",
-          "reason": "Both upper aromatic rings terminate in a carbon\u2013nitrogen triple bond."
+          "reason": "Both upper aromatic rings terminate in a carbon–nitrogen triple bond."
         }
       ]
     },
@@ -30827,7 +30540,7 @@
       "review_reason": "Reviewed for the scored targets in the question type matrix.",
       "tested_concept": "Oral Contraceptive Progestin Content Monophasic Biphasic Triphasic - Diagram",
       "original_asset": "assets/originals/c87ad24862e283e2a46884c5f8fc1719026d035613d914e3d1e8ce2b9b6c19b9.png",
-      "display_asset": "assets/display/c87ad24862e283e2a46884c5f8fc1719026d035613d914e3d1e8ce2b9b6c19b9.webp",
+      "display_asset": "assets/zoom/adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d.png",
       "source_origin": "lecture",
       "source_citation": {
         "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
@@ -30879,6 +30592,36 @@
           ],
           "display_sha256": "4bb6b76955339e75ffa386fa41d64ea878fa3edb80850d9b44133968ea984e20",
           "zoom_sha256": "c87ad24862e283e2a46884c5f8fc1719026d035613d914e3d1e8ce2b9b6c19b9"
+        },
+        {
+          "variant_id": "v-3af2418f9500bdddbf64",
+          "asset": "assets/zoom/adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d.png",
+          "zoom_asset": "assets/zoom/adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "prior quiz zoom asset",
+            "input_asset": "assets/originals/c87ad24862e283e2a46884c5f8fc1719026d035613d914e3d1e8ce2b9b6c19b9.png",
+            "input_dimensions": [
+              1245,
+              1245
+            ],
+            "boxes": [
+              [
+                49,
+                769,
+                1184,
+                1156
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover the explanatory caption below the graph. Preserve all formulation labels and their plotted steps."
+          },
+          "output_dimensions": [
+            1245,
+            1245
+          ],
+          "display_sha256": "adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d",
+          "zoom_sha256": "adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d"
         }
       ],
       "question_type_matrix": [
@@ -30886,7 +30629,7 @@
           "supported": "YES",
           "type": "Visual interpretation",
           "target": "Progestin formulation step comparison",
-          "variant_id": "v-5d689e4465830f62918b",
+          "variant_id": "v-3af2418f9500bdddbf64",
           "full_image_required": true,
           "preserve": "Complete required panel, source arrows and relevant annotation.",
           "reason": "The triphasic curve has three plateaus separated by two upward transitions."
@@ -31007,7 +30750,7 @@
         "source": "RLS",
         "page": "41",
         "file": "Thrombomodulin Protein C Pathway - Diagram.png",
-        "slide_title": "Estrogen \uf0e9 risk of VTE in pre-menopausal women. Oral contraceptives and risk of venous thromboembolism. N Engl J Med 344 1527 (2001)",
+        "slide_title": "Estrogen  risk of VTE in pre-menopausal women. Oral contraceptives and risk of venous thromboembolism. N Engl J Med 344 1527 (2001)",
         "overlay_labels": "",
         "type": "Diagram",
         "mode": "single",
@@ -32738,7 +32481,7 @@
         "source": "RLS",
         "page": "15",
         "file": "Open Surgical Debulking - Clinical Photo.png",
-        "slide_title": "Penny\u2019s Surgery Open Surgical Debulking",
+        "slide_title": "Penny’s Surgery Open Surgical Debulking",
         "overlay_labels": "",
         "type": "Clinical Photo",
         "mode": "single",
@@ -33066,7 +32809,7 @@
         "source": "RLS",
         "page": "45",
         "file": "Sentinel Node Mapping Laparoscopic Views - Clinical Photo.png",
-        "slide_title": "Back to Sally\u2026",
+        "slide_title": "Back to Sally…",
         "overlay_labels": "",
         "type": "Clinical Photo",
         "mode": "split",
@@ -33230,7 +32973,7 @@
         "source": "RLS",
         "page": "13",
         "file": "Cervical Cancer PET CT - CT.png",
-        "slide_title": "Rose\u2019s PET CT",
+        "slide_title": "Rose’s PET CT",
         "overlay_labels": "",
         "type": "CT",
         "mode": "single",
@@ -33312,7 +33055,7 @@
         "source": "RLS",
         "page": "3",
         "file": "Cervical Cancer Speculum View - Clinical Photo.png",
-        "slide_title": "Rose\u2019s Story",
+        "slide_title": "Rose’s Story",
         "overlay_labels": "",
         "type": "Clinical Photo",
         "mode": "single",
@@ -33664,7 +33407,7 @@
         "source": "RLS",
         "page": "25",
         "file": "Uterine Ultrasound Case - Echo.png",
-        "slide_title": "Mary\u2019s Ultrasound in the ED",
+        "slide_title": "Mary’s Ultrasound in the ED",
         "overlay_labels": "",
         "type": "Echo",
         "mode": "single",
@@ -33910,7 +33653,7 @@
         "source": "RLS",
         "page": "16",
         "file": "Vulvar Squamous Cell Carcinoma Lesion - Clinical Photo.png",
-        "slide_title": "Miranda\u2019s Story",
+        "slide_title": "Miranda’s Story",
         "overlay_labels": "",
         "type": "Clinical Photo",
         "mode": "single",

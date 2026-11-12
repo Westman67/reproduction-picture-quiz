@@ -67,20 +67,21 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
             if status in BLOCKED_STATUSES or status != ACTIVE_STATUS:
                 errors.append(f"{label}: source {source_id} is not USABLE (status={status!r})")
 
+        option_count = 5 if question.get("format_version") == "clinical-visual-v1" else 4
         options = question.get("options")
-        if not isinstance(options, list) or len(options) != 4:
-            errors.append(f"{label}: options must contain exactly four entries")
-        elif len({str(option).strip().casefold() for option in options}) != 4:
+        if not isinstance(options, list) or len(options) != option_count:
+            errors.append(f"{label}: options must contain exactly {option_count} entries")
+        elif len({str(option).strip().casefold() for option in options}) != option_count:
             errors.append(f"{label}: options must be unique")
 
         correct_index = question.get("correct_index")
-        if not isinstance(correct_index, int) or not 0 <= correct_index < 4:
-            errors.append(f"{label}: correct_index must be an integer from 0 through 3")
+        if not isinstance(correct_index, int) or not 0 <= correct_index < option_count:
+            errors.append(f"{label}: correct_index must be an integer from 0 through {option_count - 1}")
 
         if schema_version >= 2:
             rationales = question.get("choice_rationales")
-            if not isinstance(rationales, list) or len(rationales) != 4:
-                errors.append(f"{label}: choice_rationales must contain exactly four entries")
+            if not isinstance(rationales, list) or len(rationales) != option_count:
+                errors.append(f"{label}: choice_rationales must contain exactly {option_count} entries")
             elif any(not isinstance(rationale, str) or not rationale.strip() for rationale in rationales):
                 errors.append(f"{label}: every choice_rationale must be a non-empty string")
 

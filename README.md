@@ -6,7 +6,9 @@
 - Pathology covers R8 onward with 468 questions.
 - Supplementary contains 19 visual questions.
 
-The three banks include 274 histology questions. See [lecture counts and coverage](reports/pathology-pictures-20261111/summary.md).
+Clinical Cases contains 20 cases with 47 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the four sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion.
+
+The three picture banks include 274 histology questions. See [lecture counts and coverage](reports/pathology-pictures-20261111/summary.md).
 
 Learn mode gives feedback after locking an answer. Exam mode defers feedback until completion. Back and Next preserve drafts and locked answers. Skipped questions are reported separately. Zoom resets for each question. The Keanne Button corrects an incorrect locked attempt without changing the original selection or adding an attempt.
 

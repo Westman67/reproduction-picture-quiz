@@ -19,7 +19,7 @@
       "review_reason": "Individually checked original and image-dependent question.",
       "tested_concept": "Menstrual Cycle of the Uterine Endometrium",
       "original_asset": "assets/originals/6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39.png",
-      "display_asset": "assets/display/6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39.webp",
+      "display_asset": "assets/zoom/e335a5dc5c29d48936b6b3d54896334d4b8a2fac7e73f42cc70e53d6a9ce1ca2.png",
       "source_origin": "lecture",
       "source_citation": {
         "document": "R1 Female Physiology RLS.pdf",
@@ -64,16 +64,45 @@
             ],
             "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
           }
+        },
+        {
+          "variant_id": "v-53a6ba0a0574cc2d276a",
+          "asset": "assets/zoom/e335a5dc5c29d48936b6b3d54896334d4b8a2fac7e73f42cc70e53d6a9ce1ca2.png",
+          "zoom_asset": "assets/zoom/e335a5dc5c29d48936b6b3d54896334d4b8a2fac7e73f42cc70e53d6a9ce1ca2.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "prior quiz zoom asset",
+            "input_asset": "assets/originals/6cdae41c29263246fb2e38a362256b55d4dd527e37d4ae70820917cbdee9fb39.png",
+            "input_dimensions": [
+              3457,
+              2075
+            ],
+            "boxes": [
+              [
+                47,
+                1647,
+                387,
+                1811
+              ],
+              [
+                190,
+                1905,
+                387,
+                2069
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover the printed layer names in the margin. Preserve the full endometrial drawing and menstrual timing."
+          },
+          "output_dimensions": [
+            3457,
+            2075
+          ],
+          "display_sha256": "e335a5dc5c29d48936b6b3d54896334d4b8a2fac7e73f42cc70e53d6a9ce1ca2",
+          "zoom_sha256": "e335a5dc5c29d48936b6b3d54896334d4b8a2fac7e73f42cc70e53d6a9ce1ca2"
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Endometrial layer preservation",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
@@ -258,18 +287,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Theca and granulosa cell cooperation",
-          "full_image_required": true,
-          "conditions": "Select one visual pathway target. Mask only a revealing label in safe diagram space and preserve transport arrows."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Androstenedione transfer between ovarian cells",
           "variant_id": "v-067fb173adc9f3d39740",
           "full_image_required": true,
@@ -368,18 +385,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "NO and cGMP erection pathway",
-          "full_image_required": true,
-          "conditions": "Select one pathway step and remove its direct answer label without covering arrows."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -491,14 +496,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Fetal testosterone without spermatogenesis",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-4c7bf49206d53b36fbb4054fdd64c49e42bb388a8f8a8a58be27acd93d9172f4",
@@ -603,7 +601,7 @@
           ]
         },
         {
-          "text": "( immature\u00a0haploid\u00a0gametes )",
+          "text": "( immature haploid gametes )",
           "box": [
             1671,
             120,
@@ -648,7 +646,7 @@
           ]
         },
         {
-          "text": "meiosis\u00a0I",
+          "text": "meiosis I",
           "box": [
             1058,
             518,
@@ -675,7 +673,7 @@
           ]
         },
         {
-          "text": "meiosis\u00a0II",
+          "text": "meiosis II",
           "box": [
             1444,
             523,
@@ -693,7 +691,7 @@
           ]
         },
         {
-          "text": "(mature\u00a0haploid\u00a0gametes)",
+          "text": "(mature haploid gametes)",
           "box": [
             2532,
             120,
@@ -818,18 +816,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Spermatogenesis stage relationships",
-          "full_image_required": true,
-          "conditions": "Preserve the complete branching sequence and ploidy cues. Hide only the tested stage label."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Chromosome set reduction in spermatogenesis",
           "variant_id": "v-2b286242ac38526c2a58",
           "full_image_required": true,
@@ -910,14 +896,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Childhood gonadotropin quiescence",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff",
@@ -982,14 +961,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Postmenopausal estrogen trajectory",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62",
@@ -1007,7 +979,7 @@
       "review_reason": "Individually checked original and image-dependent question.",
       "tested_concept": "Hormone Levels During Pregnancy",
       "original_asset": "assets/originals/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.png",
-      "display_asset": "assets/display/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.webp",
+      "display_asset": "assets/zoom/c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef.png",
       "source_origin": "lecture",
       "source_citation": {
         "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
@@ -1052,16 +1024,45 @@
             ],
             "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
           }
+        },
+        {
+          "variant_id": "v-016145a15cf105b86e07",
+          "asset": "assets/zoom/c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef.png",
+          "zoom_asset": "assets/zoom/c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "prior quiz zoom asset",
+            "input_asset": "assets/originals/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.png",
+            "input_dimensions": [
+              1118,
+              873
+            ],
+            "boxes": [
+              [
+                400,
+                123,
+                636,
+                214
+              ],
+              [
+                2,
+                165,
+                40,
+                735
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover both printed names of the early peak hormone. Preserve the traces, units and other hormone labels."
+          },
+          "output_dimensions": [
+            1118,
+            873
+          ],
+          "display_sha256": "c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef",
+          "zoom_sha256": "c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef"
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Pregnancy hormone timing",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
@@ -1174,18 +1175,6 @@
         }
       ],
       "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Maternal and fetal placental circulation",
-          "full_image_required": true,
-          "conditions": "Preserve the complete maternal and fetal compartments and flow arrows. Hide only the target label."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
         {
           "supported": "YES",
           "type": "Visual interpretation",
@@ -1366,18 +1355,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "Fetal circulation shunt localization",
-          "full_image_required": true,
-          "conditions": "Preserve connections, direction arrows, and legend. Hide only the tested shunt label."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Foramen ovale location",
           "variant_id": "v-19c25195991ebbee1800",
           "full_image_required": true,
@@ -1467,14 +1444,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Pulmonary vascular resistance at birth",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     },
     {
       "asset_id": "a-194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
@@ -1550,18 +1520,6 @@
         {
           "supported": "YES",
           "type": "Visual interpretation",
-          "target": "UCP1 proton return pathway",
-          "full_image_required": true,
-          "conditions": "The full diagram supports a proton return pathway target. Hide the revealing protein name if testing identification. The old clip art note does not describe this figure accurately."
-        },
-        {
-          "supported": "NO",
-          "type": "Unsupported finer diagnosis or repeated task",
-          "reason": "No source-independent finer clinical subtype, grade, stage, motion, or repetitive rewording is cleared by this audit."
-        },
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
           "target": "Proton route bypassing ATP synthase",
           "variant_id": "v-7e8cb9d44294d899b1e0",
           "full_image_required": true,
@@ -1627,14 +1585,7 @@
           }
         }
       ],
-      "question_type_matrix": [
-        {
-          "supported": "YES",
-          "type": "Visual interpretation",
-          "target": "Mammary myoepithelial layer",
-          "full_image_required": true
-        }
-      ]
+      "question_type_matrix": []
     }
   ],
   "audit_date": "2026-11-09",
