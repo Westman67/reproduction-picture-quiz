@@ -1,5 +1,33 @@
-import {empty,validateImport} from './engine.js?v=20261111pictures3';
+import {empty,validateImport} from './engine.js?v=20261112sourcetype1';
 export const LEGACY_KEY='reproduction-picture-quiz-v1';
+export const SUPPLEMENTARY_KEY='reproduction-supplementary-picture-quiz-v1';
+
+export function mergeSupplementaryProgress(progress, previous, thirdParty, sources) {
+    if (progress.supplementaryProgressImported) return progress;
+    validateImport(previous,thirdParty);
+    const merged=structuredClone(progress);
+    const migrated=splitLegacyProgress({
+        ...previous,
+        questions:Object.fromEntries(Object.entries(previous.questions).filter(([id])=>!merged.questions[id])),
+    },thirdParty,sources);
+    Object.assign(merged.questions,migrated.questions);
+    for (const field of ['groups','concepts']) {
+        for (const [id,counts] of Object.entries(migrated[field])) {
+            const aggregate=merged[field][id]??={};
+            for (const [name,count] of Object.entries(counts)) {
+                aggregate[name]=(aggregate[name]??0)+count;
+            }
+        }
+    }
+    for (const field of ['flags','decisions']) merged[field]={...migrated[field],...merged[field]};
+    merged.exams.push(...structuredClone(previous.exams));
+    if (previous.session && !previous.session.complete) {
+        if (merged.session && !merged.session.complete) merged.parkedSession=structuredClone(previous.session);
+        else merged.session=structuredClone(previous.session);
+    }
+    merged.supplementaryProgressImported=true;
+    return merged;
+}
 export function splitLegacyProgress(legacy,bank,sources){
  if(!legacy||legacy.schema_version!==1)throw Error('Unsupported previous progress format.');
  const p=empty(),ids=new Set(bank.map(q=>q.question_id)),sourceIds=new Set(sources.map(s=>s.source_id));
