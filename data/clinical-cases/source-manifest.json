@@ -7700,6 +7700,1192 @@
           "supported": "YES"
         }
       ]
+    },
+    {
+      "asset_id": "a-190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba",
+      "source_id": "s-e6f91c258e2e2ade8fbf",
+      "source_group_id": "g-190e61e514a8d29f5a5d",
+      "lecture_id": "R28",
+      "relative_path": "R28 case slide 24 chest radiograph",
+      "sha256": "190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba",
+      "dimensions": [
+        562,
+        506
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete panel extracted and checked against lecture page.",
+      "tested_concept": "Pulmonary distribution in the postpartum case",
+      "original_asset": "assets/originals/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.png",
+      "display_asset": "assets/display/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible chest findings checked against the supplied case slide.",
+      "extraction": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 24,
+        "embedded_image_xref": 108,
+        "page_bounds_points": [
+          627.8400268554688,
+          306.0780029296875,
+          811.4400634765625,
+          471.718017578125
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "v-190e61e514a8d29f5a5d",
+          "asset": "assets/display/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.webp",
+          "zoom_asset": "assets/originals/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.png",
+          "transform": {
+            "type": "embedded_panel",
+            "reason": "Isolate the intact radiographic panel."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f",
+      "source_group_id": "g-6c5de2885dd67f7aa373",
+      "source_id": "s-b0b8606a8615ab86f903",
+      "lecture_id": "R18",
+      "relative_path": "R18/HER2 FISH Amplification - Immunofluorescence.png",
+      "sha256": "044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f",
+      "perceptual_hash": "346666a6366c6d61",
+      "dimensions": [
+        953,
+        774
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "HER2 FISH Amplification - Immunofluorescence",
+      "original_asset": "assets/originals/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.png",
+      "display_asset": "assets/display/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 72
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "72",
+        "file": "HER2 FISH Amplification - Immunofluorescence.png",
+        "slide_title": "BREAST CARCINOMA IMMUNO-MARKERS",
+        "overlay_labels": "",
+        "type": "Immunofluorescence",
+        "mode": "single",
+        "x0": "0.322",
+        "y0": "0.197",
+        "x1": "0.613",
+        "y1": "0.502",
+        "size": "953x774",
+        "note": "",
+        "png_sha256": "044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "BREAST CARCINOMA IMMUNO-MARKERS - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d1d6973b5582841e0142",
+          "asset": "assets/display/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.webp",
+          "zoom_asset": "assets/originals/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              953,
+              774
+            ]
+          },
+          "output_dimensions": [
+            953,
+            774
+          ],
+          "display_sha256": "9c68076d07e02c0f0b44ea787f82ae164c63d7f84e283ec11d37e94ccd50dc06",
+          "zoom_sha256": "044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "HER2 FISH relative fluorescent signals",
+          "variant_id": "v-d1d6973b5582841e0142",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Numerous red dots cluster within several blue nuclei, alongside fewer discrete green dots."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8",
+      "source_group_id": "g-6c5de2885dd67f7aa373",
+      "source_id": "s-e8bf2f3950ff450a0706",
+      "lecture_id": "R18",
+      "relative_path": "R18/Hormone Receptor Immunostain Nuclear Staining - Histology.png",
+      "sha256": "2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8",
+      "perceptual_hash": "d7d3b9636569636c",
+      "dimensions": [
+        1143,
+        849
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Hormone Receptor Immunostain Nuclear Staining - Histology",
+      "original_asset": "assets/originals/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.png",
+      "display_asset": "assets/display/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 72
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "72",
+        "file": "Hormone Receptor Immunostain Nuclear Staining - Histology.png",
+        "slide_title": "BREAST CARCINOMA IMMUNO-MARKERS",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.644",
+        "y0": "0.25",
+        "x1": "0.99",
+        "y1": "0.583",
+        "size": "1143x849",
+        "note": "stain identity inferred, uncertain",
+        "png_sha256": "2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "BREAST CARCINOMA IMMUNO-MARKERS - EM.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-69dad2bd8e080a4e4b1b",
+          "asset": "assets/display/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.webp",
+          "zoom_asset": "assets/originals/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1143,
+              849
+            ]
+          },
+          "output_dimensions": [
+            1143,
+            849
+          ],
+          "display_sha256": "20e605fb959cc67072ad7e4c120b142f44ed3a077ca614a92b6085679cff8024",
+          "zoom_sha256": "2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Breast hormone receptor nuclear pattern",
+          "variant_id": "v-69dad2bd8e080a4e4b1b",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The dark brown signal occupies numerous small nuclear profiles within epithelial groups."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6",
+      "source_group_id": "g-f6203042ecf88889e5ea",
+      "source_id": "s-9e62eec2acf07b32a747",
+      "lecture_id": "R28",
+      "relative_path": "R28/Cervical Cancer PET CT - CT.png",
+      "sha256": "7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6",
+      "perceptual_hash": "021212c212030202",
+      "dimensions": [
+        2011,
+        1468
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Cervical Cancer PET CT - CT",
+      "original_asset": "assets/originals/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.png",
+      "display_asset": "assets/display/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "13",
+        "file": "Cervical Cancer PET CT - CT.png",
+        "slide_title": "Rose’s PET CT",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "single",
+        "x0": "0.056",
+        "y0": "0.23",
+        "x1": "0.559",
+        "y1": "0.884",
+        "size": "2011x1468@300dpi",
+        "note": "baked in labels",
+        "png_sha256": "7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6",
+        "pdf_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+        "extracted_name": "Cervical Cancer PET CT",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-34dbbcaa0a8a31fb7484",
+          "asset": "assets/display/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.webp",
+          "zoom_asset": "assets/originals/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2011,
+              1468
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            2011,
+            1468
+          ],
+          "display_sha256": "d4164eaf0291c3845090c6a6195e7549fbf37caafc11ab46d1a2e8df978d2045",
+          "zoom_sha256": "7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6"
+        },
+        {
+          "variant_id": "v-5fc19aaa1437a4838888",
+          "asset": "assets/display/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.webp",
+          "zoom_asset": "assets/zoom/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "learner zoom before audit",
+            "input_asset": "assets/originals/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.png",
+            "input_dimensions": [
+              2011,
+              1468
+            ],
+            "boxes": [
+              [
+                931,
+                671,
+                2009,
+                788
+              ],
+              [
+                855,
+                989,
+                1510,
+                1211
+              ]
+            ],
+            "normalized_boxes": [
+              [
+                0.463,
+                0.457,
+                0.999,
+                0.537
+              ],
+              [
+                0.425,
+                0.674,
+                0.751,
+                0.825
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Conceal printed teaching labels while preserving the tested visual."
+          },
+          "output_dimensions": [
+            1700,
+            1241
+          ],
+          "display_sha256": "d472b296b3ec5db5712d0867f20cc58aa0ad9b643d3e914be6decec02a849a83",
+          "zoom_sha256": "5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Cervical cancer primary and nodal uptake distribution",
+          "variant_id": "v-34dbbcaa0a8a31fb7484",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92",
+      "source_group_id": "g-0e2e9817e9217e5b46fe",
+      "source_id": "s-c5304e32e5b602a49150",
+      "lecture_id": "R27",
+      "relative_path": "R27/CT Abdomen Omental Findings - CT.png",
+      "sha256": "a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92",
+      "perceptual_hash": "c4cc447868ccccc4",
+      "dimensions": [
+        1853,
+        852
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "CT Abdomen Omental Findings - CT",
+      "original_asset": "assets/originals/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.png",
+      "display_asset": "assets/display/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+      "current_document_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "6",
+        "file": "CT Abdomen Omental Findings - CT.png",
+        "slide_title": "CT Abdomen and Pelvis",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "single",
+        "x0": "0.043",
+        "y0": "0.252",
+        "x1": "0.506",
+        "y1": "0.63",
+        "size": "1853x852@300dpi",
+        "note": "two panels a and b with baked in arrows",
+        "png_sha256": "a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92",
+        "pdf_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+        "extracted_name": "CT Abdomen Omental Findings",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-49baa05e428b8f38e8d6",
+          "asset": "assets/display/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.webp",
+          "zoom_asset": "assets/originals/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1853,
+              852
+            ]
+          },
+          "output_dimensions": [
+            1853,
+            852
+          ],
+          "display_sha256": "7c0ab2c7fdd1b5de738982e187cef92196ada516eb4ee4652237648bca20c25e",
+          "zoom_sha256": "a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "CT omental caking localization",
+          "variant_id": "v-49baa05e428b8f38e8d6",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The arrows trace abnormal tissue anterior to the bowel in both abdominal sections."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf",
+      "source_group_id": "g-0e2e9817e9217e5b46fe",
+      "source_id": "s-faf295bd6ff0686cd7b0",
+      "lecture_id": "R27",
+      "relative_path": "R27/CT Pelvis Complex Ovarian Mass - CT.png",
+      "sha256": "e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf",
+      "perceptual_hash": "717068c8d8797133",
+      "dimensions": [
+        941,
+        780
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "CT Pelvis Complex Ovarian Mass - CT",
+      "original_asset": "assets/originals/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.png",
+      "display_asset": "assets/display/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+      "current_document_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "6",
+        "file": "CT Pelvis Complex Ovarian Mass - CT.png",
+        "slide_title": "CT Abdomen and Pelvis",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "single",
+        "x0": "0.517",
+        "y0": "0.252",
+        "x1": "0.752",
+        "y1": "0.598",
+        "size": "941x780@300dpi",
+        "note": "",
+        "png_sha256": "e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf",
+        "pdf_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+        "extracted_name": "CT Pelvis Complex Ovarian Mass",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ab681cfe3b3a62b992be",
+          "asset": "assets/display/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.webp",
+          "zoom_asset": "assets/originals/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              941,
+              780
+            ]
+          },
+          "output_dimensions": [
+            941,
+            780
+          ],
+          "display_sha256": "039c88842958e3bcfc8142b916a9ea16e0b5390f5b26c1a72bb70a5e163a4cd1",
+          "zoom_sha256": "e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Complex pelvic mass on CT",
+          "variant_id": "v-ab681cfe3b3a62b992be",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The large lesion has a broad darker compartment adjacent to irregular higher-density tissue."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3",
+      "source_group_id": "g-8329f25f6de3f1c39dc4",
+      "source_id": "s-659e5c963e3ad02941fd",
+      "lecture_id": "R28",
+      "relative_path": "R28/Cervical Cancer Speculum View - Clinical Photo.png",
+      "sha256": "32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3",
+      "perceptual_hash": "7073737969697078",
+      "dimensions": [
+        1464,
+        1464
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Cervical Cancer Speculum View - Clinical Photo",
+      "original_asset": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
+      "display_asset": "assets/display/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 3
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "3",
+        "file": "Cervical Cancer Speculum View - Clinical Photo.png",
+        "slide_title": "Rose’s Story",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "single",
+        "x0": "0.567",
+        "y0": "0.232",
+        "x1": "0.933",
+        "y1": "0.883",
+        "size": "1464x1464@300dpi",
+        "note": "baked in label Cervical Cancer on the photo",
+        "png_sha256": "32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3",
+        "pdf_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+        "extracted_name": "Cervical Cancer Speculum View",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-037c8aec0774fa805662",
+          "asset": "assets/display/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.webp",
+          "zoom_asset": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1464,
+              1464
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1464,
+            1464
+          ],
+          "display_sha256": "164225d3d7b9363f684bd19115db1be7c75f713cdfec8f4b2edca956220cdbb9",
+          "zoom_sha256": "32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3"
+        },
+        {
+          "variant_id": "v-e115a66c3169aab6d4f5",
+          "asset": "assets/display/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.webp",
+          "zoom_asset": "assets/zoom/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "learner zoom before audit",
+            "input_asset": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
+            "input_dimensions": [
+              1464,
+              1464
+            ],
+            "boxes": [
+              [
+                56,
+                1294,
+                975,
+                1419
+              ]
+            ],
+            "normalized_boxes": [
+              [
+                0.038,
+                0.884,
+                0.666,
+                0.969
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Conceal printed teaching labels while preserving the tested visual."
+          },
+          "output_dimensions": [
+            1464,
+            1464
+          ],
+          "display_sha256": "ef29220b9f2973e591306d06d809845b1a07cd2c6e324887a2de314f841021ea",
+          "zoom_sha256": "e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Cervical tumor gross contour around the opening",
+          "variant_id": "v-037c8aec0774fa805662",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "The rim is uneven and raised, with friable looking tissue surrounding a central recess."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e",
+      "source_group_id": "g-0b74270268e252a15c65",
+      "source_id": "s-e546a42e0ffeb3bb98d6",
+      "lecture_id": "R28",
+      "relative_path": "R28/Uterine Ultrasound Case - Echo.png",
+      "sha256": "dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e",
+      "perceptual_hash": "eccc9687acc86961",
+      "dimensions": [
+        1962,
+        1473
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Uterine Ultrasound Case - Echo",
+      "original_asset": "assets/originals/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.png",
+      "display_asset": "assets/display/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "25",
+        "file": "Uterine Ultrasound Case - Echo.png",
+        "slide_title": "Mary’s Ultrasound in the ED",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.085",
+        "y0": "0.23",
+        "x1": "0.575",
+        "y1": "0.884",
+        "size": "1962x1473@300dpi",
+        "note": "extractor typed EM, corrected by eye",
+        "png_sha256": "dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e",
+        "pdf_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+        "extracted_name": "Uterine Ultrasound Case",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-9cd4be134b86521cc5ab",
+          "asset": "assets/display/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.webp",
+          "zoom_asset": "assets/originals/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1962,
+              1473
+            ]
+          },
+          "output_dimensions": [
+            1962,
+            1473
+          ],
+          "display_sha256": "ef81ee198bb41d7d2c5e15c9793f78c0002f4f9ca3882c581541739d87586b44",
+          "zoom_sha256": "dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Gestational trophoblastic case uterine ultrasound texture",
+          "variant_id": "v-9cd4be134b86521cc5ab",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Multiple small dark spaces interrupt the heterogeneous central echogenic region."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d",
+      "source_id": "s-bfadfbb5de3151cb7b6d",
+      "source_group_id": "g-6ed5ccf32883c5c7298a",
+      "lecture_id": "R14.1",
+      "relative_path": "R14.1/Cervical Effacement vs Dilation - Diagram.png",
+      "sha256": "7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d",
+      "perceptual_hash": "b9c99169978d4c77",
+      "dimensions": [
+        3654,
+        1455
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "9. What is Cervical Change?",
+      "original_asset": "assets/originals/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.png",
+      "display_asset": "assets/display/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "current_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": "18",
+        "file": "Cervical Effacement vs Dilation - Diagram.png",
+        "slide_title": "9. What is Cervical Change?",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.138",
+        "y0": "0.472",
+        "x1": "0.823",
+        "y1": "0.957",
+        "size": "3654x1455@400dpi",
+        "note": "tops of both uteri are cut off in the source image",
+        "png_sha256": "7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d",
+        "pdf_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-3097b2f87ae22ac35669",
+          "asset": "assets/display/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.webp",
+          "zoom_asset": "assets/originals/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3654,
+              1455
+            ]
+          },
+          "output_dimensions": [
+            3654,
+            1455
+          ],
+          "display_sha256": "fb598d665a7038b3f11f9ccfd404541fe4dad7e6d0cbcbc9218589c797e09ec6",
+          "zoom_sha256": "7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Cervical effacement on sagittal diagram",
+          "variant_id": "v-3097b2f87ae22ac35669",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The right drawing shows a much shorter, thinner cervical segment around the descending head."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+      "source_id": "s-b0eca288e181646319c6",
+      "source_group_id": "g-acfb802fa6b62d8fb710",
+      "lecture_id": "R14.1",
+      "relative_path": "R14.1/Fetal Station - Diagram.png",
+      "sha256": "ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+      "perceptual_hash": "4e8766199cc37967",
+      "dimensions": [
+        3207,
+        2196
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually checked original and image-dependent question.",
+      "tested_concept": "Fetal Station - Diagram",
+      "original_asset": "assets/originals/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.png",
+      "display_asset": "assets/display/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "current_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": "25",
+        "file": "Fetal Station - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.344",
+        "y0": "0.135",
+        "x1": "0.945",
+        "y1": "0.867",
+        "size": "3207x2196@400dpi",
+        "note": "",
+        "png_sha256": "ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+        "pdf_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ccdc348bbdcf6b771662",
+          "asset": "assets/display/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3207,
+              2196
+            ],
+            "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27",
+      "source_group_id": "g-320065114b8b497991f3",
+      "source_id": "s-ad03c2ee2ce5f0c9b6ea",
+      "lecture_id": "R28",
+      "relative_path": "R28/Vulvar Squamous Cell Carcinoma Lesion - Clinical Photo.png",
+      "sha256": "9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27",
+      "perceptual_hash": "8b8a4c5e5fdb8d0d",
+      "dimensions": [
+        1661,
+        975
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Vulvar Squamous Cell Carcinoma Lesion - Clinical Photo",
+      "original_asset": "assets/originals/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.png",
+      "display_asset": "assets/display/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 16
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "16",
+        "file": "Vulvar Squamous Cell Carcinoma Lesion - Clinical Photo.png",
+        "slide_title": "Miranda’s Story",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "single",
+        "x0": "0.543",
+        "y0": "0.341",
+        "x1": "0.958",
+        "y1": "0.774",
+        "size": "1661x975@300dpi",
+        "note": "extractor typed Gross",
+        "png_sha256": "9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27",
+        "pdf_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+        "extracted_name": "Vulvar Squamous Cell Carcinoma Lesion",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-4f59ae5c795f0d7b68e5",
+          "asset": "assets/display/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.webp",
+          "zoom_asset": "assets/originals/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1661,
+              975
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1661,
+            975
+          ],
+          "display_sha256": "d9b4c2d147b5bec3110677d94e14468edfd72fc35de929d2be19d66ce818e806",
+          "zoom_sha256": "9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Vulvar lesion gross surface contour",
+          "variant_id": "v-4f59ae5c795f0d7b68e5",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "The pale lesion projects from the surface and has a visibly irregular lobulated contour."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3",
+      "source_group_id": "g-35b83b617240007d24e7",
+      "source_id": "s-959366141d5667a36a6a",
+      "lecture_id": "R28",
+      "relative_path": "R28/Vulvar Lymphatic Drainage - Diagram.png",
+      "sha256": "42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3",
+      "perceptual_hash": "86878787878707aa",
+      "dimensions": [
+        1770,
+        1209
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Vulvar Lymphatic Drainage - Diagram",
+      "original_asset": "assets/originals/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.png",
+      "display_asset": "assets/display/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "18",
+        "file": "Vulvar Lymphatic Drainage - Diagram.png",
+        "slide_title": "Vulvar Anatomy and Lymphatic Drainage",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.454",
+        "y0": "0.225",
+        "x1": "0.897",
+        "y1": "0.763",
+        "size": "1770x1209@300dpi",
+        "note": "",
+        "png_sha256": "42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3",
+        "pdf_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+        "extracted_name": "Vulvar Lymphatic Drainage",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-fab3cc1c711b5f7c0b75",
+          "asset": "assets/display/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.webp",
+          "zoom_asset": "assets/originals/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1770,
+              1209
+            ]
+          },
+          "output_dimensions": [
+            1770,
+            1209
+          ],
+          "display_sha256": "21fe8e5004ed1f7d84969fa606b103c5b77d5ca07ec98cc373735d993ebec142",
+          "zoom_sha256": "42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Vulvar midline bilateral lymphatic drainage diagram",
+          "variant_id": "v-fab3cc1c711b5f7c0b75",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Yellow channels extend from the central lesion to green nodal groups on both sides."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4",
+      "source_id": "s-dc9aa700d2e0fafc0c32",
+      "source_group_id": "g-325c013c46ec0afec122",
+      "lecture_id": "R14.1",
+      "relative_path": "R14.1/Fetal Heart Rate and Contraction Tracing - Diagram.png",
+      "sha256": "f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4",
+      "perceptual_hash": "7cbe4087e90baa51",
+      "dimensions": [
+        3084,
+        1674
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Fetal Heart Rate and Contraction Tracing - Diagram",
+      "original_asset": "assets/originals/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.png",
+      "display_asset": "assets/display/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "current_document_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+        "page": "10",
+        "file": "Fetal Heart Rate and Contraction Tracing - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "manual",
+        "x0": "0.084",
+        "y0": "0.306",
+        "x1": "0.662",
+        "y1": "0.864",
+        "size": "3084x1674@400dpi",
+        "note": "fetal monitor tracing, no tracing type bucket so typed Diagram",
+        "png_sha256": "f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4",
+        "pdf_sha256": "7abdbc3f0b7253ddbf0081f3d99b14bc767339efd85db6cf414189f03fc6580b",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7a699a3925d3f7341b54",
+          "asset": "assets/display/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.webp",
+          "zoom_asset": "assets/originals/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3084,
+              1674
+            ]
+          },
+          "output_dimensions": [
+            3084,
+            1674
+          ],
+          "display_sha256": "582f81a77db8e767a4be3a32aafd9393515c1272970445f36a90096874c2f161",
+          "zoom_sha256": "f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Fetal heart rate and contraction channels",
+          "variant_id": "v-7a699a3925d3f7341b54",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The upper trace fluctuates in the highlighted heart rate band while the lower trace has three broad peaks."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3",
+      "source_group_id": "g-b02f8e6a014a66539b0a",
+      "source_id": "s-cf746928de544602daec",
+      "lecture_id": "R27",
+      "relative_path": "R27/Sentinel Node Mapping Laparoscopic Views - Clinical Photo.png",
+      "sha256": "3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3",
+      "perceptual_hash": "9e36b43634353456",
+      "dimensions": [
+        1167,
+        1104
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Sentinel Node Mapping Laparoscopic Views - Clinical Photo",
+      "original_asset": "assets/originals/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.png",
+      "display_asset": "assets/display/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+        "page": 45
+      },
+      "source_document_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+      "current_document_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "45",
+        "file": "Sentinel Node Mapping Laparoscopic Views - Clinical Photo.png",
+        "slide_title": "Back to Sally…",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "split",
+        "x0": "0.579",
+        "y0": "0.51",
+        "x1": "0.87",
+        "y1": "1.0",
+        "size": "1167x1104@300dpi",
+        "note": "panels A and B",
+        "png_sha256": "3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3",
+        "pdf_sha256": "8153801d600ae96964ce57a4034c33d403d7e70193583f143614411d4b232d56",
+        "extracted_name": "Sentinel Node Mapping Laparoscopic Views",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-57680c3b04a0a052a1d3",
+          "asset": "assets/display/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.webp",
+          "zoom_asset": "assets/originals/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1167,
+              1104
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1167,
+            1104
+          ],
+          "display_sha256": "929143d9fef41b7d8fc201bbb8c3d04224c2f4fa1718ab851408316b7be5b987",
+          "zoom_sha256": "3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Pelvic sentinel mapping visible fluorescence",
+          "variant_id": "v-57680c3b04a0a052a1d3",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Panel B shows localized bright green fluorescence while panel A shows the field in ordinary color."
+        }
+      ]
     }
   ],
   "publication_scope": "Scored clinical cases and required comparison panels"

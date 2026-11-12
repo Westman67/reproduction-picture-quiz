@@ -1,13 +1,13 @@
 # Reproduction Picture Quiz
 
-526 reviewed visual questions.
+705 visual questions across three sections.
 
-- Physiology covers R1 through R7 with 18 questions.
-- Pathology contains 508 questions, covering R8 through R30 and including 19 3rd Party questions available under Source type.
+- Physiology covers R1 through R7 with 27 questions.
+- Pathology contains 514 questions, covering R8 through R30 and including 19 3rd Party questions available under Source type.
 
-Clinical Cases contains 27 cases with 137 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the three sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion. See the [case expansion and source coverage](reports/clinical-cases/case-depth.md). See the [case expansion and source coverage](reports/clinical-cases/case-depth.md).
+Clinical Cases contains 34 cases with 164 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the three sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion.
 
-The two picture banks include 281 histology questions. See the [earlier lecture coverage audit](reports/pathology-pictures-20261111/summary.md).
+See the [visual reasoning expansion and audit](reports/visual-reasoning-20261112.md) for question counts, lecture references, and review gaps.
 
 Learn mode gives feedback after locking an answer. Exam mode defers feedback until completion. Back and Next preserve drafts and locked answers. Skipped questions are reported separately. Zoom resets for each question. The Keanne Button corrects an incorrect locked attempt without changing the original selection or adding an attempt.
 

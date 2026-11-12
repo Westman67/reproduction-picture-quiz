@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "title": "Reproduction Pathology Clinical Cases",
-  "bank_version": "2026-11-12-case-depth",
+  "bank_version": "2026-11-12-visual-reasoning",
   "release_status": "reviewed",
   "cases": [
     {
@@ -13,11 +13,13 @@
         "q-r10-vulvar-plaque-2",
         "q-r10-vulvar-plaque-3",
         "q-r10-vulvar-plaque-depth-stromal-interface",
-        "q-r10-vulvar-plaque-depth-basal-maturation"
+        "q-r10-vulvar-plaque-depth-basal-maturation",
+        "q-reasoning-mucin-stain"
       ],
       "previous_question_counts": [
         2,
-        3
+        3,
+        5
       ]
     },
     {
@@ -60,10 +62,12 @@
         "q-r17-placental-specimens-depth-gross-cavity",
         "q-r17-placental-specimens-depth-villous-inclusion",
         "q-r17-placental-specimens-depth-wall-extension",
-        "q-r17-placental-specimens-depth-ploidy"
+        "q-r17-placental-specimens-depth-ploidy",
+        "q-reasoning-p57-pattern"
       ],
       "previous_question_counts": [
-        2
+        2,
+        6
       ]
     },
     {
@@ -121,10 +125,12 @@
         "q-r10-vulvar-nodule-1",
         "q-r10-vulvar-nodule-2",
         "q-r10-vulvar-nodule-depth-skin-interface",
-        "q-r10-vulvar-nodule-depth-papillary-mimic"
+        "q-r10-vulvar-nodule-depth-papillary-mimic",
+        "q-reasoning-myoepithelial-stain"
       ],
       "previous_question_counts": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -180,10 +186,12 @@
         "q-r12-ovarian-granulosa-2",
         "q-r12-ovarian-granulosa-3",
         "q-r12-ovarian-granulosa-depth-gross-sampling",
-        "q-r12-ovarian-granulosa-depth-inhibin"
+        "q-r12-ovarian-granulosa-depth-inhibin",
+        "q-reasoning-inhibin-panel"
       ],
       "previous_question_counts": [
-        3
+        3,
+        5
       ]
     },
     {
@@ -239,10 +247,12 @@
         "q-r16-prostate-stain-2",
         "q-r16-prostate-stain-depth-he-trigger",
         "q-r16-prostate-stain-depth-retained-duct",
-        "q-r16-prostate-stain-depth-normal-basal"
+        "q-r16-prostate-stain-depth-normal-basal",
+        "q-reasoning-pin4-pattern"
       ],
       "previous_question_counts": [
-        2
+        2,
+        5
       ]
     },
     {
@@ -255,10 +265,12 @@
         "q-r16-testicular-mass-3",
         "q-r16-testicular-mass-depth-cell-boundaries",
         "q-r16-testicular-mass-depth-gross-alternative",
-        "q-r16-testicular-mass-depth-intratubular-companion"
+        "q-r16-testicular-mass-depth-intratubular-companion",
+        "q-reasoning-germ-cell-stain"
       ],
       "previous_question_counts": [
-        3
+        3,
+        6
       ]
     },
     {
@@ -299,10 +311,12 @@
         "q-r27-tubal-lining-1",
         "q-r27-tubal-lining-2",
         "q-r27-tubal-lining-depth-focal-transition",
-        "q-r27-tubal-lining-depth-serial-sampling"
+        "q-r27-tubal-lining-depth-serial-sampling",
+        "q-reasoning-serial-section-logic"
       ],
       "previous_question_counts": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -314,10 +328,12 @@
         "q-r29-pleural-b-case",
         "q-r29-pleural-depth-stain-panel",
         "q-r29-pleural-depth-gross-ovary",
-        "q-r29-pleural-depth-tissue-architecture"
+        "q-r29-pleural-depth-tissue-architecture",
+        "q-reasoning-pleural-positive-pattern"
       ],
       "previous_question_counts": [
-        2
+        2,
+        5
       ]
     },
     {
@@ -345,10 +361,12 @@
         "q-r29-vag-medium-case",
         "q-r29-vag-high-case",
         "q-r29-vaginal-biopsy-depth-ovarian-companion",
-        "q-r29-vaginal-biopsy-depth-pulmonary-link"
+        "q-r29-vaginal-biopsy-depth-pulmonary-link",
+        "q-reasoning-cycle-linked-workup"
       ],
       "previous_question_counts": [
-        3
+        3,
+        5
       ]
     },
     {
@@ -360,10 +378,12 @@
         "q-r29-prostate-high-case",
         "q-r29-prostate-depth-urethral-compression",
         "q-r29-prostate-depth-basal-control",
-        "q-r29-prostate-depth-obstruction-attribution"
+        "q-r29-prostate-depth-obstruction-attribution",
+        "q-reasoning-r29-prostate-next"
       ],
       "previous_question_counts": [
-        2
+        2,
+        5
       ]
     },
     {
@@ -376,10 +396,13 @@
         "q-r29-bladder-b-case",
         "q-r29-bladder-depth-papillary-comparison",
         "q-r29-bladder-depth-flat-comparison",
-        "q-r29-bladder-depth-cytology-control"
+        "q-r29-bladder-depth-cytology-control",
+        "q-reasoning-bladder-treatment",
+        "q-reasoning-sample-for-depth"
       ],
       "previous_question_counts": [
-        3
+        3,
+        6
       ]
     },
     {
@@ -413,6 +436,77 @@
       "previous_question_counts": [
         2
       ]
+    },
+    {
+      "case_id": "r14.1-labor-assessment",
+      "title": "Keanne Times the Contractions",
+      "lecture": "R14.1",
+      "question_ids": [
+        "q-reasoning-reassuring-tracing",
+        "q-reasoning-cervical-change-assessment",
+        "q-reasoning-descent-prediction"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r27-pelvic-workup",
+      "title": "Keanne and the Bloating That Wouldn’t Go Away",
+      "lecture": "R27",
+      "question_ids": [
+        "q-reasoning-pelvic-marker-correlation",
+        "q-reasoning-omental-implication"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r27-postmenopausal-bleeding",
+      "title": "Keanne and the Unexpected Spotting",
+      "lecture": "R27",
+      "question_ids": [
+        "q-reasoning-sentinel-procedure",
+        "q-reasoning-endometrial-adjuvant"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r28-cervical-workup",
+      "title": "Keanne and the Spotting After Sex",
+      "lecture": "R28",
+      "question_ids": [
+        "q-reasoning-cervical-sampling",
+        "q-reasoning-cervical-treatment"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r28-vulvar-workup",
+      "title": "Keanne and the Itch That Outlasted the Cream",
+      "lecture": "R28",
+      "question_ids": [
+        "q-reasoning-vulvar-biopsy",
+        "q-reasoning-vulvar-drainage"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r28-postpartum-workup",
+      "title": "Keanne and the Cough Five Months Later",
+      "lecture": "R28",
+      "question_ids": [
+        "q-reasoning-postpartum-workup",
+        "q-reasoning-postpartum-distribution"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r18-breast-biomarkers",
+      "title": "Keanne Looks Beyond the Breast Biopsy",
+      "lecture": "R18",
+      "question_ids": [
+        "q-reasoning-her2-therapy",
+        "q-reasoning-er-therapy"
+      ],
+      "previous_question_counts": []
     }
   ],
   "questions": [
@@ -729,6 +823,63 @@
           "page": 53
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-mucin-stain",
+      "collection": "R10",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Mucin stain",
+      "visual_target": "Which test would demonstrate the cytoplasmic material that helps classify the conspicuous cells in this epidermis?",
+      "stem": "Which test would demonstrate the cytoplasmic material that helps classify the conspicuous cells in this epidermis?",
+      "options": [
+        "p63 to evaluate basal or squamous differentiation",
+        "Calponin to highlight myoepithelial cells",
+        "Mucicarmine for intracellular mucin",
+        "HER2 in situ hybridization to assess gene amplification",
+        "H&E to assess nuclear and cytoplasmic morphology"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "This would characterize a cell lineage rather than demonstrate the intracellular mucin sought here.",
+        "This would highlight a supporting cell layer, as in the R10 papillary glandular nodule, rather than mucin in the lesional cells.",
+        "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells. R10 also lists diastase PAS as an alternative mucin stain to demonstrate the same material.",
+        "That measures gene copy number rather than mucin in this cell population.",
+        "The routine section already shows pale cells. Pale cytoplasm alone does not establish that it contains mucin."
+      ],
+      "explanation": "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells. R10 also lists diastase PAS as an alternative mucin stain to demonstrate the same material.",
+      "visual_clues": [
+        "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-18e8d9096c2d2b10aa56",
+      "source_group_id": "g-c729792c7c7dd5ab1f6a",
+      "variant_id": "v-ad3db49ed6bcb257b619",
+      "image": "assets/display/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.webp",
+      "zoom_image": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+      "original_image": "assets/originals/fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f.png",
+      "original_filename": "Vulvar Paget Cells - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-fb24a803678bfb5279bf0525958325b8c4afea846a3535dab5d49a66ce8c4d7f",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 53
+        }
+      ],
+      "case_id": "r10-vulvar-plaque",
+      "scenario": "A patient has a persistent pruritic vulvar plaque. The section shows the epidermis and adjacent stroma.",
+      "lead_in": "Which test would demonstrate the cytoplasmic material that helps classify the conspicuous cells in this epidermis?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-1",
@@ -1713,6 +1864,72 @@
           "page": 14
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-p57-pattern",
+      "collection": "R17",
+      "question_type": "Clinical visual question",
+      "tested_concept": "P57 pattern",
+      "visual_target": "Which p57 pattern would support the classification suggested by the villous architecture in the two fields?",
+      "stem": "Which p57 pattern would support the classification suggested by the villous architecture in the two fields?",
+      "options": [
+        "Only the left specimen retains a villous p57 signal",
+        "Loss of villous p57 on the left with retained villous p57 on the right",
+        "Loss of villous p57 on both sides",
+        "Retained villous p57 on both sides",
+        "Interpret a failed maternal control as evidence that both samples are complete moles"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "This reverses the expected pattern for the illustrated complete and partial examples.",
+        "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole. The mixed villous population on the right supports a partial mole. R28 describes p57 as negative in the complete pattern and positive in the partial pattern.",
+        "Retained p57 supports the partial pattern seen on the right.",
+        "The left morphologic pattern would ordinarily be supported by loss of villous p57 in the teaching comparison.",
+        "A failed control invalidates the stain comparison."
+      ],
+      "explanation": "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole. The mixed villous population on the right supports a partial mole. R28 describes p57 as negative in the complete pattern and positive in the partial pattern.",
+      "visual_clues": [
+        "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-b9cb64ee02a1fb48c4f3",
+      "source_group_id": "g-65947a04699d1cf373fd",
+      "variant_id": "v-f54ea6358b5d2482a049",
+      "image": "assets/display/f54ea6358b5d2482a049f4d73ee1008dedea205e5f8e6ad132091c9d2ea859cd.webp",
+      "zoom_image": "assets/display/f54ea6358b5d2482a049f4d73ee1008dedea205e5f8e6ad132091c9d2ea859cd-zoom.webp",
+      "original_image": "assets/originals/6175e1593a01e2c2168d0414fc04ad5be9c7cbf32f58f12e9377bb674ff992d0.png",
+      "original_filename": "Complete Mole Histology - Histology (2).png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-6175e1593a01e2c2168d0414fc04ad5be9c7cbf32f58f12e9377bb674ff992d0",
+      "joint_panels": true,
+      "citations": [
+        {
+          "document": "R17 Placenta Pathology RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "R17 Placenta Pathology RLS.pdf",
+          "page": 28
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 27
+        }
+      ],
+      "case_id": "r17-placental-specimens",
+      "scenario": "Two separate pregnancy specimens are displayed side by side. A viable maternal tissue control is present for the proposed stain.",
+      "lead_in": "Which p57 pattern would support the classification suggested by the villous architecture in the two fields?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r18-breast-specimens-1",
@@ -2967,6 +3184,63 @@
       ]
     },
     {
+      "question_id": "q-reasoning-myoepithelial-stain",
+      "collection": "R10",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Myoepithelial stain",
+      "visual_target": "Which stain would help demonstrate the supporting layer around the glandular structures highlighted in the lecture?",
+      "stem": "Which stain would help demonstrate the supporting layer around the glandular structures highlighted in the lecture?",
+      "options": [
+        "Mucicarmine",
+        "Inhibin",
+        "Calponin",
+        "HER2",
+        "PLAP"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "This demonstrates mucin and is not the lecture's marker of the supporting layer.",
+        "This addresses ovarian sex cord differentiation rather than the layer around vulvar papillary glands.",
+        "The circumscribed dermal nodule contains complex papillary glands. R10 describes a retained myoepithelial layer and lists calponin and SMA as stains supporting this component.",
+        "This evaluates receptor expression rather than the myoepithelial layer.",
+        "This is used in the testicular germ cell material and does not identify the supporting gland layer."
+      ],
+      "explanation": "The circumscribed dermal nodule contains complex papillary glands. R10 describes a retained myoepithelial layer and lists calponin and SMA as stains supporting this component.",
+      "visual_clues": [
+        "The circumscribed dermal nodule contains complex papillary glands."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-7c9fef19a7d67ada5ba8",
+      "source_group_id": "g-4d7ee2151c1333fe6ca1",
+      "variant_id": "v-572a2b838afdca67ee62",
+      "image": "assets/display/af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f.webp",
+      "zoom_image": "assets/originals/af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f.png",
+      "original_image": "assets/originals/af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f.png",
+      "original_filename": "Papillary Hidradenoma - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 51
+        }
+      ],
+      "case_id": "r10-vulvar-nodule",
+      "scenario": "A small vulvar nodule has been removed. The figure shows it at two powers.",
+      "lead_in": "Which stain would help demonstrate the supporting layer around the glandular structures highlighted in the lecture?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
+    },
+    {
       "question_id": "q-r12-cervical-series-1",
       "case_id": "r12-cervical-series",
       "format_version": "clinical-visual-v1",
@@ -4152,6 +4426,71 @@
           "page": 103
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-inhibin-panel",
+      "collection": "R12",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Inhibin panel",
+      "visual_target": "Which immunostain best tests the differentiation suggested by the architecture in this field?",
+      "stem": "Which immunostain best tests the differentiation suggested by the architecture in this field?",
+      "options": [
+        "p63",
+        "HER2",
+        "p53",
+        "Inhibin",
+        "PLAP"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "A basal layer marker does not test the sex cord differentiation suggested by the rosettes.",
+        "HER2 testing addresses receptor status rather than the follicle-like architecture shown here.",
+        "The R12 p53 teaching example illustrates a different process in endometrial tissue.",
+        "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population.",
+        "PLAP supports a germ cell differential. The pictured microfollicular architecture points toward granulosa differentiation."
+      ],
+      "explanation": "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population.",
+      "visual_clues": [
+        "The small rosettes around pale centers suggest a granulosa cell pattern."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-e7945bd4e19a5668d9c6",
+      "source_group_id": "g-bbbe5bbdbedc84a2b6f2",
+      "variant_id": "v-53e11e43de2ee3ed8522",
+      "image": "assets/display/2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a.webp",
+      "zoom_image": "assets/originals/2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a.png",
+      "original_image": "assets/originals/2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a.png",
+      "original_filename": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 103
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 104
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 105
+        }
+      ],
+      "case_id": "r12-ovarian-granulosa",
+      "scenario": "An ovarian mass has a solid component sampled for histology.",
+      "lead_in": "Which immunostain best tests the differentiation suggested by the architecture in this field?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-1",
@@ -5357,6 +5696,71 @@
       ]
     },
     {
+      "question_id": "q-reasoning-pin4-pattern",
+      "collection": "R16",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Pin4 pattern",
+      "visual_target": "Which result would most support invasive carcinoma in these glands if nearby benign glands show a satisfactory basal cell control?",
+      "stem": "Which result would most support invasive carcinoma in these glands if nearby benign glands show a satisfactory basal cell control?",
+      "options": [
+        "Retained basal rim with cytoplasmic AMACR in the suspicious glands",
+        "Absent basal stain in both the suspicious and benign glands",
+        "Intact basal rim with no cytoplasmic AMACR in the suspicious glands",
+        "AMACR positivity with basal staining left unevaluated",
+        "Absent p63 and CK903 basal rim with cytoplasmic AMACR in the suspicious glands"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "AMACR can be positive in PIN, and a retained basal rim weakens the inference of invasion.",
+        "Loss of staining in the internal control makes the negative finding difficult to interpret.",
+        "The described pattern is more consistent with the benign comparison glands.",
+        "AMACR alone does not separate PIN from invasive carcinoma in this lecture.",
+        "The crowded small glands on H&E are the suspicious population. With an intact internal control, loss of their p63 and CK903 basal rim supports invasion. Cytoplasmic AMACR is supportive but can also be expressed in prostatic intraepithelial neoplasia."
+      ],
+      "explanation": "The crowded small glands on H&E are the suspicious population. With an intact internal control, loss of their p63 and CK903 basal rim supports invasion. Cytoplasmic AMACR is supportive but can also be expressed in prostatic intraepithelial neoplasia.",
+      "visual_clues": [
+        "The crowded small glands on H&E are the suspicious population."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-dd95b69d0e41f6aee169",
+      "source_group_id": "g-096ee9db6d3bc6f96025",
+      "variant_id": "v-d83c153099d1aa000491",
+      "image": "assets/display/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.webp",
+      "zoom_image": "assets/originals/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.png",
+      "original_image": "assets/originals/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.png",
+      "original_filename": "R16/Prostatic Adenocarcinoma Histology - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917",
+      "citations": [
+        {
+          "document": "R16 GU Pathology II RLS.pdf",
+          "page": 16
+        },
+        {
+          "document": "R16 GU Pathology II RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "R16 GU Pathology II RLS.pdf",
+          "page": 20
+        }
+      ],
+      "case_id": "r16-prostate-stain",
+      "scenario": "A small prostate biopsy is being evaluated with an immunostain panel. Interpret the small gland population in the displayed routine section.",
+      "lead_in": "Which result would most support invasive carcinoma in these glands if nearby benign glands show a satisfactory basal cell control?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
       "question_id": "q-r16-testicular-mass-1",
       "case_id": "r16-testicular-mass",
       "format_version": "clinical-visual-v1",
@@ -5725,6 +6129,63 @@
           "page": 39
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-germ-cell-stain",
+      "collection": "R16",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Germ cell stain",
+      "visual_target": "Which immunostain combination supports the tumor pattern in this field?",
+      "stem": "Which immunostain combination supports the tumor pattern in this field?",
+      "options": [
+        "OCT3/4 and CD117",
+        "p63 and CK903",
+        "CD30 and AFP",
+        "HER2 and estrogen receptor",
+        "Calponin and SMA"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The pale tumor cells and lymphocyte-rich septa fit seminoma. R16 identifies OCT3/4 and CD117 as useful germ cell markers in that setting and describes CD30 and AFP as negative.",
+        "These markers are used to evaluate basal cells in the lecture's prostate examples.",
+        "The seminoma slide describes these as negative.",
+        "These markers do not evaluate the testicular germ cell pattern shown here.",
+        "These highlight muscle or myoepithelial differentiation in other teaching examples."
+      ],
+      "explanation": "The pale tumor cells and lymphocyte-rich septa fit seminoma. R16 identifies OCT3/4 and CD117 as useful germ cell markers in that setting and describes CD30 and AFP as negative.",
+      "visual_clues": [
+        "The pale tumor cells and lymphocyte-rich septa fit seminoma."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-968edb1713e07bdf290c",
+      "source_group_id": "g-8a0f2b1d51db0fa75bc0",
+      "variant_id": "v-dcda29dcf645601fcb7d",
+      "image": "assets/display/0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3.webp",
+      "zoom_image": "assets/originals/0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3.png",
+      "original_image": "assets/originals/0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3.png",
+      "original_filename": "R16/Seminoma Histology - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3",
+      "citations": [
+        {
+          "document": "R16 GU Pathology II RLS.pdf",
+          "page": 39
+        }
+      ],
+      "case_id": "r16-testicular-mass",
+      "scenario": "An adult presents with a painless testicular mass. Review the tissue architecture.",
+      "lead_in": "Which immunostain combination supports the tumor pattern in this field?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-1",
@@ -6546,6 +7007,63 @@
       ]
     },
     {
+      "question_id": "q-reasoning-serial-section-logic",
+      "collection": "R27",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Serial section logic",
+      "visual_target": "Which sampling choice best addresses the distribution of the abnormal epithelium shown here?",
+      "stem": "Which sampling choice best addresses the distribution of the abnormal epithelium shown here?",
+      "options": [
+        "One random section from the proximal tube",
+        "Serial sectioning of the fimbrial region",
+        "Examine only the outer serosal surface",
+        "Assess only the ovarian cortex",
+        "Use a gross inspection alone to exclude an epithelial focus"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The lesion is focal and can be missed by limited sampling.",
+        "The dark atypical epithelium occupies a short segment of a fold. R27 identifies sampling error and emphasizes serial fimbrial sectioning to improve detection of focal lesions.",
+        "The abnormal cells are within the mucosal epithelium.",
+        "The depicted abnormal population is in a tubal fold.",
+        "The abnormality is microscopic."
+      ],
+      "explanation": "The dark atypical epithelium occupies a short segment of a fold. R27 identifies sampling error and emphasizes serial fimbrial sectioning to improve detection of focal lesions.",
+      "visual_clues": [
+        "The dark atypical epithelium occupies a short segment of a fold."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-ea97375fbd12a6abab1c",
+      "source_group_id": "g-eaaf5fe2a6b54d749050",
+      "variant_id": "v-3a6771d132c909715d88",
+      "image": "assets/display/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.webp",
+      "zoom_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
+      "original_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
+      "original_filename": "R27/STIC Lesion Fallopian Tube - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352",
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 14
+        }
+      ],
+      "case_id": "r27-tubal-lining",
+      "scenario": "A tube is removed during surgery and examined as a potential source of a serous lesion.",
+      "lead_in": "Which sampling choice best addresses the distribution of the abnormal epithelium shown here?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
+    },
+    {
       "question_id": "q-r29-pleural-a-case",
       "source_id": "s-851a0639b7b1e47c682c",
       "source_group_id": "g-e774edea37965764c7ae",
@@ -6880,6 +7398,102 @@
           "page": 2
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-pleural-positive-pattern",
+      "collection": "R29",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Pleural positive pattern",
+      "visual_target": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
+      "stem": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
+      "options": [
+        "Calretinin positivity establishes a mesothelial origin",
+        "CDX2 positivity establishes a colorectal primary",
+        "TTF1 positivity establishes a thyroid or lung primary",
+        "PAX8 positivity alone establishes an ovarian primary",
+        "The combined pattern favors Müllerian origin and the primary site requires further correlation"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "Calretinin is negative in the displayed panel.",
+        "The displayed CDX2 result is negative.",
+        "The displayed TTF1 result is negative.",
+        "The guide lists several possible PAX8-expressing tissues and interprets the panel together.",
+        "CK7, PAX8, and CA125 are positive. The guide interprets the panel as supporting Müllerian origin and relies on the subsequent ovarian evaluation to establish the primary."
+      ],
+      "explanation": "CK7, PAX8, and CA125 are positive. The guide interprets the panel as supporting Müllerian origin and relies on the subsequent ovarian evaluation to establish the primary.",
+      "visual_clues": [
+        "CK7, PAX8, and CA125 are positive."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "stain",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "visual_kind": "table",
+      "source_origin": "lecture-table",
+      "category": "Clinical data",
+      "source_group_id": "g-table-q-r29-pleural-depth-stain-panel",
+      "context_table": {
+        "placement": "primary",
+        "title": "Pleural fluid staining results",
+        "columns": [
+          "Marker",
+          "Result"
+        ],
+        "rows": [
+          [
+            "CK7",
+            "Positive"
+          ],
+          [
+            "PAX8",
+            "Positive"
+          ],
+          [
+            "CA125",
+            "Positive"
+          ],
+          [
+            "CDX2",
+            "Negative"
+          ],
+          [
+            "TTF1",
+            "Negative"
+          ],
+          [
+            "Calretinin",
+            "Negative"
+          ]
+        ],
+        "source": {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 1
+        }
+      },
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 1
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 2
+        },
+        {
+          "document": "R29 Cases.pdf",
+          "page": 7
+        }
+      ],
+      "case_id": "r29-pleural",
+      "scenario": "An older adult with progressive dyspnea and bilateral pleural effusions has malignant appearing cells in the drained fluid. The follow-up guide gives the ancillary results.",
+      "lead_in": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
+      "format_version": "clinical-visual-v1",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r29-cervix-case",
@@ -7601,6 +8215,79 @@
       ]
     },
     {
+      "question_id": "q-reasoning-cycle-linked-workup",
+      "collection": "R29",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Cycle linked workup",
+      "visual_target": "What additional history would most help test the connection suggested by this biopsy?",
+      "stem": "What additional history would most help test the connection suggested by this biopsy?",
+      "options": [
+        "Whether the episodes repeatedly began near the onset of menses",
+        "Whether the episodes occurred only after a urinary tract infection",
+        "Whether episodes were accompanied by fever and purulent sputum",
+        "Whether the episodes began after cervical screening",
+        "Whether pain preceded each episode during heavy exercise"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The vaginal field contains endometrial type glands and associated stroma at an extrauterine site. R29 describes a cycle-linked pulmonary presentation, so the timing of each pneumothorax relative to menses is the most useful connection to check.",
+        "This does not test the cycle-linked process suggested by the biopsy.",
+        "That would help evaluate infection, but it does not test the menstrual association suggested by the tissue.",
+        "Screening timing does not test the mechanism discussed in the guide.",
+        "Exercise timing could help evaluate symptoms, while the vaginal lesion makes menstrual timing the distinguishing question."
+      ],
+      "explanation": "The vaginal field contains endometrial type glands and associated stroma at an extrauterine site. R29 describes a cycle-linked pulmonary presentation, so the timing of each pneumothorax relative to menses is the most useful connection to check.",
+      "visual_clues": [
+        "The vaginal field contains endometrial type glands and associated stroma at an extrauterine site."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-341e5392e7c9cadfcfe6",
+      "source_group_id": "g-a52c2a00e88c48992fe5",
+      "variant_id": "v-ce9c6f09059c7f84fd14",
+      "image": "assets/display/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.webp",
+      "zoom_image": "assets/originals/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.png",
+      "original_image": "assets/originals/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.png",
+      "original_filename": "Case 3 Vaginal Biopsy High Power - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08",
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 Cases.pdf",
+          "page": 36
+        }
+      ],
+      "case_id": "r29-vaginal-biopsy",
+      "scenario": "A 25-year-old has recurrent right pneumothorax and painful menses. The vaginal biopsy is displayed.",
+      "lead_in": "What additional history would most help test the connection suggested by this biopsy?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
       "question_id": "q-r29-prostate-low-case",
       "source_id": "s-4b52ab3a2d5464212767",
       "source_group_id": "g-6c879aea511fcbad28ba",
@@ -7940,6 +8627,71 @@
           "page": 43
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-r29-prostate-next",
+      "collection": "R29",
+      "question_type": "Clinical visual question",
+      "tested_concept": "R29 prostate next",
+      "visual_target": "Which next step does the case guide favor after interpreting the focal gland pattern in the displayed tissue?",
+      "stem": "Which next step does the case guide favor after interpreting the focal gland pattern in the displayed tissue?",
+      "options": [
+        "End evaluation because urinary flow improved",
+        "Use the resection field alone to establish the full extent of cancer",
+        "Treat the histologic finding as proof of distant metastasis",
+        "Further prostate evaluation before choosing definitive treatment",
+        "Use only the appearance of the larger folded glands to guide follow-up"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Symptom relief addresses obstruction and does not resolve the suspicious gland finding.",
+        "This limited sample does not establish the distribution in the rest of the prostate.",
+        "The field shows local glands and gives no evidence of distant spread.",
+        "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component. The guide calls for further assessment before choosing therapy because the resection mainly samples the transition zone.",
+        "The focal crowded population requires separate assessment."
+      ],
+      "explanation": "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component. The guide calls for further assessment before choosing therapy because the resection mainly samples the transition zone.",
+      "visual_clues": [
+        "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-f5ad0beebc481fb69c26",
+      "source_group_id": "g-f14f98b3b75ae39eb01b",
+      "variant_id": "v-2b04a65539dc0ffea8eb",
+      "image": "assets/display/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.webp",
+      "zoom_image": "assets/originals/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.png",
+      "original_image": "assets/originals/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.png",
+      "original_filename": "Case 4 Prostate High Power - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca",
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 9
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 9
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 10
+        }
+      ],
+      "case_id": "r29-prostate",
+      "scenario": "A 75-year-old with progressive obstruction improves after transurethral resection. The displayed field is from the resection.",
+      "lead_in": "Which next step does the case guide favor after interpreting the focal gland pattern in the displayed tissue?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r29-urine-case",
@@ -8338,6 +9090,156 @@
           "page": 55
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-bladder-treatment",
+      "collection": "R29",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Bladder treatment",
+      "visual_target": "Assuming staging reveals no distant disease, which treatment approach in the case guide fits the depth demonstrated here?",
+      "stem": "Assuming staging reveals no distant disease, which treatment approach in the case guide fits the depth demonstrated here?",
+      "options": [
+        "Transurethral resection alone as for a low risk superficial lesion",
+        "Transurethral resection followed by intravesical BCG as for high risk non-muscle-invasive disease",
+        "Repeat urine cytology alone before offering treatment",
+        "A treatment plan based only on assumed distant metastasis",
+        "Radical treatment for muscle invasive disease"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "This field shows involvement beyond the superficial compartment.",
+        "BCG is the guide's example for non-muscle-invasive disease. Tumor is present in detrusor here.",
+        "The biopsy has already established wall invasion, which urine cytology cannot assess.",
+        "The supplied staging condition excludes distant disease and the tissue establishes local muscle invasion.",
+        "The biopsy shows malignant cells infiltrating between detrusor muscle bundles. Muscle invasion places the patient in the group requiring radical treatment with curative intent rather than a regimen limited to the bladder lining."
+      ],
+      "explanation": "The biopsy shows malignant cells infiltrating between detrusor muscle bundles. Muscle invasion places the patient in the group requiring radical treatment with curative intent rather than a regimen limited to the bladder lining.",
+      "visual_clues": [
+        "The biopsy shows malignant cells infiltrating between detrusor muscle bundles."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "treatment",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-fbc3d90fd0e9094178f9",
+      "source_group_id": "g-16be5374bb8964b28164",
+      "variant_id": "v-9d5cac35afc6a3b7ad64",
+      "image": "assets/display/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.webp",
+      "zoom_image": "assets/originals/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.png",
+      "original_image": "assets/originals/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.png",
+      "original_filename": "Case 5 Bladder Biopsy 1 - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935",
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 12
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 13
+        },
+        {
+          "document": "R29 Cases.pdf",
+          "page": 57
+        },
+        {
+          "document": "R29 Cases.pdf",
+          "page": 62
+        }
+      ],
+      "case_id": "r29-bladder",
+      "scenario": "A 65-year-old presents with gross hematuria. Urine cytology is concerning and a bladder wall biopsy is shown.",
+      "lead_in": "Assuming staging reveals no distant disease, which treatment approach in the case guide fits the depth demonstrated here?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-sample-for-depth",
+      "collection": "R29",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Sample for depth",
+      "visual_target": "Which next investigation would resolve the key limitation of the specimen shown?",
+      "stem": "Which next investigation would resolve the key limitation of the specimen shown?",
+      "options": [
+        "Repeat urine cytology to assign an invasion depth",
+        "Assign an invasion depth from the nuclear size in this sample",
+        "Cystoscopy with a bladder biopsy that includes wall tissue",
+        "Assess depth by inspecting only the centrifuged supernatant",
+        "Assess depth by performing another stain on the same detached cells alone"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "Repeat cytology still cannot locate cells relative to muscle bundles.",
+        "Nuclear size is cytologic evidence and does not show the wall interface.",
+        "This is urine cytology with a group of atypical exfoliated cells. The specimen lacks tissue architecture, so a biopsy that samples the bladder wall is required to assess invasion depth in this case.",
+        "The fluid does not preserve the relation of tumor to bladder wall.",
+        "An additional stain may aid classification but cannot restore tissue architecture."
+      ],
+      "explanation": "This is urine cytology with a group of atypical exfoliated cells. The specimen lacks tissue architecture, so a biopsy that samples the bladder wall is required to assess invasion depth in this case.",
+      "visual_clues": [
+        "This is urine cytology with a group of atypical exfoliated cells."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-6e3be355007f4c5f6132",
+      "source_group_id": "g-5c76c45ecf1ad8c87d23",
+      "variant_id": "v-f6c54a00cbf791d23553",
+      "image": "assets/display/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.webp",
+      "zoom_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
+      "original_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
+      "original_filename": "Case 5 Urine Cytology - Urine Microscopy.png",
+      "category": "Urine Microscopy",
+      "source_origin": "lecture",
+      "asset_id": "a-5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 Cases.pdf",
+          "page": 56
+        },
+        {
+          "document": "R29 Cases.pdf",
+          "page": 57
+        }
+      ],
+      "case_id": "r29-bladder",
+      "scenario": "A 65-year-old presents with visible blood in the urine. The first specimen was collected without sampling the bladder wall.",
+      "lead_in": "Which next investigation would resolve the key limitation of the specimen shown?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r30-timeline-case",
@@ -9058,6 +9960,964 @@
           "page": 84
         }
       ]
+    },
+    {
+      "question_id": "q-reasoning-reassuring-tracing",
+      "collection": "R14.1",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Reassuring tracing",
+      "visual_target": "Which interpretation of the upper trace fits the lecture assessment of fetal status?",
+      "stem": "Which interpretation of the upper trace fits the lecture assessment of fetal status?",
+      "options": [
+        "The trace is flat with absent variability",
+        "The trace shows sustained fetal bradycardia",
+        "The displayed pattern supports a reassuring assessment at this point",
+        "There are recurrent prolonged drops below the baseline",
+        "The broad lower peaks establish recurrent fetal heart rate decelerations"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The upper line fluctuates around its baseline.",
+        "The upper trace remains within the higher baseline band shown in the lecture.",
+        "The upper trace stays in the baseline band and shows small fluctuations and brief rises. The lecture describes a fetal heart rate in the 150s with moderate variability, accelerations, and no decelerations.",
+        "The lecture identifies accelerations and no decelerations in this tracing.",
+        "Those peaks are in the uterine activity channel."
+      ],
+      "explanation": "The upper trace stays in the baseline band and shows small fluctuations and brief rises. The lecture describes a fetal heart rate in the 150s with moderate variability, accelerations, and no decelerations.",
+      "visual_clues": [
+        "The upper trace stays in the baseline band and shows small fluctuations and brief rises."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-dc9aa700d2e0fafc0c32",
+      "source_group_id": "g-325c013c46ec0afec122",
+      "variant_id": "v-7a699a3925d3f7341b54",
+      "image": "assets/display/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.webp",
+      "zoom_image": "assets/originals/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.png",
+      "original_image": "assets/originals/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.png",
+      "original_filename": "R14.1/Fetal Heart Rate and Contraction Tracing - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4",
+      "joint_panels": true,
+      "citations": [
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 9
+        }
+      ],
+      "case_id": "r14.1-labor-assessment",
+      "scenario": "A 23-year-old at 38 weeks has painful contractions. The external tracing is shown.",
+      "lead_in": "Which interpretation of the upper trace fits the lecture assessment of fetal status?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-cervical-change-assessment",
+      "collection": "R14.1",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Cervical change assessment",
+      "visual_target": "Which part of the cervical examination would quantify the change illustrated in the right drawing?",
+      "stem": "Which part of the cervical examination would quantify the change illustrated in the right drawing?",
+      "options": [
+        "Dilation in centimeters",
+        "Fetal station relative to the ischial spines",
+        "Percent effacement",
+        "Frequency of uterine contractions per minute",
+        "Maternal pelvic diameter"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "Dilation measures the opening rather than the shortening and thinning in this comparison.",
+        "Station measures descent of the presenting part.",
+        "The right drawing shows shortening and thinning of the cervical canal. The lecture records that change as effacement measured as a percentage.",
+        "Contraction frequency comes from monitoring rather than the cervical contour.",
+        "The drawing compares changes in the cervix rather than pelvic dimensions."
+      ],
+      "explanation": "The right drawing shows shortening and thinning of the cervical canal. The lecture records that change as effacement measured as a percentage.",
+      "visual_clues": [
+        "The right drawing shows shortening and thinning of the cervical canal."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-bfadfbb5de3151cb7b6d",
+      "source_group_id": "g-6ed5ccf32883c5c7298a",
+      "variant_id": "v-3097b2f87ae22ac35669",
+      "image": "assets/display/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.webp",
+      "zoom_image": "assets/originals/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.png",
+      "original_image": "assets/originals/7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d.png",
+      "original_filename": "R14.1/Cervical Effacement vs Dilation - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-7a0d887c7f29fd8417ef4e8808432c6786c5bda4f8daa320e108d702da06543d",
+      "joint_panels": true,
+      "citations": [
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 2
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 19
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 21
+        }
+      ],
+      "case_id": "r14.1-labor-assessment",
+      "scenario": "A 23-year-old at 38 weeks presents with contractions.",
+      "lead_in": "Which part of the cervical examination would quantify the change illustrated in the right drawing?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism"
+    },
+    {
+      "question_id": "q-reasoning-descent-prediction",
+      "collection": "R14.1",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Descent prediction",
+      "visual_target": "If it moves from the red reference line toward the outlet in the displayed drawing, how should its station change?",
+      "stem": "If it moves from the red reference line toward the outlet in the displayed drawing, how should its station change?",
+      "options": [
+        "From zero to negative station",
+        "From positive to negative station without crossing zero",
+        "Station remains zero if the head passes the line",
+        "From zero to positive station",
+        "The movement changes only the effacement percentage"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Negative positions lie above the reference line.",
+        "The motion starts at the zero reference line.",
+        "Moving below the reference plane changes the station.",
+        "The red line marks the ischial spines at zero station. Movement toward the outlet below that plane produces a positive station.",
+        "The figure measures position of the presenting part relative to the spines."
+      ],
+      "explanation": "The red line marks the ischial spines at zero station. Movement toward the outlet below that plane produces a positive station.",
+      "visual_clues": [
+        "The red line marks the ischial spines at zero station."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-b0eca288e181646319c6",
+      "source_group_id": "g-acfb802fa6b62d8fb710",
+      "variant_id": "v-ccdc348bbdcf6b771662",
+      "image": "assets/display/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.webp",
+      "zoom_image": "assets/originals/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.png",
+      "original_image": "assets/originals/ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7.png",
+      "original_filename": "R14.1/Fetal Station - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-ccdc348bbdcf6b7716623f45608c396d8eb1767ac6550a9885012f39da384cc7",
+      "citations": [
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 25
+        }
+      ],
+      "case_id": "r14.1-labor-assessment",
+      "scenario": "During labor, the examiner compares two successive positions of the presenting fetal part.",
+      "lead_in": "If it moves from the red reference line toward the outlet in the displayed drawing, how should its station change?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism"
+    },
+    {
+      "question_id": "q-reasoning-pelvic-marker-correlation",
+      "collection": "R27",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Pelvic marker correlation",
+      "visual_target": "Which source should be prioritized in the differential when the marker pattern is interpreted with the pictured lesion?",
+      "stem": "Which source should be prioritized in the differential when the marker pattern is interpreted with the pictured lesion?",
+      "options": [
+        "A colorectal primary established by the compression alone",
+        "A simple benign pelvic cyst established by the fluid component",
+        "A uterine cavity lesion established by CA-125 alone",
+        "A gastrointestinal primary established by a markedly higher CEA",
+        "An ovarian primary, based on the complex pelvic mass and relative marker elevations"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "The colonoscopy finding was extraluminal. The CT and marker pattern favor an ovarian source in the lecture.",
+        "The image also contains irregular solid tissue.",
+        "The marker is interpreted with CEA and the complex pelvic lesion, rather than used in isolation.",
+        "CEA is 1.0 ng/mL while CA-125 is 1,050 U/mL in the lecture.",
+        "The scan shows a large complex pelvic lesion with both cystic and solid regions. The lecture interprets the high CA-125 to CEA ratio as favoring an ovarian primary over a gastrointestinal primary in this setting."
+      ],
+      "explanation": "The scan shows a large complex pelvic lesion with both cystic and solid regions. The lecture interprets the high CA-125 to CEA ratio as favoring an ovarian primary over a gastrointestinal primary in this setting.",
+      "visual_clues": [
+        "The scan shows a large complex pelvic lesion with both cystic and solid regions."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-faf295bd6ff0686cd7b0",
+      "source_group_id": "g-0e2e9817e9217e5b46fe",
+      "variant_id": "v-ab681cfe3b3a62b992be",
+      "image": "assets/display/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.webp",
+      "zoom_image": "assets/originals/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.png",
+      "original_image": "assets/originals/e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf.png",
+      "original_filename": "R27/CT Pelvis Complex Ovarian Mass - CT.png",
+      "category": "CT",
+      "source_origin": "lecture",
+      "asset_id": "a-e611fdf6f7c5f87ab0365b45c616eaac3aeb3af0ad57348c0e02a28ab0f61ebf",
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 5
+        }
+      ],
+      "case_id": "r27-pelvic-workup",
+      "scenario": "A 62-year-old with bloating and fatigue has extraluminal compression near the sigmoid colon. The lecture reports CA-125 of 1,050 U/mL and CEA of 1.0 ng/mL.",
+      "lead_in": "Which source should be prioritized in the differential when the marker pattern is interpreted with the pictured lesion?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-omental-implication",
+      "collection": "R27",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Omental implication",
+      "visual_target": "What does the arrowed pattern add to the assessment of disease distribution?",
+      "stem": "What does the arrowed pattern add to the assessment of disease distribution?",
+      "options": [
+        "Evidence that the pelvic mass is confined to one ovary",
+        "Evidence that the bowel lumen contains the primary mass",
+        "Evidence that the abnormality is limited to the uterine cavity",
+        "Evidence of additional peritoneal disease in the omentum",
+        "Evidence of a solitary simple ovarian cyst"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The arrowed soft tissue is separate from the pelvic lesion.",
+        "The arrows indicate an anterior peritoneal distribution, not an intraluminal structure.",
+        "The arrows identify abdominal soft tissue outside that compartment.",
+        "The anterior soft tissue pattern is omental caking in the supplied CT. It supports disease extending beyond the dominant pelvic mass into the peritoneal compartment.",
+        "The CT shows extraovarian soft tissue and the companion image is complex."
+      ],
+      "explanation": "The anterior soft tissue pattern is omental caking in the supplied CT. It supports disease extending beyond the dominant pelvic mass into the peritoneal compartment.",
+      "visual_clues": [
+        "The anterior soft tissue pattern is omental caking in the supplied CT."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-c5304e32e5b602a49150",
+      "source_group_id": "g-0e2e9817e9217e5b46fe",
+      "variant_id": "v-49baa05e428b8f38e8d6",
+      "image": "assets/display/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.webp",
+      "zoom_image": "assets/originals/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.png",
+      "original_image": "assets/originals/a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92.png",
+      "original_filename": "R27/CT Abdomen Omental Findings - CT.png",
+      "category": "CT",
+      "source_origin": "lecture",
+      "asset_id": "a-a5ffc8a8e5336db85fa894961aeefb3cceffc218418d9d44976b7d84116cdd92",
+      "joint_panels": true,
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 5
+        }
+      ],
+      "case_id": "r27-pelvic-workup",
+      "scenario": "A 62-year-old has two months of abdominal distension and fatigue. A separate pelvic image shows a complex mass.",
+      "lead_in": "What does the arrowed pattern add to the assessment of disease distribution?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism"
+    },
+    {
+      "question_id": "q-reasoning-sentinel-procedure",
+      "collection": "R27",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Sentinel procedure",
+      "visual_target": "What purpose does the added signal in the right view serve in the stated operation?",
+      "stem": "What purpose does the added signal in the right view serve in the stated operation?",
+      "options": [
+        "It establishes the microscopic grade of the endometrial biopsy",
+        "It measures depth of myometrial invasion directly",
+        "It demonstrates distant disease outside the operative field",
+        "It guides sentinel lymph node mapping",
+        "It determines estrogen receptor expression"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The operative view does not show the biopsy's architecture.",
+        "The signal shows focal operative fluorescence, not a full-thickness uterine section.",
+        "The signal is local to the displayed field.",
+        "The localized green signal is the fluorescence view in the sentinel mapping step. In this case, it helps identify regional nodes for surgical staging.",
+        "That requires assessment of tissue markers, not this intraoperative view."
+      ],
+      "explanation": "The localized green signal is the fluorescence view in the sentinel mapping step. In this case, it helps identify regional nodes for surgical staging.",
+      "visual_clues": [
+        "The localized green signal is the fluorescence view in the sentinel mapping step."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-cf746928de544602daec",
+      "source_group_id": "g-b02f8e6a014a66539b0a",
+      "variant_id": "v-57680c3b04a0a052a1d3",
+      "image": "assets/display/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.webp",
+      "zoom_image": "assets/originals/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.png",
+      "original_image": "assets/originals/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.png",
+      "original_filename": "R27/Sentinel Node Mapping Laparoscopic Views - Clinical Photo.png",
+      "category": "Clinical Photo",
+      "source_origin": "lecture",
+      "asset_id": "a-3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3",
+      "joint_panels": true,
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 45
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 34
+        }
+      ],
+      "case_id": "r27-postmenopausal-bleeding",
+      "scenario": "A 56-year-old with postmenopausal bleeding has an endometrial biopsy and proceeds to the surgery illustrated in the lecture. The images show two operative views.",
+      "lead_in": "What purpose does the added signal in the right view serve in the stated operation?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-endometrial-adjuvant",
+      "collection": "R27",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Endometrial adjuvant",
+      "visual_target": "Which adjuvant option does the lecture generally favor for this patient's findings?",
+      "stem": "Which adjuvant option does the lecture generally favor for this patient's findings?",
+      "options": [
+        "Surveillance as the default approach for a superficial low-risk tumor",
+        "Vaginal brachytherapy",
+        "Use the high-risk pathway solely because lymphovascular invasion is present",
+        "Choose systemic therapy alone because the table establishes distant metastasis",
+        "Treat with pelvic chemoradiation as for the lecture's node-positive cervical case"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The documented myometrial involvement places this case outside the superficial low-risk example.",
+        "The tumor extends at least halfway through the myometrium, with grade 2 histology and no lymphovascular invasion. The lecture generally favors vaginal brachytherapy for this case and lists observation as an option after shared decision-making.",
+        "The table shows that lymphovascular invasion was absent.",
+        "The listed postoperative findings do not establish distant metastasis.",
+        "The table concerns the postoperative endometrial case, and its risk features support a different approach."
+      ],
+      "explanation": "The tumor extends at least halfway through the myometrium, with grade 2 histology and no lymphovascular invasion. The lecture generally favors vaginal brachytherapy for this case and lists observation as an option after shared decision-making.",
+      "visual_clues": [
+        "The tumor extends at least halfway through the myometrium, with grade 2 histology and no lymphovascular invasion."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "treatment",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "visual_kind": "table",
+      "source_origin": "lecture-table",
+      "category": "Clinical data",
+      "source_group_id": "g-table-r27-postoperative",
+      "context_table": {
+        "placement": "primary",
+        "title": "Postoperative pathology",
+        "columns": [
+          "Finding",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Myometrial involvement",
+            "At least half of the wall thickness"
+          ],
+          [
+            "Histologic grade",
+            "Grade 2"
+          ],
+          [
+            "Lymphovascular invasion",
+            "Absent"
+          ]
+        ],
+        "source": {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 46
+        }
+      },
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 46
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 34
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 45
+        }
+      ],
+      "case_id": "r27-postmenopausal-bleeding",
+      "scenario": "A 56-year-old had surgery after seven days of postmenopausal spotting. Review the postoperative findings in the table.",
+      "lead_in": "Which adjuvant option does the lecture generally favor for this patient's findings?",
+      "format_version": "clinical-visual-v1",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-cervical-sampling",
+      "collection": "R28",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Cervical sampling",
+      "visual_target": "Which next step fits the finding at speculum exam in this lecture case?",
+      "stem": "Which next step fits the finding at speculum exam in this lecture case?",
+      "options": [
+        "Direct biopsy of the visible cervical lesion",
+        "Pap testing alone without tissue sampling",
+        "Routine screening at the next interval",
+        "Empiric therapy followed only by symptom monitoring",
+        "Infer a nodal stage from the speculum photo"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The image shows a visible irregular cervical lesion. The course specifies biopsy of a visible lesion rather than relying on screening cytology alone.",
+        "A visible lesion requires direct diagnostic sampling in this case.",
+        "The focal raised and irregular lesion needs evaluation now in the lecture example.",
+        "The lesion requires a tissue diagnosis.",
+        "The photo shows the cervix and does not assess lymph nodes."
+      ],
+      "explanation": "The image shows a visible irregular cervical lesion. The course specifies biopsy of a visible lesion rather than relying on screening cytology alone.",
+      "visual_clues": [
+        "The image shows a visible irregular cervical lesion."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-659e5c963e3ad02941fd",
+      "source_group_id": "g-8329f25f6de3f1c39dc4",
+      "variant_id": "v-e115a66c3169aab6d4f5",
+      "image": "assets/display/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.webp",
+      "zoom_image": "assets/zoom/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.png",
+      "original_image": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
+      "original_filename": "R28/Cervical Cancer Speculum View - Clinical Photo.png",
+      "category": "Clinical Photo",
+      "source_origin": "lecture",
+      "asset_id": "a-32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 11
+        }
+      ],
+      "case_id": "r28-cervical-workup",
+      "scenario": "A 48-year-old reports bleeding after intercourse. Her last gynecologic visit was ten years earlier.",
+      "lead_in": "Which next step fits the finding at speculum exam in this lecture case?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-cervical-treatment",
+      "collection": "R28",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Cervical treatment",
+      "visual_target": "How does the additional pelvic finding change the treatment approach in this lecture case?",
+      "stem": "How does the additional pelvic finding change the treatment approach in this lecture case?",
+      "options": [
+        "Definitive pelvic chemoradiation with brachytherapy",
+        "Local excision alone",
+        "Cervical surgery alone as for localized disease",
+        "Defer treatment until nodal involvement is confirmed by resection",
+        "Brachytherapy to the cervix alone"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The separate pelvic focus is the involved pelvic node in the lecture case. The imaging supports node-positive staging, and the lecture selects definitive pelvic chemoradiation with brachytherapy.",
+        "Limited local excision would leave the nodal involvement shown on the scan unaddressed.",
+        "The lecture uses the separate pelvic nodal finding to select definitive chemoradiation.",
+        "The lecture stages the positive node radiologically and selects definitive treatment without nodal resection.",
+        "The lecture uses external beam treatment as part of the plan to cover the pelvis as well as brachytherapy to treat the primary site."
+      ],
+      "explanation": "The separate pelvic focus is the involved pelvic node in the lecture case. The imaging supports node-positive staging, and the lecture selects definitive pelvic chemoradiation with brachytherapy.",
+      "visual_clues": [
+        "The separate pelvic focus is the involved pelvic node in the lecture case."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "treatment",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-9e62eec2acf07b32a747",
+      "source_group_id": "g-f6203042ecf88889e5ea",
+      "variant_id": "v-5fc19aaa1437a4838888",
+      "image": "assets/display/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.webp",
+      "zoom_image": "assets/zoom/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.png",
+      "original_image": "assets/originals/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.png",
+      "original_filename": "R28/Cervical Cancer PET CT - CT.png",
+      "category": "PET/CT",
+      "source_origin": "lecture",
+      "asset_id": "a-7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 13
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 14
+        }
+      ],
+      "case_id": "r28-cervical-workup",
+      "scenario": "A 48-year-old with postcoital bleeding has a 5 cm cervical squamous lesion on biopsy and no clinical parametrial involvement. The staging PET/CT is shown.",
+      "lead_in": "How does the additional pelvic finding change the treatment approach in this lecture case?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-vulvar-biopsy",
+      "collection": "R28",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Vulvar biopsy",
+      "visual_target": "Which next step addresses the focal change shown on exam?",
+      "stem": "Which next step addresses the focal change shown on exam?",
+      "options": [
+        "Continue only the same topical treatment without assessing the raised area",
+        "Rely on a Pap test to classify the raised area",
+        "Determine invasion depth from the photograph",
+        "Assess treatment response by urine cytology",
+        "Biopsy the focal raised lesion"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "Persistence and the focal lesion warrant tissue evaluation.",
+        "Cervical cytology does not directly sample the vulvar lesion.",
+        "The depth requires histologic tissue assessment.",
+        "Urine cytology does not sample this focal surface lesion.",
+        "The image shows a discrete raised irregular lesion. The lecture calls for biopsy of a persistent vulvar lesion that has not responded to treatment."
+      ],
+      "explanation": "The image shows a discrete raised irregular lesion. The lecture calls for biopsy of a persistent vulvar lesion that has not responded to treatment.",
+      "visual_clues": [
+        "The image shows a discrete raised irregular lesion."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-ad03c2ee2ce5f0c9b6ea",
+      "source_group_id": "g-320065114b8b497991f3",
+      "variant_id": "v-4f59ae5c795f0d7b68e5",
+      "image": "assets/display/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.webp",
+      "zoom_image": "assets/originals/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.png",
+      "original_image": "assets/originals/9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27.png",
+      "original_filename": "R28/Vulvar Squamous Cell Carcinoma Lesion - Clinical Photo.png",
+      "category": "Clinical Photo",
+      "source_origin": "lecture",
+      "asset_id": "a-9fd84a16ba6378365e3dc23f525526244f7dc8f15971d23c89e4e542cc848a27",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 16
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 17
+        }
+      ],
+      "case_id": "r28-vulvar-workup",
+      "scenario": "A 71-year-old has persistent vulvar irritation despite intermittent clobetasol.",
+      "lead_in": "Which next step addresses the focal change shown on exam?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-vulvar-drainage",
+      "collection": "R28",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Vulvar drainage",
+      "visual_target": "Which nodal assessment fits the depicted lesion if surgery is otherwise appropriate?",
+      "stem": "Which nodal assessment fits the depicted lesion if surgery is otherwise appropriate?",
+      "options": [
+        "Assess both groins for potential drainage",
+        "Assess only the right groin",
+        "Assess only the left groin",
+        "Assess pelvic nodes in place of the groins",
+        "Omit regional nodal assessment"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The central lesion has drainage pathways to both groins in the diagram. The lateral lesion in the lecture had a unilateral inguinal assessment plan.",
+        "The paths extend on both sides of the midline.",
+        "The paths extend toward both inguinal regions.",
+        "The first nodal groups shown are in the groin.",
+        "Several regional drainage pathways are drawn."
+      ],
+      "explanation": "The central lesion has drainage pathways to both groins in the diagram. The lateral lesion in the lecture had a unilateral inguinal assessment plan.",
+      "visual_clues": [
+        "The central lesion has drainage pathways to both groins in the diagram."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-959366141d5667a36a6a",
+      "source_group_id": "g-35b83b617240007d24e7",
+      "variant_id": "v-fab3cc1c711b5f7c0b75",
+      "image": "assets/display/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.webp",
+      "zoom_image": "assets/originals/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.png",
+      "original_image": "assets/originals/42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3.png",
+      "original_filename": "R28/Vulvar Lymphatic Drainage - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-42e336c43398a3ac98d89cb5d00155ba9448820d3be12e23538e1aa6d742e4c3",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 16
+        }
+      ],
+      "case_id": "r28-vulvar-workup",
+      "scenario": "Compare the yellow lesion in the diagram with the lecture patient's lesion, which was 3 cm lateral to the midline.",
+      "lead_in": "Which nodal assessment fits the depicted lesion if surgery is otherwise appropriate?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-postpartum-workup",
+      "collection": "R28",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Postpartum workup",
+      "visual_target": "Which conclusion combines the uterine ultrasound with the timing and laboratory finding?",
+      "stem": "Which conclusion combines the uterine ultrasound with the timing and laboratory finding?",
+      "options": [
+        "The ultrasound confirms a normal intrauterine pregnancy",
+        "An abnormal uterine pattern with elevated postpregnancy hCG warrants trophoblastic evaluation",
+        "The scan establishes a single simple uterine cyst",
+        "The scan demonstrates only a thin and uniform endometrial stripe",
+        "The ultrasound establishes that the abnormality is confined to the lungs"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The displayed uterine region is heterogeneous and lacks a recognizable normal fetal profile.",
+        "The central uterus contains heterogeneous echogenic tissue and small dark spaces without an identifiable fetal profile. In the lecture case, the abnormal uterine pattern and persistent pregnancy-related hormone signal after delivery warrant assessment for gestational trophoblastic neoplasia.",
+        "Numerous small spaces interrupt a broad heterogeneous region.",
+        "The central pattern is much broader and heterogeneous.",
+        "This is a pelvic study with a conspicuous uterine abnormality."
+      ],
+      "explanation": "The central uterus contains heterogeneous echogenic tissue and small dark spaces without an identifiable fetal profile. In the lecture case, the abnormal uterine pattern and persistent pregnancy-related hormone signal after delivery warrant assessment for gestational trophoblastic neoplasia.",
+      "visual_clues": [
+        "The central uterus contains heterogeneous echogenic tissue and small dark spaces without an identifiable fetal profile."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "next-step",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-e546a42e0ffeb3bb98d6",
+      "source_group_id": "g-0b74270268e252a15c65",
+      "variant_id": "v-9cd4be134b86521cc5ab",
+      "image": "assets/display/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.webp",
+      "zoom_image": "assets/originals/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.png",
+      "original_image": "assets/originals/dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e.png",
+      "original_filename": "R28/Uterine Ultrasound Case - Echo.png",
+      "category": "Ultrasound",
+      "source_origin": "lecture",
+      "asset_id": "a-dee6afe3ef4c87db9e449100d4283d62622bc70b1539e1e087184520de89f72e",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 24
+        }
+      ],
+      "case_id": "r28-postpartum-workup",
+      "scenario": "Five months after a term delivery, a 42-year-old presents with cough and dyspnea. The case reports elevated β-hCG.",
+      "lead_in": "Which conclusion combines the uterine ultrasound with the timing and laboratory finding?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-postpartum-distribution",
+      "collection": "R28",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Postpartum distribution",
+      "visual_target": "What does the pictured radiograph add to the assessment of disease extent in this lecture case?",
+      "stem": "What does the pictured radiograph add to the assessment of disease extent in this lecture case?",
+      "options": [
+        "It demonstrates a single large pleural effusion as the only thoracic finding",
+        "It localizes the abnormality solely to the uterus",
+        "It shows an isolated pneumothorax without pulmonary nodules",
+        "It supports pulmonary involvement in addition to the pelvic finding",
+        "It establishes a primary lung tumor without considering the other case findings"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The visible abnormalities are multiple rounded opacities in the lung fields.",
+        "The radiograph shows abnormalities in the lungs.",
+        "Rounded opacities, rather than a visible pleural line, are the finding the slide uses.",
+        "Several rounded opacities are visible in both lungs. In the context of the elevated hCG and uterine findings, the lecture case interprets the pulmonary findings as metastases.",
+        "The lecture interprets the lung pattern together with the pelvic findings and elevated hCG."
+      ],
+      "explanation": "Several rounded opacities are visible in both lungs. In the context of the elevated hCG and uterine findings, the lecture case interprets the pulmonary findings as metastases.",
+      "visual_clues": [
+        "Several rounded opacities are visible in both lungs."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-e6f91c258e2e2ade8fbf",
+      "source_group_id": "g-190e61e514a8d29f5a5d",
+      "variant_id": "v-190e61e514a8d29f5a5d",
+      "image": "assets/display/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.webp",
+      "zoom_image": "assets/originals/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.png",
+      "original_image": "assets/originals/190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba.png",
+      "original_filename": "Chest radiograph (R28 page 24)",
+      "category": "Radiograph",
+      "source_origin": "lecture",
+      "asset_id": "a-190e61e514a8d29f5a5d2a33be22a2666aadaf19ed15a6bfee856a0b6259a0ba",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 24
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 25
+        }
+      ],
+      "case_id": "r28-postpartum-workup",
+      "scenario": "A 42-year-old has cough, dyspnea and elevated β-hCG five months after delivery. An accompanying pelvic ultrasound is abnormal.",
+      "lead_in": "What does the pictured radiograph add to the assessment of disease extent in this lecture case?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "mechanism"
+    },
+    {
+      "question_id": "q-reasoning-her2-therapy",
+      "collection": "R18",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Her2 therapy",
+      "visual_target": "Which therapy discussed in the lecture targets the alteration supported by this image?",
+      "stem": "Which therapy discussed in the lecture targets the alteration supported by this image?",
+      "options": [
+        "Tamoxifen",
+        "Trastuzumab",
+        "Letrozole",
+        "Olaparib",
+        "Cisplatin"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "This is an estrogen receptor antagonist. The displayed FISH probes assess HER2 rather than estrogen receptor status.",
+        "Tumor nuclei show excess red HER2 signals relative to the chromosome 17 control. The example illustrates HER2 amplification, for which the lecture identifies trastuzumab as a receptor-directed antibody.",
+        "Aromatase inhibition is an endocrine mechanism. It does not directly target the amplified receptor shown here.",
+        "The course discusses this in a separate setting linked to DNA repair status, which these probes do not assess.",
+        "Cytotoxic chemotherapy does not specifically target the receptor whose amplification is shown here."
+      ],
+      "explanation": "Tumor nuclei show excess red HER2 signals relative to the chromosome 17 control. The example illustrates HER2 amplification, for which the lecture identifies trastuzumab as a receptor-directed antibody.",
+      "visual_clues": [
+        "Tumor nuclei show excess red HER2 signals relative to the chromosome 17 control."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "treatment",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-b0b8606a8615ab86f903",
+      "source_group_id": "g-6c5de2885dd67f7aa373",
+      "variant_id": "v-d1d6973b5582841e0142",
+      "image": "assets/display/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.webp",
+      "zoom_image": "assets/originals/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.png",
+      "original_image": "assets/originals/044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f.png",
+      "original_filename": "R18/HER2 FISH Amplification - Immunofluorescence.png",
+      "category": "Immunofluorescence",
+      "source_origin": "lecture",
+      "asset_id": "a-044088547d6532146d6ec65646e406863e02d40ee9e2b27f1fb3ebd8669eb34f",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 72
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 71
+        }
+      ],
+      "case_id": "r18-breast-biomarkers",
+      "scenario": "An invasive breast carcinoma has the illustrated dual-probe FISH result. The red probe targets HER2 and the green probe is the chromosome 17 control.",
+      "lead_in": "Which therapy discussed in the lecture targets the alteration supported by this image?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
+    },
+    {
+      "question_id": "q-reasoning-er-therapy",
+      "collection": "R18",
+      "question_type": "Clinical visual question",
+      "tested_concept": "Er therapy",
+      "visual_target": "Which interpretation of the visible signal and its treatment implication fits the lecture?",
+      "stem": "Which interpretation of the visible signal and its treatment implication fits the lecture?",
+      "options": [
+        "Diffuse membrane signal supports a HER2 antibody",
+        "Only stromal signal is visible, so tumor ER status cannot be assessed",
+        "Tumor nuclear signal supports considering an estrogen receptor antagonist",
+        "The epithelial nuclei lack staining, so the image gives no support for an ER antagonist",
+        "Cytoplasmic staining establishes HER2 gene amplification"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The displayed signal is nuclear and the antibody used in the field is directed against ER.",
+        "Nuclear signal is visible in epithelial cell groups.",
+        "The brown nuclear staining illustrates estrogen receptor expression in tumor cells. R18 uses tamoxifen as an example of an estrogen receptor antagonist.",
+        "Several epithelial groups have visible nuclear signal.",
+        "The signal is in nuclei, and ER immunostaining does not measure HER2 copy number."
+      ],
+      "explanation": "The brown nuclear staining illustrates estrogen receptor expression in tumor cells. R18 uses tamoxifen as an example of an estrogen receptor antagonist.",
+      "visual_clues": [
+        "The brown nuclear staining illustrates estrogen receptor expression in tumor cells."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "treatment",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-e8bf2f3950ff450a0706",
+      "source_group_id": "g-6c5de2885dd67f7aa373",
+      "variant_id": "v-69dad2bd8e080a4e4b1b",
+      "image": "assets/display/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.webp",
+      "zoom_image": "assets/originals/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.png",
+      "original_image": "assets/originals/2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8.png",
+      "original_filename": "R18/Hormone Receptor Immunostain Nuclear Staining - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "asset_id": "a-2489d7f2d1eb621ace4ca7e0b89b1c1ac97ba1433dabd0832389f9fe4745c4b8",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 72
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 71
+        }
+      ],
+      "case_id": "r18-breast-biomarkers",
+      "scenario": "A breast carcinoma is being assessed for endocrine therapy. The field is stained for estrogen receptor.",
+      "lead_in": "Which interpretation of the visible signal and its treatment implication fits the lecture?",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "advanced",
+      "reasoning_type": "clinical_integration"
     }
   ]
 }

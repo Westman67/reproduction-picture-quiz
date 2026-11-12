@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-12-question-audit",
+  "bank_version": "2026-11-12-visual-reasoning",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -830,6 +830,471 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-aromatase-branch",
+      "collection": "R1",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Aromatase branch",
+      "visual_target": "What happens to the direct substrate supply for the reaction on the receiving side?",
+      "stem": "What happens to the direct substrate supply for the reaction on the receiving side?",
+      "options": [
+        "Theca cells receive less estrone from granulosa cells",
+        "Granulosa cells receive less androstenedione from theca cells",
+        "Granulosa cells receive more testosterone from theca cells through this arrow",
+        "Theca cells receive less 17β-HSD from granulosa cells"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The transfer arrow points from theca to granulosa and carries an androgen.",
+        "The diagram sends androstenedione from theca cells to granulosa cells, where it is a substrate for aromatase. Interrupting the transfer removes that source of substrate even when aromatase remains active.",
+        "The interrupted arrow cannot supply more substrate and the labeled transferred androgen is androstenedione.",
+        "The enzyme catalyzes a reaction within cells and is not the transferred molecule."
+      ],
+      "explanation": "The diagram sends androstenedione from theca cells to granulosa cells, where it is a substrate for aromatase. Interrupting the transfer removes that source of substrate even when aromatase remains active.",
+      "visual_clues": [
+        "The diagram sends androstenedione from theca cells to granulosa cells, where it is a substrate for aromatase."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "variant_id": "v-067fb173adc9f3d39740",
+      "image": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
+      "zoom_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "original_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
+      "original_filename": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f",
+      "citations": [
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 21
+        }
+      ],
+      "case_context": "The two ovarian cell populations in the diagram are separated so the transfer arrow can no longer operate. Enzyme activity in both cells is otherwise unchanged."
+    },
+    {
+      "question_id": "q-reasoning-cgmp-accumulation",
+      "collection": "R2",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Cgmp accumulation",
+      "visual_target": "What change immediately follows inhibition at the marked site, and how does it affect cavernous smooth muscle?",
+      "stem": "What change immediately follows inhibition at the marked site, and how does it affect cavernous smooth muscle?",
+      "options": [
+        "cGMP falls and smooth muscle contracts",
+        "cGMP persists and supports smooth muscle relaxation",
+        "GMP accumulates because its production is accelerated",
+        "Nitric oxide can no longer activate guanylyl cyclase"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Inhibiting the enzyme slows cGMP loss.",
+        "The inhibitor acts on PDE5 at the cGMP breakdown step. Slower cGMP breakdown preserves the signal favoring smooth muscle relaxation.",
+        "The marked step converts cGMP into GMP and is inhibited.",
+        "The marked inhibition lies downstream of guanylyl cyclase."
+      ],
+      "explanation": "The inhibitor acts on PDE5 at the cGMP breakdown step. Slower cGMP breakdown preserves the signal favoring smooth muscle relaxation.",
+      "visual_clues": [
+        "The inhibitor acts on PDE5 at the cGMP breakdown step."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-ade393e39a021284e7de",
+      "source_group_id": "g-fd5d52a09d789cc75793",
+      "variant_id": "v-c494d36dd43a08fa60f2",
+      "image": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+      "zoom_image": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+      "original_image": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
+      "original_filename": "R2/Mechanism of Penile Erection - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 18
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-feedback-release",
+      "collection": "R3",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Feedback release",
+      "visual_target": "Which plotted change best illustrates the direction expected after removal of ovarian feedback?",
+      "stem": "Which plotted change best illustrates the direction expected after removal of ovarian feedback?",
+      "options": [
+        "The sustained rise after the reproductive years",
+        "The prolonged trough in childhood",
+        "One isolated downward segment during reproductive cycling",
+        "The infant peak followed by prolonged suppression"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The sustained gonadotropin rise after the reproductive years illustrates the same direction described after oophorectomy. R3 explains that ovarian removal reduces ovarian hormone and inhibin feedback, increasing pituitary FSH and LH.",
+        "The low childhood segment represents suppression rather than removal of ovarian feedback.",
+        "The expected release from feedback produces a rise.",
+        "The graph's later sustained rise is the closer comparison for loss of ovarian feedback."
+      ],
+      "explanation": "The sustained gonadotropin rise after the reproductive years illustrates the same direction described after oophorectomy. R3 explains that ovarian removal reduces ovarian hormone and inhibin feedback, increasing pituitary FSH and LH.",
+      "visual_clues": [
+        "The sustained gonadotropin rise after the reproductive years illustrates the same direction described after oophorectomy."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-b5d106778c439860f43c",
+      "source_group_id": "g-2a22925846985faa9291",
+      "variant_id": "v-b94c5262131af825d009",
+      "image": "assets/display/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.webp",
+      "zoom_image": "assets/originals/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.png",
+      "original_image": "assets/originals/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.png",
+      "original_filename": "R3/LH and FSH Secretion Throughout Life - Diagram.png",
+      "category": "Graphs",
+      "source_origin": "lecture",
+      "asset_id": "a-b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a",
+      "citations": [
+        {
+          "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+          "page": 19
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-luteal-rescue",
+      "collection": "R5",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Luteal rescue",
+      "visual_target": "Which function would be impaired first if the hormone represented by the sharply peaked curve were unavailable early in gestation?",
+      "stem": "Which function would be impaired first if the hormone represented by the sharply peaked curve were unavailable early in gestation?",
+      "options": [
+        "Oxytocin receptor activation during late labor",
+        "Maintenance of corpus luteum steroid secretion",
+        "Immediate suppression of steroid synthesis by the placenta",
+        "First appearance of maternal blood in the intervillous space"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The sharply peaked curve represents an early pregnancy signal rather than oxytocin.",
+        "The sharply peaked curve represents hCG, which R5 links to corpus luteum rescue. Its loss early in gestation would impair continued luteal progesterone and estrogen support.",
+        "The source associates early hCG with maintained luteal steroid production.",
+        "The hormone curve and source explain luteal signaling rather than establishment of maternal flow."
+      ],
+      "explanation": "The sharply peaked curve represents hCG, which R5 links to corpus luteum rescue. Its loss early in gestation would impair continued luteal progesterone and estrogen support.",
+      "visual_clues": [
+        "The sharply peaked curve represents hCG, which R5 links to corpus luteum rescue."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-fb80b9844e2ab41c596c",
+      "source_group_id": "g-30d4a3847b1a7fada26f",
+      "variant_id": "v-016145a15cf105b86e07",
+      "image": "assets/zoom/c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef.png",
+      "zoom_image": "assets/zoom/c412e0e6adcf42a61651d4f4b4db38f5c66b12cb7e36fe14144c232bbfb898ef.png",
+      "original_image": "assets/originals/881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62.png",
+      "original_filename": "R5/Hormone Levels During Pregnancy - Diagram.png",
+      "category": "Graphs",
+      "source_origin": "lecture",
+      "asset_id": "a-881d8934f4bad82b95a00ab00c2427190d9f0e86f096f4522e4ef84130afbc62",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 24
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 14
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-milk-ejection",
+      "collection": "R6",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Milk ejection",
+      "visual_target": "What response follows oxytocin signaling to the cells along the outer border of this mammary secretory unit?",
+      "stem": "What response follows oxytocin signaling to the cells along the outer border of this mammary secretory unit?",
+      "options": [
+        "Increased milk synthesis by the outer layer",
+        "Relaxation that prevents milk from entering the duct",
+        "Contraction that ejects milk",
+        "Direct secretion of oxytocin into the mammary lumen"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The lecture assigns synthesis to the secretory epithelium under prolactin signaling.",
+        "The oxytocin response contracts the myoepithelial layer.",
+        "The outer flattened cells are myoepithelial. Oxytocin makes them contract and eject milk from the secretory unit.",
+        "The depicted mammary cells respond to oxytocin released from the pituitary."
+      ],
+      "explanation": "The outer flattened cells are myoepithelial. Oxytocin makes them contract and eject milk from the secretory unit.",
+      "visual_clues": [
+        "The outer flattened cells are myoepithelial."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-bbbe6e7aa9ebdd17f6e1",
+      "source_group_id": "g-22dc7fb864b26703a544",
+      "variant_id": "v-6588d6a0d2024598fd35",
+      "image": "assets/display/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.webp",
+      "zoom_image": "assets/originals/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.png",
+      "original_image": "assets/originals/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.png",
+      "original_filename": "PDF panel extraction/R6.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4",
+      "citations": [
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 9
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-functional-closure",
+      "collection": "R7",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Functional closure",
+      "visual_target": "Following the leader into the atrial septum, what postnatal pressure change favors functional closure of the indicated shunt?",
+      "stem": "Following the leader into the atrial septum, what postnatal pressure change favors functional closure of the indicated shunt?",
+      "options": [
+        "Right atrial pressure rises above left atrial pressure",
+        "Pulmonary arterial pressure remains above aortic pressure",
+        "The fetal hepatic venous channel remains open",
+        "Left atrial pressure exceeds right atrial pressure"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "That relationship favors the fetal right-to-left direction across the indicated opening.",
+        "This compares vessels rather than the atria on either side of the indicated opening.",
+        "This refers to the ductus venosus rather than the interatrial shunt.",
+        "The leader points to the interatrial foramen ovale. After birth, falling pulmonary vascular resistance increases pulmonary blood flow and left atrial filling. Left atrial pressure relative to right atrial pressure favors closure."
+      ],
+      "explanation": "The leader points to the interatrial foramen ovale. After birth, falling pulmonary vascular resistance increases pulmonary blood flow and left atrial filling. Left atrial pressure relative to right atrial pressure favors closure.",
+      "visual_clues": [
+        "The leader points to the interatrial foramen ovale."
+      ],
+      "reasoning_order": 3,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "variant_id": "v-19c25195991ebbee1800",
+      "image": "assets/display/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.webp",
+      "zoom_image": "assets/zoom/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.png",
+      "original_image": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "original_filename": "R7/Fetal Circulation - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 7
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-arterial-closure",
+      "collection": "R7",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Arterial closure",
+      "visual_target": "Which postnatal change favors closure of the upper connection reached by the covered label?",
+      "stem": "Which postnatal change favors closure of the upper connection reached by the covered label?",
+      "options": [
+        "Increased arterial oxygen and loss of placental prostaglandin support",
+        "Reduced arterial oxygen and continued placental prostaglandin support",
+        "An isolated rise in right atrial pressure",
+        "Persistence of placental blood flow after cord clamping"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The leader reaches the ductus arteriosus between the pulmonary artery and aorta. The lecture attributes closure to increased arterial oxygen and withdrawal of placental prostaglandin support.",
+        "The lecture gives the opposite oxygen and prostaglandin changes for closure.",
+        "This concerns the atrial pressure relationship rather than the indicated arterial shunt.",
+        "Cord clamping removes the placental contribution described in the lecture."
+      ],
+      "explanation": "The leader reaches the ductus arteriosus between the pulmonary artery and aorta. The lecture attributes closure to increased arterial oxygen and withdrawal of placental prostaglandin support.",
+      "visual_clues": [
+        "The leader reaches the ductus arteriosus between the pulmonary artery and aorta."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "variant_id": "v-4206821f037d89a276d3",
+      "image": "assets/display/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.webp",
+      "zoom_image": "assets/zoom/bc0ea4215658c131308aa3739176e0245cc776ecc689198efd58bfbc383399a5.png",
+      "original_image": "assets/originals/cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66.png",
+      "original_filename": "R7/Fetal Circulation - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 7
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-uncoupling-energy",
+      "collection": "R7",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Uncoupling energy",
+      "visual_target": "If the central proton channel were more active, how would the use of the proton gradient change?",
+      "stem": "If the central proton channel were more active, how would the use of the proton gradient change?",
+      "options": [
+        "More protons must pass through ATP synthase per unit time",
+        "More gradient energy dissipates as heat without directly producing ATP",
+        "The inner membrane stops allowing proton return",
+        "The gradient becomes steeper because proton leak falls"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The central route bypasses ATP synthase.",
+        "The central UCP1 channel allows protons to cross without passing through ATP synthase. That uncoupling dissipates more of the gradient as heat.",
+        "The opened channel supplies a return route.",
+        "The drawn additional return path dissipates the gradient."
+      ],
+      "explanation": "The central UCP1 channel allows protons to cross without passing through ATP synthase. That uncoupling dissipates more of the gradient as heat.",
+      "visual_clues": [
+        "The central UCP1 channel allows protons to cross without passing through ATP synthase."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-505b29a9b47453eb2dd4",
+      "source_group_id": "g-0411737b8a59d7d69dc5",
+      "variant_id": "v-7e8cb9d44294d899b1e0",
+      "image": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
+      "zoom_image": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+      "original_image": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
+      "original_filename": "R7/UCP1 in Mitochondrial Membrane - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 13
+        }
+      ],
+      "case_context": null
+    },
+    {
+      "question_id": "q-reasoning-residual-estrogen",
+      "collection": "R4",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Residual estrogen",
+      "visual_target": "What mechanism in the lecture can account for the persistent signal after the curve falls at the marked transition?",
+      "stem": "What mechanism in the lecture can account for the persistent signal after the curve falls at the marked transition?",
+      "options": [
+        "Complete cessation of estrogen production",
+        "Maintenance of the earlier cyclic ovarian output",
+        "Continued estrone production outside ovarian follicles",
+        "A sustained increase in estrogen output from growing follicles"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The curve remains above zero after the decline.",
+        "The marked high oscillations do not persist on the later trace.",
+        "The trace falls but remains above zero. R4 identifies estrone as the major estrogen after menopause and lists adipose tissue among the sources of estrone.",
+        "The trace drops after the marked transition."
+      ],
+      "explanation": "The trace falls but remains above zero. R4 identifies estrone as the major estrogen after menopause and lists adipose tissue among the sources of estrone.",
+      "visual_clues": [
+        "The trace falls but remains above zero."
+      ],
+      "reasoning_order": 2,
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-2bca46ebc3b5fca40b06",
+      "source_group_id": "g-c91065199d6eb818143d",
+      "variant_id": "v-4f8df3f59ca9778e8c10",
+      "image": "assets/display/4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff.webp",
+      "zoom_image": "assets/originals/4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff.png",
+      "original_image": "assets/originals/4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff.png",
+      "original_filename": "R4/Estrone Excretion Across Lifespan - Diagram.png",
+      "category": "Graphs",
+      "source_origin": "lecture",
+      "asset_id": "a-4f8df3f59ca9778e8c10c408767416cc5daaa75b51b98ecef9d8ee1acaccc9ff",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 7
+        }
+      ],
       "case_context": null
     }
   ]
