@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { COMBINED, CLINICAL_CASES, STUDY_SECTIONS, resolveBankConfig } from '../bank-config.js';
-import { combinedSession, empty, validateImport } from '../engine.js';
+import { combinedSession, empty, filtered, validateImport } from '../engine.js';
 
 const banks = STUDY_SECTIONS.map(section =>
     JSON.parse(fs.readFileSync(new URL('../data/' + section.id + '/question-bank.json', import.meta.url)))
@@ -40,5 +40,16 @@ test('each combination uses its selected sections and preserves complete case se
             const progress = { ...empty(), session };
             assert.deepEqual(validateImport(JSON.parse(JSON.stringify(progress)), all), progress);
         }
+    }
+});
+
+test('the lecture source filter includes every question in a case with a data table', () => {
+    const clinical = banks.at(-1);
+    const lecture = filtered(clinical.questions, empty(), {origin:'lecture'});
+    const tables = clinical.questions.filter(q => q.visual_kind === 'table');
+    assert.ok(tables.length > 0);
+    for (const table of tables) {
+        assert.deepEqual(lecture.filter(q => q.case_id === table.case_id).map(q => q.question_id),
+            caseDefinitions.get(table.case_id));
     }
 });

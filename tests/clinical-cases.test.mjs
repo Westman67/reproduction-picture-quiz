@@ -9,7 +9,7 @@ const { questions, cases } = read('../data/clinical-cases/question-bank.json');
 const { sources } = read('../data/clinical-cases/source-manifest.json');
 const byId = Object.fromEntries(questions.map(q => [q.question_id, q]));
 
-test('every case item resolves to a cited image variant and belongs to exactly one case', () => {
+test('every case item belongs to one case and resolves to a cited image or table', () => {
     const membership = cases.flatMap(c => c.question_ids);
     assert.equal(new Set(membership).size, questions.length);
     assert.deepEqual(membership, questions.map(q => q.question_id));
@@ -19,6 +19,13 @@ test('every case item resolves to a cited image variant and belongs to exactly o
             const q = byId[id];
             assert.equal(q.case_id, c.case_id);
             assert.equal(q.collection, c.lecture);
+            if (q.visual_kind === 'table') {
+                assert.equal(q.source_origin, 'lecture-table');
+                assert.equal(q.context_table.placement, 'primary');
+                assert.deepEqual(q.citations[0], q.context_table.source);
+                assert.ok(!q.image && !q.asset_id && !q.variant_id);
+                continue;
+            }
             const source = sources.find(s => s.source_id === q.source_id);
             assert.equal(q.source_group_id, source.source_group_id);
             assert.equal(q.asset_id, source.asset_id);
@@ -56,19 +63,23 @@ test('case order and five options survive save, with feedback delayed until comp
     assert.throws(() => validateImport(saved, questions, cases), /Invalid saved case order/);
 });
 
-test('saved attempts from before case expansion keep their original questions', () => {
-    const expanded = cases.find(c => c.case_id === 'r18-breast-specimens');
-    assert.equal(expanded.question_ids.length, 3);
-    const original = { ...expanded, question_ids: expanded.question_ids.slice(0, 2) };
+test('saved attempts from earlier case releases preserve answers and position', () => {
+    const selected = cases.find(c => c.case_id === 'r18-breast-specimens');
+    assert.ok(selected.previous_question_counts.includes(2));
+    assert.ok(selected.previous_question_counts.includes(3));
+    for (const expanded of cases) {
+        for (const count of expanded.previous_question_counts) {
+            const previous = { ...expanded, question_ids: expanded.question_ids.slice(0, count) };
+            const progress = empty();
+            const saved = progress.session = caseSession(previous, byId);
+            saved.items[0].draft = byId[saved.items[0].id].correct_index;
+            assert.ok(answer(progress, byId[saved.items[0].id], saved.items[0]));
+            saved.index = count - 1;
+            assert.deepEqual(validateImport(JSON.parse(JSON.stringify(progress)), questions, cases), progress);
+            assert.ok(caseSession(expanded, byId).items.length > count);
+        }
+    }
     const progress = empty();
-    const saved = progress.session = caseSession(original, byId);
-    saved.items[0].draft = byId[saved.items[0].id].correct_index;
-    assert.ok(answer(progress, byId[saved.items[0].id], saved.items[0]));
-    saved.index = 1;
-    const recovered = validateImport(JSON.parse(JSON.stringify(progress)), questions, cases);
-    assert.deepEqual(recovered, progress);
-    assert.equal(caseSession(expanded, byId).items.length, 3);
-    recovered.session.items.pop();
-    recovered.session.index = 0;
-    assert.throws(() => validateImport(recovered, questions, cases), /Invalid saved case order/);
+    progress.session = caseSession({ ...selected, question_ids: selected.question_ids.slice(0, 1) }, byId);
+    assert.throws(() => validateImport(progress, questions, cases), /Invalid saved case order/);
 });

@@ -31,3 +31,11 @@
 @media(max-width:850px){.bank-switch a{flex:1 0 auto}}
 @media(max-width:420px){.combined-sections .box-face{padding-inline:10px}.combined-sections .box-face strong{font-size:14px}}
 @media(max-width:350px){.combined-sections{grid-template-columns:1fr}}
+
+.question-table{padding:clamp(12px,3vw,24px);overflow-x:auto}
+.question-table table{width:100%;border-collapse:collapse;text-align:left;font-size:clamp(.83rem,2.7vw,1rem)}
+.question-table caption{text-align:left;font-size:1.125rem;font-weight:700;margin-bottom:14px}
+.question-table th,.question-table td{padding:10px 8px;vertical-align:middle;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.question-table thead th{background:#edf5f0;overflow-wrap:normal}
+.question-table tbody th{font-weight:600}
+.table-mask{display:block;min-height:1.2em;min-width:2em;background:#000}

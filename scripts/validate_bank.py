@@ -28,6 +28,38 @@ def load(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def validate_table(question: dict[str, Any], label: str, errors: list[str]) -> None:
+    table = question.get("context_table")
+    if not isinstance(table, dict) or table.get("placement") != "primary":
+        errors.append(f"{label}: requires a primary context table")
+        return
+    columns = table.get("columns")
+    rows = table.get("rows")
+    if not columns or not isinstance(columns, list) or not rows or not isinstance(rows, list):
+        errors.append(f"{label}: requires table columns and rows")
+        return
+    if any(not isinstance(row, list) or len(row) != len(columns) for row in rows):
+        errors.append(f"{label}: table row width differs from its column count")
+    hidden_cells = table.get("hidden_cells", [])
+    if not isinstance(hidden_cells, list):
+        errors.append(f"{label}: masked table cells must be a list")
+        hidden_cells = []
+    for cell in hidden_cells:
+        if (not isinstance(cell, list) or len(cell) != 2
+                or any(type(index) is not int for index in cell)
+                or not (0 <= cell[0] < len(rows) and 0 < cell[1] < len(columns))):
+            errors.append(f"{label}: invalid masked table cell {cell!r}")
+    citations = question.get("citations")
+    if not isinstance(citations, list) or table.get("source") not in citations:
+        errors.append(f"{label}: table source missing from question citations")
+    if question.get("source_origin") != "lecture-table" or not question.get("source_group_id"):
+        errors.append(f"{label}: missing lecture table origin or source group")
+    if any(question.get(field) for field in (
+        "source_id", "asset_id", "variant_id", "image", "zoom_image", "original_image"
+    )):
+        errors.append(f"{label}: table question has image lineage")
+
+
 def validate(manifest_path: Path, bank_path: Path) -> list[str]:
     errors: list[str] = []
     sources = records(load(manifest_path), ("sources", "records", "items"))
@@ -58,14 +90,18 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
             errors.append(f"duplicate question_id: {label}")
         seen_questions.add(label)
 
-        source_id = question.get("source_id")
-        source = source_by_id.get(source_id)
-        if source is None:
-            errors.append(f"{label}: unknown source_id {source_id!r}")
+        is_table = question.get("visual_kind") == "table"
+        if is_table:
+            validate_table(question, label, errors)
         else:
-            status = source.get("status")
-            if status in BLOCKED_STATUSES or status != ACTIVE_STATUS:
-                errors.append(f"{label}: source {source_id} is not USABLE (status={status!r})")
+            source_id = question.get("source_id")
+            source = source_by_id.get(source_id)
+            if source is None:
+                errors.append(f"{label}: unknown source_id {source_id!r}")
+            else:
+                status = source.get("status")
+                if status in BLOCKED_STATUSES or status != ACTIVE_STATUS:
+                    errors.append(f"{label}: source {source_id} is not USABLE (status={status!r})")
 
         option_count = 5 if question.get("format_version") == "clinical-visual-v1" else 4
         options = question.get("options")
@@ -85,7 +121,10 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
             elif any(not isinstance(rationale, str) or not rationale.strip() for rationale in rationales):
                 errors.append(f"{label}: every choice_rationale must be a non-empty string")
 
-        for field in ("variant_id", "question_type", "tested_concept", "stem", "explanation", "visual_clues"):
+        required = ("question_type", "tested_concept", "stem", "explanation", "visual_clues")
+        if not is_table:
+            required += ("variant_id",)
+        for field in required:
             if not question.get(field):
                 errors.append(f"{label}: missing {field}")
 

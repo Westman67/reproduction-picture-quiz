@@ -3890,6 +3890,3816 @@
           "supported": "YES"
         }
       ]
+    },
+    {
+      "asset_id": "a-44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83",
+      "source_id": "s-5f9b1357fbc36e3fc0f5",
+      "source_group_id": "g-e21cdd9d9d7850c3586d",
+      "lecture_id": "R10",
+      "relative_path": "R10/Vulvar Squamous Carcinoma - Histology.png",
+      "sha256": "44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83",
+      "perceptual_hash": "5f951a5456aa3553",
+      "dimensions": [
+        1519,
+        1080
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Vulvar Squamous Carcinoma",
+      "original_asset": "assets/originals/44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83.png",
+      "display_asset": "assets/display/44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 56
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "56",
+        "file": "Vulvar Squamous Carcinoma - Histology.png",
+        "slide_title": "Vulvar Squamous Carcinoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.522",
+        "y0": "0.274",
+        "x1": "0.982",
+        "y1": "0.697",
+        "size": "1519x1080@300dpi",
+        "note": "",
+        "png_sha256": "44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "VIN, HPV positive (16) type - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7f76461b021cf0bc5f59",
+          "asset": "assets/display/44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83.webp",
+          "zoom_asset": "assets/originals/44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1519,
+              1080
+            ]
+          },
+          "output_dimensions": [
+            1519,
+            1080
+          ],
+          "display_sha256": "c3f428780f7280ff8fed6b939e3b245915ccc4e22c2cdf7fefe963857cbba871",
+          "zoom_sha256": "44c7dcef3f85f2ff2aab7b5ae5157726041253fcc68f9dce4c9bf3bb61a77d83"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Vulvar carcinoma stromal invasion",
+          "variant_id": "v-7f76461b021cf0bc5f59",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Separate irregular epithelial nests and tongues occupy the pale stroma beneath the surface."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673",
+      "source_id": "s-add561048571fa15c080",
+      "source_group_id": "g-1fbdf846d027afaebdcc",
+      "lecture_id": "R10",
+      "relative_path": "App-local PDF panels/R10-differentiated-VIN.png",
+      "sha256": "35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673",
+      "perceptual_hash": null,
+      "dimensions": [
+        1013,
+        788
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "R10-differentiated-VIN",
+      "original_asset": "assets/originals/35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673.png",
+      "display_asset": "assets/display/35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 55
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": 55,
+        "embedded_xref": 385,
+        "native_dimensions": [
+          2048,
+          788
+        ],
+        "panel_crop_pixels": [
+          0,
+          0,
+          1013,
+          788
+        ],
+        "type": "Histology"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-48d3ccc9a076086b6d8d",
+          "asset": "assets/display/35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673.webp",
+          "zoom_asset": "assets/originals/35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1013,
+              788
+            ]
+          },
+          "output_dimensions": [
+            1013,
+            788
+          ],
+          "display_sha256": "bd8c4b0e9da4b57010dcf9470d077ef22473f1be4001f7edd56bf9adf2c89fb2",
+          "zoom_sha256": "35fd1b69cfa2cdaa16e39a492c6b6bfc8817f566ac1021ecd0530c6019fa3673"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Differentiated VIN basal atypia",
+          "variant_id": "v-48d3ccc9a076086b6d8d",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The basal compartment is crowded and atypical while the superficial squamous cells retain pink maturation."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911",
+      "source_id": "s-9736e7201216a43ddf1e",
+      "source_group_id": "g-fbda0daa0c26a909bc91",
+      "lecture_id": "R10",
+      "relative_path": "R10/Vulvar Lichen Sclerosus - Clinical Photo.png",
+      "sha256": "830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911",
+      "perceptual_hash": "2d629d9abb90656b",
+      "dimensions": [
+        1046,
+        939
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Vulvar Lichen Sclerosus",
+      "original_asset": "assets/originals/830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911.png",
+      "display_asset": "assets/display/830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 42
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "42",
+        "file": "Vulvar Lichen Sclerosus - Clinical Photo.png",
+        "slide_title": "Vulvar Lichen Sclerosus",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "single",
+        "x0": "0.659",
+        "y0": "0.154",
+        "x1": "0.976",
+        "y1": "0.522",
+        "size": "1046x939@300dpi",
+        "note": "",
+        "png_sha256": "830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "BARTHOLIN CYST - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c6ed3cc8ab1a763dbfa6",
+          "asset": "assets/display/830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911.webp",
+          "zoom_asset": "assets/originals/830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1046,
+              939
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1046,
+            939
+          ],
+          "display_sha256": "e13e1563f2f3877bef5e479ff19791d1645b345f859f66d98b9acb56c81b5ff0",
+          "zoom_sha256": "830981754ba3583445432a8c4c54539e2b8451ced8ff36a9208c2c0bfd01d911"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Pale vulvar surface change",
+          "variant_id": "v-c6ed3cc8ab1a763dbfa6",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Pale surface change surrounds the narrow central cleft and extends to both sides."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd",
+      "source_id": "s-d3793453f669cb1d17e8",
+      "source_group_id": "g-890b68d1e9b7e418b806",
+      "lecture_id": "R10",
+      "relative_path": "R10/Squamous Hyperplasia - Histology.png",
+      "sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd",
+      "perceptual_hash": "c2a9db195b09d555",
+      "dimensions": [
+        1231,
+        888
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Squamous Hyperplasia",
+      "original_asset": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+      "display_asset": "assets/display/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 43
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "43",
+        "file": "Squamous Hyperplasia - Histology.png",
+        "slide_title": "Squamous Hyperplasia",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.602",
+        "y0": "0.176",
+        "x1": "0.975",
+        "y1": "0.524",
+        "size": "1231x888@300dpi",
+        "note": "",
+        "png_sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "BARTHOLIN CYST - Histology (4).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-50db3cfa435d98e23dca",
+          "asset": "assets/display/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.webp",
+          "zoom_asset": "assets/originals/78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1231,
+              888
+            ]
+          },
+          "output_dimensions": [
+            1231,
+            888
+          ],
+          "display_sha256": "afea97d02e8fe0f0aeaa3d325585c6d485e77a9b5c72e454b08da8af436afcdb",
+          "zoom_sha256": "78339520c7a084464c49c6f6b3783c8e862f70e1eec978f004be28143aae87dd"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Acanthosis in squamous hyperplasia",
+          "variant_id": "v-50db3cfa435d98e23dca",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
+      "source_id": "s-d12868828175c3acc621",
+      "source_group_id": "g-d704173017ca63e782d3",
+      "lecture_id": "R10",
+      "relative_path": "R10/Condyloma Exophytic Papillary Architecture - Histology.png",
+      "sha256": "d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
+      "perceptual_hash": "064d63a753a3e955",
+      "dimensions": [
+        803,
+        600
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Condyloma Exophytic Papillary Architecture",
+      "original_asset": "assets/originals/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.png",
+      "display_asset": "assets/display/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 47
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "47",
+        "file": "Condyloma Exophytic Papillary Architecture - Histology.png",
+        "slide_title": "Condyloma Exophytic Papillary Architecture",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.488",
+        "y0": "0.268",
+        "x1": "0.731",
+        "y1": "0.504",
+        "size": "803x600@300dpi",
+        "note": "small unlabeled clip art, no testable content",
+        "png_sha256": "d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "_Not for quiz/BARTHOLIN CYST - Diagram (5).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-70654741a75cdd57c8c8",
+          "asset": "assets/display/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.webp",
+          "zoom_asset": "assets/zoom/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.png",
+          "transform": {
+            "type": "isolate_complete_panel",
+            "crop_pixels": [
+              8,
+              4,
+              795,
+              592
+            ],
+            "reason": "Remove only outside padding and the thin unrelated adjacent-panel strip. Preserve the complete main histology panel.",
+            "crop_normalized": [
+              0.0099626401,
+              0.0066666667,
+              0.9900373599,
+              0.9866666667
+            ],
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              803,
+              600
+            ]
+          },
+          "output_dimensions": [
+            787,
+            588
+          ],
+          "display_sha256": "629489cbdd864753a1e200204de801d3c35f4c896baef182c3dfaa5b9227a2b1",
+          "zoom_sha256": "302fa2d67bc0403918e332e231887bbe15c02f8a3b5b3a35b6845ebbded0a97f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Exophytic squamous papillary architecture",
+          "variant_id": "v-70654741a75cdd57c8c8",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        },
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Condyloma stromal core identification",
+          "variant_id": "v-70654741a75cdd57c8c8",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Pale stromal cores extend upward inside the projections and are covered by thick squamous epithelium."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009",
+      "source_id": "s-a49557f69c03c388705b",
+      "source_group_id": "g-76f1b3b4b2b5ace94260",
+      "lecture_id": "R10",
+      "relative_path": "R10/Condyloma Acuminatum Anogenital HPV - Clinical Photo.png",
+      "sha256": "83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009",
+      "perceptual_hash": "78b22472d665da75",
+      "dimensions": [
+        1070,
+        1313
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Condyloma Acuminatum Anogenital HPV",
+      "original_asset": "assets/originals/83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009.png",
+      "display_asset": "assets/display/83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R10 Gyn Pathology I RLS.pdf",
+        "page": 46
+      },
+      "source_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "current_document_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R10 Gyn Pathology I RLS.pdf",
+        "page": "46",
+        "file": "Condyloma Acuminatum Anogenital HPV - Clinical Photo.png",
+        "slide_title": "Condyloma Acuminatum Anogenital HPV",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "single",
+        "x0": "0.602",
+        "y0": "0.297",
+        "x1": "0.926",
+        "y1": "0.811",
+        "size": "1070x1313@300dpi",
+        "note": "",
+        "png_sha256": "83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009",
+        "pdf_sha256": "4551b5d9a4e6e8afe091dacad957c53bc8f11b8a57d4281310445bd7282a419e",
+        "extracted_name": "BARTHOLIN CYST - Gross.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-f6d138ea85b88065861a",
+          "asset": "assets/display/83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009.webp",
+          "zoom_asset": "assets/originals/83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1070,
+              1313
+            ]
+          },
+          "output_dimensions": [
+            1070,
+            1313
+          ],
+          "display_sha256": "3464ecb8e9794cf0cdc42b620fbdd18b66e852552be383fd393776a816aa49ce",
+          "zoom_sha256": "83dbd2a5caa06d5fd51262614021b4924ec4556a61fd82ac8b3c854fdbdcc009"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Anogenital wart surface morphology",
+          "variant_id": "v-f6d138ea85b88065861a",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Several projecting, irregular wartlike papules surround the opening."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb",
+      "source_id": "s-1210f5134c963769253f",
+      "source_group_id": "g-0db023411f9261f85d85",
+      "lecture_id": "R12",
+      "relative_path": "R12/Mature Cystic Teratoma - Histology.png",
+      "sha256": "4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb",
+      "perceptual_hash": "0f43ae169fa87491",
+      "dimensions": [
+        929,
+        691
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Mature Cystic Teratoma",
+      "original_asset": "assets/originals/4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb.png",
+      "display_asset": "assets/display/4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 92
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "92",
+        "file": "Mature Cystic Teratoma - Histology.png",
+        "slide_title": "Mature Cystic Teratoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.696",
+        "y0": "0.25",
+        "x1": "0.977",
+        "y1": "0.521",
+        "size": "929x691@300dpi",
+        "note": "",
+        "png_sha256": "4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "RLS Slide 92 - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-19b69d7e819bc423a6b3",
+          "asset": "assets/display/4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb.webp",
+          "zoom_asset": "assets/originals/4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              929,
+              691
+            ]
+          },
+          "output_dimensions": [
+            929,
+            691
+          ],
+          "display_sha256": "4db0b2cfc7c3f88cddb553e227408d88f9d447b19b09a993911a8dd4629a24af",
+          "zoom_sha256": "4ed3691da8dabec301e759bc24e50b3b47fbe556cfd47d95226825443d20afdb"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Mature cartilage in ovarian teratoma",
+          "variant_id": "v-19b69d7e819bc423a6b3",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Rounded cells occupy lacunae within a broad pale-purple cartilaginous matrix."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8",
+      "source_id": "s-f17c16f346ef5850de57",
+      "source_group_id": "g-0db023411f9261f85d85",
+      "lecture_id": "R12",
+      "relative_path": "R12/Mature Cystic Teratoma Gross and Histology - Gross.png",
+      "sha256": "5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8",
+      "perceptual_hash": "bdf8aab8a9a89089",
+      "dimensions": [
+        1915,
+        714
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Mature Cystic Teratoma Gross and Histology",
+      "original_asset": "assets/originals/5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8.png",
+      "display_asset": "assets/display/5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 92
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "92",
+        "file": "Mature Cystic Teratoma Gross and Histology - Gross.png",
+        "slide_title": "Mature Cystic Teratoma Gross and Histology",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.37",
+        "y0": "0.514",
+        "x1": "0.985",
+        "y1": "0.842",
+        "size": "1915x714@300dpi",
+        "note": "",
+        "png_sha256": "5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "_Not for quiz/RLS Slide 92 - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-16b1018e78084dd23be5",
+          "asset": "assets/display/5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8.webp",
+          "zoom_asset": "assets/originals/5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1915,
+              714
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1915,
+            714
+          ],
+          "display_sha256": "0ca64928055e57d17b4d1759f256cd668da3cd759ee53838443908794d8558f2",
+          "zoom_sha256": "5efcb2038f30474a9b151ab3605cc31ce29718348f716274a635c9af062506c8"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Mature teratoma gross and microscopic comparison",
+          "variant_id": "v-16b1018e78084dd23be5",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "A rounded cavity is visible in the left specimen, and layered squamous epithelium lines a space in the right section."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f",
+      "source_id": "s-c4d40367e81d7b7cd996",
+      "source_group_id": "g-d87d4027fc4b80bdd744",
+      "lecture_id": "R12",
+      "relative_path": "R12/Dysgerminoma - Histology.png",
+      "sha256": "11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f",
+      "perceptual_hash": "339ba1e8c73c83e7",
+      "dimensions": [
+        1083,
+        1588
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Dysgerminoma",
+      "original_asset": "assets/originals/11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f.png",
+      "display_asset": "assets/display/11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 90
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "90",
+        "file": "Dysgerminoma - Histology.png",
+        "slide_title": "Dysgerminoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.67",
+        "y0": "0.233",
+        "x1": "0.998",
+        "y1": "0.855",
+        "size": "1083x1588@300dpi",
+        "note": "",
+        "png_sha256": "11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Ovarian Dysgerminoma - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-cba42a7893a6dc02ad60",
+          "asset": "assets/display/11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f.webp",
+          "zoom_asset": "assets/originals/11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1083,
+              1588
+            ]
+          },
+          "output_dimensions": [
+            1083,
+            1588
+          ],
+          "display_sha256": "a9d107f6ea7d9e271782b6ea3ca9cf85e4e6a1def71786ee3cef6b6efcbd0229",
+          "zoom_sha256": "11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Dysgerminoma cells and lymphocytic septum",
+          "variant_id": "v-cba42a7893a6dc02ad60",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Large pale polygonal tumor cells flank a pink fibrous septum containing small dark lymphocytes."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3",
+      "source_id": "s-35b9523350ccda91a366",
+      "source_group_id": "g-b2a6a9b8fb1ff71412a9",
+      "lecture_id": "R12",
+      "relative_path": "R12/Embryonal Carcinoma - Histology (2).png",
+      "sha256": "8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3",
+      "perceptual_hash": "a233bd9f1321acb7",
+      "dimensions": [
+        876,
+        628
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Embryonal Carcinoma",
+      "original_asset": "assets/originals/8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3.png",
+      "display_asset": "assets/display/8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 96
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "96",
+        "file": "Embryonal Carcinoma - Histology (2).png",
+        "slide_title": "Embryonal Carcinoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.735",
+        "y0": "0.579",
+        "x1": "1.0",
+        "y1": "0.825",
+        "size": "876x628@300dpi",
+        "note": "",
+        "png_sha256": "8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Embryonal Carcinoma - Histology (3).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-e38836558b9e5f262dce",
+          "asset": "assets/display/8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3.webp",
+          "zoom_asset": "assets/originals/8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              876,
+              628
+            ]
+          },
+          "output_dimensions": [
+            876,
+            628
+          ],
+          "display_sha256": "89ae1cc0da09b90f2f64431b68068b70a35fbb5fe939e68aefc658e51ea75d4b",
+          "zoom_sha256": "8641bbbf414249416f60f55b9e7e32e2cf10e9882127b8af9a06a971ef6b33d3"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Embryonal carcinoma primitive cellular pattern",
+          "variant_id": "v-e38836558b9e5f262dce",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Crowded dark primitive cells form irregular solid and epithelial groups with adjacent necrotic debris."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c",
+      "source_id": "s-206110eaf141ed57b686",
+      "source_group_id": "g-572a9f1f2807e5e23cf4",
+      "lecture_id": "R12",
+      "relative_path": "R12/LSIL Cytologic Features - Histology.png",
+      "sha256": "f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c",
+      "perceptual_hash": "1ff62031ce19e3ed",
+      "dimensions": [
+        1439,
+        1066
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "LSIL Cytologic Features",
+      "original_asset": "assets/originals/f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c.png",
+      "display_asset": "assets/display/f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "24",
+        "file": "LSIL Cytologic Features - Histology.png",
+        "slide_title": "LSIL Cytologic Features",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.474",
+        "y0": "0.328",
+        "x1": "0.936",
+        "y1": "0.804",
+        "size": "1439x1066@300dpi",
+        "note": "",
+        "png_sha256": "f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "The PAP Test - Diagram (8).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "B",
+          "box": [
+            0,
+            0,
+            81,
+            133
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-1f537da0d8de1fedee30",
+          "asset": "assets/display/f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c.webp",
+          "zoom_asset": "assets/originals/f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1439,
+              1066
+            ]
+          },
+          "output_dimensions": [
+            1439,
+            1066
+          ],
+          "display_sha256": "0dded1b151e0534e58c8e4a57ac7cdb50670b82b7f3aba4f29f7ca8a8c099651",
+          "zoom_sha256": "f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "LSIL cytologic koilocytosis",
+          "variant_id": "v-1f537da0d8de1fedee30",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Several squamous cells have clear perinuclear halos surrounding enlarged irregular hyperchromatic nuclei."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4",
+      "source_id": "s-9fbdc7aec670a9e28131",
+      "source_group_id": "g-ae0df54cb6b6dd6447df",
+      "lecture_id": "R12",
+      "relative_path": "R12/HSIL - Histology.png",
+      "sha256": "6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4",
+      "perceptual_hash": "446cad3dcbc31351",
+      "dimensions": [
+        1436,
+        1364
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "HSIL",
+      "original_asset": "assets/originals/6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4.png",
+      "display_asset": "assets/display/6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "25",
+        "file": "HSIL - Histology.png",
+        "slide_title": "HSIL",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.034",
+        "y0": "0.149",
+        "x1": "0.359",
+        "y1": "0.549",
+        "size": "1436x1364@401dpi",
+        "note": "",
+        "png_sha256": "6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "The PAP Test HSIL - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-19c14742bec3c28e6bc3",
+          "asset": "assets/display/6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4.webp",
+          "zoom_asset": "assets/originals/6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1436,
+              1364
+            ]
+          },
+          "output_dimensions": [
+            1436,
+            1364
+          ],
+          "display_sha256": "227e3dafcd190900da703e3e9e5012a5c86bd218132571f0bf38b844c5bc28d8",
+          "zoom_sha256": "6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "HSIL impaired squamous maturation",
+          "variant_id": "v-19c14742bec3c28e6bc3",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Crowded enlarged dark nuclei extend through much of the epithelial thickness with reduced orderly maturation."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e",
+      "source_id": "s-9f1306b8d6cd8895e64d",
+      "source_group_id": "g-9c21eabf7d7177f5b816",
+      "lecture_id": "R12",
+      "relative_path": "R12/Adenomyosis - Gross.png",
+      "sha256": "fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e",
+      "perceptual_hash": "f8762756c74858a9",
+      "dimensions": [
+        2158,
+        1237
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Adenomyosis",
+      "original_asset": "assets/originals/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.png",
+      "display_asset": "assets/display/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 58
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "58",
+        "file": "Adenomyosis - Gross.png",
+        "slide_title": "Adenomyosis",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.047",
+        "y0": "0.142",
+        "x1": "0.378",
+        "y1": "0.387",
+        "size": "2158x1237@599dpi",
+        "note": "",
+        "png_sha256": "fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "UTERINE SMOOTH MUSCLE TUMORS Adenomyosis - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-31ff81204d626500e85a",
+          "asset": "assets/display/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.webp",
+          "zoom_asset": "assets/originals/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2158,
+              1237
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            2158,
+            1237
+          ],
+          "display_sha256": "f2c7335216410841896ca54006df6ce8773f3bb44c2f179d08a691038e6d7a39",
+          "zoom_sha256": "fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Adenomyosis gross hemorrhagic foci",
+          "variant_id": "v-31ff81204d626500e85a",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Multiple small red foci are scattered across the bulky cut wall on one side of the narrow central cavity."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e",
+      "source_id": "s-0dbf36ac67e02b52a9a5",
+      "source_group_id": "g-7c2739e0787d37d872c4",
+      "lecture_id": "R12",
+      "relative_path": "R12/Leiomyoma Gross and Histology - Gross.png",
+      "sha256": "da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e",
+      "perceptual_hash": "98dadcfc0498b389",
+      "dimensions": [
+        2481,
+        909
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Leiomyoma Gross and Histology",
+      "original_asset": "assets/originals/da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e.png",
+      "display_asset": "assets/display/da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 55
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "55",
+        "file": "Leiomyoma Gross and Histology - Gross.png",
+        "slide_title": "Leiomyoma Gross and Histology",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.104",
+        "y0": "0.283",
+        "x1": "0.855",
+        "y1": "0.639",
+        "size": "2481x909@300dpi",
+        "note": "",
+        "png_sha256": "da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "UTERINE SMOOTH MUSCLE TUMORS - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-2a9ec2f1673f95bdb139",
+          "asset": "assets/display/da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e.webp",
+          "zoom_asset": "assets/originals/da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2481,
+              909
+            ]
+          },
+          "output_dimensions": [
+            2481,
+            909
+          ],
+          "display_sha256": "66f8a5f615f974d48746035eb449c4fd136425dfa0e558bc5f01ef4fb222bbbf",
+          "zoom_sha256": "da51407effe5b8431970910642c476148c09e76f19672c3f3e1c1b743d44036e"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Leiomyoma gross and microscopic correlation",
+          "variant_id": "v-2a9ec2f1673f95bdb139",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The uterus contains multiple circumscribed pale nodules, and the microscopic panel shows regular spindle-shaped smooth muscle cells."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208",
+      "source_id": "s-46267dac97652c1979f8",
+      "source_group_id": "g-5d2e421a1fb02781e20a",
+      "lecture_id": "R12",
+      "relative_path": "R12/Endometriosis - Histology.png",
+      "sha256": "2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208",
+      "perceptual_hash": "978f990437b1c9cd",
+      "dimensions": [
+        1361,
+        1063
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Endometriosis",
+      "original_asset": "assets/originals/2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208.png",
+      "display_asset": "assets/display/2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 59
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "59",
+        "file": "Endometriosis - Histology.png",
+        "slide_title": "Endometriosis",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.557",
+        "y0": "0.334",
+        "x1": "0.969",
+        "y1": "0.751",
+        "size": "1361x1063@300dpi",
+        "note": "",
+        "png_sha256": "2c960bd6c36c9249b8459e8b46222b7b8e1e465e0ea11d3a0da0635a43fe8208",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "UTERINE SMOOTH MUSCLE TUMORS ENDOMETRIOSIS - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-f5dd2e88e4dc231c043a",
+          "asset": "assets/display/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.webp",
+          "zoom_asset": "assets/zoom/82483ef6ef790ae12327213eac3cbcebe2fa9cedbf3981fe86d4cc9c017f6663.png",
+          "transform": {
+            "type": "trim_outside_caption_fragment",
+            "crop_pixels": [
+              0,
+              7,
+              1361,
+              1063
+            ],
+            "reason": "Remove the seven-pixel top margin containing a clipped outside slide letter. Preserve the complete histology panel beginning below the white margin.",
+            "crop_normalized": [
+              0.0,
+              0.0065851364,
+              1.0,
+              1.0
+            ],
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1361,
+              1063
+            ]
+          },
+          "output_dimensions": [
+            1361,
+            1056
+          ],
+          "display_sha256": "2b1dcc2a0007a846911821a49764ef767df6d2c99398396b0a4dc557be845ae2",
+          "zoom_sha256": "3d41daa0f1e9fe52d88c2af1557d3d2a4e8aa18e2fac8d0d6efe7a471c9a1414"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Endometrial gland stroma and hemorrhage",
+          "variant_id": "v-f5dd2e88e4dc231c043a",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c",
+      "source_id": "s-ad774e786e39af2efc09",
+      "source_group_id": "g-0db023411f9261f85d85",
+      "lecture_id": "R12",
+      "relative_path": "R12/Mature Cystic Teratoma - Gross.png",
+      "sha256": "5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c",
+      "perceptual_hash": "86bcd2e63c5ac8a9",
+      "dimensions": [
+        966,
+        689
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Mature Cystic Teratoma",
+      "original_asset": "assets/originals/5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c.png",
+      "display_asset": "assets/display/5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 92
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "92",
+        "file": "Mature Cystic Teratoma - Gross.png",
+        "slide_title": "Mature Cystic Teratoma",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.4",
+        "y0": "0.25",
+        "x1": "0.692",
+        "y1": "0.52",
+        "size": "966x689@300dpi",
+        "note": "",
+        "png_sha256": "5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "RLS Slide 92 - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-8cda3cfe235ec9540b69",
+          "asset": "assets/display/5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c.webp",
+          "zoom_asset": "assets/originals/5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              966,
+              689
+            ]
+          },
+          "output_dimensions": [
+            966,
+            689
+          ],
+          "display_sha256": "e8f027f422f5166314a9e4b881e947051f0c391660025c52ce2d8e3e6d086d9a",
+          "zoom_sha256": "5b69f6384300a2fb9b0fc6634056adb4514528b338d79d271e5775107a55020c"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Mature cystic teratoma gross contents",
+          "variant_id": "v-8cda3cfe235ec9540b69",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Hair strands and pale sebaceous-appearing material occupy the opened cystic spaces."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9",
+      "source_id": "s-f61e8254860b9c2dc0a7",
+      "source_group_id": "g-bbbe5bbdbedc84a2b6f2",
+      "lecture_id": "R12",
+      "relative_path": "R12/Granulosa Cell Tumor - Gross.png",
+      "sha256": "d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9",
+      "perceptual_hash": "ca98994ce6dac921",
+      "dimensions": [
+        1114,
+        742
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Granulosa Cell Tumor",
+      "original_asset": "assets/originals/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.png",
+      "display_asset": "assets/display/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 103
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "103",
+        "file": "Granulosa Cell Tumor - Gross.png",
+        "slide_title": "Granulosa Cell Tumor",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.655",
+        "y0": "0.161",
+        "x1": "0.992",
+        "y1": "0.451",
+        "size": "1114x742@300dpi",
+        "note": "",
+        "png_sha256": "d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Granulosa Cell Tumor - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-843e50cc50b354da8e92",
+          "asset": "assets/display/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.webp",
+          "zoom_asset": "assets/originals/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1114,
+              742
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1114,
+            742
+          ],
+          "display_sha256": "15efaa1d33f999ff1e709c15414671cc94be6b5c74dfcec2391b07b2dbb4df6f",
+          "zoom_sha256": "d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Granulosa cell tumor cystic and hemorrhagic gross appearance",
+          "variant_id": "v-843e50cc50b354da8e92",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Tan nodules and irregular dark hemorrhagic spaces occupy the same cut mass."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6",
+      "source_id": "s-8182826622553f05f8e9",
+      "source_group_id": "g-a1ae8c257ad3c97df2ab",
+      "lecture_id": "R12",
+      "relative_path": "R12/Granulosa Cell Tumor Inhibin IHC - Histology.png",
+      "sha256": "cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6",
+      "perceptual_hash": "76cd321235c99ba1",
+      "dimensions": [
+        1167,
+        1548
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Granulosa Cell Tumor Inhibin IHC",
+      "original_asset": "assets/originals/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.png",
+      "display_asset": "assets/display/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 105
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "105",
+        "file": "Granulosa Cell Tumor Inhibin IHC - Histology.png",
+        "slide_title": "Granulosa Cell Tumor Inhibin IHC",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.64",
+        "y0": "0.24",
+        "x1": "0.993",
+        "y1": "0.846",
+        "size": "1167x1548@300dpi",
+        "note": "",
+        "png_sha256": "cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Granulosa Cell Tumor - Histology (6).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-6c03405040537533bc6f",
+          "asset": "assets/display/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.webp",
+          "zoom_asset": "assets/originals/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1167,
+              1548
+            ]
+          },
+          "output_dimensions": [
+            1167,
+            1548
+          ],
+          "display_sha256": "3ff119f74521c64267d9640d7609a233f0738fb4c2a738c8b73fc845f0985657",
+          "zoom_sha256": "cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Inhibin staining distribution",
+          "variant_id": "v-6c03405040537533bc6f",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Brown immunoreactivity is present in groups of tumor cells against a blue counterstained background."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d",
+      "source_id": "s-f6007ed62229ee6492b1",
+      "source_group_id": "g-ba6ecc8f38a013398069",
+      "lecture_id": "R12",
+      "relative_path": "R12/Bilateral Krukenberg Tumors - Gross.png",
+      "sha256": "0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d",
+      "perceptual_hash": "6d269f5d2058cea5",
+      "dimensions": [
+        2489,
+        1613
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Bilateral Krukenberg Tumors",
+      "original_asset": "assets/originals/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.png",
+      "display_asset": "assets/display/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 110
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "110",
+        "file": "Bilateral Krukenberg Tumors - Gross.png",
+        "slide_title": "Bilateral Krukenberg Tumors",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.127",
+        "y0": "0.209",
+        "x1": "0.883",
+        "y1": "0.844",
+        "size": "2489x1613@300dpi",
+        "note": "",
+        "png_sha256": "0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Metastatic Ovarian Cancer - Diagram (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-19cdf78001efdd73cd8f",
+          "asset": "assets/display/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.webp",
+          "zoom_asset": "assets/originals/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2489,
+              1613
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            2489,
+            1613
+          ],
+          "display_sha256": "c7c5128fd086f6b273213e431613a60a1c48ca1c26d39985666bd1879d23fa09",
+          "zoom_sha256": "0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Bilateral multinodular ovarian metastases",
+          "variant_id": "v-19cdf78001efdd73cd8f",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Both lateral ovarian regions are enlarged by clusters of rounded nodules."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7",
+      "source_id": "s-6c0974357595ac39f1fc",
+      "source_group_id": "g-6bafa730f8821acc269e",
+      "lecture_id": "R12",
+      "relative_path": "R12/Ovarian Metastasis from Breast Cancer - Histology.png",
+      "sha256": "48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7",
+      "perceptual_hash": "43df3a591d22d86b",
+      "dimensions": [
+        1200,
+        964
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Ovarian Metastasis from Breast Cancer",
+      "original_asset": "assets/originals/48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7.png",
+      "display_asset": "assets/display/48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R12 Gyn Pathology II RLS.pdf",
+        "page": 111
+      },
+      "source_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "current_document_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R12 Gyn Pathology II RLS.pdf",
+        "page": "111",
+        "file": "Ovarian Metastasis from Breast Cancer - Histology.png",
+        "slide_title": "Ovarian Metastasis from Breast Cancer",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "split",
+        "x0": "0.424",
+        "y0": "0.143",
+        "x1": "0.787",
+        "y1": "0.521",
+        "size": "1200x964@300dpi",
+        "note": "",
+        "png_sha256": "48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7",
+        "pdf_sha256": "3c711ef40f21609bf1905bc84a940ef719803689e5dba5a41cd06d172b525442",
+        "extracted_name": "Metastatic Ovarian Cancer - Histology (4).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-4e3107fb66a8fc3a111d",
+          "asset": "assets/display/48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7.webp",
+          "zoom_asset": "assets/originals/48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1200,
+              964
+            ]
+          },
+          "output_dimensions": [
+            1200,
+            964
+          ],
+          "display_sha256": "af9d1a5d8be09e7b2ed82036d9f83749337140563b751a3fd2f598cc248af165",
+          "zoom_sha256": "48bc76ba153799d3b659939f12a9d792c06e7225c2fec61e32004b6b8ac3cbc7"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Breast-type single-file ovarian metastasis",
+          "variant_id": "v-4e3107fb66a8fc3a111d",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Small atypical cells infiltrate the pink fibrous stroma in narrow rows and files."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490",
+      "source_id": "s-0db7137d07d93dcaba18",
+      "source_group_id": "g-9d30b5dd9a0b100c9732",
+      "lecture_id": "R15",
+      "relative_path": "R15/Malakoplakia Bladder - Gross.png",
+      "sha256": "9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490",
+      "perceptual_hash": "cc234c07bc17fc5b",
+      "dimensions": [
+        1163,
+        772
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Malakoplakia (“Soft Plaque”)",
+      "original_asset": "assets/originals/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.png",
+      "display_asset": "assets/display/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 19
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "19",
+        "file": "Malakoplakia Bladder - Gross.png",
+        "slide_title": "Malakoplakia (“Soft Plaque”)",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "manual",
+        "x0": "0.615",
+        "y0": "0.165",
+        "x1": "0.967",
+        "y1": "0.467",
+        "size": "1163x772@300dpi",
+        "note": "",
+        "png_sha256": "9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-1103ca6ca5849760b844",
+          "asset": "assets/display/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.webp",
+          "zoom_asset": "assets/originals/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1163,
+              772
+            ]
+          },
+          "output_dimensions": [
+            1163,
+            772
+          ],
+          "display_sha256": "f5bc89e35127184d4ed2979f37827939576a2db060915ae8cb9fc458e2fb1c11",
+          "zoom_sha256": "9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Malakoplakia gross plaques",
+          "variant_id": "v-1103ca6ca5849760b844",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Numerous irregular pale plaque-like lesions are scattered over the reddish bladder mucosal surface."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678",
+      "source_id": "s-503425cd76263bbc3e92",
+      "source_group_id": "g-6e3c939f947c71f01b2c",
+      "lecture_id": "R15",
+      "relative_path": "R15/Chronic Cystitis Histology - Histology.png",
+      "sha256": "c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678",
+      "perceptual_hash": "97ddc963a521c8f9",
+      "dimensions": [
+        622,
+        471
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Acute Cystitis",
+      "original_asset": "assets/originals/c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678.png",
+      "display_asset": "assets/display/c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "18",
+        "file": "Chronic Cystitis Histology - Histology.png",
+        "slide_title": "Acute Cystitis",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.662",
+        "y0": "0.619",
+        "x1": "0.85",
+        "y1": "0.804",
+        "size": "622x471@300dpi",
+        "note": "small source image",
+        "png_sha256": "c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-0a16764409ecfe6c08b9",
+          "asset": "assets/display/c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678.webp",
+          "zoom_asset": "assets/originals/c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              622,
+              471
+            ]
+          },
+          "output_dimensions": [
+            622,
+            471
+          ],
+          "display_sha256": "876a12f9e811385c4fc6876b634ceaa19f1fa0ee80164c3fa1a975b80a75ce9c",
+          "zoom_sha256": "c4f78e5b7f664167ab7f9522e1ebacab1693b6e5d2579ce29bde36e300966678"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Chronic cystitis stromal infiltrate",
+          "variant_id": "v-0a16764409ecfe6c08b9",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Numerous inflammatory cells occupy the connective tissue immediately below the urothelial lining."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208",
+      "source_id": "s-1483ee179e0ca6e5da53",
+      "source_group_id": "g-70a76ce24c7bdef5de54",
+      "lecture_id": "R15",
+      "relative_path": "R15/Flat Urothelial Carcinoma in Situ Histology - Histology.png",
+      "sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208",
+      "perceptual_hash": "2431ad8b637bcaab",
+      "dimensions": [
+        2055,
+        1392
+      ],
+      "status": "USABLE",
+      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "tested_concept": "Flat Urothelial Carcinoma in-situ (CIS)",
+      "original_asset": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+      "display_asset": "assets/display/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "30",
+        "file": "Flat Urothelial Carcinoma in Situ Histology - Histology.png",
+        "slide_title": "Flat Urothelial Carcinoma in-situ (CIS)",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.346",
+        "y0": "0.266",
+        "x1": "0.968",
+        "y1": "0.812",
+        "size": "2055x1392@300dpi",
+        "note": "",
+        "png_sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-61d6b55a66abd959efff",
+          "asset": "assets/display/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.webp",
+          "zoom_asset": "assets/originals/812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Retain the complete teaching image and native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2055,
+              1392
+            ]
+          },
+          "output_dimensions": [
+            2055,
+            1392
+          ],
+          "display_sha256": "63a7bd5972d3f8f49a7ee72b5d4068fa2b7c0000cbbb646366ba033a434bbad5",
+          "zoom_sha256": "812d4294f149569d551c06f101fd92899906f28fa9b14da564a657a21ef5a208"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Flat urothelial atypia",
+          "variant_id": "v-61d6b55a66abd959efff",
+          "full_image_required": true,
+          "preserve": "Complete image, required arrows and annotation context.",
+          "reason": "Distinct target directly supported by the visible image and supplied PDF page."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f",
+      "source_id": "s-93021f2b6edf64a8d461",
+      "source_group_id": "g-55f6364544dca9e302f3",
+      "lecture_id": "R15",
+      "relative_path": "R15/High Grade Papillary Urothelial Carcinoma Histology - Histology.png",
+      "sha256": "d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f",
+      "perceptual_hash": "050d0f074f7b5eaf",
+      "dimensions": [
+        1242,
+        867
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "High-grade Papillary Urothelial Carcinoma",
+      "original_asset": "assets/originals/d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f.png",
+      "display_asset": "assets/display/d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 29
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "29",
+        "file": "High Grade Papillary Urothelial Carcinoma Histology - Histology.png",
+        "slide_title": "High-grade Papillary Urothelial Carcinoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.22",
+        "y0": "0.453",
+        "x1": "0.596",
+        "y1": "0.792",
+        "size": "1242x867@300dpi",
+        "note": "",
+        "png_sha256": "d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-a3d5af97561c5fbb7dd9",
+          "asset": "assets/display/d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f.webp",
+          "zoom_asset": "assets/originals/d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1242,
+              867
+            ]
+          },
+          "output_dimensions": [
+            1242,
+            867
+          ],
+          "display_sha256": "17f881ee1bfc682f4fdb2769c4be02cae9bf1fd95f1ca760ea9881f677cd5a3e",
+          "zoom_sha256": "d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "High-grade urothelial nuclear pleomorphism",
+          "variant_id": "v-a3d5af97561c5fbb7dd9",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The crowded nuclei vary markedly in size and shape and have disordered orientations."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2",
+      "source_id": "s-9248e1db92667e464023",
+      "source_group_id": "g-e66a8a6d28ecdf09ab05",
+      "lecture_id": "R15",
+      "relative_path": "R15/Urine Cytology Urothelial Carcinoma - Urine Microscopy.png",
+      "sha256": "7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2",
+      "perceptual_hash": "e375ad85142bd45b",
+      "dimensions": [
+        1855,
+        1401
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Urine Cytology: Urothelial Carcinoma",
+      "original_asset": "assets/originals/7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2.png",
+      "display_asset": "assets/display/7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 34
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "34",
+        "file": "Urine Cytology Urothelial Carcinoma - Urine Microscopy.png",
+        "slide_title": "Urine Cytology: Urothelial Carcinoma",
+        "overlay_labels": "",
+        "type": "Urine Microscopy",
+        "mode": "manual",
+        "x0": "0.225",
+        "y0": "0.248",
+        "x1": "0.787",
+        "y1": "0.797",
+        "size": "1855x1401@300dpi",
+        "note": "Pap stained urine cytology",
+        "png_sha256": "7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7bad7f1f1a038e924de8",
+          "asset": "assets/display/7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2.webp",
+          "zoom_asset": "assets/originals/7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1855,
+              1401
+            ]
+          },
+          "output_dimensions": [
+            1855,
+            1401
+          ],
+          "display_sha256": "dc376c115dd67053d7ce01e78dc8dc577154186c790c12b243d9bff7edca35b9",
+          "zoom_sha256": "7639c9215a7aa2e503799992e2124590547c5fbcb185e66761b1c4ad44cdc0a2"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Urothelial carcinoma urine cytology",
+          "variant_id": "v-7bad7f1f1a038e924de8",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The arrow highlights a group of small dark atypical cells with conspicuous nuclei and scant cytoplasm."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917",
+      "source_group_id": "g-096ee9db6d3bc6f96025",
+      "source_id": "s-dd95b69d0e41f6aee169",
+      "lecture_id": "R16",
+      "relative_path": "R16/Prostatic Adenocarcinoma Histology - Histology.png",
+      "sha256": "4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917",
+      "perceptual_hash": "55662eadb51626d6",
+      "dimensions": [
+        1142,
+        865
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Prostatic Adenocarcinoma Histology - Histology",
+      "original_asset": "assets/originals/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.png",
+      "display_asset": "assets/display/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R16 GU Pathology II RLS.pdf",
+        "page": 16
+      },
+      "source_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "current_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "16",
+        "file": "Prostatic Adenocarcinoma Histology - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.635",
+        "y0": "0.144",
+        "x1": "0.981",
+        "y1": "0.483",
+        "size": "1142x865",
+        "note": "",
+        "png_sha256": "4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917",
+        "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+        "extracted_name": "PROSTATIC ADENOCARCINOMA - DIAGNOSIS - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d83c153099d1aa000491",
+          "asset": "assets/display/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.webp",
+          "zoom_asset": "assets/originals/4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1142,
+              865
+            ]
+          },
+          "output_dimensions": [
+            1142,
+            865
+          ],
+          "display_sha256": "d8635abd3a5d8511aebca593274ddfc2e1b5054da11b35345d101a293841d459",
+          "zoom_sha256": "4d601d6188f531e14c84df8bd761925b62b4270b30b61d86f0c9ebbebf10a917"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Prostatic adenocarcinoma small crowded glands",
+          "variant_id": "v-d83c153099d1aa000491",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Numerous small closely packed glandular profiles with discernible lumina lie among pink stromal tissue."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89",
+      "source_group_id": "g-24234ad561ff390db682",
+      "source_id": "s-c1058180ca016cd80697",
+      "lecture_id": "R16",
+      "relative_path": "R16/Gleason Pattern 4 Cribriform Histology - Histology.png",
+      "sha256": "08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89",
+      "perceptual_hash": "17178f1319370f2f",
+      "dimensions": [
+        883,
+        759
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Gleason Pattern 4 Cribriform Histology - Histology",
+      "original_asset": "assets/originals/08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89.png",
+      "display_asset": "assets/display/08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R16 GU Pathology II RLS.pdf",
+        "page": 20
+      },
+      "source_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "current_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "20",
+        "file": "Gleason Pattern 4 Cribriform Histology - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.045",
+        "y0": "0.158",
+        "x1": "0.314",
+        "y1": "0.457",
+        "size": "883x759",
+        "note": "assignment of slide 20 captions to images uncertain",
+        "png_sha256": "08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89",
+        "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+        "extracted_name": "Gleason Grading Scoring - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-196ef525569d6b71fd73",
+          "asset": "assets/display/08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89.webp",
+          "zoom_asset": "assets/originals/08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              883,
+              759
+            ]
+          },
+          "output_dimensions": [
+            883,
+            759
+          ],
+          "display_sha256": "93a472cbfb6098b651a4bed5d3ca708a7170124f1b29d63379269961520ea566",
+          "zoom_sha256": "08e043c1ddd22624071848f5623ebbfce33709e15ad128ab79c686f8399a5a89"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Prostatic intraepithelial neoplasia duct architecture",
+          "variant_id": "v-196ef525569d6b71fd73",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Crowded dark epithelium projects inward around a central ductal space."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7",
+      "source_group_id": "g-aec3a001c404b2e03378",
+      "source_id": "s-b2c6477e37033ca4c9e6",
+      "lecture_id": "R16",
+      "relative_path": "R16/Normal Prostate Basal Cells Histology - Histology.png",
+      "sha256": "81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7",
+      "perceptual_hash": "93d1388de5332325",
+      "dimensions": [
+        903,
+        1196
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Normal Prostate Basal Cells Histology - Histology",
+      "original_asset": "assets/originals/81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7.png",
+      "display_asset": "assets/display/81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R16 GU Pathology II RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "current_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "6",
+        "file": "Normal Prostate Basal Cells Histology - Histology.png",
+        "slide_title": "Normal Prostate Histology",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.569",
+        "y0": "0.352",
+        "x1": "0.842",
+        "y1": "0.82",
+        "size": "903x1196",
+        "note": "",
+        "png_sha256": "81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7",
+        "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+        "extracted_name": "Normal Prostate Histology - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-625e54d4fc363a264f4d",
+          "asset": "assets/display/81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7.webp",
+          "zoom_asset": "assets/originals/81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              903,
+              1196
+            ]
+          },
+          "output_dimensions": [
+            903,
+            1196
+          ],
+          "display_sha256": "e8cae01b87b4dc4ad4d737d76bc0fa32df93f0628f56800ecd63272ce577bd2e",
+          "zoom_sha256": "81148cb0ad643c495f0ec743fb4510c73c368ca876e67bfb3843d3c6682322f7"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Normal prostate basal cells on routine section",
+          "variant_id": "v-625e54d4fc363a264f4d",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The arrows identify small darker cells at the outer edge of the epithelial lining."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a",
+      "source_group_id": "g-d4d275b48829d90bd26d",
+      "source_id": "s-d9451233b49c238da4a6",
+      "lecture_id": "R16",
+      "relative_path": "R16/Embryonal Carcinoma Gross - Gross.png",
+      "sha256": "6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a",
+      "perceptual_hash": "45ccccccc8c8ccc8",
+      "dimensions": [
+        1502,
+        1025
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Embryonal Carcinoma Gross - Gross",
+      "original_asset": "assets/originals/6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a.png",
+      "display_asset": "assets/display/6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R16 GU Pathology II RLS.pdf",
+        "page": 43
+      },
+      "source_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "current_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "43",
+        "file": "Embryonal Carcinoma Gross - Gross.png",
+        "slide_title": "GCT - Embryonal Carcinoma",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.017",
+        "y0": "0.206",
+        "x1": "0.472",
+        "y1": "0.607",
+        "size": "1502x1025",
+        "note": "",
+        "png_sha256": "6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a",
+        "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+        "extracted_name": "GCT - Embryonal Carcinoma - Gross.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c138527a77ec10a84e88",
+          "asset": "assets/display/6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a.webp",
+          "zoom_asset": "assets/originals/6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1502,
+              1025
+            ]
+          },
+          "output_dimensions": [
+            1502,
+            1025
+          ],
+          "display_sha256": "0324556bcd5c28786bc339f91d365adec4debbca6c467467771f520dcf7df971",
+          "zoom_sha256": "6931e54f11785cd0a74d894114084895551a215239316729c0ca68890eb7b45a"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Embryonal carcinoma gross heterogeneous surface",
+          "variant_id": "v-c138527a77ec10a84e88",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The cut tumor is solid and lobulated with irregular zones of different color and texture."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d",
+      "source_group_id": "g-b19564f4ab430b750ede",
+      "source_id": "s-008b70cd44b49b86fe45",
+      "lecture_id": "R16",
+      "relative_path": "R16/Germ Cell Neoplasia in Situ Histology - Histology.png",
+      "sha256": "6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d",
+      "perceptual_hash": "66e767317529694d",
+      "dimensions": [
+        1708,
+        1594
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Germ Cell Neoplasia in Situ Histology - Histology",
+      "original_asset": "assets/originals/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.png",
+      "display_asset": "assets/display/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R16 GU Pathology II RLS.pdf",
+        "page": 36
+      },
+      "source_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "current_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "36",
+        "file": "Germ Cell Neoplasia in Situ Histology - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.456",
+        "y0": "0.252",
+        "x1": "0.715",
+        "y1": "0.564",
+        "size": "1708x1594",
+        "note": "name inferred from page 36, uncertain",
+        "png_sha256": "6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d",
+        "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+        "extracted_name": "TESTICULAR TUMORS - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-eb2585dcbd29d9d460a7",
+          "asset": "assets/display/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.webp",
+          "zoom_asset": "assets/originals/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1708,
+              1594
+            ]
+          },
+          "output_dimensions": [
+            1708,
+            1594
+          ],
+          "display_sha256": "6c2a0ed4eefb38bd68b93bc13d107ffb66dcbccd158ffb01f04d6a055eef768c",
+          "zoom_sha256": "6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "GCNIS atypical cells within a tubule",
+          "variant_id": "v-eb2585dcbd29d9d460a7",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Large pale cells with enlarged dark nuclei lie along the inner side of an intact tubular perimeter."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf",
+      "source_group_id": "g-65947a04699d1cf373fd",
+      "source_id": "s-2d4c3a418be46167fcde",
+      "lecture_id": "R17",
+      "relative_path": "R17/Complete Mole Uterus Gross - Gross (2).png",
+      "sha256": "87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf",
+      "perceptual_hash": "486874e464688bcf",
+      "dimensions": [
+        1152,
+        783
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Complete Mole Uterus Gross - Gross (2)",
+      "original_asset": "assets/originals/87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf.png",
+      "display_asset": "assets/display/87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R17 Placenta Pathology RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+      "current_document_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "22",
+        "file": "Complete Mole Uterus Gross - Gross (2).png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.16",
+        "y0": "0.149",
+        "x1": "0.509",
+        "y1": "0.456",
+        "size": "1152x783",
+        "note": "",
+        "png_sha256": "87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf",
+        "pdf_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+        "extracted_name": "Complete Mole - Histology (3).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-83eb93f9e2bebb689bba",
+          "asset": "assets/display/87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf.webp",
+          "zoom_asset": "assets/originals/87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1152,
+              783
+            ]
+          },
+          "output_dimensions": [
+            1152,
+            783
+          ],
+          "display_sha256": "743811af513417fd093df55158eaa70693b417aa6d7a1643922f6389202a3d26",
+          "zoom_sha256": "87a45da13ea768c253e4de00d5daac46a5cf12a8acc4e39fbbf5ac7ebc521ddf"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Complete mole distended uterine cavity",
+          "variant_id": "v-83eb93f9e2bebb689bba",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The opened uterus is expanded by a broad mass of closely packed pink vesicular tissue."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad",
+      "source_group_id": "g-f04b70ad00ce11571517",
+      "source_id": "s-61c379aafa9499b71f10",
+      "lecture_id": "R17",
+      "relative_path": "R17/Partial Mole Histology Hydropic Villi - Histology.png",
+      "sha256": "9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad",
+      "perceptual_hash": "e333d1b37c656191",
+      "dimensions": [
+        961,
+        728
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Partial Mole Histology Hydropic Villi - Histology",
+      "original_asset": "assets/originals/9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad.png",
+      "display_asset": "assets/display/9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R17 Placenta Pathology RLS.pdf",
+        "page": 28
+      },
+      "source_document_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+      "current_document_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "28",
+        "file": "Partial Mole Histology Hydropic Villi - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.555",
+        "y0": "0.152",
+        "x1": "0.848",
+        "y1": "0.439",
+        "size": "961x728",
+        "note": "",
+        "png_sha256": "9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad",
+        "pdf_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+        "extracted_name": "Partial Mole - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-c3883ea7bd24f6f4b95a",
+          "asset": "assets/display/9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad.webp",
+          "zoom_asset": "assets/originals/9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              961,
+              728
+            ]
+          },
+          "output_dimensions": [
+            961,
+            728
+          ],
+          "display_sha256": "ca79d3b9d30a3bb1190a6e683ee7d73815166c79605c2b3e59f8de5e23f47e55",
+          "zoom_sha256": "9d29608aaf442495a9bd9a5dbff4999b7d021dad0babde9d86b98b0c9991daad"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Partial mole trophoblastic inclusion",
+          "variant_id": "v-c3883ea7bd24f6f4b95a",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The arrow marks a small dark epithelial profile within the pale swollen villous core."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4",
+      "source_group_id": "g-c9ae43aeeeafafd55955",
+      "source_id": "s-813f79bb493ed4294cb9",
+      "lecture_id": "R17",
+      "relative_path": "R17/Invasive Mole Histology - Histology.png",
+      "sha256": "bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4",
+      "perceptual_hash": "f8f8f4f4f89af6e4",
+      "dimensions": [
+        816,
+        649
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Invasive Mole Histology - Histology",
+      "original_asset": "assets/originals/bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4.png",
+      "display_asset": "assets/display/bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R17 Placenta Pathology RLS.pdf",
+        "page": 31
+      },
+      "source_document_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+      "current_document_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "31",
+        "file": "Invasive Mole Histology - Histology.png",
+        "slide_title": "Invasive Mole ( Chorioadenoma Destruens )",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.554",
+        "y0": "0.545",
+        "x1": "0.803",
+        "y1": "0.802",
+        "size": "816x649",
+        "note": "",
+        "png_sha256": "bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4",
+        "pdf_sha256": "0d939f409a92f2fd659c3e4d2a23741bb82f5af6660fab3e01f35cea18a0bb21",
+        "extracted_name": "Invasive Mole ( Chorioadenoma Destruens ) - Diagram (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-b9ba195bd03da89bea65",
+          "asset": "assets/display/bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4.webp",
+          "zoom_asset": "assets/originals/bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              816,
+              649
+            ]
+          },
+          "output_dimensions": [
+            816,
+            649
+          ],
+          "display_sha256": "9042e01bdf1514556e691797f9682ce9c5970f197ecb79277216d5cf26a18f18",
+          "zoom_sha256": "bde1b3753304f331693584281b036ff9a73cda98bdc3320cd2cb44f2011f5ca4"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Invasive mole villi within myometrium",
+          "variant_id": "v-b9ba195bd03da89bea65",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "A pale villous profile lies between broad pink myometrial smooth muscle bundles."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c",
+      "source_group_id": "g-2ea53ef5bd59a3c0e358",
+      "source_id": "s-4dbd0f72aeece960ea17",
+      "lecture_id": "R18",
+      "relative_path": "R18/Invasive Lobular Carcinoma Histology - Histology.png",
+      "sha256": "a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c",
+      "perceptual_hash": "5355517171616951",
+      "dimensions": [
+        1876,
+        1442
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Invasive Lobular Carcinoma Histology - Histology",
+      "original_asset": "assets/originals/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.png",
+      "display_asset": "assets/display/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 59
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "59",
+        "file": "Invasive Lobular Carcinoma Histology - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.423",
+        "y0": "0.258",
+        "x1": "0.992",
+        "y1": "0.823",
+        "size": "1876x1442",
+        "note": "",
+        "png_sha256": "a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "INVASIVE DUCTAL - Histology (3).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-04af6f90d48b68c20356",
+          "asset": "assets/display/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.webp",
+          "zoom_asset": "assets/originals/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1876,
+              1442
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1876,
+            1442
+          ],
+          "display_sha256": "a824ffbf9c419d06907c734dd0ffbbac8cdd517d833fa85b99f6f8fa33f2d09b",
+          "zoom_sha256": "a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Invasive lobular carcinoma targetoid growth",
+          "variant_id": "v-04af6f90d48b68c20356",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Small dark cells track in curved rows around the circular profile in the pink stroma."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b",
+      "source_group_id": "g-68b5e9f34ab87bd57641",
+      "source_id": "s-92dc6b14bf8992fbfb0c",
+      "lecture_id": "R18",
+      "relative_path": "R18/Invasive Carcinoma Gross - Gross.png",
+      "sha256": "da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b",
+      "perceptual_hash": "63c0e0e0e2e662c1",
+      "dimensions": [
+        1842,
+        1321
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Invasive Carcinoma Gross - Gross",
+      "original_asset": "assets/originals/da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b.png",
+      "display_asset": "assets/display/da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 56
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "56",
+        "file": "Invasive Carcinoma Gross - Gross.png",
+        "slide_title": "BREAST PATHOLOGY INVASIVE CARCINOMA",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "split",
+        "x0": "0.366",
+        "y0": "0.325",
+        "x1": "0.923",
+        "y1": "0.843",
+        "size": "1842x1321",
+        "note": "",
+        "png_sha256": "da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "BREAST PATHOLOGY INVASIVE CARCINOMA - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-727c5f5a84223f5b4c15",
+          "asset": "assets/display/da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b.webp",
+          "zoom_asset": "assets/originals/da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1842,
+              1321
+            ]
+          },
+          "output_dimensions": [
+            1842,
+            1321
+          ],
+          "display_sha256": "e9eab2efa2b80bdb0f0407a0adb92e9ed165f579313890d524c2c536e888096b",
+          "zoom_sha256": "da2df3d823c92124f99bf57bd8786fbb936e61c9040234c2477484563487473b"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Invasive breast carcinoma gross stellate edge",
+          "variant_id": "v-727c5f5a84223f5b4c15",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Pale radiating extensions project from the central mass into yellow adipose tissue."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a",
+      "source_group_id": "g-e0500bb7c55d03d58b6d",
+      "source_id": "s-a16a73198228c9ae8930",
+      "lecture_id": "R18",
+      "relative_path": "R18/Invasive Ductal Carcinoma Histology - Histology (2).png",
+      "sha256": "c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a",
+      "perceptual_hash": "95d969e97170d9d0",
+      "dimensions": [
+        1301,
+        869
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Invasive Ductal Carcinoma Histology - Histology (2)",
+      "original_asset": "assets/originals/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.png",
+      "display_asset": "assets/display/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 58
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "58",
+        "file": "Invasive Ductal Carcinoma Histology - Histology (2).png",
+        "slide_title": "INVASIVE DUCTAL",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "split",
+        "x0": "0.537",
+        "y0": "0.459",
+        "x1": "0.931",
+        "y1": "0.8",
+        "size": "1301x869",
+        "note": "",
+        "png_sha256": "c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "INVASIVE DUCTAL - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-a6335755b807e6fb021b",
+          "asset": "assets/display/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.webp",
+          "zoom_asset": "assets/originals/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1301,
+              869
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            1301,
+            869
+          ],
+          "display_sha256": "899305a532073f1d299849e8ce9f4eab5d578486b3e79e4e95c3a4ca15366d07",
+          "zoom_sha256": "c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Invasive ductal carcinoma angulated epithelial profiles",
+          "variant_id": "v-a6335755b807e6fb021b",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Irregular dark epithelial groups and small angled gland profiles are scattered between pale fibrous bands."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252",
+      "source_group_id": "g-193beba9822da9146703",
+      "source_id": "s-ba27b0467af10474ecb7",
+      "lecture_id": "R18",
+      "relative_path": "R18/Ductal Carcinoma in Situ Necrosis Histology - Histology.png",
+      "sha256": "e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252",
+      "perceptual_hash": "39171f63676f678c",
+      "dimensions": [
+        944,
+        1129
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Ductal Carcinoma in Situ Necrosis Histology - Histology",
+      "original_asset": "assets/originals/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.png",
+      "display_asset": "assets/display/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 50
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "50",
+        "file": "Ductal Carcinoma in Situ Necrosis Histology - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.044",
+        "y0": "0.217",
+        "x1": "0.329",
+        "y1": "0.66",
+        "size": "944x1129",
+        "note": "",
+        "png_sha256": "e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "BREAST CARCINOMA - Histology (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7cb568e1f662f7c8ef18",
+          "asset": "assets/display/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.webp",
+          "zoom_asset": "assets/originals/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              944,
+              1129
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            944,
+            1129
+          ],
+          "display_sha256": "61a3f20b6c43d87efaae8ab2da035409d923aa8e63ab17a50964abe767f70360",
+          "zoom_sha256": "e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252"
+        },
+        {
+          "variant_id": "v-b39dcb43aaaf6be2156b",
+          "asset": "assets/display/b39dcb43aaaf6be2156bf7154d21e02f923fafc20c12cbc987cd5b30ca1b4f91.webp",
+          "zoom_asset": "assets/zoom/b39dcb43aaaf6be2156bf7154d21e02f923fafc20c12cbc987cd5b30ca1b4f91.png",
+          "transform": {
+            "type": "opaque_mask",
+            "boxes": [
+              [
+                111,
+                215,
+                340,
+                273
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Conceal the printed diagnosis while retaining the arrow and intact tissue.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              944,
+              1129
+            ]
+          },
+          "output_dimensions": [
+            944,
+            1129
+          ],
+          "display_sha256": "9293a02c5437815ed1e6c84cf398520ee6cee7e2db71e74f26a17ed467accbd7",
+          "zoom_sha256": "b39dcb43aaaf6be2156bf7154d21e02f923fafc20c12cbc987cd5b30ca1b4f91"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Comedo type DCIS central material",
+          "variant_id": "v-7cb568e1f662f7c8ef18",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa",
+      "source_group_id": "g-5a3c3b07bbd9edb18f74",
+      "source_id": "s-c2efb9a0af4d78458853",
+      "lecture_id": "R18",
+      "relative_path": "R18/Lobular and Ductal Carcinoma in Situ Panels - Histology.png",
+      "sha256": "728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa",
+      "perceptual_hash": "fd392d2dbd2d6d75",
+      "dimensions": [
+        2999,
+        1021
+      ],
+      "status": "USABLE",
+      "review_reason": "The complete panel and an independent visual teaching target were reviewed.",
+      "tested_concept": "Lobular and Ductal Carcinoma in Situ Panels - Histology",
+      "original_asset": "assets/originals/728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa.png",
+      "display_asset": "assets/display/728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 53
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "53",
+        "file": "Lobular and Ductal Carcinoma in Situ Panels - Histology.png",
+        "slide_title": "BREAST PATHOLOGY CARCINOMA IN SITU",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.056",
+        "y0": "0.215",
+        "x1": "0.964",
+        "y1": "0.615",
+        "size": "2999x1021",
+        "note": "composite panels A to C",
+        "png_sha256": "728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "BREAST PATHOLOGY CARCINOMA IN SITU - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-0149137d366cb0836994",
+          "asset": "assets/display/728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa.webp",
+          "zoom_asset": "assets/originals/728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa.png",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2999,
+              1021
+            ],
+            "reason": "Fit the full reviewed panel without changing its aspect ratio."
+          },
+          "output_dimensions": [
+            2999,
+            1021
+          ],
+          "display_sha256": "90b1973374164a0b841584f63eb7a72c9cd6fef2250b1cded9084bfc6ef1105e",
+          "zoom_sha256": "728d51a3e16564762069b2591038012ed69deb3c1106e95a49cc4f273aa0afaa"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "In situ breast carcinoma paired low power patterns",
+          "variant_id": "v-0149137d366cb0836994",
+          "full_image_required": true,
+          "preserve": "Complete required panel and relevant markings.",
+          "reason": "Several rounded dark profiles in the upper middle field are sharply outlined against pink stroma. The left field retains a more lobular clustered arrangement."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7",
+      "source_group_id": "g-e0500bb7c55d03d58b6d",
+      "source_id": "s-cc6e94eb145bde0a2ee9",
+      "lecture_id": "R18",
+      "relative_path": "R18/Invasive Ductal Carcinoma Histology - Histology.png",
+      "sha256": "110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7",
+      "perceptual_hash": "2c3e3e735b190909",
+      "dimensions": [
+        1290,
+        857
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Invasive Ductal Carcinoma Histology - Histology",
+      "original_asset": "assets/originals/110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7.png",
+      "display_asset": "assets/display/110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 58
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "58",
+        "file": "Invasive Ductal Carcinoma Histology - Histology.png",
+        "slide_title": "INVASIVE DUCTAL",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "split",
+        "x0": "0.536",
+        "y0": "0.139",
+        "x1": "0.927",
+        "y1": "0.474",
+        "size": "1290x857",
+        "note": "",
+        "png_sha256": "110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "INVASIVE DUCTAL - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-80f50f1b98cd44dddf55",
+          "asset": "assets/display/110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7.webp",
+          "zoom_asset": "assets/originals/110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1290,
+              857
+            ]
+          },
+          "output_dimensions": [
+            1290,
+            857
+          ],
+          "display_sha256": "ce0d68c983bc8a91871e7f0166f02cbf139a48545fad352512f8b1e20c165ff8",
+          "zoom_sha256": "110b0a77e0649674745f86ed4c3f8ffaa4c776eef339446f42bdc64a1b30fbc7"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Invasive ductal carcinoma irregular glands in stroma",
+          "variant_id": "v-80f50f1b98cd44dddf55",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Numerous small irregular epithelial glands lie within dense pink stromal tissue."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86",
+      "source_id": "s-355c408218b5b5b723f3",
+      "source_group_id": "g-b800cc34c50743c122f8",
+      "lecture_id": "R29",
+      "relative_path": "R29 Cases.pdf, p. 9, embedded panel 38",
+      "sha256": "b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86",
+      "dimensions": [
+        1660,
+        1358
+      ],
+      "status": "USABLE",
+      "review_reason": "Embedded image checked against the cited case review page. The surrounding slide heading and answer caption are outside the scored panel.",
+      "tested_concept": "Gross ovarian companion specimen",
+      "original_asset": "assets/originals/b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86.png",
+      "display_asset": "assets/display/b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 Cases.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "current_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible specimen evidence cross-checked with the cited case review and follow-up guide.",
+      "rights_status": "Underlying image rights retained by original owners.",
+      "extraction": {
+        "document": "R29 Cases.pdf",
+        "page": 9,
+        "embedded_image_xref": 38,
+        "page_bounds_points": [
+          42.693748474121094,
+          224.32501220703125,
+          264.20623779296875,
+          405.61871337890625
+        ],
+        "pdf_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0"
+      },
+      "variants": [
+        {
+          "variant_id": "v-45dbac7ff6a320c4dbe6",
+          "asset": "assets/display/b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86.webp",
+          "zoom_asset": "assets/originals/b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86.png",
+          "transform": {
+            "type": "embedded_panel",
+            "reason": "Keep the specimen while excluding diagnostic slide text."
+          },
+          "output_dimensions": [
+            1600,
+            1309
+          ],
+          "display_sha256": "d3297fad3dbdfa31c9dac38b1a4c0093a9ebb198c364df7d6d580cc51e861312",
+          "zoom_sha256": "b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08",
+      "source_id": "s-b4fb29b30c56d9ebe5fe",
+      "source_group_id": "g-da0c90caf8022f2c9e53",
+      "lecture_id": "R29",
+      "relative_path": "R29 Cases.pdf, p. 9, embedded panel 39",
+      "sha256": "da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08",
+      "dimensions": [
+        2063,
+        1655
+      ],
+      "status": "USABLE",
+      "review_reason": "Embedded image checked against the cited case review page. The surrounding slide heading and answer caption are outside the scored panel.",
+      "tested_concept": "Ovarian epithelial companion section",
+      "original_asset": "assets/originals/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.png",
+      "display_asset": "assets/display/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 Cases.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "current_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible specimen evidence cross-checked with the cited case review and follow-up guide.",
+      "rights_status": "Underlying image rights retained by original owners.",
+      "extraction": {
+        "document": "R29 Cases.pdf",
+        "page": 9,
+        "embedded_image_xref": 39,
+        "page_bounds_points": [
+          285.24371337890625,
+          226.18121337890625,
+          506.7562255859375,
+          403.76251220703125
+        ],
+        "pdf_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0"
+      },
+      "variants": [
+        {
+          "variant_id": "v-e6961cf4aca5aec853ac",
+          "asset": "assets/display/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.webp",
+          "zoom_asset": "assets/originals/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.png",
+          "transform": {
+            "type": "embedded_panel",
+            "reason": "Keep the specimen while excluding diagnostic slide text."
+          },
+          "output_dimensions": [
+            1600,
+            1284
+          ],
+          "display_sha256": "e1553c8295769441d73fd2b2497cfafce4b9e8b96184ae9fa160c1d022be17fd",
+          "zoom_sha256": "da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59",
+      "source_id": "s-31326a32277562fa9133",
+      "source_group_id": "g-68fd4fe1fec18e4ee29e",
+      "lecture_id": "R29",
+      "relative_path": "R29 Cases.pdf, p. 23, embedded panel 94",
+      "sha256": "68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59",
+      "dimensions": [
+        1296,
+        789
+      ],
+      "status": "USABLE",
+      "review_reason": "Embedded image checked against the cited case review page. The surrounding slide heading and answer caption are outside the scored panel.",
+      "tested_concept": "Wet preparation teaching field",
+      "original_asset": "assets/originals/68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59.png",
+      "display_asset": "assets/display/68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 Cases.pdf",
+        "page": 23
+      },
+      "source_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "current_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible specimen evidence cross-checked with the cited case review and follow-up guide.",
+      "rights_status": "Underlying image rights retained by original owners.",
+      "extraction": {
+        "document": "R29 Cases.pdf",
+        "page": 23,
+        "embedded_image_xref": 94,
+        "page_bounds_points": [
+          527.793701171875,
+          247.83750915527344,
+          749.3062133789062,
+          382.7250061035156
+        ],
+        "pdf_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0"
+      },
+      "variants": [
+        {
+          "variant_id": "v-2e31182c199a6cb52645",
+          "asset": "assets/display/68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59.webp",
+          "zoom_asset": "assets/originals/68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59.png",
+          "transform": {
+            "type": "embedded_panel",
+            "reason": "Keep the specimen while excluding diagnostic slide text."
+          },
+          "output_dimensions": [
+            1296,
+            789
+          ],
+          "display_sha256": "e8b7bbd734b02e1451d17ea0248b03e9c81381c421001e1fc468aff88f6dad0b",
+          "zoom_sha256": "68fd4fe1fec18e4ee29ef94f7f56047c60197e1e55ffa33001341d12e882ce59"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0",
+      "source_id": "s-56a1123e1ea39da86c9e",
+      "source_group_id": "g-dbbc28f4b7e19d4da4b9",
+      "lecture_id": "R29",
+      "relative_path": "R29 Cases.pdf, p. 34, embedded panel 135",
+      "sha256": "dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0",
+      "dimensions": [
+        710,
+        537
+      ],
+      "status": "USABLE",
+      "review_reason": "Embedded image checked against the cited case review page. The surrounding slide heading and answer caption are outside the scored panel.",
+      "tested_concept": "Ovarian cyst teaching specimen",
+      "original_asset": "assets/originals/dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0.png",
+      "display_asset": "assets/display/dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 Cases.pdf",
+        "page": 34
+      },
+      "source_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "current_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible specimen evidence cross-checked with the cited case review and follow-up guide.",
+      "rights_status": "Underlying image rights retained by original owners.",
+      "extraction": {
+        "document": "R29 Cases.pdf",
+        "page": 34,
+        "embedded_image_xref": 135,
+        "page_bounds_points": [
+          483.86248779296875,
+          163.6875,
+          674.4375,
+          307.856201171875
+        ],
+        "pdf_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0"
+      },
+      "variants": [
+        {
+          "variant_id": "v-aa397dbae086738638a1",
+          "asset": "assets/display/dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0.webp",
+          "zoom_asset": "assets/originals/dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0.png",
+          "transform": {
+            "type": "embedded_panel",
+            "reason": "Keep the specimen while excluding diagnostic slide text."
+          },
+          "output_dimensions": [
+            710,
+            537
+          ],
+          "display_sha256": "676cd7e7dbabf4db4f66e831b1a1f1e84127e394f2ab1c0827249c95ab05c2fa",
+          "zoom_sha256": "dbbc28f4b7e19d4da4b92be874b103563a419eb571afd29d279f983be4eed2b0"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f",
+      "source_group_id": "g-d7b6c1c2fb36903b55cb",
+      "source_id": "s-8ec5a502c1064e3d9c38",
+      "lecture_id": "R16",
+      "relative_path": "R16/BPH Gross Nodular Cut Surface - Gross.png",
+      "sha256": "a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f",
+      "perceptual_hash": "7178c8c8d8d8c865",
+      "dimensions": [
+        1161,
+        959
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "BPH Gross Nodular Cut Surface - Gross",
+      "original_asset": "assets/originals/a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f.png",
+      "display_asset": "assets/display/a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R16 GU Pathology II RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "current_document_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "8",
+        "file": "BPH Gross Nodular Cut Surface - Gross.png",
+        "slide_title": "BENIGN PROSTATIC HYPERPLASIA",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.645",
+        "y0": "0.14",
+        "x1": "0.996",
+        "y1": "0.516",
+        "size": "1161x959",
+        "note": "",
+        "png_sha256": "a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f",
+        "pdf_sha256": "54f5b3f3bb5dc2983a1e22d16e2d987503c2daba6ed392fbd5c44c488e296c3e",
+        "extracted_name": "BENIGN PROSTATIC HYPERPLASIA - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-26290e503ae4aad23265",
+          "asset": "assets/display/a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f.webp",
+          "zoom_asset": "assets/originals/a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1161,
+              959
+            ]
+          },
+          "output_dimensions": [
+            1161,
+            959
+          ],
+          "display_sha256": "ee6a5d31441b605527b1f89d2cb0263a07980009db8023394458065bd9d1c974",
+          "zoom_sha256": "a61b869c3503840ed91e28d98ea8d24ba723c7161764eefc499843dffcd62f5f"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "BPH nodular gross architecture",
+          "variant_id": "v-26290e503ae4aad23265",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Multiple rounded pale-to-yellow nodules border a narrow central channel."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4",
+      "source_id": "s-4d8a7863ed574acd2738",
+      "source_group_id": "g-e7c0f75b62d6ff80026a",
+      "lecture_id": "R29",
+      "relative_path": "R29 Cases.pdf, p. 46, embedded panel 185",
+      "sha256": "e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4",
+      "dimensions": [
+        1378,
+        2027
+      ],
+      "status": "USABLE",
+      "review_reason": "Embedded image checked against the cited case review page. The surrounding slide heading and answer caption are outside the scored panel.",
+      "tested_concept": "Prostate immunostain teaching field",
+      "original_asset": "assets/originals/e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4.png",
+      "display_asset": "assets/display/e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 Cases.pdf",
+        "page": 46
+      },
+      "source_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "current_document_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible specimen evidence cross-checked with the cited case review and follow-up guide.",
+      "rights_status": "Underlying image rights retained by original owners.",
+      "extraction": {
+        "document": "R29 Cases.pdf",
+        "page": 46,
+        "embedded_image_xref": 185,
+        "page_bounds_points": [
+          493.1437072753906,
+          166.1624755859375,
+          714.0374145507812,
+          491.00628662109375
+        ],
+        "pdf_sha256": "4fd6416b0abe00d5645ed0b3fae3f8c96709a8597c49ab9ea730f17dad44f6e0"
+      },
+      "variants": [
+        {
+          "variant_id": "v-89ff0d7df14c0ad2b327",
+          "asset": "assets/display/e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4.webp",
+          "zoom_asset": "assets/originals/e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4.png",
+          "transform": {
+            "type": "embedded_panel",
+            "reason": "Keep the specimen while excluding diagnostic slide text."
+          },
+          "output_dimensions": [
+            1088,
+            1600
+          ],
+          "display_sha256": "5c6838fda1a12b39597504f12d70b53946867c341918e9cf959feef588b919f0",
+          "zoom_sha256": "e7c0f75b62d6ff80026a8579f677071b3db82aa8479356106b0f410c9ccdc1c4"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0",
+      "source_id": "s-b1dc7c178615630edc89",
+      "source_group_id": "g-ca8fbf76b39e2dc0b135",
+      "lecture_id": "R15",
+      "relative_path": "R15/Low Grade Papillary Urothelial Carcinoma Histology - Histology.png",
+      "sha256": "95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0",
+      "perceptual_hash": "c44b8cd85cf9caab",
+      "dimensions": [
+        968,
+        918
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Low-grade Papillary Urothelial Carcinoma",
+      "original_asset": "assets/originals/95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0.png",
+      "display_asset": "assets/display/95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R15 GU Pathology I RLS.pdf",
+        "page": 28
+      },
+      "source_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "current_document_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R15 GU Pathology I RLS.pdf",
+        "page": "28",
+        "file": "Low Grade Papillary Urothelial Carcinoma Histology - Histology.png",
+        "slide_title": "Low-grade Papillary Urothelial Carcinoma",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "manual",
+        "x0": "0.658",
+        "y0": "0.191",
+        "x1": "0.951",
+        "y1": "0.551",
+        "size": "968x918@300dpi",
+        "note": "",
+        "png_sha256": "95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0",
+        "pdf_sha256": "0d5a28c43fa0edc76ff0667a94ddb3569411249b561418bc8c51d7fd981a1b46",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-3a56b6caaa7d78058393",
+          "asset": "assets/display/95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0.webp",
+          "zoom_asset": "assets/originals/95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              968,
+              918
+            ]
+          },
+          "output_dimensions": [
+            968,
+            918
+          ],
+          "display_sha256": "e1a5602b11ca8c989ed963fcf36e3813e1b1aef131b3278f25dc432108c7ff59",
+          "zoom_sha256": "95d09c575f08f5f8d7d728363949f5835c47e62a5460a716b2c48f85f3abaae0"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Papillary urothelial fibrovascular core",
+          "variant_id": "v-3a56b6caaa7d78058393",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "A pink vascular connective tissue core is enclosed by several layers of urothelial cells."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d",
+      "source_id": "s-081a1aa8382a7fb3285a",
+      "source_group_id": "g-4ec71445af40dfe1a3ad",
+      "lecture_id": "R30",
+      "relative_path": "R30/Menopause Two Key Physiological Changes - Diagram.png",
+      "sha256": "4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d",
+      "dimensions": [
+        3362,
+        1278
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Follicle depletion and estradiol",
+      "original_asset": "assets/originals/4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d.png",
+      "display_asset": "assets/display/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 34
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "34",
+        "file": "Menopause Two Key Physiological Changes - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "Menopause; Loss of primary; ovarian follicles; Resulting decrease; in serum and tissue; estradiol levels",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.188",
+        "y0": "0.324",
+        "x1": "0.818",
+        "y1": "0.75",
+        "size": "3362x1278@400dpi",
+        "note": "",
+        "png_sha256": "84e4a041812b18fe1da3d410399fee3190591a673c8f90dc3ea73e97ec811618",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Menopause Two Key Physiological Changes - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          1910,
+          743,
+          3288,
+          1241
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-50e3ba8c9d8b62e03f05",
+          "asset": "assets/display/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.webp",
+          "zoom_asset": "assets/zoom/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3362,
+              1278
+            ],
+            "boxes": [
+              [
+                1910,
+                743,
+                3288,
+                1241
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover answer annotations while retaining the visual evidence."
+          },
+          "output_dimensions": [
+            1800,
+            684
+          ],
+          "display_sha256": "b89bfb79d82b50a62ed7420cde09300a102cb761ce76e7da9ff7c33308db61fa",
+          "zoom_sha256": "814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Follicle depletion and estradiol",
+          "variant_id": "v-50e3ba8c9d8b62e03f05",
+          "supported": "YES"
+        }
+      ]
     }
   ],
   "publication_scope": "Scored clinical cases and required comparison panels"
