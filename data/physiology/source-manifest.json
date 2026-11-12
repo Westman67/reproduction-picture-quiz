@@ -1080,7 +1080,7 @@
       "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
       "tested_concept": "Maternal Placental Fetal Unit",
       "original_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
-      "display_asset": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
+      "display_asset": "assets/display/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.webp",
       "source_origin": "lecture",
       "source_citation": {
         "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
@@ -1172,6 +1172,44 @@
           ],
           "display_sha256": "2def7b81245157aebbd122a6d6bd0e106ea215e424c8cb2acb2530a75d9c8f86",
           "zoom_sha256": "d6be096b9da29c4f94fccf0d90763af3bf9e1c83c3c65ae10e17705076d94d75"
+        },
+        {
+          "variant_id": "v-a5968cea4fb9839c1501",
+          "asset": "assets/display/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.webp",
+          "zoom_asset": "assets/zoom/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "learner zoom before audit",
+            "input_asset": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+            "input_dimensions": [
+              1573,
+              1100
+            ],
+            "boxes": [
+              [
+                518,
+                959,
+                705,
+                1043
+              ]
+            ],
+            "normalized_boxes": [
+              [
+                0.329,
+                0.872,
+                0.448,
+                0.948
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Conceal printed teaching labels while preserving the tested visual."
+          },
+          "output_dimensions": [
+            1573,
+            1100
+          ],
+          "display_sha256": "866135fe4c01f1aea0b1b103be4b3276716b69256dc52671ab336bd1356a1381",
+          "zoom_sha256": "a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e"
         }
       ],
       "question_type_matrix": [

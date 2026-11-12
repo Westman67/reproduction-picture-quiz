@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-12-r30",
+  "bank_version": "2026-11-12-question-audit",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -969,6 +969,10 @@
         {
           "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
           "page": 25
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 2
         }
       ],
       "visual_clues": [
@@ -980,7 +984,7 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": "During labor, the examiner assesses the position of the presenting fetal part relative to the maternal pelvis."
     },
     {
       "stem": "Where is the positive brown immunostaining located in this field?",
@@ -2144,7 +2148,7 @@
       "case_context": null
     },
     {
-      "stem": "Follow the flow arrow marked To fetus at the lower left. Which umbilical vessel does that arrow leave?",
+      "stem": "The vessel name beside the lower left “To fetus” arrow is covered. Which vessel returns placental blood to the fetus along that route?",
       "options": [
         "Maternal artery",
         "Maternal vein",
@@ -2152,24 +2156,24 @@
         "Umbilical arteries"
       ],
       "correct_index": 2,
-      "explanation": "The To fetus arrow leaves the red vessel labeled umbilical vein.",
+      "explanation": "The fetal return route leaves the villous circulation through the single umbilical vein.",
       "choice_rationales": [
-        "The maternal arterial inflow is at the upper maternal side of the figure.",
-        "The maternal venous return is marked To mother at the top of the figure.",
-        "The To fetus arrow leaves the red vessel labeled umbilical vein.",
-        "The paired blue umbilical arteries are associated with the From fetus arrows."
+        "Maternal arterial inflow enters the intervillous space on the uterine side.",
+        "Maternal venous drainage leaves the uterine side toward the mother.",
+        "The fetal return route leaves the villous circulation through the single umbilical vein.",
+        "The paired umbilical arteries carry blood from the fetus toward the placenta."
       ],
       "question_id": "q-f28c39f507bdb2ea27b2",
       "source_id": "s-1f36b2bcb507ae62ca8f",
       "source_group_id": "g-ea046d03e32e92dabc58",
-      "variant_id": "v-fd8f78fd0008a8edcacf",
+      "variant_id": "v-a5968cea4fb9839c1501",
       "question_type": "Visual interpretation",
       "tested_concept": "Placental vessel returning toward the fetus",
       "category": "Diagram",
       "collection": "R5",
       "source_origin": "lecture",
-      "image": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
-      "zoom_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "image": "assets/display/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.webp",
+      "zoom_image": "assets/zoom/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.png",
       "original_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
       "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
       "citations": [
@@ -2179,9 +2183,9 @@
         }
       ],
       "visual_clues": [
-        "The To fetus arrow leaves the red vessel labeled umbilical vein."
+        "The fetal return route leaves the villous circulation through the single umbilical vein."
       ],
-      "visual_target": "Follow the flow arrow marked To fetus at the lower left. Which umbilical vessel does that arrow leave?",
+      "visual_target": "The vessel name beside the lower left “To fetus” arrow is covered. Which vessel returns placental blood to the fetus along that route?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visible target",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
@@ -3099,7 +3103,7 @@
       "variant_id": "v-b9334df5060a3851f88f",
       "question_type": "Visual interpretation",
       "tested_concept": "Absent uterine body in the supplied sagittal MRI",
-      "category": "Radiograph",
+      "category": "MRI",
       "collection": "R19",
       "source_origin": "lecture",
       "image": "assets/display/2678503073b7f5f492477e54047a1ea0042b138249d560b622513a66526b84c0.webp",
@@ -10162,6 +10166,10 @@
         {
           "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
           "page": 18
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 2
         }
       ],
       "visual_target": "Compare the two sagittal drawings. What change is most conspicuous in the cervix on the right?",
@@ -10170,7 +10178,7 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": "A 23-year-old at 38 weeks presents with contractions. The lecture uses this drawing to illustrate the cervical examination."
     },
     {
       "stem": "Which description correctly compares the upper and lower tracings?",
@@ -10209,6 +10217,10 @@
         {
           "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
           "page": 10
+        },
+        {
+          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
+          "page": 2
         }
       ],
       "visual_target": "Which description correctly compares the upper and lower tracings?",
@@ -10217,7 +10229,7 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": "A 23-year-old at 38 weeks is evaluated for contractions. The lecture describes a fetal heart rate in the 150s and contractions every two to three minutes."
     },
     {
       "stem": "Which segment of the first-stage cervical dilation curve is steepest?",
@@ -10502,24 +10514,23 @@
       "case_context": null
     },
     {
-      "stem": "Which pair of structures has the circled ethynyl groups?",
+      "stem": "Compared with the left two compounds, what modification is highlighted on the right two compounds?",
       "options": [
-        "Ethinyl estradiol and mestranol",
-        "Estradiol cypionate and estradiol valerate",
-        "Estradiol cypionate and ethinyl estradiol",
-        "Estradiol valerate and mestranol"
+        "A terminal carbon–carbon triple bond",
+        "An ester carbonyl attached to an oxygen",
+        "A fused aromatic ring junction",
+        "A hydroxyl group on the leftmost ring"
       ],
       "correct_index": 0,
-      "explanation": "The red circles lie on the two right-hand structures, which are labeled ethinyl estradiol and mestranol.",
+      "explanation": "Each red outline encloses a terminal ethynyl group, which contains a carbon–carbon triple bond.",
       "choice_rationales": [
-        "The red circles lie on the two right-hand structures, which are labeled ethinyl estradiol and mestranol.",
-        "The left pair has ester substitutions at the arrowed positions.",
-        "Only the second compound in this pair carries a circled ethynyl group.",
-        "Only mestranol in this pair carries a circled ethynyl group."
+        "Each red outline encloses a terminal ethynyl group, which contains a carbon–carbon triple bond.",
+        "An ester carbonyl appears in the esterified structures at the left. The red outlines are over a different group.",
+        "The red outlines sit on pendant groups outside the fused rings.",
+        "The red outlines are on the upper right side chains, away from the leftmost rings."
       ],
       "visual_clues": [
-        "The red circles lie on the two right-hand structures, which are labeled ethinyl estradiol and mestranol.",
-        "The left-hand arrows instead indicate ester substitutions."
+        "Each red outline encloses a terminal ethynyl group, which contains a carbon–carbon triple bond."
       ],
       "question_id": "q-c2553eb420c811a63d98",
       "source_id": "s-f144f3724a44bca4d5fe",
@@ -10540,7 +10551,7 @@
           "page": 18
         }
       ],
-      "visual_target": "Which pair of structures has the circled ethynyl groups?",
+      "visual_target": "Compared with the left two compounds, what modification is highlighted on the right two compounds?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -10549,36 +10560,35 @@
       "case_context": null
     },
     {
-      "stem": "Which arrangement corresponds to the panel where transcription is possible?",
+      "stem": "Which feature in the upper chromatin drawing supports transcription?",
       "options": [
         "Closely packed nucleosomes with no polymerase complex",
-        "An isolated membrane receptor without DNA",
-        "A series of identical closed nucleosome arrays in both panels",
-        "Separated nucleosomes with transcription machinery on the accessible DNA"
+        "A receptor anchored in a cell membrane",
+        "Identical nucleosome spacing in both panels",
+        "Separated nucleosomes with polymerase on accessible DNA"
       ],
       "correct_index": 3,
-      "explanation": "The upper panel shows separated nucleosomes with RNA polymerase II and transcription factors on accessible DNA.",
+      "explanation": "The upper diagram shows wider nucleosome spacing with RNA polymerase II bound to an accessible region.",
       "choice_rationales": [
-        "The closely packed pattern appears in the lower transcription-impeded panel.",
-        "The upper panel depicts chromatin and nuclear transcription machinery.",
-        "The spacing differs between the two depicted chromatin states.",
-        "The upper panel shows separated nucleosomes with RNA polymerase II and transcription factors on accessible DNA."
+        "Closely packed nucleosomes are shown in the lower arrangement.",
+        "The upper drawing shows a DNA strand with nucleosomes and polymerase.",
+        "The upper arrangement has larger gaps between nucleosomes.",
+        "The upper diagram shows wider nucleosome spacing with RNA polymerase II bound to an accessible region."
       ],
       "visual_clues": [
-        "The upper panel shows separated nucleosomes with RNA polymerase II and transcription factors on accessible DNA.",
-        "The lower panel shows a more compact arrangement."
+        "The upper diagram shows wider nucleosome spacing with RNA polymerase II bound to an accessible region."
       ],
       "question_id": "q-89360e9dfe411e365a87",
       "source_id": "s-65117ae994c04a925fba",
       "source_group_id": "g-9d97d833a1b03fe880f0",
-      "variant_id": "v-fe0f7d9cb09dd5da483a",
+      "variant_id": "v-16b3b3b6a62dee00a553",
       "tested_concept": "Chromatin accessibility and transcription",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R20",
       "source_origin": "lecture",
-      "image": "assets/display/0f828b4fc4364cdc64904f35c6d33d15c1c66fa07fbbf14f5972930cff2b67f0.webp",
-      "zoom_image": "assets/originals/0f828b4fc4364cdc64904f35c6d33d15c1c66fa07fbbf14f5972930cff2b67f0.png",
+      "image": "assets/display/16b3b3b6a62dee00a55338643e63becda14cc46bd7358bfb4a677f78b0014bcf.webp",
+      "zoom_image": "assets/zoom/16b3b3b6a62dee00a55338643e63becda14cc46bd7358bfb4a677f78b0014bcf.png",
       "original_image": "assets/originals/0f828b4fc4364cdc64904f35c6d33d15c1c66fa07fbbf14f5972930cff2b67f0.png",
       "original_filename": "R20/Chromatin Remodeling and Transcription - Diagram.png",
       "citations": [
@@ -10587,7 +10597,7 @@
           "page": 9
         }
       ],
-      "visual_target": "Which arrangement corresponds to the panel where transcription is possible?",
+      "visual_target": "Which feature in the upper chromatin drawing supports transcription?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -10643,36 +10653,35 @@
       "case_context": null
     },
     {
-      "stem": "Which domain is shown immediately to the right of hinge region D?",
+      "stem": "The caption beneath region E is covered. Which function is assigned to region E in this receptor diagram?",
       "options": [
-        "The short terminal F region",
-        "The ligand-binding domain E",
-        "The DNA-binding domain C",
-        "The N-terminal A–B region"
+        "Recruitment of the basal transcription machinery",
+        "Ligand binding and dimerization",
+        "DNA binding and dimerization",
+        "Ligand independent activation"
       ],
       "correct_index": 1,
-      "explanation": "The broad dark E block follows D and is identified in the figure as the ligand-binding domain.",
+      "explanation": "The broad E block follows the hinge and lies under AF-2. The lecture identifies it as the ligand binding and dimerization domain.",
       "choice_rationales": [
-        "The short F region follows E toward the C terminus.",
-        "The broad dark E block follows D and is identified in the figure as the ligand-binding domain.",
-        "Domain C lies immediately to the left of D.",
-        "The A–B region lies at the N-terminal end before domain C."
+        "The diagram assigns the ligand binding function to E under AF-2. It does not label E as basal transcription machinery.",
+        "The broad E block follows the hinge and lies under AF-2. The lecture identifies it as the ligand binding and dimerization domain.",
+        "The smaller C block is assigned DNA binding and dimerization.",
+        "The N-terminal A–B region carries the AF-1 activity."
       ],
       "visual_clues": [
-        "The broad dark E block follows D and is identified in the figure as the ligand-binding domain.",
-        "The DNA-binding C block lies on the other side of the hinge."
+        "The broad E block follows the hinge and lies under AF-2. The lecture identifies it as the ligand binding and dimerization domain."
       ],
       "question_id": "q-1ae5a057b94b5ff1a522",
       "source_id": "s-0d49295749147d5fc22b",
       "source_group_id": "g-74ac03d6a6dd91aaacce",
-      "variant_id": "v-fd7ca8accea0b9b5ba2c",
+      "variant_id": "v-b97059c1c1cc3114455a",
       "tested_concept": "Nuclear receptor ligand binding domain position",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R20",
       "source_origin": "lecture",
-      "image": "assets/display/4aca79c917b6bf72d58fbfa162977cdaa4f5e59a73c4ba8ed412a9d1eeb09325.webp",
-      "zoom_image": "assets/originals/4aca79c917b6bf72d58fbfa162977cdaa4f5e59a73c4ba8ed412a9d1eeb09325.png",
+      "image": "assets/display/b97059c1c1cc3114455aef25fa83e6b8a2ea38dcc6d0774a81677698b9a96058.webp",
+      "zoom_image": "assets/zoom/b97059c1c1cc3114455aef25fa83e6b8a2ea38dcc6d0774a81677698b9a96058.png",
       "original_image": "assets/originals/4aca79c917b6bf72d58fbfa162977cdaa4f5e59a73c4ba8ed412a9d1eeb09325.png",
       "original_filename": "R20/Nuclear Receptor Domain Structure - Diagram.png",
       "citations": [
@@ -10681,7 +10690,7 @@
           "page": 7
         }
       ],
-      "visual_target": "Which domain is shown immediately to the right of hinge region D?",
+      "visual_target": "The caption beneath region E is covered. Which function is assigned to region E in this receptor diagram?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -14005,7 +14014,7 @@
       "variant_id": "v-0d67fd3108c96801afd5",
       "tested_concept": "Normal pregnancy blood pressure midgestation pattern",
       "question_type": "Visual interpretation",
-      "category": "Diagram",
+      "category": "Graphs",
       "collection": "R21",
       "source_origin": "lecture",
       "image": "assets/display/1b1c9fc2596838c0c4c387d7c3dae37c5cd53600d04282ac89e1204c82dd320d.webp",
@@ -14052,7 +14061,7 @@
       "variant_id": "v-c0aab3ff77b53b2ced1b",
       "tested_concept": "Pregnancy plasma and red cell volume trends",
       "question_type": "Visual interpretation",
-      "category": "Diagram",
+      "category": "Graphs",
       "collection": "R21",
       "source_origin": "lecture",
       "image": "assets/display/e2bab53cf657499135b2715c2b5f4b6b9161d3f1c79f7f2e2397c6babecb8910.webp",
@@ -14121,36 +14130,35 @@
       "case_context": null
     },
     {
-      "stem": "Which combination distinguishes the lower placental drawing from the upper one?",
+      "stem": "Compare the maternal vessels and the red flow arrows in the left column. What changes in the lower drawing?",
       "options": [
-        "A wider remodeled vessel with a larger blood flow arrow",
-        "A completely absent placenta in the lower drawing",
-        "The same vessel geometry and flow arrows in both drawings",
-        "A narrower unremodeled vessel and a smaller maternal blood flow arrow"
+        "The vessel widens and its flow arrow is larger",
+        "The lower drawing loses the placenta entirely",
+        "The vessel and flow arrow are identical in both",
+        "The vessel stays narrow and the flow arrow is smaller"
       ],
       "correct_index": 3,
-      "explanation": "The lower vessel remains narrow and its blood flow arrow is smaller than the corresponding arrow in the upper drawing.",
+      "explanation": "The lower vessel remains narrow and carries a smaller maternal flow arrow than the upper remodeled vessel.",
       "choice_rationales": [
-        "The target does not show a wider remodeled vessel with a larger blood flow arrow. The lower vessel remains narrow and its blood flow arrow is smaller than the corresponding arrow in the upper drawing.",
-        "The target does not show a completely absent placenta in the lower drawing. The lower vessel remains narrow and its blood flow arrow is smaller than the corresponding arrow in the upper drawing.",
-        "The target does not show the same vessel geometry and flow arrows in both drawings. The lower vessel remains narrow and its blood flow arrow is smaller than the corresponding arrow in the upper drawing.",
-        "The lower vessel remains narrow and its blood flow arrow is smaller than the corresponding arrow in the upper drawing."
+        "The wide vessel and larger arrow are in the upper drawing.",
+        "The lower drawing still shows placenta below the uterine tissue.",
+        "The lower vessel and its flow arrow are visibly smaller.",
+        "The lower vessel remains narrow and carries a smaller maternal flow arrow than the upper remodeled vessel."
       ],
       "visual_clues": [
-        "The lower vessel remains narrow and its blood flow arrow is smaller than the corresponding arrow in the upper drawing.",
-        "The diagram links the vascular change to reduced placental perfusion."
+        "The lower vessel remains narrow and carries a smaller maternal flow arrow than the upper remodeled vessel."
       ],
       "question_id": "q-d05de27f70d11d319965",
       "source_id": "s-cad35f122990084d3f17",
       "source_group_id": "g-93d8fcab7fe09d55ddeb",
-      "variant_id": "v-d32e2890cb2bb2325068",
+      "variant_id": "v-09ae1d77471951214e04",
       "tested_concept": "Placental vascular remodeling and blood flow",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R21",
       "source_origin": "lecture",
-      "image": "assets/display/553b86260c993ec0ba6024be91a7af5003441e7a385e51e2a01f8c96b1f22f7b.webp",
-      "zoom_image": "assets/originals/553b86260c993ec0ba6024be91a7af5003441e7a385e51e2a01f8c96b1f22f7b.png",
+      "image": "assets/display/09ae1d77471951214e042799f01072f82c9e14e9bffc1bbb11eaa4e71fe236a8.webp",
+      "zoom_image": "assets/zoom/09ae1d77471951214e042799f01072f82c9e14e9bffc1bbb11eaa4e71fe236a8.png",
       "original_image": "assets/originals/553b86260c993ec0ba6024be91a7af5003441e7a385e51e2a01f8c96b1f22f7b.png",
       "original_filename": "R21/Normal Pregnancy vs Preeclampsia Placental Remodeling - Diagram.png",
       "citations": [
@@ -14159,7 +14167,7 @@
           "page": 30
         }
       ],
-      "visual_target": "Which combination distinguishes the lower placental drawing from the upper one?",
+      "visual_target": "Compare the maternal vessels and the red flow arrows in the left column. What changes in the lower drawing?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -14193,7 +14201,7 @@
       "variant_id": "v-d2590422333fb2c2b340",
       "tested_concept": "Gestational peripheral vascular resistance curve",
       "question_type": "Visual interpretation",
-      "category": "Diagram",
+      "category": "Graphs",
       "collection": "R21",
       "source_origin": "lecture",
       "image": "assets/display/33a2ed06fa234b85df00ee08e0c9f425583ed6139029154777137ff154bf1260.webp",
@@ -15567,6 +15575,10 @@
         {
           "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
           "page": 6
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 5
         }
       ],
       "visual_target": "In both abdominal CT panels, which distribution do the white arrows highlight?",
@@ -15575,7 +15587,7 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": "A 62-year-old has two months of bloating, abdominal distension, and fatigue. Colonoscopy shows extraluminal compression near the sigmoid colon."
     },
     {
       "stem": "Which composition is visible in the large pelvic lesion?",
@@ -15614,6 +15626,10 @@
         {
           "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
           "page": 6
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 5
         }
       ],
       "visual_target": "Which composition is visible in the large pelvic lesion?",
@@ -15622,7 +15638,7 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": "A 62-year-old has two months of bloating, abdominal distension, and fatigue. Colonoscopy shows extraluminal compression near the sigmoid colon."
     },
     {
       "stem": "Which pattern is visible in this supplied uterine carcinosarcoma section?",
@@ -16001,36 +16017,35 @@
       "case_context": null
     },
     {
-      "stem": "Which illustrated stage shows atypical cells extending below the epithelial boundary?",
+      "stem": "Compare the four tissue drawings. Which one shows atypical cells extending below the epithelial boundary?",
       "options": [
-        "The normal tissue panel at the left",
-        "The LSIL panel only",
-        "The HSIL panel only",
-        "The far-right tissue panel"
+        "The first tissue panel",
+        "The second tissue panel",
+        "The third tissue panel",
+        "The fourth tissue panel"
       ],
       "correct_index": 3,
-      "explanation": "The far-right drawing shows dark epithelial groups projecting down into the underlying tissue.",
+      "explanation": "Dark epithelial groups extend into the underlying tissue in the fourth panel.",
       "choice_rationales": [
-        "The normal epithelium remains above a smooth boundary.",
-        "The LSIL drawing shows atypical cells limited to the epithelial compartment.",
-        "The HSIL drawing shows thicker involvement but a preserved lower epithelial boundary.",
-        "The far-right drawing shows dark epithelial groups projecting down into the underlying tissue."
+        "The first panel shows orderly layers over an intact boundary.",
+        "In the second panel the changes stay within the epithelial layer.",
+        "The third panel shows upward expansion of atypical cells within the epithelium.",
+        "Dark epithelial groups extend into the underlying tissue in the fourth panel."
       ],
       "visual_clues": [
-        "The far-right drawing shows dark epithelial groups projecting down into the underlying tissue.",
-        "The earlier drawings keep the atypical cells above the boundary."
+        "Dark epithelial groups extend into the underlying tissue in the fourth panel."
       ],
       "question_id": "q-112021a863f0e45ca01d",
       "source_id": "s-fdbb23358a48f2961716",
       "source_group_id": "g-bab9287e338249443539",
-      "variant_id": "v-e5b1ddf1618a746bbf64",
+      "variant_id": "v-2071b4349b140ffde5ea",
       "tested_concept": "Cervical dysplasia diagram basement membrane crossing",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R28",
       "source_origin": "lecture",
-      "image": "assets/display/e4992a012a2c0eca4737c2cf87f78f1933f5578b6494d7b2d3826f2ba2baadcf.webp",
-      "zoom_image": "assets/originals/e4992a012a2c0eca4737c2cf87f78f1933f5578b6494d7b2d3826f2ba2baadcf.png",
+      "image": "assets/display/2071b4349b140ffde5eab7c0b691e5e26c5cd26b668f0fcecf762b1de2519b39.webp",
+      "zoom_image": "assets/zoom/2071b4349b140ffde5eab7c0b691e5e26c5cd26b668f0fcecf762b1de2519b39.png",
       "original_image": "assets/originals/e4992a012a2c0eca4737c2cf87f78f1933f5578b6494d7b2d3826f2ba2baadcf.png",
       "original_filename": "R28/Cervical Dysplasia Progression - Diagram.png",
       "citations": [
@@ -16039,7 +16054,7 @@
           "page": 9
         }
       ],
-      "visual_target": "Which illustrated stage shows atypical cells extending below the epithelial boundary?",
+      "visual_target": "Compare the four tissue drawings. Which one shows atypical cells extending below the epithelial boundary?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -16070,14 +16085,14 @@
       "question_id": "q-778720ee9050113cbd6d",
       "source_id": "s-fdbb23358a48f2961716",
       "source_group_id": "g-bab9287e338249443539",
-      "variant_id": "v-e5b1ddf1618a746bbf64",
+      "variant_id": "v-2071b4349b140ffde5ea",
       "tested_concept": "Cervical dysplasia diagram atypia depth",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R28",
       "source_origin": "lecture",
-      "image": "assets/display/e4992a012a2c0eca4737c2cf87f78f1933f5578b6494d7b2d3826f2ba2baadcf.webp",
-      "zoom_image": "assets/originals/e4992a012a2c0eca4737c2cf87f78f1933f5578b6494d7b2d3826f2ba2baadcf.png",
+      "image": "assets/display/2071b4349b140ffde5eab7c0b691e5e26c5cd26b668f0fcecf762b1de2519b39.webp",
+      "zoom_image": "assets/zoom/2071b4349b140ffde5eab7c0b691e5e26c5cd26b668f0fcecf762b1de2519b39.png",
       "original_image": "assets/originals/e4992a012a2c0eca4737c2cf87f78f1933f5578b6494d7b2d3826f2ba2baadcf.png",
       "original_filename": "R28/Cervical Dysplasia Progression - Diagram.png",
       "citations": [
@@ -16319,6 +16334,10 @@
         {
           "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
           "page": 25
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 24
         }
       ],
       "visual_target": "Which pattern is present within the central region of this supplied uterine ultrasound?",
@@ -16327,7 +16346,7 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": "A 42-year-old presents with dyspnea and cough five months after giving birth. Chest imaging in the lecture case shows multiple pulmonary lesions."
     },
     {
       "stem": "Which relationship is shown between the labeled trophoblast populations?",
@@ -19658,14 +19677,14 @@
       "question_id": "q-5ef660196faca4e43bd0",
       "source_id": "s-6ef561eade38f898eee6",
       "source_group_id": "g-087168876360713f97a7",
-      "variant_id": "v-4fa66b0575cfa64f095b",
+      "variant_id": "v-196c8fb2170c0bae50a0",
       "tested_concept": "Complete mole vesicle morphology",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R17",
       "source_origin": "lecture",
-      "image": "assets/display/d28aceb940b5964c864914362e4fff1512d07f8a9ece34ce70cdffb971795189.webp",
-      "zoom_image": "assets/originals/d28aceb940b5964c864914362e4fff1512d07f8a9ece34ce70cdffb971795189.png",
+      "image": "assets/display/196c8fb2170c0bae50a0e62089c2c5ff65a7824ba0867ec2a41ae88bf02bcecd.webp",
+      "zoom_image": "assets/zoom/196c8fb2170c0bae50a0e62089c2c5ff65a7824ba0867ec2a41ae88bf02bcecd.png",
       "original_image": "assets/originals/d28aceb940b5964c864914362e4fff1512d07f8a9ece34ce70cdffb971795189.png",
       "original_filename": "R17/Complete Mole Vesicles Gross - Gross.png",
       "citations": [
@@ -19674,14 +19693,14 @@
           "page": 20
         }
       ],
-      "visual_target": "What gross arrangement is visible in this complete mole example?",
+      "visual_target": "Which gross architecture is visible in this placental specimen?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null,
-      "stem": "What gross arrangement is visible in this complete mole example?",
+      "stem": "Which gross architecture is visible in this placental specimen?",
       "options": [
         "A cluster of pale translucent rounded vesicles",
         "A uniformly solid whorled nodule",
@@ -19692,9 +19711,9 @@
       "explanation": "Numerous bulbous translucent structures of varying sizes are grouped closely together.",
       "choice_rationales": [
         "Numerous bulbous translucent structures of varying sizes are grouped closely together.",
-        "The field does not support “A uniformly solid whorled nodule”. Numerous bulbous translucent structures of varying sizes are grouped closely together.",
-        "The field does not support “A single broad smooth cyst with no small spaces”. Numerous bulbous translucent structures of varying sizes are grouped closely together.",
-        "The field does not support “A long parallel array of opaque fibers”. Numerous bulbous translucent structures of varying sizes are grouped closely together."
+        "The specimen contains many translucent rounded profiles without a solid whorled cut surface.",
+        "Several separate vesicles are visible rather than one shared cavity.",
+        "The structures are rounded and translucent."
       ],
       "visual_clues": [
         "Numerous bulbous translucent structures of varying sizes are grouped closely together."
@@ -20302,14 +20321,14 @@
       "question_id": "q-cd6c4f85c94ef0614215",
       "source_id": "s-ba27b0467af10474ecb7",
       "source_group_id": "g-193beba9822da9146703",
-      "variant_id": "v-7cb568e1f662f7c8ef18",
+      "variant_id": "v-b39dcb43aaaf6be2156b",
       "tested_concept": "Comedo type DCIS central material",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R18",
       "source_origin": "lecture",
-      "image": "assets/display/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.webp",
-      "zoom_image": "assets/originals/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.png",
+      "image": "assets/display/b39dcb43aaaf6be2156bf7154d21e02f923fafc20c12cbc987cd5b30ca1b4f91.webp",
+      "zoom_image": "assets/zoom/b39dcb43aaaf6be2156bf7154d21e02f923fafc20c12cbc987cd5b30ca1b4f91.png",
       "original_image": "assets/originals/e710756a2f8e2ca763e60d027fb49c73d2742775d85bc7af523df7e03f808252.png",
       "original_filename": "R18/Ductal Carcinoma in Situ Necrosis Histology - Histology.png",
       "citations": [
@@ -20318,30 +20337,30 @@
           "page": 50
         }
       ],
-      "visual_target": "What is located in the center of the largest rounded dark duct profile?",
+      "visual_target": "What material does the arrow mark in the largest rounded duct profile?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null,
-      "stem": "What is located in the center of the largest rounded dark duct profile?",
+      "stem": "What material does the arrow mark in the largest rounded duct profile?",
       "options": [
-        "Many parallel pink stromal fascicles",
-        "A cluster of normal acini outside the duct",
-        "A dense pale pink core surrounded by a rim of dark cells",
+        "Parallel stromal fascicles",
+        "A cluster of normal acini",
+        "A dense pale pink core surrounded by dark cells",
         "An uninterrupted sheet of fat cells"
       ],
       "correct_index": 2,
-      "explanation": "The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells.",
+      "explanation": "Dense pale pink material occupies the center of the expanded duct and has a dark cellular rim.",
       "choice_rationales": [
-        "The field does not support “Many parallel pink stromal fascicles”. The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells.",
-        "The field does not support “A cluster of normal acini outside the duct”. The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells.",
-        "The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells.",
-        "The field does not support “An uninterrupted sheet of fat cells”. The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells."
+        "The arrow ends centrally inside the duct profile, away from stromal bundles.",
+        "The marked material forms a solid central core.",
+        "Dense pale pink material occupies the center of the expanded duct and has a dark cellular rim.",
+        "The arrow ends inside an epithelial profile, away from the surrounding fat."
       ],
       "visual_clues": [
-        "The broad duct contains dense pale pink material in its center, enclosed by a darker ring of epithelial cells."
+        "Dense pale pink material occupies the center of the expanded duct and has a dark cellular rim."
       ]
     },
     {
@@ -21406,14 +21425,14 @@
       "question_id": "q-4e78bdd8bd93ab7910b1",
       "source_id": "s-a857a036f10ca97d550e",
       "source_group_id": "g-c4da6b6f220cc1301dc6",
-      "variant_id": "v-32aa7a08231b1a4992ae",
+      "variant_id": "v-45ec08847587e8cf7496",
       "tested_concept": "Molar pregnancy ultrasound internal spaces",
       "question_type": "Visual interpretation",
       "category": "Ultrasound",
       "collection": "R11",
       "source_origin": "lecture",
-      "image": "assets/display/c85e6f5f05663fcf29085878cd0c58d891aa6de9fc974630f792c8e40829a3aa.webp",
-      "zoom_image": "assets/originals/c85e6f5f05663fcf29085878cd0c58d891aa6de9fc974630f792c8e40829a3aa.png",
+      "image": "assets/display/45ec08847587e8cf74961314428b55745b53bd076065330e64bbf21a1f844c1a.webp",
+      "zoom_image": "assets/zoom/45ec08847587e8cf74961314428b55745b53bd076065330e64bbf21a1f844c1a.png",
       "original_image": "assets/originals/c85e6f5f05663fcf29085878cd0c58d891aa6de9fc974630f792c8e40829a3aa.png",
       "original_filename": "R11/Complete Mole Ultrasound Snowstorm - EM.png",
       "citations": [
@@ -21422,14 +21441,14 @@
           "page": 44
         }
       ],
-      "visual_target": "Which internal pattern is visible within the central uterine region?",
+      "visual_target": "What internal pattern is visible within the central uterine region?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null,
-      "stem": "Which internal pattern is visible within the central uterine region?",
+      "stem": "What internal pattern is visible within the central uterine region?",
       "options": [
         "One isolated circular dark space in otherwise uniform tissue",
         "A uniformly black region with no internal echoes",
@@ -21437,15 +21456,15 @@
         "A single dark cavity with a clearly visible fetus"
       ],
       "correct_index": 2,
-      "explanation": "The uterine contents show a heterogeneous bright background interrupted by many small dark spaces.",
+      "explanation": "Heterogeneous bright tissue is interrupted by numerous small dark spaces.",
       "choice_rationales": [
-        "The field does not support “One isolated circular dark space in otherwise uniform tissue”. The uterine contents show a heterogeneous bright background interrupted by many small dark spaces.",
-        "The field does not support “A uniformly black region with no internal echoes”. The uterine contents show a heterogeneous bright background interrupted by many small dark spaces.",
-        "The uterine contents show a heterogeneous bright background interrupted by many small dark spaces.",
-        "The field does not support “A single dark cavity with a clearly visible fetus”. The uterine contents show a heterogeneous bright background interrupted by many small dark spaces."
+        "Small dark spaces recur throughout the central region.",
+        "Bright internal echoes are abundant between the dark spaces.",
+        "Heterogeneous bright tissue is interrupted by numerous small dark spaces.",
+        "The field contains many small spaces and lacks a distinct fetal profile."
       ],
       "visual_clues": [
-        "The uterine contents show a heterogeneous bright background interrupted by many small dark spaces."
+        "Heterogeneous bright tissue is interrupted by numerous small dark spaces."
       ]
     },
     {
@@ -22248,6 +22267,14 @@
         {
           "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
           "page": 15
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 6
         }
       ],
       "visual_target": "Which combination can be seen on the exposed lesion?",
@@ -22256,7 +22283,7 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
+      "case_context": "A 62-year-old with persistent bloating and a complex pelvic mass undergoes open surgical debulking.",
       "stem": "Which combination can be seen on the exposed lesion?",
       "options": [
         "Irregular red nodular tissue beside pale lobulated material",
@@ -22418,14 +22445,14 @@
       "question_id": "q-1527c916ef9c4b156f84",
       "source_id": "s-659e5c963e3ad02941fd",
       "source_group_id": "g-8329f25f6de3f1c39dc4",
-      "variant_id": "v-037c8aec0774fa805662",
+      "variant_id": "v-e115a66c3169aab6d4f5",
       "tested_concept": "Cervical tumor gross contour around the opening",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R28",
       "source_origin": "lecture",
-      "image": "assets/display/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.webp",
-      "zoom_image": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
+      "image": "assets/display/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.webp",
+      "zoom_image": "assets/zoom/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.png",
       "original_image": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
       "original_filename": "R28/Cervical Cancer Speculum View - Clinical Photo.png",
       "citations": [
@@ -22434,14 +22461,14 @@
           "page": 3
         }
       ],
-      "visual_target": "Which configuration is visible around the central opening?",
+      "visual_target": "What configuration surrounds the central cervical opening on speculum exam?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which configuration is visible around the central opening?",
+      "case_context": "A 48-year-old reports bleeding after intercourse. Her last gynecologic visit was ten years earlier.",
+      "stem": "What configuration surrounds the central cervical opening on speculum exam?",
       "options": [
         "An irregular raised nodular rim around a recessed center",
         "A smooth even rim with no surface disruption",
@@ -22449,15 +22476,15 @@
         "A round translucent structure protruding into a smooth lumen"
       ],
       "correct_index": 0,
-      "explanation": "The rim is uneven and raised, with friable looking tissue surrounding a central recess.",
+      "explanation": "Uneven raised nodules surround the central recess.",
       "choice_rationales": [
-        "The rim is uneven and raised, with friable looking tissue surrounding a central recess.",
-        "The field does not support “A smooth even rim with no surface disruption”. The rim is uneven and raised, with friable looking tissue surrounding a central recess.",
-        "The field does not support “A single flat pale spot away from the opening”. The rim is uneven and raised, with friable looking tissue surrounding a central recess.",
-        "The field does not support “A round translucent structure protruding into a smooth lumen”. The rim is uneven and raised, with friable looking tissue surrounding a central recess."
+        "Uneven raised nodules surround the central recess.",
+        "The rim has irregular projecting tissue.",
+        "The visible change surrounds the opening.",
+        "The rim is solid and irregular around a recessed center."
       ],
       "visual_clues": [
-        "The rim is uneven and raised, with friable looking tissue surrounding a central recess."
+        "Uneven raised nodules surround the central recess."
       ]
     },
     {
@@ -22486,7 +22513,7 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
+      "case_context": "A 71-year-old has persistent vulvar itching after intermittent clobetasol use. Examination shows a new lesion on the right labium majus.",
       "stem": "Which morphology is visible at the center of the photograph?",
       "options": [
         "A broad smooth flat area without a raised border",
@@ -22510,46 +22537,54 @@
       "question_id": "q-8cd91ba471fcff025d50",
       "source_id": "s-9e62eec2acf07b32a747",
       "source_group_id": "g-f6203042ecf88889e5ea",
-      "variant_id": "v-34dbbcaa0a8a31fb7484",
+      "variant_id": "v-5fc19aaa1437a4838888",
       "tested_concept": "Cervical cancer primary and nodal uptake distribution",
       "question_type": "Visual interpretation",
-      "category": "CT",
+      "category": "PET/CT",
       "collection": "R28",
       "source_origin": "lecture",
-      "image": "assets/display/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.webp",
-      "zoom_image": "assets/originals/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.png",
+      "image": "assets/display/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.webp",
+      "zoom_image": "assets/zoom/5fc19aaa1437a483888830bcc13fc1c72df5967a3b2619b52cd7e3b3d59bb1ec.png",
       "original_image": "assets/originals/7140dc859abee022de71add34ea7a74cb9a2ed9d37fb780c5fc714aaf4ce03f6.png",
       "original_filename": "R28/Cervical Cancer PET CT - CT.png",
       "citations": [
         {
           "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
           "page": 13
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 11
         }
       ],
-      "visual_target": "How are the two indicated areas of uptake arranged?",
+      "visual_target": "How are the two arrowed pelvic foci arranged on this PET/CT image?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "How are the two indicated areas of uptake arranged?",
+      "case_context": "A 48-year-old with postcoital bleeding and a cervical lesion undergoes staging imaging after biopsy.",
+      "stem": "How are the two arrowed pelvic foci arranged on this PET/CT image?",
       "options": [
-        "The primary focus is in the chest above the other focus",
-        "Both foci lie outside the body contour",
-        "The nodal focus is separate and farther to the right of the image",
-        "The two arrows indicate exactly the same focus"
+        "The arrows identify a pelvic focus and a separate chest focus",
+        "Both arrows point outside the body contour",
+        "The arrows identify two separate pelvic foci, one farther to the right",
+        "Both arrows converge on the same focus"
       ],
       "correct_index": 2,
-      "explanation": "The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image.",
+      "explanation": "The arrowheads land on separate areas of pelvic uptake, with one farther to the right of the displayed image.",
       "choice_rationales": [
-        "The field does not support “The primary focus is in the chest above the other focus”. The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image.",
-        "The field does not support “Both foci lie outside the body contour”. The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image.",
-        "The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image.",
-        "The field does not support “The two arrows indicate exactly the same focus”. The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image."
+        "Both arrowheads land in the pelvis.",
+        "The arrowheads lie within the patient outline.",
+        "The arrowheads land on separate areas of pelvic uptake, with one farther to the right of the displayed image.",
+        "A small gap separates the two arrowheads and their targets."
       ],
       "visual_clues": [
-        "The arrows identify two separate bright pelvic sites, with the labeled nodal focus farther to the right of the image."
+        "The arrowheads land on separate areas of pelvic uptake, with one farther to the right of the displayed image."
       ]
     },
     {

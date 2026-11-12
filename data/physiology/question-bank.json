@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-11-pathology-full",
+  "bank_version": "2026-11-12-question-audit",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -603,7 +603,7 @@
       "case_context": null
     },
     {
-      "stem": "Follow the flow arrow marked To fetus at the lower left. Which umbilical vessel does that arrow leave?",
+      "stem": "The vessel name beside the lower left “To fetus” arrow is covered. Which vessel returns placental blood to the fetus along that route?",
       "options": [
         "Maternal artery",
         "Maternal vein",
@@ -611,24 +611,24 @@
         "Umbilical arteries"
       ],
       "correct_index": 2,
-      "explanation": "The To fetus arrow leaves the red vessel labeled umbilical vein.",
+      "explanation": "The fetal return route leaves the villous circulation through the single umbilical vein.",
       "choice_rationales": [
-        "The maternal arterial inflow is at the upper maternal side of the figure.",
-        "The maternal venous return is marked To mother at the top of the figure.",
-        "The To fetus arrow leaves the red vessel labeled umbilical vein.",
-        "The paired blue umbilical arteries are associated with the From fetus arrows."
+        "Maternal arterial inflow enters the intervillous space on the uterine side.",
+        "Maternal venous drainage leaves the uterine side toward the mother.",
+        "The fetal return route leaves the villous circulation through the single umbilical vein.",
+        "The paired umbilical arteries carry blood from the fetus toward the placenta."
       ],
       "question_id": "q-f28c39f507bdb2ea27b2",
       "source_id": "s-1f36b2bcb507ae62ca8f",
       "source_group_id": "g-ea046d03e32e92dabc58",
-      "variant_id": "v-fd8f78fd0008a8edcacf",
+      "variant_id": "v-a5968cea4fb9839c1501",
       "question_type": "Visual interpretation",
       "tested_concept": "Placental vessel returning toward the fetus",
       "category": "Diagram",
       "collection": "R5",
       "source_origin": "lecture",
-      "image": "assets/display/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.webp",
-      "zoom_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
+      "image": "assets/display/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.webp",
+      "zoom_image": "assets/zoom/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.png",
       "original_image": "assets/originals/00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0.png",
       "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
       "citations": [
@@ -638,9 +638,9 @@
         }
       ],
       "visual_clues": [
-        "The To fetus arrow leaves the red vessel labeled umbilical vein."
+        "The fetal return route leaves the villous circulation through the single umbilical vein."
       ],
-      "visual_target": "Follow the flow arrow marked To fetus at the lower left. Which umbilical vessel does that arrow leave?",
+      "visual_target": "The vessel name beside the lower left “To fetus” arrow is covered. Which vessel returns placental blood to the fetus along that route?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visible target",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
