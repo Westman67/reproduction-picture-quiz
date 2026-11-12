@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-11-pathology-pictures",
+  "bank_version": "2026-11-12-r30",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -23562,6 +23562,1162 @@
       ],
       "visual_clues": [
         "The lower left image has a dense central focus with prominent radiating lines. The lower right has finer distortion indicated by arrows."
+      ]
+    },
+    {
+      "question_id": "q-r29-pleural-a",
+      "source_id": "s-851a0639b7b1e47c682c",
+      "source_group_id": "g-e774edea37965764c7ae",
+      "asset_id": "a-e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35",
+      "variant_id": "v-aca1bd8951bc84d81d3c",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Pleural fluid cytology and nuclear atypia",
+      "visual_target": "Pleural fluid cytology and nuclear atypia",
+      "category": "Cytology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.webp",
+      "zoom_image": "assets/originals/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.png",
+      "original_image": "assets/originals/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.png",
+      "original_filename": "Case 1 Pleural Fluid Cytology A - Histology.png",
+      "stem": "Which finding distinguishes the larger cells from the smaller background cells?",
+      "options": [
+        "High nuclear-to-cytoplasmic ratios with prominent nucleoli",
+        "Uniform small round nuclei throughout",
+        "Abundant cytoplasm surrounding tiny bland nuclei",
+        "Predominantly multilobed nuclei"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Large atypical nuclei occupy much of the cells. Several have prominent nucleoli and irregular contours. Smaller background mononuclear cells provide a size comparison.",
+        "Small nuclei belong to the background population. The larger population has much more conspicuous nuclei.",
+        "In the atypical cells the nucleus is large relative to the surrounding cytoplasm.",
+        "The atypical cells have large, mostly single nuclei."
+      ],
+      "explanation": "Large atypical nuclei occupy much of the cells. Several have prominent nucleoli and irregular contours. Smaller background mononuclear cells provide a size comparison.",
+      "visual_clues": [
+        "Compare a large atypical nucleus with the small dark nuclei nearby."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 2
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 1
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 2
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-pleural-b",
+      "source_id": "s-dadbca97d8bdb663f68e",
+      "source_group_id": "g-8b912641d3ee13d130b6",
+      "asset_id": "a-8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5",
+      "variant_id": "v-ea9af0a83c7dc7fed982",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Papillary appearing clusters in pleural fluid",
+      "visual_target": "Papillary appearing clusters in pleural fluid",
+      "category": "Cytology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.webp",
+      "zoom_image": "assets/originals/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.png",
+      "original_image": "assets/originals/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.png",
+      "original_filename": "Case 1 Pleural Fluid Cytology B - Histology.png",
+      "stem": "Which architectural conclusion is best supported by the prominent cell cluster?",
+      "options": [
+        "Papillary cluster proves an ovarian primary",
+        "Papillary appearing atypical cluster with primary site unresolved",
+        "Papillary cluster proves primary pleural mesothelioma",
+        "A flat sheet of evenly spaced bland cells"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The guide identifies the ovarian primary after follow-up testing.",
+        "The crowded cluster has a papillary appearance. The guide includes metastatic carcinoma and mesothelioma in the initial differential. The subsequent workup established high-grade serous carcinoma of ovarian origin.",
+        "Papillary appearance may occur in mesothelioma and several carcinomas.",
+        "The large cluster is crowded and three dimensional."
+      ],
+      "explanation": "The crowded cluster has a papillary appearance. The guide includes metastatic carcinoma and mesothelioma in the initial differential. The subsequent workup established high-grade serous carcinoma of ovarian origin.",
+      "visual_clues": [
+        "Examine the contour and crowding of the large central cluster."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 2
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 1
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 2
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-cervix",
+      "source_id": "s-b55750b8b35e85020b2c",
+      "source_group_id": "g-37fbd2bdd7a90d68e2f2",
+      "asset_id": "a-37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902",
+      "variant_id": "v-d413f52ab8021dee197d",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Punctate erythema of the ectocervix",
+      "visual_target": "Punctate erythema of the ectocervix",
+      "category": "Gross",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.webp",
+      "zoom_image": "assets/originals/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.png",
+      "original_image": "assets/originals/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.png",
+      "original_filename": "Case 2 Cervix - Gross.png",
+      "stem": "Which surface pattern is visible on the ectocervix?",
+      "options": [
+        "A solitary deep ulcer with a crater",
+        "An exophytic papillary mass",
+        "Scattered punctate erythema",
+        "A sharply demarcated white plaque"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The surface has dispersed punctate marks, without a dominant crater.",
+        "The conspicuous abnormality is a surface color pattern rather than protruding fronds.",
+        "The exposed cervical surface has scattered punctate red areas. The guide describes this as the strawberry appearance that raises suspicion for Trichomonas in the appropriate context.",
+        "The visible foci are red rather than opaque white."
+      ],
+      "explanation": "The exposed cervical surface has scattered punctate red areas. The guide describes this as the strawberry appearance that raises suspicion for Trichomonas in the appropriate context.",
+      "visual_clues": [
+        "Look at the red surface around the external os."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 4
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-pap-a",
+      "source_id": "s-7a450fe1c3ec2b91ee4d",
+      "source_group_id": "g-3d4a001f05f3d59f3d21",
+      "asset_id": "a-3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032",
+      "variant_id": "v-30d836c2ddccacf308ad",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Inflammatory background on cervical cytology",
+      "visual_target": "Inflammatory background on cervical cytology",
+      "category": "Cytology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.webp",
+      "zoom_image": "assets/originals/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.png",
+      "original_image": "assets/originals/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.png",
+      "original_filename": "Case 2 Pap Smear 1 - Histology.png",
+      "stem": "What cellular combination characterizes this field?",
+      "options": [
+        "Only large atypical epithelial clusters",
+        "A pure population of uniform mature squamous cells",
+        "Sheets of spindle cells with elongated nuclei",
+        "Mature squamous cells with numerous smaller inflammatory cells"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The mature squamous cells are accompanied by numerous small inflammatory cells.",
+        "Smaller inflammatory cells are interspersed throughout the field.",
+        "The large cells are flattened squamous cells.",
+        "Large mature squamous cells lie in a background with much smaller inflammatory cells. The guide describes the multilobated inflammatory cells in the smear."
+      ],
+      "explanation": "Large mature squamous cells lie in a background with much smaller inflammatory cells. The guide describes the multilobated inflammatory cells in the smear.",
+      "visual_clues": [
+        "Compare the broad flat squamous cells with the small dark cells around them."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 4
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 5
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-pap-b",
+      "source_id": "s-e759871f2daef2cc20e6",
+      "source_group_id": "g-2833706a08c452290505",
+      "asset_id": "a-2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025",
+      "variant_id": "v-3958df619107fe9c5af7",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Organisms overlying squamous cells",
+      "visual_target": "Organisms overlying squamous cells",
+      "category": "Cytology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.webp",
+      "zoom_image": "assets/originals/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.png",
+      "original_image": "assets/originals/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.png",
+      "original_filename": "Case 2 Pap Smear 2 - Histology.png",
+      "stem": "Where are the faint blue mononuclear structures in this field?",
+      "options": [
+        "Faint forms overlying the surfaces of two squamous cells",
+        "Large central inclusions within squamous nuclei",
+        "Thick branching filaments extending away from the cells",
+        "A continuous ring surrounding every squamous nucleus"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The guide points to faint bluish mononuclear forms superimposed on two squamous cells. The separate higher-power field shows ovoid forms more clearly.",
+        "The forms lie over the cell profiles, apart from their large nuclei.",
+        "The highlighted forms are rounded or faintly outlined rather than branching filaments.",
+        "The forms cluster over selected cells rather than creating uniform halos."
+      ],
+      "explanation": "The guide points to faint bluish mononuclear forms superimposed on two squamous cells. The separate higher-power field shows ovoid forms more clearly.",
+      "visual_clues": [
+        "Inspect the blue material overlying the central pink squamous cells."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 4
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 5
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-pap-c",
+      "source_id": "s-943f2c08f62837dda937",
+      "source_group_id": "g-ba32e25a15ea6f8d6c0a",
+      "asset_id": "a-ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a",
+      "variant_id": "v-9870e85ef816ec150d97",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Ovoid forms in cervical cytology",
+      "visual_target": "Ovoid forms in cervical cytology",
+      "category": "Cytology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.webp",
+      "zoom_image": "assets/originals/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.png",
+      "original_image": "assets/originals/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.png",
+      "original_filename": "Case 2 Pap Smear 3 - Histology.png",
+      "stem": "Which description matches the small structures at about 3 and 8 o’clock?",
+      "options": [
+        "Long branching filaments",
+        "Ovoid mononuclear forms without clearly visible flagella",
+        "Multilobed inflammatory cells",
+        "A cluster of flat squamous cells"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The two targets have discrete oval contours.",
+        "Two discrete ovoid mononuclear structures are visible. The case guide identifies them as Trichomonas and points out that flagella are not apparent in this field.",
+        "Each target has a single discernible nucleus.",
+        "The small forms are separate from the broad squamous cell profiles."
+      ],
+      "explanation": "Two discrete ovoid mononuclear structures are visible. The case guide identifies them as Trichomonas and points out that flagella are not apparent in this field.",
+      "visual_clues": [
+        "Compare the isolated ovoid forms with the much larger adjacent squamous cells."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 4
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 5
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-vag-low",
+      "source_id": "s-fbf57ca155d579164977",
+      "source_group_id": "g-86a32abea74ffae6de02",
+      "asset_id": "a-86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b",
+      "variant_id": "v-913a0fa16e7cb9bb3bb0",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Cystic architecture of a vaginal biopsy",
+      "visual_target": "Cystic architecture of a vaginal biopsy",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.webp",
+      "zoom_image": "assets/originals/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.png",
+      "original_image": "assets/originals/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.png",
+      "original_filename": "Case 3 Vaginal Biopsy Low Power - Histology.png",
+      "stem": "What broad architectural pattern is visible at low power?",
+      "options": [
+        "A diffuse sheet of solid cells with no spaces",
+        "A single superficial erosion",
+        "Several cyst-like spaces embedded in the tissue",
+        "A uniform compact field of small acini"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The low-power field contains prominent luminal spaces.",
+        "Several spaces lie within the sampled tissue rather than one defect on its surface.",
+        "Several rounded cyst-like spaces lie within the tissue, with pink to red material along some of the spaces. The higher-power panels establish the lining and surrounding stroma.",
+        "The conspicuous spaces are relatively large and irregular."
+      ],
+      "explanation": "Several rounded cyst-like spaces lie within the tissue, with pink to red material along some of the spaces. The higher-power panels establish the lining and surrounding stroma.",
+      "visual_clues": [
+        "Scan for multiple pale lumens in the pink tissue."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-vag-medium",
+      "source_id": "s-fb704f72590f02ad41be",
+      "source_group_id": "g-e893eed2d0493d9d50cb",
+      "asset_id": "a-e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea",
+      "variant_id": "v-68a449a143c69b15dba0",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Hemorrhage in a vaginal biopsy",
+      "visual_target": "Hemorrhage in a vaginal biopsy",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.webp",
+      "zoom_image": "assets/originals/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.png",
+      "original_image": "assets/originals/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.png",
+      "original_filename": "Case 3 Vaginal Biopsy Medium Power - Histology.png",
+      "stem": "What material is most conspicuous around the irregular spaces?",
+      "options": [
+        "Dense white calcific deposits",
+        "A thick band of keratin debris",
+        "Clear fat vacuoles replacing the lining",
+        "Hemorrhagic material adjacent to the spaces"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The conspicuous material is red, consistent with blood in this specimen.",
+        "No layered keratin band surrounds the spaces.",
+        "The material beside the spaces stains intensely red.",
+        "Red hemorrhagic material lies alongside the cyst-like spaces. The follow-up guide identifies hemorrhage as part of the lesion."
+      ],
+      "explanation": "Red hemorrhagic material lies alongside the cyst-like spaces. The follow-up guide identifies hemorrhage as part of the lesion.",
+      "visual_clues": [
+        "Trace the intensely red material at the edges of the spaces."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-vag-high",
+      "source_id": "s-341e5392e7c9cadfcfe6",
+      "source_group_id": "g-a52c2a00e88c48992fe5",
+      "asset_id": "a-a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08",
+      "variant_id": "v-ce9c6f09059c7f84fd14",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Glandular lining and stroma in a vaginal biopsy",
+      "visual_target": "Glandular lining and stroma in a vaginal biopsy",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.webp",
+      "zoom_image": "assets/originals/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.png",
+      "original_image": "assets/originals/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.png",
+      "original_filename": "Case 3 Vaginal Biopsy High Power - Histology.png",
+      "stem": "Which pair of findings is best seen around the irregular lumen?",
+      "options": [
+        "Columnar glandular lining with adjacent spindle-cell stroma",
+        "Squamous keratin pearls in dense fibrous tissue",
+        "Vascular endothelium surrounding a solid thrombus",
+        "An unlined tissue cleft with only blood"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Columnar epithelium lines the irregular lumen, with surrounding spindle-cell stroma and hemorrhage. In the vaginal location, the guide identifies this as ectopic endometrial tissue.",
+        "The dark cells form a columnar lining around an open lumen.",
+        "The prominent lining is glandular columnar epithelium.",
+        "A distinct dark epithelial lining is visible."
+      ],
+      "explanation": "Columnar epithelium lines the irregular lumen, with surrounding spindle-cell stroma and hemorrhage. In the vaginal location, the guide identifies this as ectopic endometrial tissue.",
+      "visual_clues": [
+        "Look for a dark epithelial lining and a separate cuff of spindle cells."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 7
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-prostate-low",
+      "source_id": "s-4b52ab3a2d5464212767",
+      "source_group_id": "g-6c879aea511fcbad28ba",
+      "asset_id": "a-6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61",
+      "variant_id": "v-7ba28f12479fbf2c7464",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Dilated folded glands in a prostate specimen",
+      "visual_target": "Dilated folded glands in a prostate specimen",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.webp",
+      "zoom_image": "assets/originals/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.png",
+      "original_image": "assets/originals/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.png",
+      "original_filename": "Case 4 Prostate Low Power - Histology.png",
+      "stem": "Which architecture predominates in this low-power prostate field?",
+      "options": [
+        "An infiltrate composed entirely of small crowded acini",
+        "Irregular dilated glands with epithelial infoldings",
+        "A solid sheet without identifiable lumens",
+        "A single large smooth cyst"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Many glands in this field are large and folded.",
+        "Irregular dilated glands with epithelial infoldings are separated by stroma. The guide identifies this field as a hyperplastic nodule and describes a dual cell layer.",
+        "Pale lumens are visible in numerous glands.",
+        "The field includes multiple irregular gland profiles."
+      ],
+      "explanation": "Irregular dilated glands with epithelial infoldings are separated by stroma. The guide identifies this field as a hyperplastic nodule and describes a dual cell layer.",
+      "visual_clues": [
+        "Find the pale lumens and follow the folds along their edges."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 9
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 9
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-prostate-high",
+      "source_id": "s-f5ad0beebc481fb69c26",
+      "source_group_id": "g-f14f98b3b75ae39eb01b",
+      "asset_id": "a-f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca",
+      "variant_id": "v-2b04a65539dc0ffea8eb",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Focal crowded glands in a prostate resection",
+      "visual_target": "Focal crowded glands in a prostate resection",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.webp",
+      "zoom_image": "assets/originals/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.png",
+      "original_image": "assets/originals/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.png",
+      "original_filename": "Case 4 Prostate High Power - Histology.png",
+      "stem": "Which contrast in gland architecture is described by this field?",
+      "options": [
+        "Uniformly dilated glands with prominent folds throughout",
+        "A diffuse solid sheet without gland formation",
+        "Focally crowded small glands with less apparent dual layering",
+        "A simple empty cyst lined by one flat layer"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "This pattern is more evident in the low-power hyperplastic field.",
+        "Multiple compact glands retain recognizable lumens.",
+        "Small compact glands on the left show less apparent dual layering than glands on the right. The guide interprets the two fields together as hyperplasia with a focus of prostatic adenocarcinoma and discusses basal cell staining as an adjunct.",
+        "There are numerous small gland profiles in a stromal background."
+      ],
+      "explanation": "Small compact glands on the left show less apparent dual layering than glands on the right. The guide interprets the two fields together as hyperplasia with a focus of prostatic adenocarcinoma and discusses basal cell staining as an adjunct.",
+      "visual_clues": [
+        "Compare the crowded left-sided profiles with glands that retain an apparent outer layer."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 9
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 9
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 8
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-urine",
+      "source_id": "s-6e3be355007f4c5f6132",
+      "source_group_id": "g-5c76c45ecf1ad8c87d23",
+      "asset_id": "a-5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
+      "variant_id": "v-f6c54a00cbf791d23553",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Urine cytology and the limits of staging",
+      "visual_target": "Urine cytology and the limits of staging",
+      "category": "Urine Microscopy",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.webp",
+      "zoom_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
+      "original_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
+      "original_filename": "Case 5 Urine Cytology - Urine Microscopy.png",
+      "stem": "What inference is best supported by the cluster in this urine specimen?",
+      "options": [
+        "Muscle invasion can be staged from this cluster",
+        "Only a bland population of small nuclei is present",
+        "Normal detrusor bundles dominate the specimen",
+        "Malignant-appearing cells are shed into urine, with invasion depth unresolved"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "No detrusor tissue is shown in the urine preparation.",
+        "The crowded cells have conspicuous nuclei and irregular outlines.",
+        "The preparation contains shed cells, without intact bladder wall.",
+        "The crowded poorly cohesive cells have large irregular nuclei relative to the cytoplasm. The guide interprets them as malignant and emphasizes that shed cells cannot establish the depth of invasion."
+      ],
+      "explanation": "The crowded poorly cohesive cells have large irregular nuclei relative to the cytoplasm. The guide interprets them as malignant and emphasizes that shed cells cannot establish the depth of invasion.",
+      "visual_clues": [
+        "Inspect the crowded nuclei and the relatively small amount of cytoplasm."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-bladder-a",
+      "source_id": "s-fbc3d90fd0e9094178f9",
+      "source_group_id": "g-16be5374bb8964b28164",
+      "asset_id": "a-16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935",
+      "variant_id": "v-9d5cac35afc6a3b7ad64",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Bladder biopsy and muscle invasion",
+      "visual_target": "Bladder biopsy and muscle invasion",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.webp",
+      "zoom_image": "assets/originals/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.png",
+      "original_image": "assets/originals/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.png",
+      "original_filename": "Case 5 Bladder Biopsy 1 - Histology.png",
+      "stem": "Which relationship between the dark cells and pink tissue is visible?",
+      "options": [
+        "Atypical cells infiltrate among muscle bundles",
+        "The atypical cells stay entirely on the mucosal surface",
+        "The muscle is separated from the tumor by a clean plane",
+        "Only acellular debris lies between the bundles"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Atypical cells infiltrate between broad pink muscle bundles. The follow-up guide identifies invasion of the bladder muscle layer in these biopsy fields.",
+        "Atypical cells are intermixed with deeper wall tissue.",
+        "Dark cells extend between the bundles.",
+        "The dark infiltrate contains many discernible nuclei."
+      ],
+      "explanation": "Atypical cells infiltrate between broad pink muscle bundles. The follow-up guide identifies invasion of the bladder muscle layer in these biopsy fields.",
+      "visual_clues": [
+        "Follow the pink bundles and look for dark tumor cells between them."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 12
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "question_id": "q-r29-bladder-b",
+      "source_id": "s-ab0c796a73230404567f",
+      "source_group_id": "g-701ba3698b743b76c876",
+      "asset_id": "a-701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35",
+      "variant_id": "v-6ebb7052557b5d46791e",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Tumor nests and bladder wall architecture",
+      "visual_target": "Tumor nests and bladder wall architecture",
+      "category": "Histology",
+      "collection": "R29",
+      "source_origin": "lecture",
+      "image": "assets/display/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.webp",
+      "zoom_image": "assets/originals/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.png",
+      "original_image": "assets/originals/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.png",
+      "original_filename": "Case 5 Bladder Biopsy 2 - Histology.png",
+      "stem": "Which pattern best describes the rounded dark profiles in this second biopsy field?",
+      "options": [
+        "Only a continuous bland urothelial lining",
+        "Dark tumor nests embedded within the wall tissue",
+        "A single acellular cavity in otherwise normal wall",
+        "A free papillary fragment without underlying tissue"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The conspicuous profiles are within the section and are architecturally irregular.",
+        "Dark rounded and irregular tumor profiles sit within the pink wall tissue. The companion biopsy and follow-up guide confirm muscle invasion. These fields establish local invasion without showing distant spread.",
+        "There are multiple dark cellular profiles with discernible nuclei.",
+        "Pink supporting wall tissue surrounds the abnormal profiles."
+      ],
+      "explanation": "Dark rounded and irregular tumor profiles sit within the pink wall tissue. The companion biopsy and follow-up guide confirm muscle invasion. These fields establish local invasion without showing distant spread.",
+      "visual_clues": [
+        "Compare the dark rounded nests with the pink bundles that surround them."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 11
+        },
+        {
+          "document": "R29 GU and GI Diseases 2.pdf",
+          "page": 12
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R29 GU and GI Diseases RLS.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-timeline",
+      "source_id": "s-7617d80d6804e9cc342e",
+      "source_group_id": "g-f71ac016c3b34c8da2c1",
+      "asset_id": "a-f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7",
+      "variant_id": "v-999557fe51cafedd1af3",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Timing of the menopausal transition",
+      "visual_target": "Timing of the menopausal transition",
+      "category": "Diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.webp",
+      "zoom_image": "assets/zoom/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.png",
+      "original_image": "assets/originals/f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7.png",
+      "original_filename": "Womans Lifetime Perimenopause and Menopause - Diagram.png",
+      "stem": "Which statement distinguishes the later milestone from the earlier one on the timeline?",
+      "options": [
+        "The later marker is the first sign of cycle change",
+        "The earlier marker requires 12 months without menses",
+        "The later marker is identified retrospectively after 12 months without menses",
+        "The later marker occurs after only four months without menses"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The earlier arrow marks the first changes.",
+        "The 12-month criterion belongs to the later milestone.",
+        "The earlier marker denotes first changes during perimenopause. The later marker denotes menopause, defined retrospectively after 12 months without menstruation in the lecture.",
+        "Four months falls short of the retrospective interval described in the lecture."
+      ],
+      "explanation": "The earlier marker denotes first changes during perimenopause. The later marker denotes menopause, defined retrospectively after 12 months without menstruation in the lecture.",
+      "visual_clues": [
+        "Compare the labels under the two arrows and their order along the timeline."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 31
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 30
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-ovary",
+      "source_id": "s-081a1aa8382a7fb3285a",
+      "source_group_id": "g-4ec71445af40dfe1a3ad",
+      "asset_id": "a-4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d",
+      "variant_id": "v-50e3ba8c9d8b62e03f05",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Follicle depletion and estradiol",
+      "visual_target": "Follicle depletion and estradiol",
+      "category": "Diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.webp",
+      "zoom_image": "assets/zoom/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.png",
+      "original_image": "assets/originals/4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d.png",
+      "original_filename": "Menopause Two Key Physiological Changes - Diagram.png",
+      "stem": "Which consequence belongs in the masked area beside the follicle-loss pathway?",
+      "options": [
+        "Increased estradiol in serum and tissue",
+        "Increased ovarian sensitivity to gonadotropins",
+        "Increased estradiol-mediated negative feedback",
+        "Decreased estradiol in serum and tissue"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Follicle loss is associated with reduced estradiol production in the lecture.",
+        "The companion slide describes decreasing ovarian sensitivity.",
+        "With less estradiol, the lecture describes less negative feedback.",
+        "The source pairs loss of primary ovarian follicles with decreased estradiol in serum and tissue. The companion graph shows the estradiol decline around the final menstrual period."
+      ],
+      "explanation": "The source pairs loss of primary ovarian follicles with decreased estradiol in serum and tissue. The companion graph shows the estradiol decline around the final menstrual period.",
+      "visual_clues": [
+        "Follow the branch from the visible follicle-loss statement to the paired change."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 34
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 36
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-curves",
+      "source_id": "s-2680d6baaa7c22da0fa5",
+      "source_group_id": "g-d0788bc126fa3d36f7f3",
+      "asset_id": "a-d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba",
+      "variant_id": "v-1e737882bf829c11aaf2",
+      "question_type": "Visual interpretation",
+      "tested_concept": "FSH and estradiol trajectories",
+      "visual_target": "FSH and estradiol trajectories",
+      "category": "Graphs",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.webp",
+      "zoom_image": "assets/originals/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.png",
+      "original_image": "assets/originals/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.png",
+      "original_filename": "FSH and Estradiol Around Final Menstrual Period - Diagram.png",
+      "stem": "What happens to the two labeled curves from approximately two years before to two years after the final menstrual period?",
+      "options": [
+        "FSH rises and estradiol falls",
+        "FSH falls and estradiol rises",
+        "Both hormones rise over the interval",
+        "Both hormones fall over the interval"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Over the interval around the final menstrual period, FSH rises and estradiol falls. The lecture relates rising gonadotropins to reduced ovarian negative feedback.",
+        "This reverses the directions of both labeled curves.",
+        "FSH rises, but the E2 curve moves downward.",
+        "Estradiol falls while the FSH curve rises."
+      ],
+      "explanation": "Over the interval around the final menstrual period, FSH rises and estradiol falls. The lecture relates rising gonadotropins to reduced ovarian negative feedback.",
+      "visual_clues": [
+        "Locate zero on the time axis and follow each labeled curve across it."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 36
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-axis",
+      "source_id": "s-9b273ae11ac523739562",
+      "source_group_id": "g-2f5f33317ccbe15d3fb9",
+      "asset_id": "a-2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195",
+      "variant_id": "v-5dd505100f3187ccb1fa",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Direction of ovarian feedback",
+      "visual_target": "Direction of ovarian feedback",
+      "category": "Diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.webp",
+      "zoom_image": "assets/originals/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.png",
+      "original_image": "assets/originals/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.png",
+      "original_filename": "Hypothalamic Pituitary Ovarian Axis - Diagram.png",
+      "stem": "Which route returns an ovarian signal toward the central regulators in this schematic?",
+      "options": [
+        "GnRH travels from the ovary directly to the pituitary",
+        "Estradiol travels from the ovary back toward the brain and pituitary",
+        "FSH travels from granulosa cells directly to the hypothalamus",
+        "LH travels from the ovary to the hypothalamus"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "GnRH is shown originating in the hypothalamic region.",
+        "The long return path carries ovarian estradiol back toward the hypothalamic and pituitary level. The downward paths show GnRH and the gonadotropins going to their targets.",
+        "FSH is drawn from the pituitary toward the ovarian compartment.",
+        "The LH branch runs downward toward ovarian cells."
+      ],
+      "explanation": "The long return path carries ovarian estradiol back toward the hypothalamic and pituitary level. The downward paths show GnRH and the gonadotropins going to their targets.",
+      "visual_clues": [
+        "Follow the long curved return path marked E2 instead of the downward hormone arrows."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 37
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 84
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-flash",
+      "source_id": "s-dc8c423d7e4aa59e1494",
+      "source_group_id": "g-39e6ef385a5f4aa6a249",
+      "asset_id": "a-39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b",
+      "variant_id": "v-f7441dd6413ae0fc1c9a",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Sequence of flushing and chills",
+      "visual_target": "Sequence of flushing and chills",
+      "category": "Diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.webp",
+      "zoom_image": "assets/zoom/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.png",
+      "original_image": "assets/originals/39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b.png",
+      "original_filename": "Hot Flash Thermoregulatory Physiology - Diagram.png",
+      "stem": "What change is illustrated from the flushed figure to the final figure?",
+      "options": [
+        "Chills precede flushing and the thermometer rises in the last figure",
+        "The final figure is the most flushed and shows the highest level",
+        "Upper-body flushing is followed later by chills and a lower thermometer level",
+        "The thermometer level is identical in the second and fourth figures"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The shivering figure appears last and has the lowest illustrated level.",
+        "The final figure is blue-toned and shivering.",
+        "The flushed figure has reddening over the upper body. The last figure is shivering with a lower illustrated thermometer level. The lecture’s original labels show sweating before the chills phase.",
+        "The red column is visibly shorter in the last panel."
+      ],
+      "explanation": "The flushed figure has reddening over the upper body. The last figure is shivering with a lower illustrated thermometer level. The lecture’s original labels show sweating before the chills phase.",
+      "visual_clues": [
+        "Compare upper-body color and the thermometer in the second and fourth figures."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 49
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-epithelium",
+      "source_id": "s-0101fcdae40a5e395739",
+      "source_group_id": "g-de1b67d39c5f5cccd8e1",
+      "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
+      "variant_id": "v-af21e15a60392d3dd4cf",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Epithelial response to low estrogen",
+      "visual_target": "Epithelial response to low estrogen",
+      "category": "Diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.webp",
+      "zoom_image": "assets/zoom/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.png",
+      "original_image": "assets/originals/de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3.png",
+      "original_filename": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
+      "stem": "Which structural change distinguishes the right-hand panel from the left?",
+      "options": [
+        "A thicker epithelium with more cell layers",
+        "A deeper and more undulating epithelial interface",
+        "Complete absence of surface epithelium",
+        "A thinner epithelial layer with fewer cell layers"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "This describes the left panel better than the right.",
+        "The right interface is comparatively flat.",
+        "An epithelial layer remains visible on the right.",
+        "The right-hand panel has a thinner epithelial layer with fewer cell layers and a flatter interface. The lecture identifies it as the low-estrogen postmenopausal illustration."
+      ],
+      "explanation": "The right-hand panel has a thinner epithelial layer with fewer cell layers and a flatter interface. The lecture identifies it as the low-estrogen postmenopausal illustration.",
+      "visual_clues": [
+        "Compare the thickness of the cellular layer above the pink supporting tissue."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 54
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-axis-low",
+      "source_id": "s-884eef83220189d80a43",
+      "source_group_id": "g-589889dd0816ff5af779",
+      "asset_id": "a-589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884",
+      "variant_id": "v-a10a327797b3939fdf14",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Site of suppression in the athlete's axis",
+      "visual_target": "Site of suppression in the athlete's axis",
+      "category": "Diagram",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/display/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.webp",
+      "zoom_image": "assets/zoom/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.png",
+      "original_image": "assets/originals/589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884.png",
+      "original_filename": "Functional Hypothalamic Amenorrhea Axis Changes - Diagram.png",
+      "stem": "At which level is the red inhibitory mark placed in this altered axis?",
+      "options": [
+        "Hypothalamic GnRH output",
+        "Pituitary FSH output as the primary site",
+        "Ovarian aromatase within granulosa cells",
+        "Primary depletion of the depicted follicles"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The inhibitory mark is at the hypothalamic GnRH level. The lecture links functional hypothalamic amenorrhea in this exercise to reduced gonadotropin pulsation, low LH, and low estradiol.",
+        "The FSH branch lies downstream of the red mark.",
+        "Aromatase is labeled lower in the diagram, at the ovarian level.",
+        "The mark is in the central axis, far above the ovarian structures."
+      ],
+      "explanation": "The inhibitory mark is at the hypothalamic GnRH level. The lecture links functional hypothalamic amenorrhea in this exercise to reduced gonadotropin pulsation, low LH, and low estradiol.",
+      "visual_clues": [
+        "Find the small red mark and identify the immediately adjacent structure."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "accepted_synonyms": [],
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 84
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 76
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 81
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 83
+        }
       ]
     }
   ]

@@ -38116,10 +38116,1748 @@
           "reason": "Distinct target directly supported by the visible image and supplied PDF page."
         }
       ]
+    },
+    {
+      "asset_id": "a-e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35",
+      "source_id": "s-851a0639b7b1e47c682c",
+      "source_group_id": "g-e774edea37965764c7ae",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 1 Pleural Fluid Cytology A - Histology.png",
+      "sha256": "e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35",
+      "dimensions": [
+        1108,
+        1126
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Pleural fluid cytology and nuclear atypia",
+      "original_asset": "assets/originals/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.png",
+      "display_asset": "assets/display/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 2
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "2",
+        "file": "Case 1 Pleural Fluid Cytology A - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.117",
+        "y0": "0.205",
+        "x1": "0.551",
+        "y1": "0.546",
+        "size": "1108x1126@300dpi",
+        "note": "cytology, no cytology bucket",
+        "png_sha256": "9bd358b779f20738d20b1851add12b48d1c6d5697097011b07c917797f3241e0",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 1 Pleural Fluid Cytology A - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-aca1bd8951bc84d81d3c",
+          "asset": "assets/display/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.webp",
+          "zoom_asset": "assets/originals/e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1108,
+              1126
+            ]
+          },
+          "output_dimensions": [
+            1108,
+            1126
+          ],
+          "display_sha256": "9b72f1cf5be28652474ab0fb2c1c95f1dada8da7146b313cac2b3e70a6d75a60",
+          "zoom_sha256": "e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Pleural fluid cytology and nuclear atypia",
+          "variant_id": "v-aca1bd8951bc84d81d3c",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5",
+      "source_id": "s-dadbca97d8bdb663f68e",
+      "source_group_id": "g-8b912641d3ee13d130b6",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 1 Pleural Fluid Cytology B - Histology.png",
+      "sha256": "8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5",
+      "dimensions": [
+        1122,
+        1122
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Papillary appearing clusters in pleural fluid",
+      "original_asset": "assets/originals/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.png",
+      "display_asset": "assets/display/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 2
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "2",
+        "file": "Case 1 Pleural Fluid Cytology B - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.559",
+        "x1": "0.556",
+        "y1": "0.9",
+        "size": "1122x1122@300dpi",
+        "note": "cytology, no cytology bucket",
+        "png_sha256": "5dd5d3975faabb979403b26928dec0c05db75cb99ab94c94e9f58bb41a253a55",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 1 Pleural Fluid Cytology B - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ea9af0a83c7dc7fed982",
+          "asset": "assets/display/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.webp",
+          "zoom_asset": "assets/originals/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1122,
+              1122
+            ]
+          },
+          "output_dimensions": [
+            1122,
+            1122
+          ],
+          "display_sha256": "bd184f43cf32111f020b8f66419da61df6a835fe8060f837b104661598fbcb53",
+          "zoom_sha256": "8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Papillary appearing clusters in pleural fluid",
+          "variant_id": "v-ea9af0a83c7dc7fed982",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902",
+      "source_id": "s-b55750b8b35e85020b2c",
+      "source_group_id": "g-37fbd2bdd7a90d68e2f2",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 2 Cervix - Gross.png",
+      "sha256": "37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902",
+      "dimensions": [
+        1667,
+        1205
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Punctate erythema of the ectocervix",
+      "original_asset": "assets/originals/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.png",
+      "display_asset": "assets/display/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 3
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "3",
+        "file": "Case 2 Cervix - Gross.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Gross",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.498",
+        "x1": "0.768",
+        "y1": "0.863",
+        "size": "1667x1205@300dpi",
+        "note": "retyped from Histology",
+        "png_sha256": "2f4ec2e69b1f226618dbe03a85b0d1d39f5a1453c006a88800f91a283e4dd6ab",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 2 Cervix - Gross",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d413f52ab8021dee197d",
+          "asset": "assets/display/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.webp",
+          "zoom_asset": "assets/originals/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1667,
+              1205
+            ]
+          },
+          "output_dimensions": [
+            1667,
+            1205
+          ],
+          "display_sha256": "b64ecd77255b327a9bd4d79295650ca108eef039706d5db674794b6a715f0949",
+          "zoom_sha256": "37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Punctate erythema of the ectocervix",
+          "variant_id": "v-d413f52ab8021dee197d",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032",
+      "source_id": "s-7a450fe1c3ec2b91ee4d",
+      "source_group_id": "g-3d4a001f05f3d59f3d21",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 2 Pap Smear 1 - Histology.png",
+      "sha256": "3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032",
+      "dimensions": [
+        1684,
+        1266
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Inflammatory background on cervical cytology",
+      "original_asset": "assets/originals/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.png",
+      "display_asset": "assets/display/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "4",
+        "file": "Case 2 Pap Smear 1 - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.043",
+        "x1": "0.776",
+        "y1": "0.428",
+        "size": "1684x1266@300dpi",
+        "note": "cytology, no cytology bucket",
+        "png_sha256": "5e7bacb799c26dc6815ec4d2a4d8fee2c9e0e26658991c935102bd48a2f99a2b",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 2 Pap Smear 1 - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-30d836c2ddccacf308ad",
+          "asset": "assets/display/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.webp",
+          "zoom_asset": "assets/originals/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1684,
+              1266
+            ]
+          },
+          "output_dimensions": [
+            1684,
+            1266
+          ],
+          "display_sha256": "80e42936a01c385e4918544d1dace5df8730697fe0fc09ef0aef291aff14dfe5",
+          "zoom_sha256": "3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Inflammatory background on cervical cytology",
+          "variant_id": "v-30d836c2ddccacf308ad",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025",
+      "source_id": "s-e759871f2daef2cc20e6",
+      "source_group_id": "g-2833706a08c452290505",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 2 Pap Smear 2 - Histology.png",
+      "sha256": "2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025",
+      "dimensions": [
+        1677,
+        1185
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Organisms overlying squamous cells",
+      "original_asset": "assets/originals/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.png",
+      "display_asset": "assets/display/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "4",
+        "file": "Case 2 Pap Smear 2 - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.471",
+        "x1": "0.774",
+        "y1": "0.833",
+        "size": "1677x1185@300dpi",
+        "note": "cytology, no cytology bucket",
+        "png_sha256": "d65b100edfe74d47f86da6050f7d136847e8cb549b86c5c41878a82eb0a125e8",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 2 Pap Smear 2 - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-3958df619107fe9c5af7",
+          "asset": "assets/display/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.webp",
+          "zoom_asset": "assets/originals/2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1677,
+              1185
+            ]
+          },
+          "output_dimensions": [
+            1677,
+            1185
+          ],
+          "display_sha256": "7f2ef5ecaf83533471f83b1d3118f45fc0fd126ed2b308fe55a8c986c98184bc",
+          "zoom_sha256": "2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Organisms overlying squamous cells",
+          "variant_id": "v-3958df619107fe9c5af7",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a",
+      "source_id": "s-943f2c08f62837dda937",
+      "source_group_id": "g-ba32e25a15ea6f8d6c0a",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 2 Pap Smear 3 - Histology.png",
+      "sha256": "ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a",
+      "dimensions": [
+        1678,
+        1275
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Ovoid forms in cervical cytology",
+      "original_asset": "assets/originals/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.png",
+      "display_asset": "assets/display/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "5",
+        "file": "Case 2 Pap Smear 3 - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.075",
+        "x1": "0.774",
+        "y1": "0.463",
+        "size": "1678x1275@300dpi",
+        "note": "cytology, no cytology bucket",
+        "png_sha256": "4af4c6e8bc11f31009047d6dc6857cccf460478329ac1acac6a36f0f1f89ddf2",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 2 Pap Smear 3 - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-9870e85ef816ec150d97",
+          "asset": "assets/display/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.webp",
+          "zoom_asset": "assets/originals/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1678,
+              1275
+            ]
+          },
+          "output_dimensions": [
+            1678,
+            1275
+          ],
+          "display_sha256": "c7356a1e5cf5351dd143f1378833b72c724382606c5cf2e75419f0c73464f689",
+          "zoom_sha256": "ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Ovoid forms in cervical cytology",
+          "variant_id": "v-9870e85ef816ec150d97",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b",
+      "source_id": "s-fbf57ca155d579164977",
+      "source_group_id": "g-86a32abea74ffae6de02",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 3 Vaginal Biopsy Low Power - Histology.png",
+      "sha256": "86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b",
+      "dimensions": [
+        1693,
+        1274
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Cystic architecture of a vaginal biopsy",
+      "original_asset": "assets/originals/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.png",
+      "display_asset": "assets/display/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "6",
+        "file": "Case 3 Vaginal Biopsy Low Power - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.336",
+        "x1": "0.778",
+        "y1": "0.721",
+        "size": "1693x1274@300dpi",
+        "note": "power order from case text",
+        "png_sha256": "ff7cbf66bfdb849dabb889b59d46246e6075c4c50dca80e9e112489f92f384b4",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 3 Vaginal Biopsy Low Power - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-913a0fa16e7cb9bb3bb0",
+          "asset": "assets/display/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.webp",
+          "zoom_asset": "assets/originals/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1693,
+              1274
+            ]
+          },
+          "output_dimensions": [
+            1693,
+            1274
+          ],
+          "display_sha256": "c76f0c5c337c4254eae39c91fcd5401ba48505e21297e6f3858ff74934339aa0",
+          "zoom_sha256": "86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Cystic architecture of a vaginal biopsy",
+          "variant_id": "v-913a0fa16e7cb9bb3bb0",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea",
+      "source_id": "s-fb704f72590f02ad41be",
+      "source_group_id": "g-e893eed2d0493d9d50cb",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 3 Vaginal Biopsy Medium Power - Histology.png",
+      "sha256": "e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea",
+      "dimensions": [
+        1668,
+        1255
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Hemorrhage in a vaginal biopsy",
+      "original_asset": "assets/originals/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.png",
+      "display_asset": "assets/display/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "7",
+        "file": "Case 3 Vaginal Biopsy Medium Power - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.074",
+        "x1": "0.768",
+        "y1": "0.454",
+        "size": "1668x1255@300dpi",
+        "note": "power order from case text",
+        "png_sha256": "f1e84d2e67eb4f3f46c0ef003952b3c2d110e29c0034e42b804c572923c4ef08",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 3 Vaginal Biopsy Medium Power - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-68a449a143c69b15dba0",
+          "asset": "assets/display/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.webp",
+          "zoom_asset": "assets/originals/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1668,
+              1255
+            ]
+          },
+          "output_dimensions": [
+            1668,
+            1255
+          ],
+          "display_sha256": "c00f02f0561e8ada94e1c1ecbd5a14d12f50e45231e2d2bf4e38f2ba49f2804a",
+          "zoom_sha256": "e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Hemorrhage in a vaginal biopsy",
+          "variant_id": "v-68a449a143c69b15dba0",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08",
+      "source_id": "s-341e5392e7c9cadfcfe6",
+      "source_group_id": "g-a52c2a00e88c48992fe5",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 3 Vaginal Biopsy High Power - Histology.png",
+      "sha256": "a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08",
+      "dimensions": [
+        1668,
+        1254
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Glandular lining and stroma in a vaginal biopsy",
+      "original_asset": "assets/originals/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.png",
+      "display_asset": "assets/display/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "7",
+        "file": "Case 3 Vaginal Biopsy High Power - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.495",
+        "x1": "0.768",
+        "y1": "0.875",
+        "size": "1668x1254@300dpi",
+        "note": "power order from case text",
+        "png_sha256": "e6622387a11a3cca56fa80f0919329126a7df3f935ea9514986666afe8982146",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 3 Vaginal Biopsy High Power - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-ce9c6f09059c7f84fd14",
+          "asset": "assets/display/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.webp",
+          "zoom_asset": "assets/originals/a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1668,
+              1254
+            ]
+          },
+          "output_dimensions": [
+            1668,
+            1254
+          ],
+          "display_sha256": "a4faf26e2b5286490baae5d3ac45e9002fd2fa9a169f210e13a0860e36a3051e",
+          "zoom_sha256": "a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Glandular lining and stroma in a vaginal biopsy",
+          "variant_id": "v-ce9c6f09059c7f84fd14",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61",
+      "source_id": "s-4b52ab3a2d5464212767",
+      "source_group_id": "g-6c879aea511fcbad28ba",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 4 Prostate Low Power - Histology.png",
+      "sha256": "6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61",
+      "dimensions": [
+        1688,
+        1270
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Dilated folded glands in a prostate specimen",
+      "original_asset": "assets/originals/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.png",
+      "display_asset": "assets/display/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "9",
+        "file": "Case 4 Prostate Low Power - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.043",
+        "x1": "0.776",
+        "y1": "0.428",
+        "size": "1688x1270@300dpi",
+        "note": "power order from case text",
+        "png_sha256": "d7d263cbdbe16e9ffe0bc9407bef373b3bafbb1b776ed0e725c120af9adb6425",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 4 Prostate Low Power - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-7ba28f12479fbf2c7464",
+          "asset": "assets/display/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.webp",
+          "zoom_asset": "assets/originals/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1688,
+              1270
+            ]
+          },
+          "output_dimensions": [
+            1688,
+            1270
+          ],
+          "display_sha256": "7bfaab5aa9034cd2f3f079efe9b60e0afef35d7b0cdbcb4ca8517817d8afc233",
+          "zoom_sha256": "6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Dilated folded glands in a prostate specimen",
+          "variant_id": "v-7ba28f12479fbf2c7464",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca",
+      "source_id": "s-f5ad0beebc481fb69c26",
+      "source_group_id": "g-f14f98b3b75ae39eb01b",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 4 Prostate High Power - Histology.png",
+      "sha256": "f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca",
+      "dimensions": [
+        1708,
+        1141
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Focal crowded glands in a prostate resection",
+      "original_asset": "assets/originals/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.png",
+      "display_asset": "assets/display/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "9",
+        "file": "Case 4 Prostate High Power - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.47",
+        "x1": "0.784",
+        "y1": "0.816",
+        "size": "1708x1141@300dpi",
+        "note": "power order from case text",
+        "png_sha256": "186cd32dd13756886fa753b62c898b5de9db8643f4e16ee4d146824f87eb0ed5",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 4 Prostate High Power - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-2b04a65539dc0ffea8eb",
+          "asset": "assets/display/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.webp",
+          "zoom_asset": "assets/originals/f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1708,
+              1141
+            ]
+          },
+          "output_dimensions": [
+            1708,
+            1141
+          ],
+          "display_sha256": "64f061460d85725e953c1fc9ad209b488196166ceb83235b2e7c40037fc16022",
+          "zoom_sha256": "f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Focal crowded glands in a prostate resection",
+          "variant_id": "v-2b04a65539dc0ffea8eb",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
+      "source_id": "s-6e3be355007f4c5f6132",
+      "source_group_id": "g-5c76c45ecf1ad8c87d23",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 5 Urine Cytology - Urine Microscopy.png",
+      "sha256": "5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
+      "dimensions": [
+        1512,
+        955
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Urine cytology and the limits of staging",
+      "original_asset": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
+      "display_asset": "assets/display/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "10",
+        "file": "Case 5 Urine Cytology - Urine Microscopy.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Urine Microscopy",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.485",
+        "x1": "0.681",
+        "y1": "0.761",
+        "size": "1512x955@315dpi",
+        "note": "retyped from Diagram",
+        "png_sha256": "2fe8acd34e83d02addb5e2dad4cbccb1f821653197f2306198844f776889a7b7",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 5 Urine Cytology - Urine Microscopy",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-f6c54a00cbf791d23553",
+          "asset": "assets/display/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.webp",
+          "zoom_asset": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1512,
+              955
+            ]
+          },
+          "output_dimensions": [
+            1512,
+            955
+          ],
+          "display_sha256": "c2722a8d5ffd307e9a7c3064ce47ebb47df152df3095b433f8da3f8411f532a8",
+          "zoom_sha256": "5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Urine cytology and the limits of staging",
+          "variant_id": "v-f6c54a00cbf791d23553",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935",
+      "source_id": "s-fbc3d90fd0e9094178f9",
+      "source_group_id": "g-16be5374bb8964b28164",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 5 Bladder Biopsy 1 - Histology.png",
+      "sha256": "16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935",
+      "dimensions": [
+        1499,
+        1126
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Bladder biopsy and muscle invasion",
+      "original_asset": "assets/originals/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.png",
+      "display_asset": "assets/display/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "11",
+        "file": "Case 5 Bladder Biopsy 1 - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.063",
+        "x1": "0.702",
+        "y1": "0.404",
+        "size": "1499x1126@300dpi",
+        "note": "",
+        "png_sha256": "81d623b1c349b7b360bd8604fadbea07c6b3c461a1b45033acf426eb789c466f",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 5 Bladder Biopsy 1 - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-9d5cac35afc6a3b7ad64",
+          "asset": "assets/display/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.webp",
+          "zoom_asset": "assets/originals/16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1499,
+              1126
+            ]
+          },
+          "output_dimensions": [
+            1499,
+            1126
+          ],
+          "display_sha256": "a35d8646596c79f0f193f604946d7d9f4d5b19e88f67ca09a897e4e91c026ef3",
+          "zoom_sha256": "16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Bladder biopsy and muscle invasion",
+          "variant_id": "v-9d5cac35afc6a3b7ad64",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35",
+      "source_id": "s-ab0c796a73230404567f",
+      "source_group_id": "g-701ba3698b743b76c876",
+      "lecture_id": "R29",
+      "relative_path": "R29/Case 5 Bladder Biopsy 2 - Histology.png",
+      "sha256": "701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35",
+      "dimensions": [
+        1515,
+        1082
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Tumor nests and bladder wall architecture",
+      "original_asset": "assets/originals/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.png",
+      "display_asset": "assets/display/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R29 GU and GI Diseases RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "current_document_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "11",
+        "file": "Case 5 Bladder Biopsy 2 - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.114",
+        "y0": "0.447",
+        "x1": "0.708",
+        "y1": "0.774",
+        "size": "1515x1082@300dpi",
+        "note": "",
+        "png_sha256": "5dd4643722069aa795c1e299b66b3b75cb45b469b1e4939fcce4ad305c3c6bdc",
+        "pdf_sha256": "e5c20596d3738730e237adca852c59a804030c10062ff5c4649513fcf1a01609",
+        "extracted_name": "Case 5 Bladder Biopsy 2 - Histology",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-6ebb7052557b5d46791e",
+          "asset": "assets/display/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.webp",
+          "zoom_asset": "assets/originals/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1515,
+              1082
+            ]
+          },
+          "output_dimensions": [
+            1515,
+            1082
+          ],
+          "display_sha256": "6ac158d519aa098b723e71ca0f540d53ff3f9a3ddd03601e5e59e4bb0016e257",
+          "zoom_sha256": "701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Tumor nests and bladder wall architecture",
+          "variant_id": "v-6ebb7052557b5d46791e",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7",
+      "source_id": "s-7617d80d6804e9cc342e",
+      "source_group_id": "g-f71ac016c3b34c8da2c1",
+      "lecture_id": "R30",
+      "relative_path": "R30/Womans Lifetime Perimenopause and Menopause - Diagram.png",
+      "sha256": "f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7",
+      "dimensions": [
+        3096,
+        1501
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Timing of the menopausal transition",
+      "original_asset": "assets/originals/f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7.png",
+      "display_asset": "assets/display/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 31
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "31",
+        "file": "Womans Lifetime Perimenopause and Menopause - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "A woman’s lifetime; Menopause; Diagnosed 12 months; retrospectively; Perimenopause; First signs of; change",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.193",
+        "y0": "0.296",
+        "x1": "0.773",
+        "y1": "0.796",
+        "size": "3096x1501@400dpi",
+        "note": "",
+        "png_sha256": "771317fb9e85d618c78a28a8d3ce7cddb2435144b54f42e1360ad90721c36372",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Womans Lifetime Perimenopause and Menopause - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          1455,
+          1139,
+          2997,
+          1473
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-999557fe51cafedd1af3",
+          "asset": "assets/display/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.webp",
+          "zoom_asset": "assets/zoom/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3096,
+              1501
+            ],
+            "boxes": [
+              [
+                1455,
+                1139,
+                2997,
+                1473
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover answer annotations while retaining the visual evidence."
+          },
+          "output_dimensions": [
+            1800,
+            873
+          ],
+          "display_sha256": "2999bfe2f0228c817919a630c83e06613105895a5206b2ee146252a4a3938e98",
+          "zoom_sha256": "7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Timing of the menopausal transition",
+          "variant_id": "v-999557fe51cafedd1af3",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d",
+      "source_id": "s-081a1aa8382a7fb3285a",
+      "source_group_id": "g-4ec71445af40dfe1a3ad",
+      "lecture_id": "R30",
+      "relative_path": "R30/Menopause Two Key Physiological Changes - Diagram.png",
+      "sha256": "4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d",
+      "dimensions": [
+        3362,
+        1278
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Follicle depletion and estradiol",
+      "original_asset": "assets/originals/4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d.png",
+      "display_asset": "assets/display/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 34
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "34",
+        "file": "Menopause Two Key Physiological Changes - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "Menopause; Loss of primary; ovarian follicles; Resulting decrease; in serum and tissue; estradiol levels",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.188",
+        "y0": "0.324",
+        "x1": "0.818",
+        "y1": "0.75",
+        "size": "3362x1278@400dpi",
+        "note": "",
+        "png_sha256": "84e4a041812b18fe1da3d410399fee3190591a673c8f90dc3ea73e97ec811618",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Menopause Two Key Physiological Changes - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          1910,
+          743,
+          3288,
+          1241
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-50e3ba8c9d8b62e03f05",
+          "asset": "assets/display/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.webp",
+          "zoom_asset": "assets/zoom/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3362,
+              1278
+            ],
+            "boxes": [
+              [
+                1910,
+                743,
+                3288,
+                1241
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover answer annotations while retaining the visual evidence."
+          },
+          "output_dimensions": [
+            1800,
+            684
+          ],
+          "display_sha256": "b89bfb79d82b50a62ed7420cde09300a102cb761ce76e7da9ff7c33308db61fa",
+          "zoom_sha256": "814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Follicle depletion and estradiol",
+          "variant_id": "v-50e3ba8c9d8b62e03f05",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba",
+      "source_id": "s-2680d6baaa7c22da0fa5",
+      "source_group_id": "g-d0788bc126fa3d36f7f3",
+      "lecture_id": "R30",
+      "relative_path": "R30/FSH and Estradiol Around Final Menstrual Period - Diagram.png",
+      "sha256": "d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba",
+      "dimensions": [
+        1705,
+        1313
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "FSH and estradiol trajectories",
+      "original_asset": "assets/originals/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.png",
+      "display_asset": "assets/display/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 36
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "36",
+        "file": "FSH and Estradiol Around Final Menstrual Period - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.535",
+        "y0": "0.178",
+        "x1": "0.961",
+        "y1": "0.761",
+        "size": "1705x1313@300dpi",
+        "note": "plot, typed Diagram",
+        "png_sha256": "da41515a9ef92694ddd4749cac99eccfdbba594a883aaf62d90ffa1b2083e577",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "FSH and Estradiol Around Final Menstrual Period - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-1e737882bf829c11aaf2",
+          "asset": "assets/display/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.webp",
+          "zoom_asset": "assets/originals/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1705,
+              1313
+            ]
+          },
+          "output_dimensions": [
+            1705,
+            1313
+          ],
+          "display_sha256": "a66dfd306e8e5506d0f73bd7df5e00513dbc17c0780f7af657ac24099d58d281",
+          "zoom_sha256": "d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "FSH and estradiol trajectories",
+          "variant_id": "v-1e737882bf829c11aaf2",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195",
+      "source_id": "s-9b273ae11ac523739562",
+      "source_group_id": "g-2f5f33317ccbe15d3fb9",
+      "lecture_id": "R30",
+      "relative_path": "R30/Hypothalamic Pituitary Ovarian Axis - Diagram.png",
+      "sha256": "2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195",
+      "dimensions": [
+        1275,
+        1634
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Direction of ovarian feedback",
+      "original_asset": "assets/originals/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.png",
+      "display_asset": "assets/display/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 37
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "37",
+        "file": "Hypothalamic Pituitary Ovarian Axis - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.463",
+        "y0": "0.15",
+        "x1": "0.781",
+        "y1": "0.876",
+        "size": "1275x1634@300dpi",
+        "note": "same image repeats on pages 39 and 82, exported once",
+        "png_sha256": "20c56adf43ce2dad7f933c1664c01abe7d0903e81849aa1a2ab821fed34c4b23",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Hypothalamic Pituitary Ovarian Axis - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-5dd505100f3187ccb1fa",
+          "asset": "assets/display/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.webp",
+          "zoom_asset": "assets/originals/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.png",
+          "transform": {
+            "type": "display_copy",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1275,
+              1634
+            ]
+          },
+          "output_dimensions": [
+            1092,
+            1400
+          ],
+          "display_sha256": "e6545045590a3686fd68fd634c291754880bfa6ea1a6443ab02d8af365cc5ece",
+          "zoom_sha256": "2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Direction of ovarian feedback",
+          "variant_id": "v-5dd505100f3187ccb1fa",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b",
+      "source_id": "s-dc8c423d7e4aa59e1494",
+      "source_group_id": "g-39e6ef385a5f4aa6a249",
+      "lecture_id": "R30",
+      "relative_path": "R30/Hot Flash Thermoregulatory Physiology - Diagram.png",
+      "sha256": "39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b",
+      "dimensions": [
+        2371,
+        1197
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Sequence of flushing and chills",
+      "original_asset": "assets/originals/39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b.png",
+      "display_asset": "assets/display/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 49
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "49",
+        "file": "Hot Flash Thermoregulatory Physiology - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.356",
+        "y0": "0.193",
+        "x1": "0.949",
+        "y1": "0.724",
+        "size": "2371x1197@300dpi",
+        "note": "",
+        "png_sha256": "09a58123b29ae73797c36a9f3363fe9da91f568c3bd5c284c9cc7f659b7c5897",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Hot Flash Thermoregulatory Physiology - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          47,
+          1026,
+          2335,
+          1178
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-f7441dd6413ae0fc1c9a",
+          "asset": "assets/display/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.webp",
+          "zoom_asset": "assets/zoom/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2371,
+              1197
+            ],
+            "boxes": [
+              [
+                47,
+                1026,
+                2335,
+                1178
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover answer annotations while retaining the visual evidence."
+          },
+          "output_dimensions": [
+            1800,
+            909
+          ],
+          "display_sha256": "5e2bb2adb930ad2ccecb52f400b9e7170f11824eacb1fa1cbc09f7b8edd1bb93",
+          "zoom_sha256": "1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Sequence of flushing and chills",
+          "variant_id": "v-f7441dd6413ae0fc1c9a",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
+      "source_id": "s-0101fcdae40a5e395739",
+      "source_group_id": "g-de1b67d39c5f5cccd8e1",
+      "lecture_id": "R30",
+      "relative_path": "R30/Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
+      "sha256": "de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
+      "dimensions": [
+        1705,
+        1113
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Epithelial response to low estrogen",
+      "original_asset": "assets/originals/de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3.png",
+      "display_asset": "assets/display/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 54
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "54",
+        "file": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.535",
+        "y0": "0.222",
+        "x1": "0.961",
+        "y1": "0.717",
+        "size": "1705x1113@300dpi",
+        "note": "labeled illustration typed Diagram",
+        "png_sha256": "0dbdc61631ff2efaea9dd7fa66eb7ab6134a1246103bf76fd334752759438415",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          34,
+          883,
+          1671,
+          1069
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-af21e15a60392d3dd4cf",
+          "asset": "assets/display/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.webp",
+          "zoom_asset": "assets/zoom/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1705,
+              1113
+            ],
+            "boxes": [
+              [
+                34,
+                883,
+                1671,
+                1069
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover answer annotations while retaining the visual evidence."
+          },
+          "output_dimensions": [
+            1705,
+            1113
+          ],
+          "display_sha256": "6a3fbbee96ac41039f4ec63b892fb8d3cb0b976845d935f303f031ab5f3643fa",
+          "zoom_sha256": "7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Epithelial response to low estrogen",
+          "variant_id": "v-af21e15a60392d3dd4cf",
+          "supported": "YES"
+        }
+      ]
+    },
+    {
+      "asset_id": "a-589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884",
+      "source_id": "s-884eef83220189d80a43",
+      "source_group_id": "g-589889dd0816ff5af779",
+      "lecture_id": "R30",
+      "relative_path": "R30/Functional Hypothalamic Amenorrhea Axis Changes - Diagram.png",
+      "sha256": "589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884",
+      "dimensions": [
+        1147,
+        1021
+      ],
+      "status": "USABLE",
+      "review_reason": "Complete image checked against the indexed lecture page.",
+      "tested_concept": "Site of suppression in the athlete's axis",
+      "original_asset": "assets/originals/589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884.png",
+      "display_asset": "assets/display/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R30 Mystery Illness RLS.pdf",
+        "page": 84
+      },
+      "source_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "current_document_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "84",
+        "file": "Functional Hypothalamic Amenorrhea Axis Changes - Diagram.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.667",
+        "y0": "0.278",
+        "x1": "0.953",
+        "y1": "0.731",
+        "size": "1147x1021@300dpi",
+        "note": "labels overlap the image in the source",
+        "png_sha256": "b0370de2a7d85029710c5f1db687a806c469c0be0c9d5346411d2586cdf74850",
+        "pdf_sha256": "ae714b306f9a3e25ea77b69a9657e314a7092de1be6d5ff281dfaffe568dd84c",
+        "extracted_name": "Functional Hypothalamic Amenorrhea Axis Changes - Diagram",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          53,
+          525,
+          270,
+          572
+        ],
+        [
+          35,
+          661,
+          289,
+          706
+        ],
+        [
+          35,
+          745,
+          193,
+          791
+        ],
+        [
+          35,
+          834,
+          323,
+          882
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-a10a327797b3939fdf14",
+          "asset": "assets/display/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.webp",
+          "zoom_asset": "assets/zoom/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.png",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1147,
+              1021
+            ],
+            "boxes": [
+              [
+                53,
+                525,
+                270,
+                572
+              ],
+              [
+                35,
+                661,
+                289,
+                706
+              ],
+              [
+                35,
+                745,
+                193,
+                791
+              ],
+              [
+                35,
+                834,
+                323,
+                882
+              ]
+            ],
+            "fill": "#000000",
+            "reason": "Cover answer annotations while retaining the visual evidence."
+          },
+          "output_dimensions": [
+            1147,
+            1021
+          ],
+          "display_sha256": "258559f1f4b23c28f0b46b589765f1f7eac656c401d9325fbabda9aa55ecb40e",
+          "zoom_sha256": "01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "question_type": "Visual interpretation",
+          "target": "Site of suppression in the athlete's axis",
+          "variant_id": "v-a10a327797b3939fdf14",
+          "supported": "YES"
+        }
+      ]
     }
   ],
   "audit_date": "2026-11-09",
   "library_png_count": 2123,
-  "bank_version": "2026-11-11-pathology-pictures",
+  "bank_version": "2026-11-12-r30",
   "publication_scope": "Reviewed active questions only. Remaining source review archive stays local."
 }
