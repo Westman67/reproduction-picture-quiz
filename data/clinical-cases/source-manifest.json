@@ -8889,6 +8889,185 @@
         }
       ],
       "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice."
+    },
+    {
+      "asset_id": "a-c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06",
+      "source_group_id": "g-64ac4fad8292f8f592e0",
+      "source_id": "s-c4d527ae653696620775",
+      "lecture_id": "R28",
+      "relative_path": "R28/Colposcopy Lugol and Acetic Acid - Clinical Photo.png",
+      "sha256": "c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06",
+      "perceptual_hash": "333361d1c6452133",
+      "dimensions": [
+        1647,
+        999
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "Colposcopy Lugol and Acetic Acid - Clinical Photo",
+      "original_asset": "assets/originals/c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06.png",
+      "display_asset": "assets/display/c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "current_document_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "10",
+        "file": "Colposcopy Lugol and Acetic Acid - Clinical Photo.png",
+        "slide_title": "Colposcopy",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "single",
+        "x0": "0.079",
+        "y0": "0.232",
+        "x1": "0.492",
+        "y1": "0.677",
+        "size": "1647x999@300dpi",
+        "note": "baked in labels, extractor typed Diagram",
+        "png_sha256": "c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06",
+        "pdf_sha256": "e5e6b546996411b62e815a7dd09a7f5b8da24b5a59417c30481c87f724d42087",
+        "extracted_name": "Colposcopy Lugol and Acetic Acid",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        [
+          0.56,
+          0.832,
+          0.81,
+          0.918
+        ]
+      ],
+      "variants": [
+        {
+          "variant_id": "v-08705f18d32a26f237ab",
+          "asset": "assets/display/9eb59ad0d814de6ef229c0d9bb9ca30eccfcbc44627862f5b8d7222b3aa0c70f.webp",
+          "zoom_asset": "assets/zoom/9eb59ad0d814de6ef229c0d9bb9ca30eccfcbc44627862f5b8d7222b3aa0c70f.png",
+          "transform": {
+            "type": "selective_label_mask",
+            "reason": "Hide revealing text in blank annotation space. Preserve the medical image and necessary source arrows.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1647,
+              999
+            ],
+            "mask_regions": [
+              [
+                0.56,
+                0.832,
+                0.81,
+                0.918
+              ]
+            ]
+          },
+          "output_dimensions": [
+            1647,
+            999
+          ],
+          "display_sha256": "c354dda58f310acc963ae90c676794fa433d36fd2610a61e35fb5d5c1319f0cc",
+          "zoom_sha256": "6ca341b0e9dcbaac753e605b6ef1199ca5f73bc202f1e52d9d3c200b24f3f28e"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "Colposcopy two reagent visual comparison",
+          "variant_id": "v-08705f18d32a26f237ab",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "The right-hand arrow points to a pale whitish surface area."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb",
+      "source_group_id": "g-6c5de2885dd67f7aa373",
+      "source_id": "s-c1794c164d1c0429a02c",
+      "lecture_id": "R18",
+      "relative_path": "R18/HER2 Immunostain Strong Membrane Staining - Histology.png",
+      "sha256": "2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb",
+      "perceptual_hash": "157761153539331b",
+      "dimensions": [
+        912,
+        819
+      ],
+      "status": "USABLE",
+      "review_reason": "Reviewed for the scored targets in the question type matrix.",
+      "tested_concept": "HER2 Immunostain Strong Membrane Staining - Histology",
+      "original_asset": "assets/originals/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.png",
+      "display_asset": "assets/display/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R18 Pathology of Breast Diseases RLS.pdf",
+        "page": 72
+      },
+      "source_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "current_document_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "72",
+        "file": "HER2 Immunostain Strong Membrane Staining - Histology.png",
+        "slide_title": "BREAST CARCINOMA IMMUNO-MARKERS",
+        "overlay_labels": "HER2-neu IHC strong membrane staining",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.039",
+        "y0": "0.197",
+        "x1": "0.315",
+        "y1": "0.518",
+        "size": "912x819",
+        "note": "",
+        "png_sha256": "2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb",
+        "pdf_sha256": "2072be44adbc637b619633252159fadac259f7c9ac8d88d420a0fe6a987786a8",
+        "extracted_name": "BREAST CARCINOMA IMMUNO-MARKERS HER2-neu IHC strong membrane staining - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-3bcb3e5c4665d40d2455",
+          "asset": "assets/display/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.webp",
+          "zoom_asset": "assets/originals/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.png",
+          "transform": {
+            "type": "display_resize",
+            "reason": "Keep the complete teaching panel and its native aspect ratio.",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              912,
+              819
+            ]
+          },
+          "output_dimensions": [
+            912,
+            819
+          ],
+          "display_sha256": "00ac2db443196e6b3797cc3da1db075515ecd6cd0c8bfa750398302d98164a4e",
+          "zoom_sha256": "2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb"
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "YES",
+          "type": "Visual interpretation",
+          "target": "HER2 membranous immunostaining",
+          "variant_id": "v-3bcb3e5c4665d40d2455",
+          "full_image_required": true,
+          "preserve": "Complete required panel, source arrows and relevant annotation.",
+          "reason": "Brown outlines trace the boundaries of adjacent epithelial tumor cells."
+        }
+      ]
     }
   ],
   "publication_scope": "Scored clinical cases and required comparison panels"

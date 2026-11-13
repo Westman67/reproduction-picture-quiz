@@ -1,6 +1,6 @@
-import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js?v=study-skills1';
-import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats} from './engine.js?v=study-skills1';
-import {STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js?v=study-skills1';
+import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js?v=keanne-followups1';
+import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats} from './engine.js?v=keanne-followups1';
+import {STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js?v=keanne-followups1';
 const query=new URLSearchParams(window.location.search);
 const CONFIG=resolveBankConfig(window.location.search);
 const thirdPartyLink=CONFIG.id==='pathology'&&(query.get('bank')==='supplementary'||query.get('origin')==='third_party');
@@ -318,7 +318,7 @@ document.addEventListener('keydown', event => {
         (zoom > 1 ? $('#fit') : $('#zoom-in'))?.click();
     }
 });
-const DATA_VERSION='study-skills1';
+const DATA_VERSION='keanne-followups1';
 
 async function loadSection(section, includeExtras=false){
     const fetchData=name=>fetch(`${section.dataRoot}/${name}.json?v=${DATA_VERSION}`);

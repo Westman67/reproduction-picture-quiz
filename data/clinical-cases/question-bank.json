@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "title": "Reproduction Pathology Clinical Cases",
-  "bank_version": "study-skills1",
+  "bank_version": "keanne-followups1",
   "release_status": "reviewed",
   "cases": [
     {
@@ -307,10 +307,12 @@
       "lecture": "R27",
       "question_ids": [
         "q-r27-tubal-lining-2",
-        "q-r27-tubal-lining-depth-focal-transition"
+        "q-r27-tubal-lining-depth-focal-transition",
+        "q-r27-tubal-lining-risk-reduction"
       ],
       "previous_question_counts": [
-        1
+        1,
+        2
       ]
     },
     {
@@ -444,9 +446,12 @@
       "lecture": "R27",
       "question_ids": [
         "q-reasoning-pelvic-marker-correlation",
-        "q-reasoning-omental-implication"
+        "q-reasoning-omental-implication",
+        "q-r27-pelvic-workup-maintenance-testing"
       ],
-      "previous_question_counts": []
+      "previous_question_counts": [
+        2
+      ]
     },
     {
       "case_id": "r28-cervical-workup",
@@ -454,9 +459,12 @@
       "lecture": "R28",
       "question_ids": [
         "q-reasoning-cervical-sampling",
-        "q-reasoning-cervical-treatment"
+        "q-reasoning-cervical-treatment",
+        "q-r28-cervical-workup-colposcopy-mechanism"
       ],
-      "previous_question_counts": []
+      "previous_question_counts": [
+        2
+      ]
     },
     {
       "case_id": "r28-vulvar-workup",
@@ -464,9 +472,12 @@
       "lecture": "R28",
       "question_ids": [
         "q-reasoning-vulvar-biopsy",
-        "q-reasoning-vulvar-drainage"
+        "q-reasoning-vulvar-drainage",
+        "q-r28-vulvar-workup-depth-and-nodal-review"
       ],
-      "previous_question_counts": []
+      "previous_question_counts": [
+        2
+      ]
     },
     {
       "case_id": "r28-postpartum-workup",
@@ -474,9 +485,12 @@
       "lecture": "R28",
       "question_ids": [
         "q-reasoning-postpartum-workup",
-        "q-reasoning-postpartum-distribution"
+        "q-reasoning-postpartum-distribution",
+        "q-r28-postpartum-workup-vascular-lesion"
       ],
-      "previous_question_counts": []
+      "previous_question_counts": [
+        2
+      ]
     },
     {
       "case_id": "r18-breast-biomarkers",
@@ -484,9 +498,12 @@
       "lecture": "R18",
       "question_ids": [
         "q-reasoning-her2-therapy",
-        "q-reasoning-er-therapy"
+        "q-reasoning-er-therapy",
+        "q-r18-breast-biomarkers-membrane-signaling"
       ],
-      "previous_question_counts": []
+      "previous_question_counts": [
+        2
+      ]
     }
   ],
   "questions": [
@@ -6992,6 +7009,100 @@
       "study_skill": "morphology"
     },
     {
+      "question_id": "q-r27-tubal-lining-risk-reduction",
+      "case_id": "r27-tubal-lining",
+      "format_version": "clinical-visual-v1",
+      "question_type": "Clinical visual question",
+      "collection": "R27",
+      "generation_batch": "keanne-followups1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "scenario": "The focal lesion in the tubal section prompts a review of the prevention approach in the lecture.",
+      "lead_in": "Which implication follows from comparing the two operations shown?",
+      "stem": "Which implication follows from comparing the two operations shown?",
+      "options": [
+        "Both operations remove the tubes and ovaries.",
+        "Operation A removes potential tubal precursor tissue while preserving the ovaries.",
+        "Operation A removes the ovaries and leaves potential tubal precursor tissue in place.",
+        "Operation B leaves both fallopian tubes in place.",
+        "Neither operation removes the potential tubal precursor tissue."
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Only operation B removes the ovaries.",
+        "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers.",
+        "Row A shows the opposite tissue distribution.",
+        "The table records that both tubes are removed in operation B.",
+        "Both operations remove the fallopian tubes."
+      ],
+      "explanation": "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers.",
+      "visual_clues": [
+        "Row A removes both tubes and leaves both ovaries."
+      ],
+      "visual_target": "Tissue retained after opportunistic salpingectomy",
+      "tested_concept": "Tissue retained after opportunistic salpingectomy",
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 13
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 14
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Cited teaching page and the visible findings or values in the displayed material.",
+      "accepted_synonyms": [],
+      "visual_kind": "table",
+      "category": "Clinical data",
+      "source_origin": "lecture-table",
+      "source_group_id": "g-table-q-r27-tubal-lining-risk-reduction",
+      "context_table": {
+        "title": "Anatomic extent of two operations",
+        "columns": [
+          "Operation",
+          "Fallopian tubes",
+          "Ovaries",
+          "Procedure name"
+        ],
+        "rows": [
+          [
+            "A",
+            "Removed on both sides",
+            "Preserved",
+            "Bilateral salpingectomy"
+          ],
+          [
+            "B",
+            "Removed on both sides",
+            "Removed on both sides",
+            "Bilateral salpingo-oophorectomy"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "placement": "primary",
+        "source": {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 13
+        }
+      }
+    },
+    {
       "question_id": "q-r29-pleural-a-case",
       "source_id": "s-851a0639b7b1e47c682c",
       "source_group_id": "g-e774edea37965764c7ae",
@@ -10047,6 +10158,98 @@
       "study_skill": "management"
     },
     {
+      "question_id": "q-r27-pelvic-workup-maintenance-testing",
+      "case_id": "r27-pelvic-workup",
+      "format_version": "clinical-visual-v1",
+      "question_type": "Clinical visual question",
+      "collection": "R27",
+      "generation_batch": "keanne-followups1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "scenario": "The lecture follows this patient after surgery. The team reviews the case before finalizing the later phase of treatment.",
+      "lead_in": "Which decision is guided by the testing listed in the last row?",
+      "stem": "Which decision is guided by the testing listed in the last row?",
+      "options": [
+        "Whether to obtain an initial CT scan.",
+        "Whether to repeat the initial colonoscopy.",
+        "Whether to use PARP inhibitor maintenance after initial chemotherapy.",
+        "Whether to replace the scheduled initial chemotherapy with endocrine therapy.",
+        "Whether to order the original CA-125 and CEA tests."
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "CT was part of the initial evaluation before surgery. The listed testing belongs to the postoperative cancer treatment plan.",
+        "The lecture uses the pending testing for tumor treatment planning, not for reassessing the original bowel compression.",
+        "The lecture lists carboplatin and paclitaxel as initial chemotherapy. Germline and tumor BRCA and homologous recombination deficiency testing guide selection of later maintenance therapy.",
+        "The initial chemotherapy is already specified in the lecture. The pending testing guides later treatment.",
+        "Those markers are reported earlier in the diagnostic workup. The listed testing concerns DNA repair status."
+      ],
+      "explanation": "The lecture lists carboplatin and paclitaxel as initial chemotherapy. Germline and tumor BRCA and homologous recombination deficiency testing guide selection of later maintenance therapy.",
+      "visual_clues": [
+        "The planned initial chemotherapy is listed. BRCA and homologous recombination deficiency testing inform the later plan."
+      ],
+      "visual_target": "Postoperative testing and maintenance therapy",
+      "tested_concept": "Postoperative testing and maintenance therapy",
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 10
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Cited teaching page and the visible findings or values in the displayed material.",
+      "accepted_synonyms": [],
+      "visual_kind": "table",
+      "category": "Clinical data",
+      "source_origin": "lecture-table",
+      "source_group_id": "g-table-q-r27-pelvic-workup-maintenance-testing",
+      "context_table": {
+        "title": "Postoperative review",
+        "columns": [
+          "Item",
+          "Case information",
+          "Decision affected"
+        ],
+        "rows": [
+          [
+            "Final pathology",
+            "Stage IIIC high-grade serous carcinoma",
+            "—"
+          ],
+          [
+            "Initial drugs",
+            "Carboplatin plus paclitaxel",
+            "—"
+          ],
+          [
+            "Testing",
+            "Germline and tumor testing for BRCA and homologous recombination deficiency",
+            "Selection of maintenance therapy"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            2,
+            2
+          ]
+        ],
+        "placement": "primary",
+        "source": {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 15
+        }
+      }
+    },
+    {
       "question_id": "q-reasoning-cervical-sampling",
       "collection": "R28",
       "question_type": "Clinical visual question",
@@ -10179,6 +10382,69 @@
       "study_skill": "management"
     },
     {
+      "question_id": "q-r28-cervical-workup-colposcopy-mechanism",
+      "case_id": "r28-cervical-workup",
+      "format_version": "clinical-visual-v1",
+      "question_type": "Clinical visual question",
+      "collection": "R28",
+      "generation_batch": "keanne-followups1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "study_skill": "stain",
+      "scenario": "A teaching comparison accompanies the cervical workup. The arrow in each panel marks the region to assess.",
+      "lead_in": "Which paired mechanism best explains the changes at the arrows?",
+      "stem": "Which paired mechanism best explains the changes at the arrows?",
+      "options": [
+        "Left: increased glycogen reduces iodine uptake. Right: acetic acid highlights the same glycogen.",
+        "Left: iodine uptake increases in the yellow area. Right: acetic acid produces a darker nuclear stain.",
+        "Left: reduced glycogen limits iodine uptake. Right: acetic acid makes epithelium with increased nuclear protein appear white.",
+        "Left: reduced nuclear protein limits iodine uptake. Right: increased glycogen causes whitening.",
+        "Left: high glycogen causes dark staining at the arrow. Right: reduced nuclear protein causes whitening."
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "Glycogen takes up iodine. The lecture attributes acetowhitening to the effect of acetic acid on cells with increased nuclear protein.",
+        "The yellow area has reduced iodine uptake and the acetic acid panel shows whitening.",
+        "The yellow Lugol region lacks the dark iodine uptake of glycogen-rich epithelium. The second region turns white after acetic acid, which the lecture links to dehydration and increased nuclear protein in abnormal cells.",
+        "The relevant substrate for iodine is glycogen, while the acetic acid appearance is linked to nuclear protein.",
+        "The left arrow marks a yellow area with reduced uptake. The lecture associates whitening with increased nuclear protein."
+      ],
+      "explanation": "The yellow Lugol region lacks the dark iodine uptake of glycogen-rich epithelium. The second region turns white after acetic acid, which the lecture links to dehydration and increased nuclear protein in abnormal cells.",
+      "visual_clues": [
+        "Compare the light area at the Lugol arrow with the darker adjacent tissue. The other arrow marks whitening after acetic acid."
+      ],
+      "visual_target": "Iodine uptake and acetowhitening on colposcopy",
+      "tested_concept": "Iodine uptake and acetowhitening on colposcopy",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 11
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Cited teaching page and the visible findings or values in the displayed material.",
+      "accepted_synonyms": [],
+      "visual_kind": "image",
+      "category": "Clinical Photo",
+      "source_origin": "lecture",
+      "source_id": "s-c4d527ae653696620775",
+      "source_group_id": "g-64ac4fad8292f8f592e0",
+      "asset_id": "a-c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06",
+      "variant_id": "v-08705f18d32a26f237ab",
+      "image": "assets/display/9eb59ad0d814de6ef229c0d9bb9ca30eccfcbc44627862f5b8d7222b3aa0c70f.webp",
+      "zoom_image": "assets/zoom/9eb59ad0d814de6ef229c0d9bb9ca30eccfcbc44627862f5b8d7222b3aa0c70f.png",
+      "original_image": "assets/originals/c6c23ef0ffa893e266ce9537964f19e18eca78d2192847ef6c8f0ec3d14c8d06.png",
+      "original_filename": "Colposcopy Lugol and Acetic Acid - Clinical Photo.png"
+    },
+    {
       "question_id": "q-reasoning-vulvar-biopsy",
       "collection": "R28",
       "question_type": "Clinical visual question",
@@ -10303,6 +10569,104 @@
       "study_skill": "management"
     },
     {
+      "question_id": "q-r28-vulvar-workup-depth-and-nodal-review",
+      "case_id": "r28-vulvar-workup",
+      "format_version": "clinical-visual-v1",
+      "question_type": "Clinical visual question",
+      "collection": "R28",
+      "generation_batch": "keanne-followups1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "scenario": "The lesion has been sampled. The team compares the biopsy findings with the course criteria for omitting groin evaluation.",
+      "lead_in": "Which finding in the table rules out omitting groin evaluation on the basis of shallow invasion?",
+      "stem": "Which finding in the table rules out omitting groin evaluation on the basis of shallow invasion?",
+      "options": [
+        "The measured depth of invasion exceeds 1 mm.",
+        "The visible lesion measures less than 4 cm.",
+        "The lesion lies 3 cm lateral to the midline.",
+        "The groins are negative on examination.",
+        "The lesion is well differentiated."
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The biopsy shows 7 mm of invasion. The lecture limits the shallow-invasion exception to lesions with depth of 1 mm or less.",
+        "Size under 4 cm is one of the criteria for considering sentinel node biopsy, not a measure of depth.",
+        "The distance from midline helps choose the side of groin evaluation. It does not determine whether invasion is shallow.",
+        "Negative groins on examination can support sentinel node assessment when otherwise eligible. They do not change the measured depth.",
+        "The lecture bases this exception on measured invasion depth. Histologic grade is a different finding."
+      ],
+      "explanation": "The biopsy shows 7 mm of invasion. The lecture limits the shallow-invasion exception to lesions with depth of 1 mm or less.",
+      "visual_clues": [
+        "Compare the 7 mm depth with the course criterion of 1 mm or less."
+      ],
+      "visual_target": "Depth of invasion and groin evaluation",
+      "tested_concept": "Depth of invasion and groin evaluation",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 16
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 20
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Cited teaching page and the visible findings or values in the displayed material.",
+      "accepted_synonyms": [],
+      "visual_kind": "table",
+      "category": "Clinical data",
+      "source_origin": "lecture-table",
+      "source_group_id": "g-table-q-r28-vulvar-workup-depth-and-nodal-review",
+      "context_table": {
+        "title": "Exam and biopsy findings",
+        "columns": [
+          "Feature",
+          "Case finding",
+          "Course decision"
+        ],
+        "rows": [
+          [
+            "Lesion width",
+            "1.1 cm",
+            "—"
+          ],
+          [
+            "Distance from midline",
+            "3 cm",
+            "—"
+          ],
+          [
+            "Groin examination",
+            "No palpable adenopathy",
+            "—"
+          ],
+          [
+            "Histology",
+            "Well differentiated squamous cell carcinoma",
+            "—"
+          ],
+          [
+            "Depth of invasion",
+            "7 mm",
+            "Groin evaluation indicated"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            4,
+            2
+          ]
+        ],
+        "placement": "primary",
+        "source": {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 16
+        }
+      }
+    },
+    {
       "question_id": "q-reasoning-postpartum-workup",
       "collection": "R28",
       "question_type": "Clinical visual question",
@@ -10425,6 +10789,89 @@
       "difficulty": "advanced",
       "reasoning_type": "mechanism",
       "study_skill": "management"
+    },
+    {
+      "question_id": "q-r28-postpartum-workup-vascular-lesion",
+      "case_id": "r28-postpartum-workup",
+      "format_version": "clinical-visual-v1",
+      "question_type": "Clinical visual question",
+      "collection": "R28",
+      "generation_batch": "keanne-followups1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "scenario": "The team reviews the findings from the postpartum evaluation before deciding whether to sample the visible lesion.",
+      "lead_in": "Which plan best addresses the concern raised by the findings in the table?",
+      "stem": "Which plan best addresses the concern raised by the findings in the table?",
+      "options": [
+        "Obtain a vaginal punch biopsy before beginning the trophoblastic workup.",
+        "Defer biopsy of the vaginal lesions because suspected vascular deposits can bleed.",
+        "Monitor the vaginal lesions without a trophoblastic evaluation.",
+        "Delay further evaluation until tissue from a vaginal lesion confirms the diagnosis.",
+        "Treat the vaginal lesions as a separate local process before addressing the lung findings."
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "The lecture identifies suspected vaginal deposits as highly vascular and warns of hemorrhage with biopsy.",
+        "The postpartum timing, elevated β-hCG, pulmonary findings, and vaginal lesions support the lecture’s concern for gestational trophoblastic neoplasia. The vaginal lesions are a hemorrhage risk, and the lecture states that histology is not required to proceed with treatment.",
+        "The combination of elevated β-hCG, a recent delivery, and lesions in the lungs and vagina calls for trophoblastic evaluation.",
+        "The lecture says histologic confirmation is not required before treatment in this setting.",
+        "The lecture connects the vaginal and lung findings to the same suspected gestational trophoblastic process."
+      ],
+      "explanation": "The postpartum timing, elevated β-hCG, pulmonary findings, and vaginal lesions support the lecture’s concern for gestational trophoblastic neoplasia. The vaginal lesions are a hemorrhage risk, and the lecture states that histology is not required to proceed with treatment.",
+      "visual_clues": [
+        "The case pairs elevated β-hCG after a term birth with lung findings and erythematous vaginal lesions."
+      ],
+      "visual_target": "Biopsy decision for vascular vaginal lesions",
+      "tested_concept": "Biopsy decision for vascular vaginal lesions",
+      "citations": [
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 24
+        },
+        {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 25
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Cited teaching page and the visible findings or values in the displayed material.",
+      "accepted_synonyms": [],
+      "visual_kind": "table",
+      "category": "Clinical data",
+      "source_origin": "lecture-table",
+      "source_group_id": "g-table-q-r28-postpartum-workup-vascular-lesion",
+      "context_table": {
+        "title": "Findings at presentation",
+        "columns": [
+          "Source",
+          "Finding"
+        ],
+        "rows": [
+          [
+            "Timing",
+            "Five months after term delivery"
+          ],
+          [
+            "Laboratory",
+            "β-hCG 32,567"
+          ],
+          [
+            "Chest imaging",
+            "Multiple pulmonary lesions"
+          ],
+          [
+            "Pelvic examination",
+            "Multiple erythematous, polypoid vaginal lesions"
+          ]
+        ],
+        "hidden_cells": [],
+        "placement": "primary",
+        "source": {
+          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
+          "page": 24
+        }
+      }
     },
     {
       "question_id": "q-reasoning-her2-therapy",
@@ -10566,6 +11013,72 @@
           "x": 81,
           "y": 34,
           "label": "Brown staining is concentrated in epithelial nuclei."
+        }
+      ]
+    },
+    {
+      "question_id": "q-r18-breast-biomarkers-membrane-signaling",
+      "case_id": "r18-breast-biomarkers",
+      "format_version": "clinical-visual-v1",
+      "question_type": "Clinical visual question",
+      "collection": "R18",
+      "generation_batch": "keanne-followups1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "study_skill": "mechanism",
+      "scenario": "A companion immunostain from the breast lecture uses an antibody against HER2.",
+      "lead_in": "Which paired interpretation links the signal location in this field to the pathway discussed in the lecture?",
+      "stem": "Which paired interpretation links the signal location in this field to the pathway discussed in the lecture?",
+      "options": [
+        "A nuclear signal identifies a receptor that regulates transcription in response to estrogen.",
+        "A cytoplasmic signal identifies a soluble factor released into the stroma.",
+        "A luminal signal identifies material secreted into duct spaces.",
+        "A membrane signal identifies a growth factor receptor linked to tyrosine kinase signaling.",
+        "A stromal signal identifies a receptor expressed only by surrounding connective tissue."
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "The brown signal outlines cells. Estrogen receptor nuclear staining is shown in a separate panel.",
+        "The strongest signal follows epithelial cell borders. The lecture describes HER2 as a membrane receptor.",
+        "The pale duct spaces are surrounded by positive cell outlines. The material in the lumen is not the target.",
+        "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling.",
+        "The positive outlines surround epithelial tumor cells. The surrounding stroma does not show the same pattern."
+      ],
+      "explanation": "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling.",
+      "visual_clues": [
+        "The brown signal rims epithelial tumor cells. Compare the rims with the blue nuclei and pale lumina."
+      ],
+      "visual_target": "HER2 membrane localization and signaling",
+      "tested_concept": "HER2 membrane localization and signaling",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 72
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 71
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Cited teaching page and the visible findings or values in the displayed material.",
+      "accepted_synonyms": [],
+      "visual_kind": "image",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "source_id": "s-c1794c164d1c0429a02c",
+      "source_group_id": "g-6c5de2885dd67f7aa373",
+      "asset_id": "a-2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb",
+      "variant_id": "v-3bcb3e5c4665d40d2455",
+      "image": "assets/display/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.webp",
+      "zoom_image": "assets/originals/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.png",
+      "original_image": "assets/originals/2f84e6c32c177f3fd57a0505f4d56deb0aa61c3c3cce7f99db3920bed2abaccb.png",
+      "original_filename": "HER2 Immunostain Strong Membrane Staining - Histology.png",
+      "feedback_focus": [
+        {
+          "x": 63,
+          "y": 53,
+          "label": "Brown outlines follow adjacent tumor cell membranes."
         }
       ]
     }
