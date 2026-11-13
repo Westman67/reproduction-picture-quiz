@@ -75,30 +75,46 @@ export function answer(p,q,it){if(it.locked||it.draft===null)return false;it.loc
 export function override(p,q,it){if(!it.locked||it.correct)return false;it.correct=true;it.overridden=true;const s=stat(p,q);s.incorrect_count--;s.correct_count++;if(s.last_attempt===it.attempt_id)s.last_result='correct';const c=p.concepts[q.tested_concept];c.incorrect--;c.correct++;const g=p.groups[q.source_group_id];if(g?.times_answered){g.incorrect_count--;g.correct_count=(g.correct_count||0)+1;if(g.last_attempt===it.attempt_id)g.last_result='correct';}return true;}
 export function totals(s){let answered=s.items.filter(i=>i.locked);let correct=answered.filter(i=>i.correct).length;return {correct,incorrect:answered.length-correct,unanswered:s.items.length-answered.length,total:s.items.length};}
 export function canReveal(s,it){return s.mode==='learn'&&it.locked||s.complete;}
-export function validateImport(p,bank,cases=[]){
+export function validateImport(p,bank,cases=[],retired=[]){
+ // Retired items remain valid historical attempts, but cannot be resumed or repeated.
+ const retiredById=new Map(retired.map(q=>[q.question_id,q]));
+ if(retiredById.size&&p?.schema_version===VERSION)p=structuredClone(p);
  if(!p||p.schema_version!==VERSION)throw Error('Unsupported progress format.');
  for(const key of ['questions','groups','concepts','flags','decisions'])if(!p[key]||typeof p[key]!=='object'||Array.isArray(p[key]))throw Error('Invalid progress data.');
  const byId=new Map(bank.map(q=>[q.question_id,q]));
- for(const [id,s] of Object.entries(p.questions)){if(!byId.has(id))throw Error('This export contains a different question bank.');for(const k of ['times_seen','times_answered','correct_count','incorrect_count'])if(!Number.isInteger(s[k])||s[k]<0)throw Error('Invalid progress counts.');if(s.correct_count+s.incorrect_count!==s.times_answered)throw Error('Inconsistent progress counts.');if(![null,'correct','incorrect'].includes(s.last_result))throw Error('Invalid result.');}
+ for(const [id,s] of Object.entries(p.questions)){if(!byId.has(id)&&!retiredById.has(id))throw Error('This export contains a different question bank.');for(const k of ['times_seen','times_answered','correct_count','incorrect_count'])if(!Number.isInteger(s[k])||s[k]<0)throw Error('Invalid progress counts.');if(s.correct_count+s.incorrect_count!==s.times_answered)throw Error('Inconsistent progress counts.');if(![null,'correct','incorrect'].includes(s.last_result))throw Error('Invalid result.');}
  for(const g of Object.values(p.groups))if(!Number.isInteger(g.times_seen)||g.times_seen<0)throw Error('Invalid group progress.');
  for(const c of Object.values(p.concepts))if(!Number.isInteger(c.correct)||!Number.isInteger(c.incorrect)||c.correct<0||c.incorrect<0)throw Error('Invalid concept progress.');
  if(!Array.isArray(p.exams))throw Error('Invalid exam history.');
  if(p.applied_remediation_batches!==undefined&&(!Array.isArray(p.applied_remediation_batches)||p.applied_remediation_batches.some(x=>typeof x!=='string')))throw Error('Invalid remediation history.');
- for(const s of [p.session,p.parkedSession]){if(!s)continue;if(!['learn','exam'].includes(s.mode)||!Array.isArray(s.items)||s.items.length>10000||!Number.isInteger(s.index)||s.index<0||s.index>=s.items.length)throw Error('Invalid saved session.');
- if(cases.length){
+ for(const field of ['session','parkedSession']){
+  const s=p[field];if(!s)continue;
+  if(!['learn','exam'].includes(s.mode)||!Array.isArray(s.items)||s.items.length>10000||!Number.isInteger(s.index)||s.index<0||s.index>=s.items.length)throw Error('Invalid saved session.');
+  for(const i of s.items){
+    const current=byId.get(i.id);
+    const archived=retiredById.get(i.id);
+    const count=current?.options.length??archived?.option_count;
+    if(!count||!Array.isArray(i.order)||i.order.length!==count||
+        new Set(i.order).size!==i.order.length||i.order.some(k=>!Number.isInteger(k)||k<0||k>=count)||
+        (i.draft!==null&&!i.order.includes(i.draft))||typeof i.locked!=='boolean'||
+        (i.locked&&i.draft===null))throw Error('Invalid session item.');
+    if(cases.length&&archived&&archived.case_id!==s.case_id)throw Error('Invalid saved case order.');
+  }
+  if(s.items.some(i=>retiredById.has(i.id))){
+    const retainedBefore=s.items.slice(0,s.index).filter(i=>byId.has(i.id)).length;
+    s.items=s.items.filter(i=>byId.has(i.id));
+    if(!s.items.length){p[field]=null;continue;}
+    s.index=Math.min(retainedBefore,s.items.length-1);
+    if(s.complete)delete s.result_index;
+  }
+  if(retiredById.size&&Array.isArray(s.pool))s.pool=s.pool.filter(id=>byId.has(id));
+  if(cases.length){
     const selected=cases.find(c=>c.case_id===s.case_id);
     if(!selected||s.mode!=='exam'||s.endless)throw Error('Invalid saved case order.');
     const allowedLengths = [selected.question_ids.length, ...(selected.previous_question_counts ?? [])];
     if(!allowedLengths.includes(s.items.length) ||
         s.items.some((entry,index)=>entry.id!==selected.question_ids[index]))throw Error('Invalid saved case order.');
- }
- for(const i of s.items){
-    const q=byId.get(i.id);
-    if(!q||!Array.isArray(i.order)||i.order.length!==q.options.length||
-        new Set(i.order).size!==i.order.length||i.order.some(k=>!Number.isInteger(k)||k<0||k>=q.options.length)||
-        (i.draft!==null&&!i.order.includes(i.draft))||typeof i.locked!=='boolean'||
-        (i.locked&&i.draft===null))throw Error('Invalid session item.');
- }
+  }
  }
  return p;
 }

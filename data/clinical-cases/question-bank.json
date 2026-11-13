@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "title": "Reproduction Pathology Clinical Cases",
-  "bank_version": "2026-11-12-visual-reasoning",
+  "bank_version": "2026-11-13-step1-review",
   "release_status": "reviewed",
   "cases": [
     {
@@ -109,7 +109,6 @@
       "question_ids": [
         "q-r10-vulvar-wart-1",
         "q-r10-vulvar-wart-2",
-        "q-r10-vulvar-wart-depth-supporting-cores",
         "q-r10-vulvar-wart-depth-raised-surface",
         "q-r10-vulvar-wart-depth-basal-alternative"
       ],
@@ -185,13 +184,12 @@
         "q-r12-ovarian-granulosa-1",
         "q-r12-ovarian-granulosa-2",
         "q-r12-ovarian-granulosa-3",
-        "q-r12-ovarian-granulosa-depth-gross-sampling",
         "q-r12-ovarian-granulosa-depth-inhibin",
         "q-reasoning-inhibin-panel"
       ],
       "previous_question_counts": [
         3,
-        5
+        4
       ]
     },
     {
@@ -308,15 +306,11 @@
       "title": "Keanne Unfolds the Fallopian Tube",
       "lecture": "R27",
       "question_ids": [
-        "q-r27-tubal-lining-1",
         "q-r27-tubal-lining-2",
-        "q-r27-tubal-lining-depth-focal-transition",
-        "q-r27-tubal-lining-depth-serial-sampling",
-        "q-reasoning-serial-section-logic"
+        "q-r27-tubal-lining-depth-focal-transition"
       ],
       "previous_question_counts": [
-        2,
-        4
+        1
       ]
     },
     {
@@ -328,12 +322,11 @@
         "q-r29-pleural-b-case",
         "q-r29-pleural-depth-stain-panel",
         "q-r29-pleural-depth-gross-ovary",
-        "q-r29-pleural-depth-tissue-architecture",
         "q-reasoning-pleural-positive-pattern"
       ],
       "previous_question_counts": [
         2,
-        5
+        4
       ]
     },
     {
@@ -396,13 +389,12 @@
         "q-r29-bladder-b-case",
         "q-r29-bladder-depth-papillary-comparison",
         "q-r29-bladder-depth-flat-comparison",
-        "q-r29-bladder-depth-cytology-control",
         "q-reasoning-bladder-treatment",
         "q-reasoning-sample-for-depth"
       ],
       "previous_question_counts": [
         3,
-        6
+        5
       ]
     },
     {
@@ -414,9 +406,7 @@
         "q-r30-curves-case",
         "q-r30-flash-case",
         "q-r30-epithelium-case",
-        "q-r30-transition-depth-ovarian-origin",
-        "q-r30-transition-depth-curve-interval",
-        "q-r30-transition-depth-epithelial-interface"
+        "q-r30-transition-depth-ovarian-origin"
       ],
       "previous_question_counts": [
         4
@@ -455,16 +445,6 @@
       "question_ids": [
         "q-reasoning-pelvic-marker-correlation",
         "q-reasoning-omental-implication"
-      ],
-      "previous_question_counts": []
-    },
-    {
-      "case_id": "r27-postmenopausal-bleeding",
-      "title": "Keanne and the Unexpected Spotting",
-      "lecture": "R27",
-      "question_ids": [
-        "q-reasoning-sentinel-procedure",
-        "q-reasoning-endometrial-adjuvant"
       ],
       "previous_question_counts": []
     },
@@ -2765,63 +2745,6 @@
       "accepted_synonyms": []
     },
     {
-      "question_id": "q-r10-vulvar-wart-depth-supporting-cores",
-      "case_id": "r10-vulvar-wart",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R10",
-      "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Stromal framework of a raised vulvar lesion",
-      "visual_target": "Stromal framework of a raised vulvar lesion",
-      "scenario": "A raised vulvar lesion was sampled for histology.",
-      "lead_in": "Which internal structure explains how the grossly raised lesion maintains its branching profile?",
-      "stem": "Which internal structure explains how the grossly raised lesion maintains its branching profile?",
-      "options": [
-        "Pools of mucin distending glandular lumina",
-        "Thick muscle fascicles lifting the surface",
-        "Connective tissue cores extending into squamous projections",
-        "Free sheets of epithelium floating above the lesion",
-        "Solid epithelial columns without a stromal center"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "The pale center is supportive stroma rather than a dilated gland lumen.",
-        "The projections have slender stromal cores, not broad muscle bundles.",
-        "Pale connective tissue cores extend up into the projections. A squamous covering drapes each core, producing a branching exophytic structure.",
-        "The covering is attached along the branching cores.",
-        "The branches have visible pale stromal centers."
-      ],
-      "explanation": "Pale connective tissue cores extend up into the projections. A squamous covering drapes each core, producing a branching exophytic structure.",
-      "visual_clues": [
-        "Pale connective tissue cores extend up into the projections."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-d12868828175c3acc621",
-      "source_group_id": "g-d704173017ca63e782d3",
-      "asset_id": "a-d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11",
-      "variant_id": "v-70654741a75cdd57c8c8",
-      "image": "assets/display/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.webp",
-      "zoom_image": "assets/zoom/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.png",
-      "original_image": "assets/originals/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.png",
-      "original_filename": "R10/Condyloma Exophytic Papillary Architecture - Histology.png",
-      "category": "Histology",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 47
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 46
-        }
-      ]
-    },
-    {
       "question_id": "q-r10-vulvar-wart-depth-raised-surface",
       "case_id": "r10-vulvar-wart",
       "question_type": "Clinical visual question",
@@ -4312,63 +4235,6 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": []
-    },
-    {
-      "question_id": "q-r12-ovarian-granulosa-depth-gross-sampling",
-      "case_id": "r12-ovarian-granulosa",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R12",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Sampling a mixed solid and hemorrhagic ovarian mass",
-      "visual_target": "Sampling a mixed solid and hemorrhagic ovarian mass",
-      "scenario": "An ovarian mass is being classified using its gross and microscopic features.",
-      "lead_in": "Which region in this companion gross specimen is the best target to sample for intact tissue architecture?",
-      "stem": "Which region in this companion gross specimen is the best target to sample for intact tissue architecture?",
-      "options": [
-        "The central blood within a dark cavity",
-        "The empty portion of a large cavity",
-        "A smooth cut margin away from the visible lesion",
-        "Only the thinnest translucent lining of a hemorrhagic space",
-        "The tan nodular tissue bordering the dark spaces"
-      ],
-      "correct_index": 4,
-      "choice_rationales": [
-        "Free blood does not preserve the architecture of the solid lesion.",
-        "An empty space cannot supply intact tumor tissue.",
-        "The conspicuous nodular tissue is the direct sampling target.",
-        "A thin wall may miss the much larger solid component shown.",
-        "Tan solid nodules border and intermingle with dark hemorrhagic spaces. Sampling the solid tissue gives a better chance of capturing intact cell arrangements."
-      ],
-      "explanation": "Tan solid nodules border and intermingle with dark hemorrhagic spaces. Sampling the solid tissue gives a better chance of capturing intact cell arrangements.",
-      "visual_clues": [
-        "Tan solid nodules border and intermingle with dark hemorrhagic spaces."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-f61e8254860b9c2dc0a7",
-      "source_group_id": "g-bbbe5bbdbedc84a2b6f2",
-      "asset_id": "a-d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9",
-      "variant_id": "v-843e50cc50b354da8e92",
-      "image": "assets/display/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.webp",
-      "zoom_image": "assets/originals/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.png",
-      "original_image": "assets/originals/d10f993ba66f6b2541838e1f6f3a8381b3f51018b2fa8036651f7df858cd16a9.png",
-      "original_filename": "R12/Granulosa Cell Tumor - Gross.png",
-      "category": "Gross",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 103
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 105
-        }
-      ]
     },
     {
       "question_id": "q-r12-ovarian-granulosa-depth-inhibin",
@@ -6783,63 +6649,6 @@
       ]
     },
     {
-      "question_id": "q-r27-tubal-lining-1",
-      "case_id": "r27-tubal-lining",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "question_type": "Clinical visual question",
-      "scenario": "A fallopian tube is examined after salpingectomy. The section shows several mucosal folds.",
-      "lead_in": "Where does the most conspicuous atypical proliferation sit?",
-      "stem": "Where does the most conspicuous atypical proliferation sit?",
-      "options": [
-        "As isolated nests in the fibrous cores of several folds",
-        "Within vascular spaces in the fold cores",
-        "Along a segment of the mucosal epithelial lining",
-        "Free in the lumen with no attachment to the folds",
-        "As a diffuse band replacing the deep tubal muscle"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "The dark crowded cells follow the surface, above the pink cores.",
-        "The visible blood vessels lie below the surface proliferation.",
-        "The abnormal dark cells follow the luminal surface of a fold.",
-        "The crowded focus is attached to the epithelium.",
-        "The abnormal focus lies on the mucosal surface in the displayed field."
-      ],
-      "explanation": "The abnormal dark cells form part of the mucosal epithelial lining. The pink connective tissue lies below them.",
-      "visual_clues": [
-        "Trace the luminal edge of the folds and find the crowded segment."
-      ],
-      "visual_target": "Crowded dark cells lining a tubal mucosal fold",
-      "tested_concept": "Tubal mucosal compartment",
-      "category": "Histology",
-      "collection": "R27",
-      "source_origin": "lecture",
-      "source_id": "s-ea97375fbd12a6abab1c",
-      "source_group_id": "g-eaaf5fe2a6b54d749050",
-      "asset_id": "a-1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352",
-      "variant_id": "v-3a6771d132c909715d88",
-      "image": "assets/display/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.webp",
-      "zoom_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_filename": "STIC Lesion Fallopian Tube - Histology.png",
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 14
-        },
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 13
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
-    },
-    {
       "question_id": "q-r27-tubal-lining-2",
       "case_id": "r27-tubal-lining",
       "format_version": "clinical-visual-v1",
@@ -6948,120 +6757,6 @@
           "page": 14
         }
       ]
-    },
-    {
-      "question_id": "q-r27-tubal-lining-depth-serial-sampling",
-      "case_id": "r27-tubal-lining",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R27",
-      "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Focal tubal lesion and the rationale for serial sampling",
-      "visual_target": "Focal tubal lesion and the rationale for serial sampling",
-      "scenario": "A fallopian tube is examined after salpingectomy.",
-      "lead_in": "Which aspect of the visible distribution explains the lecture’s emphasis on serial examination of the fimbrial tissue?",
-      "stem": "Which aspect of the visible distribution explains the lecture’s emphasis on serial examination of the fimbrial tissue?",
-      "options": [
-        "The abnormality coats every fold and is visible at any level",
-        "The abnormality occupies a short segment and can be missed by a limited section",
-        "The abnormality forms a large free luminal mass",
-        "The abnormality is uniformly deep in the wall",
-        "The slide displays the complete tube from end to end"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "The changed segment is focal rather than diffuse.",
-        "The altered epithelium occupies only a small part of the visible folds. If a sampled level misses that focal region, the rest of the tube may appear unremarkable.",
-        "The visual finding is a change in the lining itself.",
-        "The highlighted pattern is superficial and follows a fold.",
-        "A single field samples only a small part of the specimen."
-      ],
-      "explanation": "The altered epithelium occupies only a small part of the visible folds. If a sampled level misses that focal region, the rest of the tube may appear unremarkable.",
-      "visual_clues": [
-        "The altered epithelium occupies only a small part of the visible folds."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-ea97375fbd12a6abab1c",
-      "source_group_id": "g-eaaf5fe2a6b54d749050",
-      "asset_id": "a-1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352",
-      "variant_id": "v-3a6771d132c909715d88",
-      "image": "assets/display/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.webp",
-      "zoom_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_filename": "STIC Lesion Fallopian Tube - Histology.png",
-      "category": "Histology",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 14
-        },
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 13
-        }
-      ]
-    },
-    {
-      "question_id": "q-reasoning-serial-section-logic",
-      "collection": "R27",
-      "question_type": "Clinical visual question",
-      "tested_concept": "Serial section logic",
-      "visual_target": "Which sampling choice best addresses the distribution of the abnormal epithelium shown here?",
-      "stem": "Which sampling choice best addresses the distribution of the abnormal epithelium shown here?",
-      "options": [
-        "One random section from the proximal tube",
-        "Serial sectioning of the fimbrial region",
-        "Examine only the outer serosal surface",
-        "Assess only the ovarian cortex",
-        "Use a gross inspection alone to exclude an epithelial focus"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "The lesion is focal and can be missed by limited sampling.",
-        "The dark atypical epithelium occupies a short segment of a fold. R27 identifies sampling error and emphasizes serial fimbrial sectioning to improve detection of focal lesions.",
-        "The abnormal cells are within the mucosal epithelium.",
-        "The depicted abnormal population is in a tubal fold.",
-        "The abnormality is microscopic."
-      ],
-      "explanation": "The dark atypical epithelium occupies a short segment of a fold. R27 identifies sampling error and emphasizes serial fimbrial sectioning to improve detection of focal lesions.",
-      "visual_clues": [
-        "The dark atypical epithelium occupies a short segment of a fold."
-      ],
-      "reasoning_order": 2,
-      "reasoning_task": "next-step",
-      "generation_batch": "2026-11-12-visual-reasoning",
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "source_id": "s-ea97375fbd12a6abab1c",
-      "source_group_id": "g-eaaf5fe2a6b54d749050",
-      "variant_id": "v-3a6771d132c909715d88",
-      "image": "assets/display/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.webp",
-      "zoom_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_filename": "R27/STIC Lesion Fallopian Tube - Histology.png",
-      "category": "Histology",
-      "source_origin": "lecture",
-      "asset_id": "a-1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352",
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 14
-        }
-      ],
-      "case_id": "r27-tubal-lining",
-      "scenario": "A tube is removed during surgery and examined as a potential source of a serous lesion.",
-      "lead_in": "Which sampling choice best addresses the distribution of the abnormal epithelium shown here?",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
     },
     {
       "question_id": "q-r29-pleural-a-case",
@@ -7328,63 +7023,6 @@
       "original_image": "assets/originals/b800cc34c50743c122f8d7ccd720b72082faf7080d8f0ecbf4666121e93bbc86.png",
       "original_filename": "Gross ovarian companion specimen (page 9)",
       "category": "Gross",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R29 Cases.pdf",
-          "page": 9
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 2
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-pleural-depth-tissue-architecture",
-      "case_id": "r29-pleural",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R29",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Histologic corroboration in an ovarian follow-up teaching field",
-      "visual_target": "Histologic corroboration in an ovarian follow-up teaching field",
-      "scenario": "An older adult has progressive dyspnea, abdominal bloating, and bilateral pleural effusions. Initial cytology shows suspicious cells.",
-      "lead_in": "This ovarian teaching section illustrates the tissue pattern described in the follow-up. Which feature can be assessed in this section that could not be established from the detached fluid cells?",
-      "stem": "This ovarian teaching section illustrates the tissue pattern described in the follow-up. Which feature can be assessed in this section that could not be established from the detached fluid cells?",
-      "options": [
-        "An organized solid epithelial proliferation in its tissue context",
-        "The quantity of pleural fluid removed at thoracentesis",
-        "The precise fraction of tumor cells shed into pleural fluid",
-        "The full list of anatomic sites involved in the patient",
-        "The presence of long microvilli on individual fluid cells"
-      ],
-      "correct_index": 0,
-      "choice_rationales": [
-        "The section shows an organized solid epithelial proliferation in ovarian tissue. A fluid smear can show atypia and clusters but does not preserve that tissue architecture.",
-        "A tissue section cannot measure fluid volume.",
-        "The section is ovarian tissue rather than a count of fluid cells.",
-        "One local tissue field cannot establish the complete distribution.",
-        "This routine section does not resolve the ultrastructure of fluid cells."
-      ],
-      "explanation": "The section shows an organized solid epithelial proliferation in ovarian tissue. A fluid smear can show atypia and clusters but does not preserve that tissue architecture.",
-      "visual_clues": [
-        "The section shows an organized solid epithelial proliferation in ovarian tissue."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-b4fb29b30c56d9ebe5fe",
-      "source_group_id": "g-da0c90caf8022f2c9e53",
-      "asset_id": "a-da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08",
-      "variant_id": "v-e6961cf4aca5aec853ac",
-      "image": "assets/display/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.webp",
-      "zoom_image": "assets/originals/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.png",
-      "original_image": "assets/originals/da0c90caf8022f2c9e535727d00a2bdb7e95661ecbeb4743c53e61c939a49d08.png",
-      "original_filename": "Ovarian epithelial companion section (page 9)",
-      "category": "Histology",
       "source_origin": "lecture",
       "visual_kind": "image",
       "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
@@ -9031,67 +8669,6 @@
       ]
     },
     {
-      "question_id": "q-r29-bladder-depth-cytology-control",
-      "case_id": "r29-bladder",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R29",
-      "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Relative nuclear size in malignant appearing urine cytology",
-      "visual_target": "Relative nuclear size in malignant appearing urine cytology",
-      "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology and biopsy are obtained.",
-      "lead_in": "Using the smaller background cells as a size reference, what relationship makes the central group stand out?",
-      "stem": "Using the smaller background cells as a size reference, what relationship makes the central group stand out?",
-      "options": [
-        "Large irregular nuclei dominate the central cells relative to their cytoplasm",
-        "Most central cells have tiny uniform nuclei and abundant clear cytoplasm",
-        "Central nuclei are absent and the forms look like anucleate red cells",
-        "The central group consists only of very small cells with segmented nuclei",
-        "The central profiles are smooth circular mucin pools without cells"
-      ],
-      "correct_index": 0,
-      "choice_rationales": [
-        "The central cells have disproportionately large, irregular nuclei compared with their cytoplasm and with the small surrounding profiles. The comparison helps distinguish the suspicious population from the background.",
-        "The nuclei occupy a much larger share of the central cells.",
-        "Prominent nuclei are a major feature of the cluster.",
-        "The large atypical nuclei are distinct from small background forms.",
-        "The visible cluster consists of cells with conspicuous nuclei."
-      ],
-      "explanation": "The central cells have disproportionately large, irregular nuclei compared with their cytoplasm and with the small surrounding profiles. The comparison helps distinguish the suspicious population from the background.",
-      "visual_clues": [
-        "The central cells have disproportionately large, irregular nuclei compared with their cytoplasm and with the small surrounding profiles."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-6e3be355007f4c5f6132",
-      "source_group_id": "g-5c76c45ecf1ad8c87d23",
-      "asset_id": "a-5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
-      "variant_id": "v-f6c54a00cbf791d23553",
-      "image": "assets/display/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.webp",
-      "zoom_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
-      "original_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
-      "original_filename": "Case 5 Urine Cytology - Urine Microscopy.png",
-      "category": "Urine Microscopy",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 10
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 11
-        },
-        {
-          "document": "R29 Cases.pdf",
-          "page": 55
-        }
-      ]
-    },
-    {
       "question_id": "q-reasoning-bladder-treatment",
       "collection": "R29",
       "question_type": "Clinical visual question",
@@ -9531,120 +9108,6 @@
         {
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 54
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-transition-depth-curve-interval",
-      "case_id": "r30-transition",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R30",
-      "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Timing of the largest paired hormone shifts",
-      "visual_target": "Timing of the largest paired hormone shifts",
-      "scenario": "A 53-year-old last menstruated four months ago and reports brief episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "Compare the segment from six to four years before the reference point with the segment from two years before to two years after it. Which interval shows larger changes in both curves?",
-      "stem": "Compare the segment from six to four years before the reference point with the segment from two years before to two years after it. Which interval shows larger changes in both curves?",
-      "options": [
-        "From six to four years before the reference point",
-        "From four to six years after the reference point",
-        "From two years before through two years after the reference point",
-        "The two requested intervals show equally small changes",
-        "The graph cannot distinguish the two intervals"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "Both curves change little over that earlier segment.",
-        "Both lines are relatively flat in the later segment.",
-        "Both curves change far more in the interval spanning two years before to two years after the final menstrual period. The earlier segment is comparatively flat.",
-        "The interval around the reference point contains visibly larger changes.",
-        "The time axis marks both intervals and the line slopes differ."
-      ],
-      "explanation": "Both curves change far more in the interval spanning two years before to two years after the final menstrual period. The earlier segment is comparatively flat.",
-      "visual_clues": [
-        "Both curves change far more in the interval spanning two years before to two years after the final menstrual period."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-2680d6baaa7c22da0fa5",
-      "source_group_id": "g-d0788bc126fa3d36f7f3",
-      "asset_id": "a-d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba",
-      "variant_id": "v-1e737882bf829c11aaf2",
-      "image": "assets/display/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.webp",
-      "zoom_image": "assets/originals/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.png",
-      "original_image": "assets/originals/d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba.png",
-      "original_filename": "FSH and Estradiol Around Final Menstrual Period - Diagram.png",
-      "category": "Graphs",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 36
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 31
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-transition-depth-epithelial-interface",
-      "case_id": "r30-transition",
-      "question_type": "Clinical visual question",
-      "format_version": "clinical-visual-v1",
-      "generation_batch": "2026-11-12-case-depth",
-      "collection": "R30",
-      "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "What persists across the two vaginal epithelial patterns",
-      "visual_target": "What persists across the two vaginal epithelial patterns",
-      "scenario": "A 53-year-old last menstruated four months ago and reports brief episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "Beyond the difference in layer count, what relationship is shared by the epithelial cells along the lower edge of both panels?",
-      "stem": "Beyond the difference in layer count, what relationship is shared by the epithelial cells along the lower edge of both panels?",
-      "options": [
-        "The surface cells directly contact blood filled vessels",
-        "The entire epithelial and stromal boundary disappears on the right",
-        "Both epithelial surfaces are covered by a thick outer keratin cap",
-        "A basal epithelial row remains next to the underlying stroma",
-        "The basal layer has separated and is floating above the surface"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "The epithelial cells sit above the stromal compartment.",
-        "The right panel still shows an epithelial lining with a recognizable base.",
-        "The illustration shows an epithelial lining without a thick outer keratin cap.",
-        "Both panels retain a basal row along the epithelial and stromal interface. The thinner panel loses much of the overlying thickness but still has an identifiable lining.",
-        "The basal cells remain at the tissue interface."
-      ],
-      "explanation": "Both panels retain a basal row along the epithelial and stromal interface. The thinner panel loses much of the overlying thickness but still has an identifiable lining.",
-      "visual_clues": [
-        "Both panels retain a basal row along the epithelial and stromal interface."
-      ],
-      "ground_truth_confidence": "high",
-      "source_id": "s-0101fcdae40a5e395739",
-      "source_group_id": "g-de1b67d39c5f5cccd8e1",
-      "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
-      "variant_id": "v-af21e15a60392d3dd4cf",
-      "image": "assets/display/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.webp",
-      "zoom_image": "assets/zoom/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.png",
-      "original_image": "assets/originals/de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3.png",
-      "original_filename": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
-      "category": "Diagram",
-      "source_origin": "lecture",
-      "visual_kind": "image",
-      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 54
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 47
         }
       ]
     },
@@ -10278,152 +9741,6 @@
       "reasoning_type": "mechanism"
     },
     {
-      "question_id": "q-reasoning-sentinel-procedure",
-      "collection": "R27",
-      "question_type": "Clinical visual question",
-      "tested_concept": "Sentinel procedure",
-      "visual_target": "What purpose does the added signal in the right view serve in the stated operation?",
-      "stem": "What purpose does the added signal in the right view serve in the stated operation?",
-      "options": [
-        "It establishes the microscopic grade of the endometrial biopsy",
-        "It measures depth of myometrial invasion directly",
-        "It demonstrates distant disease outside the operative field",
-        "It guides sentinel lymph node mapping",
-        "It determines estrogen receptor expression"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "The operative view does not show the biopsy's architecture.",
-        "The signal shows focal operative fluorescence, not a full-thickness uterine section.",
-        "The signal is local to the displayed field.",
-        "The localized green signal is the fluorescence view in the sentinel mapping step. In this case, it helps identify regional nodes for surgical staging.",
-        "That requires assessment of tissue markers, not this intraoperative view."
-      ],
-      "explanation": "The localized green signal is the fluorescence view in the sentinel mapping step. In this case, it helps identify regional nodes for surgical staging.",
-      "visual_clues": [
-        "The localized green signal is the fluorescence view in the sentinel mapping step."
-      ],
-      "reasoning_order": 2,
-      "reasoning_task": "next-step",
-      "generation_batch": "2026-11-12-visual-reasoning",
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "source_id": "s-cf746928de544602daec",
-      "source_group_id": "g-b02f8e6a014a66539b0a",
-      "variant_id": "v-57680c3b04a0a052a1d3",
-      "image": "assets/display/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.webp",
-      "zoom_image": "assets/originals/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.png",
-      "original_image": "assets/originals/3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3.png",
-      "original_filename": "R27/Sentinel Node Mapping Laparoscopic Views - Clinical Photo.png",
-      "category": "Clinical Photo",
-      "source_origin": "lecture",
-      "asset_id": "a-3036e3c0eb125ac31061fce2314965118b04bd3fbe5e59111467606328178be3",
-      "joint_panels": true,
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 45
-        },
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 34
-        }
-      ],
-      "case_id": "r27-postmenopausal-bleeding",
-      "scenario": "A 56-year-old with postmenopausal bleeding has an endometrial biopsy and proceeds to the surgery illustrated in the lecture. The images show two operative views.",
-      "lead_in": "What purpose does the added signal in the right view serve in the stated operation?",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
-    },
-    {
-      "question_id": "q-reasoning-endometrial-adjuvant",
-      "collection": "R27",
-      "question_type": "Clinical visual question",
-      "tested_concept": "Endometrial adjuvant",
-      "visual_target": "Which adjuvant option does the lecture generally favor for this patient's findings?",
-      "stem": "Which adjuvant option does the lecture generally favor for this patient's findings?",
-      "options": [
-        "Surveillance as the default approach for a superficial low-risk tumor",
-        "Vaginal brachytherapy",
-        "Use the high-risk pathway solely because lymphovascular invasion is present",
-        "Choose systemic therapy alone because the table establishes distant metastasis",
-        "Treat with pelvic chemoradiation as for the lecture's node-positive cervical case"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "The documented myometrial involvement places this case outside the superficial low-risk example.",
-        "The tumor extends at least halfway through the myometrium, with grade 2 histology and no lymphovascular invasion. The lecture generally favors vaginal brachytherapy for this case and lists observation as an option after shared decision-making.",
-        "The table shows that lymphovascular invasion was absent.",
-        "The listed postoperative findings do not establish distant metastasis.",
-        "The table concerns the postoperative endometrial case, and its risk features support a different approach."
-      ],
-      "explanation": "The tumor extends at least halfway through the myometrium, with grade 2 histology and no lymphovascular invasion. The lecture generally favors vaginal brachytherapy for this case and lists observation as an option after shared decision-making.",
-      "visual_clues": [
-        "The tumor extends at least halfway through the myometrium, with grade 2 histology and no lymphovascular invasion."
-      ],
-      "reasoning_order": 3,
-      "reasoning_task": "treatment",
-      "generation_batch": "2026-11-12-visual-reasoning",
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "visual_kind": "table",
-      "source_origin": "lecture-table",
-      "category": "Clinical data",
-      "source_group_id": "g-table-r27-postoperative",
-      "context_table": {
-        "placement": "primary",
-        "title": "Postoperative pathology",
-        "columns": [
-          "Finding",
-          "Result"
-        ],
-        "rows": [
-          [
-            "Myometrial involvement",
-            "At least half of the wall thickness"
-          ],
-          [
-            "Histologic grade",
-            "Grade 2"
-          ],
-          [
-            "Lymphovascular invasion",
-            "Absent"
-          ]
-        ],
-        "source": {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 46
-        }
-      },
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 46
-        },
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 34
-        },
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 45
-        }
-      ],
-      "case_id": "r27-postmenopausal-bleeding",
-      "scenario": "A 56-year-old had surgery after seven days of postmenopausal spotting. Review the postoperative findings in the table.",
-      "lead_in": "Which adjuvant option does the lecture generally favor for this patient's findings?",
-      "format_version": "clinical-visual-v1",
-      "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
-    },
-    {
       "question_id": "q-reasoning-cervical-sampling",
       "collection": "R28",
       "question_type": "Clinical visual question",
@@ -10918,6 +10235,107 @@
       "visual_kind": "image",
       "difficulty": "advanced",
       "reasoning_type": "clinical_integration"
+    }
+  ],
+  "retired_questions": [
+    {
+      "question_id": "q-r10-vulvar-wart-depth-supporting-cores",
+      "source_group_id": "g-d704173017ca63e782d3",
+      "source_id": "s-d12868828175c3acc621",
+      "tested_concept": "Stromal framework of a raised vulvar lesion",
+      "case_id": "r10-vulvar-wart",
+      "option_count": 5,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r12-ovarian-granulosa-depth-gross-sampling",
+      "source_group_id": "g-bbbe5bbdbedc84a2b6f2",
+      "source_id": "s-f61e8254860b9c2dc0a7",
+      "tested_concept": "Sampling a mixed solid and hemorrhagic ovarian mass",
+      "case_id": "r12-ovarian-granulosa",
+      "option_count": 5,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-r27-tubal-lining-1",
+      "source_group_id": "g-eaaf5fe2a6b54d749050",
+      "source_id": "s-ea97375fbd12a6abab1c",
+      "tested_concept": "Tubal mucosal compartment",
+      "case_id": "r27-tubal-lining",
+      "option_count": 5,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r27-tubal-lining-depth-serial-sampling",
+      "source_group_id": "g-eaaf5fe2a6b54d749050",
+      "source_id": "s-ea97375fbd12a6abab1c",
+      "tested_concept": "Focal tubal lesion and the rationale for serial sampling",
+      "case_id": "r27-tubal-lining",
+      "option_count": 5,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-reasoning-serial-section-logic",
+      "source_group_id": "g-eaaf5fe2a6b54d749050",
+      "source_id": "s-ea97375fbd12a6abab1c",
+      "tested_concept": "Serial section logic",
+      "case_id": "r27-tubal-lining",
+      "option_count": 5,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r29-pleural-depth-tissue-architecture",
+      "source_group_id": "g-da0c90caf8022f2c9e53",
+      "source_id": "s-b4fb29b30c56d9ebe5fe",
+      "tested_concept": "Histologic corroboration in an ovarian follow-up teaching field",
+      "case_id": "r29-pleural",
+      "option_count": 5,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r29-bladder-depth-cytology-control",
+      "source_group_id": "g-5c76c45ecf1ad8c87d23",
+      "source_id": "s-6e3be355007f4c5f6132",
+      "tested_concept": "Relative nuclear size in malignant appearing urine cytology",
+      "case_id": "r29-bladder",
+      "option_count": 5,
+      "category": "Urine Microscopy"
+    },
+    {
+      "question_id": "q-r30-transition-depth-curve-interval",
+      "source_group_id": "g-d0788bc126fa3d36f7f3",
+      "source_id": "s-2680d6baaa7c22da0fa5",
+      "tested_concept": "Timing of the largest paired hormone shifts",
+      "case_id": "r30-transition",
+      "option_count": 5,
+      "category": "Graphs"
+    },
+    {
+      "question_id": "q-r30-transition-depth-epithelial-interface",
+      "source_group_id": "g-de1b67d39c5f5cccd8e1",
+      "source_id": "s-0101fcdae40a5e395739",
+      "tested_concept": "What persists across the two vaginal epithelial patterns",
+      "case_id": "r30-transition",
+      "option_count": 5,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-reasoning-sentinel-procedure",
+      "source_group_id": "g-b02f8e6a014a66539b0a",
+      "source_id": "s-cf746928de544602daec",
+      "tested_concept": "Sentinel procedure",
+      "case_id": "r27-postmenopausal-bleeding",
+      "option_count": 5,
+      "category": "Clinical Photo"
+    },
+    {
+      "question_id": "q-reasoning-endometrial-adjuvant",
+      "source_group_id": "g-table-r27-postoperative",
+      "source_id": null,
+      "tested_concept": "Endometrial adjuvant",
+      "case_id": "r27-postmenopausal-bleeding",
+      "option_count": 5,
+      "category": "Clinical data"
     }
   ]
 }

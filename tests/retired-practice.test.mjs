@@ -1,0 +1,60 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import test from 'node:test';
+import {empty, session, caseSession, see, answer, validateImport, filtered} from '../engine.js';
+
+const read = path => JSON.parse(fs.readFileSync(new URL('../' + path, import.meta.url)));
+const pathology = read('data/pathology/question-bank.json');
+const clinical = read('data/clinical-cases/question-bank.json');
+const archive = read('reports/step1-retired-20261113.json');
+const oldById = Object.fromEntries([...clinical.questions, ...archive.questions].map(q => [q.question_id, q]));
+const sling = archive.questions.find(q => q.question_id === 'q-d12d4bcd11e3db9b1ede');
+const retention = pathology.questions.find(q => q.question_id === 'q-169e6d2d0e9153908c37');
+const stress = pathology.questions.find(q => q.question_id === 'q-230d831b0bcfa7495bda');
+
+test('archived items never enter new scored sessions, but their attempts and notes survive a release', () => {
+    const p = empty();
+    p.session = session([sling, retention, stress], 'learn', 'endless');
+    p.session.items.sort((a,b) => [retention,sling,stress].findIndex(q=>q.question_id===a.id) - [retention,sling,stress].findIndex(q=>q.question_id===b.id));
+    const [locked, old, draft] = p.session.items;
+    p.session.index = 1;
+    see(p, retention, locked);
+    locked.draft = retention.correct_index;
+    answer(p, retention, locked);
+    see(p, sling, old);
+    old.draft = sling.correct_index;
+    answer(p, sling, old);
+    draft.draft = 2;
+    p.flags[sling.question_id] = {question_id:sling.question_id, note:'Procedure-specific detail', status:'open'};
+    const migrated = validateImport(p,pathology.questions,[],pathology.retired_questions);
+    assert.equal(migrated.session.index, 1);
+    assert.deepEqual(migrated.session.items, [locked,draft]);
+    assert.ok(!migrated.session.pool.includes(sling.question_id));
+    assert.deepEqual(migrated.questions,p.questions);
+    assert.deepEqual(migrated.flags,p.flags);
+    assert.equal(p.session.items.length,3);
+    assert.ok(!filtered(pathology.questions,migrated).some(q=>q.question_id===sling.question_id));
+    assert.deepEqual(validateImport(migrated,pathology.questions,[],pathology.retired_questions),migrated);
+});
+
+test('partly archived case retains its ordered answers and wholly archived case keeps exam history', () => {
+    const current=clinical.cases.find(c=>c.case_id==='r27-tubal-lining');
+    const prefix=clinical.retired_questions.find(q=>q.question_id==='q-r27-tubal-lining-1');
+    const p=empty();
+    p.session=caseSession({...current,question_ids:[prefix.question_id,...current.question_ids]},oldById);
+    p.session.index=1;
+    const item=p.session.items[1];
+    const question=oldById[item.id];
+    see(p,question,item);
+    item.draft=question.correct_index;
+    answer(p,question,item);
+    const updated=validateImport(p,clinical.questions,clinical.cases,clinical.retired_questions);
+    assert.equal(updated.session.index,0);
+    assert.deepEqual(updated.session.items,p.session.items.slice(1));
+    p.session=caseSession(archive.cases[0],oldById);
+    p.session.complete=true;
+    p.exams.push({mode:'exam',correct:1,incorrect:0,unanswered:1,total:2});
+    const archived=validateImport(p,clinical.questions,clinical.cases,clinical.retired_questions);
+    assert.equal(archived.session,null);
+    assert.deepEqual(archived.exams,p.exams);
+});
