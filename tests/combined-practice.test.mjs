@@ -53,3 +53,22 @@ test('the lecture source filter includes every question in a case with a data ta
             caseDefinitions.get(table.case_id));
     }
 });
+
+test('short combined sessions reserve a shared image for its case when other drills fit', () => {
+    const question = (id, source, image, caseId) => ({
+        question_id: id,
+        source_group_id: source,
+        image,
+        options: ['a', 'b', 'c', 'd'],
+        ...(caseId && {case_id: caseId}),
+    });
+    const drill = question('drill', 'drill-source', 'shared');
+    const fillers = Array.from({length: 8}, (_, i) => question('filler-' + i, 'source-' + i, 'image-' + i));
+    const caseBlock = [question('case-1', 'case-source', 'shared', 'case'), question('case-2', 'case-source', 'other', 'case')];
+    const pools = [[drill, ...fillers], caseBlock];
+    const short = combinedSession(pools, 'learn', '10', () => 0.99).items.map(item => item.id);
+    assert.equal(short.length, 10);
+    assert.ok(!short.includes(drill.question_id));
+    assert.deepEqual(short.slice(short.indexOf('case-1'), short.indexOf('case-1') + 2), ['case-1', 'case-2']);
+    assert.equal(combinedSession(pools, 'learn', 'all').items.length, 11);
+});

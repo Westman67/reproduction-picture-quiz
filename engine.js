@@ -1,7 +1,14 @@
 export const VERSION=1;
+export const STUDY_SKILLS = {
+    morphology: 'Morphology and identification',
+    interpretation: 'Visual and data interpretation',
+    stain: 'Stain selection and interpretation',
+    mechanism: 'Mechanism',
+    management: 'Diagnosis and management',
+};
 export function sortLectureIds(ids){return [...new Set(ids)].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true,sensitivity:'base'}));}
-export function defaultSettings(){return {category:'all',origin:'all',collection:'all',filter:'all',mode:'learn',length:'all'};}
-export function normalizeSettings(raw,bank){const s=defaultSettings();if(!raw||typeof raw!=='object')return s;for(const [key,allowed] of Object.entries({origin:['all','lecture','third_party'],mode:['learn','exam'],length:['10','20','40','all','endless'],filter:['all','unseen','incorrect','marked'],category:['all',...new Set(bank.map(q=>q.category))]}))if(allowed.includes(raw[key]))s[key]=raw[key];const lectures=new Set(bank.map(q=>q.collection));if(Array.isArray(raw.collection)){const valid=[...new Set(raw.collection.filter(x=>lectures.has(x)))];s.collection=raw.collection.length&&!valid.length?'all':valid;}else if(lectures.has(raw.collection))s.collection=[raw.collection];return s;}
+export function defaultSettings(){return {category:'all',skill:'all',origin:'all',collection:'all',filter:'all',mode:'learn',length:'all'};}
+export function normalizeSettings(raw,bank){const s=defaultSettings();if(!raw||typeof raw!=='object')return s;for(const [key,allowed] of Object.entries({skill:['all',...Object.keys(STUDY_SKILLS)],origin:['all','lecture','third_party'],mode:['learn','exam'],length:['10','20','40','all','endless'],filter:['all','unseen','incorrect','marked'],category:['all',...new Set(bank.map(q=>q.category))]}))if(allowed.includes(raw[key]))s[key]=raw[key];const lectures=new Set(bank.map(q=>q.collection));if(Array.isArray(raw.collection)){const valid=[...new Set(raw.collection.filter(x=>lectures.has(x)))];s.collection=raw.collection.length&&!valid.length?'all':valid;}else if(lectures.has(raw.collection))s.collection=[raw.collection];return s;}
 export function sessionSize(available,length){return ['all','endless'].includes(length)?available:Math.min(available,Number(length));}
 export function empty(){return {schema_version:VERSION,questions:{},groups:{},concepts:{},flags:{},decisions:{},exams:[],session:null,applied_remediation_batches:[]};}
 export function reconcileFlags(p,batch){
@@ -19,13 +26,30 @@ export function reconcileFlags(p,batch){
  return resolved;
 }
 export function shuffle(a,rng=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-export function filtered(bank,p,{category='all',origin='all',collection='all',filter='all'}={}){
- return bank.filter(q=>(origin==='all'||q.source_origin===origin||origin==='lecture'&&q.source_origin==='lecture-table')&&(category==='all'||q.category===category)&&(origin==='third_party'||collection==='all'||(Array.isArray(collection)?collection.includes(q.collection):q.collection===collection))).filter(q=>{
+export function filtered(bank,p,{category='all',origin='all',collection='all',filter='all',skill='all'}={}){
+ return bank.filter(q=>(skill==='all'||q.study_skill===skill)&&(origin==='all'||q.source_origin===origin||origin==='lecture'&&q.source_origin==='lecture-table')&&(category==='all'||q.category===category)&&(origin==='third_party'||collection==='all'||(Array.isArray(collection)?collection.includes(q.collection):q.collection===collection))).filter(q=>{
  const x=p.questions[q.question_id]||{};return filter==='all'||filter==='unseen'&&!p.groups[q.source_group_id]?.times_seen||filter==='incorrect'&&x.last_result==='incorrect'||filter==='marked'&&x.marked;});
 }
 export function ordered(pool,rng=Math.random,previous=null){const groups=new Map(),used=new Map(),out=[];for(const q of shuffle(pool,rng)){const id=q.source_group_id;if(!groups.has(id)){groups.set(id,[]);used.set(id,0);}groups.get(id).push(q);}while(groups.size){const eligible=[...groups.keys()].filter(id=>id!==previous),choices=eligible.length?eligible:[...groups.keys()],minimum=Math.min(...choices.map(id=>used.get(id))),tied=choices.filter(id=>used.get(id)===minimum),id=tied[Math.floor(rng()*tied.length)],q=groups.get(id).shift();out.push(q);used.set(id,used.get(id)+1);if(!groups.get(id).length)groups.delete(id);previous=id;}return out;}
 export function item(q,rng=Math.random){return {id:q.question_id,attempt_id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${rng()}`,order:shuffle(q.options.map((_,index)=>index),rng),draft:null,locked:false,overridden:false,seen:false};}
 export function session(pool,mode='learn',length='all',rng=Math.random){let qs=ordered(pool,rng);if(length!=='all'&&length!=='endless')qs=qs.slice(0,Number(length));return {mode,items:qs.map(q=>item(q,rng)),index:0,complete:false,endless:length==='endless',pool:pool.map(q=>q.question_id)};}
+function visualKeys(question) {
+    return [question.source_group_id, question.image].filter(Boolean);
+}
+
+export function studySkillStats(questions, getCounts) {
+    const counts = {};
+    for (const question of questions) {
+        const skill = question.study_skill;
+        if (!Object.hasOwn(STUDY_SKILLS, skill)) continue;
+        const totals = counts[skill] ??= { correct: 0, answered: 0 };
+        const attempt = getCounts(question);
+        totals.correct += attempt?.correct ?? 0;
+        totals.answered += attempt?.answered ?? 0;
+    }
+    return counts;
+}
+
 export function combinedSession(sectionPools, mode, length, rng = Math.random) {
     const queues = sectionPools.map(questions => {
         if (!questions[0]?.case_id) return ordered(questions, rng).map(question => [question]);
@@ -37,15 +61,37 @@ export function combinedSession(sectionPools, mode, length, rng = Math.random) {
         return shuffle([...blocks.values()], rng);
     });
     const limit = length === 'all' ? Infinity : Number(length);
+    const caseVisuals = new Set(sectionPools.flat().filter(q => q.case_id).flatMap(visualKeys));
     const questions = [];
+    const lastSeen = new Map();
     let advanced = true;
     while (advanced && questions.length < limit) {
         advanced = false;
         for (const queue of queues) {
-            const index = queue.findIndex(block => block.length <= limit - questions.length);
-            if (index === -1) continue;
-            const [block] = queue.splice(index, 1);
-            questions.push(...block);
+            const candidates = queue.filter(block => block.length <= limit - questions.length);
+            if (!candidates.length) continue;
+            let best = candidates[0];
+            let bestScore = -Infinity;
+            for (const block of candidates) {
+                const keys = block.flatMap(visualKeys);
+                const repeated = keys.some(key => lastSeen.has(key));
+                const reserved = limit !== Infinity && !block[0].case_id &&
+                    keys.some(key => caseVisuals.has(key));
+                const age = repeated
+                    ? questions.length - Math.max(...keys.map(key => lastSeen.get(key) ?? -Infinity))
+                    : Infinity;
+                const score = Math.min(age, 8) - (reserved ? 9 : 0);
+                if (score > bestScore) {
+                    best = block;
+                    bestScore = score;
+                }
+                if (bestScore === 8) break;
+            }
+            queue.splice(queue.indexOf(best), 1);
+            for (const question of best) {
+                for (const key of visualKeys(question)) lastSeen.set(key, questions.length);
+                questions.push(question);
+            }
             advanced = true;
         }
     }

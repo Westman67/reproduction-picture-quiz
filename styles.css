@@ -39,3 +39,34 @@
 .question-table thead th{background:#edf5f0;overflow-wrap:normal}
 .question-table tbody th{font-weight:600}
 .table-mask{display:block;min-height:1.2em;min-width:2em;background:#000}
+
+.skill-report table { width: 100%; border-collapse: collapse; }
+.skill-report th, .skill-report td { padding: .4rem .55rem; text-align: left; border-bottom: 1px solid #d9e4df; }
+.feedback-visual { margin: 1rem 0; }
+.feedback-field { position: relative; display: inline-block; max-width: 100%; }
+.feedback-field img { display: block; width: 100%; max-width: 32rem; height: auto; }
+.focus-pin {
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #17281f;
+    width: 1rem;
+    height: 1rem;
+}
+.focus-pin span {
+    position: absolute;
+    left: 90%;
+    bottom: 85%;
+    border-radius: 50%;
+    color: white;
+    background: #174438;
+    font-weight: 700;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: grid;
+    place-items: center;
+    font-size: .85rem;
+}

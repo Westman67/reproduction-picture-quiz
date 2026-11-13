@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "step1-third-screen",
+  "bank_version": "study-skills1",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -49,7 +49,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Using both panels, which pair of plotted ranges has the earliest left boundary for its sex?",
@@ -96,7 +97,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Where is the positive brown immunostaining located in this field?",
@@ -143,7 +145,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which organism form crosses the squamous cells in this smear?",
@@ -190,7 +193,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination of nuclear changes is most evident in the large blue cells?",
@@ -237,7 +241,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination of epidermal and superficial dermal changes is visible in this vulvar biopsy?",
@@ -284,7 +289,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which finding is visible within the smooth muscle in this uterine section?",
@@ -331,7 +337,20 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 22,
+          "y": 53,
+          "label": "Endometrial gland with adjacent darker stroma within smooth muscle."
+        },
+        {
+          "x": 66,
+          "y": 74,
+          "label": "Another irregular gland profile in the myometrium."
+        }
+      ]
     },
     {
       "stem": "Which named structure is visible in this ovarian tumor field?",
@@ -378,7 +397,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which tumor-cell morphology is prominent in this field?",
@@ -425,7 +445,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What are the brightly eosinophilic rodlike structures in the cytoplasm?",
@@ -472,7 +493,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural structure is present at the center of this field?",
@@ -519,7 +541,15 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 52,
+          "y": 63,
+          "label": "Central capillary within a stromal core surrounded by tumor epithelium."
+        }
+      ]
     },
     {
       "stem": "Which follicular change is evident in this ovarian section?",
@@ -566,7 +596,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare panels D and E. How does ureteral duplication differ in the kidney on the image right of each panel?",
@@ -613,7 +644,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which congenital renal configuration is demonstrated by the complete specimen?",
@@ -659,10 +691,11 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "stem": "Which level of the axis is marked as impaired?",
       "options": [
         "Hypothalamic level",
         "Anterior pituitary level",
@@ -699,16 +732,17 @@
       "visual_clues": [
         "The red cross lies over the hypothalamic brain image, upstream of the GnRH arrow."
       ],
-      "visual_target": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "visual_target": "Which level of the axis is marked as impaired?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "stem": "Which level of the axis is marked as impaired?",
       "options": [
         "Hypothalamic level",
         "Anterior pituitary level",
@@ -745,13 +779,14 @@
       "visual_clues": [
         "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow."
       ],
-      "visual_target": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
+      "visual_target": "Which level of the axis is marked as impaired?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What accounts for the densely stippled surface of the large squamous cells in the center of this Pap smear?",
@@ -798,7 +833,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural pattern is present in this complete low-power squamous lesion panel?",
@@ -845,7 +881,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which change dominates the epidermis in this vulvar biopsy?",
@@ -892,7 +929,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Consider both organism profiles together. Which morphology is demonstrated?",
@@ -939,7 +977,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In this vulvar biopsy, where are the conspicuous large pale cells located?",
@@ -986,7 +1025,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Inspect the cells lining the open glandular spaces, especially at the right edge. Which feature is shown?",
@@ -1033,7 +1073,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination of features surrounds the elongated gland in this supplied extrauterine tissue section?",
@@ -1080,7 +1121,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which named feature is represented by the rounded pink whorls within this cervical tumor?",
@@ -1127,7 +1169,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which description best fits the surface lining in this urinary collecting-system section?",
@@ -1174,23 +1217,24 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "How are the dark tumor nests distributed relative to the broad pink smooth muscle bundles in this bladder specimen?",
       "options": [
-        "Tumor is confined to a flat luminal epithelial lining",
-        "Tumor forms only delicate papillae around vascular cores",
-        "Tumor floats only within an otherwise empty gland lumen",
-        "Tumor nests infiltrate between and separate muscle bundles"
+        "Tumor cells remain on the mucosal surface",
+        "Tumor cells lie below the surface but stop above muscle",
+        "Tumor cells press against muscle but remain separated from it",
+        "Tumor nests infiltrate between the smooth muscle bundles"
       ],
       "correct_index": 3,
-      "explanation": "Irregular dark nests and cords extend among broad eosinophilic muscle bundles throughout the field.",
+      "explanation": "The dark epithelial nests extend among and separate broad pink smooth muscle bundles.",
       "choice_rationales": [
-        "The nests extend through the muscle field rather than remaining on a surface epithelial lining.",
-        "There are no delicate exophytic fibrovascular papillae explaining this infiltrative pattern.",
-        "The nests are embedded between muscle bundles, not floating within a gland lumen.",
-        "Irregular dark nests and cords extend among broad eosinophilic muscle bundles throughout the field."
+        "Dark epithelial nests extend into deeper tissue.",
+        "Dark nests are present between the broad smooth muscle bundles.",
+        "The bundles are interspersed with dark tumor nests.",
+        "The dark epithelial nests extend among and separate broad pink smooth muscle bundles."
       ],
       "question_id": "q-8fd0498140bd8d97530f",
       "source_id": "s-1be67aad3476dbacd061",
@@ -1221,7 +1265,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which pattern is present in the urothelial lining of this bladder biopsy?",
@@ -1268,7 +1313,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What do the two black arrows identify in this histiocyte-rich bladder lesion?",
@@ -1315,7 +1361,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which description best fits the multiple dark structures in this bladder-associated microscopic panel?",
@@ -1362,7 +1409,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which abnormality is visible within the contrast-filled uterine cavity on this hysterosalpingogram?",
@@ -1408,7 +1456,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "In this supplied sagittal pelvic MRI, what structural finding is illustrated at the white arrow between the bladder and rectum?",
@@ -1454,7 +1503,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which description best fits the uterine cavity on this hysterosalpingogram?",
@@ -1500,7 +1550,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Compare panels A and B together. Which difference in the seminiferous epithelium is visible in panel B?",
@@ -1547,7 +1598,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the dark lower squamous cell with the cleaner cells above it. Which finding does the lower cell demonstrate?",
@@ -1594,7 +1646,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What relationship between the filamentous forms and squamous cells produces the shish kebab appearance in this smear?",
@@ -1641,7 +1694,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which finding near the surface should prompt a search for organisms in this biopsy?",
@@ -1688,7 +1742,15 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 56,
+          "y": 39,
+          "label": "Small dark neutrophil cluster in the superficial keratin."
+        }
+      ]
     },
     {
       "stem": "Which gross surface pattern is present in this anogenital photograph?",
@@ -1735,7 +1797,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cytopathic change is present in the larger squamous cells toward the center of this section?",
@@ -1782,7 +1845,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which low-power tissue change dominates this blister-edge biopsy?",
@@ -1829,7 +1893,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which viral cytopathic feature is visible within the large injured squamous cells?",
@@ -1876,7 +1941,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination best describes this vaginal smear?",
@@ -1923,7 +1989,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the basal and superficial portions of this vaginal epithelium. Which change occurs toward the top?",
@@ -1970,7 +2037,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Consider the low-power upper panel and high-power lower panel together. Which architecture defines this vulvar lesion?",
@@ -2017,7 +2085,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which compartment contains the broad pale abnormal zone in this penile biopsy?",
@@ -2064,7 +2133,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cells form the basal compartment along the lower epithelial border?",
@@ -2111,7 +2181,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature is visible above the viable squamous epithelium?",
@@ -2158,7 +2229,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What does the source arrow identify in this Pap smear?",
@@ -2205,23 +2277,24 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature favors a high-grade intraepithelial lesion over normally maturing vaginal squamous epithelium?",
       "options": [
-        "Orderly flattening with uniformly tiny surface nuclei",
-        "A broad acellular sclerotic dermal band",
-        "Atypical crowded nuclei extend toward the surface",
-        "Only small basal nuclei are present"
+        "Cells become flatter and nuclei smaller near the surface",
+        "Atypical cells are confined to the lowest epithelial rows",
+        "Crowded atypical nuclei extend toward the surface",
+        "The superficial nuclei are uniform despite basal crowding"
       ],
       "correct_index": 2,
-      "explanation": "The epithelial thickness is occupied by crowded irregular hyperchromatic nuclei with reduced surface maturation.",
+      "explanation": "Atypical nuclei persist high in the epithelium, where normal maturation would make them less prominent.",
       "choice_rationales": [
-        "The surface lacks the orderly flattening and tiny uniform nuclei of normal maturation.",
-        "The dominant finding is cellular epithelial atypia rather than a pale dermal collagen band.",
-        "The epithelial thickness is occupied by crowded irregular hyperchromatic nuclei with reduced surface maturation.",
-        "The abnormal dark nuclei extend well above a single basal layer."
+        "The superficial cells remain crowded and have conspicuous nuclei.",
+        "The atypia extends well beyond the basal region.",
+        "Atypical nuclei persist high in the epithelium, where normal maturation would make them less prominent.",
+        "The nuclei remain conspicuous and atypical close to the surface."
       ],
       "visual_clues": [
         "The epithelial thickness is occupied by crowded irregular hyperchromatic nuclei with reduced surface maturation.",
@@ -2252,23 +2325,31 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 52,
+          "y": 15,
+          "label": "Crowded nuclei persist near the epithelial surface."
+        }
+      ]
     },
     {
       "stem": "In this supplied p16 immunostain, which compartment shows the strong brown staining?",
       "options": [
-        "Only the acellular surface keratin",
+        "The superficial keratin layer",
         "The squamous epithelial lesion",
-        "Only the underlying connective tissue",
-        "Only intravascular red blood cells"
+        "The connective tissue beneath the epithelium",
+        "The vascular spaces beneath the epithelium"
       ],
       "correct_index": 1,
-      "explanation": "Strong brown staining occupies the thick epithelial proliferation while the underlying stroma is much paler.",
+      "explanation": "The brown signal occupies the abnormal squamous epithelium.",
       "choice_rationales": [
-        "Signal extends throughout viable epithelial cells rather than being restricted to surface keratin.",
-        "Strong brown staining occupies the thick epithelial proliferation while the underlying stroma is much paler.",
-        "The connective tissue beneath the epithelial border is relatively pale.",
-        "The brown signal follows epithelial cells rather than isolated vascular lumina."
+        "The brown stain is concentrated in the cellular lesion below the superficial keratin.",
+        "The brown signal occupies the abnormal squamous epithelium.",
+        "The underlying stroma is paler than the dark epithelial lesion.",
+        "The brown region spans contiguous epithelium rather than individual vessel lumina."
       ],
       "visual_clues": [
         "Strong brown staining occupies the thick epithelial proliferation while the underlying stroma is much paler.",
@@ -2299,7 +2380,20 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 42,
+          "y": 59,
+          "label": "Strong brown signal across the squamous epithelial lesion."
+        },
+        {
+          "x": 45,
+          "y": 93,
+          "label": "Paler stroma beneath the lesion."
+        }
+      ]
     },
     {
       "stem": "Which gross pattern is present in this bisected vaginal nodule?",
@@ -2346,7 +2440,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which finding supports squamous differentiation in this vaginal tumor?",
@@ -2393,7 +2488,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural feature distinguishes this lesion from a purely intraepithelial process?",
@@ -2440,7 +2536,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which organism pattern is present in the superficial keratin of this biopsy?",
@@ -2487,10 +2584,18 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 46,
+          "y": 47,
+          "label": "Elongated branching forms in superficial keratin."
+        }
+      ]
     },
     {
-      "stem": "Which supplied vulvar lesion best fits the large pale atypical cells scattered among keratinocytes?",
+      "stem": "Which vulvar diagnosis best fits the abnormal epidermal cells in this biopsy?",
       "options": [
         "Lichen sclerosus",
         "Condyloma acuminatum",
@@ -2528,13 +2633,14 @@
           "page": 53
         }
       ],
-      "visual_target": "Which supplied vulvar lesion best fits the large pale atypical cells scattered among keratinocytes?",
+      "visual_target": "Which vulvar diagnosis best fits the abnormal epidermal cells in this biopsy?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "management"
     },
     {
       "stem": "Which epithelial pattern is present in this vulvar section?",
@@ -2581,7 +2687,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "How is atypia distributed in this vulvar epithelium?",
@@ -2628,10 +2735,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which pattern is present in this invasive vulvar tumor?",
+      "stem": "Which growth pattern is visible in this vulvar tumor?",
       "options": [
         "Large squamous nests filled with concentric keratin pearls",
         "Papillary glands lined by bland columnar cells",
@@ -2669,13 +2777,14 @@
           "page": 55
         }
       ],
-      "visual_target": "Which pattern is present in this invasive vulvar tumor?",
+      "visual_target": "Which growth pattern is visible in this vulvar tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination is demonstrated in this complete vulvar tumor panel?",
@@ -2722,7 +2831,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the dark glandular lining at the arrow with the adjacent paler lining. Which change is present?",
@@ -2769,7 +2879,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which nuclear feature is visible in these crowded endometrial glands?",
@@ -2816,10 +2927,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which description best fits this supplied basal-cell cytology example?",
+      "stem": "Which description best fits the squamous cells in this cytology field?",
       "options": [
         "Large flat squamous cells with tiny pyknotic nuclei",
         "Long branching fungal filaments",
@@ -2857,13 +2969,14 @@
           "page": 20
         }
       ],
-      "visual_target": "Which description best fits this supplied basal-cell cytology example?",
+      "visual_target": "Which description best fits the squamous cells in this cytology field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare panel A at left with panel B at right. What relationship does the supplied uterine tumor example demonstrate?",
@@ -2910,7 +3023,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which differentiation pattern dominates this cervical tumor?",
@@ -2957,7 +3071,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination is present in this ovarian tumor?",
@@ -3004,7 +3119,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which microscopic pattern is visible in this supplied ovarian embryonal carcinoma field?",
@@ -3051,23 +3167,24 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Compare the routine section at left with the supplied p53 immunostain at right. Where is the brown signal concentrated?",
+      "stem": "Compare the routine section at left with the p53 immunostain at right. Which compartment contains the strongest brown signal?",
       "options": [
-        "Only in extracellular stromal collagen",
-        "Only in red blood cells",
-        "In tumor-cell nuclei",
-        "Only within glandular luminal secretions"
+        "Stromal cell nuclei",
+        "Epithelial cell membranes",
+        "Tumor cell nuclei",
+        "Gland lumina"
       ],
       "correct_index": 2,
-      "explanation": "The immunostain shows numerous brown tumor-cell nuclei corresponding to the atypical epithelial proliferation.",
+      "explanation": "Brown nuclear staining is most conspicuous in the crowded tumor epithelium.",
       "choice_rationales": [
-        "Brown signal follows epithelial nuclei rather than diffuse stromal collagen.",
-        "Brown staining aligns with tumor nuclei, rather than small anucleate red cells in vessels.",
-        "The immunostain shows numerous brown tumor-cell nuclei corresponding to the atypical epithelial proliferation.",
-        "The signal is inside nuclei in the lining rather than material free in the lumina."
+        "The conspicuous brown nuclei are concentrated in crowded epithelial profiles.",
+        "The strong brown signal is inside nuclei rather than tracing cell borders.",
+        "Brown nuclear staining is most conspicuous in the crowded tumor epithelium.",
+        "The central lumina are pale relative to the stained epithelial nuclei around them."
       ],
       "visual_clues": [
         "The immunostain shows numerous brown tumor-cell nuclei corresponding to the atypical epithelial proliferation.",
@@ -3092,13 +3209,26 @@
           "page": 52
         }
       ],
-      "visual_target": "Compare the routine section at left with the supplied p53 immunostain at right. Where is the brown signal concentrated?",
+      "visual_target": "Compare the routine section at left with the p53 immunostain at right. Which compartment contains the strongest brown signal?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 32,
+          "y": 67,
+          "label": "Routine section for assessing the epithelial and stromal relationship."
+        },
+        {
+          "x": 78,
+          "y": 46,
+          "label": "Crowded brown nuclei in the epithelial profiles on the p53 stain."
+        }
+      ]
     },
     {
       "stem": "Compare the microscopic panels B through D. How does the amount of gland formation change across the three tumor examples?",
@@ -3145,7 +3275,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which gross pattern is shown by this cut ovarian tumor?",
@@ -3192,7 +3323,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which microscopic arrangement is present in this ovarian stromal tumor?",
@@ -3239,7 +3371,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which gross pattern is present in this supplied ovary?",
@@ -3286,10 +3419,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which nuclear feature is visible in this supplied granulosa-cell tumor field?",
+      "stem": "Which nuclear feature is visible in the cells of this ovarian tumor?",
       "options": [
         "Longitudinal grooves in relatively uniform oval nuclei",
         "Multiple nuclei molded together in giant cells",
@@ -3327,13 +3461,14 @@
           "page": 105
         }
       ],
-      "visual_target": "Which nuclear feature is visible in this supplied granulosa-cell tumor field?",
+      "visual_target": "Which nuclear feature is visible in the cells of this ovarian tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature distinguishes this cervical epithelium from a normally maturing squamous lining?",
@@ -3380,7 +3515,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What does the source arrow highlight within this ovarian tumor?",
@@ -3427,7 +3563,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which nuclear arrangement is retained in this endometrial gland?",
@@ -3474,7 +3611,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which low-power glandular pattern is present in this endometrium?",
@@ -3521,10 +3659,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which component is present in this supplied ovarian teratoma section?",
+      "stem": "Which component is present in this ovarian tumor section?",
       "options": [
         "Bland storiform spindle-cell fascicles",
         "Concentric keratin pearls in invasive squamous nests",
@@ -3562,13 +3701,14 @@
           "page": 93
         }
       ],
-      "visual_target": "Which component is present in this supplied ovarian teratoma section?",
+      "visual_target": "Which component is present in this ovarian tumor section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cytologic change is visible in these cervical squamous cells?",
@@ -3615,7 +3755,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Consider the gross panel at left and the microscopic panel at right together. Which combination is shown?",
@@ -3662,7 +3803,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the large lower mass with the paler rounded nodules above it. Which gross feature is conspicuous in the lower mass?",
@@ -3709,7 +3851,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What combination is visible in this supplied uterine smooth muscle tumor?",
@@ -3756,10 +3899,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which gross feature supports the supplied dermoid cyst example?",
+      "stem": "Which feature is visible inside the opened ovarian cyst?",
       "options": [
         "A solid tumor made entirely of papillary fronds",
         "Hair within an opened cystic cavity",
@@ -3797,13 +3941,14 @@
           "page": 92
         }
       ],
-      "visual_target": "Which gross feature supports the supplied dermoid cyst example?",
+      "visual_target": "Which feature is visible inside the opened ovarian cyst?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which combination of differentiated structures is visible in this ovarian tumor?",
@@ -3850,7 +3995,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which microscopic feature is present in this supplied mucinous ovarian tumor?",
@@ -3897,7 +4043,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which gross architecture is conspicuous in this ovarian tumor?",
@@ -3944,10 +4091,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which epithelial pattern lines the cystic space in this supplied mucinous cystadenoma?",
+      "stem": "Which epithelial pattern lines the cystic space in this ovarian section?",
       "options": [
         "Crowded multilayered atypical papillary epithelium",
         "Stratified keratinizing squamous epithelium with hair follicles",
@@ -3985,13 +4133,14 @@
           "page": 77
         }
       ],
-      "visual_target": "Which epithelial pattern lines the cystic space in this supplied mucinous cystadenoma?",
+      "visual_target": "Which epithelial pattern lines the cystic space in this ovarian section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which tissue dominates this normal omental section?",
@@ -4038,7 +4187,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which abnormal gross pattern is shown in the supplied omental specimen?",
@@ -4085,7 +4235,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which finding distinguishes this abnormal omental section from normal fat?",
@@ -4132,7 +4283,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What do the source arrows identify within this ovarian tumor?",
@@ -4179,10 +4331,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which arrangement is visible in this supplied ovarian metastasis from breast carcinoma?",
+      "stem": "Which arrangement is visible in this ovarian tumor section?",
       "options": [
         "Large colloid-filled thyroid follicles",
         "A normal multilayered follicle surrounding one oocyte",
@@ -4220,13 +4373,14 @@
           "page": 111
         }
       ],
-      "visual_target": "Which arrangement is visible in this supplied ovarian metastasis from breast carcinoma?",
+      "visual_target": "Which arrangement is visible in this ovarian tumor section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What does the longer source arrow identify in this ovarian section?",
@@ -4273,7 +4427,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What does the source arrowhead identify around the central oocyte?",
@@ -4320,23 +4475,24 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which feature is visible in this supplied serous ovarian carcinoma section?",
+      "stem": "How does the epithelial proliferation relate to the supporting tissue in this ovarian section?",
       "options": [
-        "A single bland epithelial layer over a simple papillary core",
-        "Mature skin with sebaceous appendages",
-        "Only clear adipose tissue without tumor",
-        "Complex epithelial tumor infiltrating the underlying stroma"
+        "A thin epithelial lining rests on a broad papillary core",
+        "Crowded epithelium remains confined to an intact cyst lining",
+        "The papillary cores are bare and the underlying stroma is free of epithelium",
+        "Complex epithelial groups extend into the underlying stroma"
       ],
       "correct_index": 3,
-      "explanation": "Complex crowded epithelial glands and nests extend into the underlying stroma.",
+      "explanation": "Crowded epithelial nests and glands extend into supporting tissue.",
       "choice_rationales": [
-        "The crowded epithelium extends into the supporting tissue rather than remaining as a thin covering.",
-        "Irregular glandular tumor profiles predominate rather than differentiated skin appendages.",
-        "The stroma contains complex epithelial nests and glands instead of only open fat spaces.",
-        "Complex crowded epithelial glands and nests extend into the underlying stroma."
+        "The epithelium is crowded and extends into supporting tissue.",
+        "Complex epithelial profiles are visible in supporting tissue rather than along a single cyst surface.",
+        "The cores are covered by epithelium, and epithelial groups are also present in the supporting tissue.",
+        "Crowded epithelial nests and glands extend into supporting tissue."
       ],
       "visual_clues": [
         "Complex crowded epithelial glands and nests extend into the underlying stroma.",
@@ -4361,16 +4517,17 @@
           "page": 71
         }
       ],
-      "visual_target": "Which feature is visible in this supplied serous ovarian carcinoma section?",
+      "visual_target": "How does the epithelial proliferation relate to the supporting tissue in this ovarian section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which pattern is visible in this benign papillary serous ovarian lesion?",
+      "stem": "What relationship between the epithelium and stromal cores is visible in this ovarian section?",
       "options": [
         "Concentric keratin pearls within squamous nests",
         "Primitive neuroepithelial rosettes without stromal papillae",
@@ -4408,13 +4565,14 @@
           "page": 71
         }
       ],
-      "visual_target": "Which pattern is visible in this benign papillary serous ovarian lesion?",
+      "visual_target": "What relationship between the epithelium and stromal cores is visible in this ovarian section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which pattern supports the proliferative phase in this endometrial section?",
@@ -4461,10 +4619,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which feature distinguishes this supplied secretory endometrium from the proliferative example?",
+      "stem": "Which feature favors secretory over proliferative endometrium in this field?",
       "options": [
         "Rounded gland profiles with epithelial vacuolation",
         "Only straight tubular glands with uniform pseudostratification",
@@ -4502,13 +4661,14 @@
           "page": 81
         }
       ],
-      "visual_target": "Which feature distinguishes this supplied secretory endometrium from the proliferative example?",
+      "visual_target": "Which feature favors secretory over proliferative endometrium in this field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Where is the conspicuous pale cytoplasm located in this secretory endometrial gland?",
@@ -4555,10 +4715,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Compare both panels. Which difference is visible in the right-hand high-grade example?",
+      "stem": "Which difference is visible in the right-hand panel?",
       "options": [
         "Replacement of all epithelial cells by mature adipocytes",
         "A complete absence of epithelial proliferation",
@@ -4596,16 +4757,17 @@
           "page": 75
         }
       ],
-      "visual_target": "Compare both panels. Which difference is visible in the right-hand high-grade example?",
+      "visual_target": "Which difference is visible in the right-hand panel?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which pattern is present in this supplied serous cystadenoma section?",
+      "stem": "Which pattern is present in this ovarian section?",
       "options": [
         "Thick sebaceous lobules surrounding a hair follicle",
         "Large cystic spaces bordered by a thin bland epithelial lining",
@@ -4643,16 +4805,17 @@
           "page": 70
         }
       ],
-      "visual_target": "Which pattern is present in this supplied serous cystadenoma section?",
+      "visual_target": "Which pattern is present in this ovarian section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which microscopic pattern is present in this supplied sex-cord stromal tumor?",
+      "stem": "Which microscopic pattern is present in this ovarian tumor?",
       "options": [
         "Tubules lined by Sertoli-like cells separated by intervening stroma",
         "Thyroid follicles filled with dense colloid",
@@ -4690,13 +4853,14 @@
           "page": 106
         }
       ],
-      "visual_target": "Which microscopic pattern is present in this supplied sex-cord stromal tumor?",
+      "visual_target": "Which microscopic pattern is present in this ovarian tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which differentiated tissue pattern is present in this supplied ovarian lesion?",
@@ -4743,10 +4907,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which cellular pattern is visible in this supplied thecoma section?",
+      "stem": "Which cellular pattern is visible in this ovarian tumor?",
       "options": [
         "Primitive neuroepithelial tubules with dense dark nuclei",
         "Spindle to plump cells with pale or vacuolated cytoplasm",
@@ -4784,29 +4949,30 @@
           "page": 102
         }
       ],
-      "visual_target": "Which cellular pattern is visible in this supplied thecoma section?",
+      "visual_target": "Which cellular pattern is visible in this ovarian tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which architecture is visible in this supplied yolk sac tumor field?",
+      "stem": "Which architecture is visible in this ovarian tumor field?",
       "options": [
-        "A loose reticular network of tumor cells around irregular spaces",
-        "Dense concentric keratin pearls",
-        "Uniform solid white collagenous fascicles",
-        "Mature skin with sebaceous lobules"
+        "A lace-like network of tumor cells around irregular spaces",
+        "Tightly packed tumor nests with small round lumina",
+        "Broad papillary fronds with prominent stromal cores",
+        "Solid sheets of tumor cells with few open spaces"
       ],
       "correct_index": 0,
-      "explanation": "Tumor cells form a loose lace-like reticular network around variably shaped open spaces.",
+      "explanation": "Thin cellular strands surround irregular open spaces in a reticular pattern.",
       "choice_rationales": [
-        "Tumor cells form a loose lace-like reticular network around variably shaped open spaces.",
-        "The thin cellular strands surround irregular spaces rather than concentric pink whorls.",
-        "A mesh of epithelial cells outlines irregular clear spaces rather than solid parallel fascicles.",
-        "The field lacks recognizable skin structures or mature sebaceous lobules."
+        "Thin cellular strands surround irregular open spaces in a reticular pattern.",
+        "The open spaces are irregular and separated by loose strands instead of compact nests.",
+        "The thin intersecting strands form a network without broad stromal cores.",
+        "The irregular open spaces occupy much of the field."
       ],
       "visual_clues": [
         "Tumor cells form a loose lace-like reticular network around variably shaped open spaces.",
@@ -4831,13 +4997,21 @@
           "page": 97
         }
       ],
-      "visual_target": "Which architecture is visible in this supplied yolk sac tumor field?",
+      "visual_target": "Which architecture is visible in this ovarian tumor field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 51,
+          "y": 54,
+          "label": "Tumor cells form a loose network around irregular pale spaces."
+        }
+      ]
     },
     {
       "stem": "Which mature tissue occupies the large rounded central area of this ovarian teratoma section?",
@@ -4884,10 +5058,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which arrangement is present in this supplied bladder adenocarcinoma-in-situ example?",
+      "stem": "Where are the atypical glandular profiles concentrated in this bladder section?",
       "options": [
         "Concentric squamous keratin pearls in deep nests",
         "Bland urothelial nests with smooth borders and no atypia",
@@ -4925,13 +5100,14 @@
           "page": 42
         }
       ],
-      "visual_target": "Which arrangement is present in this supplied bladder adenocarcinoma-in-situ example?",
+      "visual_target": "Where are the atypical glandular profiles concentrated in this bladder section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which microscopic differentiation pattern is present in this bladder tumor?",
@@ -4978,7 +5154,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural feature is visible in this bladder adenocarcinoma section?",
@@ -5025,7 +5202,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which congenital structural abnormality is demonstrated in this supplied clinical image?",
@@ -5072,7 +5250,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which reactive urothelial pattern is shown beneath the bladder lining?",
@@ -5119,7 +5298,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Where is the dense inflammatory infiltrate concentrated in this bladder biopsy?",
@@ -5166,7 +5346,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature distinguishes these reactive urothelial nests from solid Brunn nests?",
@@ -5213,7 +5394,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cells form the luminal cap of these folded collecting-system mucosal profiles?",
@@ -5260,10 +5442,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which nuclear finding is conspicuous in this supplied high-grade urothelial tumor?",
+      "stem": "Which nuclear finding is conspicuous in the urothelial cells?",
       "options": [
         "Longitudinal grooves in otherwise uniform granulosa cells",
         "Marked variation in nuclear size and shape with disordered polarity",
@@ -5301,13 +5484,14 @@
           "page": 29
         }
       ],
-      "visual_target": "Which nuclear finding is conspicuous in this supplied high-grade urothelial tumor?",
+      "visual_target": "Which nuclear finding is conspicuous in the urothelial cells?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What change is present in the pale disrupted area indicated by the source arrow?",
@@ -5354,10 +5538,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which cytologic pattern is present in this supplied low-grade papillary urothelial tumor?",
+      "stem": "Which cytologic pattern is visible in the lining of these papillae?",
       "options": [
         "Large vacuoles pushing every nucleus to the cell edge",
         "A uniform layer of anucleate surface keratin",
@@ -5395,13 +5580,14 @@
           "page": 28
         }
       ],
-      "visual_target": "Which cytologic pattern is present in this supplied low-grade papillary urothelial tumor?",
+      "visual_target": "Which cytologic pattern is visible in the lining of these papillae?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which structure runs through the center of the broad papillary profile?",
@@ -5448,7 +5634,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which tissue relationship is visible in this mucinous bladder tumor?",
@@ -5495,10 +5682,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which low-power architecture is present in this supplied bladder papilloma?",
+      "stem": "Which low-power architecture is present in this bladder lesion?",
       "options": [
         "Diffuse small tumor cords invading muscle",
         "Subepithelial glands floating in mucin lakes",
@@ -5536,13 +5724,14 @@
           "page": 25
         }
       ],
-      "visual_target": "Which low-power architecture is present in this supplied bladder papilloma?",
+      "visual_target": "Which low-power architecture is present in this bladder lesion?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What is visible in the central core of the upper circular papillary profile?",
@@ -5589,7 +5778,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which visible relationship is present in this penile photograph?",
@@ -5636,7 +5826,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which surface morphology is present in the supplied penile lesion?",
@@ -5683,7 +5874,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cellular feature does the blue source arrow identify?",
@@ -5730,7 +5922,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cellular pattern is present in this supplied bladder adenocarcinoma field?",
@@ -5777,7 +5970,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural feature is visible in this bladder tumor section?",
@@ -5824,7 +6018,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which pattern is present in this supplied urachal remnant section?",
@@ -5871,7 +6066,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What does the red source arrow highlight in this urine cytology specimen?",
@@ -5918,10 +6114,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which cells dominate this supplied corpus luteum field?",
+      "stem": "Which cells dominate this ovarian field?",
       "options": [
         "Tall ciliated cells surrounding one lumen",
         "Large pale granulosa lutein cells",
@@ -5929,10 +6126,10 @@
         "Small dark cells arranged in lymphoid follicles"
       ],
       "correct_index": 1,
-      "explanation": "The dominant cells are large and polygonal with abundant pale pink cytoplasm and rounded nuclei.",
+      "explanation": "The R9 corpus luteum section shows large pale granulosa lutein cells.",
       "choice_rationales": [
         "The cells form broad groups without a ciliated luminal border.",
-        "The dominant cells are large and polygonal with abundant pale pink cytoplasm and rounded nuclei.",
+        "The R9 corpus luteum section shows large pale granulosa lutein cells.",
         "The cells retain rounded nuclei and substantial cytoplasm rather than forming an anucleate surface layer.",
         "The dominant cells are large pale epithelial-like cells, not small lymphocytes in follicles."
       ],
@@ -5959,13 +6156,14 @@
           "page": 19
         }
       ],
-      "visual_target": "Which cells dominate this supplied corpus luteum field?",
+      "visual_target": "Which cells dominate this ovarian field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural feature is conspicuous in this uterine tube cross-section?",
@@ -6012,7 +6210,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What do the two upper long source arrows identify?",
@@ -6059,7 +6258,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the tissue immediately around the small glands on the left with the broad pink area on the right. Which distinction is visible?",
@@ -6106,7 +6306,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In this supplied smooth muscle actin stain, where is the prominent brown staining around the glands?",
@@ -6153,7 +6354,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain"
     },
     {
       "stem": "Which cells border the large open glandular lumen?",
@@ -6200,7 +6402,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What lies outside the glandular epithelial lining in this prostate field?",
@@ -6247,7 +6450,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In this supplied p63 stain, which compartment contains the brown nuclei?",
@@ -6294,7 +6498,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain"
     },
     {
       "stem": "Which region provides an internal positive control for the basal-cell stain?",
@@ -6341,7 +6546,15 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 11,
+          "y": 88,
+          "label": "Peripheral brown nuclei in a larger gland provide a positive control."
+        }
+      ]
     },
     {
       "stem": "Compare the small crowded glands with the larger lower-left glands. What feature makes the small glands suspicious in this source example?",
@@ -6388,7 +6601,15 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 11,
+          "y": 88,
+          "label": "Peripheral brown nuclei in a larger gland provide a positive control."
+        }
+      ]
     },
     {
       "stem": "Which cells form the luminal surface along the left edge of this bladder lining?",
@@ -6435,7 +6656,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which epithelial maturation pattern is visible at the vaginal surface?",
@@ -6482,10 +6704,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "In this supplied complete androgen insensitivity example, where are the paired gonads marked by the arrowheads?",
+      "stem": "Where are the paired gonads marked by the arrowheads?",
       "options": [
         "Posterior to the rectum",
         "In the anterior inguinal regions",
@@ -6523,16 +6746,17 @@
           "page": 23
         }
       ],
-      "visual_target": "In this supplied complete androgen insensitivity example, where are the paired gonads marked by the arrowheads?",
+      "visual_target": "Where are the paired gonads marked by the arrowheads?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "In this supplied septate uterus example, what happens to the bright endometrial cavity toward the fundus?",
+      "stem": "What happens to the bright endometrial cavity toward the fundus?",
       "options": [
         "It expands into one diffuse solid mass",
         "It forms a circular structure inside the ovary",
@@ -6570,16 +6794,17 @@
           "page": 30
         }
       ],
-      "visual_target": "In this supplied septate uterus example, what happens to the bright endometrial cavity toward the fundus?",
+      "visual_target": "What happens to the bright endometrial cavity toward the fundus?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "What external contour feature supports the supplied bicornuate configuration?",
+      "stem": "Which external fundal contour favors a bicornuate uterus?",
       "options": [
         "A midline defect limited to the vaginal outlet",
         "A deep external fundal cleft between diverging horns",
@@ -6617,16 +6842,17 @@
           "page": 31
         }
       ],
-      "visual_target": "What external contour feature supports the supplied bicornuate configuration?",
+      "visual_target": "Which external fundal contour favors a bicornuate uterus?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which endometrial appearance does the arrow highlight in this supplied early proliferative scan?",
+      "stem": "Which endometrial appearance does the arrow highlight?",
       "options": [
         "A thin echogenic line",
         "A thick homogeneous echogenic band",
@@ -6664,16 +6890,17 @@
           "page": 35
         }
       ],
-      "visual_target": "Which endometrial appearance does the arrow highlight in this supplied early proliferative scan?",
+      "visual_target": "Which endometrial appearance does the arrow highlight?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which feature is visible within the largest rounded structure in this supplied luteal-phase ovary?",
+      "stem": "Which feature is visible within the largest rounded structure in this ovary?",
       "options": [
         "A uniformly solid bright nodule",
         "Concentric layers of calcification with dense acoustic shadow",
@@ -6711,13 +6938,14 @@
           "page": 36
         }
       ],
-      "visual_target": "Which feature is visible within the largest rounded structure in this supplied luteal-phase ovary?",
+      "visual_target": "Which feature is visible within the largest rounded structure in this ovary?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "What visible finding is marked by the arrow in this early pregnancy teaching scan?",
@@ -6764,7 +6992,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which relationship is demonstrated by the paired arrows in this early pregnancy ultrasound?",
@@ -6811,10 +7040,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which pattern is present in this supplied molar pregnancy ultrasound?",
+      "stem": "Which pattern is visible within the uterus on this ultrasound?",
       "options": [
         "One simple thin-walled dark cavity with no internal tissue",
         "A slender uniform endometrial line",
@@ -6852,13 +7082,14 @@
           "page": 44
         }
       ],
-      "visual_target": "Which pattern is present in this supplied molar pregnancy ultrasound?",
+      "visual_target": "Which pattern is visible within the uterus on this ultrasound?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which gross change is visible across both pieces of this supplied fetal kidney specimen?",
@@ -6905,7 +7136,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the 10–11 week panels. Which difference is visible near the urethral folds?",
@@ -6952,7 +7184,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In the small LH plots at the top, when are the pulses most conspicuous in the puberty panel?",
@@ -6999,7 +7232,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which contrast is visible between the childhood region and the postmenopausal region of the large gonadotropin plot?",
@@ -7046,7 +7280,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Across the numbered drawings, which visual change distinguishes stage II from stage I?",
@@ -7093,10 +7328,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which cavity finding is visible in this supplied Asherman syndrome hysteroscopy?",
+      "stem": "Which finding interrupts the uterine cavity in this hysteroscopic view?",
       "options": [
         "Multiple exophytic verrucous papules on external skin",
         "Irregular pale tissue bands dividing small recesses",
@@ -7104,10 +7340,10 @@
         "A single round ovarian follicle"
       ],
       "correct_index": 1,
-      "explanation": "Pale tissue bands cross the view between several smaller dark recesses.",
+      "explanation": "The irregular pale bands bridge the uterine cavity and separate recesses. R19 shows this scar pattern in its Asherman syndrome example.",
       "choice_rationales": [
         "The field is intrauterine mucosa rather than external skin with projecting papules.",
-        "Pale tissue bands cross the view between several smaller dark recesses.",
+        "The irregular pale bands bridge the uterine cavity and separate recesses. R19 shows this scar pattern in its Asherman syndrome example.",
         "The cavity view has bridging tissue and irregular recesses.",
         "The circular boundary is the scope view of an intrauterine cavity, and the pale structures are internal bands."
       ],
@@ -7134,16 +7370,24 @@
           "page": 95
         }
       ],
-      "visual_target": "Which cavity finding is visible in this supplied Asherman syndrome hysteroscopy?",
+      "visual_target": "Which finding interrupts the uterine cavity in this hysteroscopic view?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 45,
+          "y": 48,
+          "label": "A tissue band bridges the cavity near the openings of two recesses."
+        }
+      ]
     },
     {
-      "stem": "Which arrangement is present in this supplied dysgerminoma section?",
+      "stem": "Which arrangement is present in this ovarian tumor section?",
       "options": [
         "Groups of large round tumor cells separated by intervening stroma",
         "A single thin bland epithelial lining around one cyst",
@@ -7181,13 +7425,14 @@
           "page": 185
         }
       ],
-      "visual_target": "Which arrangement is present in this supplied dysgerminoma section?",
+      "visual_target": "Which arrangement is present in this ovarian tumor section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In this frontal diagram, which compartment is divided by the horizontal partition?",
@@ -7234,7 +7479,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What finding beyond the uterine cavity supports bilateral tubal patency in this supplied study?",
@@ -7281,7 +7527,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which feature in the upper chromatin drawing supports transcription?",
@@ -7327,7 +7574,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "The caption beneath region E is covered. Which function is assigned to region E in this receptor diagram?",
@@ -7373,7 +7621,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Between weeks 14 and 22, how does the red hCG curve change relative to the black progesterone curve?",
@@ -7420,7 +7669,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Where are the largest pale nodules relative to the central slit in this supplied prostate section?",
@@ -7467,7 +7717,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What architectural feature is most conspicuous on this prostate cut surface?",
@@ -7514,7 +7765,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What forms the large rounded nodule in this low-power prostate section?",
@@ -7561,7 +7813,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What does the yellow arrow mark in this supplied testicular tumor?",
@@ -7608,7 +7861,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which gross pattern is visible across the cut surfaces in this embryonal carcinoma example?",
@@ -7655,10 +7909,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which microscopic cellular pattern is visible in this supplied embryonal carcinoma?",
+      "stem": "Which microscopic cellular pattern is visible in this testicular tumor?",
       "options": [
         "Crowded atypical epithelial cells with irregular dark nuclei",
         "Uniform bland spindle cells in intersecting fascicles",
@@ -7696,16 +7951,17 @@
           "page": 43
         }
       ],
-      "visual_target": "Which microscopic cellular pattern is visible in this supplied embryonal carcinoma?",
+      "visual_target": "Which microscopic cellular pattern is visible in this testicular tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "What combination is present in this supplied embryonal carcinoma field?",
+      "stem": "What combination is present in this testicular tumor field?",
       "options": [
         "Normal seminiferous tubules with complete germ cell maturation",
         "A single bland epithelial lining over a simple cyst",
@@ -7743,13 +7999,14 @@
           "page": 43
         }
       ],
-      "visual_target": "What combination is present in this supplied embryonal carcinoma field?",
+      "visual_target": "What combination is present in this testicular tumor field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In this supplied PLAP stain, which region contains the conspicuously positive cells?",
@@ -7796,10 +8053,18 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 28,
+          "y": 28,
+          "label": "Brown nuclei follow the seminiferous epithelial lining."
+        }
+      ]
     },
     {
-      "stem": "Which gross feature is visible in this supplied Leydig cell tumor?",
+      "stem": "Which gross feature is visible in this cut testicular specimen?",
       "options": [
         "A well-defined pale solid nodule occupying most of the cut section",
         "A multiloculated thin-walled cyst with hair",
@@ -7837,13 +8102,14 @@
           "page": 56
         }
       ],
-      "visual_target": "Which gross feature is visible in this supplied Leydig cell tumor?",
+      "visual_target": "Which gross feature is visible in this cut testicular specimen?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What do the yellow arrows identify along the glandular periphery?",
@@ -7890,23 +8156,24 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which architectural feature is visible in this supplied prostate carcinoma field?",
+      "stem": "Which architectural feature is visible in this prostate field?",
       "options": [
-        "A thick continuous surface layer of squamous keratin",
-        "A uniform sheet of mature fat cells",
-        "Closely spaced small atypical glands among pink fibromuscular stroma",
-        "One large gland with a complex central papillary projection"
+        "Large glands with pronounced epithelial infoldings",
+        "Uniform small glands widely separated by stroma",
+        "Crowded small atypical glands among fibromuscular stroma",
+        "One large gland with an intraluminal papillary projection"
       ],
       "correct_index": 2,
-      "explanation": "Numerous small closely packed glandular profiles with discernible lumina lie among pink stromal tissue.",
+      "explanation": "Small closely spaced atypical gland profiles sit within pink fibromuscular stroma.",
       "choice_rationales": [
-        "The finding is numerous small open gland profiles distributed in stroma, without surface keratin.",
-        "Epithelial cells outline small lumina rather than individual clear fat spaces.",
-        "Numerous small closely packed glandular profiles with discernible lumina lie among pink stromal tissue.",
-        "Many separate small glands are present, rather than one expanded lumen with central projections."
+        "The selected field is dominated by closely spaced small gland profiles.",
+        "The gland profiles are crowded rather than widely spaced.",
+        "Small closely spaced atypical gland profiles sit within pink fibromuscular stroma.",
+        "Multiple discrete small glands are visible."
       ],
       "visual_clues": [
         "Numerous small closely packed glandular profiles with discernible lumina lie among pink stromal tissue.",
@@ -7931,13 +8198,14 @@
           "page": 16
         }
       ],
-      "visual_target": "Which architectural feature is visible in this supplied prostate carcinoma field?",
+      "visual_target": "Which architectural feature is visible in this prostate field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which two cellular populations are visible in this testicular tumor?",
@@ -7984,7 +8252,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architectural pattern is visible in this testicular stromal tumor?",
@@ -8031,10 +8300,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Compare both views of the supplied spermatocytic tumor. What feature is most evident in the cell populations?",
+      "stem": "Compare the two views of this testicular tumor. How does cell size vary?",
       "options": [
         "A single large cell surrounded by a normal follicular wall",
         "An admixture of small, intermediate and large cells",
@@ -8072,16 +8342,17 @@
           "page": 41
         }
       ],
-      "visual_target": "Compare both views of the supplied spermatocytic tumor. What feature is most evident in the cell populations?",
+      "visual_target": "Compare the two views of this testicular tumor. How does cell size vary?",
       "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "What is the gross change in the exposed testis in this supplied torsion example?",
+      "stem": "Which gross change is visible in the exposed testis?",
       "options": [
         "Diffuse dark swelling and congestion",
         "A small smooth white peripheral nodule",
@@ -8119,13 +8390,14 @@
           "page": 32
         }
       ],
-      "visual_target": "What is the gross change in the exposed testis in this supplied torsion example?",
+      "visual_target": "Which gross change is visible in the exposed testis?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which change is visible in the testis section supplied after torsion?",
@@ -8172,7 +8444,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which anatomic relationship is visible immediately above the dark testis?",
@@ -8219,7 +8492,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which low-power architecture is visible in this testicular yolk sac tumor?",
@@ -8266,7 +8540,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature identifies the scattered tissue profiles in this placental section?",
@@ -8313,7 +8588,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Where is the darker cellular covering of the villi located?",
@@ -8360,10 +8636,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which cellular arrangement is visible in this supplied choriocarcinoma?",
+      "stem": "Which cellular arrangement is visible in this trophoblastic tumor?",
       "options": [
         "Uniform bland spindle cells in parallel fascicles",
         "Separate round glands lined by a single ciliated layer",
@@ -8401,13 +8678,14 @@
           "page": 34
         }
       ],
-      "visual_target": "Which cellular arrangement is visible in this supplied choriocarcinoma?",
+      "visual_target": "Which cellular arrangement is visible in this trophoblastic tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What is the dominant lesion in this supplied opened uterus?",
@@ -8454,7 +8732,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which relationship is visible between the dark lesion and the pale uterine wall?",
@@ -8501,10 +8780,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which combination is present in this supplied complete mole section?",
+      "stem": "Which combination is present in this placental section?",
       "options": [
         "Only small uniform villi with delicate coverings",
         "Dense solid keratinizing squamous nests",
@@ -8542,16 +8822,17 @@
           "page": 22
         }
       ],
-      "visual_target": "Which combination is present in this supplied complete mole section?",
+      "visual_target": "Which combination is present in this placental section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "What occupies the opened uterine cavity in this supplied complete mole specimen?",
+      "stem": "What occupies the opened uterine cavity in this specimen?",
       "options": [
         "One thin smooth fluid sac with an embryo",
         "An isolated dark clot in an otherwise empty cavity",
@@ -8589,13 +8870,14 @@
           "page": 22
         }
       ],
-      "visual_target": "What occupies the opened uterine cavity in this supplied complete mole specimen?",
+      "visual_target": "What occupies the opened uterine cavity in this specimen?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What gross structure is visible across this placental tissue?",
@@ -8642,7 +8924,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature establishes the invasive pattern in this supplied uterine section?",
@@ -8689,10 +8972,18 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 55,
+          "y": 56,
+          "label": "A villous profile lies within the surrounding uterine smooth muscle."
+        }
+      ]
     },
     {
-      "stem": "Which villous size pattern is present in this supplied partial mole section?",
+      "stem": "Which villous size pattern is present in this placental section?",
       "options": [
         "A uniform field of solid trophoblast without villi",
         "A single oval gland in endometrial stroma",
@@ -8730,13 +9021,14 @@
           "page": 28
         }
       ],
-      "visual_target": "Which villous size pattern is present in this supplied partial mole section?",
+      "visual_target": "Which villous size pattern is present in this placental section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which depicted implantation site extends through the entire uterine wall to the outside?",
@@ -8783,10 +9075,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which architecture is present in this supplied atypical ductal hyperplasia field?",
+      "stem": "Which architecture is present in this breast duct?",
       "options": [
         "A loose infiltrate of individual cells in fat",
         "A broad solid center of acellular necrosis",
@@ -8824,16 +9117,17 @@
           "page": 31
         }
       ],
-      "visual_target": "Which architecture is present in this supplied atypical ductal hyperplasia field?",
+      "visual_target": "Which architecture is present in this breast duct?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Where is the closely packed epithelial proliferation located in this supplied ADH example?",
+      "stem": "Where is the epithelial proliferation located in this breast field?",
       "options": [
         "Inside an endothelial-lined vascular lumen",
         "Within a circumscribed ductal profile bordered by pink stroma",
@@ -8871,13 +9165,14 @@
           "page": 31
         }
       ],
-      "visual_target": "Where is the closely packed epithelial proliferation located in this supplied ADH example?",
+      "visual_target": "Where is the epithelial proliferation located in this breast field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What accounts for the two dark centers in this bisected breast specimen?",
@@ -8924,7 +9219,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which relationship is visible in this supplied bone metastasis section?",
@@ -8971,7 +9267,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature is visible along the large irregular open spaces in this breast section?",
@@ -9018,7 +9315,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cell arrangement borders the open space in this normal duct section?",
@@ -9065,10 +9363,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which combination is visible in this supplied duct ectasia example?",
+      "stem": "Which combination is visible in this breast section?",
       "options": [
         "Small crowded infiltrative glands with empty lumina",
         "An isolated focus of surface keratinization",
@@ -9106,16 +9405,17 @@
           "page": 16
         }
       ],
-      "visual_target": "Which combination is visible in this supplied duct ectasia example?",
+      "visual_target": "Which combination is visible in this breast section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which radiographic feature is prominent in this supplied DCIS mammogram?",
+      "stem": "Which radiographic feature is most prominent in this mammogram?",
       "options": [
         "Grouped fine bright calcific densities with branching contours",
         "A solitary smooth dark cyst without internal bright marks",
@@ -9153,16 +9453,17 @@
           "page": 50
         }
       ],
-      "visual_target": "Which radiographic feature is prominent in this supplied DCIS mammogram?",
+      "visual_target": "Which radiographic feature is most prominent in this mammogram?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which gross feature is visible in this supplied breast fat necrosis specimen?",
+      "stem": "Which gross feature is visible in this breast specimen?",
       "options": [
         "A smooth round pale nodule with no color change",
         "A diffuse field of fine papillae in one duct",
@@ -9200,13 +9501,14 @@
           "page": 17
         }
       ],
-      "visual_target": "Which gross feature is visible in this supplied breast fat necrosis specimen?",
+      "visual_target": "Which gross feature is visible in this breast specimen?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "How does the pale lobulated breast nodule meet the surrounding tissue?",
@@ -9253,7 +9555,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What happens to the epithelial spaces within the expanded fibrous stroma?",
@@ -9300,10 +9603,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Within the blue nuclei of this supplied HER2 FISH example, what is the visible signal pattern?",
+      "stem": "Within the blue nuclei in this HER2 FISH field, how do the red and green signals compare?",
       "options": [
         "Many clustered red signals relative to fewer green signals",
         "Only blue nuclear fluorescence without red or green signals",
@@ -9341,29 +9645,42 @@
           "page": 72
         }
       ],
-      "visual_target": "Within the blue nuclei of this supplied HER2 FISH example, what is the visible signal pattern?",
+      "visual_target": "Within the blue nuclei in this HER2 FISH field, how do the red and green signals compare?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 67,
+          "y": 18,
+          "label": "Clustered red HER2 signals within a blue nucleus."
+        },
+        {
+          "x": 62,
+          "y": 35,
+          "label": "Nearby green chromosome 17 control signals."
+        }
+      ]
     },
     {
-      "stem": "Where does strong brown staining localize in this supplied HER2 immunostain?",
+      "stem": "Where does the brown signal localize in this HER2 immunostain?",
       "options": [
-        "Within tumor nuclei alone",
-        "In extracellular mucin pools alone",
-        "Only in the surrounding stromal collagen",
-        "Along the cell membranes around tumor cells"
+        "Inside tumor cell nuclei",
+        "Diffusely within tumor cell cytoplasm",
+        "Along the edges of surrounding stromal cells",
+        "Along the membranes of tumor cells"
       ],
       "correct_index": 3,
-      "explanation": "Brown outlines trace the boundaries of adjacent epithelial tumor cells.",
+      "explanation": "Adjacent tumor cells show brown outlines at their borders.",
       "choice_rationales": [
-        "The brown signal rims cells rather than concentrating inside nuclei.",
-        "The positive outline follows the cells and is not free in extracellular mucin.",
-        "The stain highlights epithelial borders rather than diffusely marking collagen.",
-        "Brown outlines trace the boundaries of adjacent epithelial tumor cells."
+        "The signal outlines cells rather than occupying the nuclear centers.",
+        "The brown signal is concentrated at the periphery of the cells.",
+        "The strongest outlines surround the epithelial tumor cells.",
+        "Adjacent tumor cells show brown outlines at their borders."
       ],
       "visual_clues": [
         "Brown outlines trace the boundaries of adjacent epithelial tumor cells.",
@@ -9388,29 +9705,37 @@
           "page": 72
         }
       ],
-      "visual_target": "Where does strong brown staining localize in this supplied HER2 immunostain?",
+      "visual_target": "Where does the brown signal localize in this HER2 immunostain?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 63,
+          "y": 53,
+          "label": "Brown outlines follow adjacent tumor cell membranes."
+        }
+      ]
     },
     {
-      "stem": "Where is the brown signal in this supplied hormone receptor stain?",
+      "stem": "Where is the brown signal in this breast receptor stain?",
       "options": [
-        "In the open gland lumina only",
-        "Diffusely throughout acellular collagen",
+        "Within the gland lumina",
+        "In the surrounding stromal cells",
         "Within epithelial cell nuclei",
-        "Along the whole circumference of each cell membrane"
+        "Along epithelial cell membranes"
       ],
       "correct_index": 2,
-      "explanation": "The dark brown signal occupies numerous small nuclear profiles within epithelial groups.",
+      "explanation": "Brown dots correspond to nuclei in the epithelial cells.",
       "choice_rationales": [
-        "The luminal spaces are pale while brown signal lies inside epithelial cells.",
-        "Brown signal is punctate within nuclei, not diffuse in stromal fibers.",
-        "The dark brown signal occupies numerous small nuclear profiles within epithelial groups.",
-        "The nuclear profiles are brown rather than entire cell borders."
+        "Luminal spaces are relatively clear while epithelial nuclei stain.",
+        "The most conspicuous brown signal is in epithelial profiles.",
+        "Brown dots correspond to nuclei in the epithelial cells.",
+        "Brown signal lies inside the cells instead of tracing their borders."
       ],
       "visual_clues": [
         "The dark brown signal occupies numerous small nuclear profiles within epithelial groups.",
@@ -9435,13 +9760,21 @@
           "page": 72
         }
       ],
-      "visual_target": "Where is the brown signal in this supplied hormone receptor stain?",
+      "visual_target": "Where is the brown signal in this breast receptor stain?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 81,
+          "y": 34,
+          "label": "Brown staining is concentrated in epithelial nuclei."
+        }
+      ]
     },
     {
       "stem": "Where are the rounded tumor clusters near the skin surface in this supplied section?",
@@ -9488,7 +9821,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which gross margin is visible at the interface between the pale lesion and yellow fat?",
@@ -9535,7 +9869,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature characterizes the border of this mammographic opacity?",
@@ -9582,10 +9917,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which arrangement is visible in this supplied invasive breast carcinoma section?",
+      "stem": "Which arrangement is visible in this breast section?",
       "options": [
         "Solid cells entirely confined to a single large preexisting duct",
         "Several large normal adipose lobules without epithelial groups",
@@ -9623,13 +9959,14 @@
           "page": 58
         }
       ],
-      "visual_target": "Which arrangement is visible in this supplied invasive breast carcinoma section?",
+      "visual_target": "Which arrangement is visible in this breast section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "At low power, what happens at the border of the dense central lesion?",
@@ -9676,7 +10013,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "How are the dark epithelial tumor cells arranged in this fibrous tissue?",
@@ -9723,10 +10061,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which low-power distribution is present in this supplied lobular carcinoma in situ section?",
+      "stem": "Which low-power distribution is present in this breast field?",
       "options": [
         "A single invasive gland extending into a blood vessel",
         "A diffuse sheet of tumor replacing all stromal landmarks",
@@ -9764,13 +10103,14 @@
           "page": 51
         }
       ],
-      "visual_target": "Which low-power distribution is present in this supplied lobular carcinoma in situ section?",
+      "visual_target": "Which low-power distribution is present in this breast field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cellular feature is visible in the distended acinar units?",
@@ -9817,10 +10157,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which tissue relationship is visible in this supplied mucinous carcinoma?",
+      "stem": "How do the epithelial cells relate to the pale material in this breast section?",
       "options": [
         "A compact fibrous nodule with compressed empty ducts",
         "Small clusters of epithelial cells suspended in broad pale mucin",
@@ -9858,13 +10199,14 @@
           "page": 65
         }
       ],
-      "visual_target": "Which tissue relationship is visible in this supplied mucinous carcinoma?",
+      "visual_target": "How do the epithelial cells relate to the pale material in this breast section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cells do the three source arrows identify in this nipple section?",
@@ -9911,10 +10253,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "How are the branching structures arranged in this supplied breast papilloma?",
+      "stem": "How are the branching structures arranged in this breast section?",
       "options": [
         "They invade far outside the duct as thin isolated files",
         "They form a uniform layer with no intraluminal projections",
@@ -9952,13 +10295,14 @@
           "page": 27
         }
       ],
-      "visual_target": "How are the branching structures arranged in this supplied breast papilloma?",
+      "visual_target": "How are the branching structures arranged in this breast section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What forms the large projections into the slitlike spaces in this breast tumor?",
@@ -10005,10 +10349,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "What is the relationship of the glands to the central pale region in this supplied radial scar?",
+      "stem": "How are the glands arranged around the central pale region?",
       "options": [
         "The central pale region consists entirely of a lobule of mature adipocytes",
         "Glandular structures radiate around a central fibrotic zone",
@@ -10046,16 +10391,17 @@
           "page": 26
         }
       ],
-      "visual_target": "What is the relationship of the glands to the central pale region in this supplied radial scar?",
+      "visual_target": "How are the glands arranged around the central pale region?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which arrangement characterizes the glands in this supplied tubular carcinoma?",
+      "stem": "Which arrangement characterizes the glands in this breast section?",
       "options": [
         "Small angulated open tubules dispersed in fibrous stroma",
         "One large smooth rounded cyst without stromal glands",
@@ -10093,13 +10439,14 @@
           "page": 64
         }
       ],
-      "visual_target": "Which arrangement characterizes the glands in this supplied tubular carcinoma?",
+      "visual_target": "Which arrangement characterizes the glands in this breast section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which microscopic pattern is present within the expanded duct in this supplied example?",
@@ -10146,7 +10493,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare both blood pressure curves across the plotted pregnancy. What pattern do they share?",
@@ -10193,7 +10541,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which comparison is visible between the blue plasma volume curve and the green red cell volume curve?",
@@ -10243,7 +10592,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which portion of the urine path narrows where the red arrows converge?",
@@ -10290,7 +10640,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which growth arrangement is more conspicuous in the lower prostate field?",
@@ -10337,7 +10688,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Where is the expanded fluid compartment shown in this hydrocele diagram?",
@@ -10384,7 +10736,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What gross anatomic feature is illustrated superior to the testis?",
@@ -10431,7 +10784,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What finding dominates the lower abdomen on this sagittal CT?",
@@ -10481,7 +10835,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which relationship is shown between the purple arrow and the drops below the bladder?",
@@ -10531,7 +10886,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the two tract diagrams. What structure surrounds the outlet immediately below the bladder in the male drawing?",
@@ -10578,7 +10934,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which two activated clotting factors are shown as inactivated at the right side of the pathway?",
@@ -10624,7 +10981,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What is shown at the end of the intralobular terminal duct in the right-hand drawing?",
@@ -10671,7 +11029,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which appearance is visible in the central breast lesion on this ultrasound?",
@@ -10718,7 +11077,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "What contrast is visible between the center of this supplied sentinel node field and its right edge?",
@@ -10765,7 +11125,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "In the diagram, where do the green channels nearest the marked breast lesion lead first?",
@@ -10812,10 +11173,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which pattern is visible in this supplied uterine carcinosarcoma section?",
+      "stem": "Which pattern is visible in this uterine tumor section?",
       "options": [
         "A single uniform benign gland with no stromal proliferation",
         "A sheet of only mature adipocytes",
@@ -10853,13 +11215,14 @@
           "page": 43
         }
       ],
-      "visual_target": "Which pattern is visible in this supplied uterine carcinosarcoma section?",
+      "visual_target": "Which pattern is visible in this uterine tumor section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which arrangement is visible on either side of the pink stromal band?",
@@ -10906,10 +11269,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "What structure occupies the center of the glomeruloid formation in this supplied yolk sac tumor?",
+      "stem": "What structure occupies the center of the glomeruloid formation?",
       "options": [
         "A fat lobule with mature adipocytes",
         "A vessel-containing stromal core surrounded by tumor epithelium",
@@ -10947,13 +11311,14 @@
           "page": 24
         }
       ],
-      "visual_target": "What structure occupies the center of the glomeruloid formation in this supplied yolk sac tumor?",
+      "visual_target": "What structure occupies the center of the glomeruloid formation?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What gross material is visible between the exposed bowel loops?",
@@ -11000,10 +11365,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which arrangement is visible in this supplied cervical squamous carcinoma field?",
+      "stem": "Which arrangement is visible in this cervical lesion?",
       "options": [
         "Irregular epithelial nests separated by pink stromal tissue",
         "A single flat surface lining without stromal epithelial groups",
@@ -11041,13 +11407,14 @@
           "page": 12
         }
       ],
-      "visual_target": "Which arrangement is visible in this supplied cervical squamous carcinoma field?",
+      "visual_target": "Which arrangement is visible in this cervical lesion?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "How does the distribution of dark atypical cells differ between the two middle drawings?",
@@ -11094,7 +11461,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Compare the two reagent views. Which change is visible at the arrow in the acetic acid view?",
@@ -11141,7 +11509,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which feature is visible within the pink squamous epithelium in this supplied vulvar lesion?",
@@ -11188,10 +11557,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "Which cavity configuration is visible in this supplied unicornuate uterus example?",
+      "stem": "Which uterine cavity configuration is visible in this study?",
       "options": [
         "A spherical fluid-filled ovarian follicle",
         "One elongated curved cavity without a matching second horn",
@@ -11229,13 +11599,14 @@
           "page": 30
         }
       ],
-      "visual_target": "Which cavity configuration is visible in this supplied unicornuate uterus example?",
+      "visual_target": "Which uterine cavity configuration is visible in this study?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which arrangement is visible in this coronal MRI?",
@@ -11282,10 +11653,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which architectural feature is visible in the supplied Gleason pattern 3 field?",
+      "stem": "How are the gland profiles arranged relative to the intervening stroma?",
       "options": [
         "Fused epithelial groups containing numerous punched-out lumina",
         "Solid cellular sheets without visible lumina",
@@ -11293,12 +11665,12 @@
         "Individual well-formed glands separated by intervening stroma"
       ],
       "correct_index": 3,
-      "explanation": "Many discrete small glands have distinct lumina and are separated by intervening pink stroma.",
+      "explanation": "Discrete, well-formed glands retain intervening pink stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 3.",
       "choice_rationales": [
         "Open gland profiles are discrete and each is separated by supporting tissue.",
         "Multiple well-defined lumina remain visible.",
         "The dominant growth retains well-formed gland units.",
-        "Many discrete small glands have distinct lumina and are separated by intervening pink stroma."
+        "Discrete, well-formed glands retain intervening pink stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 3."
       ],
       "visual_clues": [
         "Many discrete small glands have distinct lumina and are separated by intervening pink stroma.",
@@ -11323,16 +11695,24 @@
           "page": 20
         }
       ],
-      "visual_target": "Which architectural feature is visible in the supplied Gleason pattern 3 field?",
+      "visual_target": "How are the gland profiles arranged relative to the intervening stroma?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 46,
+          "y": 68,
+          "label": "An open gland profile separated from adjacent glands by pink stroma."
+        }
+      ]
     },
     {
-      "stem": "Which pattern is visible in the supplied Gleason pattern 4 field?",
+      "stem": "Which glandular architecture is visible in this prostate field?",
       "options": [
         "A single large duct with a thin bland lining",
         "Only scattered individual tumor cells without any open spaces",
@@ -11340,11 +11720,11 @@
         "Only small well-formed glands with stroma separating every lumen"
       ],
       "correct_index": 2,
-      "explanation": "Multiple glandular spaces occur within larger connected epithelial groups.",
+      "explanation": "Several lumina lie within confluent epithelial groups with little separation by stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 4.",
       "choice_rationales": [
         "Multiple lumina lie inside irregular confluent epithelial groups.",
         "Visible openings persist within the complex groups.",
-        "Multiple glandular spaces occur within larger connected epithelial groups.",
+        "Several lumina lie within confluent epithelial groups with little separation by stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 4.",
         "The spaces lie inside a shared epithelial mass rather than each occupying an independently outlined gland."
       ],
       "visual_clues": [
@@ -11370,13 +11750,21 @@
           "page": 20
         }
       ],
-      "visual_target": "Which pattern is visible in the supplied Gleason pattern 4 field?",
+      "visual_target": "Which glandular architecture is visible in this prostate field?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 37,
+          "y": 28,
+          "label": "Multiple lumina share a confluent epithelial outline."
+        }
+      ]
     },
     {
       "stem": "Which sequence of microscopic patterns is visible from left to right?",
@@ -11423,10 +11811,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
-      "stem": "What is the relationship of the crowded epithelium to the large lumen in this supplied PIN section?",
+      "stem": "How does the crowded epithelium relate to the large ductal lumen?",
       "options": [
         "Atypical epithelium forms projections into a recognizable ductal lumen",
         "Only flattened bland cells line the cavity",
@@ -11464,13 +11853,21 @@
           "page": 20
         }
       ],
-      "visual_target": "What is the relationship of the crowded epithelium to the large lumen in this supplied PIN section?",
+      "visual_target": "How does the crowded epithelium relate to the large ductal lumen?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 50,
+          "y": 46,
+          "label": "Atypical epithelium projects into a recognizable ductal lumen."
+        }
+      ]
     },
     {
       "stem": "What does the black arrow highlight inside the enlarged villous profile?",
@@ -11517,7 +11914,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which reactive cells occupy the spaces between the large clear fat profiles?",
@@ -11564,7 +11962,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which difference is visible in the deposits shown in the two breast sections?",
@@ -11611,7 +12010,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-d20e306fa4ca836b7ced",
@@ -11657,7 +12057,8 @@
       ],
       "visual_clues": [
         "Dark winding filaments and small round dark forms cross the pink and blue squamous cells."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-db274f71f99b5df01b60",
@@ -11703,7 +12104,8 @@
       ],
       "visual_clues": [
         "Three compact pale green profiles have recognizable margins amid much finer debris."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-4048d66f7cc9af0ea448",
@@ -11749,7 +12151,8 @@
       ],
       "visual_clues": [
         "The central surface is broad, smooth, and white compared with the surrounding darker red tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-febf316e40882e221804",
@@ -11795,7 +12198,8 @@
       ],
       "visual_clues": [
         "Pale surface change surrounds the narrow central cleft and extends to both sides."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-7b5bb1bc21be7460f65a",
@@ -11841,7 +12245,8 @@
       ],
       "visual_clues": [
         "Some cells with conspicuous cytoplasmic clearing retain enlarged, irregular dark nuclei."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-41f1b3b69365205a5416",
@@ -11887,7 +12292,8 @@
       ],
       "visual_clues": [
         "The smoother left surface transitions toward a region with numerous irregular gland spaces at the right."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-f40117669a4b50700360",
@@ -11933,7 +12339,8 @@
       ],
       "visual_clues": [
         "Crowded columnar cells surround elongated, irregular slitlike lumina."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-ad66663df0e4f21cbfc8",
@@ -11979,7 +12386,8 @@
       ],
       "visual_clues": [
         "The left side shows a discrete solid mass and the right side shows closely packed cells, without large open glands."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-dc519abd3107d34913f9",
@@ -12025,7 +12433,8 @@
       ],
       "visual_clues": [
         "The pink material occupies most of the affected cells, pushing darker nuclear profiles toward their margins."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-545658ca2c4850f96328",
@@ -12071,6 +12480,14 @@
       ],
       "visual_clues": [
         "The pale cut wall contains many small dark spots distributed through its thickness."
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 66,
+          "y": 45,
+          "label": "A dark focus lies within the cut uterine wall."
+        }
       ]
     },
     {
@@ -12117,7 +12534,8 @@
       ],
       "visual_clues": [
         "Several pale solid areas alternate with dark and irregular cavities in the same mass."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-9f426a8a26394af328c4",
@@ -12163,7 +12581,8 @@
       ],
       "visual_clues": [
         "Numerous thin dark strands run along the left of the tan lobulated contents."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-fb767418559056379a62",
@@ -12209,7 +12628,8 @@
       ],
       "visual_clues": [
         "A rounded cavity is visible in the left specimen, and layered squamous epithelium lines a space in the right section."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-c0189c66c5c6a572561e",
@@ -12255,7 +12675,8 @@
       ],
       "visual_clues": [
         "The gross section is solid and pale, and the microscopic field has elongated pink bundles running in several directions."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-3cc1b72bb40c5220da30",
@@ -12301,7 +12722,8 @@
       ],
       "visual_clues": [
         "The pale irregular glands are each associated with a dark stromal cuff, and both lie within the pink muscular field."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-8dffe5c8534b0f024a3b",
@@ -12347,7 +12769,8 @@
       ],
       "visual_clues": [
         "Several isolated ovals have red vascular profiles within pale connective tissue surrounded by a thick purple epithelial rim."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-d4de7badde4e358c3b5e",
@@ -12393,7 +12816,8 @@
       ],
       "visual_clues": [
         "Elongated epithelial fronds extend up from the broad lower base alongside smaller isolated profiles of similar tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-d474f100d78d59621c53",
@@ -12439,7 +12863,8 @@
       ],
       "visual_clues": [
         "The tissue shows broad pink polygonal epithelial groups separated by irregular darker cellular stroma."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-9d7eb9a7faa2efcb7245",
@@ -12485,7 +12910,8 @@
       ],
       "visual_clues": [
         "Pink stromal cores with small vessels project into open spaces and carry a dark epithelial covering."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-edab8cb8462ec9831742",
@@ -12531,7 +12957,8 @@
       ],
       "visual_clues": [
         "Scattered reddish and dark foci interrupt the pale surface and its folds."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-97df0d069bafea328cdf",
@@ -12577,7 +13004,8 @@
       ],
       "visual_clues": [
         "The central portion has uneven dark discoloration and tan ragged material within a surrounding fleshy elevation."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-c474efd62e2dd65b1fc0",
@@ -12623,7 +13051,8 @@
       ],
       "visual_clues": [
         "The exposed rounded surface is diffusely red and has scattered light flecks without a single dominant nodule."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-d30ba4cbf9bb63c97b9e",
@@ -12669,7 +13098,8 @@
       ],
       "visual_clues": [
         "A small irregular growth projects from the central region beside the opening."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-16f1ddc10637a81f165a",
@@ -12715,7 +13145,8 @@
       ],
       "visual_clues": [
         "Pale open spaces contain inward projections lined by dark epithelium."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-7e27848d416f1b811175",
@@ -12761,7 +13192,8 @@
       ],
       "visual_clues": [
         "Multiple ranks of dark round nuclei lie along the luminal margin, with the central space largely open."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-6852c85df7a7c39ef01f",
@@ -12807,7 +13239,8 @@
       ],
       "visual_clues": [
         "Only scattered dark nuclei are visible within the pale interior enclosed by a thick pink rim."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-224c4177c548a448c798",
@@ -12853,7 +13286,8 @@
       ],
       "visual_clues": [
         "Numerous tubular profiles show a conspicuous pink rim and a relatively pale interior."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-51e757dcb0e092d09124",
@@ -12875,14 +13309,14 @@
           "page": 36
         }
       ],
-      "visual_target": "Where are the large pale atypical cells in the supplied germ cell neoplasia section?",
+      "visual_target": "Where are the large pale atypical cells in this testicular section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null,
-      "stem": "Where are the large pale atypical cells in the supplied germ cell neoplasia section?",
+      "stem": "Where are the large pale atypical cells in this testicular section?",
       "options": [
         "In an extracellular keratin deposit",
         "Within the seminiferous tubular epithelium",
@@ -12899,6 +13333,14 @@
       ],
       "visual_clues": [
         "Large pale cells with dark nuclei are located inside the curved pink tubular boundary."
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 36,
+          "y": 42,
+          "label": "Large pale atypical cells lie inside the seminiferous tubular outline."
+        }
       ]
     },
     {
@@ -12945,7 +13387,8 @@
       ],
       "visual_clues": [
         "The small dark cells form an irregular network separated by many pale openings."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-3d548c091b188488ab0e",
@@ -12991,7 +13434,8 @@
       ],
       "visual_clues": [
         "The arrow ends on a round eosinophilic body rather than one of the large pale spaces."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-7d2b7d40df177abfc1b3",
@@ -13037,7 +13481,8 @@
       ],
       "visual_clues": [
         "The broad central portion is dark red with clotted material, surrounded by a much lighter peripheral zone."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-5fb38cfc6858b62c87cc",
@@ -13083,7 +13528,8 @@
       ],
       "visual_clues": [
         "Many small rounded acinar groups lie around a larger irregular ductal space within the outlined region."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-57bce47a52e41ad13d03",
@@ -13129,7 +13575,8 @@
       ],
       "visual_clues": [
         "The dark signal outlines the outer edge of the epithelial structures rather than filling their pale lumina."
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-04f91cec8ac0b6724d15",
@@ -13175,7 +13622,8 @@
       ],
       "visual_clues": [
         "The arrows identify clear vacuoles bordered by irregular dark cellular material and surrounding pink reaction."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-f1dd6ad729d0269fd928",
@@ -13221,7 +13669,8 @@
       ],
       "visual_clues": [
         "Many rounded pale spaces of different sizes cluster over a broad area of pink tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-4242f6ff92a65dfc980d",
@@ -13267,7 +13716,8 @@
       ],
       "visual_clues": [
         "At low power, numerous small dark profiles cluster in a broad local region surrounded by pink stroma."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-75bb32b32d283647112c",
@@ -13313,7 +13763,8 @@
       ],
       "visual_clues": [
         "The solid appearing ductal groups contain irregular pale slits and small spaces among crowded cells."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-478bdc7859fb0bdd1db8",
@@ -13359,7 +13810,8 @@
       ],
       "visual_clues": [
         "Dark epithelial bars and islands project across portions of the wide pale lumen, subdividing it into separate spaces."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-0d8e542c0b98e24fdf3d",
@@ -13405,7 +13857,8 @@
       ],
       "visual_clues": [
         "Dense pink stroma surrounds numerous elongated, curved or compressed epithelial spaces across the section."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-cd6c4f85c94ef0614215",
@@ -13451,7 +13904,8 @@
       ],
       "visual_clues": [
         "Dense pale pink material occupies the center of the expanded duct and has a dark cellular rim."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-07a17934d0f5717c328f",
@@ -13497,7 +13951,8 @@
       ],
       "visual_clues": [
         "Several rounded dark profiles in the upper middle field are sharply outlined against pink stroma. The left field retains a more lobular clustered arrangement."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-0eab8e81b3f9022efebd",
@@ -13543,7 +13998,8 @@
       ],
       "visual_clues": [
         "Several widely separated epithelial-lined ducts are embedded in abundant pink stroma."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-b3e108e123b247928968",
@@ -13589,7 +14045,8 @@
       ],
       "visual_clues": [
         "Fine strands extend outward in multiple directions from a pale central focus."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-349acd271199bc1b6039",
@@ -13635,7 +14092,8 @@
       ],
       "visual_clues": [
         "A small pale polypoid nodule sits in a darker rounded space within the surrounding yellow tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-8681365b046ebac548fe",
@@ -13681,7 +14139,8 @@
       ],
       "visual_clues": [
         "A smooth curved border encloses a largely uniform, solid pale cut surface."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-cf54ddb825f3b5c4348c",
@@ -13727,7 +14186,8 @@
       ],
       "visual_clues": [
         "The white tissue extends unevenly into multiple angled projections at the cut margin."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-ee123277f8c4e683ea88",
@@ -13773,7 +14233,8 @@
       ],
       "visual_clues": [
         "E sits inside the large pale fluid space occupying most of the follicle."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-63760e309e2380e57d96",
@@ -13819,7 +14280,8 @@
       ],
       "visual_clues": [
         "Brown staining surrounds several round clear spaces, while much of the intervening tissue is blue."
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-f9b2d380266bee9212da",
@@ -13865,7 +14327,8 @@
       ],
       "visual_clues": [
         "The thicker colored tissue encircles a pale central zone, with irregular pink strands and folds directed toward it."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-92c7cb3edc23f16e71c5",
@@ -13911,7 +14374,8 @@
       ],
       "visual_clues": [
         "The darker layered region abuts a different columnar lining along the irregular surface."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-0f7e9f079afcf9f7cb83",
@@ -13957,7 +14421,8 @@
       ],
       "visual_clues": [
         "The arrow indicates a dark line coursing inferiorly in the prostate below the bright bladder."
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-d8725ca2ff6cf02d71c9",
@@ -14003,7 +14468,8 @@
       ],
       "visual_clues": [
         "Small dark round spaces are distributed near the periphery of the oval ovarian outline."
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-13279fb459529a37f3e3",
@@ -14049,7 +14515,8 @@
       ],
       "visual_clues": [
         "Two rounded low signal structures lie next to each other just posterior to the bladder."
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-866ccc489f5ba2aec261",
@@ -14095,7 +14562,8 @@
       ],
       "visual_clues": [
         "The two bright spaces diverge upward while the broad outer contour remains relatively continuous."
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-9efa8bc668f7bc432c30",
@@ -14141,7 +14609,8 @@
       ],
       "visual_clues": [
         "The outlined focus lies centrally above the dark sphenoid region and below the brain on the midline view."
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-187d2a574685159e9d64",
@@ -14187,7 +14656,8 @@
       ],
       "visual_clues": [
         "Many branching glandular spaces have distinct borders and are separated by intervening pink tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-03e008f6d24b25c3ac6f",
@@ -14233,7 +14703,8 @@
       ],
       "visual_clues": [
         "A large yellow clustered growth protrudes from the otherwise open wall into the cavity."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-cb42cc8bf474bb98a68f",
@@ -14279,7 +14750,8 @@
       ],
       "visual_clues": [
         "The central tuft sits in a pale surrounding space with tumor cells visible along the outer boundary."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-e42668b1f38432041624",
@@ -14325,7 +14797,8 @@
       ],
       "visual_clues": [
         "Numerous distinct polygonal cells with individual nuclei lie beside the densely red hemorrhage."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-8952bfb9f9b97283c7d0",
@@ -14371,7 +14844,8 @@
       ],
       "visual_clues": [
         "Large irregular pink cytoplasmic profiles contain clusters of dark nuclei adjacent to the hemorrhagic tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-6c81b2381f0fa58a87c9",
@@ -14417,7 +14891,8 @@
       ],
       "visual_clues": [
         "Multiple enlarged villous profiles have pale expanded interiors and dark peripheral trophoblastic tissue."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-9966aba302511a3788cc",
@@ -14463,7 +14938,8 @@
       ],
       "visual_clues": [
         "A conspicuously enlarged irregular pale villus is surrounded by numerous smaller compact profiles."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-25852a935ed9667ce486",
@@ -14509,7 +14985,8 @@
       ],
       "visual_clues": [
         "Tall eosinophilic epithelial cells outline the dilated spaces, with protruding apical contours along parts of the lumen."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-4057722adbacd0a45038",
@@ -14555,7 +15032,8 @@
       ],
       "visual_clues": [
         "The involved area is sharply red and has an irregular dry crusted surface."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-f476c227af0f41f78638",
@@ -14601,7 +15079,8 @@
       ],
       "visual_clues": [
         "The irregular pale spaces have thick rims of crowded elongated dark epithelial nuclei."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-eb95eea0262421e2cca6",
@@ -14647,7 +15126,8 @@
       ],
       "visual_clues": [
         "Irregular gland profiles sit close together, leaving relatively narrow pink stromal spaces between many of them."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-2f70f8edfca01ff3341c",
@@ -14693,7 +15173,8 @@
       ],
       "visual_clues": [
         "The arrow points to layered pink material arranged in a concentric whorl inside an epithelial nest."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-12594b9bd9a44dd5c7cf",
@@ -14739,7 +15220,8 @@
       ],
       "visual_clues": [
         "Dark epithelial islands are widely separated by broad pale extracellular mucinous areas."
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "stem": "Which developmental stage is shown in the complete micrograph?",
@@ -14786,7 +15268,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which description best fits the central breast lesion on this ultrasound?",
@@ -14832,7 +15315,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "What architectural change occupies the breast duct in this field?",
@@ -14879,7 +15363,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which tissue reaction is most evident in this breast micrograph?",
@@ -14926,7 +15411,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which arrangement best describes the ovarian tumor in this field?",
@@ -14973,7 +15459,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which nuclear feature is visible in these ovarian tumor cells?",
@@ -15020,7 +15507,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which epithelial transition is present across this cervical section?",
@@ -15067,7 +15555,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which cytopathic feature is most conspicuous in the squamous epithelium?",
@@ -15114,7 +15603,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Where are the dense deposits indicated by the two large arrows on this head CT?",
@@ -15160,7 +15650,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "What visible dental morphology affects the upper central incisors?",
@@ -15206,7 +15697,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which growth pattern is shown within the expanded breast ducts?",
@@ -15253,7 +15745,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "What occupies the center of the large involved breast duct?",
@@ -15300,7 +15793,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which gross finding most strongly identifies the nature of this opened ovarian cyst?",
@@ -15346,7 +15840,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which paired cell populations characterize this ovarian tumor field?",
@@ -15393,7 +15888,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which architecture is present in this breast lesion micrograph?",
@@ -15440,7 +15936,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "How are the small tumor cells arranged within the pink stroma in this breast specimen?",
@@ -15487,7 +15984,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Which low-power architecture is visible in this breast lesion?",
@@ -15534,7 +16032,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "Count the large vascular profiles in this complete umbilical cord cross section. Which pattern is shown?",
@@ -15581,7 +16080,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "This section comes from the supplied ovarian tumor example. Which tissue pattern is present?",
@@ -15628,7 +16128,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-pleural-a",
@@ -15683,6 +16184,14 @@
         {
           "document": "R29 GU and GI Diseases RLS.pdf",
           "page": 3
+        }
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 30,
+          "y": 28,
+          "label": "A larger atypical cell in the cluster contrasts with smaller background cells."
         }
       ]
     },
@@ -15744,7 +16253,8 @@
           "document": "R29 GU and GI Diseases RLS.pdf",
           "page": 8
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-prostate-high",
@@ -15804,7 +16314,8 @@
           "document": "R29 GU and GI Diseases RLS.pdf",
           "page": 10
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-bladder-a",
@@ -15864,7 +16375,8 @@
           "document": "R29 GU and GI Diseases RLS.pdf",
           "page": 12
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r30-curves",
@@ -15912,7 +16424,8 @@
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 4
         }
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r30-epithelium",
@@ -15960,29 +16473,30 @@
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 4
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-p53-limits",
       "collection": "R12",
       "question_type": "Visual reasoning",
       "tested_concept": "P53 limits",
-      "visual_target": "What conclusion does the stained field support, and which finding still needs evaluation in the routine section?",
-      "stem": "What conclusion does the stained field support, and which finding still needs evaluation in the routine section?",
+      "visual_target": "Which paired interpretation fits the p53 immunostain and the routine section?",
+      "stem": "Which paired interpretation fits the p53 immunostain and the routine section?",
       "options": [
-        "Brown staining alone establishes stromal invasion.",
-        "The result shows exclusively membranous receptor staining.",
-        "Abnormal epithelial p53 expression is supported. Assess the epithelial and stromal interface for invasion.",
-        "The result establishes a retained myoepithelial rim."
+        "p53 is concentrated in tumor nuclei. This finding establishes invasion.",
+        "p53 is concentrated along tumor cell membranes. Assess the epithelial and stromal interface for invasion.",
+        "p53 is concentrated in tumor nuclei. Assess the epithelial and stromal interface for invasion.",
+        "p53 is concentrated along tumor cell membranes. This finding establishes invasion."
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "The distribution of staining does not demonstrate that cells cross the stromal boundary.",
-        "The dark stain occupies nuclei in the epithelial population.",
-        "Strong diffuse nuclear p53 staining supports the abnormal epithelial pattern shown. Stromal invasion depends on epithelial location and tissue architecture on the routine section.",
-        "The stain highlights nuclei within the epithelium, rather than a separate circumferential basal layer."
+        "The stain localizes p53 to the nuclei but does not establish that epithelium has entered the stroma.",
+        "The routine section is appropriate for assessing invasion. The immunostain signal is nuclear.",
+        "The abnormal epithelial nuclei stain strongly. Assess the location of epithelial groups relative to supporting tissue on the routine section to evaluate invasion.",
+        "The signal is nuclear, and stromal invasion requires evaluation of the epithelial and stromal relationship."
       ],
-      "explanation": "Strong diffuse nuclear p53 staining supports the abnormal epithelial pattern shown. Stromal invasion depends on epithelial location and tissue architecture on the routine section.",
+      "explanation": "The abnormal epithelial nuclei stain strongly. Assess the location of epithelial groups relative to supporting tissue on the routine section to evaluate invasion.",
       "visual_clues": [
         "Strong diffuse nuclear p53 staining supports the abnormal epithelial pattern shown."
       ],
@@ -16010,15 +16524,28 @@
           "page": 52
         }
       ],
-      "case_context": "The two teaching panels show endometrial epithelium on routine stain and a corresponding immunostain."
+      "case_context": "The two teaching panels show endometrial epithelium on routine stain and a corresponding immunostain.",
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 32,
+          "y": 67,
+          "label": "Routine section for assessing the epithelial and stromal relationship."
+        },
+        {
+          "x": 78,
+          "y": 46,
+          "label": "Crowded brown nuclei in the epithelial profiles on the p53 stain."
+        }
+      ]
     },
     {
       "question_id": "q-reasoning-yolk-sac-marker",
       "collection": "R12",
       "question_type": "Visual reasoning",
       "tested_concept": "Yolk sac marker",
-      "visual_target": "Which immunostain result would support the lecture's interpretation?",
-      "stem": "Which immunostain result would support the lecture's interpretation?",
+      "visual_target": "Which immunostain result would support the differentiation suggested by this perivascular structure?",
+      "stem": "Which immunostain result would support the differentiation suggested by this perivascular structure?",
       "options": [
         "Inhibin positivity",
         "p63 in a basal rim",
@@ -16059,7 +16586,15 @@
           "page": 97
         }
       ],
-      "case_context": "An ovarian tumor contains the tissue pattern shown. Choose a marker that tests the lineage suggested by the arrangement around the central vessel."
+      "case_context": "An ovarian tumor contains the tissue pattern shown. Choose a marker that tests the lineage suggested by the arrangement around the central vessel.",
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 52,
+          "y": 63,
+          "label": "Central capillary within a stromal core surrounded by tumor epithelium."
+        }
+      ]
     },
     {
       "question_id": "q-reasoning-nipple-membrane-stain",
@@ -16116,7 +16651,8 @@
           "page": 53
         }
       ],
-      "case_context": "A persistent nipple lesion has conspicuous cells in the epidermis. Compare the distribution of signal with the stains taught for the breast and vulvar examples."
+      "case_context": "A persistent nipple lesion has conspicuous cells in the epidermis. Compare the distribution of signal with the stains taught for the breast and vulvar examples.",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-uterine-mitotic-evidence",
@@ -16126,19 +16662,19 @@
       "visual_target": "Which added feature supports the malignant smooth muscle example over the bland comparison in the lecture?",
       "stem": "Which added feature supports the malignant smooth muscle example over the bland comparison in the lecture?",
       "options": [
-        "Concentric keratin within epithelial nests",
-        "Mature glands lined by ciliated epithelium",
-        "A retained basal cell layer around prostate glands",
+        "Uniform spindle nuclei with little size variation",
+        "Intersecting spindle cell fascicles without conspicuous mitoses",
+        "Bland spindle cells clustered around normal vessels",
         "Mitotic figures among markedly atypical spindle cells"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The arrowheads point to dark structures within spindle cells rather than laminated pink keratin.",
-        "The arrows lie in spindle cell tissue without pointing to epithelial-lined spaces.",
-        "There are no prostate glands or circumferential basal rims in the depicted uterine field.",
-        "The arrows point to mitotic figures within a pleomorphic spindle cell population. The lecture contrasts the atypia and mitotic activity with the uniform smooth muscle cells in its benign example."
+        "The nuclei show conspicuous variation and atypia.",
+        "The annotated field shows dividing cells among the atypical spindle cells.",
+        "The key difference is the atypia and mitotic activity in the tumor cells.",
+        "R12 contrasts the marked spindle cell atypia and mitotic figures with the bland smooth muscle comparison."
       ],
-      "explanation": "The arrows point to mitotic figures within a pleomorphic spindle cell population. The lecture contrasts the atypia and mitotic activity with the uniform smooth muscle cells in its benign example.",
+      "explanation": "R12 contrasts the marked spindle cell atypia and mitotic figures with the bland smooth muscle comparison.",
       "visual_clues": [
         "The arrows point to mitotic figures within a pleomorphic spindle cell population."
       ],
@@ -16169,7 +16705,8 @@
           "page": 55
         }
       ],
-      "case_context": "A solid uterine mass has been sampled. The large dark nuclei vary in size and shape, and the source arrows point to an additional finding."
+      "case_context": "A solid uterine mass has been sampled. The large dark nuclei vary in size and shape, and the source arrows point to an additional finding.",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-spiral-artery-flow",
@@ -16227,7 +16764,8 @@
           "page": 31
         }
       ],
-      "case_context": "The two drawings show a difference in how deeply trophoblasts remodel the maternal vessels."
+      "case_context": "The two drawings show a difference in how deeply trophoblasts remodel the maternal vessels.",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-distinguish-ovarian-failure",
@@ -16288,7 +16826,8 @@
           "page": 83
         }
       ],
-      "case_context": "An 18-year-old track athlete has had no menses for more than six months. Use the altered axis drawn in the lecture."
+      "case_context": "An 18-year-old track athlete has had no menses for more than six months. Use the altered axis drawn in the lecture.",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-64e3bc740b45a2f66a68",
@@ -16334,6 +16873,14 @@
       ],
       "visual_clues": [
         "Cloudy gray membranes cover a broad area of the fetal surface around the cord insertion."
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 49,
+          "y": 38,
+          "label": "A broad cloudy film obscures vessels on the fetal surface."
+        }
       ]
     },
     {
@@ -16384,6 +16931,14 @@
       ],
       "visual_clues": [
         "The visible surface remains continuous across the field, without bands bridging separate pockets."
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 52,
+          "y": 52,
+          "label": "The central cavity surface is continuous, without bridging bands."
+        }
       ]
     }
   ],

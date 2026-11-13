@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "title": "Reproduction Pathology Clinical Cases",
-  "bank_version": "2026-11-13-step1-review",
+  "bank_version": "study-skills1",
   "release_status": "reviewed",
   "cases": [
     {
@@ -558,7 +558,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-plaque-2",
@@ -631,7 +632,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r10-vulvar-plaque-3",
@@ -684,7 +686,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r10-vulvar-plaque-depth-stromal-interface",
@@ -745,7 +748,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 55
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-plaque-depth-basal-maturation",
@@ -802,7 +806,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 53
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-mucin-stain",
@@ -859,7 +864,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-1",
@@ -932,7 +938,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-2",
@@ -1005,7 +1012,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cartilage-comparison",
@@ -1062,7 +1070,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 94
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cyst-lining-comparison",
@@ -1120,7 +1129,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 94
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-1",
@@ -1190,7 +1200,15 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 52,
+          "y": 63,
+          "label": "Central capillary within a stromal core surrounded by tumor epithelium."
+        }
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-2-2",
@@ -1259,7 +1277,15 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 52,
+          "y": 63,
+          "label": "Central capillary within a stromal core surrounded by tumor epithelium."
+        }
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-2-3",
@@ -1328,7 +1354,15 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 51,
+          "y": 54,
+          "label": "Tumor cells form a loose network around irregular pale spaces."
+        }
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-2-depth-septa-alternative",
@@ -1385,7 +1419,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 97
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-depth-crowded-alternative",
@@ -1442,7 +1477,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 97
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r17-placental-specimens-1",
@@ -1509,7 +1545,8 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r17-placental-specimens-2",
@@ -1576,7 +1613,8 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-gross-cavity",
@@ -1588,10 +1626,10 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "tested_concept": "Uterine cavity expansion in a molar teaching specimen",
-      "visual_target": "Uterine cavity expansion in a molar teaching specimen",
+      "visual_target": "Which tissue accounts for the distention of the uterine cavity in this companion specimen?",
       "scenario": "Two separate pregnancy specimens are being evaluated for an abnormal placental process.",
-      "lead_in": "What gross relationship in this companion specimen helps explain why the cavity is distended?",
-      "stem": "What gross relationship in this companion specimen helps explain why the cavity is distended?",
+      "lead_in": "Which tissue accounts for the distention of the uterine cavity in this companion specimen?",
+      "stem": "Which tissue accounts for the distention of the uterine cavity in this companion specimen?",
       "options": [
         "One pale solid nodule centered entirely in the outer wall",
         "A small intact placental disk isolated on one edge",
@@ -1637,7 +1675,8 @@
           "document": "R17 Placenta Pathology RLS.pdf",
           "page": 28
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-villous-inclusion",
@@ -1698,7 +1737,8 @@
           "document": "R17 Placenta Pathology RLS.pdf",
           "page": 29
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-wall-extension",
@@ -1758,6 +1798,14 @@
         {
           "document": "R17 Placenta Pathology RLS.pdf",
           "page": 28
+        }
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 55,
+          "y": 56,
+          "label": "A villous profile lies within the surrounding uterine smooth muscle."
         }
       ]
     },
@@ -1843,7 +1891,8 @@
           "document": "R17 Placenta Pathology RLS.pdf",
           "page": 14
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-p57-pattern",
@@ -1853,21 +1902,21 @@
       "visual_target": "Which p57 pattern would support the classification suggested by the villous architecture in the two fields?",
       "stem": "Which p57 pattern would support the classification suggested by the villous architecture in the two fields?",
       "options": [
-        "Only the left specimen retains a villous p57 signal",
-        "Loss of villous p57 on the left with retained villous p57 on the right",
-        "Loss of villous p57 on both sides",
-        "Retained villous p57 on both sides",
-        "Interpret a failed maternal control as evidence that both samples are complete moles"
+        "Left villi retain p57. Right villi lose p57.",
+        "Left villi lose p57. Right villi retain p57.",
+        "Both villous specimens lose p57.",
+        "Both villous specimens retain p57.",
+        "Neither villous result is interpretable despite an adequate maternal control."
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "This reverses the expected pattern for the illustrated complete and partial examples.",
-        "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole. The mixed villous population on the right supports a partial mole. R28 describes p57 as negative in the complete pattern and positive in the partial pattern.",
-        "Retained p57 supports the partial pattern seen on the right.",
-        "The left morphologic pattern would ordinarily be supported by loss of villous p57 in the teaching comparison.",
-        "A failed control invalidates the stain comparison."
+        "This reverses the expected left and right results.",
+        "The left field shows the complete mole pattern, which loses villous p57. The right field shows the partial mole pattern, which retains it.",
+        "The field on the right illustrates the partial mole pattern, which retains p57.",
+        "The field on the left illustrates the complete mole pattern, which loses villous p57.",
+        "An adequate positive control allows the absence of villous staining on the left to be interpreted."
       ],
-      "explanation": "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole. The mixed villous population on the right supports a partial mole. R28 describes p57 as negative in the complete pattern and positive in the partial pattern.",
+      "explanation": "The left field shows the complete mole pattern, which loses villous p57. The right field shows the partial mole pattern, which retains it.",
       "visual_clues": [
         "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole."
       ],
@@ -1909,7 +1958,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r18-breast-specimens-1",
@@ -1980,7 +2030,20 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 23,
+          "y": 60,
+          "label": "Gland-forming tumor profiles in stroma."
+        },
+        {
+          "x": 76,
+          "y": 55,
+          "label": "Thin files of separate tumor cells in the companion field."
+        }
+      ]
     },
     {
       "question_id": "q-r18-breast-specimens-2",
@@ -2050,7 +2113,20 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "management",
+      "feedback_focus": [
+        {
+          "x": 23,
+          "y": 60,
+          "label": "Gland-forming tumor profiles in stroma."
+        },
+        {
+          "x": 76,
+          "y": 55,
+          "label": "Thin files of separate tumor cells in the companion field."
+        }
+      ]
     },
     {
       "question_id": "q-r18-breast-specimens-3",
@@ -2116,7 +2192,20 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "interpretation",
+      "feedback_focus": [
+        {
+          "x": 27,
+          "y": 52,
+          "label": "Dense central opacity with radiating lines."
+        },
+        {
+          "x": 75,
+          "y": 52,
+          "label": "Subtle distorted region between the arrows."
+        }
+      ]
     },
     {
       "question_id": "q-r18-breast-specimens-depth-targetoid-arrangement",
@@ -2177,7 +2266,8 @@
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
           "page": 61
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r18-breast-specimens-depth-gross-stellate",
@@ -2238,7 +2328,8 @@
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
           "page": 61
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r18-breast-specimens-depth-gland-stroma",
@@ -2299,7 +2390,8 @@
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
           "page": 61
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-1",
@@ -2368,7 +2460,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-2",
@@ -2437,7 +2530,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-surface-extent",
@@ -2490,7 +2584,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 42
         }
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-deep-band",
@@ -2543,7 +2638,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 42
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-contrast-acanthosis",
@@ -2600,7 +2696,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 42
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-wart-1",
@@ -2669,7 +2766,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-wart-2",
@@ -2742,7 +2840,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-raised-surface",
@@ -2799,7 +2898,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 47
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-basal-alternative",
@@ -2856,7 +2956,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 47
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-nodule-1",
@@ -2925,7 +3026,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-nodule-2",
@@ -2994,7 +3096,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r10-vulvar-nodule-depth-skin-interface",
@@ -3047,7 +3150,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 51
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r10-vulvar-nodule-depth-papillary-mimic",
@@ -3104,7 +3208,8 @@
           "document": "R10 Gyn Pathology I RLS.pdf",
           "page": 51
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-myoepithelial-stain",
@@ -3161,7 +3266,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r12-cervical-series-1",
@@ -3219,7 +3325,8 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Pending individual answer-key review.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-cervical-series-2",
@@ -3277,7 +3384,8 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Pending individual answer-key review.",
       "accepted_synonyms": [],
-      "joint_panels": true
+      "joint_panels": true,
+      "study_skill": "management"
     },
     {
       "question_id": "q-r12-cervical-series-depth-intermediate-panels",
@@ -3339,7 +3447,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 25
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-cervical-series-depth-cytology-correlation",
@@ -3400,7 +3509,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 26
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-cervical-series-depth-stromal-limit",
@@ -3457,7 +3567,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 26
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-myometrial-section-1",
@@ -3522,7 +3633,20 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 22,
+          "y": 53,
+          "label": "Endometrial gland with adjacent darker stroma within smooth muscle."
+        },
+        {
+          "x": 66,
+          "y": 74,
+          "label": "Another irregular gland profile in the myometrium."
+        }
+      ]
     },
     {
       "question_id": "q-r12-myometrial-section-2",
@@ -3587,7 +3711,20 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management",
+      "feedback_focus": [
+        {
+          "x": 22,
+          "y": 53,
+          "label": "Endometrial gland with adjacent darker stroma within smooth muscle."
+        },
+        {
+          "x": 66,
+          "y": 74,
+          "label": "Another irregular gland profile in the myometrium."
+        }
+      ]
     },
     {
       "question_id": "q-r12-myometrial-section-depth-gross-wall",
@@ -3643,6 +3780,14 @@
         {
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 55
+        }
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 67,
+          "y": 41,
+          "label": "Dark foci within the uterine wall, away from the cavity lining."
         }
       ]
     },
@@ -3702,7 +3847,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 58
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-myometrial-section-depth-site-comparison",
@@ -3759,7 +3905,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 58
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-immature-1",
@@ -3828,7 +3975,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-immature-2",
@@ -3897,7 +4045,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-immature-depth-mature-tissue",
@@ -3954,7 +4103,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 93
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-immature-depth-gross-mature-companion",
@@ -4015,7 +4165,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 93
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-1",
@@ -4088,7 +4239,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-2",
@@ -4157,7 +4309,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-3",
@@ -4234,7 +4387,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-depth-inhibin",
@@ -4246,26 +4400,26 @@
       "difficulty": "intermediate",
       "reasoning_type": "clinical_integration",
       "tested_concept": "Inhibin signal in the lesional compartment",
-      "visual_target": "Inhibin signal in the lesional compartment",
+      "visual_target": "In the inhibin stain, which cells contain the brown signal?",
       "scenario": "An ovarian mass is being classified using its gross and microscopic features.",
-      "lead_in": "The lecture labels this companion field as an inhibin stain. Which distribution makes the signal relevant to the cells being classified?",
-      "stem": "The lecture labels this companion field as an inhibin stain. Which distribution makes the signal relevant to the cells being classified?",
+      "lead_in": "In the inhibin stain, which cells contain the brown signal?",
+      "stem": "In the inhibin stain, which cells contain the brown signal?",
       "options": [
-        "Staining within groups of lesional cells",
-        "Staining exclusively in open spaces between cells",
-        "Staining limited to small vessels outside the lesion",
-        "Staining only in isolated surface keratin flakes",
-        "Staining uniformly in background collagen without lesional signal"
+        "The lesional cells",
+        "The cells lining vascular spaces",
+        "The supporting stromal cells",
+        "The cells lining open nonlesional spaces",
+        "The isolated background cells"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The signal is in groups of lesional cells. Its value here comes from staining the population whose morphology is being interpreted.",
-        "Open spaces do not explain the cellular distribution of signal.",
-        "The visible positive regions follow groups of tumor cells.",
-        "The positive cells form parts of the tissue groups.",
-        "The labeled population shows staining in cellular areas."
+        "Brown signal occupies groups of cells in the lesion.",
+        "Signal is present in lesional groups beyond small vascular profiles.",
+        "Brown labeling follows the lesional cell groups.",
+        "The signal follows the tumor groups instead of outlining separate open spaces.",
+        "Staining appears in groups of lesional cells."
       ],
-      "explanation": "The signal is in groups of lesional cells. Its value here comes from staining the population whose morphology is being interpreted.",
+      "explanation": "Brown signal occupies groups of cells in the lesion.",
       "visual_clues": [
         "The signal is in groups of lesional cells."
       ],
@@ -4291,7 +4445,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 103
         }
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-reasoning-inhibin-panel",
@@ -4356,7 +4511,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-1",
@@ -4429,7 +4585,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-2",
@@ -4502,7 +4659,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-depth-bilateral-gross",
@@ -4563,7 +4721,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 109
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-depth-linear-comparison",
@@ -4624,7 +4783,8 @@
           "document": "R12 Gyn Pathology II RLS.pdf",
           "page": 109
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-plaque-1",
@@ -4689,7 +4849,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-plaque-2",
@@ -4754,7 +4915,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-gross-plaques",
@@ -4811,7 +4973,8 @@
           "document": "R15 GU Pathology I RLS.pdf",
           "page": 18
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-cystitis-comparison",
@@ -4868,7 +5031,8 @@
           "document": "R15 GU Pathology I RLS.pdf",
           "page": 19
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-wall-1",
@@ -4937,7 +5101,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-wall-2",
@@ -5002,7 +5167,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-wall-3",
@@ -5067,7 +5233,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-flat-comparison",
@@ -5128,7 +5295,8 @@
           "document": "R15 GU Pathology I RLS.pdf",
           "page": 32
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-grade-depth",
@@ -5189,7 +5357,8 @@
           "document": "R15 GU Pathology I RLS.pdf",
           "page": 32
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-urine-comparison",
@@ -5250,7 +5419,8 @@
           "document": "R15 GU Pathology I RLS.pdf",
           "page": 32
         }
-      ]
+      ],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r16-prostate-stain-1",
@@ -5311,7 +5481,20 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 69,
+          "y": 38,
+          "label": "Brown basal cell rim in a larger gland."
+        },
+        {
+          "x": 46,
+          "y": 44,
+          "label": "Smaller crowded gland profiles with absent or inconspicuous rims."
+        }
+      ]
     },
     {
       "question_id": "q-r16-prostate-stain-2",
@@ -5376,7 +5559,20 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "stain",
+      "feedback_focus": [
+        {
+          "x": 69,
+          "y": 38,
+          "label": "Brown basal cell rim in a larger gland."
+        },
+        {
+          "x": 46,
+          "y": 44,
+          "label": "Smaller crowded gland profiles with absent or inconspicuous rims."
+        }
+      ]
     },
     {
       "question_id": "q-r16-prostate-stain-depth-he-trigger",
@@ -5437,7 +5633,8 @@
           "document": "R16 GU Pathology II RLS.pdf",
           "page": 18
         }
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r16-prostate-stain-depth-retained-duct",
@@ -5497,6 +5694,14 @@
         {
           "document": "R16 GU Pathology II RLS.pdf",
           "page": 18
+        }
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 50,
+          "y": 46,
+          "label": "Atypical epithelium projects into a recognizable ductal lumen."
         }
       ]
     },
@@ -5559,7 +5764,8 @@
           "document": "R16 GU Pathology II RLS.pdf",
           "page": 18
         }
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-reasoning-pin4-pattern",
@@ -5624,7 +5830,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r16-testicular-mass-1",
@@ -5681,7 +5888,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r16-testicular-mass-2",
@@ -5750,7 +5958,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r16-testicular-mass-3",
@@ -5823,7 +6032,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-cell-boundaries",
@@ -5880,7 +6090,8 @@
           "document": "R16 GU Pathology II RLS.pdf",
           "page": 41
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-gross-alternative",
@@ -5937,7 +6148,8 @@
           "document": "R16 GU Pathology II RLS.pdf",
           "page": 38
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-intratubular-companion",
@@ -5993,6 +6205,14 @@
         {
           "document": "R16 GU Pathology II RLS.pdf",
           "page": 39
+        }
+      ],
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 45,
+          "y": 37,
+          "label": "Large pale atypical cells within the tubule."
         }
       ]
     },
@@ -6051,7 +6271,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-1",
@@ -6104,7 +6325,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Lecture extraction index. Scored targets require a separate visual check.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-2",
@@ -6157,7 +6379,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Lecture extraction index. Scored targets require a separate visual check.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-depth-uterine-junction",
@@ -6210,7 +6433,8 @@
           "document": "R17 Placenta Pathology RLS.pdf",
           "page": 6
         }
-      ]
+      ],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-depth-ovarian-distinction",
@@ -6263,7 +6487,8 @@
           "document": "R17 Placenta Pathology RLS.pdf",
           "page": 6
         }
-      ]
+      ],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r18-intraductal-lesion-1",
@@ -6332,7 +6557,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r18-intraductal-lesion-2",
@@ -6393,7 +6619,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r18-intraductal-lesion-3",
@@ -6466,7 +6693,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-necrosis-calcification",
@@ -6478,10 +6706,10 @@
       "difficulty": "advanced",
       "reasoning_type": "clinical_integration",
       "tested_concept": "Microscopic substrate for the mammographic finding",
-      "visual_target": "Microscopic substrate for the mammographic finding",
+      "visual_target": "Where is the material that could calcify and account for the mammographic finding?",
       "scenario": "A patient has a breast lesion evaluated by biopsy and mammography.",
-      "lead_in": "What does the arrow mark that could calcify and contribute to the mammographic finding?",
-      "stem": "What does the arrow mark that could calcify and contribute to the mammographic finding?",
+      "lead_in": "Where is the material that could calcify and account for the mammographic finding?",
+      "stem": "Where is the material that could calcify and account for the mammographic finding?",
       "options": [
         "In the surrounding fibrous tissue far from the duct",
         "In a vessel outside the duct",
@@ -6523,7 +6751,8 @@
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
           "page": 49
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-in-situ-comparison",
@@ -6585,7 +6814,8 @@
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
           "page": 51
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-invasion-comparison",
@@ -6646,7 +6876,8 @@
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
           "page": 50
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r27-tubal-lining-2",
@@ -6703,7 +6934,8 @@
       ],
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": []
+      "accepted_synonyms": [],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r27-tubal-lining-depth-focal-transition",
@@ -6756,7 +6988,8 @@
           "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
           "page": 14
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-pleural-a-case",
@@ -6821,7 +7054,15 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 30,
+          "y": 28,
+          "label": "A larger atypical cell in the cluster contrasts with smaller background cells."
+        }
+      ]
     },
     {
       "question_id": "q-r29-pleural-b-case",
@@ -6886,7 +7127,15 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "interpretation",
+      "feedback_focus": [
+        {
+          "x": 50,
+          "y": 35,
+          "label": "Crowded atypical cells in the second field."
+        }
+      ]
     },
     {
       "question_id": "q-r29-pleural-depth-stain-panel",
@@ -6978,7 +7227,8 @@
           "document": "R29 Cases.pdf",
           "page": 7
         }
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r29-pleural-depth-gross-ovary",
@@ -7035,7 +7285,8 @@
           "document": "R29 GU and GI Diseases 2.pdf",
           "page": 2
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-pleural-positive-pattern",
@@ -7131,7 +7382,8 @@
       "lead_in": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
       "format_version": "clinical-visual-v1",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r29-cervix-case",
@@ -7192,7 +7444,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-pap-a-case",
@@ -7261,7 +7514,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-pap-b-case",
@@ -7330,7 +7584,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-pap-c-case",
@@ -7395,7 +7650,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-cervix-depth-halo-mimic",
@@ -7460,7 +7716,8 @@
           "document": "R29 Cases.pdf",
           "page": 21
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-cervix-depth-wet-prep",
@@ -7472,10 +7729,10 @@
       "difficulty": "intermediate",
       "reasoning_type": "clinical_integration",
       "tested_concept": "Finding intact forms to assess in a wet preparation",
-      "visual_target": "Finding intact forms to assess in a wet preparation",
+      "visual_target": "Which structures should be tracked in a live preparation to assess independent movement?",
       "scenario": "A patient with dysuria and frothy discharge has undergone a cervical examination and cytology.",
-      "lead_in": "This separate teaching view is a still image of a wet preparation. Which structures should the observer track in the live preparation to assess whether intact forms move independently?",
-      "stem": "This separate teaching view is a still image of a wet preparation. Which structures should the observer track in the live preparation to assess whether intact forms move independently?",
+      "lead_in": "Which structures should be tracked in a live preparation to assess independent movement?",
+      "stem": "Which structures should be tracked in a live preparation to assess independent movement?",
       "options": [
         "The fine grains in the background without individual outlines",
         "A broad confluent sheet of squamous nuclei across the field",
@@ -7521,7 +7778,8 @@
           "document": "R29 GU and GI Diseases 2.pdf",
           "page": 5
         }
-      ]
+      ],
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r29-vag-low-case",
@@ -7586,7 +7844,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-vag-medium-case",
@@ -7651,7 +7910,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r29-vag-high-case",
@@ -7720,7 +7980,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r29-vaginal-biopsy-depth-ovarian-companion",
@@ -7781,7 +8042,8 @@
           "document": "R29 GU and GI Diseases 2.pdf",
           "page": 8
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-vaginal-biopsy-depth-pulmonary-link",
@@ -7850,7 +8112,8 @@
           "document": "R29 Cases.pdf",
           "page": 36
         }
-      ]
+      ],
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-cycle-linked-workup",
@@ -7923,7 +8186,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-r29-prostate-low-case",
@@ -7992,7 +8256,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-prostate-high-case",
@@ -8061,7 +8326,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r29-prostate-depth-urethral-compression",
@@ -8130,7 +8396,8 @@
           "document": "R29 Cases.pdf",
           "page": 44
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-prostate-depth-basal-control",
@@ -8191,7 +8458,8 @@
           "document": "R29 Cases.pdf",
           "page": 45
         }
-      ]
+      ],
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r29-prostate-depth-obstruction-attribution",
@@ -8264,7 +8532,8 @@
           "document": "R29 Cases.pdf",
           "page": 43
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-r29-prostate-next",
@@ -8329,7 +8598,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-r29-urine-case",
@@ -8390,7 +8660,15 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology",
+      "feedback_focus": [
+        {
+          "x": 45,
+          "y": 39,
+          "label": "Atypical cell cluster in urine cytology. No bladder wall is present for staging."
+        }
+      ]
     },
     {
       "question_id": "q-r29-bladder-a-case",
@@ -8459,7 +8737,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-bladder-b-case",
@@ -8528,7 +8807,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-bladder-depth-papillary-comparison",
@@ -8597,7 +8877,8 @@
           "document": "R29 Cases.pdf",
           "page": 59
         }
-      ]
+      ],
+      "study_skill": "management"
     },
     {
       "question_id": "q-r29-bladder-depth-flat-comparison",
@@ -8666,7 +8947,8 @@
           "document": "R29 Cases.pdf",
           "page": 59
         }
-      ]
+      ],
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-bladder-treatment",
@@ -8743,7 +9025,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-sample-for-depth",
@@ -8816,7 +9099,15 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "feedback_focus": [
+        {
+          "x": 45,
+          "y": 39,
+          "label": "Atypical cell cluster in urine cytology. No bladder wall is present for staging."
+        }
+      ]
     },
     {
       "question_id": "q-r30-timeline-case",
@@ -8877,7 +9168,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r30-curves-case",
@@ -8934,7 +9226,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r30-flash-case",
@@ -8991,7 +9284,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r30-epithelium-case",
@@ -9048,7 +9342,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r30-transition-depth-ovarian-origin",
@@ -9109,7 +9404,8 @@
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 54
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r30-axis-case",
@@ -9170,7 +9466,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r30-axis-low-case",
@@ -9180,7 +9477,7 @@
       "variant_id": "v-a10a327797b3939fdf14",
       "question_type": "Clinical visual question",
       "tested_concept": "Site of suppression in the athlete's axis",
-      "visual_target": "Site of suppression in the athlete's axis",
+      "visual_target": "Which level of the marked axis best explains the athlete’s change in reproductive function?",
       "category": "Diagram",
       "collection": "R30",
       "source_origin": "lecture",
@@ -9188,7 +9485,7 @@
       "zoom_image": "assets/zoom/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.png",
       "original_image": "assets/originals/589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884.png",
       "original_filename": "Functional Hypothalamic Amenorrhea Axis Changes - Diagram.png",
-      "stem": "Which level of the marked axis best explains this athlete’s change in reproductive function?",
+      "stem": "Which level of the marked axis best explains the athlete’s change in reproductive function?",
       "options": [
         "Pituitary FSH output as the primary site",
         "Hypothalamic GnRH output",
@@ -9231,11 +9528,12 @@
       ],
       "case_id": "r30-athlete",
       "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles. The first figure shows the baseline axis. The second adds a mark to the altered pathway.",
-      "lead_in": "Which level of the marked axis best explains this athlete’s change in reproductive function?",
+      "lead_in": "Which level of the marked axis best explains the athlete’s change in reproductive function?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r30-athlete-depth-pituitary-branch",
@@ -9292,7 +9590,8 @@
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 84
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r30-athlete-depth-downstream-consequence",
@@ -9357,7 +9656,8 @@
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 83
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-r30-athlete-depth-feedback-contrast",
@@ -9422,7 +9722,8 @@
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 84
         }
-      ]
+      ],
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-reassuring-tracing",
@@ -9484,7 +9785,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-reasoning-cervical-change-assessment",
@@ -9558,7 +9860,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism"
+      "reasoning_type": "mechanism",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-descent-prediction",
@@ -9615,7 +9918,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism"
+      "reasoning_type": "mechanism",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-pelvic-marker-correlation",
@@ -9625,21 +9929,21 @@
       "visual_target": "Which source should be prioritized in the differential when the marker pattern is interpreted with the pictured lesion?",
       "stem": "Which source should be prioritized in the differential when the marker pattern is interpreted with the pictured lesion?",
       "options": [
-        "A colorectal primary established by the compression alone",
-        "A simple benign pelvic cyst established by the fluid component",
-        "A uterine cavity lesion established by CA-125 alone",
-        "A gastrointestinal primary established by a markedly higher CEA",
-        "An ovarian primary, based on the complex pelvic mass and relative marker elevations"
+        "A colorectal primary given the bowel findings",
+        "A benign ovarian cyst given the cystic component",
+        "A primary endometrial lesion given the CA-125 elevation",
+        "An upper gastrointestinal primary given the CEA result",
+        "An ovarian primary given the mass and relative marker elevations"
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The colonoscopy finding was extraluminal. The CT and marker pattern favor an ovarian source in the lecture.",
-        "The image also contains irregular solid tissue.",
-        "The marker is interpreted with CEA and the complex pelvic lesion, rather than used in isolation.",
-        "CEA is 1.0 ng/mL while CA-125 is 1,050 U/mL in the lecture.",
-        "The scan shows a large complex pelvic lesion with both cystic and solid regions. The lecture interprets the high CA-125 to CEA ratio as favoring an ovarian primary over a gastrointestinal primary in this setting."
+        "Bowel compression can reflect an external mass. The image and marker pattern favor a pelvic source.",
+        "The lesion is complex rather than a simple cyst.",
+        "CA-125 alone does not localize the lesion to the uterine cavity.",
+        "CEA is not the dominant elevation in this lecture case.",
+        "The complex pelvic mass and relative marker elevations favor an ovarian primary in the lecture case."
       ],
-      "explanation": "The scan shows a large complex pelvic lesion with both cystic and solid regions. The lecture interprets the high CA-125 to CEA ratio as favoring an ovarian primary over a gastrointestinal primary in this setting.",
+      "explanation": "The complex pelvic mass and relative marker elevations favor an ovarian primary in the lecture case.",
       "visual_clues": [
         "The scan shows a large complex pelvic lesion with both cystic and solid regions."
       ],
@@ -9676,7 +9980,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-omental-implication",
@@ -9738,7 +10043,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism"
+      "reasoning_type": "mechanism",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-cervical-sampling",
@@ -9799,7 +10105,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-cervical-treatment",
@@ -9868,7 +10175,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-vulvar-biopsy",
@@ -9929,7 +10237,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-vulvar-drainage",
@@ -9990,7 +10299,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-postpartum-workup",
@@ -10051,7 +10361,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-postpartum-distribution",
@@ -10112,7 +10423,8 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "mechanism"
+      "reasoning_type": "mechanism",
+      "study_skill": "management"
     },
     {
       "question_id": "q-reasoning-her2-therapy",
@@ -10173,7 +10485,20 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "feedback_focus": [
+        {
+          "x": 67,
+          "y": 18,
+          "label": "Clustered red HER2 signals within a blue nucleus."
+        },
+        {
+          "x": 62,
+          "y": 35,
+          "label": "Nearby green chromosome 17 control signals."
+        }
+      ]
     },
     {
       "question_id": "q-reasoning-er-therapy",
@@ -10234,7 +10559,15 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration"
+      "reasoning_type": "clinical_integration",
+      "study_skill": "management",
+      "feedback_focus": [
+        {
+          "x": 81,
+          "y": 34,
+          "label": "Brown staining is concentrated in epithelial nuclei."
+        }
+      ]
     }
   ],
   "retired_questions": [

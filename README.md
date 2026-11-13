@@ -9,6 +9,8 @@ Clinical Cases contains 33 cases with 153 linked visual questions. Open Clinical
 
 See the [third Step 1 relevance screen](reports/step1-third-screen.md) for what was retained, rewritten, or moved to reference only.
 
+Filter practice by study skill and see correct and answered counts in session results and Your progress. Combined Practice keeps cases together and spaces out reused images. Selected questions show numbered image features with the explanation. See the [question review](reports/study-skills-review.csv) for changes and lecture citations.
+
 Learn mode gives feedback after locking an answer. Exam mode defers feedback until completion. Back and Next preserve drafts and locked answers. Skipped questions are reported separately. Zoom resets for each question. The Keanne Button corrects an incorrect locked attempt without changing the original selection or adding an attempt.
 
 Progress and marks stay in browser storage, separately for each bank. Export before changing browsers or site addresses. Existing localhost progress does not automatically appear on GitHub Pages. Export it locally and import the matching bank file on the website.

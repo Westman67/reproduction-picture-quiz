@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "step1-third-screen",
+  "bank_version": "study-skills1",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -48,10 +48,11 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
-      "stem": "Which curve peaks in the first trimester and then falls to a lower plateau?",
+      "stem": "Which hormone is represented by the curve that peaks in the first trimester and then falls to a lower plateau?",
       "options": [
         "Human chorionic gonadotropin",
         "Progesterone",
@@ -88,13 +89,14 @@
       "visual_clues": [
         "The red hCG curve peaks near weeks 10 to 12 and falls while the other two rise later."
       ],
-      "visual_target": "Which curve peaks in the first trimester and then falls to a lower plateau?",
+      "visual_target": "Which hormone is represented by the curve that peaks in the first trimester and then falls to a lower plateau?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Between which adjacent stages does the plotted pulmonary vascular resistance fall most sharply?",
@@ -140,7 +142,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which layer is retained when the drawn endometrium sheds during menstruation?",
@@ -186,7 +189,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which lifespan interval contains the prolonged lowest gonadotropin activity in this schematic?",
@@ -232,7 +236,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Which cell type forms the flattened outer layer surrounding the illustrated secretory epithelium?",
@@ -278,7 +283,8 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "At which labeled step does the branching sequence first change from cells marked 2N to cells marked 1N?",
@@ -324,7 +330,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "Compare the spermatids with the mature sperm at the far right. What happens across the spermiogenesis arrows?",
@@ -370,7 +377,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "interpretation"
     },
     {
       "stem": "The upper left compartment label is hidden. Which space surrounds the villous fetal vessels and receives the maternal arterial inflow?",
@@ -416,7 +424,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "The vessel name beside the lower left “To fetus” arrow is covered. Which vessel returns placental blood to the fetus along that route?",
@@ -462,7 +471,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "The label beside the horizontal leader into the atrial septum is hidden. Which fetal shunt is indicated?",
@@ -508,7 +518,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "The upper right shunt label is hidden. Which connection is reached by its diagonal leader above the heart?",
@@ -554,7 +565,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "stem": "The shunt label in the liver region is hidden. Which channel is indicated by the horizontal leader between the left hepatic vein and aorta labels?",
@@ -600,7 +612,8 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null
+      "case_context": null,
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-reasoning-aromatase-branch",
@@ -653,7 +666,8 @@
           "page": 21
         }
       ],
-      "case_context": "The two ovarian cell populations in the diagram are separated so the transfer arrow can no longer operate. Enzyme activity in both cells is otherwise unchanged."
+      "case_context": "The two ovarian cell populations in the diagram are separated so the transfer arrow can no longer operate. Enzyme activity in both cells is otherwise unchanged.",
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-cgmp-accumulation",
@@ -702,7 +716,8 @@
           "page": 18
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-feedback-release",
@@ -755,7 +770,8 @@
           "page": 19
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-luteal-rescue",
@@ -808,7 +824,8 @@
           "page": 14
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-milk-ejection",
@@ -861,7 +878,8 @@
           "page": 9
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-functional-closure",
@@ -914,7 +932,8 @@
           "page": 7
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-arterial-closure",
@@ -967,7 +986,8 @@
           "page": 7
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-uncoupling-energy",
@@ -1016,7 +1036,8 @@
           "page": 13
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     },
     {
       "question_id": "q-reasoning-residual-estrogen",
@@ -1065,7 +1086,8 @@
           "page": 7
         }
       ],
-      "case_context": null
+      "case_context": null,
+      "study_skill": "mechanism"
     }
   ],
   "retired_questions": [
