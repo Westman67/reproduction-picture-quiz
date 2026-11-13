@@ -32,7 +32,27 @@ export function filtered(bank,p,{category='all',origin='all',collection='all',fi
 }
 export function ordered(pool,rng=Math.random,previous=null){const groups=new Map(),used=new Map(),out=[];for(const q of shuffle(pool,rng)){const id=q.source_group_id;if(!groups.has(id)){groups.set(id,[]);used.set(id,0);}groups.get(id).push(q);}while(groups.size){const eligible=[...groups.keys()].filter(id=>id!==previous),choices=eligible.length?eligible:[...groups.keys()],minimum=Math.min(...choices.map(id=>used.get(id))),tied=choices.filter(id=>used.get(id)===minimum),id=tied[Math.floor(rng()*tied.length)],q=groups.get(id).shift();out.push(q);used.set(id,used.get(id)+1);if(!groups.get(id).length)groups.delete(id);previous=id;}return out;}
 export function item(q,rng=Math.random){return {id:q.question_id,attempt_id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${rng()}`,order:shuffle(q.options.map((_,index)=>index),rng),draft:null,locked:false,overridden:false,seen:false};}
-export function session(pool,mode='learn',length='all',rng=Math.random){let qs=ordered(pool,rng);if(length!=='all'&&length!=='endless')qs=qs.slice(0,Number(length));return {mode,items:qs.map(q=>item(q,rng)),index:0,complete:false,endless:length==='endless',pool:pool.map(q=>q.question_id)};}
+export function resurfaceWeight(p,q,now=Date.now()){
+    const row=p?.questions?.[q.question_id];
+    if(!row||!(row.times_seen||row.times_answered))return 1.5;
+    let weight=row.last_result==='correct'&&row.correct_count>=2?.6:1;
+    if(row.last_result==='incorrect'){
+        const when=Date.parse(row.last_date);
+        const days=Number.isFinite(when)?Math.max(0,(now-when)/864e5):7;
+        weight+=4*Math.pow(.5,days/14);
+    }
+    if(row.marked)weight+=1;
+    return weight;
+}
+export function weightedOrder(items,weight,rng=Math.random){
+    return items.map(entry=>({entry,key:Math.pow(Math.max(rng(),1e-12),1/weight(entry))}))
+        .sort((a,b)=>b.key-a.key).map(({entry})=>entry);
+}
+export function resurfaceSelect(pool,count,p,rng=Math.random,now=Date.now()){
+    if(pool.length<=count)return pool;
+    return weightedOrder(pool,q=>resurfaceWeight(p,q,now),rng).slice(0,count);
+}
+export function session(pool,mode='learn',length='all',rng=Math.random,options={}){const limited=length!=='all'&&length!=='endless';const chosen=limited&&options.progress?resurfaceSelect(pool,Number(length),options.progress,rng,options.now):pool;let qs=ordered(chosen,rng);if(limited)qs=qs.slice(0,Number(length));return {mode,items:qs.map(q=>item(q,rng)),index:0,complete:false,endless:length==='endless',pool:pool.map(q=>q.question_id)};}
 function visualKeys(question) {
     return [question.source_group_id, question.image].filter(Boolean);
 }
@@ -50,17 +70,24 @@ export function studySkillStats(questions, getCounts) {
     return counts;
 }
 
-export function combinedSession(sectionPools, mode, length, rng = Math.random) {
+export function combinedSession(sectionPools, mode, length, rng = Math.random, options = {}) {
+    const limit = length === 'all' || length === 'endless' ? Infinity : Number(length);
+    const progress = limit !== Infinity ? options.progress : null;
     const queues = sectionPools.map(questions => {
-        if (!questions[0]?.case_id) return ordered(questions, rng).map(question => [question]);
+        if (!questions[0]?.case_id) {
+            const chosen = progress ? resurfaceSelect(questions, limit, progress, rng, options.now) : questions;
+            return ordered(chosen, rng).map(question => [question]);
+        }
         const blocks = new Map();
         for (const question of questions) {
             if (!blocks.has(question.case_id)) blocks.set(question.case_id, []);
             blocks.get(question.case_id).push(question);
         }
-        return shuffle([...blocks.values()], rng);
+        const grouped = [...blocks.values()];
+        return progress
+            ? weightedOrder(grouped, block => Math.max(...block.map(q => resurfaceWeight(progress, q, options.now))), rng)
+            : shuffle(grouped, rng);
     });
-    const limit = length === 'all' ? Infinity : Number(length);
     const caseVisuals = new Set(sectionPools.flat().filter(q => q.case_id).flatMap(visualKeys));
     const questions = [];
     const lastSeen = new Map();
@@ -100,7 +127,8 @@ export function combinedSession(sectionPools, mode, length, rng = Math.random) {
         items: questions.map(question => item(question, rng)),
         index: 0,
         complete: false,
-        endless: false,
+        endless: length === 'endless',
+        ...(length === 'endless' ? { pool: sectionPools.flat().map(q => q.question_id) } : {}),
     };
 }
 
@@ -163,4 +191,31 @@ export function validateImport(p,bank,cases=[],retired=[]){
   }
  }
  return p;
+}
+
+const normalizeText=v=>String(v??'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+export function distinctClues(q){
+ const whole=normalizeText(q.explanation);
+ const sentences=String(q.explanation??'').split(/(?<=[.!?])\s+/).map(normalizeText).filter(Boolean);
+ return (q.visual_clues||[]).filter(clue=>{const n=normalizeText(clue);return n&&!sentences.includes(n)&&!whole.includes(n);});
+}
+export function missedQuestions(bank,p){
+ const date=q=>String(p.questions[q.question_id]?.last_date||'');
+ return bank.filter(q=>p.questions[q.question_id]?.last_result==='incorrect').sort((a,b)=>date(b).localeCompare(date(a)));
+}
+const ankiCell=v=>String(v??'').replace(/\s+/g,' ').trim();
+const ankiHtml=v=>ankiCell(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const ankiTag=v=>ankiCell(v).replace(/[^A-Za-z0-9_.-]+/g,'_').replace(/^_+|_+$/g,'');
+export function ankiExport(questions,{baseUrl=''}={}){
+ const base=baseUrl?baseUrl.replace(/\/?$/,'/'):'';
+ const media=path=>base&&path?`<p><img src="${ankiHtml(base+path)}"></p>`:'';
+ const rows=questions.map(q=>{
+  const lead=q.case_id?q.lead_in:q.stem,context=q.case_id?q.scenario:q.case_context;
+  const front=`${context?`<p>${ankiHtml(context)}</p>`:''}<p><b>${ankiHtml(lead)}</b></p><ol type="A">${q.options.map(o=>`<li>${ankiHtml(o)}</li>`).join('')}</ol>${base&&q.image?media(q.image):`<p><i>Picture quiz image: ${ankiHtml(q.original_filename||q.image||q.question_id)}</i></p>`}`;
+  const sources=(q.citations||[]).map(c=>c.page==null?c.document:`${c.document}, p. ${c.page}`).join('; ');
+  const back=`<p><b>${'ABCDE'[q.correct_index]}. ${ankiHtml(q.options[q.correct_index])}</b></p><p>${ankiHtml(q.explanation)}</p>${media(q.original_image)}${sources?`<p><i>${ankiHtml(sources)}</i></p>`:''}`;
+  const tags=['picture_quiz',ankiTag(q.studySection),ankiTag(q.collection),ankiTag(q.study_skill)].filter(Boolean).join(' ');
+  return [q.question_id,front,back,tags].map(ankiCell).join('\t');
+ });
+ return ['#separator:tab','#html:true','#guid column:1','#notetype:Basic','#deck:Reproduction Missed Questions','#tags column:4',...rows].join('\n')+'\n';
 }

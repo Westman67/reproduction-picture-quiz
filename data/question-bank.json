@@ -824,7 +824,7 @@
       "correct_index": 2,
       "explanation": "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14.",
       "choice_rationales": [
-        "The maxima occupy different ages.",
+        "Female peak height velocity occurs earlier, around age 12, while the male peak is later, around age 14, so the peaks do not coincide.",
         "The gonadal-development bars begin before the curve maxima.",
         "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14.",
         "The male peak sits farther right on its age axis."
@@ -864,7 +864,7 @@
     {
       "stem": "Using both panels, which pair of plotted ranges has the earliest left boundary for its sex?",
       "options": [
-        "Underarm hair in girls and body-shape change in boys",
+        "Underarm hair in girls and overall body-shape changes in boys",
         "Breast budding in girls and growth of scrotum/testes in boys",
         "Menarche in girls and growth spurt in boys",
         "Adult breast size in girls and facial hair in boys"
@@ -872,10 +872,10 @@
       "correct_index": 1,
       "explanation": "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel.",
       "choice_rationales": [
-        "These ranges also start later on their respective axes.",
+        "Underarm hair and body-shape change begin after breast budding and scrotal or testicular growth, which start among the earliest ranges.",
         "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel.",
-        "Both selected ranges begin later than the earliest bars.",
-        "These bars begin well after the earliest changes."
+        "Menarche and the male growth spurt begin after breast budding and scrotal or testicular growth, which start among the earliest ranges.",
+        "Adult breast size and facial hair begin well after breast budding and scrotal or testicular growth, which start among the earliest ranges."
       ],
       "tested_concept": "Sequence of pubertal event ranges",
       "panels": "joint",
@@ -1056,9 +1056,9 @@
     {
       "stem": "Which combination of epidermal and superficial dermal changes is visible in this vulvar biopsy?",
       "options": [
-        "Marked acanthosis with long rete ridges",
-        "Papillary squamous fronds with koilocytes",
-        "Invasive keratinizing nests",
+        "Marked acanthosis with elongated rete ridges",
+        "Papillary squamous fronds with koilocytes at the surface",
+        "Invasive keratinizing nests infiltrating the dermis",
         "Pale superficial dermal sclerosis beneath thinned epithelium"
       ],
       "correct_index": 3,
@@ -1104,7 +1104,7 @@
     {
       "stem": "Which finding is visible within the smooth muscle in this uterine section?",
       "options": [
-        "Malignant squamous nests with keratin pearls",
+        "Malignant squamous nests containing central keratin pearls",
         "Chorionic villi inside a blood-filled space",
         "Endometrial glands and stroma embedded in myometrium",
         "Only interlacing smooth-muscle fascicles"
@@ -1363,7 +1363,7 @@
     {
       "stem": "Which follicular change is evident in this ovarian section?",
       "options": [
-        "Colloid-filled thyroid follicles",
+        "Large colloid-filled thyroid follicles",
         "Atresia with folded glassy membranes",
         "Large intact fluid-filled antrum",
         "Sheets of large luteinized cells"
@@ -1516,7 +1516,7 @@
         "Two upper ureteral channels are visible on the affected side.",
         "E clearly shows a Y-shaped junction before the bladder.",
         "The duplicated ureters in D remain separate to the bladder, whereas those in E join into a single distal segment.",
-        "The visible connections show the reverse relationship."
+        "D shows two separate distal ureters and E shows distal fusion, so this choice reverses the two panels."
       ],
       "tested_concept": "Complete versus partial ureteral duplication",
       "panels": "joint",
@@ -2119,9 +2119,9 @@
       "stem": "Which architectural pattern is present in this complete low-power squamous lesion panel?",
       "options": [
         "Flat thin epidermis above a broad pale sclerotic band",
-        "Small tumor nests infiltrating between muscle bundles",
-        "Rounded glands containing central colloid",
-        "Outward papillary projections with stromal cores and thick squamous covering"
+        "Small tumor nests infiltrating between deep muscle bundles",
+        "Rounded thyroid-type glands containing central colloid",
+        "Outward papillary projections covered by thick squamous epithelium"
       ],
       "correct_index": 3,
       "explanation": "Multiple elongated stromal cores project outward under a thick squamous epithelial covering.",
@@ -2217,7 +2217,7 @@
         "A cluster of cells with multiple molded nuclei",
         "Pear-shaped nucleated organisms with thin projecting extensions",
         "Budding yeasts joined to branching filaments",
-        "Squamous cells densely covered by fine bacterial forms"
+        "Squamous cells densely covered by fine bacterial forms at the surface"
       ],
       "correct_index": 1,
       "explanation": "Both profiles are nucleated, roughly pear-shaped organisms with thin external projections.",
@@ -2741,10 +2741,10 @@
     {
       "stem": "In this supplied sagittal pelvic MRI, what structural finding is illustrated at the white arrow between the bladder and rectum?",
       "options": [
-        "A large uterine mass displacing the bladder",
-        "Two separate enlarged uterine bodies",
+        "A large solid uterine mass displacing the adjacent bladder",
+        "Two separate enlarged uterine bodies side by side",
         "Absence of an identifiable uterine body in its expected location",
-        "An enlarged uterine body distended by fluid"
+        "An enlarged uterine body distended by fluid in its cavity"
       ],
       "correct_index": 2,
       "explanation": "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption.",
@@ -3174,7 +3174,7 @@
         "Squamous cells cluster around traversing fungal filaments",
         "Bacteria form a uniform coat over each cell",
         "Multiple nuclei mold against one another",
-        "Papillary cores are covered by stratified epithelium"
+        "Papillary cores are covered by stratified squamous epithelium"
       ],
       "correct_index": 0,
       "explanation": "Dark elongated filaments traverse a dense cluster of squamous cells.",
@@ -3220,7 +3220,7 @@
       "stem": "Which finding near the surface should prompt a search for organisms in this biopsy?",
       "options": [
         "Deep dermal sclerosis",
-        "Invasive keratinizing tumor nest",
+        "Invasive keratinizing tumor nest in the dermis",
         "Intraepidermal pale tumor cells",
         "Superficial neutrophilic microabscess"
       ],
@@ -3564,7 +3564,7 @@
       "options": [
         "Infiltrating keratinizing squamous nests",
         "Thin epithelium over diffuse dermal sclerosis",
-        "Isolated malignant cells scattered through epidermis",
+        "Isolated malignant cells scattered throughout the epidermis",
         "Circumscribed complex papillary glandular proliferation"
       ],
       "correct_index": 3,
@@ -3610,10 +3610,10 @@
     {
       "stem": "Which compartment contains the broad pale abnormal zone in this penile biopsy?",
       "options": [
-        "Epithelial cell nuclei",
-        "A glandular lumen",
+        "Epithelial cell nuclei within the basal layer",
+        "A glandular lumen within the epithelium",
         "Superficial dermis beneath the epithelium",
-        "Surface keratin alone"
+        "The surface keratin layer alone"
       ],
       "correct_index": 2,
       "explanation": "A broad pale, relatively sparsely cellular collagenous zone lies directly below the epithelial layer.",
@@ -3660,7 +3660,7 @@
       "options": [
         "Colloid-filled follicular cells",
         "Crowded relatively small cells with dark nuclei",
-        "Flat surface cells with tiny pyknotic nuclei",
+        "Flat superficial cells with tiny pyknotic nuclei",
         "Large cells floating in a gland lumen"
       ],
       "correct_index": 1,
@@ -3918,9 +3918,9 @@
       "stem": "Which gross pattern is present in this bisected vaginal nodule?",
       "options": [
         "A circumscribed pale solid mass with a whorled cut surface",
-        "A thin-walled fluid-filled cyst",
-        "An exophytic cauliflower-like wart",
-        "A ragged deeply ulcerated mucosal plaque"
+        "A thin-walled fluid-filled cyst with a smooth lining",
+        "An exophytic cauliflower-like wart with a papillary surface",
+        "A ragged deeply ulcerated mucosal plaque with irregular edges"
       ],
       "correct_index": 0,
       "explanation": "The cut nodule is solid, pale, relatively uniform, and circumscribed, with subtle whorled texture.",
@@ -3965,9 +3965,9 @@
     {
       "stem": "Which finding supports squamous differentiation in this vaginal tumor?",
       "options": [
-        "Small colloid-filled follicles",
-        "Uniform cells around Call-Exner spaces",
-        "Branching glands lined by hobnail cells",
+        "Small colloid-filled follicles lined by cuboidal cells",
+        "Uniform cells arranged around small Call-Exner spaces",
+        "Branching glands lined by hobnail cells within fibrous stroma",
         "Concentric keratinization within invasive epithelial nests"
       ],
       "correct_index": 3,
@@ -4016,7 +4016,7 @@
         "A flat normal lining covers an otherwise empty lumen",
         "A uniform keratin layer rests on intact bland epidermis",
         "Irregular squamous nests extend into the underlying stroma",
-        "Atypical cells remain only within the surface epithelium"
+        "Atypical cells remain only within the surface epithelium layer"
       ],
       "correct_index": 2,
       "explanation": "Separate irregular epithelial nests and tongues occupy the pale stroma beneath the surface.",
@@ -4164,8 +4164,8 @@
     {
       "stem": "Which epithelial pattern is present in this vulvar section?",
       "options": [
-        "A bland single-layered glandular lining",
-        "Immature atypical cells extending through most of the epithelial thickness",
+        "A bland single-layered glandular lining bordering a lumen",
+        "Immature atypical cells extending through most of the epithelium",
         "A thin bland epidermis over a broad sclerotic dermal band",
         "Scattered large pale cells among otherwise mature keratinocytes"
       ],
@@ -4406,7 +4406,7 @@
       "options": [
         "Nuclear rounding and stratification with loss of orderly polarity",
         "Uniform slender nuclei aligned perpendicular to every lumen",
-        "Tiny pyknotic nuclei in flattened superficial squamous cells",
+        "Tiny pyknotic nuclei within flattened superficial squamous surface cells",
         "Multiple molded nuclei in detached viral giant cells"
       ],
       "correct_index": 0,
@@ -4453,9 +4453,9 @@
       "stem": "Which description best fits the squamous cells in this cytology field?",
       "options": [
         "Large flat squamous cells with tiny pyknotic nuclei",
-        "Long branching fungal filaments",
+        "Long branching fungal filaments with septate hyphae",
         "Tall mucin-filled columnar cells lining a gland",
-        "Small immature squamous cells with relatively high nuclear-to-cytoplasmic ratios"
+        "Small immature squamous cells with high nuclear-to-cytoplasmic ratios"
       ],
       "correct_index": 3,
       "explanation": "The compact blue cells have conspicuous nuclei relative to their limited cytoplasm.",
@@ -4500,7 +4500,7 @@
     {
       "stem": "Compare panel A at left with panel B at right. What relationship does the supplied uterine tumor example demonstrate?",
       "options": [
-        "A benign smooth muscle nodule with identical bland muscle in the node",
+        "A benign smooth muscle nodule with identical bland muscle in the lymph node",
         "An isolated intraepithelial lesion without any nodal tumor",
         "A mixed epithelial and stromal primary with an epithelial nodal metastasis",
         "A purely squamous primary with only laminated keratin in the node"
@@ -4596,10 +4596,10 @@
     {
       "stem": "Which combination is present in this ovarian tumor?",
       "options": [
-        "Large pale tumor cells separated by a lymphocyte-containing fibrous septum",
-        "Small uniform cells around Call-Exner spaces",
-        "Bland spindle cells forming a storiform pattern",
-        "Thyroid-type follicles filled with colloid"
+        "Large pale tumor cells divided by a lymphocyte-rich fibrous septum",
+        "Small uniform granulosa-type cells around Call-Exner spaces",
+        "Bland spindle cells forming a storiform pattern within collagen",
+        "Thyroid-type follicles filled with colloid and lined by flat cells"
       ],
       "correct_index": 0,
       "explanation": "Large pale polygonal tumor cells flank a pink fibrous septum containing small dark lymphocytes.",
@@ -4645,7 +4645,7 @@
       "stem": "Which microscopic pattern is visible in this supplied ovarian embryonal carcinoma field?",
       "options": [
         "Orderly bland spindle cells with little nuclear variation",
-        "Mature skin containing hair follicles and sebaceous glands",
+        "Mature skin containing hair follicles and associated sebaceous glands",
         "Numerous thyroid follicles filled with colloid",
         "Crowded primitive atypical epithelial cells with necrotic debris"
       ],
@@ -4898,7 +4898,7 @@
       "options": [
         "A uniformly solid dark invasive epithelial mass",
         "Multiple smooth cystic spaces within the ovarian tissue",
-        "A single solid white whorled nodule without cysts",
+        "A single solid white whorled nodule with no cystic spaces present",
         "Hair and tooth structures within a dermoid cavity"
       ],
       "correct_index": 1,
@@ -4946,7 +4946,7 @@
       "options": [
         "Longitudinal grooves in relatively uniform oval nuclei",
         "Multiple nuclei molded together in giant cells",
-        "Markedly pleomorphic nuclei projecting as hobnails",
+        "Markedly pleomorphic nuclei projecting as hobnails into lumina",
         "Tiny pyknotic nuclei in flat surface cells"
       ],
       "correct_index": 0,
@@ -5042,7 +5042,7 @@
       "options": [
         "A single thick-walled blood vessel",
         "Narrow slitlike spaces among crowded tumor nests",
-        "Large follicles packed with dense colloid",
+        "Large follicles packed with dense eosinophilic colloid",
         "A concentric squamous keratin pearl"
       ],
       "correct_index": 1,
@@ -5137,7 +5137,7 @@
       "stem": "Which low-power glandular pattern is present in this endometrium?",
       "options": [
         "Predominantly solid tumor without gland lumina",
-        "Invasive keratinizing squamous nests",
+        "Invasive keratinizing squamous nests within the stroma",
         "A bland flat urothelial surface without glands",
         "Variably sized cystically dilated glands with intervening stroma"
       ],
@@ -5185,7 +5185,7 @@
       "stem": "Which component is present in this ovarian tumor section?",
       "options": [
         "Bland storiform spindle-cell fascicles",
-        "Concentric keratin pearls in invasive squamous nests",
+        "Concentric keratin pearls within invasive broad squamous nests",
         "Primitive neuroepithelial tubules with crowded dark nuclei",
         "Mature thyroid follicles filled with colloid"
       ],
@@ -5234,7 +5234,7 @@
       "options": [
         "Multiple molded nuclei in herpetic giant cells",
         "Perinuclear halos with enlarged irregular dark nuclei",
-        "Uniform bacterial coating obscuring all cell borders",
+        "Uniform bacterial coating obscuring all cell borders and nuclei",
         "Long branching fungal pseudohyphae"
       ],
       "correct_index": 1,
@@ -5283,7 +5283,7 @@
         "Circumscribed pale uterine nodules with bland smooth muscle fascicles",
         "Hemorrhagic destructive mass with markedly pleomorphic cells",
         "Hair-containing cyst with mature skin appendages",
-        "Diffuse myometrial hemorrhagic foci with embedded endometrial glands"
+        "Diffuse myometrial hemorrhagic foci with embedded endometrial glands and stroma"
       ],
       "correct_index": 0,
       "explanation": "The uterus contains multiple circumscribed pale nodules, and the microscopic panel shows regular spindle-shaped smooth muscle cells.",
@@ -5377,7 +5377,7 @@
       "stem": "What combination is visible in this supplied uterine smooth muscle tumor?",
       "options": [
         "Mature squamous cells with orderly surface flattening",
-        "Thyroid follicles containing colloid",
+        "Rounded thyroid follicles containing homogeneous colloid",
         "Pleomorphic hyperchromatic spindle cells with arrowed mitotic figures",
         "Uniform spindle cells without appreciable nuclear variation"
       ],
@@ -5520,9 +5520,9 @@
     {
       "stem": "Which microscopic feature is present in this supplied mucinous ovarian tumor?",
       "options": [
-        "Mature skin appendages around a hair shaft",
+        "Mature skin appendages arranged around a central hair shaft",
         "Complex crowded glandular and papillary epithelium with atypia",
-        "A bland single row of mucinous lining cells",
+        "A bland single row of mucinous lining cells without atypia",
         "Bland woven spindle cells without epithelial lumina"
       ],
       "correct_index": 1,
@@ -5810,7 +5810,7 @@
       "options": [
         "Concentric keratin pearls",
         "Rounded intracellular crystalline rods",
-        "Normal ovarian oocytes with granulosa rings",
+        "Normal ovarian oocytes surrounded by regular granulosa rings",
         "Distinct glandular lumina among crowded tumor cells"
       ],
       "correct_index": 3,
@@ -5856,10 +5856,10 @@
     {
       "stem": "Which arrangement is visible in this ovarian tumor section?",
       "options": [
-        "Large colloid-filled thyroid follicles",
+        "Large colloid-filled thyroid follicles lined by cuboidal cells",
         "A normal multilayered follicle surrounding one oocyte",
         "Small tumor cells infiltrating in narrow linear files through stroma",
-        "Broad squamous nests packed with keratin pearls"
+        "Broad squamous nests packed with concentric keratin pearls"
       ],
       "correct_index": 2,
       "explanation": "Small atypical cells infiltrate the pink fibrous stroma in narrow rows and files.",
@@ -6049,7 +6049,7 @@
       "stem": "What relationship between the epithelium and stromal cores is visible in this ovarian section?",
       "options": [
         "Concentric keratin pearls within squamous nests",
-        "Primitive neuroepithelial rosettes without stromal papillae",
+        "Primitive neuroepithelial rosettes with no stromal papillae present",
         "Broad stromal papillae covered by a thin orderly epithelial lining",
         "Solid pleomorphic tumor nests replacing the stromal core"
       ],
@@ -6098,7 +6098,7 @@
       "options": [
         "Thyroid follicles containing colloid",
         "Tubular glands with pseudostratified dark elongated nuclei",
-        "Tortuous glands with prominent subnuclear vacuoles",
+        "Tortuous glands with prominent subnuclear vacuoles in the epithelium",
         "Diffuse stromal breakdown with scant intact glands"
       ],
       "correct_index": 1,
@@ -6192,9 +6192,9 @@
     {
       "stem": "Where is the conspicuous pale cytoplasm located in this secretory endometrial gland?",
       "options": [
-        "Only within the central lumen",
-        "Inside the nuclear chromatin",
-        "Within an invasive muscle bundle",
+        "Only within the secretions of the central lumen",
+        "Inside the nuclear chromatin of the lining cells",
+        "Within an invasive bundle of myometrial muscle",
         "Between the nuclei and the glandular basement membrane"
       ],
       "correct_index": 3,
@@ -6240,7 +6240,7 @@
     {
       "stem": "Which difference is visible in the right-hand panel?",
       "options": [
-        "Replacement of all epithelial cells by mature adipocytes",
+        "Replacement of all epithelial cells by mature adipocytes throughout",
         "A complete absence of epithelial proliferation",
         "Greater nuclear variation with more complex crowded growth",
         "Uniformly smaller bland nuclei with simpler architecture"
@@ -6337,9 +6337,9 @@
       "stem": "Which microscopic pattern is present in this ovarian tumor?",
       "options": [
         "Tubules lined by Sertoli-like cells separated by intervening stroma",
-        "Thyroid follicles filled with dense colloid",
-        "Concentric squamous keratin pearls",
-        "Primitive neuroepithelial rosettes in immature tissue"
+        "Thyroid follicles filled with dense colloid and lined by flat cells",
+        "Concentric squamous keratin pearls within epithelial nests",
+        "Primitive neuroepithelial rosettes within immature neural tissue"
       ],
       "correct_index": 0,
       "explanation": "Numerous epithelial-like tubules are separated by pink intervening stromal tissue.",
@@ -6385,7 +6385,7 @@
       "stem": "Which differentiated tissue pattern is present in this supplied ovarian lesion?",
       "options": [
         "Keratinizing squamous nests",
-        "Primitive neuroepithelial tubules",
+        "Primitive neuroepithelial tubules with dark nuclei",
         "Bland spindle-cell fascicles",
         "Thyroid-type follicles with colloid"
       ],
@@ -6482,7 +6482,7 @@
       "options": [
         "A lace-like network of tumor cells around irregular spaces",
         "Tightly packed tumor nests with small round lumina",
-        "Broad papillary fronds with prominent stromal cores",
+        "Broad papillary fronds with prominent fibrovascular stromal cores",
         "Solid sheets of tumor cells with few open spaces"
       ],
       "correct_index": 0,
@@ -6682,7 +6682,7 @@
         "Irregular atypical glands distributed through the stroma",
         "A flat atypical lining without gland formation",
         "Bland smooth-edged urothelial nests without lumina",
-        "A dense population of foamy macrophages without glands"
+        "A dense population of foamy macrophages without any glands"
       ],
       "correct_index": 0,
       "explanation": "Irregular epithelial-lined glandular lumina extend among the intervening stromal tissue.",
@@ -7161,7 +7161,7 @@
       "options": [
         "Solid urothelial nests surrounded only by dense muscle",
         "Concentric keratin pearls within broad squamous nests",
-        "Bland spindle cells in woven collagen without epithelial groups",
+        "Bland spindle cells in woven collagen bundles without any epithelial groups",
         "Small epithelial tumor groups within abundant pale extracellular mucin"
       ],
       "correct_index": 3,
@@ -7207,7 +7207,7 @@
     {
       "stem": "Which low-power architecture is present in this bladder lesion?",
       "options": [
-        "Diffuse small tumor cords invading muscle",
+        "Diffuse small tumor cords invading the muscularis propria",
         "Subepithelial glands floating in mucin lakes",
         "Branching stromal papillae covered by an orderly urothelial lining",
         "A flat surface replaced by markedly pleomorphic cells"
@@ -7447,7 +7447,7 @@
     {
       "stem": "Which cellular pattern is present in this supplied bladder adenocarcinoma field?",
       "options": [
-        "Flattened superficial cells with tiny pyknotic nuclei",
+        "Flattened superficial cells with tiny pyknotic nuclei and dense cytoplasm",
         "Vacuolated tumor cells with peripherally displaced nuclei",
         "Uniform spindle cells with elongated central nuclei",
         "Multinucleated giant cells with molded nuclei"
@@ -7543,9 +7543,9 @@
     {
       "stem": "Which pattern is present in this supplied urachal remnant section?",
       "options": [
-        "A flat high-grade urothelial lesion alone",
-        "Solid squamous nests with keratin pearls",
-        "A normal ovarian follicle containing an oocyte",
+        "A flat high-grade urothelial lesion without cystic spaces",
+        "Solid squamous nests with central keratin pearls",
+        "A normal ovarian follicle with an oocyte and granulosa cells",
         "Large epithelial-lined cystic spaces within connective tissue"
       ],
       "correct_index": 3,
@@ -7591,10 +7591,10 @@
     {
       "stem": "What does the red source arrow highlight in this urine cytology specimen?",
       "options": [
-        "Long branching fungal filaments",
-        "Mature erythrocytes without nuclei",
+        "Long branching fungal filaments with septate hyphae",
+        "Mature anucleate erythrocytes scattered among the cells",
         "Atypical hyperchromatic urothelial cells with high nuclear-to-cytoplasmic ratios",
-        "Large bland superficial squamous cells with tiny nuclei"
+        "Large bland superficial squamous cells with small pyknotic nuclei"
       ],
       "correct_index": 2,
       "explanation": "The arrow highlights a group of small dark atypical cells with conspicuous nuclei and scant cytoplasm.",
@@ -7688,7 +7688,7 @@
       "stem": "Which architectural feature is conspicuous in this uterine tube cross-section?",
       "options": [
         "Complex branching mucosal folds projecting into the lumen",
-        "A smooth round lumen without mucosal projections",
+        "A smooth round lumen without any mucosal projections or folds",
         "Solid squamous nests filling the entire wall",
         "A single ovarian follicle containing an oocyte"
       ],
@@ -7735,10 +7735,10 @@
     {
       "stem": "What do the two upper long source arrows identify?",
       "options": [
-        "Isolated bundles of skeletal muscle",
-        "Sheets of surface keratin",
+        "Isolated bundles of long parallel skeletal muscle fibers",
+        "Sheets of anucleate surface keratin over the epithelium",
         "Clusters of small mammary glandular profiles forming lobules",
-        "A pair of ovarian oocytes"
+        "A pair of ovarian oocytes surrounded by follicular layers"
       ],
       "correct_index": 2,
       "explanation": "The two upper arrows point to compact clusters of small epithelial-lined glandular profiles.",
@@ -7784,9 +7784,9 @@
       "stem": "Compare the tissue immediately around the small glands on the left with the broad pink area on the right. Which distinction is visible?",
       "options": [
         "More cellular intralobular stroma beside glands and denser collagen farther away",
-        "Identical solid epithelial tissue in both regions",
+        "Identical solid epithelial tissue filling both regions",
         "A keratinized surface on the right and cartilage on the left",
-        "A large antral cavity replacing the right half"
+        "A large follicular antral cavity replacing the right half"
       ],
       "correct_index": 0,
       "explanation": "Small glandular profiles on the left have more cellular surrounding stroma, while broad pink collagen occupies the right.",
@@ -7832,7 +7832,7 @@
       "stem": "In this supplied smooth muscle actin stain, where is the prominent brown staining around the glands?",
       "options": [
         "Only in material floating inside glandular lumina",
-        "Diffusely throughout the entire collagenous stroma",
+        "Diffusely throughout the entire collagenous stroma of the wall",
         "Only within anucleate erythrocytes",
         "Along the outer basal contours of the glandular profiles"
       ],
@@ -7927,10 +7927,10 @@
     {
       "stem": "What lies outside the glandular epithelial lining in this prostate field?",
       "options": [
-        "An alveolar air space",
+        "An alveolar air space lined by thin pneumocytes",
         "Pink fibromuscular stroma containing elongated nuclei",
-        "A large follicular antrum",
-        "A surface layer of laminated keratin"
+        "A large follicular antrum filled with fluid",
+        "A surface layer of laminated anucleate keratin"
       ],
       "correct_index": 1,
       "explanation": "Pink interlacing stromal tissue with elongated nuclei surrounds the glandular epithelium.",
@@ -7978,7 +7978,7 @@
         "Basal cells at the outer edge of the glands",
         "Only free cells in the glandular lumina",
         "Only the central luminal secretions",
-        "The entire fibromuscular stroma uniformly"
+        "The entire fibromuscular stroma uniformly and diffusely"
       ],
       "correct_index": 0,
       "explanation": "Small brown nuclei trace the basal contours around pale glandular lumina.",
@@ -8024,8 +8024,8 @@
       "stem": "Which region provides an internal positive control for the basal-cell stain?",
       "options": [
         "Every small crowded gland in the upper right",
-        "Only the empty glandular lumina",
-        "The unstained background collagen alone",
+        "Only the empty glandular lumina within the larger glands",
+        "The unstained background collagen between the glands alone",
         "The larger glands at the lower left with brown peripheral nuclei"
       ],
       "correct_index": 3,
@@ -8277,10 +8277,10 @@
     {
       "stem": "What happens to the bright endometrial cavity toward the fundus?",
       "options": [
-        "It expands into one diffuse solid mass",
-        "It forms a circular structure inside the ovary",
+        "It expands into one diffuse solid mass of endometrial tissue",
+        "It forms a circular fluid structure within the adjacent ovary",
         "It divides into two upper channels separated by intervening tissue",
-        "It ends as a single round cavity without division"
+        "It ends as a single round cavity at the fundus without division"
       ],
       "correct_index": 2,
       "explanation": "Two bright endometrial channels diverge superiorly with tissue between them.",
@@ -8325,7 +8325,7 @@
     {
       "stem": "Which external fundal contour favors a bicornuate uterus?",
       "options": [
-        "A midline defect limited to the vaginal outlet",
+        "A midline defect limited to the vaginal outlet region",
         "A deep external fundal cleft between diverging horns",
         "A smooth convex fundus without a cleft",
         "A single small horn with no second horn"
@@ -8616,7 +8616,7 @@
         "A fused bridge joining two separate kidneys",
         "An isolated elongated solid tumor without cysts",
         "Numerous small cystic spaces throughout the renal tissue",
-        "One solitary smooth cyst in otherwise solid tissue"
+        "One solitary smooth cyst within otherwise solid renal tissue"
       ],
       "correct_index": 2,
       "explanation": "Multiple small rounded spaces are scattered in both pieces.",
@@ -8661,10 +8661,10 @@
     {
       "stem": "Compare the 10–11 week panels. Which difference is visible near the urethral folds?",
       "options": [
-        "The upper panel shows midline joining while the lower panel retains separate folds",
-        "The lower panel shows joining while the upper panel retains separate folds",
-        "Both panels show the same complete joining",
-        "Both panels lack visible folds"
+        "The upper panel shows midline joining while the lower retains separate folds",
+        "The lower panel shows midline joining while the upper panel retains separate folds",
+        "Both panels show the same complete midline joining of the folds",
+        "Both panels lack any visible urethral folds"
       ],
       "correct_index": 0,
       "explanation": "The later male panel shows the ventral folds approaching and joining at the midline. The later female panel retains separated folds.",
@@ -8757,9 +8757,9 @@
     {
       "stem": "Which contrast is visible between the childhood region and the postmenopausal region of the large gonadotropin plot?",
       "options": [
-        "The curves remain identical across both regions",
+        "The curves remain identical in the childhood and postmenopausal regions",
         "The largest oscillations occur throughout the childhood interval",
-        "The curves are low in childhood and rise markedly after the menopausal transition",
+        "The curves are low in childhood and rise markedly after menopause",
         "The curves are high throughout childhood and fall at menopause"
       ],
       "correct_index": 2,
@@ -8805,9 +8805,9 @@
     {
       "stem": "Across the numbered drawings, which visual change distinguishes stage II from stage I?",
       "options": [
-        "Pubic hair fills the entire adult distribution",
-        "The testes and scrotal outline enlarge while the penile outline changes little",
-        "The penis has reached the mature stage V contour",
+        "Pubic hair already fills the entire adult distribution",
+        "The testes and scrotum enlarge while the penile outline changes little",
+        "The penis has already reached the mature stage V contour",
         "The testes shrink and the scrotal outline disappears"
       ],
       "correct_index": 1,
@@ -8910,8 +8910,8 @@
       "options": [
         "Groups of large round tumor cells separated by intervening stroma",
         "A single thin bland epithelial lining around one cyst",
-        "Concentric pink keratin whorls",
-        "Long parallel bundles of bland spindle cells"
+        "Concentric pink keratin whorls within squamous nests",
+        "Long parallel bundles of bland spindle cells with tapered nuclei"
       ],
       "correct_index": 0,
       "explanation": "Large round nucleated cells form groups separated by paler stromal tissue with scattered small dark nuclei.",
@@ -9004,10 +9004,10 @@
     {
       "stem": "What finding beyond the uterine cavity supports bilateral tubal patency in this supplied study?",
       "options": [
-        "Only one tube fills and spills",
-        "Both tubes end abruptly without visible spill",
+        "Only one tube fills and spills contrast into the pelvis",
+        "Both tubes end abruptly with no contrast visible beyond them",
         "Contrast passes through both tubes and spills laterally on both sides",
-        "Contrast remains confined to the uterine cavity"
+        "Contrast remains confined to the triangular uterine cavity alone"
       ],
       "correct_index": 2,
       "explanation": "Contrast extends from both uterine corners through the tubes to irregular collections on both sides.",
@@ -9052,8 +9052,8 @@
     {
       "stem": "Which feature in the upper chromatin drawing supports transcription?",
       "options": [
-        "Closely packed nucleosomes with no polymerase complex",
-        "A receptor anchored in a cell membrane",
+        "Closely packed nucleosomes with no polymerase complex bound to DNA",
+        "A receptor anchored in the plasma membrane away from the DNA",
         "Identical nucleosome spacing in both panels",
         "Separated nucleosomes with polymerase on accessible DNA"
       ],
@@ -9156,7 +9156,7 @@
       "choice_rationales": [
         "The black progesterone curve rises over the interval.",
         "The red hCG curve is already past its peak and descends.",
-        "The trend directions are the reverse of this choice.",
+        "Between weeks 14 and 22 hCG falls and progesterone rises, so this choice reverses both trends.",
         "The red curve descends over this interval, while the black curve slopes upward."
       ],
       "visual_clues": [
@@ -9386,10 +9386,10 @@
     {
       "stem": "Which gross pattern is visible across the cut surfaces in this embryonal carcinoma example?",
       "options": [
-        "An entirely black fluid cavity without solid tumor",
-        "Lobulated solid tan tissue with irregular darker and paler areas",
-        "A single uniform translucent cyst",
-        "A smooth homogeneous white surface without variation"
+        "An entirely black fluid-filled cavity without solid tumor",
+        "Lobulated solid tan tissue with irregular darker and paler zones",
+        "A single uniform translucent cyst with a thin clear wall",
+        "A smooth homogeneous white surface without color variation"
       ],
       "correct_index": 1,
       "explanation": "The cut tumor is solid and lobulated with irregular zones of different color and texture.",
@@ -9437,7 +9437,7 @@
         "Crowded atypical epithelial cells with irregular dark nuclei",
         "Uniform bland spindle cells in intersecting fascicles",
         "Mature adipocytes with thin peripheral nuclei",
-        "Orderly ciliated epithelial cells in a single luminal row"
+        "Orderly ciliated epithelial cells in a single luminal row of cells"
       ],
       "correct_index": 0,
       "explanation": "Irregular dark nuclei are crowded within solid and poorly organized epithelial groups.",
@@ -9531,9 +9531,9 @@
       "stem": "In this supplied PLAP stain, which region contains the conspicuously positive cells?",
       "options": [
         "A layer of erythrocytes in a large external vessel",
-        "The cellular lining along the inside of the seminiferous tubule",
-        "The empty center of the tubular lumen",
-        "The entire surrounding connective tissue diffusely"
+        "The cellular lining inside the seminiferous tubule",
+        "The empty center of the tubular lumen itself",
+        "The entire surrounding connective tissue, diffusely"
       ],
       "correct_index": 1,
       "explanation": "Brown-stained cells follow the inner tubular perimeter around an open pale lumen.",
@@ -9585,10 +9585,10 @@
     {
       "stem": "Which gross feature is visible in this cut testicular specimen?",
       "options": [
-        "A well-defined pale solid nodule occupying most of the cut section",
-        "A multiloculated thin-walled cyst with hair",
+        "A well-defined pale solid nodule filling most of the cut section",
+        "A multiloculated thin-walled cyst containing hair",
         "A diffuse black hemorrhagic testis with a twisted cord",
-        "A broad plaque lining a bladder cavity"
+        "A broad plaque lining a bladder cavity wall"
       ],
       "correct_index": 0,
       "explanation": "A large circumscribed pale tan solid mass fills most of the cut testicular section.",
@@ -9778,7 +9778,7 @@
       "stem": "Which architectural pattern is visible in this testicular stromal tumor?",
       "options": [
         "Small lymphocytes filling all available space",
-        "Large empty thyroid-type follicles filled with colloid",
+        "Large thyroid-type follicles filled with dense eosinophilic colloid",
         "Small tubular epithelial profiles separated by pink stroma",
         "Broad avascular keratin whorls"
       ],
@@ -10017,7 +10017,7 @@
     {
       "stem": "Which low-power architecture is visible in this testicular yolk sac tumor?",
       "options": [
-        "Only normal seminiferous tubules with maturing germ cells",
+        "Only normal seminiferous tubules with maturing germ cells present",
         "An irregular reticular network of epithelial strands and spaces",
         "A smooth thick squamous surface with keratin",
         "Circumscribed fascicles of bland muscle cells"
@@ -10065,10 +10065,10 @@
     {
       "stem": "Which feature identifies the scattered tissue profiles in this placental section?",
       "options": [
-        "Separate chorionic villi with stromal cores and trophoblastic coverings",
-        "Solid sheets of tumor without any villous outline",
-        "Concentric keratinized whorls",
-        "A single continuous ciliated epithelial surface"
+        "Separate chorionic villi with stromal cores and trophoblastic rims",
+        "Solid sheets of tumor without any recognizable villous outline",
+        "Concentric keratinized whorls with pink laminated centers",
+        "A single continuous ciliated epithelial surface without villi"
       ],
       "correct_index": 0,
       "explanation": "Multiple separate villous profiles have pale central stroma and a thin peripheral cellular layer.",
@@ -10115,7 +10115,7 @@
       "options": [
         "In the center of each villus only",
         "Within a separate layer of uterine smooth muscle",
-        "Free in the open spaces without attachment to villi",
+        "Free in the open spaces without any attachment to the villi",
         "Along the outer contour facing the open intervillous space"
       ],
       "correct_index": 3,
@@ -10163,7 +10163,7 @@
       "options": [
         "Uniform bland spindle cells in parallel fascicles",
         "Separate round glands lined by a single ciliated layer",
-        "Large multinucleated trophoblastic cells alongside smaller mononuclear cells",
+        "Large multinucleated trophoblastic cells beside smaller mononuclear cells",
         "Normal villi with central capillaries and a thin rim"
       ],
       "correct_index": 2,
@@ -10260,7 +10260,7 @@
         "Irregular hemorrhagic tissue extends from the cavity into the adjacent wall",
         "A pale whorled mass is confined to the outer surface",
         "Only a thin smooth lining follows the entire lumen",
-        "Translucent vesicles hang from a narrow stalk without wall involvement"
+        "Translucent vesicles hang from a narrow stalk without any involvement of the wall"
       ],
       "correct_index": 0,
       "explanation": "The dark red irregular lesion abuts and extends into the paler surrounding uterine wall.",
@@ -10305,10 +10305,10 @@
     {
       "stem": "Which combination is present in this placental section?",
       "options": [
-        "Only small uniform villi with delicate coverings",
-        "Dense solid keratinizing squamous nests",
-        "Irregular smooth muscle bundles with no villi",
-        "Expanded pale villous cores with conspicuous trophoblastic proliferation"
+        "Only small uniform villi with delicate trophoblastic coverings",
+        "Dense solid keratinizing squamous nests with central keratin",
+        "Irregular smooth muscle bundles with no villi present",
+        "Expanded pale villous cores with prominent trophoblastic proliferation"
       ],
       "correct_index": 3,
       "explanation": "Large villous profiles with expanded pale cores have prominent dark cellular proliferation around their edges.",
@@ -10353,10 +10353,10 @@
     {
       "stem": "What occupies the opened uterine cavity in this specimen?",
       "options": [
-        "One thin smooth fluid sac with an embryo",
-        "An isolated dark clot in an otherwise empty cavity",
-        "Extensive pink vesicular tissue filling and distending the cavity",
-        "A single discrete white whorled nodule"
+        "One thin smooth fluid-filled sac containing an embryo",
+        "An isolated dark clot in an otherwise empty uterine cavity",
+        "Extensive pink vesicular tissue distending the cavity",
+        "A single discrete white whorled nodule within the cavity"
       ],
       "correct_index": 2,
       "explanation": "The opened uterus is expanded by a broad mass of closely packed pink vesicular tissue.",
@@ -10401,7 +10401,7 @@
     {
       "stem": "What gross structure is visible across this placental tissue?",
       "options": [
-        "A mass of hair shafts and toothlike structures",
+        "A mass of hair shafts and toothlike structures in the tissue",
         "Clusters of translucent round vesicles of variable size",
         "An even smooth membrane without projections",
         "Only a solid white mass with whorled bands"
@@ -10504,7 +10504,7 @@
     {
       "stem": "Which villous size pattern is present in this placental section?",
       "options": [
-        "A uniform field of solid trophoblast without villi",
+        "A uniform field of solid trophoblast without any villous profiles",
         "A single oval gland in endometrial stroma",
         "Large edematous villi interspersed with much smaller villi",
         "Only one uniform population of very large villi"
@@ -10600,10 +10600,10 @@
     {
       "stem": "Which architecture is present in this breast duct?",
       "options": [
-        "A loose infiltrate of individual cells in fat",
-        "A broad solid center of acellular necrosis",
-        "Several rounded well-defined spaces within a relatively uniform ductal proliferation",
-        "An empty duct lined by two orderly cell layers"
+        "A loose infiltrate of individual cells within surrounding fat",
+        "A broad solid center of acellular necrotic debris",
+        "Several rounded well-defined spaces within a uniform ductal proliferation",
+        "An empty duct lined by two orderly cell layers throughout"
       ],
       "correct_index": 2,
       "explanation": "Closely packed similarly sized cells enclose several rounded and sharply contoured spaces.",
@@ -10843,7 +10843,7 @@
         "Luminal epithelial cells with smaller basal cells beneath them",
         "Anucleate keratin plates in thick concentric layers",
         "A single line of flat endothelial cells alone",
-        "A crowded solid mass completely replacing the duct lumen"
+        "A crowded solid mass completely replacing the duct lumen and lining"
       ],
       "correct_index": 0,
       "explanation": "The duct lumen is bounded by larger luminal cells over smaller cells at the stromal interface.",
@@ -10888,10 +10888,10 @@
     {
       "stem": "Which combination is visible in this breast section?",
       "options": [
-        "Small crowded infiltrative glands with empty lumina",
-        "An isolated focus of surface keratinization",
-        "A sharply circumscribed cartilage nodule",
-        "A markedly dilated duct with pale luminal material and surrounding inflammation"
+        "Small crowded infiltrative glands with empty open lumina",
+        "An isolated focus of surface keratinization over the epithelium",
+        "A sharply circumscribed nodule of hyaline cartilage matrix",
+        "A markedly dilated duct with pale luminal material and inflammation"
       ],
       "correct_index": 3,
       "explanation": "The enlarged duct contains pale material, with dark inflammatory nuclei in the surrounding fibrotic tissue.",
@@ -11082,7 +11082,7 @@
       "options": [
         "They form broad lakes of extracellular mucin",
         "Several are compressed into slitlike and branching profiles",
-        "All are replaced by uniform solid tumor without lumina",
+        "All are replaced by uniform solid tumor growth without lumina",
         "They are filled by concentric layers of keratin"
       ],
       "correct_index": 1,
@@ -11298,10 +11298,10 @@
     {
       "stem": "Where are the rounded tumor clusters near the skin surface in this supplied section?",
       "options": [
-        "Only in the nuclei of normal epidermal cells",
-        "Within open dermal lymphatic spaces under the epidermis",
-        "Within the outer surface keratin only",
-        "Within a normal duct opening on the surface"
+        "Only in the nuclei of normal epidermal cells themselves",
+        "Within open dermal lymphatic spaces beneath the epidermis",
+        "Within the outer surface keratin layer only",
+        "Within a normal duct opening onto the skin surface"
       ],
       "correct_index": 1,
       "explanation": "Rounded epithelial clusters occupy clear outlined spaces beneath the epidermis.",
@@ -11396,7 +11396,7 @@
       "options": [
         "A perfectly smooth round margin",
         "A straight linear interface without a focal mass",
-        "A thin bright circular rim around a dark oil cyst",
+        "A thin bright circular rim around a dark central oil cyst",
         "Radiating spicules extending from a dense central mass"
       ],
       "correct_index": 3,
@@ -11682,10 +11682,10 @@
     {
       "stem": "How do the epithelial cells relate to the pale material in this breast section?",
       "options": [
-        "A compact fibrous nodule with compressed empty ducts",
+        "A compact fibrous nodule with compressed empty ducts inside",
         "Small clusters of epithelial cells suspended in broad pale mucin",
-        "A dense solid squamous sheet with laminated keratin",
-        "Normal fat lobules without epithelial groups"
+        "A dense solid squamous sheet containing laminated keratin",
+        "Normal fat lobules without any epithelial groups present"
       ],
       "correct_index": 1,
       "explanation": "Discrete dark tumor-cell groups lie within expansive pale extracellular material.",
@@ -11779,7 +11779,7 @@
       "stem": "How are the branching structures arranged in this breast section?",
       "options": [
         "They invade far outside the duct as thin isolated files",
-        "They form a uniform layer with no intraluminal projections",
+        "They form a uniform layer with no intraluminal projections or cores",
         "They form anucleate laminated spheres in the stroma",
         "They project into a dilated duct around branching stromal cores"
       ],
@@ -12018,10 +12018,10 @@
     {
       "stem": "Compare both blood pressure curves across the plotted pregnancy. What pattern do they share?",
       "options": [
-        "They decline continuously without a later rise",
-        "They remain flat at the same pressure",
-        "They fall from the early values and rise again later in pregnancy",
-        "They climb steadily from the beginning to the end"
+        "They decline continuously with no later rise in pregnancy",
+        "They remain flat at the same pressure across pregnancy",
+        "They fall from early values and rise again later in pregnancy",
+        "They climb steadily from the beginning to the end of pregnancy"
       ],
       "correct_index": 2,
       "explanation": "Both traces dip below their early values and then rise toward later pregnancy.",
@@ -12117,10 +12117,10 @@
     {
       "stem": "Which portion of the urine path narrows where the red arrows converge?",
       "options": [
-        "The urethral segment inside the glans",
+        "The urethral segment inside the glans of the penis",
         "The urethral segment passing through the prostate",
-        "Both ureters entering the bladder",
-        "The bladder lumen at its dome"
+        "Both ureters as they enter the bladder",
+        "The bladder lumen at the dome of the bladder"
       ],
       "correct_index": 1,
       "explanation": "The arrows converge on the outlet channel immediately below the bladder within the green prostate.",
@@ -12166,9 +12166,9 @@
       "stem": "Which growth arrangement is more conspicuous in the lower prostate field?",
       "options": [
         "Large orderly glands with an intact continuous benign lining",
-        "Broad keratin pearls in rounded squamous nests",
-        "A smooth empty cystic space with a thin wall",
-        "Irregular individual cells and small groups between broad pink stromal regions"
+        "Broad keratin pearls within rounded squamous nests",
+        "A smooth empty cystic space bounded by a thin wall",
+        "Irregular individual cells and small groups between pink stroma"
       ],
       "correct_index": 3,
       "explanation": "The lower field contains scattered small dark epithelial groups and individual profiles in pink stroma.",
@@ -12261,7 +12261,7 @@
     {
       "stem": "What gross anatomic feature is illustrated superior to the testis?",
       "options": [
-        "A single smooth round fluid cavity within the testis",
+        "A single smooth round fluid cavity within the testis tissue",
         "A narrow straight duct without branches",
         "Solid tissue replacing the entire testis",
         "Multiple dilated tortuous vessels along the spermatic cord"
@@ -12363,7 +12363,7 @@
         "The arrow and the drops are both inside the ureter",
         "Pressure is applied from above while urine escapes at the outlet",
         "Urine rises from the outlet into the bladder",
-        "The arrow represents drainage from the kidney into a bag"
+        "The arrow represents drainage from the kidney into a collection bag"
       ],
       "correct_index": 1,
       "explanation": "The downward arrow represents increased abdominal pressure. Urine leaks because the support around the urethra is too weak to maintain closure under that pressure. The lecture calls this stress urinary incontinence, a failure of storage.",
@@ -12509,7 +12509,7 @@
         "A cluster of small lobular acini within the surrounding stroma",
         "One large unbranched duct continuing indefinitely",
         "A mass of keratinizing squamous cells",
-        "A group of blood vessels outside the lobular boundary"
+        "A group of blood vessels lying well outside the lobular boundary"
       ],
       "correct_index": 0,
       "explanation": "The right drawing shows many small rounded acini grouped around the terminal duct.",
@@ -12602,10 +12602,10 @@
     {
       "stem": "What contrast is visible between the center of this supplied sentinel node field and its right edge?",
       "options": [
-        "Larger paler cells centrally beside smaller darker lymphoid cells at the edge",
-        "An empty cavity centrally and a thick keratin plate at the edge",
-        "Uniform adipocytes across the whole field",
-        "One continuous ciliated columnar lining around a duct"
+        "Larger paler cells centrally beside smaller darker lymphoid cells",
+        "An empty cavity centrally with a thick keratin plate at the edge",
+        "Uniform clear adipocytes filling the whole field evenly",
+        "One continuous ciliated columnar lining around a central duct"
       ],
       "correct_index": 0,
       "explanation": "The center has larger paler cellular profiles, while the edge has dense small dark lymphoid nuclei.",
@@ -12698,10 +12698,10 @@
     {
       "stem": "Which pattern is visible in this uterine tumor section?",
       "options": [
-        "A single uniform benign gland with no stromal proliferation",
-        "A sheet of only mature adipocytes",
-        "Pure squamous keratin without any nucleated tissue",
-        "Atypical epithelial structures admixed with a distinct cellular stromal component"
+        "A single uniform benign gland without any stromal proliferation",
+        "A sheet made only of mature adipocytes without other cells",
+        "Pure squamous keratin without any nucleated tissue present",
+        "Atypical epithelial structures admixed with a cellular stromal component"
       ],
       "correct_index": 3,
       "explanation": "Atypical epithelial profiles are interspersed with a separate densely cellular stromal population.",
@@ -12746,10 +12746,10 @@
     {
       "stem": "Which arrangement is visible on either side of the pink stromal band?",
       "options": [
-        "Concentric whorls of laminated keratin",
-        "A thin single-layered lining of a large cyst",
+        "Concentric whorls of laminated keratin on either side of the band",
+        "A thin single-layered lining of a large simple cyst",
         "Groups of large pale tumor cells with small dark inflammatory nuclei",
-        "A uniform sheet of elongated spindle cells only"
+        "A uniform sheet of elongated spindle cells and nothing else"
       ],
       "correct_index": 2,
       "explanation": "Large pale tumor cells form groups separated by the pink band and smaller dark cells.",
@@ -12794,9 +12794,9 @@
     {
       "stem": "What structure occupies the center of the glomeruloid formation?",
       "options": [
-        "A fat lobule with mature adipocytes",
+        "A fat lobule composed of mature adipocytes",
         "A vessel-containing stromal core surrounded by tumor epithelium",
-        "An anucleate laminated keratin pearl",
+        "An anucleate laminated keratin pearl at the center",
         "A mature oocyte surrounded by granulosa cells"
       ],
       "correct_index": 1,
@@ -12842,10 +12842,10 @@
     {
       "stem": "What gross material is visible between the exposed bowel loops?",
       "options": [
-        "Only fresh dark blood without deposits",
-        "Numerous hair shafts and teeth",
+        "Only fresh dark blood without any pale deposits",
+        "Numerous hair shafts and teeth within the deposits",
         "Pools and nodules of pale gelatinous mucinous material",
-        "A uniform thin dry fibrous membrane"
+        "A uniform thin dry fibrous membrane over the loops"
       ],
       "correct_index": 2,
       "explanation": "Shiny yellow-green gelatinous material and rounded deposits occupy spaces among the bowel loops.",
@@ -13034,7 +13034,7 @@
     {
       "stem": "Which feature is visible within the pink squamous epithelium in this supplied vulvar lesion?",
       "options": [
-        "A sheet of bland spindle cells in the deep dermis",
+        "A sheet of bland spindle cells filling the deep dermis layer",
         "A single dilated gland full of red blood cells",
         "Many dark lymphocytes limited to a blood vessel",
         "Scattered larger pale cells among darker keratinocytes"
@@ -13082,10 +13082,10 @@
     {
       "stem": "Which uterine cavity configuration is visible in this study?",
       "options": [
-        "A spherical fluid-filled ovarian follicle",
+        "A spherical fluid-filled ovarian follicle near the uterus",
         "One elongated curved cavity without a matching second horn",
-        "Two widely separated symmetric cavities",
-        "A broad cavity with a deep central septum"
+        "Two widely separated symmetric uterine cavities",
+        "A broad single cavity partitioned by a deep central septum"
       ],
       "correct_index": 1,
       "explanation": "The bright endometrial contour curves along a single horn.",
@@ -13131,9 +13131,9 @@
       "stem": "Which arrangement is visible in this coronal MRI?",
       "options": [
         "Two fetal profiles in adjacent fluid-filled compartments",
-        "One fetal profile with an isolated yolk sac",
+        "One fetal profile beside an isolated yolk sac",
         "A solid mass replacing both fluid compartments",
-        "One fetus outside the uterine field"
+        "One fetus lying outside the uterine field"
       ],
       "correct_index": 0,
       "explanation": "Two fetal profiles occupy adjacent bright fluid compartments separated by a visible tissue boundary.",
@@ -13336,9 +13336,9 @@
     {
       "stem": "How does the crowded epithelium relate to the large ductal lumen?",
       "options": [
-        "Atypical epithelium forms projections into a recognizable ductal lumen",
-        "Only flattened bland cells line the cavity",
-        "All epithelial cells are isolated outside the duct in muscle",
+        "Atypical epithelium projects into a recognizable ductal lumen",
+        "Only flattened bland cells line the ductal cavity",
+        "All epithelial cells are isolated outside the duct within muscle",
         "The central lumen is entirely replaced by mature cartilage"
       ],
       "correct_index": 0,
@@ -13392,7 +13392,7 @@
       "stem": "What does the black arrow highlight inside the enlarged villous profile?",
       "options": [
         "An embryo inside a gestational sac",
-        "A broad band of uterine muscle outside the villus",
+        "A broad band of uterine smooth muscle lying outside the villus",
         "A small trophoblastic inclusion within the villous stroma",
         "A large keratin pearl in a squamous nest"
       ],
@@ -13439,10 +13439,10 @@
     {
       "stem": "Which reactive cells occupy the spaces between the large clear fat profiles?",
       "options": [
-        "A continuous layer of mature surface keratin",
+        "A continuous layer of mature surface keratin over the fat",
         "Rounded cells with pale foamy cytoplasm and discrete nuclei",
-        "Tall ciliated columnar cells",
-        "Anucleate red blood cells alone"
+        "Tall ciliated columnar cells forming a continuous lining",
+        "Anucleate red blood cells alone filling the spaces"
       ],
       "correct_index": 1,
       "explanation": "Numerous nucleated pale foamy cells are clustered around the disrupted fat spaces.",
@@ -13488,9 +13488,9 @@
       "stem": "Which difference is visible in the deposits shown in the two breast sections?",
       "options": [
         "Fine pale material in a smooth round space on the left and a larger irregular aggregate on the right",
-        "A larger irregular aggregate on the left and an empty lumen on the right",
-        "Uniform brown nuclear staining in both views",
-        "Identical deposits with the same outline in both views"
+        "A larger irregular aggregate on the left and an empty lumen on the right side",
+        "Uniform brown nuclear immunostaining in both panels of the figure",
+        "Identical deposits with the same size and outline in both panels"
       ],
       "correct_index": 0,
       "explanation": "The left arrow reaches fine pale material inside a round cystic space. The right deposit is larger and irregular.",
@@ -13610,7 +13610,7 @@
       "options": [
         "A giant cell containing many adjacent nuclei",
         "Several discrete rounded to ovoid bodies with defined edges",
-        "Long branching filaments",
+        "Long branching filaments with narrow walls",
         "One large densely coated epithelial cell"
       ],
       "correct_index": 1,
@@ -13704,7 +13704,7 @@
       "options": [
         "A single isolated round nodule on one side",
         "Diffuse blue change within one raised mass",
-        "Several fingerlike projections filling the opening",
+        "Several fingerlike projections filling the central opening",
         "Extensive pale change on both sides of a narrow opening"
       ],
       "correct_index": 3,
@@ -13890,10 +13890,10 @@
       "case_context": null,
       "stem": "What relationship connects the low power left panel with the right panel?",
       "options": [
-        "A thin walled cyst corresponds to a single flattened lining",
-        "A papillary surface corresponds to branching fronds in fluid",
-        "A large vessel corresponds to concentric muscular layers",
-        "A circumscribed solid nodule corresponds to a cellular field without large glands"
+        "A thin-walled cyst corresponds to a single flattened cell lining",
+        "A papillary surface corresponds to branching fronds floating in fluid",
+        "A large vessel corresponds to concentric muscular wall layers",
+        "A circumscribed solid nodule corresponds to a cellular field"
       ],
       "correct_index": 3,
       "explanation": "The left side shows a discrete solid mass and the right side shows closely packed cells, without large open glands.",
@@ -14038,10 +14038,10 @@
       "case_context": null,
       "stem": "Which combination is visible on this cut surface?",
       "options": [
-        "Uniform pale whorled tissue without cavities",
-        "A solitary smooth thin walled cyst",
-        "A flat surface with tiny separate ulcers",
-        "Irregular pale solid areas with intervening darker cavities"
+        "Uniform pale whorled tissue without any cavities",
+        "A solitary smooth thin-walled cyst without solid tissue",
+        "A flat surface with tiny separate ulcers and no cavities",
+        "Irregular pale solid areas with intervening dark cavities"
       ],
       "correct_index": 3,
       "explanation": "Several pale solid areas alternate with dark and irregular cavities in the same mass.",
@@ -14134,7 +14134,7 @@
       "options": [
         "A gross cavity and a microscopic layered squamous lining",
         "A gross solid whorl and small endometrial glands",
-        "A gross cluster of clear vesicles and swollen villi",
+        "A gross cluster of clear vesicles and swollen chorionic villi",
         "A gross ulcer and invasive epithelial nests"
       ],
       "correct_index": 0,
@@ -14182,7 +14182,7 @@
         "A hemorrhagic cavity and swollen chorionic villi",
         "A granular papillary surface and branching glands",
         "Pale solid cut tissue and intersecting microscopic fascicles",
-        "A thin walled cyst and a flattened single cell lining"
+        "A thin walled cyst and a flattened single cell lining of the wall"
       ],
       "correct_index": 2,
       "explanation": "The gross section is solid and pale, and the microscopic field has elongated pink bundles running in several directions.",
@@ -14227,7 +14227,7 @@
       "stem": "Which pattern is visible in the broad pink tissue?",
       "options": [
         "Isolated blood vessels without surrounding cellular cuffs",
-        "Open gland profiles with darker cellular stroma embedded among pink muscle bundles",
+        "Open gland profiles with darker stroma embedded among pink muscle bundles",
         "A uniformly thick epithelial lining over the entire muscle surface",
         "Rounded pale nodules made entirely of muscle without lumina"
       ],
@@ -14320,9 +14320,9 @@
       "case_context": null,
       "stem": "How do the numerous oval profiles relate to the main tissue at the bottom?",
       "options": [
-        "All are glands embedded below the lower tissue",
+        "All are glands embedded in deeper tissue below the lower base",
         "They are detached stromal nodules without an epithelial border",
-        "They merge into a smooth uninterrupted surface",
+        "They merge into a smooth uninterrupted surface with no projections",
         "Many are cross sections of fronds projecting from the lower epithelial base"
       ],
       "correct_index": 3,
@@ -14369,7 +14369,7 @@
       "options": [
         "An intact single cell layer lining a clear cavity",
         "Broad clusters of polygonal pink cells with individual dark nuclei",
-        "Papillae with narrow pale cores projecting into open space",
+        "Papillae with narrow pale cores projecting into an open space of fluid",
         "Columnar cells encircling long mucin filled glands"
       ],
       "correct_index": 1,
@@ -14417,7 +14417,7 @@
         "Fibrovascular tissue covered by dark columnar epithelium",
         "Dense keratin wrapped in concentric layers",
         "A wide pool of clear mucin without a lining",
-        "A thick band of smooth muscle with parallel nuclei"
+        "A thick band of smooth muscle with parallel elongated nuclei"
       ],
       "correct_index": 0,
       "explanation": "Pink stromal cores with small vessels project into open spaces and carry a dark epithelial covering.",
@@ -14461,9 +14461,9 @@
       "case_context": null,
       "stem": "Which change is visible in the opened bladder surface?",
       "options": [
-        "A uniform smooth pale surface with no focal change",
-        "A single stalked frond fills the entire specimen",
-        "A completely black cut surface without folds",
+        "A uniform smooth pale surface with no focal color change",
+        "A single stalked frond fills the entire opened specimen",
+        "A completely black cut surface without mucosal folds",
         "Small irregular reddish brown foci interrupt the pale folded surface"
       ],
       "correct_index": 3,
@@ -14556,9 +14556,9 @@
       "stem": "Which surface change predominates in the rounded exposed glans?",
       "options": [
         "Diffuse redness with scattered pale surface material",
-        "One circumscribed deeply pigmented plaque",
-        "Multiple tall branching papillae",
-        "A large pale smooth cyst below the surface"
+        "One circumscribed deeply pigmented plaque on the glans",
+        "Multiple tall branching papillae across the surface",
+        "A large pale smooth cyst beneath the glans surface"
       ],
       "correct_index": 0,
       "explanation": "The exposed rounded surface is diffusely red and has scattered light flecks without a single dominant nodule.",
@@ -14743,7 +14743,7 @@
       "case_context": null,
       "stem": "What is visible inside the conspicuous pink tubular rim?",
       "options": [
-        "Numerous tightly packed dark germ cells in several layers",
+        "Numerous tightly packed dark germ cells in several dense layers",
         "A dense central keratin pearl",
         "Many distinct smaller glandular ducts",
         "A sparse population of cells without dense layers of germ cells"
@@ -14791,7 +14791,7 @@
       "stem": "Which repeated low power pattern is visible across this field?",
       "options": [
         "One large lobulated gland occupies almost the whole field",
-        "Multiple papillary fronds cross one open space",
+        "Multiple papillary fronds crossing one large open space",
         "Many rounded tubules with thick pink rims and pale sparsely cellular interiors",
         "Most profiles are packed by dense sheets of dark cells"
       ],
@@ -14938,7 +14938,7 @@
       "case_context": null,
       "stem": "Which structure is emphasized by the arrow in this testicular tumor field?",
       "options": [
-        "A broad empty gland lumen at the tissue edge",
+        "A broad empty gland lumen at the edge of the tissue",
         "A flattened band of dark stromal nuclei",
         "A large clear droplet in an adipocyte",
         "A rounded intensely pink body among the tumor cells"
@@ -14985,7 +14985,7 @@
       "case_context": null,
       "stem": "Which gross difference separates the center from the outer rim?",
       "options": [
-        "The center is a clear smooth cyst and the rim is black throughout",
+        "The center is a clear smooth cyst and the rim is entirely black throughout",
         "The center is uniformly white and whorled",
         "The center contains multiple pale translucent vesicles",
         "The center is markedly red and hemorrhagic, with a thin paler outer rim"
@@ -15174,9 +15174,9 @@
       "stem": "Which change occupies much of the pink section?",
       "options": [
         "Numerous variably sized cystic spaces clustered within the tissue",
-        "A single uniform dark solid nodule",
+        "A single uniform dark solid nodule without spaces",
         "A central hemorrhagic cleft without smaller spaces",
-        "Multiple dense keratin pearls of uniform size"
+        "Multiple dense keratin pearls of uniform size throughout"
       ],
       "correct_index": 0,
       "explanation": "Many rounded pale spaces of different sizes cluster over a broad area of pink tissue.",
@@ -15221,7 +15221,7 @@
       "stem": "What is visible in the darker region near the right side of the tissue?",
       "options": [
         "A single empty smooth cavity",
-        "An uninterrupted strip of surface epithelium",
+        "An uninterrupted strip of surface epithelium along the edge",
         "A large clot in a vascular lumen",
         "A localized group of crowded small glandular profiles"
       ],
@@ -15408,10 +15408,10 @@
       "case_context": null,
       "stem": "What material does the arrow mark in the largest rounded duct profile?",
       "options": [
-        "Parallel stromal fascicles",
-        "A cluster of normal acini",
+        "Parallel stromal fascicles of spindle cells",
+        "A cluster of normal acini within the duct",
         "A dense pale pink core surrounded by dark cells",
-        "An uninterrupted sheet of fat cells"
+        "An uninterrupted sheet of mature fat cells"
       ],
       "correct_index": 2,
       "explanation": "Dense pale pink material occupies the center of the expanded duct and has a dark cellular rim.",
@@ -15643,9 +15643,9 @@
       "case_context": null,
       "stem": "Which border and internal pattern are visible?",
       "options": [
-        "A sharply delimited rounded nodule with a relatively uniform pale cut surface",
+        "A sharply delimited rounded nodule with a uniform pale cut surface",
         "An irregular stellate lesion interdigitating with surrounding fat",
-        "A cluster of dark cysts with fluid contents",
+        "A cluster of dark fluid-filled cysts replacing the interior",
         "A broad red ulcerated surface with multiple papillae"
       ],
       "correct_index": 0,
@@ -15785,9 +15785,9 @@
       "stem": "What is the distribution of brown staining in this ovarian section?",
       "options": [
         "Broad cellular rings around several pale follicular spaces",
-        "Signal confined to clear central cavities",
-        "Diffuse staining of all intervening blue stroma",
-        "A linear strip only at the outer ovarian edge"
+        "Signal confined to clear central cavities of the follicles",
+        "Diffuse brown staining of all intervening blue stroma",
+        "A linear strip of staining only at the outer ovarian edge"
       ],
       "correct_index": 0,
       "explanation": "Brown staining surrounds several round clear spaces, while much of the intervening tissue is blue.",
@@ -15879,7 +15879,7 @@
       "stem": "Where is the darker stratified epithelial region relative to the columnar lining?",
       "options": [
         "Only inside a central fluid space",
-        "Directly above the columnar layer with an uninterrupted gap",
+        "Directly above the columnar layer with an uninterrupted gap between them",
         "Immediately adjacent to the columnar region at a surface transition",
         "Entirely separate in a remote blood vessel"
       ],
@@ -16019,7 +16019,7 @@
       "case_context": null,
       "stem": "What is visible immediately behind the bright bladder?",
       "options": [
-        "Multiple bright bowel loops in the bladder lumen",
+        "Multiple bright bowel loops lying within the bladder lumen",
         "Two separate rounded dark uterine structures side by side",
         "A single round cavity entirely inside the bladder",
         "One long bright band across the pelvis"
@@ -16066,8 +16066,8 @@
       "case_context": null,
       "stem": "Which relationship is shown between the internal spaces and the external fundal contour?",
       "options": [
-        "The two internal spaces diverge beneath a relatively continuous outer fundal contour",
-        "One large cavity lies entirely outside the uterus",
+        "The two internal spaces diverge beneath a continuous outer fundal contour",
+        "One large cavity lies entirely outside the external uterine outline",
         "The internal spaces are oriented parallel from side to side",
         "The outer fundal margin separates into two fully detached masses"
       ],
@@ -16255,8 +16255,8 @@
       "stem": "How is the central cellular tuft positioned relative to the pale space?",
       "options": [
         "It fills a blood vessel with no surrounding epithelial boundary",
-        "It forms a flat layer at the outside edge of the section",
-        "It projects into a surrounding clear space with a separate outer epithelial boundary",
+        "It forms a flat layer at the outside edge of the section tissue",
+        "It projects into a clear space with a separate outer epithelial boundary",
         "It is a solid band completely outside every open space"
       ],
       "correct_index": 2,
@@ -16350,7 +16350,7 @@
       "options": [
         "Large irregular eosinophilic cells containing multiple nuclei",
         "Numerous clear adipocytes forming a lobule",
-        "Several regular rounded chorionic villi with vessels",
+        "Several regular rounded chorionic villi with central vessels visible",
         "A uniform layer of flat mature surface cells"
       ],
       "correct_index": 0,
@@ -16443,7 +16443,7 @@
       "stem": "What contrast is visible between villi in this field?",
       "options": [
         "All profiles are uniformly dense without swollen interiors",
-        "The field contains only solid tumor with no villous profiles",
+        "The field contains only solid tumor with no recognizable villous profiles",
         "Large irregular pale villi coexist with many much smaller dark villi",
         "Every villus has the same size and smooth round outline"
       ],
@@ -16584,7 +16584,7 @@
       "stem": "Which arrangement is visible around the irregular pale glandular spaces?",
       "options": [
         "Crowded dark elongated nuclei along the epithelial lining",
-        "A single sparse row of flat nuclei with no crowding",
+        "A single sparse row of flat nuclei with no nuclear crowding",
         "Separate giant cells floating in the gland lumina",
         "A pink acellular layer of keratin lining each space"
       ],
@@ -16677,7 +16677,7 @@
       "case_context": null,
       "stem": "Which structure is visible at the arrow?",
       "options": [
-        "A dark oval parasite egg with a terminal spine",
+        "A dark oval parasite egg with a terminal spine and thick shell",
         "A small intravascular cluster of red cells",
         "Concentric pink lamellae within a squamous tumor nest",
         "An irregular empty gland lumen"
@@ -16761,9 +16761,9 @@
       "stem": "Which finding distinguishes the larger cells from the smaller background cells?",
       "options": [
         "High nuclear-to-cytoplasmic ratios with prominent nucleoli",
-        "Uniform small round nuclei throughout",
+        "Uniform small round nuclei with fine chromatin throughout",
         "Abundant cytoplasm surrounding tiny bland nuclei",
-        "Predominantly multilobed nuclei"
+        "Predominantly multilobed nuclei with segmented chromatin"
       ],
       "correct_index": 0,
       "choice_rationales": [
@@ -16827,7 +16827,7 @@
         "Columnar glandular lining with adjacent spindle-cell stroma",
         "Squamous keratin pearls in dense fibrous tissue",
         "Vascular endothelium surrounding a solid thrombus",
-        "An unlined tissue cleft with only blood"
+        "An unlined tissue cleft containing only blood and fibrin"
       ],
       "correct_index": 0,
       "choice_rationales": [
@@ -16885,7 +16885,7 @@
       "original_filename": "Case 4 Prostate High Power - Histology.png",
       "stem": "Which contrast in gland architecture is described by this field?",
       "options": [
-        "Uniformly dilated glands with prominent folds throughout",
+        "Uniformly dilated glands with prominent folds throughout the field",
         "A diffuse solid sheet without gland formation",
         "Focally crowded small glands with less apparent dual layering",
         "A simple empty cyst lined by one flat layer"
@@ -17015,7 +17015,7 @@
       "correct_index": 0,
       "choice_rationales": [
         "Over the interval around the final menstrual period, FSH rises and estradiol falls. The lecture relates rising gonadotropins to reduced ovarian negative feedback.",
-        "This reverses the directions of both labeled curves.",
+        "Over the interval around the final menstrual period FSH rises and estradiol falls, so this choice reverses both curves.",
         "FSH rises, but the E2 curve moves downward.",
         "Estradiol falls while the FSH curve rises."
       ],
@@ -17063,7 +17063,7 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "This describes the left panel better than the right.",
+        "The right-hand panel has a thinner epithelial layer with fewer cell layers, so a thicker layer describes the other panel.",
         "The right interface is comparatively flat.",
         "An epithelial layer remains visible on the right.",
         "The right-hand panel has a thinner epithelial layer with fewer cell layers and a flatter interface. The lecture identifies it as the low-estrogen postmenopausal illustration."
