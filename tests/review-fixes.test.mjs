@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {empty,session,combinedSession,item,see,answer,resurfaceWeight,resurfaceSelect,distinctClues,missedQuestions,ankiExport} from '../engine.js';
+import {empty,session,combinedSession,item,see,answer,resurfaceWeight,resurfaceSelect,distinctClues} from '../engine.js';
 const mk=(id,extra={})=>({question_id:id,source_group_id:'g-'+id,image:id+'.png',options:['a','b','c','d'],correct_index:0,stem:'Stem '+id,explanation:'Because.',collection:'R1',studySection:'physiology',study_skill:'morphology',...extra});
 const rng=()=>{let x=7;return()=>(x=(x*16807)%2147483647)/2147483647;};
 test('recent misses outweigh older misses and unseen questions',()=>{
@@ -36,16 +36,4 @@ test('duplicate clues are dropped but distinct clues stay',()=>{
  const q=mk('x',{explanation:'The red curve falls after menopause. It then levels off.',visual_clues:['The red curve falls after menopause.','Axis starts at zero.']});
  assert.deepEqual(distinctClues(q),['Axis starts at zero.']);
  assert.deepEqual(distinctClues(mk('y',{explanation:'Same thing.',visual_clues:['Same thing.']})),[]);
-});
-test('missed export lists only current misses as an Anki import file',()=>{
- const p=empty();const q1=mk('m1',{explanation:'A\tB'}),q2=mk('m2');
- for(const q of [q1,q2]){const it=item(q);see(p,q,it);it.draft=q===q1?1:0;answer(p,q,it);}
- const missed=missedQuestions([q1,q2],p);
- assert.deepEqual(missed.map(q=>q.question_id),['m1']);
- const text=ankiExport(missed);const lines=text.trim().split('\n');
- const withMedia=ankiExport([{...q1,image:'assets/zoom/a.png',original_image:'assets/originals/b.png'}],{baseUrl:'https://example.test/quiz'});
- assert(withMedia.includes('<img src="https://example.test/quiz/assets/zoom/a.png">'));
- assert(withMedia.includes('<img src="https://example.test/quiz/assets/originals/b.png">'));
- assert(lines[0]==='#separator:tab'&&lines.some(l=>l==='#html:true'));
- const row=lines.at(-1).split('\t');assert.equal(row.length,4);assert.equal(row[0],'m1');assert(row[3].includes('picture_quiz'));
 });

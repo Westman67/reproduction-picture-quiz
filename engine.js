@@ -199,23 +199,3 @@ export function distinctClues(q){
  const sentences=String(q.explanation??'').split(/(?<=[.!?])\s+/).map(normalizeText).filter(Boolean);
  return (q.visual_clues||[]).filter(clue=>{const n=normalizeText(clue);return n&&!sentences.includes(n)&&!whole.includes(n);});
 }
-export function missedQuestions(bank,p){
- const date=q=>String(p.questions[q.question_id]?.last_date||'');
- return bank.filter(q=>p.questions[q.question_id]?.last_result==='incorrect').sort((a,b)=>date(b).localeCompare(date(a)));
-}
-const ankiCell=v=>String(v??'').replace(/\s+/g,' ').trim();
-const ankiHtml=v=>ankiCell(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-const ankiTag=v=>ankiCell(v).replace(/[^A-Za-z0-9_.-]+/g,'_').replace(/^_+|_+$/g,'');
-export function ankiExport(questions,{baseUrl=''}={}){
- const base=baseUrl?baseUrl.replace(/\/?$/,'/'):'';
- const media=path=>base&&path?`<p><img src="${ankiHtml(base+path)}"></p>`:'';
- const rows=questions.map(q=>{
-  const lead=q.case_id?q.lead_in:q.stem,context=q.case_id?q.scenario:q.case_context;
-  const front=`${context?`<p>${ankiHtml(context)}</p>`:''}<p><b>${ankiHtml(lead)}</b></p><ol type="A">${q.options.map(o=>`<li>${ankiHtml(o)}</li>`).join('')}</ol>${base&&q.image?media(q.image):`<p><i>Picture quiz image: ${ankiHtml(q.original_filename||q.image||q.question_id)}</i></p>`}`;
-  const sources=(q.citations||[]).map(c=>c.page==null?c.document:`${c.document}, p. ${c.page}`).join('; ');
-  const back=`<p><b>${'ABCDE'[q.correct_index]}. ${ankiHtml(q.options[q.correct_index])}</b></p><p>${ankiHtml(q.explanation)}</p>${media(q.original_image)}${sources?`<p><i>${ankiHtml(sources)}</i></p>`:''}`;
-  const tags=['picture_quiz',ankiTag(q.studySection),ankiTag(q.collection),ankiTag(q.study_skill)].filter(Boolean).join(' ');
-  return [q.question_id,front,back,tags].map(ankiCell).join('\t');
- });
- return ['#separator:tab','#html:true','#guid column:1','#notetype:Basic','#deck:Reproduction Missed Questions','#tags column:4',...rows].join('\n')+'\n';
-}
