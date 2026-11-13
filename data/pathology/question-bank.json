@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-13-step1-review",
+  "bank_version": "step1-second-screen",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -188,52 +188,6 @@
         "The neighboring pale cytoplasm and blue unstained nuclei help localize the signal."
       ],
       "visual_target": "Where is the positive brown immunostaining located in this field?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "According to this supplied chart, how does the rate with both exposures compare with the rate with neither exposure?",
-      "options": [
-        "Approximately fivefold higher",
-        "Lower",
-        "More than thirtyfold higher",
-        "Approximately equal"
-      ],
-      "correct_index": 2,
-      "explanation": "The displayed rates are 28.5 and 0.8 per 10,000 person-years, giving a ratio of 35.63. This is interpretation of the supplied figure, not a current risk estimate.",
-      "choice_rationales": [
-        "A fivefold increase would be much smaller than the ratio shown.",
-        "The combined-exposure bar is the tallest.",
-        "The displayed rates are 28.5 and 0.8 per 10,000 person-years, giving a ratio of 35.63. This is interpretation of the supplied figure, not a current risk estimate.",
-        "The bars differ greatly in height."
-      ],
-      "tested_concept": "Interpreting the supplied DVT rate chart",
-      "question_id": "q-b18865c8701eb5eab8ee",
-      "source_id": "s-db6f0947a0d32b9deca8",
-      "source_group_id": "g-b62553ae0a96c4eef04f",
-      "variant_id": "v-ae62652e6b134b21203f",
-      "question_type": "Visual interpretation",
-      "category": "Graphs",
-      "collection": "R20",
-      "source_origin": "lecture",
-      "image": "assets/display/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.webp",
-      "zoom_image": "assets/originals/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.png",
-      "original_image": "assets/originals/ae62652e6b134b21203f0e04ebe5d5f4350a8137f65c2c8051cfb95215402218.png",
-      "original_filename": "R20/DVT Rate with Oral Contraceptives and Factor V Leiden - Diagram.png",
-      "citations": [
-        {
-          "document": "R20 Sex Hormones Pharm RLS.pdf",
-          "page": 41
-        }
-      ],
-      "visual_clues": [
-        "The displayed rates are 28.5 and 0.8 per 10,000 person-years, giving a ratio of 35.63. This is interpretation of the supplied figure, not a current risk estimate."
-      ],
-      "visual_target": "According to this supplied chart, how does the rate with both exposures compare with the rate with neither exposure?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
@@ -842,52 +796,6 @@
         "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow."
       ],
       "visual_target": "Which level is crossed out in this hypothalamic-pituitary-gonadal axis diagram?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "What sonographic appearance do the two yellow arrows identify within this ovary?",
-      "options": [
-        "Irregular infiltrating tissue replacing the ovary",
-        "Rounded anechoic spaces",
-        "Dense calcific foci with acoustic shadows",
-        "Uniformly solid echogenic nodules"
-      ],
-      "correct_index": 1,
-      "explanation": "Both arrows point to dark rounded fluid spaces within ovarian tissue, consistent with follicles.",
-      "choice_rationales": [
-        "The ovarian outline remains visible around discrete rounded spaces.",
-        "Both arrows point to dark rounded fluid spaces within ovarian tissue, consistent with follicles.",
-        "The targets are dark spaces without bright calcific foci or posterior shadows.",
-        "Their interiors are anechoic rather than uniformly solid and bright."
-      ],
-      "tested_concept": "Ovarian follicle ultrasound appearance",
-      "question_id": "q-32cc1d3c9c693ac77402",
-      "source_id": "s-4d5e41940ec7883a9c08",
-      "source_group_id": "g-3b05dd84f82ba7e0a8fa",
-      "variant_id": "v-ae103f6b7855e077911f",
-      "question_type": "Visual interpretation",
-      "category": "Ultrasound",
-      "collection": "R11",
-      "source_origin": "lecture",
-      "image": "assets/display/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.webp",
-      "zoom_image": "assets/originals/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.png",
-      "original_image": "assets/originals/ae103f6b7855e077911f4b5913a60366acb875c3337aba312825dc0a48a26b7d.png",
-      "original_filename": "PDF panel extraction/R11.png",
-      "citations": [
-        {
-          "document": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
-          "page": 36
-        }
-      ],
-      "visual_clues": [
-        "Both arrows point to dark rounded fluid spaces within ovarian tissue, consistent with follicles."
-      ],
-      "visual_target": "What sonographic appearance do the two yellow arrows identify within this ovary?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
@@ -2773,53 +2681,6 @@
       "case_context": null
     },
     {
-      "stem": "Where is the dense inflammatory band relative to the pale sclerotic zone in this vulvar biopsy?",
-      "options": [
-        "Deeper than the pale superficial dermal zone",
-        "Entirely inside the surface keratin",
-        "Confined to epithelial nuclei",
-        "Within the lumen of a large gland"
-      ],
-      "correct_index": 0,
-      "explanation": "The densest small dark inflammatory cells lie beneath the broad pale superficial dermal band.",
-      "choice_rationales": [
-        "The densest small dark inflammatory cells lie beneath the broad pale superficial dermal band.",
-        "The dark cells are in the dermis rather than within the outer keratin cap.",
-        "The infiltrate is an extracellular population of cells, not nuclear inclusions.",
-        "There is no large glandular lumen containing the band."
-      ],
-      "visual_clues": [
-        "The densest small dark inflammatory cells lie beneath the broad pale superficial dermal band.",
-        "The thin epidermis remains above the pale sclerotic zone."
-      ],
-      "question_id": "q-06ac2b3262925e6527d3",
-      "source_id": "s-c16db3d77db7ae02fa59",
-      "source_group_id": "g-fbda0daa0c26a909bc91",
-      "variant_id": "v-6a75b8658b9bc64813dc",
-      "tested_concept": "Lichen sclerosus inflammatory band",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "image": "assets/display/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.webp",
-      "zoom_image": "assets/originals/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.png",
-      "original_image": "assets/originals/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.png",
-      "original_filename": "R10/Vulvar Lichen Sclerosus Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 42
-        }
-      ],
-      "visual_target": "Where is the dense inflammatory band relative to the pale sclerotic zone in this vulvar biopsy?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which supplied vulvar lesion best fits the large pale atypical cells scattered among keratinocytes?",
       "options": [
         "Lichen sclerosus",
@@ -2859,53 +2720,6 @@
         }
       ],
       "visual_target": "Which supplied vulvar lesion best fits the large pale atypical cells scattered among keratinocytes?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "What occupies the centers of the elongated papillary projections?",
-      "options": [
-        "Empty spaces lined only by one row of cuboidal cells",
-        "Pools of mucin surrounded by floating cells",
-        "Connective tissue cores covered by squamous epithelium",
-        "Central laminated keratin pearls alone"
-      ],
-      "correct_index": 2,
-      "explanation": "Pale stromal cores extend upward inside the projections and are covered by thick squamous epithelium.",
-      "choice_rationales": [
-        "Each projection is solid tissue, not an empty single-layered gland lumen.",
-        "No extracellular mucin pool accounts for the projecting cores.",
-        "Pale stromal cores extend upward inside the projections and are covered by thick squamous epithelium.",
-        "The pale centers are continuous stromal cores rather than concentric keratin laminations."
-      ],
-      "visual_clues": [
-        "Pale stromal cores extend upward inside the projections and are covered by thick squamous epithelium.",
-        "Follow a projection from its basal connective tissue into its epithelial-covered tip."
-      ],
-      "question_id": "q-7961c54804dccd83759e",
-      "source_id": "s-d12868828175c3acc621",
-      "source_group_id": "g-d704173017ca63e782d3",
-      "variant_id": "v-70654741a75cdd57c8c8",
-      "tested_concept": "Condyloma stromal core identification",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "image": "assets/display/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.webp",
-      "zoom_image": "assets/zoom/7a939f43dacb76846ad78e94399c8888d233a9bb69f792a2b2cd187fea2d6a8d.png",
-      "original_image": "assets/originals/d077d1880a23dbbf49430a46719aff13e9cb491c70994ddb519290879dcd1c11.png",
-      "original_filename": "R10/Condyloma Exophytic Papillary Architecture - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 47
-        }
-      ],
-      "visual_target": "What occupies the centers of the elongated papillary projections?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -3619,53 +3433,6 @@
       "case_context": null
     },
     {
-      "stem": "Consider all four ovarian panels. Which panel contains the conspicuous antral space and eccentric oocyte?",
-      "options": [
-        "Upper right",
-        "Lower right",
-        "Lower left",
-        "Upper left"
-      ],
-      "correct_index": 2,
-      "explanation": "The lower-left panel shows a large fluid space displacing the oocyte toward one side.",
-      "choice_rationales": [
-        "The upper-right follicle has a layered cellular wall around the oocyte without the wide antral cavity shown below.",
-        "The lower-right field contains luteinized tissue without the antral cavity and eccentric oocyte.",
-        "The lower-left panel shows a large fluid space displacing the oocyte toward one side.",
-        "The upper-left field shows small early follicles without a large antrum."
-      ],
-      "visual_clues": [
-        "The lower-left panel shows a large fluid space displacing the oocyte toward one side.",
-        "The other panels show smaller follicles, an earlier multilayered follicle, and luteinized cells."
-      ],
-      "question_id": "q-ff52cc2179c0b21eca17",
-      "source_id": "s-a190d836a1872abc2457",
-      "source_group_id": "g-6a298eddf2aaa0dbb068",
-      "variant_id": "v-5fce6e8ba51b803cbfe3",
-      "tested_concept": "Follicle development antral panel",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/341783a945f2da4dba52a3124e2e1228345c90d4df2ff9154d151ee67d8b8ba5.webp",
-      "zoom_image": "assets/originals/341783a945f2da4dba52a3124e2e1228345c90d4df2ff9154d151ee67d8b8ba5.png",
-      "original_image": "assets/originals/341783a945f2da4dba52a3124e2e1228345c90d4df2ff9154d151ee67d8b8ba5.png",
-      "original_filename": "R12/Follicle Development - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 64
-        }
-      ],
-      "visual_target": "Consider all four ovarian panels. Which panel contains the conspicuous antral space and eccentric oocyte?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which gross pattern is present in this supplied ovary?",
       "options": [
         "A uniformly solid dark invasive epithelial mass",
@@ -3752,53 +3519,6 @@
         }
       ],
       "visual_target": "Which nuclear feature is visible in this supplied granulosa-cell tumor field?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "In this supplied inhibin immunostain of a granulosa-cell tumor, where is the brown signal visible?",
-      "options": [
-        "Only in acellular luminal colloid",
-        "Only in surface keratin",
-        "Only within vascular red blood cells",
-        "Within groups of tumor cells"
-      ],
-      "correct_index": 3,
-      "explanation": "Brown immunoreactivity is present in groups of tumor cells against a blue counterstained background.",
-      "choice_rationales": [
-        "The brown signal follows cellular tumor groups rather than an acellular deposit in a lumen.",
-        "The positive material is associated with the tumor population, not a keratinized surface layer.",
-        "The staining is distributed through tumor cell clusters, not confined to vessel contents.",
-        "Brown immunoreactivity is present in groups of tumor cells against a blue counterstained background."
-      ],
-      "visual_clues": [
-        "Brown immunoreactivity is present in groups of tumor cells against a blue counterstained background.",
-        "The lecture establishes the antibody identity; this question tests the observed staining distribution."
-      ],
-      "question_id": "q-08ca1951269d897cc466",
-      "source_id": "s-8182826622553f05f8e9",
-      "source_group_id": "g-a1ae8c257ad3c97df2ab",
-      "variant_id": "v-6c03405040537533bc6f",
-      "tested_concept": "Inhibin staining distribution",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.webp",
-      "zoom_image": "assets/originals/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.png",
-      "original_image": "assets/originals/cb2a8725e3931ab8c2a24606cd3d94dcc3197b0d92c0e5bf99ff613136ecc9f6.png",
-      "original_filename": "R12/Granulosa Cell Tumor Inhibin IHC - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 105
-        }
-      ],
-      "visual_target": "In this supplied inhibin immunostain of a granulosa-cell tumor, where is the brown signal visible?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -4317,100 +4037,6 @@
       ],
       "visual_target": "Which combination of differentiated structures is visible in this ovarian tumor?",
       "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Consider all four panels. Which panel shows prominent subnuclear vacuoles in glandular epithelial cells?",
-      "options": [
-        "Upper left",
-        "Lower left",
-        "Lower right",
-        "Upper right"
-      ],
-      "correct_index": 3,
-      "explanation": "The upper-right glandular cells have conspicuous pale vacuoles beneath their nuclei.",
-      "choice_rationales": [
-        "The upper-left proliferative panel shows crowded glandular nuclei without the prominent basal rows of clear vacuoles.",
-        "The lower-left late-secretory panel emphasizes stromal change and glandular configuration.",
-        "The lower-right field shows stromal breakdown with hemorrhage.",
-        "The upper-right glandular cells have conspicuous pale vacuoles beneath their nuclei."
-      ],
-      "visual_clues": [
-        "The upper-right glandular cells have conspicuous pale vacuoles beneath their nuclei.",
-        "The source identifies the four panels as proliferative, early secretory, late secretory, and menstrual endometrium."
-      ],
-      "question_id": "q-7aa328539bff337c2a91",
-      "source_id": "s-663bfcda745dd7e8f082",
-      "source_group_id": "g-9cb0eb2d9e0b224db1df",
-      "variant_id": "v-6e7fc93fd3ee316ac346",
-      "tested_concept": "Early secretory endometrial vacuoles",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/9cc34b22f470672126d4b2b2ad5c8d5c49e5c5718af730bd3170ddcdc8bdd837.webp",
-      "zoom_image": "assets/originals/9cc34b22f470672126d4b2b2ad5c8d5c49e5c5718af730bd3170ddcdc8bdd837.png",
-      "original_image": "assets/originals/9cc34b22f470672126d4b2b2ad5c8d5c49e5c5718af730bd3170ddcdc8bdd837.png",
-      "original_filename": "R12/Menstrual Cycle Endometrium Phases - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 39
-        }
-      ],
-      "visual_target": "Consider all four panels. Which panel shows prominent subnuclear vacuoles in glandular epithelial cells?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Consider all four panels. Which panel shows the menstrual pattern with stromal breakdown?",
-      "options": [
-        "Upper right",
-        "Lower left",
-        "Lower right",
-        "Upper left"
-      ],
-      "correct_index": 2,
-      "explanation": "The lower-right panel shows disrupted hemorrhagic stroma around glandular remnants.",
-      "choice_rationales": [
-        "The upper-right glandular epithelium shows basal vacuoles in a preserved gland.",
-        "The lower-left late-secretory field retains organized stroma and gland profiles.",
-        "The lower-right panel shows disrupted hemorrhagic stroma around glandular remnants.",
-        "The upper-left glands and surrounding stroma remain intact."
-      ],
-      "visual_clues": [
-        "The lower-right panel shows disrupted hemorrhagic stroma around glandular remnants.",
-        "Compare this disorganized background with the more intact gland-stroma arrangements in the other panels."
-      ],
-      "question_id": "q-8a24f7484222a668e19c",
-      "source_id": "s-663bfcda745dd7e8f082",
-      "source_group_id": "g-9cb0eb2d9e0b224db1df",
-      "variant_id": "v-6e7fc93fd3ee316ac346",
-      "tested_concept": "Menstrual stromal breakdown panel",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/9cc34b22f470672126d4b2b2ad5c8d5c49e5c5718af730bd3170ddcdc8bdd837.webp",
-      "zoom_image": "assets/originals/9cc34b22f470672126d4b2b2ad5c8d5c49e5c5718af730bd3170ddcdc8bdd837.png",
-      "original_image": "assets/originals/9cc34b22f470672126d4b2b2ad5c8d5c49e5c5718af730bd3170ddcdc8bdd837.png",
-      "original_filename": "R12/Menstrual Cycle Endometrium Phases - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 39
-        }
-      ],
-      "visual_target": "Consider all four panels. Which panel shows the menstrual pattern with stromal breakdown?",
-      "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
@@ -5311,53 +4937,6 @@
       "case_context": null
     },
     {
-      "stem": "Which gross pattern characterizes this supplied ovarian thecoma?",
-      "options": [
-        "An opened cyst containing hair and teeth",
-        "A delicate translucent empty cyst",
-        "A solid glistening tan-yellow cut surface",
-        "A uniformly white densely fibrous whorled cut surface"
-      ],
-      "correct_index": 2,
-      "explanation": "The tumor is solid and has a glistening tan-yellow cut surface.",
-      "choice_rationales": [
-        "The solid surface lacks an open cavity with hair or toothlike material.",
-        "Most of the cut surface is opaque solid tissue.",
-        "The tumor is solid and has a glistening tan-yellow cut surface.",
-        "The cut tissue has a glistening tan-yellow color rather than white whorls."
-      ],
-      "visual_clues": [
-        "The tumor is solid and has a glistening tan-yellow cut surface.",
-        "The complete nodule is retained; the diagnosis is supplied by lecture context rather than color alone."
-      ],
-      "question_id": "q-3d58c0dcd7bbd86ec5e2",
-      "source_id": "s-63a201acb6b2a1cc2996",
-      "source_group_id": "g-7b66c3c34265701957f4",
-      "variant_id": "v-23d7ca20480e2f5c4eea",
-      "tested_concept": "Thecoma tan-yellow cut surface",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/46572d4309dee3dfc24cb7809728bc1026a5e32ae9ca8010d4057949dfd27310.webp",
-      "zoom_image": "assets/originals/46572d4309dee3dfc24cb7809728bc1026a5e32ae9ca8010d4057949dfd27310.png",
-      "original_image": "assets/originals/46572d4309dee3dfc24cb7809728bc1026a5e32ae9ca8010d4057949dfd27310.png",
-      "original_filename": "R12/Thecoma - Gross (2).png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 102
-        }
-      ],
-      "visual_target": "Which gross pattern characterizes this supplied ovarian thecoma?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which cellular pattern is visible in this supplied thecoma section?",
       "options": [
         "Primitive neuroepithelial tubules with dense dark nuclei",
@@ -5734,53 +5313,6 @@
       "case_context": null
     },
     {
-      "stem": "Which relationship is visible between the surface urothelium and the deeper epithelial nests?",
-      "options": [
-        "Every nest floats within a large mucin lake",
-        "Some nests lie below and separate from the surface lining",
-        "Every epithelial cell is confined to the outermost surface row",
-        "All nests project outward on fibrovascular stalks"
-      ],
-      "correct_index": 1,
-      "explanation": "Several rounded epithelial nests occupy the lamina propria below the intact surface.",
-      "choice_rationales": [
-        "The epithelial islands sit in lamina propria, without a large common mucin pool.",
-        "Several rounded epithelial nests occupy the lamina propria below the intact surface.",
-        "There are rounded epithelial nests below the surface, separate from the top epithelial row.",
-        "The nests extend inward into supporting tissue, not out along vascular stalks."
-      ],
-      "visual_clues": [
-        "Several rounded epithelial nests occupy the lamina propria below the intact surface.",
-        "The intact lining forms a separate superficial band above the round nests."
-      ],
-      "question_id": "q-4f1f0d95166a0efd6b88",
-      "source_id": "s-e88c92aa1088d5e99630",
-      "source_group_id": "g-a219681a8efba6c47f88",
-      "variant_id": "v-51c622f6b3907f643398",
-      "tested_concept": "Brunn nests surface relationship",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R15",
-      "source_origin": "lecture",
-      "image": "assets/display/2866b2007f4cf053c3e33b5f3a0a04fe5926fa8b4f142f13c00f2c86183f0600.webp",
-      "zoom_image": "assets/originals/2866b2007f4cf053c3e33b5f3a0a04fe5926fa8b4f142f13c00f2c86183f0600.png",
-      "original_image": "assets/originals/2866b2007f4cf053c3e33b5f3a0a04fe5926fa8b4f142f13c00f2c86183f0600.png",
-      "original_filename": "R15/Brunn Nests Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 15
-        }
-      ],
-      "visual_target": "Which relationship is visible between the surface urothelium and the deeper epithelial nests?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Where is the dense inflammatory infiltrate concentrated in this bladder biopsy?",
       "options": [
         "In the lamina propria beneath the urothelium",
@@ -6016,53 +5548,6 @@
       "case_context": null
     },
     {
-      "stem": "Which invasive architecture is present in this supplied bladder tumor?",
-      "options": [
-        "Only an intact flat atypical surface lining",
-        "Simple exophytic papillae without stromal tumor",
-        "Smooth rounded bland nests with central cystic spaces",
-        "Thin irregular fingerlike cords infiltrating the stroma"
-      ],
-      "correct_index": 3,
-      "explanation": "Numerous narrow irregular epithelial cords extend diffusely into the stromal tissue.",
-      "choice_rationales": [
-        "Irregular epithelial cords are visible below the surface within stromal tissue.",
-        "The narrow epithelial groups extend into the stroma rather than projecting outward over vascular cores.",
-        "The epithelial groups form irregular slender profiles instead of smooth rounded nests with open centers.",
-        "Numerous narrow irregular epithelial cords extend diffusely into the stromal tissue."
-      ],
-      "visual_clues": [
-        "Numerous narrow irregular epithelial cords extend diffusely into the stromal tissue.",
-        "The lecture identifies this as a tentacular invasive pattern."
-      ],
-      "question_id": "q-a1b50bc3d0a2c3e9988b",
-      "source_id": "s-548191a523278a6d1a55",
-      "source_group_id": "g-8d190b2a70651a2a0add",
-      "variant_id": "v-26e750dadb8a822c780e",
-      "tested_concept": "Tentacular urothelial invasion",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R15",
-      "source_origin": "lecture",
-      "image": "assets/display/f12c0689e15d60b22f75748b372aa8804016cf673f6c0305ee9d28a5cb656e10.webp",
-      "zoom_image": "assets/originals/f12c0689e15d60b22f75748b372aa8804016cf673f6c0305ee9d28a5cb656e10.png",
-      "original_image": "assets/originals/f12c0689e15d60b22f75748b372aa8804016cf673f6c0305ee9d28a5cb656e10.png",
-      "original_filename": "R15/Invasive Urothelial Carcinoma Tentacular Pattern Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 31
-        }
-      ],
-      "visual_target": "Which invasive architecture is present in this supplied bladder tumor?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which cytologic pattern is present in this supplied low-grade papillary urothelial tumor?",
       "options": [
         "Large vacuoles pushing every nucleus to the cell edge",
@@ -6149,53 +5634,6 @@
         }
       ],
       "visual_target": "Which structure runs through the center of the broad papillary profile?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which gross pattern is present on the opened bladder mucosa in this supplied malakoplakia example?",
-      "options": [
-        "Multiple irregular pale plaques on inflamed mucosa",
-        "A smooth unremarkable surface without plaques",
-        "One thin-walled transparent cyst",
-        "A field of hair and tooth structures"
-      ],
-      "correct_index": 0,
-      "explanation": "Numerous irregular pale plaque-like lesions are scattered over the reddish bladder mucosal surface.",
-      "choice_rationales": [
-        "Numerous irregular pale plaque-like lesions are scattered over the reddish bladder mucosal surface.",
-        "Several pale irregular plaques interrupt the red background.",
-        "The abnormalities lie along the opened mucosal surface rather than enclosing a separate cavity.",
-        "The visible lesions are plaques without gross hair or tooth structures."
-      ],
-      "visual_clues": [
-        "Numerous irregular pale plaque-like lesions are scattered over the reddish bladder mucosal surface.",
-        "The source establishes malakoplakia; the photograph is used to recognize plaques rather than diagnose it from color alone."
-      ],
-      "question_id": "q-cac3fbfe251068c912ea",
-      "source_id": "s-0db7137d07d93dcaba18",
-      "source_group_id": "g-9d30b5dd9a0b100c9732",
-      "variant_id": "v-1103ca6ca5849760b844",
-      "tested_concept": "Malakoplakia gross plaques",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R15",
-      "source_origin": "lecture",
-      "image": "assets/display/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.webp",
-      "zoom_image": "assets/originals/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.png",
-      "original_image": "assets/originals/9a3774dee1400b4c163ef9a80ca93b0cb9205a2cb3ad8029cd1e3fc101ae3490.png",
-      "original_filename": "R15/Malakoplakia Bladder - Gross.png",
-      "citations": [
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 19
-        }
-      ],
-      "visual_target": "Which gross pattern is present on the opened bladder mucosa in this supplied malakoplakia example?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -6768,53 +6206,6 @@
       "case_context": null
     },
     {
-      "stem": "Where is the thick muscular component relative to the highly folded mucosa?",
-      "options": [
-        "Inside each epithelial nucleus",
-        "Floating freely within the central lumen",
-        "Confined to an oocyte at the center",
-        "Outside the folded mucosa as a surrounding wall"
-      ],
-      "correct_index": 3,
-      "explanation": "A broad pink wall surrounds the folded inner mucosal compartment.",
-      "choice_rationales": [
-        "Muscle is a tissue compartment outside the lining rather than an intracellular nuclear structure.",
-        "The thick wall is peripheral and continuous rather than floating in the lumen.",
-        "There is no central oocyte in this uterine tube section.",
-        "A broad pink wall surrounds the folded inner mucosal compartment."
-      ],
-      "visual_clues": [
-        "A broad pink wall surrounds the folded inner mucosal compartment.",
-        "The folds occupy the lumen-facing side of the muscular wall."
-      ],
-      "question_id": "q-13690686a02316db900d",
-      "source_id": "s-0d70fce928c95296839f",
-      "source_group_id": "g-c6b7d805bcc266802dde",
-      "variant_id": "v-e488187df280056d0dde",
-      "tested_concept": "Tubal muscular wall relationship",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R9",
-      "source_origin": "lecture",
-      "image": "assets/display/26daa97959daa0cf130e4a5f1795e5c0781e1ca8dbd3d7293983ed910da3cf0b.webp",
-      "zoom_image": "assets/originals/26daa97959daa0cf130e4a5f1795e5c0781e1ca8dbd3d7293983ed910da3cf0b.png",
-      "original_image": "assets/originals/26daa97959daa0cf130e4a5f1795e5c0781e1ca8dbd3d7293983ed910da3cf0b.png",
-      "original_filename": "App-local PDF panels/R9-tubal-folds.png",
-      "citations": [
-        {
-          "document": "R9 Reproductive Histology RLS.pdf",
-          "page": 22
-        }
-      ],
-      "visual_target": "Where is the thick muscular component relative to the highly folded mucosa?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "What do the two upper long source arrows identify?",
       "options": [
         "Isolated bundles of skeletal muscle",
@@ -6854,53 +6245,6 @@
         }
       ],
       "visual_target": "What do the two upper long source arrows identify?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "What does the lowest source arrow identify between the mammary lobules?",
-      "options": [
-        "A central ovarian antrum",
-        "Dense pink interlobular connective tissue",
-        "The lumen of a single milk duct",
-        "A sheet of atypical squamous epithelium"
-      ],
-      "correct_index": 1,
-      "explanation": "The lowest arrow ends in a broad pink fibrous region between the glandular clusters.",
-      "choice_rationales": [
-        "The image shows multiple mammary lobules and intervening collagen without an ovarian follicle.",
-        "The lowest arrow ends in a broad pink fibrous region between the glandular clusters.",
-        "The target is solid pink collagenous stroma rather than an epithelial-lined open space.",
-        "The target lacks a continuous stratified cellular sheet."
-      ],
-      "visual_clues": [
-        "The lowest arrow ends in a broad pink fibrous region between the glandular clusters.",
-        "The target lies outside the densely cellular lobular units."
-      ],
-      "question_id": "q-4e33c4cbb9024e22bb44",
-      "source_id": "s-df05d2adf9bde17635b8",
-      "source_group_id": "g-e17b0d0d737f1c882731",
-      "variant_id": "v-f9531d4fae11e264b9b6",
-      "tested_concept": "Mammary interlobular stroma",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R9",
-      "source_origin": "lecture",
-      "image": "assets/display/cdb78503b4da7a471e1640dd030bdd4e2fe0cbf42182aa7cbeef871985d19713.webp",
-      "zoom_image": "assets/originals/cdb78503b4da7a471e1640dd030bdd4e2fe0cbf42182aa7cbeef871985d19713.png",
-      "original_image": "assets/originals/cdb78503b4da7a471e1640dd030bdd4e2fe0cbf42182aa7cbeef871985d19713.png",
-      "original_filename": "App-local PDF panels/R9-mammary-lobules.png",
-      "citations": [
-        {
-          "document": "R9 Reproductive Histology RLS.pdf",
-          "page": 33
-        }
-      ],
-      "visual_target": "What does the lowest source arrow identify between the mammary lobules?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -7238,53 +6582,6 @@
       "case_context": null
     },
     {
-      "stem": "Which architectural difference is visible between the lower-left and upper-right regions?",
-      "options": [
-        "A single giant follicle surrounding an oocyte",
-        "More numerous smaller crowded glands toward the upper right",
-        "Only one uniform large gland throughout the field",
-        "Complete replacement by solid keratinized squamous nests"
-      ],
-      "correct_index": 1,
-      "explanation": "Many smaller glands are crowded in the upper-right part of the section, compared with larger open glands lower left.",
-      "choice_rationales": [
-        "There is no oocyte or follicular granulosa layer.",
-        "Many smaller glands are crowded in the upper-right part of the section, compared with larger open glands lower left.",
-        "The gland size and spacing vary considerably between the two regions.",
-        "Open glandular lumina remain visible rather than broad keratinized squamous nests."
-      ],
-      "visual_clues": [
-        "Many smaller glands are crowded in the upper-right part of the section, compared with larger open glands lower left.",
-        "The paired p63 image in the lecture further evaluates the basal-cell pattern."
-      ],
-      "question_id": "q-550408b29c438a2bf72f",
-      "source_id": "s-a66d7f7448f41572d785",
-      "source_group_id": "g-de1d444bc80b3d264d22",
-      "variant_id": "v-80766d227d01011d8633",
-      "tested_concept": "Prostatic small-gland crowding",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R9",
-      "source_origin": "lecture",
-      "image": "assets/display/e6516b97dd9570e965cc72de55e2a385d1b61905bddeb515cbff688aa7df8742.webp",
-      "zoom_image": "assets/originals/e6516b97dd9570e965cc72de55e2a385d1b61905bddeb515cbff688aa7df8742.png",
-      "original_image": "assets/originals/e6516b97dd9570e965cc72de55e2a385d1b61905bddeb515cbff688aa7df8742.png",
-      "original_filename": "App-local PDF panels/R9-prostate-second-HE.png",
-      "citations": [
-        {
-          "document": "R9 Reproductive Histology RLS.pdf",
-          "page": 43
-        }
-      ],
-      "visual_target": "Which architectural difference is visible between the lower-left and upper-right regions?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which cells form the luminal surface along the left edge of this bladder lining?",
       "options": [
         "Large rounded superficial umbrella cells",
@@ -7419,53 +6716,6 @@
       ],
       "visual_target": "In this supplied complete androgen insensitivity example, where are the paired gonads marked by the arrowheads?",
       "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which drawing shows a horizontally oriented testis inside the blue sac without a depicted cord twist?",
-      "options": [
-        "First from the left",
-        "Second from the left",
-        "Third from the left",
-        "Far right"
-      ],
-      "correct_index": 3,
-      "explanation": "The far-right testis is shown with its long axis horizontal and its cord free of a spiral.",
-      "choice_rationales": [
-        "The first testis is upright and the cord is untwisted.",
-        "The second testis is upright and the cord spirals above the blue sac.",
-        "The third testis is upright and a spiral is visible inside the blue outline.",
-        "The far-right testis is shown with its long axis horizontal and its cord free of a spiral."
-      ],
-      "visual_clues": [
-        "The far-right testis is shown with its long axis horizontal and its cord free of a spiral.",
-        "The lecture uses this drawing to illustrate the bell clapper configuration."
-      ],
-      "question_id": "q-66373593206097e19d77",
-      "source_id": "s-1794633b2a2764f09431",
-      "source_group_id": "g-accb9ff5efe5764f0902",
-      "variant_id": "v-e677cb09737e29ced550",
-      "tested_concept": "Bell clapper testis orientation",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R11",
-      "source_origin": "lecture",
-      "image": "assets/display/8cfc5070857de86906e82a4e5de7ba99a76c34f427b88a09891f87333d6d7083.webp",
-      "zoom_image": "assets/zoom/8cfc5070857de86906e82a4e5de7ba99a76c34f427b88a09891f87333d6d7083.png",
-      "original_image": "assets/originals/24bcdbefd3683f20ea6dd9f094c12f7e02971fd95e191b44fd7726ce9d37404f.png",
-      "original_filename": "App-local PDF panels/R11-torsion.png",
-      "citations": [
-        {
-          "document": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
-          "page": 26
-        }
-      ],
-      "visual_target": "Which drawing shows a horizontally oriented testis inside the blue sac without a depicted cord twist?",
-      "joint_panels": true,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
@@ -7755,53 +7005,6 @@
       "case_context": null
     },
     {
-      "stem": "What does the downward yellow arrow identify above the embryo?",
-      "options": [
-        "The thin amniotic membrane",
-        "The outer wall of the uterus",
-        "A second embryo",
-        "A solid placental mass"
-      ],
-      "correct_index": 0,
-      "explanation": "The arrow points to a delicate curved echogenic membrane immediately above the embryo.",
-      "choice_rationales": [
-        "The arrow points to a delicate curved echogenic membrane immediately above the embryo.",
-        "The target is an internal thin arc well inside the surrounding uterine tissue.",
-        "The arrow points to a line, without a second distinct fetal profile.",
-        "A fine curved membrane differs from a broad solid placental structure."
-      ],
-      "visual_clues": [
-        "The arrow points to a delicate curved echogenic membrane immediately above the embryo.",
-        "The source identifies this internal membrane as the amnion."
-      ],
-      "question_id": "q-1d163e05f47fa0d4ba5d",
-      "source_id": "s-92f1eb48552eb5436f73",
-      "source_group_id": "g-cc6f10245b1c07adf295",
-      "variant_id": "v-e7ef646fd6d55274f3e4",
-      "tested_concept": "Amnion ultrasound landmark",
-      "question_type": "Visual interpretation",
-      "category": "Ultrasound",
-      "collection": "R11",
-      "source_origin": "lecture",
-      "image": "assets/display/a7204294082f53c6a31fab761fe5d343b95ae8635f9ecdb044847204fd35d852.webp",
-      "zoom_image": "assets/zoom/a7204294082f53c6a31fab761fe5d343b95ae8635f9ecdb044847204fd35d852.png",
-      "original_image": "assets/originals/b4fd799e256db3461b9ee92dbf45eed7d5cd6f25f37ca0de25be022380418890.png",
-      "original_filename": "App-local PDF panels/R11-amnion.png",
-      "citations": [
-        {
-          "document": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
-          "page": 38
-        }
-      ],
-      "visual_target": "What does the downward yellow arrow identify above the embryo?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which pattern is present in this supplied molar pregnancy ultrasound?",
       "options": [
         "One simple thin-walled dark cavity with no internal tissue",
@@ -7888,53 +7091,6 @@
         }
       ],
       "visual_target": "Which gross change is visible across both pieces of this supplied fetal kidney specimen?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which part of the kidneys is joined by the tissue bridge in this gross specimen?",
-      "options": [
-        "The renal pelves only",
-        "The lower poles",
-        "The upper poles",
-        "The ureters only"
-      ],
-      "correct_index": 1,
-      "explanation": "The tissue bridge joins the lower ends of the two renal masses.",
-      "choice_rationales": [
-        "The connection spans the lower renal tissue, beyond the central collecting structures.",
-        "The tissue bridge joins the lower ends of the two renal masses.",
-        "The upper poles remain separated by a broad gap.",
-        "The bridge is a broad parenchymal connection rather than just joined ureters."
-      ],
-      "visual_clues": [
-        "The tissue bridge joins the lower ends of the two renal masses.",
-        "The upper poles remain separate and the ureters extend below the joined region."
-      ],
-      "question_id": "q-42127dabc2823568eeb4",
-      "source_id": "s-d56531ba44451b89cf38",
-      "source_group_id": "g-8ad2bea348638e8d049a",
-      "variant_id": "v-77e48de6d73b6882fd45",
-      "tested_concept": "Horseshoe kidney fused poles",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R8",
-      "source_origin": "lecture",
-      "image": "assets/display/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.webp",
-      "zoom_image": "assets/originals/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.png",
-      "original_image": "assets/originals/16e5d084d51e64f7e582921d666689088edecefb1bc24b5f20d129d995a5d36c.png",
-      "original_filename": "R8/Horseshoe Kidney - Gross.png",
-      "citations": [
-        {
-          "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
-          "page": 12
-        }
-      ],
-      "visual_target": "Which part of the kidneys is joined by the tissue bridge in this gross specimen?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -8084,100 +7240,6 @@
       "case_context": null
     },
     {
-      "stem": "Which numbered row shows the areola and papilla raised as a secondary mound above the breast contour?",
-      "options": [
-        "Row 2",
-        "Row 3",
-        "Row 5",
-        "Row 4"
-      ],
-      "correct_index": 3,
-      "explanation": "In the fourth side-view drawing, the areola and papilla project from the underlying breast contour as a second mound.",
-      "choice_rationales": [
-        "Row 2 shows the small initial breast bud.",
-        "Row 3 shows enlargement without a separate secondary mound.",
-        "Row 5 shows a mature breast outline without the distinct areolar mound.",
-        "In the fourth side-view drawing, the areola and papilla project from the underlying breast contour as a second mound."
-      ],
-      "visual_clues": [
-        "In the fourth side-view drawing, the areola and papilla project from the underlying breast contour as a second mound.",
-        "The fifth row shows a mature contour in which the areola follows the breast outline."
-      ],
-      "question_id": "q-51b067b47b090d32c8b6",
-      "source_id": "s-49b8571771a9a760a9a5",
-      "source_group_id": "g-47e14cdee196206befb8",
-      "variant_id": "v-bae58513614f6425ce92",
-      "tested_concept": "Secondary breast mound in maturity drawings",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R14.2",
-      "source_origin": "lecture",
-      "image": "assets/display/54f2b5f78b97456387eea73051b76657be801a8db447bdf49d8f026822b38a99.webp",
-      "zoom_image": "assets/originals/54f2b5f78b97456387eea73051b76657be801a8db447bdf49d8f026822b38a99.png",
-      "original_image": "assets/originals/54f2b5f78b97456387eea73051b76657be801a8db447bdf49d8f026822b38a99.png",
-      "original_filename": "R14.2/Breast SMR Stages Line Drawings - Diagram.png",
-      "citations": [
-        {
-          "document": "R14.2 Puberty Case Study RLS.pdf",
-          "page": 15
-        }
-      ],
-      "visual_target": "Which numbered row shows the areola and papilla raised as a secondary mound above the breast contour?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which numbered row shows the initial small breast bud?",
-      "options": [
-        "Row 4",
-        "Row 5",
-        "Row 2",
-        "Row 1"
-      ],
-      "correct_index": 2,
-      "explanation": "The second drawing shows a small projection at the areola that is absent in the first row.",
-      "choice_rationales": [
-        "Row 4 shows a developed breast with a secondary areolar mound.",
-        "Row 5 shows the mature breast contour.",
-        "The second drawing shows a small projection at the areola that is absent in the first row.",
-        "Row 1 is the prepubertal contour without the breast bud."
-      ],
-      "visual_clues": [
-        "The second drawing shows a small projection at the areola that is absent in the first row.",
-        "The fourth and fifth rows have substantially larger breast contours."
-      ],
-      "question_id": "q-026d2e872048f5b14610",
-      "source_id": "s-49b8571771a9a760a9a5",
-      "source_group_id": "g-47e14cdee196206befb8",
-      "variant_id": "v-bae58513614f6425ce92",
-      "tested_concept": "Breast bud in maturity drawings",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R14.2",
-      "source_origin": "lecture",
-      "image": "assets/display/54f2b5f78b97456387eea73051b76657be801a8db447bdf49d8f026822b38a99.webp",
-      "zoom_image": "assets/originals/54f2b5f78b97456387eea73051b76657be801a8db447bdf49d8f026822b38a99.png",
-      "original_image": "assets/originals/54f2b5f78b97456387eea73051b76657be801a8db447bdf49d8f026822b38a99.png",
-      "original_filename": "R14.2/Breast SMR Stages Line Drawings - Diagram.png",
-      "citations": [
-        {
-          "document": "R14.2 Puberty Case Study RLS.pdf",
-          "page": 15
-        }
-      ],
-      "visual_target": "Which numbered row shows the initial small breast bud?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Across the numbered drawings, which visual change distinguishes stage II from stage I?",
       "options": [
         "Pubic hair fills the entire adult distribution",
@@ -8274,104 +7336,6 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 23-year-old at 38 weeks presents with contractions. The lecture uses this drawing to illustrate the cervical examination."
-    },
-    {
-      "stem": "Which description correctly compares the upper and lower tracings?",
-      "options": [
-        "Both traces remain flat through the displayed interval",
-        "The upper trace has three large deep falls aligned with every contraction",
-        "The lower trace has the higher baseline and represents heart rate",
-        "The upper rate trace has small fluctuations while the lower trace has broad contraction peaks"
-      ],
-      "correct_index": 3,
-      "explanation": "The upper trace fluctuates in the highlighted heart rate band while the lower trace has three broad peaks.",
-      "choice_rationales": [
-        "Small fluctuations and broad lower peaks are visible.",
-        "No large repeated troughs appear in the upper channel at each lower peak.",
-        "The upper axis and band identify the fetal heart rate channel.",
-        "The upper trace fluctuates in the highlighted heart rate band while the lower trace has three broad peaks."
-      ],
-      "visual_clues": [
-        "The upper trace fluctuates in the highlighted heart rate band while the lower trace has three broad peaks.",
-        "The lecture identifies the lower peaks as uterine contractions and describes the upper trace as showing variability and accelerations."
-      ],
-      "question_id": "q-429eff9b36150721b00b",
-      "source_id": "s-dc9aa700d2e0fafc0c32",
-      "source_group_id": "g-325c013c46ec0afec122",
-      "variant_id": "v-7a699a3925d3f7341b54",
-      "tested_concept": "Fetal heart rate and contraction channels",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R14.1",
-      "source_origin": "lecture",
-      "image": "assets/display/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.webp",
-      "zoom_image": "assets/originals/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.png",
-      "original_image": "assets/originals/f3f6c6aa864f0186f0f6ab0325f5f1824ffeec7480e6dcf10b992cf62eb18ba4.png",
-      "original_filename": "R14.1/Fetal Heart Rate and Contraction Tracing - Diagram.png",
-      "citations": [
-        {
-          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
-          "page": 10
-        },
-        {
-          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
-          "page": 2
-        }
-      ],
-      "visual_target": "Which description correctly compares the upper and lower tracings?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A 23-year-old at 38 weeks is evaluated for contractions. The lecture describes a fetal heart rate in the 150s and contractions every two to three minutes."
-    },
-    {
-      "stem": "Which segment of the first-stage cervical dilation curve is steepest?",
-      "options": [
-        "The plateau near full dilation",
-        "The segment after delivery of the placenta",
-        "The middle active-phase segment",
-        "The early latent-phase segment"
-      ],
-      "correct_index": 2,
-      "explanation": "The curve climbs most sharply during the middle of the active phase.",
-      "choice_rationales": [
-        "The upper plateau shows little further dilation.",
-        "The curve is already flat during the later delivery stages.",
-        "The curve climbs most sharply during the middle of the active phase.",
-        "The early latent portion has a much shallower slope."
-      ],
-      "visual_clues": [
-        "The curve climbs most sharply during the middle of the active phase.",
-        "Dilation changes slowly in the latent phase and the curve levels out near full dilation."
-      ],
-      "question_id": "q-1a468e3ab078d839b5cd",
-      "source_id": "s-67c73dd0879a1faa21f0",
-      "source_group_id": "g-8e0a9ec00845e6488662",
-      "variant_id": "v-e5a4b13a3f2cbd694706",
-      "tested_concept": "Labor curve steepest cervical dilation",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R14.1",
-      "source_origin": "lecture",
-      "image": "assets/zoom/9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a.png",
-      "zoom_image": "assets/zoom/9ae015ae14dc85b12f857555836faa1a57f717533f2acbb207e3b97ea6b0464a.png",
-      "original_image": "assets/originals/6c78d1efc9ea189c9b0481defb33ad01645252f8840855c4ec558bcf9b841b9a.png",
-      "original_filename": "R14.1/Labor Curve Phases and Stages - Diagram.png",
-      "citations": [
-        {
-          "document": "R14.1 Physiologist & Physician Clinical Case Studies - Interactive Lecture RLS.pdf",
-          "page": 29
-        }
-      ],
-      "visual_target": "Which segment of the first-stage cervical dilation curve is steepest?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
     },
     {
       "stem": "Which cavity finding is visible in this supplied Asherman syndrome hysteroscopy?",
@@ -8842,53 +7806,6 @@
       "case_context": null
     },
     {
-      "stem": "What happens to tissue immediately along the outer edge of the rounded gland-rich nodule?",
-      "options": [
-        "It forms a second central glandular lumen",
-        "It becomes a thick surface keratin layer",
-        "It is replaced by small irregular epithelial cords",
-        "It is displaced and compressed along the nodule margin"
-      ],
-      "correct_index": 3,
-      "explanation": "Curved pink stromal bands outline the rounded gland-rich region and compress adjacent profiles.",
-      "choice_rationales": [
-        "The margin contains curved stromal bands rather than an additional open glandular lumen.",
-        "The pink band is a connective tissue boundary, not superficial layered keratin.",
-        "Adjacent profiles are compressed at the edge without the separate irregular cords described here.",
-        "Curved pink stromal bands outline the rounded gland-rich region and compress adjacent profiles."
-      ],
-      "visual_clues": [
-        "Curved pink stromal bands outline the rounded gland-rich region and compress adjacent profiles.",
-        "This low-power boundary illustrates the circumscribed, expansile arrangement described in the lecture."
-      ],
-      "question_id": "q-6c7f8015952a43fec1aa",
-      "source_id": "s-6655446c9c483f60ca39",
-      "source_group_id": "g-88f7c5b0f2f6b4989eb3",
-      "variant_id": "v-d70669d442477301079a",
-      "tested_concept": "BPH adjacent tissue compression",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R16",
-      "source_origin": "lecture",
-      "image": "assets/display/5b7565e70fac9337c988c1ff3db84d69179a13e1dc6023e347ebf5a14e632a84.webp",
-      "zoom_image": "assets/originals/5b7565e70fac9337c988c1ff3db84d69179a13e1dc6023e347ebf5a14e632a84.png",
-      "original_image": "assets/originals/5b7565e70fac9337c988c1ff3db84d69179a13e1dc6023e347ebf5a14e632a84.png",
-      "original_filename": "R16/BPH Histology Nodular Hyperplasia - Histology.png",
-      "citations": [
-        {
-          "document": "R16 GU Pathology II RLS.pdf",
-          "page": 9
-        }
-      ],
-      "visual_target": "What happens to tissue immediately along the outer edge of the rounded gland-rich nodule?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "What does the yellow arrow mark in this supplied testicular tumor?",
       "options": [
         "A thin-walled translucent cyst",
@@ -9069,53 +7986,6 @@
         }
       ],
       "visual_target": "What combination is present in this supplied embryonal carcinoma field?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Where are the conspicuously large clear atypical cells located?",
-      "options": [
-        "Within a blood vessel in the stroma",
-        "In an external keratin layer",
-        "Inside the outline of a seminiferous tubule",
-        "In a solid sheet beyond all tubular boundaries"
-      ],
-      "correct_index": 2,
-      "explanation": "Large pale cells with enlarged dark nuclei lie along the inner side of an intact tubular perimeter.",
-      "choice_rationales": [
-        "The conspicuous pale cells follow a tubule boundary instead of occupying a vessel in the stroma.",
-        "The target cells have enlarged nuclei and lie in a cellular layer within the tubule.",
-        "Large pale cells with enlarged dark nuclei lie along the inner side of an intact tubular perimeter.",
-        "The pale cells remain within the tubular outline rather than forming a sheet outside it."
-      ],
-      "visual_clues": [
-        "Large pale cells with enlarged dark nuclei lie along the inner side of an intact tubular perimeter.",
-        "The supplied lesion is germ cell neoplasia in situ, which this field shows within the tubule."
-      ],
-      "question_id": "q-924492816a726d3fb2b6",
-      "source_id": "s-008b70cd44b49b86fe45",
-      "source_group_id": "g-b19564f4ab430b750ede",
-      "variant_id": "v-eb2585dcbd29d9d460a7",
-      "tested_concept": "GCNIS atypical cells within a tubule",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R16",
-      "source_origin": "lecture",
-      "image": "assets/display/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.webp",
-      "zoom_image": "assets/originals/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.png",
-      "original_image": "assets/originals/6fe06ecb48b16492ceacfee07c7dd6bcf5aa834491bbd7d6c2f69ab28bee1a9d.png",
-      "original_filename": "R16/Germ Cell Neoplasia in Situ Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R16 GU Pathology II RLS.pdf",
-          "page": 36
-        }
-      ],
-      "visual_target": "Where are the conspicuously large clear atypical cells located?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -9312,53 +8182,6 @@
       "case_context": null
     },
     {
-      "stem": "Which combination is visible in this bisected testicular mass?",
-      "options": [
-        "A central space filled with hair and teeth",
-        "Pale fleshy lobules with a largely uniform cut surface",
-        "A dark hemorrhagic cavity replacing the whole section",
-        "Multiple translucent grape-like vesicles"
-      ],
-      "correct_index": 1,
-      "explanation": "The two cut faces show relatively uniform pale fleshy lobules.",
-      "choice_rationales": [
-        "The cut faces are solid and pale without a central cavity containing appendages.",
-        "The two cut faces show relatively uniform pale fleshy lobules.",
-        "Most of the section is pale solid tissue without a dominant dark blood-filled space.",
-        "The lobules are fleshy solid tissue rather than clusters of translucent vesicles."
-      ],
-      "visual_clues": [
-        "The two cut faces show relatively uniform pale fleshy lobules.",
-        "The lecture illustrates this as the gross appearance of seminoma."
-      ],
-      "question_id": "q-6f99d76ad5a36d0ea6ab",
-      "source_id": "s-7121bc00dbfaa2183314",
-      "source_group_id": "g-c6d2800b99f760ba706e",
-      "variant_id": "v-ed8bef6c4fe251fc4ef0",
-      "tested_concept": "Seminoma gross lobulated homogeneous surface",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R16",
-      "source_origin": "lecture",
-      "image": "assets/display/f600fdef1d3b5c41a537136b7e7142dad4da2eaacf5ace668eb4d4f56db9bd0c.webp",
-      "zoom_image": "assets/originals/f600fdef1d3b5c41a537136b7e7142dad4da2eaacf5ace668eb4d4f56db9bd0c.png",
-      "original_image": "assets/originals/f600fdef1d3b5c41a537136b7e7142dad4da2eaacf5ace668eb4d4f56db9bd0c.png",
-      "original_filename": "R16/Seminoma Gross Cut Surface - Gross.png",
-      "citations": [
-        {
-          "document": "R16 GU Pathology II RLS.pdf",
-          "page": 38
-        }
-      ],
-      "visual_target": "Which combination is visible in this bisected testicular mass?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which two cellular populations are visible in this testicular tumor?",
       "options": [
         "Large pale tumor cells and small dark lymphocytes",
@@ -9398,53 +8221,6 @@
         }
       ],
       "visual_target": "Which two cellular populations are visible in this testicular tumor?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which cellular detail characterizes the large pale cells in this testicular tumor?",
-      "options": [
-        "Flattened anucleate plates forming surface keratin",
-        "Single slender spindle nuclei without pale cytoplasm",
-        "Peripheral nuclei displaced by one giant mucin vacuole",
-        "Distinct cell boundaries with large central nuclei"
-      ],
-      "correct_index": 3,
-      "explanation": "The large round tumor cells have conspicuous central nuclei and distinct boundaries around their pale cytoplasm.",
-      "choice_rationales": [
-        "The large pale cells retain large visible nuclei.",
-        "The cells are polygonal with well-defined pale borders rather than elongated spindles.",
-        "Many large nuclei sit near the cell centers rather than being pushed aside by a vacuole.",
-        "The large round tumor cells have conspicuous central nuclei and distinct boundaries around their pale cytoplasm."
-      ],
-      "visual_clues": [
-        "The large round tumor cells have conspicuous central nuclei and distinct boundaries around their pale cytoplasm.",
-        "The lecture describes both features in seminoma."
-      ],
-      "question_id": "q-e8c4de318c175518390f",
-      "source_id": "s-968edb1713e07bdf290c",
-      "source_group_id": "g-8a0f2b1d51db0fa75bc0",
-      "variant_id": "v-dcda29dcf645601fcb7d",
-      "tested_concept": "Seminoma cell boundary and nucleus",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R16",
-      "source_origin": "lecture",
-      "image": "assets/display/0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3.webp",
-      "zoom_image": "assets/originals/0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3.png",
-      "original_image": "assets/originals/0c663f875923c31f8d9ab8783a6ae6481000fc69335104a7ce1217eec093fbe3.png",
-      "original_filename": "R16/Seminoma Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R16 GU Pathology II RLS.pdf",
-          "page": 39
-        }
-      ],
-      "visual_target": "Which cellular detail characterizes the large pale cells in this testicular tumor?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -10487,53 +9263,6 @@
       "case_context": null
     },
     {
-      "stem": "Compare the three benign duct profiles. Which panel has the largest mostly empty round lumen?",
-      "options": [
-        "Left panel",
-        "Middle panel",
-        "Right panel",
-        "All three have equally large empty lumina"
-      ],
-      "correct_index": 0,
-      "explanation": "The left profile consists mainly of a large open rounded lumen with a thin cellular lining.",
-      "choice_rationales": [
-        "The left profile consists mainly of a large open rounded lumen with a thin cellular lining.",
-        "The middle panel has a cellular proliferation that fills most of the duct.",
-        "The right panel has a more complex proliferation with many irregular spaces.",
-        "The left panel has a much larger unobstructed central space."
-      ],
-      "visual_clues": [
-        "The left profile consists mainly of a large open rounded lumen with a thin cellular lining.",
-        "The middle and right profiles have substantially more epithelial proliferation."
-      ],
-      "question_id": "q-42faf26721c8a8dcf20d",
-      "source_id": "s-bca04306c2161bc104b8",
-      "source_group_id": "g-3b80653d2673f32ffaae",
-      "variant_id": "v-8c6e5f5ea82d1efa4400",
-      "tested_concept": "Benign breast epithelial lesions relative duct space",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/36a25bc64e9f1ca9753e5e09384b03ddc4fbcb1ba488bd7842f072fceee5a31f.webp",
-      "zoom_image": "assets/originals/36a25bc64e9f1ca9753e5e09384b03ddc4fbcb1ba488bd7842f072fceee5a31f.png",
-      "original_image": "assets/originals/36a25bc64e9f1ca9753e5e09384b03ddc4fbcb1ba488bd7842f072fceee5a31f.png",
-      "original_filename": "R18/Benign Epithelial Lesions Three Panels Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 32
-        }
-      ],
-      "visual_target": "Compare the three benign duct profiles. Which panel has the largest mostly empty round lumen?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "What accounts for the two dark centers in this bisected breast specimen?",
       "options": [
         "A solid centrally necrotic epithelial tumor",
@@ -10761,100 +9490,6 @@
         }
       ],
       "visual_target": "Which combination is visible in this supplied duct ectasia example?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which gross appearance is visible in this supplied ductal carcinoma in situ specimen?",
-      "options": [
-        "Numerous translucent grape-like vesicles",
-        "A uniformly red hemorrhagic clot without pale tissue",
-        "A pale irregular cut surface with small granular areas",
-        "A smooth thin-walled round cavity filled with clear fluid"
-      ],
-      "correct_index": 2,
-      "explanation": "Pale firm-appearing tissue with a granular cut surface stands out from the surrounding yellow fat.",
-      "choice_rationales": [
-        "The target is pale firm granular tissue rather than a cluster of transparent fluid-filled sacs.",
-        "Pale tissue stands out against the fat instead of a uniform red clot.",
-        "Pale firm-appearing tissue with a granular cut surface stands out from the surrounding yellow fat.",
-        "The pale area is irregular and solid, without a thin smooth wall enclosing clear fluid."
-      ],
-      "visual_clues": [
-        "Pale firm-appearing tissue with a granular cut surface stands out from the surrounding yellow fat.",
-        "The lecture supplies the DCIS identification. The gross question tests the visible cut surface."
-      ],
-      "question_id": "q-82ed02934a2bc5558f74",
-      "source_id": "s-13ae26548f4769c83602",
-      "source_group_id": "g-990ceacb35fbfaa10eb2",
-      "variant_id": "v-973af3290fe8b058aec7",
-      "tested_concept": "DCIS gross pale granular tissue",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/338e2a434bb0e4a9e44ff1d7f94c86948f4b8d84a80fa2aa30bc9893bdb87018.webp",
-      "zoom_image": "assets/originals/338e2a434bb0e4a9e44ff1d7f94c86948f4b8d84a80fa2aa30bc9893bdb87018.png",
-      "original_image": "assets/originals/338e2a434bb0e4a9e44ff1d7f94c86948f4b8d84a80fa2aa30bc9893bdb87018.png",
-      "original_filename": "R18/Ductal Carcinoma in Situ Gross - Gross.png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 49
-        }
-      ],
-      "visual_target": "Which gross appearance is visible in this supplied ductal carcinoma in situ specimen?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Where does the dense pink necrotic material accumulate in this breast section?",
-      "options": [
-        "In the nuclei of viable cells along the duct boundary",
-        "Within the centers of several expanded ductal profiles",
-        "Exclusively in the surrounding mature fat",
-        "In one detached bony trabecula"
-      ],
-      "correct_index": 1,
-      "explanation": "Broad central eosinophilic zones occupy several expanded profiles and are bordered by darker tumor cells.",
-      "choice_rationales": [
-        "The eosinophilic material occupies the center of the duct profiles, separate from the viable peripheral nuclei.",
-        "Broad central eosinophilic zones occupy several expanded profiles and are bordered by darker tumor cells.",
-        "The expanded duct profiles contain the material, with darker tumor cells surrounding it.",
-        "The material repeats in several duct centers and does not form a bone trabecula."
-      ],
-      "visual_clues": [
-        "Broad central eosinophilic zones occupy several expanded profiles and are bordered by darker tumor cells.",
-        "The rim of cellular tissue around central debris is the comedo pattern shown in the lecture."
-      ],
-      "question_id": "q-ba0bf06ed1bc7cd905b6",
-      "source_id": "s-0702c66b2677960afbf9",
-      "source_group_id": "g-990ceacb35fbfaa10eb2",
-      "variant_id": "v-18dace99220f5f537fd8",
-      "tested_concept": "DCIS comedo necrosis distribution",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/c1bce1a6a7348bd4836d555c35671854bc614d2edfd0b0c91b00c16a58315ccc.webp",
-      "zoom_image": "assets/originals/c1bce1a6a7348bd4836d555c35671854bc614d2edfd0b0c91b00c16a58315ccc.png",
-      "original_image": "assets/originals/c1bce1a6a7348bd4836d555c35671854bc614d2edfd0b0c91b00c16a58315ccc.png",
-      "original_filename": "R18/Ductal Carcinoma in Situ Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 49
-        }
-      ],
-      "visual_target": "Where does the dense pink necrotic material accumulate in this breast section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -12041,52 +10676,6 @@
       "case_context": null
     },
     {
-      "stem": "Compare the maternal vessels and the red flow arrows in the left column. What changes in the lower drawing?",
-      "options": [
-        "The vessel widens and its flow arrow is larger",
-        "The lower drawing loses the placenta entirely",
-        "The vessel and flow arrow are identical in both",
-        "The vessel stays narrow and the flow arrow is smaller"
-      ],
-      "correct_index": 3,
-      "explanation": "The lower vessel remains narrow and carries a smaller maternal flow arrow than the upper remodeled vessel.",
-      "choice_rationales": [
-        "The wide vessel and larger arrow are in the upper drawing.",
-        "The lower drawing still shows placenta below the uterine tissue.",
-        "The lower vessel and its flow arrow are visibly smaller.",
-        "The lower vessel remains narrow and carries a smaller maternal flow arrow than the upper remodeled vessel."
-      ],
-      "visual_clues": [
-        "The lower vessel remains narrow and carries a smaller maternal flow arrow than the upper remodeled vessel."
-      ],
-      "question_id": "q-d05de27f70d11d319965",
-      "source_id": "s-cad35f122990084d3f17",
-      "source_group_id": "g-93d8fcab7fe09d55ddeb",
-      "variant_id": "v-09ae1d77471951214e04",
-      "tested_concept": "Placental vascular remodeling and blood flow",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R21",
-      "source_origin": "lecture",
-      "image": "assets/display/09ae1d77471951214e042799f01072f82c9e14e9bffc1bbb11eaa4e71fe236a8.webp",
-      "zoom_image": "assets/zoom/09ae1d77471951214e042799f01072f82c9e14e9bffc1bbb11eaa4e71fe236a8.png",
-      "original_image": "assets/originals/553b86260c993ec0ba6024be91a7af5003441e7a385e51e2a01f8c96b1f22f7b.png",
-      "original_filename": "R21/Normal Pregnancy vs Preeclampsia Placental Remodeling - Diagram.png",
-      "citations": [
-        {
-          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
-          "page": 30
-        }
-      ],
-      "visual_target": "Compare the maternal vessels and the red flow arrows in the left column. What changes in the lower drawing?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Where does the plotted total peripheral vascular resistance reach its lowest region?",
       "options": [
         "At the far right near 38 weeks",
@@ -12516,53 +11105,6 @@
       "case_context": null
     },
     {
-      "stem": "Which plotted formulation rises in two distinct steps during the displayed interval?",
-      "options": [
-        "Monophasic formulation",
-        "Biphasic formulation",
-        "All three formulations",
-        "Triphasic formulation"
-      ],
-      "correct_index": 3,
-      "explanation": "The triphasic curve has three plateaus separated by two upward transitions.",
-      "choice_rationales": [
-        "The monophasic trace stays at one plotted level.",
-        "The biphasic trace has one upward transition.",
-        "The traces differ in the number of level changes.",
-        "The triphasic curve has three plateaus separated by two upward transitions."
-      ],
-      "visual_clues": [
-        "The triphasic curve has three plateaus separated by two upward transitions.",
-        "The monophasic line stays level, and the biphasic curve changes level once."
-      ],
-      "question_id": "q-78f63ec8df12188b9c96",
-      "source_id": "s-72f364f13691385b37a6",
-      "source_group_id": "g-7e763a894187e588ccff",
-      "variant_id": "v-3af2418f9500bdddbf64",
-      "tested_concept": "Progestin formulation step comparison",
-      "question_type": "Visual interpretation",
-      "category": "Diagram",
-      "collection": "R25",
-      "source_origin": "lecture",
-      "image": "assets/zoom/adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d.png",
-      "zoom_image": "assets/zoom/adb3f0aef1afb921260b224eda914752512c1d7d0d16b44969780c10a1121a1d.png",
-      "original_image": "assets/originals/c87ad24862e283e2a46884c5f8fc1719026d035613d914e3d1e8ce2b9b6c19b9.png",
-      "original_filename": "R25/Oral Contraceptive Progestin Content Monophasic Biphasic Triphasic - Diagram.png",
-      "citations": [
-        {
-          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
-          "page": 26
-        }
-      ],
-      "visual_target": "Which plotted formulation rises in two distinct steps during the displayed interval?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "Which two activated clotting factors are shown as inactivated at the right side of the pathway?",
       "options": [
         "Thrombin and thrombomodulin",
@@ -12695,53 +11237,6 @@
         }
       ],
       "visual_target": "Which appearance is visible in the central breast lesion on this ultrasound?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "What is visible within the red circle on this craniocaudal mammogram?",
-      "options": [
-        "An isolated line along the skin edge",
-        "The whole posterior pectoral muscle",
-        "A focal bright opacity distinct from the surrounding linear tissue",
-        "A uniformly black area without a focal finding"
-      ],
-      "correct_index": 2,
-      "explanation": "The red circle encloses a small bright focal opacity within the breast field.",
-      "choice_rationales": [
-        "The circled focus lies within the breast tissue rather than along its skin line.",
-        "The circled finding is a discrete opacity separate from the posterior muscle.",
-        "The red circle encloses a small bright focal opacity within the breast field.",
-        "The target appears brighter than the adjacent tissue."
-      ],
-      "visual_clues": [
-        "The red circle encloses a small bright focal opacity within the breast field.",
-        "The view marker identifies the supplied craniocaudal image."
-      ],
-      "question_id": "q-47f2d84ac93cf721a47b",
-      "source_id": "s-143f099f4888585e9c2c",
-      "source_group_id": "g-79de4cee82436e579ebe",
-      "variant_id": "v-5a7cf5c0e98302cf5cf8",
-      "tested_concept": "Craniocaudal mammogram circled opacity",
-      "question_type": "Visual interpretation",
-      "category": "Radiograph",
-      "collection": "R26",
-      "source_origin": "lecture",
-      "image": "assets/display/3bba04a51b7d91cc03d7cd843537f7e51b9b403d0c62d6888e3613992c09967c.webp",
-      "zoom_image": "assets/originals/3bba04a51b7d91cc03d7cd843537f7e51b9b403d0c62d6888e3613992c09967c.png",
-      "original_image": "assets/originals/3bba04a51b7d91cc03d7cd843537f7e51b9b403d0c62d6888e3613992c09967c.png",
-      "original_filename": "R26/Mammogram CC View Mass - Radiograph.png",
-      "citations": [
-        {
-          "document": "R26 Clinical Breast Diseases - A Surgeon Perspective I RLS.pdf",
-          "page": 11
-        }
-      ],
-      "visual_target": "What is visible within the red circle on this craniocaudal mammogram?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -13087,100 +11582,6 @@
       "case_context": null
     },
     {
-      "stem": "In which panel are markedly dilated cystic gland profiles most conspicuous?",
-      "options": [
-        "Panel B",
-        "Panel A",
-        "Panel C",
-        "Panel D"
-      ],
-      "correct_index": 0,
-      "explanation": "Panel B contains a much larger rounded glandular space and several irregular dilated glands.",
-      "choice_rationales": [
-        "Panel B contains a much larger rounded glandular space and several irregular dilated glands.",
-        "Panel A shows smaller tubular glands separated by abundant stroma.",
-        "Panel C shows crowded complex glands without the large rounded cystic profile of B.",
-        "Panel D shows crowded epithelial growth without the dominant large cystic lumen of B."
-      ],
-      "visual_clues": [
-        "Panel B contains a much larger rounded glandular space and several irregular dilated glands.",
-        "The source contrasts this pattern with the tubular glands of A and more crowded proliferations of C and D."
-      ],
-      "question_id": "q-a2e57286022715360195",
-      "source_id": "s-b27aacfd8ff4e8d17208",
-      "source_group_id": "g-bb175a0138a6065b8592",
-      "variant_id": "v-7993c093e7d980a41a3e",
-      "tested_concept": "Endometrial hyperplasia panel with cystic dilation",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R27",
-      "source_origin": "lecture",
-      "image": "assets/display/57babf700e632ba39ae3e95bd14537fece1f89893a224a47b00b4152a65a232b.webp",
-      "zoom_image": "assets/originals/57babf700e632ba39ae3e95bd14537fece1f89893a224a47b00b4152a65a232b.png",
-      "original_image": "assets/originals/57babf700e632ba39ae3e95bd14537fece1f89893a224a47b00b4152a65a232b.png",
-      "original_filename": "R27/Endometrial Hyperplasia Panels - Histology.png",
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 41
-        }
-      ],
-      "visual_target": "In which panel are markedly dilated cystic gland profiles most conspicuous?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which panel has widely spaced tubular glands in abundant intervening stroma?",
-      "options": [
-        "Panel B",
-        "Panel C",
-        "Panel D",
-        "Panel A"
-      ],
-      "correct_index": 3,
-      "explanation": "Panel A shows separate tubular gland profiles distributed through abundant intervening stroma.",
-      "choice_rationales": [
-        "Panel B shows marked cystic dilation and variable gland shapes.",
-        "Panel C has tightly packed glands and less intervening stroma.",
-        "Panel D has much more crowded epithelial growth.",
-        "Panel A shows separate tubular gland profiles distributed through abundant intervening stroma."
-      ],
-      "visual_clues": [
-        "Panel A shows separate tubular gland profiles distributed through abundant intervening stroma.",
-        "The lecture identifies panel A as proliferative endometrium."
-      ],
-      "question_id": "q-fc57d062eaeaca7808eb",
-      "source_id": "s-b27aacfd8ff4e8d17208",
-      "source_group_id": "g-bb175a0138a6065b8592",
-      "variant_id": "v-7993c093e7d980a41a3e",
-      "tested_concept": "Endometrial hyperplasia normal comparison panel",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R27",
-      "source_origin": "lecture",
-      "image": "assets/display/57babf700e632ba39ae3e95bd14537fece1f89893a224a47b00b4152a65a232b.webp",
-      "zoom_image": "assets/originals/57babf700e632ba39ae3e95bd14537fece1f89893a224a47b00b4152a65a232b.png",
-      "original_image": "assets/originals/57babf700e632ba39ae3e95bd14537fece1f89893a224a47b00b4152a65a232b.png",
-      "original_filename": "R27/Endometrial Hyperplasia Panels - Histology.png",
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 41
-        }
-      ],
-      "visual_target": "Which panel has widely spaced tubular glands in abundant intervening stroma?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
       "stem": "What gross material is visible between the exposed bowel loops?",
       "options": [
         "Only fresh dark blood without deposits",
@@ -13220,53 +11621,6 @@
         }
       ],
       "visual_target": "What gross material is visible between the exposed bowel loops?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Where is the darker atypical cellular proliferation in this supplied tubal section?",
-      "options": [
-        "In a separate ovarian follicle outside the tubal mucosa",
-        "Along a segment of the mucosal epithelial lining",
-        "Only within a deep stromal blood vessel",
-        "Across the entire smooth muscle wall"
-      ],
-      "correct_index": 1,
-      "explanation": "A crowded darker cell population follows the mucosal surface along the tubal fold.",
-      "choice_rationales": [
-        "The dark crowded cells track along a fallopian tube fold.",
-        "A crowded darker cell population follows the mucosal surface along the tubal fold.",
-        "The cells are contiguous with the tubal lining rather than enclosed in a vessel.",
-        "The conspicuous atypical segment follows the epithelial surface instead of replacing the muscle."
-      ],
-      "visual_clues": [
-        "A crowded darker cell population follows the mucosal surface along the tubal fold.",
-        "The lecture identifies this as a serous tubal intraepithelial carcinoma example."
-      ],
-      "question_id": "q-2b64db30e45ad650cdf8",
-      "source_id": "s-ea97375fbd12a6abab1c",
-      "source_group_id": "g-eaaf5fe2a6b54d749050",
-      "variant_id": "v-3a6771d132c909715d88",
-      "tested_concept": "STIC abnormal tubal epithelial compartment",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R27",
-      "source_origin": "lecture",
-      "image": "assets/display/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.webp",
-      "zoom_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_image": "assets/originals/1a7ac70796bd122f280542b69c213e020a8bb927ddf3e73adcd5169108a8d352.png",
-      "original_filename": "R27/STIC Lesion Fallopian Tube - Histology.png",
-      "citations": [
-        {
-          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
-          "page": 14
-        }
-      ],
-      "visual_target": "Where is the darker atypical cellular proliferation in this supplied tubal section?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
@@ -14076,52 +12430,6 @@
       ]
     },
     {
-      "question_id": "q-b2560792cc94e15e48ee",
-      "source_id": "s-2d7f882cdffcbde1c5e6",
-      "source_group_id": "g-96410636c876458e81aa",
-      "variant_id": "v-6ce7ff7b6f78c4035129",
-      "tested_concept": "Normal vaginal squamous cytology",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "image": "assets/display/ea6b929b1a7495659e8bc236caa0cf4e0a7b6fba6469aa6564963a20d4104955.webp",
-      "zoom_image": "assets/originals/ea6b929b1a7495659e8bc236caa0cf4e0a7b6fba6469aa6564963a20d4104955.png",
-      "original_image": "assets/originals/ea6b929b1a7495659e8bc236caa0cf4e0a7b6fba6469aa6564963a20d4104955.png",
-      "original_filename": "R10/Normal Vaginal Flora Pap Smear - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 15
-        }
-      ],
-      "visual_target": "What relationship is visible between the dark nuclei and the blue cell bodies?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What relationship is visible between the dark nuclei and the blue cell bodies?",
-      "options": [
-        "Most nuclei are bare with scant cytoplasm",
-        "A continuous dense coat hides the epithelial edges",
-        "Small separate nuclei sit in broad sheets of blue cytoplasm",
-        "Dark nuclei touch and mold in one giant cell"
-      ],
-      "correct_index": 2,
-      "explanation": "The cells retain broad blue cytoplasm and discrete relatively small, round nuclei.",
-      "choice_rationales": [
-        "The dark nuclei lie inside broad outlines of blue cytoplasm.",
-        "The squamous cell outlines remain distinct without a dense surface coating.",
-        "The cells retain broad blue cytoplasm and discrete relatively small, round nuclei.",
-        "The nuclei remain small and separate rather than pressing against each other within one cell."
-      ],
-      "visual_clues": [
-        "The cells retain broad blue cytoplasm and discrete relatively small, round nuclei."
-      ]
-    },
-    {
       "question_id": "q-db274f71f99b5df01b60",
       "source_id": "s-b7d72df7039c9910ecca",
       "source_group_id": "g-ae95e28cd0a402700914",
@@ -14165,98 +12473,6 @@
       ],
       "visual_clues": [
         "Three compact pale green profiles have recognizable margins amid much finer debris."
-      ]
-    },
-    {
-      "question_id": "q-0b3907f6a04296400cd4",
-      "source_id": "s-3f4d2e60d15178120ed3",
-      "source_group_id": "g-41db8860e506d30b0e3f",
-      "variant_id": "v-5ca288f23b512093305a",
-      "tested_concept": "Distribution of multiple arrowed Trichomonas profiles",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "image": "assets/display/b3551e579308d303e111f88faf2da65b24fbd76fe6c3e49efbe07a23bf39e7b4.webp",
-      "zoom_image": "assets/originals/b3551e579308d303e111f88faf2da65b24fbd76fe6c3e49efbe07a23bf39e7b4.png",
-      "original_image": "assets/originals/b3551e579308d303e111f88faf2da65b24fbd76fe6c3e49efbe07a23bf39e7b4.png",
-      "original_filename": "R10/Trichomonas Pap Smear Second Field - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 28
-        }
-      ],
-      "visual_target": "What do the three arrows indicate in relation to the larger squamous cells?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What do the three arrows indicate in relation to the larger squamous cells?",
-      "options": [
-        "Small greenish profiles separate from the large squamous cells",
-        "A halo inside each pink squamous cell",
-        "Fine granules coating the pink cell surfaces",
-        "A chain of dark fungal filaments crossing the large cells"
-      ],
-      "correct_index": 0,
-      "explanation": "The arrows point to small, distinct greenish bodies scattered among much larger pink squamous cells.",
-      "choice_rationales": [
-        "The arrows point to small, distinct greenish bodies scattered among much larger pink squamous cells.",
-        "The arrow tips fall outside the large pink cell outlines.",
-        "The arrows target discrete bodies in the background, not a grainy layer attached to squamous borders.",
-        "The marked bodies are compact rather than long and filamentous."
-      ],
-      "visual_clues": [
-        "The arrows point to small, distinct greenish bodies scattered among much larger pink squamous cells."
-      ]
-    },
-    {
-      "question_id": "q-5e785c544c4e6ed6cc29",
-      "source_id": "s-5efe654a2a8b39334f5a",
-      "source_group_id": "g-36b149d256c5fa6f7f7f",
-      "variant_id": "v-e17a20261aaee2afd1fe",
-      "tested_concept": "Herpetic nuclear molding in a second smear field",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "image": "assets/display/7da3d0a1460851ec8e9db73bef8d23d04e5f8d3a6e942dda1637f6b7689d1c1c.webp",
-      "zoom_image": "assets/originals/7da3d0a1460851ec8e9db73bef8d23d04e5f8d3a6e942dda1637f6b7689d1c1c.png",
-      "original_image": "assets/originals/7da3d0a1460851ec8e9db73bef8d23d04e5f8d3a6e942dda1637f6b7689d1c1c.png",
-      "original_filename": "R10/HSV Multinucleated Cell Molding - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 35
-        }
-      ],
-      "visual_target": "What is the arrangement of the dark nuclei in the central bluish cell?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What is the arrangement of the dark nuclei in the central bluish cell?",
-      "options": [
-        "One small central nucleus with a clear halo",
-        "Scattered naked nuclei with ample separation",
-        "Multiple pale glands lined by single rows of nuclei",
-        "Closely packed nuclei conform to one another within a common cell body"
-      ],
-      "correct_index": 3,
-      "explanation": "Several enlarged dark nuclei press against neighboring nuclei inside the same bluish outline.",
-      "choice_rationales": [
-        "The central cell contains several enlarged nuclei with adjacent contours rather than one small nucleus.",
-        "The nuclei share one bluish cell outline and press against one another.",
-        "The dark structures are nuclei within a cell, without glandular lumina or an orderly lining.",
-        "Several enlarged dark nuclei press against neighboring nuclei inside the same bluish outline."
-      ],
-      "visual_clues": [
-        "Several enlarged dark nuclei press against neighboring nuclei inside the same bluish outline."
       ]
     },
     {
@@ -14536,52 +12752,6 @@
       ]
     },
     {
-      "question_id": "q-6915270feb927cd94dea",
-      "source_id": "s-aa7d90d67c6aa6ac5fe7",
-      "source_group_id": "g-dcf2a7c240e2346782de",
-      "variant_id": "v-738cfe2372b66e87b66b",
-      "tested_concept": "Cervical cytology panel with dense nuclear crowding",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/e01d311855768cf155f1c250c8b5e9d8e0a02f09bc967ff6bcc51e7e0c19e1e9.webp",
-      "zoom_image": "assets/originals/e01d311855768cf155f1c250c8b5e9d8e0a02f09bc967ff6bcc51e7e0c19e1e9.png",
-      "original_image": "assets/originals/e01d311855768cf155f1c250c8b5e9d8e0a02f09bc967ff6bcc51e7e0c19e1e9.png",
-      "original_filename": "R12/SIL Pap Cytology Panels - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 27
-        }
-      ],
-      "visual_target": "Which panel shows a cohesive cluster of small cells dominated by dark crowded nuclei?",
-      "joint_panels": true,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which panel shows a cohesive cluster of small cells dominated by dark crowded nuclei?",
-      "options": [
-        "Upper right",
-        "Lower left",
-        "Lower right",
-        "Upper left"
-      ],
-      "correct_index": 2,
-      "explanation": "The lower right group has closely packed dark nuclear profiles with relatively little visible cytoplasm.",
-      "choice_rationales": [
-        "The upper right panel does not match the requested pattern. The lower right group has closely packed dark nuclear profiles with relatively little visible cytoplasm.",
-        "The lower left panel does not match the requested pattern. The lower right group has closely packed dark nuclear profiles with relatively little visible cytoplasm.",
-        "The lower right group has closely packed dark nuclear profiles with relatively little visible cytoplasm.",
-        "The upper left panel does not match the requested pattern. The lower right group has closely packed dark nuclear profiles with relatively little visible cytoplasm."
-      ],
-      "visual_clues": [
-        "The lower right group has closely packed dark nuclear profiles with relatively little visible cytoplasm."
-      ]
-    },
-    {
       "question_id": "q-41f1b3b69365205a5416",
       "source_id": "s-0c56b36b9654b1991b5c",
       "source_group_id": "g-912cc4508a69924a2f1f",
@@ -14720,52 +12890,6 @@
       ]
     },
     {
-      "question_id": "q-98d38f97af9ecf46f026",
-      "source_id": "s-e7945bd4e19a5668d9c6",
-      "source_group_id": "g-bbbe5bbdbedc84a2b6f2",
-      "variant_id": "v-53e11e43de2ee3ed8522",
-      "tested_concept": "Granulosa tumor microfollicles",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a.webp",
-      "zoom_image": "assets/originals/2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a.png",
-      "original_image": "assets/originals/2ad3d14dd3d21825f8338168377cdf9b9af2576d97f563806203c097e111332a.png",
-      "original_filename": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 103
-        }
-      ],
-      "visual_target": "Which arrangement recurs among the small dark cells?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which arrangement recurs among the small dark cells?",
-      "options": [
-        "Large ducts with papillary fronds",
-        "Wide blood filled channels",
-        "Small rosettes around round pale centers",
-        "Broad concentric keratin pearls"
-      ],
-      "correct_index": 2,
-      "explanation": "Small groups of tumor cells encircle rounded pale centers at multiple points in the field.",
-      "choice_rationales": [
-        "The small pale centers recur among compact cells and are much smaller than a papillary duct.",
-        "The pale spaces are small and round and lack identifiable vascular contents.",
-        "Small groups of tumor cells encircle rounded pale centers at multiple points in the field.",
-        "The centers are pale open spaces with a cellular rim, without dense laminated pink keratin."
-      ],
-      "visual_clues": [
-        "Small groups of tumor cells encircle rounded pale centers at multiple points in the field."
-      ]
-    },
-    {
       "question_id": "q-91729b2c40a0819b4bc5",
       "source_id": "s-a4d5f82b4cde7ffa11bc",
       "source_group_id": "g-c31b5ef39d67a7de184e",
@@ -14855,52 +12979,6 @@
       ],
       "visual_clues": [
         "The pink material occupies most of the affected cells, pushing darker nuclear profiles toward their margins."
-      ]
-    },
-    {
-      "question_id": "q-0c415da214a101cc8936",
-      "source_id": "s-9f1306b8d6cd8895e64d",
-      "source_group_id": "g-9c21eabf7d7177f5b816",
-      "variant_id": "v-31ff81204d626500e85a",
-      "tested_concept": "Adenomyosis gross hemorrhagic foci",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.webp",
-      "zoom_image": "assets/originals/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.png",
-      "original_image": "assets/originals/fa5095f2ebda8e62ccda85d216db7f213bed724a72c3a1436a297965ce891c4e.png",
-      "original_filename": "R12/Adenomyosis - Gross.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 58
-        }
-      ],
-      "visual_target": "Where are the small red punctate foci in this uterine section?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Where are the small red punctate foci in this uterine section?",
-      "options": [
-        "Only on the outer surface",
-        "In a thin uninterrupted line along the cavity",
-        "Scattered in the thick wall beside the narrow cavity",
-        "Restricted to the central cavity contents"
-      ],
-      "correct_index": 2,
-      "explanation": "Multiple small red foci are scattered across the bulky cut wall on one side of the narrow central cavity.",
-      "choice_rationales": [
-        "The red foci are visible in the interior of the cut uterine wall.",
-        "The foci are scattered at different distances from the central cavity.",
-        "Multiple small red foci are scattered across the bulky cut wall on one side of the narrow central cavity.",
-        "The red puncta lie in the wall, separate from any cavity contents."
-      ],
-      "visual_clues": [
-        "Multiple small red foci are scattered across the bulky cut wall on one side of the narrow central cavity."
       ]
     },
     {
@@ -15131,52 +13209,6 @@
       ],
       "visual_clues": [
         "The gross section is solid and pale, and the microscopic field has elongated pink bundles running in several directions."
-      ]
-    },
-    {
-      "question_id": "q-24ab2eed0c3c7dab17bb",
-      "source_id": "s-f6007ed62229ee6492b1",
-      "source_group_id": "g-ba6ecc8f38a013398069",
-      "variant_id": "v-19cdf78001efdd73cd8f",
-      "tested_concept": "Bilateral multinodular ovarian metastases",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.webp",
-      "zoom_image": "assets/originals/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.png",
-      "original_image": "assets/originals/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.png",
-      "original_filename": "R12/Bilateral Krukenberg Tumors - Gross.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 110
-        }
-      ],
-      "visual_target": "Which distribution is visible in this specimen photograph?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which distribution is visible in this specimen photograph?",
-      "options": [
-        "One isolated round nodule is confined to the central uterus",
-        "One ovary is enlarged and the opposite side is visually featureless",
-        "A single thin translucent cyst fills the center of the image",
-        "Rounded nodular masses are present on both sides of the uterus"
-      ],
-      "correct_index": 3,
-      "explanation": "Both lateral ovarian regions are enlarged by clusters of rounded nodules.",
-      "choice_rationales": [
-        "There are two rounded adnexal masses outside the central uterus.",
-        "A rounded mass is visible on each side.",
-        "The central uterus is separate from the bilateral solid masses.",
-        "Both lateral ovarian regions are enlarged by clusters of rounded nodules."
-      ],
-      "visual_clues": [
-        "Both lateral ovarian regions are enlarged by clusters of rounded nodules."
       ]
     },
     {
@@ -16008,52 +14040,6 @@
       ]
     },
     {
-      "question_id": "q-493ebd86e024584b51a1",
-      "source_id": "s-09622eade230a19b1809",
-      "source_group_id": "g-f9792b58805f7b3057fd",
-      "variant_id": "v-0fb6a891f840a4ced51b",
-      "tested_concept": "Spermatocytic tumor gross cut surface",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R16",
-      "source_origin": "lecture",
-      "image": "assets/display/2155fa63ee7dc218a9114ac7ccf167ee34259898ba698b3a7a44e66587d26bbd.webp",
-      "zoom_image": "assets/originals/2155fa63ee7dc218a9114ac7ccf167ee34259898ba698b3a7a44e66587d26bbd.png",
-      "original_image": "assets/originals/2155fa63ee7dc218a9114ac7ccf167ee34259898ba698b3a7a44e66587d26bbd.png",
-      "original_filename": "R16/Spermatocytic Tumor Gross - Gross.png",
-      "citations": [
-        {
-          "document": "R16 GU Pathology II RLS.pdf",
-          "page": 40
-        }
-      ],
-      "visual_target": "What pattern is visible across this bisected testicular mass?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What pattern is visible across this bisected testicular mass?",
-      "options": [
-        "A single clear cyst with a thin wall",
-        "Many small discrete yellow points in bone",
-        "Multiple smooth tan lobules separated by red clefts",
-        "Uniform black hemorrhagic tissue"
-      ],
-      "correct_index": 2,
-      "explanation": "The paired faces contain rounded tan solid nodules separated by darker red lines.",
-      "choice_rationales": [
-        "Multiple solid pale lobules are visible on the cut faces.",
-        "Broad lobules are separated by red clefts, not scattered punctate deposits.",
-        "The paired faces contain rounded tan solid nodules separated by darker red lines.",
-        "The bulk of the specimen is pale tan rather than uniformly dark."
-      ],
-      "visual_clues": [
-        "The paired faces contain rounded tan solid nodules separated by darker red lines."
-      ]
-    },
-    {
       "question_id": "q-7d2b7d40df177abfc1b3",
       "source_id": "s-076de441e9edbc80b076",
       "source_group_id": "g-13551374fd727a2fdbeb",
@@ -16652,98 +14638,6 @@
       ]
     },
     {
-      "question_id": "q-004aac254d91bf87b16d",
-      "source_id": "s-4dbd0f72aeece960ea17",
-      "source_group_id": "g-2ea53ef5bd59a3c0e358",
-      "variant_id": "v-04af6f90d48b68c20356",
-      "tested_concept": "Invasive lobular carcinoma targetoid growth",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.webp",
-      "zoom_image": "assets/originals/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.png",
-      "original_image": "assets/originals/a4e5d480a09e23d61ef40e5a18074be8709d9a10fae3cd411475db60569d4a9c.png",
-      "original_filename": "R18/Invasive Lobular Carcinoma Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 59
-        }
-      ],
-      "visual_target": "How are the small dark cells arranged around the round structure toward the upper right?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "How are the small dark cells arranged around the round structure toward the upper right?",
-      "options": [
-        "In curved rows surrounding the structure",
-        "In a large cohesive solid nodule replacing the structure",
-        "As a single layer of flattened cells lining a central clear lumen",
-        "As coarse extracellular pink laminations"
-      ],
-      "correct_index": 0,
-      "explanation": "Small dark cells track in curved rows around the circular profile in the pink stroma.",
-      "choice_rationales": [
-        "Small dark cells track in curved rows around the circular profile in the pink stroma.",
-        "Several thin curved rows of dark cells wrap around the structure rather than replacing it with one mass.",
-        "The surrounding cells are arranged in multiple rows rather than a single flat luminal lining.",
-        "The circumferential lines are made of small dark nucleated cells."
-      ],
-      "visual_clues": [
-        "Small dark cells track in curved rows around the circular profile in the pink stroma."
-      ]
-    },
-    {
-      "question_id": "q-457be33ee8a5a82b25da",
-      "source_id": "s-564acba27820ee543b31",
-      "source_group_id": "g-1f36c9b0aaff0a97bec7",
-      "variant_id": "v-ae21dc32dc8b1ef6fe89",
-      "tested_concept": "Paget disease of nipple HER2 membrane pattern",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/e27c66aaa1e6e6781fd0fa4cfaf19f32a82d715c220691e43af4f5a22c04b38c.webp",
-      "zoom_image": "assets/originals/e27c66aaa1e6e6781fd0fa4cfaf19f32a82d715c220691e43af4f5a22c04b38c.png",
-      "original_image": "assets/originals/e27c66aaa1e6e6781fd0fa4cfaf19f32a82d715c220691e43af4f5a22c04b38c.png",
-      "original_filename": "R18/Paget Disease HER2 Immunostain - Histology.png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 68
-        }
-      ],
-      "visual_target": "What is the distribution of brown staining in the larger rounded cells?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What is the distribution of brown staining in the larger rounded cells?",
-      "options": [
-        "It fills only empty glands between cells",
-        "It occurs only in pale stroma below the epithelium",
-        "It outlines the cell membranes",
-        "It is restricted to the small dark nuclei"
-      ],
-      "correct_index": 2,
-      "explanation": "Brown rings outline numerous large cells within the surface epithelium.",
-      "choice_rationales": [
-        "Brown stain rims individual cells rather than filling acellular spaces.",
-        "The signal is strongest in the epidermal cell population rather than below it.",
-        "Brown rings outline numerous large cells within the surface epithelium.",
-        "The larger cells have a visible membrane pattern rather than signal limited to small nuclei."
-      ],
-      "visual_clues": [
-        "Brown rings outline numerous large cells within the surface epithelium."
-      ]
-    },
-    {
       "question_id": "q-0eab8e81b3f9022efebd",
       "source_id": "s-262be9fc1abcb87f8f49",
       "source_group_id": "g-bdb4a2ff207e7a02c6dc",
@@ -16925,52 +14819,6 @@
       ],
       "visual_clues": [
         "A smooth curved border encloses a largely uniform, solid pale cut surface."
-      ]
-    },
-    {
-      "question_id": "q-db19fcb9c063c7b6808a",
-      "source_id": "s-c4615778c9e3e7933ab1",
-      "source_group_id": "g-b2d0fbe8223b25ba6b3d",
-      "variant_id": "v-a9d5b58ab8cb7ec7be8f",
-      "tested_concept": "Phyllodes tumor gross lobulation",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/daab4c8ee318ad17679a6679d599239fe189b4aa245fb14fddf06f33803fc8a9.webp",
-      "zoom_image": "assets/originals/daab4c8ee318ad17679a6679d599239fe189b4aa245fb14fddf06f33803fc8a9.png",
-      "original_image": "assets/originals/daab4c8ee318ad17679a6679d599239fe189b4aa245fb14fddf06f33803fc8a9.png",
-      "original_filename": "R18/Phyllodes Tumor Gross - Gross.png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 40
-        }
-      ],
-      "visual_target": "What accounts for the uneven gross contour?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What accounts for the uneven gross contour?",
-      "options": [
-        "A uniform round surface without divisions",
-        "Multiple delicate transparent vesicles at the edge",
-        "One open smooth central cavity",
-        "Many fleshy lobules separated by deep clefts"
-      ],
-      "correct_index": 3,
-      "explanation": "Numerous pink tan rounded lobules are separated by conspicuous clefts.",
-      "choice_rationales": [
-        "Deep clefts separate several lobules.",
-        "The raised lobules are opaque solid tissue rather than clear vesicles.",
-        "Multiple lobular projections, rather than one cavity, produce the irregular outline.",
-        "Numerous pink tan rounded lobules are separated by conspicuous clefts."
-      ],
-      "visual_clues": [
-        "Numerous pink tan rounded lobules are separated by conspicuous clefts."
       ]
     },
     {
@@ -17388,52 +15236,6 @@
       ]
     },
     {
-      "question_id": "q-4e78bdd8bd93ab7910b1",
-      "source_id": "s-a857a036f10ca97d550e",
-      "source_group_id": "g-c4da6b6f220cc1301dc6",
-      "variant_id": "v-45ec08847587e8cf7496",
-      "tested_concept": "Molar pregnancy ultrasound internal spaces",
-      "question_type": "Visual interpretation",
-      "category": "Ultrasound",
-      "collection": "R11",
-      "source_origin": "lecture",
-      "image": "assets/display/45ec08847587e8cf74961314428b55745b53bd076065330e64bbf21a1f844c1a.webp",
-      "zoom_image": "assets/zoom/45ec08847587e8cf74961314428b55745b53bd076065330e64bbf21a1f844c1a.png",
-      "original_image": "assets/originals/c85e6f5f05663fcf29085878cd0c58d891aa6de9fc974630f792c8e40829a3aa.png",
-      "original_filename": "R11/Complete Mole Ultrasound Snowstorm - EM.png",
-      "citations": [
-        {
-          "document": "R11 GU:Gyn Anatomy:Physiology Through Imaging RLS.pdf",
-          "page": 44
-        }
-      ],
-      "visual_target": "What internal pattern is visible within the central uterine region?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What internal pattern is visible within the central uterine region?",
-      "options": [
-        "One isolated circular dark space in otherwise uniform tissue",
-        "A uniformly black region with no internal echoes",
-        "Numerous small irregular dark spaces among brighter tissue",
-        "A single dark cavity with a clearly visible fetus"
-      ],
-      "correct_index": 2,
-      "explanation": "Heterogeneous bright tissue is interrupted by numerous small dark spaces.",
-      "choice_rationales": [
-        "Small dark spaces recur throughout the central region.",
-        "Bright internal echoes are abundant between the dark spaces.",
-        "Heterogeneous bright tissue is interrupted by numerous small dark spaces.",
-        "The field contains many small spaces and lacks a distinct fetal profile."
-      ],
-      "visual_clues": [
-        "Heterogeneous bright tissue is interrupted by numerous small dark spaces."
-      ]
-    },
-    {
       "question_id": "q-9efa8bc668f7bc432c30",
       "source_id": "s-e468296f928072f87df6",
       "source_group_id": "g-bbee8100740a1bd4ad5b",
@@ -17526,52 +15328,6 @@
       ]
     },
     {
-      "question_id": "q-f8246e7ac7c4184b365b",
-      "source_id": "s-ed3486a69addd456a2f3",
-      "source_group_id": "g-78c59a5840f2bc6bfc9d",
-      "variant_id": "v-75f649579a62d448d1b9",
-      "tested_concept": "Focal protruding breast skin lesion",
-      "question_type": "Visual interpretation",
-      "category": "Clinical Photo",
-      "collection": "R26",
-      "source_origin": "lecture",
-      "image": "assets/display/0e4fda748cb7ac796c22d736d5f1a2346b4ea140cd05f8881a2a3be4f50365b1.webp",
-      "zoom_image": "assets/originals/0e4fda748cb7ac796c22d736d5f1a2346b4ea140cd05f8881a2a3be4f50365b1.png",
-      "original_image": "assets/originals/0e4fda748cb7ac796c22d736d5f1a2346b4ea140cd05f8881a2a3be4f50365b1.png",
-      "original_filename": "R26/Breast Mass With Skin Erythema - Clinical Photo.png",
-      "citations": [
-        {
-          "document": "R26 Clinical Breast Diseases - A Surgeon Perspective I RLS.pdf",
-          "page": 41
-        }
-      ],
-      "visual_target": "Which surface pattern is visible in this supplied clinical example?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which surface pattern is visible in this supplied clinical example?",
-      "options": [
-        "One smooth subcutaneous nodule with intact uniform overlying skin",
-        "A raised focal erythematous lesion with a disrupted center",
-        "Uniform redness with no focal elevation",
-        "Several small flat spots scattered evenly over both breasts"
-      ],
-      "correct_index": 1,
-      "explanation": "A red elevated lesion has a paler disrupted area near its center.",
-      "choice_rationales": [
-        "The overlying surface is broken at the center of the raised focus.",
-        "A red elevated lesion has a paler disrupted area near its center.",
-        "The redness is centered on a discrete raised lesion.",
-        "A solitary lesion with elevation and central disruption is visible."
-      ],
-      "visual_clues": [
-        "A red elevated lesion has a paler disrupted area near its center."
-      ]
-    },
-    {
       "question_id": "q-1ce53e4b6c046838352b",
       "source_id": "s-d0604df0b842a81c8e1c",
       "source_group_id": "g-d179b9703f63e7b35b86",
@@ -17618,52 +15374,6 @@
       ]
     },
     {
-      "question_id": "q-1527c916ef9c4b156f84",
-      "source_id": "s-659e5c963e3ad02941fd",
-      "source_group_id": "g-8329f25f6de3f1c39dc4",
-      "variant_id": "v-e115a66c3169aab6d4f5",
-      "tested_concept": "Cervical tumor gross contour around the opening",
-      "question_type": "Visual interpretation",
-      "category": "Clinical Photo",
-      "collection": "R28",
-      "source_origin": "lecture",
-      "image": "assets/display/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.webp",
-      "zoom_image": "assets/zoom/e115a66c3169aab6d4f5606761ec124f6c2bf3a1b6cbfeb6d77571163eabebb7.png",
-      "original_image": "assets/originals/32283bb97445da0381f5c05338d760f0f197da97fd2a604c6da604ec964898c3.png",
-      "original_filename": "R28/Cervical Cancer Speculum View - Clinical Photo.png",
-      "citations": [
-        {
-          "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
-          "page": 3
-        }
-      ],
-      "visual_target": "What configuration surrounds the central cervical opening on speculum exam?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A 48-year-old reports bleeding after intercourse. Her last gynecologic visit was ten years earlier.",
-      "stem": "What configuration surrounds the central cervical opening on speculum exam?",
-      "options": [
-        "An irregular raised nodular rim around a recessed center",
-        "A smooth even rim with no surface disruption",
-        "A single flat pale spot away from the opening",
-        "A round translucent structure protruding into a smooth lumen"
-      ],
-      "correct_index": 0,
-      "explanation": "Uneven raised nodules surround the central recess.",
-      "choice_rationales": [
-        "Uneven raised nodules surround the central recess.",
-        "The rim has irregular projecting tissue.",
-        "The visible change surrounds the opening.",
-        "The rim is solid and irregular around a recessed center."
-      ],
-      "visual_clues": [
-        "Uneven raised nodules surround the central recess."
-      ]
-    },
-    {
       "question_id": "q-03e008f6d24b25c3ac6f",
       "source_id": "s-880b03f0550943886646",
       "source_group_id": "g-790a9158c26f14f580a6",
@@ -17707,98 +15417,6 @@
       ],
       "visual_clues": [
         "A large yellow clustered growth protrudes from the otherwise open wall into the cavity."
-      ]
-    },
-    {
-      "question_id": "q-3fe8fc8dae39ae0dffb1",
-      "source_id": "s-72316e80863dbcc15c60",
-      "source_group_id": "g-790a9158c26f14f580a6",
-      "variant_id": "v-2f11f0a91a599afb2377",
-      "tested_concept": "Serous papillary cystadenoma compartmentalized gross lesion",
-      "question_type": "Visual interpretation",
-      "category": "Gross",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "image": "assets/display/da991cd73239c6972a12c1e6bdbded0c0d1a4bd0a5f9a2275a7afd840d7d4782.webp",
-      "zoom_image": "assets/originals/da991cd73239c6972a12c1e6bdbded0c0d1a4bd0a5f9a2275a7afd840d7d4782.png",
-      "original_image": "assets/originals/da991cd73239c6972a12c1e6bdbded0c0d1a4bd0a5f9a2275a7afd840d7d4782.png",
-      "original_filename": "App-local PDF panels/R12-p71-xref574.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 71
-        }
-      ],
-      "visual_target": "What separates the visible open spaces in this gross specimen?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What separates the visible open spaces in this gross specimen?",
-      "options": [
-        "Thin tissue septa dividing several compartments",
-        "A single complete solid nodule without internal spaces",
-        "Many parallel surface papillae with no cavities",
-        "A dense hemorrhagic core without an intact wall"
-      ],
-      "correct_index": 0,
-      "explanation": "Multiple open compartments are separated by pale thin septa, and small projections are visible in one compartment.",
-      "choice_rationales": [
-        "Multiple open compartments are separated by pale thin septa, and small projections are visible in one compartment.",
-        "Several discrete spaces are separated by narrow pale partitions.",
-        "The partitions extend through the specimen and divide open compartments.",
-        "Thin walls remain visible around the spaces rather than one solid hemorrhagic center."
-      ],
-      "visual_clues": [
-        "Multiple open compartments are separated by pale thin septa, and small projections are visible in one compartment."
-      ]
-    },
-    {
-      "question_id": "q-d3f4f5b736c6141ecb26",
-      "source_id": "s-2f574dcd177af4c14957",
-      "source_group_id": "g-35f20cd5e65e4f25f24a",
-      "variant_id": "v-746c8139e01a990ae0af",
-      "tested_concept": "Prostate immunostain contrast between glands",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R16",
-      "source_origin": "lecture",
-      "image": "assets/display/fdb15668a7384b6bd581bdeb46484b21bee0800c48f8ade00212586c7b7202f4.webp",
-      "zoom_image": "assets/originals/fdb15668a7384b6bd581bdeb46484b21bee0800c48f8ade00212586c7b7202f4.png",
-      "original_image": "assets/originals/fdb15668a7384b6bd581bdeb46484b21bee0800c48f8ade00212586c7b7202f4.png",
-      "original_filename": "App-local PDF panels/R16-p18-xref198.png",
-      "citations": [
-        {
-          "document": "R16 GU Pathology II RLS.pdf",
-          "page": 18
-        }
-      ],
-      "visual_target": "What difference in staining is visible across this prostate field?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What difference in staining is visible across this prostate field?",
-      "options": [
-        "All gland outlines are uniformly dark",
-        "Brown signal fills the entire pale background",
-        "Only central luminal material is dark in all glands",
-        "Some large gland outlines have a dark rim, while many smaller glands lack it"
-      ],
-      "correct_index": 3,
-      "explanation": "Several large gland profiles have a distinct dark peripheral rim, whereas many small pink profiles lack the dark rim.",
-      "choice_rationales": [
-        "The stain differs between larger and smaller gland populations.",
-        "The dark signal follows gland outlines and is not diffuse in the stroma.",
-        "The contrast concerns a peripheral cell layer rather than the luminal contents.",
-        "Several large gland profiles have a distinct dark peripheral rim, whereas many small pink profiles lack the dark rim."
-      ],
-      "visual_clues": [
-        "Several large gland profiles have a distinct dark peripheral rim, whereas many small pink profiles lack the dark rim."
       ]
     },
     {
@@ -18259,52 +15877,6 @@
       ],
       "visual_clues": [
         "The arrow points to layered pink material arranged in a concentric whorl inside an epithelial nest."
-      ]
-    },
-    {
-      "question_id": "q-2256c27737855e863b23",
-      "source_id": "s-a16a73198228c9ae8930",
-      "source_group_id": "g-e0500bb7c55d03d58b6d",
-      "variant_id": "v-a6335755b807e6fb021b",
-      "tested_concept": "Invasive ductal carcinoma angulated epithelial profiles",
-      "question_type": "Visual interpretation",
-      "category": "Histology",
-      "collection": "R18",
-      "source_origin": "lecture",
-      "image": "assets/display/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.webp",
-      "zoom_image": "assets/originals/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.png",
-      "original_image": "assets/originals/c3564bc2d177f8e37da9812af8fd073db4e872b8f561ab1c482edc48cf1bd10a.png",
-      "original_filename": "R18/Invasive Ductal Carcinoma Histology - Histology (2).png",
-      "citations": [
-        {
-          "document": "R18 Pathology of Breast Diseases RLS.pdf",
-          "page": 58
-        }
-      ],
-      "visual_target": "How are the dark epithelial profiles arranged among the pale bands?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "stem": "How are the dark epithelial profiles arranged among the pale bands?",
-      "options": [
-        "Small irregular angulated profiles are dispersed within fibrous stroma",
-        "An intact dark surface epithelium covers a broad empty cavity",
-        "Many large uniform rounded acini crowd a single bounded lobule",
-        "A single rounded tumor nodule has a smooth complete capsule"
-      ],
-      "correct_index": 0,
-      "explanation": "Irregular dark epithelial groups and small angled gland profiles are scattered between pale fibrous bands.",
-      "choice_rationales": [
-        "Irregular dark epithelial groups and small angled gland profiles are scattered between pale fibrous bands.",
-        "The field contains multiple small gland profiles within the stroma rather than a continuous surface.",
-        "The profiles are angulated and spread through fibrous tissue instead of grouped in a single lobule.",
-        "The epithelial profiles are dispersed, without a smooth encapsulating border around them."
-      ],
-      "visual_clues": [
-        "Irregular dark epithelial groups and small angled gland profiles are scattered between pale fibrous bands."
       ]
     },
     {
@@ -19299,342 +16871,6 @@
       ]
     },
     {
-      "question_id": "q-r29-pleural-b",
-      "source_id": "s-dadbca97d8bdb663f68e",
-      "source_group_id": "g-8b912641d3ee13d130b6",
-      "asset_id": "a-8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5",
-      "variant_id": "v-ea9af0a83c7dc7fed982",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Papillary appearing clusters in pleural fluid",
-      "visual_target": "Papillary appearing clusters in pleural fluid",
-      "category": "Cytology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.webp",
-      "zoom_image": "assets/originals/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.png",
-      "original_image": "assets/originals/8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5.png",
-      "original_filename": "Case 1 Pleural Fluid Cytology B - Histology.png",
-      "stem": "Which architectural conclusion is best supported by the prominent cell cluster?",
-      "options": [
-        "Papillary cluster proves an ovarian primary",
-        "Papillary appearing atypical cluster with primary site unresolved",
-        "Papillary cluster proves primary pleural mesothelioma",
-        "A flat sheet of evenly spaced bland cells"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "The guide identifies the ovarian primary after follow-up testing.",
-        "The crowded cluster has a papillary appearance. The guide includes metastatic carcinoma and mesothelioma in the initial differential. The subsequent workup established high-grade serous carcinoma of ovarian origin.",
-        "Papillary appearance may occur in mesothelioma and several carcinomas.",
-        "The large cluster is crowded and three dimensional."
-      ],
-      "explanation": "The crowded cluster has a papillary appearance. The guide includes metastatic carcinoma and mesothelioma in the initial differential. The subsequent workup established high-grade serous carcinoma of ovarian origin.",
-      "visual_clues": [
-        "Examine the contour and crowding of the large central cluster."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 2
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 1
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 2
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 3
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-cervix",
-      "source_id": "s-b55750b8b35e85020b2c",
-      "source_group_id": "g-37fbd2bdd7a90d68e2f2",
-      "asset_id": "a-37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902",
-      "variant_id": "v-d413f52ab8021dee197d",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Punctate erythema of the ectocervix",
-      "visual_target": "Punctate erythema of the ectocervix",
-      "category": "Gross",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.webp",
-      "zoom_image": "assets/originals/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.png",
-      "original_image": "assets/originals/37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902.png",
-      "original_filename": "Case 2 Cervix - Gross.png",
-      "stem": "Which surface pattern is visible on the ectocervix?",
-      "options": [
-        "A solitary deep ulcer with a crater",
-        "An exophytic papillary mass",
-        "Scattered punctate erythema",
-        "A sharply demarcated white plaque"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "The surface has dispersed punctate marks, without a dominant crater.",
-        "The conspicuous abnormality is a surface color pattern rather than protruding fronds.",
-        "The exposed cervical surface has scattered punctate red areas. The guide describes this as the strawberry appearance that raises suspicion for Trichomonas in the appropriate context.",
-        "The visible foci are red rather than opaque white."
-      ],
-      "explanation": "The exposed cervical surface has scattered punctate red areas. The guide describes this as the strawberry appearance that raises suspicion for Trichomonas in the appropriate context.",
-      "visual_clues": [
-        "Look at the red surface around the external os."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 3
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 4
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 5
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-pap-a",
-      "source_id": "s-7a450fe1c3ec2b91ee4d",
-      "source_group_id": "g-3d4a001f05f3d59f3d21",
-      "asset_id": "a-3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032",
-      "variant_id": "v-30d836c2ddccacf308ad",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Inflammatory background on cervical cytology",
-      "visual_target": "Inflammatory background on cervical cytology",
-      "category": "Cytology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.webp",
-      "zoom_image": "assets/originals/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.png",
-      "original_image": "assets/originals/3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032.png",
-      "original_filename": "Case 2 Pap Smear 1 - Histology.png",
-      "stem": "What cellular combination characterizes this field?",
-      "options": [
-        "Only large atypical epithelial clusters",
-        "A pure population of uniform mature squamous cells",
-        "Sheets of spindle cells with elongated nuclei",
-        "Mature squamous cells with numerous smaller inflammatory cells"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "The mature squamous cells are accompanied by numerous small inflammatory cells.",
-        "Smaller inflammatory cells are interspersed throughout the field.",
-        "The large cells are flattened squamous cells.",
-        "Large mature squamous cells lie in a background with much smaller inflammatory cells. The guide describes the multilobated inflammatory cells in the smear."
-      ],
-      "explanation": "Large mature squamous cells lie in a background with much smaller inflammatory cells. The guide describes the multilobated inflammatory cells in the smear.",
-      "visual_clues": [
-        "Compare the broad flat squamous cells with the small dark cells around them."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 4
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 4
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 5
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 3
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 5
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-pap-c",
-      "source_id": "s-943f2c08f62837dda937",
-      "source_group_id": "g-ba32e25a15ea6f8d6c0a",
-      "asset_id": "a-ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a",
-      "variant_id": "v-9870e85ef816ec150d97",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Ovoid forms in cervical cytology",
-      "visual_target": "Ovoid forms in cervical cytology",
-      "category": "Cytology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.webp",
-      "zoom_image": "assets/originals/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.png",
-      "original_image": "assets/originals/ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a.png",
-      "original_filename": "Case 2 Pap Smear 3 - Histology.png",
-      "stem": "Which description matches the small structures at about 3 and 8 o’clock?",
-      "options": [
-        "Long branching filaments",
-        "Ovoid mononuclear forms without clearly visible flagella",
-        "Multilobed inflammatory cells",
-        "A cluster of flat squamous cells"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "The two targets have discrete oval contours.",
-        "Two discrete ovoid mononuclear structures are visible. The case guide identifies them as Trichomonas and points out that flagella are not apparent in this field.",
-        "Each target has a single discernible nucleus.",
-        "The small forms are separate from the broad squamous cell profiles."
-      ],
-      "explanation": "Two discrete ovoid mononuclear structures are visible. The case guide identifies them as Trichomonas and points out that flagella are not apparent in this field.",
-      "visual_clues": [
-        "Compare the isolated ovoid forms with the much larger adjacent squamous cells."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 5
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 4
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 5
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 3
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-vag-low",
-      "source_id": "s-fbf57ca155d579164977",
-      "source_group_id": "g-86a32abea74ffae6de02",
-      "asset_id": "a-86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b",
-      "variant_id": "v-913a0fa16e7cb9bb3bb0",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Cystic architecture of a vaginal biopsy",
-      "visual_target": "Cystic architecture of a vaginal biopsy",
-      "category": "Histology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.webp",
-      "zoom_image": "assets/originals/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.png",
-      "original_image": "assets/originals/86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b.png",
-      "original_filename": "Case 3 Vaginal Biopsy Low Power - Histology.png",
-      "stem": "What broad architectural pattern is visible at low power?",
-      "options": [
-        "A diffuse sheet of solid cells with no spaces",
-        "A single superficial erosion",
-        "Several cyst-like spaces embedded in the tissue",
-        "A uniform compact field of small acini"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "The low-power field contains prominent luminal spaces.",
-        "Several spaces lie within the sampled tissue rather than one defect on its surface.",
-        "Several rounded cyst-like spaces lie within the tissue, with pink to red material along some of the spaces. The higher-power panels establish the lining and surrounding stroma.",
-        "The conspicuous spaces are relatively large and irregular."
-      ],
-      "explanation": "Several rounded cyst-like spaces lie within the tissue, with pink to red material along some of the spaces. The higher-power panels establish the lining and surrounding stroma.",
-      "visual_clues": [
-        "Scan for multiple pale lumens in the pink tissue."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 6
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 7
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 8
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 8
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-vag-medium",
-      "source_id": "s-fb704f72590f02ad41be",
-      "source_group_id": "g-e893eed2d0493d9d50cb",
-      "asset_id": "a-e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea",
-      "variant_id": "v-68a449a143c69b15dba0",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Hemorrhage in a vaginal biopsy",
-      "visual_target": "Hemorrhage in a vaginal biopsy",
-      "category": "Histology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.webp",
-      "zoom_image": "assets/originals/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.png",
-      "original_image": "assets/originals/e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea.png",
-      "original_filename": "Case 3 Vaginal Biopsy Medium Power - Histology.png",
-      "stem": "What material is most conspicuous around the irregular spaces?",
-      "options": [
-        "Dense white calcific deposits",
-        "A thick band of keratin debris",
-        "Clear fat vacuoles replacing the lining",
-        "Hemorrhagic material adjacent to the spaces"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "The conspicuous material is red, consistent with blood in this specimen.",
-        "No layered keratin band surrounds the spaces.",
-        "The material beside the spaces stains intensely red.",
-        "Red hemorrhagic material lies alongside the cyst-like spaces. The follow-up guide identifies hemorrhage as part of the lesion."
-      ],
-      "explanation": "Red hemorrhagic material lies alongside the cyst-like spaces. The follow-up guide identifies hemorrhage as part of the lesion.",
-      "visual_clues": [
-        "Trace the intensely red material at the edges of the spaces."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 7
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 7
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 6
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 8
-        }
-      ]
-    },
-    {
       "question_id": "q-r29-vag-high",
       "source_id": "s-341e5392e7c9cadfcfe6",
       "source_group_id": "g-a52c2a00e88c48992fe5",
@@ -19691,66 +16927,6 @@
         {
           "document": "R29 GU and GI Diseases RLS.pdf",
           "page": 8
-        }
-      ]
-    },
-    {
-      "question_id": "q-r29-prostate-low",
-      "source_id": "s-4b52ab3a2d5464212767",
-      "source_group_id": "g-6c879aea511fcbad28ba",
-      "asset_id": "a-6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61",
-      "variant_id": "v-7ba28f12479fbf2c7464",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Dilated folded glands in a prostate specimen",
-      "visual_target": "Dilated folded glands in a prostate specimen",
-      "category": "Histology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.webp",
-      "zoom_image": "assets/originals/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.png",
-      "original_image": "assets/originals/6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61.png",
-      "original_filename": "Case 4 Prostate Low Power - Histology.png",
-      "stem": "Which architecture predominates in this low-power prostate field?",
-      "options": [
-        "An infiltrate composed entirely of small crowded acini",
-        "Irregular dilated glands with epithelial infoldings",
-        "A solid sheet without identifiable lumens",
-        "A single large smooth cyst"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "Many glands in this field are large and folded.",
-        "Irregular dilated glands with epithelial infoldings are separated by stroma. The guide identifies this field as a hyperplastic nodule and describes a dual cell layer.",
-        "Pale lumens are visible in numerous glands.",
-        "The field includes multiple irregular gland profiles."
-      ],
-      "explanation": "Irregular dilated glands with epithelial infoldings are separated by stroma. The guide identifies this field as a hyperplastic nodule and describes a dual cell layer.",
-      "visual_clues": [
-        "Find the pale lumens and follow the folds along their edges."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 9
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 8
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 9
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 8
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 10
         }
       ]
     },
@@ -19815,58 +16991,6 @@
       ]
     },
     {
-      "question_id": "q-r29-urine",
-      "source_id": "s-6e3be355007f4c5f6132",
-      "source_group_id": "g-5c76c45ecf1ad8c87d23",
-      "asset_id": "a-5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
-      "variant_id": "v-f6c54a00cbf791d23553",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Urine cytology and the limits of staging",
-      "visual_target": "Urine cytology and the limits of staging",
-      "category": "Urine Microscopy",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.webp",
-      "zoom_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
-      "original_image": "assets/originals/5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8.png",
-      "original_filename": "Case 5 Urine Cytology - Urine Microscopy.png",
-      "stem": "What inference is best supported by the cluster in this urine specimen?",
-      "options": [
-        "Muscle invasion can be staged from this cluster",
-        "Only a bland population of small nuclei is present",
-        "Normal detrusor bundles dominate the specimen",
-        "Malignant-appearing cells are shed into urine, with invasion depth unresolved"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "No detrusor tissue is shown in the urine preparation.",
-        "The crowded cells have conspicuous nuclei and irregular outlines.",
-        "The preparation contains shed cells, without intact bladder wall.",
-        "The crowded poorly cohesive cells have large irregular nuclei relative to the cytoplasm. The guide interprets them as malignant and emphasizes that shed cells cannot establish the depth of invasion."
-      ],
-      "explanation": "The crowded poorly cohesive cells have large irregular nuclei relative to the cytoplasm. The guide interprets them as malignant and emphasizes that shed cells cannot establish the depth of invasion.",
-      "visual_clues": [
-        "Inspect the crowded nuclei and the relatively small amount of cytoplasm."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 10
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 11
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 12
-        }
-      ]
-    },
-    {
       "question_id": "q-r29-bladder-a",
       "source_id": "s-fbc3d90fd0e9094178f9",
       "source_group_id": "g-16be5374bb8964b28164",
@@ -19927,166 +17051,6 @@
       ]
     },
     {
-      "question_id": "q-r29-bladder-b",
-      "source_id": "s-ab0c796a73230404567f",
-      "source_group_id": "g-701ba3698b743b76c876",
-      "asset_id": "a-701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35",
-      "variant_id": "v-6ebb7052557b5d46791e",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Tumor nests and bladder wall architecture",
-      "visual_target": "Tumor nests and bladder wall architecture",
-      "category": "Histology",
-      "collection": "R29",
-      "source_origin": "lecture",
-      "image": "assets/display/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.webp",
-      "zoom_image": "assets/originals/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.png",
-      "original_image": "assets/originals/701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35.png",
-      "original_filename": "Case 5 Bladder Biopsy 2 - Histology.png",
-      "stem": "Which pattern best describes the rounded dark profiles in this second biopsy field?",
-      "options": [
-        "Only a continuous bland urothelial lining",
-        "Dark tumor nests embedded within the wall tissue",
-        "A single acellular cavity in otherwise normal wall",
-        "A free papillary fragment without underlying tissue"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "The conspicuous profiles are within the section and are architecturally irregular.",
-        "Dark rounded and irregular tumor profiles sit within the pink wall tissue. The companion biopsy and follow-up guide confirm muscle invasion. These fields establish local invasion without showing distant spread.",
-        "There are multiple dark cellular profiles with discernible nuclei.",
-        "Pink supporting wall tissue surrounds the abnormal profiles."
-      ],
-      "explanation": "Dark rounded and irregular tumor profiles sit within the pink wall tissue. The companion biopsy and follow-up guide confirm muscle invasion. These fields establish local invasion without showing distant spread.",
-      "visual_clues": [
-        "Compare the dark rounded nests with the pink bundles that surround them."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 11
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 11
-        },
-        {
-          "document": "R29 GU and GI Diseases 2.pdf",
-          "page": 12
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 10
-        },
-        {
-          "document": "R29 GU and GI Diseases RLS.pdf",
-          "page": 12
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-timeline",
-      "source_id": "s-7617d80d6804e9cc342e",
-      "source_group_id": "g-f71ac016c3b34c8da2c1",
-      "asset_id": "a-f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7",
-      "variant_id": "v-999557fe51cafedd1af3",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Timing of the menopausal transition",
-      "visual_target": "Timing of the menopausal transition",
-      "category": "Diagram",
-      "collection": "R30",
-      "source_origin": "lecture",
-      "image": "assets/display/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.webp",
-      "zoom_image": "assets/zoom/7f971d2a1cbd3e236fec905e9cd1acc13dbf380461d5a467eb77d185f23759c2.png",
-      "original_image": "assets/originals/f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7.png",
-      "original_filename": "Womans Lifetime Perimenopause and Menopause - Diagram.png",
-      "stem": "Which statement distinguishes the later milestone from the earlier one on the timeline?",
-      "options": [
-        "The later marker is the first sign of cycle change",
-        "The earlier marker requires 12 months without menses",
-        "The later marker is identified retrospectively after 12 months without menses",
-        "The later marker occurs after only four months without menses"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "The earlier arrow marks the first changes.",
-        "The 12-month criterion belongs to the later milestone.",
-        "The earlier marker denotes first changes during perimenopause. The later marker denotes menopause, defined retrospectively after 12 months without menstruation in the lecture.",
-        "Four months falls short of the retrospective interval described in the lecture."
-      ],
-      "explanation": "The earlier marker denotes first changes during perimenopause. The later marker denotes menopause, defined retrospectively after 12 months without menstruation in the lecture.",
-      "visual_clues": [
-        "Compare the labels under the two arrows and their order along the timeline."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 31
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 30
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 4
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-ovary",
-      "source_id": "s-081a1aa8382a7fb3285a",
-      "source_group_id": "g-4ec71445af40dfe1a3ad",
-      "asset_id": "a-4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d",
-      "variant_id": "v-50e3ba8c9d8b62e03f05",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Follicle depletion and estradiol",
-      "visual_target": "Follicle depletion and estradiol",
-      "category": "Diagram",
-      "collection": "R30",
-      "source_origin": "lecture",
-      "image": "assets/display/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.webp",
-      "zoom_image": "assets/zoom/814981f59f5b2451c3966ec8aa74b85865eed6fa1000d4ac877dc2965920149d.png",
-      "original_image": "assets/originals/4ec71445af40dfe1a3ad324df11198fc7a5717181a70ca2b180f93bdb2f0b04d.png",
-      "original_filename": "Menopause Two Key Physiological Changes - Diagram.png",
-      "stem": "Which consequence belongs in the masked area beside the follicle-loss pathway?",
-      "options": [
-        "Increased estradiol in serum and tissue",
-        "Increased ovarian sensitivity to gonadotropins",
-        "Increased estradiol-mediated negative feedback",
-        "Decreased estradiol in serum and tissue"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "Follicle loss is associated with reduced estradiol production in the lecture.",
-        "The companion slide describes decreasing ovarian sensitivity.",
-        "With less estradiol, the lecture describes less negative feedback.",
-        "The source pairs loss of primary ovarian follicles with decreased estradiol in serum and tissue. The companion graph shows the estradiol decline around the final menstrual period."
-      ],
-      "explanation": "The source pairs loss of primary ovarian follicles with decreased estradiol in serum and tissue. The companion graph shows the estradiol decline around the final menstrual period.",
-      "visual_clues": [
-        "Follow the branch from the visible follicle-loss statement to the paired change."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 34
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 36
-        }
-      ]
-    },
-    {
       "question_id": "q-r30-curves",
       "source_id": "s-2680d6baaa7c22da0fa5",
       "source_group_id": "g-d0788bc126fa3d36f7f3",
@@ -20127,106 +17091,6 @@
         {
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 36
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 4
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-axis",
-      "source_id": "s-9b273ae11ac523739562",
-      "source_group_id": "g-2f5f33317ccbe15d3fb9",
-      "asset_id": "a-2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195",
-      "variant_id": "v-5dd505100f3187ccb1fa",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Direction of ovarian feedback",
-      "visual_target": "Direction of ovarian feedback",
-      "category": "Diagram",
-      "collection": "R30",
-      "source_origin": "lecture",
-      "image": "assets/display/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.webp",
-      "zoom_image": "assets/originals/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.png",
-      "original_image": "assets/originals/2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195.png",
-      "original_filename": "Hypothalamic Pituitary Ovarian Axis - Diagram.png",
-      "stem": "Which route returns an ovarian signal toward the central regulators in this schematic?",
-      "options": [
-        "GnRH travels from the ovary directly to the pituitary",
-        "Estradiol travels from the ovary back toward the brain and pituitary",
-        "FSH travels from granulosa cells directly to the hypothalamus",
-        "LH travels from the ovary to the hypothalamus"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "GnRH is shown originating in the hypothalamic region.",
-        "The long return path carries ovarian estradiol back toward the hypothalamic and pituitary level. The downward paths show GnRH and the gonadotropins going to their targets.",
-        "FSH is drawn from the pituitary toward the ovarian compartment.",
-        "The LH branch runs downward toward ovarian cells."
-      ],
-      "explanation": "The long return path carries ovarian estradiol back toward the hypothalamic and pituitary level. The downward paths show GnRH and the gonadotropins going to their targets.",
-      "visual_clues": [
-        "Follow the long curved return path marked E2 instead of the downward hormone arrows."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 37
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 84
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 76
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-flash",
-      "source_id": "s-dc8c423d7e4aa59e1494",
-      "source_group_id": "g-39e6ef385a5f4aa6a249",
-      "asset_id": "a-39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b",
-      "variant_id": "v-f7441dd6413ae0fc1c9a",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Sequence of flushing and chills",
-      "visual_target": "Sequence of flushing and chills",
-      "category": "Diagram",
-      "collection": "R30",
-      "source_origin": "lecture",
-      "image": "assets/display/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.webp",
-      "zoom_image": "assets/zoom/1c5b789f32f68c81c9a22c2d22f48223645b4051d25b8e65308ef905cb25ea63.png",
-      "original_image": "assets/originals/39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b.png",
-      "original_filename": "Hot Flash Thermoregulatory Physiology - Diagram.png",
-      "stem": "What change is illustrated from the flushed figure to the final figure?",
-      "options": [
-        "Chills precede flushing and the thermometer rises in the last figure",
-        "The final figure is the most flushed and shows the highest level",
-        "Upper-body flushing is followed later by chills and a lower thermometer level",
-        "The thermometer level is identical in the second and fourth figures"
-      ],
-      "correct_index": 2,
-      "choice_rationales": [
-        "The shivering figure appears last and has the lowest illustrated level.",
-        "The final figure is blue-toned and shivering.",
-        "The flushed figure has reddening over the upper body. The last figure is shivering with a lower illustrated thermometer level. The lecture’s original labels show sweating before the chills phase.",
-        "The red column is visibly shorter in the last panel."
-      ],
-      "explanation": "The flushed figure has reddening over the upper body. The last figure is shivering with a lower illustrated thermometer level. The lecture’s original labels show sweating before the chills phase.",
-      "visual_clues": [
-        "Compare upper-body color and the thermometer in the second and fourth figures."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 49
         },
         {
           "document": "R30 Mystery Illness RLS.pdf",
@@ -20279,62 +17143,6 @@
         {
           "document": "R30 Mystery Illness RLS.pdf",
           "page": 4
-        }
-      ]
-    },
-    {
-      "question_id": "q-r30-axis-low",
-      "source_id": "s-884eef83220189d80a43",
-      "source_group_id": "g-589889dd0816ff5af779",
-      "asset_id": "a-589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884",
-      "variant_id": "v-a10a327797b3939fdf14",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Site of suppression in the athlete's axis",
-      "visual_target": "Site of suppression in the athlete's axis",
-      "category": "Diagram",
-      "collection": "R30",
-      "source_origin": "lecture",
-      "image": "assets/display/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.webp",
-      "zoom_image": "assets/zoom/01e54fe37638caf38e793508c18c74c4198e010966c7253acbfe3639fba5f919.png",
-      "original_image": "assets/originals/589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884.png",
-      "original_filename": "Functional Hypothalamic Amenorrhea Axis Changes - Diagram.png",
-      "stem": "At which level is the red inhibitory mark placed in this altered axis?",
-      "options": [
-        "Hypothalamic GnRH output",
-        "Pituitary FSH output as the primary site",
-        "Ovarian aromatase within granulosa cells",
-        "Primary depletion of the depicted follicles"
-      ],
-      "correct_index": 0,
-      "choice_rationales": [
-        "The inhibitory mark is at the hypothalamic GnRH level. The lecture links functional hypothalamic amenorrhea in this exercise to reduced gonadotropin pulsation, low LH, and low estradiol.",
-        "The FSH branch lies downstream of the red mark.",
-        "Aromatase is labeled lower in the diagram, at the ovarian level.",
-        "The mark is in the central axis, far above the ovarian structures."
-      ],
-      "explanation": "The inhibitory mark is at the hypothalamic GnRH level. The lecture links functional hypothalamic amenorrhea in this exercise to reduced gonadotropin pulsation, low LH, and low estradiol.",
-      "visual_clues": [
-        "Find the small red mark and identify the immediately adjacent structure."
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible image findings interpreted with the cited lecture and follow-up material.",
-      "accepted_synonyms": [],
-      "citations": [
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 84
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 76
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 81
-        },
-        {
-          "document": "R30 Mystery Illness RLS.pdf",
-          "page": 83
         }
       ]
     },
@@ -21360,6 +18168,600 @@
       "case_id": null,
       "option_count": 4,
       "category": "Cytology"
+    },
+    {
+      "question_id": "q-b18865c8701eb5eab8ee",
+      "source_group_id": "g-b62553ae0a96c4eef04f",
+      "source_id": "s-db6f0947a0d32b9deca8",
+      "tested_concept": "Interpreting the supplied DVT rate chart",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Graphs"
+    },
+    {
+      "question_id": "q-32cc1d3c9c693ac77402",
+      "source_group_id": "g-3b05dd84f82ba7e0a8fa",
+      "source_id": "s-4d5e41940ec7883a9c08",
+      "tested_concept": "Ovarian follicle ultrasound appearance",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Ultrasound"
+    },
+    {
+      "question_id": "q-06ac2b3262925e6527d3",
+      "source_group_id": "g-fbda0daa0c26a909bc91",
+      "source_id": "s-c16db3d77db7ae02fa59",
+      "tested_concept": "Lichen sclerosus inflammatory band",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-7961c54804dccd83759e",
+      "source_group_id": "g-d704173017ca63e782d3",
+      "source_id": "s-d12868828175c3acc621",
+      "tested_concept": "Condyloma stromal core identification",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-ff52cc2179c0b21eca17",
+      "source_group_id": "g-6a298eddf2aaa0dbb068",
+      "source_id": "s-a190d836a1872abc2457",
+      "tested_concept": "Follicle development antral panel",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-08ca1951269d897cc466",
+      "source_group_id": "g-a1ae8c257ad3c97df2ab",
+      "source_id": "s-8182826622553f05f8e9",
+      "tested_concept": "Inhibin staining distribution",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-7aa328539bff337c2a91",
+      "source_group_id": "g-9cb0eb2d9e0b224db1df",
+      "source_id": "s-663bfcda745dd7e8f082",
+      "tested_concept": "Early secretory endometrial vacuoles",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-8a24f7484222a668e19c",
+      "source_group_id": "g-9cb0eb2d9e0b224db1df",
+      "source_id": "s-663bfcda745dd7e8f082",
+      "tested_concept": "Menstrual stromal breakdown panel",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-3d58c0dcd7bbd86ec5e2",
+      "source_group_id": "g-7b66c3c34265701957f4",
+      "source_id": "s-63a201acb6b2a1cc2996",
+      "tested_concept": "Thecoma tan-yellow cut surface",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-4f1f0d95166a0efd6b88",
+      "source_group_id": "g-a219681a8efba6c47f88",
+      "source_id": "s-e88c92aa1088d5e99630",
+      "tested_concept": "Brunn nests surface relationship",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-a1b50bc3d0a2c3e9988b",
+      "source_group_id": "g-8d190b2a70651a2a0add",
+      "source_id": "s-548191a523278a6d1a55",
+      "tested_concept": "Tentacular urothelial invasion",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-cac3fbfe251068c912ea",
+      "source_group_id": "g-9d30b5dd9a0b100c9732",
+      "source_id": "s-0db7137d07d93dcaba18",
+      "tested_concept": "Malakoplakia gross plaques",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-13690686a02316db900d",
+      "source_group_id": "g-c6b7d805bcc266802dde",
+      "source_id": "s-0d70fce928c95296839f",
+      "tested_concept": "Tubal muscular wall relationship",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-4e33c4cbb9024e22bb44",
+      "source_group_id": "g-e17b0d0d737f1c882731",
+      "source_id": "s-df05d2adf9bde17635b8",
+      "tested_concept": "Mammary interlobular stroma",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-550408b29c438a2bf72f",
+      "source_group_id": "g-de1d444bc80b3d264d22",
+      "source_id": "s-a66d7f7448f41572d785",
+      "tested_concept": "Prostatic small-gland crowding",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-66373593206097e19d77",
+      "source_group_id": "g-accb9ff5efe5764f0902",
+      "source_id": "s-1794633b2a2764f09431",
+      "tested_concept": "Bell clapper testis orientation",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-1d163e05f47fa0d4ba5d",
+      "source_group_id": "g-cc6f10245b1c07adf295",
+      "source_id": "s-92f1eb48552eb5436f73",
+      "tested_concept": "Amnion ultrasound landmark",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Ultrasound"
+    },
+    {
+      "question_id": "q-42127dabc2823568eeb4",
+      "source_group_id": "g-8ad2bea348638e8d049a",
+      "source_id": "s-d56531ba44451b89cf38",
+      "tested_concept": "Horseshoe kidney fused poles",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-51b067b47b090d32c8b6",
+      "source_group_id": "g-47e14cdee196206befb8",
+      "source_id": "s-49b8571771a9a760a9a5",
+      "tested_concept": "Secondary breast mound in maturity drawings",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-026d2e872048f5b14610",
+      "source_group_id": "g-47e14cdee196206befb8",
+      "source_id": "s-49b8571771a9a760a9a5",
+      "tested_concept": "Breast bud in maturity drawings",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-429eff9b36150721b00b",
+      "source_group_id": "g-325c013c46ec0afec122",
+      "source_id": "s-dc9aa700d2e0fafc0c32",
+      "tested_concept": "Fetal heart rate and contraction channels",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-1a468e3ab078d839b5cd",
+      "source_group_id": "g-8e0a9ec00845e6488662",
+      "source_id": "s-67c73dd0879a1faa21f0",
+      "tested_concept": "Labor curve steepest cervical dilation",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-6c7f8015952a43fec1aa",
+      "source_group_id": "g-88f7c5b0f2f6b4989eb3",
+      "source_id": "s-6655446c9c483f60ca39",
+      "tested_concept": "BPH adjacent tissue compression",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-924492816a726d3fb2b6",
+      "source_group_id": "g-b19564f4ab430b750ede",
+      "source_id": "s-008b70cd44b49b86fe45",
+      "tested_concept": "GCNIS atypical cells within a tubule",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-6f99d76ad5a36d0ea6ab",
+      "source_group_id": "g-c6d2800b99f760ba706e",
+      "source_id": "s-7121bc00dbfaa2183314",
+      "tested_concept": "Seminoma gross lobulated homogeneous surface",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-e8c4de318c175518390f",
+      "source_group_id": "g-8a0f2b1d51db0fa75bc0",
+      "source_id": "s-968edb1713e07bdf290c",
+      "tested_concept": "Seminoma cell boundary and nucleus",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-42faf26721c8a8dcf20d",
+      "source_group_id": "g-3b80653d2673f32ffaae",
+      "source_id": "s-bca04306c2161bc104b8",
+      "tested_concept": "Benign breast epithelial lesions relative duct space",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-82ed02934a2bc5558f74",
+      "source_group_id": "g-990ceacb35fbfaa10eb2",
+      "source_id": "s-13ae26548f4769c83602",
+      "tested_concept": "DCIS gross pale granular tissue",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-ba0bf06ed1bc7cd905b6",
+      "source_group_id": "g-990ceacb35fbfaa10eb2",
+      "source_id": "s-0702c66b2677960afbf9",
+      "tested_concept": "DCIS comedo necrosis distribution",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-d05de27f70d11d319965",
+      "source_group_id": "g-93d8fcab7fe09d55ddeb",
+      "source_id": "s-cad35f122990084d3f17",
+      "tested_concept": "Placental vascular remodeling and blood flow",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-78f63ec8df12188b9c96",
+      "source_group_id": "g-7e763a894187e588ccff",
+      "source_id": "s-72f364f13691385b37a6",
+      "tested_concept": "Progestin formulation step comparison",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-47f2d84ac93cf721a47b",
+      "source_group_id": "g-79de4cee82436e579ebe",
+      "source_id": "s-143f099f4888585e9c2c",
+      "tested_concept": "Craniocaudal mammogram circled opacity",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Radiograph"
+    },
+    {
+      "question_id": "q-a2e57286022715360195",
+      "source_group_id": "g-bb175a0138a6065b8592",
+      "source_id": "s-b27aacfd8ff4e8d17208",
+      "tested_concept": "Endometrial hyperplasia panel with cystic dilation",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-fc57d062eaeaca7808eb",
+      "source_group_id": "g-bb175a0138a6065b8592",
+      "source_id": "s-b27aacfd8ff4e8d17208",
+      "tested_concept": "Endometrial hyperplasia normal comparison panel",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-2b64db30e45ad650cdf8",
+      "source_group_id": "g-eaaf5fe2a6b54d749050",
+      "source_id": "s-ea97375fbd12a6abab1c",
+      "tested_concept": "STIC abnormal tubal epithelial compartment",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-b2560792cc94e15e48ee",
+      "source_group_id": "g-96410636c876458e81aa",
+      "source_id": "s-2d7f882cdffcbde1c5e6",
+      "tested_concept": "Normal vaginal squamous cytology",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-0b3907f6a04296400cd4",
+      "source_group_id": "g-41db8860e506d30b0e3f",
+      "source_id": "s-3f4d2e60d15178120ed3",
+      "tested_concept": "Distribution of multiple arrowed Trichomonas profiles",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-5e785c544c4e6ed6cc29",
+      "source_group_id": "g-36b149d256c5fa6f7f7f",
+      "source_id": "s-5efe654a2a8b39334f5a",
+      "tested_concept": "Herpetic nuclear molding in a second smear field",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-6915270feb927cd94dea",
+      "source_group_id": "g-dcf2a7c240e2346782de",
+      "source_id": "s-aa7d90d67c6aa6ac5fe7",
+      "tested_concept": "Cervical cytology panel with dense nuclear crowding",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-98d38f97af9ecf46f026",
+      "source_group_id": "g-bbbe5bbdbedc84a2b6f2",
+      "source_id": "s-e7945bd4e19a5668d9c6",
+      "tested_concept": "Granulosa tumor microfollicles",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-0c415da214a101cc8936",
+      "source_group_id": "g-9c21eabf7d7177f5b816",
+      "source_id": "s-9f1306b8d6cd8895e64d",
+      "tested_concept": "Adenomyosis gross hemorrhagic foci",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-24ab2eed0c3c7dab17bb",
+      "source_group_id": "g-ba6ecc8f38a013398069",
+      "source_id": "s-f6007ed62229ee6492b1",
+      "tested_concept": "Bilateral multinodular ovarian metastases",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-493ebd86e024584b51a1",
+      "source_group_id": "g-f9792b58805f7b3057fd",
+      "source_id": "s-09622eade230a19b1809",
+      "tested_concept": "Spermatocytic tumor gross cut surface",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-004aac254d91bf87b16d",
+      "source_group_id": "g-2ea53ef5bd59a3c0e358",
+      "source_id": "s-4dbd0f72aeece960ea17",
+      "tested_concept": "Invasive lobular carcinoma targetoid growth",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-457be33ee8a5a82b25da",
+      "source_group_id": "g-1f36c9b0aaff0a97bec7",
+      "source_id": "s-564acba27820ee543b31",
+      "tested_concept": "Paget disease of nipple HER2 membrane pattern",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-db19fcb9c063c7b6808a",
+      "source_group_id": "g-b2d0fbe8223b25ba6b3d",
+      "source_id": "s-c4615778c9e3e7933ab1",
+      "tested_concept": "Phyllodes tumor gross lobulation",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-4e78bdd8bd93ab7910b1",
+      "source_group_id": "g-c4da6b6f220cc1301dc6",
+      "source_id": "s-a857a036f10ca97d550e",
+      "tested_concept": "Molar pregnancy ultrasound internal spaces",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Ultrasound"
+    },
+    {
+      "question_id": "q-f8246e7ac7c4184b365b",
+      "source_group_id": "g-78c59a5840f2bc6bfc9d",
+      "source_id": "s-ed3486a69addd456a2f3",
+      "tested_concept": "Focal protruding breast skin lesion",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Clinical Photo"
+    },
+    {
+      "question_id": "q-1527c916ef9c4b156f84",
+      "source_group_id": "g-8329f25f6de3f1c39dc4",
+      "source_id": "s-659e5c963e3ad02941fd",
+      "tested_concept": "Cervical tumor gross contour around the opening",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Clinical Photo"
+    },
+    {
+      "question_id": "q-3fe8fc8dae39ae0dffb1",
+      "source_group_id": "g-790a9158c26f14f580a6",
+      "source_id": "s-72316e80863dbcc15c60",
+      "tested_concept": "Serous papillary cystadenoma compartmentalized gross lesion",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-d3f4f5b736c6141ecb26",
+      "source_group_id": "g-35f20cd5e65e4f25f24a",
+      "source_id": "s-2f574dcd177af4c14957",
+      "tested_concept": "Prostate immunostain contrast between glands",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-2256c27737855e863b23",
+      "source_group_id": "g-e0500bb7c55d03d58b6d",
+      "source_id": "s-a16a73198228c9ae8930",
+      "tested_concept": "Invasive ductal carcinoma angulated epithelial profiles",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r29-pleural-b",
+      "source_group_id": "g-8b912641d3ee13d130b6",
+      "source_id": "s-dadbca97d8bdb663f68e",
+      "tested_concept": "Papillary appearing clusters in pleural fluid",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Cytology"
+    },
+    {
+      "question_id": "q-r29-cervix",
+      "source_group_id": "g-37fbd2bdd7a90d68e2f2",
+      "source_id": "s-b55750b8b35e85020b2c",
+      "tested_concept": "Punctate erythema of the ectocervix",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Gross"
+    },
+    {
+      "question_id": "q-r29-pap-a",
+      "source_group_id": "g-3d4a001f05f3d59f3d21",
+      "source_id": "s-7a450fe1c3ec2b91ee4d",
+      "tested_concept": "Inflammatory background on cervical cytology",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Cytology"
+    },
+    {
+      "question_id": "q-r29-pap-c",
+      "source_group_id": "g-ba32e25a15ea6f8d6c0a",
+      "source_id": "s-943f2c08f62837dda937",
+      "tested_concept": "Ovoid forms in cervical cytology",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Cytology"
+    },
+    {
+      "question_id": "q-r29-vag-low",
+      "source_group_id": "g-86a32abea74ffae6de02",
+      "source_id": "s-fbf57ca155d579164977",
+      "tested_concept": "Cystic architecture of a vaginal biopsy",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r29-vag-medium",
+      "source_group_id": "g-e893eed2d0493d9d50cb",
+      "source_id": "s-fb704f72590f02ad41be",
+      "tested_concept": "Hemorrhage in a vaginal biopsy",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r29-prostate-low",
+      "source_group_id": "g-6c879aea511fcbad28ba",
+      "source_id": "s-4b52ab3a2d5464212767",
+      "tested_concept": "Dilated folded glands in a prostate specimen",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r29-urine",
+      "source_group_id": "g-5c76c45ecf1ad8c87d23",
+      "source_id": "s-6e3be355007f4c5f6132",
+      "tested_concept": "Urine cytology and the limits of staging",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Urine Microscopy"
+    },
+    {
+      "question_id": "q-r29-bladder-b",
+      "source_group_id": "g-701ba3698b743b76c876",
+      "source_id": "s-ab0c796a73230404567f",
+      "tested_concept": "Tumor nests and bladder wall architecture",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Histology"
+    },
+    {
+      "question_id": "q-r30-timeline",
+      "source_group_id": "g-f71ac016c3b34c8da2c1",
+      "source_id": "s-7617d80d6804e9cc342e",
+      "tested_concept": "Timing of the menopausal transition",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-r30-ovary",
+      "source_group_id": "g-4ec71445af40dfe1a3ad",
+      "source_id": "s-081a1aa8382a7fb3285a",
+      "tested_concept": "Follicle depletion and estradiol",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-r30-axis",
+      "source_group_id": "g-2f5f33317ccbe15d3fb9",
+      "source_id": "s-9b273ae11ac523739562",
+      "tested_concept": "Direction of ovarian feedback",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-r30-flash",
+      "source_group_id": "g-39e6ef385a5f4aa6a249",
+      "source_id": "s-dc8c423d7e4aa59e1494",
+      "tested_concept": "Sequence of flushing and chills",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-r30-axis-low",
+      "source_group_id": "g-589889dd0816ff5af779",
+      "source_id": "s-884eef83220189d80a43",
+      "tested_concept": "Site of suppression in the athlete's axis",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
     }
   ]
 }

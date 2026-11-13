@@ -1,0 +1,7 @@
+# Second Step 1 relevance screen
+
+The second pass screened all 617 active stems and answer keys for a transferable learning objective, comparing repeated visuals and related clinical case steps. It moved 71 questions to the [reference archive](step1-second-screen-archive.json). The quiz now has 546 scored questions across 22 physiology drills, 371 pathology drills, and 153 questions in 33 clinical cases.
+
+The largest group was 45 repeated tasks. The R29 clinical cases retain the same images when they connect a smear, gland pattern, or biopsy to the clinical presentation. The R30 cases retain the menopause and hypothalamic feedback comparisons. A few standalone drills remain where they give those lectures a useful short practice set. R12 gland histology remains available while the questions that score only a panel letter or corner are archived. R1 keeps the question about the effect of interrupting androgen transfer, and R7 keeps the question about what mitochondrial uncoupling does to heat production.
+
+The [question ledger](step1-second-screen.csv) records the decision and lecture citations for each item. The [first screen](step1-review-20261113.md) records the earlier feedback audit. The browser used for this screen had no saved image flags in the four practice sections. This pass focused on relevance, duplicates, and visible question cues. It did not independently revalidate all clinical claims or the third-party teaching sources.

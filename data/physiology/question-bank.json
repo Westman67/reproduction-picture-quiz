@@ -1,55 +1,9 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "2026-11-13-step1-review",
+  "bank_version": "step1-second-screen",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
-    {
-      "stem": "Which labeled interval shows a testosterone peak while sperm production remains at baseline?",
-      "options": [
-        "Interval c",
-        "Interval d",
-        "Interval a",
-        "Interval b"
-      ],
-      "correct_index": 2,
-      "explanation": "Interval a contains the fetal testosterone peak without a corresponding rise in the blue sperm-production curve.",
-      "choice_rationales": [
-        "Both curves rise through interval c.",
-        "Both curves are high in interval d.",
-        "Interval a contains the fetal testosterone peak without a corresponding rise in the blue sperm-production curve.",
-        "Interval b is the low childhood interval."
-      ],
-      "tested_concept": "Fetal testosterone without spermatogenesis",
-      "question_id": "q-e2b73e2d9c23b9c305b2",
-      "source_id": "s-4f8605f40c0606074905",
-      "source_group_id": "g-4419f99d91fa111aff78",
-      "variant_id": "v-a4e67e097c180aea643e",
-      "question_type": "Visual interpretation",
-      "category": "Graphs",
-      "collection": "R2",
-      "source_origin": "lecture",
-      "image": "assets/display/a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659.webp",
-      "zoom_image": "assets/originals/a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659.png",
-      "original_image": "assets/originals/a4e67e097c180aea643e1015005d56f61d19cada03e47aa1165cc6a67bc7f659.png",
-      "original_filename": "R2/Plasma Testosterone and Sperm Production Across Lifespan - Diagram.png",
-      "citations": [
-        {
-          "document": "R2 Male Physiology RLS.pdf",
-          "page": 24
-        }
-      ],
-      "visual_clues": [
-        "Interval a contains the fetal testosterone peak without a corresponding rise in the blue sperm-production curve."
-      ],
-      "visual_target": "Which labeled interval shows a testosterone peak while sperm production remains at baseline?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
     {
       "stem": "How does estrogen excretion change after the point marked menopause on this graph?",
       "options": [
@@ -322,144 +276,6 @@
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visual target",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Follow the arrow labeled androstenedione. Which direction does it run between the two ovarian cell compartments?",
-      "options": [
-        "Theca cell to granulosa cell",
-        "Granulosa cell to theca cell",
-        "Theca cell directly to the blood vessel",
-        "Blood vessel directly to theca cell"
-      ],
-      "correct_index": 0,
-      "explanation": "The arrow starts at the theca compartment and points into the granulosa compartment.",
-      "choice_rationales": [
-        "The arrow starts at the theca compartment and points into the granulosa compartment.",
-        "The arrowhead points toward granulosa cells, not back toward theca cells.",
-        "The labeled transfer arrow ends in the granulosa compartment rather than at the blood vessel.",
-        "The arrow starts beside the theca cell rather than inside the blood vessel."
-      ],
-      "question_id": "q-d0278e945dcbad4d32f9",
-      "source_id": "s-8c7636d4a73314ab9ba3",
-      "source_group_id": "g-c82eb2460e3059626449",
-      "variant_id": "v-067fb173adc9f3d39740",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Androstenedione transfer between ovarian cells",
-      "category": "Diagram",
-      "collection": "R1",
-      "source_origin": "lecture",
-      "image": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
-      "zoom_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
-      "original_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
-      "original_filename": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
-      "citations": [
-        {
-          "document": "R1 Female Physiology RLS.pdf",
-          "page": 22
-        }
-      ],
-      "visual_clues": [
-        "The arrow starts at the theca compartment and points into the granulosa compartment."
-      ],
-      "visual_target": "Follow the arrow labeled androstenedione. Which direction does it run between the two ovarian cell compartments?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visible target",
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Which hormonal signal has arrows directed toward both ovarian cell compartments in this diagram?",
-      "options": [
-        "FSH",
-        "Estradiol",
-        "Androstenedione",
-        "LH"
-      ],
-      "correct_index": 3,
-      "explanation": "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment.",
-      "choice_rationales": [
-        "FSH has a single displayed arrow toward the granulosa compartment.",
-        "Estradiol is shown leaving the granulosa compartment toward the blood vessel.",
-        "Androstenedione is shown transferring between theca and granulosa cells, not signaling to both from outside.",
-        "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment."
-      ],
-      "question_id": "q-cae0d42d1fc611027802",
-      "source_id": "s-8c7636d4a73314ab9ba3",
-      "source_group_id": "g-c82eb2460e3059626449",
-      "variant_id": "v-067fb173adc9f3d39740",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Branched LH signal in the two cell diagram",
-      "category": "Diagram",
-      "collection": "R1",
-      "source_origin": "lecture",
-      "image": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
-      "zoom_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
-      "original_image": "assets/originals/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.png",
-      "original_filename": "R1/Two Cell Two Gonadotropin Hypothesis - Diagram.png",
-      "citations": [
-        {
-          "document": "R1 Female Physiology RLS.pdf",
-          "page": 22
-        }
-      ],
-      "visual_clues": [
-        "Two arrows leave LH, one toward the theca cell and one toward the granulosa compartment."
-      ],
-      "visual_target": "Which hormonal signal has arrows directed toward both ovarian cell compartments in this diagram?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visible target",
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Use the inhibitory bar in the upper right of the pathway. Which conversion does it block?",
-      "options": [
-        "NO delivery to guanylyl cyclase",
-        "Relaxation to increased cavernous blood flow",
-        "cGMP to GMP",
-        "GTP to cGMP"
-      ],
-      "correct_index": 2,
-      "explanation": "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP.",
-      "choice_rationales": [
-        "The NO arrow descends at the left of the smooth muscle compartment, away from the inhibitory bar.",
-        "The downward arrow from relaxation to blood flow has no inhibitory bar.",
-        "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP.",
-        "GTP to cGMP is the separate left-hand arrow beneath guanylyl cyclase."
-      ],
-      "question_id": "q-d1e5ffdf201a67b44980",
-      "source_id": "s-ade393e39a021284e7de",
-      "source_group_id": "g-fd5d52a09d789cc75793",
-      "variant_id": "v-c494d36dd43a08fa60f2",
-      "question_type": "Visual interpretation",
-      "tested_concept": "PDE inhibitor location in the erection pathway",
-      "category": "Diagram",
-      "collection": "R2",
-      "source_origin": "lecture",
-      "image": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
-      "zoom_image": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
-      "original_image": "assets/originals/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.png",
-      "original_filename": "R2/Mechanism of Penile Erection - Diagram.png",
-      "citations": [
-        {
-          "document": "R2 Male Physiology RLS.pdf",
-          "page": 18
-        }
-      ],
-      "visual_clues": [
-        "The inhibitory bar ends over type 5 phosphodiesterase on the arrow from cGMP to GMP."
-      ],
-      "visual_target": "Use the inhibitory bar in the upper right of the pathway. Which conversion does it block?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visible target",
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null
@@ -779,52 +595,6 @@
         "The leader reaches the channel that carries placental venous blood through the liver region toward the inferior vena cava."
       ],
       "visual_target": "The shunt label in the liver region is hidden. Which channel is indicated by the horizontal leader between the left hepatic vein and aorta labels?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visible target",
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null
-    },
-    {
-      "stem": "Compare the central UCP1 route with ATP synthase at the left. Which relationship is drawn?",
-      "options": [
-        "UCP1 carries oxygen directly to water",
-        "UCP1 is drawn as the ATP-producing head of ATP synthase",
-        "Protons can return across the membrane without passing through ATP synthase",
-        "All returning protons must pass through ATP synthase"
-      ],
-      "correct_index": 2,
-      "explanation": "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling.",
-      "choice_rationales": [
-        "The oxygen to water step is drawn at the respiratory chain on the right, not at UCP1.",
-        "ATP synthase is the separate left-hand complex with the ATP label beneath it.",
-        "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling.",
-        "A second inward proton route is shown through the central channel."
-      ],
-      "question_id": "q-527d5512e91fb5bd455b",
-      "source_id": "s-505b29a9b47453eb2dd4",
-      "source_group_id": "g-0411737b8a59d7d69dc5",
-      "variant_id": "v-7e8cb9d44294d899b1e0",
-      "question_type": "Visual interpretation",
-      "tested_concept": "Proton route bypassing ATP synthase",
-      "category": "Diagram",
-      "collection": "R7",
-      "source_origin": "lecture",
-      "image": "assets/display/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.webp",
-      "zoom_image": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
-      "original_image": "assets/originals/194452faf9a3b155437d831811e378495d244d413f56538fe11684d97a81c7c5.png",
-      "original_filename": "R7/UCP1 in Mitochondrial Membrane - Diagram.png",
-      "citations": [
-        {
-          "document": "R7 Neo-Natal Physiology RLS.pdf",
-          "page": 13
-        }
-      ],
-      "visual_clues": [
-        "The central channel provides a separate inward proton route beside ATP synthase, illustrating uncoupling."
-      ],
-      "visual_target": "Compare the central UCP1 route with ATP synthase at the left. Which relationship is drawn?",
       "joint_panels": false,
       "ground_truth_confidence": "high for the stated visible target",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
@@ -1296,6 +1066,53 @@
         }
       ],
       "case_context": null
+    }
+  ],
+  "retired_questions": [
+    {
+      "question_id": "q-e2b73e2d9c23b9c305b2",
+      "source_group_id": "g-4419f99d91fa111aff78",
+      "source_id": "s-4f8605f40c0606074905",
+      "tested_concept": "Fetal testosterone without spermatogenesis",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Graphs"
+    },
+    {
+      "question_id": "q-d0278e945dcbad4d32f9",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "tested_concept": "Androstenedione transfer between ovarian cells",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-cae0d42d1fc611027802",
+      "source_group_id": "g-c82eb2460e3059626449",
+      "source_id": "s-8c7636d4a73314ab9ba3",
+      "tested_concept": "Branched LH signal in the two cell diagram",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-d1e5ffdf201a67b44980",
+      "source_group_id": "g-fd5d52a09d789cc75793",
+      "source_id": "s-ade393e39a021284e7de",
+      "tested_concept": "PDE inhibitor location in the erection pathway",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
+    },
+    {
+      "question_id": "q-527d5512e91fb5bd455b",
+      "source_group_id": "g-0411737b8a59d7d69dc5",
+      "source_id": "s-505b29a9b47453eb2dd4",
+      "tested_concept": "Proton route bypassing ATP synthase",
+      "case_id": null,
+      "option_count": 4,
+      "category": "Diagram"
     }
   ]
 }
