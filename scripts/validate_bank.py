@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -92,6 +93,42 @@ def validate_table(question: dict[str, Any], label: str, errors: list[str]) -> N
         errors.append(f"{label}: table question has image lineage")
 
 
+def validate_pdf_citation(source: dict[str, Any], label: str, errors: list[str]) -> None:
+    verification = source.get("pdf_citation_verification")
+    if verification is None:
+        return
+    if not isinstance(verification, dict):
+        errors.append(f"{label}: PDF citation verification must be an object")
+        return
+
+    result = verification.get("result")
+    verified = result in ("render_match", "visual_match", "exact_file")
+    unresolved = result in ("source_unavailable", "unverified_revision")
+    if not verified and not unresolved:
+        errors.append(f"{label}: unknown PDF verification result {result!r}")
+        return
+
+    bound = source.get("citation_document_sha256")
+    current = source.get("current_document_sha256")
+    historical = source.get("source_document_sha256")
+    extraction = source.get("extraction") or {}
+    if extraction.get("pdf_sha256") != historical:
+        errors.append(f"{label}: historical PDF hash differs from the extraction index")
+    if source.get("document_hash_matches") is not verified:
+        errors.append(f"{label}: PDF hash match flag disagrees with the verification result")
+
+    if verified:
+        page = verification.get("page")
+        if type(page) is not int or page < 1 or page != (source.get("source_citation") or {}).get("page"):
+            errors.append(f"{label}: verified PDF page disagrees with the citation")
+        if not isinstance(bound, str) or not re.fullmatch(r"[0-9a-f]{64}", bound) or bound != current:
+            errors.append(f"{label}: verified PDF hash differs from the current PDF hash")
+        if not verification.get("file") or source.get("document_available") is not True:
+            errors.append(f"{label}: verified PDF has no available file")
+    elif bound or source.get("status") == ACTIVE_STATUS:
+        errors.append(f"{label}: unresolved PDF verification cannot back a scored source")
+
+
 def validate(manifest_path: Path, bank_path: Path) -> list[str]:
     errors: list[str] = []
     app_root = find_app_root(bank_path)
@@ -115,6 +152,7 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
         if source_id in source_by_id:
             errors.append(f"duplicate source_id: {source_id}")
         source_by_id[source_id] = source
+        validate_pdf_citation(source, source_id, errors)
 
     seen_questions: set[str] = set()
     for index, question in enumerate(questions):

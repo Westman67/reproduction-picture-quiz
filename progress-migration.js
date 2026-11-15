@@ -1,4 +1,4 @@
-import {empty,validateImport} from './engine.js?v=r30-r32-2';
+import {empty,validateImport} from './engine.js?v=pdf-citations-1';
 export const LEGACY_KEY='reproduction-picture-quiz-v1';
 export const SUPPLEMENTARY_KEY='reproduction-supplementary-picture-quiz-v1';
 

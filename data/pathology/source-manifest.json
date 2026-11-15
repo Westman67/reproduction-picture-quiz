@@ -11495,7 +11495,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -11626,11 +11626,19 @@
           "reason": "The upper panel shows separated nucleosomes with RNA polymerase II and transcription factors on accessible DNA."
         }
       ],
-      "citation_verification": "The supplied R20 PDF has a different file hash from the extraction source. The same figure was visually verified on the cited page in the current PDF.",
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained.",
       "current_document_visual_verification": {
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 9,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 9,
+        "extraction_page": 9,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
       }
     },
     {
@@ -11657,7 +11665,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -11702,7 +11710,16 @@
         "page": 41,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Available in Source review. The second Step 1 screen moved its question out of scored practice."
+      "study_status_note": "Available in Source review. The second Step 1 screen moved its question out of scored practice.",
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 41,
+        "extraction_page": 41,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
+      },
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
     },
     {
       "asset_id": "a-2a3b3de8aa8e6dfceb73402fb57be55f8d32feac33dceacc36ae55ec4c126feb",
@@ -11728,7 +11745,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -11785,13 +11802,21 @@
           "reason": "Two phenolic rings are separated by a substituted alkene rather than sharing fused bonds."
         }
       ],
-      "citation_verification": "The supplied R20 PDF has a different file hash from the extraction source. The same figure was visually verified on the cited page in the current PDF.",
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained.",
       "current_document_visual_verification": {
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 19,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice."
+      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice.",
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 19,
+        "extraction_page": 19,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
+      }
     },
     {
       "asset_id": "a-83bb8febba0a90efd924a251508f6129b77ca5d5d1b682c7a35299b19054f924",
@@ -11817,7 +11842,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -11861,7 +11886,16 @@
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 10,
         "result": "Cited figure confirmed on the current PDF page."
-      }
+      },
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 10,
+        "extraction_page": 10,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
+      },
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
     },
     {
       "asset_id": "a-70b4ed216b55654d1811e7680636dc4257093fb0627602b8944fcdab75a519ae",
@@ -11887,7 +11921,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -11954,13 +11988,21 @@
           "reason": "The red circles lie on the two right-hand structures, which are labeled ethinyl estradiol and mestranol."
         }
       ],
-      "citation_verification": "The supplied R20 PDF has a different file hash from the extraction source. The same figure was visually verified on the cited page in the current PDF.",
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained.",
       "current_document_visual_verification": {
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 18,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice."
+      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice.",
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 18,
+        "extraction_page": 18,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
+      }
     },
     {
       "asset_id": "a-c98bbf6bd458a2c4119a11c95ed91cf796e5c3bd29906de601a98fc8ad1ee5a4",
@@ -11986,7 +12028,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12043,13 +12085,21 @@
           "reason": "The second device has a fine winding wrapped around its vertical stem."
         }
       ],
-      "citation_verification": "The supplied R20 PDF has a different file hash from the extraction source. The same figure was visually verified on the cited page in the current PDF.",
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained.",
       "current_document_visual_verification": {
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 30,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice."
+      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice.",
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 30,
+        "extraction_page": 30,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
+      }
     },
     {
       "asset_id": "a-4aca79c917b6bf72d58fbfa162977cdaa4f5e59a73c4ba8ed412a9d1eeb09325",
@@ -12075,7 +12125,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12170,11 +12220,19 @@
           "reason": "The broad dark E block follows D and is identified in the figure as the ligand-binding domain."
         }
       ],
-      "citation_verification": "The supplied R20 PDF has a different file hash from the extraction source. The same figure was visually verified on the cited page in the current PDF.",
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained.",
       "current_document_visual_verification": {
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 7,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 7,
+        "extraction_page": 7,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
       }
     },
     {
@@ -12201,7 +12259,7 @@
       },
       "source_document_sha256": "c51e7429bb130021c8f9f043b124d7d1636892ba38e14c393b08f075411a6b1f",
       "current_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12277,13 +12335,21 @@
           "reason": "The lower structure has a small ring at the end of the ester side chain."
         }
       ],
-      "citation_verification": "The supplied R20 PDF has a different file hash from the extraction source. The same figure was visually verified on the cited page in the current PDF.",
+      "citation_verification": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained.",
       "current_document_visual_verification": {
         "document": "R20 Sex Hormones Pharm RLS.pdf",
         "page": 51,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice."
+      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice.",
+      "citation_document_sha256": "8c520c623c6033247f58743c26f5914367c0ce5b9fa8a8f634e3f8df257a25c8",
+      "pdf_citation_verification": {
+        "result": "visual_match",
+        "file": "R20 Sex Hormones Pharm RLS.pdf",
+        "page": 51,
+        "extraction_page": 51,
+        "details": "The teaching panel was compared visually with the current PDF page. The original extraction hash is retained."
+      }
     },
     {
       "asset_id": "a-028cd5e5cfbb4b3c802eba2b4c77b8131bdc23d16791b2c7877d2877839f7246",
@@ -12309,7 +12375,7 @@
       },
       "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
       "current_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12353,11 +12419,19 @@
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 7
       },
-      "citation_verification": "Matched the full extracted page text in the current supplied PDF after inserted pages shifted pagination.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 9,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 9,
+        "extraction_page": 7,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -12384,7 +12458,7 @@
       },
       "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
       "current_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12445,13 +12519,21 @@
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 21
       },
-      "citation_verification": "Matched the full extracted page text in the current supplied PDF after inserted pages shifted pagination.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 24,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice."
+      "study_status_note": "Retained in Source review. Associated question was moved out of scored Step 1 practice.",
+      "citation_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 24,
+        "extraction_page": 21,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
+      }
     },
     {
       "asset_id": "a-c1460fac146b320545385c9a17c7ceb866244e826e21ab4e2b4358935772c087",
@@ -12477,7 +12559,7 @@
       },
       "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
       "current_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12538,11 +12620,19 @@
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 6
       },
-      "citation_verification": "Matched the full extracted page text in the current supplied PDF after inserted pages shifted pagination.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 7,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 7,
+        "extraction_page": 6,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -12569,7 +12659,7 @@
       },
       "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
       "current_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12643,11 +12733,19 @@
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 9
       },
-      "citation_verification": "Matched the full extracted page text in the current supplied PDF after inserted pages shifted pagination.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 12,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 12,
+        "extraction_page": 9,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -12674,7 +12772,7 @@
       },
       "source_document_sha256": "df05da7be88090cc802bedb0c37684ade653614f9b6419b193ad97d9954f45dc",
       "current_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -12735,11 +12833,19 @@
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 22
       },
-      "citation_verification": "Matched the full extracted page text in the current supplied PDF after inserted pages shifted pagination.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
         "page": 25,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "add50dc67d69ab09863e6027c034319df78cbe058dcff22f42c239a84b783155",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+        "page": 25,
+        "extraction_page": 22,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -28688,7 +28794,7 @@
       },
       "source_document_sha256": "c955711dea41c3f92f4654beed1da251ade00dd7fb7d2b848efdb93f6b8323df",
       "current_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -28749,11 +28855,19 @@
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 12
       },
-      "citation_verification": "The same figure was visually verified on the cited page of the current R21 PDF.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 12,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+        "page": 12,
+        "extraction_page": 12,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -28780,7 +28894,7 @@
       },
       "source_document_sha256": "c955711dea41c3f92f4654beed1da251ade00dd7fb7d2b848efdb93f6b8323df",
       "current_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -28841,11 +28955,19 @@
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 10
       },
-      "citation_verification": "The same figure was visually verified on the cited page of the current R21 PDF.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 10,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+        "page": 10,
+        "extraction_page": 10,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -28872,7 +28994,7 @@
       },
       "source_document_sha256": "c955711dea41c3f92f4654beed1da251ade00dd7fb7d2b848efdb93f6b8323df",
       "current_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -28933,11 +29055,19 @@
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 31
       },
-      "citation_verification": "The same figure was visually verified on the cited page of the current R21 PDF.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 32,
         "result": "Cited figure confirmed on the current PDF page."
+      },
+      "citation_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+        "page": 32,
+        "extraction_page": 31,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
       }
     },
     {
@@ -28964,7 +29094,7 @@
       },
       "source_document_sha256": "c955711dea41c3f92f4654beed1da251ade00dd7fb7d2b848efdb93f6b8323df",
       "current_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -29099,13 +29229,21 @@
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 29
       },
-      "citation_verification": "The same figure was visually verified on the cited page of the current R21 PDF.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 30,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Available in Source review. The second Step 1 screen moved its question out of scored practice."
+      "study_status_note": "Available in Source review. The second Step 1 screen moved its question out of scored practice.",
+      "citation_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+        "page": 30,
+        "extraction_page": 29,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
+      }
     },
     {
       "asset_id": "a-33a2ed06fa234b85df00ee08e0c9f425583ed6139029154777137ff154bf1260",
@@ -29131,7 +29269,7 @@
       },
       "source_document_sha256": "c955711dea41c3f92f4654beed1da251ade00dd7fb7d2b848efdb93f6b8323df",
       "current_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
-      "document_hash_matches": false,
+      "document_hash_matches": true,
       "document_available": true,
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
@@ -29192,13 +29330,21 @@
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 13
       },
-      "citation_verification": "The same figure was visually verified on the cited page of the current R21 PDF.",
+      "citation_verification": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF.",
       "current_document_visual_verification": {
         "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
         "page": 13,
         "result": "Cited figure confirmed on the current PDF page."
       },
-      "study_status_note": "Available in Source review. The third Step 1 screen moved its question out of scored practice."
+      "study_status_note": "Available in Source review. The third Step 1 screen moved its question out of scored practice.",
+      "citation_document_sha256": "cca929a097110222940685e5c1958e1c59249c4873fb4524cc05c150a4a1bda6",
+      "pdf_citation_verification": {
+        "result": "render_match",
+        "file": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+        "page": 13,
+        "extraction_page": 13,
+        "details": "The extraction PDF matches its archival copy. The archival page renders identically to the cited page in the current PDF."
+      }
     },
     {
       "asset_id": "a-bf448f693a28b0a5de9080fa26b0a30024c9c82e10d537048bde2fe543ce315c",
