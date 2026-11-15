@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 from pathlib import Path
@@ -30,6 +31,42 @@ def load(path: Path) -> Any:
 
 
 IMAGE_FIELDS = ("image", "zoom_image", "original_image")
+ASSET = re.compile(r"assets/(?:originals|display|zoom)/[a-f0-9]+(?:-[a-z0-9-]+)?\.(?:png|webp)")
+MAX_PUBLISHED_IMAGE_BYTES = 1024 * 1024
+
+
+def asset_references(paths: list[Path]) -> set[str]:
+    return {ref for path in paths if path.is_file() for ref in ASSET.findall(path.read_text(encoding="utf-8"))}
+
+
+def report_orphans(root: Path, data: Path, destination: Path) -> None:
+    # Retain teaching references, retired questions, and review queues.
+    refs = asset_references(list(data.rglob("*.json")))
+    orphans = sorted(path for path in (root / "assets").rglob("*")
+                     if path.is_file() and ASSET.fullmatch(path.relative_to(root).as_posix())
+                     and path.relative_to(root).as_posix() not in refs)
+    with destination.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["asset", "bytes"])
+        writer.writerows((path.relative_to(root).as_posix(), path.stat().st_size) for path in orphans)
+    print(f"Orphan inventory: {len(orphans)} files, {sum(path.stat().st_size for path in orphans):,} bytes ({destination})")
+
+
+def validate_published(root: Path, data: Path) -> list[str]:
+    errors: list[str] = []
+    refs = asset_references(list(data.rglob("*.json")))
+    for ref in sorted(refs):
+        check_image_file(root, "published asset", "image", ref, errors)
+    for asset in (root / "assets").rglob("*"):
+        if not asset.is_file():
+            continue
+        relative = asset.relative_to(root).as_posix()
+        if asset.suffix != ".webp" or relative.startswith("assets/originals/"):
+            errors.append(f"uncompressed image in published assets: {relative}")
+        if asset.stat().st_size > MAX_PUBLISHED_IMAGE_BYTES:
+            errors.append(f"published image exceeds 1 MiB: {relative}")
+    return errors
+
 
 
 def find_app_root(path: Path) -> Path | None:
@@ -202,6 +239,8 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
                 errors.append(f"{label}: choice_rationales must contain exactly {option_count} entries")
             elif any(not isinstance(rationale, str) or not rationale.strip() for rationale in rationales):
                 errors.append(f"{label}: every choice_rationale must be a non-empty string")
+            elif len({" ".join(rationale.casefold().split()) for rationale in rationales}) != option_count:
+                errors.append(f"{label}: different choices require distinct explanations")
             elif not question.get("case_id") and isinstance(correct_index, int) \
                     and 0 <= correct_index < option_count \
                     and rationales[correct_index] != question.get("explanation"):
@@ -251,6 +290,8 @@ def main() -> None:
     parser.add_argument("--all", action="store_true",
                         help="validate the legacy root bank and every data/<bank>/ folder")
     parser.add_argument("--data", type=Path, default=Path(__file__).resolve().parents[1] / "data")
+    parser.add_argument("--orphan-report", type=Path, help="write a CSV of images unreferenced by any data JSON")
+    parser.add_argument("--published", action="store_true", help="check all published image references and the 1 MiB image cap")
     args = parser.parse_args()
 
     if args.all:
@@ -263,10 +304,21 @@ def main() -> None:
     else:
         parser.error("give a manifest and question bank, or use --all")
 
+    root = find_app_root(pairs[0][1])
+    if args.orphan_report:
+        if root is None:
+            parser.error("no assets folder found for orphan inventory")
+        report_orphans(root, args.data, args.orphan_report)
     failed = False
+    active_ids: set[str] = set()
     for manifest, bank in pairs:
         errors = validate(manifest, bank)
         label = bank.parent.name if bank.parent.name != args.data.name else "legacy root"
+        if args.all and bank.parent != args.data:
+            ids = {q.get("question_id") for q in records(load(bank), ("questions", "items"))}
+            for duplicate in sorted(active_ids & ids):
+                errors.append(f"question_id appears in multiple sections: {duplicate}")
+            active_ids.update(ids)
         if errors:
             failed = True
             for error in errors[:50]:
@@ -275,6 +327,15 @@ def main() -> None:
                 print(f"ERROR [{label}]: ... {len(errors) - 50} more")
         else:
             print(f"OK [{label}]: manifest and question bank passed validation")
+    if args.published:
+        if root is None:
+            parser.error("no published assets folder found")
+        errors = validate_published(root, args.data)
+        for error in errors[:50]:
+            print(f"ERROR [published]: {error}")
+        failed = failed or bool(errors)
+        if not errors:
+            print("OK [published]: every image reference resolves; no raw originals or files over 1 MiB")
     if failed:
         raise SystemExit(1)
 

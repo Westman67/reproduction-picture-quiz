@@ -17,7 +17,13 @@ Learn mode gives feedback after locking an answer. Exam mode defers feedback unt
 
 Progress and marks stay in browser storage, separately for each bank. Export before changing browsers or site addresses. Existing localhost progress does not automatically appear on GitHub Pages. Export it locally and import the matching bank file on the website.
 
-Run locally with `python3 scripts/serve.py --open`. No installation is required to study. Run `npm test` for automated checks and `npm run build` to create the static site in `dist`. GitHub Actions validates and deploys `dist` to GitHub Pages.
+Run `npm run build` with Node 22 and Python 3, then open the desktop quiz with `python3 scripts/serve.py --open`. The server exposes the generated `dist` folder. If you build from the separate desktop source archive with PNG originals, install the WebP command line tools (`brew install webp` on macOS). The GitHub checkout already contains the published WebP derivatives.
+
+Run `npm test` for the question bank and engine checks. For the browser smoke test, run `npm ci`, `npx playwright install chromium`, then `npm run test:ui` after building. The test opens all four practice routes, answers a question, checks review and session history, and exercises image error recovery. GitHub Actions runs these checks before deploying `dist`.
+
+The build puts a single content fingerprint on modules, styles, and data. Practice loads only the question bank and a small remediation file. Source manifests load when you open coverage or Source review, or when migrating older progress.
+
+The public site distributes WebP images capped at 1 MiB per file. High resolution PNGs remain available in the desktop authoring archive. The `original_image` field identifies the teaching image shown after reveal, which is a compressed copy in a served build. To inventory local image files absent from all data JSON, run `python3 scripts/validate_bank.py --all --orphan-report orphan-images.csv`.
 
 Source citations appear after answering and in the explicit Source review workspace. Client-side answer hiding is an interface feature, not cryptographic secrecy.
 

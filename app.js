@@ -1,6 +1,6 @@
-import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js?v=option-feedback-1';
-import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats,distinctClues} from './engine.js?v=option-feedback-1';
-import {STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js?v=option-feedback-1';
+import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js';
+import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats,distinctClues} from './engine.js';
+import {STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js';
 const query=new URLSearchParams(window.location.search);
 const CONFIG=resolveBankConfig(window.location.search);
 const thirdPartyLink=CONFIG.id==='pathology'&&(query.get('bank')==='supplementary'||query.get('origin')==='third_party');
@@ -12,7 +12,7 @@ const combinedLengths=['10','20','40','all','endless'];
 const combinedFilters=[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']];
 let cases=[],retired=[];
 const KEY=CONFIG.progressKey, PREF_KEY=CONFIG.preferencesKey, $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let bank,bankVersion,manifest,remediation=null,coverage={lectures:{}},p=empty(),screen='home',zoom=1,original=false,settings=defaultSettings();
+let bank,bankVersion,manifest,manifestRequest,coverageRequest,remediation=null,coverage={lectures:{}},p=empty(),screen='home',zoom=1,original=false,settings=defaultSettings();
 let storageLocked=false,lecturesOpen=false;let byId={};const root=$('#app');let timer;
 function markNav(){
     const current={home:'home',quiz:'home',results:'home',review:'review',progress:'progress'}[screen];
@@ -70,7 +70,7 @@ function caseHome() {
     screen='home';
     const current=cases.find(c=>c.case_id===p.session?.case_id);
     const matchingCases=settings.skill==='all'?cases:
-        cases.filter(c=>c.question_ids.some(id=>byId[id].study_skill===settings.skill));
+        cases.filter(c=>c.question_ids.some(id=>byId[id]?.study_skill===settings.skill));
     root.innerHTML=`<section class="summary">
         <p class="eyebrow">Reproduction</p>
         <h1>Clinical Cases</h1>
@@ -231,12 +231,24 @@ function combinedHome() {
 }
 
 function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHome();screen='home';const pool=filtered(bank,p,settings),available=bank.length,seen=bank.filter(q=>p.groups[q.source_group_id]?.times_seen).length,missed=filtered(bank,p,{filter:'incorrect'}).length,lectures=sortLectureIds(bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)),count=sessionSize(pool.length,settings.length);
- root.innerHTML=`<section class="hero"><div class="intro"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Look closely.<br>Learn what matters.</h1><p class="muted">${esc(CONFIG.description)} Every question starts with the image.</p><div class="stats"><div class="card stat"><strong>${available}</strong><span>Verified questions</span></div><div class="card stat"><strong>${new Set(bank.map(q=>q.source_group_id)).size}</strong><span>Visual groups</span></div><div class="card stat"><strong>${missed}</strong><span>To revisit</span></div></div><span class="tag">${seen} / ${available} questions from seen sources</span><p class="fine mt">Reviewed images from the selected Reproduction collection. See coverage below for included topics and remaining gaps. Related questions share source history.</p></div><div class="card practice-panel"><p class="eyebrow">Make this session yours</p><h2>Choose your practice</h2><fieldset class="box-group"><legend>Mode</legend><div class="mode-boxes">${[['learn','Learn','Feedback after each answer'],['exam','Exam','Feedback at the end']].map(([value,title,description])=>`<label class="select-box"><input type="radio" name="mode" value="${value}" aria-label="${title}" ${settings.mode===value?'checked':''}><span class="box-face"><strong>${title}</strong><small>${description}</small></span></label>`).join('')}</div></fieldset><fieldset class="box-group"><legend>Session length</legend><div class="length-boxes">${[['10','10','10 questions'],['20','20','20 questions'],['40','40','40 questions'],['all','All available','All available'],['endless','Endless','Endless practice']].map(([value,title,label])=>`<label class="select-box ${value==='all'||value==='endless'?'wide':''}"><input type="radio" name="length" value="${value}" aria-label="${label}" ${settings.length===value?'checked':''}><span class="box-face"><strong>${title}</strong></span></label>`).join('')}</div></fieldset><fieldset class="box-group lecture-picker"><legend>Lectures</legend><div class="lecture-boxes">${lectures.map(id=>{const n=bank.filter(q=>q.collection===id).length;return `<label class="select-box"><input type="checkbox" name="lecture" value="${esc(id)}" aria-label="${esc(id)}" ${settings.collection==='all'||settings.collection.includes(id)?'checked':''}><span class="box-face"><strong>${esc(id)}</strong><small>${n} ${n===1?'question':'questions'}</small></span></label>`;}).join('')}</div><button id="all-lectures" class="quiet">Select all lectures</button></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,origin:v,filter:'all'}).length})`,settings.origin)).join('')}</select></div><div><label for="category">Image category</label><select id="category">${option('all','All image types',settings.category)}${[...new Set(bank.map(q=>q.category))].map(x=>option(x,`${x} (${filtered(bank,p,{...settings,category:x,filter:'all'}).length})`,settings.category)).join('')}</select></div>${skillPicker('skill',filtered(bank,p,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section>${coverageMarkup()}`;
+ root.innerHTML=`<section class="hero"><div class="intro"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Look closely.<br>Learn what matters.</h1><p class="muted">${esc(CONFIG.description)} Every question starts with the image.</p><div class="stats"><div class="card stat"><strong>${available}</strong><span>Verified questions</span></div><div class="card stat"><strong>${new Set(bank.map(q=>q.source_group_id)).size}</strong><span>Visual groups</span></div><div class="card stat"><strong>${missed}</strong><span>To revisit</span></div></div><span class="tag">${seen} / ${available} questions from seen sources</span><p class="fine mt">Reviewed images from the selected Reproduction collection. See coverage below for included topics and remaining gaps. Related questions share source history.</p></div><div class="card practice-panel"><p class="eyebrow">Make this session yours</p><h2>Choose your practice</h2><fieldset class="box-group"><legend>Mode</legend><div class="mode-boxes">${[['learn','Learn','Feedback after each answer'],['exam','Exam','Feedback at the end']].map(([value,title,description])=>`<label class="select-box"><input type="radio" name="mode" value="${value}" aria-label="${title}" ${settings.mode===value?'checked':''}><span class="box-face"><strong>${title}</strong><small>${description}</small></span></label>`).join('')}</div></fieldset><fieldset class="box-group"><legend>Session length</legend><div class="length-boxes">${[['10','10','10 questions'],['20','20','20 questions'],['40','40','40 questions'],['all','All available','All available'],['endless','Endless','Endless practice']].map(([value,title,label])=>`<label class="select-box ${value==='all'||value==='endless'?'wide':''}"><input type="radio" name="length" value="${value}" aria-label="${label}" ${settings.length===value?'checked':''}><span class="box-face"><strong>${title}</strong></span></label>`).join('')}</div></fieldset><fieldset class="box-group lecture-picker"><legend>Lectures</legend><div class="lecture-boxes">${lectures.map(id=>{const n=bank.filter(q=>q.collection===id).length;return `<label class="select-box"><input type="checkbox" name="lecture" value="${esc(id)}" aria-label="${esc(id)}" ${settings.collection==='all'||settings.collection.includes(id)?'checked':''}><span class="box-face"><strong>${esc(id)}</strong><small>${n} ${n===1?'question':'questions'}</small></span></label>`;}).join('')}</div><button id="all-lectures" class="quiet">Select all lectures</button></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,origin:v,filter:'all'}).length})`,settings.origin)).join('')}</select></div><div><label for="category">Image category</label><select id="category">${option('all','All image types',settings.category)}${[...new Set(bank.map(q=>q.category))].map(x=>option(x,`${x} (${filtered(bank,p,{...settings,category:x,filter:'all'}).length})`,settings.category)).join('')}</select></div>${skillPicker('skill',filtered(bank,p,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><label class="check-row mt"><input type="checkbox" id="resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions in shorter sessions</label><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section><details class="mt" id="lecture-coverage"><summary>Lecture coverage</summary><div id="coverage-content"></div></details>`;
+ const coveragePanel=$('#lecture-coverage');
+ coveragePanel.ontoggle=async ()=>{
+    const content=coveragePanel.querySelector('#coverage-content');
+    if(!coveragePanel.open||content.dataset.loaded)return;
+    content.textContent='Loading lecture coverage…';
+    try{
+        await Promise.all([getManifest(),getCoverage()]);
+        content.innerHTML=coverageMarkup();
+        content.dataset.loaded='true';
+    }catch{content.textContent='Lecture coverage could not load. Close and reopen to retry.';}
+ };
+ $('#resurface').onchange=event=>{settings.resurface=event.target.checked;saveSettings();};
  for(const id of ['category','filter','origin','skill'])$('#'+id).onchange=e=>{settings[id]=e.target.value;saveSettings();home();$('#'+id).focus({preventScroll:true});};
  document.querySelectorAll('.select-box input[type=radio]').forEach(el=>el.onchange=()=>{const {name,value}=el;settings[name]=value;saveSettings();home();document.querySelector(`input[name="${name}"][value="${value}"]`).focus({preventScroll:true});});
  document.querySelectorAll('input[name=lecture]').forEach((el,index)=>el.onchange=()=>{const chosen=new Set(settings.collection==='all'?lectures:settings.collection);el.checked?chosen.add(el.value):chosen.delete(el.value);settings.collection=[...chosen];saveSettings();home();document.querySelectorAll('input[name=lecture]')[index].focus({preventScroll:true});});
  bind('all-lectures',()=>{settings.collection='all';saveSettings();home();$('#all-lectures').focus({preventScroll:true});});
- bind('start',()=>{if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;p.session=session(pool,settings.mode,settings.length);save();resetZoom();quiz();window.scrollTo(0,0);});bind('resume',()=>{resetZoom();quiz();window.scrollTo(0,0);});
+ bind('start',()=>{if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;p.session=session(pool,settings.mode,settings.length,Math.random,settings.resurface?{progress:p}:{});save();resetZoom();quiz();window.scrollTo(0,0);});bind('resume',()=>{resetZoom();quiz();window.scrollTo(0,0);});
  bind('resume-parked',()=>{
     const active=p.session&&!p.session.complete?p.session:null;
     p.session=p.parkedSession;
@@ -257,10 +269,89 @@ function tableMarkup(table,reveal){
         }).join('')}</tr>`).join('')}</tbody>
     </table></div>`;
 }
-function imageMarkup(q,reveal){return `<div class="visual${q.case_id&&q.joint_panels?' case-paired':''}"><div class="image-frame" id="frame"><img id="quiz-image" src="${esc(q.image)}" alt="Quiz source image" decoding="async" fetchpriority="high"></div><div class="image-toolbar"><div class="row"><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="fit">Fit image</button></div><span class="fine" id="zoom-label">100%</span></div><div class="image-toolbar">${reveal?'<button id="original">Show teaching original</button>':'<span class="fine">Quiz image only</span>'}<button id="fullscreen">Full image</button></div></div>`;}
-function applyZoom(q){const frame=$('#frame'),img=$('#quiz-image');if(!frame||!img)return;frame.classList.toggle('zoomed',zoom>1);frame.style.setProperty('--zoom-width',`${frame.clientWidth*zoom}px`);img.src=original?q.original_image:zoom>1?q.zoom_image:q.image;$('#zoom-label').textContent=`${Math.round(zoom*100)}%`;if(zoom===1){frame.scrollTop=0;frame.scrollLeft=0;}if($('#original'))$('#original').textContent=original?'Show quiz image':'Show teaching original';}
-function wireImage(q,reveal){bind('zoom-in',()=>{zoom=Math.min(4,zoom+.5);applyZoom(q);});bind('zoom-out',()=>{zoom=Math.max(1,zoom-.5);applyZoom(q);});bind('fit',()=>{zoom=1;applyZoom(q);});if(reveal){bind('original',()=>{original=!original;applyZoom(q);});}bind('fullscreen',()=>{const d=document.createElement('dialog');d.className='full-image-viewer';d.innerHTML=`<div class="row spread"><h3 class="no-margin">Full image</h3><button id="close-dialog">Close</button></div><div class="row full-image-tools"><button id="full-out" aria-label="Zoom full image out">−</button><button id="full-in" aria-label="Zoom full image in">+</button><button id="full-fit">Fit image</button><span class="fine" id="full-scale">100%</span></div><div class="image-frame full-image-frame" id="full-frame"><img src="${esc(reveal&&original?q.original_image:q.zoom_image)}" alt="${reveal&&original?'Teaching original':'Quiz source image'}"></div>`;document.body.append(d);d.showModal();let scale=1,drag=null;const frame=d.querySelector('#full-frame');const apply=()=>{frame.classList.toggle('zoomed',scale>1);frame.style.setProperty('--zoom-width',`${frame.clientWidth*scale}px`);d.querySelector('#full-scale').textContent=`${Math.round(scale*100)}%`;if(scale===1){frame.scrollTop=0;frame.scrollLeft=0;}};d.querySelector('#close-dialog').onclick=()=>d.close();d.querySelector('#full-in').onclick=()=>{scale=Math.min(4,scale+.5);apply();};d.querySelector('#full-out').onclick=()=>{scale=Math.max(1,scale-.5);apply();};d.querySelector('#full-fit').onclick=()=>{scale=1;apply();};frame.onpointerdown=e=>{if(scale===1)return;drag={x:e.clientX,y:e.clientY,left:frame.scrollLeft,top:frame.scrollTop};frame.setPointerCapture(e.pointerId);};frame.onpointermove=e=>{if(drag){frame.scrollLeft=drag.left-e.clientX+drag.x;frame.scrollTop=drag.top-e.clientY+drag.y;}};frame.onpointerup=()=>drag=null;frame.onpointercancel=()=>drag=null;d.onclose=()=>d.remove();});
- const frame=$('#frame');let drag=null;frame.onpointerdown=e=>{if(zoom===1)return;drag={x:e.clientX,y:e.clientY,left:frame.scrollLeft,top:frame.scrollTop};frame.setPointerCapture(e.pointerId);};frame.onpointermove=e=>{if(drag){frame.scrollLeft=drag.left-e.clientX+drag.x;frame.scrollTop=drag.top-e.clientY+drag.y;}};frame.onpointerup=()=>drag=null;frame.onpointercancel=()=>drag=null;applyZoom(q);}
+function imagePanel(id,imgId,description){
+    return `<div class="image-view"><div class="image-frame" id="${id}"><img id="${imgId}" alt="${description}" decoding="async"></div>
+        <div class="image-message" role="status" hidden><span></span> <button class="quiet image-retry" hidden>Retry image</button></div></div>`;
+}
+function loadImage(frame,source){
+    const img=frame.querySelector('img');
+    const message=frame.nextElementSibling;
+    const text=message.querySelector('span');
+    const retry=message.querySelector('button');
+    if(img.getAttribute('src')===source)return;
+    const ready=()=>{message.hidden=true;frame.setAttribute('aria-busy','false');};
+    message.hidden=false;
+    text.textContent='Loading image…';
+    retry.hidden=true;
+    frame.setAttribute('aria-busy','true');
+    img.onload=ready;
+    img.onerror=()=>{
+        text.textContent='Image could not load.';
+        frame.setAttribute('aria-busy','false');
+        retry.hidden=false;
+        retry.onclick=()=>{img.removeAttribute('src');loadImage(frame,source);};
+    };
+    img.src=source;
+    if(img.complete&&img.naturalWidth)ready();
+}
+function imageMarkup(q,reveal){
+    return `<div class="visual${q.case_id&&q.joint_panels?' case-paired':''}">${imagePanel('frame','quiz-image','Quiz source image')}<div class="image-toolbar"><div class="row"><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="fit">Fit image</button></div><span class="fine" id="zoom-label">100%</span></div><div class="image-toolbar">${reveal?'<button id="original">Show teaching original</button>':'<span class="fine">Quiz image only</span>'}<button id="fullscreen">Full image</button></div></div>`;
+}
+function setZoom(frame,scale){
+    frame.classList.toggle('zoomed',scale>1);
+    frame.style.setProperty('--zoom-width',`${frame.clientWidth*scale}px`);
+    if(scale===1){frame.scrollTop=0;frame.scrollLeft=0;}
+}
+function applyZoom(q){
+    const frame=$('#frame');
+    if(!frame)return;
+    setZoom(frame,zoom);
+    const source=original?q.original_image:zoom>1?q.zoom_image:q.image;
+    frame.querySelector('img').alt=original?'Teaching original':'Quiz source image';
+    loadImage(frame,source);
+    $('#zoom-label').textContent=`${Math.round(zoom*100)}%`;
+    if($('#original'))$('#original').textContent=original?'Show quiz image':'Show teaching original';
+}
+function enablePan(frame,isZoomed){
+    let drag=null;
+    frame.onpointerdown=event=>{
+        if(!isZoomed())return;
+        drag={x:event.clientX,y:event.clientY,left:frame.scrollLeft,top:frame.scrollTop};
+        frame.setPointerCapture(event.pointerId);
+    };
+    frame.onpointermove=event=>{
+        if(!drag)return;
+        frame.scrollLeft=drag.left-event.clientX+drag.x;
+        frame.scrollTop=drag.top-event.clientY+drag.y;
+    };
+    frame.onpointerup=frame.onpointercancel=()=>{drag=null;};
+}
+function wireImage(q,reveal){
+    bind('zoom-in',()=>{zoom=Math.min(4,zoom+.5);applyZoom(q);});
+    bind('zoom-out',()=>{zoom=Math.max(1,zoom-.5);applyZoom(q);});
+    bind('fit',()=>{zoom=1;applyZoom(q);});
+    if(reveal)bind('original',()=>{original=!original;applyZoom(q);});
+    bind('fullscreen',()=>{
+        const dialog=document.createElement('dialog');
+        const showOriginal=reveal&&original;
+        dialog.className='full-image-viewer';
+        dialog.innerHTML=`<div class="row spread"><h3 class="no-margin">Full image</h3><button id="close-dialog">Close</button></div><div class="row full-image-tools"><button id="full-out" aria-label="Zoom full image out">−</button><button id="full-in" aria-label="Zoom full image in">+</button><button id="full-fit">Fit image</button><span class="fine" id="full-scale">100%</span></div>${imagePanel('full-frame','full-image',showOriginal?'Teaching original':'Quiz source image')}`;
+        document.body.append(dialog);
+        dialog.showModal();
+        let scale=1;
+        const frame=dialog.querySelector('#full-frame');
+        const apply=()=>{setZoom(frame,scale);dialog.querySelector('#full-scale').textContent=`${Math.round(scale*100)}%`;};
+        dialog.querySelector('#close-dialog').onclick=()=>dialog.close();
+        dialog.querySelector('#full-in').onclick=()=>{scale=Math.min(4,scale+.5);apply();};
+        dialog.querySelector('#full-out').onclick=()=>{scale=Math.max(1,scale-.5);apply();};
+        dialog.querySelector('#full-fit').onclick=()=>{scale=1;apply();};
+        enablePan(frame,()=>scale>1);
+        dialog.onclose=()=>dialog.remove();
+        loadImage(frame,showOriginal?q.original_image:q.zoom_image);
+    });
+    enablePan($('#frame'),()=>zoom>1);
+    applyZoom(q);
+}
 function choiceFeedback(q,it){
  return it.order.map((k,position)=>{
   const correct=k===q.correct_index;
@@ -345,14 +436,51 @@ skills=studySkillStats(s.items.map(it=>({...it,study_skill:byId[it.id].study_ski
     }
     save();resetZoom();quiz();
  });}
+function sessionHistory(){
+    const recent=p.exams.filter(entry=>entry&&Number.isInteger(entry.correct)&&Number.isInteger(entry.incorrect)
+        &&Number.isInteger(entry.unanswered)&&entry.correct>=0&&entry.incorrect>=0&&entry.unanswered>=0)
+        .slice().sort((a,b)=>(Date.parse(b.date)||0)-(Date.parse(a.date)||0));
+    if(!recent.length)return '<h3>Session history</h3><p class="fine">Your completed sessions will appear here.</p>';
+    const view=([offset,count])=>recent.slice(offset,offset+count).map(entry=>{
+        const answered=entry.correct+entry.incorrect;
+        const score=answered?100*entry.correct/answered:null;
+        const date=new Date(entry.date);
+        const when=Number.isNaN(date.getTime())?'Date unavailable':date.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'});
+        const title=cases.find(c=>c.case_id===entry.case_id)?.title||(entry.mode==='exam'?'Exam':'Learn');
+        return `<li class="history-row"><div><strong>${esc(title)}</strong><br><span class="fine">${esc(when)}</span></div>
+            <div>${entry.correct} of ${answered} correct · ${entry.unanswered} skipped</div>
+            <div>${score===null?'Unscored':`<meter min="0" max="100" value="${score}" aria-label="Session accuracy"></meter> ${score.toFixed(2)}%`}</div></li>`;
+    }).join('');
+    return `<section class="mt"><h3>Session history</h3><ol class="history-list">${view([0,10])}</ol>
+        ${recent.length>10?`<details><summary>Earlier sessions (${recent.length-10})</summary><ol class="history-list">${view([10,recent.length-10])}</ol></details>`:''}</section>`;
+}
 function progress(){screen='progress';const stats=Object.values(p.questions),n=stats.reduce((a,s)=>a+s.times_answered,0),c=stats.reduce((a,s)=>a+s.correct_count,0);root.innerHTML=`<section class="summary"><p class="eyebrow">Your local record</p><h1>Keep your progress.</h1><p class="muted">${n} answered attempts · ${n?(100*c/n).toFixed(2):'0.00'}% correct. Browser data does not automatically sync between devices or site addresses.</p><div class="card"><div class="row"><button id="export">Export progress</button>${localStorage.getItem(LEGACY_KEY)?'<button id="legacy-export">Export previous combined progress</button>':''}<label class="file-label">Import progress<input id="import" type="file" accept=".json,application/json"></label><button id="reset">Reset progress</button></div><p class="fine mt">Export before changing browsers, moving to a hosted URL, or clearing browser storage. Import replaces this browser’s progress only after confirmation.</p>${skillReport(studySkillStats(bank,q=>{
     const row=p.questions[q.question_id];
     return row?{correct:row.correct_count,answered:row.times_answered}:null;
-}))}<h3>Concept practice</h3>${Object.entries(p.concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct} correct / ${v.correct+v.incorrect} answered</p>`).join('')||'<p class="fine">Your first session will appear here.</p>'}</div></section>`;
+}))}${sessionHistory()}<h3 class="mt">Concept practice</h3>${Object.entries(p.concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct} correct / ${v.correct+v.incorrect} answered</p>`).join('')||'<p class="fine">Your first session will appear here.</p>'}</div></section>`;
  bind('legacy-export',()=>{try{download('reproduction-previous-combined-progress.json',JSON.parse(localStorage.getItem(LEGACY_KEY)));}catch{toast('Previous progress could not be read.');}});bind('export',()=>download(CONFIG.exportName,p));bind('reset',()=>{if(confirm('Reset all local progress, sessions, flags, and review decisions? Source images and questions will not change.')){storageLocked=false;p=empty();if(CONFIG.id==='pathology')p.supplementaryProgressImported=true;save();progress();}});$('#import').onchange=async e=>{try{let f=e.target.files[0];if(!f)return;if(f.size>5e6)throw Error('File is too large.');let incoming=validateImport(JSON.parse(await f.text()),bank,caseMode?cases:[],retired);if(confirm('Replace this browser’s progress with this export?')){storageLocked=false;p=incoming;reconcileFlags(p,remediation);save();progress();toast('Progress imported.');}}catch(e){toast(e.message);}};
 }
-function review(){screen='review';const flags=Object.values(p.flags),sourceQuestions=new Map(bank.map(q=>[q.source_id,q]));root.innerHTML=`<p class="eyebrow">Reviewer workspace · Answers visible</p><h1>Sources, not shortcuts.</h1><p class="muted">${manifest.sources.length} source files inventoried. ${new Set(bank.map(q=>q.source_group_id)).size} distinct visual source groups support scored tasks. ${manifest.sources.filter(s=>s.status!=='USABLE').length} remain teaching references or alternate annotated views.</p><div class="row"><button id="export-flags">Export flags & decisions</button><button id="open-flags">${flags.filter(f=>f.status==='open').length} open image flags</button></div><div class="card mt"><h3>Learner image flags</h3>${flags.length?flags.map(f=>`<div class="rationale"><p>${esc(byId[f.question_id]?.tested_concept||retired.find(q=>q.question_id===f.question_id)?.tested_concept||f.question_id)} · ${esc(f.status)}${retired.some(q=>q.question_id===f.question_id)?' · Reference only':''}</p><p>${esc(f.note)}</p><button data-flag="${esc(f.question_id)}">${f.status==='open'?'Mark resolved':'Reopen flag'}</button></div>`).join(''):'<p class="fine">No image flags yet. Use Flag image during a quiz to record a problem.</p>'}</div><div class="grid mt">${manifest.sources.map(s=>{const q=sourceQuestions.get(s.source_id),decision=p.decisions[s.source_id],variant=q?s.variants?.find(v=>v.variant_id===q.variant_id):null,proposed=decision?.proposed_answer||q?.options?.[q.correct_index]||s.tested_concept||'';return `<article class="card review-item"><span class="tag">${esc(s.status)}</span><h3 class="mt">${esc(s.tested_concept)}</h3><img class="review-img" src="${esc(s.display_asset||s.original_asset)}" alt="Teaching source for review" loading="lazy" decoding="async"><p>${esc(s.study_status_note||s.review_reason)}</p><p class="fine"><strong>Ground truth</strong><br>${esc(q?.ground_truth_confidence||'Not scored')} confidence · ${esc(q?.ground_truth_basis||s.ground_truth_basis||'No basis recorded')}</p><p class="fine"><strong>Accepted synonyms</strong><br>${q?.accepted_synonyms?.length?q.accepted_synonyms.map(esc).join(', '):'None recorded'}</p><p class="fine"><strong>Source group and transform</strong><br>${esc(s.source_group_id)} · ${esc(variant?.transform?.type||s.transform?.type||'No scored transform')} · ${esc(variant?.transform?.reason||s.transform?.reason||'')}</p><details><summary>Source and full image</summary><a href="${esc(s.original_asset||s.display_asset)}" target="_blank" rel="noopener">Open review image at full size</a><p>${esc(s.relative_path)}<br>${esc(s.source_citation.document)}${s.source_citation.page==null?' (page not verified)':`, p. ${s.source_citation.page}`}</p><p>${esc(s.source_id)}</p></details><label for="answer-${s.source_id}">Proposed correct answer</label><input id="answer-${s.source_id}" value="${esc(proposed)}"><label for="note-${s.source_id}" class="mt">Review note or correction rationale</label><textarea id="note-${s.source_id}">${esc(decision?.note||'')}</textarea><div class="pill-actions mt">${[['approve','approve transformation'],['retain','retain'],['crop','crop'],['exclude','exclude'],['needs_review','needs review']].map(([a,label])=>`<button data-decision="${esc(s.source_id)}" data-action="${a}" data-n="${s.source_id}">${label}</button>`).join('')}</div><p class="fine" id="decision-${s.source_id}">${esc(decision?.action||'No local decision')}</p></article>`;}).join('')}</div><p class="notice mt">Review decisions are saved locally and exportable. They do not silently alter the scored bank. Approved corrections need a rebuilt and validated bank before activation.</p>`;
- bind('export-flags',()=>download('reproduction-image-review.json',{schema_version:1,bank_version:bankVersion,flags:p.flags,decisions:p.decisions}));bind('open-flags',()=>document.querySelector('.card.mt').scrollIntoView());document.querySelectorAll('[data-flag]').forEach(el=>el.onclick=()=>{const f=p.flags[el.dataset.flag];f.status=f.status==='open'?'resolved':'open';f.date=new Date().toISOString();save();review();});document.querySelectorAll('[data-decision]').forEach(el=>el.onclick=()=>{p.decisions[el.dataset.decision]={action:el.dataset.action,proposed_answer:$('#answer-'+el.dataset.n).value.trim(),note:$('#note-'+el.dataset.n).value,date:new Date().toISOString()};save();$('#decision-'+el.dataset.n).textContent='Saved · '+el.dataset.action;toast('Review decision saved locally.');});
+const reviewPageSize=48;
+async function review(page=0){
+ screen='review';
+ root.innerHTML='<p class="notice">Loading source review…</p>';
+ const loading=root.firstElementChild;
+ try{await getManifest();}
+ catch{
+    if(screen!=='review'||root.firstElementChild!==loading)return;
+    root.innerHTML='<p class="notice warning">Source review could not load.</p><button id="retry-sources">Retry</button>';
+    bind('retry-sources',()=>review(page));
+    return;
+ }
+ if(screen!=='review'||root.firstElementChild!==loading)return;
+ const count=manifest.sources.length;
+ const start=page*reviewPageSize;
+ const sourceNav=count<=reviewPageSize?'':`<div class="row mt" aria-label="Source pages"><button id="source-prev" ${page?'':'disabled'}>Previous sources</button><span class="fine" role="status">${count?start+1:0}–${Math.min(start+reviewPageSize,count)} of ${count}</span><button id="source-next" ${start+reviewPageSize<count?'':'disabled'}>Next sources</button></div>`;
+ const referenceCount=manifest.sources.filter(s=>s.status!=='USABLE').length;
+ const flags=Object.values(p.flags),sourceQuestions=new Map(bank.map(q=>[q.source_id,q]));root.innerHTML=`<p class="eyebrow">Reviewer workspace · Answers visible</p><h1>Sources, not shortcuts.</h1><p class="muted">${manifest.sources.length} source files inventoried. ${new Set(bank.map(q=>q.source_group_id)).size} distinct visual source groups support scored tasks. ${referenceCount} ${referenceCount===1?'remains':'remain'} teaching references or alternate annotated views.</p><div class="row"><button id="export-flags">Export flags & decisions</button><button id="open-flags">${flags.filter(f=>f.status==='open').length} open image flags</button></div><div class="card mt"><h3>Learner image flags</h3>${flags.length?flags.map(f=>`<div class="rationale"><p>${esc(byId[f.question_id]?.tested_concept||retired.find(q=>q.question_id===f.question_id)?.tested_concept||f.question_id)} · ${esc(f.status)}${retired.some(q=>q.question_id===f.question_id)?' · Reference only':''}</p><p>${esc(f.note)}</p><button data-flag="${esc(f.question_id)}">${f.status==='open'?'Mark resolved':'Reopen flag'}</button></div>`).join(''):'<p class="fine">No image flags yet. Use Flag image during a quiz to record a problem.</p>'}</div>${sourceNav}<div class="grid mt">${manifest.sources.slice(start,start+reviewPageSize).map(s=>{const citation=s.source_citation||{},q=sourceQuestions.get(s.source_id),decision=p.decisions[s.source_id],variant=q?s.variants?.find(v=>v.variant_id===q.variant_id):null,proposed=decision?.proposed_answer||q?.options?.[q.correct_index]||s.tested_concept||'';return `<article class="card review-item"><span class="tag">${esc(s.status)}</span><h3 class="mt">${esc(s.tested_concept)}</h3><img class="review-img" src="${esc(s.display_asset||s.original_asset)}" alt="Teaching source for review" loading="lazy" decoding="async"><p>${esc(s.study_status_note||s.review_reason)}</p><p class="fine"><strong>Ground truth</strong><br>${esc(q?.ground_truth_confidence||'Not scored')} confidence · ${esc(q?.ground_truth_basis||s.ground_truth_basis||'No basis recorded')}</p><p class="fine"><strong>Accepted synonyms</strong><br>${q?.accepted_synonyms?.length?q.accepted_synonyms.map(esc).join(', '):'None recorded'}</p><p class="fine"><strong>Source group and transform</strong><br>${esc(s.source_group_id)} · ${esc(variant?.transform?.type||s.transform?.type||'No scored transform')} · ${esc(variant?.transform?.reason||s.transform?.reason||'')}</p><details><summary>Source and full image</summary><a href="${esc(s.original_asset||s.display_asset)}" target="_blank" rel="noopener">Open review image at full size</a><p>${esc(s.relative_path)}<br>${esc(citation.document||'Source not recorded')}${citation.page==null?' (page not verified)':`, p. ${citation.page}`}</p><p>${esc(s.source_id)}</p></details><label for="answer-${s.source_id}">Proposed correct answer</label><input id="answer-${s.source_id}" value="${esc(proposed)}"><label for="note-${s.source_id}" class="mt">Review note or correction rationale</label><textarea id="note-${s.source_id}">${esc(decision?.note||'')}</textarea><div class="pill-actions mt">${[['approve','approve transformation'],['retain','retain'],['crop','crop'],['exclude','exclude'],['needs_review','needs review']].map(([a,label])=>`<button data-decision="${esc(s.source_id)}" data-action="${a}" data-n="${s.source_id}">${label}</button>`).join('')}</div><p class="fine" id="decision-${s.source_id}">${esc(decision?.action||'No local decision')}</p></article>`;}).join('')}</div><p class="notice mt">Review decisions are saved locally and exportable. They do not silently alter the scored bank. Approved corrections need a rebuilt and validated bank before activation.</p>`;
+ bind('source-prev',()=>{review(page-1);window.scrollTo(0,0);});
+ bind('source-next',()=>{review(page+1);window.scrollTo(0,0);});
+ bind('export-flags',()=>download('reproduction-image-review.json',{schema_version:1,bank_version:bankVersion,flags:p.flags,decisions:p.decisions}));bind('open-flags',()=>document.querySelector('.card.mt').scrollIntoView());document.querySelectorAll('[data-flag]').forEach(el=>el.onclick=()=>{const f=p.flags[el.dataset.flag];f.status=f.status==='open'?'resolved':'open';f.date=new Date().toISOString();save();review(page);});document.querySelectorAll('[data-decision]').forEach(el=>el.onclick=()=>{p.decisions[el.dataset.decision]={action:el.dataset.action,proposed_answer:$('#answer-'+el.dataset.n).value.trim(),note:$('#note-'+el.dataset.n).value,date:new Date().toISOString()};save();$('#decision-'+el.dataset.n).textContent='Saved · '+el.dataset.action;toast('Review decision saved locally.');});
 }
 document.addEventListener('keydown', event => {
     const { key, target } = event;
@@ -377,47 +505,49 @@ document.addEventListener('keydown', event => {
         (zoom > 1 ? $('#fit') : $('#zoom-in'))?.click();
     }
 });
-const DATA_VERSION='option-feedback-1';
+const DATA_VERSION='dev';
 
-async function loadSection(section, includeExtras=false){
-    const fetchData=name=>fetch(`${section.dataRoot}/${name}.json?v=${DATA_VERSION}`);
-    const [questionBank,sourceManifest,coverageData,remediationData]=await Promise.all([
-        fetchData('question-bank').then(response=>{
-            if(!response.ok)throw Error('Question bank is missing.');
-            return response.json();
-        }),
-        fetchData('source-manifest').then(response=>response.json()),
-        includeExtras?fetchData('coverage').then(response=>response.ok?response.json():{lectures:{}}).catch(()=>({lectures:{}})):{lectures:{}},
-        includeExtras?fetchData('flag-remediation').then(response=>response.ok?response.json():null).catch(()=>null):null,
-    ]);
-    return [questionBank,sourceManifest,coverageData,remediationData];
+async function fetchData(section,name){
+    const response=await fetch(`${section.dataRoot}/${name}.json?v=${DATA_VERSION}`);
+    if(!response.ok)throw Error(`${section.label||CONFIG.title}: ${name.replaceAll('-',' ')} could not load.`);
+    return response.json();
+}
+
+function getManifest(){
+    if(manifest)return Promise.resolve(manifest);
+    if(!manifestRequest){
+        const sections=combinedMode?STUDY_SECTIONS:[CONFIG];
+        manifestRequest=Promise.all(sections.map(section=>fetchData(section,'source-manifest'))).then(manifests=>{
+            const sources=new Map();
+            for(const {sources: entries} of manifests){
+                for(const source of entries){
+                    const previous=sources.get(source.source_id);
+                    const variants=new Map([...(previous?.variants||[]),...(source.variants||[])]
+                        .map(variant=>[variant.variant_id,variant]));
+                    sources.set(source.source_id,{...previous,...source,variants:[...variants.values()]});
+                }
+            }
+            manifest={sources:[...sources.values()]};
+            return manifest;
+        }).finally(()=>{manifestRequest=undefined;});
+    }
+    return manifestRequest;
+}
+
+function getCoverage(){
+    coverageRequest??=fetchData(CONFIG,'coverage').then(data=>{coverage=data;})
+        .catch(error=>{coverageRequest=undefined;throw error;});
+    return coverageRequest;
 }
 
 async function loadCombined(){
-    const sections=await Promise.all(STUDY_SECTIONS.map(async section=>{
-        const [questionBank,sourceManifest]=await loadSection(section);
-        return {section,questionBank,sourceManifest};
-    }));
-    const questions=[];
-    const caseDefinitions=[];
-    const retiredQuestions=[];
-    const sources=new Map();
-    for(const {section,questionBank,sourceManifest} of sections){
-        questions.push(...questionBank.questions.map(q=>({...q,studySection:section.id})));
-        caseDefinitions.push(...(questionBank.cases||[]));
-        retiredQuestions.push(...(questionBank.retired_questions||[]));
-        for(const source of sourceManifest.sources){
-            const previous=sources.get(source.source_id);
-            if(!previous){
-                sources.set(source.source_id,source);
-                continue;
-            }
-            const variants=new Map((previous.variants||[]).map(variant=>[variant.variant_id,variant]));
-            for(const variant of source.variants||[])variants.set(variant.variant_id,variant);
-            sources.set(source.source_id,{...previous,...source,variants:[...variants.values()]});
-        }
-    }
-    return [{questions,cases:caseDefinitions,retired_questions:retiredQuestions,bank_version:DATA_VERSION},{sources:[...sources.values()]},{lectures:{}},null];
+    const sections=await Promise.all(STUDY_SECTIONS.map(async section=>[section,await fetchData(section,'question-bank')]));
+    return {
+        questions:sections.flatMap(([section,bank])=>bank.questions.map(q=>({...q,studySection:section.id}))),
+        cases:sections.flatMap(([,bank])=>bank.cases||[]),
+        retired_questions:sections.flatMap(([,bank])=>bank.retired_questions||[]),
+        bank_version:DATA_VERSION,
+    };
 }
 
 function combinedSettings(saved){
@@ -438,9 +568,13 @@ function combinedSettings(saved){
 }
 
 try{
- const [b,m,c,rem]=combinedMode?await loadCombined():await loadSection(CONFIG,!caseMode);
- document.title=CONFIG.title;document.querySelector('.brand-sub').textContent=CONFIG.brand;document.querySelector('.brand').href=CONFIG.homeUrl;document.querySelector('#app-footer').textContent=CONFIG.footer;remediation=rem;bank=b.questions;cases=b.cases||[];retired=b.retired_questions||[];bankVersion=b.bank_version;manifest=m;coverage=c;if(combinedMode)settings=combinedSettings();try{const saved=JSON.parse(localStorage.getItem(PREF_KEY)||'null');if(saved?.schema_version===1)settings=combinedMode?combinedSettings(saved):normalizeSettings(saved,bank);}catch{toast('Saved menu preferences could not be loaded.');}if(thirdPartyLink)settings={...settings,origin:'third_party',collection:'all',category:'all',filter:'all',skill:'all'};
+ const [b,rem]=await Promise.all([
+    combinedMode?loadCombined():fetchData(CONFIG,'question-bank'),
+    caseMode||combinedMode?null:fetchData(CONFIG,'flag-remediation').catch(()=>null),
+ ]);
+ document.title=CONFIG.title;document.querySelector('.brand-sub').textContent=CONFIG.brand;document.querySelector('.brand').href=CONFIG.homeUrl;document.querySelector('#app-footer').textContent=CONFIG.footer;remediation=rem;bank=b.questions;cases=b.cases||[];retired=b.retired_questions||[];bankVersion=DATA_VERSION==='dev'?b.bank_version:DATA_VERSION;if(combinedMode)settings=combinedSettings();try{const saved=JSON.parse(localStorage.getItem(PREF_KEY)||'null');if(saved?.schema_version===1)settings=combinedMode?combinedSettings(saved):normalizeSettings(saved,bank);}catch{toast('Saved menu preferences could not be loaded.');}if(thirdPartyLink)settings={...settings,origin:'third_party',collection:'all',category:'all',filter:'all',skill:'all'};
  byId=Object.fromEntries(bank.map(q=>[q.question_id,q]));
+ cases=cases.filter(c=>Array.isArray(c.question_ids)&&c.question_ids.length&&c.question_ids.every(id=>byId[id]));
  try{
     const raw=localStorage.getItem(KEY);
     const oldSupplementary=CONFIG.id==='pathology'?localStorage.getItem(SUPPLEMENTARY_KEY):null;
@@ -448,12 +582,12 @@ try{
     else if(!caseMode&&!combinedMode){
         const previous=localStorage.getItem(LEGACY_KEY);
         const legacyBank=oldSupplementary?bank.filter(q=>q.source_origin==='lecture'):bank;
-        if(previous)p=splitLegacyProgress(JSON.parse(previous),legacyBank,manifest.sources);
+        if(previous)p=splitLegacyProgress(JSON.parse(previous),legacyBank,(await getManifest()).sources);
     }
     if(oldSupplementary&&!p.supplementaryProgressImported){
         try{
             p=mergeSupplementaryProgress(p,JSON.parse(oldSupplementary),
-                bank.filter(q=>q.source_origin==='third_party'),manifest.sources.filter(s=>s.source_origin==='third_party'));
+                bank.filter(q=>q.source_origin==='third_party'),(await getManifest()).sources.filter(s=>s.source_origin==='third_party'));
         }catch{toast('Earlier 3rd Party progress could not be loaded.');}
     }
     reconcileFlags(p,remediation);save();
