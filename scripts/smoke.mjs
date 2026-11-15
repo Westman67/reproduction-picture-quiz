@@ -106,6 +106,28 @@ try {
         console.log(`OK ${bank}: answered, reviewed, history shown, manifest loaded on demand`);
         await page.close();
     }
+    const maskPage=await browser.newPage();
+    maskPage.setDefaultTimeout(10000);
+    await maskPage.goto(new URL('?bank=physiology',base).href);
+    await maskPage.locator('#start').waitFor();
+    for(const lecture of ['R1','R2','R3','R5','R6','R7']){
+        await maskPage.locator(`input[name=lecture][value=${lecture}]`).uncheck();
+    }
+    await maskPage.locator('#start').click();
+    await maskPage.waitForFunction(()=>document.querySelector('#quiz-image')?.naturalWidth>0);
+    const masked=await maskPage.locator('#quiz-image').getAttribute('src');
+    await maskPage.locator('#zoom-in').click();
+    assert.equal(await maskPage.locator('#quiz-image').getAttribute('src'),masked);
+    await maskPage.locator('#fullscreen').click();
+    assert.equal(await maskPage.locator('#full-image').getAttribute('src'),masked);
+    await maskPage.locator('#close-dialog').click();
+    await maskPage.locator('button.choice').first().click();
+    await maskPage.locator('#submit').click();
+    await maskPage.locator('#original').click();
+    assert.notEqual(await maskPage.locator('#quiz-image').getAttribute('src'),masked);
+    await maskPage.close();
+    console.log('OK R4 chart: same masked image in fit, zoom and full view; teaching original revealed afterwards');
+
     const casePage=await browser.newPage({viewport:{width:390,height:840}});
     casePage.setDefaultTimeout(10000);
     await casePage.addInitScript(()=>{window.confirm=()=>true;});
