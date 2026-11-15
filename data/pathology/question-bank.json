@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "study-skills1",
+  "bank_version": "r30-r32-1",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -16938,6 +16938,1067 @@
           "x": 52,
           "y": 52,
           "label": "The central cavity surface is continuous, without bridging bands."
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-lobular-involution",
+      "collection": "R31",
+      "study_skill": "mechanism",
+      "category": "Histology",
+      "tested_concept": "Involution of terminal duct lobular units",
+      "visual_target": "Involution of terminal duct lobular units",
+      "question_type": "Visual interpretation",
+      "stem": "Which change best connects the histology on the right with the lower mammographic density discussed in the lecture?",
+      "options": [
+        "Lobular involution leaves more fat relative to glandular tissue.",
+        "Expansion of milk-filled alveoli increases the glandular fraction.",
+        "Expansion of duct epithelium increases the glandular fraction.",
+        "Replacement of fat with dense cellular stroma reduces the glandular fraction."
+      ],
+      "choice_rationales": [
+        "The right field has abundant adipose tissue and fewer conspicuous glandular profiles. The lecture links involution of terminal duct lobular units to decreasing mammographic density.",
+        "The right field shows abundant fat, rather than fields of distended secretory units.",
+        "The glandular component occupies less of the right field.",
+        "The extensive pale adipose spaces explain the change better than a new dense stromal component."
+      ],
+      "correct_index": 0,
+      "explanation": "The right field has abundant adipose tissue and fewer conspicuous glandular profiles. The lecture links involution of terminal duct lobular units to decreasing mammographic density.",
+      "visual_clues": [
+        "The right field has more fat and fewer tightly packed glandular units."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-e0193d1a8220b4e8a762",
+      "source_group_id": "g-e87a1eb39bc9f3d4cee7",
+      "asset_id": "a-b84b029aac8da3d08077c879be6e9372504729d10950ca6717601b3049de3951",
+      "variant_id": "v-343c7e6cf4d9fb04edef",
+      "image": "assets/display/fc7a052bd62a43ae61fe4df4aec4a6d267b2289c6eaaf2841d2451c6b0778a3a.webp",
+      "zoom_image": "assets/zoom/fc7a052bd62a43ae61fe4df4aec4a6d267b2289c6eaaf2841d2451c6b0778a3a.png",
+      "original_image": "assets/originals/b84b029aac8da3d08077c879be6e9372504729d10950ca6717601b3049de3951.png",
+      "original_filename": "Normal Adult Breast Tissue TDLU - Histology.png + Breast After Menopause - Histology.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-mammary-secretion",
+      "collection": "R31",
+      "study_skill": "mechanism",
+      "category": "Histology",
+      "tested_concept": "Luminal storage during lactation",
+      "visual_target": "Luminal storage during lactation",
+      "question_type": "Visual interpretation",
+      "stem": "Which function best explains the expanded pale spaces inside many of the epithelial units?",
+      "options": [
+        "Transport of blood through capillaries.",
+        "Storage of milk secreted into the lumen.",
+        "Accumulation of lipid inside stromal adipocytes.",
+        "Involution with loss of the lobular epithelium."
+      ],
+      "choice_rationales": [
+        "These spaces are inside epithelial units, rather than vascular profiles.",
+        "The pale spaces are lumina within secretory units. R31 describes milk production and storage within the lumen during lactation.",
+        "The spaces are bounded by glandular epithelium.",
+        "The secretory epithelial units remain prominent in this field."
+      ],
+      "correct_index": 1,
+      "explanation": "The pale spaces are lumina within secretory units. R31 describes milk production and storage within the lumen during lactation.",
+      "visual_clues": [
+        "Follow the rim of epithelium around an expanded lumen."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-167a3a7a8bcb416b5322",
+      "source_group_id": "g-46733753f353e2c78336",
+      "asset_id": "a-d85b1042d2f5c727293475dfc930f5fde2900515c63009905ee4c3e4bab8bd98",
+      "variant_id": "v-f1b6bfdf7fe3577aa91d",
+      "image": "assets/display/bbafccbfea7079fd0a4ebe74500291edc058b3c5e9ce1a2089e26fce65f8c002.webp",
+      "zoom_image": "assets/zoom/bbafccbfea7079fd0a4ebe74500291edc058b3c5e9ce1a2089e26fce65f8c002.png",
+      "original_image": "assets/originals/d85b1042d2f5c727293475dfc930f5fde2900515c63009905ee4c3e4bab8bd98.png",
+      "original_filename": "Breast Lactational Change - Histology.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-duct-boundary",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Histology",
+      "tested_concept": "Breast duct boundaries and invasion",
+      "visual_target": "Breast duct boundaries and invasion",
+      "question_type": "Visual interpretation",
+      "stem": "Which finding in this field favors invasion over a proliferation confined to a preexisting duct?",
+      "options": [
+        "A round duct contains a proliferation bounded by an intact rim.",
+        "Epithelial cells form a continuous layer around an empty lumen.",
+        "Irregular glands are dispersed through the surrounding fibrous tissue.",
+        "Secretory units are clustered around a central collecting duct."
+      ],
+      "choice_rationales": [
+        "The irregular epithelial profiles extend throughout the surrounding tissue.",
+        "The field shows numerous irregular gland profiles dispersed through stroma.",
+        "The right-hand field on the lecture slide shows invasive carcinoma. Irregular gland profiles are scattered through pink fibrous tissue rather than confined to a single duct boundary.",
+        "The field lacks the orderly, localized arrangement of a lobular unit."
+      ],
+      "correct_index": 2,
+      "explanation": "The right-hand field on the lecture slide shows invasive carcinoma. Irregular gland profiles are scattered through pink fibrous tissue rather than confined to a single duct boundary.",
+      "visual_clues": [
+        "Track several separate irregular glands among the pink stromal bands."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-bed3dcd7b6fe7a7882e5",
+      "source_group_id": "g-7f6299babf86b000bf8a",
+      "asset_id": "a-76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9",
+      "variant_id": "v-4fe5199c0f041cda1610",
+      "image": "assets/display/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.webp",
+      "zoom_image": "assets/originals/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.png",
+      "original_image": "assets/originals/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.png",
+      "original_filename": "Mammographic Appearances Breast Cancer Histology - Histology.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 6
+        }
+      ],
+      "feedback_focus": [
+        {
+          "x": 37,
+          "y": 61,
+          "label": "Irregular gland profiles among fibrous tissue."
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-mammographic-morphology",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "Radiograph",
+      "tested_concept": "Calcifications versus architectural distortion",
+      "visual_target": "Calcifications versus architectural distortion",
+      "question_type": "Visual interpretation",
+      "stem": "Which pairing describes the dominant contrast between the mammograms?",
+      "options": [
+        "Left: a smooth round mass. Right: scattered round cysts.",
+        "Left: widespread radiating distortion. Right: only a small discrete focus.",
+        "Left: diffuse bilateral density. Right: no focal change.",
+        "Left: clustered bright foci. Right: an irregular center with radiating lines."
+      ],
+      "choice_rationales": [
+        "The left abnormality is a cluster of bright foci, and the right field demonstrates distortion.",
+        "The conspicuous radiating lines are in the right panel.",
+        "These are individual views with focal findings in each.",
+        "The left example highlights clustered calcifications. The right image shows a conspicuous irregular central density with radiating distortion in addition to bright foci."
+      ],
+      "correct_index": 3,
+      "explanation": "The left example highlights clustered calcifications. The right image shows a conspicuous irregular central density with radiating distortion in addition to bright foci.",
+      "visual_clues": [
+        "Compare the small bright foci in A with the lines extending from the center in B."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-a3e5ffecf8d966d6a603",
+      "source_group_id": "g-36ad9ff9b6deb214157a",
+      "asset_id": "a-a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248",
+      "variant_id": "v-d273903a488da2ef58b3",
+      "image": "assets/display/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.webp",
+      "zoom_image": "assets/originals/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.png",
+      "original_image": "assets/originals/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.png",
+      "original_filename": "DCIS Mammogram - Radiograph.png + Invasive Carcinoma Mammogram - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-breast-fluid-or-solid",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "Ultrasound",
+      "tested_concept": "Simple cyst versus solid breast lesion",
+      "visual_target": "Simple cyst versus solid breast lesion",
+      "question_type": "Visual interpretation",
+      "stem": "Which combination favors a fluid-filled lesion in one field and a solid lesion in the other?",
+      "options": [
+        "B is anechoic with posterior enhancement. A has low-level internal echoes.",
+        "A is anechoic with posterior enhancement. B has low-level internal echoes.",
+        "A and B both contain bright internal calcifications with shadows.",
+        "A and B both show echogenic solid material filling the lesion."
+      ],
+      "choice_rationales": [
+        "The simple cyst in B is dark internally and transmits sound, making tissue behind it brighter. The fibroadenoma in A retains internal echoes.",
+        "The visible transmission pattern and near-black fluid are in B.",
+        "Neither image shows a dominant calcified shadowing lesion.",
+        "The lumen of B is essentially anechoic."
+      ],
+      "correct_index": 0,
+      "explanation": "The simple cyst in B is dark internally and transmits sound, making tissue behind it brighter. The fibroadenoma in A retains internal echoes.",
+      "visual_clues": [
+        "Compare the echo pattern inside each lesion and the brightness immediately behind B."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-ac6fcdca6917afc9b5a7",
+      "source_group_id": "g-14cad7d731ea4914d5bb",
+      "asset_id": "a-e7e9ad6e61a5de105de2d7a66957a903bb90ee40fce50e2f1af8f1d2c30ef18a",
+      "variant_id": "v-d32b0a1f5b7b03b605c4",
+      "image": "assets/display/38687ad88289a1f245e1a5fd2ef0987c0c6093f2d686a59e8de1b791c8b99773.webp",
+      "zoom_image": "assets/zoom/38687ad88289a1f245e1a5fd2ef0987c0c6093f2d686a59e8de1b791c8b99773.png",
+      "original_image": "assets/originals/e7e9ad6e61a5de105de2d7a66957a903bb90ee40fce50e2f1af8f1d2c30ef18a.png",
+      "original_filename": "Fibroadenoma Ultrasound - Echo.png + Simple Breast Cyst Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-ovarian-stromal-pattern",
+      "collection": "R31",
+      "study_skill": "morphology",
+      "category": "Histology",
+      "tested_concept": "Ovarian cortex versus medulla",
+      "visual_target": "Ovarian cortex versus medulla",
+      "question_type": "Visual interpretation",
+      "stem": "Where would follicle maturation be assessed in this section?",
+      "options": [
+        "At the central hilum.",
+        "In the cortex beneath the outer surface.",
+        "Only in the vascular medulla.",
+        "In the adjacent uterine wall."
+      ],
+      "choice_rationales": [
+        "The peripheral follicles are outside the hilar region.",
+        "The section shows multiple follicles in the peripheral cortex. The more central medulla supports vascular and stromal structures.",
+        "The visible follicles are concentrated around the periphery.",
+        "The image shows an ovary, with follicles in its outer region."
+      ],
+      "correct_index": 1,
+      "explanation": "The section shows multiple follicles in the peripheral cortex. The more central medulla supports vascular and stromal structures.",
+      "visual_clues": [
+        "Look for round follicles of different sizes near the perimeter."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-c2edf14c1eb0fa0b83a7",
+      "source_group_id": "g-e7aa05164c59bcda9929",
+      "asset_id": "a-6d3f4e91860e97f61e9b545795627399f8831e1ae8490374e938da39684042ac",
+      "variant_id": "v-2e2749314704fd2249d8",
+      "image": "assets/display/90f564b9b3ca958c35fff3ba6a6582f06af696d9981c4348d5d47b71ef000419.webp",
+      "zoom_image": "assets/zoom/90f564b9b3ca958c35fff3ba6a6582f06af696d9981c4348d5d47b71ef000419.png",
+      "original_image": "assets/originals/6d3f4e91860e97f61e9b545795627399f8831e1ae8490374e938da39684042ac.png",
+      "original_filename": "Ovary Histology Follicles - Histology.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-ovarian-composition",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "CT",
+      "tested_concept": "Mixed fluid and soft tissue in an ovarian tumor",
+      "visual_target": "Mixed fluid and soft tissue in an ovarian tumor",
+      "question_type": "Visual interpretation",
+      "stem": "Which interpretation fits the lesion across both modalities?",
+      "options": [
+        "The lesion is uniformly solid in both views.",
+        "The lesion is a simple fluid collection without internal structure.",
+        "The lesion contains both fluid spaces and soft tissue.",
+        "The lesion is composed predominantly of gas."
+      ],
+      "choice_rationales": [
+        "Large low-echo and low-attenuation regions are present.",
+        "The left and right panels show complex internal components.",
+        "The ultrasound and CT provide complementary views of a complex, predominantly cystic epithelial teaching example with soft-tissue elements. Internal material makes a simple cyst interpretation inadequate.",
+        "The visible components are fluid and soft tissue, with no dominant gas pattern."
+      ],
+      "correct_index": 2,
+      "explanation": "The ultrasound and CT provide complementary views of a complex, predominantly cystic epithelial teaching example with soft-tissue elements. Internal material makes a simple cyst interpretation inadequate.",
+      "visual_clues": [
+        "Compare the dark regions with the denser internal material."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-89b264b9905a3b913bdf",
+      "source_group_id": "g-444fcf1e60873ad7b2b3",
+      "asset_id": "a-f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389",
+      "variant_id": "v-644429416553765a1d92",
+      "image": "assets/display/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.webp",
+      "zoom_image": "assets/originals/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.png",
+      "original_image": "assets/originals/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.png",
+      "original_filename": "Epithelial Ovarian Tumors US and CT - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-omental-spread",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "CT",
+      "tested_concept": "Omental disease in ovarian epithelial cancer",
+      "visual_target": "Omental disease in ovarian epithelial cancer",
+      "question_type": "Visual interpretation",
+      "stem": "A complex ovarian mass has been found. Which additional process is suggested by the arrowed anterior abdominal finding?",
+      "options": [
+        "A second lesion confined to a renal collecting system.",
+        "Isolated dilation of the urinary bladder.",
+        "Fluid confined within the primary adnexal lesion.",
+        "Peritoneal spread to the omentum."
+      ],
+      "choice_rationales": [
+        "The arrows are anterior to bowel rather than in a kidney.",
+        "The annotated soft tissue lies anteriorly in the abdomen, away from the bladder.",
+        "The omental finding is separate from the primary pelvic lesion.",
+        "The arrows identify an anterior sheet of abnormal omental soft tissue. The lecture illustrates omental caking as a site of spread of ovarian epithelial cancer."
+      ],
+      "correct_index": 3,
+      "explanation": "The arrows identify an anterior sheet of abnormal omental soft tissue. The lecture illustrates omental caking as a site of spread of ovarian epithelial cancer.",
+      "visual_clues": [
+        "The arrows follow a broad layer of abnormal tissue along the anterior abdomen."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-f5b8ffe0680d70566650",
+      "source_group_id": "g-8fcdb103465c092b5049",
+      "asset_id": "a-32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35",
+      "variant_id": "v-3e4258c1686c67ff937a",
+      "image": "assets/display/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.webp",
+      "zoom_image": "assets/originals/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.png",
+      "original_image": "assets/originals/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.png",
+      "original_filename": "Omental Caking CT - CT.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 20
+        }
+      ],
+      "feedback_focus": [
+        {
+          "x": 46,
+          "y": 18,
+          "label": "Anterior omental soft tissue."
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-gastric-ovarian-link",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Histology",
+      "tested_concept": "Gastric primary in ovarian metastasis",
+      "visual_target": "Gastric primary in ovarian metastasis",
+      "question_type": "Visual interpretation",
+      "stem": "A solid ovarian mass is imaged in A and sampled in B. Which primary site should be considered first given the cellular pattern?",
+      "options": [
+        "Stomach.",
+        "Endometrium.",
+        "Lung.",
+        "Cervix."
+      ],
+      "choice_rationales": [
+        "R31 uses the solid ovarian masses to illustrate a Krukenberg tumor. The stomach is the most common primary site discussed in the lecture.",
+        "The lecture pairs the ovarian findings and signet-ring morphology with a gastric primary.",
+        "The lecture directs the workup toward a gastric source for this ovarian tumor pattern.",
+        "The characteristic metastatic morphology in this example points to the stomach."
+      ],
+      "correct_index": 0,
+      "explanation": "R31 uses the solid ovarian masses to illustrate a Krukenberg tumor. The stomach is the most common primary site discussed in the lecture.",
+      "visual_clues": [
+        "A shows the solid ovarian mass. In B, pale material displaces many nuclei toward the cell edges."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-2b1a322b1ab1c9abef7d",
+      "source_group_id": "g-018f147810648434a6a9",
+      "asset_id": "a-2231d87e1bbffb1075f07e930d97b7b5d1a00dcb8bd36e12f31078796e8ea60b",
+      "variant_id": "v-60529db9d4851b664fd9",
+      "image": "assets/display/e6968a31eafecfa7c37d49fd3f6126a9e633096ba4a6f51c57c5aa423ab679a3.webp",
+      "zoom_image": "assets/zoom/e6968a31eafecfa7c37d49fd3f6126a9e633096ba4a6f51c57c5aa423ab679a3.png",
+      "original_image": "assets/originals/2231d87e1bbffb1075f07e930d97b7b5d1a00dcb8bd36e12f31078796e8ea60b.png",
+      "original_filename": "Krukenberg Tumor CT - CT.png + Krukenberg Tumor Illustration - Diagram.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-teratoma-components",
+      "collection": "R31",
+      "study_skill": "mechanism",
+      "category": "CT",
+      "tested_concept": "Differentiated tissue in a cystic ovarian mass",
+      "visual_target": "Differentiated tissue in a cystic ovarian mass",
+      "question_type": "Visual interpretation",
+      "stem": "Which process explains the combination of varied material within the cyst on CT and its gross appearance?",
+      "options": [
+        "Expansion of one population of ovarian stromal spindle cells.",
+        "Differentiation of germ cells into mature somatic tissues.",
+        "Accumulation of simple follicular fluid.",
+        "Uniform thickening of surface epithelium without other tissue types."
+      ],
+      "choice_rationales": [
+        "A stromal proliferation would not account for the mixture of differentiated materials shown.",
+        "The cystic lesion contains components of differing density on CT, and the opened specimen has hair and other differentiated material. R31 shows this combination in a mature teratoma.",
+        "The lesion contains distinct nonfluid components.",
+        "The varied gross and CT material suggests multiple differentiated tissues."
+      ],
+      "correct_index": 1,
+      "explanation": "The cystic lesion contains components of differing density on CT, and the opened specimen has hair and other differentiated material. R31 shows this combination in a mature teratoma.",
+      "visual_clues": [
+        "Compare heterogeneous contents on CT with the gross specimen."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-0ef020e2327abe57e24a",
+      "source_group_id": "g-c5a7b7e2f308ebda564a",
+      "asset_id": "a-52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e",
+      "variant_id": "v-a928e1712d651913c8e2",
+      "image": "assets/display/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.webp",
+      "zoom_image": "assets/originals/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.png",
+      "original_image": "assets/originals/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.png",
+      "original_filename": "Mature Teratoma CT - CT.png + Mature Teratoma Gross - Gross.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-seminoma-ultrasound",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Homogeneous solid testicular mass",
+      "visual_target": "Homogeneous solid testicular mass",
+      "question_type": "Visual interpretation",
+      "stem": "Which diagnosis best matches the lecture example of this well-circumscribed homogeneous intratesticular mass?",
+      "options": [
+        "Hydrocele.",
+        "Inguinal hernia.",
+        "Seminoma.",
+        "Varicocele."
+      ],
+      "choice_rationales": [
+        "The finding is a solid area within the parenchyma, not fluid surrounding it.",
+        "The lesion is within the testis rather than a separate bowel loop passing beside it.",
+        "The circumscribed dark solid lesion is within the testis. R31 pairs a homogeneous hypoechoic ovoid testicular mass with seminoma.",
+        "This is a single solid mass instead of multiple tubular structures outside the testis."
+      ],
+      "correct_index": 2,
+      "explanation": "The circumscribed dark solid lesion is within the testis. R31 pairs a homogeneous hypoechoic ovoid testicular mass with seminoma.",
+      "visual_clues": [
+        "The arrow points to a dark solid lesion inside the testicular outline."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-5d6e0ce8eb258e92972c",
+      "source_group_id": "g-7196fd108bc7d9527d1b",
+      "asset_id": "a-710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7",
+      "variant_id": "v-ab8e0153dd44d8d1ff8a",
+      "image": "assets/display/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.webp",
+      "zoom_image": "assets/originals/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.png",
+      "original_image": "assets/originals/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.png",
+      "original_filename": "Seminoma Testicular Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 29
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-fibroid-location",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "MRI",
+      "tested_concept": "Fibroid location across MRI examples",
+      "visual_target": "Fibroid location across MRI examples",
+      "question_type": "Visual interpretation",
+      "stem": "Which sequence describes the principal relationship of the masses to the uterine wall and cavity?",
+      "options": [
+        "A projects into the cavity. B projects outward. C lies in the wall.",
+        "A projects outward. B lies in the wall. C projects into the cavity.",
+        "A, B, and C all project inward into the cavity.",
+        "A lies in the wall. B projects into the cavity. C projects outward."
+      ],
+      "choice_rationales": [
+        "The lesion outlined by bright cavity contents is in B, and the outward bulge is in C.",
+        "B is the cavity projection. C is the external projection.",
+        "The dominant lesions vary in their relationship to the cavity and outer contour.",
+        "The lecture compares intramural, submucosal, and subserosal locations in this order. Use the cavity and outer uterine outline as landmarks."
+      ],
+      "correct_index": 3,
+      "explanation": "The lecture compares intramural, submucosal, and subserosal locations in this order. Use the cavity and outer uterine outline as landmarks.",
+      "visual_clues": [
+        "Compare each mass with the bright cavity and the external uterine contour."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-f5e660190fe657269d31",
+      "source_group_id": "g-b799bb172e01f5b17b9d",
+      "asset_id": "a-4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01",
+      "variant_id": "v-13886a01585d4a004426",
+      "image": "assets/display/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.webp",
+      "zoom_image": "assets/originals/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.png",
+      "original_image": "assets/originals/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.png",
+      "original_filename": "Intramural Fibroid MRI - Radiograph.png + Submucosal Fibroid MRI - Radiograph.png + Subserosal Fibroid MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 35
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-fibroid-vascularity",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Vascularity within a submucosal lesion",
+      "visual_target": "Vascularity within a submucosal lesion",
+      "question_type": "Visual interpretation",
+      "stem": "Which interpretation is supported by the color distribution in this saline study?",
+      "options": [
+        "Vascularity distributed through the lesion supports the submucosal fibroid example.",
+        "A single entering vessel is the only color signal and supports a polyp.",
+        "The absence of color supports an avascular intracavitary clot.",
+        "Color is confined to adjacent uterine tissue with a completely avascular mass."
+      ],
+      "choice_rationales": [
+        "Color appears throughout the lesion. The lecture’s paired teaching examples contrast this vascular distribution with a focal feeding vessel in an endometrial polyp.",
+        "Signals are distributed across the lesion rather than limited to an isolated point of entry.",
+        "Multiple intralesional color signals are visible.",
+        "Signals extend through the lesion itself."
+      ],
+      "correct_index": 0,
+      "explanation": "Color appears throughout the lesion. The lecture’s paired teaching examples contrast this vascular distribution with a focal feeding vessel in an endometrial polyp.",
+      "visual_clues": [
+        "Look across the lesion rather than following just one isolated vessel."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-68e8f699372abbddc272",
+      "source_group_id": "g-8bea08ae197cc36bf642",
+      "asset_id": "a-197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7",
+      "variant_id": "v-d7db4f62a3ded2a3e30a",
+      "image": "assets/display/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.webp",
+      "zoom_image": "assets/originals/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.png",
+      "original_image": "assets/originals/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.png",
+      "original_filename": "Saline Infused Sonogram Color Doppler - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 37
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 36
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 38
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-thickening-specificity",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Limit of endometrial morphology alone",
+      "visual_target": "Limit of endometrial morphology alone",
+      "question_type": "Visual interpretation",
+      "stem": "These are two different patients with postmenopausal bleeding. What shared limitation matters when interpreting the images?",
+      "options": [
+        "Any thickening identifies the same malignancy in both patients.",
+        "Endometrial thickening has overlapping causes and does not identify the histologic diagnosis.",
+        "Visible thickening rules out an endometrial cause of bleeding.",
+        "Both images establish that a single stalk supplies the lesion."
+      ],
+      "choice_rationales": [
+        "The two lecture examples have different causes despite a shared appearance.",
+        "R31 shows a thickened endometrium in both endometrial cancer and hyperplasia examples. The shared finding is useful for recognizing abnormality but cannot establish histology.",
+        "Both lecture diagnoses are endometrial processes.",
+        "The lecture uses a separate Doppler image to show that feature."
+      ],
+      "correct_index": 1,
+      "explanation": "R31 shows a thickened endometrium in both endometrial cancer and hyperplasia examples. The shared finding is useful for recognizing abnormality but cannot establish histology.",
+      "visual_clues": [
+        "Focus on how similar the thickened region can look in different diagnoses."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-6229b0b5f591be12a01b",
+      "source_group_id": "g-1a831eabe1e4e9c7dc81",
+      "asset_id": "a-600efff42c401116b8920066b51be797a3f7e7f4975f4bcec610c9e7a1562278",
+      "variant_id": "v-721ee7b5dd10d75b5f54",
+      "image": "assets/display/d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa.webp",
+      "zoom_image": "assets/zoom/d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa.png",
+      "original_image": "assets/originals/600efff42c401116b8920066b51be797a3f7e7f4975f4bcec610c9e7a1562278.png",
+      "original_filename": "Endometrial Cancer Ultrasound - Echo.png + Endometrial Hyperplasia Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 38
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-cervical-extension",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "MRI",
+      "tested_concept": "Upstream urinary tract consequences of pelvic disease",
+      "visual_target": "Upstream urinary tract consequences of pelvic disease",
+      "question_type": "Visual interpretation",
+      "stem": "In the lecture’s cervical cancer staging examples, what complication should the renal study raise?",
+      "options": [
+        "A primary bladder lesion causing an intravesical stone.",
+        "Isolated disease of the renal cortex with an undilated collecting system.",
+        "Urinary outflow obstruction affecting the ureter and collecting system.",
+        "A uterine cavity lesion confined to the endometrium."
+      ],
+      "choice_rationales": [
+        "The renal image shows upstream dilation rather than a bladder stone.",
+        "The visible finding is dilation of the collecting system.",
+        "The renal study shows dilation of the collecting system and ureter. In the lecture it accompanies the cervical cancer staging examples and raises concern for ureteric obstruction. The renal image alone does not prove the level or cause.",
+        "The accompanying renal finding involves the urinary tract."
+      ],
+      "correct_index": 2,
+      "explanation": "The renal study shows dilation of the collecting system and ureter. In the lecture it accompanies the cervical cancer staging examples and raises concern for ureteric obstruction. The renal image alone does not prove the level or cause.",
+      "visual_clues": [
+        "On the renal image, look at the branching central dark space and the adjacent tubular dilation."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-5918212ae044ec9dc39d",
+      "source_group_id": "g-b30f7dfb0109c4c8935c",
+      "asset_id": "a-0dc2f1dd73be8c600c8f20c7996f932c23579227f522511af78a9f660040a2fc",
+      "variant_id": "v-e76389a428015ee16cbb",
+      "image": "assets/display/277a25424713171eff4e75a01804f92533e0df32f81f50fcad67c87f79cf46ec.webp",
+      "zoom_image": "assets/zoom/277a25424713171eff4e75a01804f92533e0df32f81f50fcad67c87f79cf46ec.png",
+      "original_image": "assets/originals/0dc2f1dd73be8c600c8f20c7996f932c23579227f522511af78a9f660040a2fc.png",
+      "original_filename": "Cervical Cancer MRI 2 - Radiograph.png + Hydroureter and Dilated Renal Pelvis Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 39
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-prostate-zone",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "MRI",
+      "tested_concept": "Peripheral lesion versus periurethral hyperplasia",
+      "visual_target": "Peripheral lesion versus periurethral hyperplasia",
+      "question_type": "Visual interpretation",
+      "stem": "How does the location of the arrowed lesion compare with the zone usually enlarged in benign prostatic hyperplasia?",
+      "options": [
+        "The lesion is periurethral. Benign hyperplasia usually enlarges the peripheral zone.",
+        "The lesion is in the central zone. Benign hyperplasia usually enlarges the anterior stroma.",
+        "The lesion and usual benign hyperplasia both arise in the anterior stroma.",
+        "The lesion is peripheral. Benign hyperplasia usually enlarges the periurethral transition zone."
+      ],
+      "choice_rationales": [
+        "The lesion is away from the urethra. The transition zone is the usual site of hyperplasia.",
+        "The lecture identifies the arrowed lesion as peripheral and associates hyperplasia with the transition zone.",
+        "The peripheral location of the arrow and the periurethral origin of hyperplasia differ.",
+        "The arrow points to a peripheral lesion in the R31 example. The transition zone surrounds the proximal urethra and is the typical origin of benign prostatic hyperplasia."
+      ],
+      "correct_index": 3,
+      "explanation": "The arrow points to a peripheral lesion in the R31 example. The transition zone surrounds the proximal urethra and is the typical origin of benign prostatic hyperplasia.",
+      "visual_clues": [
+        "Identify the gland edge by the arrow, then compare with the central urethral region."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-6857f4f9765ab2479d02",
+      "source_group_id": "g-ff6233a41d4103ab8e3e",
+      "asset_id": "a-a7255d13f57c87999fa6e0cec7f9918be6c0d730d81edab40b54c7d4e6b6fbf7",
+      "variant_id": "v-0d565f4a8f42d0f82e20",
+      "image": "assets/display/1343a6286e76616c9c7a040aa2c9f65fb06c02b64c60e72255564d71ea106ab2.webp",
+      "zoom_image": "assets/zoom/1343a6286e76616c9c7a040aa2c9f65fb06c02b64c60e72255564d71ea106ab2.png",
+      "original_image": "assets/originals/a7255d13f57c87999fa6e0cec7f9918be6c0d730d81edab40b54c7d4e6b6fbf7.png",
+      "original_filename": "Prostate Cancer Mass in PZ MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 43
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 41
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-urethral-injury",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Radiograph",
+      "tested_concept": "Stricture versus contrast extravasation",
+      "visual_target": "Stricture versus contrast extravasation",
+      "question_type": "Visual interpretation",
+      "stem": "Which finding would support urethral injury after a straddle mechanism?",
+      "options": [
+        "B shows contrast leaving the expected urethral lumen.",
+        "A shows focal narrowing with contrast still contained.",
+        "A shows contrast collecting outside the urethral lumen.",
+        "Both show the same caliber change without extravasation."
+      ],
+      "choice_rationales": [
+        "The left urethrogram shows a narrowed but contained passage. In the right example, contrast extends beyond the expected channel, supporting a tear.",
+        "The contained narrowing is the stricture comparison, whereas contrast outside the channel supports injury.",
+        "The contrast in A remains within the outlined passage.",
+        "Only B shows contrast beyond the expected urethral outline."
+      ],
+      "correct_index": 0,
+      "explanation": "The left urethrogram shows a narrowed but contained passage. In the right example, contrast extends beyond the expected channel, supporting a tear.",
+      "visual_clues": [
+        "Follow the white contrast column at each arrow."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-518e8a78ba927ab25145",
+      "source_group_id": "g-18cb9e1eac0e92151a30",
+      "asset_id": "a-4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b",
+      "variant_id": "v-39b7180215b71e345e52",
+      "image": "assets/display/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.webp",
+      "zoom_image": "assets/originals/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.png",
+      "original_image": "assets/originals/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.png",
+      "original_filename": "Urethral Stricture Retrograde Urethrogram - Radiograph.png + Urethral Tear Retrograde Urethrogram - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-urethral-pouch",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Periurethral outpouching across modalities",
+      "visual_target": "Periurethral outpouching across modalities",
+      "question_type": "Visual interpretation",
+      "stem": "In a patient with urinary dribbling and pelvic discomfort, which anatomic finding best accounts for these paired images?",
+      "options": [
+        "A narrowed segment confined to the urethral lumen.",
+        "A fluid-containing outpouching adjacent to the urethra.",
+        "A mass within the bladder dome.",
+        "A collection surrounding the renal pelvis."
+      ],
+      "choice_rationales": [
+        "The arrows mark structures adjacent to the lumen rather than a discrete narrowing inside it.",
+        "The arrows in the ultrasound and MRI identify periurethral fluid-containing structures consistent with the lecture’s example of a urethral diverticulum.",
+        "The abnormality lies below the bladder, next to the urethra.",
+        "These are low pelvic views of the periurethral region."
+      ],
+      "correct_index": 1,
+      "explanation": "The arrows in the ultrasound and MRI identify periurethral fluid-containing structures consistent with the lecture’s example of a urethral diverticulum.",
+      "visual_clues": [
+        "The paired arrows localize the finding near the urethra below the bladder."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-6de15ee81903c2f669d7",
+      "source_group_id": "g-3aed654ef8de5e0704d9",
+      "asset_id": "a-69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f",
+      "variant_id": "v-8e4bc25f375e8558416a",
+      "image": "assets/display/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.webp",
+      "zoom_image": "assets/originals/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.png",
+      "original_image": "assets/originals/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.png",
+      "original_filename": "Urethral Diverticulum Ultrasound - Echo.png + Urethral Diverticulum MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-hydrocele-fetal",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Ultrasound",
+      "tested_concept": "Fetal processus vaginalis and scrotal fluid",
+      "visual_target": "Fetal processus vaginalis and scrotal fluid",
+      "question_type": "Visual interpretation",
+      "stem": "Which developmental relationship explains the fluid in this fetal teaching example?",
+      "options": [
+        "An absent tunica vaginalis forces fluid into the testicular tissue.",
+        "The ureters normally end in the developing scrotum.",
+        "A still-patent processus vaginalis permits communication during development.",
+        "A completely obliterated processus vaginalis creates an open passage."
+      ],
+      "choice_rationales": [
+        "The dark fluid surrounds rather than infiltrates the testis.",
+        "The relevant transient communication is the processus vaginalis.",
+        "The teaching slide and transcript show fluid around descended fetal testes. A patent passage is expected in this developmental example and permits continuity with peritoneal fluid.",
+        "Obliteration interrupts the communication shown in the lecture."
+      ],
+      "correct_index": 2,
+      "explanation": "The teaching slide and transcript show fluid around descended fetal testes. A patent passage is expected in this developmental example and permits continuity with peritoneal fluid.",
+      "visual_clues": [
+        "Look for fluid around, rather than within, the fetal testes."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-3e21fdcbea44886d2a0a",
+      "source_group_id": "g-142a583cbd4e94fbecb5",
+      "asset_id": "a-fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd",
+      "variant_id": "v-8aacb5c88579a3c6cf81",
+      "image": "assets/display/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.webp",
+      "zoom_image": "assets/originals/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.png",
+      "original_image": "assets/originals/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.png",
+      "original_filename": "Hydrocele Fetal Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 11
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-follicle-flow",
+      "collection": "R32",
+      "study_skill": "interpretation",
+      "category": "Ultrasound",
+      "tested_concept": "Perfusion comparison in resting and active ovaries",
+      "visual_target": "Perfusion comparison in resting and active ovaries",
+      "question_type": "Visual interpretation",
+      "stem": "Which finding distinguishes the active ovary in B in this sequence?",
+      "options": [
+        "The active ovary has no flow on Doppler.",
+        "The active ovary has higher resistance than the resting comparison.",
+        "The compared signals represent only uterine vessels.",
+        "The active ovary shows increased flow with a lower-resistance pattern."
+      ],
+      "choice_rationales": [
+        "The second panel shows conspicuous color flow.",
+        "The lecture describes a shift toward lower resistance during dominant follicle development.",
+        "The lecture panels compare ovarian circulation.",
+        "The resting example on the left is used as the high-resistance comparison. R32 discusses increased flow at lower resistance as the dominant follicle develops."
+      ],
+      "correct_index": 3,
+      "explanation": "The resting example on the left is used as the high-resistance comparison. R32 discusses increased flow at lower resistance as the dominant follicle develops.",
+      "visual_clues": [
+        "Compare the Doppler signal and waveforms between the two panels."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-294b758107014033d4df",
+      "source_group_id": "g-92ce143ade2afc76a2f4",
+      "asset_id": "a-66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7",
+      "variant_id": "v-d01bc730d4d3a8a2e0fb",
+      "image": "assets/display/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.webp",
+      "zoom_image": "assets/originals/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.png",
+      "original_image": "assets/originals/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.png",
+      "original_filename": "Resting Ovary Doppler Ultrasound - Echo.png + Active Ovary Doppler Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 24
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-uterine-infiltration",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "MRI",
+      "tested_concept": "Myometrial localization in the adenomyosis example",
+      "visual_target": "Myometrial localization in the adenomyosis example",
+      "question_type": "Visual interpretation",
+      "stem": "Which tissue relationship explains why the abnormality can involve the uterine wall?",
+      "options": [
+        "Endometrial-type tissue is within the myometrium.",
+        "Endometrial-type tissue is restricted to the ovarian surface.",
+        "A patent peritoneal tract enters the uterine cavity.",
+        "A vascular stalk projects into the uterine cavity."
+      ],
+      "choice_rationales": [
+        "The R32 lecture directs attention to the uterine junctional zone. Adenomyosis places endometrial-type tissue within the muscular wall.",
+        "That location would account for an adnexal finding.",
+        "The abnormality relates to tissue within the myometrium.",
+        "The focal stalk is illustrated in the separate polyp case."
+      ],
+      "correct_index": 0,
+      "explanation": "The R32 lecture directs attention to the uterine junctional zone. Adenomyosis places endometrial-type tissue within the muscular wall.",
+      "visual_clues": [
+        "Find the inner myometrium adjacent to the endometrial lining."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-2faeef7833eccb5761e9",
+      "source_group_id": "g-f0d43e57b0ce947831a1",
+      "asset_id": "a-a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35",
+      "variant_id": "v-db5e3dc3df4e8288f150",
+      "image": "assets/display/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.webp",
+      "zoom_image": "assets/originals/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.png",
+      "original_image": "assets/originals/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.png",
+      "original_filename": "Endometrioma MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 27
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 12
         }
       ]
     }

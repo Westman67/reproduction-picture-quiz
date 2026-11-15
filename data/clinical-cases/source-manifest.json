@@ -9068,6 +9068,3306 @@
           "reason": "Brown outlines trace the boundaries of adjacent epithelial tumor cells."
         }
       ]
+    },
+    {
+      "source_id": "s-0387e1221febf514a070",
+      "source_group_id": "g-af97811c946fd32ea73a",
+      "asset_id": "a-bff35792180cdda776a594960dc3edf521954f753795e2f142e0b110c598f634",
+      "lecture_id": "R31",
+      "relative_path": "R31/Simple Breast Cyst Ultrasound - Echo.png",
+      "sha256": "bff35792180cdda776a594960dc3edf521954f753795e2f142e0b110c598f634",
+      "status": "USABLE",
+      "tested_concept": "Simple Breast Cyst Ultrasound - Echo.png",
+      "dimensions": [
+        930,
+        785
+      ],
+      "original_asset": "assets/originals/bff35792180cdda776a594960dc3edf521954f753795e2f142e0b110c598f634.png",
+      "display_asset": "assets/display/fde2676d7c7b311cd68e355b96cd38dbf5c2dd0bf24597c55976d3404d6cba26.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "15",
+        "file": "Simple Breast Cyst Ultrasound - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.652",
+        "y0": "0.269",
+        "x1": "0.962",
+        "y1": "0.618",
+        "size": "930x785@300dpi",
+        "note": "",
+        "png_sha256": "891c9e0ddf5d2254fd043401d2ad9fb9a307f30a24bbc422889242568c81f55f",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Simple Breast Cyst Ultrasound - Echo",
+        "lecture_category": "Primary",
+        "id": 18,
+        "current_png_sha256": "030a340dd7ec13a3dd1ebfd3b1da5d4abd01447b9301d1d4f95b46cf41c59690"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "15",
+          "file": "Simple Breast Cyst Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.652",
+          "y0": "0.269",
+          "x1": "0.962",
+          "y1": "0.618",
+          "size": "930x785@300dpi",
+          "note": "",
+          "png_sha256": "891c9e0ddf5d2254fd043401d2ad9fb9a307f30a24bbc422889242568c81f55f",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Simple Breast Cyst Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 18,
+          "current_png_sha256": "030a340dd7ec13a3dd1ebfd3b1da5d4abd01447b9301d1d4f95b46cf41c59690"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-003735972eac46229445",
+          "asset": "assets/display/fde2676d7c7b311cd68e355b96cd38dbf5c2dd0bf24597c55976d3404d6cba26.webp",
+          "zoom_asset": "assets/zoom/fde2676d7c7b311cd68e355b96cd38dbf5c2dd0bf24597c55976d3404d6cba26.png",
+          "display_sha256": "ef3da83f24a80b1a6dd20f77a254609aba69d6d55a18b5656eef527f9bf87fa8",
+          "zoom_sha256": "fde2676d7c7b311cd68e355b96cd38dbf5c2dd0bf24597c55976d3404d6cba26",
+          "output_dimensions": [
+            930,
+            785
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Simple Breast Cyst Ultrasound - Echo.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.078,
+                    0.074,
+                    0.229,
+                    0.183
+                  ],
+                  [
+                    0.078,
+                    0.376,
+                    0.22,
+                    0.493
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              930,
+              785
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-b01759503135627076ab",
+      "source_group_id": "g-904b5900f6e9bfab1c61",
+      "asset_id": "a-325d93fb83311569b356d9d330ac1d497b73f698df0cb5b8edc3f8fb365b35f4",
+      "lecture_id": "R31",
+      "relative_path": "R31/Fibroadenoma Mammography - Radiograph.png + Fibroadenoma Ultrasound - Echo.png",
+      "sha256": "325d93fb83311569b356d9d330ac1d497b73f698df0cb5b8edc3f8fb365b35f4",
+      "status": "USABLE",
+      "tested_concept": "Fibroadenoma Mammography - Radiograph.png + Fibroadenoma Ultrasound - Echo.png",
+      "dimensions": [
+        1134,
+        810
+      ],
+      "original_asset": "assets/originals/325d93fb83311569b356d9d330ac1d497b73f698df0cb5b8edc3f8fb365b35f4.png",
+      "display_asset": "assets/display/11170a67cfd1882c19365a12fbcb5c760cbe6138eb782f3155af06918d44c7d7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "15",
+        "file": "Fibroadenoma Mammography - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.0",
+        "y0": "0.357",
+        "x1": "0.286",
+        "y1": "0.898",
+        "size": "858x1218@300dpi",
+        "note": "label baked into image",
+        "png_sha256": "13f560de5260f3706c3fd9d3860f9072b3c3668ed90ac06abcd74efefa3935d8",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Fibroadenoma Mammography - Radiograph",
+        "lecture_category": "Primary",
+        "id": 14,
+        "current_png_sha256": "0ef42333f58d431e5e13a21dd28bbb7ffd9ed6c8e5552c16e545a8ed6dd14153"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "15",
+          "file": "Fibroadenoma Mammography - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.0",
+          "y0": "0.357",
+          "x1": "0.286",
+          "y1": "0.898",
+          "size": "858x1218@300dpi",
+          "note": "label baked into image",
+          "png_sha256": "13f560de5260f3706c3fd9d3860f9072b3c3668ed90ac06abcd74efefa3935d8",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Fibroadenoma Mammography - Radiograph",
+          "lecture_category": "Primary",
+          "id": 14,
+          "current_png_sha256": "0ef42333f58d431e5e13a21dd28bbb7ffd9ed6c8e5552c16e545a8ed6dd14153"
+        },
+        {
+          "source": "RLS",
+          "page": "15",
+          "file": "Fibroadenoma Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.28",
+          "y0": "0.357",
+          "x1": "0.576",
+          "y1": "0.898",
+          "size": "888x1218@300dpi",
+          "note": "label baked into image",
+          "png_sha256": "70b4e0bbcf4a7dbd48a1c9bb8821cac917ec2cae0bf46299006c386cf34897a6",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Fibroadenoma Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 15,
+          "current_png_sha256": "9f7170c3f5db2bdd31eb36cdaa84e844c5e9fc6c6f268dfe52887ab1d558059e"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-6c87ad8eb5c0a8af5527",
+          "asset": "assets/display/11170a67cfd1882c19365a12fbcb5c760cbe6138eb782f3155af06918d44c7d7.webp",
+          "zoom_asset": "assets/zoom/11170a67cfd1882c19365a12fbcb5c760cbe6138eb782f3155af06918d44c7d7.png",
+          "display_sha256": "a0fc3cb60dd370e7d37cede575ffd28d242b8a0bcb688f6991857468e8d1b9bd",
+          "zoom_sha256": "11170a67cfd1882c19365a12fbcb5c760cbe6138eb782f3155af06918d44c7d7",
+          "output_dimensions": [
+            1513,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Fibroadenoma Mammography - Radiograph.png",
+                "crop": [
+                  0,
+                  0.21,
+                  1,
+                  0.84
+                ],
+                "masks": []
+              },
+              {
+                "file": "Fibroadenoma Ultrasound - Echo.png",
+                "crop": [
+                  0,
+                  0,
+                  1,
+                  0.88
+                ],
+                "masks": [
+                  [
+                    0.212,
+                    0.229,
+                    0.84,
+                    0.296
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1134,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-eaabf1f371226072b690",
+      "source_group_id": "g-ae37ef72ee83540bcfb3",
+      "asset_id": "a-a92f69f5f06729539b9073ca4f5d330dea2d9e992b48e2a9f0dbc83a91dd607f",
+      "lecture_id": "R31",
+      "relative_path": "R31/Submucosal Fibroid Saline Infused Sonogram - Echo.png",
+      "sha256": "a92f69f5f06729539b9073ca4f5d330dea2d9e992b48e2a9f0dbc83a91dd607f",
+      "status": "USABLE",
+      "tested_concept": "Submucosal Fibroid Saline Infused Sonogram - Echo.png",
+      "dimensions": [
+        1442,
+        900
+      ],
+      "original_asset": "assets/originals/a92f69f5f06729539b9073ca4f5d330dea2d9e992b48e2a9f0dbc83a91dd607f.png",
+      "display_asset": "assets/display/b89a37bdbd5c04fe0b80ace62f107824a0bd98836aef9e993ac31ec9ba28b093.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 37
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "37",
+        "file": "Submucosal Fibroid Saline Infused Sonogram - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.04",
+        "y0": "0.599",
+        "x1": "0.52",
+        "y1": "0.999",
+        "size": "1442x900@300dpi",
+        "note": "retyped from Histology",
+        "png_sha256": "5953b549b7ea8164e5a8368bf45f2b86f1a5a06550c4f04fc645b243505e5808",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Submucosal Fibroid Saline Infused Sonogram - Echo",
+        "lecture_category": "Primary",
+        "id": 47,
+        "current_png_sha256": "465dd8a031f4028d5e240d0a0c5ab3137106217020ee400e75275535c0a4021f"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "37",
+          "file": "Submucosal Fibroid Saline Infused Sonogram - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.04",
+          "y0": "0.599",
+          "x1": "0.52",
+          "y1": "0.999",
+          "size": "1442x900@300dpi",
+          "note": "retyped from Histology",
+          "png_sha256": "5953b549b7ea8164e5a8368bf45f2b86f1a5a06550c4f04fc645b243505e5808",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Submucosal Fibroid Saline Infused Sonogram - Echo",
+          "lecture_category": "Primary",
+          "id": 47,
+          "current_png_sha256": "465dd8a031f4028d5e240d0a0c5ab3137106217020ee400e75275535c0a4021f"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-ba8cb3c3bc06900c14e7",
+          "asset": "assets/display/b89a37bdbd5c04fe0b80ace62f107824a0bd98836aef9e993ac31ec9ba28b093.webp",
+          "zoom_asset": "assets/zoom/b89a37bdbd5c04fe0b80ace62f107824a0bd98836aef9e993ac31ec9ba28b093.png",
+          "display_sha256": "60f8a68521ffca2b975cdf03d7c9bb4f57f85a51f36d47a286a02a9db66c7955",
+          "zoom_sha256": "b89a37bdbd5c04fe0b80ace62f107824a0bd98836aef9e993ac31ec9ba28b093",
+          "output_dimensions": [
+            1442,
+            900
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Submucosal Fibroid Saline Infused Sonogram - Echo.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.02,
+                    0.06,
+                    0.33,
+                    0.29
+                  ],
+                  [
+                    0.01,
+                    0.58,
+                    0.32,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1442,
+              900
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-0c770553951d9a31fe47",
+      "source_group_id": "g-389f93b6ba2797f71ab0",
+      "asset_id": "a-9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15",
+      "lecture_id": "R31",
+      "relative_path": "R31/Fibroid MRI Before and After UFE - Radiograph.png",
+      "sha256": "9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15",
+      "status": "USABLE",
+      "tested_concept": "Fibroid MRI Before and After UFE - Radiograph.png",
+      "dimensions": [
+        1046,
+        617
+      ],
+      "original_asset": "assets/originals/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.png",
+      "display_asset": "assets/display/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 34
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "34",
+        "file": "Fibroid MRI Before and After UFE - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.073",
+        "y0": "0.726",
+        "x1": "0.421",
+        "y1": "1.0",
+        "size": "1046x617@300dpi",
+        "note": "MRI has no bucket, typed Radiograph",
+        "png_sha256": "1c218717ad2cd45f56389f55fcb75e3390d5f8d05b2d5b2d14a5af37f9ed3060",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Fibroid MRI Before and After UFE - Radiograph",
+        "lecture_category": "Primary",
+        "id": 36,
+        "current_png_sha256": "ce687c5e4b2a3f68e9514b7833db43c20fe0920bc098816a0605ec4f4ec31ec4"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "34",
+          "file": "Fibroid MRI Before and After UFE - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.073",
+          "y0": "0.726",
+          "x1": "0.421",
+          "y1": "1.0",
+          "size": "1046x617@300dpi",
+          "note": "MRI has no bucket, typed Radiograph",
+          "png_sha256": "1c218717ad2cd45f56389f55fcb75e3390d5f8d05b2d5b2d14a5af37f9ed3060",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Fibroid MRI Before and After UFE - Radiograph",
+          "lecture_category": "Primary",
+          "id": 36,
+          "current_png_sha256": "ce687c5e4b2a3f68e9514b7833db43c20fe0920bc098816a0605ec4f4ec31ec4"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-0144f3e240dfb14b7127",
+          "asset": "assets/display/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.webp",
+          "zoom_asset": "assets/originals/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.png",
+          "display_sha256": "cdc478c92cf3c72a0dc2340d36f20bcd7244b07d2981458358aeeb57e1e80439",
+          "zoom_sha256": "9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15",
+          "output_dimensions": [
+            1046,
+            617
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1046,
+              617
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-7b372fb13ee02d827baf",
+      "source_group_id": "g-285eb5d21d7f61166979",
+      "asset_id": "a-01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594",
+      "lecture_id": "R32",
+      "relative_path": "R32/CAIS Blind Ending Vaginal Pouch MRI - Radiograph.png + CAIS Undescended Testes MRI - Radiograph.png",
+      "sha256": "01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594",
+      "status": "USABLE",
+      "tested_concept": "CAIS Blind Ending Vaginal Pouch MRI - Radiograph.png + CAIS Undescended Testes MRI - Radiograph.png",
+      "dimensions": [
+        1640,
+        810
+      ],
+      "original_asset": "assets/originals/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.png",
+      "display_asset": "assets/display/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 2
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "2",
+        "file": "CAIS Blind Ending Vaginal Pouch MRI - Radiograph.png",
+        "slide_title": "Case 1",
+        "overlay_labels": "CAIS; Blind Ending Vaginal Pouch (removed in quiz crop)",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.1694",
+        "crop_y0": "0.4204",
+        "crop_x1": "0.4229",
+        "crop_y1": "0.7611",
+        "size": "365x368",
+        "note": "built from an earlier annotation free build of the slide video-derived, native resolution limited",
+        "png_sha256": "f17a1b9872b79947f9823301acbd0f59b9bac082562add07b4c67905e26b62c3",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "CAIS Blind Ending Vaginal Pouch MRI",
+        "lecture_category": "Primary",
+        "id": 0,
+        "current_png_sha256": "f17a1b9872b79947f9823301acbd0f59b9bac082562add07b4c67905e26b62c3"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "2",
+          "file": "CAIS Blind Ending Vaginal Pouch MRI - Radiograph.png",
+          "slide_title": "Case 1",
+          "overlay_labels": "CAIS; Blind Ending Vaginal Pouch (removed in quiz crop)",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.1694",
+          "crop_y0": "0.4204",
+          "crop_x1": "0.4229",
+          "crop_y1": "0.7611",
+          "size": "365x368",
+          "note": "built from an earlier annotation free build of the slide video-derived, native resolution limited",
+          "png_sha256": "f17a1b9872b79947f9823301acbd0f59b9bac082562add07b4c67905e26b62c3",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "CAIS Blind Ending Vaginal Pouch MRI",
+          "lecture_category": "Primary",
+          "id": 0,
+          "current_png_sha256": "f17a1b9872b79947f9823301acbd0f59b9bac082562add07b4c67905e26b62c3"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "2",
+          "file": "CAIS Undescended Testes MRI - Radiograph.png",
+          "slide_title": "Case 1",
+          "overlay_labels": "Undescended Testes (removed in quiz crop)",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.4882",
+          "crop_y0": "0.4204",
+          "crop_x1": "0.8875",
+          "crop_y1": "0.7611",
+          "size": "575x368",
+          "note": "built from an earlier annotation free build of the slide video-derived, native resolution limited",
+          "png_sha256": "05045a66f0478b367070a12e276531ed940c7e53f5303743fc4770ec65af05e9",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "CAIS Undescended Testes MRI",
+          "lecture_category": "Primary",
+          "id": 1,
+          "current_png_sha256": "05045a66f0478b367070a12e276531ed940c7e53f5303743fc4770ec65af05e9"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-2dde81bd96353a1a5438",
+          "asset": "assets/display/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.webp",
+          "zoom_asset": "assets/originals/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.png",
+          "display_sha256": "d17e282248f75d5763e6c58004a300fd7b66732b64439635249e0a1cfc0ee7e1",
+          "zoom_sha256": "01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594",
+          "output_dimensions": [
+            1640,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1640,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-6c1a3574cc0041787337",
+      "source_group_id": "g-c265d8bdfe1591ee29b4",
+      "asset_id": "a-557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85",
+      "lecture_id": "R32",
+      "relative_path": "R32/Large Abdominal Mass CT 1 - CT.png + Large Abdominal Mass CT 2 - CT.png",
+      "sha256": "557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85",
+      "status": "USABLE",
+      "tested_concept": "Large Abdominal Mass CT 1 - CT.png + Large Abdominal Mass CT 2 - CT.png",
+      "dimensions": [
+        1716,
+        685
+      ],
+      "original_asset": "assets/originals/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.png",
+      "display_asset": "assets/display/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 3
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "3",
+        "file": "Large Abdominal Mass CT 1 - CT.png",
+        "slide_title": "What is Your Diagnosis?",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "quiz",
+        "crop_x0": "0.0701",
+        "crop_y0": "0.2157",
+        "crop_x1": "0.4632",
+        "crop_y1": "0.6111",
+        "size": "566x427",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "057b5c00f98a839e0579f928e4f5b3b02026ad23312d66d95b748881238051e3",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Large Abdominal Mass CT 1",
+        "lecture_category": "Primary",
+        "id": 2,
+        "current_png_sha256": "057b5c00f98a839e0579f928e4f5b3b02026ad23312d66d95b748881238051e3"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "3",
+          "file": "Large Abdominal Mass CT 1 - CT.png",
+          "slide_title": "What is Your Diagnosis?",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "quiz",
+          "crop_x0": "0.0701",
+          "crop_y0": "0.2157",
+          "crop_x1": "0.4632",
+          "crop_y1": "0.6111",
+          "size": "566x427",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "057b5c00f98a839e0579f928e4f5b3b02026ad23312d66d95b748881238051e3",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Large Abdominal Mass CT 1",
+          "lecture_category": "Primary",
+          "id": 2,
+          "current_png_sha256": "057b5c00f98a839e0579f928e4f5b3b02026ad23312d66d95b748881238051e3"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "3",
+          "file": "Large Abdominal Mass CT 2 - CT.png",
+          "slide_title": "What is Your Diagnosis?",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "quiz",
+          "crop_x0": "0.0778",
+          "crop_y0": "0.6102",
+          "crop_x1": "0.4556",
+          "crop_y1": "0.9981",
+          "size": "544x419",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "0b47689d12017deb5ff9bf26cccb7ec26bf89aea1a7ac22d03b122eab7666fc9",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Large Abdominal Mass CT 2",
+          "lecture_category": "Primary",
+          "id": 3,
+          "current_png_sha256": "0b47689d12017deb5ff9bf26cccb7ec26bf89aea1a7ac22d03b122eab7666fc9"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-3b8b90ae23f1179b68ff",
+          "asset": "assets/display/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.webp",
+          "zoom_asset": "assets/originals/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.png",
+          "display_sha256": "701e8f421e76d05b68d03b2a30aedddc544c0b243eee68857e0f643c111c503f",
+          "zoom_sha256": "557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85",
+          "output_dimensions": [
+            1716,
+            685
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              685
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-b4263100628ab9b5656f",
+      "source_group_id": "g-d0774b31bc87798e832e",
+      "asset_id": "a-ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e",
+      "lecture_id": "R32",
+      "relative_path": "R32/Multiple Pulmonary Nodules Chest Radiograph - Radiograph.png",
+      "sha256": "ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e",
+      "status": "USABLE",
+      "tested_concept": "Multiple Pulmonary Nodules Chest Radiograph - Radiograph.png",
+      "dimensions": [
+        669,
+        717
+      ],
+      "original_asset": "assets/originals/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.png",
+      "display_asset": "assets/display/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 3
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "3",
+        "file": "Multiple Pulmonary Nodules Chest Radiograph - Radiograph.png",
+        "slide_title": "What is Your Diagnosis?",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.5",
+        "crop_y0": "0.2769",
+        "crop_x1": "0.9646",
+        "crop_y1": "0.9407",
+        "size": "669x717",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "a66e5abe49c4a523dd750e34e5bc0e82de925f08efd69f30ab463fdaaf617c7f",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Multiple Pulmonary Nodules Chest Radiograph",
+        "lecture_category": "Primary",
+        "id": 4,
+        "current_png_sha256": "a66e5abe49c4a523dd750e34e5bc0e82de925f08efd69f30ab463fdaaf617c7f"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "3",
+          "file": "Multiple Pulmonary Nodules Chest Radiograph - Radiograph.png",
+          "slide_title": "What is Your Diagnosis?",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.5",
+          "crop_y0": "0.2769",
+          "crop_x1": "0.9646",
+          "crop_y1": "0.9407",
+          "size": "669x717",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "a66e5abe49c4a523dd750e34e5bc0e82de925f08efd69f30ab463fdaaf617c7f",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Multiple Pulmonary Nodules Chest Radiograph",
+          "lecture_category": "Primary",
+          "id": 4,
+          "current_png_sha256": "a66e5abe49c4a523dd750e34e5bc0e82de925f08efd69f30ab463fdaaf617c7f"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-f54f44506fe385386066",
+          "asset": "assets/display/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.webp",
+          "zoom_asset": "assets/originals/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.png",
+          "display_sha256": "b6cd3bd539020f380c1eb15cafd03a1e13e2e0dce64278a4f55e9689940461eb",
+          "zoom_sha256": "ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e",
+          "output_dimensions": [
+            669,
+            717
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              669,
+              717
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-7114baddbcf79348d711",
+      "source_group_id": "g-bdadf15da5d0da9a8c78",
+      "asset_id": "a-1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e",
+      "lecture_id": "R32",
+      "relative_path": "R32/Testicular Torsion Doppler Ultrasound - Echo.png",
+      "sha256": "1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e",
+      "status": "USABLE",
+      "tested_concept": "Testicular Torsion Doppler Ultrasound - Echo.png",
+      "dimensions": [
+        986,
+        463
+      ],
+      "original_asset": "assets/originals/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.png",
+      "display_asset": "assets/display/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "5",
+        "file": "Testicular Torsion Doppler Ultrasound - Echo.png",
+        "slide_title": "Case 2",
+        "overlay_labels": "RT; LT",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.1424",
+        "crop_y0": "0.4343",
+        "crop_x1": "0.8271",
+        "crop_y1": "0.863",
+        "size": "986x463",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "883fe594577ed5a1817bee0f92696a05211dd19bd21d70d67c4950b59850bfc1",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Testicular Torsion Doppler Ultrasound",
+        "lecture_category": "Primary",
+        "id": 5,
+        "current_png_sha256": "883fe594577ed5a1817bee0f92696a05211dd19bd21d70d67c4950b59850bfc1"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "5",
+          "file": "Testicular Torsion Doppler Ultrasound - Echo.png",
+          "slide_title": "Case 2",
+          "overlay_labels": "RT; LT",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.1424",
+          "crop_y0": "0.4343",
+          "crop_x1": "0.8271",
+          "crop_y1": "0.863",
+          "size": "986x463",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "883fe594577ed5a1817bee0f92696a05211dd19bd21d70d67c4950b59850bfc1",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Testicular Torsion Doppler Ultrasound",
+          "lecture_category": "Primary",
+          "id": 5,
+          "current_png_sha256": "883fe594577ed5a1817bee0f92696a05211dd19bd21d70d67c4950b59850bfc1"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-610da74328f388c6e8be",
+          "asset": "assets/display/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.webp",
+          "zoom_asset": "assets/originals/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.png",
+          "display_sha256": "a0d8bb910e3fc0ea11c85895ff32fb86b830f693f6453b4f76fd46ac5c4f7f03",
+          "zoom_sha256": "1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e",
+          "output_dimensions": [
+            986,
+            463
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              986,
+              463
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-c1e7c114f835f2d20cc2",
+      "source_group_id": "g-5db53dd240782c55e85c",
+      "asset_id": "a-3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d",
+      "lecture_id": "R32",
+      "relative_path": "R32/Testicular Torsion Intraoperative Photo - Clinical Photo.png",
+      "sha256": "3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d",
+      "status": "USABLE",
+      "tested_concept": "Testicular Torsion Intraoperative Photo - Clinical Photo.png",
+      "dimensions": [
+        494,
+        350
+      ],
+      "original_asset": "assets/originals/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.png",
+      "display_asset": "assets/display/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "6",
+        "file": "Testicular Torsion Intraoperative Photo - Clinical Photo.png",
+        "slide_title": "Intravaginal Torsion and Treatment",
+        "overlay_labels": "",
+        "type": "Clinical Photo",
+        "mode": "quiz",
+        "crop_x0": "0.1062",
+        "crop_y0": "0.6685",
+        "crop_x1": "0.4493",
+        "crop_y1": "0.9926",
+        "size": "494x350",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "d172c8d2ad2c542108ce6d54ff736922d5ba2b03c435e00bb8d1c823111d7717",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Testicular Torsion Intraoperative Photo",
+        "lecture_category": "Primary",
+        "id": 6,
+        "current_png_sha256": "d172c8d2ad2c542108ce6d54ff736922d5ba2b03c435e00bb8d1c823111d7717"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "6",
+          "file": "Testicular Torsion Intraoperative Photo - Clinical Photo.png",
+          "slide_title": "Intravaginal Torsion and Treatment",
+          "overlay_labels": "",
+          "type": "Clinical Photo",
+          "mode": "quiz",
+          "crop_x0": "0.1062",
+          "crop_y0": "0.6685",
+          "crop_x1": "0.4493",
+          "crop_y1": "0.9926",
+          "size": "494x350",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "d172c8d2ad2c542108ce6d54ff736922d5ba2b03c435e00bb8d1c823111d7717",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Testicular Torsion Intraoperative Photo",
+          "lecture_category": "Primary",
+          "id": 6,
+          "current_png_sha256": "d172c8d2ad2c542108ce6d54ff736922d5ba2b03c435e00bb8d1c823111d7717"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-30f10185da51f7bb69e1",
+          "asset": "assets/display/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.webp",
+          "zoom_asset": "assets/originals/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.png",
+          "display_sha256": "ce4dfc94c890253df95f046be44a33f3f51d14ff66d1cb4dbf673cc85af08a35",
+          "zoom_sha256": "3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d",
+          "output_dimensions": [
+            494,
+            350
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              494,
+              350
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-84e8d63dad8890f7a44b",
+      "source_group_id": "g-bb3022e434ed3a6500e9",
+      "asset_id": "a-0b41cc666e1acb037112041a10f9c8a452c304337d2fcf3c4530e904299a81ce",
+      "lecture_id": "R32",
+      "relative_path": "R32/Inguinal Hernia CT - CT.png + Inguinal Hernia Ultrasound - Echo.png",
+      "sha256": "0b41cc666e1acb037112041a10f9c8a452c304337d2fcf3c4530e904299a81ce",
+      "status": "USABLE",
+      "tested_concept": "Inguinal Hernia CT - CT.png + Inguinal Hernia Ultrasound - Echo.png",
+      "dimensions": [
+        1716,
+        691
+      ],
+      "original_asset": "assets/originals/0b41cc666e1acb037112041a10f9c8a452c304337d2fcf3c4530e904299a81ce.png",
+      "display_asset": "assets/display/697998ba92955cb3039c8392451f13144d36c3cdda98d447f25be5c130fbd409.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "7",
+        "file": "Inguinal Hernia CT - CT.png",
+        "slide_title": "Case 3",
+        "overlay_labels": "CT",
+        "type": "CT",
+        "mode": "quiz",
+        "crop_x0": "0.0326",
+        "crop_y0": "0.5704",
+        "crop_x1": "0.4472",
+        "crop_y1": "1.0",
+        "size": "597x464",
+        "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "84e7949f1cb126ad80351b6e33af82fad7e4c3317a881ce5d5eabb2bce36b588",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Inguinal Hernia CT",
+        "lecture_category": "Primary",
+        "id": 7,
+        "current_png_sha256": "84e7949f1cb126ad80351b6e33af82fad7e4c3317a881ce5d5eabb2bce36b588"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "7",
+          "file": "Inguinal Hernia CT - CT.png",
+          "slide_title": "Case 3",
+          "overlay_labels": "CT",
+          "type": "CT",
+          "mode": "quiz",
+          "crop_x0": "0.0326",
+          "crop_y0": "0.5704",
+          "crop_x1": "0.4472",
+          "crop_y1": "1.0",
+          "size": "597x464",
+          "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "84e7949f1cb126ad80351b6e33af82fad7e4c3317a881ce5d5eabb2bce36b588",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Inguinal Hernia CT",
+          "lecture_category": "Primary",
+          "id": 7,
+          "current_png_sha256": "84e7949f1cb126ad80351b6e33af82fad7e4c3317a881ce5d5eabb2bce36b588"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "7",
+          "file": "Inguinal Hernia Ultrasound - Echo.png",
+          "slide_title": "Case 3",
+          "overlay_labels": "US; LT; Bw",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.4764",
+          "crop_y0": "0.5722",
+          "crop_x1": "0.9882",
+          "crop_y1": "0.9991",
+          "size": "737x461",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "9649cb04d43a0f84285b3ed131ab3edcaca80be19d3aa51215508bfba66a72fb",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Inguinal Hernia Ultrasound",
+          "lecture_category": "Primary",
+          "id": 8,
+          "current_png_sha256": "9649cb04d43a0f84285b3ed131ab3edcaca80be19d3aa51215508bfba66a72fb"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-d4aca76eb3e5989493af",
+          "asset": "assets/display/697998ba92955cb3039c8392451f13144d36c3cdda98d447f25be5c130fbd409.webp",
+          "zoom_asset": "assets/zoom/697998ba92955cb3039c8392451f13144d36c3cdda98d447f25be5c130fbd409.png",
+          "display_sha256": "534f674a51dd0f6cd6744e47bb2fac4cb57d8dc4a0d0f7940752474c4a3b733c",
+          "zoom_sha256": "697998ba92955cb3039c8392451f13144d36c3cdda98d447f25be5c130fbd409",
+          "output_dimensions": [
+            1716,
+            691
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Inguinal Hernia Ultrasound - Echo.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.3,
+                    0.27,
+                    0.48,
+                    0.45
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1716,
+              691
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-83eee43e1c5bdb7bc8fa",
+      "source_group_id": "g-0bef6a69d323282f326b",
+      "asset_id": "a-7af09fd1d721d92ac5f6189239fbc586da3e52e41fd4d196ed53b443111371c0",
+      "lecture_id": "R32",
+      "relative_path": "R32/Inguinal Hernia into Scrotum Illustration - Diagram.png",
+      "sha256": "7af09fd1d721d92ac5f6189239fbc586da3e52e41fd4d196ed53b443111371c0",
+      "status": "USABLE",
+      "tested_concept": "Inguinal Hernia into Scrotum Illustration - Diagram.png",
+      "dimensions": [
+        208,
+        334
+      ],
+      "original_asset": "assets/originals/7af09fd1d721d92ac5f6189239fbc586da3e52e41fd4d196ed53b443111371c0.png",
+      "display_asset": "assets/display/d96b201dc885786eaaffd1b16debbe266e7626330334a9cec63640fa9ba4b279.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "8",
+        "file": "Inguinal Hernia into Scrotum Illustration - Diagram.png",
+        "slide_title": "Inguinal Hernias",
+        "overlay_labels": "Inguinal hernia into scrotum",
+        "type": "Diagram",
+        "mode": "quiz",
+        "crop_x0": "0.6278",
+        "crop_y0": "0.1917",
+        "crop_x1": "0.7722",
+        "crop_y1": "0.5009",
+        "size": "208x334",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "23b50f49fe34e6aa42fd2152cdad3378a0c13988db41eb43aa4b86358c446cb9",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Inguinal Hernia into Scrotum Illustration",
+        "lecture_category": "Primary",
+        "id": 13,
+        "current_png_sha256": "23b50f49fe34e6aa42fd2152cdad3378a0c13988db41eb43aa4b86358c446cb9"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "8",
+          "file": "Inguinal Hernia into Scrotum Illustration - Diagram.png",
+          "slide_title": "Inguinal Hernias",
+          "overlay_labels": "Inguinal hernia into scrotum",
+          "type": "Diagram",
+          "mode": "quiz",
+          "crop_x0": "0.6278",
+          "crop_y0": "0.1917",
+          "crop_x1": "0.7722",
+          "crop_y1": "0.5009",
+          "size": "208x334",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "23b50f49fe34e6aa42fd2152cdad3378a0c13988db41eb43aa4b86358c446cb9",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Inguinal Hernia into Scrotum Illustration",
+          "lecture_category": "Primary",
+          "id": 13,
+          "current_png_sha256": "23b50f49fe34e6aa42fd2152cdad3378a0c13988db41eb43aa4b86358c446cb9"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-d07b8d4dd9e7ad179e3b",
+          "asset": "assets/display/d96b201dc885786eaaffd1b16debbe266e7626330334a9cec63640fa9ba4b279.webp",
+          "zoom_asset": "assets/zoom/d96b201dc885786eaaffd1b16debbe266e7626330334a9cec63640fa9ba4b279.png",
+          "display_sha256": "153388f8cd36f08bbfa7d0a9150ac5178d18796a00b0930608cbe47554f76541",
+          "zoom_sha256": "d96b201dc885786eaaffd1b16debbe266e7626330334a9cec63640fa9ba4b279",
+          "output_dimensions": [
+            208,
+            267
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Inguinal Hernia into Scrotum Illustration - Diagram.png",
+                "crop": [
+                  0,
+                  0,
+                  1,
+                  0.8
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              208,
+              334
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-856f55cebeb1445c2e02",
+      "source_group_id": "g-c66eef24686c965b8b1f",
+      "asset_id": "a-2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd",
+      "lecture_id": "R32",
+      "relative_path": "R32/Hydrocele Scrotal Swelling Photo A - Clinical Photo.png + Hydrocele Transillumination Photo B - Clinical Photo.png",
+      "sha256": "2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd",
+      "status": "USABLE",
+      "tested_concept": "Hydrocele Scrotal Swelling Photo A - Clinical Photo.png + Hydrocele Transillumination Photo B - Clinical Photo.png",
+      "dimensions": [
+        1716,
+        809
+      ],
+      "original_asset": "assets/originals/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.png",
+      "display_asset": "assets/display/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "9",
+        "file": "Hydrocele Scrotal Swelling Photo A - Clinical Photo.png",
+        "slide_title": "Case 4",
+        "overlay_labels": "A",
+        "type": "Clinical Photo",
+        "mode": "quiz",
+        "crop_x0": "0.1729",
+        "crop_y0": "0.5",
+        "crop_x1": "0.4882",
+        "crop_y1": "0.8769",
+        "size": "455x407",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "9350eb5d0a11a17684bf39d6548acef5623b2a9f0c31531320684a2198a7975b",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Hydrocele Scrotal Swelling Photo A",
+        "lecture_category": "Primary",
+        "id": 14,
+        "current_png_sha256": "9350eb5d0a11a17684bf39d6548acef5623b2a9f0c31531320684a2198a7975b"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "9",
+          "file": "Hydrocele Scrotal Swelling Photo A - Clinical Photo.png",
+          "slide_title": "Case 4",
+          "overlay_labels": "A",
+          "type": "Clinical Photo",
+          "mode": "quiz",
+          "crop_x0": "0.1729",
+          "crop_y0": "0.5",
+          "crop_x1": "0.4882",
+          "crop_y1": "0.8769",
+          "size": "455x407",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "9350eb5d0a11a17684bf39d6548acef5623b2a9f0c31531320684a2198a7975b",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Hydrocele Scrotal Swelling Photo A",
+          "lecture_category": "Primary",
+          "id": 14,
+          "current_png_sha256": "9350eb5d0a11a17684bf39d6548acef5623b2a9f0c31531320684a2198a7975b"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "9",
+          "file": "Hydrocele Transillumination Photo B - Clinical Photo.png",
+          "slide_title": "Case 4",
+          "overlay_labels": "B",
+          "type": "Clinical Photo",
+          "mode": "quiz",
+          "crop_x0": "0.5",
+          "crop_y0": "0.5",
+          "crop_x1": "0.8083",
+          "crop_y1": "0.8769",
+          "size": "444x407",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "8638143c19ae85ad8bee22e5b69ed84225c95495b73cc1baeeb2fc8fa46cea76",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Hydrocele Transillumination Photo B",
+          "lecture_category": "Primary",
+          "id": 15,
+          "current_png_sha256": "8638143c19ae85ad8bee22e5b69ed84225c95495b73cc1baeeb2fc8fa46cea76"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-e8ef9cace8723ea32775",
+          "asset": "assets/display/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.webp",
+          "zoom_asset": "assets/originals/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.png",
+          "display_sha256": "208e79b35e27ae6f6a0c92afda359e408f58a3b9c65514d8328e00c8995c0ae2",
+          "zoom_sha256": "2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd",
+          "output_dimensions": [
+            1716,
+            809
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              809
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-5908086d8f946e96b481",
+      "source_group_id": "g-94ad652566e9a019f0e1",
+      "asset_id": "a-f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7",
+      "lecture_id": "R32",
+      "relative_path": "R32/Left Testicle Ultrasound - Echo.png + Right Testicle Ultrasound - Echo.png",
+      "sha256": "f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7",
+      "status": "USABLE",
+      "tested_concept": "Left Testicle Ultrasound - Echo.png + Right Testicle Ultrasound - Echo.png",
+      "dimensions": [
+        1716,
+        554
+      ],
+      "original_asset": "assets/originals/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.png",
+      "display_asset": "assets/display/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "10",
+        "file": "Left Testicle Ultrasound - Echo.png",
+        "slide_title": "Testicular Ultrasound",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.4951",
+        "crop_y0": "0.6222",
+        "crop_x1": "0.984",
+        "crop_y1": "0.9787",
+        "size": "704x385",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "7a43432b1571548a9f30a7580972b54e06010c6ad13ad413755ad97ca620609e",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Left Testicle Ultrasound",
+        "lecture_category": "Primary",
+        "id": 16,
+        "current_png_sha256": "7a43432b1571548a9f30a7580972b54e06010c6ad13ad413755ad97ca620609e"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "10",
+          "file": "Left Testicle Ultrasound - Echo.png",
+          "slide_title": "Testicular Ultrasound",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.4951",
+          "crop_y0": "0.6222",
+          "crop_x1": "0.984",
+          "crop_y1": "0.9787",
+          "size": "704x385",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "7a43432b1571548a9f30a7580972b54e06010c6ad13ad413755ad97ca620609e",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Left Testicle Ultrasound",
+          "lecture_category": "Primary",
+          "id": 16,
+          "current_png_sha256": "7a43432b1571548a9f30a7580972b54e06010c6ad13ad413755ad97ca620609e"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "10",
+          "file": "Right Testicle Ultrasound - Echo.png",
+          "slide_title": "Testicular Ultrasound",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0063",
+          "crop_y0": "0.213",
+          "crop_x1": "0.4951",
+          "crop_y1": "0.6148",
+          "size": "704x434",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "ea161fe8006a0ad2b023ac4591df40c5dbf8dc2d334ee36facb318dd595c1910",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Right Testicle Ultrasound",
+          "lecture_category": "Primary",
+          "id": 17,
+          "current_png_sha256": "ea161fe8006a0ad2b023ac4591df40c5dbf8dc2d334ee36facb318dd595c1910"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-a1b35135aaed375933dd",
+          "asset": "assets/display/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.webp",
+          "zoom_asset": "assets/originals/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.png",
+          "display_sha256": "92cd15ba783378a1cb03dc465166169eea124af77c93910722e83d2c73b73fce",
+          "zoom_sha256": "f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7",
+          "output_dimensions": [
+            1716,
+            554
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              554
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-b006e78e432d80b0a2d1",
+      "source_group_id": "g-c575b5311e1616187dfd",
+      "asset_id": "a-cb199a79f2eeaf7e45c2aed99e9a9995c9cdcac10f3ef0215aad136f9e32bc87",
+      "lecture_id": "R32",
+      "relative_path": "R32/Types of Hydrocele - Diagram.png",
+      "sha256": "cb199a79f2eeaf7e45c2aed99e9a9995c9cdcac10f3ef0215aad136f9e32bc87",
+      "status": "USABLE",
+      "tested_concept": "Types of Hydrocele - Diagram.png",
+      "dimensions": [
+        794,
+        421
+      ],
+      "original_asset": "assets/originals/cb199a79f2eeaf7e45c2aed99e9a9995c9cdcac10f3ef0215aad136f9e32bc87.png",
+      "display_asset": "assets/display/af418375ee53cf2209b06e7e52a8f6918637c426bed7402ba496baf13702c76c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "11",
+        "file": "Types of Hydrocele - Diagram.png",
+        "slide_title": "Hydrocele",
+        "overlay_labels": "Types of Hydrocele; Normal; Non-Communicating Hydrocele; Communicating Hydrocele; Processus Vaginalis; Testicle; Scrotum",
+        "type": "Diagram",
+        "mode": "quiz",
+        "crop_x0": "0.0097",
+        "crop_y0": "0.5778",
+        "crop_x1": "0.5611",
+        "crop_y1": "0.9676",
+        "size": "794x421",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "4b2d68d084dcddb368678a946b7e8aba4425722c1863e147b31df002e423a685",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Types of Hydrocele",
+        "lecture_category": "Primary",
+        "id": 19,
+        "current_png_sha256": "4b2d68d084dcddb368678a946b7e8aba4425722c1863e147b31df002e423a685"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "11",
+          "file": "Types of Hydrocele - Diagram.png",
+          "slide_title": "Hydrocele",
+          "overlay_labels": "Types of Hydrocele; Normal; Non-Communicating Hydrocele; Communicating Hydrocele; Processus Vaginalis; Testicle; Scrotum",
+          "type": "Diagram",
+          "mode": "quiz",
+          "crop_x0": "0.0097",
+          "crop_y0": "0.5778",
+          "crop_x1": "0.5611",
+          "crop_y1": "0.9676",
+          "size": "794x421",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "4b2d68d084dcddb368678a946b7e8aba4425722c1863e147b31df002e423a685",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Types of Hydrocele",
+          "lecture_category": "Primary",
+          "id": 19,
+          "current_png_sha256": "4b2d68d084dcddb368678a946b7e8aba4425722c1863e147b31df002e423a685"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-339902467fca0417d4c7",
+          "asset": "assets/display/af418375ee53cf2209b06e7e52a8f6918637c426bed7402ba496baf13702c76c.webp",
+          "zoom_asset": "assets/zoom/af418375ee53cf2209b06e7e52a8f6918637c426bed7402ba496baf13702c76c.png",
+          "display_sha256": "63db691590878db4dbcc336e4a07f4bb60d8bf12876e4d49bfb375329b3dfa88",
+          "zoom_sha256": "af418375ee53cf2209b06e7e52a8f6918637c426bed7402ba496baf13702c76c",
+          "output_dimensions": [
+            794,
+            304
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Types of Hydrocele - Diagram.png",
+                "crop": [
+                  0,
+                  0.28,
+                  1,
+                  1
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              794,
+              421
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-8d0b8b689bcb3c983a49",
+      "source_group_id": "g-31e581b25f02691b686d",
+      "asset_id": "a-f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6",
+      "lecture_id": "R32",
+      "relative_path": "R32/Left Kidney and Spleen Ultrasound - Echo.png + Right Kidney Region Ultrasound - Echo.png",
+      "sha256": "f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6",
+      "status": "USABLE",
+      "tested_concept": "Left Kidney and Spleen Ultrasound - Echo.png + Right Kidney Region Ultrasound - Echo.png",
+      "dimensions": [
+        1716,
+        673
+      ],
+      "original_asset": "assets/originals/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.png",
+      "display_asset": "assets/display/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 12
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "12",
+        "file": "Left Kidney and Spleen Ultrasound - Echo.png",
+        "slide_title": "Case 5",
+        "overlay_labels": "Spleen; Lt Kidney",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.4493",
+        "crop_y0": "0.4676",
+        "crop_x1": "0.9785",
+        "crop_y1": "0.8694",
+        "size": "762x434",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "f2c7a74b7ec51dd5923164c15408b0f18346a6eef7075395ade52b097b2e7510",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Left Kidney and Spleen Ultrasound",
+        "lecture_category": "Primary",
+        "id": 20,
+        "current_png_sha256": "f2c7a74b7ec51dd5923164c15408b0f18346a6eef7075395ade52b097b2e7510"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "12",
+          "file": "Left Kidney and Spleen Ultrasound - Echo.png",
+          "slide_title": "Case 5",
+          "overlay_labels": "Spleen; Lt Kidney",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.4493",
+          "crop_y0": "0.4676",
+          "crop_x1": "0.9785",
+          "crop_y1": "0.8694",
+          "size": "762x434",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "f2c7a74b7ec51dd5923164c15408b0f18346a6eef7075395ade52b097b2e7510",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Left Kidney and Spleen Ultrasound",
+          "lecture_category": "Primary",
+          "id": 20,
+          "current_png_sha256": "f2c7a74b7ec51dd5923164c15408b0f18346a6eef7075395ade52b097b2e7510"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "12",
+          "file": "Right Kidney Region Ultrasound - Echo.png",
+          "slide_title": "Case 5",
+          "overlay_labels": "Liver; Region of Rt Kidney",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0389",
+          "crop_y0": "0.4676",
+          "crop_x1": "0.4375",
+          "crop_y1": "0.8694",
+          "size": "574x434",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "7721ff9bfda82ec30acb5d2a81570daa205bf603d3954eb064e1a2dbe471cc2a",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Right Kidney Region Ultrasound",
+          "lecture_category": "Primary",
+          "id": 21,
+          "current_png_sha256": "7721ff9bfda82ec30acb5d2a81570daa205bf603d3954eb064e1a2dbe471cc2a"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-45a902551b02d2c13fd1",
+          "asset": "assets/display/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.webp",
+          "zoom_asset": "assets/originals/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.png",
+          "display_sha256": "486d10cdfd3239c896b876b8f12f483625ff26ac92b29eac655392577e3a6535",
+          "zoom_sha256": "f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6",
+          "output_dimensions": [
+            1716,
+            673
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              673
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-b8c7b7cd23f1d81e2d2e",
+      "source_group_id": "g-925041316a856fb15975",
+      "asset_id": "a-c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65",
+      "lecture_id": "R32",
+      "relative_path": "R32/Bicornuate Uterus HSG - Radiograph.png + Bicornuate Uterus MRI - Radiograph.png",
+      "sha256": "c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65",
+      "status": "USABLE",
+      "tested_concept": "Bicornuate Uterus HSG - Radiograph.png + Bicornuate Uterus MRI - Radiograph.png",
+      "dimensions": [
+        1716,
+        772
+      ],
+      "original_asset": "assets/originals/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.png",
+      "display_asset": "assets/display/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "13",
+        "file": "Bicornuate Uterus HSG - Radiograph.png",
+        "slide_title": "What is Your Diagnosis?",
+        "overlay_labels": "HSG; Right",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.5125",
+        "crop_y0": "0.2157",
+        "crop_x1": "0.9917",
+        "crop_y1": "0.7731",
+        "size": "690x602",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "add458aca3434cf68c9fea1b4338ab6a6f39bffe8572b18bc2a7e4242a4b395b",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Bicornuate Uterus HSG",
+        "lecture_category": "Primary",
+        "id": 22,
+        "current_png_sha256": "add458aca3434cf68c9fea1b4338ab6a6f39bffe8572b18bc2a7e4242a4b395b"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "13",
+          "file": "Bicornuate Uterus HSG - Radiograph.png",
+          "slide_title": "What is Your Diagnosis?",
+          "overlay_labels": "HSG; Right",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.5125",
+          "crop_y0": "0.2157",
+          "crop_x1": "0.9917",
+          "crop_y1": "0.7731",
+          "size": "690x602",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "add458aca3434cf68c9fea1b4338ab6a6f39bffe8572b18bc2a7e4242a4b395b",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Bicornuate Uterus HSG",
+          "lecture_category": "Primary",
+          "id": 22,
+          "current_png_sha256": "add458aca3434cf68c9fea1b4338ab6a6f39bffe8572b18bc2a7e4242a4b395b"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "13",
+          "file": "Bicornuate Uterus MRI - Radiograph.png",
+          "slide_title": "What is Your Diagnosis?",
+          "overlay_labels": "MRI",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.0208",
+          "crop_y0": "0.2157",
+          "crop_x1": "0.5",
+          "crop_y1": "0.7731",
+          "size": "690x602",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "5905b3dfe8dad8130be18ccde6650757a4d19fc95c385300d278837eb27afe6b",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Bicornuate Uterus MRI",
+          "lecture_category": "Primary",
+          "id": 23,
+          "current_png_sha256": "5905b3dfe8dad8130be18ccde6650757a4d19fc95c385300d278837eb27afe6b"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-7dfd2c548140f99012df",
+          "asset": "assets/display/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.webp",
+          "zoom_asset": "assets/originals/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.png",
+          "display_sha256": "86c0c3fdf1f51388c034d84a9f48dd101c39e8dfc6f8e864e158ccd3c5b7e9d3",
+          "zoom_sha256": "c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65",
+          "output_dimensions": [
+            1716,
+            772
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              772
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-afc83c740afce7fb96dc",
+      "source_group_id": "g-d553908a353bf53da710",
+      "asset_id": "a-8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb",
+      "lecture_id": "R32",
+      "relative_path": "R32/Meigs Syndrome Chest Radiograph - Radiograph.png",
+      "sha256": "8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb",
+      "status": "USABLE",
+      "tested_concept": "Meigs Syndrome Chest Radiograph - Radiograph.png",
+      "dimensions": [
+        599,
+        645
+      ],
+      "original_asset": "assets/originals/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.png",
+      "display_asset": "assets/display/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 14
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "14",
+        "file": "Meigs Syndrome Chest Radiograph - Radiograph.png",
+        "slide_title": "Case 6",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.1236",
+        "crop_y0": "0.3657",
+        "crop_x1": "0.5396",
+        "crop_y1": "0.963",
+        "size": "599x645",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "bda976c5a35cd5b0235246a30927cf6da836288ab9b8e88f1fc3049cf4d68863",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Meigs Syndrome Chest Radiograph",
+        "lecture_category": "Primary",
+        "id": 24,
+        "current_png_sha256": "bda976c5a35cd5b0235246a30927cf6da836288ab9b8e88f1fc3049cf4d68863"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "14",
+          "file": "Meigs Syndrome Chest Radiograph - Radiograph.png",
+          "slide_title": "Case 6",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.1236",
+          "crop_y0": "0.3657",
+          "crop_x1": "0.5396",
+          "crop_y1": "0.963",
+          "size": "599x645",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "bda976c5a35cd5b0235246a30927cf6da836288ab9b8e88f1fc3049cf4d68863",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Meigs Syndrome Chest Radiograph",
+          "lecture_category": "Primary",
+          "id": 24,
+          "current_png_sha256": "bda976c5a35cd5b0235246a30927cf6da836288ab9b8e88f1fc3049cf4d68863"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-df4c190cd1069db60fa4",
+          "asset": "assets/display/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.webp",
+          "zoom_asset": "assets/originals/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.png",
+          "display_sha256": "46db21137b7305855c7452dceca12285569e65b0a73a7cdcb2f7212bc5434038",
+          "zoom_sha256": "8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb",
+          "output_dimensions": [
+            599,
+            645
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              599,
+              645
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-dc47f905d03cfc59b053",
+      "source_group_id": "g-7538163cb1f2ac1b62db",
+      "asset_id": "a-81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035",
+      "lecture_id": "R32",
+      "relative_path": "R32/Meigs Syndrome Coronal CT - CT.png + Meigs Syndrome Ultrasound - Echo.png",
+      "sha256": "81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035",
+      "status": "USABLE",
+      "tested_concept": "Meigs Syndrome Coronal CT - CT.png + Meigs Syndrome Ultrasound - Echo.png",
+      "dimensions": [
+        1471,
+        810
+      ],
+      "original_asset": "assets/originals/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.png",
+      "display_asset": "assets/display/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "15",
+        "file": "Meigs Syndrome Coronal CT - CT.png",
+        "slide_title": "Other Imaging",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "quiz",
+        "crop_x0": "0.0389",
+        "crop_y0": "0.2157",
+        "crop_x1": "0.4681",
+        "crop_y1": "0.9537",
+        "size": "618x797",
+        "note": "built from an earlier annotation free build of the slide video-derived, native resolution limited",
+        "png_sha256": "0ead7b120f74b7dc4a5d43dc7cc4b9463f4292e05b91482c3b91640ccda55e60",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Meigs Syndrome Coronal CT",
+        "lecture_category": "Primary",
+        "id": 25,
+        "current_png_sha256": "0ead7b120f74b7dc4a5d43dc7cc4b9463f4292e05b91482c3b91640ccda55e60"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "15",
+          "file": "Meigs Syndrome Coronal CT - CT.png",
+          "slide_title": "Other Imaging",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "quiz",
+          "crop_x0": "0.0389",
+          "crop_y0": "0.2157",
+          "crop_x1": "0.4681",
+          "crop_y1": "0.9537",
+          "size": "618x797",
+          "note": "built from an earlier annotation free build of the slide video-derived, native resolution limited",
+          "png_sha256": "0ead7b120f74b7dc4a5d43dc7cc4b9463f4292e05b91482c3b91640ccda55e60",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Meigs Syndrome Coronal CT",
+          "lecture_category": "Primary",
+          "id": 25,
+          "current_png_sha256": "0ead7b120f74b7dc4a5d43dc7cc4b9463f4292e05b91482c3b91640ccda55e60"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "15",
+          "file": "Meigs Syndrome Ultrasound - Echo.png",
+          "slide_title": "Other Imaging",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.5465",
+          "crop_y0": "0.238",
+          "crop_x1": "0.9299",
+          "crop_y1": "0.6111",
+          "size": "552x403",
+          "note": "built from an earlier annotation free build of the slide video-derived, native resolution limited",
+          "png_sha256": "c4e5e181588b24ab601fe0f54dbdb1e8a4cff5bcbbd04bf66e1fad57b800e230",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Meigs Syndrome Ultrasound",
+          "lecture_category": "Primary",
+          "id": 26,
+          "current_png_sha256": "c4e5e181588b24ab601fe0f54dbdb1e8a4cff5bcbbd04bf66e1fad57b800e230"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-9d32465e4984eb14c321",
+          "asset": "assets/display/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.webp",
+          "zoom_asset": "assets/originals/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.png",
+          "display_sha256": "785018a13a99dda8b0983fa00123e0a4fc981da5b2b0ed885707d59fb65d43d8",
+          "zoom_sha256": "81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035",
+          "output_dimensions": [
+            1471,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1471,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-87c122bc6ceeac974c22",
+      "source_group_id": "g-f098dd3abd8dd5737c13",
+      "asset_id": "a-4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6",
+      "lecture_id": "R32",
+      "relative_path": "R32/Postmenopausal Bleeding Transvaginal Ultrasound - Echo.png",
+      "sha256": "4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6",
+      "status": "USABLE",
+      "tested_concept": "Postmenopausal Bleeding Transvaginal Ultrasound - Echo.png",
+      "dimensions": [
+        465,
+        378
+      ],
+      "original_asset": "assets/originals/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.png",
+      "display_asset": "assets/display/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 17
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "17",
+        "file": "Postmenopausal Bleeding Transvaginal Ultrasound - Echo.png",
+        "slide_title": "Case 7",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.2479",
+        "crop_y0": "0.4861",
+        "crop_x1": "0.5708",
+        "crop_y1": "0.8361",
+        "size": "465x378",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "fed8774342b2ca1e84ec418f734dd68b71c9d2d6069a833dff96185d43fd44df",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Postmenopausal Bleeding Transvaginal Ultrasound",
+        "lecture_category": "Primary",
+        "id": 34,
+        "current_png_sha256": "fed8774342b2ca1e84ec418f734dd68b71c9d2d6069a833dff96185d43fd44df"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "17",
+          "file": "Postmenopausal Bleeding Transvaginal Ultrasound - Echo.png",
+          "slide_title": "Case 7",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.2479",
+          "crop_y0": "0.4861",
+          "crop_x1": "0.5708",
+          "crop_y1": "0.8361",
+          "size": "465x378",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "fed8774342b2ca1e84ec418f734dd68b71c9d2d6069a833dff96185d43fd44df",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Postmenopausal Bleeding Transvaginal Ultrasound",
+          "lecture_category": "Primary",
+          "id": 34,
+          "current_png_sha256": "fed8774342b2ca1e84ec418f734dd68b71c9d2d6069a833dff96185d43fd44df"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-a415c962f40940d2c814",
+          "asset": "assets/display/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.webp",
+          "zoom_asset": "assets/originals/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.png",
+          "display_sha256": "1de579476ad2fc8cf1617198c29eb6f7f0e29cc5b97080cbcbac262f3a89f9f0",
+          "zoom_sha256": "4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6",
+          "output_dimensions": [
+            465,
+            378
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              465,
+              378
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-d3aae44837b2756aaead",
+      "source_group_id": "g-6c00ce2df2d2ac894dc1",
+      "asset_id": "a-254f65a8880f9b4f9c3bd61c3c0f2b510cfbba3b7b60429ddf73cad103847588",
+      "lecture_id": "R32",
+      "relative_path": "R32/Endometrial Polyp Single Feeding Vessel Ultrasound - Echo.png",
+      "sha256": "254f65a8880f9b4f9c3bd61c3c0f2b510cfbba3b7b60429ddf73cad103847588",
+      "status": "USABLE",
+      "tested_concept": "Endometrial Polyp Single Feeding Vessel Ultrasound - Echo.png",
+      "dimensions": [
+        427,
+        422
+      ],
+      "original_asset": "assets/originals/254f65a8880f9b4f9c3bd61c3c0f2b510cfbba3b7b60429ddf73cad103847588.png",
+      "display_asset": "assets/display/4dbeef66968565da7501ac30b30f776d5b03e72294c5fcf77787aa58453ff915.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 17
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "17",
+        "file": "Endometrial Polyp Single Feeding Vessel Ultrasound - Echo.png",
+        "slide_title": "Case 7",
+        "overlay_labels": "Single Feeding Vessel Endometrial Polyp; SAG UT",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.7035",
+        "crop_y0": "0.6093",
+        "crop_x1": "1.0",
+        "crop_y1": "1.0",
+        "size": "427x422",
+        "note": "runs to the right/bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "dbb4bf36ce5368634eda254f0d9340d440787ebdbfa473ad7124c9ab289b275c",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Endometrial Polyp Single Feeding Vessel Ultrasound",
+        "lecture_category": "Primary",
+        "id": 33,
+        "current_png_sha256": "dbb4bf36ce5368634eda254f0d9340d440787ebdbfa473ad7124c9ab289b275c"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "17",
+          "file": "Endometrial Polyp Single Feeding Vessel Ultrasound - Echo.png",
+          "slide_title": "Case 7",
+          "overlay_labels": "Single Feeding Vessel Endometrial Polyp; SAG UT",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.7035",
+          "crop_y0": "0.6093",
+          "crop_x1": "1.0",
+          "crop_y1": "1.0",
+          "size": "427x422",
+          "note": "runs to the right/bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "dbb4bf36ce5368634eda254f0d9340d440787ebdbfa473ad7124c9ab289b275c",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Endometrial Polyp Single Feeding Vessel Ultrasound",
+          "lecture_category": "Primary",
+          "id": 33,
+          "current_png_sha256": "dbb4bf36ce5368634eda254f0d9340d440787ebdbfa473ad7124c9ab289b275c"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-c3530d1ae1f4f75d09ca",
+          "asset": "assets/display/4dbeef66968565da7501ac30b30f776d5b03e72294c5fcf77787aa58453ff915.webp",
+          "zoom_asset": "assets/zoom/4dbeef66968565da7501ac30b30f776d5b03e72294c5fcf77787aa58453ff915.png",
+          "display_sha256": "8dbef85decf4d55b89379e7ac15f704eee13057113ad890f37a995d7c7ff8951",
+          "zoom_sha256": "4dbeef66968565da7501ac30b30f776d5b03e72294c5fcf77787aa58453ff915",
+          "output_dimensions": [
+            427,
+            325
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Endometrial Polyp Single Feeding Vessel Ultrasound - Echo.png",
+                "crop": [
+                  0,
+                  0.23,
+                  1,
+                  1
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              427,
+              422
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-f8696500407cab7fa000",
+      "source_group_id": "g-fc9cccf5e2146962589a",
+      "asset_id": "a-7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac",
+      "lecture_id": "R32",
+      "relative_path": "R32/Mature Teratoma Pelvic Radiograph - Radiograph.png",
+      "sha256": "7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac",
+      "status": "USABLE",
+      "tested_concept": "Mature Teratoma Pelvic Radiograph - Radiograph.png",
+      "dimensions": [
+        680,
+        464
+      ],
+      "original_asset": "assets/originals/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.png",
+      "display_asset": "assets/display/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "18",
+        "file": "Mature Teratoma Pelvic Radiograph - Radiograph.png",
+        "slide_title": "Case 8",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.2639",
+        "crop_y0": "0.425",
+        "crop_x1": "0.7361",
+        "crop_y1": "0.8546",
+        "size": "680x464",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "bc40de7d36e028e3f243f1ff010e42cb1f08ea4bad988f04e9a022898de2beb6",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Mature Teratoma Pelvic Radiograph",
+        "lecture_category": "Primary",
+        "id": 35,
+        "current_png_sha256": "bc40de7d36e028e3f243f1ff010e42cb1f08ea4bad988f04e9a022898de2beb6"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "18",
+          "file": "Mature Teratoma Pelvic Radiograph - Radiograph.png",
+          "slide_title": "Case 8",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.2639",
+          "crop_y0": "0.425",
+          "crop_x1": "0.7361",
+          "crop_y1": "0.8546",
+          "size": "680x464",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "bc40de7d36e028e3f243f1ff010e42cb1f08ea4bad988f04e9a022898de2beb6",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Mature Teratoma Pelvic Radiograph",
+          "lecture_category": "Primary",
+          "id": 35,
+          "current_png_sha256": "bc40de7d36e028e3f243f1ff010e42cb1f08ea4bad988f04e9a022898de2beb6"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-6d2692da5427f789505d",
+          "asset": "assets/display/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.webp",
+          "zoom_asset": "assets/originals/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.png",
+          "display_sha256": "a45b6beb514bf6620705a325281f889dbbf0903c42ae432c6da028da4f024e72",
+          "zoom_sha256": "7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac",
+          "output_dimensions": [
+            680,
+            464
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              680,
+              464
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-18301c20a78fc236b35e",
+      "source_group_id": "g-667cef2f5e46353411b7",
+      "asset_id": "a-1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa",
+      "lecture_id": "R32",
+      "relative_path": "R32/Mature Teratoma MRI Fat Sat 1 - Radiograph.png + Mature Teratoma MRI Fat Sat 2 - Radiograph.png",
+      "sha256": "1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa",
+      "status": "USABLE",
+      "tested_concept": "Mature Teratoma MRI Fat Sat 1 - Radiograph.png + Mature Teratoma MRI Fat Sat 2 - Radiograph.png",
+      "dimensions": [
+        1716,
+        732
+      ],
+      "original_asset": "assets/originals/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.png",
+      "display_asset": "assets/display/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 19
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "19",
+        "file": "Mature Teratoma MRI Fat Sat 1 - Radiograph.png",
+        "slide_title": "Case 8 Imaging",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.2708",
+        "crop_y0": "0.6222",
+        "crop_x1": "0.6431",
+        "crop_y1": "0.9991",
+        "size": "536x407",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "28613bb41f1df9cb4e6f31599afbe940e6ef946f85ab9d7918d01831744c0348",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Mature Teratoma MRI Fat Sat 1",
+        "lecture_category": "Primary",
+        "id": 36,
+        "current_png_sha256": "28613bb41f1df9cb4e6f31599afbe940e6ef946f85ab9d7918d01831744c0348"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "19",
+          "file": "Mature Teratoma MRI Fat Sat 1 - Radiograph.png",
+          "slide_title": "Case 8 Imaging",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.2708",
+          "crop_y0": "0.6222",
+          "crop_x1": "0.6431",
+          "crop_y1": "0.9991",
+          "size": "536x407",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "28613bb41f1df9cb4e6f31599afbe940e6ef946f85ab9d7918d01831744c0348",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Mature Teratoma MRI Fat Sat 1",
+          "lecture_category": "Primary",
+          "id": 36,
+          "current_png_sha256": "28613bb41f1df9cb4e6f31599afbe940e6ef946f85ab9d7918d01831744c0348"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "19",
+          "file": "Mature Teratoma MRI Fat Sat 2 - Radiograph.png",
+          "slide_title": "Case 8 Imaging",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.6438",
+          "crop_y0": "0.6222",
+          "crop_x1": "0.9868",
+          "crop_y1": "1.0",
+          "size": "494x408",
+          "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "c51742a64c6d9b122e960264bf90b43b5dae060a4b1ff11b370f27834591f42a",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Mature Teratoma MRI Fat Sat 2",
+          "lecture_category": "Primary",
+          "id": 37,
+          "current_png_sha256": "c51742a64c6d9b122e960264bf90b43b5dae060a4b1ff11b370f27834591f42a"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-1db75040573d6ef64c2d",
+          "asset": "assets/display/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.webp",
+          "zoom_asset": "assets/originals/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.png",
+          "display_sha256": "c64c3e93c5d61f7df20f7ab6dff6bca56f7c0e1d2130945afed72f7813d590fc",
+          "zoom_sha256": "1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa",
+          "output_dimensions": [
+            1716,
+            732
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              732
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-9553df05a0163592093b",
+      "source_group_id": "g-1a18b1d61d1ffb054a74",
+      "asset_id": "a-fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67",
+      "lecture_id": "R32",
+      "relative_path": "R32/Mature Teratoma Pelvic Ultrasound - Echo.png",
+      "sha256": "fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67",
+      "status": "USABLE",
+      "tested_concept": "Mature Teratoma Pelvic Ultrasound - Echo.png",
+      "dimensions": [
+        567,
+        473
+      ],
+      "original_asset": "assets/originals/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.png",
+      "display_asset": "assets/display/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 19
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "19",
+        "file": "Mature Teratoma Pelvic Ultrasound - Echo.png",
+        "slide_title": "Case 8 Imaging",
+        "overlay_labels": "US",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.0139",
+        "crop_y0": "0.2204",
+        "crop_x1": "0.4076",
+        "crop_y1": "0.6583",
+        "size": "567x473",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "271408ef81ae732f19a923de2c4e6ccaa8a25cb09a6827d075b9ed2fcc6fa5a5",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Mature Teratoma Pelvic Ultrasound",
+        "lecture_category": "Primary",
+        "id": 38,
+        "current_png_sha256": "271408ef81ae732f19a923de2c4e6ccaa8a25cb09a6827d075b9ed2fcc6fa5a5"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "19",
+          "file": "Mature Teratoma Pelvic Ultrasound - Echo.png",
+          "slide_title": "Case 8 Imaging",
+          "overlay_labels": "US",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0139",
+          "crop_y0": "0.2204",
+          "crop_x1": "0.4076",
+          "crop_y1": "0.6583",
+          "size": "567x473",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "271408ef81ae732f19a923de2c4e6ccaa8a25cb09a6827d075b9ed2fcc6fa5a5",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Mature Teratoma Pelvic Ultrasound",
+          "lecture_category": "Primary",
+          "id": 38,
+          "current_png_sha256": "271408ef81ae732f19a923de2c4e6ccaa8a25cb09a6827d075b9ed2fcc6fa5a5"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-286ac5dc4d3aa804a780",
+          "asset": "assets/display/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.webp",
+          "zoom_asset": "assets/originals/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.png",
+          "display_sha256": "b42ae21dbd50cd18f31ac977d36de723308e85ad6ed21ed5c1c7dcf5789bf33c",
+          "zoom_sha256": "fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67",
+          "output_dimensions": [
+            567,
+            473
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              567,
+              473
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-0c1c218f958e27098105",
+      "source_group_id": "g-b833172a69cfcceb81ca",
+      "asset_id": "a-74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057",
+      "lecture_id": "R32",
+      "relative_path": "R32/Endometrium Thickness Ultrasound - Echo.png + Left Ovary Long Ultrasound - Echo.png + Right Ovary Long Ultrasound - Echo.png",
+      "sha256": "74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057",
+      "status": "USABLE",
+      "tested_concept": "Endometrium Thickness Ultrasound - Echo.png + Left Ovary Long Ultrasound - Echo.png + Right Ovary Long Ultrasound - Echo.png",
+      "dimensions": [
+        2582,
+        723
+      ],
+      "original_asset": "assets/originals/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.png",
+      "display_asset": "assets/display/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "22",
+        "file": "Endometrium Thickness Ultrasound - Echo.png",
+        "slide_title": "Case 9",
+        "overlay_labels": "Endometrium; 1 Endometrium 6.3 mm",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.0264",
+        "crop_y0": "0.2157",
+        "crop_x1": "0.5306",
+        "crop_y1": "0.7546",
+        "size": "726x582",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "d52b4a36f5514b9c001c1bf254ec35cee59809824829d21825b4f97f266d787a",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Endometrium Thickness Ultrasound",
+        "lecture_category": "Primary",
+        "id": 39,
+        "current_png_sha256": "d52b4a36f5514b9c001c1bf254ec35cee59809824829d21825b4f97f266d787a"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "22",
+          "file": "Endometrium Thickness Ultrasound - Echo.png",
+          "slide_title": "Case 9",
+          "overlay_labels": "Endometrium; 1 Endometrium 6.3 mm",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0264",
+          "crop_y0": "0.2157",
+          "crop_x1": "0.5306",
+          "crop_y1": "0.7546",
+          "size": "726x582",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "d52b4a36f5514b9c001c1bf254ec35cee59809824829d21825b4f97f266d787a",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Endometrium Thickness Ultrasound",
+          "lecture_category": "Primary",
+          "id": 39,
+          "current_png_sha256": "d52b4a36f5514b9c001c1bf254ec35cee59809824829d21825b4f97f266d787a"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "22",
+          "file": "Left Ovary Long Ultrasound - Echo.png",
+          "slide_title": "Case 9",
+          "overlay_labels": "Lt Ovary Long",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.5549",
+          "crop_y0": "0.2148",
+          "crop_x1": "0.9146",
+          "crop_y1": "0.5889",
+          "size": "518x404",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "f321f629800ff1801e20808d4171028afb922b0a3075e4d9245c862ca4c1d17f",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Left Ovary Long Ultrasound",
+          "lecture_category": "Primary",
+          "id": 40,
+          "current_png_sha256": "f321f629800ff1801e20808d4171028afb922b0a3075e4d9245c862ca4c1d17f"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "22",
+          "file": "Right Ovary Long Ultrasound - Echo.png",
+          "slide_title": "Case 9",
+          "overlay_labels": "Rt Ovary Long",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.5549",
+          "crop_y0": "0.6111",
+          "crop_x1": "0.9125",
+          "crop_y1": "1.0",
+          "size": "515x420",
+          "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "74b484a56d02176bc3142f49a8ac99ea5a8c72c658c5205e97bcfa293a5d37b3",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Right Ovary Long Ultrasound",
+          "lecture_category": "Primary",
+          "id": 41,
+          "current_png_sha256": "74b484a56d02176bc3142f49a8ac99ea5a8c72c658c5205e97bcfa293a5d37b3"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-4b091059500186981999",
+          "asset": "assets/display/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.webp",
+          "zoom_asset": "assets/originals/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.png",
+          "display_sha256": "8e34bc4d958ff228ada2c0958c1e2a21d072b84cbf6c80cdf008d70e5041a1b1",
+          "zoom_sha256": "74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057",
+          "output_dimensions": [
+            2582,
+            723
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              2582,
+              723
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-6ed2d45a686d7b35f39f",
+      "source_group_id": "g-d91aa901443fb692282c",
+      "asset_id": "a-1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e",
+      "lecture_id": "R32",
+      "relative_path": "R32/Resting Ovary Doppler Ultrasound - Echo.png + Dominant Follicle Doppler Ultrasound - Echo.png",
+      "sha256": "1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e",
+      "status": "USABLE",
+      "tested_concept": "Resting Ovary Doppler Ultrasound - Echo.png + Dominant Follicle Doppler Ultrasound - Echo.png",
+      "dimensions": [
+        1716,
+        804
+      ],
+      "original_asset": "assets/originals/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.png",
+      "display_asset": "assets/display/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "24",
+        "file": "Resting Ovary Doppler Ultrasound - Echo.png",
+        "slide_title": "Dominant Follicle Physiology",
+        "overlay_labels": "Col 82% Map 6; Flow Opt: Med V",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.0",
+        "crop_y0": "0.3491",
+        "crop_x1": "0.3382",
+        "crop_y1": "0.6889",
+        "size": "487x367",
+        "note": "runs to the left slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Resting Ovary Doppler Ultrasound",
+        "lecture_category": "Primary",
+        "id": 45,
+        "current_png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "24",
+          "file": "Resting Ovary Doppler Ultrasound - Echo.png",
+          "slide_title": "Dominant Follicle Physiology",
+          "overlay_labels": "Col 82% Map 6; Flow Opt: Med V",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0",
+          "crop_y0": "0.3491",
+          "crop_x1": "0.3382",
+          "crop_y1": "0.6889",
+          "size": "487x367",
+          "note": "runs to the left slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Resting Ovary Doppler Ultrasound",
+          "lecture_category": "Primary",
+          "id": 45,
+          "current_png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "24",
+          "file": "Dominant Follicle Doppler Ultrasound - Echo.png",
+          "slide_title": "Dominant Follicle Physiology",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.6806",
+          "crop_y0": "0.612",
+          "crop_x1": "1.0",
+          "crop_y1": "1.0",
+          "size": "460x419",
+          "note": "runs to the right/bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "ab4a0d236f8364bf956e34cb62a31bedb0c8a668fda6e01dec92a8b48d23d4b5",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Dominant Follicle Doppler Ultrasound",
+          "lecture_category": "Primary",
+          "id": 44,
+          "current_png_sha256": "ab4a0d236f8364bf956e34cb62a31bedb0c8a668fda6e01dec92a8b48d23d4b5"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-27f20b06806f231c83e6",
+          "asset": "assets/display/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.webp",
+          "zoom_asset": "assets/originals/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.png",
+          "display_sha256": "145d7c31ac06080fb1d9fbb04a32ccefa60102534421f92bdbd96b196df68e29",
+          "zoom_sha256": "1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e",
+          "output_dimensions": [
+            1716,
+            804
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              804
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-479402bc0f41e956e991",
+      "source_group_id": "g-994ec18207914ee755ed",
+      "asset_id": "a-2bbeff392ae69b5a206abb8ccc740dba83c5dcf574728a172b2dfadd972b901d",
+      "lecture_id": "R32",
+      "relative_path": "R32/Typical Hemorrhagic Ovarian Cysts Ultrasound - Echo.png",
+      "sha256": "2bbeff392ae69b5a206abb8ccc740dba83c5dcf574728a172b2dfadd972b901d",
+      "status": "USABLE",
+      "tested_concept": "Typical Hemorrhagic Ovarian Cysts Ultrasound - Echo.png",
+      "dimensions": [
+        742,
+        483
+      ],
+      "original_asset": "assets/originals/2bbeff392ae69b5a206abb8ccc740dba83c5dcf574728a172b2dfadd972b901d.png",
+      "display_asset": "assets/display/7c5435fc5ac3347900483c7519a08cc1259a5879cd2bf4dcf93adf0239a5991b.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 23
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "23",
+        "file": "Typical Hemorrhagic Ovarian Cysts Ultrasound - Echo.png",
+        "slide_title": "Hemorrhagic Ovarian Physiologic Follicle",
+        "overlay_labels": "Typical Hemorrhagic Cysts; A-F",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.2424",
+        "crop_y0": "0.5528",
+        "crop_x1": "0.7576",
+        "crop_y1": "1.0",
+        "size": "742x483",
+        "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "7a2a2ad5a063f2d06bbc0acdeeae1b0c114b7343cc0daa94f7aefe9a580abb9d",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Typical Hemorrhagic Ovarian Cysts Ultrasound",
+        "lecture_category": "Primary",
+        "id": 42,
+        "current_png_sha256": "7a2a2ad5a063f2d06bbc0acdeeae1b0c114b7343cc0daa94f7aefe9a580abb9d"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "23",
+          "file": "Typical Hemorrhagic Ovarian Cysts Ultrasound - Echo.png",
+          "slide_title": "Hemorrhagic Ovarian Physiologic Follicle",
+          "overlay_labels": "Typical Hemorrhagic Cysts; A-F",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.2424",
+          "crop_y0": "0.5528",
+          "crop_x1": "0.7576",
+          "crop_y1": "1.0",
+          "size": "742x483",
+          "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "7a2a2ad5a063f2d06bbc0acdeeae1b0c114b7343cc0daa94f7aefe9a580abb9d",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Typical Hemorrhagic Ovarian Cysts Ultrasound",
+          "lecture_category": "Primary",
+          "id": 42,
+          "current_png_sha256": "7a2a2ad5a063f2d06bbc0acdeeae1b0c114b7343cc0daa94f7aefe9a580abb9d"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-199fdb8148845bc9f3ba",
+          "asset": "assets/display/7c5435fc5ac3347900483c7519a08cc1259a5879cd2bf4dcf93adf0239a5991b.webp",
+          "zoom_asset": "assets/zoom/7c5435fc5ac3347900483c7519a08cc1259a5879cd2bf4dcf93adf0239a5991b.png",
+          "display_sha256": "b2722f295b2b35161e69ac300e253e541898e618136c1d8609d0554378f4d38d",
+          "zoom_sha256": "7c5435fc5ac3347900483c7519a08cc1259a5879cd2bf4dcf93adf0239a5991b",
+          "output_dimensions": [
+            742,
+            401
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Typical Hemorrhagic Ovarian Cysts Ultrasound - Echo.png",
+                "crop": [
+                  0,
+                  0.17,
+                  1,
+                  1
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              742,
+              483
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-884d2f45229c714a112d",
+      "source_group_id": "g-a2697cba6b53d2025ddd",
+      "asset_id": "a-a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a",
+      "lecture_id": "R32",
+      "relative_path": "R32/Left Ovary Ultrasound - Echo.png + Right Adnexa Endometrioma Ultrasound - Echo.png",
+      "sha256": "a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a",
+      "status": "USABLE",
+      "tested_concept": "Left Ovary Ultrasound - Echo.png + Right Adnexa Endometrioma Ultrasound - Echo.png",
+      "dimensions": [
+        1716,
+        627
+      ],
+      "original_asset": "assets/originals/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.png",
+      "display_asset": "assets/display/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "25",
+        "file": "Left Ovary Ultrasound - Echo.png",
+        "slide_title": "Case 10",
+        "overlay_labels": "Lt. Ovary",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.3278",
+        "crop_y0": "0.5574",
+        "crop_x1": "0.6583",
+        "crop_y1": "0.8343",
+        "size": "476x299",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "b91ca3f30c76320534b09c98777c2c5285ea22a67119a286c305f421ae965751",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Left Ovary Ultrasound",
+        "lecture_category": "Primary",
+        "id": 46,
+        "current_png_sha256": "b91ca3f30c76320534b09c98777c2c5285ea22a67119a286c305f421ae965751"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "25",
+          "file": "Left Ovary Ultrasound - Echo.png",
+          "slide_title": "Case 10",
+          "overlay_labels": "Lt. Ovary",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.3278",
+          "crop_y0": "0.5574",
+          "crop_x1": "0.6583",
+          "crop_y1": "0.8343",
+          "size": "476x299",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "b91ca3f30c76320534b09c98777c2c5285ea22a67119a286c305f421ae965751",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Left Ovary Ultrasound",
+          "lecture_category": "Primary",
+          "id": 46,
+          "current_png_sha256": "b91ca3f30c76320534b09c98777c2c5285ea22a67119a286c305f421ae965751"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "25",
+          "file": "Right Adnexa Endometrioma Ultrasound - Echo.png",
+          "slide_title": "Case 10",
+          "overlay_labels": "Rt. Adnexa",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.6611",
+          "crop_y0": "0.6769",
+          "crop_x1": "1.0",
+          "crop_y1": "0.9944",
+          "size": "488x343",
+          "note": "runs to the right slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "984533374756bff2f0f446d21f25cf2610c2f3c47e52524ca115cd7bd6433099",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Right Adnexa Endometrioma Ultrasound",
+          "lecture_category": "Primary",
+          "id": 47,
+          "current_png_sha256": "984533374756bff2f0f446d21f25cf2610c2f3c47e52524ca115cd7bd6433099"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-2d8f68ad8ad4a00649a1",
+          "asset": "assets/display/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.webp",
+          "zoom_asset": "assets/originals/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.png",
+          "display_sha256": "4e29c8440c29a9eab2ffce7cffcb5a951290e539b5cd6f4086f5d251713fd808",
+          "zoom_sha256": "a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a",
+          "output_dimensions": [
+            1716,
+            627
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              627
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-771ed8ed8b9bfde6d347",
+      "source_group_id": "g-5f1f5c6328b1f49001be",
+      "asset_id": "a-5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484",
+      "lecture_id": "R32",
+      "relative_path": "R32/Endometriosis Illustration - Diagram.png + Adenomyosis Illustration - Diagram.png",
+      "sha256": "5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484",
+      "status": "USABLE",
+      "tested_concept": "Endometriosis Illustration - Diagram.png + Adenomyosis Illustration - Diagram.png",
+      "dimensions": [
+        1604,
+        810
+      ],
+      "original_asset": "assets/originals/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.png",
+      "display_asset": "assets/display/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 26
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "26",
+        "file": "Endometriosis Illustration - Diagram.png",
+        "slide_title": "Endometriosis",
+        "overlay_labels": "Endometriosis",
+        "type": "Diagram",
+        "mode": "quiz",
+        "crop_x0": "0.125",
+        "crop_y0": "0.6417",
+        "crop_x1": "0.2632",
+        "crop_y1": "0.825",
+        "size": "199x198",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "80fe97d81041ef03576022c9ef3f200d23a10b047fa676958494d1d39c3d2268",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Endometriosis Illustration",
+        "lecture_category": "Primary",
+        "id": 50,
+        "current_png_sha256": "80fe97d81041ef03576022c9ef3f200d23a10b047fa676958494d1d39c3d2268"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "26",
+          "file": "Endometriosis Illustration - Diagram.png",
+          "slide_title": "Endometriosis",
+          "overlay_labels": "Endometriosis",
+          "type": "Diagram",
+          "mode": "quiz",
+          "crop_x0": "0.125",
+          "crop_y0": "0.6417",
+          "crop_x1": "0.2632",
+          "crop_y1": "0.825",
+          "size": "199x198",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "80fe97d81041ef03576022c9ef3f200d23a10b047fa676958494d1d39c3d2268",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Endometriosis Illustration",
+          "lecture_category": "Primary",
+          "id": 50,
+          "current_png_sha256": "80fe97d81041ef03576022c9ef3f200d23a10b047fa676958494d1d39c3d2268"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "27",
+          "file": "Adenomyosis Illustration - Diagram.png",
+          "slide_title": "Endometriosis",
+          "overlay_labels": "Adenomyosis",
+          "type": "Diagram",
+          "mode": "quiz",
+          "crop_x0": "0.3514",
+          "crop_y0": "0.6417",
+          "crop_x1": "0.491",
+          "crop_y1": "0.8222",
+          "size": "201x195",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "229f2f44b41bb4182b41026472b0f770abc445bcda552ee6334b1eb88975dd7d",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Adenomyosis Illustration",
+          "lecture_category": "Primary",
+          "id": 51,
+          "current_png_sha256": "229f2f44b41bb4182b41026472b0f770abc445bcda552ee6334b1eb88975dd7d"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-407f1a3168ad9f803c61",
+          "asset": "assets/display/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.webp",
+          "zoom_asset": "assets/originals/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.png",
+          "display_sha256": "d5d4ec1b5301ff6578e22f55937b890fd528ff14e3e457435521c121ace0c3dc",
+          "zoom_sha256": "5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484",
+          "output_dimensions": [
+            1604,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1604,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-5ae72beca99ad1f15890",
+      "source_group_id": "g-ebbd3d18a95fc520cb82",
+      "asset_id": "a-63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d",
+      "lecture_id": "R32",
+      "relative_path": "R32/Uterus Sagittal Ultrasound - Echo.png + Endometrioma MRI - Radiograph.png",
+      "sha256": "63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d",
+      "status": "USABLE",
+      "tested_concept": "Uterus Sagittal Ultrasound - Echo.png + Endometrioma MRI - Radiograph.png",
+      "dimensions": [
+        1716,
+        742
+      ],
+      "original_asset": "assets/originals/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.png",
+      "display_asset": "assets/display/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "25",
+        "file": "Uterus Sagittal Ultrasound - Echo.png",
+        "slide_title": "Case 10",
+        "overlay_labels": "Uterus Sagittal",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.0",
+        "crop_y0": "0.4704",
+        "crop_x1": "0.3271",
+        "crop_y1": "0.7481",
+        "size": "471x300",
+        "note": "runs to the left slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "e0e5fc180f0202e6662213791256b98c3f41faa7e91a194d53d9b38ec565a3fd",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Uterus Sagittal Ultrasound",
+        "lecture_category": "Primary",
+        "id": 48,
+        "current_png_sha256": "e0e5fc180f0202e6662213791256b98c3f41faa7e91a194d53d9b38ec565a3fd"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "25",
+          "file": "Uterus Sagittal Ultrasound - Echo.png",
+          "slide_title": "Case 10",
+          "overlay_labels": "Uterus Sagittal",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0",
+          "crop_y0": "0.4704",
+          "crop_x1": "0.3271",
+          "crop_y1": "0.7481",
+          "size": "471x300",
+          "note": "runs to the left slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "e0e5fc180f0202e6662213791256b98c3f41faa7e91a194d53d9b38ec565a3fd",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Uterus Sagittal Ultrasound",
+          "lecture_category": "Primary",
+          "id": 48,
+          "current_png_sha256": "e0e5fc180f0202e6662213791256b98c3f41faa7e91a194d53d9b38ec565a3fd"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "27",
+          "file": "Endometrioma MRI - Radiograph.png",
+          "slide_title": "Endometriosis",
+          "overlay_labels": "Avg. SI",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.5924",
+          "crop_y0": "0.5741",
+          "crop_x1": "0.9736",
+          "crop_y1": "1.0",
+          "size": "549x460",
+          "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "25280fd18e256dcbd911cdfab4b11c96bed38b60374142b17f22962b3deb318e",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Endometrioma MRI",
+          "lecture_category": "Primary",
+          "id": 52,
+          "current_png_sha256": "25280fd18e256dcbd911cdfab4b11c96bed38b60374142b17f22962b3deb318e"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-e4ef82ba15e4a469d017",
+          "asset": "assets/display/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.webp",
+          "zoom_asset": "assets/originals/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.png",
+          "display_sha256": "80a794fda1f6440252d5d8ca3e437224cf4bb3eca56f4588db1ad1ff7d66df05",
+          "zoom_sha256": "63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d",
+          "output_dimensions": [
+            1716,
+            742
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              742
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-76593654070dd8ccda20",
+      "source_group_id": "g-c1f0545ae49a185f9bff",
+      "asset_id": "a-0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869",
+      "lecture_id": "R32",
+      "relative_path": "R32/Ovarian Cell Types CT 1 - CT.png + Ovarian Cell Types CT 2 - CT.png",
+      "sha256": "0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869",
+      "status": "USABLE",
+      "tested_concept": "Ovarian Cell Types CT 1 - CT.png + Ovarian Cell Types CT 2 - CT.png",
+      "dimensions": [
+        1716,
+        690
+      ],
+      "original_asset": "assets/originals/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.png",
+      "display_asset": "assets/display/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 16
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "16",
+        "file": "Ovarian Cell Types CT 1 - CT.png",
+        "slide_title": "Ovarian Cell Types",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "quiz",
+        "crop_x0": "0.3187",
+        "crop_y0": "0.6426",
+        "crop_x1": "0.6514",
+        "crop_y1": "0.987",
+        "size": "479x372",
+        "note": "orange annotation arrow removed by inpainting video-derived, native resolution limited",
+        "png_sha256": "6a006147a6173e992501a6ce942f3c78ed33f667a476e7fdbd2c996ec6c47d61",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Ovarian Cell Types CT 1",
+        "lecture_category": "Primary",
+        "id": 28,
+        "current_png_sha256": "6a006147a6173e992501a6ce942f3c78ed33f667a476e7fdbd2c996ec6c47d61"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "16",
+          "file": "Ovarian Cell Types CT 1 - CT.png",
+          "slide_title": "Ovarian Cell Types",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "quiz",
+          "crop_x0": "0.3187",
+          "crop_y0": "0.6426",
+          "crop_x1": "0.6514",
+          "crop_y1": "0.987",
+          "size": "479x372",
+          "note": "orange annotation arrow removed by inpainting video-derived, native resolution limited",
+          "png_sha256": "6a006147a6173e992501a6ce942f3c78ed33f667a476e7fdbd2c996ec6c47d61",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Ovarian Cell Types CT 1",
+          "lecture_category": "Primary",
+          "id": 28,
+          "current_png_sha256": "6a006147a6173e992501a6ce942f3c78ed33f667a476e7fdbd2c996ec6c47d61"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "16",
+          "file": "Ovarian Cell Types CT 2 - CT.png",
+          "slide_title": "Ovarian Cell Types",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "quiz",
+          "crop_x0": "0.6424",
+          "crop_y0": "0.6426",
+          "crop_x1": "1.0",
+          "crop_y1": "0.9926",
+          "size": "515x378",
+          "note": "runs to the right slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "ce37db31cdc84418c189dc48805750566ca8eec797aef8fa26d7e5e487d7a292",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Ovarian Cell Types CT 2",
+          "lecture_category": "Primary",
+          "id": 29,
+          "current_png_sha256": "ce37db31cdc84418c189dc48805750566ca8eec797aef8fa26d7e5e487d7a292"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-b3bd96f2a38a4cd77179",
+          "asset": "assets/display/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.webp",
+          "zoom_asset": "assets/originals/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.png",
+          "display_sha256": "d018502107550b037d4e799ef19945734143d57ec2f26c5ef0c7f84d6fac6df5",
+          "zoom_sha256": "0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869",
+          "output_dimensions": [
+            1716,
+            690
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              690
+            ]
+          }
+        }
+      ]
     }
   ],
   "publication_scope": "Scored clinical cases and required comparison panels"

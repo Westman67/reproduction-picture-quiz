@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "title": "Reproduction Pathology Clinical Cases",
-  "bank_version": "keanne-followups1",
+  "bank_version": "r30-r32-1",
   "release_status": "reviewed",
   "cases": [
     {
@@ -408,10 +408,14 @@
         "q-r30-curves-case",
         "q-r30-flash-case",
         "q-r30-epithelium-case",
-        "q-r30-transition-depth-ovarian-origin"
+        "q-r30-transition-depth-ovarian-origin",
+        "q-r30-flushing-pattern",
+        "q-r30-endometrial-protection",
+        "q-r30-local-treatment"
       ],
       "previous_question_counts": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -423,10 +427,13 @@
         "q-r30-axis-low-case",
         "q-r30-athlete-depth-pituitary-branch",
         "q-r30-athlete-depth-downstream-consequence",
-        "q-r30-athlete-depth-feedback-contrast"
+        "q-r30-athlete-depth-feedback-contrast",
+        "q-r30-amenorrhea-labs",
+        "q-r30-training-management"
       ],
       "previous_question_counts": [
-        2
+        2,
+        5
       ]
     },
     {
@@ -504,6 +511,134 @@
       "previous_question_counts": [
         2
       ]
+    },
+    {
+      "case_id": "r31-breast-comparison",
+      "lecture": "R31",
+      "title": "Keanne Compares the Echoes",
+      "question_ids": [
+        "q-r31-breast-case-cyst",
+        "q-r31-breast-case-fibro"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r31-uterine-cavity",
+      "lecture": "R31",
+      "title": "Keanne Reconstructs the Cavity",
+      "question_ids": [
+        "q-r31-cavity-saline",
+        "q-r31-cavity-treatment"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-missing-period",
+      "lecture": "R32",
+      "title": "Keanne Follows the Missing Landmarks",
+      "question_ids": [
+        "q-r32-amenorrhea-mri",
+        "q-r32-groin-mass",
+        "q-r32-chest-spread",
+        "q-r32-pubertal-bone"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-sudden-scrotal-pain",
+      "lecture": "R32",
+      "title": "Keanne Races the Clock",
+      "question_ids": [
+        "q-r32-torsion-urgent",
+        "q-r32-torsion-mechanism"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-groin-swelling",
+      "lecture": "R32",
+      "title": "Keanne Tracks the Groin Swelling",
+      "question_ids": [
+        "q-r32-groin-contents",
+        "q-r32-groin-processus"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-painless-swelling",
+      "lecture": "R32",
+      "title": "Keanne Holds the Light Up",
+      "question_ids": [
+        "q-r32-swelling-light",
+        "q-r32-swelling-fluid",
+        "q-r32-swelling-communication"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-renal-and-uterine",
+      "lecture": "R32",
+      "title": "Keanne Finds Two Paths From One Neck",
+      "question_ids": [
+        "q-r32-renal-search",
+        "q-r32-uterine-fusion"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-chest-and-pelvis",
+      "lecture": "R32",
+      "title": "Keanne Connects the Chest to the Pelvis",
+      "question_ids": [
+        "q-r32-effusion-next",
+        "q-r32-meigs-inference",
+        "q-r32-effusion-course",
+        "q-r32-effusion-contrast"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-bleeding-after-menopause",
+      "lecture": "R32",
+      "title": "Keanne Looks Past the Thickened Line",
+      "question_ids": [
+        "q-r32-endometrium-next",
+        "q-r32-endometrium-stalk"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-pelvic-shadows",
+      "lecture": "R32",
+      "title": "Keanne Finds More Than a Shadow",
+      "question_ids": [
+        "q-r32-pelvic-calcific",
+        "q-r32-fat-suppression",
+        "q-r32-pelvic-removal"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-midcycle-pain",
+      "lecture": "R32",
+      "title": "Keanne Follows the Midcycle Clues",
+      "question_ids": [
+        "q-r32-cycle-endometrium",
+        "q-r32-cycle-doppler",
+        "q-r32-cycle-varied"
+      ],
+      "previous_question_counts": []
+    },
+    {
+      "case_id": "r32-cyclic-pain",
+      "lecture": "R32",
+      "title": "Keanne Checks Where the Tissue Went",
+      "question_ids": [
+        "q-r32-cyclic-adnexa",
+        "q-r32-cyclic-wall",
+        "q-r32-cyclic-junction"
+      ],
+      "previous_question_counts": []
     }
   ],
   "questions": [
@@ -9519,6 +9654,235 @@
       "study_skill": "mechanism"
     },
     {
+      "question_id": "q-r30-flushing-pattern",
+      "collection": "R30",
+      "study_skill": "management",
+      "category": "Clinical data",
+      "tested_concept": "Associated symptoms in the flushing differential",
+      "visual_target": "Associated symptoms in the flushing differential",
+      "question_type": "Clinical visual question",
+      "stem": "Which added pattern would most strongly shift attention to catecholamine excess?",
+      "options": [
+        "Pattern A, because heat and night sweats establish catecholamine excess.",
+        "Pattern C, because diarrhea is the distinguishing sign of a catecholamine surge.",
+        "Patterns A and C, because the shared flush is enough to establish the mechanism.",
+        "All three patterns, because the additional symptoms have no diagnostic value.",
+        "Pattern B, with severe hypertension, headache, and palpitations during spells."
+      ],
+      "choice_rationales": [
+        "Pattern A reproduces the original heat episodes without the more specific hypertensive pattern.",
+        "R30 discusses diarrhea with wheezing as part of the carcinoid pattern.",
+        "Flushing is shared. The associated signs and symptoms distinguish the patterns.",
+        "The comparison distinguishes the hypertensive spells from other causes of flushing.",
+        "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways."
+      ],
+      "correct_index": 4,
+      "explanation": "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways.",
+      "visual_clues": [
+        "Focus on the accompanying symptoms rather than on flushing alone."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r30-transition",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "The lecture revisits episodic flushing by comparing the original case with two systemic patterns.",
+      "lead_in": "Which added pattern would most strongly shift attention to catecholamine excess?",
+      "visual_kind": "table",
+      "source_group_id": "g-table-q-r30-flushing-pattern",
+      "source_origin": "lecture-table",
+      "context_table": {
+        "placement": "primary",
+        "title": "Comparison of episodes",
+        "columns": [
+          "Pattern",
+          "Features"
+        ],
+        "rows": [
+          [
+            "A",
+            "Brief heat episodes, facial redness, sweating and disrupted sleep"
+          ],
+          [
+            "B",
+            "Sweating with severe hypertension, headache and palpitations"
+          ],
+          [
+            "C",
+            "Flushing with diarrhea and wheezing"
+          ]
+        ],
+        "hidden_cells": [],
+        "source": {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 4
+        }
+      },
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 19
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-endometrial-protection",
+      "collection": "R30",
+      "study_skill": "mechanism",
+      "category": "Clinical data",
+      "tested_concept": "Uterine status and the need for progestogen",
+      "visual_target": "Uterine status and the need for progestogen",
+      "question_type": "Clinical visual question",
+      "stem": "Which reason explains the difference in the uterine effect listed in the table?",
+      "options": [
+        "Adding a progestogen provides endometrial protection during systemic estrogen therapy.",
+        "Adding a progestogen removes the estrogen effect by ending all ovarian feedback.",
+        "Estrogen alone supplies the same endometrial protection as the combined regimen.",
+        "Adding a progestogen protects a patient by restoring an absent uterus.",
+        "The combined regimen serves only as local therapy for vaginal symptoms."
+      ],
+      "choice_rationales": [
+        "R30 explains that unopposed estrogen can promote endometrial pathology in a patient with a uterus. A progestogen is added for endometrial protection.",
+        "The difference addressed in the lecture is endometrial protection.",
+        "The lecture distinguishes estrogen alone from the regimen with added protection.",
+        "The patient already has a uterus. The drug protects its endometrium.",
+        "This comparison concerns systemic estrogen in a patient with a uterus."
+      ],
+      "correct_index": 0,
+      "explanation": "R30 explains that unopposed estrogen can promote endometrial pathology in a patient with a uterus. A progestogen is added for endometrial protection.",
+      "visual_clues": [
+        "The two systemic regimens differ by the addition of a progestogen."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r30-transition",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "The lecture compares two hormone regimens in a patient who still has a uterus.",
+      "lead_in": "Which reason explains the difference in the uterine effect listed in the table?",
+      "visual_kind": "table",
+      "source_group_id": "g-table-q-r30-endometrial-protection",
+      "source_origin": "lecture-table",
+      "context_table": {
+        "placement": "primary",
+        "title": "Regimens discussed for a patient with a uterus",
+        "columns": [
+          "Regimen",
+          "Components",
+          "Uterine effect"
+        ],
+        "rows": [
+          [
+            "A",
+            "Systemic estrogen alone",
+            "Endometrium exposed to unopposed estrogen"
+          ],
+          [
+            "B",
+            "Systemic estrogen plus a progestogen",
+            "Endometrial protection"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            1,
+            2
+          ]
+        ],
+        "source": {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 67
+        }
+      },
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 67
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 70
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-local-treatment",
+      "collection": "R30",
+      "study_skill": "management",
+      "category": "Diagram",
+      "tested_concept": "Local therapy for an isolated low-estrogen tissue effect",
+      "visual_target": "Local therapy for an isolated low-estrogen tissue effect",
+      "question_type": "Clinical visual question",
+      "stem": "Which treatment from the lecture directly targets the epithelial change shown in the right panel?",
+      "options": [
+        "Vaginal lubricant as a replacement for epithelial estrogen signaling.",
+        "Local vaginal estrogen.",
+        "A fan or cooling measures to restore epithelial thickness.",
+        "A progestogen alone to restore the estrogen effect on the vaginal epithelium.",
+        "Systemic nonhormonal treatment for vasomotor symptoms to thicken the vaginal epithelium."
+      ],
+      "choice_rationales": [
+        "The lecture lists lubricants to reduce discomfort. They do not replace the missing epithelial hormonal stimulus.",
+        "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms.",
+        "Cooling is discussed for hot episodes.",
+        "The illustrated target tissue change is linked to low estrogen.",
+        "That approach addresses hot flashes, rather than the local epithelial mechanism."
+      ],
+      "correct_index": 1,
+      "explanation": "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms.",
+      "visual_clues": [
+        "The right-hand epithelium is thinner and has fewer layers."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r30-transition",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A teaching comparison shows vaginal epithelium in two hormonal states. The patient seeks treatment for persistent dryness and discomfort.",
+      "lead_in": "Which treatment from the lecture directly targets the epithelial change shown in the right panel?",
+      "source_id": "s-0101fcdae40a5e395739",
+      "source_group_id": "g-de1b67d39c5f5cccd8e1",
+      "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
+      "variant_id": "v-af21e15a60392d3dd4cf",
+      "image": "assets/display/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.webp",
+      "zoom_image": "assets/zoom/7b45aa8ab8dc0cae32ac91b212c5283e3ba2fcb723d784b3a389eda47715601e.png",
+      "original_image": "assets/originals/de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3.png",
+      "original_filename": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
+      "source_origin": "lecture",
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 54
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 53
+        }
+      ]
+    },
+    {
       "question_id": "q-r30-axis-case",
       "source_id": "s-9b273ae11ac523739562",
       "source_group_id": "g-2f5f33317ccbe15d3fb9",
@@ -9835,6 +10199,169 @@
         }
       ],
       "study_skill": "mechanism"
+    },
+    {
+      "question_id": "q-r30-amenorrhea-labs",
+      "collection": "R30",
+      "study_skill": "management",
+      "category": "Clinical data",
+      "tested_concept": "Initial screening before attributing amenorrhea to training",
+      "visual_target": "Initial screening before attributing amenorrhea to training",
+      "question_type": "Clinical visual question",
+      "stem": "Which test belongs in the masked row?",
+      "options": [
+        "Serum free T4 as the test for pregnancy.",
+        "Plasma metanephrines.",
+        "β-hCG.",
+        "Repeat prolactin as the pregnancy test.",
+        "Repeat TSH as the pregnancy test."
+      ],
+      "choice_rationales": [
+        "The masked row concerns pregnancy rather than thyroid status.",
+        "The lecture uses those in the evaluation of a catecholamine excess pattern.",
+        "R30 lists β-hCG, serum TSH and serum prolactin in the initial workup. Pregnancy testing addresses a distinct cause before assigning the amenorrhea to reduced hypothalamic drive.",
+        "Prolactin is listed separately to screen for a different cause.",
+        "TSH is listed separately for thyroid assessment."
+      ],
+      "correct_index": 2,
+      "explanation": "R30 lists β-hCG, serum TSH and serum prolactin in the initial workup. Pregnancy testing addresses a distinct cause before assigning the amenorrhea to reduced hypothalamic drive.",
+      "visual_clues": [
+        "Match the missing test to the cause being screened for in the first row."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r30-athlete",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A varsity runner with secondary amenorrhea is being assessed. The lecture lists three initial laboratory checks before settling on a cause.",
+      "lead_in": "Which test belongs in the masked row?",
+      "visual_kind": "table",
+      "source_group_id": "g-table-q-r30-amenorrhea-labs",
+      "source_origin": "lecture-table",
+      "context_table": {
+        "placement": "primary",
+        "title": "Initial laboratory checks",
+        "columns": [
+          "Question being addressed",
+          "Test"
+        ],
+        "rows": [
+          [
+            "Pregnancy",
+            "β-hCG"
+          ],
+          [
+            "Thyroid dysfunction",
+            "Serum TSH"
+          ],
+          [
+            "Hyperprolactinemia",
+            "Serum prolactin"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            0,
+            1
+          ]
+        ],
+        "source": {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 81
+        }
+      },
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 81
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "question_id": "q-r30-training-management",
+      "collection": "R30",
+      "study_skill": "management",
+      "category": "Clinical data",
+      "tested_concept": "Restore energy availability to address hypothalamic suppression",
+      "visual_target": "Restore energy availability to address hypothalamic suppression",
+      "question_type": "Clinical visual question",
+      "stem": "Which pair of changes addresses the upstream driver in this pattern?",
+      "options": [
+        "Reduce intake and increase training intensity.",
+        "Increase training intensity while leaving the energy deficit unresolved.",
+        "Treat as ovarian failure from follicle depletion.",
+        "Increase energy availability and adjust training volume or intensity.",
+        "Focus only on replacement while keeping the restrictive intake and training pattern."
+      ],
+      "choice_rationales": [
+        "Both changes would tend to worsen the energy deficit highlighted in the table.",
+        "The lecture addresses the mismatch between energy intake and expenditure.",
+        "The table shows reduced central drive associated with the energy and exercise pattern.",
+        "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case.",
+        "The question asks which plan addresses the upstream cause. The lecture discusses energy balance and training directly."
+      ],
+      "correct_index": 3,
+      "explanation": "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case.",
+      "visual_clues": [
+        "The altered hormone output follows the low-energy and high-training pattern."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r30-athlete",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "The case now moves from endocrine interpretation to management.",
+      "lead_in": "Which pair of changes addresses the upstream driver in this pattern?",
+      "visual_kind": "table",
+      "source_group_id": "g-table-q-r30-training-management",
+      "source_origin": "lecture-table",
+      "context_table": {
+        "placement": "primary",
+        "title": "Case reasoning summary",
+        "columns": [
+          "Level",
+          "Finding"
+        ],
+        "rows": [
+          [
+            "Upstream factors",
+            "Energy deficit and excessive exercise"
+          ],
+          [
+            "Hypothalamus",
+            "Suppressed GnRH secretion"
+          ],
+          [
+            "Ovary",
+            "Low estradiol"
+          ]
+        ],
+        "hidden_cells": [],
+        "source": {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 84
+        }
+      },
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 84
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 85
+        }
+      ]
     },
     {
       "question_id": "q-reasoning-reassuring-tracing",
@@ -11079,6 +11606,2049 @@
           "x": 63,
           "y": 53,
           "label": "Brown outlines follow adjacent tumor cell membranes."
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-breast-case-cyst",
+      "collection": "R31",
+      "study_skill": "mechanism",
+      "category": "Ultrasound",
+      "tested_concept": "Transmission through cyst fluid",
+      "visual_target": "Transmission through cyst fluid",
+      "question_type": "Clinical visual question",
+      "stem": "Which mechanism accounts for the bright band of tissue deep to the lesion?",
+      "options": [
+        "Calcification blocks sound and produces a bright posterior band.",
+        "Diffuse solid tissue within the lesion generates the bright posterior band.",
+        "Low internal attenuation is ruled out by the anechoic center.",
+        "The band indicates identical transmission on either side of the lesion.",
+        "Sound passes through the cyst fluid with relatively little attenuation."
+      ],
+      "choice_rationales": [
+        "A strongly attenuating focus would leave a darker shadow.",
+        "The lesion itself is dark and the enhancement is behind it.",
+        "The dark fluid center and bright posterior region support transmission.",
+        "The tissue deep to the cyst is visibly brighter than the nearby region.",
+        "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example."
+      ],
+      "correct_index": 4,
+      "explanation": "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example.",
+      "visual_clues": [
+        "Compare the tissue below the fluid region with adjoining tissue at the same depth."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r31-breast-comparison",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "The breast lecture compares a palpable breast lump with the solid lesion shown in the companion example.",
+      "lead_in": "Which mechanism accounts for the bright band of tissue deep to the lesion?",
+      "source_id": "s-0387e1221febf514a070",
+      "source_group_id": "g-af97811c946fd32ea73a",
+      "asset_id": "a-bff35792180cdda776a594960dc3edf521954f753795e2f142e0b110c598f634",
+      "variant_id": "v-003735972eac46229445",
+      "image": "assets/display/fde2676d7c7b311cd68e355b96cd38dbf5c2dd0bf24597c55976d3404d6cba26.webp",
+      "zoom_image": "assets/zoom/fde2676d7c7b311cd68e355b96cd38dbf5c2dd0bf24597c55976d3404d6cba26.png",
+      "original_image": "assets/originals/bff35792180cdda776a594960dc3edf521954f753795e2f142e0b110c598f634.png",
+      "original_filename": "Simple Breast Cyst Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-breast-case-fibro",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Imaging correlate of a firm mobile breast lump",
+      "visual_target": "Imaging correlate of a firm mobile breast lump",
+      "question_type": "Clinical visual question",
+      "stem": "Which diagnosis matches the solid sonographic pattern and the smooth mammographic mass?",
+      "options": [
+        "Fibroadenoma.",
+        "Simple breast cyst.",
+        "Invasive carcinoma with architectural distortion.",
+        "An in situ lesion presenting only as grouped calcifications.",
+        "Diffuse fibrocystic change without a dominant lesion."
+      ],
+      "choice_rationales": [
+        "The mammogram shows a discrete mass, and the ultrasound shows internal echoes rather than an anechoic fluid center. R31 pairs this appearance and exam history with fibroadenoma.",
+        "The ultrasound shows internal echoes instead of the simple cyst pattern.",
+        "The lecture’s invasive example has an irregular center with conspicuous radiating distortion.",
+        "The dominant finding is a discrete mass.",
+        "The two views show a focal mass."
+      ],
+      "correct_index": 0,
+      "explanation": "The mammogram shows a discrete mass, and the ultrasound shows internal echoes rather than an anechoic fluid center. R31 pairs this appearance and exam history with fibroadenoma.",
+      "visual_clues": [
+        "Compare the margin and internal echoes with the fluid-filled comparison."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r31-breast-comparison",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "In the lecture’s second comparison, the patient has a firm, mobile, nontender breast lump.",
+      "lead_in": "Which diagnosis matches the solid sonographic pattern and the smooth mammographic mass?",
+      "source_id": "s-b01759503135627076ab",
+      "source_group_id": "g-904b5900f6e9bfab1c61",
+      "asset_id": "a-325d93fb83311569b356d9d330ac1d497b73f698df0cb5b8edc3f8fb365b35f4",
+      "variant_id": "v-6c87ad8eb5c0a8af5527",
+      "image": "assets/display/11170a67cfd1882c19365a12fbcb5c760cbe6138eb782f3155af06918d44c7d7.webp",
+      "zoom_image": "assets/zoom/11170a67cfd1882c19365a12fbcb5c760cbe6138eb782f3155af06918d44c7d7.png",
+      "original_image": "assets/originals/325d93fb83311569b356d9d330ac1d497b73f698df0cb5b8edc3f8fb365b35f4.png",
+      "original_filename": "Fibroadenoma Mammography - Radiograph.png + Fibroadenoma Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 14
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-cavity-saline",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "Ultrasound",
+      "tested_concept": "Saline outlines an intracavitary component",
+      "visual_target": "Saline outlines an intracavitary component",
+      "question_type": "Clinical visual question",
+      "stem": "What does the saline make easier to see in this example?",
+      "options": [
+        "The mass projects outward from the uterine serosa.",
+        "A rounded lesion projects into the cavity and is outlined by fluid.",
+        "The mass is in the ovarian cortex, separate from the uterus.",
+        "The entire uterine wall is uniformly thick with no focal lesion.",
+        "The lesion is wholly intramural with no cavity contact."
+      ],
+      "choice_rationales": [
+        "The dark fluid outlines the lesion in the uterine cavity.",
+        "The dark saline outlines the protruding rounded lesion. R31 uses this relationship to demonstrate the intracavitary component of a submucosal fibroid.",
+        "The visible fluid outlines a uterine cavity lesion.",
+        "The circled feature is focal and rounded.",
+        "The lesion projects into the saline-filled space."
+      ],
+      "correct_index": 1,
+      "explanation": "The dark saline outlines the protruding rounded lesion. R31 uses this relationship to demonstrate the intracavitary component of a submucosal fibroid.",
+      "visual_clues": [
+        "Follow the dark saline to the edge of the circled projection."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r31-uterine-cavity",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "interpretation",
+      "scenario": "The lecture compares uterine masses by their relationship to the endometrial cavity.",
+      "lead_in": "What does the saline make easier to see in this example?",
+      "source_id": "s-eaabf1f371226072b690",
+      "source_group_id": "g-ae37ef72ee83540bcfb3",
+      "asset_id": "a-a92f69f5f06729539b9073ca4f5d330dea2d9e992b48e2a9f0dbc83a91dd607f",
+      "variant_id": "v-ba8cb3c3bc06900c14e7",
+      "image": "assets/display/b89a37bdbd5c04fe0b80ace62f107824a0bd98836aef9e993ac31ec9ba28b093.webp",
+      "zoom_image": "assets/zoom/b89a37bdbd5c04fe0b80ace62f107824a0bd98836aef9e993ac31ec9ba28b093.png",
+      "original_image": "assets/originals/a92f69f5f06729539b9073ca4f5d330dea2d9e992b48e2a9f0dbc83a91dd607f.png",
+      "original_filename": "Submucosal Fibroid Saline Infused Sonogram - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 37
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 33
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 36
+        }
+      ]
+    },
+    {
+      "question_id": "q-r31-cavity-treatment",
+      "collection": "R31",
+      "study_skill": "management",
+      "category": "MRI",
+      "tested_concept": "Size change following fibroid embolization",
+      "visual_target": "Size change following fibroid embolization",
+      "question_type": "Clinical visual question",
+      "stem": "Which comparison confirms the intended local effect in this teaching example?",
+      "options": [
+        "The intracavitary burden increases after embolization.",
+        "The MRI demonstrates complete removal of the uterus.",
+        "The bulky uterine masses are smaller after embolization.",
+        "The images show unchanged size with a new adnexal lesion.",
+        "The postprocedure image shows disappearance of the ovaries."
+      ],
+      "choice_rationales": [
+        "The postprocedure image shows a reduction in the bulk of the masses.",
+        "A uterus is still visible in the follow-up image.",
+        "The paired sagittal MRI examples show a smaller uterine mass burden after treatment. The figure illustrates local change in the treated fibroids.",
+        "The main comparison is a decrease in bulk of the uterine masses.",
+        "The lesson concerns uterine rather than ovarian change."
+      ],
+      "correct_index": 2,
+      "explanation": "The paired sagittal MRI examples show a smaller uterine mass burden after treatment. The figure illustrates local change in the treated fibroids.",
+      "visual_clues": [
+        "Use the adjacent pelvic structures as references when comparing uterine bulk."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r31-uterine-cavity",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "The lecture shows MRI before and after uterine artery embolization in a patient with uterine fibroids.",
+      "lead_in": "Which comparison confirms the intended local effect in this teaching example?",
+      "source_id": "s-0c770553951d9a31fe47",
+      "source_group_id": "g-389f93b6ba2797f71ab0",
+      "asset_id": "a-9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15",
+      "variant_id": "v-0144f3e240dfb14b7127",
+      "image": "assets/display/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.webp",
+      "zoom_image": "assets/originals/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.png",
+      "original_image": "assets/originals/9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15.png",
+      "original_filename": "Fibroid MRI Before and After UFE - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-amenorrhea-mri",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "MRI",
+      "tested_concept": "Identify complete androgen insensitivity from paired MRI anatomy",
+      "visual_target": "Identify complete androgen insensitivity from paired MRI anatomy",
+      "question_type": "Clinical visual question",
+      "stem": "Which diagnosis accounts for the pelvic anatomy in A and the paired structures in B?",
+      "options": [
+        "Müllerian agenesis with ovaries.",
+        "An imperforate hymen with retained menses.",
+        "Functional hypothalamic amenorrhea.",
+        "Complete androgen insensitivity syndrome.",
+        "Turner syndrome with gonadal dysgenesis."
+      ],
+      "choice_rationales": [
+        "Absence of a uterus can overlap, but the paired groin structures are testes in this case.",
+        "Outflow obstruction does not explain the absent uterus and inguinal testes.",
+        "Reduced hypothalamic drive does not explain these structural findings.",
+        "The sagittal view shows a blind-ending vaginal pouch and no uterus. The axial view shows paired inguinal testes. The combination supports complete androgen insensitivity in the lecture case.",
+        "The paired inguinal testes and absent uterus fit a different developmental pattern."
+      ],
+      "correct_index": 3,
+      "explanation": "The sagittal view shows a blind-ending vaginal pouch and no uterus. The axial view shows paired inguinal testes. The combination supports complete androgen insensitivity in the lecture case.",
+      "visual_clues": [
+        "Identify both the absent midline structure and the paired gonads."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-missing-period",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 16-year-old presents with primary amenorrhea. Two pelvic MR images are available.",
+      "lead_in": "Which diagnosis accounts for the pelvic anatomy in A and the paired structures in B?",
+      "source_id": "s-7b372fb13ee02d827baf",
+      "source_group_id": "g-285eb5d21d7f61166979",
+      "asset_id": "a-01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594",
+      "variant_id": "v-2dde81bd96353a1a5438",
+      "image": "assets/display/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.webp",
+      "zoom_image": "assets/originals/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.png",
+      "original_image": "assets/originals/01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594.png",
+      "original_filename": "CAIS Blind Ending Vaginal Pouch MRI - Radiograph.png + CAIS Undescended Testes MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 2
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-groin-mass",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "CT",
+      "tested_concept": "Evaluate a new mass at the site of an undescended testis",
+      "visual_target": "Evaluate a new mass at the site of an undescended testis",
+      "question_type": "Clinical visual question",
+      "stem": "Which process does the lecture prioritize after comparing the new mass with the prior gonadal location?",
+      "options": [
+        "A hydrocele surrounding a normal scrotal testis.",
+        "Physiologic enlargement of an ovarian follicle.",
+        "A bladder diverticulum filling with urine.",
+        "Hematocolpos caused by an obstructed uterus.",
+        "Seminoma arising in a previously undescended testis."
+      ],
+      "choice_rationales": [
+        "The CT depicts a large solid mass instead of fluid around a scrotal testis.",
+        "The earlier images in this case identify testes.",
+        "The solid mass is separate from the bladder and corresponds to the groin finding.",
+        "The prior imaging shows no uterus. This solid lesion follows the gonadal history.",
+        "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin."
+      ],
+      "correct_index": 4,
+      "explanation": "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin.",
+      "visual_clues": [
+        "The mass is solid in both planes and corresponds to the site of the new fullness."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-missing-period",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "Several years later, the same patient notices an enlarging firm fullness in the right groin. The lecture shows two planes of CT.",
+      "lead_in": "Which process does the lecture prioritize after comparing the new mass with the prior gonadal location?",
+      "source_id": "s-6c1a3574cc0041787337",
+      "source_group_id": "g-c265d8bdfe1591ee29b4",
+      "asset_id": "a-557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85",
+      "variant_id": "v-3b8b90ae23f1179b68ff",
+      "image": "assets/display/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.webp",
+      "zoom_image": "assets/originals/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.png",
+      "original_image": "assets/originals/557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85.png",
+      "original_filename": "Large Abdominal Mass CT 1 - CT.png + Large Abdominal Mass CT 2 - CT.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 3
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 4
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-chest-spread",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Radiograph",
+      "tested_concept": "Recognize pulmonary dissemination in the gonadal tumor case",
+      "visual_target": "Recognize pulmonary dissemination in the gonadal tumor case",
+      "question_type": "Clinical visual question",
+      "stem": "Which conclusion does this image add to the assessment of the established tumor?",
+      "options": [
+        "The pattern supports pulmonary metastases.",
+        "The pattern supports an isolated right pleural effusion.",
+        "The pattern supports an isolated single lung nodule.",
+        "The findings localize the disease to the groin.",
+        "The dominant pattern is free pleural air."
+      ],
+      "choice_rationales": [
+        "The lecture identifies multiple bilateral rounded lung opacities as metastatic lesions in this case.",
+        "There are multiple rounded opacities within both lungs instead of an isolated basal fluid contour.",
+        "Rounded opacities are present on both sides.",
+        "The chest images show abnormal findings distant from the gonadal mass.",
+        "The abnormalities are dense rounded regions instead of peripheral lucency."
+      ],
+      "correct_index": 0,
+      "explanation": "The lecture identifies multiple bilateral rounded lung opacities as metastatic lesions in this case.",
+      "visual_clues": [
+        "Compare the numerous rounded opacities with the surrounding lung."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-missing-period",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "After evaluating the new gonadal mass, the team obtains this chest radiograph to assess for spread.",
+      "lead_in": "Which conclusion does this image add to the assessment of the established tumor?",
+      "source_id": "s-b4263100628ab9b5656f",
+      "source_group_id": "g-d0774b31bc87798e832e",
+      "asset_id": "a-ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e",
+      "variant_id": "v-f54f44506fe385386066",
+      "image": "assets/display/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.webp",
+      "zoom_image": "assets/originals/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.png",
+      "original_image": "assets/originals/ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e.png",
+      "original_filename": "Multiple Pulmonary Nodules Chest Radiograph - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 3
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-pubertal-bone",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Clinical data",
+      "tested_concept": "Gonadal hormones and pubertal bone acquisition",
+      "visual_target": "Gonadal hormones and pubertal bone acquisition",
+      "question_type": "Clinical visual question",
+      "stem": "What consequence explains the need for the masked intervention in the first row?",
+      "options": [
+        "Loss of uterine hormone production blocks endometrial development.",
+        "Loss of gonadal hormone production can impair pubertal bone mass acquisition.",
+        "Removal of the gonads increases estrogen exposure during puberty.",
+        "The tumor risk is greatest before puberty and falls as the patient ages.",
+        "The main developmental effect is impaired urinary drainage."
+      ],
+      "choice_rationales": [
+        "The patient has no uterus, and the table concerns gonadal hormone loss.",
+        "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty.",
+        "Removal interrupts the gonadal contribution to pubertal hormone production.",
+        "The lecture describes the opposite direction of risk.",
+        "The lecture emphasizes breast development and bone acquisition."
+      ],
+      "correct_index": 1,
+      "explanation": "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty.",
+      "visual_clues": [
+        "The first row places gonadal removal before hormone-dependent development."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-missing-period",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "The lecture contrasts the consequences of removing the gonads before puberty with the considerations that arise later.",
+      "lead_in": "What consequence explains the need for the masked intervention in the first row?",
+      "visual_kind": "table",
+      "source_group_id": "g-table-q-r32-pubertal-bone",
+      "source_origin": "lecture-table",
+      "context_table": {
+        "placement": "primary",
+        "title": "Age and gonadal management",
+        "columns": [
+          "Timing",
+          "Gonadal status or concern",
+          "Intervention"
+        ],
+        "rows": [
+          [
+            "Before puberty",
+            "Gonads removed",
+            "Hormone treatment"
+          ],
+          [
+            "Later years",
+            "Tumor risk increases with age",
+            "Individualized discussion"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            0,
+            2
+          ]
+        ],
+        "source": {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 4
+        }
+      },
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 4
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-torsion-urgent",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Doppler perfusion and urgent surgical assessment",
+      "visual_target": "Doppler perfusion and urgent surgical assessment",
+      "question_type": "Clinical visual question",
+      "stem": "Which action best follows from the side-to-side perfusion difference?",
+      "options": [
+        "Arrange routine outpatient follow-up for incidental cysts.",
+        "Observe for spontaneous improvement before seeking consultation.",
+        "Obtain urgent urologic evaluation for suspected torsion.",
+        "Treat presumptive inflammation solely on the basis of the scan.",
+        "Perform elective aspiration of fluid surrounding a normal testis."
+      ],
+      "choice_rationales": [
+        "The asymmetry and acute symptoms raise a time-sensitive concern.",
+        "The lecture emphasizes urgent evaluation to limit ischemic injury.",
+        "Color flow is readily seen on the right and is markedly reduced on the symptomatic left. The lecture treats this presentation as a surgical emergency.",
+        "The key finding is loss of flow in the symptomatic testis.",
+        "The important finding is the perfusion deficit rather than an isolated fluid collection."
+      ],
+      "correct_index": 2,
+      "explanation": "Color flow is readily seen on the right and is markedly reduced on the symptomatic left. The lecture treats this presentation as a surgical emergency.",
+      "visual_clues": [
+        "Compare the abundant right-sided color signals with the symptomatic left side."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-sudden-scrotal-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 13-year-old develops acute left testicular pain with nausea and vomiting.",
+      "lead_in": "Which action best follows from the side-to-side perfusion difference?",
+      "source_id": "s-7114baddbcf79348d711",
+      "source_group_id": "g-bdadf15da5d0da9a8c78",
+      "asset_id": "a-1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e",
+      "variant_id": "v-610da74328f388c6e8be",
+      "image": "assets/display/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.webp",
+      "zoom_image": "assets/originals/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.png",
+      "original_image": "assets/originals/1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e.png",
+      "original_filename": "Testicular Torsion Doppler Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 5
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 6
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 3
+        }
+      ],
+      "feedback_focus": [
+        {
+          "x": 23,
+          "y": 43,
+          "label": "Right testis with abundant color Doppler signal."
+        },
+        {
+          "x": 75,
+          "y": 46,
+          "label": "Left testis with markedly reduced flow."
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-torsion-mechanism",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Clinical Photo",
+      "tested_concept": "Intravaginal twisting and testicular ischemia",
+      "visual_target": "Intravaginal twisting and testicular ischemia",
+      "question_type": "Clinical visual question",
+      "stem": "Which mechanism explains the perfusion abnormality that prompted surgery?",
+      "options": [
+        "A patent processus vaginalis allows bowel to compress an intact testis.",
+        "Fluid accumulates between tunica vaginalis layers with normal cord orientation.",
+        "Failure of descent creates a fixed and immobile scrotal testis.",
+        "Rotation of the mobile testis twists the cord and compromises blood flow.",
+        "A urethral narrowing blocks venous blood exiting the testis."
+      ],
+      "choice_rationales": [
+        "That mechanism describes the separate hernia comparison.",
+        "Fluid accumulation explains hydrocele rather than the lectured mechanism of acute ischemia.",
+        "The predisposition in this case is increased mobility within the tunica vaginalis.",
+        "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord.",
+        "The operative mechanism involves twisting of the spermatic cord."
+      ],
+      "correct_index": 3,
+      "explanation": "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord.",
+      "visual_clues": [
+        "Follow the exposed tissue above the involved testis to the site of twisting."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-sudden-scrotal-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A 13-year-old develops acute left testicular pain with nausea and vomiting.",
+      "lead_in": "Which mechanism explains the perfusion abnormality that prompted surgery?",
+      "source_id": "s-c1e7c114f835f2d20cc2",
+      "source_group_id": "g-5db53dd240782c55e85c",
+      "asset_id": "a-3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d",
+      "variant_id": "v-30f10185da51f7bb69e1",
+      "image": "assets/display/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.webp",
+      "zoom_image": "assets/originals/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.png",
+      "original_image": "assets/originals/3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d.png",
+      "original_filename": "Testicular Torsion Intraoperative Photo - Clinical Photo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 6
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-groin-contents",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "CT",
+      "tested_concept": "Recognize bowel in a groin swelling",
+      "visual_target": "Recognize bowel in a groin swelling",
+      "question_type": "Clinical visual question",
+      "stem": "Which explanation is supported by the contrast-filled structure and the ultrasound appearance?",
+      "options": [
+        "Simple fluid has collected around the testis.",
+        "Only superficial veins are dilated.",
+        "A solid mass arises within the testis.",
+        "The swelling represents isolated skin edema.",
+        "Bowel has entered an inguinal hernia."
+      ],
+      "choice_rationales": [
+        "The contrast-containing structure and corresponding tissue do not have a simple fluid appearance.",
+        "Contrast within bowel and the sonographic structure identify bowel rather than a venous plexus.",
+        "The abnormal structure lies beside the testis and contains bowel.",
+        "Imaging shows a deeper structure in the inguinal region.",
+        "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example."
+      ],
+      "correct_index": 4,
+      "explanation": "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example.",
+      "visual_clues": [
+        "The abnormal structure beside the testis corresponds to bowel on CT."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-groin-swelling",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A patient presents with new swelling in the right groin. The lecture shows CT and ultrasound of the region.",
+      "lead_in": "Which explanation is supported by the contrast-filled structure and the ultrasound appearance?",
+      "source_id": "s-84e8d63dad8890f7a44b",
+      "source_group_id": "g-bb3022e434ed3a6500e9",
+      "asset_id": "a-0b41cc666e1acb037112041a10f9c8a452c304337d2fcf3c4530e904299a81ce",
+      "variant_id": "v-d4aca76eb3e5989493af",
+      "image": "assets/display/697998ba92955cb3039c8392451f13144d36c3cdda98d447f25be5c130fbd409.webp",
+      "zoom_image": "assets/zoom/697998ba92955cb3039c8392451f13144d36c3cdda98d447f25be5c130fbd409.png",
+      "original_image": "assets/originals/0b41cc666e1acb037112041a10f9c8a452c304337d2fcf3c4530e904299a81ce.png",
+      "original_filename": "Inguinal Hernia CT - CT.png + Inguinal Hernia Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 7
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-groin-processus",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Diagram",
+      "tested_concept": "Persistent processus vaginalis as an indirect hernia route",
+      "visual_target": "Persistent processus vaginalis as an indirect hernia route",
+      "question_type": "Clinical visual question",
+      "stem": "In this diagram, which developmental finding provides the route for the loop shown?",
+      "options": [
+        "A patent processus vaginalis allows bowel to descend along the inguinal canal.",
+        "An acquired defect through the abdominal wall creates a direct route.",
+        "An obliterated processus vaginalis provides the communication.",
+        "Fusion of the Müllerian ducts leaves an open channel to the scrotum.",
+        "Fluid trapped around the testis draws bowel through an intact wall."
+      ],
+      "choice_rationales": [
+        "The diagram follows bowel down toward the testis. R32 describes persistent communication along the route of testicular descent as the mechanism for an indirect inguinal hernia.",
+        "The depicted tract follows the testicular descent pathway.",
+        "A closed tract would interrupt the route shown.",
+        "The pathway shown is an extension of peritoneum associated with testicular descent.",
+        "The bowel follows a persistent communication."
+      ],
+      "correct_index": 0,
+      "explanation": "The diagram follows bowel down toward the testis. R32 describes persistent communication along the route of testicular descent as the mechanism for an indirect inguinal hernia.",
+      "visual_clues": [
+        "Follow the bowel loop along the canal toward the scrotum."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-groin-swelling",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A patient presents with new swelling in the right groin. The lecture shows CT and ultrasound of the region.",
+      "lead_in": "In this diagram, which developmental finding provides the route for the loop shown?",
+      "source_id": "s-83eee43e1c5bdb7bc8fa",
+      "source_group_id": "g-0bef6a69d323282f326b",
+      "asset_id": "a-7af09fd1d721d92ac5f6189239fbc586da3e52e41fd4d196ed53b443111371c0",
+      "variant_id": "v-d07b8d4dd9e7ad179e3b",
+      "image": "assets/display/d96b201dc885786eaaffd1b16debbe266e7626330334a9cec63640fa9ba4b279.webp",
+      "zoom_image": "assets/zoom/d96b201dc885786eaaffd1b16debbe266e7626330334a9cec63640fa9ba4b279.png",
+      "original_image": "assets/originals/7af09fd1d721d92ac5f6189239fbc586da3e52e41fd4d196ed53b443111371c0.png",
+      "original_filename": "Inguinal Hernia into Scrotum Illustration - Diagram.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 8
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-swelling-light",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Clinical Photo",
+      "tested_concept": "Transillumination and the role of ultrasound",
+      "visual_target": "Transillumination and the role of ultrasound",
+      "question_type": "Clinical visual question",
+      "stem": "Which next step addresses the limitation of the examination illustrated?",
+      "options": [
+        "Diagnose the contents as bowel from transillumination alone.",
+        "Use ultrasound to assess the testis and characterize the surrounding swelling.",
+        "Stage a known solid testicular tumor from these photographs.",
+        "Measure the urethral lumen with contrast as the next characterization step.",
+        "Use ability to transilluminate as proof of normal testicular anatomy."
+      ],
+      "choice_rationales": [
+        "The light passes through the swelling, and the underlying tissue still needs evaluation.",
+        "The swelling transilluminates, supporting a fluid component, but the testis is difficult to palpate. In R32 ultrasound confirms fluid around the testis and shows the testicular tissue.",
+        "The exam has not identified a solid intratesticular tumor.",
+        "The finding is scrotal. Ultrasound is the modality demonstrated next.",
+        "Transillumination does not replace visualization of the testis."
+      ],
+      "correct_index": 1,
+      "explanation": "The swelling transilluminates, supporting a fluid component, but the testis is difficult to palpate. In R32 ultrasound confirms fluid around the testis and shows the testicular tissue.",
+      "visual_clues": [
+        "The second photo shows light transmitted through the swelling."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-painless-swelling",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 32-year-old has painless scrotal enlargement and the testis is difficult to palpate.",
+      "lead_in": "Which next step addresses the limitation of the examination illustrated?",
+      "source_id": "s-856f55cebeb1445c2e02",
+      "source_group_id": "g-c66eef24686c965b8b1f",
+      "asset_id": "a-2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd",
+      "variant_id": "v-e8ef9cace8723ea32775",
+      "image": "assets/display/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.webp",
+      "zoom_image": "assets/originals/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.png",
+      "original_image": "assets/originals/2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd.png",
+      "original_filename": "Hydrocele Scrotal Swelling Photo A - Clinical Photo.png + Hydrocele Transillumination Photo B - Clinical Photo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 9
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 10
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-swelling-fluid",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Ultrasound",
+      "tested_concept": "Hydrocele compartment",
+      "visual_target": "Hydrocele compartment",
+      "question_type": "Clinical visual question",
+      "stem": "The sonographic collection is outside the testis. Between which layers has fluid accumulated?",
+      "options": [
+        "Between layers of the bladder wall.",
+        "Within the seminiferous tubules.",
+        "Visceral and parietal layers of the tunica vaginalis.",
+        "Inside the spermatic cord vessels.",
+        "Inside the epididymal duct."
+      ],
+      "choice_rationales": [
+        "The collection is in the scrotum surrounding the testis.",
+        "The anechoic collection is outside the testicular parenchyma.",
+        "The enlarged side shows an anechoic collection surrounding the testis. The lecture defines hydrocele fluid as collecting between the visceral and parietal tunica vaginalis.",
+        "The fluid surrounds the testis instead of outlining a vessel lumen.",
+        "This is a broad peritesticular collection, rather than a focal ductal dilation."
+      ],
+      "correct_index": 2,
+      "explanation": "The enlarged side shows an anechoic collection surrounding the testis. The lecture defines hydrocele fluid as collecting between the visceral and parietal tunica vaginalis.",
+      "visual_clues": [
+        "Compare the rim of fluid on the enlarged side with the reference testis."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-painless-swelling",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A 32-year-old has painless scrotal enlargement and the testis is difficult to palpate.",
+      "lead_in": "The sonographic collection is outside the testis. Between which layers has fluid accumulated?",
+      "source_id": "s-5908086d8f946e96b481",
+      "source_group_id": "g-94ad652566e9a019f0e1",
+      "asset_id": "a-f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7",
+      "variant_id": "v-a1b35135aaed375933dd",
+      "image": "assets/display/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.webp",
+      "zoom_image": "assets/originals/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.png",
+      "original_image": "assets/originals/f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7.png",
+      "original_filename": "Left Testicle Ultrasound - Echo.png + Right Testicle Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 10
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 11
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-swelling-communication",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Diagram",
+      "tested_concept": "Communicating hydrocele and persistent patent tract",
+      "visual_target": "Communicating hydrocele and persistent patent tract",
+      "question_type": "Clinical visual question",
+      "stem": "Which feature of the right-hand diagram explains how peritoneal fluid can enter the scrotum?",
+      "options": [
+        "The tract ends blindly above an isolated scrotal collection.",
+        "The testis contains the fluid within its own parenchyma.",
+        "A widened testicular artery carries free fluid from the abdomen.",
+        "A continuous patent processus vaginalis joins the peritoneal and scrotal spaces.",
+        "The fluid follows a ureter into the scrotum."
+      ],
+      "choice_rationales": [
+        "That pattern is depicted in the middle, without an open communication.",
+        "The fluid is drawn around the testis and along the tract.",
+        "The connecting path is the processus vaginalis.",
+        "The right-hand drawing shows a continuous tract and fluid extending along it. The closed tract in the middle example leaves an isolated collection.",
+        "The illustration shows the peritoneal extension linked to testicular descent."
+      ],
+      "correct_index": 3,
+      "explanation": "The right-hand drawing shows a continuous tract and fluid extending along it. The closed tract in the middle example leaves an isolated collection.",
+      "visual_clues": [
+        "Trace the blue fluid upward on the right to see if the tract remains open."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-painless-swelling",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A 32-year-old has painless scrotal enlargement and the testis is difficult to palpate.",
+      "lead_in": "Which feature of the right-hand diagram explains how peritoneal fluid can enter the scrotum?",
+      "source_id": "s-b006e78e432d80b0a2d1",
+      "source_group_id": "g-c575b5311e1616187dfd",
+      "asset_id": "a-cb199a79f2eeaf7e45c2aed99e9a9995c9cdcac10f3ef0215aad136f9e32bc87",
+      "variant_id": "v-339902467fca0417d4c7",
+      "image": "assets/display/af418375ee53cf2209b06e7e52a8f6918637c426bed7402ba496baf13702c76c.webp",
+      "zoom_image": "assets/zoom/af418375ee53cf2209b06e7e52a8f6918637c426bed7402ba496baf13702c76c.png",
+      "original_image": "assets/originals/cb199a79f2eeaf7e45c2aed99e9a9995c9cdcac10f3ef0215aad136f9e32bc87.png",
+      "original_filename": "Types of Hydrocele - Diagram.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 11
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-renal-search",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Investigate a missing kidney in its expected fossa",
+      "visual_target": "Investigate a missing kidney in its expected fossa",
+      "question_type": "Clinical visual question",
+      "stem": "Which next question should imaging address when one expected renal site has no visible kidney?",
+      "options": [
+        "Do both kidneys lie normally in the upper fossae?",
+        "Is the liver the only structure that should be investigated further?",
+        "Is the visible left kidney a pelvic kidney?",
+        "Is the right kidney obstructed despite no renal or collecting-system profile here?",
+        "Is there an ectopic kidney in the pelvis, or is one kidney absent?"
+      ],
+      "choice_rationales": [
+        "The right image does not show a kidney at the expected position.",
+        "The liver serves as a reference for the expected right kidney position.",
+        "The left kidney is identified in its usual upper abdominal region.",
+        "The image raises the question of an ectopic or absent kidney. It does not demonstrate collecting-system dilation.",
+        "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis."
+      ],
+      "correct_index": 4,
+      "explanation": "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis.",
+      "visual_clues": [
+        "Compare the visible left kidney with the right renal fossa."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-renal-and-uterine",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 17-year-old has a urinary tract infection. Paired renal ultrasound images are available.",
+      "lead_in": "Which next question should imaging address when one expected renal site has no visible kidney?",
+      "source_id": "s-8d0b8b689bcb3c983a49",
+      "source_group_id": "g-31e581b25f02691b686d",
+      "asset_id": "a-f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6",
+      "variant_id": "v-45a902551b02d2c13fd1",
+      "image": "assets/display/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.webp",
+      "zoom_image": "assets/originals/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.png",
+      "original_image": "assets/originals/f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6.png",
+      "original_filename": "Left Kidney and Spleen Ultrasound - Echo.png + Right Kidney Region Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 12
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-uterine-fusion",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "MRI",
+      "tested_concept": "Incomplete Müllerian fusion versus septal resorption",
+      "visual_target": "Incomplete Müllerian fusion versus septal resorption",
+      "question_type": "Clinical visual question",
+      "stem": "Which embryologic mechanism fits the paired lumina and external fundal contour?",
+      "options": [
+        "Incomplete fusion of the upper Müllerian ducts.",
+        "Failure of septal resorption after fusion with a normal outer contour.",
+        "Complete bilateral failure of Müllerian development.",
+        "Failure of one duct to form, leaving just one uterine horn.",
+        "An isolated obstruction of the vaginal opening."
+      ],
+      "choice_rationales": [
+        "Hysterosalpingography shows two uterine horns arising from one cervix. MRI shows the divided upper contour, supporting a bicornuate configuration from incomplete fusion.",
+        "A normal outer contour would not explain the cleft seen here.",
+        "Two uterine horns and a cervix are present.",
+        "Two horns are demonstrated.",
+        "A distal obstruction does not explain the divided fundus and paired horns."
+      ],
+      "correct_index": 0,
+      "explanation": "Hysterosalpingography shows two uterine horns arising from one cervix. MRI shows the divided upper contour, supporting a bicornuate configuration from incomplete fusion.",
+      "visual_clues": [
+        "Use both the internal split on HSG and the external fundal cleft on MRI."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-renal-and-uterine",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "The renal findings prompt review of pelvic imaging. Hysterosalpingography and MRI depict the same uterine configuration.",
+      "lead_in": "Which embryologic mechanism fits the paired lumina and external fundal contour?",
+      "source_id": "s-b8c7b7cd23f1d81e2d2e",
+      "source_group_id": "g-925041316a856fb15975",
+      "asset_id": "a-c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65",
+      "variant_id": "v-7dfd2c548140f99012df",
+      "image": "assets/display/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.webp",
+      "zoom_image": "assets/originals/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.png",
+      "original_image": "assets/originals/c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65.png",
+      "original_filename": "Bicornuate Uterus HSG - Radiograph.png + Bicornuate Uterus MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 13
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 12
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 6
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-effusion-next",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Radiograph",
+      "tested_concept": "Pleural effusion with abdominal enlargement",
+      "visual_target": "Pleural effusion with abdominal enlargement",
+      "question_type": "Clinical visual question",
+      "stem": "Which next investigation can distinguish the two causes under discussion in the lecture?",
+      "options": [
+        "Assume the image proves metastatic disease and skip fluid assessment.",
+        "Sample the pleural fluid and assess for malignant cells.",
+        "Biopsy a solid lung nodule shown by this image.",
+        "Use a plain radiograph to determine the fluid cell type.",
+        "Defer any consideration of the chest finding until the mass is typed."
+      ],
+      "choice_rationales": [
+        "The film detects fluid but cannot establish whether it contains malignant cells.",
+        "The image shows right-sided pleural fluid. The discussion considers thoracentesis and cytologic assessment when weighing metastatic disease against the nonmalignant effusion in the case differential.",
+        "The radiograph demonstrates a basal pleural collection rather than a target nodule.",
+        "Radiography cannot characterize cells in pleural fluid.",
+        "The lecture discusses sampling as part of exploring the link between both findings."
+      ],
+      "correct_index": 1,
+      "explanation": "The image shows right-sided pleural fluid. The discussion considers thoracentesis and cytologic assessment when weighing metastatic disease against the nonmalignant effusion in the case differential.",
+      "visual_clues": [
+        "The right basal opacity has a fluid contour rather than multiple discrete nodules."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-chest-and-pelvis",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 42-year-old presents with increasing shortness of breath and abdominal girth.",
+      "lead_in": "Which next investigation can distinguish the two causes under discussion in the lecture?",
+      "source_id": "s-afc83c740afce7fb96dc",
+      "source_group_id": "g-d553908a353bf53da710",
+      "asset_id": "a-8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb",
+      "variant_id": "v-df4c190cd1069db60fa4",
+      "image": "assets/display/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.webp",
+      "zoom_image": "assets/originals/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.png",
+      "original_image": "assets/originals/8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb.png",
+      "original_filename": "Meigs Syndrome Chest Radiograph - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 14
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-meigs-inference",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "CT",
+      "tested_concept": "Solid ovarian mass, ascites, and pleural effusion",
+      "visual_target": "Solid ovarian mass, ascites, and pleural effusion",
+      "question_type": "Clinical visual question",
+      "stem": "Which diagnosis is favored by the mass composition and the fluid distribution in this teaching case?",
+      "options": [
+        "An isolated simple ovarian cyst with no associated fluid elsewhere.",
+        "A mature cystic teratoma identified by intralesional fat.",
+        "Meigs syndrome associated with an ovarian fibroma.",
+        "A hemorrhagic physiologic follicle accounting for all findings.",
+        "Omental caking alone establishes advanced epithelial carcinoma."
+      ],
+      "choice_rationales": [
+        "The mass is solid and fluid is present outside it.",
+        "The displayed evidence in this case is a solid mass with fluid in two compartments.",
+        "The adnexal mass is solid on ultrasound. The CT and prior chest image demonstrate abdominal and pleural fluid. R32 presents this combination as the classic association with an ovarian fibroma.",
+        "The lecture uses a distinct pattern and clinical timeline for that diagnosis.",
+        "The mass shown here is the solid fibroma example. The lecture uses a separate CT example for omental cake."
+      ],
+      "correct_index": 2,
+      "explanation": "The adnexal mass is solid on ultrasound. The CT and prior chest image demonstrate abdominal and pleural fluid. R32 presents this combination as the classic association with an ovarian fibroma.",
+      "visual_clues": [
+        "Identify solid tissue on ultrasound and fluid in a separate compartment on CT."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-chest-and-pelvis",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 42-year-old presents with increasing shortness of breath and abdominal girth.",
+      "lead_in": "Which diagnosis is favored by the mass composition and the fluid distribution in this teaching case?",
+      "source_id": "s-dc47f905d03cfc59b053",
+      "source_group_id": "g-7538163cb1f2ac1b62db",
+      "asset_id": "a-81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035",
+      "variant_id": "v-9d32465e4984eb14c321",
+      "image": "assets/display/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.webp",
+      "zoom_image": "assets/originals/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.png",
+      "original_image": "assets/originals/81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035.png",
+      "original_filename": "Meigs Syndrome Coronal CT - CT.png + Meigs Syndrome Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 15
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 14
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-effusion-course",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Clinical data",
+      "tested_concept": "Expected fluid response after fibroma resection",
+      "visual_target": "Expected fluid response after fibroma resection",
+      "question_type": "Clinical visual question",
+      "stem": "What joint outcome belongs in the masked cells?",
+      "options": [
+        "Ascites resolves while the pleural effusion is expected to persist.",
+        "Pleural fluid resolves while ascites is expected to increase.",
+        "Both persist because the syndrome requires malignant pleural cells.",
+        "Both ascites and pleural fluid resolve after removal of the ovarian fibroma.",
+        "Both worsen despite removal of the associated tumor."
+      ],
+      "choice_rationales": [
+        "The lecture describes resolution of both collections.",
+        "Removal treats the associated ascites as well.",
+        "The course example associates the collections with a benign ovarian fibroma.",
+        "The R32 slide defines the syndrome by fibroma, ascites, and hydrothorax that resolve after tumor removal.",
+        "The lecture presents resolution following tumor removal."
+      ],
+      "correct_index": 3,
+      "explanation": "The R32 slide defines the syndrome by fibroma, ascites, and hydrothorax that resolve after tumor removal.",
+      "visual_clues": [
+        "The two rows represent fluid outside the same solid ovarian lesion."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-chest-and-pelvis",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "The diagnosis from the paired images is established. The lecture contrasts the expected course of the two fluid collections.",
+      "lead_in": "What joint outcome belongs in the masked cells?",
+      "visual_kind": "table",
+      "source_group_id": "g-table-q-r32-effusion-course",
+      "source_origin": "lecture-table",
+      "context_table": {
+        "placement": "primary",
+        "title": "Course after tumor removal",
+        "columns": [
+          "Collection seen on imaging",
+          "Expected course after tumor removal"
+        ],
+        "rows": [
+          [
+            "Ascites",
+            "Resolves"
+          ],
+          [
+            "Pleural effusion",
+            "Resolves"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 15
+        }
+      },
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 15
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 14
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-effusion-contrast",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "CT",
+      "tested_concept": "Distinguish the epithelial tumor comparison from the fibroma case",
+      "visual_target": "Distinguish the epithelial tumor comparison from the fibroma case",
+      "question_type": "Clinical visual question",
+      "stem": "What added finding shifts this comparison toward an epithelial malignancy with peritoneal spread?",
+      "options": [
+        "The predominantly cystic mass is accompanied by bulky omental soft tissue.",
+        "The mass is solid and homogeneous without a separate peritoneal finding.",
+        "The dominant new finding is fat that loses signal on a suppression sequence.",
+        "Only a localized ovarian lesion is shown in both panels.",
+        "Both panels demonstrate thickening confined to the endometrial cavity."
+      ],
+      "choice_rationales": [
+        "In the comparison on the slide, one image shows a predominantly cystic mass and the other shows omental caking. The lecture contrasts this pattern with the solid fibroma in the preceding case.",
+        "The first image is predominantly cystic, and the second highlights abnormal omental tissue.",
+        "These are CT examples, and the arrows indicate omental tissue.",
+        "The second panel shows disease outside the primary mass.",
+        "The highlighted findings are adnexal and omental."
+      ],
+      "correct_index": 0,
+      "explanation": "In the comparison on the slide, one image shows a predominantly cystic mass and the other shows omental caking. The lecture contrasts this pattern with the solid fibroma in the preceding case.",
+      "visual_clues": [
+        "In B, trace the arrowheads along the anterior abdomen, separate from the primary mass."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-chest-and-pelvis",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "The lecture presents these separate images after discussing the solid adnexal mass with pleural fluid.",
+      "lead_in": "What added finding shifts this comparison toward an epithelial malignancy with peritoneal spread?",
+      "source_id": "s-76593654070dd8ccda20",
+      "source_group_id": "g-c1f0545ae49a185f9bff",
+      "asset_id": "a-0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869",
+      "variant_id": "v-b3bd96f2a38a4cd77179",
+      "image": "assets/display/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.webp",
+      "zoom_image": "assets/originals/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.png",
+      "original_image": "assets/originals/0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869.png",
+      "original_filename": "Ovarian Cell Types CT 1 - CT.png + Ovarian Cell Types CT 2 - CT.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 16
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-endometrium-next",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Use saline infusion to define a focal cavity lesion",
+      "visual_target": "Use saline infusion to define a focal cavity lesion",
+      "question_type": "Clinical visual question",
+      "stem": "The endometrial region is thickened. Which next imaging step did this lecture case use to define the cavity finding?",
+      "options": [
+        "Repeat transvaginal imaging without distending the cavity.",
+        "Hysterosalpingography solely to assess tubal patency.",
+        "Transabdominal sonography alone to measure overall uterine size.",
+        "Color Doppler of the uterine arteries without evaluating the cavity.",
+        "Saline infusion sonography."
+      ],
+      "choice_rationales": [
+        "The lecture added saline to outline the cavity and improve definition of a focal lesion.",
+        "The question is about a focal endometrial finding. Saline infusion sonography was the step shown.",
+        "Overall uterine size does not resolve the focal cavity question addressed in the lecture.",
+        "The lesion needs to be localized relative to the saline-distended cavity.",
+        "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion."
+      ],
+      "correct_index": 4,
+      "explanation": "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion.",
+      "visual_clues": [
+        "The measured uterine lining appears thick on the initial image."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-bleeding-after-menopause",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A postmenopausal patient presents with vaginal bleeding. The lecture starts with transvaginal ultrasound.",
+      "lead_in": "The endometrial region is thickened. Which next imaging step did this lecture case use to define the cavity finding?",
+      "source_id": "s-87c122bc6ceeac974c22",
+      "source_group_id": "g-f098dd3abd8dd5737c13",
+      "asset_id": "a-4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6",
+      "variant_id": "v-a415c962f40940d2c814",
+      "image": "assets/display/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.webp",
+      "zoom_image": "assets/originals/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.png",
+      "original_image": "assets/originals/4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6.png",
+      "original_filename": "Postmenopausal Bleeding Transvaginal Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 17
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-endometrium-stalk",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Ultrasound",
+      "tested_concept": "Single feeding vessel in a focal endometrial lesion",
+      "visual_target": "Single feeding vessel in a focal endometrial lesion",
+      "question_type": "Clinical visual question",
+      "stem": "Which anatomic explanation links the focused color flow with the outline of the lesion?",
+      "options": [
+        "A stalk carries a feeding vessel into an endometrial polyp.",
+        "Many vessels are distributed evenly through a submucosal myoma.",
+        "The lesion is an intracavitary clot with no internal blood supply.",
+        "Diffuse thickening supplies blood uniformly along the full cavity.",
+        "Flow is limited to the surrounding myometrium, with no vessel entering the lesion."
+      ],
+      "choice_rationales": [
+        "Saline outlines the lesion and Doppler shows a focal feeding vessel. The lecture contrasts this with flow distributed throughout the submucosal myoma example.",
+        "The illustrated focal point of entry fits the polyp comparison.",
+        "A feeding vessel supports a tissue stalk rather than avascular blood products.",
+        "The image shows a focal lesion outlined by fluid.",
+        "A focal vessel leads into the outlined lesion."
+      ],
+      "correct_index": 0,
+      "explanation": "Saline outlines the lesion and Doppler shows a focal feeding vessel. The lecture contrasts this with flow distributed throughout the submucosal myoma example.",
+      "visual_clues": [
+        "Trace the color signal to its entry into the saline-outlined lesion."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-bleeding-after-menopause",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A postmenopausal patient presents with vaginal bleeding. The lecture starts with transvaginal ultrasound.",
+      "lead_in": "Which anatomic explanation links the focused color flow with the outline of the lesion?",
+      "source_id": "s-d3aae44837b2756aaead",
+      "source_group_id": "g-6c00ce2df2d2ac894dc1",
+      "asset_id": "a-254f65a8880f9b4f9c3bd61c3c0f2b510cfbba3b7b60429ddf73cad103847588",
+      "variant_id": "v-c3530d1ae1f4f75d09ca",
+      "image": "assets/display/4dbeef66968565da7501ac30b30f776d5b03e72294c5fcf77787aa58453ff915.webp",
+      "zoom_image": "assets/zoom/4dbeef66968565da7501ac30b30f776d5b03e72294c5fcf77787aa58453ff915.png",
+      "original_image": "assets/originals/254f65a8880f9b4f9c3bd61c3c0f2b510cfbba3b7b60429ddf73cad103847588.png",
+      "original_filename": "Endometrial Polyp Single Feeding Vessel Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 17
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-pelvic-calcific",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Radiograph",
+      "tested_concept": "Toothlike pelvic calcifications and ovarian differential",
+      "visual_target": "Toothlike pelvic calcifications and ovarian differential",
+      "question_type": "Clinical visual question",
+      "stem": "Which diagnosis should be prioritized given the shape of the dense pelvic structures?",
+      "options": [
+        "A simple follicular cyst.",
+        "Mature cystic teratoma.",
+        "A hemorrhagic physiologic follicle.",
+        "An endometrial polyp.",
+        "A homogeneous ovarian fibroma."
+      ],
+      "choice_rationales": [
+        "A simple follicle would not account for toothlike dense material.",
+        "The course identifies toothlike structures within the pelvic calcifications, a clue to differentiated tissue in a mature cystic teratoma.",
+        "The lecture links the mineralized structures to differentiated tissues.",
+        "The radiograph shows mineralized pelvic structures rather than a cavity stalk.",
+        "The distinct toothlike components favor the teratoma example."
+      ],
+      "correct_index": 1,
+      "explanation": "The course identifies toothlike structures within the pelvic calcifications, a clue to differentiated tissue in a mature cystic teratoma.",
+      "visual_clues": [
+        "Look for irregular dense structures resembling teeth within the pelvis."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-pelvic-shadows",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 17-year-old has constipation and palpable pelvic fullness. A pelvic radiograph is available.",
+      "lead_in": "Which diagnosis should be prioritized given the shape of the dense pelvic structures?",
+      "source_id": "s-f8696500407cab7fa000",
+      "source_group_id": "g-fc9cccf5e2146962589a",
+      "asset_id": "a-7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac",
+      "variant_id": "v-6d2692da5427f789505d",
+      "image": "assets/display/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.webp",
+      "zoom_image": "assets/originals/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.png",
+      "original_image": "assets/originals/7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac.png",
+      "original_filename": "Mature Teratoma Pelvic Radiograph - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 18
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 20
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-fat-suppression",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "MRI",
+      "tested_concept": "Signal loss with fat saturation",
+      "visual_target": "Signal loss with fat saturation",
+      "question_type": "Clinical visual question",
+      "stem": "Which tissue property explains why the marked component becomes dark after fat saturation?",
+      "options": [
+        "The component is simple free fluid.",
+        "The component is mineralized bone throughout.",
+        "It contains macroscopic fat.",
+        "The component is an air pocket.",
+        "The component is a blood vessel filled with contrast."
+      ],
+      "choice_rationales": [
+        "Selective signal drop on fat saturation is the clue to fat in this comparison.",
+        "The compared region is initially bright and selectively darkens with fat saturation.",
+        "The MR comparison shows a bright component on the initial image that loses signal with fat saturation. R32 uses this change to demonstrate fat in the mass.",
+        "Air would already have very low signal.",
+        "The comparison is based on a fat suppression sequence and tissue-specific signal loss."
+      ],
+      "correct_index": 2,
+      "explanation": "The MR comparison shows a bright component on the initial image that loses signal with fat saturation. R32 uses this change to demonstrate fat in the mass.",
+      "visual_clues": [
+        "Compare the bright portion of the mass with the corresponding darker region after fat saturation."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-pelvic-shadows",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "The same pelvic mass is seen with two MR sequences. A shows the initial view and B uses fat saturation.",
+      "lead_in": "Which tissue property explains why the marked component becomes dark after fat saturation?",
+      "source_id": "s-18301c20a78fc236b35e",
+      "source_group_id": "g-667cef2f5e46353411b7",
+      "asset_id": "a-1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa",
+      "variant_id": "v-1db75040573d6ef64c2d",
+      "image": "assets/display/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.webp",
+      "zoom_image": "assets/originals/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.png",
+      "original_image": "assets/originals/1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa.png",
+      "original_filename": "Mature Teratoma MRI Fat Sat 1 - Radiograph.png + Mature Teratoma MRI Fat Sat 2 - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 19
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-pelvic-removal",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Management follow-up after mature teratoma is identified",
+      "visual_target": "Management follow-up after mature teratoma is identified",
+      "question_type": "Clinical visual question",
+      "stem": "Given the radiograph and MRI findings already established in this case, which management rationale fits the ultrasound lesion?",
+      "options": [
+        "Observation solely because the ultrasound shows a simple functional follicle.",
+        "Endometrial sampling because the mass is shown inside the uterine cavity.",
+        "Plan observation for a transient hemorrhagic physiologic follicle.",
+        "Surgical removal is discussed because the mass can undergo torsion.",
+        "Follow as a simple cyst because acoustic shadowing excludes torsion risk."
+      ],
+      "choice_rationales": [
+        "The shadowing and other modalities identify a lesion with differentiated tissue.",
+        "The case lesion is adnexal.",
+        "The fat and mineralized structures favor differentiated tissue, which the lecture associates with a different management plan.",
+        "The shadowing ultrasound lesion accompanies the toothlike and fat-containing views in R32. The lecture treats the lesion surgically and emphasizes torsion risk.",
+        "The shadowing does not remove the torsion risk cited for this mass."
+      ],
+      "correct_index": 3,
+      "explanation": "The shadowing ultrasound lesion accompanies the toothlike and fat-containing views in R32. The lecture treats the lesion surgically and emphasizes torsion risk.",
+      "visual_clues": [
+        "A bright interface produces marked posterior shadowing."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-pelvic-shadows",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "Ultrasound provides another view of the mass characterized by the prior studies.",
+      "lead_in": "Given the radiograph and MRI findings already established in this case, which management rationale fits the ultrasound lesion?",
+      "source_id": "s-9553df05a0163592093b",
+      "source_group_id": "g-1a18b1d61d1ffb054a74",
+      "asset_id": "a-fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67",
+      "variant_id": "v-286ac5dc4d3aa804a780",
+      "image": "assets/display/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.webp",
+      "zoom_image": "assets/originals/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.png",
+      "original_image": "assets/originals/fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67.png",
+      "original_filename": "Mature Teratoma Pelvic Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 19
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 20
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-cycle-endometrium",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Ultrasound",
+      "tested_concept": "Trilaminar endometrium and timing of an ovarian finding",
+      "visual_target": "Trilaminar endometrium and timing of an ovarian finding",
+      "question_type": "Clinical visual question",
+      "stem": "Which timing makes the ovarian finding in C consistent with the physiologic process discussed in this case?",
+      "options": [
+        "After menopause, when mature follicles are absent.",
+        "Early childhood, when there is no ovulation.",
+        "After delivery, when trophoblastic tissue explains the uterine image.",
+        "Only during menses, when the functional endometrium is being shed.",
+        "Around ovulation, when the endometrium can have a trilaminar pattern."
+      ],
+      "choice_rationales": [
+        "The uterine pattern in this case fits ovulation.",
+        "The lecture uses the endometrial pattern to place the case around ovulation.",
+        "The uterine pattern here is trilaminar rather than the postpartum teaching example.",
+        "The sonographic layers in A are associated with the ovulatory phase in the lecture.",
+        "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case."
+      ],
+      "correct_index": 4,
+      "explanation": "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case.",
+      "visual_clues": [
+        "Check the layered endometrium in A before interpreting the right ovarian finding in C."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-midcycle-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A 22-year-old has severe right-sided pelvic pain. The lecture compares the uterine and ovarian ultrasound views.",
+      "lead_in": "Which timing makes the ovarian finding in C consistent with the physiologic process discussed in this case?",
+      "source_id": "s-0c1c218f958e27098105",
+      "source_group_id": "g-b833172a69cfcceb81ca",
+      "asset_id": "a-74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057",
+      "variant_id": "v-4b091059500186981999",
+      "image": "assets/display/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.webp",
+      "zoom_image": "assets/originals/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.png",
+      "original_image": "assets/originals/74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057.png",
+      "original_filename": "Endometrium Thickness Ultrasound - Echo.png + Left Ovary Long Ultrasound - Echo.png + Right Ovary Long Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 22
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 21
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 23
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-cycle-doppler",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Ultrasound",
+      "tested_concept": "Increased flow to the dominant follicle",
+      "visual_target": "Increased flow to the dominant follicle",
+      "question_type": "Clinical visual question",
+      "stem": "Which mechanism links the second Doppler image to hemorrhage into a physiologic follicle?",
+      "options": [
+        "Increased perfusion around the dominant follicle can contribute to bleeding during ovulation.",
+        "The resting ovary gains more flow than the dominant follicle and is the featured bleeding site.",
+        "Avascular replacement of the follicle prevents any local bleeding.",
+        "The flow is confined to the uterine cavity and unrelated to the ovary.",
+        "Loss of all ovarian inflow is required for physiologic follicular hemorrhage."
+      ],
+      "choice_rationales": [
+        "The second image shows conspicuous peripheral color flow. R32 links the highly perfused dominant follicle to bleeding into the follicle when it ruptures during ovulation.",
+        "The prominent peripheral flow in B is around the dominant follicle.",
+        "The second panel displays abundant peripheral color flow.",
+        "The color rim surrounds the selected ovarian follicle.",
+        "The lecture describes increased local perfusion around the follicle."
+      ],
+      "correct_index": 0,
+      "explanation": "The second image shows conspicuous peripheral color flow. R32 links the highly perfused dominant follicle to bleeding into the follicle when it ruptures during ovulation.",
+      "visual_clues": [
+        "Compare the conspicuous color rim of B with the resting ovary example in A."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-midcycle-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "A 22-year-old has severe right-sided pelvic pain. The lecture compares the uterine and ovarian ultrasound views.",
+      "lead_in": "Which mechanism links the second Doppler image to hemorrhage into a physiologic follicle?",
+      "source_id": "s-6ed2d45a686d7b35f39f",
+      "source_group_id": "g-d91aa901443fb692282c",
+      "asset_id": "a-1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e",
+      "variant_id": "v-27f20b06806f231c83e6",
+      "image": "assets/display/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.webp",
+      "zoom_image": "assets/originals/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.png",
+      "original_image": "assets/originals/1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e.png",
+      "original_filename": "Resting Ovary Doppler Ultrasound - Echo.png + Dominant Follicle Doppler Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 24
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 23
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-cycle-varied",
+      "collection": "R32",
+      "study_skill": "interpretation",
+      "category": "Ultrasound",
+      "tested_concept": "Variable internal appearance of hemorrhagic follicles",
+      "visual_target": "Variable internal appearance of hemorrhagic follicles",
+      "question_type": "Clinical visual question",
+      "stem": "What does this comparison teach about interpreting an ovulatory follicle with internal echoes?",
+      "options": [
+        "All hemorrhagic follicles are completely anechoic.",
+        "Blood products can create different internal patterns in the same physiologic process.",
+        "Every internal strand proves a solid ovarian neoplasm.",
+        "A follicle requires a single uniform appearance at every stage.",
+        "Internal echoes establish a persistent endometrioma across all panels."
+      ],
+      "choice_rationales": [
+        "Several panels show strands or internal echoes.",
+        "R32 uses these multiple patterns to illustrate that hemorrhagic follicles can contain variable internal echoes and septation-like strands. Appearance should be interpreted with the clinical setting.",
+        "The slide shows strand-like material in physiologic hemorrhagic follicles.",
+        "The six examples display more than one pattern.",
+        "The lecture uses these examples to demonstrate variability of follicular hemorrhage."
+      ],
+      "correct_index": 1,
+      "explanation": "R32 uses these multiple patterns to illustrate that hemorrhagic follicles can contain variable internal echoes and septation-like strands. Appearance should be interpreted with the clinical setting.",
+      "visual_clues": [
+        "Compare the different patterns of echoes in the panels."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-midcycle-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "interpretation",
+      "scenario": "A 22-year-old has severe right-sided pelvic pain. The lecture compares the uterine and ovarian ultrasound views.",
+      "lead_in": "What does this comparison teach about interpreting an ovulatory follicle with internal echoes?",
+      "source_id": "s-479402bc0f41e956e991",
+      "source_group_id": "g-994ec18207914ee755ed",
+      "asset_id": "a-2bbeff392ae69b5a206abb8ccc740dba83c5dcf574728a172b2dfadd972b901d",
+      "variant_id": "v-199fdb8148845bc9f3ba",
+      "image": "assets/display/7c5435fc5ac3347900483c7519a08cc1259a5879cd2bf4dcf93adf0239a5991b.webp",
+      "zoom_image": "assets/zoom/7c5435fc5ac3347900483c7519a08cc1259a5879cd2bf4dcf93adf0239a5991b.png",
+      "original_image": "assets/originals/2bbeff392ae69b5a206abb8ccc740dba83c5dcf574728a172b2dfadd972b901d.png",
+      "original_filename": "Typical Hemorrhagic Ovarian Cysts Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 23
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-cyclic-adnexa",
+      "collection": "R32",
+      "study_skill": "management",
+      "category": "Ultrasound",
+      "tested_concept": "Uniform adnexal echoes and cyclic symptoms",
+      "visual_target": "Uniform adnexal echoes and cyclic symptoms",
+      "question_type": "Clinical visual question",
+      "stem": "Which explanation best integrates the symptoms with the right adnexal appearance in B?",
+      "options": [
+        "A simple ovarian cyst with completely anechoic contents.",
+        "A myometrial lesion accounts for the right ovarian image alone.",
+        "An ovarian endometrioma due to bleeding in ectopic endometrial tissue.",
+        "A mature teratoma identified by toothlike or fat-containing components.",
+        "A physiologic follicle is established by an identical appearance in both ovaries."
+      ],
+      "choice_rationales": [
+        "The right lesion contains homogeneous internal echoes.",
+        "The highlighted lesion is adnexal, and the uterine findings are considered separately.",
+        "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma.",
+        "Those features characterize a separate teaching case.",
+        "B differs from the reference follicles in A, and the cyclic history is part of the distinction."
+      ],
+      "correct_index": 2,
+      "explanation": "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma.",
+      "visual_clues": [
+        "Compare the relatively uniform internal echoes in B with the smaller reference follicles in A."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-cyclic-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "clinical_integration",
+      "scenario": "A 28-year-old presents with pain that worsens during menses, heavy bleeding, dyspareunia, and right adnexal fullness.",
+      "lead_in": "Which explanation best integrates the symptoms with the right adnexal appearance in B?",
+      "source_id": "s-884d2f45229c714a112d",
+      "source_group_id": "g-a2697cba6b53d2025ddd",
+      "asset_id": "a-a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a",
+      "variant_id": "v-2d8f68ad8ad4a00649a1",
+      "image": "assets/display/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.webp",
+      "zoom_image": "assets/originals/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.png",
+      "original_image": "assets/originals/a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a.png",
+      "original_filename": "Left Ovary Ultrasound - Echo.png + Right Adnexa Endometrioma Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 25
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 26
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-cyclic-wall",
+      "collection": "R32",
+      "study_skill": "mechanism",
+      "category": "Diagram",
+      "tested_concept": "Extrauterine implants versus myometrial infiltration",
+      "visual_target": "Extrauterine implants versus myometrial infiltration",
+      "question_type": "Clinical visual question",
+      "stem": "Which distinction explains why the two patterns can cause different imaging findings?",
+      "options": [
+        "A is confined to the myometrium. B shows only extrauterine implants.",
+        "Both depict tissue restricted to the normal uterine cavity lining.",
+        "Both depict tissue restricted to the ovaries.",
+        "A has endometrial-type tissue outside the uterus. B has it within the myometrium.",
+        "A depicts an ovarian surface cyst and B depicts a urethral lesion."
+      ],
+      "choice_rationales": [
+        "This reverses the locations of the depicted foci.",
+        "The red foci extend outside the normal lining in both images.",
+        "B highlights foci in the uterine muscle.",
+        "R32 contrasts extrauterine endometriosis with adenomyosis, in which endometrial-type tissue is embedded in the muscular uterine wall.",
+        "The images compare extrauterine implants with tissue within uterine muscle."
+      ],
+      "correct_index": 3,
+      "explanation": "R32 contrasts extrauterine endometriosis with adenomyosis, in which endometrial-type tissue is embedded in the muscular uterine wall.",
+      "visual_clues": [
+        "Locate the red foci relative to the uterine cavity and muscle."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-cyclic-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "mechanism",
+      "scenario": "The lecture uses two diagrams to compare the possible sites of endometrial-type tissue in patients with cyclic pain.",
+      "lead_in": "Which distinction explains why the two patterns can cause different imaging findings?",
+      "source_id": "s-771ed8ed8b9bfde6d347",
+      "source_group_id": "g-5f1f5c6328b1f49001be",
+      "asset_id": "a-5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484",
+      "variant_id": "v-407f1a3168ad9f803c61",
+      "image": "assets/display/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.webp",
+      "zoom_image": "assets/originals/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.png",
+      "original_image": "assets/originals/5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484.png",
+      "original_filename": "Endometriosis Illustration - Diagram.png + Adenomyosis Illustration - Diagram.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 26
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 27
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "question_id": "q-r32-cyclic-junction",
+      "collection": "R32",
+      "study_skill": "interpretation",
+      "category": "MRI",
+      "tested_concept": "Abnormal junctional zone in adenomyosis comparison",
+      "visual_target": "Abnormal junctional zone in adenomyosis comparison",
+      "question_type": "Clinical visual question",
+      "stem": "Where does the lecture direct attention for a uterine-wall component of the symptoms?",
+      "options": [
+        "Within a periurethral outpouching below the bladder.",
+        "Only within the fluid of a dominant ovarian follicle.",
+        "At a feeding stalk projecting into a saline-distended cavity.",
+        "At the wall of the rectum, without uterine involvement.",
+        "At the junction of endometrium and myometrium, within the uterine wall."
+      ],
+      "choice_rationales": [
+        "The illustrated abnormality is uterine.",
+        "These views concern the uterine wall.",
+        "These are the wall-focused views, without the saline-outlined stalk example.",
+        "The indicated change relates to the endometrial–myometrial interface.",
+        "The lecture contrasts the adnexal lesion with abnormality of the inner myometrium at the junctional zone. These images illustrate why the uterine and adnexal findings are assessed separately."
+      ],
+      "correct_index": 4,
+      "explanation": "The lecture contrasts the adnexal lesion with abnormality of the inner myometrium at the junctional zone. These images illustrate why the uterine and adnexal findings are assessed separately.",
+      "visual_clues": [
+        "On both views use the endometrium to locate the inner myometrium."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "case_id": "r32-cyclic-pain",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "r30-r32-1",
+      "difficulty": "intermediate",
+      "reasoning_type": "interpretation",
+      "scenario": "The same teaching sequence also assesses the uterus by sagittal ultrasound and MRI.",
+      "lead_in": "Where does the lecture direct attention for a uterine-wall component of the symptoms?",
+      "source_id": "s-5ae72beca99ad1f15890",
+      "source_group_id": "g-ebbd3d18a95fc520cb82",
+      "asset_id": "a-63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d",
+      "variant_id": "v-e4ef82ba15e4a469d017",
+      "image": "assets/display/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.webp",
+      "zoom_image": "assets/originals/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.png",
+      "original_image": "assets/originals/63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d.png",
+      "original_filename": "Uterus Sagittal Ultrasound - Echo.png + Endometrioma MRI - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": true,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 25
+        },
+        {
+          "document": "R32 GU Radiology Cases.pdf",
+          "page": 27
+        },
+        {
+          "document": "R32 GU Radiology Cases Tran.pdf",
+          "page": 12
         }
       ]
     }

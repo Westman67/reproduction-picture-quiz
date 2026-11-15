@@ -1,6 +1,6 @@
-import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js?v=review-fixes1';
-import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats,distinctClues} from './engine.js?v=review-fixes1';
-import {STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js?v=review-fixes1';
+import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js?v=r30-r32-2';
+import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats,distinctClues} from './engine.js?v=r30-r32-2';
+import {STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js?v=r30-r32-2';
 const query=new URLSearchParams(window.location.search);
 const CONFIG=resolveBankConfig(window.location.search);
 const thirdPartyLink=CONFIG.id==='pathology'&&(query.get('bank')==='supplementary'||query.get('origin')==='third_party');
@@ -370,7 +370,7 @@ document.addEventListener('keydown', event => {
         (zoom > 1 ? $('#fit') : $('#zoom-in'))?.click();
     }
 });
-const DATA_VERSION='review-fixes1';
+const DATA_VERSION='r30-r32-2';
 
 async function loadSection(section, includeExtras=false){
     const fetchData=name=>fetch(`${section.dataRoot}/${name}.json?v=${DATA_VERSION}`);

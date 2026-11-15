@@ -1,15 +1,17 @@
 # Reproduction Picture Quiz
 
-529 visual questions across three sections.
+587 visual questions across three sections.
 
 - Physiology covers R1 through R7 with 22 questions.
-- Pathology contains 348 questions, covering R8 through R30 and including 19 3rd Party questions available under Source type.
+- Pathology contains 369 questions, covering R8 through R32 and including 19 3rd Party questions available under Source type.
 
-Clinical Cases contains 33 cases with 159 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the three sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion.
+Clinical Cases contains 45 cases with 196 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the three sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion.
 
 See the [third Step 1 relevance screen](reports/step1-third-screen.md) for what was retained, rewritten, or moved to reference only.
 
 Filter practice by study skill and see correct and answered counts in session results and Your progress. Combined Practice keeps cases together and spaces out reused images. Selected questions show numbered image features with the explanation. See the [question review](reports/study-skills-review.csv) for changes and lecture citations.
+
+See the [R30 through R32 expansion](reports/r30-r32-expansion.md) for the added cases and image review.
 
 Learn mode gives feedback after locking an answer. Exam mode defers feedback until completion. Back and Next preserve drafts and locked answers. Skipped questions are reported separately. Zoom resets for each question. The Keanne Button corrects an incorrect locked attempt without changing the original selection or adding an attempt.
 

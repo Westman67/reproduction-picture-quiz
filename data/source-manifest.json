@@ -42222,6 +42222,2377 @@
           "supported": "YES"
         }
       ]
+    },
+    {
+      "source_id": "s-e0193d1a8220b4e8a762",
+      "source_group_id": "g-e87a1eb39bc9f3d4cee7",
+      "asset_id": "a-b84b029aac8da3d08077c879be6e9372504729d10950ca6717601b3049de3951",
+      "lecture_id": "R31",
+      "relative_path": "R31/Normal Adult Breast Tissue TDLU - Histology.png + Breast After Menopause - Histology.png",
+      "sha256": "b84b029aac8da3d08077c879be6e9372504729d10950ca6717601b3049de3951",
+      "status": "USABLE",
+      "tested_concept": "Normal Adult Breast Tissue TDLU - Histology.png + Breast After Menopause - Histology.png",
+      "dimensions": [
+        1701,
+        810
+      ],
+      "original_asset": "assets/originals/b84b029aac8da3d08077c879be6e9372504729d10950ca6717601b3049de3951.png",
+      "display_asset": "assets/display/fc7a052bd62a43ae61fe4df4aec4a6d267b2289c6eaaf2841d2451c6b0778a3a.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "4",
+        "file": "Normal Adult Breast Tissue TDLU - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.274",
+        "y0": "0.68",
+        "x1": "0.531",
+        "y1": "0.998",
+        "size": "771x716@300dpi",
+        "note": "caption bar baked into image",
+        "png_sha256": "4d846ce2a6c95bce2e86feb0fac8519fc635003d918e29d8e1355ab9b9a2f3a5",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Normal Adult Breast Tissue TDLU - Histology",
+        "lecture_category": "Primary",
+        "id": 5,
+        "current_png_sha256": "d3e90e8f6b0534a64fc92d6da2b19b64ec7f6aef1c4323195105628b42db28ac"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "4",
+          "file": "Normal Adult Breast Tissue TDLU - Histology.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Histology",
+          "mode": "single",
+          "x0": "0.274",
+          "y0": "0.68",
+          "x1": "0.531",
+          "y1": "0.998",
+          "size": "771x716@300dpi",
+          "note": "caption bar baked into image",
+          "png_sha256": "4d846ce2a6c95bce2e86feb0fac8519fc635003d918e29d8e1355ab9b9a2f3a5",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Normal Adult Breast Tissue TDLU - Histology",
+          "lecture_category": "Primary",
+          "id": 5,
+          "current_png_sha256": "d3e90e8f6b0534a64fc92d6da2b19b64ec7f6aef1c4323195105628b42db28ac"
+        },
+        {
+          "source": "RLS",
+          "page": "4",
+          "file": "Breast After Menopause - Histology.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Histology",
+          "mode": "single",
+          "x0": "0.744",
+          "y0": "0.682",
+          "x1": "0.998",
+          "y1": "0.995",
+          "size": "762x703@300dpi",
+          "note": "label baked into image",
+          "png_sha256": "dadf351c382ccba5e36dc51c3a12375635a68ac463056abe089f4a5c894fe4e0",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Breast After Menopause - Histology",
+          "lecture_category": "Primary",
+          "id": 0,
+          "current_png_sha256": "6ef6f760f54c7b1097bfc2b44b4bcb274cfbce82a531e28bdda0f82315e189f3"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-343c7e6cf4d9fb04edef",
+          "asset": "assets/display/fc7a052bd62a43ae61fe4df4aec4a6d267b2289c6eaaf2841d2451c6b0778a3a.webp",
+          "zoom_asset": "assets/zoom/fc7a052bd62a43ae61fe4df4aec4a6d267b2289c6eaaf2841d2451c6b0778a3a.png",
+          "display_sha256": "c954ea82e0fa97355777496719c251ac2b515e7a7c324789fa90f180ab634e19",
+          "zoom_sha256": "fc7a052bd62a43ae61fe4df4aec4a6d267b2289c6eaaf2841d2451c6b0778a3a",
+          "output_dimensions": [
+            1716,
+            693
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Normal Adult Breast Tissue TDLU - Histology.png",
+                "crop": [
+                  0,
+                  0,
+                  1,
+                  0.84
+                ],
+                "masks": []
+              },
+              {
+                "file": "Breast After Menopause - Histology.png",
+                "crop": [
+                  0,
+                  0.16,
+                  1,
+                  1
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              1701,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-167a3a7a8bcb416b5322",
+      "source_group_id": "g-46733753f353e2c78336",
+      "asset_id": "a-d85b1042d2f5c727293475dfc930f5fde2900515c63009905ee4c3e4bab8bd98",
+      "lecture_id": "R31",
+      "relative_path": "R31/Breast Lactational Change - Histology.png",
+      "sha256": "d85b1042d2f5c727293475dfc930f5fde2900515c63009905ee4c3e4bab8bd98",
+      "status": "USABLE",
+      "tested_concept": "Breast Lactational Change - Histology.png",
+      "dimensions": [
+        571,
+        706
+      ],
+      "original_asset": "assets/originals/d85b1042d2f5c727293475dfc930f5fde2900515c63009905ee4c3e4bab8bd98.png",
+      "display_asset": "assets/display/bbafccbfea7079fd0a4ebe74500291edc058b3c5e9ce1a2089e26fce65f8c002.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "4",
+        "file": "Breast Lactational Change - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "split",
+        "x0": "0.537",
+        "y0": "0.683",
+        "x1": "0.727",
+        "y1": "0.997",
+        "size": "571x706@300dpi",
+        "note": "title bar baked into image",
+        "png_sha256": "6cf9718b7cc35743851d4baa572c600162950f47097ca40d12fdb055a1a25076",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Breast Lactational Change - Histology",
+        "lecture_category": "Primary",
+        "id": 2,
+        "current_png_sha256": "5e597c5a363fa448f86f999ef1cf4c7044688509f8e6927616aa99625b9e8f0f"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "4",
+          "file": "Breast Lactational Change - Histology.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Histology",
+          "mode": "split",
+          "x0": "0.537",
+          "y0": "0.683",
+          "x1": "0.727",
+          "y1": "0.997",
+          "size": "571x706@300dpi",
+          "note": "title bar baked into image",
+          "png_sha256": "6cf9718b7cc35743851d4baa572c600162950f47097ca40d12fdb055a1a25076",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Breast Lactational Change - Histology",
+          "lecture_category": "Primary",
+          "id": 2,
+          "current_png_sha256": "5e597c5a363fa448f86f999ef1cf4c7044688509f8e6927616aa99625b9e8f0f"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-f1b6bfdf7fe3577aa91d",
+          "asset": "assets/display/bbafccbfea7079fd0a4ebe74500291edc058b3c5e9ce1a2089e26fce65f8c002.webp",
+          "zoom_asset": "assets/zoom/bbafccbfea7079fd0a4ebe74500291edc058b3c5e9ce1a2089e26fce65f8c002.png",
+          "display_sha256": "22f0902480eda713328720b1f343846e85320fd81bb173c0473a1f86eff94ba0",
+          "zoom_sha256": "bbafccbfea7079fd0a4ebe74500291edc058b3c5e9ce1a2089e26fce65f8c002",
+          "output_dimensions": [
+            571,
+            586
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Breast Lactational Change - Histology.png",
+                "crop": [
+                  0,
+                  0.17,
+                  1,
+                  1
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              571,
+              706
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-bed3dcd7b6fe7a7882e5",
+      "source_group_id": "g-7f6299babf86b000bf8a",
+      "asset_id": "a-76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9",
+      "lecture_id": "R31",
+      "relative_path": "R31/Mammographic Appearances Breast Cancer Histology - Histology.png",
+      "sha256": "76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9",
+      "status": "USABLE",
+      "tested_concept": "Mammographic Appearances Breast Cancer Histology - Histology.png",
+      "dimensions": [
+        1137,
+        641
+      ],
+      "original_asset": "assets/originals/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.png",
+      "display_asset": "assets/display/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "7",
+        "file": "Mammographic Appearances Breast Cancer Histology - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.606",
+        "y0": "0.692",
+        "x1": "0.985",
+        "y1": "0.976",
+        "size": "1137x641@300dpi",
+        "note": "specific tumor not named on slide",
+        "png_sha256": "300654756b48c995546d91423b220b8f66a5cbcbc9bfa6b79a49a1a9a042790a",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Mammographic Appearances Breast Cancer Histology - Histology",
+        "lecture_category": "Primary",
+        "id": 13,
+        "current_png_sha256": "454b5cc2e8aa26fbea0048533ea77dc3774376700623a52979e7c7a869de4e55"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "7",
+          "file": "Mammographic Appearances Breast Cancer Histology - Histology.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Histology",
+          "mode": "single",
+          "x0": "0.606",
+          "y0": "0.692",
+          "x1": "0.985",
+          "y1": "0.976",
+          "size": "1137x641@300dpi",
+          "note": "specific tumor not named on slide",
+          "png_sha256": "300654756b48c995546d91423b220b8f66a5cbcbc9bfa6b79a49a1a9a042790a",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Mammographic Appearances Breast Cancer Histology - Histology",
+          "lecture_category": "Primary",
+          "id": 13,
+          "current_png_sha256": "454b5cc2e8aa26fbea0048533ea77dc3774376700623a52979e7c7a869de4e55"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-4fe5199c0f041cda1610",
+          "asset": "assets/display/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.webp",
+          "zoom_asset": "assets/originals/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.png",
+          "display_sha256": "502ec44176de5c5cbd0a7cc6e1ae708eaf3534643dcb55647aa8c2c5ba42ea41",
+          "zoom_sha256": "76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9",
+          "output_dimensions": [
+            1137,
+            641
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1137,
+              641
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-a3e5ffecf8d966d6a603",
+      "source_group_id": "g-36ad9ff9b6deb214157a",
+      "asset_id": "a-a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248",
+      "lecture_id": "R31",
+      "relative_path": "R31/DCIS Mammogram - Radiograph.png + Invasive Carcinoma Mammogram - Radiograph.png",
+      "sha256": "a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248",
+      "status": "USABLE",
+      "tested_concept": "DCIS Mammogram - Radiograph.png + Invasive Carcinoma Mammogram - Radiograph.png",
+      "dimensions": [
+        1634,
+        810
+      ],
+      "original_asset": "assets/originals/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.png",
+      "display_asset": "assets/display/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "7",
+        "file": "DCIS Mammogram - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.008",
+        "y0": "0.225",
+        "x1": "0.346",
+        "y1": "0.682",
+        "size": "1014x1029@300dpi",
+        "note": "",
+        "png_sha256": "d1565555e2a6a686f54c23e99cd2095b623098d70b3b75fccec179f246956951",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "DCIS Mammogram - Radiograph",
+        "lecture_category": "Primary",
+        "id": 9,
+        "current_png_sha256": "7efc7ef7fea258193b4d3805bd5b5c729024de489d7206337459470a399d377e"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "7",
+          "file": "DCIS Mammogram - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.008",
+          "y0": "0.225",
+          "x1": "0.346",
+          "y1": "0.682",
+          "size": "1014x1029@300dpi",
+          "note": "",
+          "png_sha256": "d1565555e2a6a686f54c23e99cd2095b623098d70b3b75fccec179f246956951",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "DCIS Mammogram - Radiograph",
+          "lecture_category": "Primary",
+          "id": 9,
+          "current_png_sha256": "7efc7ef7fea258193b4d3805bd5b5c729024de489d7206337459470a399d377e"
+        },
+        {
+          "source": "RLS",
+          "page": "7",
+          "file": "Invasive Carcinoma Mammogram - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.606",
+          "y0": "0.218",
+          "x1": "0.985",
+          "y1": "0.682",
+          "size": "1137x1045@300dpi",
+          "note": "mammogram has no bucket match beyond Radiograph",
+          "png_sha256": "a865c3043a3ec891660487164f02c377f1c91eb3fca5104559527fe417253d7d",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Invasive Carcinoma Mammogram - Radiograph",
+          "lecture_category": "Primary",
+          "id": 11,
+          "current_png_sha256": "083d61849b142dd9f6dd83a658249ecbd7fbc368d46efb14aa1cce4a565ab393"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-d273903a488da2ef58b3",
+          "asset": "assets/display/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.webp",
+          "zoom_asset": "assets/originals/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.png",
+          "display_sha256": "f5ee903ba9aca1c4e751bc3cd9f43096db9590077c07cdf2a2c26183cabfebc3",
+          "zoom_sha256": "a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248",
+          "output_dimensions": [
+            1634,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1634,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-ac6fcdca6917afc9b5a7",
+      "source_group_id": "g-14cad7d731ea4914d5bb",
+      "asset_id": "a-e7e9ad6e61a5de105de2d7a66957a903bb90ee40fce50e2f1af8f1d2c30ef18a",
+      "lecture_id": "R31",
+      "relative_path": "R31/Fibroadenoma Ultrasound - Echo.png + Simple Breast Cyst Ultrasound - Echo.png",
+      "sha256": "e7e9ad6e61a5de105de2d7a66957a903bb90ee40fce50e2f1af8f1d2c30ef18a",
+      "status": "USABLE",
+      "tested_concept": "Fibroadenoma Ultrasound - Echo.png + Simple Breast Cyst Ultrasound - Echo.png",
+      "dimensions": [
+        1435,
+        810
+      ],
+      "original_asset": "assets/originals/e7e9ad6e61a5de105de2d7a66957a903bb90ee40fce50e2f1af8f1d2c30ef18a.png",
+      "display_asset": "assets/display/38687ad88289a1f245e1a5fd2ef0987c0c6093f2d686a59e8de1b791c8b99773.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "15",
+        "file": "Fibroadenoma Ultrasound - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.28",
+        "y0": "0.357",
+        "x1": "0.576",
+        "y1": "0.898",
+        "size": "888x1218@300dpi",
+        "note": "label baked into image",
+        "png_sha256": "70b4e0bbcf4a7dbd48a1c9bb8821cac917ec2cae0bf46299006c386cf34897a6",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Fibroadenoma Ultrasound - Echo",
+        "lecture_category": "Primary",
+        "id": 15,
+        "current_png_sha256": "9f7170c3f5db2bdd31eb36cdaa84e844c5e9fc6c6f268dfe52887ab1d558059e"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "15",
+          "file": "Fibroadenoma Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.28",
+          "y0": "0.357",
+          "x1": "0.576",
+          "y1": "0.898",
+          "size": "888x1218@300dpi",
+          "note": "label baked into image",
+          "png_sha256": "70b4e0bbcf4a7dbd48a1c9bb8821cac917ec2cae0bf46299006c386cf34897a6",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Fibroadenoma Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 15,
+          "current_png_sha256": "9f7170c3f5db2bdd31eb36cdaa84e844c5e9fc6c6f268dfe52887ab1d558059e"
+        },
+        {
+          "source": "RLS",
+          "page": "15",
+          "file": "Simple Breast Cyst Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.652",
+          "y0": "0.269",
+          "x1": "0.962",
+          "y1": "0.618",
+          "size": "930x785@300dpi",
+          "note": "",
+          "png_sha256": "891c9e0ddf5d2254fd043401d2ad9fb9a307f30a24bbc422889242568c81f55f",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Simple Breast Cyst Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 18,
+          "current_png_sha256": "030a340dd7ec13a3dd1ebfd3b1da5d4abd01447b9301d1d4f95b46cf41c59690"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-d32b0a1f5b7b03b605c4",
+          "asset": "assets/display/38687ad88289a1f245e1a5fd2ef0987c0c6093f2d686a59e8de1b791c8b99773.webp",
+          "zoom_asset": "assets/zoom/38687ad88289a1f245e1a5fd2ef0987c0c6093f2d686a59e8de1b791c8b99773.png",
+          "display_sha256": "dad1e3080ae7439d424d0a5f796df25dd26af3ce2c50a177ab54c0f367a9a5b0",
+          "zoom_sha256": "38687ad88289a1f245e1a5fd2ef0987c0c6093f2d686a59e8de1b791c8b99773",
+          "output_dimensions": [
+            1513,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Fibroadenoma Ultrasound - Echo.png",
+                "crop": [
+                  0,
+                  0,
+                  1,
+                  0.88
+                ],
+                "masks": [
+                  [
+                    0.212,
+                    0.229,
+                    0.84,
+                    0.296
+                  ]
+                ]
+              },
+              {
+                "file": "Simple Breast Cyst Ultrasound - Echo.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.078,
+                    0.074,
+                    0.229,
+                    0.183
+                  ],
+                  [
+                    0.078,
+                    0.376,
+                    0.22,
+                    0.493
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1435,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-c2edf14c1eb0fa0b83a7",
+      "source_group_id": "g-e7aa05164c59bcda9929",
+      "asset_id": "a-6d3f4e91860e97f61e9b545795627399f8831e1ae8490374e938da39684042ac",
+      "lecture_id": "R31",
+      "relative_path": "R31/Ovary Histology Follicles - Histology.png",
+      "sha256": "6d3f4e91860e97f61e9b545795627399f8831e1ae8490374e938da39684042ac",
+      "status": "USABLE",
+      "tested_concept": "Ovary Histology Follicles - Histology.png",
+      "dimensions": [
+        1021,
+        886
+      ],
+      "original_asset": "assets/originals/6d3f4e91860e97f61e9b545795627399f8831e1ae8490374e938da39684042ac.png",
+      "display_asset": "assets/display/90f564b9b3ca958c35fff3ba6a6582f06af696d9981c4348d5d47b71ef000419.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 17
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "17",
+        "file": "Ovary Histology Follicles - Histology.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "single",
+        "x0": "0.658",
+        "y0": "0.228",
+        "x1": "0.998",
+        "y1": "0.621",
+        "size": "1021x886@300dpi",
+        "note": "grayscale labeled micrograph or drawing",
+        "png_sha256": "ac9164daba9c1ab0ff01a91af16967e430b8cd2225d36b2019aa1d97d5d2c0d8",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Ovary Histology Follicles - Histology",
+        "lecture_category": "Primary",
+        "id": 21,
+        "current_png_sha256": "1d09ba060a1b296ae1db4721e9e3b053201a3f1b3e44a5767dc323b3fc7d29e9"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "17",
+          "file": "Ovary Histology Follicles - Histology.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Histology",
+          "mode": "single",
+          "x0": "0.658",
+          "y0": "0.228",
+          "x1": "0.998",
+          "y1": "0.621",
+          "size": "1021x886@300dpi",
+          "note": "grayscale labeled micrograph or drawing",
+          "png_sha256": "ac9164daba9c1ab0ff01a91af16967e430b8cd2225d36b2019aa1d97d5d2c0d8",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Ovary Histology Follicles - Histology",
+          "lecture_category": "Primary",
+          "id": 21,
+          "current_png_sha256": "1d09ba060a1b296ae1db4721e9e3b053201a3f1b3e44a5767dc323b3fc7d29e9"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-2e2749314704fd2249d8",
+          "asset": "assets/display/90f564b9b3ca958c35fff3ba6a6582f06af696d9981c4348d5d47b71ef000419.webp",
+          "zoom_asset": "assets/zoom/90f564b9b3ca958c35fff3ba6a6582f06af696d9981c4348d5d47b71ef000419.png",
+          "display_sha256": "1f2088743ba2886faa42aea58c8f645f70f4a182abb576896c6cc7c78bbca6aa",
+          "zoom_sha256": "90f564b9b3ca958c35fff3ba6a6582f06af696d9981c4348d5d47b71ef000419",
+          "output_dimensions": [
+            1021,
+            886
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Ovary Histology Follicles - Histology.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.644,
+                    0.342,
+                    0.798,
+                    0.398
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1021,
+              886
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-89b264b9905a3b913bdf",
+      "source_group_id": "g-444fcf1e60873ad7b2b3",
+      "asset_id": "a-f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389",
+      "lecture_id": "R31",
+      "relative_path": "R31/Epithelial Ovarian Tumors US and CT - Radiograph.png",
+      "sha256": "f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389",
+      "status": "USABLE",
+      "tested_concept": "Epithelial Ovarian Tumors US and CT - Radiograph.png",
+      "dimensions": [
+        1628,
+        809
+      ],
+      "original_asset": "assets/originals/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.png",
+      "display_asset": "assets/display/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 20
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "20",
+        "file": "Epithelial Ovarian Tumors US and CT - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.015",
+        "y0": "0.215",
+        "x1": "0.557",
+        "y1": "0.575",
+        "size": "1628x809@300dpi",
+        "note": "two panel composite of ultrasound and CT",
+        "png_sha256": "b4c18329a15f10c9964fdedde2b9b644ea83742663a326d0b64b6f1f95f81f65",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Epithelial Ovarian Tumors US and CT - Radiograph",
+        "lecture_category": "Primary",
+        "id": 24,
+        "current_png_sha256": "a8058dc45e21cd2a5ac17ee7da1f81c1804d387b6722f8a15fa4ba7178f433e9"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "20",
+          "file": "Epithelial Ovarian Tumors US and CT - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.015",
+          "y0": "0.215",
+          "x1": "0.557",
+          "y1": "0.575",
+          "size": "1628x809@300dpi",
+          "note": "two panel composite of ultrasound and CT",
+          "png_sha256": "b4c18329a15f10c9964fdedde2b9b644ea83742663a326d0b64b6f1f95f81f65",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Epithelial Ovarian Tumors US and CT - Radiograph",
+          "lecture_category": "Primary",
+          "id": 24,
+          "current_png_sha256": "a8058dc45e21cd2a5ac17ee7da1f81c1804d387b6722f8a15fa4ba7178f433e9"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-644429416553765a1d92",
+          "asset": "assets/display/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.webp",
+          "zoom_asset": "assets/originals/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.png",
+          "display_sha256": "ec4cacb0c8430b291c5205cc1133f7f2349ef238f8ed328284d5f1f432411bbd",
+          "zoom_sha256": "f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389",
+          "output_dimensions": [
+            1628,
+            809
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1628,
+              809
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-f5b8ffe0680d70566650",
+      "source_group_id": "g-8fcdb103465c092b5049",
+      "asset_id": "a-32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35",
+      "lecture_id": "R31",
+      "relative_path": "R31/Omental Caking CT - CT.png",
+      "sha256": "32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35",
+      "status": "USABLE",
+      "tested_concept": "Omental Caking CT - CT.png",
+      "dimensions": [
+        1059,
+        1008
+      ],
+      "original_asset": "assets/originals/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.png",
+      "display_asset": "assets/display/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 20
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "20",
+        "file": "Omental Caking CT - CT.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "single",
+        "x0": "0.613",
+        "y0": "0.276",
+        "x1": "1.0",
+        "y1": "0.724",
+        "size": "1059x1008@300dpi",
+        "note": "",
+        "png_sha256": "82430984d5d3c5c7ac0ee50cf19ea532ff56d3150629f7a08d93ed1b48f63182",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Omental Caking CT - CT",
+        "lecture_category": "Primary",
+        "id": 25,
+        "current_png_sha256": "fdfa92c7b73d3c5e30738085b59efe6e023f105245a16284695bfc44248ce657"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "20",
+          "file": "Omental Caking CT - CT.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "single",
+          "x0": "0.613",
+          "y0": "0.276",
+          "x1": "1.0",
+          "y1": "0.724",
+          "size": "1059x1008@300dpi",
+          "note": "",
+          "png_sha256": "82430984d5d3c5c7ac0ee50cf19ea532ff56d3150629f7a08d93ed1b48f63182",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Omental Caking CT - CT",
+          "lecture_category": "Primary",
+          "id": 25,
+          "current_png_sha256": "fdfa92c7b73d3c5e30738085b59efe6e023f105245a16284695bfc44248ce657"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-3e4258c1686c67ff937a",
+          "asset": "assets/display/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.webp",
+          "zoom_asset": "assets/originals/32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35.png",
+          "display_sha256": "3f1d80e2b9c217bf902e4cad7951c6499b7c50b20acbcd26b064b929999aa928",
+          "zoom_sha256": "32004257dc87b8c24b8c147a7856944d4e5b18b10d22b3b387547f9c2918be35",
+          "output_dimensions": [
+            1059,
+            1008
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1059,
+              1008
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-2b1a322b1ab1c9abef7d",
+      "source_group_id": "g-018f147810648434a6a9",
+      "asset_id": "a-2231d87e1bbffb1075f07e930d97b7b5d1a00dcb8bd36e12f31078796e8ea60b",
+      "lecture_id": "R31",
+      "relative_path": "R31/Krukenberg Tumor CT - CT.png + Krukenberg Tumor Illustration - Diagram.png",
+      "sha256": "2231d87e1bbffb1075f07e930d97b7b5d1a00dcb8bd36e12f31078796e8ea60b",
+      "status": "USABLE",
+      "tested_concept": "Krukenberg Tumor CT - CT.png + Krukenberg Tumor Illustration - Diagram.png",
+      "dimensions": [
+        1716,
+        768
+      ],
+      "original_asset": "assets/originals/2231d87e1bbffb1075f07e930d97b7b5d1a00dcb8bd36e12f31078796e8ea60b.png",
+      "display_asset": "assets/display/e6968a31eafecfa7c37d49fd3f6126a9e633096ba4a6f51c57c5aa423ab679a3.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "22",
+        "file": "Krukenberg Tumor CT - CT.png",
+        "slide_title": "Gastric CA",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "single",
+        "x0": "0.43",
+        "y0": "0.594",
+        "x1": "0.998",
+        "y1": "1.0",
+        "size": "1708x914@300dpi",
+        "note": "",
+        "png_sha256": "97a6f4ccf2e76d82a5ec615934adbb7a3990b9748ab6a9e813f642f86ced659b",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Krukenberg Tumor CT - CT",
+        "lecture_category": "Primary",
+        "id": 27,
+        "current_png_sha256": "a250d1d91be4499731f27fb862dafc88174fa95f2abdc7203b0b1e56c91f6393"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "22",
+          "file": "Krukenberg Tumor CT - CT.png",
+          "slide_title": "Gastric CA",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "single",
+          "x0": "0.43",
+          "y0": "0.594",
+          "x1": "0.998",
+          "y1": "1.0",
+          "size": "1708x914@300dpi",
+          "note": "",
+          "png_sha256": "97a6f4ccf2e76d82a5ec615934adbb7a3990b9748ab6a9e813f642f86ced659b",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Krukenberg Tumor CT - CT",
+          "lecture_category": "Primary",
+          "id": 27,
+          "current_png_sha256": "a250d1d91be4499731f27fb862dafc88174fa95f2abdc7203b0b1e56c91f6393"
+        },
+        {
+          "source": "RLS",
+          "page": "22",
+          "file": "Krukenberg Tumor Illustration - Diagram.png",
+          "slide_title": "Gastric CA",
+          "overlay_labels": "",
+          "type": "Diagram",
+          "mode": "single",
+          "x0": "0.083",
+          "y0": "0.594",
+          "x1": "0.435",
+          "y1": "1.0",
+          "size": "1053x914@300dpi",
+          "note": "",
+          "png_sha256": "509f64c1267bcf72d8e802bbc2be6d382b3199e5ad1eb1112ee7235013bf7f9e",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Krukenberg Tumor Illustration - Diagram",
+          "lecture_category": "Primary",
+          "id": 28,
+          "current_png_sha256": "f54e5ec28be58a45c7a4b3583c7207bcd4fd1db6cf937a3a55cc8287a029661a"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-60529db9d4851b664fd9",
+          "asset": "assets/display/e6968a31eafecfa7c37d49fd3f6126a9e633096ba4a6f51c57c5aa423ab679a3.webp",
+          "zoom_asset": "assets/zoom/e6968a31eafecfa7c37d49fd3f6126a9e633096ba4a6f51c57c5aa423ab679a3.png",
+          "display_sha256": "77c0f5f5fc9907f6750e1e1a8a46bd3967b8d268115566ff0361d9623e6d25c1",
+          "zoom_sha256": "e6968a31eafecfa7c37d49fd3f6126a9e633096ba4a6f51c57c5aa423ab679a3",
+          "output_dimensions": [
+            1686,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Krukenberg Tumor Illustration - Diagram.png",
+                "crop": [
+                  0.61,
+                  0.013,
+                  0.958,
+                  0.393
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              1716,
+              768
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-0ef020e2327abe57e24a",
+      "source_group_id": "g-c5a7b7e2f308ebda564a",
+      "asset_id": "a-52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e",
+      "lecture_id": "R31",
+      "relative_path": "R31/Mature Teratoma CT - CT.png + Mature Teratoma Gross - Gross.png",
+      "sha256": "52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e",
+      "status": "USABLE",
+      "tested_concept": "Mature Teratoma CT - CT.png + Mature Teratoma Gross - Gross.png",
+      "dimensions": [
+        1716,
+        593
+      ],
+      "original_asset": "assets/originals/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.png",
+      "display_asset": "assets/display/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "25",
+        "file": "Mature Teratoma CT - CT.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "CT",
+        "mode": "single",
+        "x0": "0.0",
+        "y0": "0.715",
+        "x1": "0.343",
+        "y1": "0.995",
+        "size": "1031x630@300dpi",
+        "note": "",
+        "png_sha256": "077e50712bd00e968b710fe8cb85c947683d0ca38e8eea597a6446a63e403bc7",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Mature Teratoma CT - CT",
+        "lecture_category": "Primary",
+        "id": 30,
+        "current_png_sha256": "cfd9d8370f31b3160242bed157d7454f8d50d9a87151f0526acd390122fb1e89"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "25",
+          "file": "Mature Teratoma CT - CT.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "CT",
+          "mode": "single",
+          "x0": "0.0",
+          "y0": "0.715",
+          "x1": "0.343",
+          "y1": "0.995",
+          "size": "1031x630@300dpi",
+          "note": "",
+          "png_sha256": "077e50712bd00e968b710fe8cb85c947683d0ca38e8eea597a6446a63e403bc7",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Mature Teratoma CT - CT",
+          "lecture_category": "Primary",
+          "id": 30,
+          "current_png_sha256": "cfd9d8370f31b3160242bed157d7454f8d50d9a87151f0526acd390122fb1e89"
+        },
+        {
+          "source": "RLS",
+          "page": "25",
+          "file": "Mature Teratoma Gross - Gross.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Gross",
+          "mode": "single",
+          "x0": "0.0",
+          "y0": "0.419",
+          "x1": "0.344",
+          "y1": "0.776",
+          "size": "1031x683@300dpi",
+          "note": "retyped from Histology, bottom CT sliver trimmed",
+          "png_sha256": "e3fac0b2adde5d78112933cc93aebce8d202e318c3213c2e0d5c298525dd410b",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Mature Teratoma Gross - Gross",
+          "lecture_category": "Primary",
+          "id": 31,
+          "current_png_sha256": "54124bb14c4cdafd346de6e9895774562237bf43f1d5d48c7a6780bfcd2af41f"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-a928e1712d651913c8e2",
+          "asset": "assets/display/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.webp",
+          "zoom_asset": "assets/originals/52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e.png",
+          "display_sha256": "b5c3d80d899dda01dac657e977f2da61a1c87df428ef80459e15f7466ecbb2bd",
+          "zoom_sha256": "52985beab1b1020e99be48ab885a3e4e8f55e11a0ade89f0bf4d23098b318d0e",
+          "output_dimensions": [
+            1716,
+            593
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              593
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-5d6e0ce8eb258e92972c",
+      "source_group_id": "g-7196fd108bc7d9527d1b",
+      "asset_id": "a-710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7",
+      "lecture_id": "R31",
+      "relative_path": "R31/Seminoma Testicular Ultrasound - Echo.png",
+      "sha256": "710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7",
+      "status": "USABLE",
+      "tested_concept": "Seminoma Testicular Ultrasound - Echo.png",
+      "dimensions": [
+        1534,
+        937
+      ],
+      "original_asset": "assets/originals/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.png",
+      "display_asset": "assets/display/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 29
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "29",
+        "file": "Seminoma Testicular Ultrasound - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.018",
+        "y0": "0.566",
+        "x1": "0.529",
+        "y1": "0.981",
+        "size": "1534x937@300dpi",
+        "note": "",
+        "png_sha256": "b90a006dca01873d300dae7714f1c9dcd279c5c6ccbc85a50321fc878350521a",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Seminoma Testicular Ultrasound - Echo",
+        "lecture_category": "Primary",
+        "id": 35,
+        "current_png_sha256": "22e32fd240bf64379cc162cc52a308499c5bafca9e7323718608abdbe77e205b"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "29",
+          "file": "Seminoma Testicular Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.018",
+          "y0": "0.566",
+          "x1": "0.529",
+          "y1": "0.981",
+          "size": "1534x937@300dpi",
+          "note": "",
+          "png_sha256": "b90a006dca01873d300dae7714f1c9dcd279c5c6ccbc85a50321fc878350521a",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Seminoma Testicular Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 35,
+          "current_png_sha256": "22e32fd240bf64379cc162cc52a308499c5bafca9e7323718608abdbe77e205b"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-ab8e0153dd44d8d1ff8a",
+          "asset": "assets/display/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.webp",
+          "zoom_asset": "assets/originals/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.png",
+          "display_sha256": "a4fee925837e957c61d937ca4e4339a84dca3b1fc2f20396ba9a877a4aa5d13d",
+          "zoom_sha256": "710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7",
+          "output_dimensions": [
+            1534,
+            937
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1534,
+              937
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-f5e660190fe657269d31",
+      "source_group_id": "g-b799bb172e01f5b17b9d",
+      "asset_id": "a-4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01",
+      "lecture_id": "R31",
+      "relative_path": "R31/Intramural Fibroid MRI - Radiograph.png + Submucosal Fibroid MRI - Radiograph.png + Subserosal Fibroid MRI - Radiograph.png",
+      "sha256": "4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01",
+      "status": "USABLE",
+      "tested_concept": "Intramural Fibroid MRI - Radiograph.png + Submucosal Fibroid MRI - Radiograph.png + Subserosal Fibroid MRI - Radiograph.png",
+      "dimensions": [
+        2558,
+        810
+      ],
+      "original_asset": "assets/originals/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.png",
+      "display_asset": "assets/display/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 35
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "35",
+        "file": "Intramural Fibroid MRI - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.051",
+        "y0": "0.62",
+        "x1": "0.324",
+        "y1": "0.992",
+        "size": "819x736@300dpi",
+        "note": "MRI has no bucket, typed Radiograph; gray label box trimmed",
+        "png_sha256": "ce65ba7b2a16283dd26b8fe53ed5c2cf00dbfcc6de46923237311108cbb72275",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Intramural Fibroid MRI - Radiograph",
+        "lecture_category": "Primary",
+        "id": 38,
+        "current_png_sha256": "003ff14d4490287db9ebd4abda3d20c5316153f6ced0d80e297d6ac8bcbcf5ff"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "35",
+          "file": "Intramural Fibroid MRI - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.051",
+          "y0": "0.62",
+          "x1": "0.324",
+          "y1": "0.992",
+          "size": "819x736@300dpi",
+          "note": "MRI has no bucket, typed Radiograph; gray label box trimmed",
+          "png_sha256": "ce65ba7b2a16283dd26b8fe53ed5c2cf00dbfcc6de46923237311108cbb72275",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Intramural Fibroid MRI - Radiograph",
+          "lecture_category": "Primary",
+          "id": 38,
+          "current_png_sha256": "003ff14d4490287db9ebd4abda3d20c5316153f6ced0d80e297d6ac8bcbcf5ff"
+        },
+        {
+          "source": "RLS",
+          "page": "35",
+          "file": "Submucosal Fibroid MRI - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.375",
+          "y0": "0.62",
+          "x1": "0.64",
+          "y1": "1.0",
+          "size": "796x752@300dpi",
+          "note": "MRI has no bucket, typed Radiograph; gray label box trimmed",
+          "png_sha256": "3b250d1654bf0592f9d673113ea2cc57a700cd7bc4d45a393d901668d4b01fca",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Submucosal Fibroid MRI - Radiograph",
+          "lecture_category": "Primary",
+          "id": 39,
+          "current_png_sha256": "0ff2c8b8cc79d92d9317251184076b5222679f232ade9e53f01a451bd6da3aa6"
+        },
+        {
+          "source": "RLS",
+          "page": "35",
+          "file": "Subserosal Fibroid MRI - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.69",
+          "y0": "0.621",
+          "x1": "0.964",
+          "y1": "1.0",
+          "size": "823x749@300dpi",
+          "note": "MRI has no bucket, typed Radiograph; gray label box trimmed",
+          "png_sha256": "fc4a5269fb5cdd5c2228f1c0e07ead2b055f6f311141945f8a213d43bf94e94e",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Subserosal Fibroid MRI - Radiograph",
+          "lecture_category": "Primary",
+          "id": 40,
+          "current_png_sha256": "ae87d70aabe63aca5d04df50d7fac30d43b83ed5a474fff781d2b0ae2eaf8a42"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-13886a01585d4a004426",
+          "asset": "assets/display/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.webp",
+          "zoom_asset": "assets/originals/4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01.png",
+          "display_sha256": "082005b1dcac660afaa585b9a832223f6023bbe59ee12748bcc714a97ce838b2",
+          "zoom_sha256": "4046e954e5329f52ebb5c5b2341b2ac7ed3e9f31790a83d83b832918f4d58f01",
+          "output_dimensions": [
+            2558,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              2558,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-68e8f699372abbddc272",
+      "source_group_id": "g-8bea08ae197cc36bf642",
+      "asset_id": "a-197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7",
+      "lecture_id": "R31",
+      "relative_path": "R31/Saline Infused Sonogram Color Doppler - Echo.png",
+      "sha256": "197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7",
+      "status": "USABLE",
+      "tested_concept": "Saline Infused Sonogram Color Doppler - Echo.png",
+      "dimensions": [
+        1287,
+        901
+      ],
+      "original_asset": "assets/originals/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.png",
+      "display_asset": "assets/display/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 37
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "37",
+        "file": "Saline Infused Sonogram Color Doppler - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.514",
+        "y0": "0.599",
+        "x1": "0.943",
+        "y1": "0.999",
+        "size": "1287x901@300dpi",
+        "note": "retyped from Histology",
+        "png_sha256": "07a624877ebbcffc02cf5fdf7d5c7fb78ebd6d904d5fc390957bf30fe537dd9f",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Saline Infused Sonogram Color Doppler - Echo",
+        "lecture_category": "Primary",
+        "id": 45,
+        "current_png_sha256": "442da804138a73f7c489332b694abf95c1ccd108f24779530a2efb137c8faef7"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "37",
+          "file": "Saline Infused Sonogram Color Doppler - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.514",
+          "y0": "0.599",
+          "x1": "0.943",
+          "y1": "0.999",
+          "size": "1287x901@300dpi",
+          "note": "retyped from Histology",
+          "png_sha256": "07a624877ebbcffc02cf5fdf7d5c7fb78ebd6d904d5fc390957bf30fe537dd9f",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Saline Infused Sonogram Color Doppler - Echo",
+          "lecture_category": "Primary",
+          "id": 45,
+          "current_png_sha256": "442da804138a73f7c489332b694abf95c1ccd108f24779530a2efb137c8faef7"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-d7db4f62a3ded2a3e30a",
+          "asset": "assets/display/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.webp",
+          "zoom_asset": "assets/originals/197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7.png",
+          "display_sha256": "e029b7b944d490192dc48e449e9a6662e093877621419059ff2541fa95378430",
+          "zoom_sha256": "197df107a4a19518fea83e3f5f9f15a2bf8a1047181f5da0d1b2ceab33085dc7",
+          "output_dimensions": [
+            1287,
+            901
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1287,
+              901
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-6229b0b5f591be12a01b",
+      "source_group_id": "g-1a831eabe1e4e9c7dc81",
+      "asset_id": "a-600efff42c401116b8920066b51be797a3f7e7f4975f4bcec610c9e7a1562278",
+      "lecture_id": "R31",
+      "relative_path": "R31/Endometrial Cancer Ultrasound - Echo.png + Endometrial Hyperplasia Ultrasound - Echo.png",
+      "sha256": "600efff42c401116b8920066b51be797a3f7e7f4975f4bcec610c9e7a1562278",
+      "status": "USABLE",
+      "tested_concept": "Endometrial Cancer Ultrasound - Echo.png + Endometrial Hyperplasia Ultrasound - Echo.png",
+      "dimensions": [
+        1711,
+        810
+      ],
+      "original_asset": "assets/originals/600efff42c401116b8920066b51be797a3f7e7f4975f4bcec610c9e7a1562278.png",
+      "display_asset": "assets/display/d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 38
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "38",
+        "file": "Endometrial Cancer Ultrasound - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "Endometrial Cancer",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.066",
+        "y0": "0.607",
+        "x1": "0.381",
+        "y1": "0.993",
+        "size": "944x870@300dpi",
+        "note": "title baked in",
+        "png_sha256": "93ef6ef1a08a29564c89be48abbbfba7f3f810e6fd4e095c874db2b1fcd83c18",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Endometrial Cancer Ultrasound - Echo",
+        "lecture_category": "Primary",
+        "id": 48,
+        "current_png_sha256": "76effe713befe543c03c0d94c8cdd722ed2d19005ea6c4c946d654a8ddd05ab5"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "38",
+          "file": "Endometrial Cancer Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "Endometrial Cancer",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.066",
+          "y0": "0.607",
+          "x1": "0.381",
+          "y1": "0.993",
+          "size": "944x870@300dpi",
+          "note": "title baked in",
+          "png_sha256": "93ef6ef1a08a29564c89be48abbbfba7f3f810e6fd4e095c874db2b1fcd83c18",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Endometrial Cancer Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 48,
+          "current_png_sha256": "76effe713befe543c03c0d94c8cdd722ed2d19005ea6c4c946d654a8ddd05ab5"
+        },
+        {
+          "source": "RLS",
+          "page": "38",
+          "file": "Endometrial Hyperplasia Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "Endometrial Hyperplasia",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.698",
+          "y0": "0.238",
+          "x1": "0.993",
+          "y1": "0.599",
+          "size": "887x815@300dpi",
+          "note": "title baked in",
+          "png_sha256": "ac61f52a052008a88c41deb4933259c1549aeb5431ed6d81e87d8befa733ad6c",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Endometrial Hyperplasia Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 49,
+          "current_png_sha256": "36956df02050a8bee06a08df5a229c6f9ba524abc5de9cbe9f1f0743fc55a73e"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-721ee7b5dd10d75b5f54",
+          "asset": "assets/display/d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa.webp",
+          "zoom_asset": "assets/zoom/d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa.png",
+          "display_sha256": "46b142a584cab4064a00766d11999186a908b6c109fcf100b1ab6ddfad9e93f7",
+          "zoom_sha256": "d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa",
+          "output_dimensions": [
+            1716,
+            696
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Endometrial Cancer Ultrasound - Echo.png",
+                "crop": [
+                  0,
+                  0.15,
+                  1,
+                  1
+                ],
+                "masks": []
+              },
+              {
+                "file": "Endometrial Hyperplasia Ultrasound - Echo.png",
+                "crop": [
+                  0,
+                  0.16,
+                  1,
+                  1
+                ],
+                "masks": []
+              }
+            ],
+            "input_dimensions": [
+              1711,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-5918212ae044ec9dc39d",
+      "source_group_id": "g-b30f7dfb0109c4c8935c",
+      "asset_id": "a-0dc2f1dd73be8c600c8f20c7996f932c23579227f522511af78a9f660040a2fc",
+      "lecture_id": "R31",
+      "relative_path": "R31/Cervical Cancer MRI 2 - Radiograph.png + Hydroureter and Dilated Renal Pelvis Ultrasound - Echo.png",
+      "sha256": "0dc2f1dd73be8c600c8f20c7996f932c23579227f522511af78a9f660040a2fc",
+      "status": "USABLE",
+      "tested_concept": "Cervical Cancer MRI 2 - Radiograph.png + Hydroureter and Dilated Renal Pelvis Ultrasound - Echo.png",
+      "dimensions": [
+        1530,
+        810
+      ],
+      "original_asset": "assets/originals/0dc2f1dd73be8c600c8f20c7996f932c23579227f522511af78a9f660040a2fc.png",
+      "display_asset": "assets/display/277a25424713171eff4e75a01804f92533e0df32f81f50fcad67c87f79cf46ec.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 39
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "39",
+        "file": "Cervical Cancer MRI 2 - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.397",
+        "y0": "0.624",
+        "x1": "0.627",
+        "y1": "0.985",
+        "size": "692x813@300dpi",
+        "note": "MRI has no bucket, typed Radiograph",
+        "png_sha256": "89ae85ccb22e3e6a33289e66120235bed067f0cee6c8ca1a14ca12d66fd7511c",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Cervical Cancer MRI 2 - Radiograph",
+        "lecture_category": "Primary",
+        "id": 54,
+        "current_png_sha256": "c420267c7d22ba7dbb7b5fe7ff23a692ae7f34e9ea510debd064d95c21ae513e"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "39",
+          "file": "Cervical Cancer MRI 2 - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.397",
+          "y0": "0.624",
+          "x1": "0.627",
+          "y1": "0.985",
+          "size": "692x813@300dpi",
+          "note": "MRI has no bucket, typed Radiograph",
+          "png_sha256": "89ae85ccb22e3e6a33289e66120235bed067f0cee6c8ca1a14ca12d66fd7511c",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Cervical Cancer MRI 2 - Radiograph",
+          "lecture_category": "Primary",
+          "id": 54,
+          "current_png_sha256": "c420267c7d22ba7dbb7b5fe7ff23a692ae7f34e9ea510debd064d95c21ae513e"
+        },
+        {
+          "source": "RLS",
+          "page": "39",
+          "file": "Hydroureter and Dilated Renal Pelvis Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.624",
+          "y0": "0.654",
+          "x1": "1.0",
+          "y1": "0.985",
+          "size": "1129x745@300dpi",
+          "note": "retyped from Diagram",
+          "png_sha256": "8132966cc915fa4f38dde2f2ff5c4e7ea85efc2a1c7d0f462277ed3263967a38",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Hydroureter and Dilated Renal Pelvis Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 55,
+          "current_png_sha256": "9ec18076f0a2aad4beec2d66436c8b22acf6392aee6cbe4bdfe277f7a6034320"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-e76389a428015ee16cbb",
+          "asset": "assets/display/277a25424713171eff4e75a01804f92533e0df32f81f50fcad67c87f79cf46ec.webp",
+          "zoom_asset": "assets/zoom/277a25424713171eff4e75a01804f92533e0df32f81f50fcad67c87f79cf46ec.png",
+          "display_sha256": "6ebf810a8ed2edd35e0b110daa6e9709e53df1215ce0f331e13bd58613a65f43",
+          "zoom_sha256": "277a25424713171eff4e75a01804f92533e0df32f81f50fcad67c87f79cf46ec",
+          "output_dimensions": [
+            1530,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Hydroureter and Dilated Renal Pelvis Ultrasound - Echo.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.29,
+                    0.11,
+                    0.59,
+                    0.37
+                  ],
+                  [
+                    0.6,
+                    0.67,
+                    0.99,
+                    0.92
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1530,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-6857f4f9765ab2479d02",
+      "source_group_id": "g-ff6233a41d4103ab8e3e",
+      "asset_id": "a-a7255d13f57c87999fa6e0cec7f9918be6c0d730d81edab40b54c7d4e6b6fbf7",
+      "lecture_id": "R31",
+      "relative_path": "R31/Prostate Cancer Mass in PZ MRI - Radiograph.png",
+      "sha256": "a7255d13f57c87999fa6e0cec7f9918be6c0d730d81edab40b54c7d4e6b6fbf7",
+      "status": "USABLE",
+      "tested_concept": "Prostate Cancer Mass in PZ MRI - Radiograph.png",
+      "dimensions": [
+        1143,
+        814
+      ],
+      "original_asset": "assets/originals/a7255d13f57c87999fa6e0cec7f9918be6c0d730d81edab40b54c7d4e6b6fbf7.png",
+      "display_asset": "assets/display/1343a6286e76616c9c7a040aa2c9f65fb06c02b64c60e72255564d71ea106ab2.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 43
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "43",
+        "file": "Prostate Cancer Mass in PZ MRI - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "Mass in PZ",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.61",
+        "y0": "0.617",
+        "x1": "0.99",
+        "y1": "0.979",
+        "size": "1143x814@300dpi",
+        "note": "MRI has no bucket, typed Radiograph",
+        "png_sha256": "a551e6d5492883c5c0aaf9606cee396e4627e80a7ceb5bcba658428f1015ca85",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Prostate Cancer Mass in PZ MRI - Radiograph",
+        "lecture_category": "Primary",
+        "id": 59,
+        "current_png_sha256": "5034090c2361be8b01b653dca40b65bd218ae6b59be96a14ee022460a40b142b"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "43",
+          "file": "Prostate Cancer Mass in PZ MRI - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "Mass in PZ",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.61",
+          "y0": "0.617",
+          "x1": "0.99",
+          "y1": "0.979",
+          "size": "1143x814@300dpi",
+          "note": "MRI has no bucket, typed Radiograph",
+          "png_sha256": "a551e6d5492883c5c0aaf9606cee396e4627e80a7ceb5bcba658428f1015ca85",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Prostate Cancer Mass in PZ MRI - Radiograph",
+          "lecture_category": "Primary",
+          "id": 59,
+          "current_png_sha256": "5034090c2361be8b01b653dca40b65bd218ae6b59be96a14ee022460a40b142b"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-0d565f4a8f42d0f82e20",
+          "asset": "assets/display/1343a6286e76616c9c7a040aa2c9f65fb06c02b64c60e72255564d71ea106ab2.webp",
+          "zoom_asset": "assets/zoom/1343a6286e76616c9c7a040aa2c9f65fb06c02b64c60e72255564d71ea106ab2.png",
+          "display_sha256": "937b977a8c1b15e21e287bb681949a99f93d3572ddcdd29fa46a370cc94b35d1",
+          "zoom_sha256": "1343a6286e76616c9c7a040aa2c9f65fb06c02b64c60e72255564d71ea106ab2",
+          "output_dimensions": [
+            1143,
+            814
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [
+              {
+                "file": "Prostate Cancer Mass in PZ MRI - Radiograph.png",
+                "crop": null,
+                "masks": [
+                  [
+                    0.63,
+                    0,
+                    1,
+                    0.18
+                  ]
+                ]
+              }
+            ],
+            "input_dimensions": [
+              1143,
+              814
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-518e8a78ba927ab25145",
+      "source_group_id": "g-18cb9e1eac0e92151a30",
+      "asset_id": "a-4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b",
+      "lecture_id": "R31",
+      "relative_path": "R31/Urethral Stricture Retrograde Urethrogram - Radiograph.png + Urethral Tear Retrograde Urethrogram - Radiograph.png",
+      "sha256": "4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b",
+      "status": "USABLE",
+      "tested_concept": "Urethral Stricture Retrograde Urethrogram - Radiograph.png + Urethral Tear Retrograde Urethrogram - Radiograph.png",
+      "dimensions": [
+        1597,
+        810
+      ],
+      "original_asset": "assets/originals/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.png",
+      "display_asset": "assets/display/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 44
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "44",
+        "file": "Urethral Stricture Retrograde Urethrogram - Radiograph.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Radiograph",
+        "mode": "single",
+        "x0": "0.016",
+        "y0": "0.666",
+        "x1": "0.264",
+        "y1": "0.996",
+        "size": "743x742@300dpi",
+        "note": "",
+        "png_sha256": "b350816d41e0f6825285e4db91ce6e7da570d5c70d9fa329eecda3de931c06a7",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Urethral Stricture Retrograde Urethrogram - Radiograph",
+        "lecture_category": "Primary",
+        "id": 63,
+        "current_png_sha256": "2d4e993824b456b233c06d3b3d43ecdcd266bd687c1e6c38f3abe7b0dd8aa84f"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "44",
+          "file": "Urethral Stricture Retrograde Urethrogram - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.016",
+          "y0": "0.666",
+          "x1": "0.264",
+          "y1": "0.996",
+          "size": "743x742@300dpi",
+          "note": "",
+          "png_sha256": "b350816d41e0f6825285e4db91ce6e7da570d5c70d9fa329eecda3de931c06a7",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Urethral Stricture Retrograde Urethrogram - Radiograph",
+          "lecture_category": "Primary",
+          "id": 63,
+          "current_png_sha256": "2d4e993824b456b233c06d3b3d43ecdcd266bd687c1e6c38f3abe7b0dd8aa84f"
+        },
+        {
+          "source": "RLS",
+          "page": "44",
+          "file": "Urethral Tear Retrograde Urethrogram - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.27",
+          "y0": "0.666",
+          "x1": "0.524",
+          "y1": "0.996",
+          "size": "761x742@300dpi",
+          "note": "",
+          "png_sha256": "68eb1e03cf5cb254fcb7c452bd2800f50e36f01452fcacc72044f5ea39436b14",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Urethral Tear Retrograde Urethrogram - Radiograph",
+          "lecture_category": "Primary",
+          "id": 64,
+          "current_png_sha256": "5c82ea83854d56e85ca5fef640a8fc5a72a34fb528c8f65a73ddcaf1b514181f"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-39b7180215b71e345e52",
+          "asset": "assets/display/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.webp",
+          "zoom_asset": "assets/originals/4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b.png",
+          "display_sha256": "9ab7d0a3c809eb505979f14804229c8923a2b51ce04b8911f8741587c8f00bf6",
+          "zoom_sha256": "4499fe019bcc8a4167db16c6597f757fa58062bc78105514bbccd6d746a9096b",
+          "output_dimensions": [
+            1597,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1597,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-6de15ee81903c2f669d7",
+      "source_group_id": "g-3aed654ef8de5e0704d9",
+      "asset_id": "a-69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f",
+      "lecture_id": "R31",
+      "relative_path": "R31/Urethral Diverticulum Ultrasound - Echo.png + Urethral Diverticulum MRI - Radiograph.png",
+      "sha256": "69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f",
+      "status": "USABLE",
+      "tested_concept": "Urethral Diverticulum Ultrasound - Echo.png + Urethral Diverticulum MRI - Radiograph.png",
+      "dimensions": [
+        1456,
+        810
+      ],
+      "original_asset": "assets/originals/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.png",
+      "display_asset": "assets/display/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+        "page": 44
+      },
+      "source_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "current_document_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "RLS",
+        "page": "44",
+        "file": "Urethral Diverticulum Ultrasound - Echo.png",
+        "slide_title": "",
+        "overlay_labels": "",
+        "type": "Echo",
+        "mode": "single",
+        "x0": "0.53",
+        "y0": "0.652",
+        "x1": "0.758",
+        "y1": "0.997",
+        "size": "683x779@300dpi",
+        "note": "",
+        "png_sha256": "282143c495fcdcb913f1326160f67d87cafa721f6d7c8968ecf29a1441b6599a",
+        "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+        "extracted_name": "Urethral Diverticulum Ultrasound - Echo",
+        "lecture_category": "Primary",
+        "id": 62,
+        "current_png_sha256": "30c106b889309bc88bea1147cfd41198e31014a3b202f48b93ca0c1fb71d8676"
+      },
+      "panel_extractions": [
+        {
+          "source": "RLS",
+          "page": "44",
+          "file": "Urethral Diverticulum Ultrasound - Echo.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Echo",
+          "mode": "single",
+          "x0": "0.53",
+          "y0": "0.652",
+          "x1": "0.758",
+          "y1": "0.997",
+          "size": "683x779@300dpi",
+          "note": "",
+          "png_sha256": "282143c495fcdcb913f1326160f67d87cafa721f6d7c8968ecf29a1441b6599a",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Urethral Diverticulum Ultrasound - Echo",
+          "lecture_category": "Primary",
+          "id": 62,
+          "current_png_sha256": "30c106b889309bc88bea1147cfd41198e31014a3b202f48b93ca0c1fb71d8676"
+        },
+        {
+          "source": "RLS",
+          "page": "44",
+          "file": "Urethral Diverticulum MRI - Radiograph.png",
+          "slide_title": "",
+          "overlay_labels": "",
+          "type": "Radiograph",
+          "mode": "single",
+          "x0": "0.749",
+          "y0": "0.65",
+          "x1": "1.0",
+          "y1": "0.996",
+          "size": "754x778@300dpi",
+          "note": "MRI has no bucket, typed Radiograph",
+          "png_sha256": "9364c097e273956c28f8d89b93ae0d10657519bbf7d2520850b47e5dd90a4fb4",
+          "pdf_sha256": "ad2c6675a8289bb8d9c8c3b62c8f5f58bb07703735c07663a83065f7b673d4fe",
+          "extracted_name": "Urethral Diverticulum MRI - Radiograph",
+          "lecture_category": "Primary",
+          "id": 61,
+          "current_png_sha256": "fe52e7716f91c1e665efbcc6417a9734d4b618dd5622316467bb5a128af33947"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-8e4bc25f375e8558416a",
+          "asset": "assets/display/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.webp",
+          "zoom_asset": "assets/originals/69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f.png",
+          "display_sha256": "f471ea898c582a1651d9480ea7cb47b7b2afd3a685d5b78c40306a35a7c02103",
+          "zoom_sha256": "69e786dfb2c4b073cce2087912d7d7949e104d356fabdf6164f028f6ad69ed5f",
+          "output_dimensions": [
+            1456,
+            810
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1456,
+              810
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-3e21fdcbea44886d2a0a",
+      "source_group_id": "g-142a583cbd4e94fbecb5",
+      "asset_id": "a-fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd",
+      "lecture_id": "R32",
+      "relative_path": "R32/Hydrocele Fetal Ultrasound - Echo.png",
+      "sha256": "fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd",
+      "status": "USABLE",
+      "tested_concept": "Hydrocele Fetal Ultrasound - Echo.png",
+      "dimensions": [
+        603,
+        457
+      ],
+      "original_asset": "assets/originals/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.png",
+      "display_asset": "assets/display/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "11",
+        "file": "Hydrocele Fetal Ultrasound - Echo.png",
+        "slide_title": "Hydrocele",
+        "overlay_labels": "Fetal US",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.5681",
+        "crop_y0": "0.5343",
+        "crop_x1": "0.9868",
+        "crop_y1": "0.9574",
+        "size": "603x457",
+        "note": "video-derived, native resolution limited",
+        "png_sha256": "0c6eb429e690c22b1e0e7e536db462126345d0f919f73a1d7cc1413788cb8814",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Hydrocele Fetal Ultrasound",
+        "lecture_category": "Primary",
+        "id": 18,
+        "current_png_sha256": "0c6eb429e690c22b1e0e7e536db462126345d0f919f73a1d7cc1413788cb8814"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "11",
+          "file": "Hydrocele Fetal Ultrasound - Echo.png",
+          "slide_title": "Hydrocele",
+          "overlay_labels": "Fetal US",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.5681",
+          "crop_y0": "0.5343",
+          "crop_x1": "0.9868",
+          "crop_y1": "0.9574",
+          "size": "603x457",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "0c6eb429e690c22b1e0e7e536db462126345d0f919f73a1d7cc1413788cb8814",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Hydrocele Fetal Ultrasound",
+          "lecture_category": "Primary",
+          "id": 18,
+          "current_png_sha256": "0c6eb429e690c22b1e0e7e536db462126345d0f919f73a1d7cc1413788cb8814"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-8aacb5c88579a3c6cf81",
+          "asset": "assets/display/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.webp",
+          "zoom_asset": "assets/originals/fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd.png",
+          "display_sha256": "077d915e1e5e150f6bf33271730729808dbde551c7f76effb7290e3e82bc0fcd",
+          "zoom_sha256": "fa3b1c47f01baa5916e232117c4f8f213f00785fbdf0da9fadf4fbefe6524cbd",
+          "output_dimensions": [
+            603,
+            457
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              603,
+              457
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-294b758107014033d4df",
+      "source_group_id": "g-92ce143ade2afc76a2f4",
+      "asset_id": "a-66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7",
+      "lecture_id": "R32",
+      "relative_path": "R32/Resting Ovary Doppler Ultrasound - Echo.png + Active Ovary Doppler Ultrasound - Echo.png",
+      "sha256": "66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7",
+      "status": "USABLE",
+      "tested_concept": "Resting Ovary Doppler Ultrasound - Echo.png + Active Ovary Doppler Ultrasound - Echo.png",
+      "dimensions": [
+        1716,
+        678
+      ],
+      "original_asset": "assets/originals/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.png",
+      "display_asset": "assets/display/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "24",
+        "file": "Resting Ovary Doppler Ultrasound - Echo.png",
+        "slide_title": "Dominant Follicle Physiology",
+        "overlay_labels": "Col 82% Map 6; Flow Opt: Med V",
+        "type": "Echo",
+        "mode": "quiz",
+        "crop_x0": "0.0",
+        "crop_y0": "0.3491",
+        "crop_x1": "0.3382",
+        "crop_y1": "0.6889",
+        "size": "487x367",
+        "note": "runs to the left slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Resting Ovary Doppler Ultrasound",
+        "lecture_category": "Primary",
+        "id": 45,
+        "current_png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "24",
+          "file": "Resting Ovary Doppler Ultrasound - Echo.png",
+          "slide_title": "Dominant Follicle Physiology",
+          "overlay_labels": "Col 82% Map 6; Flow Opt: Med V",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.0",
+          "crop_y0": "0.3491",
+          "crop_x1": "0.3382",
+          "crop_y1": "0.6889",
+          "size": "487x367",
+          "note": "runs to the left slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Resting Ovary Doppler Ultrasound",
+          "lecture_category": "Primary",
+          "id": 45,
+          "current_png_sha256": "2edf93a421d5f87fef6d0c795017aab56fc3b9b58dfb3a43bbe6ca7483401d9d"
+        },
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "24",
+          "file": "Active Ovary Doppler Ultrasound - Echo.png",
+          "slide_title": "Dominant Follicle Physiology",
+          "overlay_labels": "RT OVARY",
+          "type": "Echo",
+          "mode": "quiz",
+          "crop_x0": "0.3382",
+          "crop_y0": "0.4907",
+          "crop_x1": "0.6771",
+          "crop_y1": "0.8352",
+          "size": "488x372",
+          "note": "video-derived, native resolution limited",
+          "png_sha256": "43f6ac8f52e66a97d8264b811b8710a213e697919e158065abc627073dc2562c",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Active Ovary Doppler Ultrasound",
+          "lecture_category": "Primary",
+          "id": 43,
+          "current_png_sha256": "43f6ac8f52e66a97d8264b811b8710a213e697919e158065abc627073dc2562c"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-d01bc730d4d3a8a2e0fb",
+          "asset": "assets/display/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.webp",
+          "zoom_asset": "assets/originals/66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7.png",
+          "display_sha256": "578dc98c73306c5de39084d1447cf9bc02e023437b4d1b3c4174b94ae9ba6b4c",
+          "zoom_sha256": "66e81b507dd8f08664eb1ad275f1aa4cbe6f8eddf331745f4bdabb25f29b88d7",
+          "output_dimensions": [
+            1716,
+            678
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              1716,
+              678
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "s-2faeef7833eccb5761e9",
+      "source_group_id": "g-f0d43e57b0ce947831a1",
+      "asset_id": "a-a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35",
+      "lecture_id": "R32",
+      "relative_path": "R32/Endometrioma MRI - Radiograph.png",
+      "sha256": "a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35",
+      "status": "USABLE",
+      "tested_concept": "Endometrioma MRI - Radiograph.png",
+      "dimensions": [
+        549,
+        460
+      ],
+      "original_asset": "assets/originals/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.png",
+      "display_asset": "assets/display/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R32 GU Radiology Cases.pdf",
+        "page": 27
+      },
+      "source_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "current_document_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified extracted teaching panel and cited lecture.",
+      "review_reason": "Verified against the source page and checked for revealing labels.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "extraction": {
+        "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+        "page": "27",
+        "file": "Endometrioma MRI - Radiograph.png",
+        "slide_title": "Endometriosis",
+        "overlay_labels": "Avg. SI",
+        "type": "Radiograph",
+        "mode": "quiz",
+        "crop_x0": "0.5924",
+        "crop_y0": "0.5741",
+        "crop_x1": "0.9736",
+        "crop_y1": "1.0",
+        "size": "549x460",
+        "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+        "png_sha256": "25280fd18e256dcbd911cdfab4b11c96bed38b60374142b17f22962b3deb318e",
+        "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+        "extracted_name": "Endometrioma MRI",
+        "lecture_category": "Primary",
+        "id": 52,
+        "current_png_sha256": "25280fd18e256dcbd911cdfab4b11c96bed38b60374142b17f22962b3deb318e"
+      },
+      "panel_extractions": [
+        {
+          "source": "R32 GU-Gyn Path Through Imaging Clinical Cases Review RLS.pdf",
+          "page": "27",
+          "file": "Endometrioma MRI - Radiograph.png",
+          "slide_title": "Endometriosis",
+          "overlay_labels": "Avg. SI",
+          "type": "Radiograph",
+          "mode": "quiz",
+          "crop_x0": "0.5924",
+          "crop_y0": "0.5741",
+          "crop_x1": "0.9736",
+          "crop_y1": "1.0",
+          "size": "549x460",
+          "note": "runs to the bottom slide edge, cut off in the source slide video-derived, native resolution limited",
+          "png_sha256": "25280fd18e256dcbd911cdfab4b11c96bed38b60374142b17f22962b3deb318e",
+          "pdf_sha256": "0580f56c3ae773708644464bfcfd38a5797e3ab1028b6af21e7ef28df011b175",
+          "extracted_name": "Endometrioma MRI",
+          "lecture_category": "Primary",
+          "id": 52,
+          "current_png_sha256": "25280fd18e256dcbd911cdfab4b11c96bed38b60374142b17f22962b3deb318e"
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-db5e3dc3df4e8288f150",
+          "asset": "assets/display/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.webp",
+          "zoom_asset": "assets/originals/a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35.png",
+          "display_sha256": "3859dd8e2c280b4c027012b7012a639ac0f299a709a1b566f1eaf243bae7da87",
+          "zoom_sha256": "a1984959930607002079ae22a1483b2bb1c95b56f22681626ea293acbad20e35",
+          "output_dimensions": [
+            549,
+            460
+          ],
+          "transform": {
+            "type": "reviewed_panels",
+            "coordinate_basis": "normalized source panel",
+            "panels": [],
+            "input_dimensions": [
+              549,
+              460
+            ]
+          }
+        }
+      ]
     }
   ],
   "audit_date": "2026-11-09",
