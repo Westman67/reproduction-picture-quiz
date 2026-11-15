@@ -1,11 +1,13 @@
 # Reproduction Picture Quiz
 
-587 visual questions across three sections.
+624 visual questions across three sections.
 
-- Physiology covers R1 through R7 with 22 questions.
+- Physiology covers R1 through R7 with 59 questions.
 - Pathology contains 369 questions, covering R8 through R32 and including 19 3rd Party questions available under Source type.
 
 Clinical Cases contains 45 cases with 196 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the three sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion.
+
+See the [November 15 question quality and Physiology update](reports/quality-and-physiology-20261115.md) for the R1 through R7 allocations and source references. Run `python3 scripts/audit_question_quality.py --flags review-leads.csv` to identify wording to inspect.
 
 See the [third Step 1 relevance screen](reports/step1-third-screen.md) for what was retained, rewritten, or moved to reference only.
 

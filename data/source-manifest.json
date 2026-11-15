@@ -1437,7 +1437,7 @@
         3415
       ],
       "status": "USABLE",
-      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
       "tested_concept": "Two Cell Two Gonadotropin Hypothesis",
       "original_asset": "assets/zoom/3bad5406ab3ebc5f4e6b5fda660c75df1f1fe274a51b212322cb936f8d0b64ff.webp",
       "display_asset": "assets/display/5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f.webp",
@@ -1450,7 +1450,7 @@
       "current_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
       "document_hash_matches": true,
       "document_available": true,
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
       "extraction": {
         "source": "R1 Female Physiology RLS.pdf",
@@ -1601,6 +1601,28 @@
           ],
           "display_sha256": "0039cad7f697f280a404539822a8041ba26046a6e386811c8fd20b16989eeda8",
           "zoom_sha256": "5819eb3ececa10b94ac4c0bc68f1e87489b090bac023103d349a4b7285d1817f"
+        },
+        {
+          "variant_id": "v-119bd90edc3674d29e94",
+          "asset": "assets/zoom/119bd90edc3674d29e9439fae3c0d193a47373e46fefa118291521b6d852bcd7.webp",
+          "zoom_asset": "assets/zoom/119bd90edc3674d29e9439fae3c0d193a47373e46fefa118291521b6d852bcd7.webp",
+          "output_dimensions": [
+            1600,
+            1157
+          ],
+          "display_sha256": "119bd90edc3674d29e9439fae3c0d193a47373e46fefa118291521b6d852bcd7",
+          "zoom_sha256": "119bd90edc3674d29e9439fae3c0d193a47373e46fefa118291521b6d852bcd7",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              4722,
+              3415
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
         }
       ],
       "question_type_matrix": [
@@ -14766,7 +14788,7 @@
         1100
       ],
       "status": "USABLE",
-      "review_reason": "Original and supplied PDF page individually inspected in the approved November 9 audit. Final variants and questions must pass validation before release.",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
       "tested_concept": "Maternal Placental Fetal Unit",
       "original_asset": "assets/zoom/06943b706ff1b692035fee5f021ade32d4195449d0e6fafeb6575ce6324e15d5.webp",
       "display_asset": "assets/display/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.webp",
@@ -14779,7 +14801,7 @@
       "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
       "document_hash_matches": true,
       "document_available": true,
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
       "extraction": {
         "source": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
@@ -14899,6 +14921,28 @@
           ],
           "display_sha256": "866135fe4c01f1aea0b1b103be4b3276716b69256dc52671ab336bd1356a1381",
           "zoom_sha256": "a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e"
+        },
+        {
+          "variant_id": "v-64ccaf33d4b9218ae9cb",
+          "asset": "assets/zoom/64ccaf33d4b9218ae9cbabbaf65714f4f9c7e8da1e94b75ad337d998060e7320.webp",
+          "zoom_asset": "assets/zoom/64ccaf33d4b9218ae9cbabbaf65714f4f9c7e8da1e94b75ad337d998060e7320.webp",
+          "output_dimensions": [
+            1573,
+            1100
+          ],
+          "display_sha256": "64ccaf33d4b9218ae9cbabbaf65714f4f9c7e8da1e94b75ad337d998060e7320",
+          "zoom_sha256": "64ccaf33d4b9218ae9cbabbaf65714f4f9c7e8da1e94b75ad337d998060e7320",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1573,
+              1100
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
         }
       ],
       "question_type_matrix": [
@@ -16350,7 +16394,7 @@
         606
       ],
       "status": "USABLE",
-      "review_reason": "Individually checked original and image-dependent question.",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
       "tested_concept": "R6",
       "original_asset": "assets/zoom/4ccb85275ca9f02188ad5640534af021dbbe78dc9e6749162b971b33ab1eb8b7.webp",
       "display_asset": "assets/display/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.webp",
@@ -16363,7 +16407,7 @@
       "current_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
       "document_hash_matches": true,
       "document_available": true,
-      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
       "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
       "extraction": {
         "source": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
@@ -16391,6 +16435,28 @@
               606
             ],
             "reason": "Fit within 1800 pixels without upscaling; preserve complete source panel and natural aspect ratio."
+          }
+        },
+        {
+          "variant_id": "v-3d69d6f741f7e1f6c3cf",
+          "asset": "assets/zoom/3d69d6f741f7e1f6c3cfe84a4af901ea6e25ef1c96af81eac8e83f5fec3f5e84.webp",
+          "zoom_asset": "assets/zoom/3d69d6f741f7e1f6c3cfe84a4af901ea6e25ef1c96af81eac8e83f5fec3f5e84.webp",
+          "output_dimensions": [
+            601,
+            606
+          ],
+          "display_sha256": "3d69d6f741f7e1f6c3cfe84a4af901ea6e25ef1c96af81eac8e83f5fec3f5e84",
+          "zoom_sha256": "3d69d6f741f7e1f6c3cfe84a4af901ea6e25ef1c96af81eac8e83f5fec3f5e84",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              601,
+              606
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
           }
         }
       ],
@@ -44759,6 +44825,2748 @@
           }
         }
       ]
+    },
+    {
+      "asset_id": "a-d53bbf0d5b2a4f07510e464063abc169e1bbb42190322244c3d5439082882da0",
+      "source_id": "s-4708aedf57785838a3ce",
+      "source_group_id": "g-8696cbd7a6c802c6db18",
+      "lecture_id": "R1",
+      "relative_path": "R1/Follicular Phase HPO Axis Feedback - Diagram.png",
+      "sha256": "d53bbf0d5b2a4f07510e464063abc169e1bbb42190322244c3d5439082882da0",
+      "perceptual_hash": "6ee5ce31f0b421df",
+      "dimensions": [
+        3051,
+        2438
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Follicular Phase HPO Axis Feedback",
+      "original_asset": "assets/zoom/6b706a9e75df8d4b51ec30ff6986af517bc0cc853661144083a0671756225273.webp",
+      "display_asset": "assets/zoom/d927e50f858b37f5afba5828039d3293d03a7d229dc7cfa968b56c2f208e0b26.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "current_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R1 Female Physiology RLS.pdf",
+        "page": "18",
+        "file": "Follicular Phase HPO Axis Feedback - Diagram.png",
+        "slide_title": "Follicular Phase HPO Axis Feedback",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.187",
+        "y0": "0.048",
+        "x1": "0.911",
+        "y1": "0.832",
+        "size": "3051x2438@300dpi",
+        "note": "",
+        "png_sha256": "d53bbf0d5b2a4f07510e464063abc169e1bbb42190322244c3d5439082882da0",
+        "pdf_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+        "extracted_name": "Fig. 44.23 - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-d927e50f858b37f5afba",
+          "asset": "assets/zoom/d927e50f858b37f5afba5828039d3293d03a7d229dc7cfa968b56c2f208e0b26.webp",
+          "zoom_asset": "assets/zoom/d927e50f858b37f5afba5828039d3293d03a7d229dc7cfa968b56c2f208e0b26.webp",
+          "output_dimensions": [
+            1600,
+            1279
+          ],
+          "display_sha256": "d927e50f858b37f5afba5828039d3293d03a7d229dc7cfa968b56c2f208e0b26",
+          "zoom_sha256": "d927e50f858b37f5afba5828039d3293d03a7d229dc7cfa968b56c2f208e0b26",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3051,
+              2438
+            ],
+            "normalized_boxes": [
+              [
+                0.758,
+                0.4167709637046308,
+                0.863,
+                0.5256570713391739
+              ],
+              [
+                0.296,
+                0.6658322903629537,
+                0.562,
+                0.8347934918648311
+              ]
+            ],
+            "crop": null,
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-53006adfe25edcd91b4485c77991648969a507447fc704b61480f2b7dd723c0b",
+      "source_id": "s-d377b914041ddbc3b705",
+      "source_group_id": "g-23ef6449e3fbe51e6a91",
+      "lecture_id": "R1",
+      "relative_path": "R1/Ovarian and Endometrial Cycle Phases - Diagram.png",
+      "sha256": "53006adfe25edcd91b4485c77991648969a507447fc704b61480f2b7dd723c0b",
+      "perceptual_hash": "e969336996168d17",
+      "dimensions": [
+        5405,
+        1623
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Ovarian and Endometrial Cycle Phases",
+      "original_asset": "assets/zoom/b36dab4ac6ce85ccbbe1dc2631ea9068de74a38d952b5db6fb6972ef746ac60a.webp",
+      "display_asset": "assets/zoom/27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "current_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R1 Female Physiology RLS.pdf",
+        "page": "10",
+        "file": "Ovarian and Endometrial Cycle Phases - Diagram.png",
+        "slide_title": "Ovarian and Endometrial Cycle Phases",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.02",
+        "y0": "0.32",
+        "x1": "0.97",
+        "y1": "0.7",
+        "size": "5405x1623@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "53006adfe25edcd91b4485c77991648969a507447fc704b61480f2b7dd723c0b",
+        "pdf_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Ovarian Cycle",
+          "box": [
+            91,
+            199,
+            1204,
+            395
+          ]
+        },
+        {
+          "text": "Endometrial",
+          "box": [
+            174,
+            1016,
+            1120,
+            1212
+          ]
+        },
+        {
+          "text": "Cycle",
+          "box": [
+            450,
+            1232,
+            891,
+            1428
+          ]
+        },
+        {
+          "text": "0",
+          "box": [
+            1262,
+            1462,
+            1335,
+            1609
+          ]
+        },
+        {
+          "text": "4",
+          "box": [
+            1679,
+            1462,
+            1752,
+            1609
+          ]
+        },
+        {
+          "text": "14",
+          "box": [
+            2837,
+            1462,
+            2986,
+            1609
+          ]
+        },
+        {
+          "text": "28",
+          "box": [
+            4482,
+            1462,
+            4632,
+            1609
+          ]
+        },
+        {
+          "text": "0",
+          "box": [
+            1257,
+            499,
+            1330,
+            647
+          ]
+        },
+        {
+          "text": "14",
+          "box": [
+            2836,
+            505,
+            2985,
+            652
+          ]
+        },
+        {
+          "text": "28",
+          "box": [
+            4481,
+            505,
+            4631,
+            652
+          ]
+        },
+        {
+          "text": "DAYS",
+          "box": [
+            4746,
+            505,
+            5110,
+            652
+          ]
+        },
+        {
+          "text": "DAYS",
+          "box": [
+            4745,
+            1462,
+            5109,
+            1609
+          ]
+        },
+        {
+          "text": "Follicular phase",
+          "box": [
+            1581,
+            232,
+            2514,
+            380
+          ]
+        },
+        {
+          "text": "Luteal phase",
+          "box": [
+            3306,
+            232,
+            4070,
+            380
+          ]
+        },
+        {
+          "text": "Proliferative phase",
+          "box": [
+            1764,
+            1151,
+            2870,
+            1298
+          ]
+        },
+        {
+          "text": "Secretory phase",
+          "box": [
+            3241,
+            1151,
+            4209,
+            1298
+          ]
+        },
+        {
+          "text": "Menses",
+          "box": [
+            1263,
+            1145,
+            1729,
+            1292
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-27504b4b2b1a36b0f842",
+          "asset": "assets/zoom/27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61.webp",
+          "zoom_asset": "assets/zoom/27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61.webp",
+          "output_dimensions": [
+            1600,
+            480
+          ],
+          "display_sha256": "27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61",
+          "zoom_sha256": "27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              5405,
+              1623
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-12070faf8a4cb419d41f8701010af3538ad06db90efaea9496ee732fb2d286e4",
+      "source_id": "s-19bcd7baf18844e5b391",
+      "source_group_id": "g-ebb41464a5b35f60df54",
+      "lecture_id": "R1",
+      "relative_path": "R1/Synthesis of Ovarian Progesterone - Diagram.png",
+      "sha256": "12070faf8a4cb419d41f8701010af3538ad06db90efaea9496ee732fb2d286e4",
+      "perceptual_hash": "2159e1169e43ef17",
+      "dimensions": [
+        5489,
+        3117
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Synthesis of Ovarian Progesterone",
+      "original_asset": "assets/zoom/530df8231adade597157a03be869f2e41a2e08c0e3e3b948e44e3248d5df0544.webp",
+      "display_asset": "assets/zoom/f54c5639ec1daa6bb11df7f6147b70680fd62e3be96a60a8626b9d459d88ff4c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R1 Female Physiology RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "current_document_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R1 Female Physiology RLS.pdf",
+        "page": "25",
+        "file": "Synthesis of Ovarian Progesterone - Diagram.png",
+        "slide_title": "Synthesis of Ovarian Progesterone",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.22",
+        "x1": "0.965",
+        "y1": "0.95",
+        "size": "5489x3117@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "12070faf8a4cb419d41f8701010af3538ad06db90efaea9496ee732fb2d286e4",
+        "pdf_sha256": "6e973689e23f488824061141b2550e4f207442ce438a3666ffaa46697c0182c3",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Corpus luteum has more blood vessels that can bring LDL cholesterol",
+          "box": [
+            682,
+            245,
+            4794,
+            392
+          ]
+        },
+        {
+          "text": "to both theca-lutein and granulosa-lutein cells",
+          "box": [
+            1397,
+            405,
+            4083,
+            553
+          ]
+        },
+        {
+          "text": "Theca-lutein",
+          "box": [
+            1496,
+            1494,
+            2055,
+            1601
+          ]
+        },
+        {
+          "text": "cell",
+          "box": [
+            1697,
+            1606,
+            1856,
+            1713
+          ]
+        },
+        {
+          "text": "Granulosa-lutein",
+          "box": [
+            3233,
+            1494,
+            3987,
+            1601
+          ]
+        },
+        {
+          "text": "cell",
+          "box": [
+            3531,
+            1606,
+            3690,
+            1713
+          ]
+        },
+        {
+          "text": "LH stimulates cholesterol uptake",
+          "box": [
+            242,
+            1027,
+            1722,
+            1134
+          ]
+        },
+        {
+          "text": "LH stimulates cholesterol uptake",
+          "box": [
+            3997,
+            1027,
+            5482,
+            1134
+          ]
+        },
+        {
+          "text": "Progesterone",
+          "box": [
+            759,
+            2298,
+            1368,
+            2406
+          ]
+        },
+        {
+          "text": "Progesterone",
+          "box": [
+            3317,
+            2298,
+            3926,
+            2406
+          ]
+        },
+        {
+          "text": "17 𝛂 -hydroxyprogesterone",
+          "box": [
+            1581,
+            2298,
+            2751,
+            2407
+          ]
+        },
+        {
+          "text": "+",
+          "box": [
+            1447,
+            2298,
+            1503,
+            2406
+          ]
+        },
+        {
+          "text": "Progesterone",
+          "box": [
+            2434,
+            1423,
+            3044,
+            1531
+          ]
+        },
+        {
+          "text": "Theca-lutein cell has 17 𝛂 -hydroxylase activity to convert diffused progesterone to 17 𝛂 -hydroxyprogesterone",
+          "box": [
+            224,
+            2745,
+            5378,
+            2857
+          ]
+        },
+        {
+          "text": "make cholesterol",
+          "box": [
+            4195,
+            1807,
+            4993,
+            1914
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-3b1220e3f5a5c712bdc2",
+          "asset": "assets/zoom/3b1220e3f5a5c712bdc2a5a189a9f8baf5c87fb8e0425395d58b450da06e7873.webp",
+          "zoom_asset": "assets/zoom/3b1220e3f5a5c712bdc2a5a189a9f8baf5c87fb8e0425395d58b450da06e7873.webp",
+          "output_dimensions": [
+            1600,
+            909
+          ],
+          "display_sha256": "3b1220e3f5a5c712bdc2a5a189a9f8baf5c87fb8e0425395d58b450da06e7873",
+          "zoom_sha256": "3b1220e3f5a5c712bdc2a5a189a9f8baf5c87fb8e0425395d58b450da06e7873",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              5489,
+              3117
+            ],
+            "normalized_boxes": [
+              [
+                0.023,
+                0.87,
+                0.99,
+                0.96
+              ]
+            ],
+            "crop": null,
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-52f24094c7c39efbe69ce038b161b02f42fbf17f72f095f31ef90cf9229d39f6",
+      "source_id": "s-e53252917b7f4f82b6c9",
+      "source_group_id": "g-702564900f1e07fc42db",
+      "lecture_id": "R2",
+      "relative_path": "R2/Kisspeptin and GnRH Neuron Pathway - Diagram.png",
+      "sha256": "52f24094c7c39efbe69ce038b161b02f42fbf17f72f095f31ef90cf9229d39f6",
+      "perceptual_hash": "36a7c8f25219e31f",
+      "dimensions": [
+        1087,
+        1657
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Kisspeptin and GnRH Neuron Pathway",
+      "original_asset": "assets/zoom/ac3f9b691726fc14ad8b3777d9e665b46bd4b4f29e81f81c1d9a2657d5b5b176.webp",
+      "display_asset": "assets/zoom/035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 27
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "27",
+        "file": "Kisspeptin and GnRH Neuron Pathway - Diagram.png",
+        "slide_title": "Kisspeptin and GnRH Neuron Pathway",
+        "overlay_labels": "Hypothalamus; Pituitary; GnRH Neuron; Kisspeptin Neuron; Testis; LH FSH",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.61",
+        "y0": "0.18",
+        "x1": "0.994",
+        "y1": "0.849",
+        "size": "1087x1657@300dpi",
+        "note": "",
+        "png_sha256": "52f24094c7c39efbe69ce038b161b02f42fbf17f72f095f31ef90cf9229d39f6",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "IIIA Puberty Hypothalamic-Pituitary-Gonadal Axis Hypothalamus GnRH Neuron Kisspeptin Neuron - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Hypothalamus",
+          "box": [
+            46,
+            12,
+            397,
+            70
+          ]
+        },
+        {
+          "text": "Pituitary",
+          "box": [
+            573,
+            927,
+            779,
+            985
+          ]
+        },
+        {
+          "text": "GnRH",
+          "box": [
+            41,
+            249,
+            189,
+            307
+          ]
+        },
+        {
+          "text": "Neuron",
+          "box": [
+            1,
+            311,
+            189,
+            369
+          ]
+        },
+        {
+          "text": "Kisspeptin",
+          "box": [
+            835,
+            39,
+            1084,
+            94
+          ]
+        },
+        {
+          "text": "Neuron",
+          "box": [
+            835,
+            99,
+            1014,
+            154
+          ]
+        },
+        {
+          "text": "Testis",
+          "box": [
+            90,
+            1567,
+            251,
+            1635
+          ]
+        },
+        {
+          "text": "LH",
+          "box": [
+            448,
+            1165,
+            520,
+            1223
+          ]
+        },
+        {
+          "text": "FSH",
+          "box": [
+            448,
+            1227,
+            553,
+            1285
+          ]
+        },
+        {
+          "text": "KISS1R",
+          "box": [
+            362,
+            225,
+            516,
+            273
+          ]
+        },
+        {
+          "text": "27",
+          "box": [
+            982,
+            1620,
+            1024,
+            1657
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-035890cda1a403acb3f4",
+          "asset": "assets/zoom/035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46.webp",
+          "zoom_asset": "assets/zoom/035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46.webp",
+          "output_dimensions": [
+            1050,
+            1600
+          ],
+          "display_sha256": "035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46",
+          "zoom_sha256": "035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1087,
+              1657
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-316a7d002112d2de542cc94953356e7f0837308518635f5ab3641fac7b6b1046",
+      "source_id": "s-f8b5924c5ce73d3e37e6",
+      "source_group_id": "g-52596718c187876352b1",
+      "lecture_id": "R2",
+      "relative_path": "R2/Leydig Cells and Seminiferous Tubules - Histology.png",
+      "sha256": "316a7d002112d2de542cc94953356e7f0837308518635f5ab3641fac7b6b1046",
+      "perceptual_hash": "e69926694ec91b63",
+      "dimensions": [
+        1667,
+        1339
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Leydig Cells and Seminiferous Tubules",
+      "original_asset": "assets/zoom/9277961102b03b562c3cd6017304f9bd876e6917fe4d007e5fd838abfd8e0116.webp",
+      "display_asset": "assets/zoom/083bd3310929e37ca24d1aabbad4e2cb96cbffe479be7a1af2b74a5531173736.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "9",
+        "file": "Leydig Cells and Seminiferous Tubules - Histology.png",
+        "slide_title": "Leydig Cells and Seminiferous Tubules",
+        "overlay_labels": "",
+        "type": "Histology",
+        "mode": "rerender",
+        "x0": "0.355",
+        "y0": "0.335",
+        "x1": "0.86",
+        "y1": "0.86",
+        "size": "1667x1339@300dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "316a7d002112d2de542cc94953356e7f0837308518635f5ab3641fac7b6b1046",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-083bd3310929e37ca24d",
+          "asset": "assets/zoom/083bd3310929e37ca24d1aabbad4e2cb96cbffe479be7a1af2b74a5531173736.webp",
+          "zoom_asset": "assets/zoom/083bd3310929e37ca24d1aabbad4e2cb96cbffe479be7a1af2b74a5531173736.webp",
+          "output_dimensions": [
+            1600,
+            1285
+          ],
+          "display_sha256": "083bd3310929e37ca24d1aabbad4e2cb96cbffe479be7a1af2b74a5531173736",
+          "zoom_sha256": "083bd3310929e37ca24d1aabbad4e2cb96cbffe479be7a1af2b74a5531173736",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1667,
+              1339
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-9bae8e409d968bd406d68e0194bca3313b5954075542d6efadbc5da3a0cb3b1a",
+      "source_id": "s-7f4e373c08a300c0f308",
+      "source_group_id": "g-4a282f89c49c9d90e021",
+      "lecture_id": "R2",
+      "relative_path": "R2/Negative Feedback Control of HPT Axis - Diagram.png",
+      "sha256": "9bae8e409d968bd406d68e0194bca3313b5954075542d6efadbc5da3a0cb3b1a",
+      "perceptual_hash": "f91da6b4b0742997",
+      "dimensions": [
+        1315,
+        1584
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Negative Feedback Control of HPT Axis",
+      "original_asset": "assets/zoom/42ff465f1e91a7045307e2bceb30982e0301b288acf4b8485417c8e8174fc10d.webp",
+      "display_asset": "assets/zoom/8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 29
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "29",
+        "file": "Negative Feedback Control of HPT Axis - Diagram.png",
+        "slide_title": "Negative Feedback Control of HPT Axis",
+        "overlay_labels": "Aromatase",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.029",
+        "y0": "0.198",
+        "x1": "0.44",
+        "y1": "0.853",
+        "size": "1315x1584@300dpi",
+        "note": "",
+        "png_sha256": "9bae8e409d968bd406d68e0194bca3313b5954075542d6efadbc5da3a0cb3b1a",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "IIIA Puberty Hypothalamic-Pituitary-Gonadal Axis Aromatase - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Aromatase",
+          "box": [
+            199,
+            1240,
+            237,
+            1389
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-8dbc927b7a9fda30cb26",
+          "asset": "assets/zoom/8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97.webp",
+          "zoom_asset": "assets/zoom/8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97.webp",
+          "output_dimensions": [
+            1315,
+            1584
+          ],
+          "display_sha256": "8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97",
+          "zoom_sha256": "8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1315,
+              1584
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-38b5512c4501a6c877d3400c6def7be48e81c6da469518b9296cef803e5143bd",
+      "source_id": "s-6a16ae3e6480974c93a1",
+      "source_group_id": "g-05fb554d1a25324817cb",
+      "lecture_id": "R2",
+      "relative_path": "R2/Sertoli Cells in Seminiferous Tubule - Diagram.png",
+      "sha256": "38b5512c4501a6c877d3400c6def7be48e81c6da469518b9296cef803e5143bd",
+      "perceptual_hash": "4f1a74f29243d335",
+      "dimensions": [
+        1053,
+        807
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Sertoli Cells in Seminiferous Tubule",
+      "original_asset": "assets/zoom/8f26b4c6876e106ec970989fe173fc466704133594b11cc63e1327be1e348ea9.webp",
+      "display_asset": "assets/zoom/255e13bc45e1747dc64156b8862be685b5fb137dbd8598a3a8522e6017467141.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "11",
+        "file": "Sertoli Cells in Seminiferous Tubule - Diagram.png",
+        "slide_title": "Sertoli Cells in Seminiferous Tubule",
+        "overlay_labels": "Leydig cells; Sertoli cells; seminiferous tubules",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.638",
+        "y0": "0.168",
+        "x1": "0.957",
+        "y1": "0.484",
+        "size": "1053x807@300dpi",
+        "note": "",
+        "png_sha256": "38b5512c4501a6c877d3400c6def7be48e81c6da469518b9296cef803e5143bd",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "1b. The Process of Spermatogenesis Conclusion Leydig cells Sertoli cells seminiferous tubules - Histology.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-255e13bc45e1747dc641",
+          "asset": "assets/zoom/255e13bc45e1747dc64156b8862be685b5fb137dbd8598a3a8522e6017467141.webp",
+          "zoom_asset": "assets/zoom/255e13bc45e1747dc64156b8862be685b5fb137dbd8598a3a8522e6017467141.webp",
+          "output_dimensions": [
+            1053,
+            807
+          ],
+          "display_sha256": "255e13bc45e1747dc64156b8862be685b5fb137dbd8598a3a8522e6017467141",
+          "zoom_sha256": "255e13bc45e1747dc64156b8862be685b5fb137dbd8598a3a8522e6017467141",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1053,
+              807
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-fd44b79c5074bc87276c4934b033c9334de93944177990ba3cf0e6909009cb34",
+      "source_id": "s-f7ac31b9118d999011bc",
+      "source_group_id": "g-1e091e335eccc17aca94",
+      "lecture_id": "R2",
+      "relative_path": "R2/Sex Hormone Synthesis Pathways in Testes - Diagram.png",
+      "sha256": "fd44b79c5074bc87276c4934b033c9334de93944177990ba3cf0e6909009cb34",
+      "perceptual_hash": "333cc7c37c63031d",
+      "dimensions": [
+        3828,
+        2346
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Sex Hormone Synthesis Pathways in Testes",
+      "original_asset": "assets/zoom/e56fcd7ba356ffc405b3abc5b06ca5b44641084e9bdac5a28b91fcdaa9f80715.webp",
+      "display_asset": "assets/zoom/35c28a3d9345448ecc049a0988cd6733b66bcfe93febc89d4d3cf413c79b2ace.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 20
+      },
+      "source_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "current_document_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R2 Male Physiology RLS.pdf",
+        "page": "20",
+        "file": "Sex Hormone Synthesis Pathways in Testes - Diagram.png",
+        "slide_title": "Sex Hormone Synthesis Pathways in Testes",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.2",
+        "x1": "0.87",
+        "y1": "0.89",
+        "size": "3828x2346@400dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "fd44b79c5074bc87276c4934b033c9334de93944177990ba3cf0e6909009cb34",
+        "pdf_sha256": "704a748f12c10426f1507a8b548418e91fd2f2c4155ae086b129709dde325255",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "5α- reductase",
+          "box": [
+            2267,
+            1596,
+            2632,
+            1660
+          ]
+        },
+        {
+          "text": "Dihydrotestestorone",
+          "box": [
+            2673,
+            1648,
+            3195,
+            1719
+          ]
+        },
+        {
+          "text": "( DHT )",
+          "box": [
+            2877,
+            1725,
+            3059,
+            1796
+          ]
+        },
+        {
+          "text": "Peripheral targets",
+          "box": [
+            3327,
+            1653,
+            3777,
+            1724
+          ]
+        },
+        {
+          "text": "Cholesterol",
+          "box": [
+            1061,
+            0,
+            1358,
+            68
+          ]
+        },
+        {
+          "text": "Extratesticular",
+          "box": [
+            229,
+            1228,
+            560,
+            1289
+          ]
+        },
+        {
+          "text": "a romatase",
+          "box": [
+            275,
+            1294,
+            560,
+            1366
+          ]
+        },
+        {
+          "text": "Androstenedione",
+          "box": [
+            1022,
+            1179,
+            1462,
+            1250
+          ]
+        },
+        {
+          "text": "Progesterone (P)",
+          "box": [
+            992,
+            517,
+            1499,
+            591
+          ]
+        },
+        {
+          "text": "17,20-lyase (Desmolase)",
+          "box": [
+            1299,
+            1002,
+            2030,
+            1084
+          ]
+        },
+        {
+          "text": "17β-HSD",
+          "box": [
+            1299,
+            1315,
+            1490,
+            1371
+          ]
+        },
+        {
+          "text": "Androgenic",
+          "box": [
+            53,
+            1585,
+            390,
+            1656
+          ]
+        },
+        {
+          "text": "effects",
+          "box": [
+            126,
+            1662,
+            301,
+            1733
+          ]
+        },
+        {
+          "text": "Circulating E2",
+          "box": [
+            104,
+            1069,
+            508,
+            1140
+          ]
+        },
+        {
+          "text": "Testosterone (T)",
+          "box": [
+            969,
+            1473,
+            1518,
+            1556
+          ]
+        },
+        {
+          "text": "17β-estradiol (E2)",
+          "box": [
+            971,
+            1762,
+            1510,
+            1835
+          ]
+        },
+        {
+          "text": "spermatogenesis",
+          "box": [
+            1721,
+            1601,
+            2206,
+            1682
+          ]
+        },
+        {
+          "text": "Testicular  aromatase",
+          "box": [
+            664,
+            1626,
+            1209,
+            1691
+          ]
+        },
+        {
+          "text": "Testosterone (T)",
+          "box": [
+            966,
+            1473,
+            1515,
+            1556
+          ]
+        },
+        {
+          "text": "Circulation",
+          "box": [
+            325,
+            2068,
+            615,
+            2139
+          ]
+        },
+        {
+          "text": "Circulation",
+          "box": [
+            2263,
+            2074,
+            2553,
+            2145
+          ]
+        },
+        {
+          "text": "17α-hydroxylase",
+          "box": [
+            1313,
+            865,
+            1820,
+            946
+          ]
+        },
+        {
+          "text": "Pregnenolone",
+          "box": [
+            1070,
+            196,
+            1435,
+            260
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-35c28a3d9345448ecc04",
+          "asset": "assets/zoom/35c28a3d9345448ecc049a0988cd6733b66bcfe93febc89d4d3cf413c79b2ace.webp",
+          "zoom_asset": "assets/zoom/35c28a3d9345448ecc049a0988cd6733b66bcfe93febc89d4d3cf413c79b2ace.webp",
+          "output_dimensions": [
+            1600,
+            981
+          ],
+          "display_sha256": "35c28a3d9345448ecc049a0988cd6733b66bcfe93febc89d4d3cf413c79b2ace",
+          "zoom_sha256": "35c28a3d9345448ecc049a0988cd6733b66bcfe93febc89d4d3cf413c79b2ace",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3828,
+              2346
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-38338f9dabd2e94891b2b23537c19d04c5916d146e7e416284a6f7c1d4426c5c",
+      "source_id": "s-985d3bf017d9611d12ff",
+      "source_group_id": "g-d21920192db11b222bc9",
+      "lecture_id": "R3",
+      "relative_path": "R3/Hormonal Changes During Menstrual Cycle - Diagram.png",
+      "sha256": "38338f9dabd2e94891b2b23537c19d04c5916d146e7e416284a6f7c1d4426c5c",
+      "perceptual_hash": "966146b9ad3cc9df",
+      "dimensions": [
+        2696,
+        2746
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Hormonal Changes During Menstrual Cycle",
+      "original_asset": "assets/zoom/d15dd1a914514005279e42609994721d93b3a3b63b7e13e7e7fbf8f12c50fc8a.webp",
+      "display_asset": "assets/zoom/a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "041caa6dfd4fb1cbe4512c948d8395b49b952d9402e62d84276e361a8f081256",
+      "current_document_sha256": "041caa6dfd4fb1cbe4512c948d8395b49b952d9402e62d84276e361a8f081256",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+        "page": "4",
+        "file": "Hormonal Changes During Menstrual Cycle - Diagram.png",
+        "slide_title": "Hormonal Changes During Menstrual Cycle",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.184",
+        "y0": "0.1",
+        "x1": "0.817",
+        "y1": "0.97",
+        "size": "2696x2746@300dpi",
+        "note": "figure title is cut off at the top in the source image",
+        "png_sha256": "38338f9dabd2e94891b2b23537c19d04c5916d146e7e416284a6f7c1d4426c5c",
+        "pdf_sha256": "041caa6dfd4fb1cbe4512c948d8395b49b952d9402e62d84276e361a8f081256",
+        "extracted_name": "_Not for quiz/FIG. 44.24 HORMONAL CHANGES DURING MENSTRUAL CYCLE - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-a35e53478ce0edc4e330",
+          "asset": "assets/zoom/a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00.webp",
+          "zoom_asset": "assets/zoom/a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00.webp",
+          "output_dimensions": [
+            1600,
+            1144
+          ],
+          "display_sha256": "a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00",
+          "zoom_sha256": "a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              2696,
+              2746
+            ],
+            "normalized_boxes": [
+              [
+                0.20248868778280543,
+                0.10555555555555556,
+                0.5079185520361991,
+                0.17888888888888888
+              ],
+              [
+                0.014705882352941176,
+                0.26555555555555554,
+                0.9728506787330317,
+                0.39444444444444443
+              ]
+            ],
+            "crop": [
+              0,
+              0,
+              1,
+              0.7022222222222222
+            ],
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-d05dcbcdd58e0b92747646a86d7bf7c5cec549b0822e7363d4c1e3c7e098b5bc",
+      "source_id": "s-2ee75805729440f02fe7",
+      "source_group_id": "g-154c308be759d52304ad",
+      "lecture_id": "R3",
+      "relative_path": "R3/Luteal Phase HPO Axis Feedback - Diagram.png",
+      "sha256": "d05dcbcdd58e0b92747646a86d7bf7c5cec549b0822e7363d4c1e3c7e098b5bc",
+      "perceptual_hash": "06b669d3c8f93257",
+      "dimensions": [
+        3170,
+        2422
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Luteal Phase HPO Axis Feedback",
+      "original_asset": "assets/zoom/19d3e1ce96b2fb478226bc090a0c6ec334ff446060234f9ff328f8853c2c756b.webp",
+      "display_asset": "assets/zoom/53bb7f9e04cd809a7c6705e2ad19358f40058c602558d46c96d24d2ce1bc121e.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+        "page": 17
+      },
+      "source_document_sha256": "041caa6dfd4fb1cbe4512c948d8395b49b952d9402e62d84276e361a8f081256",
+      "current_document_sha256": "041caa6dfd4fb1cbe4512c948d8395b49b952d9402e62d84276e361a8f081256",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+        "page": "17",
+        "file": "Luteal Phase HPO Axis Feedback - Diagram.png",
+        "slide_title": "Luteal Phase HPO Axis Feedback",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.184",
+        "y0": "0.047",
+        "x1": "0.955",
+        "y1": "0.831",
+        "size": "3170x2422@300dpi",
+        "note": "",
+        "png_sha256": "d05dcbcdd58e0b92747646a86d7bf7c5cec549b0822e7363d4c1e3c7e098b5bc",
+        "pdf_sha256": "041caa6dfd4fb1cbe4512c948d8395b49b952d9402e62d84276e361a8f081256",
+        "extracted_name": "Fig. 44.23 - Diagram (2).png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-53bb7f9e04cd809a7c67",
+          "asset": "assets/zoom/53bb7f9e04cd809a7c6705e2ad19358f40058c602558d46c96d24d2ce1bc121e.webp",
+          "zoom_asset": "assets/zoom/53bb7f9e04cd809a7c6705e2ad19358f40058c602558d46c96d24d2ce1bc121e.webp",
+          "output_dimensions": [
+            1600,
+            1222
+          ],
+          "display_sha256": "53bb7f9e04cd809a7c6705e2ad19358f40058c602558d46c96d24d2ce1bc121e",
+          "zoom_sha256": "53bb7f9e04cd809a7c6705e2ad19358f40058c602558d46c96d24d2ce1bc121e",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3170,
+              2422
+            ],
+            "normalized_boxes": [
+              [
+                0.312,
+                0.6034031413612565,
+                0.501,
+                0.7002617801047121
+              ],
+              [
+                0.683,
+                0.5274869109947644,
+                0.891,
+                0.6518324607329843
+              ]
+            ],
+            "crop": null,
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-3545e9b12e3e1498c03ab2797589d9dd87ad3e933b26fb0da27d91466c647a56",
+      "source_id": "s-b00b6bef1d515e743c21",
+      "source_group_id": "g-e519b8035bc48253279b",
+      "lecture_id": "R4",
+      "relative_path": "R4/Menopause Hormone Levels LH and FSH - Diagram.png",
+      "sha256": "3545e9b12e3e1498c03ab2797589d9dd87ad3e933b26fb0da27d91466c647a56",
+      "perceptual_hash": "b06db0435f496d95",
+      "dimensions": [
+        3917,
+        1548
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Menopause Hormone Levels LH and FSH",
+      "original_asset": "assets/zoom/23285cd4bf8f7eef2f0a2556d637fc3b435e7880eca21187bce2499abc99f64a.webp",
+      "display_asset": "assets/zoom/64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R4 Menopause RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+      "current_document_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R4 Menopause RLS.pdf",
+        "page": "8",
+        "file": "Menopause Hormone Levels LH and FSH - Diagram.png",
+        "slide_title": "Menopause Hormone Levels LH and FSH",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.033",
+        "y0": "0.295",
+        "x1": "0.967",
+        "y1": "0.849",
+        "size": "3917x1548@300dpi",
+        "note": "",
+        "png_sha256": "3545e9b12e3e1498c03ab2797589d9dd87ad3e933b26fb0da27d91466c647a56",
+        "pdf_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+        "extracted_name": "MENOPAUSE HORMONE LEVELS - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-64da243aba1428589ad4",
+          "asset": "assets/zoom/64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6.webp",
+          "zoom_asset": "assets/zoom/64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6.webp",
+          "output_dimensions": [
+            1600,
+            632
+          ],
+          "display_sha256": "64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6",
+          "zoom_sha256": "64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3917,
+              1548
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-3a8efd88dc14144e094699aa8354f5a5325c0292cd1f91270c6a16446c84ab92",
+      "source_id": "s-252153d94e5084758fc9",
+      "source_group_id": "g-61bfb30704c3fe3446fe",
+      "lecture_id": "R4",
+      "relative_path": "R4/Menopause and Osteoporosis - Diagram.png",
+      "sha256": "3a8efd88dc14144e094699aa8354f5a5325c0292cd1f91270c6a16446c84ab92",
+      "perceptual_hash": "4d271669b033edd3",
+      "dimensions": [
+        3871,
+        2078
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Menopause and Osteoporosis",
+      "original_asset": "assets/zoom/50338976478432a3396481cde838710bc9bb50e8fe9ccd5a75159fcce7b91b8f.webp",
+      "display_asset": "assets/zoom/321d792685e2fdafceeea13bae81795dddaaadc19049e41d1adf5391ef611806.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R4 Menopause RLS.pdf",
+        "page": 17
+      },
+      "source_document_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+      "current_document_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R4 Menopause RLS.pdf",
+        "page": "17",
+        "file": "Menopause and Osteoporosis - Diagram.png",
+        "slide_title": "Menopause and Osteoporosis",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.04",
+        "y0": "0.159",
+        "x1": "0.964",
+        "y1": "0.85",
+        "size": "3871x2078@300dpi",
+        "note": "edge labels are cut off in the source image",
+        "png_sha256": "3a8efd88dc14144e094699aa8354f5a5325c0292cd1f91270c6a16446c84ab92",
+        "pdf_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+        "extracted_name": "MENOPAUSE LEADS TO OSTEOPOROSIS - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-321d792685e2fdafceee",
+          "asset": "assets/zoom/321d792685e2fdafceeea13bae81795dddaaadc19049e41d1adf5391ef611806.webp",
+          "zoom_asset": "assets/zoom/321d792685e2fdafceeea13bae81795dddaaadc19049e41d1adf5391ef611806.webp",
+          "output_dimensions": [
+            1600,
+            859
+          ],
+          "display_sha256": "321d792685e2fdafceeea13bae81795dddaaadc19049e41d1adf5391ef611806",
+          "zoom_sha256": "321d792685e2fdafceeea13bae81795dddaaadc19049e41d1adf5391ef611806",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3871,
+              2078
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-db203c58b012d2b6ae92f058c137dbd5d92e4d609662bebc6670beba43b405e9",
+      "source_id": "s-79d5a947b81779d764f0",
+      "source_group_id": "g-aa899f3930184b1e2b6b",
+      "lecture_id": "R4",
+      "relative_path": "R4/Physiological Changes in Female Reproductive Tract - Diagram.png",
+      "sha256": "db203c58b012d2b6ae92f058c137dbd5d92e4d609662bebc6670beba43b405e9",
+      "perceptual_hash": "c8b1ace289e3739d",
+      "dimensions": [
+        3388,
+        1883
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Physiological Changes in Female Reproductive Tract",
+      "original_asset": "assets/zoom/c7b54f066bdb49634051bf09c1ab3bb81536e018076ece22b74a981b950021cf.webp",
+      "display_asset": "assets/zoom/da45d753e6a07939bf1cbfef9964dc90dc4fb4d85ffece2ad2bc5f8f9b96c939.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R4 Menopause RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+      "current_document_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R4 Menopause RLS.pdf",
+        "page": "9",
+        "file": "Physiological Changes in Female Reproductive Tract - Diagram.png",
+        "slide_title": "Physiological Changes in Female Reproductive Tract",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.092",
+        "y0": "0.26",
+        "x1": "0.908",
+        "y1": "0.884",
+        "size": "3388x1883@300dpi",
+        "note": "",
+        "png_sha256": "db203c58b012d2b6ae92f058c137dbd5d92e4d609662bebc6670beba43b405e9",
+        "pdf_sha256": "6d0528007907aa3d51980e475fa7cf8592aaa07a1efe23ce5d8ff890a7c48e00",
+        "extracted_name": "PHYSIOLOGICAL CHANGES IN FEMALE REPRODUCTIVE TRACT - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-da45d753e6a07939bf1c",
+          "asset": "assets/zoom/da45d753e6a07939bf1cbfef9964dc90dc4fb4d85ffece2ad2bc5f8f9b96c939.webp",
+          "zoom_asset": "assets/zoom/da45d753e6a07939bf1cbfef9964dc90dc4fb4d85ffece2ad2bc5f8f9b96c939.webp",
+          "output_dimensions": [
+            1600,
+            889
+          ],
+          "display_sha256": "da45d753e6a07939bf1cbfef9964dc90dc4fb4d85ffece2ad2bc5f8f9b96c939",
+          "zoom_sha256": "da45d753e6a07939bf1cbfef9964dc90dc4fb4d85ffece2ad2bc5f8f9b96c939",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3388,
+              1883
+            ],
+            "normalized_boxes": [
+              [
+                0.516,
+                0.7733812949640287,
+                1,
+                1
+              ]
+            ],
+            "crop": null,
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-d2ad6eeffc499f7123d7a284e65200dede06d65fc980b0750bc379f0dda8a635",
+      "source_id": "s-850ab40f02f799133bf7",
+      "source_group_id": "g-3ed7a3acf149ed679c1f",
+      "lecture_id": "R5",
+      "relative_path": "R5/Fertilization to Blastocyst Implantation - Diagram.png",
+      "sha256": "d2ad6eeffc499f7123d7a284e65200dede06d65fc980b0750bc379f0dda8a635",
+      "perceptual_hash": "93ebc7c98c0356eb",
+      "dimensions": [
+        1151,
+        773
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Fertilization to Blastocyst Implantation",
+      "original_asset": "assets/zoom/74e2af74cbc46ede0835d72b0c3fa826aec5ea40c6f9485afaab6c3e7cd6dba0.webp",
+      "display_asset": "assets/zoom/b7997370092bc7dce37a77b354783c107d51cc1717345df1cf6d3d1c5beadccf.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": "11",
+        "file": "Fertilization to Blastocyst Implantation - Diagram.png",
+        "slide_title": "Fertilization to Blastocyst Implantation",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.137",
+        "y0": "0.424",
+        "x1": "0.509",
+        "y1": "0.738",
+        "size": "1151x773@300dpi",
+        "note": "",
+        "png_sha256": "d2ad6eeffc499f7123d7a284e65200dede06d65fc980b0750bc379f0dda8a635",
+        "pdf_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+        "extracted_name": "RLS Slide 11 - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [],
+      "variants": [
+        {
+          "variant_id": "v-b7997370092bc7dce37a",
+          "asset": "assets/zoom/b7997370092bc7dce37a77b354783c107d51cc1717345df1cf6d3d1c5beadccf.webp",
+          "zoom_asset": "assets/zoom/b7997370092bc7dce37a77b354783c107d51cc1717345df1cf6d3d1c5beadccf.webp",
+          "output_dimensions": [
+            1151,
+            773
+          ],
+          "display_sha256": "b7997370092bc7dce37a77b354783c107d51cc1717345df1cf6d3d1c5beadccf",
+          "zoom_sha256": "b7997370092bc7dce37a77b354783c107d51cc1717345df1cf6d3d1c5beadccf",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1151,
+              773
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-14ef7964488734da89fed3592975f1d3d37340bd3dd6a892360c721608c9f726",
+      "source_id": "s-dbc225ef220b0ea412ea",
+      "source_group_id": "g-1f4360cccfbd1a324890",
+      "lecture_id": "R5",
+      "relative_path": "R5/Implantation Cytotrophoblast and Syncytiotrophoblast - Diagram.png",
+      "sha256": "14ef7964488734da89fed3592975f1d3d37340bd3dd6a892360c721608c9f726",
+      "perceptual_hash": "744cf612cbf2a805",
+      "dimensions": [
+        959,
+        731
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Implantation Cytotrophoblast and Syncytiotrophoblast",
+      "original_asset": "assets/zoom/847273c513fc5a69c78f470d051aa7c32a39dea82b4a4376722e5bf8c65831ef.webp",
+      "display_asset": "assets/zoom/e1789022a6b118bf31736c46c385ff048e8ce83754e9e421f40eb837846f8097.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": "13",
+        "file": "Implantation Cytotrophoblast and Syncytiotrophoblast - Diagram.png",
+        "slide_title": "Implantation Cytotrophoblast and Syncytiotrophoblast",
+        "overlay_labels": "cytotrophoblasts; syncytio",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.318",
+        "y0": "0.545",
+        "x1": "0.619",
+        "y1": "0.867",
+        "size": "959x731@300dpi",
+        "note": "",
+        "png_sha256": "14ef7964488734da89fed3592975f1d3d37340bd3dd6a892360c721608c9f726",
+        "pdf_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+        "extracted_name": "RLS Slide 13 cytotrophoblasts syncytio - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "cytotrophoblasts",
+          "box": [
+            382,
+            179,
+            701,
+            232
+          ]
+        },
+        {
+          "text": "syncytio",
+          "box": [
+            294,
+            536,
+            480,
+            596
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-96c4f318409414cf95e3",
+          "asset": "assets/zoom/96c4f318409414cf95e32fba80c8ce274be8f2161647b68fecfcbd9aa0d4bb09.webp",
+          "zoom_asset": "assets/zoom/96c4f318409414cf95e32fba80c8ce274be8f2161647b68fecfcbd9aa0d4bb09.webp",
+          "output_dimensions": [
+            959,
+            731
+          ],
+          "display_sha256": "96c4f318409414cf95e32fba80c8ce274be8f2161647b68fecfcbd9aa0d4bb09",
+          "zoom_sha256": "96c4f318409414cf95e32fba80c8ce274be8f2161647b68fecfcbd9aa0d4bb09",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              959,
+              731
+            ],
+            "normalized_boxes": [
+              [
+                0.49625,
+                0.8114754098360656,
+                0.86625,
+                0.9672131147540983
+              ]
+            ],
+            "crop": null,
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "REVIEW",
+          "type": "Visual interpretation",
+          "target": "Implantation layers",
+          "reason": "Revealing labels lie over teaching structures. Opaque answer removal would obscure the evidence. Seek a clean variant."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-9c16452767652961c142da262c5f43fe77d4e3378cb664275a3ff456fd19a92a",
+      "source_id": "s-418e59eefe3c89cfe44c",
+      "source_group_id": "g-a936693f2ca9a06a39f9",
+      "lecture_id": "R7",
+      "relative_path": "R7/APGAR Scale Scoring Table - Diagram.png",
+      "sha256": "9c16452767652961c142da262c5f43fe77d4e3378cb664275a3ff456fd19a92a",
+      "perceptual_hash": "001387ceac7efc41",
+      "dimensions": [
+        2640,
+        2312
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "APGAR Scale Scoring Table",
+      "original_asset": "assets/zoom/b899862b6ef0249e3910339c3292068e93b61254be827ef699ecec3bbdd7a12d.webp",
+      "display_asset": "assets/zoom/63204dfeb6db7963ad1609dbaec87a26cebc4b11486897062afee697e438b76b.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 3
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "3",
+        "file": "APGAR Scale Scoring Table - Diagram.png",
+        "slide_title": "APGAR Scale Scoring Table",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.39",
+        "y0": "0.17",
+        "x1": "0.99",
+        "y1": "0.85",
+        "size": "2640x2312@400dpi",
+        "note": "manual re-render from the RLS",
+        "png_sha256": "9c16452767652961c142da262c5f43fe77d4e3378cb664275a3ff456fd19a92a",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "(irritability)",
+          "box": [
+            550,
+            1259,
+            884,
+            1332
+          ]
+        },
+        {
+          "text": "7-10: Normal;    4-6: Moderately depressed;    0-3: immediately resuscitation needed",
+          "box": [
+            129,
+            2072,
+            2640,
+            2154
+          ]
+        },
+        {
+          "text": "*",
+          "box": [
+            576,
+            1069,
+            631,
+            1179
+          ]
+        },
+        {
+          "text": "* Response to a catheter in nostrils",
+          "box": [
+            1417,
+            2192,
+            2573,
+            2289
+          ]
+        },
+        {
+          "text": "( pink )",
+          "box": [
+            1063,
+            693,
+            1240,
+            766
+          ]
+        },
+        {
+          "text": "( blue )",
+          "box": [
+            1963,
+            673,
+            2141,
+            747
+          ]
+        },
+        {
+          "text": "/ Slow",
+          "box": [
+            1889,
+            1752,
+            2098,
+            1843
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-63204dfeb6db7963ad16",
+          "asset": "assets/zoom/63204dfeb6db7963ad1609dbaec87a26cebc4b11486897062afee697e438b76b.webp",
+          "zoom_asset": "assets/zoom/63204dfeb6db7963ad1609dbaec87a26cebc4b11486897062afee697e438b76b.webp",
+          "output_dimensions": [
+            1600,
+            1401
+          ],
+          "display_sha256": "63204dfeb6db7963ad1609dbaec87a26cebc4b11486897062afee697e438b76b",
+          "zoom_sha256": "63204dfeb6db7963ad1609dbaec87a26cebc4b11486897062afee697e438b76b",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              2640,
+              2312
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-3cbf2c698075511fb5ec4d6896b52ce73059df450a2afef50bd66f7cb9455e05",
+      "source_id": "s-77f4b7dd450325f66335",
+      "source_group_id": "g-ceb1def7e17dc17633bd",
+      "lecture_id": "R7",
+      "relative_path": "R7/Bilirubin Metabolism - Diagram.png",
+      "sha256": "3cbf2c698075511fb5ec4d6896b52ce73059df450a2afef50bd66f7cb9455e05",
+      "perceptual_hash": "e835b45e78c926f5",
+      "dimensions": [
+        2552,
+        2533
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Bilirubin Metabolism",
+      "original_asset": "assets/zoom/d74599454e9b41d64fc51d83a7cbc39a46dffa704dea46ab101f9f8a2520931a.webp",
+      "display_asset": "assets/zoom/0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 14
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "14",
+        "file": "Bilirubin Metabolism - Diagram.png",
+        "slide_title": "Bilirubin Metabolism",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.0",
+        "y0": "0.185",
+        "x1": "0.58",
+        "y1": "0.93",
+        "size": "2552x2533@400dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "3cbf2c698075511fb5ec4d6896b52ce73059df450a2afef50bd66f7cb9455e05",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Bile duct",
+          "box": [
+            1602,
+            2005,
+            1912,
+            2088
+          ]
+        },
+        {
+          "text": "GI tract (stool)",
+          "box": [
+            1602,
+            2203,
+            2121,
+            2286
+          ]
+        },
+        {
+          "text": "Reabsorbed",
+          "box": [
+            932,
+            2117,
+            1369,
+            2200
+          ]
+        },
+        {
+          "text": "urobilinogen",
+          "box": [
+            932,
+            2216,
+            1356,
+            2299
+          ]
+        },
+        {
+          "text": "Urine",
+          "box": [
+            498,
+            2203,
+            683,
+            2286
+          ]
+        },
+        {
+          "text": "(neurotoxic pigment)",
+          "box": [
+            1827,
+            1357,
+            2546,
+            1440
+          ]
+        },
+        {
+          "text": "Adults",
+          "box": [
+            64,
+            8,
+            298,
+            99
+          ]
+        },
+        {
+          "text": "(120 days)",
+          "box": [
+            522,
+            438,
+            829,
+            511
+          ]
+        },
+        {
+          "text": "UGT1A1; uridine diphosphate-",
+          "box": [
+            29,
+            1992,
+            720,
+            2053
+          ]
+        },
+        {
+          "text": "glucuronyl transferase 1A1",
+          "box": [
+            29,
+            2057,
+            629,
+            2118
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-0c16c98020ae5baf6cd0",
+          "asset": "assets/zoom/0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c.webp",
+          "zoom_asset": "assets/zoom/0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c.webp",
+          "output_dimensions": [
+            1600,
+            1588
+          ],
+          "display_sha256": "0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c",
+          "zoom_sha256": "0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              2552,
+              2533
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-5c198fc5f5ea6d4ec9965367a3a179284af70eb44cca27f0fec69c23f3a5aab2",
+      "source_id": "s-b736ae437e7065dcd7ad",
+      "source_group_id": "g-cc18205f87069ef154c3",
+      "lecture_id": "R7",
+      "relative_path": "R7/Overview of Functional Cardiac Development - Diagram.png",
+      "sha256": "5c198fc5f5ea6d4ec9965367a3a179284af70eb44cca27f0fec69c23f3a5aab2",
+      "perceptual_hash": "1e9383666d65725f",
+      "dimensions": [
+        2206,
+        1505
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Overview of Functional Cardiac Development",
+      "original_asset": "assets/zoom/3e25d21cc71868c882e6bf2bb1c3132b9bf6ed528c64ea4691a72b7ebae96e67.webp",
+      "display_asset": "assets/zoom/ba2b369bed8dfed5c20fc2a15ade3146f43eaa240d02f2eafe5aa564b648d68f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "4",
+        "file": "Overview of Functional Cardiac Development - Diagram.png",
+        "slide_title": "Overview of Functional Cardiac Development",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.301",
+        "y0": "0.225",
+        "x1": "0.98",
+        "y1": "0.843",
+        "size": "2206x1505@300dpi",
+        "note": "",
+        "png_sha256": "5c198fc5f5ea6d4ec9965367a3a179284af70eb44cca27f0fec69c23f3a5aab2",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "RLS Slide 4 - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "4",
+          "box": [
+            2001,
+            1467,
+            2022,
+            1505
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-ba2b369bed8dfed5c20f",
+          "asset": "assets/zoom/ba2b369bed8dfed5c20fc2a15ade3146f43eaa240d02f2eafe5aa564b648d68f.webp",
+          "zoom_asset": "assets/zoom/ba2b369bed8dfed5c20fc2a15ade3146f43eaa240d02f2eafe5aa564b648d68f.webp",
+          "output_dimensions": [
+            1600,
+            1092
+          ],
+          "display_sha256": "ba2b369bed8dfed5c20fc2a15ade3146f43eaa240d02f2eafe5aa564b648d68f",
+          "zoom_sha256": "ba2b369bed8dfed5c20fc2a15ade3146f43eaa240d02f2eafe5aa564b648d68f",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              2206,
+              1505
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-dbac5813708343832f01d6190b3d245d98bae2e936f3dda82717bbc0972a4e52",
+      "source_id": "s-084d2559caaa1e90d27c",
+      "source_group_id": "g-b533cf7c011d0d10e07d",
+      "lecture_id": "R7",
+      "relative_path": "R7/Pulmonary Surfactant Alveolar Surface Tension - Diagram.png",
+      "sha256": "dbac5813708343832f01d6190b3d245d98bae2e936f3dda82717bbc0972a4e52",
+      "perceptual_hash": "074635335389fed1",
+      "dimensions": [
+        3102,
+        1088
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Pulmonary Surfactant Alveolar Surface Tension",
+      "original_asset": "assets/zoom/77cb08b2eaaca56f58204933c2bc5f6590bbf909936d82132c0bbdbe87ba041c.webp",
+      "display_asset": "assets/zoom/9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "8",
+        "file": "Pulmonary Surfactant Alveolar Surface Tension - Diagram.png",
+        "slide_title": "Pulmonary Surfactant Alveolar Surface Tension",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.02",
+        "y0": "0.255",
+        "x1": "0.725",
+        "y1": "0.575",
+        "size": "3102x1088@400dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "dbac5813708343832f01d6190b3d245d98bae2e936f3dda82717bbc0972a4e52",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Source :",
+          "box": [
+            1207,
+            125,
+            1489,
+            217
+          ]
+        },
+        {
+          "text": "When :  24-28 weeks",
+          "box": [
+            1206,
+            451,
+            1826,
+            542
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-9dfe3f6b365bd01cd870",
+          "asset": "assets/zoom/9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4.webp",
+          "zoom_asset": "assets/zoom/9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4.webp",
+          "output_dimensions": [
+            1600,
+            561
+          ],
+          "display_sha256": "9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4",
+          "zoom_sha256": "9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              3102,
+              1088
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": [
+        {
+          "supported": "REVIEW",
+          "type": "Visual interpretation",
+          "target": "Surfactant and alveolar surface tension",
+          "reason": "The extracted right circle is clipped at the top. Recapture the complete panel from the supplied PDF before activation."
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a03af5b367f3f5dede273646ada4bff6580d51ebd1d56090aa0162bbb150d4f2",
+      "source_id": "s-10c6063feebd1abac846",
+      "source_group_id": "g-fc916150c4fc142777f3",
+      "lecture_id": "R7",
+      "relative_path": "R7/Thermoregulation Control Pathways in Neonates - Diagram.png",
+      "sha256": "a03af5b367f3f5dede273646ada4bff6580d51ebd1d56090aa0162bbb150d4f2",
+      "perceptual_hash": "3681b9a5a93ac77f",
+      "dimensions": [
+        2112,
+        1819
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Thermoregulation Control Pathways in Neonates",
+      "original_asset": "assets/zoom/8388df71057478738baf986c22db694e19fabdf252d732b4e9422d3693a88d30.webp",
+      "display_asset": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 12
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "12",
+        "file": "Thermoregulation Control Pathways in Neonates - Diagram.png",
+        "slide_title": "Thermoregulation Control Pathways in Neonates",
+        "overlay_labels": "",
+        "type": "Diagram",
+        "mode": "rerender",
+        "x0": "0.48",
+        "y0": "0.145",
+        "x1": "0.96",
+        "y1": "0.68",
+        "size": "2112x1819@400dpi",
+        "note": "manual re-render from the RLS; loose slide text removed",
+        "png_sha256": "a03af5b367f3f5dede273646ada4bff6580d51ebd1d56090aa0162bbb150d4f2",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "*",
+          "box": [
+            708,
+            1254,
+            754,
+            1345
+          ]
+        },
+        {
+          "text": "a",
+          "box": [
+            1919,
+            1716,
+            1959,
+            1818
+          ]
+        },
+        {
+          "text": "b",
+          "box": [
+            1619,
+            1719,
+            1665,
+            1819
+          ]
+        },
+        {
+          "text": "d",
+          "box": [
+            1010,
+            1718,
+            1056,
+            1819
+          ]
+        },
+        {
+          "text": "e",
+          "box": [
+            1316,
+            1714,
+            1356,
+            1815
+          ]
+        },
+        {
+          "text": "c",
+          "box": [
+            684,
+            1718,
+            725,
+            1819
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-eb948a4e27766c379070",
+          "asset": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+          "zoom_asset": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+          "output_dimensions": [
+            1600,
+            1378
+          ],
+          "display_sha256": "eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1",
+          "zoom_sha256": "eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              2112,
+              1819
+            ],
+            "normalized_boxes": [
+              [
+                0.2766415500538213,
+                0.85375,
+                1,
+                0.95
+              ]
+            ],
+            "crop": null,
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-f3f7659779d5cbf315f5afbb653340412d30f6dc3072a3b176fa7c51d6e9fd84",
+      "source_id": "s-70e43f6e4d5b700b244f",
+      "source_group_id": "g-e9070d66d763c001c1e8",
+      "lecture_id": "R7",
+      "relative_path": "R7/Transition to Neonatal Circulation - Diagram.png",
+      "sha256": "f3f7659779d5cbf315f5afbb653340412d30f6dc3072a3b176fa7c51d6e9fd84",
+      "perceptual_hash": "b092b37b196b4627",
+      "dimensions": [
+        1316,
+        1539
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Transition to Neonatal Circulation",
+      "original_asset": "assets/zoom/23e4985ecc7d30efdad26b1a625c7aa9b9a6a8bfc01790dbd3dc1f5cd82e4232.webp",
+      "display_asset": "assets/zoom/4f7efc245db9fbfdd48fe7684afd43c433605e644b133b72980e095b7a35195f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "current_document_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page.",
+      "rights_status": "User-provided educational material. Local private use only.",
+      "extraction": {
+        "source": "R7 Neo-Natal Physiology RLS.pdf",
+        "page": "7",
+        "file": "Transition to Neonatal Circulation - Diagram.png",
+        "slide_title": "Transition to Neonatal Circulation",
+        "overlay_labels": "Pulmonary vein; Question with PFO or PDA, what kinds of hemodynamic changes will happen",
+        "type": "Diagram",
+        "mode": "single",
+        "x0": "0.02",
+        "y0": "0.22",
+        "x1": "0.459",
+        "y1": "0.825",
+        "size": "1316x1539@300dpi",
+        "note": "",
+        "png_sha256": "f3f7659779d5cbf315f5afbb653340412d30f6dc3072a3b176fa7c51d6e9fd84",
+        "pdf_sha256": "4655391e18cd8da52304142ceaed3f896fba44d04bd85a6a157a256a86fa17c1",
+        "extracted_name": "Transition to the Neonatal Circulation, as a function of umbilical cord clamping Pulmonary vein Question with PFO or - Diagram.png",
+        "lecture_category": "Primary"
+      },
+      "leak_regions": [
+        {
+          "text": "Pulmonary vein",
+          "box": [
+            1000,
+            580,
+            1313,
+            628
+          ]
+        },
+        {
+          "text": "Question : with PFO or PDA,",
+          "box": [
+            0,
+            1318,
+            521,
+            1379
+          ]
+        },
+        {
+          "text": "what kinds of hemodynamic",
+          "box": [
+            0,
+            1384,
+            497,
+            1445
+          ]
+        },
+        {
+          "text": "changes will happen?",
+          "box": [
+            0,
+            1450,
+            332,
+            1511
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "variant_id": "v-4f7efc245db9fbfdd48f",
+          "asset": "assets/zoom/4f7efc245db9fbfdd48fe7684afd43c433605e644b133b72980e095b7a35195f.webp",
+          "zoom_asset": "assets/zoom/4f7efc245db9fbfdd48fe7684afd43c433605e644b133b72980e095b7a35195f.webp",
+          "output_dimensions": [
+            1316,
+            1539
+          ],
+          "display_sha256": "4f7efc245db9fbfdd48fe7684afd43c433605e644b133b72980e095b7a35195f",
+          "zoom_sha256": "4f7efc245db9fbfdd48fe7684afd43c433605e644b133b72980e095b7a35195f",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1316,
+              1539
+            ],
+            "normalized_boxes": [],
+            "crop": null,
+            "reason": "Preserve the supplied panel; the task applies a perturbation or compares two features."
+          }
+        }
+      ],
+      "question_type_matrix": []
+    },
+    {
+      "asset_id": "a-24c6c62722a148c7e6ea620b39706d50c3e6528c5ad155aada6222dc4804a818",
+      "source_id": "s-a1a1c40831f6b69a16d9",
+      "source_group_id": "g-a1a1c40831f6b69a16d9",
+      "lecture_id": "R6",
+      "relative_path": "R6/Extracted page 3 - Cervical stretch and oxytocin feedback.png",
+      "sha256": "24c6c62722a148c7e6ea620b39706d50c3e6528c5ad155aada6222dc4804a818",
+      "dimensions": [
+        1800,
+        1391
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Cervical stretch and oxytocin feedback",
+      "original_asset": "assets/zoom/c827055982d483db42d9d29dfac223a0b10e5a4fe0e11455dbafccda66406e81.webp",
+      "display_asset": "assets/zoom/c9224985ad64033d6fdf2b3ae737206faddf77a4b0ffd4ecb3d9350178b75c96.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+        "page": 3
+      },
+      "source_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+      "current_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "variants": [
+        {
+          "variant_id": "v-b53c93532da0abdf9748",
+          "asset": "assets/zoom/b53c93532da0abdf97486253046f2d5e9bac653832fe1428faf7479af72f6c91.webp",
+          "zoom_asset": "assets/zoom/b53c93532da0abdf97486253046f2d5e9bac653832fe1428faf7479af72f6c91.webp",
+          "output_dimensions": [
+            908,
+            717
+          ],
+          "display_sha256": "b53c93532da0abdf97486253046f2d5e9bac653832fe1428faf7479af72f6c91",
+          "zoom_sha256": "b53c93532da0abdf97486253046f2d5e9bac653832fe1428faf7479af72f6c91",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1800,
+              1391
+            ],
+            "normalized_boxes": [
+              [
+                0.29888888888888887,
+                0.7212643678160919,
+                0.4588888888888889,
+                0.7385057471264368
+              ],
+              [
+                0.29888888888888887,
+                0.7385057471264368,
+                0.5155555555555555,
+                0.757183908045977
+              ]
+            ],
+            "crop": [
+              0.2222222222222222,
+              0.2413793103448276,
+              0.7266666666666667,
+              0.757183908045977
+            ],
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "rights_status": "supplied lecture",
+      "extraction": {
+        "pdf_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+        "pdf_page": 3,
+        "method": "page_render"
+      },
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page."
+    },
+    {
+      "asset_id": "a-e8a4cbf7a16eb93d5e91c4522cd6b2ac6d834add50b0c264273e796fb97a530d",
+      "source_id": "s-0554c6d6dd70815e571b",
+      "source_group_id": "g-0554c6d6dd70815e571b",
+      "lecture_id": "R6",
+      "relative_path": "R6/Extracted page 4 - Parturition phases and delivery.png",
+      "sha256": "e8a4cbf7a16eb93d5e91c4522cd6b2ac6d834add50b0c264273e796fb97a530d",
+      "dimensions": [
+        1800,
+        1391
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Parturition phases and delivery",
+      "original_asset": "assets/zoom/14945d181a0a44da25cfc56d029fa9a8cb3aea2c22e83b2027134dc0688cc50c.webp",
+      "display_asset": "assets/zoom/d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+      "current_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "variants": [
+        {
+          "variant_id": "v-d2208c04147617feb31c",
+          "asset": "assets/zoom/d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122.webp",
+          "zoom_asset": "assets/zoom/d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122.webp",
+          "output_dimensions": [
+            1600,
+            809
+          ],
+          "display_sha256": "d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122",
+          "zoom_sha256": "d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122",
+          "transform": {
+            "type": "crop",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1800,
+              1391
+            ],
+            "normalized_boxes": [],
+            "crop": [
+              0.04888888888888889,
+              0.20545977011494254,
+              0.9377777777777778,
+              0.7873563218390804
+            ],
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "rights_status": "supplied lecture",
+      "extraction": {
+        "pdf_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+        "pdf_page": 4,
+        "method": "page_render"
+      },
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page."
+    },
+    {
+      "asset_id": "a-f0fc79b53c8ed51d7900c5edf2055c91c2ed355ce342ed317735bc130c18bfbb",
+      "source_id": "s-7bf5a5400e2c20097740",
+      "source_group_id": "g-7bf5a5400e2c20097740",
+      "lecture_id": "R6",
+      "relative_path": "R6/Extracted page 9 - Pregnancy hormone curves before lactation.png",
+      "sha256": "f0fc79b53c8ed51d7900c5edf2055c91c2ed355ce342ed317735bc130c18bfbb",
+      "dimensions": [
+        1800,
+        1391
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Pregnancy hormone curves before lactation",
+      "original_asset": "assets/zoom/98c4739bec3bf847fefa2bffe4bc87fe44468c98aed2af644de817972196f212.webp",
+      "display_asset": "assets/zoom/ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+      "current_document_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "variants": [
+        {
+          "variant_id": "v-ff07d76173f80b06bab5",
+          "asset": "assets/zoom/ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60.webp",
+          "zoom_asset": "assets/zoom/ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60.webp",
+          "output_dimensions": [
+            688,
+            815
+          ],
+          "display_sha256": "ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60",
+          "zoom_sha256": "ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60",
+          "transform": {
+            "type": "crop",
+            "coordinate_basis": "normalized to immutable teaching original",
+            "input_dimensions": [
+              1800,
+              1391
+            ],
+            "normalized_boxes": [],
+            "crop": [
+              0.5244444444444445,
+              0.22270114942528735,
+              0.9066666666666666,
+              0.8089080459770115
+            ],
+            "reason": "Preserve the tested relationships in fit, zoom and full image while concealing answer text."
+          }
+        }
+      ],
+      "rights_status": "supplied lecture",
+      "extraction": {
+        "pdf_sha256": "eacf14c281ea3d5727f433c2f17c3f6c47edd19f622cf0ec9eec3184d50f46ae",
+        "pdf_page": 9,
+        "method": "page_render"
+      },
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page."
     }
   ],
   "audit_date": "2026-11-09",

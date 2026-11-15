@@ -25,7 +25,7 @@ test('every bank has valid image files, option counts and correct-answer rationa
             assert(q.options.every(o => typeof o === 'string' && o.trim()), `${label} blank option`);
             assert.equal(new Set(q.options.map(o => o.trim().toLowerCase())).size, count, `${label} duplicate options`);
             assert.equal(q.choice_rationales.length, count, label);
-            if (!q.case_id) assert.equal(q.choice_rationales[q.correct_index], q.explanation, label);
+            assert.notEqual(q.choice_rationales[q.correct_index], q.explanation, label);
         }
     }
 });

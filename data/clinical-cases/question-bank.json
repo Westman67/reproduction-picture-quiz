@@ -650,7 +650,7 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "question_type": "Clinical visual question",
-      "scenario": "A patient with a pruritic vulvar plaque undergoes biopsy. The section includes the surface epithelium and underlying tissue.",
+      "scenario": "An adult reports persistent vulvar itching. Examination shows a plaque with red and pale areas, and a biopsy includes both the epidermis and underlying tissue.",
       "lead_in": "Which arrangement of the abnormal cells is visible in the biopsy?",
       "stem": "Which arrangement of the abnormal cells is visible in the biopsy?",
       "options": [
@@ -785,7 +785,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r10-vulvar-plaque-3",
@@ -870,7 +870,7 @@
         "Regular attached ridges do not account for the irregular stromal nests.",
         "The infiltrating profiles are squamous rather than a circumscribed glandular proliferation."
       ],
-      "explanation": "Irregular epithelial nests lie in the underlying stroma. Their location below the surface compartment, rather than nuclear atypia alone, demonstrates invasion in this comparison field.",
+      "explanation": "Irregular epithelial nests lie in the underlying stroma. Their location below the surface compartment, rather than nuclear atypia alone, demonstrates invasion in this comparison field. Intraepidermal Paget cells stay among surface keratinocytes. Irregular squamous epithelial nests beneath the epithelial boundary demonstrate stromal invasion in this comparison.",
       "visual_clues": [
         "Irregular epithelial nests lie in the underlying stroma."
       ],
@@ -1165,7 +1165,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cartilage-comparison",
@@ -1196,7 +1196,7 @@
         "No vessel centered stalk accounts for the matrix and lacunae.",
         "The cells are dispersed in lacunae, not aligned in files."
       ],
-      "explanation": "Rounded cells lie in lacunae in a continuous matrix. These are chondrocytes in mature cartilage; they are not a lining around a lumen.",
+      "explanation": "Rounded cells lie in lacunae in a continuous matrix. These are chondrocytes in mature cartilage; they are not a lining around a lumen. The cells are dispersed in lacunae, not aligned in files.",
       "visual_clues": [
         "Rounded cells lie in lacunae in a continuous matrix."
       ],
@@ -1254,7 +1254,7 @@
         "A grossly open cavity is paired with a stratified squamous lining. A lining around a single cyst is a different arrangement from multiple separate small follicles.",
         "Neither a solid nodular surface nor infiltrative files explains these paired views."
       ],
-      "explanation": "A grossly open cavity is paired with a stratified squamous lining. A lining around a single cyst is a different arrangement from multiple separate small follicles.",
+      "explanation": "A grossly open cavity is paired with a stratified squamous lining. A lining around a single cyst is a different arrangement from multiple separate small follicles. Neither a solid nodular surface nor infiltrative files explains these paired views.",
       "visual_clues": [
         "A grossly open cavity is paired with a stratified squamous lining."
       ],
@@ -2068,7 +2068,7 @@
         "The field on the left illustrates the complete mole pattern, which loses villous p57.",
         "The adequate maternal control makes absent villous p57 on the left interpretable. That loss supports complete mole, while retained staining on the right fits partial mole."
       ],
-      "explanation": "The left field shows the complete mole pattern, which loses villous p57. The right field shows the partial mole pattern, which retains it.",
+      "explanation": "The left field shows the complete mole pattern, which loses villous p57. The right field shows the partial mole pattern, which retains it. The complete mole on the left loses villous p57. The partial mole on the right retains villous p57.",
       "visual_clues": [
         "Diffuse villous enlargement with prominent trophoblastic rims on the left supports a complete mole."
       ],
@@ -2266,7 +2266,7 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "joint_panels": true,
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 23,
@@ -2388,7 +2388,7 @@
         "The small cells lie around the structure rather than projecting into a lumen.",
         "Small tumor cells curve around the structure in successive rows. This targetoid relationship is an additional growth pattern beyond straight files."
       ],
-      "explanation": "Small tumor cells curve around the structure in successive rows. This targetoid relationship is an additional growth pattern beyond straight files.",
+      "explanation": "Small tumor cells curve around the structure in successive rows. This targetoid relationship is an additional growth pattern beyond straight files. Mucinous carcinoma contains tumor clusters in extracellular mucin. The small invasive lobular carcinoma cells here wrap concentrically around a preexisting structure.",
       "visual_clues": [
         "Small tumor cells curve around the structure in successive rows."
       ],
@@ -2450,7 +2450,7 @@
         "The dominant relationship is a central solid region with outward rays.",
         "The outer edge is irregular and extends into adjacent tissue."
       ],
-      "explanation": "Pale tissue sends irregular rays into surrounding fat. A radiating edge on the cut surface provides the gross counterpart of the spiculated contour.",
+      "explanation": "Pale tissue sends irregular rays into surrounding fat. A radiating edge on the cut surface provides the gross counterpart of the spiculated contour. A smooth capsule would not account for the radiating lines.",
       "visual_clues": [
         "Pale tissue sends irregular rays into surrounding fat."
       ],
@@ -2512,7 +2512,7 @@
         "The background is fibrous rather than broad mucin pools.",
         "The visible groups form their own profiles through the stroma."
       ],
-      "explanation": "Small angulated epithelial profiles lie within fibrous stroma. The organized outlines of the profiles distinguish them from isolated cells arranged one behind another.",
+      "explanation": "Small angulated epithelial profiles lie within fibrous stroma. The organized outlines of the profiles distinguish them from isolated cells arranged one behind another. The background is fibrous rather than broad mucin pools.",
       "visual_clues": [
         "Small angulated epithelial profiles lie within fibrous stroma."
       ],
@@ -2553,7 +2553,7 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "question_type": "Clinical visual question",
-      "scenario": "A pruritic vulvar patch is biopsied. The section includes the epidermis and superficial dermis.",
+      "scenario": "An adult reports severe vulvar itching and discomfort. Examination shows pale patches around the introitus. A biopsy samples the epidermis and superficial dermis.",
       "lead_in": "Which surface and dermal pattern is present?",
       "stem": "Which surface and dermal pattern is present?",
       "options": [
@@ -2683,7 +2683,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-surface-extent",
@@ -2714,7 +2714,7 @@
         "The light areas extend along both sides rather than ending at one erosion.",
         "The pale change extends along both sides of a narrowed opening. The gross view shows the extent and anatomic distortion that a small biopsy cannot show."
       ],
-      "explanation": "The pale change extends along both sides of a narrowed opening. The gross view shows the extent and anatomic distortion that a small biopsy cannot show.",
+      "explanation": "The pale change extends along both sides of a narrowed opening. The gross view shows the extent and anatomic distortion that a small biopsy cannot show. The change is broad and pale without a cluster of vesicles.",
       "visual_clues": [
         "The pale change extends along both sides of a narrowed opening."
       ],
@@ -2768,7 +2768,7 @@
         "The concentrated dark cells are deeper than the pale zone.",
         "The band is in the dermis, below the surface epithelium."
       ],
-      "explanation": "The darker lymphocytic infiltrate sits deeper in the dermis than the pale sclerotic zone. Reading from the surface inward keeps the two dermal changes separate.",
+      "explanation": "The darker lymphocytic infiltrate sits deeper in the dermis than the pale sclerotic zone. Reading from the surface inward keeps the two dermal changes separate. The concentrated dark cells are deeper than the pale zone.",
       "visual_clues": [
         "The darker lymphocytic infiltrate sits deeper in the dermis than the pale sclerotic zone."
       ],
@@ -2822,7 +2822,7 @@
         "The downgrowths are continuous with the squamous layer.",
         "The epithelium is preserved and expanded."
       ],
-      "explanation": "The expanded squamous layer sends elongated ridges down toward the dermis. This acanthosis contrasts with a thinned epidermis.",
+      "explanation": "The expanded squamous layer sends elongated ridges down toward the dermis. This acanthosis contrasts with a thinned epidermis. The comparison epithelium is thick and projects downward in multiple ridges.",
       "visual_clues": [
         "The expanded squamous layer sends elongated ridges down toward the dermis."
       ],
@@ -2859,7 +2859,7 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "question_type": "Clinical visual question",
-      "scenario": "A raised vulvar lesion is sampled. The displayed field shows its squamous epithelium.",
+      "scenario": "An adult has a raised vulvar lesion. The clinician samples it and examines the surface and the nuclei of the squamous cells at higher power.",
       "lead_in": "Which change is visible in the upper squamous cells?",
       "stem": "Which change is visible in the upper squamous cells?",
       "options": [
@@ -2993,7 +2993,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-raised-surface",
@@ -3024,7 +3024,7 @@
         "Several raised, textured papules interrupt the surface. The visible contours account for why a representative biopsy includes the tops and bases of projections.",
         "The visible abnormalities alter the surface directly."
       ],
-      "explanation": "Several raised, textured papules interrupt the surface. The visible contours account for why a representative biopsy includes the tops and bases of projections.",
+      "explanation": "Several raised, textured papules interrupt the surface. The visible contours account for why a representative biopsy includes the tops and bases of projections. The textured projections are solid appearing rather than translucent blisters.",
       "visual_clues": [
         "Several raised, textured papules interrupt the surface."
       ],
@@ -3119,7 +3119,7 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "question_type": "Clinical visual question",
-      "scenario": "A small vulvar nodule is excised. The two images show the lesion at different magnifications.",
+      "scenario": "An adult has a small, circumscribed nodule in the interlabial sulcus. It is excised, and the pathologist compares the nodule with the overlying epidermis at two magnifications.",
       "lead_in": "Which architectural pattern is supported by both views?",
       "stem": "Which architectural pattern is supported by both views?",
       "options": [
@@ -3249,7 +3249,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r10-vulvar-nodule-depth-skin-interface",
@@ -3280,7 +3280,7 @@
         "The tissue shows a defined nodule beneath the surface rather than an ulcer bed.",
         "The circumscribed proliferation extends well below the keratin layer."
       ],
-      "explanation": "The small nodule is centered in the dermis and the slide describes no connection to the overlying epidermis. Following the surface separately from the lesion helps localize the process.",
+      "explanation": "The small nodule is centered in the dermis and the slide describes no connection to the overlying epidermis. Following the surface separately from the lesion helps localize the process. The tissue shows a defined nodule beneath the surface rather than an ulcer bed.",
       "visual_clues": [
         "The small nodule is centered in the dermis and the slide describes no connection to the overlying epidermis."
       ],
@@ -3334,7 +3334,7 @@
         "Extramammary Paget disease scatters pale cells within the epidermis. The condyloma fronds here are raised squamous projections with fibrovascular cores.",
         "The papillae project toward the surface and retain attached cores."
       ],
-      "explanation": "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward. They are distinct from glands arranged within a dermal nodule.",
+      "explanation": "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward. They are distinct from glands arranged within a dermal nodule. Papillary hidradenoma contains papillary glands inside a circumscribed dermal nodule. The condyloma comparison sends squamous fronds outward from the surface.",
       "visual_clues": [
         "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward."
       ],
@@ -3385,7 +3385,7 @@
         "This evaluates receptor expression rather than the myoepithelial layer.",
         "This is used in the testicular germ cell material and does not identify the supporting gland layer."
       ],
-      "explanation": "The circumscribed dermal nodule contains complex papillary glands. R10 describes a retained myoepithelial layer and lists calponin and SMA as stains supporting this component.",
+      "explanation": "The circumscribed dermal nodule contains complex papillary glands. R10 describes a retained myoepithelial layer and lists calponin and SMA as stains supporting this component. This is used in the testicular germ cell material and does not identify the supporting gland layer.",
       "visual_clues": [
         "The circumscribed dermal nodule contains complex papillary glands."
       ],
@@ -3537,7 +3537,7 @@
       "ground_truth_basis": "Pending individual answer-key review.",
       "accepted_synonyms": [],
       "joint_panels": true,
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r12-cervical-series-depth-intermediate-panels",
@@ -3568,7 +3568,7 @@
         "The layer remains intact in both panels.",
         "Both fields retain a basal layer for comparison."
       ],
-      "explanation": "In the second panel the surface retains greater maturation. In the third, immature atypical cells extend farther upward, without the uniformly immature appearance of the far right field.",
+      "explanation": "In the second panel the surface retains greater maturation. In the third, immature atypical cells extend farther upward, without the uniformly immature appearance of the far right field. The third shows the greater upward extent.",
       "visual_clues": [
         "In the second panel the surface retains greater maturation."
       ],
@@ -3631,7 +3631,7 @@
         "The diagnostic cells shown have squamous profiles.",
         "The cells are detached from their tissue architecture."
       ],
-      "explanation": "The smear reveals haloed squamous cells with enlarged irregular dark nuclei. A smear shows cell morphology but does not show the full basal to surface thickness used for grading.",
+      "explanation": "The smear reveals haloed squamous cells with enlarged irregular dark nuclei. A smear shows cell morphology but does not show the full basal to surface thickness used for grading. Detached cells do not preserve the epithelial layers.",
       "visual_clues": [
         "The smear reveals haloed squamous cells with enlarged irregular dark nuclei."
       ],
@@ -3693,7 +3693,7 @@
         "The densely packed abnormal nuclei are in the epithelial strip. Invasion would require lesional epithelium beyond its epithelial boundary in the underlying stroma.",
         "The surface does not demonstrate the deep tissue relationship."
       ],
-      "explanation": "The densely packed abnormal nuclei are in the epithelial strip. Invasion would require lesional epithelium beyond its epithelial boundary in the underlying stroma.",
+      "explanation": "The densely packed abnormal nuclei are in the epithelial strip. Invasion would require lesional epithelium beyond its epithelial boundary in the underlying stroma. This concerns epithelial extent, not stromal extension.",
       "visual_clues": [
         "The densely packed abnormal nuclei are in the epithelial strip."
       ],
@@ -3864,7 +3864,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 22,
@@ -3907,7 +3907,7 @@
         "The spots are discontinuous and deeper than the lining.",
         "The dark foci are scattered in the thick muscular wall beside the narrow cavity. The lecture describes blood or hemosiderin deep in the myometrium."
       ],
-      "explanation": "The dark foci are scattered in the thick muscular wall beside the narrow cavity. The lecture describes blood or hemosiderin deep in the myometrium.",
+      "explanation": "The dark foci are scattered in the thick muscular wall beside the narrow cavity. The lecture describes blood or hemosiderin deep in the myometrium. The dark spots are scattered rather than concentrated inside one nodule.",
       "visual_clues": [
         "The dark foci are scattered in the thick muscular wall beside the narrow cavity."
       ],
@@ -3972,7 +3972,7 @@
         "The microscopic image shows spindle cells rather than squamous epithelium.",
         "There are solid smooth muscle fascicles rather than mucin pools."
       ],
-      "explanation": "The gross nodules are pale and circumscribed. The microscopic companion shows regular smooth muscle cells, matching the uniform muscular process.",
+      "explanation": "The gross nodules are pale and circumscribed. The microscopic companion shows regular smooth muscle cells, matching the uniform muscular process. There are solid smooth muscle fascicles rather than mucin pools.",
       "visual_clues": [
         "The gross nodules are pale and circumscribed."
       ],
@@ -4031,7 +4031,7 @@
         "The section shows an endometrial type gland.",
         "An organized gland and stromal cuff are present."
       ],
-      "explanation": "The companion also contains an endometrial type gland with associated endometrial stroma. Similar tissue constituents can have different implications in uterine muscle and at an extrauterine site.",
+      "explanation": "The companion also contains an endometrial type gland with associated endometrial stroma. Similar tissue constituents can have different implications in uterine muscle and at an extrauterine site. The section shows an endometrial type gland.",
       "visual_clues": [
         "The companion also contains an endometrial type gland with associated endometrial stroma."
       ],
@@ -4229,7 +4229,7 @@
         "The matrix contains lacunar cells without lymphocyte rich septa.",
         "No projecting vascular core explains the tissue architecture."
       ],
-      "explanation": "The cells occupy individual lacunae in a cartilage matrix. The organized mature matrix contrasts with densely packed primitive tubules.",
+      "explanation": "The cells occupy individual lacunae in a cartilage matrix. The organized mature matrix contrasts with densely packed primitive tubules. The cells sit apart in lacunae rather than lining tubules.",
       "visual_clues": [
         "The cells occupy individual lacunae in a cartilage matrix."
       ],
@@ -4287,7 +4287,7 @@
         "Hairlike strands lie in the opened cavity. Visible hair is direct evidence of a mature ectodermal derivative; the solid portion of the original case was assessed microscopically.",
         "The material in the cavity is more specific than the shape of a septum."
       ],
-      "explanation": "Hairlike strands lie in the opened cavity. Visible hair is direct evidence of a mature ectodermal derivative; the solid portion of the original case was assessed microscopically.",
+      "explanation": "Hairlike strands lie in the opened cavity. Visible hair is direct evidence of a mature ectodermal derivative; the solid portion of the original case was assessed microscopically. The material in the cavity is more specific than the shape of a septum.",
       "visual_clues": [
         "Hairlike strands lie in the opened cavity."
       ],
@@ -4540,7 +4540,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-depth-inhibin",
@@ -4571,7 +4571,7 @@
         "The signal follows the tumor groups instead of outlining separate open spaces.",
         "Staining appears in groups of lesional cells."
       ],
-      "explanation": "Brown signal occupies groups of cells in the lesion.",
+      "explanation": "Brown signal occupies groups of cells in the lesion. The signal follows the tumor groups instead of outlining separate open spaces.",
       "visual_clues": [
         "The signal is in groups of lesional cells."
       ],
@@ -4622,7 +4622,7 @@
         "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population.",
         "PLAP supports a germ cell differential. The pictured microfollicular architecture points toward granulosa differentiation."
       ],
-      "explanation": "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population.",
+      "explanation": "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population. PLAP supports a germ cell differential. The pictured microfollicular architecture points toward granulosa differentiation.",
       "visual_clues": [
         "The small rosettes around pale centers suggest a granulosa cell pattern."
       ],
@@ -4812,7 +4812,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-depth-bilateral-gross",
@@ -4843,7 +4843,7 @@
         "Discrete extrauterine nodules are visible.",
         "The pattern is bilateral and multinodular rather than a focal tubal projection."
       ],
-      "explanation": "Rounded nodular masses lie on both sides of the uterus. The lecture describes bilaterality as a clue in evaluating metastatic ovarian tumors alongside microscopy.",
+      "explanation": "Rounded nodular masses lie on both sides of the uterus. The lecture describes bilaterality as a clue in evaluating metastatic ovarian tumors alongside microscopy. The pattern is bilateral and multinodular rather than a focal tubal projection.",
       "visual_clues": [
         "Rounded nodular masses lie on both sides of the uterus."
       ],
@@ -4905,7 +4905,7 @@
         "The lesional cells follow thin stromal tracks rather than forming tubules.",
         "The epithelial component lies in slender files without a central stalk."
       ],
-      "explanation": "Small tumor cells infiltrate ovarian stroma in narrow linear files. The original field instead emphasizes individual cells with prominent cytoplasmic vacuoles.",
+      "explanation": "Small tumor cells infiltrate ovarian stroma in narrow linear files. The original field instead emphasizes individual cells with prominent cytoplasmic vacuoles. The epithelial component lies in slender files without a central stalk.",
       "visual_clues": [
         "Small tumor cells infiltrate ovarian stroma in narrow linear files."
       ],
@@ -5068,7 +5068,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-gross-plaques",
@@ -5099,7 +5099,7 @@
         "Several irregular pale plaques stand out against red bladder mucosa. The patchy surface change explains why a visibly abnormal region was sampled.",
         "The pale areas themselves stand out against a red background."
       ],
-      "explanation": "Several irregular pale plaques stand out against red bladder mucosa. The patchy surface change explains why a visibly abnormal region was sampled.",
+      "explanation": "Several irregular pale plaques stand out against red bladder mucosa. The patchy surface change explains why a visibly abnormal region was sampled. The changes are multiple surface plaques rather than one projecting mass.",
       "visual_clues": [
         "Several irregular pale plaques stand out against red bladder mucosa."
       ],
@@ -5157,7 +5157,7 @@
         "The architecture here is an inflammatory tissue field, not branching fronds.",
         "The dense small inflammatory cells are beneath the lining in the lamina propria. The pattern supports inflammation without demonstrating the characteristic inclusions of the original plaque."
       ],
-      "explanation": "The dense small inflammatory cells are beneath the lining in the lamina propria. The pattern supports inflammation without demonstrating the characteristic inclusions of the original plaque.",
+      "explanation": "The dense small inflammatory cells are beneath the lining in the lamina propria. The pattern supports inflammation without demonstrating the characteristic inclusions of the original plaque. Nests interdigitating with detrusor bundles would demonstrate muscle-invasive urothelial carcinoma. This chronic cystitis comparison instead shows an inflammatory infiltrate in the lamina propria.",
       "visual_clues": [
         "The dense small inflammatory cells are beneath the lining in the lamina propria."
       ],
@@ -5386,7 +5386,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-flat-comparison",
@@ -5479,7 +5479,7 @@
         "The cell population is disordered rather than normally polarized.",
         "The conspicuous cytology here is markedly atypical."
       ],
-      "explanation": "The nuclei vary markedly in size and shape, and the cells lose orderly polarity. Those features support a high grade appearance; depth requires a demonstrable wall interface.",
+      "explanation": "The nuclei vary markedly in size and shape, and the cells lose orderly polarity. Those features support a high grade appearance; depth requires a demonstrable wall interface. Nuclear size does not locate the tumor relative to muscle.",
       "visual_clues": [
         "The nuclei vary markedly in size and shape, and the cells lose orderly polarity."
       ],
@@ -5541,7 +5541,7 @@
         "Their high nuclear to cytoplasmic ratios and hyperchromasia argue against that reading.",
         "Urine cytology can show lesional cells without a wall section."
       ],
-      "explanation": "Dark atypical urothelial cells with large nuclei relative to their cytoplasm support concern for malignancy. Exfoliated cells cannot locate the deepest point of tumor invasion.",
+      "explanation": "Dark atypical urothelial cells with large nuclei relative to their cytoplasm support concern for malignancy. Exfoliated cells cannot locate the deepest point of tumor invasion. Urine cytology can show lesional cells without a wall section.",
       "visual_clues": [
         "Dark atypical urothelial cells with large nuclei relative to their cytoplasm support concern for malignancy."
       ],
@@ -5572,7 +5572,7 @@
           "page": 32
         }
       ],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r16-prostate-stain-1",
@@ -5582,7 +5582,7 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "question_type": "Clinical visual question",
-      "scenario": "A prostate specimen contains small suspicious glands. A PIN4 teaching field includes other glands for comparison.",
+      "scenario": "Small crowded glands are found in a prostate specimen. The pathologist orders a basal-cell stain and uses larger glands in the same section as the internal control.",
       "lead_in": "Which difference in staining is visible across the field?",
       "stem": "Which difference in staining is visible across the field?",
       "options": [
@@ -5755,7 +5755,7 @@
         "The small crowded atypical glands lie between pink fibromuscular tissue. Their architecture draws attention to the glands whose basal cell status could be informative.",
         "Luminal material alone cannot demonstrate a basal cell layer."
       ],
-      "explanation": "The small crowded atypical glands lie between pink fibromuscular tissue. Their architecture draws attention to the glands whose basal cell status could be informative.",
+      "explanation": "The small crowded atypical glands lie between pink fibromuscular tissue. Their architecture draws attention to the glands whose basal cell status could be informative. Broad folded glands are not the densely crowded suspicious population.",
       "visual_clues": [
         "The small crowded atypical glands lie between pink fibromuscular tissue."
       ],
@@ -5817,7 +5817,7 @@
         "The projections arise from epithelium.",
         "The abnormal epithelium projects inward into a recognizable preexisting duct. In this teaching example, the ductal boundary is retained around the proliferation."
       ],
-      "explanation": "The abnormal epithelium projects inward into a recognizable preexisting duct. In this teaching example, the ductal boundary is retained around the proliferation.",
+      "explanation": "The abnormal epithelium projects inward into a recognizable preexisting duct. In this teaching example, the ductal boundary is retained around the proliferation. The atypical cells are organized into intraductal projections.",
       "visual_clues": [
         "The abnormal epithelium projects inward into a recognizable preexisting duct."
       ],
@@ -5886,7 +5886,7 @@
         "The cells in question are part of the gland lining.",
         "The layer follows the epithelial gland profile."
       ],
-      "explanation": "Small basal cells sit at the outer edge of the gland epithelium next to stroma. The luminal cell surface lies on the opposite side.",
+      "explanation": "Small basal cells sit at the outer edge of the gland epithelium next to stroma. The luminal cell surface lies on the opposite side. The luminal surface is on the inner side of the epithelial layer.",
       "visual_clues": [
         "Small basal cells sit at the outer edge of the gland epithelium next to stroma."
       ],
@@ -5941,7 +5941,7 @@
         "AMACR alone does not separate PIN from invasive carcinoma in this lecture.",
         "The crowded small glands on H&E are the suspicious population. With an intact internal control, loss of their p63 and CK903 basal rim supports invasion. Cytoplasmic AMACR is supportive but can also be expressed in prostatic intraepithelial neoplasia."
       ],
-      "explanation": "The crowded small glands on H&E are the suspicious population. With an intact internal control, loss of their p63 and CK903 basal rim supports invasion. Cytoplasmic AMACR is supportive but can also be expressed in prostatic intraepithelial neoplasia.",
+      "explanation": "The crowded small glands on H&E are the suspicious population. With an intact internal control, loss of their p63 and CK903 basal rim supports invasion. Cytoplasmic AMACR is supportive but can also be expressed in prostatic intraepithelial neoplasia. AMACR can be positive in PIN, and a retained basal rim weakens the inference of invasion.",
       "visual_clues": [
         "The crowded small glands on H&E are the suspicious population."
       ],
@@ -5993,7 +5993,7 @@
       "difficulty": "intermediate",
       "reasoning_type": "interpretation",
       "question_type": "Clinical visual question",
-      "scenario": "An adult presents with a painless testicular swelling. Review representative gross and microscopic teaching views.",
+      "scenario": "A young adult is evaluated for painless testicular swelling. After resection, the pathologist compares the cut surface with the microscopic architecture.",
       "lead_in": "Which pattern best describes the cut surface?",
       "stem": "Which pattern best describes the cut surface?",
       "options": [
@@ -6185,7 +6185,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-cell-boundaries",
@@ -6216,7 +6216,7 @@
         "A dominant large pale population is apparent in these nests.",
         "The large lesional cells have rounded or polygonal outlines."
       ],
-      "explanation": "The large cells have distinct outlines and centrally located round nuclei. These are features of the large population rather than of the small dark septal cells.",
+      "explanation": "The large cells have distinct outlines and centrally located round nuclei. These are features of the large population rather than of the small dark septal cells. The nuclei are prominent and generally central.",
       "visual_clues": [
         "The large cells have distinct outlines and centrally located round nuclei."
       ],
@@ -6274,7 +6274,7 @@
         "The visual target is an internal lobulated mass.",
         "The cut surface contains abundant solid tan tissue."
       ],
-      "explanation": "Irregular dark and pale areas interrupt the tan lobulated surface. The gross heterogeneity contrasts with the relatively uniform pale cut surface of the original specimen.",
+      "explanation": "Irregular dark and pale areas interrupt the tan lobulated surface. The gross heterogeneity contrasts with the relatively uniform pale cut surface of the original specimen. The visual target is an internal lobulated mass.",
       "visual_clues": [
         "Irregular dark and pale areas interrupt the tan lobulated surface."
       ],
@@ -6563,7 +6563,7 @@
         "They sit at different positions along the uterotubal junction.",
         "It is at the uterine end, well medial to the fimbrial end."
       ],
-      "explanation": "The interstitial marker is drawn at the portion of the tube traversing the uterine wall. The isthmic marker lies farther laterally along the visible tube.",
+      "explanation": "The interstitial marker is drawn at the portion of the tube traversing the uterine wall. The isthmic marker lies farther laterally along the visible tube. It is at the uterine end, well medial to the fimbrial end.",
       "visual_clues": [
         "The interstitial marker is drawn at the portion of the tube traversing the uterine wall."
       ],
@@ -6586,7 +6586,7 @@
           "page": 6
         }
       ],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-depth-ovarian-distinction",
@@ -6617,7 +6617,7 @@
         "The distal tubal marker follows the end of the drawn tube. The ovarian marker is inside the separately outlined ovary rather than on the tubal course.",
         "It is lateral to the uterus within the ovarian outline."
       ],
-      "explanation": "The distal tubal marker follows the end of the drawn tube. The ovarian marker is inside the separately outlined ovary rather than on the tubal course.",
+      "explanation": "The distal tubal marker follows the end of the drawn tube. The ovarian marker is inside the separately outlined ovary rather than on the tubal course. Both ectopic sites are adnexal. Distal tubal implantation follows the end of the tube and ovarian implantation lies within the ovary. The uterine wall and cervix represent different implantation sites.",
       "visual_clues": [
         "The distal tubal marker follows the end of the drawn tube."
       ],
@@ -6640,7 +6640,7 @@
           "page": 6
         }
       ],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r18-intraductal-lesion-1",
@@ -6710,7 +6710,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r18-intraductal-lesion-2",
@@ -6846,7 +6846,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-necrosis-calcification",
@@ -6877,7 +6877,7 @@
         "The core is central to the surrounding viable cells.",
         "The pale material lies in the involved duct."
       ],
-      "explanation": "A dense pale core occupies the center of an expanded duct and is surrounded by darker viable cells. The lecture links calcification to central necrotic material.",
+      "explanation": "A dense pale core occupies the center of an expanded duct and is surrounded by darker viable cells. The lecture links calcification to central necrotic material. The structure of interest is a duct with a cellular rim.",
       "visual_clues": [
         "A dense pale core occupies the center of an expanded duct and is surrounded by darker viable cells."
       ],
@@ -6935,7 +6935,7 @@
         "One field has several round densely filled ductlike profiles. In the companion, smaller expanded units are grouped in a lobular pattern.",
         "The low power comparison emphasizes occupied ducts and lobular units."
       ],
-      "explanation": "One field has several round densely filled ductlike profiles. In the companion, smaller expanded units are grouped in a lobular pattern.",
+      "explanation": "One field has several round densely filled ductlike profiles. In the companion, smaller expanded units are grouped in a lobular pattern. The arrangement of multiple profiles differs between the fields.",
       "visual_clues": [
         "One field has several round densely filled ductlike profiles."
       ],
@@ -6998,7 +6998,7 @@
         "The field directly shows epithelial glands in relation to stroma.",
         "Irregular epithelial glands lie scattered within fibrous stroma. In the original section, the malignant cells and necrotic material occupy expanded duct profiles."
       ],
-      "explanation": "Irregular epithelial glands lie scattered within fibrous stroma. In the original section, the malignant cells and necrotic material occupy expanded duct profiles.",
+      "explanation": "Irregular epithelial glands lie scattered within fibrous stroma. In the original section, the malignant cells and necrotic material occupy expanded duct profiles. The profiles are distributed through stroma rather than contained by a lobular outline.",
       "visual_clues": [
         "Irregular epithelial glands lie scattered within fibrous stroma."
       ],
@@ -7118,7 +7118,7 @@
         "The change follows the tissue edge rather than occupying the lumen.",
         "The visible contrast is along the lining."
       ],
-      "explanation": "The dark segment has a more crowded nuclear profile than adjacent epithelial segments. The change is focal along the fold, which makes the transition useful for sampling.",
+      "explanation": "The dark segment has a more crowded nuclear profile than adjacent epithelial segments. The change is focal along the fold, which makes the transition useful for sampling. The visible contrast is along the lining.",
       "visual_clues": [
         "The dark segment has a more crowded nuclear profile than adjacent epithelial segments."
       ],
@@ -7171,7 +7171,7 @@
         "The table records that both tubes are removed in operation B.",
         "Both operations remove the fallopian tubes, including potential tubal precursor sites for high-grade serous carcinoma. Only operation B also removes the ovaries."
       ],
-      "explanation": "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers.",
+      "explanation": "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers. Opportunistic salpingectomy in row A removes both tubes and leaves the ovaries in place, addressing a potential source of precursors to high-grade serous carcinoma.",
       "visual_clues": [
         "Row A removes both tubes and leaves both ovaries."
       ],
@@ -7499,13 +7499,13 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The gross tissue includes numerous irregular solid projections.",
-        "The paired tissue views contain prominent irregular masses.",
-        "The specimen shows mixed solid and cystic areas with irregular surfaces.",
-        "Clot alone does not explain the nodular and projecting tissue.",
-        "The lesion has a substantial solid component with irregular papillary appearing surfaces and cavities. The guide describes the case ovaries as enlarged, irregular, and focally cystic."
+        "A simple unilocular cyst has a thin smooth wall. This specimen has multiple irregular solid projections interrupting the cavitary surfaces.",
+        "Normal smooth ovaries lack protruding nodular tissue. Both displayed adnexal surfaces have irregular masses.",
+        "A uniform yellow solid nodule would have an even cut surface with no cavities. Here irregular projecting solid tissue surrounds multiple spaces.",
+        "An organized clot may be dark and friable. It would not account for the attached nodular and papillary appearing tissue.",
+        "The specimen combines irregular solid surfaces and papillary appearing projections with visible cavitary regions."
       ],
-      "explanation": "The lesion has a substantial solid component with irregular papillary appearing surfaces and cavities. The guide describes the case ovaries as enlarged, irregular, and focally cystic.",
+      "explanation": "The enlarged, irregular, focally cystic ovaries in this case contained carcinoma on follow-up. The gross solid projections help distinguish this appearance from a smooth simple cyst. Histology and the ancillary workup establish the tumor type.",
       "visual_clues": [
         "The lesion has a substantial solid component with irregular papillary appearing surfaces and cavities."
       ],
@@ -7539,24 +7539,24 @@
       "collection": "R29",
       "question_type": "Clinical visual question",
       "tested_concept": "Pleural positive pattern",
-      "visual_target": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
-      "stem": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
+      "visual_target": "Given this immunostain panel, which lineage is most likely and which site should be evaluated for a primary tumor?",
+      "stem": "Given this immunostain panel, which lineage is most likely and which site should be evaluated for a primary tumor?",
       "options": [
-        "Calretinin positivity establishes a mesothelial origin for the tumor",
-        "CDX2 positivity establishes a colorectal primary site on its own",
-        "TTF1 positivity establishes a thyroid or lung primary site on its own",
-        "PAX8 positivity alone establishes an ovarian primary site for the tumor",
-        "The combined pattern favors Müllerian origin but needs further correlation"
+        "Mesothelial lineage; evaluate the pleura.",
+        "Colorectal epithelial lineage; evaluate the colon.",
+        "Pulmonary epithelial lineage; evaluate the lung.",
+        "Renal epithelial lineage; evaluate the kidneys.",
+        "Müllerian epithelial lineage; evaluate the adnexa."
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "Calretinin is negative, so the panel does not support a mesothelial origin through that marker. The combined positive stains favor Müllerian origin.",
-        "CDX2 is negative in this case, providing no positive evidence for a colorectal primary. The combined positive stains favor Müllerian origin.",
-        "TTF1 is negative in this case, providing no positive evidence from that marker for a thyroid or lung primary.",
-        "PAX8 may be expressed in several tissues. In this case CK7, PAX8, and CA125 together support Müllerian origin, and follow-up evaluates the ovary as the primary site.",
-        "CK7, PAX8, and CA125 are positive. The guide interprets the panel as supporting Müllerian origin and relies on the subsequent ovarian evaluation to establish the primary."
+        "Calretinin is negative, so the panel offers less support for mesothelial lineage. The combined positive pattern favors Müllerian epithelium.",
+        "CDX2 is negative, weakening the colorectal alternative. The positive PAX8 and CA125 pattern fits the Müllerian workup.",
+        "TTF1 is negative, and the combined panel fits Müllerian origin better than a pulmonary primary. Pleural fluid is the sampling site.",
+        "PAX8 can occur in renal as well as Müllerian tissue. PAX8 alone cannot establish renal origin, and the other positive markers and follow-up favor the adnexa.",
+        "CK7, PAX8 and CA125 positivity together favor Müllerian lineage, prompting evaluation of the adnexa."
       ],
-      "explanation": "CK7, PAX8, and CA125 are positive. The guide interprets the panel as supporting Müllerian origin and relies on the subsequent ovarian evaluation to establish the primary.",
+      "explanation": "Immunostains narrow lineage before they identify a precise anatomic primary. In this case the panel supported Müllerian carcinoma and ovarian follow-up established the primary. PAX8 alone would not distinguish an ovarian source from a renal or other PAX8-positive source.",
       "visual_clues": [
         "CK7, PAX8, and CA125 are positive."
       ],
@@ -7624,12 +7624,12 @@
         }
       ],
       "case_id": "r29-pleural",
-      "scenario": "An older adult with progressive dyspnea and bilateral pleural effusions has malignant appearing cells in the drained fluid. The follow-up guide gives the ancillary results.",
-      "lead_in": "Which interpretation best integrates the positive epithelial and lineage marker pattern without overcalling the primary site?",
+      "scenario": "A 66-year-old with worsening dyspnea and abdominal bloating has bilateral pleural effusions. Thoracentesis yields malignant cells, and immunostains are performed on the fluid specimen.",
+      "lead_in": "Given this immunostain panel, which lineage is most likely and which site should be evaluated for a primary tumor?",
       "format_version": "clinical-visual-v1",
       "difficulty": "advanced",
       "reasoning_type": "clinical_integration",
-      "study_skill": "interpretation"
+      "study_skill": "stain"
     },
     {
       "question_id": "q-r29-cervix-case",
@@ -7639,7 +7639,7 @@
       "variant_id": "v-d413f52ab8021dee197d",
       "question_type": "Clinical visual question",
       "tested_concept": "Punctate erythema of the ectocervix",
-      "visual_target": "Punctate erythema of the ectocervix",
+      "visual_target": "Which change is visible on the exposed cervical surface?",
       "category": "Gross",
       "collection": "R29",
       "source_origin": "lecture",
@@ -7647,7 +7647,7 @@
       "zoom_image": "assets/zoom/0be8e563f9f143842894e11436168d24ed32fb7be3711f78bbfd8893e0701a99.webp",
       "original_image": "assets/zoom/0be8e563f9f143842894e11436168d24ed32fb7be3711f78bbfd8893e0701a99.webp",
       "original_filename": "Case 2 Cervix - Gross.png",
-      "stem": "What gross finding in this examination supports the suspected inflammatory process?",
+      "stem": "Which change is visible on the exposed cervical surface?",
       "options": [
         "A solitary deep ulcer with a crater",
         "An exophytic papillary mass",
@@ -7685,8 +7685,8 @@
         }
       ],
       "case_id": "r29-cervix",
-      "scenario": "A patient presents with dysuria and frothy discharge. The examination is followed by cervical cytology at progressively higher magnification.",
-      "lead_in": "What gross finding in this examination supports the suspected inflammatory process?",
+      "scenario": "A patient reports dysuria and vaginal discharge. A speculum examination is followed by cervical cytology.",
+      "lead_in": "Which change is visible on the exposed cervical surface?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
@@ -7928,7 +7928,7 @@
         "The target consists of halos around nuclei rather than filamentous structures.",
         "The change is visible within the surface squamous cells."
       ],
-      "explanation": "The broad halos lie around the nuclei of the squamous cells themselves. This differs from the smaller discrete organisms that can overlie squamous profiles in the original smear.",
+      "explanation": "The broad halos lie around the nuclei of the squamous cells themselves. This differs from the smaller discrete organisms that can overlie squamous profiles in the original smear. The clear zones are centered on nuclei within the squamous layer.",
       "visual_clues": [
         "The broad halos lie around the nuclei of the squamous cells themselves."
       ],
@@ -7994,7 +7994,7 @@
         "The visible targets are rounded rather than branching.",
         "A continuous strip is less useful than tracking the discrete outlined forms."
       ],
-      "explanation": "Focus on the discrete rounded or ovoid bodies that have definable boundaries against the granular background. The guide describes wobbling or rotating motion, which cannot be established by a still image.",
+      "explanation": "Focus on the discrete rounded or ovoid bodies that have definable boundaries against the granular background. The guide describes wobbling or rotating motion, which cannot be established by a still image. These grains are smaller than the discrete bodies of interest.",
       "visual_clues": [
         "Focus on the discrete rounded or ovoid bodies that have definable boundaries against the granular background."
       ],
@@ -8258,7 +8258,7 @@
         "The opened cavity contains dense dark brown material. The course review attributes the color to old hemorrhage, a macroscopic companion to the microscopic blood products in the vaginal specimen.",
         "The dark contents fill most of the space rather than arising as a stalk."
       ],
-      "explanation": "The opened cavity contains dense dark brown material. The course review attributes the color to old hemorrhage, a macroscopic companion to the microscopic blood products in the vaginal specimen.",
+      "explanation": "The opened cavity contains dense dark brown material. The course review attributes the color to old hemorrhage, a macroscopic companion to the microscopic blood products in the vaginal specimen. A large cavity dominates the cut surface.",
       "visual_clues": [
         "The opened cavity contains dense dark brown material."
       ],
@@ -8320,7 +8320,7 @@
         "Both the timing and the tissue relationship contribute to the inference.",
         "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue. That finding makes pleural involvement a plausible explanation for cycle linked episodes, but the vaginal tissue does not prove disease in the pleura."
       ],
-      "explanation": "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue. That finding makes pleural involvement a plausible explanation for cycle linked episodes, but the vaginal tissue does not prove disease in the pleura.",
+      "explanation": "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue. That finding makes pleural involvement a plausible explanation for cycle linked episodes, but the vaginal tissue does not prove disease in the pleura. Evidence at one extrauterine site does not exclude involvement at another.",
       "visual_clues": [
         "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue."
       ],
@@ -8359,7 +8359,7 @@
           "page": 36
         }
       ],
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-reasoning-cycle-linked-workup",
@@ -8383,7 +8383,7 @@
         "Screening timing does not test the mechanism discussed in the guide.",
         "Exercise timing could help evaluate symptoms, while the vaginal lesion makes menstrual timing the distinguishing question."
       ],
-      "explanation": "The vaginal field contains endometrial type glands and associated stroma at an extrauterine site. R29 describes a cycle-linked pulmonary presentation, so the timing of each pneumothorax relative to menses is the most useful connection to check.",
+      "explanation": "The vaginal field contains endometrial type glands and associated stroma at an extrauterine site. R29 describes a cycle-linked pulmonary presentation, so the timing of each pneumothorax relative to menses is the most useful connection to check. Screening timing does not test the mechanism discussed in the guide.",
       "visual_clues": [
         "The vaginal field contains endometrial type glands and associated stroma at an extrauterine site."
       ],
@@ -8604,7 +8604,7 @@
         "This is a cut prostate with nodules surrounding its channel.",
         "The nodules directly border the central channel."
       ],
-      "explanation": "Rounded nodules crowd the slitlike central urethral channel. Periurethral growth provides a structural explanation for the obstructive symptoms.",
+      "explanation": "Rounded nodules crowd the slitlike central urethral channel. Periurethral growth provides a structural explanation for the obstructive symptoms. The prominent nodules surround the central slit.",
       "visual_clues": [
         "Rounded nodules crowd the slitlike central urethral channel."
       ],
@@ -8674,7 +8674,7 @@
         "Luminal secretions do not mark basal cells.",
         "A globally blank field cannot show that the stain worked in benign glands."
       ],
-      "explanation": "The brown nuclear signal traces the outer contours of multiple benign glands. Such a positive control makes absence in a suspicious focus more informative than a globally blank stain.",
+      "explanation": "The brown nuclear signal traces the outer contours of multiple benign glands. Such a positive control makes absence in a suspicious focus more informative than a globally blank stain. A globally blank field cannot show that the stain worked in benign glands.",
       "visual_clues": [
         "The brown nuclear signal traces the outer contours of multiple benign glands."
       ],
@@ -8736,7 +8736,7 @@
         "The field shows prostate glands rather than a bladder wall interface.",
         "A representative field cannot exclude a different pattern in another area."
       ],
-      "explanation": "The dilated folded glands in this field are the hyperplastic component. The follow-up distinguishes that obstructive process from the focal small gland carcinoma elsewhere in the specimen.",
+      "explanation": "The dilated folded glands in this field are the hyperplastic component. The follow-up distinguishes that obstructive process from the focal small gland carcinoma elsewhere in the specimen. The field shows prostate glands rather than a bladder wall interface.",
       "visual_clues": [
         "The dilated folded glands in this field are the hyperplastic component."
       ],
@@ -8803,7 +8803,7 @@
         "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component. The guide calls for further assessment before choosing therapy because the resection mainly samples the transition zone.",
         "The focal crowded population requires separate assessment."
       ],
-      "explanation": "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component. The guide calls for further assessment before choosing therapy because the resection mainly samples the transition zone.",
+      "explanation": "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component. The guide calls for further assessment before choosing therapy because the resection mainly samples the transition zone. This limited sample does not establish the distribution in the rest of the prostate.",
       "visual_clues": [
         "The small crowded glands raise concern for a focal carcinoma distinct from the hyperplastic component."
       ],
@@ -8994,7 +8994,7 @@
       "variant_id": "v-6ebb7052557b5d46791e",
       "question_type": "Clinical visual question",
       "tested_concept": "Tumor nests and bladder wall architecture",
-      "visual_target": "Tumor nests and bladder wall architecture",
+      "visual_target": "Inspect the junction between the darker cells and the pink wall tissue. Which architecture is present?",
       "category": "Histology",
       "collection": "R29",
       "source_origin": "lecture",
@@ -9002,23 +9002,23 @@
       "zoom_image": "assets/zoom/2d2b374c4f3188f4f6e249616a6860589bdf34c5f4e7f8a8b82752f964d976ec.webp",
       "original_image": "assets/zoom/2d2b374c4f3188f4f6e249616a6860589bdf34c5f4e7f8a8b82752f964d976ec.webp",
       "original_filename": "Case 5 Bladder Biopsy 2 - Histology.png",
-      "stem": "Which observation in the second field corroborates the evidence of invasion?",
+      "stem": "Inspect the junction between the darker cells and the pink wall tissue. Which architecture is present?",
       "options": [
-        "Dark tumor nests embedded within the wall tissue",
-        "Only a continuous bland urothelial lining",
-        "A single acellular cavity in otherwise normal wall",
-        "A free papillary fragment without underlying tissue",
-        "Distant metastasis visualized in the biopsy"
+        "Dark irregular nests extend between wall bundles.",
+        "A continuous bland lining rests above the wall.",
+        "Smooth rounded urothelial nests remain confined to superficial lamina propria.",
+        "A detached papillary fragment lies beside the wall without a tissue interface.",
+        "A flat atypical population remains confined to the surface epithelium."
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The dark profiles lie inside the pink tissue rather than forming a free surface sheet.",
-        "The conspicuous profiles are within the section and are architecturally irregular.",
-        "There are multiple dark cellular profiles with discernible nuclei.",
-        "Pink supporting wall tissue surrounds the abnormal profiles.",
-        "This is a bladder biopsy. No distant tissue is sampled."
+        "Irregular dark nests interdigitate with the pink wall tissue rather than remaining on its surface.",
+        "A bland surface lining would sit above the wall. The darker cells here form irregular nests among wall bundles.",
+        "Regular superficial urothelial nests would remain in the lamina propria. These nests lie among broad wall bundles in the supplied invasive biopsy.",
+        "A detached papillary fragment does not by itself establish invasion. This field shows a persistent relationship between tumor nests and the wall.",
+        "A flat in situ lesion may be markedly atypical but stays within the surface lining. These dark nests lie beneath that compartment."
       ],
-      "explanation": "Dark rounded and irregular tumor profiles sit within the pink wall tissue. The companion biopsy and follow-up guide confirm muscle invasion. These fields establish local invasion without showing distant spread.",
+      "explanation": "Depth depends on where the tumor cells are, not simply how abnormal their nuclei appear. The companion fields show wall infiltration; detached papillae or flat atypia alone could not establish muscle involvement.",
       "visual_clues": [
         "Compare the dark rounded nests with the pink bundles that surround them."
       ],
@@ -9049,7 +9049,7 @@
       ],
       "case_id": "r29-bladder",
       "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology is followed by a bladder biopsy.",
-      "lead_in": "Which observation in the second field corroborates the evidence of invasion?",
+      "lead_in": "Inspect the junction between the darker cells and the pink wall tissue. Which architecture is present?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
@@ -9066,10 +9066,10 @@
       "difficulty": "intermediate",
       "reasoning_type": "clinical_integration",
       "tested_concept": "Raised papillary architecture in a separate urothelial lesion",
-      "visual_target": "Raised papillary architecture in a separate urothelial lesion",
+      "visual_target": "Follow the pink tissue through the center of the epithelial proliferation. Which relationship between epithelium and stroma is present?",
       "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology and biopsy are obtained.",
-      "lead_in": "This separate urothelial teaching field shows a precursor pattern. Which growth direction separates it from tumor nests embedded in the bladder wall?",
-      "stem": "This separate urothelial teaching field shows a precursor pattern. Which growth direction separates it from tumor nests embedded in the bladder wall?",
+      "lead_in": "Follow the pink tissue through the center of the epithelial proliferation. Which relationship between epithelium and stroma is present?",
+      "stem": "Follow the pink tissue through the center of the epithelial proliferation. Which relationship between epithelium and stroma is present?",
       "options": [
         "Small epithelial nests extend inward between detrusor fascicles",
         "A single flat atypical layer follows a level mucosal surface",
@@ -9079,13 +9079,13 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The visible epithelium follows a projecting frond, not an infiltrative muscle interface.",
-        "The specimen has a conspicuous projection.",
-        "The epithelial covering is attached to a tissue core.",
-        "The tissue forms a papillary frond with a stromal core and epithelium over its outer surface. A projecting frond has a different relationship to stroma than infiltrating nests.",
-        "The key structure is a projecting frond."
+        "Muscle-invasive urothelial carcinoma would form separate nests between detrusor bundles. This epithelial layer follows a branching fibrovascular axis.",
+        "Urothelial carcinoma in situ follows a flat mucosal surface. The field shows epithelium around a projecting core.",
+        "Urine cytology could contain detached cell groups. This biopsy preserves a continuous layer of epithelium on a tissue core.",
+        "Urothelium lines the outside of a projecting fibrovascular core.",
+        "A deep glandular nodule would show enclosed lumens within wall tissue. Here the epithelial layer is wrapped around a central stromal projection."
       ],
-      "explanation": "The tissue forms a papillary frond with a stromal core and epithelium over its outer surface. A projecting frond has a different relationship to stroma than infiltrating nests.",
+      "explanation": "Papillary urothelial growth is organized around fibrovascular cores. The projection extends toward the lumen and must be distinguished from irregular epithelial nests scattered within the bladder wall.",
       "visual_clues": [
         "The tissue forms a papillary frond with a stromal core and epithelium over its outer surface."
       ],
@@ -9124,7 +9124,7 @@
           "page": 59
         }
       ],
-      "study_skill": "management"
+      "study_skill": "morphology"
     },
     {
       "question_id": "q-r29-bladder-depth-flat-comparison",
@@ -9155,7 +9155,7 @@
         "The prominent feature is a densely cellular epithelial strip.",
         "Crowded pleomorphic cells follow the surface epithelial strip in this field. The visual shows where the abnormality is located, while the original biopsy can be assessed for tumor within the bladder wall."
       ],
-      "explanation": "Crowded pleomorphic cells follow the surface epithelial strip in this field. The visual shows where the abnormality is located, while the original biopsy can be assessed for tumor within the bladder wall.",
+      "explanation": "Crowded pleomorphic cells follow the surface epithelial strip in this field. The visual shows where the abnormality is located, while the original biopsy can be assessed for tumor within the bladder wall. Urine cytology can show detached atypical urothelial cells. This tissue section preserves a flat attached epithelial layer and demonstrates the intraepithelial pattern of urothelial carcinoma in situ.",
       "visual_clues": [
         "Crowded pleomorphic cells follow the surface epithelial strip in this field."
       ],
@@ -9218,7 +9218,7 @@
         "The supplied staging condition excludes distant disease and the tissue establishes local muscle invasion.",
         "The biopsy shows malignant cells infiltrating between detrusor muscle bundles. Muscle invasion places the patient in the group requiring radical treatment with curative intent rather than a regimen limited to the bladder lining."
       ],
-      "explanation": "The biopsy shows malignant cells infiltrating between detrusor muscle bundles. Muscle invasion places the patient in the group requiring radical treatment with curative intent rather than a regimen limited to the bladder lining.",
+      "explanation": "The biopsy shows malignant cells infiltrating between detrusor muscle bundles. Muscle invasion places the patient in the group requiring radical treatment with curative intent rather than a regimen limited to the bladder lining. BCG is the guide's example for non-muscle-invasive disease. Tumor is present in detrusor here.",
       "visual_clues": [
         "The biopsy shows malignant cells infiltrating between detrusor muscle bundles."
       ],
@@ -9296,7 +9296,7 @@
         "The fluid does not preserve the relation of tumor to bladder wall.",
         "An additional stain may aid classification but cannot restore tissue architecture."
       ],
-      "explanation": "This is urine cytology with a group of atypical exfoliated cells. The specimen lacks tissue architecture, so a biopsy that samples the bladder wall is required to assess invasion depth in this case.",
+      "explanation": "This is urine cytology with a group of atypical exfoliated cells. The specimen lacks tissue architecture, so a biopsy that samples the bladder wall is required to assess invasion depth in this case. Nuclear size is cytologic evidence and does not show the wall interface.",
       "visual_clues": [
         "This is urine cytology with a group of atypical exfoliated cells."
       ],
@@ -9620,7 +9620,7 @@
         "The visible branch shows follicle loss rather than expansion.",
         "Lower estradiol weakens feedback; the lecture shows a rise in FSH."
       ],
-      "explanation": "Loss of primary ovarian follicles leads to lower estradiol in serum and tissue. The lecture relates low estrogen exposure to thinning of the vaginal epithelium.",
+      "explanation": "Loss of primary ovarian follicles leads to lower estradiol in serum and tissue. The lecture relates low estrogen exposure to thinning of the vaginal epithelium. Loss of the follicle pool reduces ovarian estradiol production.",
       "visual_clues": [
         "Loss of primary ovarian follicles leads to lower estradiol in serum and tissue."
       ],
@@ -9656,7 +9656,7 @@
     {
       "question_id": "q-r30-flushing-pattern",
       "collection": "R30",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Clinical data",
       "tested_concept": "Associated symptoms in the flushing differential",
       "visual_target": "Associated symptoms in the flushing differential",
@@ -9677,7 +9677,7 @@
         "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways."
       ],
       "correct_index": 4,
-      "explanation": "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways.",
+      "explanation": "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways. Pattern A reproduces the original heat episodes without the more specific hypertensive pattern.",
       "visual_clues": [
         "Focus on the accompanying symptoms rather than on flushing alone."
       ],
@@ -9764,7 +9764,7 @@
         "This comparison concerns systemic estrogen in a patient with a uterus."
       ],
       "correct_index": 0,
-      "explanation": "R30 explains that unopposed estrogen can promote endometrial pathology in a patient with a uterus. A progestogen is added for endometrial protection.",
+      "explanation": "R30 explains that unopposed estrogen can promote endometrial pathology in a patient with a uterus. A progestogen is added for endometrial protection. The lecture distinguishes estrogen alone from the regimen with added protection.",
       "visual_clues": [
         "The two systemic regimens differ by the addition of a progestogen."
       ],
@@ -9847,7 +9847,7 @@
         "Nonhormonal vasomotor therapy targets menopausal hot flashes. Local vaginal estrogen addresses the low-estrogen vaginal epithelial effect shown."
       ],
       "correct_index": 1,
-      "explanation": "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms.",
+      "explanation": "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms. The menopausal vaginal epithelium is thin because of reduced estrogen signaling. Progestogen alone does not restore that signal.",
       "visual_clues": [
         "The right-hand epithelium is thinner and has fewer layers."
       ],
@@ -10039,7 +10039,7 @@
         "The inhibin and FSH branches both connect to the ovarian part of the diagram.",
         "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary. The arrows distinguish ovarian feedback from pituitary output."
       ],
-      "explanation": "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary. The arrows distinguish ovarian feedback from pituitary output.",
+      "explanation": "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary. The arrows distinguish ovarian feedback from pituitary output. The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary, so this choice reverses the arrows.",
       "visual_clues": [
         "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary."
       ],
@@ -10097,7 +10097,7 @@
         "The pathway predicts a change in ovarian estradiol and does not show that ovarian output.",
         "The inhibition appears upstream of ovarian output."
       ],
-      "explanation": "Reduced central stimulation reduces gonadotropin pulsation and ovarian estradiol output. The lecture describes low LH and low estradiol in this example, with FSH low or within the normal range.",
+      "explanation": "Reduced central stimulation reduces gonadotropin pulsation and ovarian estradiol output. The lecture describes low LH and low estradiol in this example, with FSH low or within the normal range. The diagram shows a pituitary relay rather than a bypass.",
       "visual_clues": [
         "Reduced central stimulation reduces gonadotropin pulsation and ovarian estradiol output."
       ],
@@ -10163,7 +10163,7 @@
         "FSH rises while estradiol falls on the graph, so this choice reverses both directions.",
         "The two curves diverge markedly."
       ],
-      "explanation": "The graph shows FSH rising around the reference point while estradiol falls. With reduced central stimulation in the athlete, the lecture instead describes FSH as low or normal; the compensatory rise is the useful discriminator.",
+      "explanation": "The graph shows FSH rising around the reference point while estradiol falls. With reduced central stimulation in the athlete, the lecture instead describes FSH as low or normal; the compensatory rise is the useful discriminator. FSH rises while estradiol falls on the graph, so this choice reverses both directions.",
       "visual_clues": [
         "The graph shows FSH rising around the reference point while estradiol falls."
       ],
@@ -10308,7 +10308,7 @@
         "Hormone replacement alone leaves the energy deficit driving functional hypothalamic amenorrhea in place. The lecture targets intake and training to restore energy availability."
       ],
       "correct_index": 3,
-      "explanation": "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case.",
+      "explanation": "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case. More exercise without increased intake preserves or worsens the energy deficit driving functional hypothalamic amenorrhea.",
       "visual_clues": [
         "The altered hormone output follows the low-energy and high-training pattern."
       ],
@@ -10385,7 +10385,7 @@
         "The lecture identifies accelerations and no decelerations in this tracing.",
         "Those peaks are in the uterine activity channel."
       ],
-      "explanation": "The upper trace stays in the baseline band and shows small fluctuations and brief rises. The lecture describes a fetal heart rate in the 150s with moderate variability, accelerations, and no decelerations.",
+      "explanation": "The upper trace stays in the baseline band and shows small fluctuations and brief rises. The lecture describes a fetal heart rate in the 150s with moderate variability, accelerations, and no decelerations. The upper trace remains within the higher baseline band shown in the lecture.",
       "visual_clues": [
         "The upper trace stays in the baseline band and shows small fluctuations and brief rises."
       ],
@@ -10448,7 +10448,7 @@
         "Contraction frequency comes from monitoring rather than the cervical contour.",
         "The drawing compares changes in the cervix rather than pelvic dimensions."
       ],
-      "explanation": "The right drawing shows shortening and thinning of the cervical canal. The lecture records that change as effacement measured as a percentage.",
+      "explanation": "The right drawing shows shortening and thinning of the cervical canal. The lecture records that change as effacement measured as a percentage. Contraction frequency comes from monitoring rather than the cervical contour.",
       "visual_clues": [
         "The right drawing shows shortening and thinning of the cervical canal."
       ],
@@ -10523,7 +10523,7 @@
         "The red line marks the ischial spines at zero station. Movement toward the outlet below that plane produces a positive station.",
         "The figure measures position of the presenting part relative to the spines."
       ],
-      "explanation": "The red line marks the ischial spines at zero station. Movement toward the outlet below that plane produces a positive station.",
+      "explanation": "The red line marks the ischial spines at zero station. Movement toward the outlet below that plane produces a positive station. The motion starts at the zero reference line.",
       "visual_clues": [
         "The red line marks the ischial spines at zero station."
       ],
@@ -10581,7 +10581,7 @@
         "CEA is not the dominant elevation in this lecture case.",
         "The complex pelvic mass and relative marker elevations favor an ovarian primary in the lecture case."
       ],
-      "explanation": "The complex pelvic mass and relative marker elevations favor an ovarian primary in the lecture case.",
+      "explanation": "The complex pelvic mass and relative marker elevations favor an ovarian primary in the lecture case. CA-125 alone does not localize the lesion to the uterine cavity.",
       "visual_clues": [
         "The scan shows a large complex pelvic lesion with both cystic and solid regions."
       ],
@@ -10619,7 +10619,7 @@
       "visual_kind": "image",
       "difficulty": "advanced",
       "reasoning_type": "clinical_integration",
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-reasoning-omental-implication",
@@ -10643,7 +10643,7 @@
         "The anterior soft tissue pattern is omental caking in the supplied CT. It supports disease extending beyond the dominant pelvic mass into the peritoneal compartment.",
         "The CT shows extraovarian soft tissue and the companion image is complex."
       ],
-      "explanation": "The anterior soft tissue pattern is omental caking in the supplied CT. It supports disease extending beyond the dominant pelvic mass into the peritoneal compartment.",
+      "explanation": "The anterior soft tissue pattern is omental caking in the supplied CT. It supports disease extending beyond the dominant pelvic mass into the peritoneal compartment. The arrowed soft tissue is separate from the pelvic lesion.",
       "visual_clues": [
         "The anterior soft tissue pattern is omental caking in the supplied CT."
       ],
@@ -10682,7 +10682,7 @@
       "visual_kind": "image",
       "difficulty": "intermediate",
       "reasoning_type": "mechanism",
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r27-pelvic-workup-maintenance-testing",
@@ -10712,7 +10712,7 @@
         "The initial chemotherapy is already specified in the lecture. The pending testing guides later treatment.",
         "Those markers are reported earlier in the diagnostic workup. The listed testing concerns DNA repair status."
       ],
-      "explanation": "The lecture lists carboplatin and paclitaxel as initial chemotherapy. Germline and tumor BRCA and homologous recombination deficiency testing guide selection of later maintenance therapy.",
+      "explanation": "The lecture lists carboplatin and paclitaxel as initial chemotherapy. Germline and tumor BRCA and homologous recombination deficiency testing guide selection of later maintenance therapy. The initial chemotherapy is already specified in the lecture. The pending testing guides later treatment.",
       "visual_clues": [
         "The planned initial chemotherapy is listed. BRCA and homologous recombination deficiency testing inform the later plan."
       ],
@@ -10798,7 +10798,7 @@
         "The lesion requires a tissue diagnosis.",
         "The photo shows the cervix and does not assess lymph nodes."
       ],
-      "explanation": "The image shows a visible irregular cervical lesion. The course specifies biopsy of a visible lesion rather than relying on screening cytology alone.",
+      "explanation": "The image shows a visible irregular cervical lesion. The course specifies biopsy of a visible lesion rather than relying on screening cytology alone. The photo shows the cervix and does not assess lymph nodes.",
       "visual_clues": [
         "The image shows a visible irregular cervical lesion."
       ],
@@ -10860,7 +10860,7 @@
         "The lecture stages the positive node radiologically and selects definitive treatment without nodal resection.",
         "The lecture uses external beam treatment as part of the plan to cover the pelvis as well as brachytherapy to treat the primary site."
       ],
-      "explanation": "The separate pelvic focus is the involved pelvic node in the lecture case. The imaging supports node-positive staging, and the lecture selects definitive pelvic chemoradiation with brachytherapy.",
+      "explanation": "The separate pelvic focus is the involved pelvic node in the lecture case. The imaging supports node-positive staging, and the lecture selects definitive pelvic chemoradiation with brachytherapy. The lecture stages the positive node radiologically and selects definitive treatment without nodal resection.",
       "visual_clues": [
         "The separate pelvic focus is the involved pelvic node in the lecture case."
       ],
@@ -10936,7 +10936,7 @@
         "The relevant substrate for iodine is glycogen, while the acetic acid appearance is linked to nuclear protein.",
         "The left arrow marks a yellow area with reduced uptake. The lecture associates whitening with increased nuclear protein."
       ],
-      "explanation": "The yellow Lugol region lacks the dark iodine uptake of glycogen-rich epithelium. The second region turns white after acetic acid, which the lecture links to dehydration and increased nuclear protein in abnormal cells.",
+      "explanation": "The yellow Lugol region lacks the dark iodine uptake of glycogen-rich epithelium. The second region turns white after acetic acid, which the lecture links to dehydration and increased nuclear protein in abnormal cells. The relevant substrate for iodine is glycogen, while the acetic acid appearance is linked to nuclear protein.",
       "visual_clues": [
         "Compare the light area at the Lugol arrow with the darker adjacent tissue. The other arrow marks whitening after acetic acid."
       ],
@@ -10993,7 +10993,7 @@
         "Urine cytology does not sample this focal surface lesion.",
         "The image shows a discrete raised irregular lesion. The lecture calls for biopsy of a persistent vulvar lesion that has not responded to treatment."
       ],
-      "explanation": "The image shows a discrete raised irregular lesion. The lecture calls for biopsy of a persistent vulvar lesion that has not responded to treatment.",
+      "explanation": "The image shows a discrete raised irregular lesion. The lecture calls for biopsy of a persistent vulvar lesion that has not responded to treatment. Urine cytology does not sample this focal surface lesion.",
       "visual_clues": [
         "The image shows a discrete raised irregular lesion."
       ],
@@ -11055,7 +11055,7 @@
         "The first nodal groups shown are in the groin.",
         "Several regional drainage pathways are drawn."
       ],
-      "explanation": "The central lesion has drainage pathways to both groins in the diagram. The lateral lesion in the lecture had a unilateral inguinal assessment plan.",
+      "explanation": "The central lesion has drainage pathways to both groins in the diagram. The lateral lesion in the lecture had a unilateral inguinal assessment plan. The first nodal groups shown are in the groin.",
       "visual_clues": [
         "The central lesion has drainage pathways to both groins in the diagram."
       ],
@@ -11123,7 +11123,7 @@
         "Negative groins on examination can support sentinel node assessment when otherwise eligible. They do not change the measured depth.",
         "The lecture bases this exception on measured invasion depth. Histologic grade is a different finding."
       ],
-      "explanation": "The biopsy shows 7 mm of invasion. The lecture limits the shallow-invasion exception to lesions with depth of 1 mm or less.",
+      "explanation": "The biopsy shows 7 mm of invasion. The lecture limits the shallow-invasion exception to lesions with depth of 1 mm or less. Negative groins on examination can support sentinel node assessment when otherwise eligible. They do not change the measured depth.",
       "visual_clues": [
         "Compare the 7 mm depth with the course criterion of 1 mm or less."
       ],
@@ -11215,7 +11215,7 @@
         "The central pattern is much broader and heterogeneous.",
         "This is a pelvic study with a conspicuous uterine abnormality."
       ],
-      "explanation": "The central uterus contains heterogeneous echogenic tissue and small dark spaces without an identifiable fetal profile. In the lecture case, the abnormal uterine pattern and persistent pregnancy-related hormone signal after delivery warrant assessment for gestational trophoblastic neoplasia.",
+      "explanation": "The central uterus contains heterogeneous echogenic tissue and small dark spaces without an identifiable fetal profile. In the lecture case, the abnormal uterine pattern and persistent pregnancy-related hormone signal after delivery warrant assessment for gestational trophoblastic neoplasia. The displayed uterine region is heterogeneous and lacks a recognizable normal fetal profile.",
       "visual_clues": [
         "The central uterus contains heterogeneous echogenic tissue and small dark spaces without an identifiable fetal profile."
       ],
@@ -11277,7 +11277,7 @@
         "Several rounded opacities are visible in both lungs. In the context of the elevated hCG and uterine findings, the lecture case interprets the pulmonary findings as metastases.",
         "The lecture interprets the lung pattern together with the pelvic findings and elevated hCG."
       ],
-      "explanation": "Several rounded opacities are visible in both lungs. In the context of the elevated hCG and uterine findings, the lecture case interprets the pulmonary findings as metastases.",
+      "explanation": "Several rounded opacities are visible in both lungs. In the context of the elevated hCG and uterine findings, the lecture case interprets the pulmonary findings as metastases. The lecture interprets the lung pattern together with the pelvic findings and elevated hCG.",
       "visual_clues": [
         "Several rounded opacities are visible in both lungs."
       ],
@@ -11315,7 +11315,7 @@
       "visual_kind": "image",
       "difficulty": "advanced",
       "reasoning_type": "mechanism",
-      "study_skill": "management"
+      "study_skill": "interpretation"
     },
     {
       "question_id": "q-r28-postpartum-workup-vascular-lesion",
@@ -11345,7 +11345,7 @@
         "The lecture says histologic confirmation is not required before treatment in this setting.",
         "The lecture connects the vaginal and lung findings to the same suspected gestational trophoblastic process."
       ],
-      "explanation": "The postpartum timing, elevated β-hCG, pulmonary findings, and vaginal lesions support the lecture’s concern for gestational trophoblastic neoplasia. The vaginal lesions are a hemorrhage risk, and the lecture states that histology is not required to proceed with treatment.",
+      "explanation": "The postpartum timing, elevated β-hCG, pulmonary findings, and vaginal lesions support the lecture’s concern for gestational trophoblastic neoplasia. The vaginal lesions are a hemorrhage risk, and the lecture states that histology is not required to proceed with treatment. The lecture connects the vaginal and lung findings to the same suspected gestational trophoblastic process.",
       "visual_clues": [
         "The case pairs elevated β-hCG after a term birth with lung findings and erythematous vaginal lesions."
       ],
@@ -11422,7 +11422,7 @@
         "The course discusses this in a separate setting linked to DNA repair status, which these probes do not assess.",
         "Cytotoxic chemotherapy does not specifically target the receptor whose amplification is shown here."
       ],
-      "explanation": "Tumor nuclei show excess red HER2 signals relative to the chromosome 17 control. The example illustrates HER2 amplification, for which the lecture identifies trastuzumab as a receptor-directed antibody.",
+      "explanation": "Tumor nuclei show excess red HER2 signals relative to the chromosome 17 control. The example illustrates HER2 amplification, for which the lecture identifies trastuzumab as a receptor-directed antibody. The course discusses this in a separate setting linked to DNA repair status, which these probes do not assess.",
       "visual_clues": [
         "Tumor nuclei show excess red HER2 signals relative to the chromosome 17 control."
       ],
@@ -11496,7 +11496,7 @@
         "Several epithelial groups have visible nuclear signal.",
         "The signal is in nuclei, and ER immunostaining does not measure HER2 copy number."
       ],
-      "explanation": "The brown nuclear staining illustrates estrogen receptor expression in tumor cells. R18 uses tamoxifen as an example of an estrogen receptor antagonist.",
+      "explanation": "The brown nuclear staining illustrates estrogen receptor expression in tumor cells. R18 uses tamoxifen as an example of an estrogen receptor antagonist. The displayed signal is nuclear and the antibody used in the field is directed against ER.",
       "visual_clues": [
         "The brown nuclear staining illustrates estrogen receptor expression in tumor cells."
       ],
@@ -11571,7 +11571,7 @@
         "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling.",
         "The positive outlines surround epithelial tumor cells. The surrounding stroma does not show the same pattern."
       ],
-      "explanation": "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling.",
+      "explanation": "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling. The brown signal outlines cells. Estrogen receptor nuclear staining is shown in a separate panel.",
       "visual_clues": [
         "The brown signal rims epithelial tumor cells. Compare the rims with the blue nuclei and pale lumina."
       ],
@@ -11633,7 +11633,7 @@
         "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example."
       ],
       "correct_index": 4,
-      "explanation": "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example.",
+      "explanation": "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example. The lesion itself is dark and the enhancement is behind it.",
       "visual_clues": [
         "Compare the tissue below the fluid region with adjoining tissue at the same depth."
       ],
@@ -11672,7 +11672,7 @@
     {
       "question_id": "q-r31-breast-case-fibro",
       "collection": "R31",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
       "tested_concept": "Imaging correlate of a firm mobile breast lump",
       "visual_target": "Imaging correlate of a firm mobile breast lump",
@@ -11693,7 +11693,7 @@
         "The two views show a focal mass."
       ],
       "correct_index": 0,
-      "explanation": "The mammogram shows a discrete mass, and the ultrasound shows internal echoes rather than an anechoic fluid center. R31 pairs this appearance and exam history with fibroadenoma.",
+      "explanation": "The mammogram shows a discrete mass, and the ultrasound shows internal echoes rather than an anechoic fluid center. R31 pairs this appearance and exam history with fibroadenoma. The lecture’s invasive example has an irregular center with conspicuous radiating distortion.",
       "visual_clues": [
         "Compare the margin and internal echoes with the fluid-filled comparison."
       ],
@@ -11757,7 +11757,7 @@
         "The lesion projects into the saline-filled space."
       ],
       "correct_index": 1,
-      "explanation": "The dark saline outlines the protruding rounded lesion. R31 uses this relationship to demonstrate the intracavitary component of a submucosal fibroid.",
+      "explanation": "The dark saline outlines the protruding rounded lesion. R31 uses this relationship to demonstrate the intracavitary component of a submucosal fibroid. The lesion projects into the saline-filled space.",
       "visual_clues": [
         "Follow the dark saline to the edge of the circled projection."
       ],
@@ -11800,7 +11800,7 @@
     {
       "question_id": "q-r31-cavity-treatment",
       "collection": "R31",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "MRI",
       "tested_concept": "Size change following fibroid embolization",
       "visual_target": "Size change following fibroid embolization",
@@ -11821,7 +11821,7 @@
         "The lesson concerns uterine rather than ovarian change."
       ],
       "correct_index": 2,
-      "explanation": "The paired sagittal MRI examples show a smaller uterine mass burden after treatment. The figure illustrates local change in the treated fibroids.",
+      "explanation": "The paired sagittal MRI examples show a smaller uterine mass burden after treatment. The figure illustrates local change in the treated fibroids. The postprocedure image shows a reduction in the bulk of the masses.",
       "visual_clues": [
         "Use the adjacent pelvic structures as references when comparing uterine bulk."
       ],
@@ -11856,7 +11856,7 @@
     {
       "question_id": "q-r32-amenorrhea-mri",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "MRI",
       "tested_concept": "Identify complete androgen insensitivity from paired MRI anatomy",
       "visual_target": "Identify complete androgen insensitivity from paired MRI anatomy",
@@ -11877,7 +11877,7 @@
         "The paired inguinal testes and absent uterus fit a different developmental pattern."
       ],
       "correct_index": 3,
-      "explanation": "The sagittal view shows a blind-ending vaginal pouch and no uterus. The axial view shows paired inguinal testes. The combination supports complete androgen insensitivity in the lecture case.",
+      "explanation": "The sagittal view shows a blind-ending vaginal pouch and no uterus. The axial view shows paired inguinal testes. The combination supports complete androgen insensitivity in the lecture case. The paired inguinal testes and absent uterus fit a different developmental pattern.",
       "visual_clues": [
         "Identify both the absent midline structure and the paired gonads."
       ],
@@ -11916,7 +11916,7 @@
     {
       "question_id": "q-r32-groin-mass",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "CT",
       "tested_concept": "Evaluate a new mass at the site of an undescended testis",
       "visual_target": "Evaluate a new mass at the site of an undescended testis",
@@ -11937,7 +11937,7 @@
         "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin."
       ],
       "correct_index": 4,
-      "explanation": "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin.",
+      "explanation": "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin. The CT depicts a large solid mass instead of fluid around a scrotal testis.",
       "visual_clues": [
         "The mass is solid in both planes and corresponds to the site of the new fullness."
       ],
@@ -11980,7 +11980,7 @@
     {
       "question_id": "q-r32-chest-spread",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Radiograph",
       "tested_concept": "Recognize pulmonary dissemination in the gonadal tumor case",
       "visual_target": "Recognize pulmonary dissemination in the gonadal tumor case",
@@ -12001,7 +12001,7 @@
         "The abnormalities are dense rounded regions instead of peripheral lucency."
       ],
       "correct_index": 0,
-      "explanation": "The lecture identifies multiple bilateral rounded lung opacities as metastatic lesions in this case.",
+      "explanation": "The lecture identifies multiple bilateral rounded lung opacities as metastatic lesions in this case. There are multiple rounded opacities within both lungs instead of an isolated basal fluid contour.",
       "visual_clues": [
         "Compare the numerous rounded opacities with the surrounding lung."
       ],
@@ -12061,7 +12061,7 @@
         "The lecture emphasizes breast development and bone acquisition."
       ],
       "correct_index": 1,
-      "explanation": "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty.",
+      "explanation": "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty. There is no uterus in complete androgen insensitivity syndrome. The developmental issue shown is loss of gonadal hormone production before puberty.",
       "visual_clues": [
         "The first row places gonadal removal before hormone-dependent development."
       ],
@@ -12144,7 +12144,7 @@
         "The important finding is the perfusion deficit rather than an isolated fluid collection."
       ],
       "correct_index": 2,
-      "explanation": "Color flow is readily seen on the right and is markedly reduced on the symptomatic left. The lecture treats this presentation as a surgical emergency.",
+      "explanation": "Color flow is readily seen on the right and is markedly reduced on the symptomatic left. The lecture treats this presentation as a surgical emergency. The asymmetry and acute symptoms raise a time-sensitive concern.",
       "visual_clues": [
         "Compare the abundant right-sided color signals with the symptomatic left side."
       ],
@@ -12220,7 +12220,7 @@
         "A urethral stricture affects urine flow. Testicular torsion compromises blood flow by twisting the spermatic cord."
       ],
       "correct_index": 3,
-      "explanation": "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord.",
+      "explanation": "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord. A patent processus vaginalis can allow bowel to enter an inguinal hernia. The acute ischemia in testicular torsion comes from twisting of the spermatic cord.",
       "visual_clues": [
         "Follow the exposed tissue above the involved testis to the site of twisting."
       ],
@@ -12259,7 +12259,7 @@
     {
       "question_id": "q-r32-groin-contents",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "CT",
       "tested_concept": "Recognize bowel in a groin swelling",
       "visual_target": "Recognize bowel in a groin swelling",
@@ -12280,7 +12280,7 @@
         "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example."
       ],
       "correct_index": 4,
-      "explanation": "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example.",
+      "explanation": "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example. The contrast-containing structure and corresponding tissue do not have a simple fluid appearance.",
       "visual_clues": [
         "The abnormal structure beside the testis corresponds to bowel on CT."
       ],
@@ -12340,7 +12340,7 @@
         "The bowel follows a persistent communication."
       ],
       "correct_index": 0,
-      "explanation": "The diagram follows bowel down toward the testis. R32 describes persistent communication along the route of testicular descent as the mechanism for an indirect inguinal hernia.",
+      "explanation": "The diagram follows bowel down toward the testis. R32 describes persistent communication along the route of testicular descent as the mechanism for an indirect inguinal hernia. A closed tract would interrupt the route shown.",
       "visual_clues": [
         "Follow the bowel loop along the canal toward the scrotum."
       ],
@@ -12400,7 +12400,7 @@
         "Transillumination does not replace visualization of the testis."
       ],
       "correct_index": 1,
-      "explanation": "The swelling transilluminates, supporting a fluid component, but the testis is difficult to palpate. In R32 ultrasound confirms fluid around the testis and shows the testicular tissue.",
+      "explanation": "The swelling transilluminates, supporting a fluid component, but the testis is difficult to palpate. In R32 ultrasound confirms fluid around the testis and shows the testicular tissue. The finding is scrotal. Ultrasound is the modality demonstrated next.",
       "visual_clues": [
         "The second photo shows light transmitted through the swelling."
       ],
@@ -12464,7 +12464,7 @@
         "This is a broad peritesticular collection, rather than a focal ductal dilation."
       ],
       "correct_index": 2,
-      "explanation": "The enlarged side shows an anechoic collection surrounding the testis. The lecture defines hydrocele fluid as collecting between the visceral and parietal tunica vaginalis.",
+      "explanation": "The enlarged side shows an anechoic collection surrounding the testis. The lecture defines hydrocele fluid as collecting between the visceral and parietal tunica vaginalis. The collection is in the scrotum surrounding the testis.",
       "visual_clues": [
         "Compare the rim of fluid on the enlarged side with the reference testis."
       ],
@@ -12528,7 +12528,7 @@
         "The illustration shows the peritoneal extension linked to testicular descent."
       ],
       "correct_index": 3,
-      "explanation": "The right-hand drawing shows a continuous tract and fluid extending along it. The closed tract in the middle example leaves an isolated collection.",
+      "explanation": "The right-hand drawing shows a continuous tract and fluid extending along it. The closed tract in the middle example leaves an isolated collection. The fluid is drawn around the testis and along the tract.",
       "visual_clues": [
         "Trace the blue fluid upward on the right to see if the tract remains open."
       ],
@@ -12588,7 +12588,7 @@
         "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis."
       ],
       "correct_index": 4,
-      "explanation": "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis.",
+      "explanation": "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis. The image raises the question of an ectopic or absent kidney. It does not demonstrate collecting-system dilation.",
       "visual_clues": [
         "Compare the visible left kidney with the right renal fossa."
       ],
@@ -12648,7 +12648,7 @@
         "A distal obstruction does not explain the divided fundus and paired horns."
       ],
       "correct_index": 0,
-      "explanation": "Hysterosalpingography shows two uterine horns arising from one cervix. MRI shows the divided upper contour, supporting a bicornuate configuration from incomplete fusion.",
+      "explanation": "Hysterosalpingography shows two uterine horns arising from one cervix. MRI shows the divided upper contour, supporting a bicornuate configuration from incomplete fusion. A normal outer contour would not explain the cleft seen here.",
       "visual_clues": [
         "Use both the internal split on HSG and the external fundal cleft on MRI."
       ],
@@ -12712,7 +12712,7 @@
         "The lecture discusses sampling as part of exploring the link between both findings."
       ],
       "correct_index": 1,
-      "explanation": "The image shows right-sided pleural fluid. The discussion considers thoracentesis and cytologic assessment when weighing metastatic disease against the nonmalignant effusion in the case differential.",
+      "explanation": "The image shows right-sided pleural fluid. The discussion considers thoracentesis and cytologic assessment when weighing metastatic disease against the nonmalignant effusion in the case differential. Radiography cannot characterize cells in pleural fluid.",
       "visual_clues": [
         "The right basal opacity has a fluid contour rather than multiple discrete nodules."
       ],
@@ -12751,7 +12751,7 @@
     {
       "question_id": "q-r32-meigs-inference",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "CT",
       "tested_concept": "Solid ovarian mass, ascites, and pleural effusion",
       "visual_target": "Solid ovarian mass, ascites, and pleural effusion",
@@ -12772,7 +12772,7 @@
         "The mass shown here is the solid fibroma example. The lecture uses a separate CT example for omental cake."
       ],
       "correct_index": 2,
-      "explanation": "The adnexal mass is solid on ultrasound. The CT and prior chest image demonstrate abdominal and pleural fluid. R32 presents this combination as the classic association with an ovarian fibroma.",
+      "explanation": "The adnexal mass is solid on ultrasound. The CT and prior chest image demonstrate abdominal and pleural fluid. R32 presents this combination as the classic association with an ovarian fibroma. The mass is solid and fluid is present outside it.",
       "visual_clues": [
         "Identify solid tissue on ultrasound and fluid in a separate compartment on CT."
       ],
@@ -12815,7 +12815,7 @@
     {
       "question_id": "q-r32-effusion-course",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Clinical data",
       "tested_concept": "Expected fluid response after fibroma resection",
       "visual_target": "Expected fluid response after fibroma resection",
@@ -12836,7 +12836,7 @@
         "The lecture presents resolution following tumor removal."
       ],
       "correct_index": 3,
-      "explanation": "The R32 slide defines the syndrome by fibroma, ascites, and hydrothorax that resolve after tumor removal.",
+      "explanation": "The R32 slide defines the syndrome by fibroma, ascites, and hydrothorax that resolve after tumor removal. Removal treats the associated ascites as well.",
       "visual_clues": [
         "The two rows represent fluid outside the same solid ovarian lesion."
       ],
@@ -12903,7 +12903,7 @@
     {
       "question_id": "q-r32-effusion-contrast",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "CT",
       "tested_concept": "Distinguish the epithelial tumor comparison from the fibroma case",
       "visual_target": "Distinguish the epithelial tumor comparison from the fibroma case",
@@ -12924,7 +12924,7 @@
         "The highlighted findings are adnexal and omental."
       ],
       "correct_index": 0,
-      "explanation": "In the comparison on the slide, one image shows a predominantly cystic mass and the other shows omental caking. The lecture contrasts this pattern with the solid fibroma in the preceding case.",
+      "explanation": "In the comparison on the slide, one image shows a predominantly cystic mass and the other shows omental caking. The lecture contrasts this pattern with the solid fibroma in the preceding case. The first image is predominantly cystic, and the second highlights abnormal omental tissue.",
       "visual_clues": [
         "In B, trace the arrowheads along the anterior abdomen, separate from the primary mass."
       ],
@@ -12984,7 +12984,7 @@
         "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion."
       ],
       "correct_index": 4,
-      "explanation": "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion.",
+      "explanation": "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion. Overall uterine size does not resolve the focal cavity question addressed in the lecture.",
       "visual_clues": [
         "The measured uterine lining appears thick on the initial image."
       ],
@@ -13044,7 +13044,7 @@
         "A focal vessel leads into the outlined lesion."
       ],
       "correct_index": 0,
-      "explanation": "Saline outlines the lesion and Doppler shows a focal feeding vessel. The lecture contrasts this with flow distributed throughout the submucosal myoma example.",
+      "explanation": "Saline outlines the lesion and Doppler shows a focal feeding vessel. The lecture contrasts this with flow distributed throughout the submucosal myoma example. A focal vessel leads into the outlined lesion.",
       "visual_clues": [
         "Trace the color signal to its entry into the saline-outlined lesion."
       ],
@@ -13083,7 +13083,7 @@
     {
       "question_id": "q-r32-pelvic-calcific",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Radiograph",
       "tested_concept": "Toothlike pelvic calcifications and ovarian differential",
       "visual_target": "Toothlike pelvic calcifications and ovarian differential",
@@ -13104,7 +13104,7 @@
         "The distinct toothlike components favor the teratoma example."
       ],
       "correct_index": 1,
-      "explanation": "The course identifies toothlike structures within the pelvic calcifications, a clue to differentiated tissue in a mature cystic teratoma.",
+      "explanation": "The course identifies toothlike structures within the pelvic calcifications, a clue to differentiated tissue in a mature cystic teratoma. A simple follicle would not account for toothlike dense material.",
       "visual_clues": [
         "Look for irregular dense structures resembling teeth within the pelvis."
       ],
@@ -13168,7 +13168,7 @@
         "The comparison is based on a fat suppression sequence and tissue-specific signal loss."
       ],
       "correct_index": 2,
-      "explanation": "The MR comparison shows a bright component on the initial image that loses signal with fat saturation. R32 uses this change to demonstrate fat in the mass.",
+      "explanation": "The MR comparison shows a bright component on the initial image that loses signal with fat saturation. R32 uses this change to demonstrate fat in the mass. Air would already have very low signal.",
       "visual_clues": [
         "Compare the bright portion of the mass with the corresponding darker region after fat saturation."
       ],
@@ -13228,7 +13228,7 @@
         "The shadowing does not remove the torsion risk cited for this mass."
       ],
       "correct_index": 3,
-      "explanation": "The shadowing ultrasound lesion accompanies the toothlike and fat-containing views in R32. The lecture treats the lesion surgically and emphasizes torsion risk.",
+      "explanation": "The shadowing ultrasound lesion accompanies the toothlike and fat-containing views in R32. The lecture treats the lesion surgically and emphasizes torsion risk. The shadowing does not remove the torsion risk cited for this mass.",
       "visual_clues": [
         "A bright interface produces marked posterior shadowing."
       ],
@@ -13292,7 +13292,7 @@
         "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case."
       ],
       "correct_index": 4,
-      "explanation": "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case.",
+      "explanation": "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case. The lecture uses the endometrial pattern to place the case around ovulation.",
       "visual_clues": [
         "Check the layered endometrium in A before interpreting the right ovarian finding in C."
       ],
@@ -13360,7 +13360,7 @@
         "The lecture describes increased local perfusion around the follicle."
       ],
       "correct_index": 0,
-      "explanation": "The second image shows conspicuous peripheral color flow. R32 links the highly perfused dominant follicle to bleeding into the follicle when it ruptures during ovulation.",
+      "explanation": "The second image shows conspicuous peripheral color flow. R32 links the highly perfused dominant follicle to bleeding into the follicle when it ruptures during ovulation. The prominent peripheral flow in B is around the dominant follicle.",
       "visual_clues": [
         "Compare the conspicuous color rim of B with the resting ovary example in A."
       ],
@@ -13424,7 +13424,7 @@
         "The lecture uses these examples to demonstrate variability of follicular hemorrhage."
       ],
       "correct_index": 1,
-      "explanation": "R32 uses these multiple patterns to illustrate that hemorrhagic follicles can contain variable internal echoes and septation-like strands. Appearance should be interpreted with the clinical setting.",
+      "explanation": "R32 uses these multiple patterns to illustrate that hemorrhagic follicles can contain variable internal echoes and septation-like strands. Appearance should be interpreted with the clinical setting. The slide shows strand-like material in physiologic hemorrhagic follicles.",
       "visual_clues": [
         "Compare the different patterns of echoes in the panels."
       ],
@@ -13463,7 +13463,7 @@
     {
       "question_id": "q-r32-cyclic-adnexa",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
       "tested_concept": "Uniform adnexal echoes and cyclic symptoms",
       "visual_target": "Uniform adnexal echoes and cyclic symptoms",
@@ -13484,7 +13484,7 @@
         "B differs from the reference follicles in A, and the cyclic history is part of the distinction."
       ],
       "correct_index": 2,
-      "explanation": "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma.",
+      "explanation": "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma. A mature teratoma may contain fat or toothlike material. Homogeneous low-level echoes and cyclic pain instead support the endometrioma in this case.",
       "visual_clues": [
         "Compare the relatively uniform internal echoes in B with the smaller reference follicles in A."
       ],

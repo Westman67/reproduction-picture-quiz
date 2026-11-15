@@ -12,6 +12,7 @@ from typing import Any
 
 
 ACTIVE_STATUS = "USABLE"
+STUDY_SKILLS = {"morphology", "interpretation", "stain", "mechanism", "management"}
 BLOCKED_STATUSES = {"NEEDS_REVIEW", "REFERENCE_ONLY", "DUPLICATE", "AGGREGATE_DUPLICATE", "BROKEN", "EXCLUDED"}
 
 
@@ -241,11 +242,13 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
                 errors.append(f"{label}: every choice_rationale must be a non-empty string")
             elif len({" ".join(rationale.casefold().split()) for rationale in rationales}) != option_count:
                 errors.append(f"{label}: different choices require distinct explanations")
-            elif not question.get("case_id") and isinstance(correct_index, int) \
-                    and 0 <= correct_index < option_count \
-                    and rationales[correct_index] != question.get("explanation"):
-                errors.append(f"{label}: choice_rationales[correct_index] must equal explanation")
+            elif type(correct_index) is int and 0 <= correct_index < option_count \
+                    and isinstance(question.get("explanation"), str) \
+                    and " ".join(rationales[correct_index].casefold().split()) == " ".join(question["explanation"].casefold().split()):
+                errors.append(f"{label}: explanation must add teaching beyond the keyed rationale")
 
+        if question.get("study_skill") is not None and question.get("study_skill") not in STUDY_SKILLS:
+            errors.append(f"{label}: invalid study_skill {question['study_skill']!r}")
         required = ("question_type", "tested_concept", "stem", "explanation", "visual_clues")
         if not is_table:
             required += ("variant_id",)
