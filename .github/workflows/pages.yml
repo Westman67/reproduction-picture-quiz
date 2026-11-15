@@ -18,9 +18,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm test
-      - run: python3 scripts/validate_bank.py data/source-manifest.json data/question-bank.json
+          cache: npm
+      - run: npm ci
       - run: npm run build
+      - run: python3 scripts/validate_bank.py --all --data dist/data --published
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:ui
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
