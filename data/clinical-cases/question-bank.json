@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "title": "Reproduction Pathology Clinical Cases",
-  "bank_version": "r30-r32-1",
+  "bank_version": "option-feedback-1",
   "release_status": "reviewed",
   "cases": [
     {
@@ -662,7 +662,7 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The pale cells interrupt the usual darker keratinocyte population within the epidermis.",
+        "Extramammary Paget disease produces large pale atypical cells that interrupt the normal darker keratinocytes within the vulvar epidermis.",
         "A thin epidermis and sclerotic dermis would favor lichen sclerosus. Here the striking abnormality is within the epithelium.",
         "Condyloma has outward branching stromal cores and koilocytes. This surface lacks that exophytic architecture.",
         "Papillary hidradenoma forms a separate dermal glandular nodule. The pale cells here lie among keratinocytes.",
@@ -733,11 +733,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "Expect epithelial thinning with superficial dermal sclerosis rather than this pale intraepidermal cell population.",
-        "Large pale malignant cells scattered within the vulvar epidermis are the pattern described for Paget disease.",
-        "Expect exophytic fibrovascular papillae covered by koilocytic squamous epithelium.",
-        "Expect a circumscribed dermal tumor with a complex papillary glandular pattern and no epidermal connection.",
-        "Expect atypical immature basaloid squamous cells and loss of maturation toward the surface, rather than scattered large pale cells."
+        "Lichen sclerosus would show epithelial thinning and superficial dermal sclerosis. The conspicuous cells here are large, pale, and scattered within the epidermis, favoring extramammary Paget disease.",
+        "Extramammary Paget disease explains the large pale malignant cells scattered between darker vulvar keratinocytes on this biopsy.",
+        "Condyloma acuminatum forms outward fibrovascular papillae covered by koilocytic squamous epithelium. The biopsy instead shows dispersed pale tumor cells within the epidermis.",
+        "Papillary hidradenoma is a circumscribed dermal glandular nodule with complex papillae. Here the abnormal pale cells are in the epidermis, without a separate dermal glandular nodule.",
+        "Classic vulvar intraepithelial neoplasia impairs squamous maturation, with atypical basaloid cells extending upward. Extramammary Paget disease accounts for the individually scattered large pale cells shown here."
       ],
       "explanation": "The large pale intraepidermal cells support extramammary Paget disease. The lecture describes its plaque as potentially eczema like and notes that cytoplasmic mucin staining can help confirm the diagnosis.",
       "visual_clues": [
@@ -807,11 +807,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The brightest foci lie above the dermal interface inside epithelial cells.",
-        "The visible positive foci are discrete cells at different heights in the epithelium.",
-        "No circumscribed glandular nodule contains these foci.",
-        "The vivid pink cells sit within the surface epithelium, above the visible vessels.",
-        "Several individual large epithelial cells contain vivid pink material."
+        "The mucin stain in this extramammary Paget disease field highlights individual cells above the dermal interface. Dermal collagen lies below that interface.",
+        "Surface keratin would form an outer band. In extramammary Paget disease, this image shows scattered pink intracytoplasmic foci at different depths in the epidermis.",
+        "Papillary hidradenoma can form a circumscribed dermal nodule with glandular lumens. The pink material in this Paget disease specimen is within separate epidermal cells.",
+        "The bright pink cells are intraepidermal Paget cells, above the vessels of the superficial dermis.",
+        "The intense pink material is cytoplasmic mucin within scattered large intraepidermal Paget cells."
       ],
       "explanation": "The vivid material is inside large cells dispersed among keratinocytes. R10 describes cytoplasmic mucin staining as a way to support the diagnosis in this setting.",
       "visual_clues": [
@@ -864,7 +864,7 @@
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "That pattern stays in the epidermal compartment.",
+        "Intraepidermal Paget cells stay among surface keratinocytes. Irregular squamous epithelial nests beneath the epithelial boundary demonstrate stromal invasion in this comparison.",
         "An inflammatory band would consist of inflammatory cells rather than epithelial nests.",
         "Irregular epithelial nests lie in the underlying stroma. Their location below the surface compartment, rather than nuclear atypia alone, demonstrates invasion in this comparison field.",
         "Regular attached ridges do not account for the irregular stromal nests.",
@@ -926,11 +926,11 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The upper layer retains maturation in this field.",
-        "The abnormality follows the basal layer rather than a scattered pale-cell population.",
-        "The abnormality is in squamous epithelium, with no dissecting glands here.",
-        "The deepest epithelial cells are conspicuously atypical while the superficial layers still mature. That distribution contrasts with individually scattered large pale cells.",
-        "The clue is nuclear change in the basal layer, not superficial dermal sclerosis."
+        "Atypia extending to the surface favors an HPV-associated intraepithelial pattern in this comparison. Differentiated vulvar intraepithelial neoplasia shows basal atypia with maturation above it.",
+        "Individually scattered large pale cells favor extramammary Paget disease. In differentiated vulvar intraepithelial neoplasia the atypia is concentrated along the basal layer.",
+        "Infiltrating glands would be in the dermis. The atypia in this differentiated vulvar intraepithelial neoplasia field is within the basal squamous epithelium.",
+        "Differentiated vulvar intraepithelial neoplasia shows basal nuclear atypia with preserved superficial maturation in this comparison.",
+        "Thin epithelium over superficial dermal sclerosis favors lichen sclerosus. The finding tested here is atypia in the basal squamous cells of differentiated vulvar intraepithelial neoplasia."
       ],
       "explanation": "The deepest epithelial cells are conspicuously atypical while the superficial layers still mature. That distribution contrasts with individually scattered large pale cells.",
       "visual_clues": [
@@ -977,11 +977,11 @@
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "This would characterize a cell lineage rather than demonstrate the intracellular mucin sought here.",
-        "This would highlight a supporting cell layer, as in the R10 papillary glandular nodule, rather than mucin in the lesional cells.",
-        "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells. R10 also lists diastase PAS as an alternative mucin stain to demonstrate the same material.",
-        "That measures gene copy number rather than mucin in this cell population.",
-        "The routine section already shows pale cells. Pale cytoplasm alone does not establish that it contains mucin."
+        "p63 can evaluate basal or squamous differentiation. The question asks for cytoplasmic mucin in the large pale cells of suspected extramammary Paget disease, which requires a mucin stain.",
+        "Calponin highlights the myoepithelial layer in the papillary hidradenoma example. It does not identify the mucin within the pale intraepidermal Paget cells.",
+        "Mucicarmine highlights intracellular mucin in the large pale cells of extramammary Paget disease. R10 also lists diastase PAS as an alternative mucin stain.",
+        "HER2 in situ hybridization tests gene amplification. It does not demonstrate the intracellular mucin needed to characterize the intraepidermal Paget cells in this question.",
+        "Routine H&E identifies the large pale cells in suspected extramammary Paget disease, but pale cytoplasm alone does not establish that the cells contain mucin."
       ],
       "explanation": "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells. R10 also lists diastase PAS as an alternative mucin stain to demonstrate the same material.",
       "visual_clues": [
@@ -1039,10 +1039,10 @@
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "Primitive neuroepithelium forms crowded cellular tubules. The conspicuous profiles here have expanses of dense pink luminal material.",
+        "Immature teratoma can contain crowded primitive neuroepithelial tubules. The follicles here contain dense luminal colloid, supporting thyroid tissue in struma ovarii.",
         "Fibroma shows interweaving spindle cells. This field is dominated by rounded luminal profiles rather than fascicles.",
-        "The dense pink material is inside rounded epithelial lined follicles, consistent with thyroid colloid.",
-        "Signet ring morphology reflects intracellular mucin. The dense pink material in this field is in follicular lumens.",
+        "Struma ovarii contains mature thyroid tissue. The round follicles with dense pink luminal colloid identify that tissue in the ovarian mass.",
+        "In a Krukenberg tumor, mucin fills individual signet-ring cells. The dense pink material in this struma ovarii field is extracellular colloid within thyroid follicles.",
         "Dysgerminoma shows nests or sheets of tumor cells and lymphocytes in fibrous septa. Here the largest pink structures are filled lumens."
       ],
       "explanation": "The rounded spaces contain dense pink colloid. Their epithelial rims establish a thyroid follicular pattern.",
@@ -1304,11 +1304,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "A Call–Exner body has a small central secretion. The red cells at the center here are in a vascular lumen.",
+        "A small ring of cells around secretion suggests a Call–Exner body in a granulosa cell tumor. A Schiller–Duval body in yolk sac tumor has a central vessel surrounded by tumor cells.",
         "A psammoma body is a laminated calcification. The center here has a vessel with red cells and an adjacent cellular cuff.",
-        "Primitive neuroepithelium forms tubules. The structure shown is a projection with a vessel running through its center.",
-        "A thyroid follicle encloses colloid. Here a vascular core and its surrounding tumor project into a clear space.",
-        "Red cells identify the central vessel. Tumor cells surround the vascular core within a larger space."
+        "Primitive neuroepithelial tubules support immature teratoma. The structure here is a vessel-centered Schiller–Duval body in yolk sac tumor.",
+        "A colloid-filled thyroid follicle supports struma ovarii. The highlighted structure in yolk sac tumor contains a central vessel rather than colloid.",
+        "A vessel cuffed by tumor cells and projecting into a space is a Schiller–Duval body, which supports yolk sac tumor."
       ],
       "explanation": "The central vessel, surrounding tumor cells and outer space form a glomerulus like Schiller–Duval body.",
       "visual_clues": [
@@ -1539,11 +1539,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The dark cells follow the dividing septum, not a single intraluminal stalk.",
+        "A central vascular stalk cuffed by tumor cells suggests a Schiller–Duval body in yolk sac tumor. The small lymphocytes here occupy fibrous septa separating dysgerminoma nests.",
         "The large cells lie in groups rather than around colloid.",
         "The small nuclei belong to separate cells between the groups.",
         "The dark nuclei populate a fibrous band rather than a central necrotic space.",
-        "The small lymphocytes cluster in a fibrous septum between groups of large pale cells. A septum dividing cell groups is different from a core projecting into a space."
+        "Dysgerminoma shows groups of large tumor cells separated by fibrous septa rich in small lymphocytes."
       ],
       "explanation": "The small lymphocytes cluster in a fibrous septum between groups of large pale cells. A septum dividing cell groups is different from a core projecting into a space.",
       "visual_clues": [
@@ -1597,11 +1597,11 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The comparison field shows densely crowded primitive epithelial cells with necrotic debris. The crowded architecture differs from an open mesh of cell strands.",
-        "Dense crowded cellular regions, rather than open spaces, dominate here.",
-        "The dense epithelial proliferation is the conspicuous feature.",
-        "The cells are crowded and atypical rather than arranged around smooth colloid filled lumina.",
-        "Cells are tightly packed rather than separated by cartilage matrix."
+        "Embryonal carcinoma in this comparison shows densely crowded primitive epithelium with necrotic debris.",
+        "The open reticular mesh is a yolk sac tumor pattern. The embryonal carcinoma comparison is dominated by crowded primitive epithelium and necrosis.",
+        "Lymphocyte-rich fibrous septa support dysgerminoma. The embryonal carcinoma field is dominated by dense atypical epithelium with necrotic debris.",
+        "Uniform colloid-filled thyroid follicles favor struma ovarii. The embryonal carcinoma field instead contains densely crowded atypical epithelial cells.",
+        "Mature cartilage can be found in a mature cystic teratoma. The crowded cells of this embryonal carcinoma lack the abundant matrix and lacunae of cartilage."
       ],
       "explanation": "The comparison field shows densely crowded primitive epithelial cells with necrotic debris. The crowded architecture differs from an open mesh of cell strands.",
       "visual_clues": [
@@ -1652,11 +1652,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The mixed size population is on the right. The conspicuous peripheral cuffs are on the left.",
-        "The left has expanded villi with conspicuous dark peripheral trophoblast. The right has enlarged pale villi alongside much smaller profiles.",
-        "This describes the left well. On the right, much smaller villi remain visible among the enlarged profiles.",
-        "The right fits the mixed pattern. On the left, pale expanded cores and prominent peripheral proliferation predominate.",
-        "The darkest and most conspicuous peripheral trophoblastic bands lie along the enlarged villi on the left."
+        "The mixed villous sizes favor partial mole on the right. Broadly enlarged villi with conspicuous peripheral trophoblast favor complete mole on the left.",
+        "The complete mole on the left shows widespread villous edema with conspicuous trophoblastic proliferation. The partial mole on the right has enlarged villi interspersed with smaller villi.",
+        "Broad enlargement with prominent trophoblastic rims fits the complete mole on the left. The partial mole on the right retains many small villi among the enlarged ones.",
+        "Mixed villous sizes fit the partial mole on the right. Extensive edema and conspicuous peripheral trophoblast favor complete mole on the left.",
+        "The most conspicuous trophoblastic bands lie along the enlarged villi of the complete mole on the left. The mixed villous population on the right fits partial mole."
       ],
       "explanation": "The left field shows marked villous edema with prominent peripheral proliferation. The right mixes markedly edematous villi and smaller villi, with less conspicuous trophoblastic proliferation overall.",
       "visual_clues": [
@@ -1791,11 +1791,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The conspicuous tissue fills the cavity.",
-        "The vesicular tissue is extensive throughout the cavity.",
-        "The cavity contains a large volume of tissue.",
-        "Many vesicles form a mass in the cavity.",
-        "Extensive vesicular tissue fills and expands the cavity. The space is occupied by an aggregate of vesicles rather than by a single solid wall nodule."
+        "A solid wall nodule would be centered in the myometrium. The complete mole specimen contains numerous vesicular villi expanding the uterine cavity.",
+        "A small placental disk confined to one edge would not fill the uterus. In the complete mole specimen, vesicles occupy much of the cavity.",
+        "A thin membrane would line the cavity without expanding it. The complete mole produces a large volume of vesicular tissue within the cavity.",
+        "A simple cyst would have a single compartment. The complete mole forms an aggregate of many vesicles within the cavity.",
+        "In the gross complete mole specimen, numerous vesicular villi occupy and expand the uterine cavity."
       ],
       "explanation": "Extensive vesicular tissue fills and expands the cavity. The space is occupied by an aggregate of vesicles rather than by a single solid wall nodule.",
       "visual_clues": [
@@ -1853,11 +1853,11 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The scalloped villous surface can fold inward, leaving a trophoblastic inclusion within the villous stroma in section.",
+        "The scalloped villous surface in partial mole can fold inward. In section, trophoblast at the infolding appears as an inclusion within villous stroma.",
         "The marked profile is within the outline of the villus.",
-        "The indicated epithelial profile represents trophoblastic infolding.",
-        "Myometrial muscle is not the compartment shown here.",
-        "The target is enclosed by villous stroma."
+        "A fetal vessel would have an endothelial lining. The profile in the partial mole is a fold of surface trophoblast within the villus.",
+        "An invasive mole places hydropic villi within myometrium. This partial mole image shows a trophoblastic inclusion within the villus itself.",
+        "Free trophoblast in the uterine cavity would be outside a villus. This partial mole inclusion is enclosed by the villous stroma."
       ],
       "explanation": "The scalloped villous surface can fold inward, leaving a trophoblastic inclusion within the villous stroma in section.",
       "visual_clues": [
@@ -1915,11 +1915,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "Cavity tissue alone would not establish extension into the wall.",
-        "Hydropic villi lie between myometrial smooth muscle bundles. Location within the muscle, rather than edema alone, establishes the invasive pattern.",
-        "An inclusion describes the internal villus contour and does not show wall extension.",
-        "Villous size differences do not establish a myometrial location.",
-        "The visible profiles extend among smooth muscle bundles."
+        "Molar villi confined to the cavity do not show invasion. The hydropic villi here lie within the muscular wall, demonstrating invasive mole.",
+        "Invasive mole is demonstrated by hydropic villi positioned between myometrial smooth muscle bundles. Villous edema alone cannot establish invasion.",
+        "An intravillous trophoblastic inclusion can occur in partial mole. It does not demonstrate extension of a villus into myometrium.",
+        "A mixture of large edematous and small villi can favor partial mole. It does not establish the myometrial location required for invasive mole.",
+        "Trophoblast proliferating on villi in the cavity does not establish invasion. The abnormal villi in this invasive mole lie among myometrial smooth muscle bundles."
       ],
       "explanation": "Hydropic villi lie between myometrial smooth muscle bundles. Location within the muscle, rather than edema alone, establishes the invasive pattern.",
       "visual_clues": [
@@ -1984,11 +1984,11 @@
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "Pathway B has the extra maternal set.",
-        "The ovum contributes an additional set in pathway B.",
-        "In pathway A, an empty ovum contributes no maternal set, and two sperm contribute one set apiece, yielding diploidy. In pathway B, the ovum adds one set to the two paternal sets, yielding triploidy.",
-        "The ovum contributes no chromosomes in pathway A.",
-        "Each pathway includes two paternal chromosome sets before any maternal contribution."
+        "A illustrates a diploid complete mole: an empty ovum receives two paternal sets. B illustrates a triploid partial mole: the ovum adds a maternal set to two paternal sets.",
+        "The complete mole pathway A is diploid. The partial mole pathway B is triploid because the ovum contributes an additional maternal set.",
+        "The depicted complete mole has two paternal sets and no maternal set. The depicted partial mole has two paternal sets plus one maternal set.",
+        "Triploidy fits the partial mole in B. The complete mole pathway in A has two paternal sets and no maternal contribution, yielding diploidy.",
+        "Each pathway receives two paternal sets. A stays diploid in the complete mole example; a maternal set makes B triploid in the partial mole example."
       ],
       "explanation": "In pathway A, an empty ovum contributes no maternal set, and two sperm contribute one set apiece, yielding diploidy. In pathway B, the ovum adds one set to the two paternal sets, yielding triploidy.",
       "visual_clues": [
@@ -2062,11 +2062,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "This reverses the expected left and right results.",
+        "The complete mole on the left loses villous p57. The partial mole on the right retains villous p57.",
         "The left field shows the complete mole pattern, which loses villous p57. The right field shows the partial mole pattern, which retains it.",
         "The field on the right illustrates the partial mole pattern, which retains p57.",
         "The field on the left illustrates the complete mole pattern, which loses villous p57.",
-        "An adequate positive control allows the absence of villous staining on the left to be interpreted."
+        "The adequate maternal control makes absent villous p57 on the left interpretable. That loss supports complete mole, while retained staining on the right fits partial mole."
       ],
       "explanation": "The left field shows the complete mole pattern, which loses villous p57. The right field shows the partial mole pattern, which retains it.",
       "visual_clues": [
@@ -2133,11 +2133,11 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The irregular lumens are on the left. The thin rows of individually separated cells are on the right.",
-        "This fits the left. The right has rows of individual cells without comparable rounded tubules.",
-        "This fits the right. The left has multiple distinct gland lumens in the stroma.",
-        "The left has haphazard glands and reactive fibrous stroma. The right has thin, linear cords of noncohesive cells.",
-        "The right does show linear files. On the left, numerous haphazard glands sit in reactive stroma, rather than a proliferation confined within one duct."
+        "Irregular glands in desmoplastic stroma favor invasive ductal carcinoma on the left. Discohesive single-file growth favors invasive lobular carcinoma on the right.",
+        "Irregular tubules in reactive stroma fit the invasive ductal carcinoma on the left. The lobular carcinoma on the right has rows of individual tumor cells without comparable glands.",
+        "Single-file growth fits invasive lobular carcinoma on the right. The ductal carcinoma on the left contains multiple irregular gland lumens in desmoplastic stroma.",
+        "Invasive ductal carcinoma on the left forms irregular glands in reactive fibrous stroma. Invasive lobular carcinoma on the right forms single files of discohesive cells.",
+        "A proliferation confined to preexisting ducts would favor ductal carcinoma in situ. Haphazard glands in desmoplastic stroma on the left show invasion. The right has the single-file growth of invasive lobular carcinoma."
       ],
       "explanation": "The left section shows irregular tubules in desmoplastic stroma. The right section shows single files of discohesive cells and little comparable stromal reaction.",
       "visual_clues": [
@@ -2217,7 +2217,7 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The tubule forming tumor is on the left and the single file tumor on the right.",
+        "Tubule-forming invasive ductal carcinoma is on the left. Discohesive single-file invasive lobular carcinoma is on the right.",
         "The left fits invasive ductal carcinoma. The right shows rows of separate tumor cells instead of irregular glands.",
         "The right fits invasive lobular carcinoma. The left contains haphazard tubules in desmoplastic stroma.",
         "The right fits invasive lobular carcinoma. The left shows haphazard glands in reactive stroma, rather than islands of tumor cells floating in extracellular mucin.",
@@ -2300,11 +2300,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The left mammogram has the dense center with radiating lines and the right shows subtler distortion, so this choice reverses the two patterns.",
-        "The left is conspicuously spiculated, while the right abnormality is easier to locate using the arrows.",
-        "Both fields have irregular radiating or distorted tissue.",
-        "The comparison shows a spiculated density and architectural distortion.",
-        "The left has prominent radiating lines extending from the dense center."
+        "The ductal carcinoma example on the left has dense spiculation. The lobular carcinoma on the right produces subtler architectural distortion.",
+        "The ductal carcinoma on the left has a dense spiculated center. The paired lobular carcinoma on the right is more subtle, with distortion localized by the arrows.",
+        "The ductal carcinoma on the left radiates into nearby tissue. The lobular carcinoma on the right distorts the architecture. Neither has a smooth round margin.",
+        "Fine branching calcifications feature in the separate ductal carcinoma in situ example. This comparison shows spiculation in invasive ductal carcinoma and subtler distortion in invasive lobular carcinoma.",
+        "The lobular carcinoma on the right distorts tissue subtly, but the left ductal carcinoma also distorts adjacent tissue through its prominent radiating lines."
       ],
       "explanation": "The left has a dense center with conspicuous radiating lines. The right has subtler irregular distortion at the arrows. The lecture uses the pair to illustrate how lobular disease can be less conspicuous on mammography.",
       "visual_clues": [
@@ -2383,8 +2383,8 @@
       "correct_index": 4,
       "choice_rationales": [
         "The conspicuous small cells wrap around the structure instead of replacing it.",
-        "The relevant cells are arranged outside the center.",
-        "The cells have a directed curved arrangement.",
+        "Central necrosis within a duct is a feature of comedo-type ductal carcinoma in situ. The invasive lobular carcinoma cells in this field form rows around the outside of a structure.",
+        "Mucinous carcinoma contains tumor clusters in extracellular mucin. The small invasive lobular carcinoma cells here wrap concentrically around a preexisting structure.",
         "The small cells lie around the structure rather than projecting into a lumen.",
         "Small tumor cells curve around the structure in successive rows. This targetoid relationship is an additional growth pattern beyond straight files."
       ],
@@ -2565,7 +2565,7 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "A pale band lies just beneath the attenuated squamous epithelium.",
+        "Lichen sclerosus shows attenuated squamous epithelium over a broad pale band of superficial dermal sclerosis.",
         "Condyloma has branching cores projecting outward. The surface here is relatively flat.",
         "Hidradenoma produces a discrete glandular mass. The pale tissue here forms a broad band.",
         "Paget disease places pale atypical cells within the epithelium. Here the broad pale change is below it.",
@@ -2873,9 +2873,9 @@
       "choice_rationales": [
         "Paget cells form a separate atypical population. The clear spaces here center on squamous nuclei.",
         "Lichen sclerosus changes the superficial dermis. The visible clue here lies inside the squamous cells.",
-        "The pale zone surrounds an abnormal nucleus in each affected squamous cell.",
+        "Koilocytes in condyloma acuminatum have clear perinuclear halos around enlarged irregular squamous nuclei.",
         "Papillary hidradenoma has true glandular lumens. These pale spaces are intracellular.",
-        "This field retains differentiated superficial squamous cells with focal nuclear halos."
+        "Full-thickness basaloid atypia would favor an intraepithelial neoplastic pattern. Condyloma here shows superficial koilocytes in a partially matured squamous layer."
       ],
       "explanation": "Several squamous cells have pale perinuclear halos and enlarged irregular nuclei. These are the koilocytic changes illustrated in the lecture.",
       "visual_clues": [
@@ -3076,11 +3076,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The conspicuous abnormal nuclei in this field sit at the base.",
-        "There is a layer based pattern rather than scattered large pale cells.",
-        "The shown atypia is in the basal epithelium.",
-        "The upper layers still mature in this comparison.",
-        "The comparison preserves superficial maturation despite marked atypia at the base. In the original lesion, the characteristic haloed cells were in the upper squamous layers."
+        "Superficial koilocytes with perinuclear halos support condyloma. Differentiated vulvar intraepithelial neoplasia concentrates its atypia in the basal layer.",
+        "Scattered pale cells across epithelial levels support extramammary Paget disease. In differentiated vulvar intraepithelial neoplasia the atypia instead follows the basal layer.",
+        "Atypical squamous nests in deep stroma support invasive carcinoma. This differentiated vulvar intraepithelial neoplasia field shows atypical cells within the basal epithelium.",
+        "Immature cells throughout most of the thickness favor the classic vulvar intraepithelial neoplasia pattern. Superficial maturation is preserved in this differentiated lesion.",
+        "Differentiated vulvar intraepithelial neoplasia concentrates atypia at the epithelial base while allowing maturation toward the surface."
       ],
       "explanation": "The comparison preserves superficial maturation despite marked atypia at the base. In the original lesion, the characteristic haloed cells were in the upper squamous layers.",
       "visual_clues": [
@@ -3328,10 +3328,10 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "That describes the enclosed nodule rather than these outward fronds.",
+        "Papillary hidradenoma contains papillary glands inside a circumscribed dermal nodule. The condyloma comparison sends squamous fronds outward from the surface.",
         "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward. They are distinct from glands arranged within a dermal nodule.",
         "The covering of these fronds is squamous.",
-        "Individual cell spread does not create the visible stalked projections.",
+        "Extramammary Paget disease scatters pale cells within the epidermis. The condyloma fronds here are raised squamous projections with fibrovascular cores.",
         "The papillae project toward the surface and retain attached cores."
       ],
       "explanation": "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward. They are distinct from glands arranged within a dermal nodule.",
@@ -3742,11 +3742,11 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "Leiomyoma is a circumscribed smooth muscle nodule. These dark foci contain glands.",
-        "The glands shown sit among muscle bundles, away from an intact luminal surface.",
-        "The conspicuous dark foci are gland and stroma complexes. They do not form a pleomorphic spindle sheet.",
-        "Small gland profiles and their dark stromal cuffs lie deep in muscle.",
-        "The pink background in this specimen is uterine myometrium."
+        "A circumscribed smooth muscle nodule favors leiomyoma. In adenomyosis, endometrial glands with accompanying stroma lie among the myometrial bundles.",
+        "Normal endometrial glands lie in the surface lining. With adenomyosis, the endometrial glands and stroma are embedded within uterine muscle.",
+        "Pleomorphic spindle cells would suggest a malignant smooth muscle proliferation. The myometrial finding here is endometrial glands and stroma in adenomyosis.",
+        "Endometrial glands and stroma within smooth muscle bundles demonstrate the myometrial location that defines adenomyosis.",
+        "Endometrial-type tissue on the ovary would be extrauterine endometriosis. The abnormal tissue here is within the uterine muscular wall, supporting adenomyosis."
       ],
       "explanation": "Gland profiles sit within dark endometrial stroma surrounded by pink smooth muscle.",
       "visual_clues": [
@@ -4283,7 +4283,7 @@
       "choice_rationales": [
         "A homogeneous solid surface would not identify an ectodermal derivative.",
         "The visible strands inside the cavity supply the clue.",
-        "Hemorrhage does not demonstrate an ectodermal component.",
+        "Hemorrhage in an ovarian mass is nonspecific. Visible hair in the mature cystic teratoma comparison demonstrates differentiated ectoderm.",
         "Hairlike strands lie in the opened cavity. Visible hair is direct evidence of a mature ectodermal derivative; the solid portion of the original case was assessed microscopically.",
         "The material in the cavity is more specific than the shape of a septum."
       ],
@@ -4341,10 +4341,10 @@
       "correct_index": 2,
       "choice_rationales": [
         "The follicles in struma ovarii have conspicuous dense luminal colloid.",
-        "Schiller–Duval bodies contain a central vessel. The repeated centers here are small and pale.",
-        "The recurring tiny spaces have a surrounding ring of tumor cells.",
+        "A vessel-centered Schiller–Duval body supports yolk sac tumor. In the granulosa cell tumor shown here, the small spaces within rosettes are the centers of Call–Exner bodies.",
+        "Call–Exner bodies are small rosettes of granulosa tumor cells surrounding pale centers. Their repeated appearance supports a granulosa cell tumor.",
         "Fibroma forms bundles of elongated cells. This field is predominantly round celled.",
-        "Signet ring mucin is intracellular and displaces the nucleus."
+        "In Krukenberg tumor, intracellular mucin displaces the nucleus of a signet-ring cell. The pale spaces here lie between cells in the Call–Exner bodies."
       ],
       "explanation": "The field contains repeated small follicle like spaces surrounded by tumor cells, consistent with Call–Exner bodies.",
       "visual_clues": [
@@ -4414,10 +4414,10 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "That arrangement would support signet ring differentiation.",
+        "A peripheral nucleus displaced by mucin supports a signet-ring cell, as in Krukenberg tumor. Longitudinal nuclear grooves support granulosa cell tumor here.",
         "The salient detail here is the recurrent linear groove in smaller oval nuclei.",
         "That is the neuroepithelial pattern of immature teratoma.",
-        "Several uniform oval nuclei have a narrow linear indentation.",
+        "Longitudinal grooves in oval nuclei support granulosa cell tumor and complement the Call–Exner bodies seen in the companion field.",
         "The nuclei are relatively uniform in the displayed field."
       ],
       "explanation": "Several nuclei show longitudinal grooves. This feature complements the microfollicular architecture in the first field.",
@@ -4686,9 +4686,9 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The pale material occupies individual cells and pushes their nuclei to the periphery.",
-        "Thyroid type colloid would lie in a shared extracellular lumen.",
-        "Call–Exner bodies are spaces surrounded by several cells.",
+        "Krukenberg tumor shows signet-ring cells in which intracellular mucin vacuoles displace the nucleus to the periphery.",
+        "Colloid in struma ovarii occupies a shared follicular lumen. In a Krukenberg tumor, the pale mucin vacuole is within a single cell.",
+        "Call–Exner bodies in granulosa cell tumor have extracellular centers rimmed by several cells. The pale material in this Krukenberg specimen is intracellular.",
         "That organized pattern favors dysgerminoma. Here many cells have individual large vacuoles.",
         "Fibroma forms elongated cellular bundles. The pale cells here are rounded and vacuolated."
       ],
@@ -4960,7 +4960,7 @@
       "choice_rationales": [
         "Cystitis cystica forms epithelial lined spaces larger than these rounded inclusions.",
         "Acute suppuration would show neutrophils with lobulated nuclei, rather than these rounded bodies.",
-        "The arrows point to discrete rounded bodies in the histiocyte rich lesion.",
+        "The rounded Michaelis–Gutmann bodies among granular histiocytes support malakoplakia.",
         "Endometriosis would show a gland and stroma relationship.",
         "The arrowed structures are round and lie among granular cells."
       ],
@@ -5152,7 +5152,7 @@
       "correct_index": 4,
       "choice_rationales": [
         "Those inclusions are the distinguishing evidence in the original case.",
-        "This field emphasizes the superficial inflammatory infiltrate.",
+        "Nests interdigitating with detrusor bundles would demonstrate muscle-invasive urothelial carcinoma. This chronic cystitis comparison instead shows an inflammatory infiltrate in the lamina propria.",
         "The dark population sits mainly under the lining.",
         "The architecture here is an inflammatory tissue field, not branching fronds.",
         "The dense small inflammatory cells are beneath the lining in the lamina propria. The pattern supports inflammation without demonstrating the characteristic inclusions of the original plaque."
@@ -5206,11 +5206,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "A flat in situ lesion would remain within the urothelial surface.",
+        "Urothelial carcinoma in situ remains within a flat surface lining. In this invasive carcinoma example, irregular tumor nests extend into muscularis propria.",
         "Papillary growth at the surface does not account for deep nests between bundles.",
         "Tumor and muscle are intermingled in the field.",
         "The field shows multiple irregular nests interspersed through muscle.",
-        "Dark irregular nests sit among the broad pink bundles."
+        "Urothelial carcinoma invades muscularis propria here, with dark irregular nests interdigitating with broad pink detrusor muscle bundles."
       ],
       "explanation": "Dark tumor nests interrupt and separate broad detrusor muscle bundles. The relationship supports invasion of muscularis propria.",
       "visual_clues": [
@@ -5411,8 +5411,8 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The flat surface lining contains markedly atypical cells. This field demonstrates epithelial atypia; it does not show lesional cells between detrusor bundles.",
-        "The atypical cells are shown in the surface layer.",
+        "The flat atypical urothelial lining supports urothelial carcinoma in situ in this teaching field. It does not demonstrate detrusor invasion.",
+        "Muscle-invasive urothelial carcinoma would place nests between detrusor bundles. The abnormal cells here follow the flat epithelial lining.",
         "The lesional surface here is flat.",
         "The lining itself is conspicuously atypical.",
         "This is a tissue section, and the shown atypia is epithelial."
@@ -5671,8 +5671,8 @@
         "The dark rings around larger glands show that the basal stain worked within the field.",
         "Most of the smaller pink profiles lack the dark peripheral rim.",
         "The two populations differ in both profile size and basal staining.",
-        "The suspicious small glands lack the basal staining retained around larger glands.",
-        "The lecture notes that AMACR can be overexpressed in both PIN and invasive carcinoma. Interpret the architecture and basal layer together."
+        "The small atypical prostate glands lose the basal rim, while the larger benign glands retain it as an internal control. In this context, basal cell loss supports invasive prostatic adenocarcinoma.",
+        "Luminal AMACR positivity can also be seen in prostatic intraepithelial neoplasia. Interpreting suspected invasive adenocarcinoma requires attention to gland architecture and the basal cell layer."
       ],
       "explanation": "In this teaching field, rim loss around the smaller atypical glands supports invasive adenocarcinoma when interpreted with their morphology. The larger glands with retained basal staining serve as an internal comparison.",
       "visual_clues": [
@@ -6009,7 +6009,7 @@
         "The pale lobules are solid and fleshy.",
         "The lesion fills both displayed halves as a multilobulated solid mass.",
         "The pale tissue occupies most of the cut surface.",
-        "The mass is composed largely of smooth pale lobules."
+        "The pale, fleshy, relatively uniform lobulated cut surface is characteristic of the illustrated seminoma."
       ],
       "explanation": "Most of the section is replaced by a pale fleshy mass with rounded lobules and relatively uniform cut surfaces.",
       "visual_clues": [
@@ -6063,11 +6063,11 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The pale tumor nests and small dark lymphocytes occupy different compartments.",
+        "Seminoma forms nests of large pale tumor cells divided by fibrous septa containing small dark lymphocytes.",
         "A triphasic tumor cell population would support spermatocytic tumor.",
         "Embryonal carcinoma may show that architecture. This field shows pale nests with septa.",
-        "The cells here are packed into nests.",
-        "A vessel centered Schiller–Duval body is a different architecture."
+        "Reticular architecture favors yolk sac tumor. Seminoma here forms cohesive-looking nests separated by lymphocyte-rich septa.",
+        "A tumor cuff around a central vessel is a Schiller–Duval body seen in yolk sac tumor. Seminoma here is organized in pale nests with lymphocyte-rich septa."
       ],
       "explanation": "Nests of large pale cells are separated by fibrous bands containing small dark lymphocytes.",
       "visual_clues": [
@@ -6329,7 +6329,7 @@
         "The key boundary encloses the abnormal cells as a tubule.",
         "The field shows a recognizable seminiferous tubular contour.",
         "The cells occupy a tubular compartment, not a surface band.",
-        "The large abnormal cells stay within the contour of a seminiferous tubule. This field illustrates an intratubular process, in contrast to the original mass architecture.",
+        "Germ cell neoplasia in situ is represented by atypical cells remaining within the contour of a seminiferous tubule.",
         "The structure is a seminiferous tubule rather than a muscle wall."
       ],
       "explanation": "The large abnormal cells stay within the contour of a seminiferous tubule. This field illustrates an intratubular process, in contrast to the original mass architecture.",
@@ -6384,11 +6384,11 @@
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The pale tumor cells and lymphocyte-rich septa fit seminoma. R16 identifies OCT3/4 and CD117 as useful germ cell markers in that setting and describes CD30 and AFP as negative.",
-        "These markers are used to evaluate basal cells in the lecture's prostate examples.",
-        "The seminoma slide describes these as negative.",
-        "These markers do not evaluate the testicular germ cell pattern shown here.",
-        "These highlight muscle or myoepithelial differentiation in other teaching examples."
+        "The pale tumor cells and lymphocyte-rich septa favor seminoma. R16 lists OCT3/4 and CD117 as useful markers for this pattern.",
+        "p63 and CK903 assess prostatic basal cells in the PIN4 examples. The germ cell tumor pattern shown here is seminoma and calls for OCT3/4 and CD117.",
+        "The seminoma slide lists CD30 and AFP as negative. In the germ cell differential, CD30 can support embryonal carcinoma and AFP can support yolk sac differentiation.",
+        "HER2 and estrogen receptor are breast carcinoma biomarkers in the quiz. OCT3/4 and CD117 instead fit the seminoma pattern here.",
+        "Calponin and SMA assess myoepithelial or smooth muscle differentiation in other examples. They do not establish germ cell differentiation in this seminoma field."
       ],
       "explanation": "The pale tumor cells and lymphocyte-rich septa fit seminoma. R16 identifies OCT3/4 and CD117 as useful germ cell markers in that setting and describes CD30 and AFP as negative.",
       "visual_clues": [
@@ -6612,7 +6612,7 @@
       "correct_index": 3,
       "choice_rationales": [
         "The distal tubal marker is on the tube itself.",
-        "Both are in the lateral adnexal region.",
+        "Both ectopic sites are adnexal. Distal tubal implantation follows the end of the tube and ovarian implantation lies within the ovary. The uterine wall and cervix represent different implantation sites.",
         "Each marker is drawn in relation to a specific adnexal organ.",
         "The distal tubal marker follows the end of the drawn tube. The ovarian marker is inside the separately outlined ovary rather than on the tubal course.",
         "It is lateral to the uterus within the ovarian outline."
@@ -6662,11 +6662,11 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "Mucinous carcinoma has extracellular mucin with floating cells.",
-        "That architecture would favor invasive lobular carcinoma.",
+        "Mucinous carcinoma has tumor islands floating in extracellular mucin. This comedo-type ductal carcinoma in situ has necrosis centered within ducts.",
+        "Linear stromal files support invasive lobular carcinoma. In comedo-type ductal carcinoma in situ, necrotic material lies centrally within expanded ducts.",
         "Here the dense centers are bounded by rounded duct profiles.",
         "The material occupies the center of several ducts.",
-        "Dark ductal epithelium surrounds the pink central material."
+        "Comedo-type ductal carcinoma in situ fills and expands ducts with atypical epithelium around a central core of necrosis."
       ],
       "explanation": "The material fills the centers of rounded ducts surrounded by dark epithelial cells. That intraductal distribution is characteristic of comedo necrosis in the supplied example.",
       "visual_clues": [
@@ -6794,11 +6794,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "Expect a proliferation of loosely cohesive cells within lobules.",
-        "The central necrosis within expanded atypical ducts is the decisive pattern.",
-        "Irregular infiltrating tubules in desmoplastic stroma would support invasion.",
-        "Discohesive tumor cells spreading in single files would favor lobular invasion.",
-        "Expect tumor islands floating in extracellular mucin."
+        "Lobular carcinoma in situ expands lobules with loosely cohesive cells. The necrotic central cores within expanded ducts favor comedo-type ductal carcinoma in situ.",
+        "Central necrosis within expanded ducts rimmed by atypical epithelium is the characteristic pattern of comedo-type ductal carcinoma in situ.",
+        "Invasive ductal carcinoma would show irregular epithelial glands infiltrating desmoplastic stroma. The necrotic material here remains within expanded ducts.",
+        "Invasive lobular carcinoma would show single files of discohesive cells in stroma. This field instead shows intraductal necrosis.",
+        "Mucinous carcinoma has groups of tumor cells floating in extracellular mucin. The pink centers here are necrotic cores within expanded ducts."
       ],
       "explanation": "The atypical cells rim expanded ducts with central necrosis, supporting comedo type ductal carcinoma in situ in this example. The companion mammogram illustrates why this pattern can be detected by branching microcalcifications.",
       "visual_clues": [
@@ -7054,7 +7054,7 @@
         "No deep infiltrating tumor in muscle is shown in this field.",
         "The figure does not show an atypical tumor aggregate inside a vessel.",
         "The visible atypia is epithelial. The field does not demonstrate a distinct invasive stromal component.",
-        "The conspicuous dark proliferation follows the epithelial lining.",
+        "The lecture identifies serous tubal intraepithelial carcinoma. In this field, the crowded dark atypical proliferation follows the tubal epithelial lining.",
         "A segment of the surface is conspicuously more crowded and atypical than the surrounding tissue."
       ],
       "explanation": "The slide identifies this representative lesion as serous tubal intraepithelial carcinoma. The image demonstrates an abnormal epithelial segment. This field cannot establish the status of the rest of the specimen.",
@@ -7165,11 +7165,11 @@
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "Only operation B removes the ovaries.",
+        "Only the bilateral salpingo-oophorectomy in row B removes the ovaries. Opportunistic salpingectomy in row A removes potential tubal precursor tissue while preserving the ovaries.",
         "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers.",
-        "Row A shows the opposite tissue distribution.",
+        "Opportunistic salpingectomy in row A removes both tubes and leaves the ovaries in place, addressing a potential source of precursors to high-grade serous carcinoma.",
         "The table records that both tubes are removed in operation B.",
-        "Both operations remove the fallopian tubes."
+        "Both operations remove the fallopian tubes, including potential tubal precursor sites for high-grade serous carcinoma. Only operation B also removes the ovaries."
       ],
       "explanation": "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers.",
       "visual_clues": [
@@ -7406,11 +7406,11 @@
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "CDX2 is negative, so there is no positive colorectal signal here.",
-        "Calretinin is negative, so there is no positive mesothelial signal here.",
-        "Both markers are listed among the negative results.",
-        "CDX2 and calretinin are both negative in the fluid. The guide weighs those negative results against the combined positive pattern, which supports Müllerian origin.",
-        "Calretinin was measured and its result is shown."
+        "CDX2 is negative, so the panel does not support a colorectal primary through that marker. Calretinin is also negative, weakening the mesothelial alternative.",
+        "Calretinin is negative, weakening the mesothelial alternative. Negative CDX2 likewise supplies no support for a colorectal primary.",
+        "CDX2 and calretinin are both negative in the effusion. These results weigh against colorectal and mesothelial origin, respectively.",
+        "Negative CDX2 and calretinin weaken the colorectal and mesothelial alternatives, respectively. The combined positive pattern supports Müllerian origin in the case.",
+        "The panel includes a measured negative calretinin result, which weakens the mesothelial alternative. CDX2 was also measured and is negative."
       ],
       "explanation": "CDX2 and calretinin are both negative in the fluid. The guide weighs those negative results against the combined positive pattern, which supports Müllerian origin.",
       "visual_clues": [
@@ -7550,10 +7550,10 @@
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "Calretinin is negative in the displayed panel.",
-        "The displayed CDX2 result is negative.",
-        "The displayed TTF1 result is negative.",
-        "The guide lists several possible PAX8-expressing tissues and interprets the panel together.",
+        "Calretinin is negative, so the panel does not support a mesothelial origin through that marker. The combined positive stains favor Müllerian origin.",
+        "CDX2 is negative in this case, providing no positive evidence for a colorectal primary. The combined positive stains favor Müllerian origin.",
+        "TTF1 is negative in this case, providing no positive evidence from that marker for a thyroid or lung primary.",
+        "PAX8 may be expressed in several tissues. In this case CK7, PAX8, and CA125 together support Müllerian origin, and follow-up evaluates the ovary as the primary site.",
         "CK7, PAX8, and CA125 are positive. The guide interprets the panel as supporting Müllerian origin and relies on the subsequent ovarian evaluation to establish the primary."
       ],
       "explanation": "CK7, PAX8, and CA125 are positive. The guide interprets the panel as supporting Müllerian origin and relies on the subsequent ovarian evaluation to establish the primary.",
@@ -9150,7 +9150,7 @@
       "correct_index": 4,
       "choice_rationales": [
         "There is no demonstrated detrusor relationship in this field.",
-        "This field retains an attached epithelial layer.",
+        "Urine cytology can show detached atypical urothelial cells. This tissue section preserves a flat attached epithelial layer and demonstrates the intraepithelial pattern of urothelial carcinoma in situ.",
         "The abnormal lining is flat rather than papillary.",
         "The prominent feature is a densely cellular epithelial strip.",
         "Crowded pleomorphic cells follow the surface epithelial strip in this field. The visual shows where the abnormality is located, while the original biopsy can be assessed for tumor within the bladder wall."
@@ -9840,11 +9840,11 @@
         "Systemic nonhormonal treatment for vasomotor symptoms to thicken the vaginal epithelium."
       ],
       "choice_rationales": [
-        "The lecture lists lubricants to reduce discomfort. They do not replace the missing epithelial hormonal stimulus.",
+        "Vaginal lubricant can reduce discomfort from menopausal hypoestrogenism, but it does not replace the estrogen signal lost in the thinned vaginal epithelium.",
         "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms.",
-        "Cooling is discussed for hot episodes.",
-        "The illustrated target tissue change is linked to low estrogen.",
-        "That approach addresses hot flashes, rather than the local epithelial mechanism."
+        "Cooling measures help with menopausal hot flashes. The image shows low-estrogen vaginal epithelial thinning, which is a separate local tissue effect.",
+        "The menopausal vaginal epithelium is thin because of reduced estrogen signaling. Progestogen alone does not restore that signal.",
+        "Nonhormonal vasomotor therapy targets menopausal hot flashes. Local vaginal estrogen addresses the low-estrogen vaginal epithelial effect shown."
       ],
       "correct_index": 1,
       "explanation": "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms.",
@@ -10217,11 +10217,11 @@
         "Repeat TSH as the pregnancy test."
       ],
       "choice_rationales": [
-        "The masked row concerns pregnancy rather than thyroid status.",
-        "The lecture uses those in the evaluation of a catecholamine excess pattern.",
-        "R30 lists β-hCG, serum TSH and serum prolactin in the initial workup. Pregnancy testing addresses a distinct cause before assigning the amenorrhea to reduced hypothalamic drive.",
-        "Prolactin is listed separately to screen for a different cause.",
-        "TSH is listed separately for thyroid assessment."
+        "Free T4 assesses thyroid function. The initial amenorrhea workup uses β-hCG to evaluate pregnancy before attributing the missed periods to hypothalamic suppression.",
+        "Metanephrines evaluate suspected catecholamine excess. Initial evaluation of amenorrhea requires pregnancy testing with β-hCG.",
+        "β-hCG evaluates pregnancy, which should be considered before attributing amenorrhea to low energy availability or hypothalamic suppression.",
+        "Prolactin evaluates hyperprolactinemia as a cause of amenorrhea. Pregnancy is evaluated with β-hCG.",
+        "TSH screens for thyroid dysfunction as a cause of amenorrhea. Pregnancy is evaluated with β-hCG."
       ],
       "correct_index": 2,
       "explanation": "R30 lists β-hCG, serum TSH and serum prolactin in the initial workup. Pregnancy testing addresses a distinct cause before assigning the amenorrhea to reduced hypothalamic drive.",
@@ -10301,11 +10301,11 @@
         "Focus only on replacement while keeping the restrictive intake and training pattern."
       ],
       "choice_rationales": [
-        "Both changes would tend to worsen the energy deficit highlighted in the table.",
-        "The lecture addresses the mismatch between energy intake and expenditure.",
-        "The table shows reduced central drive associated with the energy and exercise pattern.",
+        "Lower intake and more intense training worsen the low energy availability that suppresses GnRH in functional hypothalamic amenorrhea.",
+        "More exercise without increased intake preserves or worsens the energy deficit driving functional hypothalamic amenorrhea.",
+        "Ovarian follicle depletion causes primary ovarian insufficiency. This case shows reduced central drive in the setting of low energy availability, favoring functional hypothalamic amenorrhea.",
         "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case.",
-        "The question asks which plan addresses the upstream cause. The lecture discusses energy balance and training directly."
+        "Hormone replacement alone leaves the energy deficit driving functional hypothalamic amenorrhea in place. The lecture targets intake and training to restore energy availability."
       ],
       "correct_index": 3,
       "explanation": "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case.",
@@ -12054,10 +12054,10 @@
         "The main developmental effect is impaired urinary drainage."
       ],
       "choice_rationales": [
-        "The patient has no uterus, and the table concerns gonadal hormone loss.",
+        "There is no uterus in complete androgen insensitivity syndrome. The developmental issue shown is loss of gonadal hormone production before puberty.",
         "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty.",
-        "Removal interrupts the gonadal contribution to pubertal hormone production.",
-        "The lecture describes the opposite direction of risk.",
+        "Gonadectomy in complete androgen insensitivity syndrome removes a source of pubertal estrogen exposure. The slide notes the need for hormone treatment after prepubertal removal.",
+        "R32 describes gonadal tumor risk in complete androgen insensitivity syndrome as very low before puberty. The pubertal consequence tested here is loss of hormone exposure needed for bone accrual.",
         "The lecture emphasizes breast development and bone acquisition."
       ],
       "correct_index": 1,
@@ -12213,11 +12213,11 @@
         "A urethral narrowing blocks venous blood exiting the testis."
       ],
       "choice_rationales": [
-        "That mechanism describes the separate hernia comparison.",
+        "A patent processus vaginalis can allow bowel to enter an inguinal hernia. The acute ischemia in testicular torsion comes from twisting of the spermatic cord.",
         "Fluid accumulation explains hydrocele rather than the lectured mechanism of acute ischemia.",
-        "The predisposition in this case is increased mobility within the tunica vaginalis.",
+        "Failure of descent describes cryptorchidism. The bell-clapper mechanism illustrated here increases testicular mobility and predisposes the spermatic cord to twist.",
         "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord.",
-        "The operative mechanism involves twisting of the spermatic cord."
+        "A urethral stricture affects urine flow. Testicular torsion compromises blood flow by twisting the spermatic cord."
       ],
       "correct_index": 3,
       "explanation": "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord.",
@@ -13480,7 +13480,7 @@
         "The right lesion contains homogeneous internal echoes.",
         "The highlighted lesion is adnexal, and the uterine findings are considered separately.",
         "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma.",
-        "Those features characterize a separate teaching case.",
+        "A mature teratoma may contain fat or toothlike material. Homogeneous low-level echoes and cyclic pain instead support the endometrioma in this case.",
         "B differs from the reference follicles in A, and the cyclic history is part of the distinction."
       ],
       "correct_index": 2,
@@ -13541,11 +13541,11 @@
         "A depicts an ovarian surface cyst and B depicts a urethral lesion."
       ],
       "choice_rationales": [
-        "This reverses the locations of the depicted foci.",
-        "The red foci extend outside the normal lining in both images.",
-        "B highlights foci in the uterine muscle.",
-        "R32 contrasts extrauterine endometriosis with adenomyosis, in which endometrial-type tissue is embedded in the muscular uterine wall.",
-        "The images compare extrauterine implants with tissue within uterine muscle."
+        "A illustrates extrauterine endometriosis, with implants outside the uterus. B illustrates adenomyosis, with endometrial-type tissue inside the uterine muscle.",
+        "Both diseases place endometrial-type tissue outside the normal cavity lining. Endometriosis places it outside the uterus and adenomyosis places it within myometrium.",
+        "Endometriosis may involve the ovaries, but the illustrated adenomyosis in B affects uterine muscle.",
+        "A shows extrauterine endometriosis. B shows adenomyosis, where endometrial-type tissue is embedded in the myometrium.",
+        "The first figure demonstrates extrauterine endometriotic implants. The second places adenomyosis in uterine muscle, away from the urethra."
       ],
       "correct_index": 3,
       "explanation": "R32 contrasts extrauterine endometriosis with adenomyosis, in which endometrial-type tissue is embedded in the muscular uterine wall.",
@@ -13605,11 +13605,11 @@
         "At the junction of endometrium and myometrium, within the uterine wall."
       ],
       "choice_rationales": [
-        "The illustrated abnormality is uterine.",
-        "These views concern the uterine wall.",
-        "These are the wall-focused views, without the saline-outlined stalk example.",
+        "A periurethral diverticulum lies below the bladder near the urethra. Adenomyosis alters the junctional zone within the uterine wall.",
+        "A dominant follicle is ovarian. The inner myometrial change shown here is within the uterine wall, supporting adenomyosis.",
+        "The separate endometrial polyp example shows a stalk in the uterine cavity. The adenomyosis view focuses on the inner myometrium at the junctional zone.",
         "The indicated change relates to the endometrial–myometrial interface.",
-        "The lecture contrasts the adnexal lesion with abnormality of the inner myometrium at the junctional zone. These images illustrate why the uterine and adnexal findings are assessed separately."
+        "The adenomyosis finding is at the endometrial–myometrial junction inside the uterine wall. The endometrioma is the separate adnexal finding."
       ],
       "correct_index": 4,
       "explanation": "The lecture contrasts the adnexal lesion with abnormality of the inner myometrium at the junctional zone. These images illustrate why the uterine and adnexal findings are assessed separately.",
