@@ -1,19 +1,6 @@
 const CACHE_NAME = 'rpq-offline-v1';
-const APP_SHELL = [
-  './',
-  './index.html',
-  './styles.css',
-  './app.js',
-  './engine.js',
-  './bank-config.js',
-  './progress-migration.js',
-  './manifest.webmanifest'
-];
 
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
-  );
   self.skipWaiting();
 });
 
@@ -32,12 +19,35 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Let image asset requests go straight to the network so broken/missing images report errors cleanly;
+  // only fall back to cache if offline.
+  if (url.pathname.includes('/assets/')) {
+    event.respondWith(
+      fetch(request).then(response => {
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+        }
+        return response;
+      }).catch(async err => {
+        if (!navigator.onLine) {
+          const cached = await caches.match(request);
+          if (cached) return cached;
+        }
+        throw err;
+      })
+    );
+    return;
+  }
+
   if (request.mode === 'navigate') {
     event.respondWith(
       fetch(request)
         .then(response => {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put('./index.html', copy));
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put('./index.html', copy));
+          }
           return response;
         })
         .catch(() => caches.match('./index.html'))

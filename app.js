@@ -584,12 +584,7 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
  }
  positionQuestion();
  if(!tableQuestion)wireImage(q,reveal);
- const nextItem=s.items[s.index+1];
- const nextQ=nextItem?byId[nextItem.id]:null;
- if(nextQ?.image&&nextQ.visual_kind!=='table'){
-    const preload=new Image();
-    preload.src=nextQ.image;
- }
+
 }
 function move(delta){const s=p.session;if(s.index+delta<0)return;if(s.index+delta>=s.items.length){if(s.endless&&!s.complete){if(combinedMode){const wanted=new Set(s.pool);s.items.push(...combinedSession(STUDY_SECTIONS.map(section=>bank.filter(q=>q.studySection===section.id&&wanted.has(q.question_id))),s.mode,'all').items);}else{const prior=byId[s.items.at(-1).id].source_group_id;s.items.push(...ordered(bank.filter(q=>s.pool.includes(q.question_id)),Math.random,prior).map(q=>item(q)));}}else{return s.complete?results():finish();}}s.index+=delta;resetZoom();save();quiz();window.scrollTo(0,0);}
 function finish(){const s=p.session;if(!s.complete){s.complete=true;s.result_index=p.exams.length;p.exams.push({date:new Date().toISOString(),mode:s.mode,...(caseMode?{case_id:s.case_id}:{}),...totals(s)});save();}results();}
