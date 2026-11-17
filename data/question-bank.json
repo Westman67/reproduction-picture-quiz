@@ -9570,20 +9570,20 @@
       "study_skill": "morphology"
     },
     {
-      "stem": "Where are the largest pale nodules relative to the central slit in this supplied prostate section?",
+      "stem": "Which zone of the gland is the usual origin of this process, and why does it cause obstruction?",
       "options": [
-        "They are confined to one seminal vesicle",
-        "They grow inside a separate fluid-filled cyst",
-        "They surround the central urethral slit",
-        "They occur only in the peripheral rim"
+        "The central zone, which makes up 25 percent of the gland",
+        "The seminal vesicle, which wraps the urethra",
+        "The peripheral zone, which makes up 70 percent of the gland",
+        "The transition zone, whose nodular growth compresses the urethra"
       ],
-      "correct_index": 2,
-      "explanation": "Broad pale rounded nodules converge on both sides of the central slit. The pale tissue is solid and directly abuts the slit without a fluid space enclosing it.",
+      "correct_index": 3,
+      "explanation": "Step 1. Nodules encircling the urethra are benign prostatic hyperplasia (nodular hyperplasia). Step 2. BPH arises mainly in the transition (central) gland around the urethra, so growth compresses the urethral lumen and causes obstruction, whereas cancer typically arises in the peripheral zone and is less likely to obstruct early.",
       "choice_rationales": [
-        "The pale nodules border the central slit within the cut prostate, rather than a separate lateral structure. This choice describes seminal vesicle disease.",
-        "The pale tissue is solid and directly abuts the slit without a fluid space enclosing it. This choice describes a prostatic cyst.",
-        "Broad pale rounded nodules converge on both sides of the central slit. This choice describes benign prostatic hyperplasia (periurethral nodules), which is what the image shows.",
-        "The most conspicuous nodules cluster centrally rather than being restricted to the outer rim. This choice describes peripheral zone prostate carcinoma."
+        "The central zone is 25 percent of the gland volume but is not the usual BPH origin in the lecture.",
+        "The seminal vesicles are separate structures and do not give rise to BPH.",
+        "The peripheral zone is the major site of prostatic cancer and lies away from the urethra.",
+        "BPH originates in the transition zone around the urethra and compresses it."
       ],
       "visual_clues": [
         "Broad pale rounded nodules converge on both sides of the central slit.",
@@ -9593,7 +9593,7 @@
       "source_id": "s-0fe438269923ced063fa",
       "source_group_id": "g-d7b6c1c2fb36903b55cb",
       "variant_id": "v-09358cfbbabc3ee55163",
-      "tested_concept": "BPH periurethral gross nodules",
+      "tested_concept": "Which zone of the gland is the usual origin of this process, and why does it cause obstruction?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -9614,26 +9614,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 72-year-old man has nocturia, weak stream, and incomplete emptying. A transurethral resection specimen from the central gland shows large pale nodules that crowd around the urethral slit.",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What architectural feature is most conspicuous on this prostate cut surface?",
+      "stem": "Which management is the first-line surgical therapy for patients like him?",
       "options": [
-        "One large hemorrhagic cavity replacing the gland",
-        "Numerous rounded nodules crowding the central channel",
-        "A single ill-defined plaque restricted to the outer edge",
-        "A uniformly smooth section without nodules"
+        "Pelvic lymphadenectomy with radical prostatectomy as first step",
+        "Radical orchiectomy",
+        "Transurethral resection of the prostate",
+        "Orchiopexy"
       ],
-      "correct_index": 1,
-      "explanation": "Multiple rounded pale-to-yellow nodules border a narrow central channel. Several solid pale nodules are present, without one dominant hemorrhagic cavity.",
+      "correct_index": 2,
+      "explanation": "Step 1. Multiple rounded nodules in an enlarged gland around the urethra indicate benign nodular hyperplasia. Step 2. TURP is first-line surgical therapy for recurrent urinary retention, while alpha blockers reduce muscle tone and 5-alpha-reductase inhibitors shrink the gland in medical therapy.",
       "choice_rationales": [
-        "Several solid pale nodules are present, without one dominant hemorrhagic cavity. This choice describes prostatic hemorrhage.",
-        "Multiple rounded pale-to-yellow nodules border a narrow central channel. This choice describes benign prostatic hyperplasia (nodular enlargement), which is what the image shows.",
-        "The nodules are multiple and border the central channel rather than being limited to one peripheral plaque. This choice describes peripheral zone prostate carcinoma.",
-        "The cut surface shows several distinct rounded contours crowding the slit. This choice describes a normal prostate."
+        "Lymphadenectomy and prostatectomy belong to prostate cancer staging and treatment.",
+        "Radical orchiectomy treats testicular germ cell tumors.",
+        "TURP is first line for recurrent retention in BPH.",
+        "Orchiopexy fixes an undescended testis."
       ],
       "visual_clues": [
         "Multiple rounded pale-to-yellow nodules border a narrow central channel.",
@@ -9643,7 +9644,7 @@
       "source_id": "s-8ec5a502c1064e3d9c38",
       "source_group_id": "g-d7b6c1c2fb36903b55cb",
       "variant_id": "v-26290e503ae4aad23265",
-      "tested_concept": "BPH nodular gross architecture",
+      "tested_concept": "Which management is the first-line surgical therapy for patients like him?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -9664,26 +9665,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 76-year-old man with recurrent urinary retention has a prostate that weighs more than 100 g at resection. Cut surface shows many rounded pale nodules.",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What forms the large rounded nodule in this low-power prostate section?",
+      "stem": "Which statement about the composition of the nodules is correct?",
       "options": [
-        "Crowded glandular profiles separated by pink stroma",
-        "A solid sheet of dark cells without glandular lumina",
-        "A central pool of extracellular mucin",
-        "Keratinized squamous nests within muscle"
+        "Nodules may be pure glands, pure stroma, or a mixture, reflecting proliferation of both elements",
+        "Nodules are always malignant",
+        "Nodules are always pure glandular tumors",
+        "Nodules are always pure stroma"
       ],
       "correct_index": 0,
-      "explanation": "Many variably sized epithelial-lined spaces occupy a rounded stromal compartment. The pale areas lie within individual epithelial-lined glands rather than forming one extracellular pool.",
+      "explanation": "Step 1. A rounded nodule of crowded benign glands in stroma is nodular hyperplasia. Step 2. BPH is a proliferation of stromal and glandular elements, nodules may be pure glands, pure stroma, or mixed, and the process is very common, about 50 percent at age 50 and 80 percent at age 80.",
       "choice_rationales": [
-        "Many variably sized epithelial-lined spaces occupy a rounded stromal compartment. This choice describes benign prostatic hyperplasia (glandular nodule), which is what the image shows.",
-        "The rounded nodule contains many open gland lumina separated by stroma. This choice describes a solid dark cell tumor such as lymphoma or small cell carcinoma.",
-        "The pale areas lie within individual epithelial-lined glands rather than forming one extracellular pool. This choice describes mucinous adenocarcinoma.",
-        "The nodule is composed of glandular profiles without layered pink keratin centers. This choice describes squamous cell carcinoma."
+        "BPH nodules may be gland, stroma, or mixed.",
+        "BPH is benign and not malignant.",
+        "Nodules are not restricted to a pure glandular pattern.",
+        "Nodules are not restricted to pure stroma."
       ],
       "visual_clues": [
         "Many variably sized epithelial-lined spaces occupy a rounded stromal compartment.",
@@ -9693,7 +9695,7 @@
       "source_id": "s-6655446c9c483f60ca39",
       "source_group_id": "g-88f7c5b0f2f6b4989eb3",
       "variant_id": "v-d70669d442477301079a",
-      "tested_concept": "BPH gland-rich microscopic nodule",
+      "tested_concept": "Which statement about the composition of the nodules is correct?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -9714,26 +9716,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 68-year-old man has lower urinary tract symptoms. A biopsy from the periurethral region shows a rounded nodule made of crowded glands in a stromal compartment. The urologist asks if the nodule could be pure stroma.",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What does the yellow arrow mark in this supplied testicular tumor?",
+      "stem": "Which serum marker would be elevated, and which cell type produces it?",
       "options": [
-        "A thin-walled translucent cyst",
-        "A pale hair-bearing area",
-        "A dark red hemorrhagic focus",
-        "A smooth homogeneous white nodule"
+        "PLAP from seminoma only",
+        "Testosterone from Leydig cells",
+        "Beta-hCG from syncytiotrophoblasts",
+        "Alpha-fetoprotein from yolk sac elements"
       ],
       "correct_index": 2,
-      "explanation": "The arrow points to a dark red circumscribed hemorrhagic focus in the cut specimen. The marked focus contrasts with paler solid tissue and is not a uniform white nodule.",
+      "explanation": "Step 1. A small hemorrhagic tumor with early hematogenous spread to lung is choriocarcinoma. Step 2. Choriocarcinoma is aggressive, usually involves lungs and liver, and syncytiotrophoblasts produce beta-hCG, which is its serum marker.",
       "choice_rationales": [
-        "The arrowhead lies in solid dark red tissue without a translucent cyst wall. This choice describes a simple cyst.",
-        "The target is dark red and lacks visible hairs or pale cutaneous material. This choice describes a mature teratoma component.",
-        "The arrow points to a dark red circumscribed hemorrhagic focus in the cut specimen. This choice describes hemorrhage within a testicular tumor (such as choriocarcinoma), which is what the image shows.",
-        "The marked focus contrasts with paler solid tissue and is not a uniform white nodule. This choice describes a seminoma."
+        "PLAP is a marker of germ cell tumors and intratubular neoplasia but not the specific serum marker here.",
+        "Testosterone is produced by Leydig cell tumors.",
+        "Syncytiotrophoblasts make beta-hCG.",
+        "AFP is the marker of yolk sac tumor."
       ],
       "visual_clues": [
         "The arrow points to a dark red circumscribed hemorrhagic focus in the cut specimen.",
@@ -9743,7 +9746,7 @@
       "source_id": "s-ef0f964278adfd3e3365",
       "source_group_id": "g-6937159245870e82f679",
       "variant_id": "v-c698e9312c786cbfb8b6",
-      "tested_concept": "Testicular choriocarcinoma gross hemorrhagic focus",
+      "tested_concept": "Which serum marker would be elevated, and which cell type produces it?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -9764,26 +9767,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 34-year-old man has a small 3 cm testicular mass and cough with hemoptysis. Gross examination shows a dark red hemorrhagic focus in the tumor, and the testis is not enlarged.",
+      "study_skill": "interpretation",
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which gross pattern is visible across the cut surfaces in this embryonal carcinoma example?",
+      "stem": "Which statement about this tumor's behavior is most accurate?",
       "options": [
-        "An entirely black fluid-filled cavity without solid tumor",
-        "Lobulated solid tan tissue with irregular darker and paler zones",
-        "A single uniform translucent cyst with a thin clear wall",
-        "A smooth homogeneous white surface without color variation"
+        "It is benign in all post-pubertal patients",
+        "It is more aggressive than seminoma and is often metastatic at diagnosis through hematogenous spread",
+        "It is indolent and surgically cured",
+        "It is always confined by the tunica albuginea"
       ],
       "correct_index": 1,
-      "explanation": "The cut tumor is solid and lobulated with irregular zones of different color and texture. Several regions differ in color and texture across the solid cut surface.",
+      "explanation": "Step 1. Fleshy gray-tan tumor with necrosis and hemorrhage that penetrates the tunica albuginea suggests embryonal carcinoma. Step 2. It occurs about 10 years younger than seminoma, is more aggressive, and often metastasizes hematogenously by the time of diagnosis.",
       "choice_rationales": [
-        "Solid lobulated tissue makes up the bulk of the specimen despite darker areas. This choice describes a hemorrhagic cyst.",
-        "The cut tumor is solid and lobulated with irregular zones of different color and texture. This choice describes embryonal carcinoma of the testis, which is what the image shows.",
-        "The cut face has solid variegated regions, not a clear-walled cavity. This choice describes a simple cyst.",
-        "Several regions differ in color and texture across the solid cut surface. This choice describes a seminoma (homogeneous cut surface)."
+        "All post-pubertal testicular germ cell tumors are malignant.",
+        "Embryonal carcinoma is aggressive and often metastatic at diagnosis.",
+        "Indolent behavior describes spermatocytic tumor.",
+        "Seminoma is usually limited by the tunica albuginea, whereas embryonal carcinoma often penetrates it."
       ],
       "visual_clues": [
         "The cut tumor is solid and lobulated with irregular zones of different color and texture.",
@@ -9793,7 +9797,7 @@
       "source_id": "s-d9451233b49c238da4a6",
       "source_group_id": "g-d4d275b48829d90bd26d",
       "variant_id": "v-c138527a77ec10a84e88",
-      "tested_concept": "Embryonal carcinoma gross heterogeneous surface",
+      "tested_concept": "Which statement about this tumor's behavior is most accurate?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -9814,26 +9818,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 25-year-old man has a testicular mass that is lobulated and fleshy with irregular dark and pale zones on cut section, and the tumor appears to extend through the tunica albuginea.",
+      "study_skill": "interpretation",
       "condition_name": "Embryonal carcinoma",
-      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy."
+      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which microscopic cellular pattern is visible in this testicular tumor?",
+      "stem": "Which diagnosis is supported, and why is it distinct from seminoma?",
       "options": [
-        "Crowded atypical epithelial cells with irregular dark nuclei",
-        "Uniform bland spindle cells in intersecting fascicles",
-        "Mature adipocytes with thin peripheral nuclei",
-        "Orderly ciliated epithelial cells in a single luminal row of cells"
+        "Yolk sac tumor, since CD30 marks it",
+        "Leydig cell tumor, since cytokeratin marks it",
+        "Embryonal carcinoma, since seminoma has large uniform cells with lymphocytes and lacks the anaplastic glandular growth",
+        "Seminoma, since CD30 is its marker"
       ],
-      "correct_index": 0,
-      "explanation": "Irregular dark nuclei are crowded within solid and poorly organized epithelial groups. The dense epithelial groups lack the clear vacuoles and thin peripheral nuclei of mature fat.",
+      "correct_index": 2,
+      "explanation": "Step 1. Anaplastic cells in solid and glandular patterns with CD30 and cytokeratin positivity indicate embryonal carcinoma. Step 2. Seminoma shows large round cells with clear cytoplasm in nests divided by fibrous bands with lymphocytes, so the pattern and markers differ.",
       "choice_rationales": [
-        "Irregular dark nuclei are crowded within solid and poorly organized epithelial groups. This choice describes embryonal carcinoma, which is what the image shows.",
-        "The nuclei are crowded, irregular and dark rather than bland in elongated fascicles. This choice describes a spindle cell tumor such as a leiomyoma.",
-        "The dense epithelial groups lack the clear vacuoles and thin peripheral nuclei of mature fat. This choice describes lipoma or liposarcoma.",
-        "Several disordered nuclear layers and irregular groups are present rather than one organized ciliated row. This choice describes normal ciliated epithelium."
+        "Yolk sac tumor is marked by AFP.",
+        "Leydig cell tumors show uniform polygonal cells with Reinke crystals.",
+        "Embryonal carcinoma is CD30 and keratin positive with anaplastic cells.",
+        "Seminoma is marked by OCT3/4 and CD117 and has lymphocytes."
       ],
       "visual_clues": [
         "Irregular dark nuclei are crowded within solid and poorly organized epithelial groups.",
@@ -9843,7 +9848,7 @@
       "source_id": "s-0a0a0259db112c3d6af9",
       "source_group_id": "g-d4d275b48829d90bd26d",
       "variant_id": "v-2b8cdd2e8dcfe2104fa6",
-      "tested_concept": "Embryonal carcinoma primitive cell morphology",
+      "tested_concept": "Which diagnosis is supported, and why is it distinct from seminoma?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -9864,26 +9869,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 24-year-old man has a testicular mass and mildly elevated beta-hCG. Microscopy shows crowded anaplastic cells with solid and glandular growth. Immunostains are positive for cytokeratin and CD30.",
+      "study_skill": "interpretation",
       "condition_name": "Embryonal carcinoma",
-      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy."
+      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What combination is present in this testicular tumor field?",
+      "stem": "Which clinical feature should be anticipated?",
       "options": [
-        "Normal seminiferous tubules with complete germ cell maturation",
-        "A single bland epithelial lining over a simple cyst",
-        "Mature cartilage with chondrocytes in lacunae",
-        "Complex epithelial projections and pale pink necrotic areas"
+        "Always a painless mass limited to the testis",
+        "Excellent prognosis from surgery alone in all cases",
+        "Spread through blood to distant sites at presentation, with beta-hCG elevated in about 60 percent",
+        "Occurrence mainly in men over 60"
       ],
-      "correct_index": 3,
-      "explanation": "Crowded irregular epithelial projections surround open spaces, and the arrows indicate solid pink necrotic foci. The open spaces have irregular atypical epithelial projections rather than the orderly maturation of a seminiferous tubule.",
+      "correct_index": 2,
+      "explanation": "Step 1. Papillary and solid anaplastic epithelium with necrosis is embryonal carcinoma. Step 2. It peaks in the 20s to 30s, often presents with hematogenous metastasis, and beta-hCG is elevated in about 60 percent.",
       "choice_rationales": [
-        "The open spaces have irregular atypical epithelial projections rather than the orderly maturation of a seminiferous tubule. This choice describes normal spermatogenesis.",
-        "The complex projections contain many crowded cells and accompany distinct necrotic foci. This choice describes a simple cyst.",
-        "The solid pink foci lack the rounded lacunae of mature cartilage and accompany atypical epithelium. This choice describes mature teratoma (cartilage).",
-        "Crowded irregular epithelial projections surround open spaces, and the arrows indicate solid pink necrotic foci. This choice describes embryonal carcinoma with necrosis, which is what the image shows."
+        "It is aggressive and often not limited to the testis.",
+        "Surgery alone is not adequate for aggressive disease.",
+        "Embryonal carcinoma frequently has hematogenous spread and hCG elevation.",
+        "It peaks in young men and not over 60."
       ],
       "visual_clues": [
         "Crowded irregular epithelial projections surround open spaces, and the arrows indicate solid pink necrotic foci.",
@@ -9893,7 +9899,7 @@
       "source_id": "s-9f889fd449685a9fdfc1",
       "source_group_id": "g-d4d275b48829d90bd26d",
       "variant_id": "v-628f9b29b8dcc738507e",
-      "tested_concept": "Embryonal carcinoma papillae and necrosis",
+      "tested_concept": "Which clinical feature should be anticipated?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -9914,26 +9920,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 29-year-old man has a testicular tumor with irregular papillary epithelial projections around open spaces and pink necrotic foci.",
+      "study_skill": "interpretation",
       "condition_name": "Embryonal carcinoma",
-      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy."
+      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "In this supplied PLAP stain, which region contains the conspicuously positive cells?",
+      "stem": "What is the significance of this finding in the adjacent tubules?",
       "options": [
-        "A layer of erythrocytes in a large external vessel",
-        "The cellular lining inside the seminiferous tubule",
-        "The empty center of the tubular lumen itself",
-        "The entire surrounding connective tissue, diffusely"
+        "It is a precursor of spermatocytic tumor",
+        "Intratubular germ cell neoplasia is the precursor to most germ cell tumors",
+        "It is the precursor of Leydig cell tumors",
+        "It is a benign finding"
       ],
       "correct_index": 1,
-      "explanation": "Brown-stained cells follow the inner tubular perimeter around an open pale lumen. The brown signal follows an epithelial cell population inside the tubule, rather than blood cells in an external vessel.",
+      "explanation": "Step 1. PLAP positive large atypical cells inside tubules are intratubular germ cell neoplasia. Step 2. Most germ cell tumors are preceded by this lesion, whereas spermatocytic tumor is unrelated to it, and cryptorchidism and intersex syndromes raise the risk.",
       "choice_rationales": [
-        "The brown signal follows an epithelial cell population inside the tubule, rather than blood cells in an external vessel. This choice describes vascular congestion.",
-        "Brown-stained cells follow the inner tubular perimeter around an open pale lumen. This choice describes intratubular germ cell neoplasia (PLAP positive germ cell neoplasia in situ), which is what the image shows.",
-        "The pale open center lacks the positive cells that line its perimeter. This choice describes empty seminiferous lumen.",
-        "The stain is localized to cells lining the tubular profile rather than staining the whole stroma. This choice describes diffuse stromal staining."
+        "Spermatocytic tumor is unrelated to germ cell neoplasia in situ.",
+        "Intratubular germ cell neoplasia precedes most germ cell tumors.",
+        "Leydig cell tumors are sex cord stromal tumors and not preceded by this lesion.",
+        "The lesion is neoplastic, not benign."
       ],
       "visual_clues": [
         "Brown-stained cells follow the inner tubular perimeter around an open pale lumen.",
@@ -9943,7 +9950,7 @@
       "source_id": "s-002aa100bfa452f997a1",
       "source_group_id": "g-b19564f4ab430b750ede",
       "variant_id": "v-c8467b1588478572e684",
-      "tested_concept": "GCNIS PLAP staining distribution",
+      "tested_concept": "What is the significance of this finding in the adjacent tubules?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -9964,8 +9971,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "stain",
+      "case_context": "A 28-year-old man has an orchiectomy for a testicular mass. Adjacent seminiferous tubules contain large atypical cells that stain brown with PLAP, with no invasion.",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 28,
@@ -9974,23 +9981,24 @@
         }
       ],
       "condition_name": "Germ cell neoplasia in situ",
-      "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years."
+      "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which gross feature is visible in this cut testicular specimen?",
+      "stem": "Which hormone explains his presentation?",
       "options": [
-        "A well-defined pale solid nodule filling most of the cut section",
-        "A multiloculated thin-walled cyst containing hair",
-        "A diffuse black hemorrhagic testis with a twisted cord",
-        "A broad plaque lining a bladder cavity wall"
+        "hCG produced by syncytiotrophoblasts",
+        "Testosterone produced by the tumor",
+        "AFP produced by yolk sac cells",
+        "Estrogen produced by Sertoli cells in all cases"
       ],
-      "correct_index": 0,
-      "explanation": "A large circumscribed pale tan solid mass fills most of the cut testicular section. A solid pale cut face occupies most of the specimen without recognizable cyst chambers or hair.",
+      "correct_index": 1,
+      "explanation": "Step 1. A circumscribed yellow-brown solid nodule with hormonal symptoms is a Leydig cell tumor. Step 2. Testosterone is the major hormone produced, causing precocious puberty in children, and gynecomastia can also occur, and Reinke crystals are rare but pathognomonic.",
       "choice_rationales": [
-        "A large circumscribed pale tan solid mass fills most of the cut testicular section. This choice describes Leydig cell tumor (a well-circumscribed pale solid nodule), which is what the image shows.",
-        "A solid pale cut face occupies most of the specimen without recognizable cyst chambers or hair. This choice describes a mature teratoma (a hair-containing cyst).",
-        "The lesion is well defined and pale without the diffuse dark change described here. This choice describes testicular torsion with hemorrhagic infarction.",
-        "The lesion expands solid testicular tissue, rather than following the lining of a cavity. This choice describes a bladder wall plaque."
+        "hCG comes from choriocarcinoma elements.",
+        "Leydig cell tumors produce testosterone.",
+        "AFP is a yolk sac marker and is not hormonal.",
+        "Sertoli tumors typically produce no hormone."
       ],
       "visual_clues": [
         "A large circumscribed pale tan solid mass fills most of the cut testicular section.",
@@ -10000,7 +10008,7 @@
       "source_id": "s-8ec7538d35366411f1e9",
       "source_group_id": "g-df079e7876ac28d2b2db",
       "variant_id": "v-f12fcbe27940141d6ccc",
-      "tested_concept": "Leydig cell tumor gross cut surface",
+      "tested_concept": "Which hormone explains his presentation?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -10021,26 +10029,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 7-year-old boy has precocious puberty and a testicular mass. The tumor is a homogeneous yellow-brown circumscribed nodule that replaces most of the testis.",
+      "study_skill": "interpretation",
       "condition_name": "Leydig cell tumor",
-      "condition_overview": "Leydig cell tumor is a sex cord-stromal tumor of the testis that forms a well-circumscribed, golden-brown, solid nodule. Polygonal cells with abundant eosinophilic cytoplasm, round nuclei, and sometimes lipofuscin pigment and Reinke crystals form sheets. It secretes androgens or estrogens, causing precocious puberty in boys or gynecomastia in adults. Most are benign and are treated by orchiectomy."
+      "condition_overview": "Leydig cell tumor is a sex cord-stromal tumor of the testis that forms a well-circumscribed, golden-brown, solid nodule. Polygonal cells with abundant eosinophilic cytoplasm, round nuclei, and sometimes lipofuscin pigment and Reinke crystals form sheets. It secretes androgens or estrogens, causing precocious puberty in boys or gynecomastia in adults. Most are benign and are treated by orchiectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What do the yellow arrows identify along the glandular periphery?",
+      "stem": "Why does the presence of this layer matter?",
       "options": [
-        "Tall luminal secretory cells facing the open lumen",
-        "Free cells floating within a glandular secretion",
-        "Vascular endothelial cells lining a blood vessel",
-        "Small basal cells next to the stroma"
+        "Basal cells are present in all adenocarcinomas",
+        "Basal cells produce PSA and are lost in BPH",
+        "Basal cells are the cells that form Schiller-Duval bodies",
+        "Invasive prostate cancer lacks basal cells, so their presence supports a benign gland"
       ],
       "correct_index": 3,
-      "explanation": "The arrows identify small darker cells at the outer edge of the epithelial lining. The marked cells are part of the attached lining, not detached within secretion.",
+      "explanation": "Step 1. Small cells at the periphery of the epithelial lining are basal cells. Step 2. Adenocarcinoma shows a single luminal cell layer with loss of basal cells, so basal cell markers such as the PIN-4 cocktail help confirm a benign gland, while racemase is overexpressed in cancer.",
       "choice_rationales": [
-        "The arrows are at the stromal interface, opposite the open gland lumina. This choice describes secretory epithelial cells of the prostate.",
-        "The marked cells are part of the attached lining, not detached within secretion. This choice describes free cells in prostatic secretions.",
-        "The arrowheads identify peripheral gland cells rather than the lining of a separate vessel. This choice describes vascular endothelium.",
-        "The arrows identify small darker cells at the outer edge of the epithelial lining. This choice describes prostatic basal cells, which is what the image shows."
+        "Basal cells are absent in invasive adenocarcinoma.",
+        "PSA production is not the role of basal cells and they remain in BPH.",
+        "Schiller-Duval bodies belong to yolk sac tumor.",
+        "The absence of basal cells supports invasive carcinoma and their presence supports benign glands."
       ],
       "visual_clues": [
         "The arrows identify small darker cells at the outer edge of the epithelial lining.",
@@ -10050,7 +10059,7 @@
       "source_id": "s-b2c6477e37033ca4c9e6",
       "source_group_id": "g-aec3a001c404b2e03378",
       "variant_id": "v-625e54d4fc363a264f4d",
-      "tested_concept": "Normal prostate basal cells on routine section",
+      "tested_concept": "Why does the presence of this layer matter?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10071,24 +10080,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 66-year-old man has a prostate needle biopsy. A pathologist points to small dark cells at the outer edge of a benign gland and says this layer is critical for excluding cancer.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which architectural feature is visible in this prostate field?",
+      "stem": "Which statement correctly explains why he may have no urinary obstruction?",
       "options": [
-        "Large glands with pronounced epithelial infoldings",
-        "Uniform small glands widely separated by stroma",
-        "Crowded small atypical glands among fibromuscular stroma",
-        "One large gland with an intraluminal papillary projection"
+        "The tumor is a seminal vesicle cyst",
+        "Most prostate cancers arise in the peripheral glands, away from the urethra",
+        "The tumor is in the transition zone around the urethra",
+        "The tumor is a benign nodular hyperplasia"
       ],
-      "correct_index": 2,
-      "explanation": "Small closely spaced atypical gland profiles sit within pink fibromuscular stroma. The gland profiles are crowded rather than widely spaced.",
+      "correct_index": 1,
+      "explanation": "Step 1. Crowded small single-layer glands with atypia indicate prostatic adenocarcinoma. Step 2. About 70 to 80 percent arise in the outer peripheral glands, so urinary obstruction is less likely early than in BPH, and a firm irregular nodule on DRE and an elevated PSA are typical.",
       "choice_rationales": [
-        "The selected field is dominated by closely spaced small gland profiles. This choice describes prostatic hyperplasia with infolded glands.",
-        "The gland profiles are crowded rather than widely spaced. This choice describes a normal prostate with widely spaced glands.",
-        "Small closely spaced atypical gland profiles sit within pink fibromuscular stroma. This choice describes prostatic adenocarcinoma, which is what the image shows.",
-        "Multiple discrete small glands are visible. This choice describes a prostatic papillary lesion."
+        "A seminal vesicle cyst does not explain the rising PSA and atypical glands.",
+        "Peripheral origin explains late obstruction.",
+        "The transition zone is the usual origin of BPH, not cancer.",
+        "BPH is a benign nodular process with basal cells and does not show crowded atypical single-layer glands."
       ],
       "visual_clues": [
         "Numerous small closely packed glandular profiles with discernible lumina lie among pink stromal tissue.",
@@ -10098,7 +10108,7 @@
       "source_id": "s-dd95b69d0e41f6aee169",
       "source_group_id": "g-096ee9db6d3bc6f96025",
       "variant_id": "v-d83c153099d1aa000491",
-      "tested_concept": "Prostatic adenocarcinoma small crowded glands",
+      "tested_concept": "Which statement correctly explains why he may have no urinary obstruction?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10119,26 +10129,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 67-year-old man has a rising PSA of 12 ng/mL and a firm irregular nodule on digital rectal exam. Needle biopsies show small, crowded glands lined by a single layer of atypical cells in fibromuscular stroma.",
+      "study_skill": "interpretation",
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which two cellular populations are visible in this testicular tumor?",
+      "stem": "Which feature of this tumor predicts a high cure rate?",
       "options": [
-        "Large pale tumor cells and small dark lymphocytes",
-        "Uniform spindle cells and mature adipocytes",
-        "Mature squamous cells and ciliated columnar cells",
-        "Only small dark cells with no larger tumor population"
+        "It is chemoresistant and radioresistant",
+        "It frequently invades the tunica albuginea",
+        "It is always bilateral",
+        "It is radiosensitive and has a high cure rate"
       ],
-      "correct_index": 0,
-      "explanation": "Large round pale cells with prominent nuclei are arranged beside collections of much smaller dark lymphocytes. Large pale cells with prominent nuclei occupy much of the section beside the much smaller dark cells.",
+      "correct_index": 3,
+      "explanation": "Step 1. Large clear cells with prominent nucleoli in fibrous nests with lymphocytes indicate seminoma, the analogue of dysgerminoma. Step 2. Seminoma is radiosensitive with a high cure rate, and more than 95 percent of patients with localized disease or nodal spread below the diaphragm can be cured.",
       "choice_rationales": [
-        "Large round pale cells with prominent nuclei are arranged beside collections of much smaller dark lymphocytes. This choice describes seminoma (tumor cells with lymphocytes), which is what the image shows.",
-        "The large cells are round and pale, and the smaller dark cells are clustered along septa rather than forming fat and spindle bundles. This choice describes a spindle cell tumor with fat.",
-        "Neither a layered squamous lining nor a ciliated epithelium accounts for the two populations. This choice describes squamous and ciliated epithelium (mature teratoma).",
-        "Large pale cells with prominent nuclei occupy much of the section beside the much smaller dark cells. This choice describes a small round cell lymphoma."
+        "It is sensitive to both radiation and chemotherapy.",
+        "It is usually limited by the tunica albuginea.",
+        "It is not bilateral in the typical case, unlike spermatocytic tumor which is more commonly bilateral.",
+        "Seminoma is radiosensitive with a high cure rate."
       ],
       "visual_clues": [
         "Large round pale cells with prominent nuclei are arranged beside collections of much smaller dark lymphocytes.",
@@ -10148,7 +10159,7 @@
       "source_id": "s-968edb1713e07bdf290c",
       "source_group_id": "g-8a0f2b1d51db0fa75bc0",
       "variant_id": "v-dcda29dcf645601fcb7d",
-      "tested_concept": "Seminoma pale cells and lymphocytes",
+      "tested_concept": "Which feature of this tumor predicts a high cure rate?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10169,26 +10180,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 33-year-old man has a painless testicular swelling. The tumor is a homogeneous gray-white lobulated mass limited by the tunica albuginea. Microscopy shows large round cells with clear cytoplasm in nests separated by fibrous bands with abundant lymphocytes.",
+      "study_skill": "interpretation",
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which architectural pattern is visible in this testicular stromal tumor?",
+      "stem": "Which statement best fits this tumor?",
       "options": [
-        "Small lymphocytes filling all available space",
-        "Large thyroid-type follicles filled with dense eosinophilic colloid",
-        "Small tubular epithelial profiles separated by pink stroma",
-        "Broad avascular keratin whorls"
+        "A choriocarcinoma making hCG",
+        "A Sertoli cell tumor, a sex cord stromal tumor that usually forms a mass without hormone production",
+        "A Leydig cell tumor causing precocious puberty",
+        "A seminoma with lymphocytes"
       ],
-      "correct_index": 2,
-      "explanation": "Compact round and elongated epithelial profiles are arranged as tubules between pink stromal bands. The tubules are small and lack large homogeneous colloid deposits.",
+      "correct_index": 1,
+      "explanation": "Step 1. Small tubules of Sertoli cells between stroma indicate a Sertoli cell tumor. Step 2. Sex cord stromal tumors account for about 5 percent of testicular tumors, are usually benign, and Sertoli tumors typically form a mass without hormone production, unlike Leydig tumors.",
       "choice_rationales": [
-        "Small epithelial-lined tubules remain visible within the pink stroma. This choice describes lymphoma.",
-        "The tubules are small and lack large homogeneous colloid deposits. This choice describes a thyroid-type follicular tumor.",
-        "Compact round and elongated epithelial profiles are arranged as tubules between pink stromal bands. This choice describes Sertoli cell tumor, which is what the image shows.",
-        "The small structures contain viable lining cells around lumina. This choice describes keratinizing squamous cell carcinoma."
+        "Choriocarcinoma shows trophoblastic cells and hemorrhage.",
+        "Sertoli cell tumors form masses without hormone production.",
+        "Leydig cell tumors produce testosterone and cause precocious puberty or gynecomastia.",
+        "Seminoma shows large clear cells with lymphocytes."
       ],
       "visual_clues": [
         "Compact round and elongated epithelial profiles are arranged as tubules between pink stromal bands.",
@@ -10198,7 +10210,7 @@
       "source_id": "s-c2d5dd8b69b0a922df1f",
       "source_group_id": "g-36b78fa6575290fb716f",
       "variant_id": "v-fc204eba98f681d6014c",
-      "tested_concept": "Sertoli cell tumor tubules",
+      "tested_concept": "Which statement best fits this tumor?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10219,26 +10231,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 6-year-old boy has a firm small testicular nodule. The cut surface is tan-white and microscopy shows small tubules between pink stroma. There are no signs of hormonal effects.",
+      "study_skill": "interpretation",
       "condition_name": "Sertoli cell tumor",
-      "condition_overview": "Sertoli cell tumor is a rare sex cord-stromal tumor of the testis made of tubules lined by columnar Sertoli cells with abundant pale cytoplasm in a fibrous stroma. Most are benign and hormonally inactive, though some produce estrogen and cause gynecomastia. It is treated by orchiectomy."
+      "condition_overview": "Sertoli cell tumor is a rare sex cord-stromal tumor of the testis made of tubules lined by columnar Sertoli cells with abundant pale cytoplasm in a fibrous stroma. Most are benign and hormonally inactive, though some produce estrogen and cause gynecomastia. It is treated by orchiectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Compare the two views of this testicular tumor. How does cell size vary?",
+      "stem": "Which statement about the prognosis and treatment is correct?",
       "options": [
-        "A single large cell surrounded by a normal follicular wall",
-        "An admixture of small, intermediate and large cells",
-        "One uniformly small cell population",
-        "Only elongated spindle cells"
+        "It has indolent behavior and is treated by surgery alone with an excellent prognosis",
+        "It requires aggressive chemotherapy because it is highly malignant",
+        "It is unrelated to age and occurs in infants",
+        "It is a precursor of choriocarcinoma"
       ],
-      "correct_index": 1,
-      "explanation": "The high-power view shows distinctly small cells, a dominant intermediate population, and scattered larger cells. Multiple tumor cells of different sizes are present without a surrounding follicle wall.",
+      "correct_index": 0,
+      "explanation": "Step 1. A triphasic population of small, intermediate, and large cells in an older man is a spermatocytic tumor. Step 2. It is unrelated to germ cell neoplasia in situ, usually behaves indolently, and is treated surgically, though sarcomatous transformation carries a worse prognosis.",
       "choice_rationales": [
-        "Multiple tumor cells of different sizes are present without a surrounding follicle wall. This choice describes a single follicular cell.",
-        "The high-power view shows distinctly small cells, a dominant intermediate population, and scattered larger cells. This choice describes Leydig cell tumor or mixed germ cell tumor with a spectrum of cell sizes, which is what the image shows.",
-        "The two fields contain a conspicuous range of nuclear and cell sizes. This choice describes a uniform small cell tumor.",
-        "The varied populations are predominantly round rather than spindle shaped. This choice describes a spindle cell tumor."
+        "Spermatocytic tumor is indolent with an excellent prognosis after surgery.",
+        "It does not need aggressive chemotherapy in the typical case.",
+        "It occurs in older patients around age 55.",
+        "It does not give rise to choriocarcinoma."
       ],
       "visual_clues": [
         "The high-power view shows distinctly small cells, a dominant intermediate population, and scattered larger cells.",
@@ -10248,7 +10261,7 @@
       "source_id": "s-32cbb0fffa68ae2378fc",
       "source_group_id": "g-11e9ac0af0b1c96ce713",
       "variant_id": "v-6ba36810c38c7a38ca44",
-      "tested_concept": "Spermatocytic tumor three cell sizes",
+      "tested_concept": "Which statement about the prognosis and treatment is correct?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10269,26 +10282,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 56-year-old man has a large myxoid-appearing testicular tumor that has been growing slowly. Microscopy shows small, intermediate, and large cells with numerous mitoses but no lymphocytes or granulomas.",
+      "study_skill": "interpretation",
       "condition_name": "Spermatocytic tumor",
-      "condition_overview": "Spermatocytic tumor is a rare, benign-behaving testicular tumor of older men, unrelated to germ cell neoplasia in situ. It is composed of three cell populations, small lymphocyte-like cells, intermediate cells, and scattered giant cells, with no lymphocytic infiltrate and no association with cryptorchidism. It is cured by orchiectomy and rarely metastasizes."
+      "condition_overview": "Spermatocytic tumor is a rare, benign-behaving testicular tumor of older men, unrelated to germ cell neoplasia in situ. It is composed of three cell populations, small lymphocyte-like cells, intermediate cells, and scattered giant cells, with no lymphocytic infiltrate and no association with cryptorchidism. It is cured by orchiectomy and rarely metastasizes.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which gross change is visible in the exposed testis?",
+      "stem": "What is the expected pathologic consequence at this delay?",
       "options": [
-        "Diffuse dark swelling and congestion",
-        "A small smooth white peripheral nodule",
-        "A clear thin-walled cyst without dark tissue",
-        "Numerous pale papillary surface projections"
+        "Development of choriocarcinoma",
+        "Hemorrhagic infarction and eventual necrosis, since correction is required within 6 hours",
+        "Complete recovery with antibiotics alone",
+        "Development of a hydrocele with normal flow"
       ],
-      "correct_index": 0,
-      "explanation": "Spermatic cord torsion compromises blood flow. The affected testis is diffusely swollen and dark blue-black from congestion and hemorrhagic injury. The swollen tissue is dark and congested rather than a thin-walled clear space.",
+      "correct_index": 1,
+      "explanation": "Step 1. Sudden pain after activity with a dark swollen testis and absent flow is testicular torsion. Step 2. It is a urologic emergency, and detorsion with orchidopexy must be done within 6 hours, otherwise swelling, hemorrhagic infarction, and necrosis result.",
       "choice_rationales": [
-        "Spermatic cord torsion compromises blood flow. The affected testis is diffusely swollen and dark blue-black from congestion and hemorrhagic injury. This choice describes testicular torsion, which is what the image shows.",
-        "The discoloration involves most of the enlarged testis, rather than a pale peripheral focus. This choice describes a small testicular nodule.",
-        "The swollen tissue is dark and congested rather than a thin-walled clear space. This choice describes a hydrocele or cyst.",
-        "The surface is diffusely swollen and dark without pale fronds. This choice describes a papillary tumor."
+        "Torsion does not cause germ cell tumor.",
+        "Delay beyond 6 hours leads to hemorrhagic infarction and necrosis.",
+        "Antibiotics do not relieve torsion and would be used for epididymitis.",
+        "Flow is absent in torsion, unlike simple hydrocele."
       ],
       "visual_clues": [
         "The exposed testis is enlarged and diffusely dark blue-black.",
@@ -10298,7 +10312,7 @@
       "source_id": "s-ea7cadbb2c05805f9eb7",
       "source_group_id": "g-39eab85afac252458348",
       "variant_id": "v-fe79c5a261859f7a7344",
-      "tested_concept": "Testicular torsion congested gross appearance",
+      "tested_concept": "What is the expected pathologic consequence at this delay?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -10319,26 +10333,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 16-year-old boy develops sudden severe testicular pain after sports. The testis is swollen and blue-black. Doppler shows absent flow. He arrives 9 hours after onset.",
+      "study_skill": "interpretation",
       "condition_name": "Testicular torsion",
-      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours."
+      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which change is visible in the testis section supplied after torsion?",
+      "stem": "What does this histologic finding indicate about the testis?",
       "options": [
-        "Dense orderly layers of maturing germ cells in each tubule",
-        "A continuous outer lining of mature keratin",
-        "Discrete groups of pale seminoma cells with dense lymphocytes",
-        "Faint tubular outlines with loss of viable cellular detail"
+        "The tissue is viable with normal spermatogenesis",
+        "The tissue shows only mild inflammation",
+        "The tissue is nonviable, so the testis was lost to hemorrhagic infarction",
+        "The tissue is neoplastic"
       ],
-      "correct_index": 3,
-      "explanation": "Hemorrhagic infarction after testicular torsion leaves faint seminiferous tubule outlines with loss of viable germ-cell detail. Viable seminiferous tubules have orderly layers of germ cells. After testicular torsion and infarction, tubule outlines persist but the layered cellular detail is lost.",
+      "correct_index": 2,
+      "explanation": "Step 1. Faint tubule outlines with loss of cellular detail indicate coagulative necrosis of the testis. Step 2. Untreated torsion causes hemorrhagic infarction and necrosis, leaving nonviable parenchyma, which is why detorsion within 6 hours is emphasized.",
       "choice_rationales": [
-        "Viable seminiferous tubules have orderly layers of germ cells. After testicular torsion and infarction, tubule outlines persist but the layered cellular detail is lost. This choice describes normal spermatogenesis.",
-        "A keratin layer would be an anucleate epithelial surface. In this testicular torsion specimen the pale structures are ghost outlines of seminiferous tubules. This choice describes keratinizing epithelium.",
-        "Seminoma forms pale tumor nests with lymphocyte-rich septa. This torsion-related infarct instead leaves ghost outlines of damaged seminiferous tubules. This choice describes seminoma.",
-        "Hemorrhagic infarction after testicular torsion leaves faint seminiferous tubule outlines with loss of viable germ-cell detail. This choice describes testicular infarction after torsion (coagulative necrosis), which is what the image shows."
+        "Viable tubules would show layered germ cells.",
+        "Infarction is more than mild inflammation.",
+        "Ghostly outlines mean nonviable tissue after infarction.",
+        "No tumor cells are described in this field."
       ],
       "visual_clues": [
         "The tubules retain faint outlines but lack their usual sharply defined layered cellular detail.",
@@ -10348,7 +10363,7 @@
       "source_id": "s-8a734a126ba59515e715",
       "source_group_id": "g-39eab85afac252458348",
       "variant_id": "v-cbe08da746c4fa359b78",
-      "tested_concept": "Torsion ghost seminiferous profiles",
+      "tested_concept": "What does this histologic finding indicate about the testis?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10369,26 +10384,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A pathologist examines an orchiectomy specimen removed 2 days after untreated torsion. Only ghostly outlines of seminiferous tubules are seen.",
+      "study_skill": "interpretation",
       "condition_name": "Testicular torsion",
-      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours."
+      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which anatomic relationship is visible immediately above the dark testis?",
+      "stem": "How does torsion differ from orchitis or epididymitis in the clinical setting?",
       "options": [
-        "The testis lies within a thin isolated cyst without a cord",
-        "Two ureters merge beside the testis",
-        "The spermatic cord twists around itself",
-        "The cord remains a single straight untwisted tract"
+        "Torsion has sudden onset in a young patient after activity, whereas epididymitis is related to urinary infection and presents with infection",
+        "Torsion is caused by Chlamydia",
+        "Torsion occurs in men over 60",
+        "Torsion is chronic and painless"
       ],
-      "correct_index": 2,
-      "explanation": "The spermatic cord coils just proximal to the dark swollen testis. This twisting is the defining anatomic event in testicular torsion. The visible cord is tightly twisted above the swollen testis.",
+      "correct_index": 0,
+      "explanation": "Step 1. Twisting of the spermatic cord above a dark swollen testis defines torsion. Step 2. It affects children and young adults with sudden pain after activity and needs Doppler or perfusion studies, whereas orchitis and epididymitis are infections linked to Chlamydia or Neisseria below 35 years and E. coli above 35.",
       "choice_rationales": [
-        "The visible cord is tightly twisted above the swollen testis. This choice describes a testicular cyst.",
-        "The spiraling structure is attached to the testis and represents the spermatic cord. This choice describes a duplication of the ureters.",
-        "The spermatic cord coils just proximal to the dark swollen testis. This twisting is the defining anatomic event in testicular torsion. This choice describes testicular torsion, which is what the image shows.",
-        "The cord follows a visible coil rather than a straight course. This choice describes a normal straight spermatic cord."
+        "Torsion is sudden and mechanical in young patients, while epididymitis is infectious.",
+        "Chlamydia is a cause of epididymitis, not torsion.",
+        "Torsion typically affects children and young adults.",
+        "Torsion is acute and painful."
       ],
       "visual_clues": [
         "The red cord coils immediately proximal to the dark testis.",
@@ -10398,7 +10414,7 @@
       "source_id": "s-65c6a94dfd114bfa264f",
       "source_group_id": "g-32ac101b36576ec8cbaf",
       "variant_id": "v-9c0ab23e171ed94d77de",
-      "tested_concept": "Testicular torsion twisted cord",
+      "tested_concept": "How does torsion differ from orchitis or epididymitis in the clinical setting?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -10419,26 +10435,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 14-year-old boy has acute scrotal pain without fever or urinary symptoms. The cord is shortened and the testis is high-riding. The pain began after physical activity.",
+      "study_skill": "interpretation",
       "condition_name": "Testicular torsion",
-      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours."
+      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which low-power architecture is visible in this testicular yolk sac tumor?",
+      "stem": "What is the expected prognosis and clinical context?",
       "options": [
-        "Only normal seminiferous tubules with maturing germ cells present",
-        "An irregular reticular network of epithelial strands and spaces",
-        "A smooth thick squamous surface with keratin",
-        "Circumscribed fascicles of bland muscle cells"
+        "The most common testicular tumor before age 3, with very good prognosis",
+        "A tumor associated with elevated hCG only",
+        "A highly aggressive tumor with 100 percent mortality",
+        "A benign tumor of Sertoli cells"
       ],
-      "correct_index": 1,
-      "explanation": "The tissue has a lace-like network of narrow cell strands separating variably shaped spaces. Tumor cells outline a mesh of spaces rather than crossed bland fascicles.",
+      "correct_index": 0,
+      "explanation": "Step 1. A reticular lace-like pattern with elevated AFP is yolk sac tumor. Step 2. It is the most common testicular tumor before age 3, occurs in pure form in infants with very good prognosis, and is a component of mixed germ cell tumors in adults.",
       "choice_rationales": [
-        "The clear spaces have irregular outlines and are bordered by tumor strands rather than normally maturing tubules. This choice describes normal seminiferous tubules.",
-        "The tissue has a lace-like network of narrow cell strands separating variably shaped spaces. This choice describes yolk sac tumor (reticular pattern), which is what the image shows.",
-        "The proliferation is internal and reticular rather than a layered keratinized surface. This choice describes keratinizing squamous cell carcinoma.",
-        "Tumor cells outline a mesh of spaces rather than crossed bland fascicles. This choice describes a smooth muscle tumor."
+        "Yolk sac tumor in infants has a very good prognosis.",
+        "AFP, not hCG, is its serum marker.",
+        "It is not uniformly fatal.",
+        "It is a germ cell tumor, not a Sertoli tumor."
       ],
       "visual_clues": [
         "The tissue has a lace-like network of narrow cell strands separating variably shaped spaces.",
@@ -10448,7 +10465,7 @@
       "source_id": "s-941b12a2d8721d4d3985",
       "source_group_id": "g-e40239928dd86e359a27",
       "variant_id": "v-0ede3d78ab42831e8c3e",
-      "tested_concept": "Yolk sac tumor low power reticular network",
+      "tested_concept": "What is the expected prognosis and clinical context?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -10469,10 +10486,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 2-year-old boy has a painless testicular mass. Serum alpha-fetoprotein is markedly elevated. Histology shows a lace-like network of cells around spaces.",
+      "study_skill": "interpretation",
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which feature identifies the scattered tissue profiles in this placental section?",
@@ -13719,20 +13737,20 @@
       "condition_overview": "A twin pregnancy results from fertilization of two eggs (dizygotic) or splitting of one (monozygotic), and imaging shows two fetuses in separate sacs or compartments. In a uterus with a Müllerian anomaly, each fetus may occupy a separate cavity. Twin gestations have higher risks of preterm birth, growth restriction, and preeclampsia, and monochorionic twins have additional risks such as twin-to-twin transfusion."
     },
     {
-      "stem": "How are the gland profiles arranged relative to the intervening stroma?",
+      "stem": "Which Gleason pattern does this correspond to, and how is the score reported?",
       "options": [
-        "Fused epithelial groups containing numerous punched-out lumina",
-        "Solid cellular sheets without visible lumina",
-        "Scattered single cells without any gland formation",
-        "Individual well-formed glands separated by intervening stroma"
+        "Pattern 3, with the score reported as dominant pattern plus second pattern",
+        "Pattern 1, with the score reported as a percentage",
+        "Pattern 5, with the score reported as the highest pattern only",
+        "Pattern 4, with the score reported as the lowest pattern"
       ],
-      "correct_index": 3,
-      "explanation": "Discrete, well-formed glands retain intervening pink stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 3. The dominant growth retains well-formed gland units.",
+      "correct_index": 0,
+      "explanation": "Step 1. Small infiltrative individual well-formed glands separated by stroma are Gleason pattern 3. Step 2. The score is the dominant pattern plus the second pattern, since most carcinomas contain at least two patterns, and the total predicts outcome, with 5 to 7 potentially treatable.",
       "choice_rationales": [
-        "Open gland profiles are discrete and each is separated by supporting tissue. This choice describes cribriform prostate carcinoma.",
-        "Multiple well-defined lumina remain visible. This choice describes solid sheets of prostatic carcinoma.",
-        "The dominant growth retains well-formed gland units. This choice describes single-cell prostate carcinoma.",
-        "Discrete, well-formed glands retain intervening pink stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 3. This choice describes well-formed prostate glands (Gleason pattern 3), which is what the image shows."
+        "Pattern 3 is individual well-formed glands, and the score is dominant plus second pattern.",
+        "Pattern 1 is a tight lobular arrangement of typical glands.",
+        "Pattern 5 is solid sheets, necrosis, and single cells.",
+        "Pattern 4 is fused or poorly formed glands."
       ],
       "visual_clues": [
         "Many discrete small glands have distinct lumina and are separated by intervening pink stroma.",
@@ -13742,7 +13760,7 @@
       "source_id": "s-65cc5acb6c0367625b2d",
       "source_group_id": "g-24234ad561ff390db682",
       "variant_id": "v-2fbf563f88f35a4d98e1",
-      "tested_concept": "Gleason pattern 3 discrete glands",
+      "tested_concept": "Which Gleason pattern does this correspond to, and how is the score reported?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -13763,8 +13781,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 70-year-old man has a prostate biopsy with infiltrating carcinoma. The pathologist reports individual, well-formed glands separated by stroma as the dominant pattern.",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 46,
@@ -13773,23 +13791,24 @@
         }
       ],
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which glandular architecture is visible in this prostate field?",
+      "stem": "How does this finding change the prognostic outlook compared with well-formed individual glands?",
       "options": [
-        "A single large duct with a thin bland lining",
-        "Only scattered individual tumor cells without any open spaces",
-        "Confluent epithelial groups with multiple internal glandular spaces",
-        "Only small well-formed glands with stroma separating every lumen"
+        "Better, since fused glands mean differentiation",
+        "Unchanged, since all glands carry the same score",
+        "Worse, since fused or cribriform glands are Gleason pattern 4 and raise the total score",
+        "Not relevant, since Gleason scoring applies only to metastases"
       ],
       "correct_index": 2,
-      "explanation": "Several lumina lie within confluent epithelial groups with little separation by stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 4. The spaces lie inside a shared epithelial mass rather than each occupying an independently outlined gland.",
+      "explanation": "Step 1. Fused glands with multiple internal lumina are Gleason pattern 4, such as cribriform glands. Step 2. Higher patterns indicate less differentiation, so the combined score rises and prognostic groups with higher scores have lower biochemical relapse-free survival.",
       "choice_rationales": [
-        "Multiple lumina lie inside irregular confluent epithelial groups. This choice describes a single benign duct.",
-        "Visible openings persist within the complex groups. This choice describes single-cell carcinoma.",
-        "Several lumina lie within confluent epithelial groups with little separation by stroma. The R16 comparison uses this architecture to demonstrate Gleason pattern 4. This choice describes fused or cribriform prostate glands (Gleason pattern 4), which is what the image shows.",
-        "The spaces lie inside a shared epithelial mass rather than each occupying an independently outlined gland. This choice describes well-formed glands (Gleason pattern 3)."
+        "Fused glands represent poor formation and not differentiation.",
+        "Different patterns carry different scores from 1 to 5.",
+        "Pattern 4 is less differentiated than pattern 3 and worsens the score.",
+        "Gleason scoring is applied to the primary biopsy specimen."
       ],
       "visual_clues": [
         "Multiple glandular spaces occur within larger connected epithelial groups.",
@@ -13799,7 +13818,7 @@
       "source_id": "s-17ed292ff426c3ca40e0",
       "source_group_id": "g-24234ad561ff390db682",
       "variant_id": "v-8918d01806acd08c0257",
-      "tested_concept": "Gleason pattern 4 cribriform architecture",
+      "tested_concept": "How does this finding change the prognostic outlook compared with well-formed individual glands?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -13820,8 +13839,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 69-year-old man has a prostate biopsy showing confluent epithelial groups with multiple lumina and little intervening stroma. The dominant pattern is the cribriform type.",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 37,
@@ -13830,23 +13849,24 @@
         }
       ],
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which sequence of microscopic patterns is visible from left to right?",
+      "stem": "Which Gleason pattern is this and what does it imply?",
       "options": [
-        "Three similar fields with orderly well-formed glands",
-        "Central necrosis, scattered single cells, then a solid sheet",
-        "Scattered single cells, central necrosis, then a thin cyst lining",
-        "Solid sheet, separate well-formed glands, then central necrosis"
+        "Pattern 1, the most differentiated",
+        "Pattern 3, small well-formed glands",
+        "Pattern 2, loosely arranged glands",
+        "Pattern 5, the least differentiated, associated with the poorest outcome"
       ],
-      "correct_index": 1,
-      "explanation": "The left field has pink central necrosis in tumor groups, the middle shows small scattered cells in stroma, and the right is largely solid tumor. Central necrosis is in the left panel. The right panel contains a densely cellular sheet.",
+      "correct_index": 3,
+      "explanation": "Step 1. Solid sheets, single cells, and central necrosis define Gleason pattern 5. Step 2. Pattern 5 is the least differentiated, and high scores of 9 to 10 have the lowest 5-year biochemical relapse-free survival of the prognostic groups.",
       "choice_rationales": [
-        "The three panels differ in architecture and lack the orderly discrete glands of pattern 3. This choice describes Gleason pattern 3 in all three fields.",
-        "The left field has pink central necrosis in tumor groups, the middle shows small scattered cells in stroma, and the right is largely solid tumor. This choice describes comedonecrosis, single cells, and solid sheets (Gleason pattern 5), which is what the image shows.",
-        "Central necrosis is in the left panel. The right panel contains a densely cellular sheet. This choice describes Gleason pattern 5 features in reverse order.",
-        "The right panel has solid growth, and the middle field shows scattered cells in pink stroma. This choice describes Gleason patterns 5, 3, and 5."
+        "Pattern 1 is a tightly packed typical glandular arrangement.",
+        "Pattern 3 is small infiltrative individual glands.",
+        "Pattern 2 is a loose arrangement of larger glands.",
+        "Pattern 5 is the least differentiated."
       ],
       "visual_clues": [
         "The left field has pink central necrosis in tumor groups, the middle shows small scattered cells in stroma, and the right is largely solid tumor.",
@@ -13856,7 +13876,7 @@
       "source_id": "s-70607d78d56a69e2ec9a",
       "source_group_id": "g-24234ad561ff390db682",
       "variant_id": "v-c8e329a0fe6d1c6b68e6",
-      "tested_concept": "Gleason pattern 5 microscopic variants",
+      "tested_concept": "Which Gleason pattern is this and what does it imply?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -13877,26 +13897,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 74-year-old man has a poorly differentiated prostate carcinoma. Sections show central necrosis within tumor groups, scattered single cells in stroma, and solid sheets.",
+      "study_skill": "interpretation",
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "How does the crowded epithelium relate to the large ductal lumen?",
+      "stem": "What is the significance of finding the first lesion?",
       "options": [
-        "Atypical epithelium projects into a recognizable ductal lumen",
-        "Only flattened bland cells line the ductal cavity",
-        "All epithelial cells are isolated outside the duct within muscle",
-        "The central lumen is entirely replaced by mature cartilage"
+        "PIN retains a basal or myoepithelial layer but is found with increased frequency in prostates with adenocarcinoma",
+        "PIN has no relation to carcinoma",
+        "PIN is a form of BPH",
+        "PIN is a metastatic lesion"
       ],
       "correct_index": 0,
-      "explanation": "Crowded dark epithelium projects inward around a central ductal space. The central space is open and bordered by epithelium rather than cartilage matrix.",
+      "explanation": "Step 1. Atypical epithelium with papillary projections in a duct that retains its basal layer is PIN. Step 2. About 80 percent of cancer cases show high-grade PIN, which suggests carcinoma in situ, so adjacent cores are examined carefully.",
       "choice_rationales": [
-        "Crowded dark epithelium projects inward around a central ductal space. This choice describes intraductal carcinoma of the prostate, which is what the image shows.",
-        "Crowded, atypical epithelium projects into the duct lumen. This choice describes a normal flat duct lining.",
-        "The lesional epithelium remains centered on a recognizable duct. This choice describes invasive carcinoma in muscle.",
-        "The central space is open and bordered by epithelium rather than cartilage matrix. This choice describes a cartilaginous lesion."
+        "PIN is a precursor seen in many cancer cases and retains its basal layer.",
+        "PIN is related to carcinoma.",
+        "PIN is a neoplastic lesion and not nodular hyperplasia.",
+        "PIN is an in situ lesion and not a metastasis."
       ],
       "visual_clues": [
         "Crowded dark epithelium projects inward around a central ductal space.",
@@ -13906,7 +13927,7 @@
       "source_id": "s-c1058180ca016cd80697",
       "source_group_id": "g-24234ad561ff390db682",
       "variant_id": "v-196ef525569d6b71fd73",
-      "tested_concept": "Prostatic intraepithelial neoplasia duct architecture",
+      "tested_concept": "What is the significance of finding the first lesion?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -13927,8 +13948,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 65-year-old man has prostatic intraepithelial neoplasia in one biopsy core. A different core shows crowded dark epithelium projecting into a large duct.",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 50,
@@ -13937,7 +13958,8 @@
         }
       ],
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "What does the black arrow highlight inside the enlarged villous profile?",
@@ -15249,7 +15271,7 @@
       "source_id": "s-17891209e94f9be1181e",
       "source_group_id": "g-aec3a001c404b2e03378",
       "variant_id": "v-dc4e7fe196fc74d3f03d",
-      "tested_concept": "Normal prostate luminal folds and stroma",
+      "tested_concept": "Which additional feature would argue against cancer in this field?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15270,33 +15292,34 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which pattern is visible among the large irregular lumina?",
+      "case_context": "A 55-year-old man has a prostate biopsy. The pathologist describes a gland with large irregular lumina and inward epithelial folds, a pseudostratified lining, and rich fibromuscular stroma, and calls it benign.",
+      "stem": "Which additional feature would argue against cancer in this field?",
       "options": [
-        "Most glands contain central necrotic cores",
-        "All lumina are filled by a densely packed round cell population",
-        "Epithelial folds project into the glandular spaces",
-        "Solid squamous nests occupy the entire tissue field"
+        "Blue mucinous secretions and crystalloids",
+        "A single cell layer with crowded small glands",
+        "Prominent nucleoli with mitoses",
+        "A preserved basal cell layer with irregular papillary folding as normal architecture"
       ],
-      "correct_index": 2,
-      "explanation": "Pale open spaces contain inward projections lined by dark epithelium. The pink projections are attached to the gland lining rather than central necrotic debris.",
+      "correct_index": 3,
+      "explanation": "Step 1. Large glands with inward folds and a pseudostratified lining are normal prostate. Step 2. Adenocarcinoma shows crowded small single-layered glands with enlarged nuclei, prominent nucleoli, and loss of basal cells, so a preserved basal layer supports benignity.",
       "choice_rationales": [
-        "The pink projections are attached to the gland lining rather than central necrotic debris. This choice describes a necrotic gland pattern (comedo carcinoma).",
-        "The spaces remain open around the protruding epithelial folds. This choice describes a monotonous round cell tumor.",
-        "Pale open spaces contain inward projections lined by dark epithelium. This choice describes normal prostate glands with papillary epithelial infolding, which is what the image shows.",
-        "Open glands lined by folded epithelium remain visible throughout the field. This choice describes squamous cell carcinoma."
+        "Blue mucinous secretions and crystalloids are features described for adenocarcinoma.",
+        "A single cell layer with crowded small glands is the pattern of adenocarcinoma.",
+        "Prominent nucleoli and mitoses are features of adenocarcinoma.",
+        "Basal cells are present in benign glands and absent in invasive cancer."
       ],
       "visual_clues": [
         "Pale open spaces contain inward projections lined by dark epithelium."
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-7e27848d416f1b811175",
       "source_id": "s-600f75df9301784323dc",
       "source_group_id": "g-36c7fe9df33f9e943ae9",
       "variant_id": "v-65fa9fde59de18421c09",
-      "tested_concept": "Seminiferous epithelial layers at the tubule lumen",
+      "tested_concept": "What does this histologic pattern indicate about the tubules?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15317,33 +15340,34 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "How are the dark nuclei arranged along the pale central space?",
+      "case_context": "A 30-year-old man has a testicular biopsy as part of infertility evaluation. Seminiferous tubules show several layers of germ cell nuclei around an open lumen with supporting Sertoli cells.",
+      "stem": "What does this histologic pattern indicate about the tubules?",
       "options": [
-        "Nuclei are absent throughout the field",
-        "Several layers of nuclei border the open luminal space",
-        "A single flattened cell layer lines the entire space",
-        "The lumen contains a continuous solid epithelial sheet"
+        "Loss of all germ cells",
+        "Intratubular germ cell neoplasia",
+        "A Leydig cell tumor",
+        "Active spermatogenesis within the tubules"
       ],
-      "correct_index": 1,
-      "explanation": "Multiple ranks of dark round nuclei lie along the luminal margin, with the central space largely open. The lining has several layers rather than a single flattened row.",
+      "correct_index": 3,
+      "explanation": "Step 1. Several ranks of germ cells with supporting Sertoli cells in seminiferous tubules are normal. Step 2. Germ cells lie within the tubules with Sertoli cells as supporting cells, while Leydig cells sit in the stroma, so layered germ cells indicate active spermatogenesis.",
       "choice_rationales": [
-        "Many dark nuclei are present in the tubular lining. This choice describes an acellular lesion.",
-        "Multiple ranks of dark round nuclei lie along the luminal margin, with the central space largely open. This choice describes normal spermatogenesis (layered germ cells), which is what the image shows.",
-        "The lining has several layers rather than a single flattened row. This choice describes a normal simple lining.",
-        "The pale lumen remains visible within the surrounding layered cells. This choice describes a solid epithelial tumor."
+        "Layers of germ cells are present, so they are not lost.",
+        "Neoplasia would show large atypical cells with PLAP positivity.",
+        "Leydig cells are in the stroma outside the tubules.",
+        "Multilayered germ cells indicate normal spermatogenesis."
       ],
       "visual_clues": [
         "Multiple ranks of dark round nuclei lie along the luminal margin, with the central space largely open."
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-6852c85df7a7c39ef01f",
       "source_id": "s-aca65adb9d1f96bd35dc",
       "source_group_id": "g-fa98b768d4d9255b462a",
       "variant_id": "v-e58cc15ece6de5ef4403",
-      "tested_concept": "Sertoli cell only tubule at high power",
+      "tested_concept": "What is the most likely consequence of this pattern?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15364,35 +15388,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What is visible inside the conspicuous pink tubular rim?",
+      "case_context": "A 32-year-old man has infertility with a normal testicular size. Biopsy shows tubules with thick pink rims and pale interiors containing only scattered supporting cells.",
+      "stem": "What is the most likely consequence of this pattern?",
       "options": [
-        "Numerous tightly packed dark germ cells in several dense layers",
-        "A dense central keratin pearl",
-        "Many distinct smaller glandular ducts",
-        "A sparse population of cells without dense layers of germ cells"
+        "A germ cell tumor with hCG production",
+        "A Leydig cell tumor with precocious puberty",
+        "Excess sperm production",
+        "Loss of germ cells in the tubules, so spermatogenesis is impaired"
       ],
       "correct_index": 3,
-      "explanation": "Only scattered dark nuclei are visible within the pale interior enclosed by a thick pink rim. The interior is pale and sparsely populated rather than densely layered.",
+      "explanation": "Step 1. Tubules with sparse cells and no layered germ cells fit a Sertoli cell only pattern. Step 2. Germ cells live within seminiferous tubules, so their absence leaves only supporting Sertoli cells and impairs sperm production, which this reasoning infers from lecture anatomy rather than a lecture statement.",
       "choice_rationales": [
-        "The interior is pale and sparsely populated rather than densely layered. This choice describes dense seminiferous tubules of normal spermatogenesis.",
-        "The rim surrounds a sparsely cellular interior, not laminated keratin. This choice describes keratin.",
-        "The profile is a single tubule without numerous separate duct lumina inside it. This choice describes ductal structures.",
-        "Only scattered dark nuclei are visible within the pale interior enclosed by a thick pink rim. This choice describes the Sertoli cell only pattern, which is what the image shows."
+        "No atypical large cells or trophoblasts are described.",
+        "Leydig tumors involve stromal cells, not tubular cell loss.",
+        "Sperm production is reduced, not excessive.",
+        "Absent germ cells impair spermatogenesis."
       ],
       "visual_clues": [
         "Only scattered dark nuclei are visible within the pale interior enclosed by a thick pink rim."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Sertoli cell only syndrome",
-      "condition_overview": "Sertoli cell-only pattern (germ cell aplasia) is a cause of male infertility in which seminiferous tubules contain only Sertoli cells with no germ cells, and the tubules often have thickened basement membranes. FSH is elevated and inhibin B low, with a small testis volume and azoospermia. It may result from genetic deletions (such as AZF regions on the Y chromosome), cryptorchidism, or toxic injury. Testicular biopsy establishes the diagnosis."
+      "condition_overview": "Sertoli cell-only pattern (germ cell aplasia) is a cause of male infertility in which seminiferous tubules contain only Sertoli cells with no germ cells, and the tubules often have thickened basement membranes. FSH is elevated and inhibin B low, with a small testis volume and azoospermia. It may result from genetic deletions (such as AZF regions on the Y chromosome), cryptorchidism, or toxic injury. Testicular biopsy establishes the diagnosis.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-224c4177c548a448c798",
       "source_id": "s-18381534d6e1435edca1",
       "source_group_id": "g-fa98b768d4d9255b462a",
       "variant_id": "v-1ca393fe54b2a2aa7bc6",
-      "tested_concept": "Sertoli cell only change across multiple tubules",
+      "tested_concept": "Which testicular cell population would most likely remain intact and continue androgen production?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15413,35 +15438,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which repeated low power pattern is visible across this field?",
+      "case_context": "A 29-year-old man being evaluated for infertility has a biopsy showing many tubules with thick pink rims and sparse cellular interiors.",
+      "stem": "Which testicular cell population would most likely remain intact and continue androgen production?",
       "options": [
-        "One large lobulated gland occupies almost the whole field",
-        "Multiple papillary fronds crossing one large open space",
-        "Many rounded tubules with thick pink rims and pale sparsely cellular interiors",
-        "Most profiles are packed by dense sheets of dark cells"
+        "Primordial germ cells in the tubules",
+        "Syncytiotrophoblasts",
+        "Leydig cells in the stroma",
+        "Spermatogonia in the tubules"
       ],
       "correct_index": 2,
-      "explanation": "Numerous tubular profiles show a conspicuous pink rim and a relatively pale interior. The centers are mostly pale, with markedly fewer cells than the rims would enclose in normal germinal epithelium.",
+      "explanation": "Step 1. Germ cell loss in tubules leaves a Sertoli-cell-only pattern. Step 2. Leydig cells lie in the interstitial stroma outside the tubules and are the source of testosterone, so they are not directly affected by tubular germ cell loss, an inference based on the lecture's anatomy.",
       "choice_rationales": [
-        "Numerous rounded tubular profiles occupy the field. This choice describes a large cystic lesion.",
-        "The round profiles recur across the tissue rather than projecting into a single space. This choice describes a papillary tumor.",
-        "Numerous tubular profiles show a conspicuous pink rim and a relatively pale interior. This choice describes the Sertoli cell only pattern with thickened basement membranes, which is what the image shows.",
-        "The centers are mostly pale, with markedly fewer cells than the rims would enclose in normal germinal epithelium. This choice describes a dense small cell tumor."
+        "Primordial germ cells are germ cells within tubules and are lost.",
+        "Syncytiotrophoblasts are tumor cells of choriocarcinoma.",
+        "Leydig cells are stromal and make testosterone.",
+        "Spermatogonia are germ cells within the tubules and are lost in this pattern."
       ],
       "visual_clues": [
         "Numerous tubular profiles show a conspicuous pink rim and a relatively pale interior."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Sertoli cell only syndrome",
-      "condition_overview": "Sertoli cell-only pattern (germ cell aplasia) is a cause of male infertility in which seminiferous tubules contain only Sertoli cells with no germ cells, and the tubules often have thickened basement membranes. FSH is elevated and inhibin B low, with a small testis volume and azoospermia. It may result from genetic deletions (such as AZF regions on the Y chromosome), cryptorchidism, or toxic injury. Testicular biopsy establishes the diagnosis."
+      "condition_overview": "Sertoli cell-only pattern (germ cell aplasia) is a cause of male infertility in which seminiferous tubules contain only Sertoli cells with no germ cells, and the tubules often have thickened basement membranes. FSH is elevated and inhibin B low, with a small testis volume and azoospermia. It may result from genetic deletions (such as AZF regions on the Y chromosome), cryptorchidism, or toxic injury. Testicular biopsy establishes the diagnosis.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-51e757dcb0e092d09124",
       "source_id": "s-9f8c9065d2a3f12955da",
       "source_group_id": "g-b19564f4ab430b750ede",
       "variant_id": "v-2e01e7f9934006e63ceb",
-      "tested_concept": "Large atypical cells in a seminiferous tubule",
+      "tested_concept": "Why is this finding important for his follow-up?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15462,26 +15488,26 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Where are the large pale atypical cells in this testicular section?",
+      "case_context": "A 22-year-old man with a history of cryptorchidism has a biopsy of the contralateral descended testis. Large pale atypical cells with dark nuclei lie inside the seminiferous tubules.",
+      "stem": "Why is this finding important for his follow-up?",
       "options": [
-        "In an extracellular keratin deposit",
-        "Within the seminiferous tubular epithelium",
-        "In a blood vessel completely outside the tubule",
-        "In the outer fibrous stroma alone"
+        "Cryptorchidism protects the contralateral testis",
+        "Cryptorchidism raises cancer risk in the contralateral descended testis, and treatment does not eliminate it",
+        "The finding is a normal variant of spermatogenesis",
+        "Orchiopexy guarantees a normal cancer risk"
       ],
       "correct_index": 1,
-      "explanation": "Large pale cells with dark nuclei are located inside the curved pink tubular boundary. The cells lie within the seminiferous outline rather than a separate vessel.",
+      "explanation": "Step 1. Large atypical cells within seminiferous tubules indicate intratubular germ cell neoplasia. Step 2. Cryptorchidism is associated with a 3 to 5 times increase in cancer risk in the undescended testis and increased risk in the contralateral testis, and orchiopexy does not guarantee fertility or reduced cancer risk.",
       "choice_rationales": [
-        "The pale atypical cells have dark nuclei and lie within the tubule wall. This choice describes keratin deposits.",
-        "Large pale cells with dark nuclei are located inside the curved pink tubular boundary. This choice describes intratubular germ cell neoplasia in situ, which is what the image shows.",
-        "The cells lie within the seminiferous outline rather than a separate vessel. This choice describes a vascular lesion.",
-        "The atypical cells follow the epithelial side of the tubular boundary. This choice describes stromal disease."
+        "Cryptorchidism is a risk factor and does not protect.",
+        "Risk is raised in both testes and treatment does not guarantee reduced risk.",
+        "The cells are atypical, not a normal variant.",
+        "Orchiopexy does not guarantee reduced cancer risk."
       ],
       "visual_clues": [
         "Large pale cells with dark nuclei are located inside the curved pink tubular boundary."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 36,
@@ -15490,14 +15516,15 @@
         }
       ],
       "condition_name": "Germ cell neoplasia in situ",
-      "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years."
+      "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-8eb96ec05c14c8dbdd36",
       "source_id": "s-c34be728269ef5269617",
       "source_group_id": "g-e40239928dd86e359a27",
       "variant_id": "v-9ab1ec92078056d65149",
-      "tested_concept": "Testicular yolk sac tumor reticular pattern",
+      "tested_concept": "Which finding in the serum would confirm the tumor type?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15518,35 +15545,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which pattern occupies the center of the field?",
+      "case_context": "A 1-year-old boy has a testicular mass. A section shows a loose mesh of small dark cells around irregular open spaces.",
+      "stem": "Which finding in the serum would confirm the tumor type?",
       "options": [
-        "A loose mesh of tumor cells around irregular open spaces",
-        "Uniform solid epithelium without spaces",
-        "Large glands filled with round pink colloid",
-        "Parallel straight fascicles with cigar shaped nuclei"
+        "Elevated PSA",
+        "Elevated alpha-fetoprotein",
+        "Elevated testosterone",
+        "Elevated beta-hCG"
       ],
-      "correct_index": 0,
-      "explanation": "The small dark cells form an irregular network separated by many pale openings. The center contains numerous irregular open spaces bounded by cells.",
+      "correct_index": 1,
+      "explanation": "Step 1. A reticular network of cells around spaces indicates yolk sac tumor. Step 2. Yolk sac tumor secretes alpha-fetoprotein, with AFP in eosinophilic hyaline globules, giving a serum marker for diagnosis and follow-up.",
       "choice_rationales": [
-        "The small dark cells form an irregular network separated by many pale openings. This choice describes a yolk sac tumor (reticular pattern), which is what the image shows.",
-        "The center contains numerous irregular open spaces bounded by cells. This choice describes solid epithelium.",
-        "The clear spaces lack round homogeneous colloid. This choice describes colloid-filled glands.",
-        "The cells outline a loose network rather than forming linear fascicles. This choice describes leiomyoma."
+        "PSA is a prostate tissue marker and is unrelated to yolk sac tumor.",
+        "AFP is the serum marker for yolk sac tumor.",
+        "Testosterone is produced by Leydig cell tumors.",
+        "Beta-hCG is the marker for choriocarcinoma."
       ],
       "visual_clues": [
         "The small dark cells form an irregular network separated by many pale openings."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-3d548c091b188488ab0e",
       "source_id": "s-dec67e70285bd158bed9",
       "source_group_id": "g-7ec36236fc76bf76cdc2",
       "variant_id": "v-d99cf03ea33d4a4cc065",
-      "tested_concept": "Arrowed eosinophilic body in yolk sac tumor",
+      "tested_concept": "What do these bodies represent and what do they contain?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -15567,35 +15595,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which structure is emphasized by the arrow in this testicular tumor field?",
+      "case_context": "A 2-year-old boy has a testicular mass with elevated AFP. A section shows intensely pink round bodies among the tumor cells.",
+      "stem": "What do these bodies represent and what do they contain?",
       "options": [
-        "A broad empty gland lumen at the edge of the tissue",
-        "A flattened band of dark stromal nuclei",
-        "A large clear droplet in an adipocyte",
-        "A rounded intensely pink body among the tumor cells"
+        "Michaelis-Gutmann bodies that contain calcium",
+        "Keratin pearls from squamous cells",
+        "Reinke crystals that contain hormone",
+        "Eosinophilic hyaline globules that contain alpha-fetoprotein"
       ],
       "correct_index": 3,
-      "explanation": "The arrow ends on a round eosinophilic body rather than one of the large pale spaces. The target is sharply rounded and pink rather than a row of dark nuclei.",
+      "explanation": "Step 1. Round intensely eosinophilic bodies in a yolk sac tumor are hyaline globules. Step 2. These globules contain alpha-fetoprotein, which also explains the elevated serum AFP and supports the diagnosis.",
       "choice_rationales": [
-        "The mark lands on a round solid eosinophilic body in the cellular field. This choice describes a gland lumen.",
-        "The target is sharply rounded and pink rather than a row of dark nuclei. This choice describes stromal nuclei.",
-        "The structure stains strongly pink rather than remaining a clear vacuole. This choice describes a lipoblast.",
-        "The arrow ends on a round eosinophilic body rather than one of the large pale spaces. This choice describes a hyaline globule of yolk sac tumor, which is what the image shows."
+        "Michaelis-Gutmann bodies are in histiocytes of malakoplakia.",
+        "Keratin pearls are in squamous carcinoma.",
+        "Reinke crystals are in Leydig cell tumors.",
+        "Eosinophilic hyaline globules contain AFP."
       ],
       "visual_clues": [
         "The arrow ends on a round eosinophilic body rather than one of the large pale spaces."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-7d2b7d40df177abfc1b3",
       "source_id": "s-076de441e9edbc80b076",
       "source_group_id": "g-13551374fd727a2fdbeb",
       "variant_id": "v-c7ad9ccb6a506567e238",
-      "tested_concept": "Mixed testicular germ cell tumor hemorrhagic gross component",
+      "tested_concept": "What does the combination of markers suggest about the tumor?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R16",
@@ -15616,28 +15645,29 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which gross difference separates the center from the outer rim?",
+      "case_context": "A 27-year-old man has a testicular tumor with a dark red hemorrhagic center and a thin pale rim. His serum shows elevated hCG and AFP.",
+      "stem": "What does the combination of markers suggest about the tumor?",
       "options": [
-        "The center is a clear smooth cyst and the rim is entirely black throughout",
-        "The center is uniformly white and whorled",
-        "The center contains multiple pale translucent vesicles",
-        "The center is markedly red and hemorrhagic, with a thin paler outer rim"
+        "A mixed germ cell tumor with trophoblastic and yolk sac elements",
+        "A pure seminoma",
+        "A spermatocytic tumor",
+        "A Leydig cell tumor"
       ],
-      "correct_index": 3,
-      "explanation": "The broad central portion is dark red with clotted material, surrounded by a much lighter peripheral zone. The heterogeneous dark red center is not a white whorled nodule.",
+      "correct_index": 0,
+      "explanation": "Step 1. A hemorrhagic center with elevated hCG and AFP suggests more than one germ cell component. Step 2. Mixed germ cell tumors have two or more types in the same testis, about 90 percent have elevated hCG and AFP, and common components are embryonal carcinoma, teratoma, and yolk sac tumor.",
       "choice_rationales": [
-        "The central area is predominantly dark red and surrounded by a thin pale rim. This choice describes a simple cyst.",
-        "The heterogeneous dark red center is not a white whorled nodule. This choice describes a seminoma.",
-        "The dominant central material is hemorrhagic, without multiple clear vesicles. This choice describes a hydatidiform mole.",
-        "The broad central portion is dark red with clotted material, surrounded by a much lighter peripheral zone. This choice describes a hemorrhagic tumor with a thin outer rim (such as choriocarcinoma), which is what the image shows."
+        "Elevated hCG and AFP point to mixed trophoblastic and yolk sac elements.",
+        "Pure seminoma is homogeneous and gray with rare hemorrhage.",
+        "Spermatocytic tumor occurs in older men and is indolent.",
+        "Leydig cell tumors cause hormonal symptoms and are solid yellow or brown."
       ],
       "visual_clues": [
         "The broad central portion is dark red with clotted material, surrounded by a much lighter peripheral zone."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Testicular embryonal carcinoma, yolk sac tumor, and choriocarcinoma",
-      "condition_overview": "Nonseminomatous testicular germ cell tumors are often mixed. Embryonal carcinoma forms primitive glands and sheets with necrosis and CD30 positivity, yolk sac tumor shows reticular patterns, Schiller-Duval bodies, and AFP production, and choriocarcinoma shows syncytiotrophoblast and cytotrophoblast with hCG production and hemorrhage. They metastasize early, to retroperitoneal nodes and lung, and tumor markers AFP and hCG help diagnosis and monitoring. Treatment is orchiectomy and chemotherapy."
+      "condition_overview": "Nonseminomatous testicular germ cell tumors are often mixed. Embryonal carcinoma forms primitive glands and sheets with necrosis and CD30 positivity, yolk sac tumor shows reticular patterns, Schiller-Duval bodies, and AFP production, and choriocarcinoma shows syncytiotrophoblast and cytotrophoblast with hCG production and hemorrhage. They metastasize early, to retroperitoneal nodes and lung, and tumor markers AFP and hCG help diagnosis and monitoring. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-5fb38cfc6858b62c87cc",
@@ -16916,7 +16946,7 @@
       "source_id": "s-52655d2da7b7b3362fb3",
       "source_group_id": "g-7ec36236fc76bf76cdc2",
       "variant_id": "v-29648ca3004e50e8d5b7",
-      "tested_concept": "Testicular yolk sac tumor glomeruloid architecture",
+      "tested_concept": "What is the diagnostic value of this structure?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -16937,35 +16967,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "How is the central cellular tuft positioned relative to the pale space?",
+      "case_context": "A 14-month-old boy has a testicular tumor. A section shows a central vessel surrounded by loose primitive stroma, with cuboidal tumor cells in a space lined by flattened tumor cells.",
+      "stem": "What is the diagnostic value of this structure?",
       "options": [
-        "It fills a blood vessel with no surrounding epithelial boundary",
-        "It forms a flat layer at the outside edge of the section tissue",
-        "It projects into a clear space with a separate outer epithelial boundary",
-        "It is a solid band completely outside every open space"
+        "It is found in all yolk sac tumors",
+        "It is diagnostic of seminoma",
+        "It is pathognomonic for yolk sac tumor but is found in only 35 to 50 percent of cases",
+        "It is diagnostic of choriocarcinoma"
       ],
       "correct_index": 2,
-      "explanation": "The central tuft sits in a pale surrounding space with tumor cells visible along the outer boundary. The tuft is surrounded by a clear gap and a distinct outer epithelial layer.",
+      "explanation": "Step 1. A central vessel surrounded by primitive stroma and an outer mantle of tumor cells in a space is a Schiller-Duval body. Step 2. It is pathognomonic of yolk sac tumor but present in only 35 to 50 percent, so its absence does not exclude the tumor.",
       "choice_rationales": [
-        "The tuft is surrounded by a clear gap and a distinct outer epithelial layer. This choice describes an intravascular lesion.",
-        "The focus is inside the tissue, where it projects into an open space. This choice describes surface epithelium.",
-        "The central tuft sits in a pale surrounding space with tumor cells visible along the outer boundary. This choice describes a papillary glandular tumor with a central tuft, which is what the image shows.",
-        "The tuft extends into the pale space and is enclosed by its outline. This choice describes a stromal band."
+        "They are not found in all cases.",
+        "Seminoma shows nests and lymphocytes.",
+        "Schiller-Duval bodies are specific but present in a minority.",
+        "Choriocarcinoma shows two trophoblastic cell types."
       ],
       "visual_clues": [
         "The central tuft sits in a pale surrounding space with tumor cells visible along the outer boundary."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Testicular embryonal carcinoma, yolk sac tumor, and choriocarcinoma",
-      "condition_overview": "Nonseminomatous testicular germ cell tumors are often mixed. Embryonal carcinoma forms primitive glands and sheets with necrosis and CD30 positivity, yolk sac tumor shows reticular patterns, Schiller-Duval bodies, and AFP production, and choriocarcinoma shows syncytiotrophoblast and cytotrophoblast with hCG production and hemorrhage. They metastasize early, to retroperitoneal nodes and lung, and tumor markers AFP and hCG help diagnosis and monitoring. Treatment is orchiectomy and chemotherapy."
+      "condition_overview": "Nonseminomatous testicular germ cell tumors are often mixed. Embryonal carcinoma forms primitive glands and sheets with necrosis and CD30 positivity, yolk sac tumor shows reticular patterns, Schiller-Duval bodies, and AFP production, and choriocarcinoma shows syncytiotrophoblast and cytotrophoblast with hCG production and hemorrhage. They metastasize early, to retroperitoneal nodes and lung, and tumor markers AFP and hCG help diagnosis and monitoring. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-e42668b1f38432041624",
       "source_id": "s-ac04c39a690feec3238b",
       "source_group_id": "g-cae112bf3e885d58c6ab",
       "variant_id": "v-4645004e65848399ca42",
-      "tested_concept": "Choriocarcinoma mononuclear component near hemorrhage",
+      "tested_concept": "Which cell type is this, and what is its partner population?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -16986,35 +17017,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which cells populate the field immediately left of the red hemorrhagic area?",
+      "case_context": "A 31-year-old man has a testicular mass with pulmonary metastases. Microscopy shows smaller polygonal cells with single nuclei, clear cytoplasm, and distinct borders next to areas of hemorrhage.",
+      "stem": "Which cell type is this, and what is its partner population?",
       "options": [
-        "A continuous layer of mature stratified squamous epithelium",
-        "Many separate polygonal cells with single dark nuclei",
-        "Only flat spindle cells in long parallel rows",
-        "A single cell containing many touching nuclei across the entire field"
+        "Cytotrophoblasts, accompanied by multinucleated syncytiotrophoblasts that make hCG",
+        "Spermatogonia, accompanied by Leydig cells",
+        "Syncytiotrophoblasts, accompanied by Sertoli cells",
+        "Primitive embryonal cells, accompanied by lymphocytes"
       ],
-      "correct_index": 1,
-      "explanation": "Numerous distinct polygonal cells with individual nuclei lie beside the densely red hemorrhage. Many distinct cell borders can be traced around individual nuclei.",
+      "correct_index": 0,
+      "explanation": "Step 1. Smaller polygonal cells with single nuclei and clear cytoplasm are cytotrophoblasts. Step 2. Choriocarcinoma consists of cytotrophoblastic and syncytiotrophoblastic cells, and the large multinucleated syncytiotrophoblasts produce hCG.",
       "choice_rationales": [
-        "The cells are separate and polygonal rather than arranged in a stratified lining. This choice describes normal squamous epithelium.",
-        "Numerous distinct polygonal cells with individual nuclei lie beside the densely red hemorrhage. This choice describes a trophoblastic tumor with mononuclear cells (choriocarcinoma), which is what the image shows.",
-        "The nuclei are mostly round and not aligned in spindle-cell fascicles. This choice describes a spindle cell tumor.",
-        "Many distinct cell borders can be traced around individual nuclei. This choice describes a herpetic giant cell."
+        "Cytotrophoblasts pair with syncytiotrophoblasts in choriocarcinoma.",
+        "Spermatogonia and Leydig cells are not features of choriocarcinoma.",
+        "Syncytiotrophoblasts are large multinucleated cells, not smaller single-nucleus cells.",
+        "Embryonal carcinoma has anaplastic cells and no trophoblastic pairing."
       ],
       "visual_clues": [
         "Numerous distinct polygonal cells with individual nuclei lie beside the densely red hemorrhage."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-8952bfb9f9b97283c7d0",
       "source_id": "s-5a575df7ef52ee75ab86",
       "source_group_id": "g-cae112bf3e885d58c6ab",
       "variant_id": "v-405f3bbdfe82620cb0e7",
-      "tested_concept": "Choriocarcinoma multinucleated cells and hemorrhage",
+      "tested_concept": "Which statement about the producing cells and the clinical course is correct?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R16",
@@ -17035,28 +17067,29 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which feature is present at the interface with the densely red region?",
+      "case_context": "A 33-year-old man has a testicular tumor with large irregular cells containing clusters of dark nuclei and abundant eosinophilic cytoplasm next to hemorrhagic tissue. Serum hCG is markedly elevated.",
+      "stem": "Which statement about the producing cells and the clinical course is correct?",
       "options": [
-        "Large irregular eosinophilic cells containing multiple nuclei",
-        "Numerous clear adipocytes forming a lobule",
-        "Several regular rounded chorionic villi with central vessels visible",
-        "A uniform layer of flat mature surface cells"
+        "Syncytiotrophoblasts make hCG, and the tumor is aggressive and chemosensitive",
+        "Sertoli cells make hCG, and the tumor is benign",
+        "Spermatocytes make hCG, and the tumor is radioresistant",
+        "Cytotrophoblasts make hCG, and the tumor is indolent"
       ],
       "correct_index": 0,
-      "explanation": "Large irregular pink cytoplasmic profiles contain clusters of dark nuclei adjacent to the hemorrhagic tissue. The large eosinophilic cells are irregular and multinucleated rather than a flat orderly sheet.",
+      "explanation": "Step 1. Large multinucleated eosinophilic cells are syncytiotrophoblasts. Step 2. They produce beta-hCG, and choriocarcinoma is aggressive with hematogenous spread to lungs and liver but is chemosensitive.",
       "choice_rationales": [
-        "Large irregular pink cytoplasmic profiles contain clusters of dark nuclei adjacent to the hemorrhagic tissue. This choice describes choriocarcinoma with syncytiotrophoblastic giant cells, which is what the image shows.",
-        "The dominant cells have dense pink cytoplasm and multiple nuclei rather than clear fat vacuoles. This choice describes a fat lobule.",
-        "No vascular stromal cores identify complete villi at the interface. This choice describes normal chorionic villi.",
-        "The large eosinophilic cells are irregular and multinucleated rather than a flat orderly sheet. This choice describes normal surface epithelium."
+        "Syncytiotrophoblasts produce hCG, and the tumor is aggressive but chemosensitive.",
+        "Sertoli cell tumors are generally benign and do not make hCG.",
+        "Spermatocytic tumor is indolent and not related to hCG.",
+        "Cytotrophoblasts are the smaller single-nucleus cells and the tumor is aggressive, not indolent."
       ],
       "visual_clues": [
         "Large irregular pink cytoplasmic profiles contain clusters of dark nuclei adjacent to the hemorrhagic tissue."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-6c81b2381f0fa58a87c9",
