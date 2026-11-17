@@ -3,10 +3,8 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
 // Guards against the "longest answer is usually correct" bias.
-// The earlier rebalance was measured against a shifted correct_index, so the true figures were higher than
-// it reported. These ceilings are the honest current baseline and must only move down as distractors are
-// lengthened. Target is 0.45 longest and 0.03 flagged for every bank.
-const ceiling = {'pathology': {longest: 0.45, flagged: 0.03}, 'physiology': {longest: 0.45, flagged: 0.03}, 'clinical-cases': {longest: 0.67, flagged: 0.13}};
+// Targets: the correct option is the longest in at most 45 percent of questions, and 20 percent longer than every distractor in at most 3 percent.
+const ceiling = {pathology: {longest: 0.45, flagged: 0.03}, physiology: {longest: 0.45, flagged: 0.03}, 'clinical-cases': {longest: 0.45, flagged: 0.03}};
 for (const bank of ['pathology', 'physiology', 'clinical-cases']) {
   test(`option length bias: ${bank}`, () => {
     const d = JSON.parse(readFileSync(`data/${bank}/question-bank.json`, 'utf8'));
