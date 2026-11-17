@@ -12314,26 +12314,26 @@
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Identify complete androgen insensitivity from paired MRI anatomy",
+      "tested_concept": "Which diagnosis explains this anatomy, and which tumor risk follows from the gonadal position?",
       "visual_target": "Identify complete androgen insensitivity from paired MRI anatomy",
       "question_type": "Clinical visual question",
-      "stem": "Which diagnosis accounts for the pelvic anatomy in A and the paired structures in B?",
+      "stem": "Which diagnosis explains this anatomy, and which tumor risk follows from the gonadal position?",
       "options": [
-        "Müllerian agenesis with ovaries.",
-        "An imperforate hymen with retained menses.",
-        "Functional hypothalamic amenorrhea.",
-        "Complete androgen insensitivity syndrome.",
-        "Turner syndrome with gonadal dysgenesis."
+        "Imperforate hymen, with a normal uterus behind the obstruction",
+        "Complete androgen insensitivity syndrome, with undescended testes that carry an increased risk of seminoma",
+        "Turner syndrome, with streak ovaries that carry a risk of seminoma",
+        "Anorexia related hypothalamic amenorrhea, with a normal pelvis",
+        "Müllerian agenesis with normal ovaries in the pelvis, with no tumor risk"
       ],
       "choice_rationales": [
-        "Absence of a uterus can overlap, but the paired groin structures are testes in this case. This choice describes Müllerian agenesis (MRKH syndrome).",
-        "Outflow obstruction does not explain the absent uterus and inguinal testes. This choice describes an imperforate hymen with hematocolpos.",
-        "Reduced hypothalamic drive does not explain these structural findings. This choice describes functional hypothalamic amenorrhea.",
-        "The sagittal view shows a blind-ending vaginal pouch and no uterus. The axial view shows paired inguinal testes. The combination supports complete androgen insensitivity in the lecture case. This choice describes complete androgen insensitivity syndrome, which is what the image shows.",
-        "The paired inguinal testes and absent uterus fit a different developmental pattern. This choice describes Turner syndrome."
+        "An imperforate hymen leaves a uterus present.",
+        "CAIS explains the absent uterus, blind pouch and undescended testes, and undescended testes raise seminoma risk.",
+        "Turner syndrome has streak ovaries and would not show testes.",
+        "Anorexia does not cause an absent uterus.",
+        "Müllerian agenesis has ovaries in the pelvis and no undescended testes."
       ],
-      "correct_index": 3,
-      "explanation": "The sagittal view shows a blind-ending vaginal pouch and no uterus. The axial view shows paired inguinal testes. The combination supports complete androgen insensitivity in the lecture case. The paired inguinal testes and absent uterus fit a different developmental pattern.",
+      "correct_index": 1,
+      "explanation": "Step 1. A blind ending vaginal pouch, no uterus and paired gonads in an abnormal location in a patient with breast development fit complete androgen insensitivity syndrome, the most common form discussed. Step 2. Undescended testes are about four times more likely to develop seminoma, so the gonadal position carries a tumor risk that guides later surveillance.",
       "visual_clues": [
         "Identify both the absent midline structure and the paired gonads."
       ],
@@ -12344,9 +12344,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 16-year-old presents with primary amenorrhea. Two pelvic MR images are available.",
-      "lead_in": "Which diagnosis accounts for the pelvic anatomy in A and the paired structures in B?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 16-year-old has primary amenorrhea. Pelvic MRI shows a blind ending vaginal pouch with no uterus, and paired gonads are seen in the inguinal region. Breast development is present.",
+      "lead_in": "Which diagnosis explains this anatomy, and which tumor risk follows from the gonadal position?",
       "source_id": "s-7b372fb13ee02d827baf",
       "source_group_id": "g-285eb5d21d7f61166979",
       "asset_id": "a-01d7ad9331c48e43840483264cc45726446e479ba6989da970daa410a38c8594",
@@ -12367,33 +12367,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 1
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-groin-mass",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Evaluate a new mass at the site of an undescended testis",
+      "tested_concept": "Which process is most likely, and what is the next step in the assessment?",
       "visual_target": "Evaluate a new mass at the site of an undescended testis",
       "question_type": "Clinical visual question",
-      "stem": "Which process does the lecture prioritize after comparing the new mass with the prior gonadal location?",
+      "stem": "Which process is most likely, and what is the next step in the assessment?",
       "options": [
-        "A hydrocele surrounding a normal scrotal testis.",
-        "Physiologic enlargement of an ovarian follicle.",
-        "A bladder diverticulum filling with urine.",
-        "Hematocolpos caused by an obstructed uterus.",
-        "Seminoma arising in a previously undescended testis."
+        "Seminoma in an undescended testis, so imaging for spread follows and the solid mass is removed",
+        "Ovarian fibroma, so thoracentesis",
+        "Lymphoma of the groin only, so biopsy first",
+        "Hydrocele, so transillumination only",
+        "Benign inguinal hernia, so reassurance only"
       ],
       "choice_rationales": [
-        "The CT depicts a large solid mass instead of fluid around a scrotal testis. This choice describes a hydrocele.",
-        "The earlier images in this case identify testes. This choice describes a follicular cyst.",
-        "The solid mass is separate from the bladder and corresponds to the groin finding. This choice describes a bladder diverticulum.",
-        "The prior imaging shows no uterus. This solid lesion follows the gonadal history. This choice describes hematocolpos.",
-        "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin. This choice describes seminoma in an undescended testis, which is what the image shows."
+        "A solid mass in an undescended testis is seminoma until proven otherwise.",
+        "An ovarian fibroma is not present in this patient.",
+        "The mass is in the gonadal site, so a testicular tumor is favored.",
+        "A hydrocele is fluid and transilluminates.",
+        "A hernia would contain bowel or fat rather than a solid testicular mass."
       ],
-      "correct_index": 4,
-      "explanation": "The lecture identifies the large solid mass in the two CT planes as seminoma arising in this setting. The prior gonadal anatomy and new firm fullness help localize its origin. The CT depicts a large solid mass instead of fluid around a scrotal testis.",
+      "correct_index": 0,
+      "explanation": "Step 1. A solid mass at the site of an undescended testis is a testicular tumor, most likely seminoma. Step 2. The lecture states solid testicular masses are generally removed rather than biopsied, and staging imaging such as a chest radiograph or PET CT looks for spread because these tumors can metastasize. Cure rates are very high.",
       "visual_clues": [
         "The mass is solid in both planes and corresponds to the site of the new fullness."
       ],
@@ -12404,9 +12405,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "Several years later, the same patient notices an enlarging firm fullness in the right groin. The lecture shows two planes of CT.",
-      "lead_in": "Which process does the lecture prioritize after comparing the new mass with the prior gonadal location?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 16-year-old has primary amenorrhea. Pelvic MRI shows a blind ending vaginal pouch with no uterus, and paired gonads are seen in the inguinal region. Breast development is present. Several years later she notices an enlarging firm right groin fullness, and CT shows a solid mass in the axial and sagittal planes at the former gonadal site.",
+      "lead_in": "Which process is most likely, and what is the next step in the assessment?",
       "source_id": "s-6c1a3574cc0041787337",
       "source_group_id": "g-c265d8bdfe1591ee29b4",
       "asset_id": "a-557b3b04d384cbf942524f62f23e0ce2a3af3755bd3b8822304d8ea2576f6f85",
@@ -12433,33 +12434,34 @@
         }
       ],
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-chest-spread",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "Radiograph",
-      "tested_concept": "Recognize pulmonary dissemination in the gonadal tumor case",
+      "tested_concept": "What does the chest finding add to the staging, and what does it imply about prognosis?",
       "visual_target": "Recognize pulmonary dissemination in the gonadal tumor case",
       "question_type": "Clinical visual question",
-      "stem": "Which conclusion does this image add to the assessment of the established tumor?",
+      "stem": "What does the chest finding add to the staging, and what does it imply about prognosis?",
       "options": [
-        "The pattern supports pulmonary metastases.",
-        "The pattern supports an isolated right pleural effusion.",
-        "The pattern supports an isolated single lung nodule.",
-        "The findings localize the disease to the groin.",
-        "The dominant pattern is free pleural air."
+        "It shows bowel in the chest, so a hernia is present",
+        "It shows a normal study, so spread is excluded",
+        "It shows a pleural effusion from ascites, so the tumor is benign",
+        "It supports pulmonary metastases of the tumor, though seminoma still has a very high cure rate",
+        "It shows primary lung cancer, so the testicular mass is unrelated"
       ],
       "choice_rationales": [
-        "The lecture identifies multiple bilateral rounded lung opacities as metastatic lesions in this case. This choice describes pulmonary metastases, which is what the image shows.",
-        "There are multiple rounded opacities within both lungs instead of an isolated basal fluid contour. This choice describes a pleural effusion.",
-        "Rounded opacities are present on both sides. This choice describes a solitary lung nodule.",
-        "The chest images show abnormal findings distant from the gonadal mass. This choice describes groin disease.",
-        "The abnormalities are dense rounded regions instead of peripheral lucency. This choice describes pneumothorax."
+        "Bowel in the chest would not look like multiple rounded nodules.",
+        "Opacities mean the study is abnormal.",
+        "Rounded opacities are not fluid layering or a benign process.",
+        "Multiple rounded opacities indicate lung metastases.",
+        "Multiple lesions favor metastasis rather than separate primary lung cancer."
       ],
-      "correct_index": 0,
-      "explanation": "The lecture identifies multiple bilateral rounded lung opacities as metastatic lesions in this case. There are multiple rounded opacities within both lungs instead of an isolated basal fluid contour.",
+      "correct_index": 3,
+      "explanation": "Step 1. Multiple rounded opacities compared with surrounding lung are the pattern of metastases rather than a single lesion or fluid contour. Step 2. The lecture notes this chest radiograph was used to show metastatic lesions of the seminoma, and that cure rates remain extremely high even in this situation, so spread changes treatment rather than meaning a hopeless outlook.",
       "visual_clues": [
         "Compare the numerous rounded opacities with the surrounding lung."
       ],
@@ -12470,9 +12472,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "After evaluating the new gonadal mass, the team obtains this chest radiograph to assess for spread.",
-      "lead_in": "Which conclusion does this image add to the assessment of the established tumor?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 16-year-old has primary amenorrhea. Pelvic MRI shows a blind ending vaginal pouch with no uterus, and paired gonads are seen in the inguinal region. Breast development is present. After a solid gonadal mass is found, chest radiography shows numerous rounded opacities of varying size throughout both lungs.",
+      "lead_in": "What does the chest finding add to the staging, and what does it imply about prognosis?",
       "source_id": "s-b4263100628ab9b5656f",
       "source_group_id": "g-d0774b31bc87798e832e",
       "asset_id": "a-ff0051574a416ebeaa498da888924c23c2e31b0f4ac7dab528f132308147756e",
@@ -12493,33 +12495,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 2
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-pubertal-bone",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Clinical data",
-      "tested_concept": "Gonadal hormones and pubertal bone acquisition",
+      "tested_concept": "What is the consequence of removing the gonads before puberty, and what does it require?",
       "visual_target": "Gonadal hormones and pubertal bone acquisition",
       "question_type": "Clinical visual question",
-      "stem": "What consequence explains the need for the masked intervention in the first row?",
+      "stem": "What is the consequence of removing the gonads before puberty, and what does it require?",
       "options": [
-        "Loss of uterine hormone production blocks endometrial development.",
-        "Loss of gonadal hormone production can impair pubertal bone mass acquisition.",
-        "Removal of the gonads increases estrogen exposure during puberty.",
-        "The tumor risk is greatest before puberty and falls as the patient ages.",
-        "The main developmental effect is impaired urinary drainage."
+        "Immediate endometrial cancer risk from replacement hormones",
+        "Loss of the uterus from surgery",
+        "Increased risk of seminoma from replacement hormones",
+        "No consequence because the testes do nothing in this condition",
+        "Loss of gonadal hormones impairs bone mass acquisition, so hormone replacement is needed"
       ],
       "choice_rationales": [
-        "There is no uterus in complete androgen insensitivity syndrome. The developmental issue shown is loss of gonadal hormone production before puberty. This choice describes loss of uterine hormone production.",
-        "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty. This choice describes impaired pubertal bone mass from loss of gonadal hormones (and the need for hormone replacement), which is what the image shows.",
-        "Gonadectomy in complete androgen insensitivity syndrome removes a source of pubertal estrogen exposure. The slide notes the need for hormone treatment after prepubertal removal. This choice describes increased estrogen exposure.",
-        "R32 describes gonadal tumor risk in complete androgen insensitivity syndrome as very low before puberty. The pubertal consequence tested here is loss of hormone exposure needed for bone accrual. This choice describes a tumor risk that falls with age.",
-        "The lecture emphasizes breast development and bone acquisition. This choice describes impaired urinary drainage."
+        "She has no uterus, so endometrial cancer is not the concern.",
+        "Uterus loss is not the consequence of gonadectomy here.",
+        "Replacement hormones do not cause seminoma.",
+        "The testes do produce hormones relevant to bone and breasts.",
+        "Hormones from the testes support bone mass, so early removal requires replacement."
       ],
-      "correct_index": 1,
-      "explanation": "R32 links gonadal hormones to breast development and acquisition of bone mass. The slide states that hormone treatment is needed if gonads are removed before puberty. There is no uterus in complete androgen insensitivity syndrome. The developmental issue shown is loss of gonadal hormone production before puberty.",
+      "correct_index": 4,
+      "explanation": "Step 1. The testes in this condition produce hormones that support female body shape, breast development and, importantly, acquisition of bone mass. Step 2. Removing them before bone mass is acquired risks osteopenia in teenagers, so replacement is needed. Because she has no uterus, endometrial cancer risk is absent, and the timing balances tumor risk against bone health.",
       "visual_clues": [
         "The first row places gonadal removal before hormone-dependent development."
       ],
@@ -12530,9 +12533,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "The lecture contrasts the consequences of removing the gonads before puberty with the considerations that arise later.",
-      "lead_in": "What consequence explains the need for the masked intervention in the first row?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 16-year-old has primary amenorrhea. Pelvic MRI shows a blind ending vaginal pouch with no uterus, and paired gonads are seen in the inguinal region. Breast development is present. Her team debates removing the testes now versus after puberty.",
+      "lead_in": "What is the consequence of removing the gonads before puberty, and what does it require?",
       "visual_kind": "table",
       "source_group_id": "g-table-q-r32-pubertal-bone",
       "source_origin": "lecture-table",
@@ -12576,33 +12579,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 2
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-torsion-urgent",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Doppler perfusion and urgent surgical assessment",
+      "tested_concept": "What is the next step, and what limits the time available?",
       "visual_target": "Doppler perfusion and urgent surgical assessment",
       "question_type": "Clinical visual question",
-      "stem": "Which action best follows from the side-to-side perfusion difference?",
+      "stem": "What is the next step, and what limits the time available?",
       "options": [
-        "Arrange routine outpatient follow-up for incidental cysts.",
-        "Observe for spontaneous improvement before seeking consultation.",
-        "Obtain urgent urologic evaluation for suspected torsion.",
-        "Treat presumptive inflammation solely on the basis of the scan.",
-        "Perform elective aspiration of fluid surrounding a normal testis."
+        "Reassurance because torsion is rare in adolescents",
+        "Scrotal elevation and observation for a day",
+        "Elective ultrasound next week",
+        "Urgent urologic evaluation for torsion, since necrosis can occur within about four to six hours",
+        "Antibiotics for epididymitis and routine follow up"
       ],
       "choice_rationales": [
-        "The asymmetry and acute symptoms raise a time-sensitive concern. This choice describes incidental cysts.",
-        "The lecture emphasizes urgent evaluation to limit ischemic injury. This choice describes spontaneous improvement.",
-        "Color flow is readily seen on the right and is markedly reduced on the symptomatic left. The lecture treats this presentation as a surgical emergency. This choice describes testicular torsion (a surgical emergency needing urgent urologic evaluation), which is what the image shows.",
-        "The key finding is loss of flow in the symptomatic testis. This choice describes presumed inflammation (epididymitis).",
-        "The important finding is the perfusion deficit rather than an isolated fluid collection. This choice describes elective aspiration of a hydrocele."
+        "Torsion is most common in peripubertal males.",
+        "Observation wastes the salvage window.",
+        "Delay risks testicular necrosis.",
+        "Torsion needs immediate urology consultation because of the short salvage window.",
+        "Epididymitis is more common in adults and does not explain absent flow."
       ],
-      "correct_index": 2,
-      "explanation": "Color flow is readily seen on the right and is markedly reduced on the symptomatic left. The lecture treats this presentation as a surgical emergency. The asymmetry and acute symptoms raise a time-sensitive concern.",
+      "correct_index": 3,
+      "explanation": "Step 1. Reduced flow on the symptomatic side in an adolescent with sudden pain and vomiting indicates testicular torsion, for which ultrasound is the diagnostic test of choice. Step 2. Torsion is a surgical emergency because the testis can necrose within roughly four to six hours, so urology is called immediately. Epididymitis is more typical in older males.",
       "visual_clues": [
         "Compare the abundant right-sided color signals with the symptomatic left side."
       ],
@@ -12613,9 +12617,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 13-year-old develops acute left testicular pain with nausea and vomiting.",
-      "lead_in": "Which action best follows from the side-to-side perfusion difference?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 13-year-old boy has acute left testicular pain with nausea and vomiting. Color Doppler of the scrotum is shown. The right testis shows abundant color signal and the left shows little.",
+      "lead_in": "What is the next step, and what limits the time available?",
       "source_id": "s-7114baddbcf79348d711",
       "source_group_id": "g-bdadf15da5d0da9a8c78",
       "asset_id": "a-1b5d530915ba09509037e8280aa3e88ffb37fd81b71954dbb7c79abd8454822e",
@@ -12654,33 +12658,34 @@
         }
       ],
       "condition_name": "Testicular torsion",
-      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours."
+      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-torsion-mechanism",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Clinical Photo",
-      "tested_concept": "Intravaginal twisting and testicular ischemia",
+      "tested_concept": "Which mechanism explains the absent flow, and which anatomic variant predisposes to it?",
       "visual_target": "Intravaginal twisting and testicular ischemia",
       "question_type": "Clinical visual question",
-      "stem": "Which mechanism explains the perfusion abnormality that prompted surgery?",
+      "stem": "Which mechanism explains the absent flow, and which anatomic variant predisposes to it?",
       "options": [
-        "A patent processus vaginalis allows bowel to compress an intact testis.",
-        "Fluid accumulates between tunica vaginalis layers with normal cord orientation.",
-        "Failure of descent creates a fixed and immobile scrotal testis.",
-        "Rotation of the mobile testis twists the cord and compromises blood flow.",
-        "A urethral narrowing blocks venous blood exiting the testis."
+        "Rotation of the mobile testis twists the cord, and a bell clapper deformity from poor posterior anchoring allows it",
+        "Infection of the epididymis, from orchitis",
+        "Venous dilation, from a varicocele",
+        "Obstruction of the processus vaginalis by bowel, from a hernia",
+        "Fluid between tunica layers, from a hydrocele"
       ],
       "choice_rationales": [
-        "A patent processus vaginalis can allow bowel to enter an inguinal hernia. The acute ischemia in testicular torsion comes from twisting of the spermatic cord. This choice describes an inguinal hernia compressing the testis.",
-        "Fluid accumulation explains hydrocele rather than the lectured mechanism of acute ischemia. This choice describes a hydrocele.",
-        "Failure of descent describes cryptorchidism. The bell-clapper mechanism illustrated here increases testicular mobility and predisposes the spermatic cord to twist. This choice describes cryptorchidism.",
-        "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord. This choice describes testicular torsion, which is what the image shows.",
-        "A urethral stricture affects urine flow. Testicular torsion compromises blood flow by twisting the spermatic cord. This choice describes a urethral obstruction."
+        "Twisting of the cord stops perfusion and the bell clapper variant predisposes.",
+        "Orchitis increases flow rather than eliminating it.",
+        "A varicocele is venous dilation and not acute pain with absent flow.",
+        "A hernia involves bowel entering the canal and does not stop testicular flow.",
+        "A hydrocele is fluid and not a twist."
       ],
-      "correct_index": 3,
-      "explanation": "The operative image illustrates the torsion discussed in the lecture. With inadequate posterior fixation, the testis can rotate within the tunica vaginalis, twisting the cord. A patent processus vaginalis can allow bowel to enter an inguinal hernia. The acute ischemia in testicular torsion comes from twisting of the spermatic cord.",
+      "correct_index": 0,
+      "explanation": "Step 1. In intravaginal torsion, the testis rotates and twists the spermatic cord, compromising blood flow. This is the most common type and occurs in peripubertal males. Step 2. A bell clapper deformity, failure of normal posterior anchoring by the gubernaculum, lets the testis hang freely and raises the risk, though it cannot be diagnosed ahead of time.",
       "visual_clues": [
         "Follow the exposed tissue above the involved testis to the site of twisting."
       ],
@@ -12691,9 +12696,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A 13-year-old develops acute left testicular pain with nausea and vomiting.",
-      "lead_in": "Which mechanism explains the perfusion abnormality that prompted surgery?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 13-year-old boy has acute left testicular pain with nausea and vomiting. Color Doppler of the scrotum is shown. The twisted cord is seen above the testis.",
+      "lead_in": "Which mechanism explains the absent flow, and which anatomic variant predisposes to it?",
       "source_id": "s-c1e7c114f835f2d20cc2",
       "source_group_id": "g-5db53dd240782c55e85c",
       "asset_id": "a-3913fb154513ca758730e6e47bfa6ff152c9629a478945ad3496dab1495f931d",
@@ -12716,33 +12721,34 @@
         }
       ],
       "condition_name": "Testicular torsion",
-      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours."
+      "condition_overview": "Testicular torsion is twisting of the spermatic cord that cuts off venous and then arterial blood flow, causing sudden severe scrotal pain, a high-riding testis, and absent cremasteric reflex. It most often affects adolescents with a bell-clapper deformity. Doppler ultrasound shows reduced or absent perfusion on the affected side. Untreated torsion leads to hemorrhagic infarction (dark, swollen testis with coagulative necrosis), and salvage requires surgery within about 6 hours.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-groin-contents",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Recognize bowel in a groin swelling",
+      "tested_concept": "What do the contrast filled structure and the ultrasound appearance indicate, and which type is most common?",
       "visual_target": "Recognize bowel in a groin swelling",
       "question_type": "Clinical visual question",
-      "stem": "Which explanation is supported by the contrast-filled structure and the ultrasound appearance?",
+      "stem": "What do the contrast filled structure and the ultrasound appearance indicate, and which type is most common?",
       "options": [
-        "Simple fluid has collected around the testis.",
-        "Only superficial veins are dilated.",
-        "A solid mass arises within the testis.",
-        "The swelling represents isolated skin edema.",
-        "Bowel has entered an inguinal hernia."
+        "A hydrocele, most commonly communicating",
+        "Bowel in an inguinal hernia, most commonly the indirect type",
+        "A testicular tumor, most commonly seminoma",
+        "A varicocele, most commonly bilateral",
+        "Lymphadenopathy, most commonly reactive"
       ],
       "choice_rationales": [
-        "The contrast-containing structure and corresponding tissue do not have a simple fluid appearance. This choice describes a hydrocele.",
-        "Contrast within bowel and the sonographic structure identify bowel rather than a venous plexus. This choice describes superficial venous dilation (varicocele).",
-        "The abnormal structure lies beside the testis and contains bowel. This choice describes a testicular tumor.",
-        "Imaging shows a deeper structure in the inguinal region. This choice describes skin edema.",
-        "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example. This choice describes an inguinal hernia containing bowel, which is what the image shows."
+        "A hydrocele shows fluid and not contrast filled bowel.",
+        "Contrast filled bowel next to the testis indicates a hernia, with indirect the most common type.",
+        "A tumor would be solid and not contrast filled.",
+        "A varicocele does not contain bowel.",
+        "Lymph nodes do not fill with oral contrast."
       ],
-      "correct_index": 4,
-      "explanation": "The CT shows bowel containing contrast extending into the inguinal region. The ultrasound shows bowel beside the testis in the lecture example. The contrast-containing structure and corresponding tissue do not have a simple fluid appearance.",
+      "correct_index": 1,
+      "explanation": "Step 1. Contrast filled bowel alongside the testis on CT, with a matching ultrasound appearance, indicates bowel in an inguinal hernia. Step 2. Indirect inguinal hernias are by far the most common type, arising through a patent processus vaginalis, and the lecture notes step one questions often test direct versus indirect and inguinal versus femoral.",
       "visual_clues": [
         "The abnormal structure beside the testis corresponds to bowel on CT."
       ],
@@ -12753,9 +12759,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A patient presents with new swelling in the right groin. The lecture shows CT and ultrasound of the region.",
-      "lead_in": "Which explanation is supported by the contrast-filled structure and the ultrasound appearance?",
+      "reasoning_type": "second or third order",
+      "scenario": "A man has new swelling in the right groin. CT with oral contrast and ultrasound of the region are shown.",
+      "lead_in": "What do the contrast filled structure and the ultrasound appearance indicate, and which type is most common?",
       "source_id": "s-84e8d63dad8890f7a44b",
       "source_group_id": "g-bb3022e434ed3a6500e9",
       "asset_id": "a-0b41cc666e1acb037112041a10f9c8a452c304337d2fcf3c4530e904299a81ce",
@@ -12778,33 +12784,34 @@
         }
       ],
       "condition_name": "Inguinal hernia (patent processus vaginalis)",
-      "condition_overview": "An indirect inguinal hernia occurs when a patent processus vaginalis lets bowel or omentum descend through the deep inguinal ring and inguinal canal, sometimes into the scrotum. It presents as a reducible groin bulge that increases with straining, and incarceration or strangulation can cause bowel obstruction or ischemia. Ultrasound shows bowel loops in the swelling, and surgery repairs the defect."
+      "condition_overview": "An indirect inguinal hernia occurs when a patent processus vaginalis lets bowel or omentum descend through the deep inguinal ring and inguinal canal, sometimes into the scrotum. It presents as a reducible groin bulge that increases with straining, and incarceration or strangulation can cause bowel obstruction or ischemia. Ultrasound shows bowel loops in the swelling, and surgery repairs the defect.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-groin-processus",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Diagram",
-      "tested_concept": "Persistent processus vaginalis as an indirect hernia route",
+      "tested_concept": "Which developmental finding provides the route, and why is it more common in men?",
       "visual_target": "Persistent processus vaginalis as an indirect hernia route",
       "question_type": "Clinical visual question",
-      "stem": "In this diagram, which developmental finding provides the route for the loop shown?",
+      "stem": "Which developmental finding provides the route, and why is it more common in men?",
       "options": [
-        "A patent processus vaginalis allows bowel to descend along the inguinal canal.",
-        "An acquired defect through the abdominal wall creates a direct route.",
-        "An obliterated processus vaginalis provides the communication.",
-        "Fusion of the Müllerian ducts leaves an open channel to the scrotum.",
-        "Fluid trapped around the testis draws bowel through an intact wall."
+        "A closed processus vaginalis with a weak abdominal muscle wall",
+        "A failed gubernaculum with the testis above the canal",
+        "A patent processus vaginalis left after testicular descent, which stays open in some people and affects men more often",
+        "A persistent mesonephric duct",
+        "A urachal remnant"
       ],
       "choice_rationales": [
-        "The diagram follows bowel down toward the testis. R32 describes persistent communication along the route of testicular descent as the mechanism for an indirect inguinal hernia. This choice describes an indirect inguinal hernia through a patent processus vaginalis, which is what the image shows.",
-        "The depicted tract follows the testicular descent pathway. This choice describes a direct inguinal hernia.",
-        "A closed tract would interrupt the route shown. This choice describes an obliterated processus vaginalis.",
-        "The pathway shown is an extension of peritoneum associated with testicular descent. This choice describes a Müllerian duct fusion defect.",
-        "The bowel follows a persistent communication. This choice describes a hydrocele."
+        "Abdominal wall weakness describes direct hernias.",
+        "The gubernaculum tethers the testis, so it does not retreat.",
+        "An unclosed processus vaginalis from descent is the route for indirect hernia.",
+        "A mesonephric duct is not the hernia route.",
+        "A urachal remnant is a midline bladder structure."
       ],
-      "correct_index": 0,
-      "explanation": "The diagram follows bowel down toward the testis. R32 describes persistent communication along the route of testicular descent as the mechanism for an indirect inguinal hernia. A closed tract would interrupt the route shown.",
+      "correct_index": 2,
+      "explanation": "Step 1. During descent the testis carries the processus vaginalis through the canal, and if it fails to close the pathway remains open, which lets bowel herniate in as an indirect hernia. Step 2. Men are more likely to have this because of testicular descent, and the testis usually does not go back up because the gubernaculum tethers it. Direct hernias instead come from abdominal wall laxity.",
       "visual_clues": [
         "Follow the bowel loop along the canal toward the scrotum."
       ],
@@ -12815,9 +12822,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A patient presents with new swelling in the right groin. The lecture shows CT and ultrasound of the region.",
-      "lead_in": "In this diagram, which developmental finding provides the route for the loop shown?",
+      "reasoning_type": "second or third order",
+      "scenario": "A man has new swelling in the right groin. CT with oral contrast and ultrasound of the region are shown. A diagram shows a bowel loop passing along the canal toward the scrotum.",
+      "lead_in": "Which developmental finding provides the route, and why is it more common in men?",
       "source_id": "s-83eee43e1c5bdb7bc8fa",
       "source_group_id": "g-0bef6a69d323282f326b",
       "asset_id": "a-7af09fd1d721d92ac5f6189239fbc586da3e52e41fd4d196ed53b443111371c0",
@@ -12840,33 +12847,34 @@
         }
       ],
       "condition_name": "Inguinal hernia (patent processus vaginalis)",
-      "condition_overview": "An indirect inguinal hernia occurs when a patent processus vaginalis lets bowel or omentum descend through the deep inguinal ring and inguinal canal, sometimes into the scrotum. It presents as a reducible groin bulge that increases with straining, and incarceration or strangulation can cause bowel obstruction or ischemia. Ultrasound shows bowel loops in the swelling, and surgery repairs the defect."
+      "condition_overview": "An indirect inguinal hernia occurs when a patent processus vaginalis lets bowel or omentum descend through the deep inguinal ring and inguinal canal, sometimes into the scrotum. It presents as a reducible groin bulge that increases with straining, and incarceration or strangulation can cause bowel obstruction or ischemia. Ultrasound shows bowel loops in the swelling, and surgery repairs the defect.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-swelling-light",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Clinical Photo",
-      "tested_concept": "Transillumination and the role of ultrasound",
+      "tested_concept": "Which next step addresses the limit of the examination?",
       "visual_target": "Transillumination and the role of ultrasound",
       "question_type": "Clinical visual question",
-      "stem": "Which next step addresses the limitation of the examination illustrated?",
+      "stem": "Which next step addresses the limit of the examination?",
       "options": [
-        "Diagnose the contents as bowel from transillumination alone.",
-        "Use ultrasound to assess the testis and characterize the surrounding swelling.",
-        "Stage a known solid testicular tumor from these photographs.",
-        "Measure the urethral lumen with contrast as the next characterization step.",
-        "Use ability to transilluminate as proof of normal testicular anatomy."
+        "Antibiotics for torsion",
+        "Biopsy of the testis through the scrotum",
+        "Immediate orchiectomy",
+        "Ultrasound to assess the testis and characterize the surrounding swelling",
+        "No further evaluation"
       ],
       "choice_rationales": [
-        "The light passes through the swelling, and the underlying tissue still needs evaluation. This choice describes bowel diagnosed by transillumination.",
-        "The swelling transilluminates, supporting a fluid component, but the testis is difficult to palpate. In R32 ultrasound confirms fluid around the testis and shows the testicular tissue. This choice describes ultrasound evaluation of a scrotal swelling, which is what the image shows.",
-        "The exam has not identified a solid intratesticular tumor. This choice describes staging a solid testicular tumor from photographs.",
-        "The finding is scrotal. Ultrasound is the modality demonstrated next. This choice describes a urethral contrast study.",
-        "Transillumination does not replace visualization of the testis. This choice describes transillumination as proof of normal anatomy."
+        "Painless fluctuant swelling does not describe torsion.",
+        "Solid testicular masses are generally not biopsied this way.",
+        "Removal is not indicated before imaging.",
+        "Ultrasound evaluates the hidden testis and the fluid.",
+        "Examination could not see the testis, so imaging is needed."
       ],
-      "correct_index": 1,
-      "explanation": "The swelling transilluminates, supporting a fluid component, but the testis is difficult to palpate. In R32 ultrasound confirms fluid around the testis and shows the testicular tissue. The finding is scrotal. Ultrasound is the modality demonstrated next.",
+      "correct_index": 3,
+      "explanation": "Step 1. Transillumination and fluctuation suggest fluid around the testis, but the physical examination cannot see the testis through a large collection. Step 2. Ultrasound shows the testis and the collection and checks for an underlying tumor, after which treatment depends on size and patient preference.",
       "visual_clues": [
         "The second photo shows light transmitted through the swelling."
       ],
@@ -12877,9 +12885,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 32-year-old has painless scrotal enlargement and the testis is difficult to palpate.",
-      "lead_in": "Which next step addresses the limitation of the examination illustrated?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 32-year-old man has painless enlargement of one side of the scrotum. The testis is hard to palpate, and the swelling transilluminates and fluctuates.",
+      "lead_in": "Which next step addresses the limit of the examination?",
       "source_id": "s-856f55cebeb1445c2e02",
       "source_group_id": "g-c66eef24686c965b8b1f",
       "asset_id": "a-2b56432870777c81b672a71549e845cd3b2d6a9355173bedfa78c230de0fbbcd",
@@ -12906,33 +12914,34 @@
         }
       ],
       "condition_name": "Hydrocele",
-      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair."
+      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-swelling-fluid",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Hydrocele compartment",
+      "tested_concept": "Between which layers has the fluid collected?",
       "visual_target": "Hydrocele compartment",
       "question_type": "Clinical visual question",
-      "stem": "The sonographic collection is outside the testis. Between which layers has fluid accumulated?",
+      "stem": "Between which layers has the fluid collected?",
       "options": [
-        "Between layers of the bladder wall.",
-        "Within the seminiferous tubules.",
-        "Visceral and parietal layers of the tunica vaginalis.",
-        "Inside the spermatic cord vessels.",
-        "Inside the epididymal duct."
+        "Tunica albuginea and testicular parenchyma",
+        "Visceral and parietal layers of the tunica vaginalis",
+        "Peritoneum and bladder",
+        "Epididymis and vas deferens",
+        "Skin and dartos"
       ],
       "choice_rationales": [
-        "The collection is in the scrotum surrounding the testis. This choice describes a bladder wall collection.",
-        "The anechoic collection is outside the testicular parenchyma. This choice describes a seminiferous tubule collection.",
-        "The enlarged side shows an anechoic collection surrounding the testis. The lecture defines hydrocele fluid as collecting between the visceral and parietal tunica vaginalis. This choice describes a hydrocele (fluid between the layers of the tunica vaginalis), which is what the image shows.",
-        "The fluid surrounds the testis instead of outlining a vessel lumen. This choice describes a spermatic cord collection.",
-        "This is a broad peritesticular collection, rather than a focal ductal dilation. This choice describes an epididymal collection."
+        "The albuginea is a covering of the testis itself.",
+        "A hydrocele lies between the two tunica vaginalis layers.",
+        "The peritoneum is separate from the scrotal layers.",
+        "The epididymis and vas are cord structures.",
+        "Fluid in the skin layers would be scrotal edema."
       ],
-      "correct_index": 2,
-      "explanation": "The enlarged side shows an anechoic collection surrounding the testis. The lecture defines hydrocele fluid as collecting between the visceral and parietal tunica vaginalis. The collection is in the scrotum surrounding the testis.",
+      "correct_index": 1,
+      "explanation": "Step 1. A hydrocele is an accumulation of fluid between the visceral and parietal layers of the tunica vaginalis. Step 2. Causes include congenital, infection, trauma, ascites and tumor, and the size of the collection helps decide treatment. A tumor should be considered because the testis itself was not palpable.",
       "visual_clues": [
         "Compare the rim of fluid on the enlarged side with the reference testis."
       ],
@@ -12943,9 +12952,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A 32-year-old has painless scrotal enlargement and the testis is difficult to palpate.",
-      "lead_in": "The sonographic collection is outside the testis. Between which layers has fluid accumulated?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 32-year-old man has painless enlargement of one side of the scrotum. The testis is hard to palpate, and the swelling transilluminates and fluctuates. Ultrasound shows a rim of fluid around the testis.",
+      "lead_in": "Between which layers has the fluid collected?",
       "source_id": "s-5908086d8f946e96b481",
       "source_group_id": "g-94ad652566e9a019f0e1",
       "asset_id": "a-f2253ae2eb444b94e9232108664a9e7c47ef914e78baf80a1d04e85808bf44e7",
@@ -12972,33 +12981,34 @@
         }
       ],
       "condition_name": "Hydrocele",
-      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair."
+      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-swelling-communication",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Diagram",
-      "tested_concept": "Communicating hydrocele and persistent patent tract",
+      "tested_concept": "What explains how peritoneal fluid can reach the scrotum, and which condition makes this likely?",
       "visual_target": "Communicating hydrocele and persistent patent tract",
       "question_type": "Clinical visual question",
-      "stem": "Which feature of the right-hand diagram explains how peritoneal fluid can enter the scrotum?",
+      "stem": "What explains how peritoneal fluid can reach the scrotum, and which condition makes this likely?",
       "options": [
-        "The tract ends blindly above an isolated scrotal collection.",
-        "The testis contains the fluid within its own parenchyma.",
-        "A widened testicular artery carries free fluid from the abdomen.",
-        "A continuous patent processus vaginalis joins the peritoneal and scrotal spaces.",
-        "The fluid follows a ureter into the scrotum."
+        "A patent processus vaginalis joins the peritoneal and scrotal spaces, as with ascites causing a communicating hydrocele",
+        "A urethral stricture",
+        "A varicocele pathway",
+        "A closed processus vaginalis that is blocked by a hernia",
+        "A bell clapper deformity"
       ],
       "choice_rationales": [
-        "That pattern is depicted in the middle, without an open communication. This choice describes a blind-ending tract.",
-        "The fluid is drawn around the testis and along the tract. This choice describes an intratesticular fluid collection.",
-        "The connecting path is the processus vaginalis. This choice describes a widened testicular artery.",
-        "The right-hand drawing shows a continuous tract and fluid extending along it. The closed tract in the middle example leaves an isolated collection. This choice describes a communicating hydrocele (patent processus vaginalis), which is what the image shows.",
-        "The illustration shows the peritoneal extension linked to testicular descent. This choice describes ureteral fluid."
+        "An open processus vaginalis connects the abdomen and scrotum for fluid.",
+        "A urethral stricture does not connect to the peritoneum.",
+        "A varicocele involves veins, not peritoneal fluid.",
+        "A blocked tract would not allow fluid passage.",
+        "A bell clapper deformity concerns testicular fixation."
       ],
-      "correct_index": 3,
-      "explanation": "The right-hand drawing shows a continuous tract and fluid extending along it. The closed tract in the middle example leaves an isolated collection. The fluid is drawn around the testis and along the tract.",
+      "correct_index": 0,
+      "explanation": "Step 1. A communicating hydrocele occurs when the processus vaginalis stays patent so peritoneal fluid can pass into the scrotum. Step 2. Ascites can do this in a patient with a patent processus, and the lecture also showed fluid in a fetal scrotum because the processus had not yet closed, which is normal in utero. A noncommunicating form follows closure.",
       "visual_clues": [
         "Trace the blue fluid upward on the right to see if the tract remains open."
       ],
@@ -13009,9 +13019,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A 32-year-old has painless scrotal enlargement and the testis is difficult to palpate.",
-      "lead_in": "Which feature of the right-hand diagram explains how peritoneal fluid can enter the scrotum?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 32-year-old man has painless enlargement of one side of the scrotum. The testis is hard to palpate, and the swelling transilluminates and fluctuates. A diagram contrasts a closed tract with an open one.",
+      "lead_in": "What explains how peritoneal fluid can reach the scrotum, and which condition makes this likely?",
       "source_id": "s-b006e78e432d80b0a2d1",
       "source_group_id": "g-c575b5311e1616187dfd",
       "asset_id": "a-cb199a79f2eeaf7e45c2aed99e9a9995c9cdcac10f3ef0215aad136f9e32bc87",
@@ -13034,33 +13044,34 @@
         }
       ],
       "condition_name": "Hydrocele",
-      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair."
+      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-renal-search",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Investigate a missing kidney in its expected fossa",
+      "tested_concept": "Which next question should imaging address, and why does the normal left kidney matter?",
       "visual_target": "Investigate a missing kidney in its expected fossa",
       "question_type": "Clinical visual question",
-      "stem": "Which next question should imaging address when one expected renal site has no visible kidney?",
+      "stem": "Which next question should imaging address, and why does the normal left kidney matter?",
       "options": [
-        "Do both kidneys lie normally in the upper fossae?",
-        "Is the liver the only structure that should be investigated further?",
-        "Is the visible left kidney a pelvic kidney?",
-        "Is the right kidney obstructed despite no renal or collecting-system profile here?",
-        "Is there an ectopic kidney in the pelvis, or is one kidney absent?"
+        "Whether a renal tumor has replaced the right kidney",
+        "Whether the right kidney is in the chest only",
+        "Whether the left kidney is a horseshoe kidney, since it is normally placed",
+        "Whether hydronephrosis has caused the right kidney to vanish",
+        "Whether the right kidney lies in the pelvis or is absent, since a normally placed left kidney argues against a horseshoe kidney"
       ],
       "choice_rationales": [
-        "The right image does not show a kidney at the expected position. This choice describes normal bilateral kidney position.",
-        "The liver serves as a reference for the expected right kidney position. This choice describes liver-only disease.",
-        "The left kidney is identified in its usual upper abdominal region. This choice describes a pelvic left kidney.",
-        "The image raises the question of an ectopic or absent kidney. It does not demonstrate collecting-system dilation. This choice describes an obstructed right kidney.",
-        "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis. This choice describes a pelvic ectopic kidney or renal agenesis, which is what the image shows."
+        "A tumor would not be the first question in this setting.",
+        "A chest kidney is not the usual migrational anomaly.",
+        "A normally placed left kidney is not horseshoe.",
+        "The left kidney shows no collecting system fluid.",
+        "The task is pelvic kidney versus agenesis, helped by the normal left kidney."
       ],
       "correct_index": 4,
-      "explanation": "The left kidney is identified, but the expected right renal fossa does not show a kidney. R32 discusses pelvic imaging to look for an ectopic kidney or support evaluation for renal agenesis. The image raises the question of an ectopic or absent kidney. It does not demonstrate collecting-system dilation.",
+      "explanation": "Step 1. Kidneys start in the pelvis and migrate up, opposite to the testes, so an empty fossa means either a pelvic kidney or unilateral renal agenesis. Step 2. A well positioned left kidney argues against a horseshoe kidney, so pelvic imaging looks for the missing kidney. Pelvic imaging also leads to related genital anomalies.",
       "visual_clues": [
         "Compare the visible left kidney with the right renal fossa."
       ],
@@ -13071,9 +13082,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 17-year-old has a urinary tract infection. Paired renal ultrasound images are available.",
-      "lead_in": "Which next question should imaging address when one expected renal site has no visible kidney?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 17-year-old girl with a urinary tract infection has a renal ultrasound. The left kidney is normal and no right kidney is seen in the right renal fossa.",
+      "lead_in": "Which next question should imaging address, and why does the normal left kidney matter?",
       "source_id": "s-8d0b8b689bcb3c983a49",
       "source_group_id": "g-31e581b25f02691b686d",
       "asset_id": "a-f4947a92342788c7587f7a1e3f106a6acf50829e5a5fb7cce4491a34830d47a6",
@@ -13094,33 +13105,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 6
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-uterine-fusion",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Incomplete Müllerian fusion versus septal resorption",
+      "tested_concept": "Which embryologic mechanism explains this, and why is it linked to the kidney finding?",
       "visual_target": "Incomplete Müllerian fusion versus septal resorption",
       "question_type": "Clinical visual question",
-      "stem": "Which embryologic mechanism fits the paired lumina and external fundal contour?",
+      "stem": "Which embryologic mechanism explains this, and why is it linked to the kidney finding?",
       "options": [
-        "Incomplete fusion of the upper Müllerian ducts.",
-        "Failure of septal resorption after fusion with a normal outer contour.",
-        "Complete bilateral failure of Müllerian development.",
-        "Failure of one duct to form, leaving just one uterine horn.",
-        "An isolated obstruction of the vaginal opening."
+        "Persistent Wolffian ducts with a normal uterus",
+        "Incomplete fusion of the upper paramesonephric ducts, which develop near the urinary tract so renal anomalies such as unilateral agenesis coexist",
+        "Failure of the testes to descend, with renal agenesis as a secondary effect",
+        "Failure of canalization of the vagina only",
+        "Injury from infection, with no embryologic link"
       ],
       "choice_rationales": [
-        "Hysterosalpingography shows two uterine horns arising from one cervix. MRI shows the divided upper contour, supporting a bicornuate configuration from incomplete fusion. This choice describes a bicornuate uterus (incomplete fusion of the Müllerian ducts), which is what the image shows.",
-        "A normal outer contour would not explain the cleft seen here. This choice describes a septate uterus (failed septal resorption).",
-        "Two uterine horns and a cervix are present. This choice describes Müllerian agenesis.",
-        "Two horns are demonstrated. This choice describes a unicornuate uterus.",
-        "A distal obstruction does not explain the divided fundus and paired horns. This choice describes a vaginal outlet obstruction."
+        "Wolffian ducts form male structures.",
+        "Incomplete upper duct fusion produces two horns and one cervix.",
+        "Testicular descent is unrelated to uterine fusion.",
+        "Vaginal canalization does not produce horns.",
+        "The anomaly is embryologic and not due to infection."
       ],
-      "correct_index": 0,
-      "explanation": "Hysterosalpingography shows two uterine horns arising from one cervix. MRI shows the divided upper contour, supporting a bicornuate configuration from incomplete fusion. A normal outer contour would not explain the cleft seen here.",
+      "correct_index": 1,
+      "explanation": "Step 1. Paired Müllerian (paramesonephric) ducts normally fuse and the septum regresses, so incomplete fusion of the upper portion gives a bicornuate (heart shaped) uterus. Step 2. The ducts develop in close association with the urinary tract, so renal anomalies, most commonly unilateral renal agenesis, accompany Müllerian anomalies. Pregnancy is often possible, with occasional early delivery.",
       "visual_clues": [
         "Use both the internal split on HSG and the external fundal cleft on MRI."
       ],
@@ -13131,9 +13143,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "The renal findings prompt review of pelvic imaging. Hysterosalpingography and MRI depict the same uterine configuration.",
-      "lead_in": "Which embryologic mechanism fits the paired lumina and external fundal contour?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 17-year-old girl with a urinary tract infection has a renal ultrasound. The left kidney is normal and no right kidney is seen in the right renal fossa. Pelvic imaging shows a single cervix leading to two uterine horns with a cleft fundus.",
+      "lead_in": "Which embryologic mechanism explains this, and why is it linked to the kidney finding?",
       "source_id": "s-b8c7b7cd23f1d81e2d2e",
       "source_group_id": "g-925041316a856fb15975",
       "asset_id": "a-c0089cb100a668512c2c945de5372ebac5a96c316d0dd53bf875f5480069fe65",
@@ -13160,33 +13172,34 @@
         }
       ],
       "condition_name": "Bicornuate uterus",
-      "condition_overview": "A bicornuate uterus is a Müllerian fusion anomaly in which the upper portions of the Müllerian ducts fail to fuse, giving two divergent uterine horns and a deep fundal cleft in the external contour, with a single cervix. It can cause preterm labor and malpresentation. It is distinguished from a septate uterus by the external fundal indentation, and surgery is rarely needed."
+      "condition_overview": "A bicornuate uterus is a Müllerian fusion anomaly in which the upper portions of the Müllerian ducts fail to fuse, giving two divergent uterine horns and a deep fundal cleft in the external contour, with a single cervix. It can cause preterm labor and malpresentation. It is distinguished from a septate uterus by the external fundal indentation, and surgery is rarely needed.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-effusion-next",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Radiograph",
-      "tested_concept": "Pleural effusion with abdominal enlargement",
+      "tested_concept": "Which next test best separates the two causes under discussion?",
       "visual_target": "Pleural effusion with abdominal enlargement",
       "question_type": "Clinical visual question",
-      "stem": "Which next investigation can distinguish the two causes under discussion in the lecture?",
+      "stem": "Which next test best separates the two causes under discussion?",
       "options": [
-        "Assume the image proves metastatic disease and skip fluid assessment.",
-        "Sample the pleural fluid and assess for malignant cells.",
-        "Biopsy a solid lung nodule shown by this image.",
-        "Use a plain radiograph to determine the fluid cell type.",
-        "Defer any consideration of the chest finding until the mass is typed."
+        "Chest tube placement alone",
+        "Thoracentesis with assessment of the fluid for malignant cells, since a transudate without cells points away from metastatic disease",
+        "Repeat chest radiograph alone",
+        "Antibiotics for pneumonia",
+        "Discharge with reassurance"
       ],
       "choice_rationales": [
-        "The film detects fluid but cannot establish whether it contains malignant cells. This choice describes assuming metastatic disease.",
-        "The image shows right-sided pleural fluid. The discussion considers thoracentesis and cytologic assessment when weighing metastatic disease against the nonmalignant effusion in the case differential. This choice describes pleural fluid cytology for malignant cells (to separate Meigs syndrome from pleural metastasis), which is what the image shows.",
-        "The radiograph demonstrates a basal pleural collection rather than a target nodule. This choice describes a lung nodule biopsy.",
-        "Radiography cannot characterize cells in pleural fluid. This choice describes radiography for cell typing.",
-        "The lecture discusses sampling as part of exploring the link between both findings. This choice describes deferring the chest evaluation."
+        "A chest tube drains but does not separate the causes.",
+        "Sampling the fluid shows malignant cells or a transudate.",
+        "Another radiograph cannot tell cell content.",
+        "Pneumonia does not explain abdominal girth.",
+        "Reassurance ignores a possible malignancy."
       ],
       "correct_index": 1,
-      "explanation": "The image shows right-sided pleural fluid. The discussion considers thoracentesis and cytologic assessment when weighing metastatic disease against the nonmalignant effusion in the case differential. Radiography cannot characterize cells in pleural fluid.",
+      "explanation": "Step 1. A pleural effusion in a woman with abdominal enlargement raises metastatic disease and Meigs syndrome, among others. Step 2. Metastatic effusions contain malignant cells, whereas the Meigs effusion is a transudate that crosses the diaphragm and lacks cells, so thoracentesis with cytology distinguishes them.",
       "visual_clues": [
         "The right basal opacity has a fluid contour rather than multiple discrete nodules."
       ],
@@ -13197,9 +13210,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 42-year-old presents with increasing shortness of breath and abdominal girth.",
-      "lead_in": "Which next investigation can distinguish the two causes under discussion in the lecture?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 42-year-old woman has increasing shortness of breath and abdominal girth. Chest radiograph shows a right basal opacity with a fluid contour.",
+      "lead_in": "Which next test best separates the two causes under discussion?",
       "source_id": "s-afc83c740afce7fb96dc",
       "source_group_id": "g-d553908a353bf53da710",
       "asset_id": "a-8e4ed4eae7159c95fbdb3b692c606819c99ad3f3ba4b738425d2cc723c11f7bb",
@@ -13220,33 +13233,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 7
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-meigs-inference",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Solid ovarian mass, ascites, and pleural effusion",
+      "tested_concept": "Which diagnosis fits, and which tumor type is responsible?",
       "visual_target": "Solid ovarian mass, ascites, and pleural effusion",
       "question_type": "Clinical visual question",
-      "stem": "Which diagnosis is favored by the mass composition and the fluid distribution in this teaching case?",
+      "stem": "Which diagnosis fits, and which tumor type is responsible?",
       "options": [
-        "An isolated simple ovarian cyst with no associated fluid elsewhere.",
-        "A mature cystic teratoma identified by intralesional fat.",
-        "Meigs syndrome associated with an ovarian fibroma.",
-        "A hemorrhagic physiologic follicle accounting for all findings.",
-        "Omental caking alone establishes advanced epithelial carcinoma."
+        "Hydatidiform mole, a solid ovarian tumor",
+        "Endometrioma, a solid tumor",
+        "Ovarian serous cystadenocarcinoma, a cystic tumor",
+        "Mature cystic teratoma, a solid tumor",
+        "Meigs syndrome with an ovarian fibroma, a sex cord stromal tumor that is solid"
       ],
       "choice_rationales": [
-        "The mass is solid and fluid is present outside it. This choice describes a simple ovarian cyst.",
-        "The displayed evidence in this case is a solid mass with fluid in two compartments. This choice describes a mature cystic teratoma.",
-        "The adnexal mass is solid on ultrasound. The CT and prior chest image demonstrate abdominal and pleural fluid. R32 presents this combination as the classic association with an ovarian fibroma. This choice describes Meigs syndrome (ovarian fibroma with ascites and pleural effusion), which is what the image shows.",
-        "The lecture uses a distinct pattern and clinical timeline for that diagnosis. This choice describes a hemorrhagic physiologic follicle.",
-        "The mass shown here is the solid fibroma example. The lecture uses a separate CT example for omental cake. This choice describes omental caking from advanced carcinoma."
+        "A mole is a trophoblastic disease and not this ovarian mass.",
+        "Endometriomas are cystic and homogeneous.",
+        "Serous cystadenocarcinoma is cystic and not the favored solid tumor.",
+        "Mature teratomas are cystic.",
+        "A solid mass with ascites and pleural fluid is the Meigs triad with a fibroma."
       ],
-      "correct_index": 2,
-      "explanation": "The adnexal mass is solid on ultrasound. The CT and prior chest image demonstrate abdominal and pleural fluid. R32 presents this combination as the classic association with an ovarian fibroma. The mass is solid and fluid is present outside it.",
+      "correct_index": 4,
+      "explanation": "Step 1. A solid ovarian mass with ascites and a pleural effusion is Meigs syndrome. Step 2. Ovarian fibromas are sex cord stromal tumors and are solid, whereas epithelial tumors and mature teratomas are usually cystic, which helps classify the mass on ultrasound. The lecture notes Meigs syndrome is quite rare despite frequent testing.",
       "visual_clues": [
         "Identify solid tissue on ultrasound and fluid in a separate compartment on CT."
       ],
@@ -13257,9 +13271,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 42-year-old presents with increasing shortness of breath and abdominal girth.",
-      "lead_in": "Which diagnosis is favored by the mass composition and the fluid distribution in this teaching case?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 42-year-old woman has increasing shortness of breath and abdominal girth. Chest radiograph shows a right basal opacity with a fluid contour. Ultrasound shows a solid adnexal mass, and CT shows ascites and a right pleural effusion.",
+      "lead_in": "Which diagnosis fits, and which tumor type is responsible?",
       "source_id": "s-dc47f905d03cfc59b053",
       "source_group_id": "g-7538163cb1f2ac1b62db",
       "asset_id": "a-81bfa42e80edaeacd0c54e6fa88f08186e7bd1673bb5b81c81d0f57ea8fb9035",
@@ -13286,33 +13300,34 @@
         }
       ],
       "condition_name": "Meigs syndrome",
-      "condition_overview": "Meigs syndrome is the triad of a benign ovarian tumor, usually a fibroma, with ascites and right-sided pleural effusion. Fluid is a transudate or exudate that reaccumulates from the tumor, and it resolves completely after tumor removal. Because ovarian cancer can also cause these findings, malignancy must be excluded, and pleural cytology is helpful."
+      "condition_overview": "Meigs syndrome is the triad of a benign ovarian tumor, usually a fibroma, with ascites and right-sided pleural effusion. Fluid is a transudate or exudate that reaccumulates from the tumor, and it resolves completely after tumor removal. Because ovarian cancer can also cause these findings, malignancy must be excluded, and pleural cytology is helpful.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-effusion-course",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "Clinical data",
-      "tested_concept": "Expected fluid response after fibroma resection",
+      "tested_concept": "What happens to the ascites and the effusion after the tumor is removed?",
       "visual_target": "Expected fluid response after fibroma resection",
       "question_type": "Clinical visual question",
-      "stem": "What joint outcome belongs in the masked cells?",
+      "stem": "What happens to the ascites and the effusion after the tumor is removed?",
       "options": [
-        "Ascites resolves while the pleural effusion is expected to persist.",
-        "Pleural fluid resolves while ascites is expected to increase.",
-        "Both persist because the syndrome requires malignant pleural cells.",
-        "Both ascites and pleural fluid resolve after removal of the ovarian fibroma.",
-        "Both worsen despite removal of the associated tumor."
+        "Both worsen from removal",
+        "Only the ascites resolves",
+        "Both persist indefinitely",
+        "Both convert to malignant fluid",
+        "Both resolve after removal of the fibroma"
       ],
       "choice_rationales": [
-        "The lecture describes resolution of both collections. This choice describes resolution of ascites with a persistent effusion.",
-        "Removal treats the associated ascites as well. This choice describes resolution of the effusion with increasing ascites.",
-        "The course example associates the collections with a benign ovarian fibroma. This choice describes persistent fluid with malignant cells.",
-        "The R32 slide defines the syndrome by fibroma, ascites, and hydrothorax that resolve after tumor removal. This choice describes resolution of both ascites and pleural fluid after fibroma removal (Meigs syndrome), which is what the image shows.",
-        "The lecture presents resolution following tumor removal. This choice describes worsening of both."
+        "Removal does not worsen the fluid.",
+        "The effusion also resolves.",
+        "The fluid is tied to the tumor and does not persist.",
+        "Meigs fluid is a benign transudate without malignant cells.",
+        "Both collections resolve after the fibroma is removed."
       ],
-      "correct_index": 3,
-      "explanation": "The R32 slide defines the syndrome by fibroma, ascites, and hydrothorax that resolve after tumor removal. Removal treats the associated ascites as well.",
+      "correct_index": 4,
+      "explanation": "Step 1. In Meigs syndrome the fluid collections come from the benign solid ovarian tumor, and the pleural effusion is a transudate crossing the diaphragm. Step 2. Because the tumor is the source, removing the fibroma cures the ascites and the pleural effusion, which distinguishes the syndrome from metastatic cancer where fluid persists.",
       "visual_clues": [
         "The two rows represent fluid outside the same solid ovarian lesion."
       ],
@@ -13323,9 +13338,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "The diagnosis from the paired images is established. The lecture contrasts the expected course of the two fluid collections.",
-      "lead_in": "What joint outcome belongs in the masked cells?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 42-year-old woman has increasing shortness of breath and abdominal girth. Chest radiograph shows a right basal opacity with a fluid contour. The diagnosis of ovarian fibroma with Meigs syndrome is established.",
+      "lead_in": "What happens to the ascites and the effusion after the tumor is removed?",
       "visual_kind": "table",
       "source_group_id": "g-table-q-r32-effusion-course",
       "source_origin": "lecture-table",
@@ -13376,33 +13391,34 @@
         }
       ],
       "condition_name": "Meigs syndrome",
-      "condition_overview": "Meigs syndrome is the triad of a benign ovarian tumor, usually a fibroma, with ascites and right-sided pleural effusion. Fluid is a transudate or exudate that reaccumulates from the tumor, and it resolves completely after tumor removal. Because ovarian cancer can also cause these findings, malignancy must be excluded, and pleural cytology is helpful."
+      "condition_overview": "Meigs syndrome is the triad of a benign ovarian tumor, usually a fibroma, with ascites and right-sided pleural effusion. Fluid is a transudate or exudate that reaccumulates from the tumor, and it resolves completely after tumor removal. Because ovarian cancer can also cause these findings, malignancy must be excluded, and pleural cytology is helpful.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-effusion-contrast",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Distinguish the epithelial tumor comparison from the fibroma case",
+      "tested_concept": "Which added finding shifts the interpretation toward an epithelial malignancy with peritoneal spread?",
       "visual_target": "Distinguish the epithelial tumor comparison from the fibroma case",
       "question_type": "Clinical visual question",
-      "stem": "What added finding shifts this comparison toward an epithelial malignancy with peritoneal spread?",
+      "stem": "Which added finding shifts the interpretation toward an epithelial malignancy with peritoneal spread?",
       "options": [
-        "The predominantly cystic mass is accompanied by bulky omental soft tissue.",
-        "The mass is solid and homogeneous without a separate peritoneal finding.",
-        "The dominant new finding is fat that loses signal on a suppression sequence.",
-        "Only a localized ovarian lesion is shown in both panels.",
-        "Both panels demonstrate thickening confined to the endometrial cavity."
+        "Bulky omental soft tissue (omental caking) with ascites",
+        "A solid fibroma without omental disease",
+        "Teeth within a pelvic cyst",
+        "Fat that suppresses on MRI",
+        "A normal omentum"
       ],
       "choice_rationales": [
-        "In the comparison on the slide, one image shows a predominantly cystic mass and the other shows omental caking. The lecture contrasts this pattern with the solid fibroma in the preceding case. This choice describes an ovarian epithelial malignancy with omental disease, which is what the image shows.",
-        "The first image is predominantly cystic, and the second highlights abnormal omental tissue. This choice describes a solid homogeneous fibroma.",
-        "These are CT examples, and the arrows indicate omental tissue. This choice describes a fat-containing teratoma.",
-        "The second panel shows disease outside the primary mass. This choice describes a localized ovarian lesion.",
-        "The highlighted findings are adnexal and omental. This choice describes endometrial thickening."
+        "Omental caking with ascites shows peritoneal spread of an epithelial cancer.",
+        "A solid fibroma without omental disease would be Meigs.",
+        "Teeth indicate a teratoma.",
+        "Suppressing fat indicates a teratoma.",
+        "A normal omentum argues against peritoneal spread."
       ],
       "correct_index": 0,
-      "explanation": "In the comparison on the slide, one image shows a predominantly cystic mass and the other shows omental caking. The lecture contrasts this pattern with the solid fibroma in the preceding case. The first image is predominantly cystic, and the second highlights abnormal omental tissue.",
+      "explanation": "Step 1. A mostly cystic ovarian mass favors an epithelial tumor such as serous cystadenocarcinoma. Step 2. Bulky soft tissue in the omentum with ascites shows peritoneal spread, which the lecture says should not be called Meigs syndrome even though the fluid findings may look similar, because Meigs requires a benign solid tumor.",
       "visual_clues": [
         "In B, trace the arrowheads along the anterior abdomen, separate from the primary mass."
       ],
@@ -13413,9 +13429,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "The lecture presents these separate images after discussing the solid adnexal mass with pleural fluid.",
-      "lead_in": "What added finding shifts this comparison toward an epithelial malignancy with peritoneal spread?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 42-year-old woman has increasing shortness of breath and abdominal girth. Chest radiograph shows a right basal opacity with a fluid contour. A comparison case shows a predominantly cystic ovarian mass.",
+      "lead_in": "Which added finding shifts the interpretation toward an epithelial malignancy with peritoneal spread?",
       "source_id": "s-76593654070dd8ccda20",
       "source_group_id": "g-c1f0545ae49a185f9bff",
       "asset_id": "a-0e0e47d7c2632dc2373d10128d40865cce284876fe17202a9bdd1d8494e17869",
@@ -13438,33 +13454,34 @@
         }
       ],
       "condition_name": "Ovarian cancer (epithelial)",
-      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy."
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-endometrium-next",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Use saline infusion to define a focal cavity lesion",
+      "tested_concept": "Which imaging step best defines the cavity finding, and what pathologic differential remains?",
       "visual_target": "Use saline infusion to define a focal cavity lesion",
       "question_type": "Clinical visual question",
-      "stem": "The endometrial region is thickened. Which next imaging step did this lecture case use to define the cavity finding?",
+      "stem": "Which imaging step best defines the cavity finding, and what pathologic differential remains?",
       "options": [
-        "Repeat transvaginal imaging without distending the cavity.",
-        "Hysterosalpingography solely to assess tubal patency.",
-        "Transabdominal sonography alone to measure overall uterine size.",
-        "Color Doppler of the uterine arteries without evaluating the cavity.",
-        "Saline infusion sonography."
+        "Repeat ultrasound without saline, with atrophy only",
+        "Chest radiograph, with metastases",
+        "No imaging because bleeding is always atrophy",
+        "Saline infusion sonography, with polyp, hyperplasia and carcinoma remaining in the differential",
+        "Plain pelvic radiograph, with no differential"
       ],
       "choice_rationales": [
-        "The lecture added saline to outline the cavity and improve definition of a focal lesion. This choice describes repeat transvaginal imaging.",
-        "The question is about a focal endometrial finding. Saline infusion sonography was the step shown. This choice describes hysterosalpingography.",
-        "Overall uterine size does not resolve the focal cavity question addressed in the lecture. This choice describes transabdominal sonography.",
-        "The lesion needs to be localized relative to the saline-distended cavity. This choice describes color Doppler of the uterine arteries.",
-        "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion. This choice describes saline infusion sonography, which is what the image shows."
+        "Without saline the cavity detail is limited.",
+        "A chest radiograph is not the next step.",
+        "A thick endometrium needs evaluation beyond assuming atrophy.",
+        "Saline infusion sonography defines the cavity, and three diagnoses remain.",
+        "A radiograph does not show the endometrial cavity."
       ],
-      "correct_index": 4,
-      "explanation": "The lecture used saline to delineate the endometrial cavity and show whether the thickening came from a focal projecting lesion. Overall uterine size does not resolve the focal cavity question addressed in the lecture.",
+      "correct_index": 3,
+      "explanation": "Step 1. Most postmenopausal bleeding is from vaginal atrophy, but a thickened endometrium prompts a pathologic differential. Step 2. Saline infusion sonography outlines the cavity so a focal lesion such as a polyp can be separated from diffuse thickening, with endometrial hyperplasia, carcinoma and polyp the three common causes that present this way.",
       "visual_clues": [
         "The measured uterine lining appears thick on the initial image."
       ],
@@ -13475,9 +13492,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A postmenopausal patient presents with vaginal bleeding. The lecture starts with transvaginal ultrasound.",
-      "lead_in": "The endometrial region is thickened. Which next imaging step did this lecture case use to define the cavity finding?",
+      "reasoning_type": "second or third order",
+      "scenario": "A postmenopausal woman has vaginal bleeding. Transvaginal ultrasound shows a thickened endometrium.",
+      "lead_in": "Which imaging step best defines the cavity finding, and what pathologic differential remains?",
       "source_id": "s-87c122bc6ceeac974c22",
       "source_group_id": "g-f098dd3abd8dd5737c13",
       "asset_id": "a-4769d7b3656102e53f1b4cc9d1f2479c82594fc07169f37b6fd948e8a0f181a6",
@@ -13500,33 +13517,34 @@
         }
       ],
       "condition_name": "Endometrial polyp",
-      "condition_overview": "An endometrial polyp is a benign localized overgrowth of endometrial glands and stroma forming a stalked mass that projects into the uterine cavity, often with thick-walled vessels in a fibrous core. It causes abnormal bleeding and is related to estrogen exposure and tamoxifen. Saline infusion sonography shows a rounded intracavitary mass attached by a stalk, and color Doppler shows a single feeding vessel. It is removed hysteroscopically."
+      "condition_overview": "An endometrial polyp is a benign localized overgrowth of endometrial glands and stroma forming a stalked mass that projects into the uterine cavity, often with thick-walled vessels in a fibrous core. It causes abnormal bleeding and is related to estrogen exposure and tamoxifen. Saline infusion sonography shows a rounded intracavitary mass attached by a stalk, and color Doppler shows a single feeding vessel. It is removed hysteroscopically.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-endometrium-stalk",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Single feeding vessel in a focal endometrial lesion",
+      "tested_concept": "Which finding separates a polyp from a submucosal myoma, and why?",
       "visual_target": "Single feeding vessel in a focal endometrial lesion",
       "question_type": "Clinical visual question",
-      "stem": "Which anatomic explanation links the focused color flow with the outline of the lesion?",
+      "stem": "Which finding separates a polyp from a submucosal myoma, and why?",
       "options": [
-        "A stalk carries a feeding vessel into an endometrial polyp.",
-        "Many vessels are distributed evenly through a submucosal myoma.",
-        "The lesion is an intracavitary clot with no internal blood supply.",
-        "Diffuse thickening supplies blood uniformly along the full cavity.",
-        "Flow is limited to the surrounding myometrium, with no vessel entering the lesion."
+        "Teeth within the lesion",
+        "Fluid with echoes",
+        "A single feeding vessel through a stalk, whereas a myoma shows diffuse flow",
+        "Posterior shadowing",
+        "Diffuse flow throughout the lesion, as in a polyp"
       ],
       "choice_rationales": [
-        "Saline outlines the lesion and Doppler shows a focal feeding vessel. The lecture contrasts this with flow distributed throughout the submucosal myoma example. This choice describes an endometrial polyp (a stalk with a feeding vessel), which is what the image shows.",
-        "The illustrated focal point of entry fits the polyp comparison. This choice describes a submucosal myoma.",
-        "A feeding vessel supports a tissue stalk rather than avascular blood products. This choice describes an intracavitary clot.",
-        "The image shows a focal lesion outlined by fluid. This choice describes diffuse endometrial hyperplasia.",
-        "A focal vessel leads into the outlined lesion. This choice describes a lesion with myometrial flow only."
+        "Teeth belong to a teratoma.",
+        "Echoic fluid describes a hemorrhagic follicle.",
+        "A single stalk vessel with an outlined lesion is polyp.",
+        "Shadowing from hair belongs to a teratoma.",
+        "Diffuse flow is the myoma pattern."
       ],
-      "correct_index": 0,
-      "explanation": "Saline outlines the lesion and Doppler shows a focal feeding vessel. The lecture contrasts this with flow distributed throughout the submucosal myoma example. A focal vessel leads into the outlined lesion.",
+      "correct_index": 2,
+      "explanation": "Step 1. An endometrial polyp sits on a stalk, so blood flow comes through one feeding vessel, and the saline outlines it so it can be encircled. Step 2. A submucosal myoma instead shows diffuse flow throughout the mass. The lecture notes this single vessel is very characteristic.",
       "visual_clues": [
         "Trace the color signal to its entry into the saline-outlined lesion."
       ],
@@ -13537,9 +13555,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A postmenopausal patient presents with vaginal bleeding. The lecture starts with transvaginal ultrasound.",
-      "lead_in": "Which anatomic explanation links the focused color flow with the outline of the lesion?",
+      "reasoning_type": "second or third order",
+      "scenario": "A postmenopausal woman has vaginal bleeding. Transvaginal ultrasound shows a thickened endometrium. Saline infusion shows a lesion outlined by fluid with one vessel of color flow entering it.",
+      "lead_in": "Which finding separates a polyp from a submucosal myoma, and why?",
       "source_id": "s-d3aae44837b2756aaead",
       "source_group_id": "g-6c00ce2df2d2ac894dc1",
       "asset_id": "a-254f65a8880f9b4f9c3bd61c3c0f2b510cfbba3b7b60429ddf73cad103847588",
@@ -13562,33 +13580,34 @@
         }
       ],
       "condition_name": "Endometrial polyp",
-      "condition_overview": "An endometrial polyp is a benign localized overgrowth of endometrial glands and stroma forming a stalked mass that projects into the uterine cavity, often with thick-walled vessels in a fibrous core. It causes abnormal bleeding and is related to estrogen exposure and tamoxifen. Saline infusion sonography shows a rounded intracavitary mass attached by a stalk, and color Doppler shows a single feeding vessel. It is removed hysteroscopically."
+      "condition_overview": "An endometrial polyp is a benign localized overgrowth of endometrial glands and stroma forming a stalked mass that projects into the uterine cavity, often with thick-walled vessels in a fibrous core. It causes abnormal bleeding and is related to estrogen exposure and tamoxifen. Saline infusion sonography shows a rounded intracavitary mass attached by a stalk, and color Doppler shows a single feeding vessel. It is removed hysteroscopically.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-pelvic-calcific",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "Radiograph",
-      "tested_concept": "Toothlike pelvic calcifications and ovarian differential",
+      "tested_concept": "Which diagnosis should be prioritized, and what does the age suggest?",
       "visual_target": "Toothlike pelvic calcifications and ovarian differential",
       "question_type": "Clinical visual question",
-      "stem": "Which diagnosis should be prioritized given the shape of the dense pelvic structures?",
+      "stem": "Which diagnosis should be prioritized, and what does the age suggest?",
       "options": [
-        "A simple follicular cyst.",
-        "Mature cystic teratoma.",
-        "A hemorrhagic physiologic follicle.",
-        "An endometrial polyp.",
-        "A homogeneous ovarian fibroma."
+        "Ovarian fibroma, which contains teeth",
+        "Hydrocele, which contains teeth",
+        "Mature cystic teratoma, a dermoid cyst that peaks at 20 to 40 years and contains ectoderm and mesoderm derivatives",
+        "Endometrioma, which contains teeth",
+        "Serous cystadenocarcinoma, which contains teeth"
       ],
       "choice_rationales": [
-        "A simple follicle would not account for toothlike dense material. This choice describes a simple follicular cyst.",
-        "The course identifies toothlike structures within the pelvic calcifications, a clue to differentiated tissue in a mature cystic teratoma. This choice describes a mature cystic teratoma (dermoid), which is what the image shows.",
-        "The lecture links the mineralized structures to differentiated tissues. This choice describes a hemorrhagic follicle.",
-        "The radiograph shows mineralized pelvic structures rather than a cavity stalk. This choice describes an endometrial polyp.",
-        "The distinct toothlike components favor the teratoma example. This choice describes an ovarian fibroma."
+        "Fibromas are solid sex cord stromal tumors.",
+        "A hydrocele is a scrotal fluid collection, not pelvic.",
+        "Teeth in a pelvic mass indicate a mature cystic teratoma.",
+        "Endometriomas contain blood.",
+        "Serous tumors do not contain teeth."
       ],
-      "correct_index": 1,
-      "explanation": "The course identifies toothlike structures within the pelvic calcifications, a clue to differentiated tissue in a mature cystic teratoma. A simple follicle would not account for toothlike dense material.",
+      "correct_index": 2,
+      "explanation": "Step 1. Tooth like densities in a pelvic mass are classic for a mature cystic teratoma. Step 2. It is the most common ovarian teratoma, also called a dermoid cyst, with peak incidence 20 to 40 years and mostly ectoderm and mesoderm, with endoderm less common. The mass explains the pelvic fullness and constipation.",
       "visual_clues": [
         "Look for irregular dense structures resembling teeth within the pelvis."
       ],
@@ -13599,9 +13618,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 17-year-old has constipation and palpable pelvic fullness. A pelvic radiograph is available.",
-      "lead_in": "Which diagnosis should be prioritized given the shape of the dense pelvic structures?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 17-year-old has constipation and a palpable pelvic fullness. A pelvic radiograph shows irregular dense structures resembling teeth.",
+      "lead_in": "Which diagnosis should be prioritized, and what does the age suggest?",
       "source_id": "s-f8696500407cab7fa000",
       "source_group_id": "g-fc9cccf5e2146962589a",
       "asset_id": "a-7eeba883a4afb44a56b927517fe0abee8f3cc72eecdc18130a5331b88b47baac",
@@ -13628,33 +13647,34 @@
         }
       ],
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-fat-suppression",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Signal loss with fat saturation",
+      "tested_concept": "Which property explains the signal change, and what does it indicate about the mass?",
       "visual_target": "Signal loss with fat saturation",
       "question_type": "Clinical visual question",
-      "stem": "Which tissue property explains why the marked component becomes dark after fat saturation?",
+      "stem": "Which property explains the signal change, and what does it indicate about the mass?",
       "options": [
-        "The component is simple free fluid.",
-        "The component is mineralized bone throughout.",
-        "It contains macroscopic fat.",
-        "The component is an air pocket.",
-        "The component is a blood vessel filled with contrast."
+        "Air, which suggests an abscess",
+        "Calcified tooth, which suggests malignancy",
+        "Macroscopic fat, which suggests a benign tumor unless a liposarcoma",
+        "Simple fluid, which suggests a follicle",
+        "Blood products, which suggest an endometrioma"
       ],
       "choice_rationales": [
-        "Selective signal drop on fat saturation is the clue to fat in this comparison. This choice describes simple fluid.",
-        "The compared region is initially bright and selectively darkens with fat saturation. This choice describes mineralized bone.",
-        "The MR comparison shows a bright component on the initial image that loses signal with fat saturation. R32 uses this change to demonstrate fat in the mass. This choice describes macroscopic fat in a mature cystic teratoma, which is what the image shows.",
-        "Air would already have very low signal. This choice describes an air pocket.",
-        "The comparison is based on a fat suppression sequence and tissue-specific signal loss. This choice describes a contrast-filled vessel."
+        "Air is not the explanation.",
+        "Teeth would not suppress with fat saturation.",
+        "Signal that drops with fat saturation shows fat.",
+        "Simple fluid does not follow fat suppression.",
+        "Blood products would not suppress with fat saturation."
       ],
       "correct_index": 2,
-      "explanation": "The MR comparison shows a bright component on the initial image that loses signal with fat saturation. R32 uses this change to demonstrate fat in the mass. Air would already have very low signal.",
+      "explanation": "Step 1. Fat is bright on MRI and becomes dark when fat saturation is applied, so the component contains macroscopic fat. Step 2. Fat within a tumor is reassuring and indicates a benign process such as a teratoma, except for liposarcoma, and the technique is used to prove the fat is present.",
       "visual_clues": [
         "Compare the bright portion of the mass with the corresponding darker region after fat saturation."
       ],
@@ -13665,9 +13685,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "The same pelvic mass is seen with two MR sequences. A shows the initial view and B uses fat saturation.",
-      "lead_in": "Which tissue property explains why the marked component becomes dark after fat saturation?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 17-year-old has constipation and a palpable pelvic fullness. A pelvic radiograph shows irregular dense structures resembling teeth. On MRI, part of the mass is bright and turns dark with fat saturation.",
+      "lead_in": "Which property explains the signal change, and what does it indicate about the mass?",
       "source_id": "s-18301c20a78fc236b35e",
       "source_group_id": "g-667cef2f5e46353411b7",
       "asset_id": "a-1cacd6f899354ccc90bc1de36424a7922505840cdd95f7d12c9fd07f41d649fa",
@@ -13690,33 +13710,34 @@
         }
       ],
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-pelvic-removal",
       "collection": "R32",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Management follow-up after mature teratoma is identified",
+      "tested_concept": "What explains the shadowing, and why is removal discussed?",
       "visual_target": "Management follow-up after mature teratoma is identified",
       "question_type": "Clinical visual question",
-      "stem": "Given the radiograph and MRI findings already established in this case, which management rationale fits the ultrasound lesion?",
+      "stem": "What explains the shadowing, and why is removal discussed?",
       "options": [
-        "Observation solely because the ultrasound shows a simple functional follicle.",
-        "Endometrial sampling because the mass is shown inside the uterine cavity.",
-        "Plan observation for a transient hemorrhagic physiologic follicle.",
-        "Surgical removal is discussed because the mass can undergo torsion.",
-        "Follow as a simple cyst because acoustic shadowing excludes torsion risk."
+        "Fluid shadowing, and removal is discussed because of hemorrhage",
+        "Fat shadowing, and removal is discussed for pregnancy",
+        "Hair and teeth in the mass shadow, and removal is discussed because of torsion and malignant transformation",
+        "Edema shadowing, and removal is discussed because of infection",
+        "Blood clot shadowing, and removal is discussed for menses"
       ],
       "choice_rationales": [
-        "The shadowing and other modalities identify a lesion with differentiated tissue. This choice describes observation of a simple functional follicle.",
-        "The case lesion is adnexal. This choice describes endometrial sampling for an intracavitary lesion.",
-        "The fat and mineralized structures favor differentiated tissue, which the lecture associates with a different management plan. This choice describes observation of a hemorrhagic follicle.",
-        "The shadowing ultrasound lesion accompanies the toothlike and fat-containing views in R32. The lecture treats the lesion surgically and emphasizes torsion risk. This choice describes surgical removal of a mature teratoma because of torsion risk, which is what the image shows.",
-        "The shadowing does not remove the torsion risk cited for this mass. This choice describes a simple cyst followed without surgery."
+        "Fluid does not produce marked shadowing.",
+        "Fat does not explain the bright shadowing interface.",
+        "Hair and teeth shadow in a dermoid, and torsion and malignancy drive removal.",
+        "Edema does not produce a bright shadowing interface.",
+        "Clot does not explain the shadow in this mass."
       ],
-      "correct_index": 3,
-      "explanation": "The shadowing ultrasound lesion accompanies the toothlike and fat-containing views in R32. The lecture treats the lesion surgically and emphasizes torsion risk. The shadowing does not remove the torsion risk cited for this mass.",
+      "correct_index": 2,
+      "explanation": "Step 1. Hair often shadows the most, along with teeth, giving the bright interface with dense posterior shadowing of a dermoid. Step 2. The lecture says these tumors are removed because of the high incidence of torsion and because after menopause they can undergo malignant degeneration to squamous cell carcinoma.",
       "visual_clues": [
         "A bright interface produces marked posterior shadowing."
       ],
@@ -13727,9 +13748,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "Ultrasound provides another view of the mass characterized by the prior studies.",
-      "lead_in": "Given the radiograph and MRI findings already established in this case, which management rationale fits the ultrasound lesion?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 17-year-old has constipation and a palpable pelvic fullness. A pelvic radiograph shows irregular dense structures resembling teeth. Ultrasound shows a bright interface with marked posterior shadowing.",
+      "lead_in": "What explains the shadowing, and why is removal discussed?",
       "source_id": "s-9553df05a0163592093b",
       "source_group_id": "g-1a18b1d61d1ffb054a74",
       "asset_id": "a-fdec79579667c1ba29d4ed6c119b449bb00eadd8019a152e75c36938c64d9f67",
@@ -13756,33 +13777,34 @@
         }
       ],
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-cycle-endometrium",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Trilaminar endometrium and timing of an ovarian finding",
+      "tested_concept": "Which timing makes the ovarian finding consistent with a physiologic process?",
       "visual_target": "Trilaminar endometrium and timing of an ovarian finding",
       "question_type": "Clinical visual question",
-      "stem": "Which timing makes the ovarian finding in C consistent with the physiologic process discussed in this case?",
+      "stem": "Which timing makes the ovarian finding consistent with a physiologic process?",
       "options": [
-        "After menopause, when mature follicles are absent.",
-        "Early childhood, when there is no ovulation.",
-        "After delivery, when trophoblastic tissue explains the uterine image.",
-        "Only during menses, when the functional endometrium is being shed.",
-        "Around ovulation, when the endometrium can have a trilaminar pattern."
+        "After menopause",
+        "During early pregnancy only",
+        "Around ovulation, when the endometrium has a trilaminar pattern",
+        "During menses with a thin lining",
+        "Late luteal phase only, when the endometrium is thin and echogenic"
       ],
       "choice_rationales": [
-        "The uterine pattern in this case fits ovulation. This choice describes a postmenopausal ovary.",
-        "The lecture uses the endometrial pattern to place the case around ovulation. This choice describes an early childhood ovary.",
-        "The uterine pattern here is trilaminar rather than the postpartum teaching example. This choice describes a postpartum trophoblastic uterus.",
-        "The sonographic layers in A are associated with the ovulatory phase in the lecture. This choice describes a menstrual-phase endometrium.",
-        "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case. This choice describes a periovulatory ovary with a trilaminar endometrium, which is what the image shows."
+        "Menopause has no ovulation.",
+        "Pregnancy would show a different uterus.",
+        "The trilaminar endometrium indicates ovulation timing.",
+        "Menses gives a thin lining.",
+        "A thin echogenic lining does not give the layered look."
       ],
-      "correct_index": 4,
-      "explanation": "A shows the trilaminar endometrial appearance described in the lecture. B shows the reference ovary with follicles, and C shows the abnormal right-sided follicular finding discussed as hemorrhagic in this case. The lecture uses the endometrial pattern to place the case around ovulation.",
+      "correct_index": 2,
+      "explanation": "Step 1. A layered, triple line endometrium is the typical appearance at ovulation. Step 2. This places the pain two to three weeks after the last period, when a dominant follicle can hemorrhage, so the right ovary finding is a hemorrhagic physiologic follicle rather than a pathologic cyst. The history of birth control pills would make this less likely.",
       "visual_clues": [
         "Check the layered endometrium in A before interpreting the right ovarian finding in C."
       ],
@@ -13793,9 +13815,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A 22-year-old has severe right-sided pelvic pain. The lecture compares the uterine and ovarian ultrasound views.",
-      "lead_in": "Which timing makes the ovarian finding in C consistent with the physiologic process discussed in this case?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 22-year-old woman has severe right sided pelvic pain. Pelvic ultrasound shows a normal left ovary with follicles, a right ovarian abnormality, and a layered endometrium.",
+      "lead_in": "Which timing makes the ovarian finding consistent with a physiologic process?",
       "source_id": "s-0c1c218f958e27098105",
       "source_group_id": "g-b833172a69cfcceb81ca",
       "asset_id": "a-74ee77a557fcfb5c15d3019973303dde34697253a1b0853730ec18eba25e5057",
@@ -13824,33 +13846,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 10
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-cycle-doppler",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Increased flow to the dominant follicle",
+      "tested_concept": "Which mechanism links this flow to bleeding?",
       "visual_target": "Increased flow to the dominant follicle",
       "question_type": "Clinical visual question",
-      "stem": "Which mechanism links the second Doppler image to hemorrhage into a physiologic follicle?",
+      "stem": "Which mechanism links this flow to bleeding?",
       "options": [
-        "Increased perfusion around the dominant follicle can contribute to bleeding during ovulation.",
-        "The resting ovary gains more flow than the dominant follicle and is the featured bleeding site.",
-        "Avascular replacement of the follicle prevents any local bleeding.",
-        "The flow is confined to the uterine cavity and unrelated to the ovary.",
-        "Loss of all ovarian inflow is required for physiologic follicular hemorrhage."
+        "Infection lowers resistance and causes the follicle",
+        "Venous obstruction of the ovary causes bleeding",
+        "High resistance flow to the resting ovary causes bleeding",
+        "Torsion of the cord stops all flow and causes bleeding",
+        "Low resistance, increased flow to the dominant follicle can lead to bleeding into it or the peritoneum at ovulation"
       ],
       "choice_rationales": [
-        "The second image shows conspicuous peripheral color flow. R32 links the highly perfused dominant follicle to bleeding into the follicle when it ruptures during ovulation. This choice describes increased perfusion around the dominant follicle (hemorrhagic follicle at ovulation), which is what the image shows.",
-        "The prominent peripheral flow in B is around the dominant follicle. This choice describes greater flow in the resting ovary.",
-        "The second panel displays abundant peripheral color flow. This choice describes avascular follicle replacement.",
-        "The color rim surrounds the selected ovarian follicle. This choice describes flow confined to the uterus.",
-        "The lecture describes increased local perfusion around the follicle. This choice describes total loss of ovarian inflow."
+        "The follicle is physiologic and not infectious.",
+        "Venous obstruction is not the mechanism.",
+        "The resting ovary has high resistance flow and no dominant follicle.",
+        "Torsion would reduce, not increase, flow.",
+        "Increased low resistance flow to the dominant follicle explains bleeding."
       ],
-      "correct_index": 0,
-      "explanation": "The second image shows conspicuous peripheral color flow. R32 links the highly perfused dominant follicle to bleeding into the follicle when it ruptures during ovulation. The prominent peripheral flow in B is around the dominant follicle.",
+      "correct_index": 4,
+      "explanation": "Step 1. The resting ovary shows a high resistance waveform, but the developing dominant follicle switches to a low resistance pattern with marked increased flow, among the highest in the body outside a pregnancy. Step 2. When the follicle ruptures around day 14 that blood can enter the peritoneum or the follicle itself, forming a hemorrhagic follicle that is a physiologic process.",
       "visual_clues": [
         "Compare the conspicuous color rim of B with the resting ovary example in A."
       ],
@@ -13861,9 +13884,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "A 22-year-old has severe right-sided pelvic pain. The lecture compares the uterine and ovarian ultrasound views.",
-      "lead_in": "Which mechanism links the second Doppler image to hemorrhage into a physiologic follicle?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 22-year-old woman has severe right sided pelvic pain. Pelvic ultrasound shows a normal left ovary with follicles, a right ovarian abnormality, and a layered endometrium. Doppler of the symptomatic ovary shows a conspicuous color rim, unlike a resting ovary.",
+      "lead_in": "Which mechanism links this flow to bleeding?",
       "source_id": "s-6ed2d45a686d7b35f39f",
       "source_group_id": "g-d91aa901443fb692282c",
       "asset_id": "a-1cd80350a382abd0ad38f345cca210c3bd3d191a88e95d9c3e36f47ee5d1641e",
@@ -13888,33 +13911,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 11
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-cycle-varied",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Variable internal appearance of hemorrhagic follicles",
+      "tested_concept": "What does the comparison teach about interpretation?",
       "visual_target": "Variable internal appearance of hemorrhagic follicles",
       "question_type": "Clinical visual question",
-      "stem": "What does this comparison teach about interpreting an ovulatory follicle with internal echoes?",
+      "stem": "What does the comparison teach about interpretation?",
       "options": [
-        "All hemorrhagic follicles are completely anechoic.",
-        "Blood products can create different internal patterns in the same physiologic process.",
-        "Every internal strand proves a solid ovarian neoplasm.",
-        "A follicle requires a single uniform appearance at every stage.",
-        "Internal echoes establish a persistent endometrioma across all panels."
+        "Each pattern excludes a follicle",
+        "Each pattern shows a teratoma",
+        "Each pattern is a different tumor",
+        "Blood products can create different appearances in the same physiologic process, so it is not a separate disease each time",
+        "Each pattern needs surgery"
       ],
       "choice_rationales": [
-        "Several panels show strands or internal echoes. This choice describes an anechoic hemorrhagic follicle in all cases.",
-        "R32 uses these multiple patterns to illustrate that hemorrhagic follicles can contain variable internal echoes and septation-like strands. Appearance should be interpreted with the clinical setting. This choice describes variable internal patterns from blood products in a hemorrhagic follicle, which is what the image shows.",
-        "The slide shows strand-like material in physiologic hemorrhagic follicles. This choice describes a solid ovarian neoplasm.",
-        "The six examples display more than one pattern. This choice describes a follicle with one uniform pattern.",
-        "The lecture uses these examples to demonstrate variability of follicular hemorrhage. This choice describes a persistent endometrioma."
+        "The patterns still represent a follicle.",
+        "Teratomas have fat, hair and teeth and a different appearance.",
+        "The patterns are not separate tumors.",
+        "Evolving blood gives varied patterns of the same physiologic follicle.",
+        "Hemorrhagic follicles are treated symptomatically, not surgically."
       ],
-      "correct_index": 1,
-      "explanation": "R32 uses these multiple patterns to illustrate that hemorrhagic follicles can contain variable internal echoes and septation-like strands. Appearance should be interpreted with the clinical setting. The slide shows strand-like material in physiologic hemorrhagic follicles.",
+      "correct_index": 3,
+      "explanation": "Step 1. Hemorrhagic follicles can look very different depending on the age of the blood. Step 2. They are small blood filled collections that need only symptomatic relief, and the lecture avoids the word cyst because it implies pathology. A homogeneous pattern is more suggestive of an endometrioma, which is where the different case begins.",
       "visual_clues": [
         "Compare the different patterns of echoes in the panels."
       ],
@@ -13925,9 +13949,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "scenario": "A 22-year-old has severe right-sided pelvic pain. The lecture compares the uterine and ovarian ultrasound views.",
-      "lead_in": "What does this comparison teach about interpreting an ovulatory follicle with internal echoes?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 22-year-old woman has severe right sided pelvic pain. Pelvic ultrasound shows a normal left ovary with follicles, a right ovarian abnormality, and a layered endometrium. Several panels show different internal echo patterns in similar lesions.",
+      "lead_in": "What does the comparison teach about interpretation?",
       "source_id": "s-479402bc0f41e956e991",
       "source_group_id": "g-994ec18207914ee755ed",
       "asset_id": "a-2bbeff392ae69b5a206abb8ccc740dba83c5dcf574728a172b2dfadd972b901d",
@@ -13948,33 +13972,34 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 11
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-cyclic-adnexa",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Uniform adnexal echoes and cyclic symptoms",
+      "tested_concept": "Which explanation integrates her symptoms with the uniform echoes in the right adnexal mass?",
       "visual_target": "Uniform adnexal echoes and cyclic symptoms",
       "question_type": "Clinical visual question",
-      "stem": "Which explanation best integrates the symptoms with the right adnexal appearance in B?",
+      "stem": "Which explanation integrates her symptoms with the uniform echoes in the right adnexal mass?",
       "options": [
-        "A simple ovarian cyst with completely anechoic contents.",
-        "A myometrial lesion accounts for the right ovarian image alone.",
-        "An ovarian endometrioma due to bleeding in ectopic endometrial tissue.",
-        "A mature teratoma identified by toothlike or fat-containing components.",
-        "A physiologic follicle is established by an identical appearance in both ovaries."
+        "An ovarian endometrioma, bleeding from ectopic endometrial tissue that produces a homogeneous blood filled mass",
+        "A mature teratoma with teeth",
+        "A Meigs fibroma with ascites",
+        "A hemorrhagic follicle that varies each cycle",
+        "A hydrocele"
       ],
       "choice_rationales": [
-        "The right lesion contains homogeneous internal echoes. This choice describes a simple ovarian cyst.",
-        "The highlighted lesion is adnexal, and the uterine findings are considered separately. This choice describes a myometrial lesion.",
-        "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma. This choice describes an ovarian endometrioma (chocolate cyst), which is what the image shows.",
-        "A mature teratoma may contain fat or toothlike material. Homogeneous low-level echoes and cyclic pain instead support the endometrioma in this case. This choice describes a mature teratoma.",
-        "B differs from the reference follicles in A, and the cyclic history is part of the distinction. This choice describes a physiologic follicle."
+        "Endometrioma explains the cyclic symptoms and the uniform echoes.",
+        "A teratoma contains fat, hair and teeth.",
+        "A fibroma is a solid tumor and not a blood filled mass.",
+        "A hemorrhagic follicle varies and is physiologic, and does not explain dyspareunia.",
+        "A hydrocele is a scrotal fluid collection, not pelvic."
       ],
-      "correct_index": 2,
-      "explanation": "The right adnexal lesion is relatively homogeneous with low-level echoes. R32 uses that appearance together with cyclic pain to favor an endometrioma. A mature teratoma may contain fat or toothlike material. Homogeneous low-level echoes and cyclic pain instead support the endometrioma in this case.",
+      "correct_index": 0,
+      "explanation": "Step 1. Cyclic worsening pain and dyspareunia suggest endometriosis, with endometrial type tissue outside the uterus causing inflammation and scarring. Step 2. An endometrioma, the most common manifestation around the ovary, is a hematoma that appears uniformly homogeneous, unlike the variable appearances of a hemorrhagic follicle, so uniform echoes fit.",
       "visual_clues": [
         "Compare the relatively uniform internal echoes in B with the smaller reference follicles in A."
       ],
@@ -13985,9 +14010,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A 28-year-old presents with pain that worsens during menses, heavy bleeding, dyspareunia, and right adnexal fullness.",
-      "lead_in": "Which explanation best integrates the symptoms with the right adnexal appearance in B?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 28-year-old woman has pelvic pain that worsens during menses, heavy menstrual bleeding, dyspareunia and right adnexal fullness. Ultrasound of the uterus, left ovary and right adnexa is performed.",
+      "lead_in": "Which explanation integrates her symptoms with the uniform echoes in the right adnexal mass?",
       "source_id": "s-884d2f45229c714a112d",
       "source_group_id": "g-a2697cba6b53d2025ddd",
       "asset_id": "a-a6ec9e1f508eb0360d6822f01f0a31be7566aafc7e60983c9aa0a51256f3195a",
@@ -14014,33 +14039,34 @@
         }
       ],
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-cyclic-wall",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Diagram",
-      "tested_concept": "Extrauterine implants versus myometrial infiltration",
+      "tested_concept": "Which distinction explains why the patterns cause different imaging findings?",
       "visual_target": "Extrauterine implants versus myometrial infiltration",
       "question_type": "Clinical visual question",
-      "stem": "Which distinction explains why the two patterns can cause different imaging findings?",
+      "stem": "Which distinction explains why the patterns cause different imaging findings?",
       "options": [
-        "A is confined to the myometrium. B shows only extrauterine implants.",
-        "Both depict tissue restricted to the normal uterine cavity lining.",
-        "Both depict tissue restricted to the ovaries.",
-        "A has endometrial-type tissue outside the uterus. B has it within the myometrium.",
-        "A depicts an ovarian surface cyst and B depicts a urethral lesion."
+        "One shows endometrial type tissue outside the uterus and the other shows it within the myometrium",
+        "One shows a normal uterus and one shows fluid",
+        "Both show tissue outside the uterus",
+        "Both show tissue within the endometrium",
+        "One shows tumor and one shows infection"
       ],
       "choice_rationales": [
-        "A illustrates extrauterine endometriosis, with implants outside the uterus. B illustrates adenomyosis, with endometrial-type tissue inside the uterine muscle. This choice describes adenomyosis in A and extrauterine disease in B.",
-        "Both diseases place endometrial-type tissue outside the normal cavity lining. Endometriosis places it outside the uterus and adenomyosis places it within myometrium. This choice describes normal endometrial lining only.",
-        "Endometriosis may involve the ovaries, but the illustrated adenomyosis in B affects uterine muscle. This choice describes ovarian disease only.",
-        "A shows extrauterine endometriosis. B shows adenomyosis, where endometrial-type tissue is embedded in the myometrium. This choice describes endometriosis in A (endometrial-type tissue outside the uterus) and adenomyosis in B (within the myometrium), which is what the image shows.",
-        "The first figure demonstrates extrauterine endometriotic implants. The second places adenomyosis in uterine muscle, away from the urethra. This choice describes an ovarian surface cyst and a urethral lesion."
+        "Outside the uterus describes endometriosis and inside the myometrium describes adenomyosis.",
+        "Neither is a normal uterus or fluid.",
+        "Both are not extrauterine.",
+        "Both are not confined to the endometrium.",
+        "Neither is a tumor or infection."
       ],
-      "correct_index": 3,
-      "explanation": "R32 contrasts extrauterine endometriosis with adenomyosis, in which endometrial-type tissue is embedded in the muscular uterine wall.",
+      "correct_index": 0,
+      "explanation": "Step 1. Endometriosis is endometrial type tissue outside the uterus, causing inflammation, scarring and ovarian endometriomas. Step 2. Adenomyosis is endometrial tissue growing into the muscular wall of the uterus, so one pattern shows extrauterine lesions and the other changes within the uterine wall.",
       "visual_clues": [
         "Locate the red foci relative to the uterine cavity and muscle."
       ],
@@ -14051,9 +14077,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "The lecture uses two diagrams to compare the possible sites of endometrial-type tissue in patients with cyclic pain.",
-      "lead_in": "Which distinction explains why the two patterns can cause different imaging findings?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 28-year-old woman has pelvic pain that worsens during menses, heavy menstrual bleeding, dyspareunia and right adnexal fullness. Ultrasound of the uterus, left ovary and right adnexa is performed. Two diagrams show red foci in different locations.",
+      "lead_in": "Which distinction explains why the patterns cause different imaging findings?",
       "source_id": "s-771ed8ed8b9bfde6d347",
       "source_group_id": "g-5f1f5c6328b1f49001be",
       "asset_id": "a-5c2fa60f31db9b641589a62ae17fe298159670a4d49d11bb023e026faf0ef484",
@@ -14080,33 +14106,34 @@
         }
       ],
       "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-cyclic-junction",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Abnormal junctional zone in adenomyosis comparison",
+      "tested_concept": "Where does the lecture direct attention for adenomyosis?",
       "visual_target": "Abnormal junctional zone in adenomyosis comparison",
       "question_type": "Clinical visual question",
-      "stem": "Where does the lecture direct attention for a uterine-wall component of the symptoms?",
+      "stem": "Where does the lecture direct attention for adenomyosis?",
       "options": [
-        "Within a periurethral outpouching below the bladder.",
-        "Only within the fluid of a dominant ovarian follicle.",
-        "At a feeding stalk projecting into a saline-distended cavity.",
-        "At the wall of the rectum, without uterine involvement.",
-        "At the junction of endometrium and myometrium, within the uterine wall."
+        "The fallopian tube only",
+        "The junctional zone between endometrium and myometrium, within the uterine wall",
+        "The cervix only",
+        "The outer serosa only",
+        "The ovary only"
       ],
       "choice_rationales": [
-        "A periurethral diverticulum lies below the bladder near the urethra. Adenomyosis alters the junctional zone within the uterine wall. This choice describes a periurethral outpouching.",
-        "A dominant follicle is ovarian. The inner myometrial change shown here is within the uterine wall, supporting adenomyosis. This choice describes the fluid of an ovarian follicle.",
-        "The separate endometrial polyp example shows a stalk in the uterine cavity. The adenomyosis view focuses on the inner myometrium at the junctional zone. This choice describes a feeding stalk in a distended cavity.",
-        "The indicated change relates to the endometrial–myometrial interface. This choice describes the rectal wall.",
-        "The adenomyosis finding is at the endometrial–myometrial junction inside the uterine wall. The endometrioma is the separate adnexal finding. This choice describes adenomyosis (the junction of the endometrium and myometrium), which is what the image shows."
+        "The tube is not the wall component.",
+        "The junctional zone is where endometrial tissue is seen in adenomyosis.",
+        "The cervix is not the site of the wall change.",
+        "The serosa is the outer covering, not the site.",
+        "The ovary harbors endometriomas, not adenomyosis."
       ],
-      "correct_index": 4,
-      "explanation": "The lecture contrasts the adnexal lesion with abnormality of the inner myometrium at the junctional zone. These images illustrate why the uterine and adnexal findings are assessed separately.",
+      "correct_index": 1,
+      "explanation": "Step 1. The uterus has an endometrium, an inner junctional zone and an outer myometrium. Step 2. Adenomyosis is diagnosed when endometrial tissue is seen in the junctional zone, and the endometrium is used to locate the inner myometrium on ultrasound and MRI. The ovarian endometrioma was the other component of her symptoms.",
       "visual_clues": [
         "On both views use the endometrium to locate the inner myometrium."
       ],
@@ -14117,9 +14144,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "scenario": "The same teaching sequence also assesses the uterus by sagittal ultrasound and MRI.",
-      "lead_in": "Where does the lecture direct attention for a uterine-wall component of the symptoms?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 28-year-old woman has pelvic pain that worsens during menses, heavy menstrual bleeding, dyspareunia and right adnexal fullness. Ultrasound of the uterus, left ovary and right adnexa is performed. Sagittal ultrasound and MRI of the uterus are reviewed for a wall component.",
+      "lead_in": "Where does the lecture direct attention for adenomyosis?",
       "source_id": "s-5ae72beca99ad1f15890",
       "source_group_id": "g-ebbd3d18a95fc520cb82",
       "asset_id": "a-63deddde730fa293c816852f0c615ae65353a124f40a6bb9e0f64ada5911f30d",
@@ -14146,7 +14173,8 @@
         }
       ],
       "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
     }
   ],
   "retired_questions": [
