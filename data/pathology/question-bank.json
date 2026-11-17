@@ -17729,26 +17729,26 @@
     {
       "question_id": "q-r31-lobular-involution",
       "collection": "R31",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Histology",
-      "tested_concept": "Involution of terminal duct lobular units",
+      "tested_concept": "What process explains the lower density, and how does the degree of this process relate to cancer risk?",
       "visual_target": "Involution of terminal duct lobular units",
       "question_type": "Visual interpretation",
-      "stem": "Which change best connects the histology on the right with the lower mammographic density discussed in the lecture?",
+      "stem": "What process explains the lower density, and how does the degree of this process relate to cancer risk?",
       "options": [
-        "Lobular involution leaves more fat relative to glandular tissue.",
-        "Expansion of milk-filled alveoli increases the glandular fraction.",
-        "Expansion of duct epithelium increases the glandular fraction.",
-        "Replacement of fat with dense cellular stroma reduces the glandular fraction."
+        "Growth of fibroadenomas, with more growth associated with lower risk",
+        "Lactational expansion of lobules, with more expansion associated with lower risk",
+        "Involution of terminal duct lobular units, with less involution associated with higher breast cancer risk",
+        "Proliferation of ducts as in pregnancy, with more proliferation associated with lower risk"
       ],
       "choice_rationales": [
-        "The right field has abundant adipose tissue and fewer conspicuous glandular profiles. The lecture links involution of terminal duct lobular units to decreasing mammographic density. This choice describes lobular involution (increased fat fraction), which is what the image shows.",
-        "The right field shows abundant fat, rather than fields of distended secretory units. This choice describes lactational change.",
-        "The glandular component occupies less of the right field. This choice describes ductal hyperplasia.",
-        "The extensive pale adipose spaces explain the change better than a new dense stromal component. This choice describes dense stromal fibrosis."
+        "Fibroadenomas are discrete masses and do not explain diffuse fatty replacement.",
+        "Lactation expands lobules and is a state of milk production, not of reduced density.",
+        "Involution lowers density, and less involution is linked to higher risk.",
+        "Ductal proliferation happens in pregnancy and does not explain lower density in older women."
       ],
-      "correct_index": 0,
-      "explanation": "The right field has abundant adipose tissue and fewer conspicuous glandular profiles. The lecture links involution of terminal duct lobular units to decreasing mammographic density. The extensive pale adipose spaces explain the change better than a new dense stromal component.",
+      "correct_index": 2,
+      "explanation": "Step 1. Abundant fat with few glandular units in a postmenopausal breast reflects involution of terminal duct lobular units (TDLUs). Step 2. The TDLU is the major source of intraductal breast cancer, so lesser degrees of age-related involution are associated with increased breast cancer risk, which is why density is part of the mammogram result.",
       "visual_clues": [
         "The right field has more fat and fewer tightly packed glandular units."
       ],
@@ -17775,31 +17775,33 @@
           "document": "R31 Pathology of the GU System Radiology RLS.pdf",
           "page": 5
         }
-      ]
+      ],
+      "case_context": "A 62-year-old postmenopausal woman has a screening mammogram that is less dense than her mammogram at age 40. A biopsy of a breast lesion also samples background tissue that shows abundant adipose tissue and few glandular units.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-mammary-secretion",
       "collection": "R31",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Histology",
-      "tested_concept": "Luminal storage during lactation",
+      "tested_concept": "Which physiologic event explains this background appearance, and in which structure does it occur?",
       "visual_target": "Luminal storage during lactation",
       "question_type": "Visual interpretation",
-      "stem": "Which function best explains the expanded pale spaces inside many of the epithelial units?",
+      "stem": "Which physiologic event explains this background appearance, and in which structure does it occur?",
       "options": [
-        "Transport of blood through capillaries.",
-        "Storage of milk secreted into the lumen.",
-        "Accumulation of lipid inside stromal adipocytes.",
-        "Involution with loss of the lobular epithelium."
+        "Fluid is reabsorbed faster than it is made, as in a simple cyst",
+        "Milk is produced, secreted, and stored in the lumen of terminal duct lobular units during lactation",
+        "Terminal duct lobular units involute during menopause",
+        "Ducts proliferate without lobular expansion during puberty"
       ],
       "choice_rationales": [
-        "These spaces are inside epithelial units, rather than vascular profiles. This choice describes a capillary function.",
-        "The pale spaces are lumina within secretory units. R31 describes milk production and storage within the lumen during lactation. This choice describes lactation (milk storage in the alveoli), which is what the image shows.",
-        "The spaces are bounded by glandular epithelium. This choice describes adipocyte lipid accumulation.",
-        "The secretory epithelial units remain prominent in this field. This choice describes lobular involution."
+        "A cyst forms when more fluid is produced than reabsorbed, and it is not a lactational change.",
+        "Lactation is the stage in which milk is produced and stored in the lumen.",
+        "Involution occurs with increasing age and menopause, not in a breastfeeding woman.",
+        "Puberty is the stage of growth and differentiation of the TDLU."
       ],
       "correct_index": 1,
-      "explanation": "The pale spaces are lumina within secretory units. R31 describes milk production and storage within the lumen during lactation. The spaces are bounded by glandular epithelium.",
+      "explanation": "Step 1. Expanded lobular units with luminal secretions in a postpartum woman indicate lactational change. Step 2. In lactation the TDLU produces, secretes, and stores milk in its lumen, which differs from puberty (growth and differentiation), pregnancy (ductal proliferation), and involution with age.",
       "visual_clues": [
         "Follow the rim of epithelium around an expanded lumen."
       ],
@@ -17824,31 +17826,33 @@
         }
       ],
       "condition_name": "Lactational changes of the breast",
-      "condition_overview": "During pregnancy and lactation the lobules enlarge and proliferate under estrogen, progesterone, and prolactin, with secretory vacuolated cytoplasm and luminal milk. Oxytocin drives the let-down reflex. These are normal physiologic changes."
+      "condition_overview": "During pregnancy and lactation the lobules enlarge and proliferate under estrogen, progesterone, and prolactin, with secretory vacuolated cytoplasm and luminal milk. Oxytocin drives the let-down reflex. These are normal physiologic changes.",
+      "case_context": "A 29-year-old woman who is breastfeeding has a breast biopsy for a lump. The background tissue shows lobules with expanded rounded units whose lumina contain pale material.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-duct-boundary",
       "collection": "R31",
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "category": "Histology",
-      "tested_concept": "Breast duct boundaries and invasion",
+      "tested_concept": "What does this finding imply about the basement membrane, and how common is this tumor type?",
       "visual_target": "At the interface between the crowded tissue on the left and the pink tissue on the right, how are the epithelial profiles arranged?",
       "question_type": "Visual interpretation",
-      "stem": "At the interface between the crowded tissue on the left and the pink tissue on the right, how are the epithelial profiles arranged?",
+      "stem": "What does this finding imply about the basement membrane, and how common is this tumor type?",
       "options": [
-        "Atypical cells fill smooth round ducts with continuous boundaries.",
-        "Individual discohesive cells form narrow single files between collagen bundles.",
-        "Irregular epithelial glands extend between bundles of fibrous stroma.",
-        "Rounded secretory acini form a compact lobular unit."
+        "The basement membrane is intact, and DCIS makes up most new breast cancers",
+        "The basement membrane is irrelevant, since fibroadenoma is the most common malignancy",
+        "The basement membrane is intact, and invasive lobular carcinoma is more common than ductal",
+        "The basement membrane has been breached, and invasive ductal carcinoma makes up up to 80 percent of new breast cancers"
       ],
       "choice_rationales": [
-        "A duct-confined proliferation would remain in rounded, preexisting profiles. Here the angled epithelial outlines continue into the surrounding pink tissue. This choice describes ductal carcinoma in situ.",
-        "Single files of discohesive cells would fit lobular-type invasion. Most invasive epithelial profiles here have irregular gland outlines rather than one-cell-wide cords. This choice describes invasive lobular carcinoma.",
-        "Irregular glands extend from the crowded left field into pink fibrous stroma on the right. This choice describes invasive ductal carcinoma, which is what the image shows.",
-        "A compact lobular unit has clustered acini around its duct. These glands are dispersed at an irregular interface with stroma. This choice describes normal lobular acini."
+        "About one in five new cancers is DCIS, and DCIS has an intact basement membrane.",
+        "Fibroadenoma is a benign neoplasm and not a malignancy.",
+        "Invasive lobular carcinoma is much rarer than invasive ductal.",
+        "Invasion means the basement membrane is breached, and invasive ductal is the most common type."
       ],
-      "correct_index": 2,
-      "explanation": "The image shows invasive breast carcinoma with gland formation. The important evidence is the relationship to stroma: haphazard epithelial glands cross the interface, unlike atypia contained within a preexisting duct. Single-file invasion is a different stromal architecture.",
+      "correct_index": 3,
+      "explanation": "Step 1. Epithelial glands extending into stroma across the duct boundary indicate invasive ductal carcinoma. Step 2. DCIS keeps the basement membranes intact, so crossing into stroma means invasion, and invasive ductal carcinomas account for up to 80 percent of new breast cancers while invasive lobular carcinomas are rarer.",
       "visual_clues": [
         "Track several separate irregular glands among the pink stromal bands."
       ],
@@ -17884,31 +17888,33 @@
         }
       ],
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "case_context": "A 58-year-old woman has a 2 cm irregular mass on mammography. Core biopsy shows epithelial glands that cross the boundary of a duct and extend between bundles of fibrous stroma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-mammographic-morphology",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Radiograph",
-      "tested_concept": "Calcifications versus architectural distortion",
+      "tested_concept": "Which assignment is most consistent, and what histologic feature separates the two diagnoses?",
       "visual_target": "Calcifications versus architectural distortion",
       "question_type": "Visual interpretation",
-      "stem": "Which pairing describes the dominant contrast between the mammograms?",
+      "stem": "Which assignment is most consistent, and what histologic feature separates the two diagnoses?",
       "options": [
-        "Left: a smooth round mass. Right: scattered round cysts.",
-        "Left: widespread radiating distortion. Right: only a small discrete focus.",
-        "Left: diffuse bilateral density. Right: no focal change.",
-        "Left: clustered bright foci. Right: an irregular center with radiating lines."
+        "Both have DCIS, since DCIS always forms a mass",
+        "Patient 1 has DCIS and patient 2 has invasive carcinoma, since DCIS keeps basement membranes intact while invasive disease does not",
+        "Patient 1 has invasive carcinoma and patient 2 has DCIS, since DCIS forms radiating lines",
+        "Both have invasive carcinoma, since calcifications indicate invasion"
       ],
       "choice_rationales": [
-        "The left abnormality is a cluster of bright foci, and the right field demonstrates distortion. This choice describes a benign cyst or smooth mass.",
-        "The conspicuous radiating lines are in the right panel. This choice describes a mass with architectural distortion.",
-        "These are individual views with focal findings in each. This choice describes diffuse density.",
-        "The left example highlights clustered calcifications. The right image shows a conspicuous irregular central density with radiating distortion in addition to bright foci. This choice describes a ductal carcinoma in situ with calcifications and an invasive spiculated carcinoma, which is what the image shows."
+        "DCIS is not defined by forming a mass.",
+        "DCIS is noninvasive with intact basement membranes, and invasive carcinoma distorts surrounding tissue.",
+        "Radiating distortion indicates stromal invasion rather than DCIS.",
+        "Calcifications alone do not prove invasion."
       ],
-      "correct_index": 3,
-      "explanation": "The left example highlights clustered calcifications. The right image shows a conspicuous irregular central density with radiating distortion in addition to bright foci. The conspicuous radiating lines are in the right panel.",
+      "correct_index": 1,
+      "explanation": "Step 1. Clustered calcifications without a mass fit DCIS, and an irregular density with radiating distortion fits invasive carcinoma. Step 2. The histologic difference is that DCIS has intact ductal basement membranes, whereas invasive ductal carcinoma crosses them into the stroma, and about one in five new breast cancers are DCIS.",
       "visual_clues": [
         "Compare the small bright foci in A with the lines extending from the center in B."
       ],
@@ -17937,31 +17943,33 @@
         }
       ],
       "condition_name": "Ductal carcinoma in situ",
-      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive."
+      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
+      "case_context": "Two women have mammograms. Patient 1 has a cluster of tiny bright foci with no mass. Patient 2 has an irregular central density with lines radiating into surrounding tissue. One has ductal carcinoma in situ and one has invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-breast-fluid-or-solid",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Simple cyst versus solid breast lesion",
+      "tested_concept": "Which diagnoses fit the two women, and what mechanism produces the sister's lesion?",
       "visual_target": "Compare the internal echoes and the tissue immediately deep to each lesion. Which paired description fits?",
       "question_type": "Visual interpretation",
-      "stem": "Compare the internal echoes and the tissue immediately deep to each lesion. Which paired description fits?",
+      "stem": "Which diagnoses fit the two women, and what mechanism produces the sister's lesion?",
       "options": [
-        "A has low-level internal echoes; B is anechoic with posterior enhancement.",
-        "A is anechoic with posterior enhancement; B has low-level internal echoes.",
-        "A has low-level internal echoes; B is anechoic with posterior shadowing.",
-        "A has low-level internal echoes; B has an echogenic mural nodule."
+        "Fibroadenoma in the young woman and a simple cyst in the sister, which forms when more fluid is produced than is reabsorbed",
+        "A simple cyst in the young woman and fibroadenoma in the sister, which forms from stromal proliferation",
+        "A simple cyst in both, which forms from stromal proliferation",
+        "Fibroadenoma in both, which forms from excess fluid"
       ],
       "choice_rationales": [
-        "A contains low-level echoes. In B the lumen is dark and the tissue immediately behind it is brighter. This choice describes a complex solid-cystic lesion and a simple cyst, which is what the image shows.",
-        "The anechoic lumen and enhanced posterior transmission are in B. A retains visible internal echoes. This choice describes a simple cyst and a complex lesion.",
-        "Posterior shadowing would darken the tissue behind B. Instead there is a bright band deep to its anechoic lumen. This choice describes a solid lesion with shadowing.",
-        "A mural nodule would be an echogenic protrusion inside the lumen of B. The lumen is uniformly dark. This choice describes an intracystic papilloma."
+        "Fibroadenoma has internal echoes, and a cyst is anechoic from excess fluid.",
+        "The roles are reversed in this option, since the mobile solid mass is the fibroadenoma.",
+        "A simple cyst is fluid-filled and is not made of proliferating stroma.",
+        "Fibroadenoma comes from stroma and epithelium, not from excess fluid."
       ],
       "correct_index": 0,
-      "explanation": "The simple cyst in B looks dark inside and bright deep to the lesion because it transmits sound well. A fibroadenoma may also have smooth margins, as in A, so the internal echoes and posterior pattern are more useful than shape alone.",
+      "explanation": "Step 1. A highly mobile firm nontender mass with internal echoes is a fibroadenoma, and an anechoic lesion with posterior enhancement is a simple cyst. Step 2. Fibroadenomas arise from stromal and epithelial components of the lobule, whereas cysts develop when more fluid is produced than reabsorbed, a process driven by hormones.",
       "visual_clues": [
         "Compare the echo pattern inside each lesion and the brightness immediately behind B."
       ],
@@ -17990,31 +17998,33 @@
         }
       ],
       "condition_name": "Fibroadenoma",
-      "condition_overview": "Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision."
+      "condition_overview": "Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision.",
+      "case_context": "A 24-year-old woman has a highly mobile, firm, nontender breast mass. Ultrasound shows a smooth lesion with low-level internal echoes. Her sister, age 38, has a smooth lesion that is dark inside with brighter tissue behind it.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-ovarian-stromal-pattern",
       "collection": "R31",
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "category": "Histology",
-      "tested_concept": "Ovarian cortex versus medulla",
+      "tested_concept": "In which part of the ovary does the radiologist look, and what is found in the central part?",
       "visual_target": "Ovarian cortex versus medulla",
       "question_type": "Visual interpretation",
-      "stem": "Where would follicle maturation be assessed in this section?",
+      "stem": "In which part of the ovary does the radiologist look, and what is found in the central part?",
       "options": [
-        "At the central hilum.",
-        "In the cortex beneath the outer surface.",
-        "Only in the vascular medulla.",
-        "In the adjacent uterine wall."
+        "The hilum only, since follicles enter with vessels",
+        "The peripheral cortex, since the medulla contains vascular and stromal structures",
+        "The surface mesothelium only, since follicles are on the surface",
+        "The central medulla, since the cortex is only vascular"
       ],
       "choice_rationales": [
-        "The peripheral follicles are outside the hilar region. This choice describes the ovarian hilum.",
-        "The section shows multiple follicles in the peripheral cortex. The more central medulla supports vascular and stromal structures. This choice describes the ovarian cortex, which is what the image shows.",
-        "The visible follicles are concentrated around the periphery. This choice describes the ovarian medulla.",
-        "The image shows an ovary, with follicles in its outer region. This choice describes the uterine wall."
+        "Vessels enter at the hilum, which is not where follicles are located.",
+        "Follicles lie in the cortex, and the medulla is vascular and stromal.",
+        "The surface mesothelium covers the ovary but does not contain follicles.",
+        "The medulla does not contain the follicles, so counting there would miss them."
       ],
       "correct_index": 1,
-      "explanation": "The section shows multiple follicles in the peripheral cortex. The more central medulla supports vascular and stromal structures. The image shows an ovary, with follicles in its outer region.",
+      "explanation": "Step 1. Multiple follicles are located in the outer cortex of the ovary. Step 2. The medulla is the more central region that supports vascular and stromal structures, so follicle counts are assessed in the cortex.",
       "visual_clues": [
         "Look for round follicles of different sizes near the perimeter."
       ],
@@ -18037,31 +18047,33 @@
           "document": "R31 Pathology of the GU System Radiology RLS.pdf",
           "page": 17
         }
-      ]
+      ],
+      "case_context": "A 25-year-old woman has a pelvic ultrasound to assess ovarian reserve before fertility treatment. The radiologist wants to count the developing follicles.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-ovarian-composition",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Mixed fluid and soft tissue in an ovarian tumor",
+      "tested_concept": "Which statement about this tumor group is correct?",
       "visual_target": "Mixed fluid and soft tissue in an ovarian tumor",
       "question_type": "Visual interpretation",
-      "stem": "Which interpretation fits the lesion across both modalities?",
+      "stem": "Which statement about this tumor group is correct?",
       "options": [
-        "The lesion is uniformly solid in both views.",
-        "The lesion is a simple fluid collection without internal structure.",
-        "The lesion contains both fluid spaces and soft tissue.",
-        "The lesion is composed predominantly of gas."
+        "Mucinous tumors are the most common epithelial type and are found in people over 50",
+        "Serous tumors account for about 75 percent of epithelial ovarian cancers and high-grade tumors are most often found in people over 50",
+        "Epithelial tumors are always solid with no cystic component",
+        "Epithelial tumors are usually found before age 20"
       ],
       "choice_rationales": [
-        "Large low-echo and low-attenuation regions are present. This choice describes a solid mass.",
-        "The left and right panels show complex internal components. This choice describes a simple cyst.",
-        "The ultrasound and CT provide complementary views of a complex, predominantly cystic epithelial teaching example with soft-tissue elements. Internal material makes a simple cyst interpretation inadequate. This choice describes a complex cystic and solid mass, which is what the image shows.",
-        "The visible components are fluid and soft tissue, with no dominant gas pattern. This choice describes a gas collection."
+        "Mucinous tumors are more often found in people under 40.",
+        "Serous tumors are 75 percent of epithelial cancers and high-grade tumors occur over age 50.",
+        "Epithelial tumors are predominantly cystic.",
+        "The lecture links epithelial tumors with older age, not with before age 20."
       ],
-      "correct_index": 2,
-      "explanation": "The ultrasound and CT provide complementary views of a complex, predominantly cystic epithelial teaching example with soft-tissue elements. Internal material makes a simple cyst interpretation inadequate. The left and right panels show complex internal components.",
+      "correct_index": 1,
+      "explanation": "Step 1. A complex cystic and solid adnexal mass in an older woman with high-grade serous carcinoma is an epithelial ovarian tumor. Step 2. Epithelial tumors are predominantly cystic and may be benign (cystadenoma) or malignant (cystadenocarcinoma), serous tumors are 75 percent of epithelial cancers, and mucinous tumors are more often found under age 40.",
       "visual_clues": [
         "Compare the dark regions with the denser internal material."
       ],
@@ -18090,31 +18102,33 @@
         }
       ],
       "condition_name": "Ovarian cancer (epithelial)",
-      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy."
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "case_context": "A 56-year-old woman has abdominal bloating. Ultrasound and CT show an adnexal mass with fluid spaces and soft tissue components. Pathology is a high-grade serous carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-omental-spread",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Omental disease in ovarian epithelial cancer",
+      "tested_concept": "What does the omental finding indicate, and what is it called?",
       "visual_target": "Omental disease in ovarian epithelial cancer",
       "question_type": "Visual interpretation",
-      "stem": "A complex ovarian mass has been found. Which additional process is suggested by the arrowed anterior abdominal finding?",
+      "stem": "What does the omental finding indicate, and what is it called?",
       "options": [
-        "A second lesion confined to a renal collecting system.",
-        "Isolated dilation of the urinary bladder.",
-        "Fluid confined within the primary adnexal lesion.",
-        "Peritoneal spread to the omentum."
+        "A fibroma with ascites and pleural effusion, called Meigs syndrome",
+        "A benign teratoma component, called a dermoid",
+        "Peritoneal spread of ovarian cancer to the omentum, called an omental cake",
+        "Metastasis by lymphatics from stomach cancer, called Krukenberg tumor"
       ],
       "choice_rationales": [
-        "A renal collecting-system lesion would be within the kidney. The anterior soft tissue marked on this study is omental disease from ovarian epithelial cancer in the lecture example. This choice describes a renal lesion.",
-        "Bladder dilation would enlarge the pelvic urinary bladder. The arrows mark anterior omental soft tissue, consistent with peritoneal spread of ovarian epithelial cancer. This choice describes bladder dilation.",
-        "Fluid in the primary adnexal lesion would be confined to the pelvis. The arrows identify a separate anterior omental abnormality illustrating peritoneal spread. This choice describes a contained adnexal fluid collection.",
-        "The anterior sheet of abnormal omental soft tissue is omental caking. The lecture uses it to illustrate peritoneal spread of ovarian epithelial cancer. This choice describes omental metastasis (peritoneal carcinomatosis), which is what the image shows."
+        "Meigs syndrome is associated with fibroma, a solid sex cord stromal tumor.",
+        "A dermoid is a mature teratoma with ectoderm, mesoderm, and endoderm tissues.",
+        "The omentum is a preferred metastatic site, and the mass is an omental cake.",
+        "Krukenberg tumors are solid ovarian metastases with signet-ring cells and are not an omental sheet."
       ],
-      "correct_index": 3,
-      "explanation": "The anterior sheet of abnormal omental soft tissue is omental caking. The lecture uses it to illustrate peritoneal spread of ovarian epithelial cancer. Fluid in the primary adnexal lesion would be confined to the pelvis. The arrows identify a separate anterior omental abnormality illustrating peritoneal spread.",
+      "correct_index": 2,
+      "explanation": "Step 1. A sheet of soft tissue replacing the anterior omentum in a woman with a complex ovarian mass is omental caking. Step 2. The omentum is one of the most preferred metastatic sites of epithelial ovarian cancer, so the finding indicates peritoneal spread and advanced disease.",
       "visual_clues": [
         "The arrows follow a broad layer of abnormal tissue along the anterior abdomen."
       ],
@@ -18146,31 +18160,33 @@
         }
       ],
       "condition_name": "Ovarian cancer (epithelial)",
-      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy."
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "case_context": "A 61-year-old woman with a complex adnexal mass has CT showing a thick sheet of soft tissue along the anterior abdomen replacing the omentum, along with ascites.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-gastric-ovarian-link",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Histology",
-      "tested_concept": "Gastric primary in ovarian metastasis",
+      "tested_concept": "Where should the search for the primary tumor begin, and how do these tumors typically spread to the ovary?",
       "visual_target": "Gastric primary in ovarian metastasis",
       "question_type": "Visual interpretation",
-      "stem": "A solid ovarian mass is imaged in A and sampled in B. Which primary site should be considered first given the cellular pattern?",
+      "stem": "Where should the search for the primary tumor begin, and how do these tumors typically spread to the ovary?",
       "options": [
-        "Stomach.",
-        "Endometrium.",
-        "Lung.",
-        "Cervix."
+        "The stomach, and through the lymphatics",
+        "The uterus, and through the lymphatics",
+        "The lung, and through the lymphatics",
+        "The ovarian surface, and by direct implantation"
       ],
       "choice_rationales": [
-        "The bilateral solid ovarian masses illustrate Krukenberg tumor. The stomach is the most common primary site discussed for this signet-ring metastasis. This choice describes gastric adenocarcinoma metastasis (Krukenberg tumor), which is what the image shows.",
-        "An endometrial primary does not match the lecture’s Krukenberg tumor example. The ovarian signet-ring morphology and bilateral masses prompt evaluation for a gastric primary. This choice describes endometrial carcinoma.",
-        "A lung primary is not the expected association in this example. The lecture pairs the ovarian signet-ring metastasis with a gastric primary. This choice describes lung carcinoma.",
-        "A cervical primary is not the expected association for the illustrated Krukenberg tumor. The lecture links the bilateral ovarian masses and signet-ring cells to the stomach. This choice describes cervical carcinoma."
+        "The stomach is the most common primary, and spread is lymphatic.",
+        "The uterus is not the typical primary named for signet-ring metastasis in the lecture.",
+        "The lecture does not name lung as the common primary.",
+        "Krukenberg tumors are metastatic and do not start on the ovarian surface."
       ],
       "correct_index": 0,
-      "explanation": "The bilateral solid ovarian masses illustrate Krukenberg tumor. The stomach is the most common primary site discussed for this signet-ring metastasis. A lung primary is not the expected association in this example. The lecture pairs the ovarian signet-ring metastasis with a gastric primary.",
+      "explanation": "Step 1. Bilateral solid ovarian masses made of mucin-rich signet-ring cells are Krukenberg tumors. Step 2. The most common primary site is the stomach, and the tumors most likely spread to the ovary through the lymphatics.",
       "visual_clues": [
         "A shows the solid ovarian mass. In B, pale material displaces many nuclei toward the cell edges."
       ],
@@ -18195,31 +18211,33 @@
         }
       ],
       "condition_name": "Krukenberg tumor",
-      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary."
+      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
+      "case_context": "A 44-year-old woman has bilateral solid ovarian masses. Biopsy shows mucin-rich cells with nuclei pushed to the edge of the cell. She has had weight loss and epigastric discomfort.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-teratoma-components",
       "collection": "R31",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "CT",
-      "tested_concept": "Differentiated tissue in a cystic ovarian mass",
+      "tested_concept": "Which statement about this tumor is correct, and which late complication is most associated with it?",
       "visual_target": "Differentiated tissue in a cystic ovarian mass",
       "question_type": "Visual interpretation",
-      "stem": "Which process explains the combination of varied material within the cyst on CT and its gross appearance?",
+      "stem": "Which statement about this tumor is correct, and which late complication is most associated with it?",
       "options": [
-        "Expansion of one population of ovarian stromal spindle cells.",
-        "Differentiation of germ cells into mature somatic tissues.",
-        "Accumulation of simple follicular fluid.",
-        "Uniform thickening of surface epithelium without other tissue types."
+        "It is a mucinous cystadenoma, which has hair and teeth",
+        "It is an immature teratoma, which is the most common type and is usually cystic",
+        "It is a mature teratoma derived from all three germ layers, with rare malignant transformation most often to squamous cell carcinoma",
+        "It is a Krukenberg tumor, which has hair and teeth"
       ],
       "choice_rationales": [
-        "A stromal spindle-cell tumor would not produce the hair and other differentiated material seen in the opened ovarian mass. These mixed tissues support mature teratoma. This choice describes a stromal spindle cell tumor.",
-        "In a mature teratoma, germ cells differentiate into mature somatic tissues. Hair on the cut surface and components of different densities on CT demonstrate the resulting tissue mixture. This choice describes a mature cystic teratoma (germ cell differentiation), which is what the image shows.",
-        "Simple follicular fluid does not account for the hair and other nonfluid material in this mature teratoma. This choice describes a follicular cyst.",
-        "Uniform surface epithelial thickening would not explain an ovarian mass with hair and multiple differentiated components. That tissue mixture supports a mature teratoma. This choice describes a surface epithelial tumor."
+        "Mucinous tumors have fluid and soft tissue components and do not contain hair and teeth.",
+        "Immature teratomas are solid and account for only 5 percent.",
+        "Mature teratomas contain tissues from all three germ layers and rarely become squamous carcinoma.",
+        "Krukenberg tumors are metastatic and made of signet-ring cells."
       ],
-      "correct_index": 1,
-      "explanation": "In a mature teratoma, germ cells differentiate into mature somatic tissues. Hair on the cut surface and components of different densities on CT demonstrate the resulting tissue mixture. A stromal spindle-cell tumor would not produce the hair and other differentiated material seen in the opened ovarian mass. These mixed tissues support mature teratoma.",
+      "correct_index": 2,
+      "explanation": "Step 1. A cystic ovarian mass with hair, teeth, fat, and calcification is a mature teratoma (dermoid) with ectoderm, mesoderm, and endoderm. Step 2. Mature teratomas are benign and make up 95 percent of teratomas, but 1 to 3 percent undergo malignant transformation, most often squamous cell carcinoma, usually after menopause.",
       "visual_clues": [
         "Compare heterogeneous contents on CT with the gross specimen."
       ],
@@ -18248,31 +18266,33 @@
         }
       ],
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "case_context": "A 23-year-old woman has a pelvic mass found incidentally. CT shows a cystic lesion with fat, calcification, and soft tissue. At surgery the cyst contains hair and teeth.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-seminoma-ultrasound",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Homogeneous solid testicular mass",
+      "tested_concept": "What is the diagnosis, and what is the survival if it is confined to the testis?",
       "visual_target": "Homogeneous solid testicular mass",
       "question_type": "Visual interpretation",
-      "stem": "Which diagnosis best matches the lecture example of this well-circumscribed homogeneous intratesticular mass?",
+      "stem": "What is the diagnosis, and what is the survival if it is confined to the testis?",
       "options": [
-        "Hydrocele.",
-        "Inguinal hernia.",
-        "Seminoma.",
-        "Varicocele."
+        "Seminoma, with survival of 70 percent when confined to the testicle",
+        "Yolk sac tumor, with survival of 99 percent in adults",
+        "Teratoma, with survival below 50 percent",
+        "Seminoma, with about 99 percent survival when confined to the testicle"
       ],
       "choice_rationales": [
-        "A hydrocele is fluid around a testis. This lesion is a solid hypoechoic mass within the testicular parenchyma, the pattern used to illustrate seminoma. This choice describes a hydrocele.",
-        "A scrotal inguinal hernia would bring abdominal contents alongside the testis. The circumscribed solid mass is intratesticular, as in the seminoma example. This choice describes an inguinal hernia.",
-        "Seminoma is the lecture example of a circumscribed, relatively homogeneous hypoechoic solid mass within the testis. This choice describes a seminoma, which is what the image shows.",
-        "A varicocele consists of dilated veins outside the testis. This study shows a single solid mass inside the testis, consistent with the seminoma example. This choice describes a varicocele."
+        "The 70 percent figure applies to distant metastases, not to disease confined to the testis.",
+        "Yolk sac tumor is the most common testicular malignancy in males under 3 years.",
+        "Teratoma is not described here as having survival below 50 percent.",
+        "Seminoma confined to the testis has about 99 percent survival."
       ],
-      "correct_index": 2,
-      "explanation": "Seminoma is the lecture example of a circumscribed, relatively homogeneous hypoechoic solid mass within the testis. A scrotal inguinal hernia would bring abdominal contents alongside the testis. The circumscribed solid mass is intratesticular, as in the seminoma example.",
+      "correct_index": 3,
+      "explanation": "Step 1. A well-defined homogeneous hypoechoic ovoid intratesticular mass in a young man is a seminoma, the most common cancer in males aged 15 to 35. Step 2. Survival is 99 percent when confined to the testicle, 96 percent with nodal spread, and over 70 percent with distant metastases.",
       "visual_clues": [
         "The arrow points to a dark solid lesion inside the testicular outline."
       ],
@@ -18301,31 +18321,33 @@
         }
       ],
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "case_context": "A 27-year-old man has a painless testicular swelling. Ultrasound shows a well-defined, ovoid, homogeneous hypoechoic mass within the testis. Tumor markers are mildly elevated.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-fibroid-location",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Fibroid location across MRI examples",
+      "tested_concept": "Which location is most likely to cause her abnormal bleeding, and what are the three names in order described?",
       "visual_target": "Fibroid location across MRI examples",
       "question_type": "Visual interpretation",
-      "stem": "Which sequence describes the principal relationship of the masses to the uterine wall and cavity?",
+      "stem": "Which location is most likely to cause her abnormal bleeding, and what are the three names in order described?",
       "options": [
-        "A projects into the cavity. B projects outward. C lies in the wall.",
-        "A projects outward. B lies in the wall. C projects into the cavity.",
-        "A, B, and C all project inward into the cavity.",
-        "A lies in the wall. B projects into the cavity. C projects outward."
+        "The subserosal fibroid outside the uterus, with the three being intramural, submucosal, and subserosal",
+        "The intramural fibroid, with the three being subserosal, submucosal, and intramural",
+        "None of them, since leiomyomas never cause bleeding",
+        "The submucosal fibroid abutting the cavity, with the three being intramural, submucosal, and subserosal"
       ],
       "choice_rationales": [
-        "The lesion outlined by bright cavity contents is in B, and the outward bulge is in C. This choice describes an arrangement with the intramural and submucosal fibroid positions reversed.",
-        "B is the cavity projection. C is the external projection. This choice describes an arrangement with the subserosal and submucosal fibroid positions reversed.",
-        "The dominant lesions vary in their relationship to the cavity and outer contour. This choice describes three submucosal leiomyomas.",
-        "The lecture compares intramural, submucosal, and subserosal locations in this order. Use the cavity and outer uterine outline as landmarks. This choice describes an intramural (A), submucosal (B), and subserosal (C) leiomyoma, which is what the image shows."
+        "The subserosal fibroid bulges outside the uterus and is farther from the cavity.",
+        "The order given in this option does not match the positions described.",
+        "Abnormal uterine bleeding is a common symptom of leiomyomas.",
+        "The submucosal fibroid is in contact with the endometrium and the order is intramural, submucosal, subserosal."
       ],
       "correct_index": 3,
-      "explanation": "The lecture compares intramural, submucosal, and subserosal locations in this order. Use the cavity and outer uterine outline as landmarks. The lesion outlined by bright cavity contents is in B, and the outward bulge is in C.",
+      "explanation": "Step 1. A mass in the wall is intramural, one projecting into the cavity is submucosal, and one bulging outward is subserosal. Step 2. Leiomyomas are the most common benign uterine tumor and commonly cause abnormal uterine bleeding and pelvic pain, and the submucosal location is the one adjacent to the cavity.",
       "visual_clues": [
         "Compare each mass with the bright cavity and the external uterine contour."
       ],
@@ -18354,31 +18376,33 @@
         }
       ],
       "condition_name": "Uterine leiomyoma",
-      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare."
+      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare.",
+      "case_context": "A 45-year-old woman has heavy menstrual bleeding and pelvic pain. Imaging shows three leiomyomas. One lies within the myometrium, one bulges into the endometrial cavity, and one bulges outside the uterus.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-fibroid-vascularity",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Vascularity within a submucosal lesion",
+      "tested_concept": "Which diagnoses fit the first and second patients, and what tumor type is the first?",
       "visual_target": "Vascularity within a submucosal lesion",
       "question_type": "Visual interpretation",
-      "stem": "Which interpretation is supported by the color distribution in this saline study?",
+      "stem": "Which diagnoses fit the first and second patients, and what tumor type is the first?",
       "options": [
-        "Vascularity distributed through the lesion supports the submucosal fibroid example.",
-        "A single entering vessel is the only color signal and supports a polyp.",
-        "The absence of color supports an avascular intracavitary clot.",
-        "Color is confined to adjacent uterine tissue with a completely avascular mass."
+        "Submucosal fibroid, a smooth muscle tumor, in the first and an endometrial polyp in the second",
+        "Endometrial polyp in the first and submucosal fibroid in the second",
+        "Cervical carcinoma in both",
+        "Endometrial cancer in the first and hyperplasia in the second"
       ],
       "choice_rationales": [
-        "Color is distributed through the submucosal fibroid in this example. The paired endometrial polyp shows a focal feeding vessel. This choice describes a submucosal fibroid with distributed vascularity, which is what the image shows.",
-        "A single entering vessel supports an endometrial polyp in the paired example. Color is distributed throughout the submucosal fibroid shown here. This choice describes an endometrial polyp with a feeding vessel.",
-        "An avascular clot would lack internal Doppler signal. Multiple color signals pass through the submucosal fibroid here. This choice describes an intracavitary clot.",
-        "Signals confined to adjacent uterine tissue would leave the mass avascular. Here the submucosal fibroid itself contains multiple Doppler signals. This choice describes a nonvascular mass."
+        "Distributed color flow fits a submucosal fibroid, and a single vessel fits a polyp.",
+        "The pattern is reversed in this option.",
+        "Cervical carcinoma is a cervical squamous cancer related to HPV.",
+        "Endometrial cancer and hyperplasia are discussed for thickening, not these Doppler patterns."
       ],
       "correct_index": 0,
-      "explanation": "Color is distributed through the submucosal fibroid in this example. The paired endometrial polyp shows a focal feeding vessel. A single entering vessel supports an endometrial polyp in the paired example. Color is distributed throughout the submucosal fibroid shown here.",
+      "explanation": "Step 1. Vascularity spread through a cavitary mass fits a submucosal leiomyoma, whereas a single feeding vessel fits an endometrial polyp. Step 2. Leiomyomas originate from uterine smooth muscle cells and are the most common benign uterine tumor.",
       "visual_clues": [
         "Look across the lesion rather than following just one isolated vessel."
       ],
@@ -18411,31 +18435,33 @@
         }
       ],
       "condition_name": "Uterine leiomyoma",
-      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare."
+      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare.",
+      "case_context": "A 49-year-old woman has bleeding and a saline infusion sonogram showing a mass in the cavity. Color Doppler shows blood flow distributed throughout the lesion. In a second patient with a similar mass, color Doppler shows a single feeding vessel.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-thickening-specificity",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Limit of endometrial morphology alone",
+      "tested_concept": "Why can ultrasound alone not decide whether the thickening is benign or malignant?",
       "visual_target": "Limit of endometrial morphology alone",
       "question_type": "Visual interpretation",
-      "stem": "These are two different patients with postmenopausal bleeding. What shared limitation matters when interpreting the images?",
+      "stem": "Why can ultrasound alone not decide whether the thickening is benign or malignant?",
       "options": [
-        "Any thickening identifies the same malignancy in both patients.",
-        "Endometrial thickening has overlapping causes and does not identify the histologic diagnosis.",
-        "Visible thickening rules out an endometrial cause of bleeding.",
-        "Both images establish that a single stalk supplies the lesion."
+        "Hyperplasia never thickens the endometrium",
+        "Thickening excludes an endometrial source of bleeding",
+        "Both endometrial hyperplasia and endometrial cancer thicken the endometrium, so the finding does not identify the histologic diagnosis",
+        "Cancer never thickens the endometrium"
       ],
       "choice_rationales": [
-        "Endometrial cancer can cause a thickened endometrium, but endometrial hyperplasia has the same finding in the comparison. Thickness alone cannot distinguish the two. This choice describes the same cancer in both.",
-        "Both endometrial hyperplasia and endometrial cancer can thicken the endometrium. The shared ultrasound finding cannot establish the histologic diagnosis. This choice describes overlapping causes of endometrial thickening (polyp, hyperplasia, carcinoma), which is what the image shows.",
-        "Endometrial thickening does not exclude an endometrial source of bleeding. The two lecture examples show thickening with endometrial hyperplasia and with endometrial cancer. This choice describes a thickening ruling out disease.",
-        "A solitary feeding stalk supports the endometrial polyp in a separate Doppler example. These two images illustrate overlapping endometrial thickening in hyperplasia and cancer. This choice describes a single stalk."
+        "Hyperplasia does thicken the endometrium.",
+        "Thickening points toward an endometrial source and does not exclude it.",
+        "Both conditions thicken the endometrium, so imaging alone is nonspecific.",
+        "Endometrial cancer commonly thickens the endometrium."
       ],
-      "correct_index": 1,
-      "explanation": "Both endometrial hyperplasia and endometrial cancer can thicken the endometrium. The shared ultrasound finding cannot establish the histologic diagnosis. Endometrial thickening does not exclude an endometrial source of bleeding. The two lecture examples show thickening with endometrial hyperplasia and with endometrial cancer.",
+      "correct_index": 2,
+      "explanation": "Step 1. Postmenopausal bleeding with endometrial thickening can be due to hyperplasia or cancer. Step 2. Because both thicken the endometrium and look alike on ultrasound, tissue sampling is needed to establish the histologic diagnosis.",
       "visual_clues": [
         "Focus on how similar the thickened region can look in different diagnoses."
       ],
@@ -18460,31 +18486,33 @@
         }
       ],
       "condition_name": "Atypical endometrial hyperplasia",
-      "condition_overview": "Atypical endometrial hyperplasia (endometrioid intraepithelial neoplasia) is the precursor of endometrioid endometrial carcinoma. It results from unopposed estrogen from obesity, anovulation, or estrogen therapy. Crowded glands with little intervening stroma are lined by cells with rounded, enlarged nuclei, loss of polarity, and nuclear stratification, which differ from the surrounding glands. A substantial fraction coexist with carcinoma, so treatment is progestin therapy or hysterectomy, based on the patient's wishes."
+      "condition_overview": "Atypical endometrial hyperplasia (endometrioid intraepithelial neoplasia) is the precursor of endometrioid endometrial carcinoma. It results from unopposed estrogen from obesity, anovulation, or estrogen therapy. Crowded glands with little intervening stroma are lined by cells with rounded, enlarged nuclei, loss of polarity, and nuclear stratification, which differ from the surrounding glands. A substantial fraction coexist with carcinoma, so treatment is progestin therapy or hysterectomy, based on the patient's wishes.",
+      "case_context": "A 63-year-old woman has postmenopausal bleeding. Ultrasound shows a thickened endometrium. Another woman of the same age with similar bleeding also has a thickened endometrium on ultrasound.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-cervical-extension",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Upstream urinary tract consequences of pelvic disease",
+      "tested_concept": "What does the renal finding most likely indicate for the cervical cancer?",
       "visual_target": "Upstream urinary tract consequences of pelvic disease",
       "question_type": "Visual interpretation",
-      "stem": "In the lecture’s cervical cancer staging examples, what complication should the renal study raise?",
+      "stem": "What does the renal finding most likely indicate for the cervical cancer?",
       "options": [
-        "A primary bladder lesion causing an intravesical stone.",
-        "Isolated disease of the renal cortex with an undilated collecting system.",
-        "Urinary outflow obstruction affecting the ureter and collecting system.",
-        "A uterine cavity lesion confined to the endometrium."
+        "Local extension causing ureteric obstruction, which affects staging and treatment",
+        "A benign finding unrelated to her cancer",
+        "An adrenal metastasis",
+        "Spread to the omentum"
       ],
       "choice_rationales": [
-        "The renal image shows upstream dilation rather than a bladder stone. This choice describes bladder stones.",
-        "The visible finding is dilation of the collecting system. This choice describes renal cortical disease.",
-        "The renal study shows dilation of the collecting system and ureter. In the lecture it accompanies the cervical cancer staging examples and raises concern for ureteric obstruction. The renal image alone does not prove the level or cause. This choice describes obstructive uropathy (hydronephrosis) from cervical cancer, which is what the image shows.",
-        "The accompanying renal finding involves the urinary tract. This choice describes an endometrial lesion."
+        "Hydroureter and a dilated renal pelvis raise concern for ureteric obstruction by tumor.",
+        "The finding is a sign of obstruction in this setting and is not benign.",
+        "An adrenal metastasis would not explain a dilated ureter.",
+        "Omental spread is a feature of ovarian epithelial cancer."
       ],
-      "correct_index": 2,
-      "explanation": "The renal study shows dilation of the collecting system and ureter. In the lecture it accompanies the cervical cancer staging examples and raises concern for ureteric obstruction. The renal image alone does not prove the level or cause. The visible finding is dilation of the collecting system.",
+      "correct_index": 0,
+      "explanation": "Step 1. HPV plays a role in most cervical cancers, and squamous cell carcinoma is the common type. Step 2. A dilated ureter and collecting system raises concern for obstruction by locally advanced tumor, and imaging is critical for staging, which determines treatment.",
       "visual_clues": [
         "On the renal image, look at the branching central dark space and the adjacent tubular dilation."
       ],
@@ -18509,31 +18537,33 @@
         }
       ],
       "condition_name": "Cervical squamous cell carcinoma",
-      "condition_overview": "Cervical squamous cell carcinoma is the most common cervical cancer and arises from persistently infected high-risk HPV lesions at the transformation zone through HSIL. Nests of malignant squamous cells with keratin pearls and intercellular bridges invade the cervical stroma. It presents with postcoital or abnormal bleeding, or may be found by screening. Staging uses tumor size, parametrial, pelvic wall, and nodal spread. Advanced disease can obstruct the ureters and cause hydronephrosis and renal failure, which is a major cause of death. Treatment is surgery for early disease and chemoradiation with brachytherapy for advanced disease."
+      "condition_overview": "Cervical squamous cell carcinoma is the most common cervical cancer and arises from persistently infected high-risk HPV lesions at the transformation zone through HSIL. Nests of malignant squamous cells with keratin pearls and intercellular bridges invade the cervical stroma. It presents with postcoital or abnormal bleeding, or may be found by screening. Staging uses tumor size, parametrial, pelvic wall, and nodal spread. Advanced disease can obstruct the ureters and cause hydronephrosis and renal failure, which is a major cause of death. Treatment is surgery for early disease and chemoradiation with brachytherapy for advanced disease.",
+      "case_context": "A 41-year-old woman with HPV-related squamous cell carcinoma of the cervix has flank pain. Imaging shows a dilated ureter and dilated renal pelvis on the right.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-prostate-zone",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Peripheral lesion versus periurethral hyperplasia",
+      "tested_concept": "Which zone is likely involved in each man, and why does the first man lack obstruction?",
       "visual_target": "Peripheral lesion versus periurethral hyperplasia",
       "question_type": "Visual interpretation",
-      "stem": "How does the location of the arrowed lesion compare with the zone usually enlarged in benign prostatic hyperplasia?",
+      "stem": "Which zone is likely involved in each man, and why does the first man lack obstruction?",
       "options": [
-        "The lesion is periurethral. Benign hyperplasia usually enlarges the peripheral zone.",
-        "The lesion is in the central zone. Benign hyperplasia usually enlarges the anterior stroma.",
-        "The lesion and usual benign hyperplasia both arise in the anterior stroma.",
-        "The lesion is peripheral. Benign hyperplasia usually enlarges the periurethral transition zone."
+        "Central zone in both, since it surrounds the urethra",
+        "Peripheral zone in the first man and transition zone in the second, since the peripheral zone is away from the urethra",
+        "Anterior fibromuscular stroma in both, since it contains most glands",
+        "Transition zone in the first man and peripheral zone in the second, since the transition zone surrounds the urethra"
       ],
       "choice_rationales": [
-        "The highlighted prostate lesion lies in the peripheral zone, away from the urethra. Benign prostatic hyperplasia typically enlarges the periurethral transition zone. This choice describes periurethral prostate carcinoma.",
-        "The arrow points to a peripheral prostate lesion. Benign prostatic hyperplasia usually enlarges the transition zone, which surrounds the proximal urethra. This choice describes central zone disease.",
-        "The arrowed lesion is peripheral and benign prostatic hyperplasia typically arises in the periurethral transition zone. Anterior stroma is not the location for either finding in this comparison. This choice describes anterior fibromuscular stroma.",
-        "The arrow points to a peripheral lesion in the R31 example. The transition zone surrounds the proximal urethra and is the typical origin of benign prostatic hyperplasia. This choice describes peripheral zone prostate carcinoma (versus transition zone BPH), which is what the image shows."
+        "The central zone surrounds the ejaculatory ducts, with less than 5 percent of cancers.",
+        "Cancers arise mostly in the peripheral zone, and BPH arises in the transition zone around the urethra.",
+        "The anterior fibromuscular stroma is not the main glandular zone.",
+        "The zones are reversed in this option."
       ],
-      "correct_index": 3,
-      "explanation": "The arrow points to a peripheral lesion in the R31 example. The transition zone surrounds the proximal urethra and is the typical origin of benign prostatic hyperplasia. The highlighted prostate lesion lies in the peripheral zone, away from the urethra. Benign prostatic hyperplasia typically enlarges the periurethral transition zone.",
+      "correct_index": 1,
+      "explanation": "Step 1. An outer mass fits peripheral zone adenocarcinoma, which holds 70 to 80 percent of prostate cancers, and periurethral enlargement fits transition zone BPH. Step 2. The transition zone surrounds the urethra and causes obstruction in BPH, while the peripheral zone lies away from the urethra.",
       "visual_clues": [
         "Identify the gland edge by the arrow, then compare with the central urethral region."
       ],
@@ -18566,31 +18596,33 @@
         }
       ],
       "condition_name": "Prostatic adenocarcinoma, peripheral zone",
-      "condition_overview": "Most prostate cancers arise in the peripheral zone, which is the portion palpated on digital rectal examination as a hard nodule, and early disease is usually asymptomatic. BPH, in contrast, arises in the central and transition zone and causes obstructive urinary symptoms. Diagnosis is by core needle biopsy showing small crowded glands with prominent nucleoli and no basal cell layer."
+      "condition_overview": "Most prostate cancers arise in the peripheral zone, which is the portion palpated on digital rectal examination as a hard nodule, and early disease is usually asymptomatic. BPH, in contrast, arises in the central and transition zone and causes obstructive urinary symptoms. Diagnosis is by core needle biopsy showing small crowded glands with prominent nucleoli and no basal cell layer.",
+      "case_context": "A 66-year-old man has an elevated PSA and no urinary obstruction. MRI shows a mass in the outer part of the gland, away from the urethra. His friend, age 72, has an enlarged prostate around the urethra with weak stream.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-urethral-injury",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Radiograph",
-      "tested_concept": "Stricture versus contrast extravasation",
+      "tested_concept": "Which injury and cause fit each man?",
       "visual_target": "Stricture versus contrast extravasation",
       "question_type": "Visual interpretation",
-      "stem": "Which finding would support urethral injury after a straddle mechanism?",
+      "stem": "Which injury and cause fit each man?",
       "options": [
-        "B shows contrast leaving the expected urethral lumen.",
-        "A shows focal narrowing with contrast still contained.",
-        "A shows contrast collecting outside the urethral lumen.",
-        "Both show the same caliber change without extravasation."
+        "Urethral stricture from trauma in the first, and tear from gonorrhea in the second",
+        "Stricture in both, caused by trauma",
+        "Urethral diverticulum in the first, and tear in the second",
+        "Urethral tear from trauma in the first, and stricture most commonly from gonococcal infection in the second"
       ],
       "choice_rationales": [
-        "Contrast escapes the urethral outline in B, supporting a urethral tear. In A, contrast stays in the lumen despite a focal narrowing consistent with a stricture. This choice describes urethral injury with extravasation (straddle injury), which is what the image shows.",
-        "Contained narrowing in A supports a urethral stricture. The finding indicating a tear is the extravasated contrast in B. This choice describes a urethral stricture.",
-        "In A, contrast stays in the narrowed lumen, as expected for a stricture. The extravasation supporting a tear appears in B. This choice describes extraluminal urethral extravasation in the compared view.",
-        "The two urethrograms differ: A has contained narrowing from a stricture, whereas B shows contrast leaving the lumen at a tear. This choice describes a normal urethra."
+        "The causes are reversed in this option.",
+        "Stricture is not due to trauma in the lecture example.",
+        "A diverticulum is an outpouching next to the urethra, not extravasation after trauma.",
+        "Tears follow trauma with extravasation, and strictures are most commonly from GC infection."
       ],
-      "correct_index": 0,
-      "explanation": "Contrast escapes the urethral outline in B, supporting a urethral tear. In A, contrast stays in the lumen despite a focal narrowing consistent with a stricture. In A, contrast stays in the narrowed lumen, as expected for a stricture. The extravasation supporting a tear appears in B.",
+      "correct_index": 3,
+      "explanation": "Step 1. Contrast escaping the lumen after a straddle injury with meatal blood is a urethral tear, and a narrowing with contrast staying inside is a stricture. Step 2. Strictures are most commonly from gonococcal infection and are treated with antibiotics, balloon dilatation, or surgery, whereas tears are due to trauma and treatment depends on type and location.",
       "visual_clues": [
         "Follow the white contrast column at each arrow."
       ],
@@ -18615,31 +18647,33 @@
         }
       ],
       "condition_name": "Urethral stricture or injury",
-      "condition_overview": "Urethral stricture is narrowing of the urethral lumen from scarring after trauma, infection, or catheter injury. A straddle injury can tear the bulbar urethra, causing perineal hematoma and blood at the meatus. Retrograde urethrography shows narrowing in a stricture and contrast extravasation outside the lumen in a tear, and treatment is dilation, urethrotomy, or surgical repair."
+      "condition_overview": "Urethral stricture is narrowing of the urethral lumen from scarring after trauma, infection, or catheter injury. A straddle injury can tear the bulbar urethra, causing perineal hematoma and blood at the meatus. Retrograde urethrography shows narrowing in a stricture and contrast extravasation outside the lumen in a tear, and treatment is dilation, urethrotomy, or surgical repair.",
+      "case_context": "A 30-year-old man falls astride a bicycle bar and has blood at the urethral meatus. A retrograde urethrogram shows contrast leaving the urethral outline. A different man with a history of gonorrhea has a narrowed urethral segment where contrast stays inside the lumen.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-urethral-pouch",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Periurethral outpouching across modalities",
+      "tested_concept": "What is the diagnosis, and how is it usually treated?",
       "visual_target": "Periurethral outpouching across modalities",
       "question_type": "Visual interpretation",
-      "stem": "In a patient with urinary dribbling and pelvic discomfort, which anatomic finding best accounts for these paired images?",
+      "stem": "What is the diagnosis, and how is it usually treated?",
       "options": [
-        "A narrowed segment confined to the urethral lumen.",
-        "A fluid-containing outpouching adjacent to the urethra.",
-        "A mass within the bladder dome.",
-        "A collection surrounding the renal pelvis."
+        "Urethral diverticulum, treated by resection",
+        "Renal pelvic cyst, treated by observation only",
+        "Urethral stricture, treated by balloon dilatation only",
+        "Urethral tear, treated by antibiotics only"
       ],
       "choice_rationales": [
-        "A urethral stricture narrows the lumen. The arrows identify a separate fluid-containing outpouching next to the urethra, consistent with a urethral diverticulum. This choice describes a urethral stricture.",
-        "A urethral diverticulum is the periurethral fluid-containing outpouching indicated on ultrasound and MRI. This choice describes a urethral diverticulum, which is what the image shows.",
-        "A bladder-dome lesion would be high in the bladder. The arrows instead point below the bladder to a periurethral outpouching, consistent with a urethral diverticulum. This choice describes a bladder dome mass.",
-        "A renal pelvic collection would be at the kidney. These images show a periurethral fluid outpouching in the low pelvis, consistent with a urethral diverticulum. This choice describes a renal pelvic collection."
+        "A diverticulum is an outpouching next to the urethra and is treated by resection.",
+        "A renal pelvic collection would be at the kidney, not next to the urethra.",
+        "Strictures narrow the lumen and do not form a sac.",
+        "Tears are due to trauma and show extravasation."
       ],
-      "correct_index": 1,
-      "explanation": "A urethral diverticulum is the periurethral fluid-containing outpouching indicated on ultrasound and MRI. A renal pelvic collection would be at the kidney. These images show a periurethral fluid outpouching in the low pelvis, consistent with a urethral diverticulum.",
+      "correct_index": 0,
+      "explanation": "Step 1. A periurethral fluid-containing outpouching that causes dribbling, pelvic pain, and infection is a urethral diverticulum. Step 2. A diverticulum is treated by resection, whereas strictures are treated with antibiotics, balloon dilatation, or surgery.",
       "visual_clues": [
         "The paired arrows localize the finding near the urethra below the bladder."
       ],
@@ -18664,7 +18698,9 @@
         }
       ],
       "condition_name": "Urethral diverticulum",
-      "condition_overview": "A urethral diverticulum is a localized outpouching of the urethral wall in women that communicates with the urethral lumen. It can cause dribbling after voiding, dyspareunia, recurrent urinary infection, and a tender anterior vaginal mass. MRI shows a fluid-filled sac adjacent to the urethra, and treatment is surgical excision."
+      "condition_overview": "A urethral diverticulum is a localized outpouching of the urethral wall in women that communicates with the urethral lumen. It can cause dribbling after voiding, dyspareunia, recurrent urinary infection, and a tender anterior vaginal mass. MRI shows a fluid-filled sac adjacent to the urethra, and treatment is surgical excision.",
+      "case_context": "A 47-year-old woman has postvoid dribbling, pelvic pain, and recurrent urinary infection. Ultrasound and MRI show a small fluid-filled sac next to the urethra.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-hydrocele-fetal",
