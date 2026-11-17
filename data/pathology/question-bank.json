@@ -8954,20 +8954,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which feature identifies the scattered tissue profiles in this placental section?",
+      "stem": "Where do maternal blood and fetal blood exchange nutrients in this tissue, and which vessels end in these profiles?",
       "options": [
-        "Separate chorionic villi with stromal cores and trophoblastic rims",
-        "Solid sheets of tumor without any recognizable villous outline",
-        "Concentric keratinized whorls with pink laminated centers",
-        "A single continuous ciliated epithelial surface without villi"
+        "Within the decidua capsularis, where maternal vessels terminate",
+        "Within the fallopian tube, where umbilical vessels terminate",
+        "Within the villi, where umbilical vessels branch and terminate, bathed by maternal blood in the intervillous spaces",
+        "Within the myometrium, where umbilical vessels terminate"
       ],
-      "correct_index": 0,
-      "explanation": "Multiple separate villous profiles have pale central stroma and a thin peripheral cellular layer. The contours enclose cellular stroma rather than concentric pink keratin.",
+      "correct_index": 2,
+      "explanation": "Step 1. Separate villous profiles with stromal cores and a trophoblastic rim around open spaces are normal chorionic villi. Step 2. Umbilical vessels branch and terminate in the villi where nutrient exchange takes place, while maternal vessels from the decidua deliver blood to the intervillous spaces.",
       "choice_rationales": [
-        "Multiple separate villous profiles have pale central stroma and a thin peripheral cellular layer. This choice describes normal chorionic villi (placental tissue), which is what the image shows.",
-        "Separate stromal cores and trophoblastic rims outline several villi. This choice describes a solid tumor.",
-        "The contours enclose cellular stroma rather than concentric pink keratin. This choice describes squamous cell carcinoma.",
-        "Many individual villi are separated by open intervillous spaces. This choice describes ciliated epithelium."
+        "Decidua capsularis is one of three decidual regions and is not where exchange takes place.",
+        "The tube is the site of most ectopic pregnancies, not normal exchange.",
+        "Villi hold the terminal umbilical vessels and are bathed by maternal blood in the intervillous space.",
+        "The myometrium is the muscle outside the decidua and does not hold the terminal umbilical vessels."
       ],
       "visual_clues": [
         "Multiple separate villous profiles have pale central stroma and a thin peripheral cellular layer.",
@@ -8977,7 +8977,7 @@
       "source_id": "s-45fbe50b588787474346",
       "source_group_id": "g-f65fc85344a92ba6fe0f",
       "variant_id": "v-d264d30f2209618b3621",
-      "tested_concept": "Normal chorionic villous architecture",
+      "tested_concept": "Where do maternal blood and fetal blood exchange nutrients in this tissue, and which vessels end in these profiles?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -8998,24 +8998,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 32-year-old woman delivers at term. Sections of the placenta show many separate rounded profiles with pale cellular cores and a thin cellular rim, surrounded by open spaces.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Where is the darker cellular covering of the villi located?",
+      "stem": "Which cell layer is this, and what disease involves excess proliferation of it?",
       "options": [
-        "In the center of each villus only",
-        "Within a separate layer of uterine smooth muscle",
-        "Free in the open spaces without any attachment to the villi",
-        "Along the outer contour facing the open intervillous space"
+        "Trophoblast, which proliferates in gestational trophoblastic disease",
+        "Mesothelium, which proliferates in ectopic pregnancy",
+        "Decidual stromal cells, which proliferate in placenta accreta",
+        "Smooth muscle, which proliferates in leiomyoma"
       ],
-      "correct_index": 3,
-      "explanation": "A darker thin cellular border follows the outer edge of each pale villous core. The dark layer follows the outline of each villus rather than forming a separate muscle layer.",
+      "correct_index": 0,
+      "explanation": "Step 1. A thin cellular border on the outer edge of each villus facing the intervillous space is trophoblast. Step 2. Gestational trophoblastic disease is the group of disorders defined by proliferation of placental villous or trophoblastic tissue, such as hydatidiform mole and choriocarcinoma.",
       "choice_rationales": [
-        "The darker trophoblast traces the villous surface, not its pale center. This choice describes the villous stroma.",
-        "The dark layer follows the outline of each villus rather than forming a separate muscle layer. This choice describes uterine smooth muscle.",
-        "The dark layer is attached to the villous margin. This choice describes free floating cells.",
-        "A darker thin cellular border follows the outer edge of each pale villous core. This choice describes the trophoblast layer around the villi, which is what the image shows."
+        "Trophoblast covers the villi, and GTD is its proliferation.",
+        "Ectopic pregnancy is implantation outside the uterus and is not a mesothelial proliferation.",
+        "Accreta is defined by absent decidua, not by decidual proliferation.",
+        "Smooth muscle is not a villous covering, and leiomyoma is a uterine tumor."
       ],
       "visual_clues": [
         "A darker thin cellular border follows the outer edge of each pale villous core.",
@@ -9025,7 +9026,7 @@
       "source_id": "s-45fbe50b588787474346",
       "source_group_id": "g-f65fc85344a92ba6fe0f",
       "variant_id": "v-d264d30f2209618b3621",
-      "tested_concept": "Chorionic villus trophoblastic surface",
+      "tested_concept": "Which cell layer is this, and what disease involves excess proliferation of it?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -9046,24 +9047,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A pathologist examines a term placenta and points to the thin darker layer that follows the outline of every villus facing the open space between villi.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which cellular arrangement is visible in this trophoblastic tumor?",
+      "stem": "Which cell types are present, and which marker do the tumor cells express?",
       "options": [
-        "Uniform bland spindle cells in parallel fascicles",
-        "Separate round glands lined by a single ciliated layer",
-        "Large multinucleated trophoblastic cells beside smaller mononuclear cells",
-        "Normal villi with central capillaries and a thin rim"
+        "Decidual and amniotic cells, and the cells are positive for AFP",
+        "Granulosa and theca cells, and the cells are positive for inhibin only",
+        "Sertoli and Leydig cells, and the cells are positive for PSA",
+        "Syncytiotrophoblast and cytotrophoblast, and the cells are positive for hCG"
       ],
-      "correct_index": 2,
-      "explanation": "Larger eosinophilic cells with clustered nuclei are intermingled with smaller dark mononuclear cells. The larger irregular cells contain several nuclei; the smaller cells are not bland spindles.",
+      "correct_index": 3,
+      "explanation": "Step 1. A dimorphic plexiform pattern of large multinucleated syncytiotrophoblast and smaller cytotrophoblast is choriocarcinoma. Step 2. Choriocarcinoma cells are positive for hCG and keratin, it arises in 50 percent of cases from hydatidiform moles, and early hematogenous spread to lung explains the nodules.",
       "choice_rationales": [
-        "The larger irregular cells contain several nuclei; the smaller cells are not bland spindles. This choice describes a spindle cell tumor.",
-        "The cells form trophoblastic groups rather than ciliated glandular rings. This choice describes ciliated glands.",
-        "Larger eosinophilic cells with clustered nuclei are intermingled with smaller dark mononuclear cells. This choice describes choriocarcinoma (syncytiotrophoblast and cytotrophoblast), which is what the image shows.",
-        "Two trophoblastic populations are visible without normal villous stromal cores. This choice describes normal chorionic villi."
+        "AFP is the marker for yolk sac tumor.",
+        "Granulosa and theca cells are ovarian follicle cells.",
+        "Sertoli and Leydig cells are testicular cells.",
+        "Choriocarcinoma has cytotrophoblast and syncytiotrophoblast and stains for hCG."
       ],
       "visual_clues": [
         "Larger eosinophilic cells with clustered nuclei are intermingled with smaller dark mononuclear cells.",
@@ -9073,7 +9075,7 @@
       "source_id": "s-4a3b8fdfbfe5f227813b",
       "source_group_id": "g-eb7337c1a3940598b02d",
       "variant_id": "v-3ad8a84f6b8ceb3251fb",
-      "tested_concept": "Choriocarcinoma biphasic trophoblastic cells",
+      "tested_concept": "Which cell types are present, and which marker do the tumor cells express?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -9094,26 +9096,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 28-year-old woman has vaginal bleeding and dyspnea 4 months after a molar pregnancy was evacuated. Serum hCG is rising and chest imaging shows nodules. A biopsy shows large multinucleated cells with clustered nuclei beside smaller mononuclear cells arranged in a plexiform pattern.",
+      "study_skill": "interpretation",
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What is the dominant lesion in this supplied opened uterus?",
+      "stem": "What is the most likely diagnosis, and from which preceding conditions can it arise?",
       "options": [
-        "An empty cavity with smooth uniform walls",
-        "A dark hemorrhagic mass projecting into the cavity",
-        "Numerous translucent vesicles replacing the whole cavity",
-        "A smooth pale whorled nodule outside the uterine cavity"
+        "Choriocarcinoma, which arises in 50 percent from hydatidiform moles, 25 percent from abortions, and 22 percent from normal pregnancies",
+        "Placenta accreta, which arises from molar pregnancies",
+        "Complete mole, which arises from normal pregnancies only",
+        "Leiomyoma, which arises from abortions"
       ],
-      "correct_index": 1,
-      "explanation": "A broad dark red mass projects into the uterine cavity above the cervical canal. The mass projects into the cavity and lacks a pale whorled cut face.",
+      "correct_index": 0,
+      "explanation": "Step 1. A soft dark red hemorrhagic mass projecting into the uterine cavity with a very high hCG is a uterine choriocarcinoma. Step 2. About 50 percent arise in hydatidiform moles, 25 percent in previous abortions, and about 22 percent in normal pregnancies, and a few follow ectopic pregnancy.",
       "choice_rationales": [
-        "A conspicuous dark raised mass projects into the opened cavity. This choice describes a normal uterine cavity.",
-        "A broad dark red mass projects into the uterine cavity above the cervical canal. This choice describes choriocarcinoma (hemorrhagic uterine mass), which is what the image shows.",
-        "The bulk of the lesion is dark and hemorrhagic rather than many translucent sacs. This choice describes a complete hydatidiform mole.",
-        "The mass projects into the cavity and lacks a pale whorled cut face. This choice describes a leiomyoma."
+        "Choriocarcinoma follows moles, abortions, normal pregnancy, or ectopic pregnancy.",
+        "Accreta is abnormal adherence of normal placenta.",
+        "A complete mole is a vesicular mass of swollen villi, not a dark hemorrhagic tumor.",
+        "Leiomyoma is a pale whorled smooth muscle tumor."
       ],
       "visual_clues": [
         "A broad dark red mass projects into the uterine cavity above the cervical canal.",
@@ -9123,7 +9126,7 @@
       "source_id": "s-28f7e00e48882def13af",
       "source_group_id": "g-eb7337c1a3940598b02d",
       "variant_id": "v-540420c3899985afa2c2",
-      "tested_concept": "Choriocarcinoma gross uterine cavity mass",
+      "tested_concept": "What is the most likely diagnosis, and from which preceding conditions can it arise?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R17",
@@ -9144,26 +9147,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 30-year-old woman has heavy vaginal bleeding 3 months after a miscarriage and a markedly elevated hCG. A hysterectomy specimen shows a large dark red soft mass projecting into the cavity.",
+      "study_skill": "interpretation",
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which relationship is visible between the dark lesion and the pale uterine wall?",
+      "stem": "Which feature distinguishes this tumor from an invasive mole?",
       "options": [
-        "Irregular hemorrhagic tissue extends from the cavity into the adjacent wall",
-        "A pale whorled mass is confined to the outer surface",
-        "Only a thin smooth lining follows the entire lumen",
-        "Translucent vesicles hang from a narrow stalk without any involvement of the wall"
+        "It is the only lesion that causes vaginal bleeding",
+        "It lacks villi and consists of sheets of cytotrophoblast and syncytiotrophoblast, whereas invasive mole retains hydropic villi in the muscle",
+        "It is the only lesion that raises hCG",
+        "It retains hydropic villi in the muscle, which is the defining feature of choriocarcinoma"
       ],
-      "correct_index": 0,
-      "explanation": "The dark red irregular lesion abuts and extends into the paler surrounding uterine wall. The mass is irregular and hemorrhagic at the interface with the wall, without a thin stalk bearing translucent vesicles.",
+      "correct_index": 1,
+      "explanation": "Step 1. A hemorrhagic, invasive mass without vesicles suggests choriocarcinoma. Step 2. Invasive mole is defined by hydropic villi penetrating the myometrium with proliferating trophoblast, while choriocarcinoma is a malignant neoplasm of trophoblast with no villi and early hematogenous spread.",
       "choice_rationales": [
-        "The dark red irregular lesion abuts and extends into the paler surrounding uterine wall. This choice describes choriocarcinoma invading the myometrium, which is what the image shows.",
-        "Dark hemorrhagic tissue interrupts the adjacent cut wall rather than sitting on the outside. This choice describes a subserosal leiomyoma.",
-        "The dark tissue extends beyond the cavity surface into the wall. This choice describes a normal uterine lining.",
-        "The mass is irregular and hemorrhagic at the interface with the wall, without a thin stalk bearing translucent vesicles. This choice describes a hydatidiform mole without invasion."
+        "Invasive mole also presents with vaginal bleeding and uterine enlargement.",
+        "Choriocarcinoma lacks villi, and invasive mole has villi within the myometrium.",
+        "Invasive mole is also always associated with persistently elevated hCG.",
+        "Retained hydropic villi define invasive mole, not choriocarcinoma."
       ],
       "visual_clues": [
         "The dark red irregular lesion abuts and extends into the paler surrounding uterine wall.",
@@ -9173,7 +9177,7 @@
       "source_id": "s-844d48b3171d609f481e",
       "source_group_id": "g-eb7337c1a3940598b02d",
       "variant_id": "v-ee11661cc36b55a6aaf7",
-      "tested_concept": "Choriocarcinoma gross extension along the wall",
+      "tested_concept": "Which feature distinguishes this tumor from an invasive mole?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R17",
@@ -9194,26 +9198,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 33-year-old woman has a hysterectomy for a uterine mass after a molar pregnancy. The specimen shows a hemorrhagic tumor extending from the cavity into the myometrium without any translucent vesicles.",
+      "study_skill": "interpretation",
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which combination is present in this placental section?",
+      "stem": "What is the genetic origin of this lesion, and what follow-up is required?",
       "options": [
-        "Only small uniform villi with delicate trophoblastic coverings",
-        "Dense solid keratinizing squamous nests with central keratin",
-        "Irregular smooth muscle bundles with no villi present",
-        "Expanded pale villous cores with prominent trophoblastic proliferation"
+        "Trisomy 21 with maternal origin, with no follow-up needed",
+        "Tetraploid 92,XXXY with maternal origin, with follow-up for 1 week",
+        "Triploid 69,XXY with paternal and maternal contributions, with no follow-up needed",
+        "Exclusively paternal chromosomes, usually 46,XX, with serial hCG monitoring until it remains at zero for 6 to 12 months"
       ],
       "correct_index": 3,
-      "explanation": "Complete hydatidiform mole shows widespread villous edema and conspicuous peripheral trophoblastic proliferation around enlarged pale villous cores. The dark cells border villous profiles. They do not form solid squamous nests with central keratin.",
+      "explanation": "Step 1. Marked villous enlargement and edema with circumferential trophoblastic proliferation is a complete hydatidiform mole. Step 2. It is entirely paternally derived (androgenesis, 90 percent 46,XX), and because up to 10 percent become persistent or invasive and 2.5 percent evolve to choriocarcinoma, hCG is followed until it stays at zero for 6 months to a year.",
       "choice_rationales": [
-        "Multiple villi have expanded, pale edematous cores rather than small uniform cores. This choice describes small normal villi.",
-        "The dark cells border villous profiles. They do not form solid squamous nests with central keratin. This choice describes squamous cell carcinoma.",
-        "The pale structures are expanded villous cores with a trophoblastic covering, distinct from smooth muscle bundles. This choice describes a smooth muscle tumor.",
-        "Complete hydatidiform mole shows widespread villous edema and conspicuous peripheral trophoblastic proliferation around enlarged pale villous cores. This choice describes a hydatidiform mole (hydropic villi with trophoblastic proliferation), which is what the image shows."
+        "Trisomy is not the genetic basis of a complete mole.",
+        "A tetraploid karyotype is an occasional finding of partial mole, and follow-up is longer than a week.",
+        "Triploidy with both parental contributions characterizes a partial mole.",
+        "A complete mole is paternally derived and hCG is followed for months."
       ],
       "visual_clues": [
         "Large villous profiles with expanded pale cores have prominent dark cellular proliferation around their edges.",
@@ -9223,7 +9228,7 @@
       "source_id": "s-b9cb64ee02a1fb48c4f3",
       "source_group_id": "g-65947a04699d1cf373fd",
       "variant_id": "v-abbf32fa971d2d24cc89",
-      "tested_concept": "Complete mole villous enlargement and trophoblastic proliferation",
+      "tested_concept": "What is the genetic origin of this lesion, and what follow-up is required?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -9244,26 +9249,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 34-year-old woman has vaginal bleeding at 10 weeks, a uterus larger than expected for dates, and a markedly elevated hCG. An evacuated specimen shows enlarged pale villi with circumferential trophoblastic proliferation.",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What occupies the opened uterine cavity in this specimen?",
+      "stem": "Which clinical or epidemiologic factor is associated with this lesion?",
       "options": [
-        "One thin smooth fluid-filled sac containing an embryo",
-        "An isolated dark clot in an otherwise empty uterine cavity",
-        "Extensive pink vesicular tissue distending the cavity",
-        "A single discrete white whorled nodule within the cavity"
+        "Previous term birth, which greatly increases the risk",
+        "Younger than 20, with higher incidence in the United States than Asia",
+        "Age over 30 and diets low in vitamin A precursors, with higher incidence in Southeast Asia",
+        "High carotene intake, which increases the risk"
       ],
       "correct_index": 2,
-      "explanation": "The gross complete hydatidiform mole contains numerous closely packed swollen villi that distend the uterine cavity. Pink vesicular tissue fills most of the cavity rather than one small isolated clot.",
+      "explanation": "Step 1. A uterine cavity distended by closely packed swollen villi without a fetus is a complete hydatidiform mole. Step 2. Complete mole is more common in patients over 30 and in those with diets deficient in vitamin A precursors, which may explain geographic variation, whereas a previous term birth reduces the risk.",
       "choice_rationales": [
-        "Numerous vesicular profiles occupy the cavity without a recognizable embryo. This choice describes a normal intrauterine pregnancy.",
-        "Pink vesicular tissue fills most of the cavity rather than one small isolated clot. This choice describes a retained blood clot.",
-        "The gross complete hydatidiform mole contains numerous closely packed swollen villi that distend the uterine cavity. This choice describes a complete hydatidiform mole, which is what the image shows.",
-        "Many soft translucent spaces are present instead of one solid white nodule. This choice describes a leiomyoma or polyp."
+        "A previous term birth reduces the risk, and a previous mole raises it.",
+        "The disease is more frequent in older patients and is more frequent in Southeast Asia than in the US.",
+        "Older age and low carotene intake raise the risk of complete mole.",
+        "Increased carotene consumption reduces the risk."
       ],
       "visual_clues": [
         "The opened uterus is expanded by a broad mass of closely packed pink vesicular tissue.",
@@ -9273,7 +9279,7 @@
       "source_id": "s-2d4c3a418be46167fcde",
       "source_group_id": "g-65947a04699d1cf373fd",
       "variant_id": "v-83eb93f9e2bebb689bba",
-      "tested_concept": "Complete mole distended uterine cavity",
+      "tested_concept": "Which clinical or epidemiologic factor is associated with this lesion?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R17",
@@ -9294,26 +9300,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 36-year-old woman presents with vaginal bleeding and a uterus 6 weeks larger than dates. At evacuation the cavity is filled with pink, closely packed vesicular tissue and no fetal parts are found.",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What gross structure is visible across this placental tissue?",
+      "stem": "What do the vesicles represent, and why do they lack blood?",
       "options": [
-        "A mass of hair shafts and toothlike structures in the tissue",
-        "Clusters of translucent round vesicles of variable size",
-        "An even smooth membrane without projections",
-        "Only a solid white mass with whorled bands"
+        "Swollen avascular chorionic villi, because the embryo dies very early in development",
+        "Decidual cysts, because the fetus is delivered",
+        "Cystic maternal glands, because the embryo continues to grow",
+        "Fetal membranes, because the placenta is normal"
       ],
-      "correct_index": 1,
-      "explanation": "The translucent vesicles are swollen chorionic villi, giving the complete hydatidiform mole its clustered, grape-like gross appearance. The bulk consists of clear vesicles rather than solid whorled tissue.",
+      "correct_index": 0,
+      "explanation": "Step 1. Free translucent grape-like vesicles that do not form an organized placenta are the hydropic villi of a complete mole. Step 2. The villi are usually avascular with central cisterns because the embryo dies very early in development, so fetal vessels and parts are extremely rare.",
       "choice_rationales": [
-        "The pale profiles are rounded and translucent and contain no recognizable hair or teeth. This choice describes a mature teratoma.",
-        "The translucent vesicles are swollen chorionic villi, giving the complete hydatidiform mole its clustered, grape-like gross appearance. This choice describes a hydatidiform mole (grape-like vesicles), which is what the image shows.",
-        "Many separate raised rounded vesicles are visible. This choice describes a normal membrane.",
-        "The bulk consists of clear vesicles rather than solid whorled tissue. This choice describes a leiomyoma."
+        "Complete mole villi are swollen and avascular, as the embryo dies early.",
+        "The vesicles are not decidual cysts.",
+        "The embryo does not continue to grow in a complete mole.",
+        "A complete mole does not form an organized placenta."
       ],
       "visual_clues": [
         "Numerous translucent, rounded fluid-like vesicles overlap across the specimen.",
@@ -9323,7 +9330,7 @@
       "source_id": "s-197db1d1642f2f6723c5",
       "source_group_id": "g-65947a04699d1cf373fd",
       "variant_id": "v-4451b0fe1ee029cea604",
-      "tested_concept": "Molar villi grape-like vesicles",
+      "tested_concept": "What do the vesicles represent, and why do they lack blood?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R17",
@@ -9344,26 +9351,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 31-year-old woman has passed grape-like translucent vesicles of variable size, up to several centimeters, with vaginal bleeding. Histology of the vesicles shows no blood vessels and central cisterns in larger villi.",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which feature establishes the invasive pattern in this supplied uterine section?",
+      "stem": "What is the diagnosis, and what is the expected behavior and treatment response?",
       "options": [
-        "Hydropic villous profiles lie within myometrial smooth muscle",
-        "All villi are outside the wall on a free surface",
-        "Solid tumor sheets occupy the muscle without villous structures",
-        "A simple squamous lining covers the muscle"
+        "Partial mole, which lacks any persistent disease",
+        "Placenta accreta, which arises from absent decidua and is treated with chemotherapy",
+        "Choriocarcinoma, which has no villi and is not treatable",
+        "Invasive mole, locally destructive and responsive to chemotherapy, with villi that can embolize to the lungs but do not grow as true metastases"
       ],
-      "correct_index": 0,
-      "explanation": "A pale villous profile lies between broad pink myometrial smooth muscle bundles. The pale swollen profiles preserve villous outlines inside muscle.",
+      "correct_index": 3,
+      "explanation": "Step 1. Hydropic villi penetrating the myometrium with trophoblastic proliferation are an invasive mole. Step 2. It is locally destructive and may invade parametrium and vessels, villi can embolize to lung or brain without growing as true metastases, and it responds well to chemotherapy though it may cause uterine rupture.",
       "choice_rationales": [
-        "A pale villous profile lies between broad pink myometrial smooth muscle bundles. This choice describes an invasive hydatidiform mole, which is what the image shows.",
-        "Hydropic villi are enclosed within bands of uterine smooth muscle. This choice describes a hydatidiform mole without invasion.",
-        "The pale swollen profiles preserve villous outlines inside muscle. This choice describes a choriocarcinoma or other solid tumor in the muscle.",
-        "The tissue inside the muscle includes villi, not only a flat surface lining. This choice describes a squamous lining."
+        "A partial mole can also persist in 5 to 10 percent of cases.",
+        "Accreta is normal placenta adherent to muscle and is not treated with chemotherapy.",
+        "Choriocarcinoma lacks villi and also responds well to chemotherapy.",
+        "Invasive mole keeps its villi inside the myometrium and responds to chemotherapy."
       ],
       "visual_clues": [
         "A pale villous profile lies between broad pink myometrial smooth muscle bundles.",
@@ -9373,7 +9381,7 @@
       "source_id": "s-813f79bb493ed4294cb9",
       "source_group_id": "g-c9ae43aeeeafafd55955",
       "variant_id": "v-b9ba195bd03da89bea65",
-      "tested_concept": "Invasive mole villi within myometrium",
+      "tested_concept": "What is the diagnosis, and what is the expected behavior and treatment response?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -9394,8 +9402,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 29-year-old woman with a prior complete mole has persistent vaginal bleeding, irregular uterine enlargement, and a persistently elevated hCG after evacuation. A hysterectomy shows hydropic villi lying between muscle bundles of the uterine wall.",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 55,
@@ -9404,23 +9412,24 @@
         }
       ],
       "condition_name": "Invasive hydatidiform mole",
-      "condition_overview": "An invasive mole is a hydatidiform mole in which hydropic villi penetrate the myometrium and may involve vessels. Villous structure is preserved, which separates it from choriocarcinoma. It follows evacuation of a complete mole in a minority of cases and presents with persistent or rising hCG and bleeding. It is a form of gestational trophoblastic neoplasia that is treated with chemotherapy and usually responds well."
+      "condition_overview": "An invasive mole is a hydatidiform mole in which hydropic villi penetrate the myometrium and may involve vessels. Villous structure is preserved, which separates it from choriocarcinoma. It follows evacuation of a complete mole in a minority of cases and presents with persistent or rising hCG and bleeding. It is a form of gestational trophoblastic neoplasia that is treated with chemotherapy and usually responds well.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which villous size pattern is present in this placental section?",
+      "stem": "How does this lesion differ in genetics and fetal parts from a complete mole?",
       "options": [
-        "A uniform field of solid trophoblast without any villous profiles",
-        "A single oval gland in endometrial stroma",
-        "Large edematous villi interspersed with much smaller villi",
-        "Only one uniform population of very large villi"
+        "It is diploid with maternal chromosomes only, and fetal parts are always present",
+        "It is monosomy X, and fetal parts are never present",
+        "It is triploid from two sperm fertilizing one egg, and fetal parts are more commonly present",
+        "It is diploid with paternal chromosomes only, and fetal parts are never present"
       ],
       "correct_index": 2,
-      "explanation": "Very large pale expanded villi lie among much smaller darker villous profiles. Small profiles remain visible next to the enlarged villi. The variation in villous size is the key observation.",
+      "explanation": "Step 1. Two discrete populations of villi with a triploid karyotype indicate a partial hydatidiform mole. Step 2. Partial moles result from fertilization of an egg by two sperm, and fetal parts and capillaries are more common than in complete moles.",
       "choice_rationales": [
-        "Villi are present throughout the field. Their pale stromal cores can be distinguished from the darker peripheral trophoblast. This choice describes choriocarcinoma or solid trophoblast tumor.",
-        "This section contains multiple chorionic villi of different sizes, rather than a gland surrounded by endometrial stroma. This choice describes an endometrial gland.",
-        "Very large pale expanded villi lie among much smaller darker villous profiles. This choice describes a partial hydatidiform mole (mixed large and small villi), which is what the image shows.",
-        "Small profiles remain visible next to the enlarged villi. The variation in villous size is the key observation. This choice describes a complete hydatidiform mole (uniformly large villi)."
+        "Maternal-only diploid is not the mechanism described.",
+        "Monosomy X can mimic abnormal villi but is not the cause of partial mole.",
+        "A partial mole is triploid from dispermy, and fetal tissue is more common.",
+        "Paternal-only diploid describes a complete mole."
       ],
       "visual_clues": [
         "Very large pale expanded villi lie among much smaller darker villous profiles.",
@@ -9430,7 +9439,7 @@
       "source_id": "s-9ede70a0e34e483675b1",
       "source_group_id": "g-f04b70ad00ce11571517",
       "variant_id": "v-cbe6f0218d9f866e1ec7",
-      "tested_concept": "Partial mole mixed villous populations",
+      "tested_concept": "How does this lesion differ in genetics and fetal parts from a complete mole?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -9451,26 +9460,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 27-year-old woman has a first-trimester miscarriage. Histology shows two populations of villi, with some large edematous villi with cisterns and others small and fibrotic. Karyotype shows 69,XXY.",
+      "study_skill": "interpretation",
       "condition_name": "Partial hydatidiform mole",
-      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up."
+      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which depicted implantation site extends through the entire uterine wall to the outside?",
+      "stem": "What is the diagnosis, and what histologic finding is necessary for the diagnosis of the spectrum?",
       "options": [
-        "All three sites equally",
-        "The site drawn along the left lateral wall",
-        "The site drawn near the top of the uterus",
-        "The site drawn in the lower right interior wall"
+        "Ectopic pregnancy, and abundant decidua",
+        "Placenta percreta, and absence of decidua between the placental base and myometrium",
+        "Placenta increta, and perforation of the uterine wall",
+        "Placenta accreta, and abundant decidua between the placental base and myometrium"
       ],
       "correct_index": 1,
-      "explanation": "The left lateral drawing shows placental tissue traversing the wall and projecting outside the uterus. The lower-right tissue lies along the inner uterine wall.",
+      "explanation": "Step 1. Placental tissue that perforates the uterine wall is placenta percreta, versus accreta reaching the myometrium and increta invading it. Step 2. Absent decidua between the base of the placenta and the myometrium is necessary for the diagnosis, and incidence has increased, possibly because of more cesarean deliveries.",
       "choice_rationales": [
-        "Only the left lateral site projects beyond the uterine wall. This choice describes placenta percreta at every implantation site.",
-        "The left lateral drawing shows placental tissue traversing the wall and projecting outside the uterus. This choice describes placenta percreta (villous invasion through the entire uterine wall), which is what the image shows.",
-        "The upper site extends into muscle without projecting beyond the outer wall. This choice describes placenta accreta at the top of the uterus (surface attachment).",
-        "The lower-right tissue lies along the inner uterine wall. This choice describes placenta increta (partial invasion into the myometrium)."
+        "Ectopic pregnancy occurs mostly in the tube.",
+        "Percreta perforates the wall, and decidua is absent at the placental base.",
+        "Increta invades the myometrium and does not perforate the wall.",
+        "Accreta only reaches the myometrium and requires absent, not abundant, decidua."
       ],
       "visual_clues": [
         "The left lateral drawing shows placental tissue traversing the wall and projecting outside the uterus.",
@@ -9480,7 +9490,7 @@
       "source_id": "s-d6f58b7e85b6dc03d3a5",
       "source_group_id": "g-1c417857d4f426c63477",
       "variant_id": "v-a523b22827231debda0d",
-      "tested_concept": "Placenta accreta spectrum depth",
+      "tested_concept": "What is the diagnosis, and what histologic finding is necessary for the diagnosis of the spectrum?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R17",
@@ -9501,10 +9511,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 38-year-old woman with three prior cesarean deliveries has massive hemorrhage at delivery. A hysterectomy specimen shows placental tissue extending through the full thickness of the uterine wall to the serosal surface.",
+      "study_skill": "interpretation",
       "condition_name": "Placenta accreta spectrum",
-      "condition_overview": "Placenta accreta spectrum describes abnormally deep placental implantation resulting from a defective decidua basalis, often after a previous cesarean section or other uterine surgery. In accreta villi attach to the myometrium, in increta they invade into it, and in percreta they penetrate through the full thickness to the serosa and may invade adjacent organs. After delivery the placenta does not separate and causes life-threatening hemorrhage, and hysterectomy is often required."
+      "condition_overview": "Placenta accreta spectrum describes abnormally deep placental implantation resulting from a defective decidua basalis, often after a previous cesarean section or other uterine surgery. In accreta villi attach to the myometrium, in increta they invade into it, and in percreta they penetrate through the full thickness to the serosa and may invade adjacent organs. After delivery the placenta does not separate and causes life-threatening hemorrhage, and hysterectomy is often required.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "What is the most appropriate statement about her future breast cancer risk?",
@@ -12423,20 +12434,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "What does the black arrow highlight inside the enlarged villous profile?",
+      "stem": "How do these findings guide diagnosis, and what supports the diagnosis genetically?",
       "options": [
-        "An embryo inside a gestational sac",
-        "A broad band of uterine smooth muscle lying outside the villus",
-        "A small trophoblastic inclusion within the villous stroma",
-        "A large keratin pearl in a squamous nest"
+        "They are features of choriocarcinoma, and hCG negativity is required",
+        "They are features of partial mole, and triploidy confirmed by FISH correlates with at least three of five features",
+        "They are features of complete mole, and 46,XX paternal origin is required",
+        "They are features of placenta accreta, and absent decidua is required"
       ],
-      "correct_index": 2,
-      "explanation": "The arrow marks a small dark epithelial profile within the pale swollen villous core. The dark epithelial focus lacks the concentric pink layers of a keratin pearl.",
+      "correct_index": 1,
+      "explanation": "Step 1. Scalloped villi with trophoblastic inclusions and two villous populations are partial mole features. Step 2. The five features are two villous populations, circumferential trophoblastic hyperplasia, scalloping, trophoblastic inclusions, and a fifth feature, and at least three correlate with triploidy by FISH.",
       "choice_rationales": [
-        "The marked profile is a small trophoblastic structure within a villus. This choice describes an embryo in a gestational sac.",
-        "The focus lies inside the villous outline rather than in separate muscle. This choice describes myometrium.",
-        "The arrow marks a small dark epithelial profile within the pale swollen villous core. This choice describes a trophoblastic inclusion in a hydropic villus (partial hydatidiform mole), which is what the image shows.",
-        "The dark epithelial focus lacks the concentric pink layers of a keratin pearl. This choice describes a keratin pearl."
+        "Choriocarcinoma is hCG positive and lacks villi.",
+        "Three of five features correlate with triploidy in partial mole.",
+        "Complete moles are androgenetic and show uniformly enlarged villi.",
+        "Accreta is defined by decidual absence, not villous scalloping."
       ],
       "visual_clues": [
         "The arrow marks a small dark epithelial profile within the pale swollen villous core.",
@@ -12446,7 +12457,7 @@
       "source_id": "s-61c379aafa9499b71f10",
       "source_group_id": "g-f04b70ad00ce11571517",
       "variant_id": "v-c3883ea7bd24f6f4b95a",
-      "tested_concept": "Partial mole trophoblastic inclusion",
+      "tested_concept": "How do these findings guide diagnosis, and what supports the diagnosis genetically?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -12467,10 +12478,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A pathologist reviewing a first-trimester specimen notices a scalloped enlarged villus with a small round epithelial focus inside the villous stroma. Both large and small villi are present.",
+      "study_skill": "interpretation",
       "condition_name": "Partial hydatidiform mole",
-      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up."
+      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which cytologic finding supports a reactive process rather than carcinoma?",
@@ -15561,7 +15573,7 @@
       "source_id": "s-367a22ed5522c511f641",
       "source_group_id": "g-ee3fb0f9ec31cef031ca",
       "variant_id": "v-34668a83c322dd306483",
-      "tested_concept": "Complete mole swollen villous architecture at low power",
+      "tested_concept": "Why is this uniformity important for classification?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -15582,35 +15594,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which pattern dominates this low power field?",
+      "case_context": "A pathologist examines a low power field from a uterine evacuation. Most villi are uniformly enlarged, pale, and avascular with circumferential trophoblast, and no normal-sized villi are seen.",
+      "stem": "Why is this uniformity important for classification?",
       "options": [
-        "An entirely solid dark epithelial sheet without villi",
-        "A uniform field of minute vascular villi with little pale stroma",
-        "A single empty cavity with no tissue profiles",
-        "Many large pale swollen villi bordered by darker tissue"
+        "Uniformly swollen villi indicate partial mole, whereas complete mole has two populations",
+        "Uniformly swollen villi without a normal population indicate complete mole, whereas partial mole has two villous populations",
+        "Uniformity indicates choriocarcinoma",
+        "Uniformity indicates normal placenta"
       ],
-      "correct_index": 3,
-      "explanation": "Multiple enlarged villous profiles have pale expanded interiors and dark peripheral trophoblastic tissue. The stroma within the large villi is expanded and pale.",
+      "correct_index": 1,
+      "explanation": "Step 1. Many large pale avascular villi with circumferential trophoblast are a complete mole. Step 2. In complete mole all villi are dilated to varying degrees, whereas partial mole shows two discrete populations of villi, so size variation helps separate them.",
       "choice_rationales": [
-        "Many distinct villous outlines persist in the section. This choice describes a solid epithelial tumor.",
-        "The stroma within the large villi is expanded and pale. This choice describes normal villi.",
-        "Multiple tissue profiles occupy the field, each with a darker cellular margin. This choice describes an empty cavity.",
-        "Multiple enlarged villous profiles have pale expanded interiors and dark peripheral trophoblastic tissue. This choice describes a hydatidiform mole (swollen villi), which is what the image shows."
+        "Two villous populations belong to partial mole.",
+        "Complete mole has uniformly dilated villi and partial mole has two populations.",
+        "Choriocarcinoma lacks villi.",
+        "Normal placenta has normal-sized vascular villi."
       ],
       "visual_clues": [
         "Multiple enlarged villous profiles have pale expanded interiors and dark peripheral trophoblastic tissue."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-9966aba302511a3788cc",
       "source_id": "s-f64f2388e4e3aee662e8",
       "source_group_id": "g-a85179fe92976df3e5be",
       "variant_id": "v-145583e418a7505d7608",
-      "tested_concept": "Partial mole mixed villous size and contour",
+      "tested_concept": "What is the risk of persistent disease, and how does it compare with complete mole?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R17",
@@ -15631,28 +15644,29 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What contrast is visible between villi in this field?",
+      "case_context": "A 30-year-old woman has an incomplete miscarriage. A low power view shows an enlarged irregular villus next to many much smaller compact villi, with mild trophoblastic hyperplasia.",
+      "stem": "What is the risk of persistent disease, and how does it compare with complete mole?",
       "options": [
-        "All profiles are uniformly dense without swollen interiors",
-        "The field contains only solid tumor with no recognizable villous profiles",
-        "Large irregular pale villi coexist with many much smaller dark villi",
-        "Every villus has the same size and smooth round outline"
+        "About 50 percent persistent disease with high choriocarcinoma risk",
+        "No persistent disease ever",
+        "About 5 to 10 percent persistent disease with very low choriocarcinoma risk, lower than the complete mole risk of 2.5 percent",
+        "About 100 percent persistent disease"
       ],
       "correct_index": 2,
-      "explanation": "A conspicuously enlarged irregular pale villus is surrounded by numerous smaller compact profiles. The villi differ markedly in size and outline.",
+      "explanation": "Step 1. A mixture of enlarged and small villi is a partial mole. Step 2. Some series document 5 to 10 percent persistent disease (lower when evacuated early), and choriocarcinoma after a partial mole is very low risk, so follow-up is still required, whereas 2.5 percent of complete moles evolve into choriocarcinoma.",
       "choice_rationales": [
-        "Several villi have visibly expanded pale interiors. This choice describes a uniform dense villous tissue.",
-        "Villous contours can be traced in both size populations. This choice describes a solid tumor.",
-        "A conspicuously enlarged irregular pale villus is surrounded by numerous smaller compact profiles. This choice describes partial hydatidiform mole (two villous populations), which is what the image shows.",
-        "The villi differ markedly in size and outline. This choice describes normal uniform villi."
+        "Fifty percent is the share of choriocarcinomas that arise in moles, not persistence in partial mole.",
+        "Persistence is documented in some cases.",
+        "Partial mole has 5 to 10 percent persistent disease and a very low choriocarcinoma risk.",
+        "Persistence is not universal."
       ],
       "visual_clues": [
         "A conspicuously enlarged irregular pale villus is surrounded by numerous smaller compact profiles."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Partial hydatidiform mole",
-      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up."
+      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-25852a935ed9667ce486",
@@ -17617,7 +17631,7 @@
       "source_id": "s-44d3e6f2bcc7a5b52ad4",
       "source_group_id": "g-0bacca23e4e63e06ef55",
       "variant_id": "v-5de5cf511f611cc3cff8",
-      "tested_concept": "Opaque fetal membranes in chorioamnionitis",
+      "tested_concept": "What process is suggested, and what is the main route of infection?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R17",
@@ -17638,26 +17652,26 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which feature of the fetal membranes distinguishes this specimen from the normal example in the lecture?",
+      "case_context": "A 25-year-old woman delivers at 30 weeks after premature rupture of membranes. The fetal membranes are gray and opaque and the surface vessels are hard to see.",
+      "stem": "What process is suggested, and what is the main route of infection?",
       "options": [
-        "It forms many separate round fluid filled vesicles",
-        "It creates a deep dark central crater",
-        "Broad cloudy membranes obscure the vessels beneath them",
-        "It exposes the vessels more clearly than the adjacent tissue"
+        "Chorioamnionitis, usually an ascending infection from the genital tract such as E. coli or group B Streptococcus",
+        "Placenta accreta, usually a hematogenous infection",
+        "Ectopic pregnancy, usually a hematogenous infection",
+        "Complete mole, usually an ascending infection"
       ],
-      "correct_index": 2,
-      "explanation": "The gray, opaque film makes fetal surface vessels less distinct. R17 shows this as a gross clue to chorioamnionitis and contrasts it with the clearer membranes of a normal placenta. The photograph illustrates the appearance but cannot establish the organism or confirm infection on its own. The opacity is a broad film without the separate fluid-filled vesicles shown in the molar pregnancy examples.",
+      "correct_index": 0,
+      "explanation": "Step 1. Opaque cloudy membranes obscuring the vessels are a gross clue to chorioamnionitis. Step 2. Ascending infections reach the amniotic fluid through the genital tract (E. coli, GBS, Mycoplasma, Ureaplasma) and cause premature rupture, preterm delivery, and neonatal pneumonia or sepsis, unlike hematogenous (TORCH) infections.",
       "choice_rationales": [
-        "The opacity is a broad film without the separate fluid-filled vesicles shown in the molar pregnancy examples. This choice describes a hydatidiform mole.",
-        "The film covers the fetal surface rather than creating a focal excavation. This choice describes a crater lesion.",
-        "The gray, opaque film makes fetal surface vessels less distinct. R17 shows this as a gross clue to chorioamnionitis and contrasts it with the clearer membranes of a normal placenta. The photograph illustrates the appearance but cannot establish the organism or confirm infection on its own. This choice describes chorioamnionitis (cloudy membranes), which is what the image shows.",
-        "The gray opacity makes the surface vessels less distinct. The normal comparison on the same slide shows the vessels more clearly. This choice describes normal clear membranes."
+        "Ascending organisms cause chorioamnionitis with opaque membranes.",
+        "Accreta is abnormal adherence of the placenta and is not an infection.",
+        "Ectopic pregnancy is an implantation problem and not a membrane infection.",
+        "A complete mole is a trophoblastic disease and not an infection."
       ],
       "visual_clues": [
         "Cloudy gray membranes cover a broad area of the fetal surface around the cord insertion."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 49,
@@ -17666,7 +17680,8 @@
         }
       ],
       "condition_name": "Chorioamnionitis",
-      "condition_overview": "Chorioamnionitis is infection and acute inflammation of the fetal membranes, most often from ascending bacteria after prolonged membrane rupture. Neutrophils infiltrate the chorion and amnion, and the membranes may become opaque, cloudy, or green-yellow. The mother may have fever, uterine tenderness, and foul fluid, and it is associated with preterm birth and neonatal sepsis. It is treated with antibiotics and delivery."
+      "condition_overview": "Chorioamnionitis is infection and acute inflammation of the fetal membranes, most often from ascending bacteria after prolonged membrane rupture. Neutrophils infiltrate the chorion and amnion, and the membranes may become opaque, cloudy, or green-yellow. The mother may have fever, uterine tenderness, and foul fluid, and it is associated with preterm birth and neonatal sepsis. It is treated with antibiotics and delivery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-8a4388e51ae0e0d7d59c",
