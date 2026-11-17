@@ -887,22 +887,22 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Using both panels, which pair of plotted ranges has the earliest left boundary for its sex?",
+      "stem": "Which pair of events is expected first in each sex, and what is the later order?",
       "options": [
-        "Underarm hair in girls and overall body-shape changes in boys",
-        "Breast budding in girls and growth of scrotum/testes in boys",
-        "Menarche in girls and growth spurt in boys",
-        "Adult breast size in girls and facial hair in boys"
+        "Breast budding in girls, followed by pubic hair, growth spurt, and menses, and testicular and scrotal growth in boys, followed by penile enlargement and pubic hair, with the boys' growth spurt coming later",
+        "Menarche in girls and voice deepening in boys, followed by growth spurts",
+        "Pubic hair in girls and penile enlargement in boys, followed by breast budding and testicular growth",
+        "The growth spurt first in both sexes, followed by breast budding and testicular growth"
       ],
-      "correct_index": 1,
-      "explanation": "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel. Adult breast size and facial hair begin well after breast budding and scrotal or testicular growth, which start among the earliest ranges.",
+      "correct_index": 0,
+      "explanation": "Step 1. The lecture states that in girls the first change is breast budding, often followed by pubic hair, then the growth spurt, then the period. Step 2. In boys the first change is testicular enlargement and growth of the scrotum, followed by voice deepening, penile enlargement, and pubic hair, with the growth spurt in boys happening later than in girls. Events overlap in real life, but exam questions usually follow this order.",
       "choice_rationales": [
-        "Underarm hair and body-shape change begin after breast budding and scrotal or testicular growth, which start among the earliest ranges. This choice describes the sequence of pubic hair development in girls and general body-shape change in boys.",
-        "The breast-budding range begins at the left edge of the girls panel, while scrotal/testicular growth begins among the earliest ranges in the boys panel. This choice describes the onset of thelarche in girls and testicular enlargement in boys, which is what the image shows.",
-        "Menarche and the male growth spurt begin after breast budding and scrotal or testicular growth, which start among the earliest ranges. This choice describes menarche in girls and the pubertal growth spurt in boys.",
-        "Adult breast size and facial hair begin well after breast budding and scrotal or testicular growth, which start among the earliest ranges. This choice describes completed breast development in girls and facial hair growth in boys."
+        "Breast budding and testicular and scrotal growth start puberty in each sex, followed by the later events listed.",
+        "Menarche and voice deepening come after earlier changes, not first.",
+        "Pubic hair and penile enlargement follow breast budding and testicular growth.",
+        "The growth spurt is not first, and in boys it comes later."
       ],
-      "tested_concept": "Sequence of pubertal event ranges",
+      "tested_concept": "Which pair of events is expected first in each sex, and what is the later order?",
       "panels": "joint",
       "question_id": "q-bc32cbf267435fae96db",
       "source_id": "s-6b0a8c592db890d56be5",
@@ -931,8 +931,9 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A 10-year-old girl has new breast buds but no pubic hair or menses. Her 10-year-old brother has not yet begun puberty. Their mother asks which changes should appear first in each child. A plotted chart shows the age ranges of pubertal events for girls and boys.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Why is the nuclear location of the stain expected, and how will it affect therapy?",
@@ -1552,22 +1553,22 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "Compare panels D and E. How does ureteral duplication differ in the kidney on the image right of each panel?",
+      "stem": "Which pattern could explain her constant leakage, and what is the developmental basis?",
       "options": [
-        "Both show one ureter from the kidney onward",
-        "Both show complete separation to the bladder",
-        "D has two separate distal ureters; E has distal fusion",
-        "D has distal fusion; E has two separate distal ureters"
+        "Complete duplication as in D, because the ureteric bud failed to branch and no collecting ducts formed",
+        "Partial duplication as in E, because the two ureters join and always enter the bladder at the trigone",
+        "Complete duplication as in D, because a second ureteric bud travels down with the mesonephric duct and can open low in the urethra, vagina, or vestibule",
+        "Partial duplication as in E, because the ureteric bud never split and a single ureter enters the urethra"
       ],
       "correct_index": 2,
-      "explanation": "The duplicated ureters in D remain separate to the bladder, whereas those in E join into a single distal segment. D shows two separate distal ureters and E shows distal fusion, so this choice reverses the two panels.",
+      "explanation": "Step 1. Duplication of the ureter comes from early splitting of the ureteric bud, and the split may be partial (ureters join, as in E) or complete (separate ureters, as in D). Step 2. In some complete duplications one bud keeps a normal position while the abnormal bud moves down with the mesonephric duct and has a low entrance into the urethra, vagina, or vestibule. An opening below the bladder fits constant dribbling alongside normal voiding, which is an inference from the lecture site list. A partial duplication ends in one distal segment, so it does not create a second low opening.",
       "choice_rationales": [
-        "Two upper ureteral channels are visible on the affected side. This choice describes a single ureter (no duplication).",
-        "E clearly shows a Y-shaped junction before the bladder. This choice describes complete ureteral duplication in both.",
-        "The duplicated ureters in D remain separate to the bladder, whereas those in E join into a single distal segment. This choice describes duplicated ureters with distal fusion (partial duplication) in one and complete duplication in the other, which is what the image shows.",
-        "D shows two separate distal ureters and E shows distal fusion, so this choice reverses the two panels. This choice describes the reverse arrangement of complete and partial duplication."
+        "Failure of the bud to branch causes dysplasia or agenesis, not a duplicated system.",
+        "A partial duplication has one distal segment, so it has no second abnormal opening to leak urine.",
+        "The lecture says the abnormal bud descends with the mesonephric duct and opens in the urethra, vagina, or vestibule.",
+        "A ureteric bud that never split would give one ureter, so no duplication would be seen."
       ],
-      "tested_concept": "Complete versus partial ureteral duplication",
+      "tested_concept": "Which pattern could explain her constant leakage, and what is the developmental basis?",
       "panels": "joint",
       "question_id": "q-68ff2bb7ca7a2f09b884",
       "source_id": "s-2606b79db47557de0ff7",
@@ -1596,28 +1597,29 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 4-year-old girl dribbles urine all day even though she also voids normally. An ultrasound shows a duplicated collecting system on one side. The teaching specimens compared in panels D and E show two patterns of ureteral duplication. In D the two ureters stay separate all the way to the bladder, and in E they join into a single distal segment.",
+      "study_skill": "interpretation",
       "condition_name": "Ureteral duplication",
-      "condition_overview": "Ureteral duplication results from early or double branching of the ureteric bud. Partial duplication has two ureters that join before the bladder, and complete duplication has two separate ureters with separate bladder openings. In complete duplication the upper-pole ureter inserts lower and medially (Weigert-Meyer rule) and tends to be obstructed, while the lower-pole ureter inserts higher and tends to reflux. It predisposes to infection and hydronephrosis."
+      "condition_overview": "Ureteral duplication results from early or double branching of the ureteric bud. Partial duplication has two ureters that join before the bladder, and complete duplication has two separate ureters with separate bladder openings. In complete duplication the upper-pole ureter inserts lower and medially (Weigert-Meyer rule) and tends to be obstructed, while the lower-pole ureter inserts higher and tends to reflux. It predisposes to infection and hydronephrosis.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which congenital renal configuration is demonstrated by the complete specimen?",
+      "stem": "Which developmental event best explains both the fusion and the low position?",
       "options": [
-        "Duplicated bladder",
-        "Horseshoe kidney",
-        "Two completely separate kidneys",
-        "Unilateral renal agenesis"
+        "Accessory renal arteries persisted and tethered the kidneys to the pelvis",
+        "The lower poles fused as the kidneys passed through the arterial fork of the umbilical arteries, and the root of the inferior mesenteric artery then blocked further ascent",
+        "Cysts developed from the collecting ducts and pushed the kidneys together",
+        "The ureteric bud failed to contact the metanephric mesoderm, so one kidney never formed"
       ],
       "correct_index": 1,
-      "explanation": "The two renal masses are joined across the midline by a broad inferior bridge. An isthmus visibly connects the two sides.",
+      "explanation": "Step 1. A band of renal tissue joining the lower poles is a horseshoe kidney. Step 2. The lecture explains that during ascent the kidneys pass through the arterial fork formed by the umbilical arteries and can be pushed so close that the lower poles fuse. The isthmus then catches on the root of the inferior mesenteric artery, which prevents ascent, so the kidney sits low, and the ureters pass ventral to the isthmus. It occurs in about 1 in 600 people.",
       "choice_rationales": [
-        "The specimen shows renal tissue rather than two bladders. This choice describes a duplicated bladder.",
-        "The two renal masses are joined across the midline by a broad inferior bridge. This choice describes horseshoe kidney, which is what the image shows.",
-        "An isthmus visibly connects the two sides. This choice describes two separate normal kidneys.",
-        "Two renal masses are present. This choice describes unilateral renal agenesis."
+        "Accessory arteries are a common finding from embryonic vessels but do not fuse or lower the kidneys.",
+        "Lower pole fusion in the arterial fork plus arrest under the inferior mesenteric artery explains fusion and low position.",
+        "Collecting duct cysts describe polycystic disease, which enlarges the kidneys without joining them.",
+        "Failed bud and mesoderm interaction produces agenesis or hypoplasia, not a fused pair."
       ],
-      "tested_concept": "Horseshoe kidney",
+      "tested_concept": "Which developmental event best explains both the fusion and the low position?",
       "question_id": "q-8808fba90e48054ec6fe",
       "source_id": "s-d56531ba44451b89cf38",
       "source_group_id": "g-8ad2bea348638e8d049a",
@@ -1645,10 +1647,11 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 31-year-old man has a CT for abdominal pain. The study shows the two kidneys joined across the midline by a broad band of renal tissue in front of the aorta. Both lie lower than usual, at the level of the lower lumbar vertebrae.",
+      "study_skill": "interpretation",
       "condition_name": "Horseshoe kidney",
-      "condition_overview": "Horseshoe kidney is a congenital fusion of the lower poles of the two kidneys across the midline by an isthmus, usually located low in the abdomen because the isthmus is trapped beneath the inferior mesenteric artery during ascent. It is the most common renal fusion anomaly and is associated with Turner syndrome. Most patients are asymptomatic, but ureteropelvic obstruction, infection, and stones are more common."
+      "condition_overview": "Horseshoe kidney is a congenital fusion of the lower poles of the two kidneys across the midline by an isthmus, usually located low in the abdomen because the isthmus is trapped beneath the inferior mesenteric artery during ascent. It is the most common renal fusion anomaly and is associated with Turner syndrome. Most patients are asymptomatic, but ureteropelvic obstruction, infection, and stones are more common.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "At which level of the HPG axis is her defect, and which of the listed diagnoses best explains it?",
@@ -9010,20 +9013,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which gross change is visible across both pieces of this supplied fetal kidney specimen?",
+      "stem": "Which diagnosis and cyst origin fit this infant, and what would the lecture predict about the clinical course?",
       "options": [
-        "A fused bridge joining two separate kidneys",
-        "An isolated elongated solid tumor without cysts",
-        "Numerous small cystic spaces throughout the renal tissue",
-        "One solitary smooth cyst within otherwise solid renal tissue"
+        "Autosomal recessive polycystic kidney disease, with cysts from collecting ducts and renal failure in infancy or childhood",
+        "Autosomal dominant polycystic kidney disease, with cysts from all nephron segments and renal failure that usually appears only in adulthood",
+        "Multicystic dysplastic kidney, in which nephrons fail to develop and the ureteric bud fails to branch",
+        "Bilateral renal agenesis, with absent kidneys and Potter sequence"
       ],
-      "correct_index": 2,
-      "explanation": "Multiple small rounded spaces are scattered in both pieces. The paired pieces do not show an isthmus joining separate kidneys.",
+      "correct_index": 0,
+      "explanation": "Step 1. Very large kidneys covered with many small cysts in a newborn point to polycystic kidney disease. Step 2. The lecture links the recessive form (about 1 in 6,000 births) to cysts from collecting ducts, very large kidneys, and renal failure in infancy or childhood. The dominant form arises from all nephron segments and usually spares kidney function until adulthood. Both are ciliopathies from mutations in cilia proteins. Healthy parents and neonatal presentation favor the recessive form.",
       "choice_rationales": [
-        "The paired pieces do not show an isthmus joining separate kidneys. This choice describes horseshoe kidney.",
-        "The repeated small rounded spaces give the cut surface a cystic pattern. This choice describes a renal tumor such as Wilms tumor.",
-        "Multiple small rounded spaces are scattered in both pieces. This choice describes multicystic dysplastic kidney or polycystic kidney disease, which is what the image shows.",
-        "The small spaces are distributed across both pieces rather than forming one isolated cavity. This choice describes a simple renal cyst."
+        "Collecting duct cysts, big kidneys, and early renal failure describe the recessive disease.",
+        "The dominant form arises from all nephron segments and usually causes failure only in adulthood.",
+        "In multicystic dysplasia the bud fails to branch and nephrons fail to form, so large cystic organs are not expected.",
+        "Bilateral agenesis leaves no kidney tissue, giving anuria, oligohydramnios, and hypoplastic lungs."
       ],
       "visual_clues": [
         "Multiple small rounded spaces are scattered in both pieces.",
@@ -9033,7 +9036,7 @@
       "source_id": "s-5568686f3738193a838d",
       "source_group_id": "g-add6d561c7996789a304",
       "variant_id": "v-6790db96a4d400ac9710",
-      "tested_concept": "Fetal polycystic kidney gross appearance",
+      "tested_concept": "Which diagnosis and cyst origin fit this infant, and what would the lecture predict about the clinical course?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R8",
@@ -9054,26 +9057,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A term newborn has large palpable flank masses and does not pass urine well. The kidneys at autopsy are enlarged, and the surface view of a fetal kidney from the series shows many small cysts. Both parents are healthy.",
+      "study_skill": "interpretation",
       "condition_name": "Polycystic kidney disease",
-      "condition_overview": "Polycystic and multicystic kidney diseases are renal developmental or inherited disorders with numerous cysts in the kidneys. Autosomal recessive polycystic kidney disease presents in the fetus or neonate with greatly enlarged kidneys, pulmonary hypoplasia, and hepatic fibrosis. Multicystic dysplastic kidney is a nonfunctioning kidney replaced by cysts of variable size. Imaging shows many cysts throughout the renal tissue."
+      "condition_overview": "Polycystic and multicystic kidney diseases are renal developmental or inherited disorders with numerous cysts in the kidneys. Autosomal recessive polycystic kidney disease presents in the fetus or neonate with greatly enlarged kidneys, pulmonary hypoplasia, and hepatic fibrosis. Multicystic dysplastic kidney is a nonfunctioning kidney replaced by cysts of variable size. Imaging shows many cysts throughout the renal tissue.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Compare the 10–11 week panels. Which difference is visible near the urethral folds?",
+      "stem": "What would you expect in this fetus compared with the typical male panel?",
       "options": [
-        "The upper panel shows midline joining while the lower retains separate folds",
-        "The lower panel shows midline joining while the upper panel retains separate folds",
-        "Both panels show the same complete midline joining of the folds",
-        "Both panels lack any visible urethral folds"
+        "The folds join early, because the lack of DHT removes the signal that holds them open",
+        "The scrotal swellings become the labia majora and the urethral folds fuse, because the tubercle becomes a clitoris",
+        "The urethral folds join normally, because testosterone alone completes closure",
+        "The urethral folds stay separate like the female panel, because DHT acting through the androgen receptor drives phallic elongation and fold closure"
       ],
-      "correct_index": 0,
-      "explanation": "The later male panel shows the ventral folds approaching and joining at the midline. The later female panel retains separated folds. The separation is more evident in the lower later panel.",
+      "correct_index": 3,
+      "explanation": "Step 1. The lecture states that circulating testosterone is converted by 5-alpha-reductase to DHT, which acts through the androgen receptor to masculinize the external genitalia. Step 2. Masculinization means rapid elongation of the phallus, which pulls the urethral folds forward to form the urethral groove, and the folds then close over the urethral plate to form the penile urethra by the end of the third month. Without DHT the folds would be expected to stay open as in the female panel, an inference from that mechanism.",
       "choice_rationales": [
-        "The later male panel shows the ventral folds approaching and joining at the midline. The later female panel retains separated folds. This choice describes normal fusion of urethral folds in the upper panel with persistent separation in the lower (hypospadias-type delay), which is what the image shows.",
-        "The separation is more evident in the lower later panel. This choice describes fusion in the lower panel with persistent separation in the upper.",
-        "The two late panels show different midline configurations. This choice describes complete fusion in both.",
-        "Both panels retain visible anatomy around the area marked uf. This choice describes absent urethral folds."
+        "No signal holds the folds open, and lacking DHT would delay rather than hasten midline joining.",
+        "The folds would not fuse, so the combination of fused folds with female structures does not follow.",
+        "Testosterone is converted to DHT before acting on the external genitalia, so testosterone alone is not enough.",
+        "DHT is the active androgen for phallic elongation and fold closure, so its absence leaves folds apart."
       ],
       "visual_clues": [
         "The later male panel shows the ventral folds approaching and joining at the midline. The later female panel retains separated folds.",
@@ -9083,7 +9087,7 @@
       "source_id": "s-faf850beb6f111679998",
       "source_group_id": "g-4bfe684e3635bdad76c5",
       "variant_id": "v-2811c288d1985ed0e9fe",
-      "tested_concept": "Urethral fold changes in external genital development",
+      "tested_concept": "What would you expect in this fetus compared with the typical male panel?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R8",
@@ -9104,8 +9108,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "At 10 to 11 weeks a 46,XY fetus has testes that secrete testosterone, but a mutation prevents conversion of testosterone to dihydrotestosterone. The lecture compares the typical male external genitalia at this stage, where the ventral urethral folds approach and join at the midline, with the female panel, where the folds stay separate.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "What does the sleep related pattern reflect about the initiation of puberty?",
@@ -9206,20 +9211,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Across the numbered drawings, which visual change distinguishes stage II from stage I?",
+      "stem": "Which stage does the first boy fit, and how does the second differ?",
       "options": [
-        "Pubic hair already fills the entire adult distribution",
-        "The testes and scrotum enlarge while the penile outline changes little",
-        "The penis has already reached the mature stage V contour",
-        "The testes shrink and the scrotal outline disappears"
+        "Tanner stage 2, with the second boy at stage 3 because of larger testes and coarse dark hair",
+        "Tanner stage 1, with the second boy at stage 2",
+        "Tanner stage 2, with the second boy also at stage 2 because both have enlarged testes",
+        "Tanner stage 3, with the second boy at stage 2"
       ],
-      "correct_index": 1,
-      "explanation": "The second drawing shows a larger testicular and scrotal outline than the first while the penile outline remains similar. The scrotal outline increases rather than disappearing.",
+      "correct_index": 0,
+      "explanation": "Step 1. Stage 1 has no development, with testes of about 3 mL. Testicular and scrotal enlargement with a similar penile outline and wispy, downy hair is stage 2. Step 2. The lecture works a case with testes of about 10 mL and dark, coarse hair at the base of the penis and gives stage 3. Hair type and testicular volume therefore separate stages 2 and 3.",
       "choice_rationales": [
-        "The adult hair distribution is depicted later in the sequence. This choice describes Tanner stage V pubic hair.",
-        "The second drawing shows a larger testicular and scrotal outline than the first while the penile outline remains similar. This choice describes Tanner stage II genital development (testicular and scrotal enlargement), which is what the image shows.",
-        "The stage II penile contour is much smaller than the mature drawing in row V. This choice describes Tanner stage V penile development.",
-        "The scrotal outline increases rather than disappearing. This choice describes testicular regression."
+        "Enlarged testes and scrotum with little penile change and wispy hair indicate stage 2, and 10 mL with coarse hair is stage 3.",
+        "Stage 1 means no development, and the first boy's testes have enlarged.",
+        "Both boys do not share a stage because hair and testicular volume differ.",
+        "Stage 3 requires coarse dark hair and about 10 mL, which the first boy lacks."
       ],
       "visual_clues": [
         "The second drawing shows a larger testicular and scrotal outline than the first while the penile outline remains similar.",
@@ -9229,7 +9234,7 @@
       "source_id": "s-5a48b2ce558a87fc5007",
       "source_group_id": "g-62169c34b1cb323f736c",
       "variant_id": "v-a941df5d6d1933e62792",
-      "tested_concept": "Male genital maturity comparison",
+      "tested_concept": "Which stage does the first boy fit, and how does the second differ?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R14.2",
@@ -9250,8 +9255,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "An 11-year-old boy has larger testes and scrotum than at last year's visit, with testicular volume above 3 mL. His penis looks unchanged, and he has only wispy, light, downy pubic hair. A second boy has testes of about 10 mL with dark, coarse hair at the base of the penis.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "What are these bands, and what is the proposed consequence for her endometrium?",
@@ -9559,20 +9565,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Between weeks 14 and 22, how does the red hCG curve change relative to the black progesterone curve?",
+      "stem": "Which explanation accounts for the continued rise in progesterone as hCG falls?",
       "options": [
-        "Both curves fall",
-        "Both curves rise",
-        "hCG rises while progesterone falls",
-        "hCG falls while progesterone rises"
+        "Falling hCG shows pregnancy loss with progesterone from the old corpus luteum",
+        "The corpus luteum increases progesterone output as hCG falls",
+        "The maternal pituitary replaces hCG with rising FSH to drive progesterone",
+        "The placenta releases estrogen and progesterone, so hormone output no longer depends on the earlier hCG signal"
       ],
       "correct_index": 3,
-      "explanation": "The red curve descends over this interval, while the black curve slopes upward. Between weeks 14 and 22 hCG falls and progesterone rises, so this choice reverses both trends.",
+      "explanation": "Step 1. The red curve falls over weeks 14 to 22 while the black progesterone curve rises. Step 2. The lecture describes the placenta releasing estrogen and progesterone and shifting the estrogen to progesterone ratio near term, so late pregnancy hormone support is placental. The role of hCG in sustaining the corpus luteum is general physiology that this lecture graph implies rather than states.",
       "choice_rationales": [
-        "The black progesterone curve rises over the interval. This choice describes a fall in both hCG and progesterone.",
-        "The red hCG curve is already past its peak and descends. This choice describes a rise in both hCG and progesterone.",
-        "Between weeks 14 and 22 hCG falls and progesterone rises, so this choice reverses both trends. This choice describes a rise in hCG with a fall in progesterone.",
-        "The red curve descends over this interval, while the black curve slopes upward. This choice describes a fall in hCG with a rise in progesterone (placental takeover of progesterone), which is what the image shows."
+        "Rising progesterone and a normal ongoing pregnancy do not indicate loss.",
+        "The corpus luteum would not be driven upward by falling hCG.",
+        "FSH does not replace hCG in sustaining pregnancy hormone output.",
+        "The placenta supplies progesterone and estrogen, so rising levels with falling hCG are expected."
       ],
       "visual_clues": [
         "The red curve descends over this interval, while the black curve slopes upward.",
@@ -9582,7 +9588,7 @@
       "source_id": "s-d06436104ce0d68cd339",
       "source_group_id": "g-30d4a3847b1a7fada26f",
       "variant_id": "v-bc818fac61a0f0569778",
-      "tested_concept": "Midpregnancy hormone trend comparison",
+      "tested_concept": "Which explanation accounts for the continued rise in progesterone as hCG falls?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R14.1",
@@ -9603,8 +9609,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A healthy 30-year-old woman has a normal pregnancy. Serial measurements are plotted for hCG (red), estrogen, and progesterone (black). Between weeks 14 and 22 her hCG falls while her progesterone and estrogen keep rising, and the pregnancy continues normally.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which zone of the gland is the usual origin of this process, and why does it cause obstruction?",
@@ -12898,20 +12905,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "What finding dominates the lower abdomen on this sagittal CT?",
+      "stem": "Which type of incontinence is this, and what does the lecture list for its management?",
       "options": [
-        "A small collapsed bladder below the pelvic floor",
-        "A gas-filled structure inside the spinal canal",
-        "Multiple separate thin-walled renal cysts",
-        "A markedly enlarged fluid-filled bladder extending upward"
+        "Stress incontinence, treated with an alpha agonist such as pseudoephedrine",
+        "Overflow incontinence, for which no drug is effective, so the obstruction is treated surgically or the bladder is emptied with patient-inserted clean catheters",
+        "Urge incontinence, treated with a drug that raises detrusor activity",
+        "Incontinence from a fistula, treated with topical estrogen"
       ],
-      "correct_index": 3,
-      "explanation": "The fluid-filled structure is continuous with the bladder and extends well above the pelvis. This degree of bladder distension is the imaging clue to urinary retention in the lecture case. The large collection is continuous with the bladder and rises above its usual pelvic location.",
+      "correct_index": 1,
+      "explanation": "Step 1. A distended, fluid-filled bladder with retention and constant small leaks is overflow incontinence from outflow obstruction, here likely BPH (an inference from age and symptoms). Step 2. The pharmacology lecture states that no drugs are effective for urinary overflow incontinence and that obstruction from BPH can be treated with drugs or by surgery to remove the blockage, or with clean catheters to allow voiding as needed.",
       "choice_rationales": [
-        "The large collection is continuous with the bladder and rises above its usual pelvic location. This choice describes a collapsed bladder.",
-        "The low-density collection follows the anterior bladder contour rather than the spinal canal. This choice describes a gas collection in the spinal canal.",
-        "The image shows one large distended pelvic viscus rather than several renal cysts. This choice describes polycystic kidneys.",
-        "The fluid-filled structure is continuous with the bladder and extends well above the pelvis. This degree of bladder distension is the imaging clue to urinary retention in the lecture case. This choice describes urinary retention with a distended bladder, which is what the image shows."
+        "Stress leakage occurs under raised abdominal pressure and does not accompany a distended bladder.",
+        "Overflow incontinence has no effective drug, so relief of obstruction or catheterization is used.",
+        "Urge incontinence comes from detrusor overactivity, and raising detrusor activity would worsen it.",
+        "A fistula does not explain a distended bladder with retention, and estrogen would not relieve obstruction."
       ],
       "visual_clues": [
         "A markedly distended bladder rises above the pelvis rather than remaining low and nearly empty."
@@ -12920,7 +12927,7 @@
       "source_id": "s-70080fe33ecd76b7a054",
       "source_group_id": "g-eb349be0a37bbdab8c40",
       "variant_id": "v-44c10a48bfae2f5c1396",
-      "tested_concept": "Bladder distention sagittal CT",
+      "tested_concept": "Which type of incontinence is this, and what does the lecture list for its management?",
       "question_type": "Visual interpretation",
       "category": "CT",
       "collection": "R23",
@@ -12945,26 +12952,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
+      "case_context": "A 72-year-old man has a weak, interrupted urinary stream and incomplete emptying for 2 years. He now cannot void and has lower abdominal fullness. A sagittal CT shows a markedly enlarged fluid-filled bladder rising above the pelvis. A year later he leaks small amounts of urine constantly while the bladder stays distended.",
       "study_skill": "interpretation",
       "condition_name": "Urinary retention with bladder overdistension",
-      "condition_overview": "Urinary retention is inability to empty the bladder, producing a markedly enlarged fluid-filled bladder that extends upward into the abdomen. Causes include outlet obstruction (benign prostatic hyperplasia, stricture), neurogenic bladder, and medications. Chronic retention causes overflow incontinence, infection, and hydronephrosis. Treatment is catheter drainage and relief of the cause."
+      "condition_overview": "Urinary retention is inability to empty the bladder, producing a markedly enlarged fluid-filled bladder that extends upward into the abdomen. Causes include outlet obstruction (benign prostatic hyperplasia, stricture), neurogenic bladder, and medications. Chronic retention causes overflow incontinence, infection, and hydronephrosis. Treatment is catheter drainage and relief of the cause.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which relationship is shown between the purple arrow and the drops below the bladder?",
+      "stem": "Which mechanism explains her leakage, and which drug class acts on it?",
       "options": [
-        "The arrow and the drops are both inside the ureter",
-        "Pressure is applied from above while urine escapes at the outlet",
-        "Urine rises from the outlet into the bladder",
-        "The arrow represents drainage from the kidney into a collection bag"
+        "Detrusor overactivity with strong urgency, so an alpha agonist is indicated",
+        "Overflow from a distended bladder, so a drug that shrinks the prostate is indicated",
+        "Absent external sphincter innervation, so an acetylcholine agonist is indicated",
+        "Weak urethral support and sphincter closure fail under raised abdominal pressure, so an alpha agonist that increases urethral sphincter tone may help modestly"
       ],
-      "correct_index": 1,
-      "explanation": "The downward arrow represents increased abdominal pressure. Urine leaks because the support around the urethra is too weak to maintain closure under that pressure. The lecture calls this stress urinary incontinence, a failure of storage. The drops point out of the bladder, consistent with leakage during the depicted pressure.",
+      "correct_index": 3,
+      "explanation": "Step 1. Leakage with cough or lifting and normal emptying is stress urinary incontinence, a failure of storage in which the support around the urethra is too weak to keep it closed under pressure. Pregnancy, vaginal delivery, and menopause are listed risk factors. Step 2. The pharmacology lecture lists pseudoephedrine, an alpha agonist that may modestly raise urethral sphincter tone, and duloxetine, an SNRI, among options.",
       "choice_rationales": [
-        "The arrow represents pressure above the bladder and the drops are below its outlet. This choice describes ureteral reflux.",
-        "The downward arrow represents increased abdominal pressure. Urine leaks because the support around the urethra is too weak to maintain closure under that pressure. The lecture calls this stress urinary incontinence, a failure of storage. This choice describes overflow incontinence (urine escapes under pressure at the outlet), which is what the image shows.",
-        "The drops point out of the bladder, consistent with leakage during the depicted pressure. This choice describes retrograde flow into the bladder.",
-        "The diagram shows drops at the urethral outlet without any external bag. This choice describes renal drainage."
+        "Urgency with detrusor overactivity is the overactive bladder pattern, which she does not have.",
+        "Overflow requires a distended bladder, and she empties fully.",
+        "The external sphincter is under voluntary pudendal control, and the problem is weak support, not absent nerve supply.",
+        "Stress incontinence is a storage failure of the urethral outlet under pressure, and raising sphincter tone is the target."
       ],
       "visual_clues": [
         "Pressure on the bladder coincides with leakage at the urethral outlet. This is the mechanism to recognize."
@@ -12973,7 +12981,7 @@
       "source_id": "s-efac64e62dea5483ec3a",
       "source_group_id": "g-bb76db3770cfb1af2f65",
       "variant_id": "v-0a8370ee25646e0641de",
-      "tested_concept": "Stress leakage diagram pressure direction",
+      "tested_concept": "Which mechanism explains her leakage, and which drug class acts on it?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R23",
@@ -12998,26 +13006,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 45-year-old woman who delivered three children vaginally leaks small amounts of urine when she coughs or lifts. She has no urgency and empties her bladder fully. A teaching diagram shows a downward arrow of abdominal pressure above the bladder and urine escaping at the outlet.",
+      "study_skill": "interpretation",
       "condition_name": "Stress urinary incontinence",
-      "condition_overview": "Stress urinary incontinence is involuntary urine leakage with increased abdominal pressure from coughing or sneezing, caused by weak pelvic floor support or an incompetent urethral sphincter. The urethra descends so pressure transmits to the bladder but not to the urethra. It is common after childbirth and with aging, and treatment includes pelvic floor exercises and surgical sling procedures."
+      "condition_overview": "Stress urinary incontinence is involuntary urine leakage with increased abdominal pressure from coughing or sneezing, caused by weak pelvic floor support or an incompetent urethral sphincter. The urethra descends so pressure transmits to the bladder but not to the urethra. It is common after childbirth and with aging, and treatment includes pelvic floor exercises and surgical sling procedures.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Compare the two tract diagrams. What structure surrounds the outlet immediately below the bladder in the male drawing?",
+      "stem": "Why does enlargement of this gland cause his symptoms, and which drug shrinks it over weeks?",
       "options": [
-        "The prostate around the proximal urethra",
-        "One of the paired kidneys",
-        "The distal end of a ureter entering from above",
-        "The upper bladder wall"
+        "The prostate surrounds the proximal urethra, and tamsulosin shrinks the gland over weeks",
+        "The prostate surrounds the proximal urethra and narrows the outlet, and a 5-alpha-reductase inhibitor such as finasteride blocks conversion of testosterone to DHT",
+        "The seminal vesicles surround the urethra, and finasteride relaxes the urethral smooth muscle",
+        "The prostate lies away from the urethra and compresses the bladder wall, and tamsulosin shrinks it"
       ],
-      "correct_index": 0,
-      "explanation": "The male diagram shows a gland around the short outlet segment below the bladder. The surrounding gland is outside the bladder wall at its outlet.",
+      "correct_index": 1,
+      "explanation": "Step 1. The male diagram places the prostate around the short outlet segment, the proximal urethra, so enlargement narrows that segment and produces a weak, erratic stream with incomplete emptying. Step 2. The pharmacology lecture lists finasteride and dutasteride as 5-alpha-reductase inhibitors that block testosterone conversion to DHT, reducing hypertrophy over weeks. Tamsulosin is an alpha-1A/1D antagonist that may work quickly.",
       "choice_rationales": [
-        "The male diagram shows a gland around the short outlet segment below the bladder. This choice describes the prostate around the proximal urethra, which is what the image shows.",
-        "Both kidneys are drawn well above the bladder. This choice describes the kidney.",
-        "The ureters enter the bladder from above; the outlet structure surrounds the urethra below it. This choice describes a distal ureter.",
-        "The surrounding gland is outside the bladder wall at its outlet. This choice describes the bladder dome."
+        "Tamsulosin is an alpha blocker that acts quickly rather than shrinking the gland over weeks.",
+        "The gland encircles the proximal urethra, and 5-alpha-reductase inhibitors reduce DHT and hypertrophy slowly.",
+        "The prostate, not the seminal vesicles, surrounds the proximal urethra, and finasteride does not relax smooth muscle.",
+        "The prostate sits at the outlet, and tamsulosin does not shrink it."
       ],
       "visual_clues": [
         "The male diagram shows a gland around the short outlet segment below the bladder.",
@@ -13027,7 +13036,7 @@
       "source_id": "s-28035d5e8eae67a64f5d",
       "source_group_id": "g-96ab4eb65f2193048177",
       "variant_id": "v-86d1bd69ec49b1fc84f9",
-      "tested_concept": "Urinary tract comparison prostate position",
+      "tested_concept": "Why does enlargement of this gland cause his symptoms, and which drug shrinks it over weeks?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R24",
@@ -13048,24 +13057,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 66-year-old man has a weak, erratic urine stream and a feeling that his bladder never empties fully. A diagram of the male urinary tract shows a gland encircling the first segment of the urethra just below the bladder.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which two activated clotting factors are shown as inactivated at the right side of the pathway?",
+      "stem": "Which two activated factors does this pathway normally inactivate, so that a defect at this step raises clot risk?",
       "options": [
-        "Thrombin and thrombomodulin",
-        "Protein C and protein S",
-        "Va and VIIIa",
-        "IXa and Xa"
+        "Factors IXa and Xa",
+        "Factors XIa and XIIa",
+        "Factors Va and VIIIa",
+        "Thrombin and thrombomodulin"
       ],
       "correct_index": 2,
-      "explanation": "Activated protein C (APC) acts with protein S to inactivate factors Va and VIIIa. These are the two factors carried from the complexes in the center to the masked endpoints on the right. Thrombin and thrombomodulin are drawn upstream in the protein C activation pathway.",
+      "explanation": "Step 1. Thrombin bound to thrombomodulin activates protein C, and activated protein C (APC) with protein S inactivates factors Va and VIIIa. Step 2. When this brake is impaired, as with a Factor V Leiden variant, clot formation is less restrained. The pharmacology lecture names Factor V Leiden among the genetic variants at greatest risk for venous thromboembolism with estrogen, so estrogen plus the variant explains her DVT. The link between Factor V Leiden and APC resistance is general physiology not detailed in that lecture.",
       "choice_rationales": [
-        "Thrombin and thrombomodulin are drawn upstream in the protein C activation pathway. This choice describes thrombomodulin-related inactivation.",
-        "Protein C and protein S participate in inactivation; they are not the two inactivated factors at the arrow tips. This choice describes inactivation by protein C and protein S (the proteins themselves).",
-        "Activated protein C (APC) acts with protein S to inactivate factors Va and VIIIa. These are the two factors carried from the complexes in the center to the masked endpoints on the right. This choice describes inactivation of factors Va and VIIIa by activated protein C, which is what the image shows.",
-        "IXa and Xa do not occupy the two labeled inactivated endpoints. This choice describes factor IXa and Xa."
+        "IXa and Xa are enzymes of the clotting cascade, not the targets of APC in the pictured pathway.",
+        "XIa and XIIa belong to the contact side of the cascade and are not inactivated by APC.",
+        "APC with protein S inactivates Va and VIIIa, the cofactors that amplify thrombin generation.",
+        "Thrombin and thrombomodulin sit upstream, since they activate protein C rather than being inactivated."
       ],
       "visual_clues": [
         "Follow the APC branches from the two surface complexes to the masked endpoints."
@@ -13074,7 +13084,7 @@
       "source_id": "s-7a1bab4502204743a793",
       "source_group_id": "g-441bae5fde7f56dd0fe9",
       "variant_id": "v-a39dd36eaa9307be71eb",
-      "tested_concept": "Activated protein C two targets in diagram",
+      "tested_concept": "Which two activated factors does this pathway normally inactivate, so that a defect at this step raises clot risk?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R25",
@@ -13095,8 +13105,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 24-year-old woman taking ethinyl estradiol in a combined oral contraceptive develops a swollen, painful calf and is found to have a deep vein thrombosis. Testing shows a Factor V Leiden variant. A teaching diagram shows thrombin binding thrombomodulin, protein C activation, and activated protein C with protein S inactivating two activated clotting factors at the end of the pathway.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which structure do these cysts arise from, and what is their cancer risk?",
@@ -17836,7 +17847,7 @@
       "asset_id": "a-d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba",
       "variant_id": "v-1e737882bf829c11aaf2",
       "question_type": "Visual interpretation",
-      "tested_concept": "FSH and estradiol trajectories",
+      "tested_concept": "Which statement explains the FSH trend on that graph and how useful a single hormone panel is during this transition?",
       "visual_target": "FSH and estradiol trajectories",
       "category": "Graphs",
       "collection": "R30",
@@ -17845,21 +17856,21 @@
       "zoom_image": "assets/zoom/ba6e2106cbdcdf46932f01c3f75e2a2fbe544eb3293030129e52a86e11af69f3.webp",
       "original_image": "assets/zoom/ba6e2106cbdcdf46932f01c3f75e2a2fbe544eb3293030129e52a86e11af69f3.webp",
       "original_filename": "FSH and Estradiol Around Final Menstrual Period - Diagram.png",
-      "stem": "What happens to the two labeled curves from approximately two years before to two years after the final menstrual period?",
+      "stem": "Which statement explains the FSH trend on that graph and how useful a single hormone panel is during this transition?",
       "options": [
-        "FSH rises and estradiol falls",
-        "FSH falls and estradiol rises",
-        "Both hormones rise over the interval",
-        "Both hormones fall over the interval"
+        "Falling ovarian estradiol removes negative feedback so FSH rises, but estradiol fluctuates unpredictably, so a single panel is not helpful and symptoms are the better marker",
+        "Falling estradiol increases pituitary inhibition so FSH falls, and one panel reliably confirms the transition",
+        "FSH stays constant while estradiol falls, so measuring estradiol alone establishes the diagnosis",
+        "Rising estradiol suppresses FSH release, and a single panel gives a firm diagnosis"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Over the interval around the final menstrual period, FSH rises and estradiol falls. The lecture relates rising gonadotropins to reduced ovarian negative feedback. This choice describes menopausal transition (rising FSH and falling estradiol), which is what the image shows.",
-        "Over the interval around the final menstrual period FSH rises and estradiol falls, so this choice reverses both curves. This choice describes a reverse hormone pattern.",
-        "FSH rises, but the E2 curve moves downward. This choice describes rising hormones.",
-        "Estradiol falls while the FSH curve rises. This choice describes falling hormones."
+        "Less estradiol means less negative feedback, so FSH rises, while fluctuating levels make one panel unreliable.",
+        "Estradiol is falling, not rising, and reduced feedback lifts FSH rather than lowering it.",
+        "FSH does not stay flat, because loss of feedback pushes it upward.",
+        "Estradiol is not rising here, and the lecture says a panel is not helpful for diagnosis."
       ],
-      "explanation": "Over the interval around the final menstrual period, FSH rises and estradiol falls. The lecture relates rising gonadotropins to reduced ovarian negative feedback. Over the interval around the final menstrual period FSH rises and estradiol falls, so this choice reverses both curves.",
+      "explanation": "Step 1. Across the final menstrual period estradiol production by the ovary falls and FSH rises, because less estradiol means less negative feedback on the hypothalamic and pituitary axis. Step 2. The lecture adds that during perimenopause estradiol is unpredictable and fluctuates, so measuring FSH and estradiol is not helpful for diagnosis and symptoms are a better marker. The pattern is a rising FSH with falling estradiol, but individual values can swing from visit to visit.",
       "visual_clues": [
         "Locate zero on the time axis and follow each labeled curve across it."
       ],
@@ -17878,7 +17889,9 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Menopause",
-      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients."
+      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients.",
+      "case_context": "A 49-year-old woman has irregular cycles, hot flashes, and night sweats. She asks whether a blood panel will confirm that she is entering the menopause transition. Her clinician shows a graph of FSH and estradiol from about two years before to two years after the final menstrual period.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-epithelium",
@@ -17887,7 +17900,7 @@
       "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
       "variant_id": "v-af21e15a60392d3dd4cf",
       "question_type": "Visual interpretation",
-      "tested_concept": "Epithelial response to low estrogen",
+      "tested_concept": "Which histologic change explains her symptoms, and which treatment addresses the cause?",
       "visual_target": "Epithelial response to low estrogen",
       "category": "Diagram",
       "collection": "R30",
@@ -17896,21 +17909,21 @@
       "zoom_image": "assets/zoom/fefb78268fa20e50d1f4a720a59670d2fee615f304a60aea2e0d70bf9226759f.webp",
       "original_image": "assets/zoom/f0a2d277a93d894a0f7062a678e60b6a5a9367cc16675b063a133020f1ccab8e.webp",
       "original_filename": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
-      "stem": "Which structural change distinguishes the right-hand panel from the left?",
+      "stem": "Which histologic change explains her symptoms, and which treatment addresses the cause?",
       "options": [
-        "A thicker epithelium with more cell layers",
-        "A deeper and more undulating epithelial interface",
-        "Complete absence of surface epithelium",
-        "A thinner epithelial layer with fewer cell layers"
+        "A thinner epithelium with fewer cell layers from excess androgen, treated with an antiandrogen",
+        "A thicker epithelium with more cell layers from low estrogen, treated with topical vaginal estrogen",
+        "A thinner epithelium from high FSH, treated with a GnRH agonist",
+        "A thinner epithelium with fewer cell layers from low estrogen, treated with topical vaginal estrogen"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The right-hand panel has a thinner epithelial layer with fewer cell layers, so a thicker layer describes the other panel. This choice describes epithelial hyperplasia.",
-        "The right interface is comparatively flat. This choice describes rete ridge deepening.",
-        "An epithelial layer remains visible on the right. This choice describes epithelial loss.",
-        "The right-hand panel has a thinner epithelial layer with fewer cell layers and a flatter interface. The lecture identifies it as the low-estrogen postmenopausal illustration. This choice describes atrophic epithelium (genitourinary syndrome of menopause or lichen sclerosus), which is what the image shows."
+        "Menopause lowers estrogen, and an antiandrogen would not replace it.",
+        "Low estrogen thins the epithelium, so a thicker layer reverses the finding.",
+        "FSH rises after menopause but is not the cause, and a GnRH agonist would deepen estrogen suppression.",
+        "Thin epithelium from estrogen loss is treated by replacing estrogen locally."
       ],
-      "explanation": "The right-hand panel has a thinner epithelial layer with fewer cell layers and a flatter interface. The lecture identifies it as the low-estrogen postmenopausal illustration. The right-hand panel has a thinner epithelial layer with fewer cell layers, so a thicker layer describes the other panel.",
+      "explanation": "Step 1. The right panel is the low estrogen postmenopausal illustration with a thinner epithelial layer and fewer cell layers, which fits atrophic vaginitis. Step 2. Because the cause is estrogen deficiency, replacing estrogen locally treats it, and the pharmacology lecture lists topical estrogen by vaginal tablets or creams for postmenopausal urogenital symptoms. A GnRH agonist would suppress rather than restore estrogen.",
       "visual_clues": [
         "Compare the thickness of the cellular layer above the pink supporting tissue."
       ],
@@ -17927,7 +17940,9 @@
           "page": 4
         }
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "case_context": "A 58-year-old woman has vaginal dryness and painful intercourse. She has not had a menstrual period for 6 years. A teaching slide compares premenopausal vaginal epithelium (left) with the postmenopausal epithelium (right).",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-aromatase-branch",
@@ -18708,27 +18723,27 @@
       "question_id": "q-reasoning-distinguish-ovarian-failure",
       "collection": "R30",
       "question_type": "Visual reasoning",
-      "tested_concept": "Distinguish ovarian failure",
+      "tested_concept": "Which hormone pattern distinguishes the runner from the woman in the ovarian transition?",
       "visual_target": "Which pairing fits the pictured site of suppression and distinguishes it from the lecture's ovarian transition?",
-      "stem": "Which pairing fits the pictured site of suppression and distinguishes it from the lecture's ovarian transition?",
+      "stem": "Which hormone pattern distinguishes the runner from the woman in the ovarian transition?",
       "options": [
-        "High FSH with low estradiol",
-        "Low or normal FSH with low estradiol",
-        "High FSH with high estradiol",
-        "Low FSH with high estradiol"
+        "Raised FSH with low estradiol in the runner, versus low FSH in the 51-year-old",
+        "Low FSH with high estradiol in the runner, versus normal FSH in the 51-year-old",
+        "Low or normal FSH with low estradiol in the runner, versus raised FSH with low estradiol in the 51-year-old",
+        "Raised FSH with raised estradiol in both"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "That combination resembles the lecture's ovarian transition, where reduced ovarian feedback raises FSH. This choice describes primary ovarian insufficiency or menopause.",
-        "The mark lies at the hypothalamic output. Reduced central drive predicts low LH and low estradiol, with FSH low or normal. The ovarian transition instead shows rising FSH as estradiol falls. This choice describes hypothalamic or pituitary suppression (low or normal FSH with low estradiol), which is what the image shows.",
-        "The mark indicates reduced central stimulation, and the lecture depicts lower estradiol. This choice describes a high FSH and high estradiol state.",
-        "The low central stimulation does not produce higher estradiol in the pictured case. This choice describes hyperestrogenic state with low FSH."
+        "Raised FSH would mean the ovary is failing and the brain is responding, which is the other patient.",
+        "Low central stimulation cannot give high estradiol, so this pairing does not fit either patient.",
+        "Central suppression gives low or normal FSH with low estradiol, unlike the rising FSH of ovarian transition.",
+        "High estradiol would not produce amenorrhea from low drive, and both patients have low estradiol."
       ],
-      "explanation": "The mark lies at the hypothalamic output. Reduced central drive predicts low LH and low estradiol, with FSH low or normal. The ovarian transition instead shows rising FSH as estradiol falls. The low central stimulation does not produce higher estradiol in the pictured case.",
+      "explanation": "Step 1. Reduced hypothalamic drive in functional hypothalamic amenorrhea (stress or energy deficiency) lowers central stimulation, so LH and estradiol are low and FSH is low or normal. Step 2. In the ovarian transition falling estradiol removes negative feedback, so FSH rises. Both patients have low estradiol, so FSH is what separates a central cause from an ovarian one.",
       "visual_clues": [
         "The mark lies at the hypothalamic output."
       ],
-      "reasoning_order": 3,
+      "reasoning_order": "second or third order",
       "reasoning_task": "mechanism",
       "generation_batch": "2026-11-12-visual-reasoning",
       "ground_truth_confidence": "high for the stated visual target",
@@ -18763,8 +18778,8 @@
           "page": 83
         }
       ],
-      "case_context": "An 18-year-old track athlete has had no menses for more than six months. Use the altered axis drawn in the lecture.",
-      "study_skill": "mechanism",
+      "case_context": "A 24-year-old marathon runner has had no menses for 6 months. She has lost weight, trains twice daily, and reports high stress. A 51-year-old woman has hot flashes and irregular cycles. Both have low estradiol. A teaching diagram marks the site of suppression in the first patient at the hypothalamic output.",
+      "study_skill": "interpretation",
       "condition_name": "Functional hypothalamic amenorrhea",
       "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
     },
@@ -19863,26 +19878,26 @@
     {
       "question_id": "q-r32-hydrocele-fetal",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Fetal processus vaginalis and scrotal fluid",
+      "tested_concept": "Which developmental relationship explains the fetal fluid and also predisposes to the groin bulge?",
       "visual_target": "Fetal processus vaginalis and scrotal fluid",
       "question_type": "Visual interpretation",
-      "stem": "Which developmental relationship explains the fluid in this fetal teaching example?",
+      "stem": "Which developmental relationship explains the fetal fluid and also predisposes to the groin bulge?",
       "options": [
-        "An absent tunica vaginalis forces fluid into the testicular tissue.",
-        "The ureters normally end in the developing scrotum.",
-        "A still-patent processus vaginalis permits communication during development.",
-        "A completely obliterated processus vaginalis creates an open passage."
+        "A still-patent processus vaginalis keeps a channel open between the peritoneal cavity and the scrotum, allowing fluid or bowel to enter",
+        "Fluid infiltrating the testicular parenchyma from endometrial-type tissue",
+        "Weakness of the abdominal musculature that develops with age, producing a direct hernia",
+        "Reversal of testicular descent through the patent channel, pulling the testis back into the abdomen"
       ],
       "choice_rationales": [
-        "The dark fluid surrounds rather than infiltrates the testis. This choice describes an absent tunica vaginalis.",
-        "The relevant transient communication is the processus vaginalis. This choice describes ureters in the scrotum.",
-        "The teaching slide and transcript show fluid around descended fetal testes. A patent passage is expected in this developmental example and permits continuity with peritoneal fluid. This choice describes a patent processus vaginalis (communicating hydrocele), which is what the image shows.",
-        "Obliteration interrupts the communication shown in the lecture. This choice describes an obliterated processus vaginalis."
+        "A patent processus vaginalis allows fluid or bowel to pass, explaining the hydrocele and the indirect hernia.",
+        "The fluid surrounds the testis rather than infiltrating it, and endometrial tissue is unrelated.",
+        "Direct hernias come from laxity of abdominal muscle over time, not from the processus vaginalis.",
+        "The testis is tethered by the gubernaculum and usually does not ascend, though the pathway stays open."
       ],
-      "correct_index": 2,
-      "explanation": "The teaching slide and transcript show fluid around descended fetal testes. A patent passage is expected in this developmental example and permits continuity with peritoneal fluid. The dark fluid surrounds rather than infiltrates the testis.",
+      "correct_index": 0,
+      "explanation": "Step 1. Dark fluid around, not inside, a descended testis is a hydrocele, and in the fetus a patent processus vaginalis gives continuity with peritoneal fluid. Step 2. The lecture ties indirect inguinal hernias to the same pathway, since the testis migrates and a patent processus vaginalis lets bowel herniate in. Indirect hernias are the most common type. The testis usually does not move back up because the gubernaculum tethers it.",
       "visual_clues": [
         "Look for fluid around, rather than within, the fetal testes."
       ],
@@ -19911,31 +19926,33 @@
         }
       ],
       "condition_name": "Hydrocele",
-      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair."
+      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair.",
+      "case_context": "A prenatal ultrasound at the end of pregnancy shows dark fluid surrounding descended fetal testes. A newborn boy from another family has a swelling in the scrotum and a bulge in the groin that appears when he cries. The teaching slide explains both findings from the same pathway.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-follicle-flow",
       "collection": "R32",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Perfusion comparison in resting and active ovaries",
+      "tested_concept": "Which Doppler finding marks the active ovary, and what event can follow around day 14 because of this vascular state?",
       "visual_target": "Perfusion comparison in resting and active ovaries",
       "question_type": "Visual interpretation",
-      "stem": "Which finding distinguishes the active ovary in B in this sequence?",
+      "stem": "Which Doppler finding marks the active ovary, and what event can follow around day 14 because of this vascular state?",
       "options": [
-        "The active ovary has no flow on Doppler.",
-        "The active ovary has higher resistance than the resting comparison.",
-        "The compared signals represent only uterine vessels.",
-        "The active ovary shows increased flow with a lower-resistance pattern."
+        "A high-resistance waveform with reduced flow, and gradual follicular shrinkage",
+        "Absent flow, and failure of the follicle to rupture",
+        "Increased flow with a low-resistance waveform, and rupture of the follicle that can send blood into the peritoneal cavity or into the follicle",
+        "Increased flow with a high-resistance waveform, and persistence of the follicle as a scar"
       ],
       "choice_rationales": [
-        "The second panel shows conspicuous color flow. This choice describes absent ovarian flow.",
-        "The lecture describes a shift toward lower resistance during dominant follicle development. This choice describes a high-resistance ovary.",
-        "The lecture panels compare ovarian circulation. This choice describes uterine vessels.",
-        "The resting example on the left is used as the high-resistance comparison. R32 discusses increased flow at lower resistance as the dominant follicle develops. This choice describes a hyperemic active ovary (corpus luteum or follicle), which is what the image shows."
+        "High resistance is the resting ovary's pattern, so it does not mark the active ovary.",
+        "Absent flow contradicts the markedly increased flow described for the dominant follicle.",
+        "Low resistance with high flow marks the dominant follicle, and rupture can bleed.",
+        "The active ovary shifts toward low resistance, and the follicle ruptures instead of persisting as a scar."
       ],
-      "correct_index": 3,
-      "explanation": "The resting example on the left is used as the high-resistance comparison. R32 discusses increased flow at lower resistance as the dominant follicle develops. The lecture describes a shift toward lower resistance during dominant follicle development.",
+      "correct_index": 2,
+      "explanation": "Step 1. The resting ovary has a high-resistance waveform, while the dominant follicle shifts to a low-resistance pattern with markedly increased flow. Step 2. That flow is among the highest in the body, and around day 14 the follicle is supposed to rupture. The lecture notes that blood can enter the peritoneal cavity, causing mid-cycle pain, or enter the follicle, which is a physiologic process.",
       "visual_clues": [
         "Compare the Doppler signal and waveforms between the two panels."
       ],
@@ -19962,31 +19979,33 @@
           "document": "R32 GU Radiology Cases Tran.pdf",
           "page": 11
         }
-      ]
+      ],
+      "case_context": "A 27-year-old woman has a transvaginal Doppler ultrasound on cycle day 12. One ovary is quiet. The other contains a dominant follicle. The teaching sequence labels the quiet ovary as resting and the other as active.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-uterine-infiltration",
       "collection": "R32",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Myometrial localization in the adenomyosis example",
+      "tested_concept": "Which tissue relationship explains this woman's MRI, and how does it differ from her friend's condition?",
       "visual_target": "Myometrial localization in the adenomyosis example",
       "question_type": "Visual interpretation",
-      "stem": "Which tissue relationship explains why the abnormality can involve the uterine wall?",
+      "stem": "Which tissue relationship explains this woman's MRI, and how does it differ from her friend's condition?",
       "options": [
-        "Endometrial-type tissue is within the myometrium.",
-        "Endometrial-type tissue is restricted to the ovarian surface.",
-        "A patent peritoneal tract enters the uterine cavity.",
-        "A vascular stalk projects into the uterine cavity."
+        "A smooth muscle tumor of the myometrium (fibroid), whereas her friend has tissue in the junctional zone",
+        "Endometrial tissue grows into the muscular wall of the uterus (adenomyosis), whereas her friend has endometriosis with deposits outside the uterus and a homogeneous endometrioma",
+        "Endometrial tissue is confined to the endometrium, whereas her friend has deposits in the myometrium",
+        "Endometrial tissue lines the ovarian surface (endometriosis), whereas her friend has adenomyosis in the myometrium"
       ],
       "choice_rationales": [
-        "Adenomyosis places endometrial-type tissue within the myometrium. The lecture directs attention to the uterine junctional zone in this example. This choice describes adenomyosis (endometrial tissue within the myometrium), which is what the image shows.",
-        "Ovarian surface implants would represent extrauterine endometriosis. Adenomyosis affects the muscular uterine wall in the illustrated example. This choice describes endometriosis restricted to the ovarian surface.",
-        "A patent tract describes a connection between spaces. Adenomyosis involves endometrial-type tissue within the uterine muscle at the junctional zone. This choice describes a patent peritoneal tract.",
-        "A stalk projecting into the cavity is a feature of the separate endometrial polyp example. Adenomyosis is within the myometrium. This choice describes an endometrial polyp."
+        "Fibroids are muscle tumors and do not place endometrial tissue in the junctional zone.",
+        "Adenomyosis is endometrial tissue within the uterine muscular wall.",
+        "Normal endometrium in its own layer would not alter the junctional zone.",
+        "Surface and abdominal deposits describe endometriosis, which is the friend's condition."
       ],
-      "correct_index": 0,
-      "explanation": "Adenomyosis places endometrial-type tissue within the myometrium. The lecture directs attention to the uterine junctional zone in this example. Ovarian surface implants would represent extrauterine endometriosis. Adenomyosis affects the muscular uterine wall in the illustrated example.",
+      "correct_index": 1,
+      "explanation": "Step 1. Endometrial tissue seen in the junctional zone and growing into the myometrium defines adenomyosis. Step 2. Endometriosis instead places endometrial tissue at sites throughout the abdomen, and an endometrioma appears uniformly homogeneous. The location in the uterine wall is why this patient has an enlarged, painful uterus.",
       "visual_clues": [
         "Find the inner myometrium adjacent to the endometrial lining."
       ],
@@ -20015,7 +20034,9 @@
         }
       ],
       "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "case_context": "A 42-year-old woman has heavy, painful periods and a uniformly enlarged uterus. Pelvic MRI shows abnormality in the uterine wall centered on the junctional zone. Her friend has an ovarian cyst with homogeneous contents and endometrial-type tissue at several sites in the abdomen.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-phys-feedback-switch",
