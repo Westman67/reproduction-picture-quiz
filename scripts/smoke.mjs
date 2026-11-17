@@ -28,7 +28,7 @@ try {
     const base=process.env.QUIZ_URL||await getLocalURL(server);
     browser=await chromium.launch();
     for(const bank of ['physiology','pathology','clinical-cases','combined']){
-        const page=await browser.newPage({viewport:{width:bank==='physiology'?390:1280,height:840}});
+        const page=await browser.newPage({serviceWorkers:'block',viewport:{width:bank==='physiology'?390:1280,height:840}});
         page.setDefaultTimeout(12000);
         const errors=[];
         const requested=[];
@@ -106,7 +106,7 @@ try {
         console.log(`OK ${bank}: answered, reviewed, history shown, manifest loaded on demand`);
         await page.close();
     }
-    const maskPage=await browser.newPage();
+    const maskPage=await browser.newPage({serviceWorkers:'block'});
     maskPage.setDefaultTimeout(10000);
     await maskPage.goto(new URL('?bank=physiology',base).href);
     await maskPage.locator('#start').waitFor();
@@ -128,7 +128,7 @@ try {
     await maskPage.close();
     console.log('OK R4 chart: same masked image in fit, zoom and full view; teaching original revealed afterwards');
 
-    const casePage=await browser.newPage({viewport:{width:390,height:840}});
+    const casePage=await browser.newPage({serviceWorkers:'block',viewport:{width:390,height:840}});
     casePage.setDefaultTimeout(10000);
     await casePage.addInitScript(()=>{window.confirm=()=>true;});
     await casePage.goto(new URL('?bank=clinical-cases',base).href);
