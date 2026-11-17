@@ -2528,27 +2528,27 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which description best fits the surface lining in this urinary collecting-system section?",
+      "stem": "Which feature identifies normal urothelium and is lost in carcinoma in situ?",
       "options": [
-        "Orderly multilayered urothelium with broad superficial cells",
-        "Flat urothelium with marked nuclear pleomorphism throughout",
-        "Keratinizing squamous epithelium with a surface keratin layer",
-        "Papillary urothelial fronds with fibrovascular cores"
+        "A thick keratinized surface with squamous maturation",
+        "Three to six orderly cell layers capped by surface umbrella cells without atypia",
+        "Markedly pleomorphic cells in a flat disordered layer",
+        "A single layer of columnar mucus cells"
       ],
-      "correct_index": 0,
-      "explanation": "Several orderly cell layers are capped by broad rounded superficial cells without the marked atypia of the supplied CIS example. A thick keratin layer and squamous maturation pattern are absent from this lining.",
+      "correct_index": 1,
+      "explanation": "Step 1. Several orderly layers capped by broad umbrella cells with no atypia are normal urothelium. Step 2. Flat urothelial carcinoma in situ has the same flat layout but shows marked nuclear atypia and disorder, so orderly maturation with umbrella cells argues against it.",
       "choice_rationales": [
-        "Several orderly cell layers are capped by broad rounded superficial cells without the marked atypia of the supplied CIS example. This choice describes normal urothelium, which is what the image shows.",
-        "The nuclei lack the striking size variation and disorganization shown in the supplied CIS comparison source. This choice describes urothelial carcinoma in situ.",
-        "A thick keratin layer and squamous maturation pattern are absent from this lining. This choice describes squamous metaplasia (keratinizing).",
-        "The lining follows a relatively flat surface without branching fibrovascular fronds. This choice describes papillary urothelial carcinoma."
+        "A keratinized surface describes squamous differentiation, as in squamous cell carcinoma.",
+        "Normal urothelium has 3 to 6 layers with surface umbrella cells and no atypia.",
+        "Marked pleomorphism in a flat layer is the description of carcinoma in situ.",
+        "A single columnar mucus layer describes glandular metaplasia or adenocarcinoma in situ."
       ],
       "question_id": "q-23cbabd7872c4f1b4fae",
       "source_id": "s-7a38590a71cadfd42816",
       "source_group_id": "g-10b16cb9ccd089117529",
       "variant_id": "v-c1c2c42e50fd3fccd365",
       "question_type": "Visual interpretation",
-      "tested_concept": "Preserved urothelial lining",
+      "tested_concept": "Which feature identifies normal urothelium and is lost in carcinoma in situ?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -2572,31 +2572,32 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 66-year-old man with painless hematuria undergoes cystoscopic biopsy. One field is read as normal with no cytologic or architectural atypia, and the pathologist wants a reference for what normal looks like before grading the tumor.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "How are the dark tumor nests distributed relative to the broad pink smooth muscle bundles in this bladder specimen?",
+      "stem": "What is the most appropriate management implication?",
       "options": [
-        "Tumor cells remain on the mucosal surface",
-        "Tumor cells lie below the surface but stop above muscle",
-        "Tumor cells press against muscle but remain separated from it",
-        "Tumor nests infiltrate between the smooth muscle bundles"
+        "No treatment because the tumor is non-invasive",
+        "BCG alone is sufficient",
+        "Follow-up with tumor resection alone is sufficient",
+        "Deep muscle invasion requires aggressive therapy, since extent of invasion is the most important prognostic factor"
       ],
       "correct_index": 3,
-      "explanation": "The dark epithelial nests extend among and separate broad pink smooth muscle bundles. Dark nests are present between the broad smooth muscle bundles.",
+      "explanation": "Step 1. Tumor nests among detrusor muscle bundles show invasion of the muscularis propria. Step 2. Staging at diagnosis is the most important prognostic factor, and high-grade tumors with deep muscle invasion need more aggressive treatment than non-invasive or superficially invasive ones, which are managed with resection and BCG or chemotherapy.",
       "choice_rationales": [
-        "Dark epithelial nests extend into deeper tissue. This choice describes noninvasive urothelial carcinoma (surface only).",
-        "Dark nests are present between the broad smooth muscle bundles. This choice describes invasive urothelial carcinoma into the lamina propria.",
-        "The bundles are interspersed with dark tumor nests. This choice describes a tumor abutting but not invading muscle.",
-        "The dark epithelial nests extend among and separate broad pink smooth muscle bundles. This choice describes muscle-invasive urothelial carcinoma, which is what the image shows."
+        "The tumor is invasive, so the non-invasive option is incorrect.",
+        "BCG is used for high-grade non or superficially invasive tumors.",
+        "Follow-up and resection are used for low-grade tumors.",
+        "Muscle invasion marks a higher stage and requires aggressive therapy."
       ],
       "question_id": "q-8fd0498140bd8d97530f",
       "source_id": "s-1be67aad3476dbacd061",
       "source_group_id": "g-8d190b2a70651a2a0add",
       "variant_id": "v-1e8acb809c2011c50330",
       "question_type": "Visual interpretation",
-      "tested_concept": "Urothelial tumor invading muscle bundles",
+      "tested_concept": "What is the most appropriate management implication?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -2620,33 +2621,34 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 72-year-old man with a high-grade bladder tumor undergoes cystectomy. Histology shows dark tumor nests extending between thick smooth muscle bundles of the bladder wall.",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which pattern is present in the urothelial lining of this bladder biopsy?",
+      "stem": "Which statement best reflects the clinical risk of this lesion?",
       "options": [
-        "Branching papillae with delicate fibrovascular cores",
-        "Tumor nests diffusely infiltrating thick muscle bundles",
-        "Marked cellular atypia in a flat epithelial layer",
-        "Orderly stratification with broad bland superficial cells"
+        "It is a benign reactive change that needs no follow-up",
+        "It is a flat high-grade lesion that sheds cells into urine and carries a high risk of progression",
+        "It is a squamous metaplasia caused by schistosomiasis",
+        "It is a low-grade papillary tumor with less than 5 percent progression"
       ],
-      "correct_index": 2,
-      "explanation": "The flat lining contains enlarged irregular nuclei and disordered cells without an exophytic papillary architecture. The nuclei show striking size variation and loss of orderly maturation rather than a bland umbrella-cell lining.",
+      "correct_index": 1,
+      "explanation": "Step 1. A flat, velvety, high-grade lesion without a mass is flat urothelial carcinoma in situ. Step 2. Its poorly cohesive cells shed into urine, which is why cytology is useful, and it belongs to the genetically unstable dysplasia pathway with a high risk of progression, treated for example with BCG.",
       "choice_rationales": [
-        "No branching fibrovascular papillae project from the surface. This choice describes papillary urothelial neoplasm.",
-        "The displayed target is atypia within the flat epithelial layer, not the muscle infiltration shown in the separate invasive specimen. This choice describes muscle-invasive urothelial carcinoma.",
-        "The flat lining contains enlarged irregular nuclei and disordered cells without an exophytic papillary architecture. This choice describes urothelial carcinoma in situ, which is what the image shows.",
-        "The nuclei show striking size variation and loss of orderly maturation rather than a bland umbrella-cell lining. This choice describes normal urothelium."
+        "It is a malignant in situ lesion, not a reactive change.",
+        "Flat CIS is high grade, sheds into urine, and carries high progression risk.",
+        "Squamous metaplasia is not the diagnosis, and this lesion is urothelial.",
+        "Low-grade papillary tumors have a low risk of progression and papillary architecture."
       ],
       "question_id": "q-1c1a70064566a1499235",
       "source_id": "s-1483ee179e0ca6e5da53",
       "source_group_id": "g-70a76ce24c7bdef5de54",
       "variant_id": "v-61d6b55a66abd959efff",
       "question_type": "Visual interpretation",
-      "tested_concept": "Flat urothelial atypia",
+      "tested_concept": "Which statement best reflects the clinical risk of this lesion?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -2670,33 +2672,34 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 69-year-old smoker has painless hematuria and a normal ultrasound. Cystoscopy shows velvety red mucosa without a mass. Biopsy shows a flat urothelium with marked nuclear atypia, and urine cytology shows dispersed poorly cohesive cells.",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial carcinoma in situ",
-      "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG."
+      "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What do the two black arrows identify in this histiocyte-rich bladder lesion?",
+      "stem": "What is the underlying pathogenesis of the lesion?",
       "options": [
-        "Reinke crystals",
-        "Michaelis-Gutmann bodies",
-        "Keratin pearls",
-        "Call-Exner bodies"
+        "Insufficient killing of bacteria by macrophages, with deposition of iron and calcium",
+        "Parasitic egg deposition",
+        "Tumor cell invasion of detrusor muscle",
+        "Reactive proliferation of Brunn nests"
       ],
-      "correct_index": 1,
-      "explanation": "Rounded Michaelis–Gutmann bodies within a histiocyte-rich bladder lesion support malakoplakia. Call–Exner bodies are small spaces rimmed by granulosa tumor cells. The rounded inclusions in bladder histiocytes are Michaelis–Gutmann bodies.",
+      "correct_index": 0,
+      "explanation": "Step 1. Foamy histiocytes with Michaelis-Gutmann bodies indicate malakoplakia. Step 2. Macrophages fail to kill bacteria completely, leaving partially digested bacteria with iron and calcium deposition, and treatment is with antibiotics.",
       "choice_rationales": [
-        "Reinke crystals are elongated inclusions associated with Leydig cells. The rounded inclusions in these bladder histiocytes are Michaelis–Gutmann bodies of malakoplakia. This choice describes Leydig cell tumor crystals.",
-        "Rounded Michaelis–Gutmann bodies within a histiocyte-rich bladder lesion support malakoplakia. This choice describes malakoplakia (Michaelis-Gutmann bodies), which is what the image shows.",
-        "Keratin pearls are concentric keratin layers in squamous nests. The arrows highlight rounded histiocytic inclusions in malakoplakia. This choice describes squamous cell carcinoma keratin pearls.",
-        "Call–Exner bodies are small spaces rimmed by granulosa tumor cells. The rounded inclusions in bladder histiocytes are Michaelis–Gutmann bodies. This choice describes granulosa cell tumor."
+        "Defective macrophage killing of bacteria explains malakoplakia.",
+        "Parasite eggs describe schistosomiasis.",
+        "Detrusor invasion describes invasive carcinoma.",
+        "Reactive Brunn nest proliferation describes cystitis cystica and glandularis."
       ],
       "question_id": "q-d1773153dab13844e466",
       "source_id": "s-cdc0834a2484d28439cb",
       "source_group_id": "g-9d30b5dd9a0b100c9732",
       "variant_id": "v-b4e5c24868f874e8ce2c",
       "question_type": "Visual interpretation",
-      "tested_concept": "Michaelis Gutmann inclusions in histiocytes",
+      "tested_concept": "What is the underlying pathogenesis of the lesion?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -2720,33 +2723,34 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 52-year-old woman with recurrent E. coli urinary tract infections has bladder plaques that are soft and yellowish. Biopsy shows foamy histiocytes with laminated basophilic inclusions.",
+      "study_skill": "interpretation",
       "condition_name": "Malakoplakia",
-      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages."
+      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which description best fits the multiple dark structures in this bladder-associated microscopic panel?",
+      "stem": "What type of cancer is most associated with his infection?",
       "options": [
-        "Ovoid parasitic eggs",
-        "Branching fungal pseudohyphae",
-        "Bacterial coating on a squamous cell",
-        "Concentric keratin pearls"
+        "Papillary urothelial carcinoma only",
+        "Lymphoma",
+        "Rhabdomyosarcoma",
+        "Squamous cell carcinoma"
       ],
-      "correct_index": 0,
-      "explanation": "Multiple oval thick-outlined structures with internal material correspond to the Schistosoma egg example in the supplied lecture. The panel lacks the concentric pink squamous whorls of keratin pearls.",
+      "correct_index": 3,
+      "explanation": "Step 1. Oval thick-outlined structures are Schistosoma haematobium eggs. Step 2. Schistosomiasis is a risk factor for bladder squamous cell carcinoma, which is more common along the Nile Valley, and it is also a risk factor for urothelial carcinoma.",
       "choice_rationales": [
-        "Multiple oval thick-outlined structures with internal material correspond to the Schistosoma egg example in the supplied lecture. This choice describes schistosomiasis (Schistosoma haematobium eggs), which is what the image shows.",
-        "The structures are discrete ovoid profiles rather than long branching filaments. This choice describes Candida infection.",
-        "They are large separate profiles rather than a fine bacterial coat on one epithelial cell. This choice describes bacterial vaginosis.",
-        "The panel lacks the concentric pink squamous whorls of keratin pearls. This choice describes squamous cell carcinoma with keratin pearls."
+        "Urothelial carcinoma is also associated but squamous cell carcinoma is the strongest link in endemic regions.",
+        "Lymphoma is not linked to schistosomiasis in the lecture.",
+        "Rhabdomyosarcoma is a rare bladder tumor in children.",
+        "Chronic Schistosoma infection leads to squamous carcinoma."
       ],
       "question_id": "q-3e7d75058268ce8ba3f0",
       "source_id": "s-5ed12814993139211aa2",
       "source_group_id": "g-95e272f26e9e4527995e",
       "variant_id": "v-e901c323d0172a1b3735",
       "question_type": "Visual interpretation",
-      "tested_concept": "Schistosoma ova in the supplied bladder example",
+      "tested_concept": "What type of cancer is most associated with his infection?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -2770,10 +2774,11 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 38-year-old man from Egypt has hematuria. Bladder biopsy shows oval structures with thick outlines surrounded by inflammation. Several years later he returns with a bladder mass.",
+      "study_skill": "interpretation",
       "condition_name": "Schistosomiasis of the bladder",
-      "condition_overview": "Schistosoma haematobium is a trematode acquired from freshwater snail habitats in Africa and the Middle East. Adult worms live in the vesical venous plexus, and eggs deposited in the bladder wall provoke granulomatous inflammation, calcification, fibrosis, and hematuria. Eggs are ovoid with a terminal spine. Chronic infection predisposes to squamous cell carcinoma of the bladder. Treatment is praziquantel."
+      "condition_overview": "Schistosoma haematobium is a trematode acquired from freshwater snail habitats in Africa and the Middle East. Adult worms live in the vesical venous plexus, and eggs deposited in the bladder wall provoke granulomatous inflammation, calcification, fibrosis, and hematuria. Eggs are ovoid with a terminal spine. Chronic infection predisposes to squamous cell carcinoma of the bladder. Treatment is praziquantel.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which abnormality is visible within the contrast-filled uterine cavity on this hysterosalpingogram?",
@@ -6872,20 +6877,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Where are the atypical glandular profiles concentrated in this bladder section?",
+      "stem": "How should the finding be classified?",
       "options": [
-        "Concentric squamous keratin pearls in deep nests",
-        "Bland urothelial nests with smooth borders and no atypia",
-        "Atypical columnar glands concentrated at the surface above the stroma",
-        "Thin fingerlike cords diffusely invading detrusor muscle"
+        "Adenocarcinoma in situ, a noninvasive precursor",
+        "Brunn nest",
+        "Urothelial papilloma",
+        "Invasive adenocarcinoma"
       ],
-      "correct_index": 2,
-      "explanation": "Crowded atypical columnar glands occupy the surface compartment above a relatively preserved stromal layer. The surface cells are atypical and columnar rather than bland rounded urothelial nests.",
+      "correct_index": 0,
+      "explanation": "Step 1. Atypical columnar cells confined to surface glands without invasion are adenocarcinoma in situ. Step 2. Atypical columnar cells limited to glands on the surface without invasion are in situ, which is distinct from infiltrating glands, and metastasis from prostate or colon must still be excluded in glandular tumors.",
       "choice_rationales": [
-        "The crowded glandular epithelium occupies the surface and has no laminated keratin centers. This choice describes squamous cell carcinoma.",
-        "The surface cells are atypical and columnar rather than bland rounded urothelial nests. This choice describes benign urothelial nests (Brunn nests).",
-        "Crowded atypical columnar glands occupy the surface compartment above a relatively preserved stromal layer. This choice describes adenocarcinoma of the bladder (such as urachal or intestinal-type), which is what the image shows.",
-        "The key finding is abnormal glands along the surface, without narrow tumor cords extending into muscle in this field. This choice describes muscle-invasive urothelial carcinoma."
+        "The lack of invasion defines in situ carcinoma.",
+        "Brunn nests are benign nests of bland urothelial cells.",
+        "Papilloma is a papillary lesion with normal cytology.",
+        "Invasive adenocarcinoma shows glands in the stroma."
       ],
       "visual_clues": [
         "Crowded atypical columnar glands occupy the surface compartment above a relatively preserved stromal layer.",
@@ -6895,7 +6900,7 @@
       "source_id": "s-b7e2b233339040732d40",
       "source_group_id": "g-400079f6d4fbf9ad80d0",
       "variant_id": "v-e205365a7e1e9746b43a",
-      "tested_concept": "Bladder glandular in situ pattern",
+      "tested_concept": "How should the finding be classified?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -6916,24 +6921,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 53-year-old man has a cystoscopic biopsy. Atypical columnar glands are limited to the surface above preserved stroma, with no invasion.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which microscopic differentiation pattern is present in this bladder tumor?",
+      "stem": "Which origin is most likely for this tumor, and which exclusion is needed?",
       "options": [
-        "Foamy histiocytes containing rounded mineralized inclusions",
-        "Atypical epithelial glands with pale mucinous cytoplasm",
-        "Concentric keratinization within squamous nests",
-        "A bland multilayered urothelial lining over simple papillae"
+        "Origin in cystitis glandularis at the base, with no need for exclusion",
+        "Urachal origin, with metastasis from the prostate or colon excluded",
+        "Origin in a Schistosoma egg granuloma",
+        "Origin in malakoplakia"
       ],
       "correct_index": 1,
-      "explanation": "Irregular epithelial glands contain atypical nuclei and abundant pale cytoplasm. The pale cells form an epithelial lining around irregular lumina rather than sheets of histiocytes with round inclusions.",
+      "explanation": "Step 1. Atypical mucinous glands indicate adenocarcinoma of the bladder. Step 2. Adenocarcinomas of the bladder dome are usually considered urachal, while those at the base may arise in cystitis glandularis, and metastasis from the prostate or direct spread of colon carcinoma must be ruled out.",
       "choice_rationales": [
-        "The pale cells form an epithelial lining around irregular lumina rather than sheets of histiocytes with round inclusions. This choice describes malakoplakia.",
-        "Irregular epithelial glands contain atypical nuclei and abundant pale cytoplasm. This choice describes bladder adenocarcinoma, which is what the image shows.",
-        "The pale material is associated with glandular cytoplasm and does not form concentric keratin rings. This choice describes squamous cell carcinoma of the bladder.",
-        "The architecture is irregular and glandular, with atypical cells rather than an orderly papillary covering. This choice describes a benign papilloma."
+        "Base tumors are linked to cystitis glandularis, but this tumor is at the dome.",
+        "Dome tumors are considered urachal and require exclusion of metastasis or direct extension.",
+        "Schistosomiasis is linked more to squamous carcinoma.",
+        "Malakoplakia is an inflammatory lesion and not a precursor of carcinoma."
       ],
       "visual_clues": [
         "Irregular epithelial glands contain atypical nuclei and abundant pale cytoplasm.",
@@ -6943,7 +6949,7 @@
       "source_id": "s-1975cc7d4f81008bb05f",
       "source_group_id": "g-3cb89ea6189e7dba833e",
       "variant_id": "v-85bd8c7dae5c181febb2",
-      "tested_concept": "Bladder glandular differentiation",
+      "tested_concept": "Which origin is most likely for this tumor, and which exclusion is needed?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -6964,26 +6970,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 55-year-old man has a tumor at the dome of the bladder. Biopsy shows atypical glands with pale mucinous cytoplasm. Imaging shows a tract toward the umbilicus.",
+      "study_skill": "interpretation",
       "condition_name": "Bladder adenocarcinoma",
-      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy."
+      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which architectural feature is visible in this bladder adenocarcinoma section?",
+      "stem": "What explains the development of this tumor at that site?",
       "options": [
-        "Irregular atypical glands distributed through the stroma",
-        "A flat atypical lining without gland formation",
-        "Bland smooth-edged urothelial nests without lumina",
-        "A dense population of foamy macrophages without any glands"
+        "Hyperplasia pathway with FGFR3 mutation",
+        "Direct extension from cervical carcinoma",
+        "Squamous metaplasia from schistosomiasis",
+        "Glandular metaplasia in cystitis glandularis can progress to adenocarcinoma at the base"
       ],
-      "correct_index": 0,
-      "explanation": "Irregular epithelial-lined glandular lumina extend among the intervening stromal tissue. Glandular lumina occur at several depths in the tissue instead of being limited to one flat surface.",
+      "correct_index": 3,
+      "explanation": "Step 1. Irregular infiltrating glands indicate adenocarcinoma. Step 2. Adenocarcinoma of the base of the bladder is thought to arise in cystitis glandularis, which comes from reactive Brunn nests under chronic irritation, whereas urachal origin explains tumors of the dome.",
       "choice_rationales": [
-        "Irregular epithelial-lined glandular lumina extend among the intervening stromal tissue. This choice describes bladder adenocarcinoma, which is what the image shows.",
-        "Glandular lumina occur at several depths in the tissue instead of being limited to one flat surface. This choice describes urothelial carcinoma in situ.",
-        "The structures have irregular epithelial linings and obvious lumina. This choice describes Brunn nests.",
-        "The cells line identifiable glandular spaces, which a pure macrophage infiltrate would lack. This choice describes malakoplakia."
+        "The FGFR3 hyperplasia pathway applies to low-grade urothelial carcinoma.",
+        "Cervical extension is a possible metastatic route and does not explain a primary base tumor.",
+        "Squamous metaplasia leads to squamous carcinoma, not glands.",
+        "Cystitis glandularis is the proposed precursor of base adenocarcinoma."
       ],
       "visual_clues": [
         "Irregular epithelial-lined glandular lumina extend among the intervening stromal tissue.",
@@ -6993,7 +7000,7 @@
       "source_id": "s-34fd294ff6367ee21437",
       "source_group_id": "g-400079f6d4fbf9ad80d0",
       "variant_id": "v-a1c39c195a4fa3e38c60",
-      "tested_concept": "Infiltrating bladder adenocarcinoma glands",
+      "tested_concept": "What explains the development of this tumor at that site?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7014,26 +7021,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 57-year-old man has a bladder tumor with irregular glands extending through stroma. He has a history of chronic irritation and cystitis glandularis at the bladder base.",
+      "study_skill": "interpretation",
       "condition_name": "Bladder adenocarcinoma",
-      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy."
+      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which congenital structural abnormality is demonstrated in this supplied clinical image?",
+      "stem": "Which late complication is most associated with this defect?",
       "options": [
-        "A covered midline cyst under intact abdominal skin",
-        "An isolated external wart without an abdominal wall defect",
-        "A normal enclosed bladder with no exposed mucosa",
-        "An exposed bladder surface through an anterior wall defect"
+        "Malakoplakia",
+        "Papillary urothelial carcinoma with FGFR3 mutation only",
+        "Chronic infection, squamous metaplasia, and carcinoma, most commonly adenocarcinoma",
+        "Urachal calculi only"
       ],
-      "correct_index": 3,
-      "explanation": "A broad exposed mucosal bladder plate lies on the lower anterior abdominal surface. The exposed area is a broad moist plate within a wall defect, not a small projecting skin lesion.",
+      "correct_index": 2,
+      "explanation": "Step 1. Failure of the anterior bladder and abdominal wall is bladder exstrophy. Step 2. It leads to severe infections, squamous metaplasia, and carcinoma, most commonly adenocarcinoma.",
       "choice_rationales": [
-        "The mucosa is directly exposed on the abdominal surface rather than lying beneath intact skin. This choice describes an urachal cyst.",
-        "The exposed area is a broad moist plate within a wall defect, not a small projecting skin lesion. This choice describes a condyloma.",
-        "The bladder surface is visible externally because the anterior wall does not enclose it. This choice describes a normal bladder.",
-        "A broad exposed mucosal bladder plate lies on the lower anterior abdominal surface. This choice describes bladder exstrophy, which is what the image shows."
+        "Malakoplakia arises from defective macrophage killing and not from exstrophy.",
+        "The FGFR3 low-grade pathway is not tied to exstrophy.",
+        "Exstrophy predisposes to infection, metaplasia, and adenocarcinoma.",
+        "Calculi are a general complication but not the specific lecture association."
       ],
       "visual_clues": [
         "A broad exposed mucosal bladder plate lies on the lower anterior abdominal surface.",
@@ -7043,7 +7051,7 @@
       "source_id": "s-bc058f3ffaf493f917e4",
       "source_group_id": "g-433a22996993c7476ebf",
       "variant_id": "v-132181f071971a1cd7a3",
-      "tested_concept": "Bladder exstrophy exposed surface",
+      "tested_concept": "Which late complication is most associated with this defect?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R15",
@@ -7064,26 +7072,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A newborn has an exposed bladder mucosa on the lower abdominal wall with epispadias. Surgeons discuss long-term risk.",
+      "study_skill": "interpretation",
       "condition_name": "Bladder exstrophy",
-      "condition_overview": "Bladder exstrophy is a congenital defect of the anterior abdominal and bladder walls in which the bladder mucosa is exposed on the lower abdomen, often with epispadias and a separated pubic symphysis. It arises from a failure of the cloacal membrane to be reinforced by mesoderm. The exposed mucosa is prone to inflammation and metaplasia, and long-term risks include adenocarcinoma. Surgical closure is done after birth."
+      "condition_overview": "Bladder exstrophy is a congenital defect of the anterior abdominal and bladder walls in which the bladder mucosa is exposed on the lower abdomen, often with epispadias and a separated pubic symphysis. It arises from a failure of the cloacal membrane to be reinforced by mesoderm. The exposed mucosa is prone to inflammation and metaplasia, and long-term risks include adenocarcinoma. Surgical closure is done after birth.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which reactive urothelial pattern is shown beneath the bladder lining?",
+      "stem": "What is the best interpretation?",
       "options": [
-        "Invasive urothelial carcinoma with tentacular cords",
-        "Keratinizing squamous carcinoma",
-        "Brunn nests",
-        "Cystitis cystica"
+        "Invasive urothelial carcinoma",
+        "Adenocarcinoma in situ",
+        "Squamous cell carcinoma",
+        "Brunn nests, a benign metaplastic finding that can become cystitis cystica and glandularis"
       ],
-      "correct_index": 2,
-      "explanation": "Rounded smooth-edged urothelial nests lie beneath the overlying urothelium in the connective tissue. The cell groups lack the concentric keratinization and atypical squamous architecture of the supplied carcinoma example.",
+      "correct_index": 3,
+      "explanation": "Step 1. Well circumscribed clusters of bland urothelial cells beneath the surface are Brunn nests. Step 2. They are common and benign and, under chronic irritation, can develop lumina (cystitis cystica) and glandular metaplasia (cystitis glandularis).",
       "choice_rationales": [
-        "The nests are smooth and circumscribed. The field lacks jagged fingerlike cords infiltrating the stroma. This choice describes invasive urothelial carcinoma.",
-        "The cell groups lack the concentric keratinization and atypical squamous architecture of the supplied carcinoma example. This choice describes squamous cell carcinoma.",
-        "Rounded smooth-edged urothelial nests lie beneath the overlying urothelium in the connective tissue. This choice describes Brunn nests, which is what the image shows.",
-        "The rounded nests are largely solid and lack the prominent central cystic spaces of cystitis cystica. This choice describes cystitis cystica."
+        "Invasive carcinoma would show atypical nests infiltrating muscle.",
+        "Adenocarcinoma in situ shows atypical columnar cells at the surface.",
+        "Squamous cell carcinoma shows keratinization and atypia.",
+        "Brunn nests are benign circumscribed clusters that may be reactive."
       ],
       "visual_clues": [
         "Rounded smooth-edged urothelial nests lie beneath the overlying urothelium in the connective tissue.",
@@ -7093,7 +7102,7 @@
       "source_id": "s-e88c92aa1088d5e99630",
       "source_group_id": "g-a219681a8efba6c47f88",
       "variant_id": "v-51c622f6b3907f643398",
-      "tested_concept": "Brunn nests circumscribed morphology",
+      "tested_concept": "What is the best interpretation?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7114,24 +7123,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 47-year-old woman has bladder biopsy for chronic irritation. Beneath the urothelium are smooth rounded clusters of bland urothelial cells in the lamina propria.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Where is the dense inflammatory infiltrate concentrated in this bladder biopsy?",
+      "stem": "Which statement about the condition is correct?",
       "options": [
-        "In the lamina propria beneath the urothelium",
-        "Only within an acellular surface keratin layer",
-        "Within colloid-filled follicles",
-        "Only within the nuclei of superficial epithelial cells"
+        "It is chronic cystitis, more common in women, with risk factors such as calculi, obstruction, and diabetes",
+        "It is malakoplakia",
+        "It is acute suppurative cystitis with purulent exudate",
+        "It is urothelial carcinoma in situ"
       ],
       "correct_index": 0,
-      "explanation": "Numerous inflammatory cells occupy the connective tissue immediately below the urothelial lining. The dark cells are dispersed in supporting tissue without surrounding colloid-filled follicles.",
+      "explanation": "Step 1. A lamina propria infiltrate of chronic inflammatory cells under a bland urothelium indicates chronic cystitis. Step 2. Women are more likely to develop cystitis, with the clinical triad of frequency, lower abdominal pain, and dysuria, and risk factors include calculi, urinary obstruction, and diabetes.",
       "choice_rationales": [
-        "Numerous inflammatory cells occupy the connective tissue immediately below the urothelial lining. This choice describes chronic cystitis, which is what the image shows.",
-        "The small dark inflammatory cells lie below the epithelial lining, not in an anucleate sheet on top. This choice describes hyperkeratosis.",
-        "The dark cells are dispersed in supporting tissue without surrounding colloid-filled follicles. This choice describes struma ovarii.",
-        "Individual inflammatory cells are interposed among stromal elements beneath the lining. This choice describes a viral cytopathic effect."
+        "Chronic cystitis shows chronic inflammatory cells and is more common in women.",
+        "Malakoplakia shows foamy histiocytes with inclusions.",
+        "Acute suppurative cystitis shows a purulent exudate and neutrophils.",
+        "CIS would show an atypical urothelium, which is unremarkable here."
       ],
       "visual_clues": [
         "Numerous inflammatory cells occupy the connective tissue immediately below the urothelial lining.",
@@ -7141,7 +7151,7 @@
       "source_id": "s-503425cd76263bbc3e92",
       "source_group_id": "g-6e3c939f947c71f01b2c",
       "variant_id": "v-0a16764409ecfe6c08b9",
-      "tested_concept": "Chronic cystitis stromal infiltrate",
+      "tested_concept": "Which statement about the condition is correct?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7162,26 +7172,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 33-year-old woman has dysuria, urinary frequency, and lower abdominal pain. Cystoscopic biopsy shows edema with a dense inflammatory infiltrate of lymphocytes, plasma cells, and eosinophils in the lamina propria beneath normal urothelium.",
+      "study_skill": "interpretation",
       "condition_name": "Chronic cystitis",
-      "condition_overview": "Chronic cystitis is long-standing bladder inflammation from recurrent infection, stones, or irritation. The bladder mucosa is red and granular, and the lamina propria contains a dense infiltrate of lymphocytes and plasma cells, with sometimes lymphoid follicles. Symptoms are urgency, frequency, and dysuria. Treatment is directed at the cause."
+      "condition_overview": "Chronic cystitis is long-standing bladder inflammation from recurrent infection, stones, or irritation. The bladder mucosa is red and granular, and the lamina propria contains a dense infiltrate of lymphocytes and plasma cells, with sometimes lymphoid follicles. Symptoms are urgency, frequency, and dysuria. Treatment is directed at the cause.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which feature distinguishes these reactive urothelial nests from solid Brunn nests?",
+      "stem": "What is the clinical significance of the finding?",
       "options": [
-        "Concentric extracellular keratin pearls",
-        "Diffuse fingerlike tumor cords among detrusor bundles",
-        "Complete replacement by mature adipocytes",
-        "Formation of central luminal and cystic spaces"
+        "It is a very common incidental reactive change, although adenocarcinoma may rarely arise in the glandular form",
+        "It is diagnostic of schistosomiasis",
+        "It is diagnostic of malakoplakia",
+        "It is a direct precursor of squamous carcinoma"
       ],
-      "correct_index": 3,
-      "explanation": "Many rounded epithelial nests contain clear central lumina of varying size. The pale centers are open lumina rather than concentric layers of solid keratin.",
+      "correct_index": 0,
+      "explanation": "Step 1. Brunn nests with luminal spaces are cystitis cystica. Step 2. The change is extremely common and incidental, arises from chronic irritation, and glandular metaplasia (cystitis glandularis) is the proposed setting for adenocarcinoma at the bladder base.",
       "choice_rationales": [
-        "The pale centers are open lumina rather than concentric layers of solid keratin. This choice describes squamous cell carcinoma.",
-        "The nests are rounded and several have central lumina rather than thin infiltrating cords. This choice describes invasive urothelial carcinoma.",
-        "Epithelial cells still form a perimeter around the central spaces rather than being replaced by fat. This choice describes lipomatosis.",
-        "Many rounded epithelial nests contain clear central lumina of varying size. This choice describes cystitis cystica, which is what the image shows."
+        "Cystitis cystica is reactive and incidental, with rare glandular progression.",
+        "Schistosomiasis shows eggs with granulomatous inflammation.",
+        "Malakoplakia shows foamy histiocytes with Michaelis-Gutmann bodies.",
+        "Squamous carcinoma is linked to chronic irritation and schistosomiasis, not to this nest change."
       ],
       "visual_clues": [
         "Many rounded epithelial nests contain clear central lumina of varying size.",
@@ -7191,7 +7202,7 @@
       "source_id": "s-130263b3fc746fb27b13",
       "source_group_id": "g-8157c439b2236225aef1",
       "variant_id": "v-55801e839ecc8caebdc6",
-      "tested_concept": "Cystitis cystica luminal spaces in nests",
+      "tested_concept": "What is the clinical significance of the finding?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7212,26 +7223,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 44-year-old woman has chronic cystitis. Cystoscopy shows finely granular mucosa mimicking small papillary tumors. Biopsy shows nests with central lumina of varying size.",
+      "study_skill": "interpretation",
       "condition_name": "Cystitis cystica et glandularis",
-      "condition_overview": "Cystitis cystica and cystitis glandularis are benign reactive changes of the bladder caused by chronic irritation. Nests of urothelium (von Brunn nests) in the lamina propria develop central cystic spaces (cystica) or glandular differentiation (glandularis). They are common incidental findings and carry little malignant risk, although intestinal-type metaplasia may rarely be linked to adenocarcinoma."
+      "condition_overview": "Cystitis cystica and cystitis glandularis are benign reactive changes of the bladder caused by chronic irritation. Nests of urothelium (von Brunn nests) in the lamina propria develop central cystic spaces (cystica) or glandular differentiation (glandularis). They are common incidental findings and carry little malignant risk, although intestinal-type metaplasia may rarely be linked to adenocarcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which cells form the luminal cap of these folded collecting-system mucosal profiles?",
+      "stem": "Which comparison makes the diagnosis of a high-grade papillary tumor unlikely here?",
       "options": [
-        "Tall ciliated columnar cells",
-        "A single row of endothelial cells around red blood cells",
-        "Broad rounded superficial umbrella cells",
-        "Flattened anucleate surface keratin plates"
+        "Preserved umbrella cells with orderly nuclei, in contrast to high-grade disease with marked atypia and frequent mitoses",
+        "Up to 80 percent coexistent invasion",
+        "Frequent mitotic figures and necrosis",
+        "Disordered polarity with variable nuclear size"
       ],
-      "correct_index": 2,
-      "explanation": "Large rounded superficial cells cap the several-layered urothelial lining. The surface cells retain cytoplasm and nuclei instead of forming flat anucleate plates.",
+      "correct_index": 0,
+      "explanation": "Step 1. Large rounded umbrella cells capping a layered lining with no atypia indicate normal urothelium. Step 2. High-grade papillary carcinoma shows marked cytologic atypia, frequent mitoses, and common necrosis, so a bland umbrella-cell cap argues against it.",
       "choice_rationales": [
-        "The superficial cells are broad and rounded without an apical fringe of cilia. This choice describes respiratory-type ciliated epithelium.",
-        "The luminal border caps a multilayered lining rather than one thin vascular layer around erythrocytes. This choice describes vascular endothelium.",
-        "Large rounded superficial cells cap the several-layered urothelial lining. This choice describes normal urothelium with umbrella cells, which is what the image shows.",
-        "The surface cells retain cytoplasm and nuclei instead of forming flat anucleate plates. This choice describes keratinizing squamous metaplasia."
+        "Preserved umbrella cells with orderly nuclei argue against high-grade carcinoma.",
+        "Coexistent invasion in up to 80 percent is a feature of high-grade tumors.",
+        "Frequent mitoses and necrosis characterize high-grade papillary carcinoma.",
+        "Disordered polarity and variable nuclei are signs of high-grade tumor."
       ],
       "visual_clues": [
         "Large rounded superficial cells cap the several-layered urothelial lining.",
@@ -7241,7 +7253,7 @@
       "source_id": "s-013a28deb22f34cd63ec",
       "source_group_id": "g-10b16cb9ccd089117529",
       "variant_id": "v-b82faf9e8d0cf4dfa611",
-      "tested_concept": "Urothelial umbrella cell contour",
+      "tested_concept": "Which comparison makes the diagnosis of a high-grade papillary tumor unlikely here?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7262,24 +7274,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 58-year-old man has a biopsy of the renal pelvis. The pathologist notes that the luminal cap of the mucosa consists of large rounded superficial cells, and states that the sample is unremarkable.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which nuclear finding is conspicuous in the urothelial cells?",
+      "stem": "What is the expected behavior compared with a low-grade papillary tumor?",
       "options": [
-        "Longitudinal grooves in otherwise uniform granulosa cells",
-        "Marked variation in nuclear size and shape with disordered polarity",
-        "Uniform small nuclei aligned in an orderly basal row",
-        "Tiny pyknotic nuclei in flat mature squamous cells"
+        "It never recurs",
+        "It progresses in under 5 percent",
+        "It has a genetically stable course",
+        "Up to 80 percent have coexistent invasion, versus under 10 percent"
       ],
-      "correct_index": 1,
-      "explanation": "The crowded nuclei vary markedly in size and shape and have disordered orientations. The enlarged irregular nuclei are conspicuous among crowded cells and are not tiny condensed nuclei in a flat surface layer.",
+      "correct_index": 3,
+      "explanation": "Step 1. Marked nuclear pleomorphism and frequent mitoses indicate high-grade papillary urothelial carcinoma. Step 2. It follows the genetically unstable dysplasia pathway with TP53 inactivation in some cases, up to 80 percent coexistent invasion, and a high risk of progression, whereas low-grade tumors have under 10 percent invasion.",
       "choice_rationales": [
-        "The conspicuous abnormality is nuclear pleomorphism and loss of orientation rather than a longitudinal groove in uniform nuclei. This choice describes granulosa cell tumor.",
-        "The crowded nuclei vary markedly in size and shape and have disordered orientations. This choice describes high-grade urothelial carcinoma, which is what the image shows.",
-        "Nuclear size and position vary across the lining rather than being restricted to one orderly basal row. This choice describes normal urothelium.",
-        "The enlarged irregular nuclei are conspicuous among crowded cells and are not tiny condensed nuclei in a flat surface layer. This choice describes keratinizing squamous epithelium."
+        "Both grades recur, with a recurrence rate around 45 percent.",
+        "Progression under 5 percent describes the low-grade pathway.",
+        "Genetic stability describes the low-grade FGFR3 pathway.",
+        "High-grade tumors have up to 80 percent coexistent invasion."
       ],
       "visual_clues": [
         "The crowded nuclei vary markedly in size and shape and have disordered orientations.",
@@ -7289,7 +7302,7 @@
       "source_id": "s-93021f2b6edf64a8d461",
       "source_group_id": "g-55f6364544dca9e302f3",
       "variant_id": "v-a3d5af97561c5fbb7dd9",
-      "tested_concept": "High-grade urothelial nuclear pleomorphism",
+      "tested_concept": "What is the expected behavior compared with a low-grade papillary tumor?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7310,26 +7323,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 64-year-old man has a papillary bladder tumor. Nuclei vary markedly in size and shape and are disordered, and mitoses are frequent.",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What change is present in the pale disrupted area indicated by the source arrow?",
+      "stem": "Which grade is most consistent with necrosis in a papillary urothelial tumor?",
       "options": [
-        "Tumor necrosis",
-        "Orderly viable urothelial maturation",
-        "A mature adipose lobule",
-        "A concentric laminated keratin pearl"
+        "Low grade",
+        "Normal urothelium",
+        "High grade",
+        "Papilloma"
       ],
-      "correct_index": 0,
-      "explanation": "The arrowed area has pale disrupted debris and loss of the dense viable tumor-cell pattern seen around it. The pale debris lacks the concentric pink lamination of a keratin pearl.",
+      "correct_index": 2,
+      "explanation": "Step 1. Pale debris with loss of viable cells is tumor necrosis. Step 2. Necrosis is common in high-grade papillary urothelial carcinoma, together with marked atypia, frequent mitoses, and frequent invasion.",
       "choice_rationales": [
-        "The arrowed area has pale disrupted debris and loss of the dense viable tumor-cell pattern seen around it. This choice describes tumor necrosis, which is what the image shows.",
-        "The target loses the organized cellular outlines visible in nearby viable urothelium. This choice describes normal urothelial maturation.",
-        "The pale zone contains disorganized debris without mature fat cells or a lobular arrangement. This choice describes adipose tissue.",
-        "The pale debris lacks the concentric pink lamination of a keratin pearl. This choice describes a keratin pearl."
+        "Low-grade tumors show mild atypia and rarely necrosis.",
+        "Normal urothelium has no tumor necrosis.",
+        "Necrosis is common in high-grade papillary urothelial carcinoma.",
+        "Papillomas have cytologically normal urothelium and a simple architecture."
       ],
       "visual_clues": [
         "The arrowed area has pale disrupted debris and loss of the dense viable tumor-cell pattern seen around it.",
@@ -7339,7 +7353,7 @@
       "source_id": "s-30ae2735ffcfa2ab89e1",
       "source_group_id": "g-55f6364544dca9e302f3",
       "variant_id": "v-bb6af6c9556eefe17dbd",
-      "tested_concept": "Urothelial tumor necrosis",
+      "tested_concept": "Which grade is most consistent with necrosis in a papillary urothelial tumor?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7360,26 +7374,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 70-year-old man has a bladder tumor. An area of pale debris appears within the dense viable tumor, and the pathologist notes it supports the grade.",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which cytologic pattern is visible in the lining of these papillae?",
+      "stem": "Which statement is most accurate?",
       "options": [
-        "Large vacuoles pushing every nucleus to the cell edge",
-        "A uniform layer of anucleate surface keratin",
-        "Relatively mild nuclear atypia with partial preservation of order",
-        "Markedly bizarre nuclei with complete loss of polarity"
+        "Recurrence is common at about 45 percent, but progression to high grade occurs in about 8 to 10 percent",
+        "Recurrence never occurs",
+        "Progression to invasion is expected in most",
+        "The tumor is always cured by one resection"
       ],
-      "correct_index": 2,
-      "explanation": "The urothelial nuclei are relatively similar in size with substantially more order than in the high-grade comparison. The field shows relatively similar nuclei, without large clear vacuoles displacing them.",
+      "correct_index": 0,
+      "explanation": "Step 1. Mild atypia with ordered nuclei indicates low-grade papillary urothelial carcinoma, the most common urothelial tumor. Step 2. It recurs in about 45 percent, with under 10 percent coexistent invasion and 8 to 10 percent progression to high grade, in the FGFR3-driven, genetically stable pathway.",
       "choice_rationales": [
-        "The field shows relatively similar nuclei, without large clear vacuoles displacing them. This choice describes a signet-ring cell tumor.",
-        "Nuclei persist throughout the lining, including its outer portion. This choice describes keratinizing squamous cell carcinoma.",
-        "The urothelial nuclei are relatively similar in size with substantially more order than in the high-grade comparison. This choice describes low-grade papillary urothelial carcinoma, which is what the image shows.",
-        "The variation in nuclear size is relatively modest and the lining retains partial organization. This choice describes high-grade urothelial carcinoma."
+        "Low-grade tumors recur often but progress rarely.",
+        "Recurrence is common in these tumors.",
+        "Invasion in most describes high-grade disease.",
+        "A single resection often fails to prevent recurrence."
       ],
       "visual_clues": [
         "The urothelial nuclei are relatively similar in size with substantially more order than in the high-grade comparison.",
@@ -7389,7 +7404,7 @@
       "source_id": "s-74dea0000bf93b8ba4d1",
       "source_group_id": "g-ca8fbf76b39e2dc0b135",
       "variant_id": "v-bb844ca03ea5a20f4ae0",
-      "tested_concept": "Low-grade urothelial cytologic pattern",
+      "tested_concept": "Which statement is most accurate?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7410,26 +7425,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 60-year-old man has a papillary bladder tumor with mild nuclear atypia and relatively uniform nuclei. He asks about the likelihood of recurrence and progression.",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which structure runs through the center of the broad papillary profile?",
+      "stem": "What does the vascular core explain clinically?",
       "options": [
-        "A fully enclosed thyroid follicle filled with colloid",
-        "A vascular stromal core surrounded by urothelium",
-        "A central pool of acellular mucin containing floating cells",
-        "A laminated squamous keratin pearl"
+        "Cystitis symptoms of frequency and dysuria",
+        "Hydronephrosis from a muscle-invasive tumor",
+        "Urine mucin production",
+        "Painless hematuria from a friable papillary tumor"
       ],
-      "correct_index": 1,
-      "explanation": "A pink vascular connective tissue core is enclosed by several layers of urothelial cells. A pink tissue core with a vessel supports the epithelial layers rather than a pool of acellular material.",
+      "correct_index": 3,
+      "explanation": "Step 1. A fibrovascular core covered by urothelium defines the papillary architecture. Step 2. Papillary urothelial tumors bleed easily, and the usual presentation of urothelial tumors is painless hematuria, with possible obstruction when large.",
       "choice_rationales": [
-        "The center is continuous with vascular stroma rather than secretory material in an enclosed follicle. This choice describes a thyroid follicle (struma ovarii).",
-        "A pink vascular connective tissue core is enclosed by several layers of urothelial cells. This choice describes a papillary urothelial neoplasm with a fibrovascular core, which is what the image shows.",
-        "A pink tissue core with a vessel supports the epithelial layers rather than a pool of acellular material. This choice describes mucinous adenocarcinoma with mucin lakes.",
-        "The pale core contains supporting tissue rather than concentric laminated keratin. This choice describes a keratin pearl of squamous cell carcinoma."
+        "The cystitis triad reflects infection, not a tumor core.",
+        "Hydronephrosis relates to obstruction by invasive or large tumors and is not explained by a vascular core.",
+        "Mucin production belongs to adenocarcinoma.",
+        "Fragile vascular papillary tumors explain painless hematuria."
       ],
       "visual_clues": [
         "A pink vascular connective tissue core is enclosed by several layers of urothelial cells.",
@@ -7439,7 +7455,7 @@
       "source_id": "s-b1dc7c178615630edc89",
       "source_group_id": "g-ca8fbf76b39e2dc0b135",
       "variant_id": "v-3a56b6caaa7d78058393",
-      "tested_concept": "Papillary urothelial fibrovascular core",
+      "tested_concept": "What does the vascular core explain clinically?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7460,26 +7476,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 63-year-old man has hematuria. Biopsy of a low-grade papillary tumor shows broad papillae in which a pink core with a vessel is covered by several layers of urothelium.",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which tissue relationship is visible in this mucinous bladder tumor?",
+      "stem": "Which correction is appropriate?",
       "options": [
-        "Solid urothelial nests surrounded only by dense muscle",
-        "Concentric keratin pearls within broad squamous nests",
-        "Bland spindle cells in woven collagen bundles without any epithelial groups",
-        "Small epithelial tumor groups within abundant pale extracellular mucin"
+        "Mucinous pattern is always benign",
+        "Mucinous pattern means schistosomiasis",
+        "Pure signet ring cell carcinoma has the poor prognosis, while this mucinous pattern is a different pattern within adenocarcinoma",
+        "Mucinous pattern means papilloma"
       ],
-      "correct_index": 3,
-      "explanation": "Small tumor groups are suspended within large pale extracellular mucinous spaces. The pale material lies around the tumor groups and lacks the concentric layers of a keratin pearl.",
+      "correct_index": 2,
+      "explanation": "Step 1. Cell clusters floating in extracellular mucin indicate mucinous (colloid) adenocarcinoma of the bladder. Step 2. The lecture identifies pure signet ring cell carcinoma as the pattern with poor prognosis and lists NOS, mucinous, and signet ring as separate patterns of adenocarcinoma.",
       "choice_rationales": [
-        "The epithelial groups are surrounded by pale pools rather than solely by dark muscle bundles. This choice describes solid urothelial carcinoma invading muscle.",
-        "The pale material lies around the tumor groups and lacks the concentric layers of a keratin pearl. This choice describes squamous cell carcinoma.",
-        "Small cohesive epithelial groups remain visible in the pools. This choice describes a spindle cell sarcoma or fibroma.",
-        "Small tumor groups are suspended within large pale extracellular mucinous spaces. This choice describes mucinous (colloid) adenocarcinoma of the bladder, which is what the image shows."
+        "Mucinous adenocarcinoma is malignant and infiltrates the bladder wall.",
+        "Schistosomiasis is linked to squamous carcinoma.",
+        "Pure signet ring carcinoma is the pattern highlighted for poor prognosis.",
+        "Papilloma is a papillary lesion and not a mucin-producing carcinoma."
       ],
       "visual_clues": [
         "Small tumor groups are suspended within large pale extracellular mucinous spaces.",
@@ -7489,7 +7506,7 @@
       "source_id": "s-c1b4553696b180ef31e1",
       "source_group_id": "g-400079f6d4fbf9ad80d0",
       "variant_id": "v-b67dd3046131da31cd65",
-      "tested_concept": "Mucinous bladder adenocarcinoma pools",
+      "tested_concept": "Which correction is appropriate?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7510,26 +7527,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 68-year-old woman has a bladder tumor with small clusters of tumor cells floating in pools of mucin. A resident states that this pattern carries the poorest prognosis of the glandular subtypes.",
+      "study_skill": "interpretation",
       "condition_name": "Bladder adenocarcinoma",
-      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy."
+      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which low-power architecture is present in this bladder lesion?",
+      "stem": "How does this lesion differ from low-grade papillary urothelial carcinoma?",
       "options": [
-        "Diffuse small tumor cords invading the muscularis propria",
-        "Subepithelial glands floating in mucin lakes",
-        "Branching stromal papillae covered by an orderly urothelial lining",
-        "A flat surface replaced by markedly pleomorphic cells"
+        "It shows signet-ring cells",
+        "It has marked atypia with frequent mitoses",
+        "It has simple papillary architecture lined by cytologically normal urothelium",
+        "It shows keratin pearls"
       ],
       "correct_index": 2,
-      "explanation": "Branching vascular stromal cores are covered by a relatively orderly urothelial lining. The open areas lie between papillary branches rather than forming pale lakes around subepithelial glands.",
+      "explanation": "Step 1. Orderly urothelium over simple vascular cores indicates urothelial papilloma. Step 2. Papilloma is rare, with cytologically normal urothelium, whereas low-grade carcinoma shows mild atypia and an increased thickness.",
       "choice_rationales": [
-        "The epithelium covers outward branching vascular cores instead of forming deep infiltrating cords. This choice describes muscle-invasive urothelial carcinoma.",
-        "The open areas lie between papillary branches rather than forming pale lakes around subepithelial glands. This choice describes mucinous adenocarcinoma.",
-        "Branching vascular stromal cores are covered by a relatively orderly urothelial lining. This choice describes papillary urothelial neoplasm (papilloma or low-grade papillary carcinoma), which is what the image shows.",
-        "The surface is papillary rather than flat, and the lining is comparatively orderly. This choice describes urothelial carcinoma in situ."
+        "Signet-ring cells describe adenocarcinoma.",
+        "Marked atypia describes high-grade carcinoma.",
+        "Papilloma has simple architecture with normal cytology.",
+        "Keratin pearls describe squamous carcinoma."
       ],
       "visual_clues": [
         "Branching vascular stromal cores are covered by a relatively orderly urothelial lining.",
@@ -7539,7 +7557,7 @@
       "source_id": "s-2ad96ef7fcdc67dec1db",
       "source_group_id": "g-65c65e5519819bec7905",
       "variant_id": "v-3dd7b1d25db36c6ca0b3",
-      "tested_concept": "Urothelial papilloma overall architecture",
+      "tested_concept": "How does this lesion differ from low-grade papillary urothelial carcinoma?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7560,26 +7578,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 35-year-old man has a bladder lesion with branching vascular cores covered by an orderly urothelial lining with normal cytology. It is a rare tumor accounting for 1 to 4 percent of bladder tumors.",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial papilloma",
-      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative."
+      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What is visible in the central core of the upper circular papillary profile?",
+      "stem": "What does the central vessel indicate about the lesion architecture?",
       "options": [
-        "A collection of intracellular crystals",
-        "A vessel containing red blood cells",
-        "A mature oocyte surrounded by granulosa cells",
-        "A laminated keratin pearl"
+        "The structure is a Michaelis-Gutmann body",
+        "The structure is a Schistosoma egg",
+        "A fibrovascular core supports a papillary frond lined by urothelium",
+        "The structure is a keratin pearl"
       ],
-      "correct_index": 1,
-      "explanation": "The upper profile contains a vascular lumen with bright red blood cells inside its stromal core. The central red material consists of small red cells in a vessel rather than one large germ cell.",
+      "correct_index": 2,
+      "explanation": "Step 1. Round profiles with central vessels are cross sections of fronds with fibrovascular cores. Step 2. This arrangement is the basic papillary architecture of papilloma and papillary urothelial carcinoma, whose grade depends on the cytology of the covering urothelium.",
       "choice_rationales": [
-        "The red cells lie within a definite lumen in the pink stromal core rather than within a single epithelial cell. This choice describes Leydig cell tumor crystals.",
-        "The upper profile contains a vascular lumen with bright red blood cells inside its stromal core. This choice describes a papillary stalk with a central blood vessel, which is what the image shows.",
-        "The central red material consists of small red cells in a vessel rather than one large germ cell. This choice describes a normal ovarian follicle.",
-        "The center contains a lumen with red cells, without laminated eosinophilic keratin. This choice describes a keratin pearl."
+        "Michaelis-Gutmann bodies are laminated inclusions in histiocytes of malakoplakia.",
+        "Schistosoma eggs are oval parasitic structures with thick outlines.",
+        "Fibrovascular cores support papillary fronds.",
+        "Keratin pearls are concentric pink layers in squamous nests."
       ],
       "visual_clues": [
         "The upper profile contains a vascular lumen with bright red blood cells inside its stromal core.",
@@ -7589,7 +7608,7 @@
       "source_id": "s-7094439d2541916fe272",
       "source_group_id": "g-65c65e5519819bec7905",
       "variant_id": "v-a895e7bc88724efb5498",
-      "tested_concept": "Papilloma core vascular contents",
+      "tested_concept": "What does the central vessel indicate about the lesion architecture?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7610,26 +7629,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A pathology trainee examines a papillary bladder lesion with round cross sections. Each has a central core containing a vessel with red blood cells covered by orderly urothelium.",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial papilloma",
-      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative."
+      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which visible relationship is present in this penile photograph?",
+      "stem": "What is the most serious risk if untreated?",
       "options": [
-        "Edematous retracted foreskin trapped behind the glans",
-        "A foreskin completely covering the glans with only a tiny opening",
-        "Multiple discrete wartlike papules on the glans",
-        "A solitary flat red plaque without constriction"
+        "Squamous carcinoma within days",
+        "Candida infection",
+        "Ischemia and penile necrosis from constriction",
+        "Hypospadias"
       ],
-      "correct_index": 0,
-      "explanation": "A swollen ring of retracted foreskin lies behind the exposed glans. The glans is exposed and the swollen skin lies behind it.",
+      "correct_index": 2,
+      "explanation": "Step 1. A retracted foreskin entrapped behind the coronal sulcus with edema is paraphimosis. Step 2. The constriction can cause ischemia and necrosis of the penis, so it needs prompt reduction, unlike phimosis, where the prepuce cannot retract.",
       "choice_rationales": [
-        "A swollen ring of retracted foreskin lies behind the exposed glans. This choice describes paraphimosis, which is what the image shows.",
-        "The glans is exposed and the swollen skin lies behind it. This choice describes phimosis.",
-        "The dominant finding is a continuous swollen ring, not separate papules. This choice describes condyloma acuminatum.",
-        "A constricting ring is visible rather than a single flat lesion on the surface. This choice describes balanitis or erythroplasia of Queyrat."
+        "Squamous carcinoma develops over years in uncircumcised men with poor hygiene.",
+        "Candida balanitis is a surface infection and not a result of constriction.",
+        "Constriction can lead to ischemia and penile necrosis.",
+        "Hypospadias is a congenital urethral defect."
       ],
       "visual_clues": [
         "A swollen ring of retracted foreskin lies behind the exposed glans.",
@@ -7639,7 +7659,7 @@
       "source_id": "s-a7b18bb2a51b59f2cd01",
       "source_group_id": "g-d6ae78134c966a6deb94",
       "variant_id": "v-615790dc80ef90ae303a",
-      "tested_concept": "Paraphimosis constricting foreskin",
+      "tested_concept": "What is the most serious risk if untreated?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R15",
@@ -7660,26 +7680,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 15-year-old uncircumcised boy retracted his foreskin for cleaning and could not return it. He now has a painful swollen ring of skin behind the glans.",
+      "study_skill": "interpretation",
       "condition_name": "Paraphimosis",
-      "condition_overview": "Paraphimosis is a urologic emergency in which a retracted foreskin becomes trapped behind the glans and cannot be returned. The constricting band impairs venous and lymphatic drainage, so the glans and prepuce become swollen and painful, and arterial supply can eventually be compromised. It is often caused by failure to replace the foreskin after catheterization or examination. It is treated by reduction, which is helped by compression and lubrication, or by dorsal slit or circumcision."
+      "condition_overview": "Paraphimosis is a urologic emergency in which a retracted foreskin becomes trapped behind the glans and cannot be returned. The constricting band impairs venous and lymphatic drainage, so the glans and prepuce become swollen and painful, and arterial supply can eventually be compromised. It is often caused by failure to replace the foreskin after catheterization or examination. It is treated by reduction, which is helped by compression and lubrication, or by dorsal slit or circumcision.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which surface morphology is present in the supplied penile lesion?",
+      "stem": "What is the risk associated with this lesion?",
       "options": [
-        "Multiple exophytic cauliflower-like warts",
-        "A diffusely swollen constricting foreskin ring",
-        "A fluid-filled translucent cyst",
-        "A localized red plaque on the penile shaft"
+        "It is a precursor of adenocarcinoma",
+        "It evolves to invasive squamous cell carcinoma in about 10 percent",
+        "It always represents condyloma",
+        "It is benign and never progresses"
       ],
-      "correct_index": 3,
-      "explanation": "A localized erythematous plaque is visible on the skin adjacent to the glans. The visible lesion is a localized red patch rather than multiple exophytic fronds.",
+      "correct_index": 1,
+      "explanation": "Step 1. A solitary erythematous plaque with full thickness dysplasia is penile intraepithelial neoplasia. Step 2. PeIN is the precursor of squamous cell carcinoma, usually in uncircumcised men over 40, evolving to invasion in about 10 percent, with HPV 16 and 18 and poor hygiene as risk factors.",
       "choice_rationales": [
-        "The visible lesion is a localized red patch rather than multiple exophytic fronds. This choice describes condyloma acuminatum.",
-        "Redness is concentrated in a plaque instead of encircling the glans as a swollen fold. This choice describes phimosis or paraphimosis.",
-        "The patch is superficial and red, with no clear fluid cavity. This choice describes an epidermal inclusion cyst.",
-        "A localized erythematous plaque is visible on the skin adjacent to the glans. This choice describes squamous cell carcinoma in situ (such as Bowen disease or erythroplasia), which is what the image shows."
+        "The precursor is for squamous carcinoma and not adenocarcinoma.",
+        "PeIN evolves to invasive SCC in about 10 percent.",
+        "Condyloma is an exophytic papillary lesion and not a flat plaque.",
+        "PeIN is a dysplastic lesion and can progress."
       ],
       "visual_clues": [
         "A localized erythematous plaque is visible on the skin adjacent to the glans.",
@@ -7689,7 +7710,7 @@
       "source_id": "s-ebbe37e2b9090b5e3acd",
       "source_group_id": "g-0a73b0e9db16cf328e99",
       "variant_id": "v-ad4cd454fb5d5473d542",
-      "tested_concept": "Penile intraepithelial lesion gross morphology",
+      "tested_concept": "What is the risk associated with this lesion?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R15",
@@ -7710,26 +7731,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 52-year-old uncircumcised man has a solitary red plaque on the penile shaft that has not resolved with topical therapy. Biopsy shows full-thickness dysplasia without invasion.",
+      "study_skill": "interpretation",
       "condition_name": "Penile intraepithelial neoplasia",
-      "condition_overview": "Penile intraepithelial neoplasia (squamous carcinoma in situ of the penis, including Bowen disease and erythroplasia of Queyrat) presents as a persistent red or velvety plaque on the glans, prepuce, or shaft. Atypical squamous cells fill the full thickness of the epithelium without crossing the basement membrane. It is associated with HPV and with chronic inflammation, especially in uncircumcised men, and may progress to invasive squamous cell carcinoma. Biopsy is required for persistent plaques, and treatment is topical therapy, ablation, or excision."
+      "condition_overview": "Penile intraepithelial neoplasia (squamous carcinoma in situ of the penis, including Bowen disease and erythroplasia of Queyrat) presents as a persistent red or velvety plaque on the glans, prepuce, or shaft. Atypical squamous cells fill the full thickness of the epithelium without crossing the basement membrane. It is associated with HPV and with chronic inflammation, especially in uncircumcised men, and may progress to invasive squamous cell carcinoma. Biopsy is required for persistent plaques, and treatment is topical therapy, ablation, or excision.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which cellular feature does the blue source arrow identify?",
+      "stem": "Which diagnosis do these features support?",
       "options": [
-        "A rounded Michaelis-Gutmann inclusion in a histiocyte",
-        "A long branching fungal filament",
-        "Intercellular bridges between squamous tumor cells",
-        "A central vessel inside a papillary stalk"
+        "Malakoplakia, since bridges mark histiocytes",
+        "Papillary urothelial carcinoma, since bridges mark papillae",
+        "Squamous cell carcinoma, since intercellular bridges are a sign of squamous differentiation",
+        "Adenocarcinoma, since bridges mark glands"
       ],
       "correct_index": 2,
-      "explanation": "The arrow highlights fine connections between adjacent polygonal squamous cells. No papillary core or vessel lumen is present at the tip of this arrow.",
+      "explanation": "Step 1. Fine intercellular bridges between polygonal cells show squamous differentiation. Step 2. Pure squamous cell carcinoma accounts for 2 to 7 percent of bladder cancers and is tied to chronic inflammation such as schistosomiasis, with keratin and keratin pearls as other signs.",
       "choice_rationales": [
-        "The target is a fine connection spanning two cells, not a round body inside one cell. This choice describes malakoplakia.",
-        "The short lines bridge adjacent epithelial cells rather than branching freely across the section. This choice describes a fungal infection.",
-        "The arrow highlights fine connections between adjacent polygonal squamous cells. This choice describes keratinizing squamous cell carcinoma (intercellular bridges), which is what the image shows.",
-        "No papillary core or vessel lumen is present at the tip of this arrow. This choice describes a papillary urothelial neoplasm."
+        "Malakoplakia is made of foamy histiocytes with inclusions.",
+        "Papillary carcinoma is defined by papillae with vascular cores.",
+        "Intercellular bridges, intracellular keratin, and keratin pearls mark squamous differentiation.",
+        "Adenocarcinoma shows glands and mucin and not bridges."
       ],
       "visual_clues": [
         "The arrow highlights fine connections between adjacent polygonal squamous cells.",
@@ -7739,7 +7761,7 @@
       "source_id": "s-07ece75bfc8179e7b847",
       "source_group_id": "g-3f7d76960db16a57500f",
       "variant_id": "v-60a75dc0b01249650f97",
-      "tested_concept": "Squamous intercellular bridges",
+      "tested_concept": "Which diagnosis do these features support?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7760,24 +7782,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 62-year-old man from the Nile Valley with chronic Schistosoma infection has a bladder tumor. A section shows polygonal tumor cells connected by fine bridges.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which cellular pattern is present in this supplied bladder adenocarcinoma field?",
+      "stem": "What prognostic and diagnostic implication follows?",
       "options": [
-        "Flattened superficial cells with tiny pyknotic nuclei and dense cytoplasm",
-        "Vacuolated tumor cells with peripherally displaced nuclei",
-        "Uniform spindle cells with elongated central nuclei",
-        "Multinucleated giant cells with molded nuclei"
+        "Pure signet ring cell carcinoma has a poor prognosis and metastasis from other sites must be excluded",
+        "It is a benign reactive change",
+        "It is a squamous variant",
+        "It has an excellent prognosis"
       ],
-      "correct_index": 1,
-      "explanation": "Several tumor cells contain large clear vacuoles that displace the nucleus toward the cell edge. Each affected cell has a displaced nucleus rather than a cluster of molded nuclei sharing one cytoplasm.",
+      "correct_index": 0,
+      "explanation": "Step 1. Vacuolated cells with peripherally displaced nuclei are signet ring cells. Step 2. Pure signet ring cell carcinoma carries a poor prognosis, and glandular tumors of the bladder require exclusion of metastasis or direct spread such as from prostate or colon.",
       "choice_rationales": [
-        "The distinctive cells contain conspicuous vacuoles and displaced nuclei rather than small centrally condensed nuclei in flat cells. This choice describes normal superficial squamous cells.",
-        "Several tumor cells contain large clear vacuoles that displace the nucleus toward the cell edge. This choice describes signet-ring cell adenocarcinoma, which is what the image shows.",
-        "The nuclear displacement corresponds to round clear cytoplasmic spaces, not parallel elongated cell bodies. This choice describes a spindle cell tumor (such as a leiomyoma).",
-        "Each affected cell has a displaced nucleus rather than a cluster of molded nuclei sharing one cytoplasm. This choice describes herpes simplex virus infection."
+        "Signet ring cell carcinoma has a poor prognosis and requires exclusion of a metastasis.",
+        "The cells are malignant and not a reactive change.",
+        "Squamous variants show keratinization and not mucin vacuoles.",
+        "An excellent prognosis does not fit this pattern."
       ],
       "visual_clues": [
         "Several tumor cells contain large clear vacuoles that displace the nucleus toward the cell edge.",
@@ -7787,7 +7810,7 @@
       "source_id": "s-8d786f1df6e999b2a4fa",
       "source_group_id": "g-400079f6d4fbf9ad80d0",
       "variant_id": "v-e1d2c48c81fef349e4fb",
-      "tested_concept": "Signet-ring cells in bladder adenocarcinoma",
+      "tested_concept": "What prognostic and diagnostic implication follows?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7808,26 +7831,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 64-year-old man has a bladder tumor with infiltrating cells that contain large clear vacuoles pushing the nuclei to the periphery. The cells infiltrate the wall diffusely.",
+      "study_skill": "interpretation",
       "condition_name": "Bladder adenocarcinoma",
-      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy."
+      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which architectural feature is visible in this bladder tumor section?",
+      "stem": "Why does this matter for diagnosis?",
       "options": [
-        "Infiltrating squamous nests with central keratinization",
-        "A bland flat urothelial lining without stromal nests",
-        "Only reactive rounded cystic urothelial nests",
-        "Loose histiocytes with intracellular mineralized inclusions"
+        "Pure squamous cell carcinoma is only 2 to 7 percent of bladder cancers, so squamous areas in a urothelial tumor do not make it pure SCC",
+        "Squamous differentiation proves schistosomiasis",
+        "Squamous differentiation excludes urothelial carcinoma",
+        "Squamous differentiation indicates benign disease"
       ],
       "correct_index": 0,
-      "explanation": "Separate broad squamous nests extend through the stroma and show pink central keratinization. The stromal groups show squamous keratinization rather than rounded open cystic centers.",
+      "explanation": "Step 1. Infiltrating nests with keratinization show squamous differentiation. Step 2. Squamous and glandular differentiation are common in high-grade urothelial carcinoma, so a pure SCC diagnosis requires the whole tumor to be squamous, and pure SCC is only 2 to 7 percent of bladder cancers.",
       "choice_rationales": [
-        "Separate broad squamous nests extend through the stroma and show pink central keratinization. This choice describes invasive keratinizing squamous cell carcinoma, which is what the image shows.",
-        "Broad epithelial nests lie beneath the surface and have central pink material. This choice describes normal urothelium.",
-        "The stromal groups show squamous keratinization rather than rounded open cystic centers. This choice describes cystitis cystica.",
-        "Cohesive epithelial nests make up the proliferation rather than separate inclusion-bearing histiocytes. This choice describes malakoplakia."
+        "Mixed differentiation is common and does not equal pure SCC.",
+        "Squamous differentiation does not prove schistosomiasis, although the infection is a risk factor.",
+        "Squamous areas can coexist with urothelial carcinoma.",
+        "Keratinizing infiltrating nests are malignant."
       ],
       "visual_clues": [
         "Separate broad squamous nests extend through the stroma and show pink central keratinization.",
@@ -7837,7 +7861,7 @@
       "source_id": "s-1f8ba61752c380578385",
       "source_group_id": "g-7baf4843d4b8b64e5dd8",
       "variant_id": "v-cfea21a855fa4f654789",
-      "tested_concept": "Bladder squamous tumor nests",
+      "tested_concept": "Why does this matter for diagnosis?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7858,26 +7882,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 66-year-old man has a bladder tumor with infiltrating nests that contain central pink keratinization. A resident notes that squamous differentiation also occurs in many high-grade urothelial carcinomas.",
+      "study_skill": "interpretation",
       "condition_name": "Bladder squamous cell carcinoma",
-      "condition_overview": "Squamous cell carcinoma of the bladder is a malignant tumor with squamous differentiation, keratin pearls, and intercellular bridges. It arises from chronic irritation and squamous metaplasia, such as long-term catheters, bladder stones, and chronic Schistosoma haematobium infection, which is the leading cause in endemic regions. It tends to be advanced at diagnosis and is treated with cystectomy."
+      "condition_overview": "Squamous cell carcinoma of the bladder is a malignant tumor with squamous differentiation, keratin pearls, and intercellular bridges. It arises from chronic irritation and squamous metaplasia, such as long-term catheters, bladder stones, and chronic Schistosoma haematobium infection, which is the leading cause in endemic regions. It tends to be advanced at diagnosis and is treated with cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which pattern is present in this supplied urachal remnant section?",
+      "stem": "Which embryologic explanation best accounts for the finding?",
       "options": [
-        "A flat high-grade urothelial lesion without cystic spaces",
-        "Solid squamous nests with central keratin pearls",
-        "A normal ovarian follicle with an oocyte and granulosa cells",
-        "Large epithelial-lined cystic spaces within connective tissue"
+        "Metaplasia of Brunn nests",
+        "Failure of the Mullerian ducts to fuse",
+        "Retention of the Wolffian duct",
+        "Incomplete obliteration of the urachus, the channel between the bladder and umbilicus"
       ],
       "correct_index": 3,
-      "explanation": "Several large cystic spaces with an epithelial lining are embedded in pink connective tissue. The rounded spaces have a lining but do not contain a large central oocyte surrounded by granulosa cells.",
+      "explanation": "Step 1. Epithelial-lined cysts between the bladder dome and umbilicus are a urachal remnant. Step 2. The urachus normally obliterates around the 12th week to form the median umbilical ligament, and a persistent remnant can cause umbilical drainage, erythema, pain, or infection and is treated surgically with antibiotics.",
       "choice_rationales": [
-        "Large lumina are visible inside supporting tissue rather than one flat surface proliferation. This choice describes urothelial carcinoma in situ.",
-        "The pale centers are open spaces with an epithelial border, not solid pink keratin. This choice describes squamous cell carcinoma.",
-        "The rounded spaces have a lining but do not contain a large central oocyte surrounded by granulosa cells. This choice describes a normal ovarian follicle.",
-        "Several large cystic spaces with an epithelial lining are embedded in pink connective tissue. This choice describes an urachal cyst, which is what the image shows."
+        "Brunn nest metaplasia is an acquired mucosal change.",
+        "Mullerian duct fusion concerns the female genital tract.",
+        "Wolffian duct retention concerns male genital structures.",
+        "Incomplete urachal obliteration explains the remnant."
       ],
       "visual_clues": [
         "Several large cystic spaces with an epithelial lining are embedded in pink connective tissue.",
@@ -7887,7 +7912,7 @@
       "source_id": "s-4bfd8dd0d0c17860dcdf",
       "source_group_id": "g-3c03c727bec971e2816c",
       "variant_id": "v-37099fb9cd1fec4642f7",
-      "tested_concept": "Urachal remnant cystic epithelial spaces",
+      "tested_concept": "Which embryologic explanation best accounts for the finding?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -7908,26 +7933,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 30-year-old man has drainage from the umbilicus and recurrent urinary infections. Imaging shows a tract from the bladder dome toward the umbilicus with epithelial-lined cystic spaces.",
+      "study_skill": "interpretation",
       "condition_name": "Urachal remnant",
-      "condition_overview": "Urachal remnants are residual parts of the embryonic urachus, the allantois-derived tube connecting the bladder dome to the umbilicus. They can persist as a patent urachus, a cyst, a sinus, or a diverticulum. Cysts can become infected, and rarely urachal adenocarcinoma arises at the bladder dome. Surgical excision is the usual treatment."
+      "condition_overview": "Urachal remnants are residual parts of the embryonic urachus, the allantois-derived tube connecting the bladder dome to the umbilicus. They can persist as a patent urachus, a cyst, a sinus, or a diverticulum. Cysts can become infected, and rarely urachal adenocarcinoma arises at the bladder dome. Surgical excision is the usual treatment.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What does the red source arrow highlight in this urine cytology specimen?",
+      "stem": "What is the most appropriate next step?",
       "options": [
-        "Long branching fungal filaments with septate hyphae",
-        "Mature anucleate erythrocytes scattered among the cells",
-        "Atypical hyperchromatic urothelial cells with high nuclear-to-cytoplasmic ratios",
-        "Large bland superficial squamous cells with small pyknotic nuclei"
+        "Repeat cytology only after one year",
+        "Antibiotic therapy for cystitis",
+        "Cystoscopic biopsy for histologic confirmation",
+        "Reassurance"
       ],
       "correct_index": 2,
-      "explanation": "The arrow highlights a group of small dark atypical cells with conspicuous nuclei and scant cytoplasm. The arrowed cells have conspicuous dark nuclei; mature red cells are anucleate.",
+      "explanation": "Step 1. Hyperchromatic atypical cells with a high N/C ratio in urine suggest urothelial carcinoma. Step 2. Cytology is a screening and follow-up tool, and diagnosis and staging require cystoscopic biopsy, with ancillary tests such as UroVysion FISH or NMP22 as adjuncts.",
       "choice_rationales": [
-        "The marked structures form a cohesive cellular group with dark nuclei and are not elongated filaments. This choice describes a fungal infection (Candida).",
-        "The arrowed cells have conspicuous dark nuclei; mature red cells are anucleate. This choice describes normal erythrocytes.",
-        "The arrow highlights a group of small dark atypical cells with conspicuous nuclei and scant cytoplasm. This choice describes urothelial carcinoma (atypical hyperchromatic urothelial cells), which is what the image shows.",
-        "The cells have a high proportion of nucleus to cytoplasm rather than broad flat cytoplasm. This choice describes normal superficial squamous cells."
+        "A one year wait delays diagnosis of a possible high-grade tumor.",
+        "Antibiotics do not treat urothelial carcinoma.",
+        "Cystoscopic biopsy confirms and stages the disease.",
+        "Reassurance is inappropriate with atypical hyperchromatic cells and hematuria."
       ],
       "visual_clues": [
         "The arrow highlights a group of small dark atypical cells with conspicuous nuclei and scant cytoplasm.",
@@ -7937,7 +7963,7 @@
       "source_id": "s-9248e1db92667e464023",
       "source_group_id": "g-e66a8a6d28ecdf09ab05",
       "variant_id": "v-7bad7f1f1a038e924de8",
-      "tested_concept": "Urothelial carcinoma urine cytology",
+      "tested_concept": "What is the most appropriate next step?",
       "question_type": "Visual interpretation",
       "category": "Urine Microscopy",
       "collection": "R15",
@@ -7958,10 +7984,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 67-year-old man with hematuria has a urine cytology showing groups of small dark cells with high nuclear to cytoplasmic ratios and scant cytoplasm.",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which cells dominate this ovarian field?",
@@ -14772,7 +14799,7 @@
       "source_id": "s-181d667ef1363f38aa83",
       "source_group_id": "g-7511568b18352956a62f",
       "variant_id": "v-e50e32c2c8539cbddd56",
-      "tested_concept": "Endometrial glands within surrounding uterine muscle",
+      "tested_concept": "Which diagnosis explains the enlargement and how does it differ from endometriosis of the bladder?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -14793,35 +14820,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which pattern is visible in the broad pink tissue?",
+      "case_context": "A 45-year-old woman has pelvic pain and a uterus enlarged diffusely. A hysterectomy section shows pale glands with dark stromal cuffs embedded among muscle bundles.",
+      "stem": "Which diagnosis explains the enlargement and how does it differ from endometriosis of the bladder?",
       "options": [
-        "Isolated blood vessels without surrounding cellular cuffs",
-        "Open gland profiles with darker stroma embedded among pink muscle bundles",
-        "A uniformly thick epithelial lining over the entire muscle surface",
-        "Rounded pale nodules made entirely of muscle without lumina"
+        "Adenomyosis, with endometrial tissue inside the myometrium, versus endometriosis outside the uterus",
+        "Hyperplasia, with crowded glands",
+        "Endometrial carcinoma, with invasion",
+        "Leiomyoma, with smooth muscle nodules"
       ],
-      "correct_index": 1,
-      "explanation": "The pale irregular glands are each associated with a dark stromal cuff, and both lie within the pink muscular field. The structures are embedded at separate points in the muscle rather than covering its surface.",
+      "correct_index": 0,
+      "explanation": "Step 1. Endometrial glands with stromal cuffs within muscle bundles are adenomyosis. Step 2. Endometriosis of the bladder is endometrial glands, stroma, and hemosiderin-laden macrophages at an extrauterine site, whereas adenomyosis lies within the myometrium.",
       "choice_rationales": [
-        "Each pale lumen is associated with an epithelial gland and darker supporting stroma. This choice describes a vascular lesion.",
-        "The pale irregular glands are each associated with a dark stromal cuff, and both lie within the pink muscular field. This choice describes adenomyosis (endometrial glands and stroma in myometrium), which is what the image shows.",
-        "The structures are embedded at separate points in the muscle rather than covering its surface. This choice describes endometrial carcinoma.",
-        "The pink muscle contains visible gland lumina and darker stromal cuffs. This choice describes leiomyomas."
+        "Adenomyosis is intramyometrial endometrial tissue.",
+        "Hyperplasia is a mucosal gland proliferation and not glands in muscle.",
+        "Carcinoma would show atypical crowded glands.",
+        "Leiomyoma is made of bland smooth muscle without glands."
       ],
       "visual_clues": [
         "The pale irregular glands are each associated with a dark stromal cuff, and both lie within the pink muscular field."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-8dffe5c8534b0f024a3b",
       "source_id": "s-9ffa21c4b2342164126a",
       "source_group_id": "g-65c65e5519819bec7905",
       "variant_id": "v-27574934d74f8a00227b",
-      "tested_concept": "Fibrovascular cores in transverse urothelial papillae",
+      "tested_concept": "Why do the oval profiles appear isolated on the slide?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -14842,35 +14870,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What occupies the centers of several separated oval papillary profiles?",
+      "case_context": "A 40-year-old man has a bladder papilloma. Several oval profiles each show a pale core with a small vessel and a thick rim of urothelium.",
+      "stem": "Why do the oval profiles appear isolated on the slide?",
       "options": [
-        "Pale connective tissue containing a small vessel",
-        "Central laminated keratin with no vessel",
-        "Large pink pools of mucin",
-        "Single nuclei of the surrounding epithelial cells"
+        "They are cross sections of papillary fronds cut through their fibrovascular cores",
+        "They are separate tumors seeded in the bladder",
+        "They are keratin pearls",
+        "They are cysts of cystitis cystica"
       ],
       "correct_index": 0,
-      "explanation": "Several isolated ovals have red vascular profiles within pale connective tissue surrounded by a thick purple epithelial rim. A small red vascular lumen is visible within the pale core rather than laminated keratin.",
+      "explanation": "Step 1. Isolated ovals with vascular pale cores are fronds cut in cross section. Step 2. Papillary lesions are lined by urothelium over cores, so tangential or cross sections show separate-looking profiles, and cytology of the covering cells determines whether it is papilloma or carcinoma.",
       "choice_rationales": [
-        "Several isolated ovals have red vascular profiles within pale connective tissue surrounded by a thick purple epithelial rim. This choice describes a fibrovascular core of a papillary urothelial tumor, which is what the image shows.",
-        "A small red vascular lumen is visible within the pale core rather than laminated keratin. This choice describes a keratin pearl.",
-        "The central area contains connective tissue and a vessel instead of a pool of homogeneous material. This choice describes a mucinous tumor.",
-        "The dark epithelial nuclei form the rim, not the center of the profiles. This choice describes nuclei of surrounding epithelium."
+        "Cross sections of fronds appear as isolated ovals.",
+        "The profiles are connected to the same base and not separate tumors.",
+        "Keratin pearls are acellular concentric layers inside squamous nests.",
+        "Cystitis cystica shows nests with central lumina and not vascular cores."
       ],
       "visual_clues": [
         "Several isolated ovals have red vascular profiles within pale connective tissue surrounded by a thick purple epithelial rim."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial papilloma",
-      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative."
+      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-d4de7badde4e358c3b5e",
       "source_id": "s-f4b33e27728cadf4d46f",
       "source_group_id": "g-65c65e5519819bec7905",
       "variant_id": "v-ed6a1b2f88be6a482df9",
-      "tested_concept": "Papillary urothelial growth at low power",
+      "tested_concept": "Which explanation is correct?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -14891,35 +14920,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "How do the numerous oval profiles relate to the main tissue at the bottom?",
+      "case_context": "A pathologist describes numerous small oval profiles above a broad base in a papillary bladder lesion and asks the resident why they appear separate.",
+      "stem": "Which explanation is correct?",
       "options": [
-        "All are glands embedded in deeper tissue below the lower base",
-        "They are detached stromal nodules without an epithelial border",
-        "They merge into a smooth uninterrupted surface with no projections",
-        "Many are cross sections of fronds projecting from the lower epithelial base"
+        "They represent metastatic deposits",
+        "Many are cross sections of fronds projecting from the epithelial base",
+        "They represent parasite eggs",
+        "They represent invasive nests in muscle"
       ],
-      "correct_index": 3,
-      "explanation": "Elongated epithelial fronds extend up from the broad lower base alongside smaller isolated profiles of similar tissue. The isolated ovals lie above the main base alongside fronds rather than in deeper tissue below it.",
+      "correct_index": 1,
+      "explanation": "Step 1. Fronds extending up from a base alongside oval profiles indicate papillary architecture cut in different planes. Step 2. Recognizing this prevents misreading cross sections as separate or invasive nests, since invasion would show nests below the base in the lamina propria or muscle.",
       "choice_rationales": [
-        "The isolated ovals lie above the main base alongside fronds rather than in deeper tissue below it. This choice describes glands in deep tissue.",
-        "Each detached profile has a dark epithelial border around supporting tissue. This choice describes stromal nodules.",
-        "The projections break up the contour rather than forming one flat surface. This choice describes a smooth surface.",
-        "Elongated epithelial fronds extend up from the broad lower base alongside smaller isolated profiles of similar tissue. This choice describes urothelial papilloma (fronds arising from a base), which is what the image shows."
+        "Metastases would not be seen as fronds arising from the surface.",
+        "Fronds cut in different planes appear as ovals above the base.",
+        "Parasite eggs would have thick outlines and are not epithelial fronds.",
+        "Invasive nests lie below the base rather than above it."
       ],
       "visual_clues": [
         "Elongated epithelial fronds extend up from the broad lower base alongside smaller isolated profiles of similar tissue."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial papilloma",
-      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative."
+      "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-d474f100d78d59621c53",
       "source_id": "s-d41dacaa780978346632",
       "source_group_id": "g-7baf4843d4b8b64e5dd8",
       "variant_id": "v-0967dd5f56e952000e14",
-      "tested_concept": "Squamous differentiation in bladder tumor",
+      "tested_concept": "Which etiologic factor is most strongly associated with this histology?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -14940,35 +14970,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which cellular arrangement is visible at the center and right?",
+      "case_context": "A 61-year-old man with recurrent calculi has a bladder tumor of broad cohesive clusters of polygonal pink cells separated by stroma.",
+      "stem": "Which etiologic factor is most strongly associated with this histology?",
       "options": [
-        "An intact single cell layer lining a clear cavity",
-        "Broad clusters of polygonal pink cells with individual dark nuclei",
-        "Papillae with narrow pale cores projecting into an open space of fluid",
-        "Columnar cells encircling long mucin filled glands"
+        "Aniline dye exposure alone",
+        "Chronic inflammation, including infection or calculi",
+        "Cyclophosphamide exposure alone",
+        "Hormonal therapy for prostate cancer"
       ],
       "correct_index": 1,
-      "explanation": "The tissue shows broad pink polygonal epithelial groups separated by irregular darker cellular stroma. The field contains broad cohesive clusters many cells thick rather than a single lining.",
+      "explanation": "Step 1. Broad cohesive polygonal pink cell clusters suggest squamous differentiation. Step 2. Bladder squamous carcinoma is associated with chronic inflammatory processes such as chronic bacterial infection, schistosomiasis, and calculi, while aniline dyes, smoking, and cyclophosphamide are risk factors for urothelial carcinoma.",
       "choice_rationales": [
-        "The field contains broad cohesive clusters many cells thick rather than a single lining. This choice describes a simple lining.",
-        "The tissue shows broad pink polygonal epithelial groups separated by irregular darker cellular stroma. This choice describes a sheet-like tumor with polygonal cells (such as squamous cell carcinoma or dysgerminoma), which is what the image shows.",
-        "The groups have solid centers without the narrow vascular stalks of papillary fronds. This choice describes a papillary tumor.",
-        "Most of the conspicuous epithelial groups are solid instead of circling elongated gland lumina. This choice describes a mucinous adenocarcinoma."
+        "Aniline dyes are risk factors listed for urothelial carcinoma.",
+        "Chronic inflammation and calculi are linked to squamous carcinoma.",
+        "Cyclophosphamide is listed as a risk factor for urothelial carcinoma and for hemorrhagic cystitis.",
+        "Hormonal therapy for prostate cancer is mentioned in endometriosis of the bladder."
       ],
       "visual_clues": [
         "The tissue shows broad pink polygonal epithelial groups separated by irregular darker cellular stroma."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Bladder squamous cell carcinoma",
-      "condition_overview": "Squamous cell carcinoma of the bladder is a malignant tumor with squamous differentiation, keratin pearls, and intercellular bridges. It arises from chronic irritation and squamous metaplasia, such as long-term catheters, bladder stones, and chronic Schistosoma haematobium infection, which is the leading cause in endemic regions. It tends to be advanced at diagnosis and is treated with cystectomy."
+      "condition_overview": "Squamous cell carcinoma of the bladder is a malignant tumor with squamous differentiation, keratin pearls, and intercellular bridges. It arises from chronic irritation and squamous metaplasia, such as long-term catheters, bladder stones, and chronic Schistosoma haematobium infection, which is the leading cause in endemic regions. It tends to be advanced at diagnosis and is treated with cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-9d7eb9a7faa2efcb7245",
       "source_id": "s-3950c33e1bcdae8b917d",
       "source_group_id": "g-3cb89ea6189e7dba833e",
       "variant_id": "v-10bd91d8c2c8af38ab76",
-      "tested_concept": "Bladder glandular tumor papillary cores",
+      "tested_concept": "Which feature separates this tumor from a urothelial papilloma?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -14989,35 +15020,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What forms the pink center of the branching profiles?",
+      "case_context": "A 59-year-old man has a papillary-appearing glandular bladder tumor. Fronds have pink cores with small vessels covered by dark columnar epithelium.",
+      "stem": "Which feature separates this tumor from a urothelial papilloma?",
       "options": [
-        "Fibrovascular tissue covered by dark columnar epithelium",
-        "Dense keratin wrapped in concentric layers",
-        "A wide pool of clear mucin without a lining",
-        "A thick band of smooth muscle with parallel elongated nuclei"
+        "Normal urothelium over the fronds",
+        "Presence of umbrella cells",
+        "Lack of fibrovascular cores",
+        "Columnar glandular epithelium with atypia instead of normal urothelium"
       ],
-      "correct_index": 0,
-      "explanation": "Pink stromal cores with small vessels project into open spaces and carry a dark epithelial covering. The center of each frond supports a dark epithelial border rather than forming an unlined pool.",
+      "correct_index": 3,
+      "explanation": "Step 1. Fibrovascular fronds covered by dark atypical columnar cells indicate a papillary adenocarcinoma pattern. Step 2. Papilloma is lined by cytologically normal urothelium, whereas this tumor has atypical columnar cells, supporting adenocarcinoma, which is rare and associated with intestinal metaplasia.",
       "choice_rationales": [
-        "Pink stromal cores with small vessels project into open spaces and carry a dark epithelial covering. This choice describes a papillary adenocarcinoma with fibrovascular cores, which is what the image shows.",
-        "The branching centers are pale connective tissue and contain small vessels. This choice describes keratin pearls.",
-        "The center of each frond supports a dark epithelial border rather than forming an unlined pool. This choice describes mucin.",
-        "The projections contain fine vascular cores, not a broad parallel muscular bundle. This choice describes smooth muscle."
+        "Normal urothelium over fronds describes papilloma.",
+        "Umbrella cells are a feature of normal urothelium.",
+        "Both lesions have fibrovascular cores, so this does not separate them.",
+        "Atypical columnar epithelium over fronds indicates adenocarcinoma."
       ],
       "visual_clues": [
         "Pink stromal cores with small vessels project into open spaces and carry a dark epithelial covering."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Bladder adenocarcinoma",
-      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy."
+      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-edab8cb8462ec9831742",
       "source_id": "s-7b2c83e319cc88113d69",
       "source_group_id": "g-52323ec0cbe3fc005e46",
       "variant_id": "v-65f82f8b1a1ea4d73f0f",
-      "tested_concept": "Gross bladder endometriosis surface foci",
+      "tested_concept": "What explains the cyclic bleeding?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R15",
@@ -15038,35 +15070,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which change is visible in the opened bladder surface?",
+      "case_context": "A 38-year-old woman has cyclic hematuria. Cystoscopy shows small reddish brown foci on the bladder surface. Biopsy shows endometrial glands, stroma, and hemosiderin-laden macrophages.",
+      "stem": "What explains the cyclic bleeding?",
       "options": [
-        "A uniform smooth pale surface with no focal color change",
-        "A single stalked frond fills the entire opened specimen",
-        "A completely black cut surface without mucosal folds",
-        "Small irregular reddish brown foci interrupt the pale folded surface"
+        "Cystitis from E. coli",
+        "Functioning endometrial tissue in the bladder responds to hormones",
+        "Schistosomal egg granulomas",
+        "Papillary tumor with vascular cores"
       ],
-      "correct_index": 3,
-      "explanation": "Scattered reddish and dark foci interrupt the pale surface and its folds. Small dark red and brown spots break up the surface.",
+      "correct_index": 1,
+      "explanation": "Step 1. Endometrial glands, stroma, and hemosiderin macrophages in the bladder are endometriosis. Step 2. Endometrial tissue outside the uterus responds to cyclic hormones and bleeds, leaving hemosiderin, and it also occurs in men with prostate cancer receiving hormonal therapy.",
       "choice_rationales": [
-        "Small dark red and brown spots break up the surface. This choice describes a normal bladder mucosa.",
-        "The abnormal color is dispersed at multiple sites rather than carried by one projecting frond. This choice describes a papillary tumor.",
-        "Pale mucosal folds remain visible around the scattered dark foci. This choice describes a black melanotic lesion.",
-        "Scattered reddish and dark foci interrupt the pale surface and its folds. This choice describes hemorrhagic foci of bladder tumor or cystitis, which is what the image shows."
+        "E. coli cystitis causes dysuria and frequency and is not cyclic.",
+        "Hormone-responsive ectopic endometrium bleeds cyclically.",
+        "Schistosomal eggs cause hematuria without a cyclic pattern.",
+        "Papillary tumors bleed without cyclic pattern."
       ],
       "visual_clues": [
         "Scattered reddish and dark foci interrupt the pale surface and its folds."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-97df0d069bafea328cdf",
       "source_id": "s-94e7d8e888680ebb8bb6",
       "source_group_id": "g-3cb89ea6189e7dba833e",
       "variant_id": "v-0101c9402db2dd1825be",
-      "tested_concept": "Bladder adenocarcinoma gross surface change",
+      "tested_concept": "Which statement best guides the next step?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R15",
@@ -15087,35 +15120,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "What is present at the center of this raised lesion?",
+      "case_context": "A 62-year-old man has hematuria. Cystoscopy shows a raised fleshy lesion with a disrupted dark and tan central surface.",
+      "stem": "Which statement best guides the next step?",
       "options": [
-        "A clear thin walled cavity with no solid tissue",
-        "A central row of translucent rounded vesicles",
-        "An irregular dark and tan disrupted central surface",
-        "A smooth intact center with uniform color"
+        "Antibiotics for acute cystitis",
+        "Biopsy is needed because multiple tumor types, including adenocarcinoma, urothelial and squamous carcinoma, occur and metastasis must be excluded",
+        "Observation only, since most are benign",
+        "Reassurance since lesions are always endometriosis"
       ],
-      "correct_index": 2,
-      "explanation": "The central portion has uneven dark discoloration and tan ragged material within a surrounding fleshy elevation. The raised area includes irregular solid tissue without an empty thin-walled cavity.",
+      "correct_index": 1,
+      "explanation": "Step 1. A raised ulcerated lesion indicates a bladder tumor. Step 2. More than 95 percent of bladder tumors are urothelial, with squamous cell carcinoma at 3 to 7 percent and adenocarcinoma rare, and glandular tumors need exclusion of metastasis, so histologic diagnosis determines grade and stage.",
       "choice_rationales": [
-        "The raised area includes irregular solid tissue without an empty thin-walled cavity. This choice describes a cyst.",
-        "The irregular center is dark and tan rather than a row of clear round vesicles. This choice describes a hydatidiform mole.",
-        "The central portion has uneven dark discoloration and tan ragged material within a surrounding fleshy elevation. This choice describes an ulcerated adenocarcinoma of the bladder, which is what the image shows.",
-        "Ragged tan material and dark discoloration interrupt the central surface. This choice describes a normal lesion."
+        "Antibiotics do not treat an ulcerated mass.",
+        "Histology is required to classify the tumor and exclude metastasis.",
+        "Observation is not appropriate for a raised ulcerated lesion with hematuria.",
+        "Endometriosis shows small reddish brown foci, not a fleshy ulcerated mass."
       ],
       "visual_clues": [
         "The central portion has uneven dark discoloration and tan ragged material within a surrounding fleshy elevation."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Bladder adenocarcinoma",
-      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy."
+      "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-c474efd62e2dd65b1fc0",
       "source_id": "s-87992bd71a062a234545",
       "source_group_id": "g-b9045d4a0257ba9042e7",
       "variant_id": "v-c6da43f776b7b878c9b6",
-      "tested_concept": "Gross inflammation of the glans",
+      "tested_concept": "Which underlying condition should be evaluated?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R15",
@@ -15136,35 +15170,36 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which surface change predominates in the rounded exposed glans?",
+      "case_context": "A 68-year-old uncircumcised man has a red glans with scattered white flecks and no other complaints. A urine dipstick shows glucose.",
+      "stem": "Which underlying condition should be evaluated?",
       "options": [
-        "Diffuse redness with scattered pale surface material",
-        "One circumscribed deeply pigmented plaque on the glans",
-        "Multiple tall branching papillae across the surface",
-        "A large pale smooth cyst beneath the glans surface"
+        "Phimosis alone",
+        "Squamous carcinoma",
+        "Diabetes mellitus, since Candida balanitis can reveal new-onset diabetes",
+        "HPV infection"
       ],
-      "correct_index": 0,
-      "explanation": "The exposed rounded surface is diffusely red and has scattered light flecks without a single dominant nodule. The diffuse color change is on the surface, without one smooth underlying cavity.",
+      "correct_index": 2,
+      "explanation": "Step 1. Diffuse redness with light flecks on the glans indicates balanitis, here Candida. Step 2. The lecture example of Candida balanitis in an elderly man led to the diagnosis of new-onset diabetes, and balanitis is also favored by poor hygiene in uncircumcised men.",
       "choice_rationales": [
-        "The exposed rounded surface is diffusely red and has scattered light flecks without a single dominant nodule. This choice describes balanitis, which is what the image shows.",
-        "Redness extends broadly across the exposed glans and is not sharply limited to one dark plaque. This choice describes a pigmented plaque (such as melanoma or melanosis).",
-        "The pale flecks are superficial and do not form tall branching fronds. This choice describes condyloma acuminatum.",
-        "The diffuse color change is on the surface, without one smooth underlying cavity. This choice describes an epidermal inclusion cyst."
+        "Phimosis can predispose to infection but does not explain glucosuria.",
+        "Carcinoma presents as an indurated, ulcerated lesion.",
+        "Candida balanitis can reveal diabetes.",
+        "HPV causes condyloma acuminatum, a papillary growth."
       ],
       "visual_clues": [
         "The exposed rounded surface is diffusely red and has scattered light flecks without a single dominant nodule."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Balanitis",
-      "condition_overview": "Balanitis is inflammation of the glans penis, usually in uncircumcised men, from poor hygiene, irritants, diabetes, or infection with organisms such as Candida. Candidal balanitis shows diffuse redness with small satellite papules or white surface material. It is treated by hygiene and topical antifungals. Persistent or atypical lesions are biopsied to exclude intraepithelial neoplasia or carcinoma."
+      "condition_overview": "Balanitis is inflammation of the glans penis, usually in uncircumcised men, from poor hygiene, irritants, diabetes, or infection with organisms such as Candida. Candidal balanitis shows diffuse redness with small satellite papules or white surface material. It is treated by hygiene and topical antifungals. Persistent or atypical lesions are biopsied to exclude intraepithelial neoplasia or carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-d30ba4cbf9bb63c97b9e",
       "source_id": "s-8ae006aed2f306604a3b",
       "source_group_id": "g-5cc97b4489e475a72a1a",
       "variant_id": "v-ea975c75bcba01f300c9",
-      "tested_concept": "Papillary lesion of the glans",
+      "tested_concept": "Which etiologic agent is most responsible?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R15",
@@ -15185,28 +15220,29 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which configuration is visible near the meatus in this supplied example?",
+      "case_context": "A 24-year-old man has a small irregular papillary growth near the urethral meatus. He has had several sexual partners.",
+      "stem": "Which etiologic agent is most responsible?",
       "options": [
-        "Diffuse smooth swelling with no focal growth",
-        "A single deep broad cavity",
-        "Multiple flat pale patches extending to the shaft",
-        "A focal raised irregular papillary lesion"
+        "Herpes simplex virus",
+        "Candida albicans",
+        "HPV types 16 and 18 only",
+        "HPV types 6 and 11"
       ],
       "correct_index": 3,
-      "explanation": "A small irregular growth projects from the central region beside the opening. The surface change is a localized raised lesion, rather than several flat patches.",
+      "explanation": "Step 1. A benign papillary growth beside the meatus is condyloma acuminatum. Step 2. It is HPV related, with low-risk types 6 and 11 spread by direct contact, whereas invasive penile carcinoma is often associated with HPV 16 and 18.",
       "choice_rationales": [
-        "One irregular focal projection is visible near the opening. This choice describes diffuse balanitis.",
-        "The lesion projects outward rather than forming an excavation. This choice describes a deep ulcer.",
-        "The surface change is a localized raised lesion, rather than several flat patches. This choice describes lichen sclerosus (white patches).",
-        "A small irregular growth projects from the central region beside the opening. This choice describes a focal papillary carcinoma or condyloma, which is what the image shows."
+        "HSV causes painful vesicles and ulcers.",
+        "Candida causes balanitis with red glans and white flecks.",
+        "HPV 16 and 18 are linked to penile carcinoma and its precursors.",
+        "Condyloma is associated with low-risk HPV 6 and 11."
       ],
       "visual_clues": [
         "A small irregular growth projects from the central region beside the opening."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
-      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases."
+      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-16f1ddc10637a81f165a",
@@ -17325,7 +17361,7 @@
       "source_id": "s-c3cbdbb9c74bd45e0921",
       "source_group_id": "g-3f7d76960db16a57500f",
       "variant_id": "v-3233cc8c2dd2dac87847",
-      "tested_concept": "Arrowed concentric keratinization in bladder carcinoma",
+      "tested_concept": "What is the most likely diagnosis and risk association?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R15",
@@ -17346,26 +17382,27 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which structure is visible at the arrow?",
+      "case_context": "A 60-year-old man with chronic bladder inflammation from a long-standing urinary calculus develops a bladder mass. A section shows laminated pink whorls in tumor nests.",
+      "stem": "What is the most likely diagnosis and risk association?",
       "options": [
-        "A dark oval parasite egg with a terminal spine and thick shell",
-        "A small intravascular cluster of red cells",
-        "Concentric pink lamellae within a squamous tumor nest",
-        "An irregular empty gland lumen"
+        "Adenocarcinoma, associated with exstrophy only",
+        "Squamous cell carcinoma, associated with chronic irritation and calculi",
+        "Cystitis cystica, associated with smoking",
+        "Urothelial papilloma, associated with aniline dyes"
       ],
-      "correct_index": 2,
-      "explanation": "The arrow points to layered pink material arranged in a concentric whorl inside an epithelial nest. The arrow points to layers of pink material within an epithelial nest rather than a spined oval egg.",
+      "correct_index": 1,
+      "explanation": "Step 1. Concentric pink keratin lamellae within tumor nests are keratin pearls. Step 2. Squamous cell carcinoma of the bladder is associated with chronic inflammatory processes, bacterial infection, schistosomiasis, and renal or bladder calculi.",
       "choice_rationales": [
-        "The arrow points to layers of pink material within an epithelial nest rather than a spined oval egg. This choice describes a schistosome egg.",
-        "The layered center is solid and eosinophilic, not a vascular lumen occupied by separate red cells. This choice describes a vascular lesion.",
-        "The arrow points to layered pink material arranged in a concentric whorl inside an epithelial nest. This choice describes a keratin pearl in squamous cell carcinoma, which is what the image shows.",
-        "The center contains concentric solid lamellae instead of an open gland lumen. This choice describes an empty gland."
+        "Adenocarcinoma is linked to exstrophy and glandular metaplasia but not keratin pearls.",
+        "Keratin pearls indicate squamous cell carcinoma, linked to chronic irritation and calculi.",
+        "Cystitis cystica is a reactive nest change and not a tumor with pearls.",
+        "Papilloma is a benign papillary lesion and not keratinizing."
       ],
       "visual_clues": [
         "The arrow points to layered pink material arranged in a concentric whorl inside an epithelial nest."
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-12594b9bd9a44dd5c7cf",
