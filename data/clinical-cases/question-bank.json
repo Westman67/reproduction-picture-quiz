@@ -648,33 +648,33 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An adult reports persistent vulvar itching. Examination shows a plaque with red and pale areas, and a biopsy includes both the epidermis and underlying tissue.",
-      "lead_in": "Which arrangement of the abnormal cells is visible in the biopsy?",
-      "stem": "Which arrangement of the abnormal cells is visible in the biopsy?",
+      "scenario": "A 68-year-old woman has had an itchy, red and white plaque on the vulva for years that was treated as eczema. A biopsy shows large pale cells with abundant cytoplasm scattered among the keratinocytes of the epidermis, with no invasion into the dermis.",
+      "lead_in": "Why does the surgeon plan a wide local excision, and what is the risk if margins are narrow?",
+      "stem": "Why does the surgeon plan a wide local excision, and what is the risk if margins are narrow?",
       "options": [
-        "Large pale cells dispersed among epidermal keratinocytes",
-        "Thin epidermis over a band of superficial dermal sclerosis",
-        "Exophytic squamous papillae with koilocytic atypia",
-        "A circumscribed dermal nodule with complex papillary glands",
-        "Immature basaloid cells replacing the upper squamous layers"
+        "The plaque is a benign sweat gland tumor, so a wide margin prevents regrowth of a dermal nodule",
+        "The lesion is HPV related and multifocal, so wide excision removes all infected skin",
+        "The malignant cells spread laterally within the epidermis, so excision can be incomplete and the disease may recur",
+        "The cells have invaded deep stroma, so a wide margin is needed to reach nodal disease",
+        "The lesion is a thin sclerotic patch, so wide excision prevents loss of the labia"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "Extramammary Paget disease produces large pale atypical cells that interrupt the normal darker keratinocytes within the vulvar epidermis. This choice describes extramammary Paget disease, which is what the image shows.",
-        "A thin epidermis and sclerotic dermis would favor lichen sclerosus. Here the striking abnormality is within the epithelium. This choice describes lichen sclerosus.",
-        "Condyloma has outward branching stromal cores and koilocytes. This surface lacks that exophytic architecture. This choice describes condyloma acuminatum.",
-        "Papillary hidradenoma forms a separate dermal glandular nodule. The pale cells here lie among keratinocytes. This choice describes papillary hidradenoma.",
-        "Classic vulvar intraepithelial neoplasia shows impaired squamous maturation with basaloid cells extending upward. Here the conspicuous cells are large and pale. This choice describes vulvar high-grade squamous intraepithelial lesion (usual-type VIN)."
+        "A benign dermal sweat gland tumor is papillary hidradenoma and would not be managed this way.",
+        "Paget disease is not an HPV driven multifocal lesion, which describes classic VIN.",
+        "Lateral intraepidermal spread is the reason for wide margins and for recurrence.",
+        "The disease is typically confined to the epidermis, so deep stromal and nodal spread is not the usual picture.",
+        "Sclerosis and loss of labia describe lichen sclerosus, not this plaque."
       ],
-      "explanation": "Scan the purple epidermis beneath the surface. Large pale atypical cells are interspersed among darker keratinocytes.",
+      "explanation": "Step 1. Large pale cells within the epidermis in an itchy red and white plaque is vulvar (extramammary) Paget disease, an intraepithelial neoplasm. Step 2. The lecture states that Paget cells spread laterally, so excision may be incomplete and the disease may recur, which is why wide local excision is the treatment. Invasion is rare, and poor prognosis follows when it does occur.",
       "visual_clues": [
         "The epidermis is the darker band along the top.",
         "Several pale cells are larger than the adjacent keratinocytes."
       ],
       "visual_target": "Pale atypical cells in the epidermis",
-      "tested_concept": "Distribution of atypical cells in a vulvar biopsy",
+      "tested_concept": "Why does the surgeon plan a wide local excision, and what is the risk if margins are narrow?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -711,9 +711,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Extramammary Paget disease",
-      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision."
+      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-plaque-2",
@@ -721,32 +722,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A patient with a pruritic vulvar plaque undergoes biopsy. The section includes the surface epithelium and underlying tissue.",
-      "lead_in": "Which diagnosis best accounts for the architecture and abnormal cells in this section?",
-      "stem": "Which diagnosis best accounts for the architecture and abnormal cells in this section?",
+      "scenario": "A 70-year-old woman has a pruritic, painful, erythematous vulvar plaque. A biopsy shows an intraepithelial proliferation of malignant cells larger than the surrounding keratinocytes with pale cytoplasm. A medical student recalls that Paget disease of the nipple is often linked to an underlying cancer.",
+      "lead_in": "How does this vulvar disease usually differ from Paget disease of the nipple?",
+      "stem": "How does this vulvar disease usually differ from Paget disease of the nipple?",
       "options": [
-        "Lichen sclerosus",
-        "Extramammary Paget disease",
-        "Condyloma acuminatum",
-        "Papillary hidradenoma",
-        "Classic vulvar intraepithelial neoplasia"
+        "It arises from a preexisting HPV related condyloma",
+        "It is typically an in situ intraepithelial neoplasm not associated with an underlying cancer",
+        "It is a benign glandular tumor with myoepithelium",
+        "It is always associated with an underlying invasive adenocarcinoma of the rectum",
+        "It is a premalignant lesion that always progresses to squamous carcinoma"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "Lichen sclerosus would show epithelial thinning and superficial dermal sclerosis. The conspicuous cells here are large, pale, and scattered within the epidermis, favoring extramammary Paget disease. This choice describes lichen sclerosus.",
-        "Extramammary Paget disease explains the large pale malignant cells scattered between darker vulvar keratinocytes on this biopsy. This choice describes extramammary Paget disease, which is what the image shows.",
-        "Condyloma acuminatum forms outward fibrovascular papillae covered by koilocytic squamous epithelium. The biopsy instead shows dispersed pale tumor cells within the epidermis. This choice describes condyloma acuminatum.",
-        "Papillary hidradenoma is a circumscribed dermal glandular nodule with complex papillae. Here the abnormal pale cells are in the epidermis, without a separate dermal glandular nodule. This choice describes papillary hidradenoma.",
-        "Classic vulvar intraepithelial neoplasia impairs squamous maturation, with atypical basaloid cells extending upward. Extramammary Paget disease accounts for the individually scattered large pale cells shown here. This choice describes classic (usual-type) vulvar intraepithelial neoplasia."
+        "Condyloma is a separate HPV related exophytic lesion, not the origin of Paget cells.",
+        "The lecture states it is typically in situ and not associated with underlying cancer.",
+        "A benign glandular tumor with myoepithelium describes papillary hidradenoma.",
+        "The lecture does not describe an obligate underlying rectal carcinoma.",
+        "Paget cells are malignant and the process is not described as a squamous precursor."
       ],
-      "explanation": "The large pale intraepidermal cells support extramammary Paget disease. The lecture describes its plaque as potentially eczema like and notes that cytoplasmic mucin staining can help confirm the diagnosis.",
+      "explanation": "Step 1. Large pale malignant cells confined to the epidermis identify vulvar Paget disease. Step 2. The lecture contrasts it with Paget disease of the nipple by noting that the vulvar form is typically in situ and not associated with underlying cancer. Cells are thought to arise from multipotent cells in the mammary-like gland ducts of vulvar skin, and invasion or metastasis is rare but carries a poor prognosis.",
       "visual_clues": [
         "Use the level of the atypical cells and their pale cytoplasm together."
       ],
       "visual_target": "Abnormal pale population within the vulvar epidermis",
-      "tested_concept": "Diagnosis of a vulvar plaque from epidermal histology",
+      "tested_concept": "How does this vulvar disease usually differ from Paget disease of the nipple?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -789,7 +790,8 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Extramammary Paget disease",
-      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision."
+      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-plaque-3",
@@ -797,32 +799,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An additional teaching image shows cytoplasmic staining in the vulvar biopsy setting.",
-      "lead_in": "Which interpretation accounts for the bright staining pattern?",
-      "stem": "Which interpretation accounts for the bright staining pattern?",
+      "scenario": "A pathologist examines a vulvar plaque biopsy containing scattered large pale cells in the epidermis. A histochemical stain shows bright cytoplasmic positivity in these cells but not in the neighboring keratinocytes.",
+      "lead_in": "What does this result indicate about the cells, and how does it affect the diagnosis?",
+      "stem": "What does this result indicate about the cells, and how does it affect the diagnosis?",
       "options": [
-        "Diffuse staining of dermal collagen",
-        "A continuous band of surface keratin staining",
-        "Pink secretion filling the lumens of a dermal nodule",
-        "Strong staining limited to small vessels lying just below the epidermis",
-        "Intracytoplasmic material in dispersed atypical epidermal cells"
+        "Fungal hyphae in the keratin layer, which indicates candidiasis",
+        "Myoepithelial cytoplasm, which indicates papillary hidradenoma",
+        "Intracytoplasmic mucin in malignant cells, which confirms Paget disease",
+        "Glycogen in normal clear keratinocytes, which excludes neoplasia",
+        "Keratin pearls from invasive squamous carcinoma"
       ],
-      "correct_index": 4,
+      "correct_index": 2,
       "choice_rationales": [
-        "The mucin stain in this extramammary Paget disease field highlights individual cells above the dermal interface. Dermal collagen lies below that interface. This choice describes a nonspecific collagen stain pattern.",
-        "Surface keratin would form an outer band. In extramammary Paget disease, this image shows scattered pink intracytoplasmic foci at different depths in the epidermis. This choice describes keratin staining.",
-        "Papillary hidradenoma can form a circumscribed dermal nodule with glandular lumens. The pink material in this Paget disease specimen is within separate epidermal cells. This choice describes a secretory glandular lesion (papillary hidradenoma).",
-        "The bright pink cells are intraepidermal Paget cells, above the vessels of the superficial dermis. This choice describes a vascular staining pattern.",
-        "The intense pink material is cytoplasmic mucin within scattered large intraepidermal Paget cells. This choice describes extramammary Paget disease (mucin-positive intracytoplasmic material), which is what the image shows."
+        "Candida is shown on PAS in the thickened keratin layer, not in epidermal cells.",
+        "Hidradenoma shows myoepithelium, which is shown with calponin, SMA, and EMA, not mucin.",
+        "Mucin positive pale cells confirm Paget disease according to the lecture.",
+        "The cells that stain are malignant and are not described as normal keratinocytes.",
+        "Keratin pearls are not the finding with intracellular mucin."
       ],
-      "explanation": "The vivid material is inside large cells dispersed among keratinocytes. R10 describes cytoplasmic mucin staining as a way to support the diagnosis in this setting.",
+      "explanation": "Step 1. Positive cytoplasmic staining of the large pale cells with mucin stains (mucicarmine or diastase PAS) shows that the cells contain mucopolysaccharide. Step 2. The lecture states this staining confirms the diagnosis of Paget disease. The stain is positive in the atypical cells and not in the surrounding keratinocytes, which is why it helps classify the conspicuous cells.",
       "visual_clues": [
         "Locate the pink material within individual cells rather than along the surface or in the dermis."
       ],
       "visual_target": "Bright cytoplasmic material in scattered large epidermal cells",
-      "tested_concept": "Cytoplasmic staining in a vulvar intraepithelial lesion",
+      "tested_concept": "What does this result indicate about the cells, and how does it affect the diagnosis?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -843,9 +845,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "condition_name": "Extramammary Paget disease",
-      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision."
+      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-plaque-depth-stromal-interface",
@@ -855,28 +858,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Vulvar plaque and the evidence for stromal invasion",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which precursor lesion and molecular change most likely preceded this carcinoma?",
       "visual_target": "Vulvar plaque and the evidence for stromal invasion",
-      "scenario": "A patient has a pruritic vulvar plaque that was sampled by biopsy.",
-      "lead_in": "A separate biopsy from a patient with a vulvar lesion is shown for comparison. Which relationship distinguishes this example from an abnormality limited to the epidermis?",
-      "stem": "A separate biopsy from a patient with a vulvar lesion is shown for comparison. Which relationship distinguishes this example from an abnormality limited to the epidermis?",
+      "scenario": "A 74-year-old woman with long-standing lichen sclerosus has a firm, ulcerated vulvar lesion. A biopsy shows irregular nests of keratinizing squamous cells in the stroma beneath the surface. The tumor is HPV negative.",
+      "lead_in": "Which precursor lesion and molecular change most likely preceded this carcinoma?",
+      "stem": "Which precursor lesion and molecular change most likely preceded this carcinoma?",
       "options": [
-        "Pale cells scattered among surface keratinocytes",
-        "A dermal inflammatory band below a pale zone",
-        "Irregular epithelial nests below the surface in stroma",
-        "A thickened surface with regular epithelial ridges",
-        "A discrete glandular nodule in the dermis"
+        "Extramammary Paget disease with mucin positive cells",
+        "Differentiated vulvar intraepithelial neoplasia with p53 mutation",
+        "Classic VIN with high risk HPV type 16",
+        "Condyloma acuminatum with koilocytes",
+        "Papillary hidradenoma with myoepithelium"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "Intraepidermal Paget cells stay among surface keratinocytes. Irregular squamous epithelial nests beneath the epithelial boundary demonstrate stromal invasion in this comparison. This choice describes extramammary Paget disease.",
-        "An inflammatory band would consist of inflammatory cells rather than epithelial nests. This choice describes lichen sclerosus.",
-        "Irregular epithelial nests lie in the underlying stroma. Their location below the surface compartment, rather than nuclear atypia alone, demonstrates invasion in this comparison field. This choice describes invasive squamous cell carcinoma (stromal nests), which is what the image shows.",
-        "Regular attached ridges do not account for the irregular stromal nests. This choice describes condyloma acuminatum.",
-        "The infiltrating profiles are squamous rather than a circumscribed glandular proliferation. This choice describes papillary hidradenoma."
+        "Paget disease is an intraepithelial glandular process, not a squamous precursor.",
+        "HPV negative carcinoma in an older patient with lichen sclerosus fits differentiated VIN and p53 mutation.",
+        "Classic VIN is HPV 16 related and tends to occur in younger women, which does not fit.",
+        "Condyloma is a benign exophytic HPV lesion and is not the described precursor.",
+        "Hidradenoma is a benign sweat gland tumor and is not a carcinoma precursor."
       ],
-      "explanation": "Irregular epithelial nests lie in the underlying stroma. Their location below the surface compartment, rather than nuclear atypia alone, demonstrates invasion in this comparison field. Intraepidermal Paget cells stay among surface keratinocytes. Irregular squamous epithelial nests beneath the epithelial boundary demonstrate stromal invasion in this comparison.",
+      "explanation": "Step 1. Nests of squamous cells invading the stroma are invasive squamous cell carcinoma. Step 2. The lecture states about 70 percent of vulvar carcinomas are unrelated to HPV and arise from differentiated VIN in older women, linked to lichen sclerosus or squamous hyperplasia and p53 mutation, giving keratinized squamous carcinomas. The 30 percent related to HPV arise from classic VIN and form basaloid and warty carcinomas.",
       "visual_clues": [
         "Irregular epithelial nests lie in the underlying stroma."
       ],
@@ -907,9 +910,10 @@
           "page": 55
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Vulvar squamous cell carcinoma",
-      "condition_overview": "Vulvar squamous cell carcinoma has two main pathways. HPV-related tumors arise from usual-type VIN in younger women and are basaloid or warty. HPV-independent tumors arise from dVIN or lichen sclerosus in older women and are keratinizing. Keratinizing tumors show irregular nests of atypical squamous cells with keratin pearls and intercellular bridges invading dermis. Depth of invasion, tumor size, and groin node status determine stage and prognosis. Treatment is wide excision, and groin node assessment is needed when invasion exceeds 1 mm."
+      "condition_overview": "Vulvar squamous cell carcinoma has two main pathways. HPV-related tumors arise from usual-type VIN in younger women and are basaloid or warty. HPV-independent tumors arise from dVIN or lichen sclerosus in older women and are keratinizing. Keratinizing tumors show irregular nests of atypical squamous cells with keratin pearls and intercellular bridges invading dermis. Depth of invasion, tumor size, and groin node status determine stage and prognosis. Treatment is wide excision, and groin node assessment is needed when invasion exceeds 1 mm.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-plaque-depth-basal-maturation",
@@ -919,28 +923,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Vulvar plaque differential at the epithelial base",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which pairing correctly separates the older patient's lesion from the younger patient's?",
       "visual_target": "Vulvar plaque differential at the epithelial base",
-      "scenario": "A patient has a pruritic vulvar plaque that was sampled by biopsy.",
-      "lead_in": "An alternative vulvar plaque is shown. Which epithelial change distinguishes this comparison from the scattered atypical cell pattern examined earlier?",
-      "stem": "An alternative vulvar plaque is shown. Which epithelial change distinguishes this comparison from the scattered atypical cell pattern examined earlier?",
+      "scenario": "A 66-year-old woman has a single white vulvar plaque next to an area of lichen sclerosus. Biopsy shows atypical cells concentrated at the base of the epithelium, while the upper layers mature normally. A resident compares her to a 30-year-old smoker with multifocal lesions and prior CIN.",
+      "lead_in": "Which pairing correctly separates the older patient's lesion from the younger patient's?",
+      "stem": "Which pairing correctly separates the older patient's lesion from the younger patient's?",
       "options": [
-        "Uniform atypia extending to the surface",
-        "Isolated pale cells dispersed among keratinocytes",
-        "Atypical glands dissecting dermal collagen",
-        "Basal atypia with preserved superficial maturation",
-        "Thin epithelium over a pale sclerotic band"
+        "Older patient has extramammary Paget disease, younger patient has squamous hyperplasia",
+        "Older patient has condyloma, younger patient has lichen sclerosus",
+        "Older patient has HPV 16 related classic VIN, younger patient has differentiated VIN",
+        "Both have classic VIN because basal atypia is always HPV related",
+        "Older patient has HPV negative differentiated VIN with p53 mutation, younger patient has HPV related classic VIN"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "Atypia extending to the surface favors an HPV-associated intraepithelial pattern in this comparison. Differentiated vulvar intraepithelial neoplasia shows basal atypia with maturation above it. This choice describes usual-type VIN (full-thickness atypia).",
-        "Individually scattered large pale cells favor extramammary Paget disease. In differentiated vulvar intraepithelial neoplasia the atypia is concentrated along the basal layer. This choice describes extramammary Paget disease.",
-        "Infiltrating glands would be in the dermis. The atypia in this differentiated vulvar intraepithelial neoplasia field is within the basal squamous epithelium. This choice describes an invasive adenocarcinoma.",
-        "Differentiated vulvar intraepithelial neoplasia shows basal nuclear atypia with preserved superficial maturation in this comparison. This choice describes differentiated vulvar intraepithelial neoplasia (dVIN), which is what the image shows.",
-        "Thin epithelium over superficial dermal sclerosis favors lichen sclerosus. The finding tested here is atypia in the basal squamous cells of differentiated vulvar intraepithelial neoplasia. This choice describes lichen sclerosus."
+        "Paget disease and squamous hyperplasia do not match basal atypia with maturation.",
+        "Condyloma and lichen sclerosus are benign and do not match the biopsy descriptions.",
+        "The age and unifocal pattern are reversed in this option.",
+        "Basal atypia with preserved maturation is differentiated VIN, which is not HPV related.",
+        "The lecture ties older, unifocal, lichen sclerosus related disease to differentiated VIN with p53 mutation."
       ],
-      "explanation": "The deepest epithelial cells are conspicuously atypical while the superficial layers still mature. That distribution contrasts with individually scattered large pale cells.",
+      "explanation": "Step 1. Basal atypia with maturation above, unifocal, in an older woman with lichen sclerosus is differentiated VIN (VIN simplex). Step 2. The lecture lists differentiated VIN as HPV negative, older age, unifocal, associated with inflammation, lichen sclerosus or squamous hyperplasia, and p53 mutation. Classic VIN is HPV 16 related, younger, multifocal, associated with CIN and VAIN, with lack of maturation and basaloid cells.",
       "visual_clues": [
         "The deepest epithelial cells are conspicuously atypical while the superficial layers still mature."
       ],
@@ -967,37 +971,38 @@
           "page": 53
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Differentiated vulvar intraepithelial neoplasia (dVIN)",
-      "condition_overview": "Differentiated VIN is an HPV-independent precancer of the vulva that occurs in older women and is typically associated with lichen sclerosus or lichen planus. The atypia is confined to the basal and parabasal layers, with premature keratinization and maturing, eosinophilic superficial cells that make it easy to overlook. Mutated p53 is often present. dVIN is the usual precursor of HPV-independent keratinizing vulvar squamous cell carcinoma and progresses rapidly, so it is excised."
+      "condition_overview": "Differentiated VIN is an HPV-independent precancer of the vulva that occurs in older women and is typically associated with lichen sclerosus or lichen planus. The atypia is confined to the basal and parabasal layers, with premature keratinization and maturing, eosinophilic superficial cells that make it easy to overlook. Mutated p53 is often present. dVIN is the usual precursor of HPV-independent keratinizing vulvar squamous cell carcinoma and progresses rapidly, so it is excised.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-mucin-stain",
       "collection": "R10",
       "question_type": "Clinical visual question",
-      "tested_concept": "Mucin stain",
+      "tested_concept": "Which test best demonstrates the cytoplasmic material that classifies these cells?",
       "visual_target": "Which test would demonstrate the cytoplasmic material that helps classify the conspicuous cells in this epidermis?",
-      "stem": "Which test would demonstrate the cytoplasmic material that helps classify the conspicuous cells in this epidermis?",
+      "stem": "Which test best demonstrates the cytoplasmic material that classifies these cells?",
       "options": [
-        "p63 to evaluate basal or squamous differentiation",
-        "Calponin to highlight myoepithelial cells",
-        "Mucicarmine for intracellular mucin",
-        "HER2 in situ hybridization to assess gene amplification",
-        "H&E to assess nuclear and cytoplasmic morphology"
+        "A stain for dermal collagen sclerosis",
+        "PAS for fungal hyphae in keratin",
+        "Calponin for myoepithelium",
+        "Mucicarmine or diastase PAS for intracellular mucin",
+        "p53 immunostain for mutation"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "p63 can evaluate basal or squamous differentiation. The question asks for cytoplasmic mucin in the large pale cells of suspected extramammary Paget disease, which requires a mucin stain. This choice describes a p63 stain for squamous differentiation.",
-        "Calponin highlights the myoepithelial layer in the papillary hidradenoma example. It does not identify the mucin within the pale intraepidermal Paget cells. This choice describes a calponin stain for myoepithelial cells.",
-        "Mucicarmine highlights intracellular mucin in the large pale cells of extramammary Paget disease. R10 also lists diastase PAS as an alternative mucin stain. This choice describes a mucicarmine stain demonstrating intracellular mucin (extramammary Paget disease), which is what the image shows.",
-        "HER2 in situ hybridization tests gene amplification. It does not demonstrate the intracellular mucin needed to characterize the intraepidermal Paget cells in this question. This choice describes HER2 in situ hybridization for amplification.",
-        "Routine H&E identifies the large pale cells in suspected extramammary Paget disease, but pale cytoplasm alone does not establish that the cells contain mucin. This choice describes an H&E morphologic assessment."
+        "Collagen sclerosis is the lichen sclerosus pattern.",
+        "PAS for hyphae is a different use for candidiasis.",
+        "Calponin shows myoepithelium in hidradenoma.",
+        "Mucin stains demonstrate the cytoplasmic mucopolysaccharide of Paget cells.",
+        "p53 mutation is associated with differentiated VIN."
       ],
-      "explanation": "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells. R10 also lists diastase PAS as an alternative mucin stain to demonstrate the same material.",
+      "explanation": "Step 1. Large pale cells in the epidermis of an eczema like plaque are Paget cells. Step 2. The lecture states that positive cytoplasmic staining with mucicarmine or diastase PAS confirms the diagnosis because the cells contain mucopolysaccharide. Calponin is for hidradenoma and p53 relates to differentiated VIN.",
       "visual_clues": [
         "Choose mucicarmine to demonstrate cytoplasmic mucin in the large pale intraepidermal cells."
       ],
-      "reasoning_order": 2,
+      "reasoning_order": "second or third order",
       "reasoning_task": "stain",
       "generation_batch": "2026-11-12-visual-reasoning",
       "ground_truth_confidence": "high for the stated visual target",
@@ -1021,13 +1026,13 @@
         }
       ],
       "case_id": "r10-vulvar-plaque",
-      "scenario": "A patient has a persistent pruritic vulvar plaque. The section shows the epidermis and adjacent stroma.",
-      "lead_in": "Which test would demonstrate the cytoplasmic material that helps classify the conspicuous cells in this epidermis?",
+      "scenario": "A 72-year-old woman has a red, scaly, itchy vulvar plaque that was treated as eczema. Biopsy shows large conspicuous cells with pale cytoplasm within the epidermis. The pathologist wants a test that would classify the cells.",
+      "lead_in": "Which test best demonstrates the cytoplasmic material that classifies these cells?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Extramammary Paget disease",
       "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision."
     },
@@ -2607,104 +2612,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An adult reports severe vulvar itching and discomfort. Examination shows pale patches around the introitus. A biopsy samples the epidermis and superficial dermis.",
-      "lead_in": "Which surface and dermal pattern is present?",
-      "stem": "Which surface and dermal pattern is present?",
+      "scenario": "A 62-year-old woman has severe vulvar itching. Examination shows thin white patches on the vulva and perineum. A biopsy shows a thin epidermis with hyperkeratosis over a pale, sclerotic superficial dermis with a band of lymphocytes beneath.",
+      "lead_in": "What long-term risk should she be counseled about?",
+      "stem": "What long-term risk should she be counseled about?",
       "options": [
-        "Thin epidermis over superficial dermal sclerosis",
-        "Exophytic squamous fronds with fibrovascular cores",
-        "Complex glands inside a circumscribed dermal nodule",
-        "Scattered large pale cells within the epidermis",
-        "Thickened epidermis with upward extension of basaloid cells"
+        "Certain progression to invasive Paget disease",
+        "Direct transformation to adenocarcinoma of sweat glands",
+        "No risk, since the condition is purely cosmetic",
+        "A slightly increased chance of developing squamous cell carcinoma, although the lesion itself is not premalignant",
+        "Development of HPV related condylomata"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "choice_rationales": [
-        "Lichen sclerosus shows attenuated squamous epithelium over a broad pale band of superficial dermal sclerosis. This choice describes lichen sclerosus, which is what the image shows.",
-        "Condyloma has branching cores projecting outward. The surface here is relatively flat. This choice describes condyloma acuminatum.",
-        "Hidradenoma produces a discrete glandular mass. The pale tissue here forms a broad band. This choice describes papillary hidradenoma.",
-        "Paget disease places pale atypical cells within the epithelium. Here the broad pale change is below it. This choice describes extramammary Paget disease.",
-        "Classic VIN can show this maturation disturbance. The squamous epithelium here is attenuated. This choice describes vulvar high-grade squamous intraepithelial lesion."
+        "Paget disease is a separate intraepithelial glandular lesion and does not follow lichen sclerosus.",
+        "The related cancer is squamous, not a sweat gland adenocarcinoma.",
+        "The condition is associated with a modest cancer risk and symptoms, so it is not merely cosmetic.",
+        "The lecture states a slightly increased chance of squamous cell carcinoma.",
+        "Condylomata are HPV related and are not a consequence of sclerosis."
       ],
-      "explanation": "The epidermis is thin and sits over a broad pale band of superficial dermal sclerosis. Inflammation is deeper than the pale band.",
+      "explanation": "Step 1. A thin epidermis over superficial dermal sclerosis with a lymphocytic band is lichen sclerosus. Step 2. The lecture says it is not premalignant but confers a slightly increased chance of developing squamous cell carcinoma, which is also why it is listed alongside differentiated VIN. Scratching can lead to ulceration, so follow up is warranted.",
       "visual_clues": [
         "Follow the tissue from the surface into the pale zone below it."
       ],
       "visual_target": "Thin epidermis and pale superficial sclerosis",
-      "tested_concept": "Vulvar epidermis and superficial dermis",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "source_id": "s-c16db3d77db7ae02fa59",
-      "source_group_id": "g-fbda0daa0c26a909bc91",
-      "asset_id": "a-c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c",
-      "variant_id": "v-c3f88901c86bc983fe28",
-      "image": "assets/display/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.webp",
-      "zoom_image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
-      "original_image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
-      "original_filename": "Vulvar Lichen Sclerosus Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 42
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 47
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 51
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 53
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 55
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "study_skill": "morphology",
-      "condition_name": "Lichen sclerosus",
-      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid."
-    },
-    {
-      "question_id": "q-r10-vulvar-sclerosis-2",
-      "case_id": "r10-vulvar-sclerosis",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "question_type": "Clinical visual question",
-      "scenario": "A pruritic vulvar patch is biopsied. The section includes the epidermis and superficial dermis.",
-      "lead_in": "Which diagnosis best fits this biopsy?",
-      "stem": "Which diagnosis best fits this biopsy?",
-      "options": [
-        "Condyloma acuminatum",
-        "Lichen sclerosus",
-        "Papillary hidradenoma",
-        "Extramammary Paget disease",
-        "Classic vulvar intraepithelial neoplasia"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "Condyloma produces papillary squamous architecture and koilocytosis. This choice describes condyloma acuminatum.",
-        "The superficial sclerotic band and thin epithelium match the lecture pattern. This choice describes lichen sclerosus, which is what the image shows.",
-        "Look for a circumscribed complex papillary glandular tumor in the dermis. This choice describes papillary hidradenoma.",
-        "Look for large pale atypical cells dispersed among keratinocytes. This choice describes extramammary Paget disease.",
-        "Look for atypical basaloid squamous cells extending upward with abnormal maturation. This choice describes classic vulvar intraepithelial neoplasia."
-      ],
-      "explanation": "The combination of superficial dermal sclerosis and epidermal thinning supports vulvar lichen sclerosus.",
-      "visual_clues": [
-        "The abnormality spans the superficial dermis beneath the thin surface."
-      ],
-      "visual_target": "Superficial sclerosis beneath an attenuated epidermis",
-      "tested_concept": "Diagnosis of a pruritic vulvar patch",
+      "tested_concept": "What long-term risk should she be counseled about?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -2743,7 +2676,81 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Lichen sclerosus",
-      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid."
+      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r10-vulvar-sclerosis-2",
+      "case_id": "r10-vulvar-sclerosis",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A 59-year-old woman with a history of autoimmune disease has pruritus, dyspareunia, and a narrowed vaginal opening. Examination shows white, thinned patches with fusion of the labia. A biopsy is taken.",
+      "lead_in": "Which histologic finding fits, and what mechanism likely underlies the dermal changes?",
+      "stem": "Which histologic finding fits, and what mechanism likely underlies the dermal changes?",
+      "options": [
+        "A circumscribed dermal nodule with papillary glands, caused by apocrine proliferation",
+        "Large pale mucin positive cells, caused by sweat gland neoplasia",
+        "Acanthosis with long rete ridges and no atypia, caused by chronic scratching",
+        "Perinuclear halos in upper squamous cells, caused by HPV",
+        "Thin epidermis over dermal sclerosis with a lymphocytic band, with autoimmunity possibly playing a role"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "A dermal papillary gland nodule describes papillary hidradenoma.",
+        "Mucin positive pale cells describe Paget disease.",
+        "Acanthosis describes squamous hyperplasia, a different pruritic plaque.",
+        "Koilocytes describe condyloma acuminatum from HPV.",
+        "Epidermal thinning with sclerosis and a T cell band fits, with possible autoimmunity."
+      ],
+      "explanation": "Step 1. White thinned patches with fusion of the labia and introital stenosis in a postmenopausal woman describe lichen sclerosus. Step 2. The lecture says etiology is unknown but autoimmunity may play a role, with thinning of the epidermis, basal cell degeneration, hyperkeratosis, superficial dermal sclerosis, and a lymphocytic band of activated T cells. The scarring explains the stenosis and dyspareunia.",
+      "visual_clues": [
+        "The abnormality spans the superficial dermis beneath the thin surface."
+      ],
+      "visual_target": "Superficial sclerosis beneath an attenuated epidermis",
+      "tested_concept": "Which histologic finding fits, and what mechanism likely underlies the dermal changes?",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "source_id": "s-c16db3d77db7ae02fa59",
+      "source_group_id": "g-fbda0daa0c26a909bc91",
+      "asset_id": "a-c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c",
+      "variant_id": "v-c3f88901c86bc983fe28",
+      "image": "assets/display/c3f88901c86bc983fe28bd616884ec0546a17f4963bff545c8820e34c2d3862c.webp",
+      "zoom_image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+      "original_image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+      "original_filename": "Vulvar Lichen Sclerosus Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 42
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 47
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 51
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 53
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 55
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "study_skill": "interpretation",
+      "condition_name": "Lichen sclerosus",
+      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-surface-extent",
@@ -2753,28 +2760,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Gross distribution of a pruritic vulvar patch",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which consequence of the examination findings best explains her dyspareunia?",
       "visual_target": "Gross distribution of a pruritic vulvar patch",
-      "scenario": "A patient is being evaluated for a persistent, pruritic vulvar patch.",
-      "lead_in": "What does the examination image add to the microscopic assessment of the pruritic patch?",
-      "stem": "What does the examination image add to the microscopic assessment of the pruritic patch?",
+      "scenario": "A 64-year-old woman reports burning and pain during intercourse. The examination photograph shows broad, symmetric white thinned skin around the vulva and anus, with a visibly narrowed introitus. A biopsy was already read as lichen sclerosus.",
+      "lead_in": "Which consequence of the examination findings best explains her dyspareunia?",
+      "stem": "Which consequence of the examination findings best explains her dyspareunia?",
       "options": [
-        "One papillary projection rising from a focal base",
-        "A cluster of fluid filled vesicles on one side",
-        "A sharply bounded subcutaneous nodule",
-        "An isolated erosion surrounded by otherwise intact tissue",
-        "Broad bilateral surface change around a narrowed opening"
+        "A dermal nodule compressing the urethra",
+        "Fusion and loss of labia with stenosis of the introitus",
+        "Epidermal thickening with long ridges causing leathery skin",
+        "Exophytic papules obstructing the vaginal opening",
+        "A mucin rich plaque eroding the clitoris"
       ],
-      "correct_index": 4,
+      "correct_index": 1,
       "choice_rationales": [
-        "The pale change extends well beyond a single raised projection. This choice describes a papillary lesion such as condyloma acuminatum.",
-        "The change is broad and pale without a cluster of vesicles. This choice describes herpetic vesicles.",
-        "The abnormality involves the surface around the opening. This choice describes a subcutaneous nodule such as a cyst.",
-        "The light areas extend along both sides rather than ending at one erosion. This choice describes an isolated erosion.",
-        "The pale change extends along both sides of a narrowed opening. The gross view shows the extent and anatomic distortion that a small biopsy cannot show. This choice describes lichen sclerosus (broad bilateral white change with a narrowed introitus), which is what the image shows."
+        "A dermal nodule describes hidradenoma, which is small and dome shaped.",
+        "Fusion, labial loss, and introital stenosis are listed in the lecture and explain painful intercourse.",
+        "Leathery thickened skin describes squamous hyperplasia.",
+        "Exophytic papules describe condyloma and do not produce a thinned white patch.",
+        "Paget disease is an erythematous plaque, not a sclerotic narrowing."
       ],
-      "explanation": "The pale change extends along both sides of a narrowed opening. The gross view shows the extent and anatomic distortion that a small biopsy cannot show. The change is broad and pale without a cluster of vesicles.",
+      "explanation": "Step 1. Broad white thinned patches with a narrowed opening match lichen sclerosus on gross examination. Step 2. The lecture lists fusion and loss of the labia and prepuce and stenosis of the introitus, and pain including dyspareunia may develop. The gross image therefore adds extent and scarring that the biopsy cannot show.",
       "visual_clues": [
         "The pale change extends along both sides of a narrowed opening."
       ],
@@ -2799,7 +2806,8 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Lichen sclerosus",
-      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid."
+      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-deep-band",
@@ -2809,28 +2817,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Inflammatory band relative to superficial dermal sclerosis",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which statement correctly places and identifies the infiltrate?",
       "visual_target": "Inflammatory band relative to superficial dermal sclerosis",
-      "scenario": "A patient is being evaluated for a persistent, pruritic vulvar patch.",
-      "lead_in": "Where should the pathologist look for the darker band of inflammatory cells relative to the pale dermal zone?",
-      "stem": "Where should the pathologist look for the darker band of inflammatory cells relative to the pale dermal zone?",
+      "scenario": "A pathologist reviews a section of lichen sclerosus. The superficial dermis is pale and homogenized. She is asked where the inflammatory infiltrate lies and what it contains.",
+      "lead_in": "Which statement correctly places and identifies the infiltrate?",
+      "stem": "Which statement correctly places and identifies the infiltrate?",
       "options": [
-        "Along the deeper border of the pale dermal zone",
-        "Within the outermost keratin layer",
-        "Along the outer contour of dermal glands",
-        "Inside the center of the pale dermal zone",
-        "Between the superficial layers of epidermis"
+        "Neutrophils within the surface keratin layer",
+        "Plasma cells filling the epidermis",
+        "A band of lymphocytes, representing activated T cells, along the deeper border of the pale zone",
+        "Eosinophils scattered through the epithelium",
+        "Fungal organisms in the stratum corneum"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "The darker lymphocytic infiltrate sits deeper in the dermis than the pale sclerotic zone. Reading from the surface inward keeps the two dermal changes separate. This choice describes the dermal lymphocytic band of lichen sclerosus beneath the pale zone, which is what the image shows.",
-        "Keratin is superficial to the epidermis, far from the darker dermal infiltrate. This choice describes surface keratin.",
-        "The band follows the pale zone rather than outlining gland profiles. This choice describes dermal glands.",
-        "The concentrated dark cells are deeper than the pale zone. This choice describes the center of the pale dermal zone.",
-        "The band is in the dermis, below the surface epithelium. This choice describes the epidermis."
+        "Neutrophils in keratin are not part of the lichen sclerosus description.",
+        "The infiltrate is dermal, not epidermal plasma cells.",
+        "The lymphocytic band of activated T cells lies beneath the pale sclerotic dermis.",
+        "Eosinophils within epithelium are not described in the lecture.",
+        "Fungi are shown on PAS in candidiasis, not in lichen sclerosus."
       ],
-      "explanation": "The darker lymphocytic infiltrate sits deeper in the dermis than the pale sclerotic zone. Reading from the surface inward keeps the two dermal changes separate. The concentrated dark cells are deeper than the pale zone.",
+      "explanation": "Step 1. In lichen sclerosus the superficial dermis undergoes sclerosis. Step 2. The lecture describes a band of lymphocytes in the dermis, activated T cells, lying beneath the sclerotic zone, which supports an immune mediated process. The inflammatory cells are not in the keratin layer or epidermis.",
       "visual_clues": [
         "The darker lymphocytic infiltrate sits deeper in the dermis than the pale sclerotic zone."
       ],
@@ -2853,9 +2861,10 @@
           "page": 42
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Lichen sclerosus",
-      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid."
+      "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-contrast-acanthosis",
@@ -2865,28 +2874,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Epidermal thickness in a separate pruritic plaque",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What is the best interpretation of this biopsy and the precaution?",
       "visual_target": "Epidermal thickness in a separate pruritic plaque",
-      "scenario": "A patient is being evaluated for a persistent, pruritic vulvar patch.",
-      "lead_in": "A second patient also has a pruritic vulvar plaque. Which visible feature makes this biopsy a poor match for the surface pattern in Keanne’s case?",
-      "stem": "A second patient also has a pruritic vulvar plaque. Which visible feature makes this biopsy a poor match for the surface pattern in Keanne’s case?",
+      "scenario": "A 55-year-old woman has leathery, scaly vulvar plaques with burning and itching. Biopsy shows a markedly thickened epidermis with long downward ridges, hyperkeratosis, and some mitoses but no cytologic atypia. A colleague asks how this differs from her neighbor's lichen sclerosus and what precaution is needed.",
+      "lead_in": "What is the best interpretation of this biopsy and the precaution?",
+      "stem": "What is the best interpretation of this biopsy and the precaution?",
       "options": [
-        "Attenuated squamous epithelium over pale collagen",
-        "Broad squamous thickening with long downward ridges",
-        "Vacuolated cells confined to upper ridges",
-        "Atypical glands embedded beneath the surface",
-        "A flat epidermal defect with exposed dermis"
+        "Squamous hyperplasia (lichen simplex chronicus), benign but it may be seen next to invasive squamous cancer, so adjacent skin should be examined",
+        "Condyloma acuminatum, which is treated by wide excision for Paget cells",
+        "Differentiated VIN, which is always HPV positive",
+        "Lichen sclerosus, which is premalignant and needs immediate excision",
+        "Extramammary Paget disease, which is confirmed with a mucin stain"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "choice_rationales": [
-        "The comparison epithelium is thick and projects downward in multiple ridges. This choice describes lichen sclerosus.",
-        "The expanded squamous layer sends elongated ridges down toward the dermis. This acanthosis contrasts with a thinned epidermis. This choice describes squamous hyperplasia (lichen simplex chronicus), which is what the image shows.",
-        "The most conspicuous difference is the thickness and contour of the entire layer. This choice describes koilocytosis.",
-        "The downgrowths are continuous with the squamous layer. This choice describes an invasive adenocarcinoma.",
-        "The epithelium is preserved and expanded. This choice describes an erosion or ulcer."
+        "Acanthosis and hyperkeratosis without atypia is squamous hyperplasia, and the neighboring cancer caution applies.",
+        "Condyloma shows exophytic papillary architecture and is not treated for Paget cells.",
+        "Differentiated VIN has basal atypia and is HPV negative.",
+        "Lichen sclerosus is thin and sclerotic, and it is not premalignant.",
+        "Paget disease has large pale mucin positive cells in the epidermis."
       ],
-      "explanation": "The expanded squamous layer sends elongated ridges down toward the dermis. This acanthosis contrasts with a thinned epidermis. The comparison epithelium is thick and projects downward in multiple ridges.",
+      "explanation": "Step 1. Broad thickening with hyperkeratosis and no atypia is squamous hyperplasia, also called lichen simplex chronicus, with leathery scaly plaques and pruritus. Step 2. The lecture states it is benign but may be seen next to invasive squamous cell cancer, so the clinician should confirm that no carcinoma is present in neighboring tissue. Lichen sclerosus differs by a thin epidermis and dermal sclerosis.",
       "visual_clues": [
         "The expanded squamous layer sends elongated ridges down toward the dermis."
       ],
@@ -2913,9 +2922,10 @@
           "page": 42
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Squamous hyperplasia of the vulva",
-      "condition_overview": "Squamous hyperplasia (lichen simplex chronicus) is a benign thickening of vulvar epidermis from chronic rubbing and scratching, producing white, leathery plaques with acanthosis and hyperkeratosis without atypia. Intense pruritus is typical, and treatment involves high-potency topical corticosteroids and breaking the itch-scratch cycle. Biopsy of persistent lesions excludes lichen sclerosus and vulvar intraepithelial neoplasia."
+      "condition_overview": "Squamous hyperplasia (lichen simplex chronicus) is a benign thickening of vulvar epidermis from chronic rubbing and scratching, producing white, leathery plaques with acanthosis and hyperkeratosis without atypia. Intense pruritus is typical, and treatment involves high-potency topical corticosteroids and breaking the itch-scratch cycle. Biopsy of persistent lesions excludes lichen sclerosus and vulvar intraepithelial neoplasia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-wart-1",
@@ -2923,32 +2933,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An adult has a raised vulvar lesion. The clinician samples it and examines the surface and the nuclei of the squamous cells at higher power.",
-      "lead_in": "Which change is visible in the upper squamous cells?",
-      "stem": "Which change is visible in the upper squamous cells?",
+      "scenario": "A 24-year-old woman has several raised, rough papules around the vulva. A biopsy shows squamous cells in the upper layers with enlarged hyperchromatic nuclei with irregular membranes, some multinucleation, and perinuclear clearing.",
+      "lead_in": "What do these cells indicate about the cause of her lesions?",
+      "stem": "What do these cells indicate about the cause of her lesions?",
       "options": [
-        "Pale cytoplasm filling scattered very large epidermal cells",
-        "Dense pale collagen directly beneath an attenuated surface",
-        "Perinuclear clearing with irregular enlarged nuclei",
-        "Complex epithelial glands with slitlike lumens",
-        "Uniform basaloid cells replacing the full thickness"
+        "Fungal infection, since halos mark hyphae",
+        "Autoimmune basal cell damage, since koilocytes form in lichen sclerosus",
+        "Apocrine neoplasia, since clearing marks myoepithelium",
+        "Syphilis, since perinuclear halos are specific to condyloma latum",
+        "Productive HPV infection, since koilocytes reflect viral cytopathic effect"
       ],
-      "correct_index": 2,
+      "correct_index": 4,
       "choice_rationales": [
-        "Paget cells form a separate atypical population. The clear spaces here center on squamous nuclei. This choice describes extramammary Paget disease.",
-        "Lichen sclerosus changes the superficial dermis. The visible clue here lies inside the squamous cells. This choice describes lichen sclerosus.",
-        "Koilocytes in condyloma acuminatum have clear perinuclear halos around enlarged irregular squamous nuclei. This choice describes koilocytosis (HPV cytopathic effect), which is what the image shows.",
-        "Papillary hidradenoma has true glandular lumens. These pale spaces are intracellular. This choice describes an adenocarcinoma.",
-        "Full-thickness basaloid atypia would favor an intraepithelial neoplastic pattern. Condyloma here shows superficial koilocytes in a partially matured squamous layer. This choice describes a high-grade squamous lesion."
+        "Fungal organisms are shown by PAS, not by perinuclear halos.",
+        "Lichen sclerosus features basal cell degeneration and dermal sclerosis, not koilocytes.",
+        "Apocrine neoplasia forms dermal glands, not halo cells in the squamous epithelium.",
+        "Condyloma latum is the syphilis lesion and is separate from HPV related koilocytic change.",
+        "Koilocytes are the cytopathic effect of productive HPV infection."
       ],
-      "explanation": "Several squamous cells have pale perinuclear halos and enlarged irregular nuclei. These are the koilocytic changes illustrated in the lecture.",
+      "explanation": "Step 1. Nuclear enlargement, hyperchromasia, irregular membranes, multinucleation, and perinuclear cytoplasmic vacuolization are koilocytes. Step 2. The lecture calls these viral cytopathic effects that characterize productive HPV infection, as in condyloma acuminatum. They help separate it from condyloma latum of syphilis.",
       "visual_clues": [
         "Inspect several nuclei next to the surface keratin."
       ],
       "visual_target": "Perinuclear halos with irregular dark nuclei",
-      "tested_concept": "Koilocytosis in vulvar squamous epithelium",
+      "tested_concept": "What do these cells indicate about the cause of her lesions?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -2985,9 +2995,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
-      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases."
+      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-wart-2",
@@ -2995,32 +3006,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A raised vulvar lesion is sampled. The displayed field shows its squamous epithelium.",
-      "lead_in": "Which diagnosis best accounts for the cellular change in the image?",
-      "stem": "Which diagnosis best accounts for the cellular change in the image?",
+      "scenario": "A 26-year-old woman has multiple raised vulvar growths. Biopsy shows finger-like, tree-like cores of stroma covered by thickened squamous epithelium with koilocytic change. Her partner asks whether this could be syphilis.",
+      "lead_in": "Which statement correctly distinguishes this lesion?",
+      "stem": "Which statement correctly distinguishes this lesion?",
       "options": [
-        "Lichen sclerosus",
-        "Papillary hidradenoma",
-        "Extramammary Paget disease",
-        "Condyloma acuminatum",
-        "Classic vulvar intraepithelial neoplasia"
+        "It is Paget disease with intracytoplasmic mucin",
+        "It is a papillary hidradenoma arising from apocrine glands",
+        "It is condyloma latum caused by HPV, whereas condyloma acuminatum is the syphilitic lesion",
+        "It is condyloma acuminatum caused by HPV, whereas condyloma latum is the syphilitic lesion",
+        "It is a premalignant lesion of differentiated VIN with p53 mutation"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "An attenuated surface over a pale sclerotic dermis would favor lichen sclerosus. This choice describes lichen sclerosus.",
-        "A circumscribed papillary glandular dermal nodule would favor hidradenoma. This choice describes papillary hidradenoma.",
-        "Scattered large pale atypical cells among keratinocytes would favor Paget disease. This choice describes extramammary Paget disease.",
-        "The halos and nuclear irregularity are the viral cytopathic change described in condyloma. This choice describes condyloma acuminatum (koilocytic change), which is what the image shows.",
-        "Basaloid atypia extending toward the surface and loss of maturation would favor classic VIN. This choice describes classic vulvar intraepithelial neoplasia."
+        "Paget disease is an intraepidermal glandular process.",
+        "Hidradenoma is a dermal apocrine nodule that does not connect to the epidermis.",
+        "The names are reversed in this option.",
+        "Acuminatum is HPV related and latum is syphilitic, matching the lecture.",
+        "Differentiated VIN shows basal atypia and is not exophytic with koilocytes."
       ],
-      "explanation": "Koilocytosis in a raised vulvar lesion supports condyloma acuminatum. The lecture associates these warts with low risk HPV, commonly types 6 and 11.",
+      "explanation": "Step 1. Papillary exophytic tree like stromal cores covered by thickened squamous epithelium with koilocytes is condyloma acuminatum. Step 2. The lecture lists two benign exophytic condylomas, acuminatum from HPV and latum from syphilis, and the koilocytic change identifies the HPV form. Penile, urethral, and perianal condylomata also occur.",
       "visual_clues": [
         "The decisive changes are perinuclear and occur in differentiated squamous cells."
       ],
       "visual_target": "Koilocytosis in a raised vulvar lesion",
-      "tested_concept": "Diagnosis of an exophytic vulvar lesion",
+      "tested_concept": "Which statement correctly distinguishes this lesion?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -3063,7 +3074,8 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
-      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases."
+      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-raised-surface",
@@ -3073,28 +3085,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "foundational",
-      "reasoning_type": "recognition",
-      "tested_concept": "Gross contour of a raised anogenital lesion",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which histologic expectation guides sampling of the projecting surface?",
       "visual_target": "Gross contour of a raised anogenital lesion",
-      "scenario": "A raised vulvar lesion was sampled for histology.",
-      "lead_in": "Which gross distribution in the companion photograph would direct sampling toward the projecting parts of the lesion?",
-      "stem": "Which gross distribution in the companion photograph would direct sampling toward the projecting parts of the lesion?",
+      "scenario": "A 22-year-old woman has several raised, rough vulvar papules in a companion photograph. The clinician wants to sample the part of the lesion most likely to show the diagnostic cell change.",
+      "lead_in": "Which histologic expectation guides sampling of the projecting surface?",
+      "stem": "Which histologic expectation guides sampling of the projecting surface?",
       "options": [
-        "A single sharply demarcated depressed ulcer",
-        "A flat band of diffuse pallor",
-        "Multiple translucent fluid blisters",
-        "Several raised papules with rough surfaces",
-        "Smooth deep swelling under a normal surface"
+        "A thin epidermis over sclerotic dermis",
+        "Keratin filled nests invading deep stroma",
+        "A circumscribed dermal nodule with maze like glands",
+        "Papillary stromal cores with koilocytes in the covering squamous epithelium",
+        "Large pale mucin positive cells at the base of the epidermis"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The visible lesions project above the adjacent surface. This choice describes an ulcer.",
-        "The surface change is nodular rather than flat. This choice describes lichen sclerosus.",
-        "The textured projections are solid appearing rather than translucent blisters. This choice describes vesicles of herpes simplex.",
-        "Several raised, textured papules interrupt the surface. The visible contours account for why a representative biopsy includes the tops and bases of projections. This choice describes condyloma acuminatum (raised rough papules), which is what the image shows.",
-        "The visible abnormalities alter the surface directly. This choice describes a deep subcutaneous swelling."
+        "Thin epidermis over sclerosis is lichen sclerosus.",
+        "Invasive nests in stroma describe carcinoma.",
+        "A dermal gland nodule is hidradenoma, which has no epidermal connection.",
+        "Exophytic papillae with koilocytes is the histology of condyloma and sits at the surface.",
+        "Paget cells are intraepithelial and mucin positive."
       ],
-      "explanation": "Several raised, textured papules interrupt the surface. The visible contours account for why a representative biopsy includes the tops and bases of projections. The textured projections are solid appearing rather than translucent blisters.",
+      "explanation": "Step 1. Several raised, rough papules are the gross pattern of condyloma acuminatum. Step 2. Histology shows exophytic, finger like papillary architecture with koilocytes in the squamous cover, so sampling the projecting surface captures the diagnostic cytopathic change. Papillary here means finger like exophytic growth.",
       "visual_clues": [
         "Several raised, textured papules interrupt the surface."
       ],
@@ -3121,9 +3133,10 @@
           "page": 47
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
-      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases."
+      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-basal-alternative",
@@ -3133,28 +3146,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Basal atypia as an alternative to superficial viral change",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which diagnosis and genetic association fit the second biopsy?",
       "visual_target": "Basal atypia as an alternative to superficial viral change",
-      "scenario": "A raised vulvar lesion was sampled for histology.",
-      "lead_in": "A separate vulvar biopsy is offered as a comparison. Which distribution would distinguish this comparison field from an abnormality centered near the surface?",
-      "stem": "A separate vulvar biopsy is offered as a comparison. Which distribution would distinguish this comparison field from an abnormality centered near the surface?",
+      "scenario": "A pathologist compares a wart like vulvar lesion with a second biopsy from a 70-year-old woman. The second biopsy shows atypia concentrated at the base of the epithelium with maturation in the upper layers, with no koilocytes and no exophytic cores.",
+      "lead_in": "Which diagnosis and genetic association fit the second biopsy?",
+      "stem": "Which diagnosis and genetic association fit the second biopsy?",
       "options": [
-        "Haloed atypical cells concentrated near the surface",
-        "Large pale cells scattered across all epithelial levels",
-        "An atypical population within deep stromal nests",
-        "Immature cells occupying nearly the full epithelial thickness",
-        "Atypia concentrated at the base with maturation above"
+        "Differentiated VIN, HPV negative with p53 mutation",
+        "Classic VIN with HPV 16",
+        "Squamous hyperplasia with HPV",
+        "Condyloma acuminatum with HPV",
+        "Extramammary Paget disease with mucin"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "Superficial koilocytes with perinuclear halos support condyloma. Differentiated vulvar intraepithelial neoplasia concentrates its atypia in the basal layer. This choice describes koilocytic condyloma.",
-        "Scattered pale cells across epithelial levels support extramammary Paget disease. In differentiated vulvar intraepithelial neoplasia the atypia instead follows the basal layer. This choice describes extramammary Paget disease.",
-        "Atypical squamous nests in deep stroma support invasive carcinoma. This differentiated vulvar intraepithelial neoplasia field shows atypical cells within the basal epithelium. This choice describes invasive carcinoma.",
-        "Immature cells throughout most of the thickness favor the classic vulvar intraepithelial neoplasia pattern. Superficial maturation is preserved in this differentiated lesion. This choice describes usual-type VIN with full-thickness atypia.",
-        "Differentiated vulvar intraepithelial neoplasia concentrates atypia at the epithelial base while allowing maturation toward the surface. This choice describes differentiated VIN (basal atypia with surface maturation), which is what the image shows."
+        "Differentiated VIN is HPV negative with p53 mutation and basal atypia.",
+        "Classic VIN lacks maturation and is HPV 16 related.",
+        "Squamous hyperplasia lacks atypia and is not HPV driven.",
+        "Condyloma has exophytic cores and koilocytes, which are absent here.",
+        "Paget disease has large pale mucin positive cells, not basal squamous atypia."
       ],
-      "explanation": "The comparison preserves superficial maturation despite marked atypia at the base. In the original lesion, the characteristic haloed cells were in the upper squamous layers.",
+      "explanation": "Step 1. Basal atypia with upper maturation and no koilocytes or exophytic cores is differentiated VIN. Step 2. The lecture associates it with older age, HPV negative status, lichen sclerosus or squamous hyperplasia, and p53 mutation, and it can progress to keratinized squamous carcinoma. Condyloma shows exophytic cores with koilocytes instead.",
       "visual_clues": [
         "The comparison preserves superficial maturation despite marked atypia at the base."
       ],
@@ -3181,9 +3194,10 @@
           "page": 47
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Differentiated vulvar intraepithelial neoplasia (dVIN)",
-      "condition_overview": "Differentiated VIN is an HPV-independent precancer of the vulva that occurs in older women and is typically associated with lichen sclerosus or lichen planus. The atypia is confined to the basal and parabasal layers, with premature keratinization and maturing, eosinophilic superficial cells that make it easy to overlook. Mutated p53 is often present. dVIN is the usual precursor of HPV-independent keratinizing vulvar squamous cell carcinoma and progresses rapidly, so it is excised."
+      "condition_overview": "Differentiated VIN is an HPV-independent precancer of the vulva that occurs in older women and is typically associated with lichen sclerosus or lichen planus. The atypia is confined to the basal and parabasal layers, with premature keratinization and maturing, eosinophilic superficial cells that make it easy to overlook. Mutated p53 is often present. dVIN is the usual precursor of HPV-independent keratinizing vulvar squamous cell carcinoma and progresses rapidly, so it is excised.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-nodule-1",
@@ -3191,104 +3205,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An adult has a small, circumscribed nodule in the interlabial sulcus. It is excised, and the pathologist compares the nodule with the overlying epidermis at two magnifications.",
-      "lead_in": "Which architectural pattern is supported by both views?",
-      "stem": "Which architectural pattern is supported by both views?",
+      "scenario": "A 35-year-old woman has a small dome shaped nodule of the interlabial sulcus that has bled. It is sharply circumscribed and covered by normal skin. A biopsy shows branching papillary glands in a maze like pattern with brisk mitoses.",
+      "lead_in": "Why is this lesion considered benign despite the mitoses?",
+      "stem": "Why is this lesion considered benign despite the mitoses?",
       "options": [
-        "Superficial sclerosis under a thinned epidermis",
-        "Exophytic squamous fronds with stromal cores",
-        "Large pale cells spreading within epidermis",
-        "Thickened squamous epithelium with immature basaloid cells",
-        "Circumscribed dermal nodule with branching papillary glands"
+        "It shows a lymphocytic band beneath sclerotic dermis",
+        "It shows koilocytes in the covering",
+        "It invades the epidermis in nests",
+        "It shows mucin positive pale cells in the epidermis",
+        "It is sharply circumscribed with myoepithelium present and no connection to the epidermis"
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "A wide subepithelial pale band would favor lichen sclerosus. This choice describes lichen sclerosus.",
-        "Condyloma fronds project out from the epithelial surface. This proliferation sits below it. This choice describes condyloma acuminatum.",
-        "Paget cells occupy epidermis. The main proliferation here is a separate glandular mass. This choice describes extramammary Paget disease.",
-        "Classic VIN expands the surface epithelium. The dense tissue here lies in a circumscribed nodule. This choice describes usual-type VIN.",
-        "The low power view establishes the nodule and the high power view shows complex glandular lumens. This choice describes papillary hidradenoma, which is what the image shows."
+        "A lymphocytic band belongs to lichen sclerosus.",
+        "Koilocytes belong to condyloma.",
+        "Epidermal invasion would suggest carcinoma and is not described.",
+        "Mucin positive epidermal cells belong to Paget disease.",
+        "Circumscription with myoepithelium and no epidermal connection supports benign behavior."
       ],
-      "explanation": "The upper view locates a circumscribed dermal nodule and the lower view shows its branching papillary glandular spaces.",
+      "explanation": "Step 1. A small circumscribed dermal nodule with complex papillary glands arising in the interlabial sulcus is papillary hidradenoma of apocrine origin. Step 2. The lecture notes mitoses may be brisk, but benign features are the sharp circumscription, an intact myoepithelial layer, normal skin cover, and no connection to the epidermis. Surface bleeding or ulceration can mimic carcinoma clinically.",
       "visual_clues": [
         "Find the circumscribed border first, then examine the spaces inside it."
       ],
       "visual_target": "Circumscribed dermal nodule with papillary glands",
-      "tested_concept": "Vulvar nodule architecture at two powers",
-      "category": "Histology",
-      "collection": "R10",
-      "source_origin": "lecture",
-      "source_id": "s-7c9fef19a7d67ada5ba8",
-      "source_group_id": "g-4d7ee2151c1333fe6ca1",
-      "asset_id": "a-af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f",
-      "variant_id": "v-572a2b838afdca67ee62",
-      "image": "assets/display/af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f.webp",
-      "zoom_image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
-      "original_image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
-      "original_filename": "Papillary Hidradenoma - Histology.png",
-      "citations": [
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 51
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 42
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 47
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 53
-        },
-        {
-          "document": "R10 Gyn Pathology I RLS.pdf",
-          "page": 55
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "study_skill": "morphology",
-      "condition_name": "Papillary hidradenoma",
-      "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision."
-    },
-    {
-      "question_id": "q-r10-vulvar-nodule-2",
-      "case_id": "r10-vulvar-nodule",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "question_type": "Clinical visual question",
-      "scenario": "A small vulvar nodule is excised. The two images show the lesion at different magnifications.",
-      "lead_in": "Which diagnosis best integrates the low and high power findings?",
-      "stem": "Which diagnosis best integrates the low and high power findings?",
-      "options": [
-        "Papillary hidradenoma",
-        "Lichen sclerosus",
-        "Condyloma acuminatum",
-        "Extramammary Paget disease",
-        "Classic vulvar intraepithelial neoplasia"
-      ],
-      "correct_index": 0,
-      "choice_rationales": [
-        "The sharply defined dermal nodule contains a complex papillary glandular proliferation. This choice describes papillary hidradenoma, which is what the image shows.",
-        "Expect superficial dermal sclerosis and epithelial thinning without a glandular nodule. This choice describes lichen sclerosus.",
-        "Expect a papillomatous squamous surface with HPV cytopathic changes. This choice describes condyloma acuminatum.",
-        "Expect scattered pale malignant cells inside the epidermis. This choice describes extramammary Paget disease.",
-        "Expect a squamous intraepithelial proliferation with disrupted maturation. This choice describes classic vulvar intraepithelial neoplasia."
-      ],
-      "explanation": "Papillary hidradenoma is a benign apocrine tumor. The separate dermal nodule and maze like glandular pattern fit that diagnosis.",
-      "visual_clues": [
-        "The complex spaces are inside a discrete lesion below the surface."
-      ],
-      "visual_target": "Circumscribed apocrine-type papillary glandular lesion",
-      "tested_concept": "Diagnosis of a papillary vulvar nodule",
+      "tested_concept": "Why is this lesion considered benign despite the mitoses?",
       "category": "Histology",
       "collection": "R10",
       "source_origin": "lecture",
@@ -3327,7 +3269,81 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Papillary hidradenoma",
-      "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision."
+      "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r10-vulvar-nodule-2",
+      "case_id": "r10-vulvar-nodule",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A pathologist reviews a low and high power view of a vulvar nodule. The low power view shows a well defined dermal nodule, and high power shows papillary glands lined by two cell layers.",
+      "lead_in": "Which immunohistochemical profile would be expected, and what is the origin of this tumor?",
+      "stem": "Which immunohistochemical profile would be expected, and what is the origin of this tumor?",
+      "options": [
+        "EMA, calponin, and SMA positive, from apocrine sweat gland tissue",
+        "Mucicarmine positive Paget cells, from multipotent duct cells",
+        "CD45 positive lymphocytes, from the dermal infiltrate",
+        "p16 positive koilocytes, from basal squamous cells",
+        "Keratin negative cells, from dermal fibroblasts"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The lecture lists EMA, calponin, and SMA positivity for this apocrine tumor.",
+        "Mucin positive cells and a multipotent duct origin describe Paget disease.",
+        "Lymphocytes describe the lichen sclerosus band, not a glandular tumor.",
+        "Koilocytes describe condyloma, and p16 is not given for hidradenoma.",
+        "The lesion is an epithelial glandular tumor, not a fibroblastic one."
+      ],
+      "explanation": "Step 1. A circumscribed dermal nodule with complex papillary glands is papillary hidradenoma, a benign tumor of apocrine sweat gland origin. Step 2. The lecture lists the immunophenotype as EMA positive, calponin positive, and SMA positive, reflecting glandular cells and a myoepithelial layer. Paget disease would instead show intracytoplasmic mucin.",
+      "visual_clues": [
+        "The complex spaces are inside a discrete lesion below the surface."
+      ],
+      "visual_target": "Circumscribed apocrine-type papillary glandular lesion",
+      "tested_concept": "Which immunohistochemical profile would be expected, and what is the origin of this tumor?",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "source_id": "s-7c9fef19a7d67ada5ba8",
+      "source_group_id": "g-4d7ee2151c1333fe6ca1",
+      "asset_id": "a-af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f",
+      "variant_id": "v-572a2b838afdca67ee62",
+      "image": "assets/display/af06e3bbf51380a8274adfaee613fe916a63e1fb327952a7fc47a1396285ff3f.webp",
+      "zoom_image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
+      "original_image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
+      "original_filename": "Papillary Hidradenoma - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 51
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 42
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 47
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 53
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 55
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "study_skill": "interpretation",
+      "condition_name": "Papillary hidradenoma",
+      "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-nodule-depth-skin-interface",
@@ -3337,28 +3353,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Relationship of a vulvar nodule to the skin surface",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does the absence of an epidermal connection argue for?",
       "visual_target": "Relationship of a vulvar nodule to the skin surface",
-      "scenario": "A small vulvar nodule was excised for histologic examination.",
-      "lead_in": "In the lower power view, which relationship to the skin surface favors a nodule arising below the epidermis?",
-      "stem": "In the lower power view, which relationship to the skin surface favors a nodule arising below the epidermis?",
+      "scenario": "A pathologist examines the low power image of a vulvar nodule. The epidermis lies above a nodule whose center is in the dermis. She cannot find continuity between the nodule and the overlying epidermis.",
+      "lead_in": "What does the absence of an epidermal connection argue for?",
+      "stem": "What does the absence of an epidermal connection argue for?",
       "options": [
-        "A dermal center without a visible connection to the epidermis",
-        "A raised proliferation continuous with the epidermal surface",
-        "A lesion confined to the epidermal layer",
-        "A process centered on an open surface ulcer",
-        "A lesion limited to a thick outer keratin cap"
+        "An origin below the epidermis from apocrine sweat gland tissue rather than from surface squamous epithelium",
+        "A dermal infiltrate of activated T cells",
+        "A lichen sclerosus related origin",
+        "A viral origin, supporting condyloma",
+        "An origin from the epidermis, supporting classic VIN"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The small nodule is centered in the dermis and the slide describes no connection to the overlying epidermis. Following the surface separately from the lesion helps localize the process. This choice describes a papillary hidradenoma (a dermal nodule), which is what the image shows.",
-        "The lower power view places the mass beneath the epidermis. This choice describes a condyloma or other epidermal proliferation.",
-        "The nodule has a separate dermal outline. This choice describes an epidermal lesion.",
-        "The tissue shows a defined nodule beneath the surface rather than an ulcer bed. This choice describes an ulcer.",
-        "The circumscribed proliferation extends well below the keratin layer. This choice describes hyperkeratosis."
+        "A dermal center with no epidermal connection supports apocrine gland origin.",
+        "A T cell infiltrate describes lichen sclerosus rather than a glandular nodule.",
+        "Lichen sclerosus is an epidermal and superficial dermal change, not a nodule.",
+        "Condyloma is an exophytic surface lesion and would be continuous with the epidermis.",
+        "Classic VIN arises from epidermal squamous cells and would connect to the surface."
       ],
-      "explanation": "The small nodule is centered in the dermis and the slide describes no connection to the overlying epidermis. Following the surface separately from the lesion helps localize the process. The tissue shows a defined nodule beneath the surface rather than an ulcer bed.",
+      "explanation": "Step 1. A dermal nodule with no connection to the epidermis points to a tumor arising beneath the surface. Step 2. The lecture lists no connection to the epidermis as a feature of papillary hidradenoma, which is derived from apocrine sweat glands, whereas VIN, condyloma, and carcinoma arise from the surface squamous epithelium.",
       "visual_clues": [
         "The small nodule is centered in the dermis and the slide describes no connection to the overlying epidermis."
       ],
@@ -3381,9 +3397,10 @@
           "page": 51
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Papillary hidradenoma",
-      "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision."
+      "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-nodule-depth-papillary-mimic",
@@ -3393,28 +3410,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R10",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Surface papillae versus a dermal glandular nodule",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which statement uses the term papillary correctly for this raised lesion?",
       "visual_target": "Surface papillae versus a dermal glandular nodule",
-      "scenario": "A small vulvar nodule was excised for histologic examination.",
-      "lead_in": "A separate raised vulvar lesion is shown. Which feature makes the term “papillary” describe a different structure here?",
-      "stem": "A separate raised vulvar lesion is shown. Which feature makes the term “papillary” describe a different structure here?",
+      "scenario": "A resident notes that two vulvar lesions are both called papillary: a hidradenoma and a condyloma. A photograph of a raised vulvar lesion shows outward fronds covering stromal cores.",
+      "lead_in": "Which statement uses the term papillary correctly for this raised lesion?",
+      "stem": "Which statement uses the term papillary correctly for this raised lesion?",
       "options": [
-        "Papillary glands packed within a round dermal outline",
-        "Outward squamous fronds around stromal cores",
-        "Tall glandular cells projecting into a closed duct",
-        "Pale cells spread along the epidermal base",
-        "Small irregular epithelial nests in deep stroma"
+        "Papillary means a flat sclerotic plaque, so the fronds indicate lichen sclerosus",
+        "Papillary means an intraepidermal pale cell proliferation, so the fronds indicate Paget disease",
+        "Papillary means finger like exophytic growth, so the fronds with stromal cores indicate condyloma, whereas the hidradenoma is a dermal nodule with internal papillary glands",
+        "Papillary always means a benign dermal nodule, so the fronds indicate hidradenoma",
+        "Papillary means invasive nests in stroma, so the fronds indicate carcinoma"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "Papillary hidradenoma contains papillary glands inside a circumscribed dermal nodule. The condyloma comparison sends squamous fronds outward from the surface. This choice describes papillary hidradenoma.",
-        "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward. They are distinct from glands arranged within a dermal nodule. This choice describes condyloma acuminatum (papillary squamous fronds), which is what the image shows.",
-        "The covering of these fronds is squamous. This choice describes an intraductal papilloma.",
-        "Extramammary Paget disease scatters pale cells within the epidermis. The condyloma fronds here are raised squamous projections with fibrovascular cores. This choice describes extramammary Paget disease.",
-        "The papillae project toward the surface and retain attached cores. This choice describes invasive squamous cell carcinoma."
+        "Sclerotic flat plaques are not papillary.",
+        "Paget disease is intraepidermal and is not a frond forming lesion.",
+        "Papillary means finger like exophytic growth and the surface fronds fit condyloma.",
+        "Hidradenoma is a dermal nodule, not an outward frond covering a surface.",
+        "Invasive nests are not described as papillary fronds."
       ],
-      "explanation": "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward. They are distinct from glands arranged within a dermal nodule. Papillary hidradenoma contains papillary glands inside a circumscribed dermal nodule. The condyloma comparison sends squamous fronds outward from the surface.",
+      "explanation": "Step 1. The lecture defines papillary as finger like exophytic growth. Step 2. In condyloma the fronds project outward from the surface around stromal cores and have koilocytes, whereas in papillary hidradenoma the papillary pattern lies within a circumscribed dermal nodule covered by normal skin. The word describes architecture, so the location and context decide the diagnosis.",
       "visual_clues": [
         "In this comparison, the papillae are stromal cores covered by squamous epithelium and projecting outward."
       ],
@@ -3441,37 +3458,38 @@
           "page": 51
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
-      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases."
+      "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-myoepithelial-stain",
       "collection": "R10",
       "question_type": "Clinical visual question",
-      "tested_concept": "Myoepithelial stain",
+      "tested_concept": "Which stain best demonstrates this layer?",
       "visual_target": "Which stain would help demonstrate the supporting layer around the glandular structures highlighted in the lecture?",
-      "stem": "Which stain would help demonstrate the supporting layer around the glandular structures highlighted in the lecture?",
+      "stem": "Which stain best demonstrates this layer?",
       "options": [
-        "Mucicarmine",
-        "Inhibin",
+        "Diastase PAS for mucin",
         "Calponin",
-        "HER2",
-        "PLAP"
+        "PAS for fungal hyphae",
+        "Mucicarmine",
+        "Stain for koilocytes"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "This demonstrates mucin and is not the lecture's marker of the supporting layer. This choice describes a mucicarmine stain for mucin.",
-        "This addresses ovarian sex cord differentiation rather than the layer around vulvar papillary glands. This choice describes an inhibin stain for sex cord tumors.",
-        "The circumscribed dermal nodule contains complex papillary glands. R10 describes a retained myoepithelial layer and lists calponin and SMA as stains supporting this component. This choice describes a calponin stain for myoepithelial cells (as in hidradenoma), which is what the image shows.",
-        "This evaluates receptor expression rather than the myoepithelial layer. This choice describes a HER2 stain.",
-        "This is used in the testicular germ cell material and does not identify the supporting gland layer. This choice describes a PLAP stain for germ cell tumors."
+        "Diastase PAS also confirms Paget mucin.",
+        "Calponin marks the myoepithelial layer in hidradenoma.",
+        "PAS for hyphae is used for candidiasis in keratin.",
+        "Mucicarmine shows Paget cell mucin, not a supporting layer.",
+        "There is no special stain needed for koilocytes, and they do not mark a supporting layer."
       ],
-      "explanation": "The circumscribed dermal nodule contains complex papillary glands. R10 describes a retained myoepithelial layer and lists calponin and SMA as stains supporting this component. This is used in the testicular germ cell material and does not identify the supporting gland layer.",
+      "explanation": "Step 1. A circumscribed dermal nodule with papillary glands is papillary hidradenoma. Step 2. The lecture lists calponin, SMA, and EMA as positive, and calponin highlights the myoepithelial layer around the glands, which supports a benign tumor. Mucicarmine and diastase PAS are used for Paget cell mucin, and PAS is used for fungi.",
       "visual_clues": [
         "The circumscribed dermal nodule contains complex papillary glands."
       ],
-      "reasoning_order": 2,
+      "reasoning_order": "second or third order",
       "reasoning_task": "stain",
       "generation_batch": "2026-11-12-visual-reasoning",
       "ground_truth_confidence": "high for the stated visual target",
@@ -3495,13 +3513,13 @@
         }
       ],
       "case_id": "r10-vulvar-nodule",
-      "scenario": "A small vulvar nodule has been removed. The figure shows it at two powers.",
-      "lead_in": "Which stain would help demonstrate the supporting layer around the glandular structures highlighted in the lecture?",
+      "scenario": "A pathologist has a circumscribed dermal vulvar nodule with branching glands. She wants to confirm that a supporting cell layer surrounds the glands, which argues against invasive carcinoma.",
+      "lead_in": "Which stain best demonstrates this layer?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "stain",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Papillary hidradenoma",
       "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision."
     },
