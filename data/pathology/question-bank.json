@@ -102,22 +102,22 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "Where is the positive brown immunostaining located in this field?",
+      "stem": "Why is the nuclear location of the stain expected, and how will it affect therapy?",
       "options": [
-        "Exclusively along cell membranes",
-        "Only in extracellular stroma",
-        "Only inside glandular lumina",
-        "Predominantly in nuclei"
+        "Estrogen receptor alpha is a cytoplasmic enzyme, and ER positive tumors predict benefit from chemotherapy only",
+        "Estrogen receptor alpha is a secreted protein, and ER positive tumors predict no benefit from therapy",
+        "Estrogen receptor alpha is a nuclear receptor, and ER positive tumors predict benefit from endocrine therapy such as tamoxifen or aromatase inhibitors",
+        "Estrogen receptor alpha is a membrane receptor, and ER positive tumors predict benefit from trastuzumab"
       ],
-      "correct_index": 3,
-      "explanation": "Brown staining occupies rounded nuclear profiles among blue unstained nuclei. There are no continuous brown rings outlining cell membranes.",
+      "correct_index": 2,
+      "explanation": "Step 1. Nuclear brown staining is the pattern of estrogen receptor alpha, which is almost always expressed in the nucleus of ER positive cells. Step 2. Breast tumors are routinely tested for ER, PR, and HER2, and ER positive tumors predict beneficial responses to endocrine therapy (tamoxifen, aromatase inhibitors), whereas trastuzumab applies to HER2 positive tumors.",
       "choice_rationales": [
-        "There are no continuous brown rings outlining cell membranes. This choice describes membranous staining pattern.",
-        "The brown signal is concentrated in cells rather than stromal matrix. This choice describes stromal staining pattern.",
-        "The signal is not confined to empty glandular spaces. This choice describes luminal secretion staining pattern.",
-        "Brown staining occupies rounded nuclear profiles among blue unstained nuclei. This choice describes nuclear staining pattern (such as estrogen receptor positivity), which is what the image shows."
+        "ER is a nuclear receptor and not a cytoplasmic enzyme.",
+        "ER positivity predicts a benefit from endocrine therapy.",
+        "ER alpha is nuclear and predicts response to endocrine therapy.",
+        "Trastuzumab targets HER2, not ER."
       ],
-      "tested_concept": "Nuclear immunostaining localization",
+      "tested_concept": "Why is the nuclear location of the stain expected, and how will it affect therapy?",
       "question_id": "q-aa8e402115dc3e729c21",
       "source_id": "s-f8852e25de3a0dc53e05",
       "source_group_id": "g-49c3b1f6eaca24a6bfe6",
@@ -146,8 +146,9 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 52-year-old woman has a 1.5 cm breast carcinoma. Immunohistochemistry shows brown staining in the nuclei of most tumor cells and no staining of the cell membranes or cytoplasm. HER2 is negative.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which test would most readily confirm the cause of her infection?",
@@ -7909,20 +7910,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which feature in the upper chromatin drawing supports transcription?",
+      "stem": "What chromatin state supports transcription, and what recruits the machinery in response to hormone?",
       "options": [
-        "Closely packed nucleosomes with no polymerase complex bound to DNA",
-        "A receptor anchored in the plasma membrane away from the DNA",
-        "Identical nucleosome spacing in both panels",
-        "Separated nucleosomes with polymerase on accessible DNA"
+        "Loosely packaged chromatin with acetylated histones, opened when coactivators bind the ligand-bound receptor and recruit chromatin remodelers such as SWI/SNF",
+        "Naked DNA without histones, recruited by DNA polymerase",
+        "Tightly packed chromatin, recruited by HDAC enzymes",
+        "Tightly packed nucleosomes with deacetylated and methylated histones, recruited by corepressors"
       ],
-      "correct_index": 3,
-      "explanation": "The upper diagram shows wider nucleosome spacing with RNA polymerase II bound to an accessible region. Closely packed nucleosomes are shown in the lower arrangement.",
+      "correct_index": 0,
+      "explanation": "Step 1. Widely spaced nucleosomes with acetylated histones indicate loosely packaged, accessible chromatin where RNA polymerase II can bind. Step 2. Coactivators bind the ligand binding domain in the presence of hormone and recruit chromatin remodeling complexes that destabilize nucleosomes, while HDAC and methylation condense DNA and silence genes.",
       "choice_rationales": [
-        "Closely packed nucleosomes are shown in the lower arrangement. This choice describes condensed inactive chromatin (heterochromatin).",
-        "The upper drawing shows a DNA strand with nucleosomes and polymerase. This choice describes a membrane-bound receptor.",
-        "The upper arrangement has larger gaps between nucleosomes. This choice describes unchanged chromatin in both states.",
-        "The upper diagram shows wider nucleosome spacing with RNA polymerase II bound to an accessible region. This choice describes accessible euchromatin (active transcription), which is what the image shows."
+        "Open acetylated chromatin with coactivator and SWI/SNF action supports transcription.",
+        "DNA in cells remains wound on histones, not naked.",
+        "HDAC activity condenses chromatin and prevents transcription.",
+        "Deacetylated, methylated, tightly packed chromatin silences genes."
       ],
       "visual_clues": [
         "The upper diagram shows wider nucleosome spacing with RNA polymerase II bound to an accessible region."
@@ -7931,7 +7932,7 @@
       "source_id": "s-65117ae994c04a925fba",
       "source_group_id": "g-9d97d833a1b03fe880f0",
       "variant_id": "v-16b3b3b6a62dee00a553",
-      "tested_concept": "Chromatin accessibility and transcription",
+      "tested_concept": "What chromatin state supports transcription, and what recruits the machinery in response to hormone?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R20",
@@ -7952,24 +7953,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A researcher studies why a gene is turned on in endometrial cells after estradiol exposure. DNA near the gene promoter is wound around widely spaced nucleosomes with acetylated histones and RNA polymerase II bound.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "The caption beneath region E is covered. Which function is assigned to region E in this receptor diagram?",
+      "stem": "Which region binds the ligand, and what is the function of region C?",
       "options": [
-        "Recruitment of the basal transcription machinery",
-        "Ligand binding and dimerization",
-        "DNA binding and dimerization",
-        "Ligand independent activation"
+        "Region E is the hinge and has no function, and region C is the ligand domain",
+        "Region E binds ligand and mediates dimerization, and region C binds hormone response elements in DNA",
+        "Region E binds coactivators only in the absence of hormone, and region C is the N-terminal domain",
+        "Region E binds DNA, and region C binds ligand"
       ],
       "correct_index": 1,
-      "explanation": "The broad E block follows the hinge and lies under AF-2. The lecture identifies it as the ligand binding and dimerization domain. The smaller C block is assigned DNA binding and dimerization.",
+      "explanation": "Step 1. The large E region is the ligand binding domain with AF-2, which recruits coactivators and corepressors. Step 2. The C region is the DNA binding domain with two Cys4 zinc fingers that bind hormone response elements in target genes, so ligands such as tamoxifen bind E and alter coactivator recruitment.",
       "choice_rationales": [
-        "The diagram assigns the ligand binding function to E under AF-2. It does not label E as basal transcription machinery. This choice describes recruitment of the basal transcription machinery (AF-1 region).",
-        "The broad E block follows the hinge and lies under AF-2. The lecture identifies it as the ligand binding and dimerization domain. This choice describes the ligand binding domain (steroid receptor region E), which is what the image shows.",
-        "The smaller C block is assigned DNA binding and dimerization. This choice describes the DNA binding domain.",
-        "The N-terminal A–B region carries the AF-1 activity. This choice describes ligand-independent activation (AF-1 region)."
+        "The hinge is separate, and the LBD is region E.",
+        "E is the ligand binding and dimerization domain, and C binds DNA.",
+        "Coactivators bind the LBD in the presence of hormone, not its absence.",
+        "DNA binding is in region C, not E."
       ],
       "visual_clues": [
         "The broad E block follows the hinge and lies under AF-2. The lecture identifies it as the ligand binding and dimerization domain."
@@ -7978,7 +7980,7 @@
       "source_id": "s-0d49295749147d5fc22b",
       "source_group_id": "g-74ac03d6a6dd91aaacce",
       "variant_id": "v-b97059c1c1cc3114455a",
-      "tested_concept": "Nuclear receptor ligand binding domain position",
+      "tested_concept": "Which region binds the ligand, and what is the function of region C?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R20",
@@ -7999,8 +8001,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A pharmacologist examines a diagram of an estrogen receptor. The broad block (region E) lies near AF-2, and a small block (region C) contains two zinc fingers. A patient takes tamoxifen, which binds in one of these regions.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Between weeks 14 and 22, how does the red hCG curve change relative to the black progesterone curve?",
@@ -11037,20 +11040,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Compare both blood pressure curves across the plotted pregnancy. What pattern do they share?",
+      "stem": "Why does her pressure fall in mid pregnancy, and why does it rise again later?",
       "options": [
-        "They decline continuously with no later rise in pregnancy",
-        "They remain flat at the same pressure across pregnancy",
-        "They fall from early values and rise again later in pregnancy",
-        "They climb steadily from the beginning to the end of pregnancy"
+        "Loss of blood volume causes a fall in mid pregnancy and later blood volume rises",
+        "A small cuff causes a falsely low reading mid pregnancy and later cuffs are correct",
+        "Peripheral vasodilation from nitric oxide upregulated by estradiol causes a 25 to 30 percent fall in systemic vascular resistance, and pressure rises toward baseline later in pregnancy",
+        "Increased sympathetic tone causes a 30 percent rise in resistance mid pregnancy and falls later"
       ],
       "correct_index": 2,
-      "explanation": "Both traces dip below their early values and then rise toward later pregnancy. Both curves rise again after the midpregnancy dip.",
+      "explanation": "Step 1. A mid pregnancy dip in pressure that rises again later is the normal pattern. Step 2. Endothelium dependent vasodilation, mediated by nitric oxide upregulated by estradiol and vasodilatory prostaglandins, lowers systemic vascular resistance by 25 to 30 percent, so pressure dips and rises toward later pregnancy, and a pressure of 140/90 or higher defines hypertension.",
       "choice_rationales": [
-        "Both curves rise again after the midpregnancy dip. This choice describes a continuous decline in blood pressure.",
-        "Both curves change appreciably over the plotted weeks. This choice describes a constant blood pressure.",
-        "Both traces dip below their early values and then rise toward later pregnancy. This choice describes the physiologic midpregnancy dip in blood pressure with a later rise, which is what the image shows.",
-        "The early segment falls before the later rise. This choice describes a steady rise in blood pressure throughout pregnancy."
+        "Blood volume rises during pregnancy, not falls.",
+        "A small cuff overestimates blood pressure, not underestimates it.",
+        "Vasodilation lowers resistance in mid pregnancy, so the dip is physiologic.",
+        "Resistance falls, not rises, in mid pregnancy."
       ],
       "visual_clues": [
         "Both traces dip below their early values and then rise toward later pregnancy.",
@@ -11060,7 +11063,7 @@
       "source_id": "s-2b5427a27c32521ab8a4",
       "source_group_id": "g-a63910eeb1b1e4cef984",
       "variant_id": "v-0d67fd3108c96801afd5",
-      "tested_concept": "Normal pregnancy blood pressure midgestation pattern",
+      "tested_concept": "Why does her pressure fall in mid pregnancy, and why does it rise again later?",
       "question_type": "Visual interpretation",
       "category": "Graphs",
       "collection": "R21",
@@ -11081,24 +11084,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A healthy 27-year-old at 10 weeks has blood pressure 120/70. At 20 weeks it is 108/60. At 36 weeks it is 118/72. She asks whether the changes are a problem.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which comparison is visible between the blue plasma volume curve and the green red cell volume curve?",
+      "stem": "What explains her lab values, and how is her condition interpreted?",
       "options": [
-        "Both curves remain at their starting level",
-        "Both rise, with a larger increase in the plasma volume curve",
-        "The red cell volume curve rises more than the plasma volume curve",
-        "Plasma volume falls as red cell volume rises"
+        "Plasma volume falls while red cell mass rises, which is polycythemia",
+        "Plasma volume expands more than red cell mass, so dilution lowers hematocrit, which is a physiologic change",
+        "Both volumes fall equally, which is hypovolemia",
+        "Red cell mass falls while plasma volume is unchanged, which is a pathologic anemia"
       ],
       "correct_index": 1,
-      "explanation": "Both volumes rise, but plasma volume rises more than red cell volume. That relative increase dilutes the red cells and explains the fall in hematocrit described in the lecture. The plasma volume trace rises farther than the red cell volume trace.",
+      "explanation": "Step 1. Both plasma and red cell volumes rise in pregnancy, but plasma volume rises more. Step 2. This relative increase dilutes the red cells and lowers hematocrit, so it is expected physiology rather than a disease.",
       "choice_rationales": [
-        "Both traces rise above their initial levels. This choice describes no change in blood volume components.",
-        "Both volumes rise, but plasma volume rises more than red cell volume. That relative increase dilutes the red cells and explains the fall in hematocrit described in the lecture. This choice describes expansion of plasma volume more than red cell volume in pregnancy (physiologic hemodilution), which is what the image shows.",
-        "The plasma volume trace rises farther than the red cell volume trace. This choice describes a greater rise in red cell volume than plasma volume.",
-        "Plasma volume increases along with red cell volume. This choice describes falling plasma volume."
+        "Plasma volume rises in pregnancy and does not fall.",
+        "Greater plasma expansion dilutes red cells and lowers hematocrit.",
+        "Both plasma and red cell volumes rise in pregnancy, so neither falls.",
+        "Red cell mass rises in pregnancy, so it does not fall to cause this picture."
       ],
       "visual_clues": [
         "Both curves increase. The larger plasma increase is the clue to physiologic hemodilution."
@@ -11107,7 +11111,7 @@
       "source_id": "s-822ac26fd311bca9543f",
       "source_group_id": "g-db0a1f8a56345b720f6a",
       "variant_id": "v-c0aab3ff77b53b2ced1b",
-      "tested_concept": "Pregnancy plasma and red cell volume trends",
+      "tested_concept": "What explains her lab values, and how is her condition interpreted?",
       "question_type": "Visual interpretation",
       "category": "Graphs",
       "collection": "R21",
@@ -11132,8 +11136,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A 28-year-old woman at 34 weeks has hemoglobin of 10.8 g/dL and hematocrit that is lower than before pregnancy. She has a normal diet and iron stores. A graph shows plasma volume rising by more than red cell volume.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which pair of drug classes treats this condition, and how do they differ in mechanism?",
@@ -17557,27 +17562,27 @@
       "question_id": "q-reasoning-spiral-artery-flow",
       "collection": "R21",
       "question_type": "Visual reasoning",
-      "tested_concept": "Spiral artery flow",
+      "tested_concept": "What is the proposed first stage of her disease, and what is its consequence at the placenta?",
       "visual_target": "What is the expected consequence at the placenta in the right panel?",
-      "stem": "What is the expected consequence at the placenta in the right panel?",
+      "stem": "What is the proposed first stage of her disease, and what is its consequence at the placenta?",
       "options": [
-        "Higher resistance to maternal flow and reduced placental perfusion",
-        "Lower maternal resistance because the channel has widened",
-        "Identical maternal perfusion because the two channels are the same size",
-        "Reduced placental flow caused by failure of neonatal ductal closure"
+        "Lack of remodeling of the spiral arterioles by cytotrophoblast cells, leading to higher resistance and reduced placental perfusion",
+        "Fetal shunting through the ductus, leading to hypoxia",
+        "Maternal renal failure, leading to lack of remodeling",
+        "Excess remodeling of the spiral arterioles, leading to placental hyperperfusion"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The maternal spiral artery remains relatively narrow in the right panel. The lecture links shallow remodeling to higher resistance and diminished placental perfusion. This choice describes preeclampsia (poor spiral artery remodeling with high resistance), which is what the image shows.",
-        "The vessel is narrower in the right panel. This choice describes normal pregnancy (widened spiral arteries).",
-        "The channel calibers and the depth of remodeling differ visibly. This choice describes equal perfusion in both.",
-        "The diagram depicts maternal spiral arteries during pregnancy rather than a neonatal shunt. This choice describes patent ductus arteriosus."
+        "Failed remodeling causes high resistance and reduced perfusion.",
+        "The diagram concerns maternal spiral arteries, not a neonatal shunt.",
+        "Renal disease is a risk factor but is not the cause of failed remodeling.",
+        "Remodeling is deficient, not excessive, in preeclampsia."
       ],
-      "explanation": "The maternal spiral artery remains relatively narrow in the right panel. The lecture links shallow remodeling to higher resistance and diminished placental perfusion. The diagram depicts maternal spiral arteries during pregnancy rather than a neonatal shunt.",
+      "explanation": "Step 1. Narrow, muscular spiral arteries show the lack of remodeling by cytotrophoblast cells that begins preeclampsia (first stage of the two stage theory). Step 2. The resulting low capacitance and high resistance reduce placental perfusion, producing placental hypoxia and damage to the syncytium, with maternal oxidative stress and endothelial dysfunction causing hypertension and proteinuria.",
       "visual_clues": [
         "The maternal spiral artery remains relatively narrow in the right panel."
       ],
-      "reasoning_order": 2,
+      "reasoning_order": "second or third order",
       "reasoning_task": "mechanism",
       "generation_batch": "2026-11-12-visual-reasoning",
       "ground_truth_confidence": "high for the stated visual target",
@@ -17609,8 +17614,8 @@
           "page": 31
         }
       ],
-      "case_context": "The two drawings show a difference in how deeply trophoblasts remodel the maternal vessels.",
-      "study_skill": "mechanism",
+      "case_context": "A 24-year-old primigravida at 34 weeks has blood pressure 150/95, 2+ proteinuria, and a small-for-dates fetus. Placental examination shows spiral arteries that remained narrow with thick muscular walls instead of dilated vessels.",
+      "study_skill": "interpretation",
       "condition_name": "Preeclampsia (placental findings)",
       "condition_overview": "Preeclampsia is new hypertension and proteinuria or end-organ dysfunction after 20 weeks. It is thought to arise from inadequate remodeling of spiral arteries by extravillous trophoblast, so they stay narrow and muscular with high resistance, causing placental hypoperfusion and ischemia. The ischemic placenta releases anti-angiogenic factors that cause maternal endothelial dysfunction. Placental findings include infarcts, accelerated villous maturation, and decidual vasculopathy."
     },
