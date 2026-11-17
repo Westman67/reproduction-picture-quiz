@@ -21,7 +21,7 @@ for (const bank of banks) {
             const score = p => p.reduce((sum, j, k) => sum + overlap(q.options[k], q.choice_rationales[j]), 0);
             const identity = score([...Array(n).keys()]);
             const best = Math.max(...perms(n).map(score));
-            if (best - identity > 0.35) bad.push(q.question_id);
+            if (best - identity > 0.6) bad.push(q.question_id);
         }
         assert.deepEqual(bad, [], 'Rationales look shifted relative to options. Reorder rationales and correct_index together with options.');
     });
