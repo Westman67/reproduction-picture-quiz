@@ -1682,33 +1682,33 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Sections from two separate pregnancy specimens are shown side by side. Compare the villi and their trophoblastic coverings.",
-      "lead_in": "Which comparison best describes the two fields?",
-      "stem": "Which comparison best describes the two fields?",
+      "scenario": "A 34-year-old woman has vaginal bleeding at 10 weeks, a uterus larger than dates, and a markedly elevated hCG. Evacuated tissue from her case is compared with a second patient's specimen. In her tissue (left) nearly all villi are broadly enlarged with prominent circumferential trophoblast. In the second specimen (right) enlarged villi are mixed with small, fibrotic villi with scalloped borders.",
+      "lead_in": "Which diagnoses fit the two fields, and which follow up applies to the left case?",
+      "stem": "Which diagnoses fit the two fields, and which follow up applies to the left case?",
       "options": [
-        "Left: mixed villous sizes with patchier rims. Right: broadly enlarged villi with prominent rims.",
-        "Left: broadly enlarged villi with prominent rims. Right: mixed villous sizes with patchier rims.",
-        "Both fields: broadly enlarged villi with prominent trophoblastic rims.",
-        "Both fields: mixed villous sizes with patchy trophoblastic rims.",
-        "Left: broad edema with inconspicuous rims. Right: mixed villous sizes with the thicker rims."
+        "Left is a normal placenta and right is a partial mole, with no hCG follow up",
+        "Left is a partial mole and right is a complete mole, and no follow up is needed",
+        "Left is a complete mole and right is a partial mole, and hCG is followed until it stays normal because about 2.5 percent of complete moles evolve into choriocarcinoma",
+        "Both are invasive moles with myometrial invasion",
+        "Both are placenta accreta with absent decidua"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "The mixed villous sizes favor partial mole on the right. Broadly enlarged villi with conspicuous peripheral trophoblast favor complete mole on the left. This choice describes partial mole on the left and complete mole on the right.",
-        "The complete mole on the left shows widespread villous edema with conspicuous trophoblastic proliferation. The partial mole on the right has enlarged villi interspersed with smaller villi. This choice describes a complete mole on the left and a partial mole on the right, which is what the image shows.",
-        "Broad enlargement with prominent trophoblastic rims fits the complete mole on the left. The partial mole on the right retains many small villi among the enlarged ones. This choice describes two complete moles.",
-        "Mixed villous sizes fit the partial mole on the right. Extensive edema and conspicuous peripheral trophoblast favor complete mole on the left. This choice describes two partial moles.",
-        "The most conspicuous trophoblastic bands lie along the enlarged villi of the complete mole on the left. The mixed villous population on the right fits partial mole. This choice describes nonmolar tissue."
+        "A normal placenta would not have diffusely hydropic villi, and hCG surveillance is needed.",
+        "The patterns are reversed in this option.",
+        "Diffusely enlarged villi indicate a complete mole, and hCG surveillance is needed for persistent disease and choriocarcinoma.",
+        "Invasive mole requires penetration of the myometrium, which is not shown.",
+        "Placenta accreta is an abnormally adherent placenta without decidua, not a molar villous pattern."
       ],
-      "explanation": "The left field shows marked villous edema with prominent peripheral proliferation. The right mixes markedly edematous villi and smaller villi, with less conspicuous trophoblastic proliferation overall.",
+      "explanation": "Step 1. Uniformly dilated villi with circumferential trophoblast proliferation are a complete mole, while two populations of villi with scalloping and trophoblastic inclusions are a partial mole. Step 2. The lecture states that up to 10 percent of moles become persistent or invasive and 2.5 percent of complete moles evolve into gestational choriocarcinoma, so serum hCG is followed until it falls to and remains at normal. Partial moles also carry a 5 to 10 percent risk of persistent disease.",
       "visual_clues": [
         "Compare several villi rather than a single profile.",
         "Dark cellular rims are more striking on the left."
       ],
       "visual_target": "Villous size and distribution of trophoblast in paired fields",
-      "tested_concept": "Comparing villous edema and trophoblastic proliferation",
+      "tested_concept": "Which diagnoses fit the two fields, and which follow up applies to the left case?",
       "category": "Histology",
       "collection": "R17",
       "source_origin": "lecture",
@@ -1742,9 +1742,10 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "joint_panels": true,
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-placental-specimens-2",
@@ -1752,33 +1753,33 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Sections from two separate pregnancy specimens are shown side by side. Compare the villi and their trophoblastic coverings.",
-      "lead_in": "Which pair best matches the morphologic patterns shown?",
-      "stem": "Which pair best matches the morphologic patterns shown?",
+      "scenario": "A pathologist receives two products of conception. One consists of free translucent vesicles resembling a bunch of grapes with no embryo. The other has an embryo, edematous villi mixed with small normal appearing villi, and trophoblastic inclusions.",
+      "lead_in": "Which pair matches the morphologic patterns, and what genetics explain each?",
+      "stem": "Which pair matches the morphologic patterns, and what genetics explain each?",
       "options": [
-        "Left: partial mole. Right: complete mole.",
-        "Both specimens: complete mole.",
-        "Left: complete mole. Right: partial mole.",
-        "Both specimens: partial mole.",
-        "Left: nonmolar villous change. Right: partial mole."
+        "First is a partial mole, usually triploid, and second is a complete mole, from an empty egg",
+        "Both are partial moles that are 46,XX androgenetic",
+        "First is a choriocarcinoma, from fetal tissue, and second is a normal placenta",
+        "First is a complete mole, usually 46,XX from duplication of one sperm (androgenesis), and second is a partial mole, usually triploid from two sperm fertilizing one ovum",
+        "Both are complete moles that are 69,XXY"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "The right field has the mixed size pattern. The more striking peripheral trophoblast and generalized villous enlargement are on the left. This choice describes partial mole on the left and complete mole on the right.",
-        "The left fits complete mole. The right has a mixture of markedly enlarged and much smaller villi, supporting the representative partial mole pattern. This choice describes two complete moles.",
-        "Marked edema and prominent circumferential proliferation favor complete mole on the left. The mixed villous population favors partial mole on the right. This choice describes a complete mole on the left and a partial mole on the right, which is what the image shows.",
-        "The right fits partial mole. The left shows broadly enlarged villi and more prominent trophoblastic rims. This choice describes two partial moles.",
-        "The right fits partial mole. In the supplied left example, the combination of extensive villous edema and conspicuous trophoblastic rims favors complete mole. This choice describes nonmolar villous change on the left and a partial mole on the right."
+        "The patterns and genetics are reversed in this option.",
+        "Androgenesis defines complete moles, not partial moles.",
+        "Choriocarcinoma is a malignant trophoblastic tumor and not a vesicular specimen.",
+        "Complete moles are androgenetic and partial moles are triploid from dispermy.",
+        "Triploidy defines partial moles, not complete moles."
       ],
-      "explanation": "These representative fields favor complete mole on the left and partial mole on the right. R17 notes that overlapping villous changes occur in practice and that triploidy can help confirm partial mole.",
+      "explanation": "Step 1. Grape like vesicles with no embryo are a complete mole, whereas an embryo with mixed villi and inclusions is a partial mole. Step 2. The lecture states that a complete mole arises when an egg that has lost its chromosomes is fertilized and the genetic material is wholly paternal (90 percent 46,XX from one sperm duplicating, the rest from two sperm), whereas partial moles result from two sperm fertilizing one egg and are triploid, for example 69,XXY.",
       "visual_clues": [
         "The left field has more conspicuous peripheral proliferation.",
         "The right field contains two readily distinguishable size populations."
       ],
       "visual_target": "Contrasting complete and partial mole patterns in separate specimens",
-      "tested_concept": "Morphologic classification of two molar patterns",
+      "tested_concept": "Which pair matches the morphologic patterns, and what genetics explain each?",
       "category": "Histology",
       "collection": "R17",
       "source_origin": "lecture",
@@ -1812,9 +1813,10 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "joint_panels": true,
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-gross-cavity",
@@ -1824,28 +1826,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R17",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Uterine cavity expansion in a molar teaching specimen",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which tissue accounts for the distention, and why is the villous vascular pattern informative?",
       "visual_target": "Which tissue accounts for the distention of the uterine cavity in this companion specimen?",
-      "scenario": "Two separate pregnancy specimens are being evaluated for an abnormal placental process.",
-      "lead_in": "Which tissue accounts for the distention of the uterine cavity in this companion specimen?",
-      "stem": "Which tissue accounts for the distention of the uterine cavity in this companion specimen?",
+      "scenario": "A 38-year-old woman has a uterus distended well beyond gestational age. At curettage the cavity is filled with grape like vesicles and no fetus. Her hCG is very high and she has hyperemesis.",
+      "lead_in": "Which tissue accounts for the distention, and why is the villous vascular pattern informative?",
+      "stem": "Which tissue accounts for the distention, and why is the villous vascular pattern informative?",
       "options": [
-        "One pale solid nodule centered entirely in the outer wall",
-        "A small intact placental disk isolated on one edge",
-        "A uniform thin membrane lining an otherwise empty cavity",
-        "A single clear cyst detached from the uterine wall",
-        "Vesicular tissue occupying and expanding the cavity"
+        "Vesicular, hydropic chorionic villi without organized placenta, which are usually avascular with central cisterns",
+        "Smooth muscle nodules of leiomyomas",
+        "Embryonic tissue growing in the tube",
+        "Endometrial glands and stroma within the myometrium",
+        "Blood clot from tubal rupture"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "A solid wall nodule would be centered in the myometrium. The complete mole specimen contains numerous vesicular villi expanding the uterine cavity. This choice describes a leiomyoma.",
-        "A small placental disk confined to one edge would not fill the uterus. In the complete mole specimen, vesicles occupy much of the cavity. This choice describes a retained placenta.",
-        "A thin membrane would line the cavity without expanding it. The complete mole produces a large volume of vesicular tissue within the cavity. This choice describes an empty cavity.",
-        "A simple cyst would have a single compartment. The complete mole forms an aggregate of many vesicles within the cavity. This choice describes a cyst.",
-        "In the gross complete mole specimen, numerous vesicular villi occupy and expand the uterine cavity. This choice describes a complete hydatidiform mole (vesicular tissue distending the cavity), which is what the image shows."
+        "Hydropic villi are avascular, with cisterns, and fill the cavity.",
+        "Leiomyomas are myometrial muscle tumors and do not fill the cavity with vesicles.",
+        "This specimen is intrauterine and not tubal.",
+        "Adenomyosis is endometrial tissue within the wall and does not form vesicles.",
+        "Tubal rupture is an ectopic pregnancy and does not fill the uterine cavity."
       ],
-      "explanation": "Extensive vesicular tissue fills and expands the cavity. The space is occupied by an aggregate of vesicles rather than by a single solid wall nodule.",
+      "explanation": "Step 1. Marked distention of the uterus by vesicular chorionic villi is a complete mole. Step 2. The lecture states the villi are dilated from a few mm to several cm, usually avascular, with larger ones having central cisterns, and they do not form an organized placenta, since the embryo dies early. The avascular villi fit the absence of fetal vessels and parts.",
       "visual_clues": [
         "Extensive vesicular tissue fills and expands the cavity."
       ],
@@ -1876,9 +1878,10 @@
           "page": 28
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-villous-inclusion",
@@ -1888,28 +1891,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R17",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Trophoblastic infolding in a companion placental field",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What explains this profile?",
       "visual_target": "Trophoblastic infolding in a companion placental field",
-      "scenario": "Two separate pregnancy specimens are being evaluated for an abnormal placental process.",
-      "lead_in": "In the companion field, what relationship at the arrow explains why a small epithelial profile appears within a villus?",
-      "stem": "In the companion field, what relationship at the arrow explains why a small epithelial profile appears within a villus?",
+      "scenario": "A pathologist reviewing a partial mole notices a small round epithelial profile in the middle of a villus stroma at the arrow, which looks like an isolated cell island.",
+      "lead_in": "What explains this profile?",
+      "stem": "What explains this profile?",
       "options": [
-        "An infolding of surface trophoblast into villous stroma",
-        "An intervillous space lying entirely outside the villus",
-        "A fetal vessel lined by endothelium at the villous center",
-        "Tumor cells crossing directly into myometrial muscle",
-        "A sheet of trophoblast detached into the uterine cavity"
+        "An infolding of surface trophoblast into villous stroma, forming a trophoblastic inclusion in a scalloped villus",
+        "An embedded fetal gland that arises from the embryo",
+        "A hemorrhagic cyst from an ectopic pregnancy",
+        "A malignant choriocarcinoma invading the villus",
+        "A metastatic carcinoma cell nest within villous stroma"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The scalloped villous surface in partial mole can fold inward. In section, trophoblast at the infolding appears as an inclusion within villous stroma. This choice describes trophoblastic inclusions in a partial mole (scalloped villi), which is what the image shows.",
-        "The marked profile is within the outline of the villus. This choice describes an intervillous space.",
-        "A fetal vessel would have an endothelial lining. The profile in the partial mole is a fold of surface trophoblast within the villus. This choice describes a fetal vessel.",
-        "An invasive mole places hydropic villi within myometrium. This partial mole image shows a trophoblastic inclusion within the villus itself. This choice describes invasive trophoblast.",
-        "Free trophoblast in the uterine cavity would be outside a villus. This partial mole inclusion is enclosed by the villous stroma. This choice describes a detached trophoblastic sheet."
+        "Scalloping with trophoblastic infolding creates apparent inclusions in partial mole.",
+        "Fetal glands are not described in this lecture.",
+        "Ectopic pregnancy is a site problem, not a villous feature.",
+        "Choriocarcinoma would show sheets of atypical trophoblast, not an isolated inclusion.",
+        "Villous stroma is not the site of carcinoma metastasis in this setting."
       ],
-      "explanation": "The scalloped villous surface can fold inward, leaving a trophoblastic inclusion within the villous stroma in section.",
+      "explanation": "Step 1. The villi of a partial mole show scalloped surfaces with trophoblastic infoldings, so a cut through the fold appears as an island of trophoblast within stroma. Step 2. The lecture lists trophoblastic inclusions with scalloping, two populations of villi, and circumferential trophoblastic hyperplasia as features, and three of the five features correlate with triploidy. Recognizing inclusions as infolding avoids overcalling invasion.",
       "visual_clues": [
         "The scalloped villous surface can fold inward, leaving a trophoblastic inclusion within the villous stroma in section."
       ],
@@ -1940,9 +1943,10 @@
           "page": 29
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Partial hydatidiform mole",
-      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up."
+      "condition_overview": "A partial hydatidiform mole is usually triploid (69,XXY), from fertilization of one egg by two sperm, and an embryo or fetal parts are often present. Two populations of villi occur: large hydropic villi with scalloped borders and trophoblastic inclusions, and small normal-appearing villi, with only focal mild trophoblast hyperplasia. p57 is positive because the maternal genome is present. It carries a much lower risk of persistent trophoblastic disease than a complete mole and is treated with curettage and hCG follow-up.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-wall-extension",
@@ -1952,28 +1956,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R17",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Placental villi within the uterine wall",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does this finding indicate, and what risk accompanies it?",
       "visual_target": "Placental villi within the uterine wall",
-      "scenario": "Two separate pregnancy specimens are being evaluated for an abnormal placental process.",
-      "lead_in": "This separate uterine wall specimen asks a different question from the two placental specimens. Which finding establishes extension beyond the cavity?",
-      "stem": "This separate uterine wall specimen asks a different question from the two placental specimens. Which finding establishes extension beyond the cavity?",
+      "scenario": "A 29-year-old woman had a complete mole evacuated 3 months ago. Her hCG plateaus, and she has persistent bleeding. A hysterectomy specimen shows hydropic villi lying between bundles of myometrial muscle.",
+      "lead_in": "What does this finding indicate, and what risk accompanies it?",
+      "stem": "What does this finding indicate, and what risk accompanies it?",
       "options": [
-        "Hydropic villi floating only in the cavity",
-        "Hydropic villous profiles between myometrial muscle bundles",
-        "A scalloped villus with an inclusion inside its own stroma",
-        "A pale edematous villus beside a small normal appearing villus",
-        "Proliferative trophoblast confined to the villous surface in the cavity"
+        "Adenomyosis from endometrial glands in the wall",
+        "A leiomyoma with hydropic degeneration",
+        "A normal partial mole that needs no further care",
+        "Invasive mole, locally destructive, which may invade parametrial tissue and vessels and embolize to the lungs and brain",
+        "Placenta accreta from a normal pregnancy with no tumor"
       ],
-      "correct_index": 1,
+      "correct_index": 3,
       "choice_rationales": [
-        "Molar villi confined to the cavity do not show invasion. The hydropic villi here lie within the muscular wall, demonstrating invasive mole. This choice describes a noninvasive mole.",
-        "Invasive mole is demonstrated by hydropic villi positioned between myometrial smooth muscle bundles. Villous edema alone cannot establish invasion. This choice describes an invasive mole (hydropic villi within myometrium), which is what the image shows.",
-        "An intravillous trophoblastic inclusion can occur in partial mole. It does not demonstrate extension of a villus into myometrium. This choice describes a partial mole.",
-        "A mixture of large edematous and small villi can favor partial mole. It does not establish the myometrial location required for invasive mole. This choice describes a normal villus.",
-        "Trophoblast proliferating on villi in the cavity does not establish invasion. The abnormal villi in this invasive mole lie among myometrial smooth muscle bundles. This choice describes trophoblast confined to the cavity."
+        "Adenomyosis has endometrial glands and stroma, not hydropic villi.",
+        "A leiomyoma is a smooth muscle tumor and does not contain villi.",
+        "A partial mole confined to the cavity does not infiltrate myometrium.",
+        "Hydropic villi inside myometrium define invasive mole with local destruction and embolization.",
+        "Placenta accreta involves normal placental tissue adherent to myometrium without decidua."
       ],
-      "explanation": "Hydropic villi lie between myometrial smooth muscle bundles. Location within the muscle, rather than edema alone, establishes the invasive pattern.",
+      "explanation": "Step 1. Hydropic villi penetrating between myometrial muscle bundles is an invasive mole (chorioadenoma destruens), a mole that penetrates or perforates the uterine wall. Step 2. The lecture states the tumor is locally destructive, may invade parametrial tissue and blood vessels, and hydropic villi may embolize to distant sites such as the lung and brain but do not grow there. Up to 10 percent of moles become persistent or invasive.",
       "visual_clues": [
         "Hydropic villi lie between myometrial smooth muscle bundles."
       ],
@@ -2004,7 +2008,7 @@
           "page": 28
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 55,
@@ -2013,7 +2017,8 @@
         }
       ],
       "condition_name": "Invasive hydatidiform mole",
-      "condition_overview": "An invasive mole is a hydatidiform mole in which hydropic villi penetrate the myometrium and may involve vessels. Villous structure is preserved, which separates it from choriocarcinoma. It follows evacuation of a complete mole in a minority of cases and presents with persistent or rising hCG and bleeding. It is a form of gestational trophoblastic neoplasia that is treated with chemotherapy and usually responds well."
+      "condition_overview": "An invasive mole is a hydatidiform mole in which hydropic villi penetrate the myometrium and may involve vessels. Villous structure is preserved, which separates it from choriocarcinoma. It follows evacuation of a complete mole in a minority of cases and presents with persistent or rising hCG and bleeding. It is a form of gestational trophoblastic neoplasia that is treated with chemotherapy and usually responds well.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-placental-specimens-depth-ploidy",
@@ -2023,28 +2028,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R17",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "tested_concept": "Parent of origin and ploidy in two placental pathways",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Based on the contributions shown, what ploidy and diagnosis does each pathway produce?",
       "visual_target": "Parent of origin and ploidy in two placental pathways",
-      "scenario": "The placental comparison leads to a review of how two different fertilization patterns arise.",
-      "lead_in": "The teaching table follows two fertilization pathways. Based on the contributions shown, what ploidy belongs in the two masked cells?",
-      "stem": "The teaching table follows two fertilization pathways. Based on the contributions shown, what ploidy belongs in the two masked cells?",
+      "scenario": "A genetics teaching table follows two fertilization pathways. In pathway A an egg with no maternal chromosomes is fertilized by one sperm that duplicates its DNA. In pathway B an egg with its maternal chromosomes is fertilized by two sperm.",
+      "lead_in": "Based on the contributions shown, what ploidy and diagnosis does each pathway produce?",
+      "stem": "Based on the contributions shown, what ploidy and diagnosis does each pathway produce?",
       "options": [
-        "Pathway A is triploid and pathway B is diploid",
-        "Both pathways are diploid",
-        "Pathway A is diploid and pathway B is triploid",
-        "Both pathways are triploid",
-        "Pathway A is haploid and pathway B is diploid"
+        "Pathway A is haploid and gives choriocarcinoma, and pathway B is diploid and gives an ectopic pregnancy",
+        "Pathway A is triploid and gives a partial mole, and pathway B is diploid and gives a complete mole",
+        "Both pathways are diploid and give complete moles",
+        "Both pathways are triploid and give partial moles",
+        "Pathway A is diploid, entirely paternal, and gives a complete mole, and pathway B is triploid and gives a partial mole"
       ],
-      "correct_index": 2,
+      "correct_index": 4,
       "choice_rationales": [
-        "A illustrates a diploid complete mole: an empty ovum receives two paternal sets. B illustrates a triploid partial mole: the ovum adds a maternal set to two paternal sets. This choice describes a triploid complete mole and a diploid partial mole.",
-        "The complete mole pathway A is diploid. The partial mole pathway B is triploid because the ovum contributes an additional maternal set. This choice describes two diploid moles.",
-        "The depicted complete mole has two paternal sets and no maternal set. The depicted partial mole has two paternal sets plus one maternal set. This choice describes a diploid complete mole (paternal only) and a triploid partial mole, which is what the image shows.",
-        "Triploidy fits the partial mole in B. The complete mole pathway in A has two paternal sets and no maternal contribution, yielding diploidy. This choice describes two triploid moles.",
-        "Each pathway receives two paternal sets. A stays diploid in the complete mole example; a maternal set makes B triploid in the partial mole example. This choice describes haploid and diploid gestations."
+        "Choriocarcinoma is not defined by these fertilization pathways.",
+        "The pathway assignments are reversed here.",
+        "Pathway B has three chromosome sets and is not diploid.",
+        "Pathway A has no maternal contribution, which is not triploid.",
+        "Duplicated paternal DNA is diploid and gives a complete mole, whereas two sperm plus an egg is triploid and gives a partial mole."
       ],
-      "explanation": "In pathway A, an empty ovum contributes no maternal set, and two sperm contribute one set apiece, yielding diploidy. In pathway B, the ovum adds one set to the two paternal sets, yielding triploidy.",
+      "explanation": "Step 1. An empty egg fertilized by one sperm that duplicates gives a 46,XX diploid complement entirely paternal (androgenesis), the commonest origin of a complete mole. Step 2. An egg with its maternal set fertilized by two sperm gives three sets, a triploid karyotype such as 69,XXY, which characterizes a partial mole. The lecture also notes a complete mole can result from two sperm and an empty egg (46,XX or 46,XY).",
       "visual_clues": [
         "In pathway A, an empty ovum contributes no maternal set, and two sperm contribute one set apiece, yielding diploidy."
       ],
@@ -2098,9 +2103,10 @@
           "page": 14
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Complete hydatidiform mole",
-      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease."
+      "condition_overview": "A complete hydatidiform mole is a diploid (usually 46,XX) androgenetic conception in which all chromosomes are paternal, so there is no fetal tissue. All chorionic villi are diffusely enlarged, edematous (hydropic), with a central cistern and circumferential trophoblastic hyperplasia. The uterus is distended with grapelike vesicles, hCG is markedly elevated, and ultrasound shows a snowstorm pattern. p57 is negative because the maternal gene is absent. It is treated by suction curettage with hCG follow-up because 15 to 20 percent develop persistent gestational trophoblastic disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-p57-pattern",
@@ -6669,32 +6675,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A patient in early pregnancy undergoes laparoscopy. The first view shows the pelvis. A schematic in the next step compares possible implantation sites.",
-      "lead_in": "Which implantation site best fits the abnormality marked by the lower arrow?",
-      "stem": "Which implantation site best fits the abnormality marked by the lower arrow?",
+      "scenario": "A 27-year-old woman with prior pelvic inflammatory disease has amenorrhea for 7 weeks, unilateral pelvic pain, and a positive hCG but an empty uterus on ultrasound. A diagram marks an abnormality in the right tube with a lower arrow.",
+      "lead_in": "Which implantation site and complication risk does this suggest?",
+      "stem": "Which implantation site and complication risk does this suggest?",
       "options": [
-        "Intrauterine pregnancy",
-        "Ovarian ectopic pregnancy",
-        "Right tubal ectopic pregnancy",
-        "Cervical ectopic pregnancy",
-        "Abdominal ectopic pregnancy on the bowel"
+        "A placenta accreta of the uterine wall",
+        "A right tubal ectopic pregnancy, which can rupture at about 8 weeks with life threatening hemorrhage",
+        "An ovarian cyst that always resolves",
+        "A normal intrauterine pregnancy",
+        "A complete mole in the uterine cavity"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "The marked abnormality lies lateral to the visible uterus. This choice describes an intrauterine pregnancy.",
-        "The lecture localizes the lesion to the right tube. The marked site is not depicted within ovarian tissue. This choice describes an ovarian ectopic pregnancy.",
-        "The lower arrow points to the abnormality next to the labeled right tube and adjacent clot. This choice describes a right tubal ectopic pregnancy, which is what the image shows.",
-        "A cervical implantation would be lower and central, rather than at the lateral tubal region. This choice describes a cervical ectopic pregnancy.",
-        "The labeled bowel is on the opposite side of the field from the marked abnormality. This choice describes an abdominal ectopic pregnancy."
+        "Placenta accreta involves the uterine wall and a placenta in the uterus.",
+        "A tubal implantation in a patient with prior PID can rupture at about 8 weeks.",
+        "An ovarian cyst does not explain a positive hCG with an empty uterus and a tubal abnormality.",
+        "A normal intrauterine pregnancy would be seen in the uterus.",
+        "A complete mole is intrauterine and would not mark a tubal site."
       ],
-      "explanation": "The lower arrow points to the abnormal right tubal region beside the dark pelvic clot. The location and early pregnancy context support a right tubal ectopic pregnancy in this teaching example.",
+      "explanation": "Step 1. A positive hCG with an empty uterus and a marked abnormality in the tube indicates an ectopic pregnancy, and more than 95 percent occur in the fallopian tube. Step 2. The lecture lists risk factors that alter tube anatomy, including PID, salpingitis, and prior pelvic surgery, and states that continued growth dilates the tube and can rupture at about 8 weeks with possible life threatening hemorrhage. Other outcomes include spontaneous expulsion or involution.",
       "visual_clues": [
         "Use the upper arrow as a tubal landmark and follow the lower arrow to its tip."
       ],
       "visual_target": "Abnormality at the right tubal region with adjacent hemorrhage",
-      "tested_concept": "Location of an ectopic gestation at laparoscopy",
+      "tested_concept": "Which implantation site and complication risk does this suggest?",
       "category": "Clinical Photo",
       "collection": "R17",
       "source_origin": "lecture",
@@ -6715,9 +6721,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Lecture extraction index. Scored targets require a separate visual check.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Ectopic pregnancy",
-      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery."
+      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-2",
@@ -6725,32 +6732,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A patient in early pregnancy undergoes laparoscopy. The first view shows the pelvis. A schematic in the next step compares possible implantation sites.",
-      "lead_in": "Which pair is drawn within the tube and clearly lateral to the uterine wall?",
-      "stem": "Which pair is drawn within the tube and clearly lateral to the uterine wall?",
+      "scenario": "A surgical diagram shows several marked sites along the fallopian tube and uterus where a pregnancy can implant. Two marks lie within the tube itself, clearly lateral to the uterine wall.",
+      "lead_in": "Which pair is drawn within the tube lateral to the uterine wall, and what does the lecture say about how often the tube is the site?",
+      "stem": "Which pair is drawn within the tube lateral to the uterine wall, and what does the lecture say about how often the tube is the site?",
       "options": [
-        "Cervical and abdominal sites",
-        "Ovarian and cervical sites",
-        "Interstitial and cesarean scar sites",
-        "Isthmic and ampullary sites",
-        "Ampullary and ovarian sites"
+        "The ampullary and interstitial sites, and none are tubal",
+        "The isthmic and ampullary sites, and more than 95 percent of ectopic pregnancies are tubal",
+        "The abdominal and uterine sites, and all are tubal",
+        "The ovarian and cervical sites, and more than 95 percent are tubal",
+        "The interstitial and cornual sites, and 5 percent are tubal"
       ],
-      "correct_index": 3,
+      "correct_index": 1,
       "choice_rationales": [
-        "The cervical marker is below the uterine cavity and the abdominal marker is separate from the tube. This choice describes cervical and abdominal ectopic sites.",
-        "One marker is in the ovary and the other is in the cervix. This choice describes ovarian and cervical ectopic sites.",
-        "Both are shown in or at the uterine wall rather than clearly lateral to it. This choice describes interstitial and cesarean scar ectopic sites.",
-        "Both markers follow the tube lateral to its junction with the uterine wall. This choice describes isthmic and ampullary tubal sites, which is what the image shows.",
-        "The ampullary marker is tubal. The ovarian marker is drawn inside the ovary. This choice describes ampullary and ovarian sites."
+        "The interstitial site lies in the uterine wall, and the tube is the main site.",
+        "Isthmic and ampullary sites are within the tube and lateral to the uterine wall, and the tube accounts for over 95 percent.",
+        "Not all ectopic pregnancies are tubal, but more than 95 percent are.",
+        "Ovarian and cervical sites are not tubal segments, even though ectopic pregnancy can occur elsewhere rarely.",
+        "The interstitial segment lies in the uterine wall, and the tubal proportion is far higher than 5 percent."
       ],
-      "explanation": "The isthmic and ampullary sites are both drawn along the extrauterine tube. The photograph supports a tubal location and does not resolve the exact segment.",
+      "explanation": "Step 1. Moving from the uterus outward, the tubal segments are the interstitial part within the uterine wall, then the isthmus, the ampulla, and the fimbriated end, so the isthmic and ampullary sites lie within the tube lateral to the uterine wall. Step 2. The lecture states that more than 95 percent of ectopic pregnancies occur in the fallopian tube, so tubal sites are the main concern. The segment naming is anatomical knowledge not detailed in the lecture text.",
       "visual_clues": [
         "Trace the tube outward from where it meets the uterus."
       ],
       "visual_target": "Isthmic and ampullary sites lateral to the uterine wall",
-      "tested_concept": "Mapping tubal and extra-tubal implantation sites",
+      "tested_concept": "Which pair is drawn within the tube lateral to the uterine wall, and what does the lecture say about how often the tube is the site?",
       "category": "Diagram",
       "collection": "R17",
       "source_origin": "lecture",
@@ -6771,9 +6778,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Lecture extraction index. Scored targets require a separate visual check.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Ectopic pregnancy",
-      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery."
+      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-depth-uterine-junction",
@@ -6783,28 +6791,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R17",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Spatial distinction at the uterotubal junction",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What spatial distinction separates these two sites?",
       "visual_target": "Spatial distinction at the uterotubal junction",
-      "scenario": "After laparoscopy in early pregnancy, the team reviews a map of possible implantation sites.",
-      "lead_in": "Two marked sites in the diagram are near the upper lateral uterus. What spatial distinction separates the interstitial marker from the isthmic marker?",
-      "stem": "Two marked sites in the diagram are near the upper lateral uterus. What spatial distinction separates the interstitial marker from the isthmic marker?",
+      "scenario": "A resident compares two marks drawn near the upper lateral uterus. One lies within the muscular uterine wall, and the other lies just outside it along the tube. A tubal pregnancy at the first mark would be surrounded by myometrium.",
+      "lead_in": "What spatial distinction separates these two sites?",
+      "stem": "What spatial distinction separates these two sites?",
       "options": [
-        "The interstitial marker lies on the outer edge of the ovary",
-        "The isthmic marker lies in the lower cervical canal",
-        "The interstitial marker lies within the uterine wall",
-        "The two markers lie on the same point of the tubal course",
-        "The interstitial marker lies beyond the fimbrial end"
+        "Both markers lie in the tube outside the uterine wall",
+        "The interstitial marker lies on the ovary, whereas the isthmic marker lies in the cavity",
+        "The interstitial marker lies within the uterine wall, whereas the isthmic marker lies in the tube outside the wall",
+        "Neither marker is related to the uterine wall",
+        "Both markers lie within the cervix"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "The ovarian marker is drawn separately and farther from the uterine wall. This choice describes an ovarian ectopic pregnancy.",
-        "The isthmic marker lies along the upper lateral tube. This choice describes a cervical ectopic pregnancy.",
-        "The interstitial marker is drawn at the portion of the tube traversing the uterine wall. The isthmic marker lies farther laterally along the visible tube. This choice describes an interstitial (cornual) ectopic pregnancy, which is what the image shows.",
-        "They sit at different positions along the uterotubal junction. This choice describes a single tubal point.",
-        "It is at the uterine end, well medial to the fimbrial end. This choice describes an abdominal ectopic pregnancy."
+        "Both are tubal segments, but the interstitial one is within the wall.",
+        "The ovary is not part of the tube, and the cavity is intrauterine.",
+        "The interstitial segment is within the uterine wall and the isthmus lies outside it.",
+        "The markers are related by the uterine wall.",
+        "The cervix is not the location of these tubal markers."
       ],
-      "explanation": "The interstitial marker is drawn at the portion of the tube traversing the uterine wall. The isthmic marker lies farther laterally along the visible tube. It is at the uterine end, well medial to the fimbrial end.",
+      "explanation": "Step 1. The interstitial segment of the tube passes through the muscular wall of the uterus, while the isthmus is the narrow segment just outside the wall. Step 2. This spatial relationship explains why a pregnancy at the interstitial site is surrounded by myometrium. The lecture states that most ectopic pregnancies are tubal and that rupture can occur at about 8 weeks, and the segment definitions are general anatomy.",
       "visual_clues": [
         "The interstitial marker is drawn at the portion of the tube traversing the uterine wall."
       ],
@@ -6829,7 +6837,8 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Ectopic pregnancy",
-      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery."
+      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-pelvic-operative-view-depth-ovarian-distinction",
@@ -6839,28 +6848,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R17",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Relation of distal tubal and ovarian implantation sites",
+      "reasoning_type": "second or third order",
+      "tested_concept": "How can the distal tubal marker be distinguished from the ovarian marker?",
       "visual_target": "Relation of distal tubal and ovarian implantation sites",
-      "scenario": "After laparoscopy in early pregnancy, the team reviews a map of possible implantation sites.",
-      "lead_in": "How can the distal tubal marker be distinguished from the ovarian marker even though both sit near the adnexa?",
-      "stem": "How can the distal tubal marker be distinguished from the ovarian marker even though both sit near the adnexa?",
+      "scenario": "A surgeon marks the distal end of the tube and the nearby ovary on the diagram. Both sit close to each other, and she asks how to tell a distal tubal pregnancy from an ovarian one.",
+      "lead_in": "How can the distal tubal marker be distinguished from the ovarian marker?",
+      "stem": "How can the distal tubal marker be distinguished from the ovarian marker?",
       "options": [
-        "Both sit within the same separately outlined ovary",
-        "One is within the uterine wall and the other within the cervix",
-        "Both are drawn in free abdominal space below the adnexa",
-        "One follows the distal tube while the other is within the ovarian outline",
-        "The ovarian marker is medial to the central uterine cavity"
+        "The tubal marker is the ovarian surface and the ovarian marker is the fimbria",
+        "Both markers lie in the uterine wall",
+        "They cannot be distinguished at all",
+        "The tubal marker lies in the uterine cavity and the ovarian marker in the tube",
+        "The tubal marker follows the distal tube, whereas the ovarian marker lies within the ovary"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "The distal tubal marker is on the tube itself. This choice describes a pair of ovarian sites.",
-        "Both ectopic sites are adnexal. Distal tubal implantation follows the end of the tube and ovarian implantation lies within the ovary. The uterine wall and cervix represent different implantation sites. This choice describes a uterine and cervical pair.",
-        "Each marker is drawn in relation to a specific adnexal organ. This choice describes abdominal cavity ectopic sites.",
-        "The distal tubal marker follows the end of the drawn tube. The ovarian marker is inside the separately outlined ovary rather than on the tubal course. This choice describes a distal tubal (ampullary or fimbrial) ectopic pregnancy versus an ovarian pregnancy, which is what the image shows.",
-        "It is lateral to the uterus within the ovarian outline. This choice describes a medial ovarian site."
+        "The fimbria belongs to the tube, not the ovary.",
+        "The uterine wall relates to the interstitial segment, not the distal tube and ovary.",
+        "They can be distinguished by tracing the tube.",
+        "The uterine cavity is not where a tubal pregnancy sits.",
+        "Following the tube identifies the tubal site, and the ovary is a separate organ."
       ],
-      "explanation": "The distal tubal marker follows the end of the drawn tube. The ovarian marker is inside the separately outlined ovary rather than on the tubal course. Both ectopic sites are adnexal. Distal tubal implantation follows the end of the tube and ovarian implantation lies within the ovary. The uterine wall and cervix represent different implantation sites.",
+      "explanation": "Step 1. The distal tubal marker follows the course of the tube toward its fimbriated end, whereas the ovarian marker lies in the ovarian tissue itself. Step 2. Because more than 95 percent of ectopic pregnancies are tubal, the distal tube is far more likely to be involved than the ovary, and anatomical tracing of the tube is how the surgeon tells them apart.",
       "visual_clues": [
         "The distal tubal marker follows the end of the drawn tube."
       ],
@@ -6885,7 +6894,8 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Ectopic pregnancy",
-      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery."
+      "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-intraductal-lesion-1",
