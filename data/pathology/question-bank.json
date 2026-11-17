@@ -11941,20 +11941,20 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which arrangement is visible in this cervical lesion?",
+      "stem": "What is the diagnosis, how does HPV cause it, and what is the next step after a visible lesion is found?",
       "options": [
-        "Irregular epithelial nests separated by pink stromal tissue",
-        "A single flat surface lining without stromal epithelial groups",
-        "Rounded normal thyroid follicles filled with colloid",
-        "A uniform field of mature adipocytes"
+        "Endometrioid carcinoma, in which HPV is not involved, and cytology alone is sufficient",
+        "Adenocarcinoma, in which E6 binds Rb and E7 degrades p53, and cytology alone is sufficient",
+        "Mucinous cystadenoma, in which E6 is lost, and surgery is not needed",
+        "Squamous cell carcinoma, in which E6 degrades p53 and E7 binds Rb, and a visible lesion needs biopsy rather than only cytology"
       ],
-      "correct_index": 0,
-      "explanation": "Crowded atypical epithelial groups occupy irregular nests with pink connective tissue between them. Separate atypical epithelial groups lie within supporting tissue beneath the surface.",
+      "correct_index": 3,
+      "explanation": "Step 1. Invasive irregular nests of atypical epithelium in the cervix with HPV 16 point to squamous cell carcinoma, the most common type, whereas adenocarcinoma is rising and linked to HPV 18. Step 2. HPV E6 binds p53 causing degradation and E7 binds Rb releasing E2F, so persistent infection drives cancer, and a visible cervical lesion needs a biopsy, not just a Pap test.",
       "choice_rationales": [
-        "Crowded atypical epithelial groups occupy irregular nests with pink connective tissue between them. This choice describes invasive carcinoma of the cervix, which is what the image shows.",
-        "Separate atypical epithelial groups lie within supporting tissue beneath the surface. This choice describes a normal surface lining.",
-        "The groups are irregular nests without round colloid-filled follicles. This choice describes struma.",
-        "Pink stroma separates solid epithelial nests rather than mature fat cells. This choice describes fat."
+        "Endometrioid carcinoma is uterine, and persistent HPV is the main cause of cervical cancer.",
+        "The roles of E6 and E7 are reversed in this option, and adenocarcinoma is linked to HPV 18.",
+        "Mucinous cystadenoma is an ovarian tumor.",
+        "E6 degrades p53, E7 binds Rb, and a visible lesion needs biopsy."
       ],
       "visual_clues": [
         "Crowded atypical epithelial groups occupy irregular nests with pink connective tissue between them.",
@@ -11964,7 +11964,7 @@
       "source_id": "s-1033d4cccd19a564579d",
       "source_group_id": "g-b8f9779996fa0bcb3dbd",
       "variant_id": "v-97a45e340151cbe668d1",
-      "tested_concept": "Cervical squamous carcinoma stromal nests",
+      "tested_concept": "What is the diagnosis, how does HPV cause it, and what is the next step after a visible lesion is found?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R28",
@@ -11985,26 +11985,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 44-year-old woman has a visible 4 cm friable cervical lesion. A biopsy shows irregular nests of atypical epithelial cells separated by pink stroma, and the cells are HPV 16 positive.",
+      "study_skill": "interpretation",
       "condition_name": "Cervical squamous cell carcinoma",
-      "condition_overview": "Cervical squamous cell carcinoma is the most common cervical cancer and arises from persistently infected high-risk HPV lesions at the transformation zone through HSIL. Nests of malignant squamous cells with keratin pearls and intercellular bridges invade the cervical stroma. It presents with postcoital or abnormal bleeding, or may be found by screening. Staging uses tumor size, parametrial, pelvic wall, and nodal spread. Advanced disease can obstruct the ureters and cause hydronephrosis and renal failure, which is a major cause of death. Treatment is surgery for early disease and chemoradiation with brachytherapy for advanced disease."
+      "condition_overview": "Cervical squamous cell carcinoma is the most common cervical cancer and arises from persistently infected high-risk HPV lesions at the transformation zone through HSIL. Nests of malignant squamous cells with keratin pearls and intercellular bridges invade the cervical stroma. It presents with postcoital or abnormal bleeding, or may be found by screening. Staging uses tumor size, parametrial, pelvic wall, and nodal spread. Advanced disease can obstruct the ureters and cause hydronephrosis and renal failure, which is a major cause of death. Treatment is surgery for early disease and chemoradiation with brachytherapy for advanced disease.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "How does the distribution of dark atypical cells differ between the two middle drawings?",
+      "stem": "How do the two areas differ in classification and management?",
       "options": [
-        "Both middle panels depict the same distribution",
-        "The LSIL and HSIL panels show cells entirely below the epithelial boundary",
-        "Atypia is concentrated lower in LSIL and extends higher through HSIL",
-        "Atypia is limited to the very top in HSIL and fills the entire LSIL panel"
+        "The lower third is LSIL (CIN 1), which usually regresses, and the full thickness is HSIL (CIN 2/3), which is treated or closely followed",
+        "Both are LSIL, which is observed only",
+        "The lower third is HSIL, which is always treated, and the full thickness is LSIL, which regresses",
+        "Both are invasive carcinoma, which needs hysterectomy"
       ],
-      "correct_index": 2,
-      "explanation": "Dark cells occupy a lower portion in the LSIL drawing and extend farther upward in HSIL. Both middle panels show atypia above the epithelial boundary.",
+      "correct_index": 0,
+      "explanation": "Step 1. Atypia confined to the lower epithelium is LSIL (CIN 1), and atypia extending higher through the epithelium is HSIL (CIN 2/3). Step 2. LSIL usually regresses, while HSIL is treated (LEEP or cold knife cone) or closely followed, because persistent HPV infection leads to progression.",
       "choice_rationales": [
-        "Dark atypical nuclei extend farther toward the surface in HSIL. This choice describes identical LSIL and HSIL.",
-        "Both middle panels show atypia above the epithelial boundary. This choice describes atypia below the basement membrane.",
-        "Dark cells occupy a lower portion in the LSIL drawing and extend farther upward in HSIL. This choice describes LSIL with lower-third atypia and HSIL with atypia extending higher, which is what the image shows.",
-        "The lower concentration belongs to LSIL; HSIL shows extension into upper layers. This choice describes reversal of the LSIL and HSIL patterns."
+        "LSIL is CIN 1 and often regresses, and HSIL is CIN 2/3 and needs treatment.",
+        "The second area shows deeper atypia, which is HSIL.",
+        "The grades are reversed in this option.",
+        "Invasive carcinoma requires crossing the basement membrane, which is not described."
       ],
       "visual_clues": [
         "Dark cells occupy a lower portion in the LSIL drawing and extend farther upward in HSIL.",
@@ -12014,7 +12015,7 @@
       "source_id": "s-fdbb23358a48f2961716",
       "source_group_id": "g-bab9287e338249443539",
       "variant_id": "v-2071b4349b140ffde5ea",
-      "tested_concept": "Cervical dysplasia diagram atypia depth",
+      "tested_concept": "How do the two areas differ in classification and management?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R28",
@@ -12035,26 +12036,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 31-year-old woman has a Pap smear read as abnormal. Biopsy shows atypical cells confined to the lower third of the epithelium in one area and atypical cells extending through most of the thickness in another area.",
+      "study_skill": "interpretation",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
-      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma."
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Compare the two reagent views. Which change is visible at the arrow in the acetic acid view?",
+      "stem": "What do the two reagent responses indicate about the cells?",
       "options": [
-        "An open cavity full of translucent vesicles",
-        "A pale whitish area in the cervical surface",
-        "A dark brown surrounding region only",
-        "A black intravascular clot"
+        "Acetic acid stains abnormal cells brown, and iodine whitens normal cells",
+        "Acetic acid whitens normal cells, and iodine stains abnormal cells brown",
+        "Acetic acid whitens abnormal cells with more nuclear protein, and iodine does not stain them because they have less glycogen",
+        "Acetic acid dissolves glycogen, and iodine stains normal cells yellow"
       ],
-      "correct_index": 1,
-      "explanation": "The right-hand arrow points to a pale whitish surface area. The arrow points to whitening of the surface rather than an open cavity.",
+      "correct_index": 2,
+      "explanation": "Step 1. A white area after acetic acid is acetowhite, and a yellow non-staining area after Lugol iodine is iodine negative. Step 2. Acetic acid dehydrates cells so abnormal cells with more nuclear protein turn white, while iodine is taken up by glycogen and abnormal cells have less glycogen, so the area biopsy should be directed to these dysplastic zones.",
       "choice_rationales": [
-        "The arrow points to whitening of the surface rather than an open cavity. This choice describes hydatidiform mole.",
-        "The right-hand arrow points to a pale whitish surface area. This choice describes an acetowhite epithelial change in the cervix (CIN), which is what the image shows.",
-        "The marked area is lighter after acetic acid, not darker. This choice describes a pigmented region (Schiller-positive iodine staining).",
-        "The change is superficial mucosal whitening without a vessel or clot. This choice describes an intravascular clot."
+        "Acetic acid does not stain cells brown.",
+        "Normal cells do not turn acetowhite, and iodine stains normal glycogen-rich cells brown.",
+        "Abnormal cells are acetowhite and lack glycogen so they do not stain with iodine.",
+        "Acetic acid does not dissolve glycogen, and iodine stains glycogen."
       ],
       "visual_clues": [
         "The right-hand arrow points to a pale whitish surface area.",
@@ -12064,7 +12066,7 @@
       "source_id": "s-c4d527ae653696620775",
       "source_group_id": "g-64ac4fad8292f8f592e0",
       "variant_id": "v-08705f18d32a26f237ab",
-      "tested_concept": "Colposcopy two reagent visual comparison",
+      "tested_concept": "What do the two reagent responses indicate about the cells?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R28",
@@ -12085,26 +12087,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 29-year-old woman has an abnormal Pap smear. At colposcopy, application of vinegar causes a pale white patch on the cervical surface. Application of iodine leaves the same area yellow and non-staining.",
+      "study_skill": "interpretation",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
-      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma."
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which feature is visible within the pink squamous epithelium in this supplied vulvar lesion?",
+      "stem": "What is the diagnosis, and what is the appropriate management and workup?",
       "options": [
-        "A sheet of bland spindle cells filling the deep dermis layer",
-        "A single dilated gland full of red blood cells",
-        "Many dark lymphocytes limited to a blood vessel",
-        "Scattered larger pale cells among darker keratinocytes"
+        "Lichen sclerosus, treated by chemotherapy",
+        "Vulvar Paget disease, treated by wide local excision with screening for underlying and other cancers such as with colonoscopy",
+        "Bartholin gland carcinoma, treated by imiquimod only",
+        "Squamous cell carcinoma, treated by observation only"
       ],
-      "correct_index": 3,
-      "explanation": "Large pale cell profiles interrupt the otherwise darker squamous epithelial population. Multiple atypical cells are dispersed within epidermis rather than lining one blood-filled gland.",
+      "correct_index": 1,
+      "explanation": "Step 1. Large pale cells scattered within the epidermis in an older woman are extramammary Paget disease of the vulva, usually in situ. Step 2. Treatment is wide local excision for non-invasive disease (topical imiquimod is an alternative), margins are often positive with recurrence up to 60 percent, 10 to 20 percent have underlying invasive disease, and patients are screened for other cancers (Pap, colonoscopy).",
       "choice_rationales": [
-        "The pale cells lie among keratinocytes above the dermis. This choice describes a dermal spindle cell tumor.",
-        "Multiple atypical cells are dispersed within epidermis rather than lining one blood-filled gland. This choice describes a hemangioma.",
-        "The large pale cells are in squamous epithelium, away from the vessel compartment. This choice describes a dermal lymphocytic infiltrate.",
-        "Large pale cell profiles interrupt the otherwise darker squamous epithelial population. This choice describes extramammary Paget disease, which is what the image shows."
+        "Lichen sclerosus is not treated with chemotherapy and is a risk for differentiated VIN.",
+        "Vulvar Paget disease is excised widely and the patient is screened for associated cancers.",
+        "Bartholin gland carcinoma is a separate tumor and is not treated only with imiquimod.",
+        "Squamous cell carcinoma shows keratinocyte atypia and not scattered pale cells."
       ],
       "visual_clues": [
         "Large pale cell profiles interrupt the otherwise darker squamous epithelial population.",
@@ -12114,7 +12117,7 @@
       "source_id": "s-0a65774416015f5fac0d",
       "source_group_id": "g-ca73f0b69861219f0bd8",
       "variant_id": "v-180c27e05a13210672b7",
-      "tested_concept": "Vulvar Paget pale epidermal cells",
+      "tested_concept": "What is the diagnosis, and what is the appropriate management and workup?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R28",
@@ -12135,10 +12138,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 72-year-old postmenopausal white woman has chronic vulvar itching and a red eczematous plaque. Biopsy shows large pale cells scattered singly among the darker keratinocytes of the epidermis.",
+      "study_skill": "interpretation",
       "condition_name": "Extramammary Paget disease",
-      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision."
+      "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which embryologic failure explains the uterus, and which renal anomaly is typically associated?",
@@ -16953,7 +16957,7 @@
       "asset_id": "a-e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35",
       "variant_id": "v-aca1bd8951bc84d81d3c",
       "question_type": "Visual interpretation",
-      "tested_concept": "Pleural fluid cytology and nuclear atypia",
+      "tested_concept": "What does the cytology indicate, and which next step would help identify the primary site?",
       "visual_target": "Pleural fluid cytology and nuclear atypia",
       "category": "Cytology",
       "collection": "R29",
@@ -16962,21 +16966,21 @@
       "zoom_image": "assets/zoom/de2a24c04bcbcbaa318afe9a04ffc61f8ae0611c13201e394e929f78c0d0edb8.webp",
       "original_image": "assets/zoom/de2a24c04bcbcbaa318afe9a04ffc61f8ae0611c13201e394e929f78c0d0edb8.webp",
       "original_filename": "Case 1 Pleural Fluid Cytology A - Histology.png",
-      "stem": "Which finding distinguishes the larger cells from the smaller background cells?",
+      "stem": "What does the cytology indicate, and which next step would help identify the primary site?",
       "options": [
-        "High nuclear-to-cytoplasmic ratios with prominent nucleoli",
-        "Uniform small round nuclei with fine chromatin",
-        "Abundant cytoplasm surrounding tiny bland nuclei",
-        "Small eccentric nuclei without distinct nucleoli"
+        "A benign infection, and antibiotics only",
+        "A normal effusion, and no further evaluation",
+        "A malignant effusion, and a pelvic and abdominal evaluation for ovarian carcinoma, which commonly spreads to the peritoneum",
+        "A lymphoma only, and no pelvic evaluation"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "The larger nuclei occupy much of the cell and several have prominent nucleoli. This choice describes high-grade malignant epithelial cells, which is what the image shows.",
-        "Small uniform nuclei belong to the background population, rather than the larger cells that have distinct nucleoli. This choice describes benign small round cells.",
-        "A tiny bland nucleus with abundant cytoplasm would lower the nuclear-to-cytoplasmic ratio. Here the nuclei take up a large fraction of the larger cells. This choice describes abundant cytoplasm in benign cells.",
-        "The abnormal population has enlarged nuclei with conspicuous nucleoli. Small eccentric nuclei without visible nucleoli would not account for that finding. This choice describes plasma-like cells."
+        "Infection would show inflammatory cells, not atypical cells.",
+        "Atypical cells with high N:C ratio are not normal.",
+        "A malignant effusion needs a search for the primary, such as ovarian carcinoma.",
+        "Lymphoma is not the only possibility and a pelvic exam is still needed."
       ],
-      "explanation": "Use the small background cells as an internal size reference. The prominent nucleoli and enlarged nuclei support cytologic atypia, but pleural fluid morphology alone does not establish a primary tumor site.",
+      "explanation": "Step 1. Cells larger than the background cells with high N:C ratio and prominent nucleoli are atypical malignant cells, so the effusion is malignant. Step 2. Cytology alone does not establish the primary site, so additional studies and imaging are needed, and bloating plus effusions in an older woman raises concern for high-grade serous ovarian carcinoma, which spreads to the peritoneum and omentum.",
       "visual_clues": [
         "Compare a large atypical nucleus with the small dark nuclei nearby."
       ],
@@ -17001,7 +17005,7 @@
           "page": 3
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 30,
@@ -17010,7 +17014,9 @@
         }
       ],
       "condition_name": "Malignant pleural effusion",
-      "condition_overview": "A malignant pleural effusion is pleural fluid containing cancer cells and is a common sign of advanced malignancy, such as lung, breast, ovarian, or other metastatic carcinoma, or mesothelioma. Malignant cells have a high nuclear-to-cytoplasmic ratio, irregular nuclei with prominent nucleoli, and form clusters or papillary groups. Cytology can confirm malignancy, but the primary site often needs immunostains such as CK7, PAX8, calretinin, and CDX2. Drainage and pleurodesis relieve symptoms."
+      "condition_overview": "A malignant pleural effusion is pleural fluid containing cancer cells and is a common sign of advanced malignancy, such as lung, breast, ovarian, or other metastatic carcinoma, or mesothelioma. Malignant cells have a high nuclear-to-cytoplasmic ratio, irregular nuclei with prominent nucleoli, and form clusters or papillary groups. Cytology can confirm malignancy, but the primary site often needs immunostains such as CK7, PAX8, calretinin, and CDX2. Drainage and pleurodesis relieve symptoms.",
+      "case_context": "A 66-year-old obese woman has progressive dyspnea and abdominal bloating. Chest X-ray shows bilateral pleural effusions. Thoracentesis of 500 mL of turbid fluid shows large cells with high nuclear to cytoplasmic ratios and prominent nucleoli next to small background cells.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-vag-high",
@@ -17019,7 +17025,7 @@
       "asset_id": "a-a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08",
       "variant_id": "v-ce9c6f09059c7f84fd14",
       "question_type": "Visual interpretation",
-      "tested_concept": "Glandular lining and stroma in a vaginal biopsy",
+      "tested_concept": "What is the diagnosis, and how could it explain the pneumothoraces?",
       "visual_target": "Glandular lining and stroma in a vaginal biopsy",
       "category": "Histology",
       "collection": "R29",
@@ -17028,21 +17034,21 @@
       "zoom_image": "assets/zoom/71a8b7c585783ee1f3326c75bf7742eedd7a98f952508e781c74ed140f75db1d.webp",
       "original_image": "assets/zoom/71a8b7c585783ee1f3326c75bf7742eedd7a98f952508e781c74ed140f75db1d.webp",
       "original_filename": "Case 3 Vaginal Biopsy High Power - Histology.png",
-      "stem": "Which pair of findings is best seen around the irregular lumen?",
+      "stem": "What is the diagnosis, and how could it explain the pneumothoraces?",
       "options": [
-        "Columnar glandular lining with adjacent spindle-cell stroma",
-        "Squamous keratin pearls in dense fibrous tissue",
-        "Vascular endothelium surrounding a solid thrombus",
-        "An unlined tissue cleft containing only blood and fibrin"
+        "Endometriosis, which is endometrial-type glands and stroma in an extrauterine site that undergoes cyclic changes, possibly including thoracic involvement",
+        "Adenomyosis, which is endometrial tissue within the myometrium and cannot involve the chest",
+        "A Bartholin cyst, which is a cyst of the labia that causes pneumothorax",
+        "Vaginal adenocarcinoma, which is endometrial tissue within the myometrium"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Columnar epithelium lines the irregular lumen, with surrounding spindle-cell stroma and hemorrhage. In the vaginal location, the guide identifies this as ectopic endometrial tissue. This choice describes an endometrial gland with stroma, which is what the image shows.",
-        "The dark cells form a columnar lining around an open lumen. This choice describes squamous cell carcinoma.",
-        "The prominent lining is glandular columnar epithelium. This choice describes a thrombus.",
-        "A distinct dark epithelial lining is visible. This choice describes a tissue cleft or artifact."
+        "Endometriosis is extrauterine functioning endometrium, which may explain the recurrent pneumothorax.",
+        "Adenomyosis is confined within the myometrium and is not vaginal.",
+        "A Bartholin cyst does not explain a pneumothorax.",
+        "Adenocarcinoma would show invasion and not endometrial stroma."
       ],
-      "explanation": "Columnar epithelium lines the irregular lumen, with surrounding spindle-cell stroma and hemorrhage. In the vaginal location, the guide identifies this as ectopic endometrial tissue. The dark cells form a columnar lining around an open lumen.",
+      "explanation": "Step 1. Endometrial-type glands with endometrial stroma and hemorrhage at an extrauterine site are endometriosis, which causes dysmenorrhea, pelvic pain, and infertility in reproductive age women. Step 2. Because the tissue is functioning endometrium with cyclic changes and may occur outside the pelvis, thoracic endometriosis is a recognized explanation for recurrent pneumothorax, linked here to her cycles.",
       "visual_clues": [
         "Look for a dark epithelial lining and a separate cuff of spindle cells."
       ],
@@ -17071,9 +17077,11 @@
           "page": 8
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "case_context": "A 25-year-old woman has painful periods and painful intercourse. Pelvic exam shows several discrete blue-colored areas on the vaginal mucosa. Biopsy shows an irregular lumen lined by columnar epithelium with surrounding spindle-cell stroma and hemorrhage. She had two prior pneumothoraces.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-prostate-high",
@@ -17082,7 +17090,7 @@
       "asset_id": "a-f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca",
       "variant_id": "v-2b04a65539dc0ffea8eb",
       "question_type": "Visual interpretation",
-      "tested_concept": "Focal crowded glands in a prostate resection",
+      "tested_concept": "What is the diagnosis, and which stain would help confirm the focus?",
       "visual_target": "Focal crowded glands in a prostate resection",
       "category": "Histology",
       "collection": "R29",
@@ -17091,21 +17099,21 @@
       "zoom_image": "assets/zoom/1eabb2ade3d312238d8e992285b32a93691887d192b37045895cff4dbc2806ff.webp",
       "original_image": "assets/zoom/1eabb2ade3d312238d8e992285b32a93691887d192b37045895cff4dbc2806ff.webp",
       "original_filename": "Case 4 Prostate High Power - Histology.png",
-      "stem": "Which contrast in gland architecture is described by this field?",
+      "stem": "What is the diagnosis, and which stain would help confirm the focus?",
       "options": [
-        "Uniformly dilated glands with prominent folds throughout the field",
-        "A diffuse solid sheet without gland formation",
-        "Focally crowded small glands with less apparent dual layering",
-        "A simple empty cyst lined by one flat layer"
+        "Prostatitis, and p63 to show neutrophils",
+        "Benign prostatic hyperplasia only, and p63 to show extra basal cells",
+        "Seminoma, and p63 to show clear cells",
+        "Benign prostatic hyperplasia with a focus of adenocarcinoma, and a basal cell marker such as p63 to show loss of basal cells"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "This pattern is more evident in the low-power hyperplastic field. This choice describes dilated glands in cystic hyperplasia.",
-        "Multiple compact glands retain recognizable lumens. This choice describes a solid carcinoma.",
-        "Small compact glands on the left show less apparent dual layering than glands on the right. The guide interprets the two fields together as hyperplasia with a focus of prostatic adenocarcinoma and discusses basal cell staining as an adjunct. This choice describes focal prostatic adenocarcinoma (loss of dual layering), which is what the image shows.",
-        "There are numerous small gland profiles in a stromal background. This choice describes a simple cyst."
+        "Prostatitis is inflammatory and p63 does not mark neutrophils.",
+        "Extra basal cells are not expected in carcinoma.",
+        "Seminoma is a testicular tumor.",
+        "Loss of p63 positive basal cells in the focus supports carcinoma."
       ],
-      "explanation": "Small compact glands on the left show less apparent dual layering than glands on the right. The guide interprets the two fields together as hyperplasia with a focus of prostatic adenocarcinoma and discusses basal cell staining as an adjunct. Multiple compact glands retain recognizable lumens.",
+      "explanation": "Step 1. Hyperplastic glands with a small crowded focus lacking a clear basal layer indicate BPH with a focus of adenocarcinoma. Step 2. Benign glands have basal cells highlighted by p63 and carcinoma loses them, so p63 immunostaining supports the diagnosis, and management ranges from surveillance to surgery or radiation depending on grade (Gleason) and stage.",
       "visual_clues": [
         "Compare the crowded left-sided profiles with glands that retain an apparent outer layer."
       ],
@@ -17134,9 +17142,11 @@
           "page": 10
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "case_context": "A 75-year-old diabetic man with obstructive urinary symptoms and a PSA of 6 ng/mL has a TURP that did not respond to prior medical therapy. Sections show hyperplastic glands with branching lumina and, in one focus, small compact glands with less apparent basal layering.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-bladder-a",
@@ -17145,7 +17155,7 @@
       "asset_id": "a-16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935",
       "variant_id": "v-9d5cac35afc6a3b7ad64",
       "question_type": "Visual interpretation",
-      "tested_concept": "Bladder biopsy and muscle invasion",
+      "tested_concept": "What is the diagnosis, and which risk factors are relevant?",
       "visual_target": "Bladder biopsy and muscle invasion",
       "category": "Histology",
       "collection": "R29",
@@ -17154,21 +17164,21 @@
       "zoom_image": "assets/zoom/5f5e7deb925a40229470912a84ddb6466ea8e045b1ac63595ae49b5172fafba4.webp",
       "original_image": "assets/zoom/5f5e7deb925a40229470912a84ddb6466ea8e045b1ac63595ae49b5172fafba4.webp",
       "original_filename": "Case 5 Bladder Biopsy 1 - Histology.png",
-      "stem": "Which relationship between the dark cells and pink tissue is visible?",
+      "stem": "What is the diagnosis, and which risk factors are relevant?",
       "options": [
-        "Atypical cells infiltrate among muscle bundles",
-        "The atypical cells stay entirely on the mucosal surface",
-        "The muscle is separated from the tumor by a clean plane",
-        "Only acellular debris lies between the bundles"
+        "Squamous metaplasia, with risk from analgesic abuse only",
+        "Invasive urothelial carcinoma into the detrusor muscle, with risk factors including cigarette smoking, aniline dye exposure, cyclophosphamide, and analgesic abuse",
+        "Adenocarcinoma, with risk from smoking only",
+        "Papilloma, with no known risk factors"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "choice_rationales": [
-        "Atypical cells infiltrate between broad pink muscle bundles. The follow-up guide identifies invasion of the bladder muscle layer in these biopsy fields. This choice describes invasive carcinoma into muscle, which is what the image shows.",
-        "Atypical cells are intermixed with deeper wall tissue. This choice describes carcinoma confined to the mucosa.",
-        "Dark cells extend between the bundles. This choice describes a tumor separated from muscle.",
-        "The dark infiltrate contains many discernible nuclei. This choice describes necrotic debris."
+        "Squamous metaplasia is not the same as invasion between muscle bundles.",
+        "Invasive urothelial carcinoma has the listed risk factors and invades muscle.",
+        "Adenocarcinoma of the bladder is rare compared with urothelial carcinoma.",
+        "A papilloma is a benign papillary lesion."
       ],
-      "explanation": "Atypical cells infiltrate between broad pink muscle bundles. The follow-up guide identifies invasion of the bladder muscle layer in these biopsy fields. Atypical cells are intermixed with deeper wall tissue.",
+      "explanation": "Step 1. Atypical cells infiltrating the muscle layer with painless hematuria are invasive urothelial carcinoma with detrusor invasion. Step 2. Risk factors include aniline dye, cigarette smoking, long-term cyclophosphamide, schistosomiasis, and analgesic abuse, and it more often occurs in men over 50.",
       "visual_clues": [
         "Follow the pink bundles and look for dark tumor cells between them."
       ],
@@ -17197,9 +17207,11 @@
           "page": 12
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "case_context": "A 65-year-old man with recurrent urinary infections due to BPH has had gross hematuria for one week. Urine cytology shows atypical cells. Cystoscopic biopsy shows atypical cells infiltrating between broad bundles of smooth muscle.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-curves",
