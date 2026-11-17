@@ -27742,6 +27742,1014 @@
       "condition_name": "Mucinous cystadenocarcinoma vs Serous carcinoma of the ovary",
       "condition_overview": "Mucinous cystadenocarcinoma (image A). Mucinous cystadenocarcinoma is a malignant ovarian epithelial tumor with a mixed solid and cystic cut surface. Complex crowded glands and papillae are lined by atypical mucin-secreting cells and invade the stroma. Ovarian mucinous tumors are often metastatic from the gastrointestinal tract, so a bilateral or small tumor should prompt a search for a primary elsewhere. Treatment is surgery and chemotherapy. Serous carcinoma of the ovary (image B). Serous carcinoma, particularly high-grade serous carcinoma, is the most common and deadly ovarian cancer and is thought to arise commonly from serous tubal intraepithelial carcinoma in the fallopian tube fimbria. Papillary and solid sheets of markedly atypical cells invade stroma, with slitlike spaces and psammoma bodies (concentric laminated calcifications). TP53 mutation gives an aberrant p53 pattern, and BRCA1 or BRCA2 mutations are associated. Patients present late with ascites and omental metastasis, and CA-125 is elevated. Treatment is surgery with platinum chemotherapy, and PARP inhibitor maintenance is used in BRCA or HRD-deficient cases.",
       "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A has marked nuclear pleomorphism with disordered polarity, while B has delicate fronds with fibrovascular cores covered by orderly urothelium of normal thickness without atypia",
+        "A has delicate fronds with fibrovascular cores covered by orderly urothelium of normal thickness without atypia, while B has marked nuclear pleomorphism with disordered polarity",
+        "A has delicate fronds covered by normal-appearing urothelium and is treated with BCG, while B has marked nuclear pleomorphism and is cured by endoscopic resection",
+        "A has delicate fronds covered by orderly urothelium and a high recurrence rate, while B has marked nuclear pleomorphism and rarely invades the muscle wall"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. A shows branching vascular cores covered by an orderly urothelial lining, a urothelial papilloma. B shows crowded nuclei of markedly varying size and shape with disordered orientation, a high-grade papillary urothelial carcinoma. Step 2. Urothelial papilloma is a rare benign tumor of younger patients with a low recurrence rate that is cured by endoscopic resection. High-grade papillary carcinoma can invade the muscle wall and metastasize.",
+      "choice_rationales": [
+        "This reverses the tumors. Marked pleomorphism with disordered polarity defines the high-grade carcinoma in B.",
+        "Correct. The papilloma in A has orderly urothelium without atypia, and the high-grade papillary carcinoma in B has marked pleomorphism and disordered polarity.",
+        "Papilloma is cured by endoscopic resection, and BCG is used for high-risk non-muscle-invasive carcinoma, so this option swaps the treatments.",
+        "Papilloma has a low recurrence rate, and high-grade carcinoma can invade the muscle wall, so both statements here are wrong."
+      ],
+      "question_id": "q-compare-pap-a",
+      "source_id": "s-29da3863936eaa3c7cc3",
+      "source_group_id": "g-0a37c5ef731a9e54d89d",
+      "variant_id": "v-f9a85ac21317e2604aa2",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Urothelial papilloma versus Papillary urothelial carcinoma",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/da6cdc256efdc7d920ea9fd411ebf9a49ba3277c60fffe9ee034fcde4ffe7df6.webp",
+      "zoom_image": "assets/zoom/da6cdc256efdc7d920ea9fd411ebf9a49ba3277c60fffe9ee034fcde4ffe7df6.webp",
+      "original_image": "assets/zoom/da6cdc256efdc7d920ea9fd411ebf9a49ba3277c60fffe9ee034fcde4ffe7df6.webp",
+      "original_filename": "Compare/Urothelial papilloma vs Papillary urothelial carcinoma - Comparison.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 29
+        }
+      ],
+      "visual_clues": [
+        "A shows branching vascular cores covered by an orderly urothelial lining, a urothelial papilloma.",
+        "B shows crowded nuclei of markedly varying size and shape with disordered orientation, a high-grade papillary urothelial carcinoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two patients have exophytic bladder tumors found at cystoscopy. The first is 28 years old. The second is a 67-year-old smoker with painless hematuria. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Urothelial papilloma vs Papillary urothelial carcinoma",
+      "condition_overview": "Urothelial papilloma (image A). Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative. Papillary urothelial carcinoma (image B). Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement is true of the tumor in B but not the tumor in A?",
+      "options": [
+        "High-grade examples can invade the muscle wall and metastasize despite transurethral resection",
+        "Marked nuclear pleomorphism, mitoses, and disordered polarity are present, often with necrosis",
+        "Smoking and certain chemicals are major risk factors, and BCG is used for high-risk non-muscle-invasive disease",
+        "It occurs in younger patients, has a low recurrence rate, and is cured by endoscopic resection"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. B shows branching vascular cores covered by orderly urothelium, a urothelial papilloma. A shows crowded pleomorphic nuclei with disordered orientation, a high-grade papillary urothelial carcinoma. Step 2. Urothelial papilloma is a rare benign tumor of younger patients with delicate fronds, no atypia, a low recurrence rate, and cure by endoscopic resection.",
+      "choice_rationales": [
+        "Muscle invasion and metastasis describe the high-grade carcinoma in A.",
+        "Marked pleomorphism with necrosis describes the high-grade carcinoma in A.",
+        "Smoking, chemical exposure, and BCG for high-risk disease describe papillary carcinoma in A.",
+        "Correct. A benign tumor of younger patients with low recurrence and cure by endoscopic resection is the papilloma in B."
+      ],
+      "question_id": "q-compare-pap-b",
+      "source_id": "s-a38105fd7de48b4513d7",
+      "source_group_id": "g-bbef1c22827dd7de2722",
+      "variant_id": "v-df9d797b0266adc5a242",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Papillary urothelial carcinoma versus Urothelial papilloma",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/7b905f5f90d67c1e4817b0e036af406eb34b8cfaa7e1c6367109c5c450044afe.webp",
+      "zoom_image": "assets/zoom/7b905f5f90d67c1e4817b0e036af406eb34b8cfaa7e1c6367109c5c450044afe.webp",
+      "original_image": "assets/zoom/7b905f5f90d67c1e4817b0e036af406eb34b8cfaa7e1c6367109c5c450044afe.webp",
+      "original_filename": "Compare/Papillary urothelial carcinoma vs Urothelial papilloma - Comparison.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 29
+        },
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 25
+        }
+      ],
+      "visual_clues": [
+        "B shows branching vascular cores covered by orderly urothelium, a urothelial papilloma.",
+        "A shows crowded pleomorphic nuclei with disordered orientation, a high-grade papillary urothelial carcinoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 67-year-old smoker with painless hematuria and a 27-year-old man each have an exophytic bladder tumor. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Papillary urothelial carcinoma vs Urothelial papilloma",
+      "condition_overview": "Papillary urothelial carcinoma (image A). Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease. Urothelial papilloma (image B). Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A has squamous cells coated by coccobacilli that obscure their borders, while B has abundant lactobacilli, naked nuclei, and debris without inflammation or clue cells",
+        "A has abundant lactobacilli, naked nuclei, and debris without inflammation or clue cells, while B has squamous cells coated by coccobacilli that obscure their borders",
+        "A has squamous cells coated by coccobacilli and is treated with sodium bicarbonate sitz baths, while B has naked nuclei and is treated with metronidazole",
+        "A has clue cells and is caused by excess lactobacilli, while B has naked nuclei and is caused by anaerobic overgrowth"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A shows a squamous cell with a stippled coat of fine bacterial forms, a clue cell of bacterial vaginosis. B shows slender rods among free nuclei with scant cytoplasm, cytolytic vaginosis. Step 2. Bacterial vaginosis is an anaerobic overgrowth with an elevated pH, treated with metronidazole or clindamycin. Cytolytic vaginosis is a noninfectious excess of lactobacilli that lowers pH and lyses cells.",
+      "choice_rationales": [
+        "Correct. Bacterial vaginosis in A has clue cells coated by coccobacilli, and cytolytic vaginosis in B has lactobacilli and naked nuclei without clue cells.",
+        "This reverses the conditions. Coccobacilli coating squamous cells define the clue cell of bacterial vaginosis in A.",
+        "Metronidazole treats bacterial vaginosis, and sodium bicarbonate sitz baths reduce acidity in cytolytic vaginosis, so the treatments are swapped.",
+        "Bacterial vaginosis is an anaerobic overgrowth, and cytolytic vaginosis is caused by excess lactobacilli, so the causes are swapped."
+      ],
+      "question_id": "q-compare-vag-a",
+      "source_id": "s-2b007885f97545cf25d2",
+      "source_group_id": "g-894ce177b916198bf988",
+      "variant_id": "v-68e8f471c9fa6be20958",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Bacterial vaginosis versus Cytolytic vaginosis",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/97267deda6b955b486e8a8562f41337f94d6fd3253f31a38998ef860c1064f42.webp",
+      "zoom_image": "assets/zoom/97267deda6b955b486e8a8562f41337f94d6fd3253f31a38998ef860c1064f42.webp",
+      "original_image": "assets/zoom/97267deda6b955b486e8a8562f41337f94d6fd3253f31a38998ef860c1064f42.webp",
+      "original_filename": "Compare/Bacterial vaginosis vs Cytolytic vaginosis - Comparison.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 16
+        }
+      ],
+      "visual_clues": [
+        "A shows a squamous cell with a stippled coat of fine bacterial forms, a clue cell of bacterial vaginosis.",
+        "B shows slender rods among free nuclei with scant cytoplasm, cytolytic vaginosis."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two women have vaginal discharge and itching. The first has a thin gray, fishy-smelling discharge with an elevated vaginal pH. The second has itching and burning that is worse before menses and mimics candidiasis. Smears from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Bacterial vaginosis vs Cytolytic vaginosis",
+      "condition_overview": "Bacterial vaginosis (image A). Bacterial vaginosis is a shift from lactobacillus-dominant vaginal flora to an overgrowth of anaerobic bacteria such as Gardnerella vaginalis. It causes a thin gray, fishy-smelling discharge with an elevated vaginal pH but little true inflammation. The characteristic cytology is the clue cell, a squamous cell whose surface and borders are obscured by a stippled coat of coccobacilli, often with few lymphocytes and few neutrophils. It increases the risk of preterm birth and pelvic infection and is treated with metronidazole or clindamycin. Cytolytic vaginosis (image B). Cytolytic vaginosis is a noninfectious vaginal condition in which excess lactobacilli lower the vaginal pH, causing lysis of superficial squamous cells. It gives itching, burning, and discharge that can mimic candidiasis, often worse before menses. Smears show abundant lactobacilli, naked nuclei, and cellular debris but no inflammation, hyphae, or clue cells. Treatment is to reduce acidity, for example with sodium bicarbonate sitz baths.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which finding is expected in the condition in B but not the condition in A?",
+      "options": [
+        "Naked nuclei and cellular debris from lysis of superficial squamous cells",
+        "Excess lactobacilli that lower the vaginal pH and mimic candidiasis",
+        "Clue cells with an elevated vaginal pH and an increased risk of preterm birth",
+        "Treatment with sodium bicarbonate sitz baths to reduce acidity"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. B shows a squamous cell with a stippled coat of fine bacterial forms, a clue cell of bacterial vaginosis. A shows slender rods among free nuclei, cytolytic vaginosis. Step 2. Bacterial vaginosis is an anaerobic overgrowth with an elevated pH, little inflammation, a risk of preterm birth and pelvic infection, and treatment with metronidazole or clindamycin.",
+      "choice_rationales": [
+        "Naked nuclei and debris from cell lysis describe cytolytic vaginosis in A.",
+        "Excess lactobacilli lowering the pH describe cytolytic vaginosis in A.",
+        "Correct. Clue cells with an elevated pH and preterm birth risk describe bacterial vaginosis in B.",
+        "Sodium bicarbonate sitz baths treat cytolytic vaginosis in A."
+      ],
+      "question_id": "q-compare-vag-b",
+      "source_id": "s-9c1cfc27aa1d09d2dfc0",
+      "source_group_id": "g-d90d86892a049e5980c0",
+      "variant_id": "v-1109a071b41e888194b5",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Cytolytic vaginosis versus Bacterial vaginosis",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/16e50e589cf1ccb5a232b893873c4e8b39f6163587dc34b25db6389865d9057b.webp",
+      "zoom_image": "assets/zoom/16e50e589cf1ccb5a232b893873c4e8b39f6163587dc34b25db6389865d9057b.webp",
+      "original_image": "assets/zoom/16e50e589cf1ccb5a232b893873c4e8b39f6163587dc34b25db6389865d9057b.webp",
+      "original_filename": "Compare/Cytolytic vaginosis vs Bacterial vaginosis - Comparison.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 16
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 20
+        }
+      ],
+      "visual_clues": [
+        "B shows a squamous cell with a stippled coat of fine bacterial forms, a clue cell of bacterial vaginosis.",
+        "A shows slender rods among free nuclei, cytolytic vaginosis."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with itching and burning worse before menses and a woman with a thin gray fishy-smelling discharge each have a vaginal smear. The smear from the first is shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Cytolytic vaginosis vs Bacterial vaginosis",
+      "condition_overview": "Cytolytic vaginosis (image A). Cytolytic vaginosis is a noninfectious vaginal condition in which excess lactobacilli lower the vaginal pH, causing lysis of superficial squamous cells. It gives itching, burning, and discharge that can mimic candidiasis, often worse before menses. Smears show abundant lactobacilli, naked nuclei, and cellular debris but no inflammation, hyphae, or clue cells. Treatment is to reduce acidity, for example with sodium bicarbonate sitz baths. Bacterial vaginosis (image B). Bacterial vaginosis is a shift from lactobacillus-dominant vaginal flora to an overgrowth of anaerobic bacteria such as Gardnerella vaginalis. It causes a thin gray, fishy-smelling discharge with an elevated vaginal pH but little true inflammation. The characteristic cytology is the clue cell, a squamous cell whose surface and borders are obscured by a stippled coat of coccobacilli, often with few lymphocytes and few neutrophils. It increases the risk of preterm birth and pelvic infection and is treated with metronidazole or clindamycin.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A has koilocytes with perinuclear halos in an acanthotic papillary epithelium, while B has enlarged multinucleated cells with molded nuclei and eosinophilic intranuclear inclusions",
+        "A has enlarged multinucleated cells with molded nuclei and is caused by HPV types 6 and 11, while B has koilocytes and is caused by herpes simplex virus",
+        "A has enlarged multinucleated cells with molded nuclei and eosinophilic intranuclear inclusions, while B has koilocytes with perinuclear halos in an acanthotic papillary epithelium",
+        "A has multinucleated cells with molded nuclei and is treated with cryotherapy or excision, while B has koilocytes and is treated with acyclovir-type antivirals"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. A shows enlarged cells with several nuclei molded against each other, herpes simplex virus infection. B shows enlarged irregular dark nuclei with perinuclear clearing, koilocytes of condyloma acuminatum. Step 2. HSV causes grouped vesicles, Cowdry A inclusions, and latency in sensory ganglia, and is treated with acyclovir-type antivirals. Condylomata come from HPV types 6 and 11 and are treated with topical agents, cryotherapy, or excision.",
+      "choice_rationales": [
+        "This reverses the infections. Molded multinucleated cells with inclusions define HSV in A.",
+        "HPV types 6 and 11 cause condylomata, and HSV causes the molded multinucleated cells, so the causes are swapped.",
+        "Correct. HSV in A has multinucleated molded cells with intranuclear inclusions, and condyloma in B has koilocytes with perinuclear halos.",
+        "Antivirals treat HSV and cryotherapy or excision treats condylomata, so the treatments are swapped."
+      ],
+      "question_id": "q-compare-hpv-a",
+      "source_id": "s-51d58e5f66058fe125f0",
+      "source_group_id": "g-d90f456139e957810459",
+      "variant_id": "v-c934d0a3c29dfc109268",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Herpes simplex virus infection versus Condylomata acuminata",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/7b04b8e16e37d8a63b1b6d935779f2c9ebbb3fcbba500a9b246ecbef5c8d6de8.webp",
+      "zoom_image": "assets/zoom/7b04b8e16e37d8a63b1b6d935779f2c9ebbb3fcbba500a9b246ecbef5c8d6de8.webp",
+      "original_image": "assets/zoom/7b04b8e16e37d8a63b1b6d935779f2c9ebbb3fcbba500a9b246ecbef5c8d6de8.webp",
+      "original_filename": "Compare/Herpes simplex virus infection vs Condylomata acuminata - Comparison.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 35
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 47
+        }
+      ],
+      "visual_clues": [
+        "A shows enlarged cells with several nuclei molded against each other, herpes simplex virus infection.",
+        "B shows enlarged irregular dark nuclei with perinuclear clearing, koilocytes of condyloma acuminatum."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two patients have genital lesions. The first has painful grouped vesicles that ruptured into shallow ulcers. The second has soft cauliflower-like exophytic lesions. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Herpes simplex virus infection vs Condylomata acuminata",
+      "condition_overview": "Herpes simplex virus infection (image A). Herpes simplex virus (HSV) infection of the genital tract causes painful grouped vesicles that rupture into shallow ulcers. The virus infects squamous epithelial cells and produces a distinctive cytopathic effect. Infected cells become enlarged and multinucleated, with nuclei that mold against each other, ground-glass chromatin, and eosinophilic intranuclear (Cowdry A) inclusions surrounded by a thin rim of marginated chromatin. Biopsy of a blister edge shows epidermal necrosis and acantholysis with inflammation. The virus then lies latent in sensory ganglia and reactivates. Treatment is with acyclovir-type antivirals. Condylomata acuminata (image B). Condylomata acuminata (genital warts) are benign papillary squamous proliferations caused mainly by low-risk HPV types 6 and 11, spread by sexual contact. They appear as soft, exophytic, cauliflower-like lesions on the vulva, penis, perineum, or perianal skin. Microscopically there is acanthosis, papillomatosis, hyperkeratosis or parakeratosis, and koilocytes, which are squamous cells with a wrinkled, enlarged nucleus surrounded by a perinuclear clear halo. They are treated with topical agents, cryotherapy, or excision, and recur often. The HPV vaccine prevents them.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement about the infection in B is correct?",
+      "options": [
+        "It becomes latent in sensory ganglia and reactivates, and it is treated with acyclovir-type antivirals",
+        "It is caused mainly by low-risk HPV types 6 and 11 and is prevented by the HPV vaccine",
+        "It recurs often and is treated with topical agents, cryotherapy, or excision",
+        "It forms soft, exophytic, cauliflower-like lesions with acanthosis and papillomatosis"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. B shows enlarged cells with several molded nuclei, herpes simplex virus infection. A shows koilocytes with perinuclear halos, condyloma acuminatum. Step 2. HSV forms vesicles that rupture into shallow ulcers, produces Cowdry A inclusions, lies latent in sensory ganglia, reactivates, and is treated with acyclovir-type antivirals.",
+      "choice_rationales": [
+        "Correct. Latency in sensory ganglia with reactivation and acyclovir-type treatment describe HSV in B.",
+        "HPV types 6 and 11 with vaccine prevention describe condylomata in A.",
+        "Frequent recurrence treated with topical agents or cryotherapy describes condylomata in A.",
+        "Cauliflower-like exophytic lesions with acanthosis describe condylomata in A."
+      ],
+      "question_id": "q-compare-hpv-b",
+      "source_id": "s-0f044ad4e7f8f84afdb9",
+      "source_group_id": "g-62e59996eefea3b50053",
+      "variant_id": "v-1a65ccb7652083e440b4",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Condylomata acuminata versus Herpes simplex virus infection",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/49b37182af25dd60c1ff6a0c281f0396b6e64e9ef2b6b0967514f10e7fcce6f7.webp",
+      "zoom_image": "assets/zoom/49b37182af25dd60c1ff6a0c281f0396b6e64e9ef2b6b0967514f10e7fcce6f7.webp",
+      "original_image": "assets/zoom/49b37182af25dd60c1ff6a0c281f0396b6e64e9ef2b6b0967514f10e7fcce6f7.webp",
+      "original_filename": "Compare/Condylomata acuminata vs Herpes simplex virus infection - Comparison.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 47
+        },
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 35
+        }
+      ],
+      "visual_clues": [
+        "B shows enlarged cells with several molded nuclei, herpes simplex virus infection.",
+        "A shows koilocytes with perinuclear halos, condyloma acuminatum."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A patient with soft cauliflower-like perianal lesions and a patient with painful grouped vesicles that ruptured into shallow ulcers each have a sample examined. The sample from the first is shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Condylomata acuminata vs Herpes simplex virus infection",
+      "condition_overview": "Condylomata acuminata (image A). Condylomata acuminata (genital warts) are benign papillary squamous proliferations caused mainly by low-risk HPV types 6 and 11, spread by sexual contact. They appear as soft, exophytic, cauliflower-like lesions on the vulva, penis, perineum, or perianal skin. Microscopically there is acanthosis, papillomatosis, hyperkeratosis or parakeratosis, and koilocytes, which are squamous cells with a wrinkled, enlarged nucleus surrounded by a perinuclear clear halo. They are treated with topical agents, cryotherapy, or excision, and recur often. The HPV vaccine prevents them. Herpes simplex virus infection (image B). Herpes simplex virus (HSV) infection of the genital tract causes painful grouped vesicles that rupture into shallow ulcers. The virus infects squamous epithelial cells and produces a distinctive cytopathic effect. Infected cells become enlarged and multinucleated, with nuclei that mold against each other, ground-glass chromatin, and eosinophilic intranuclear (Cowdry A) inclusions surrounded by a thin rim of marginated chromatin. Biopsy of a blister edge shows epidermal necrosis and acantholysis with inflammation. The virus then lies latent in sensory ganglia and reactivates. Treatment is with acyclovir-type antivirals.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A is squamous epithelium with basaloid cells through much of its thickness that is the precursor of squamous carcinoma, while B is an endocervical gland lined by crowded stratified hyperchromatic cells that is the precursor of adenocarcinoma",
+        "A is an endocervical gland lined by crowded stratified hyperchromatic cells and is easily detected on Pap smear, while B is squamous epithelium with basaloid cells and is easily missed",
+        "A is an endocervical gland lined by crowded stratified hyperchromatic cells that is the precursor of adenocarcinoma, while B is squamous epithelium with basaloid cells that is unrelated to HPV",
+        "A is an endocervical gland lined by crowded stratified hyperchromatic cells that is the precursor of adenocarcinoma, while B is squamous epithelium with basaloid cells through much of its thickness that is the precursor of squamous carcinoma"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. A shows a gland with a crowded dark epithelial lining and enlarged hyperchromatic nuclei, adenocarcinoma in situ. B shows crowded enlarged dark nuclei through much of the squamous epithelium with poor maturation, HSIL. Step 2. AIS is the precursor of HPV-related endocervical adenocarcinoma and is easily missed on Pap smears because it is high in the canal. HSIL arises from persistent high-risk HPV and can progress to invasive squamous carcinoma.",
+      "choice_rationales": [
+        "This reverses the lesions. A gland lined by crowded stratified cells is AIS in A.",
+        "AIS occurs high in the endocervical canal and is easily missed on Pap smear, so detectability is swapped.",
+        "HSIL arises from persistent infection with high-risk HPV, so calling it unrelated to HPV is wrong.",
+        "Correct. AIS in A is a glandular precursor of adenocarcinoma, and HSIL in B is a squamous precursor of squamous carcinoma."
+      ],
+      "question_id": "q-compare-cerv-a",
+      "source_id": "s-0624b65d9d9a431cb9c7",
+      "source_group_id": "g-5f137089283bb62d10f5",
+      "variant_id": "v-8ca05da51ce2c8085c5b",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Adenocarcinoma in situ of the cervix versus High-grade squamous intraepithelial lesion (HSIL)",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/7709810a5c5790a8622c15ae28e0f3e62a312fd3b34b02eb2ff877ffb103b2c8.webp",
+      "zoom_image": "assets/zoom/7709810a5c5790a8622c15ae28e0f3e62a312fd3b34b02eb2ff877ffb103b2c8.webp",
+      "original_image": "assets/zoom/7709810a5c5790a8622c15ae28e0f3e62a312fd3b34b02eb2ff877ffb103b2c8.webp",
+      "original_filename": "Compare/Adenocarcinoma in situ of the cervix vs High-grade squamous intraepithelial lesion (HSIL) - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 33
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 25
+        }
+      ],
+      "visual_clues": [
+        "A shows a gland with a crowded dark epithelial lining and enlarged hyperchromatic nuclei, adenocarcinoma in situ.",
+        "B shows crowded enlarged dark nuclei through much of the squamous epithelium with poor maturation, HSIL."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two women have cervical conization specimens after abnormal screening. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Adenocarcinoma in situ of the cervix vs High-grade squamous intraepithelial lesion (HSIL)",
+      "condition_overview": "Adenocarcinoma in situ of the cervix (image A). Adenocarcinoma in situ (AIS) is the precursor of HPV-related endocervical adenocarcinoma. Endocervical glands retain their architecture but are lined by crowded, stratified, hyperchromatic cells with nuclear enlargement, mitoses, and apoptotic bodies, often with a sharp transition to normal glands. Strong diffuse p16 staining is typical. Because it occurs high in the endocervical canal and is easily missed on Pap smears, AIS is treated by conization, and hysterectomy is used if childbearing is complete. High-grade squamous intraepithelial lesion (HSIL) (image B). High-grade squamous intraepithelial lesion (HSIL, CIN 2 and CIN 3) is the true cervical precancer. It arises from persistent infection with high-risk HPV (types 16 and 18 most often), in which viral E6 and E7 proteins inactivate p53 and Rb. Immature basaloid cells with high nuclear-to-cytoplasmic ratios, hyperchromatic nuclei, and mitoses occupy at least the lower two thirds up to the full thickness of the epithelium, with loss of maturation toward the surface. Diffuse strong p16 staining supports the diagnosis. HSIL is treated by excision or ablation because it can progress to invasive squamous cell carcinoma.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement about the lesion in B is correct?",
+      "options": [
+        "Immature basaloid cells occupy at least the lower two thirds of the squamous epithelium up to its full thickness",
+        "It occurs high in the endocervical canal, is easily missed on Pap smears, and is treated by conization",
+        "It is treated by excision or ablation because it can progress to invasive squamous cell carcinoma",
+        "Viral E6 and E7 proteins inactivate p53 and Rb in squamous cells that lose maturation toward the surface"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. B shows a gland with a crowded dark epithelial lining, adenocarcinoma in situ. A shows crowded dark nuclei through much of the squamous epithelium, HSIL. Step 2. AIS is the precursor of HPV-related endocervical adenocarcinoma with strong diffuse p16 staining. It occurs high in the canal, is easily missed on Pap smears, and is treated by conization.",
+      "choice_rationales": [
+        "Basaloid cells through most of the squamous epithelium describe HSIL in A.",
+        "Correct. A high canal location, easy miss on Pap smear, and treatment by conization describe AIS in B.",
+        "Excision or ablation to prevent invasive squamous carcinoma describes HSIL in A.",
+        "Loss of squamous maturation with E6 and E7 effects describes HSIL in A."
+      ],
+      "question_id": "q-compare-cerv-b",
+      "source_id": "s-c975b3c6618af8187a8a",
+      "source_group_id": "g-8e793011fd5c39fc3725",
+      "variant_id": "v-98607e6bc5f9fc8237c7",
+      "question_type": "Visual interpretation",
+      "tested_concept": "High-grade squamous intraepithelial lesion (HSIL) versus Adenocarcinoma in situ of the cervix",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/4f7b537cd6778b6d313646376aab0389ce4f0fc09de59bc1d74c19454bd3669d.webp",
+      "zoom_image": "assets/zoom/4f7b537cd6778b6d313646376aab0389ce4f0fc09de59bc1d74c19454bd3669d.webp",
+      "original_image": "assets/zoom/4f7b537cd6778b6d313646376aab0389ce4f0fc09de59bc1d74c19454bd3669d.webp",
+      "original_filename": "Compare/High-grade squamous intraepithelial lesion (HSIL) vs Adenocarcinoma in situ of the cervix - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 33
+        }
+      ],
+      "visual_clues": [
+        "B shows a gland with a crowded dark epithelial lining, adenocarcinoma in situ.",
+        "A shows crowded dark nuclei through much of the squamous epithelium, HSIL."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 31-year-old woman and a 36-year-old woman each have conization for abnormal screening. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "High-grade squamous intraepithelial lesion (HSIL) vs Adenocarcinoma in situ of the cervix",
+      "condition_overview": "High-grade squamous intraepithelial lesion (HSIL) (image A). High-grade squamous intraepithelial lesion (HSIL, CIN 2 and CIN 3) is the true cervical precancer. It arises from persistent infection with high-risk HPV (types 16 and 18 most often), in which viral E6 and E7 proteins inactivate p53 and Rb. Immature basaloid cells with high nuclear-to-cytoplasmic ratios, hyperchromatic nuclei, and mitoses occupy at least the lower two thirds up to the full thickness of the epithelium, with loss of maturation toward the surface. Diffuse strong p16 staining supports the diagnosis. HSIL is treated by excision or ablation because it can progress to invasive squamous cell carcinoma. Adenocarcinoma in situ of the cervix (image B). Adenocarcinoma in situ (AIS) is the precursor of HPV-related endocervical adenocarcinoma. Endocervical glands retain their architecture but are lined by crowded, stratified, hyperchromatic cells with nuclear enlargement, mitoses, and apoptotic bodies, often with a sharp transition to normal glands. Strong diffuse p16 staining is typical. Because it occurs high in the endocervical canal and is easily missed on Pap smears, AIS is treated by conization, and hysterectomy is used if childbearing is complete.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A has a central fibroelastic core with radiating ducts and lobules, while B has distorted lobular acini compressed by stromal fibrosis and may show microcalcifications",
+        "A has distorted lobular acini compressed by stromal fibrosis and may show microcalcifications, while B has a central fibroelastic core with radiating ducts and lobules",
+        "A has distorted lobular acini compressed by stromal fibrosis, while B has a central fibroelastic core and lacks myoepithelial cells like invasive carcinoma",
+        "A has distorted lobular acini compressed by stromal fibrosis and is a nonproliferative change, while B has a central fibroelastic core with radiating ducts and lobules"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. A shows many small dark profiles clustered in pink stroma, sclerosing adenosis. B shows central fibrosis with ducts and glands arranged in a stellate pattern, a radial scar. Step 2. Sclerosing adenosis is a proliferative change without atypia that can mimic invasive cancer. Radial scar mimics carcinoma on mammography, but its myoepithelial cells are preserved, and it is usually excised.",
+      "choice_rationales": [
+        "This reverses the lesions. A central fibroelastic core with radiating ducts defines the radial scar in B.",
+        "Correct. Sclerosing adenosis in A has compressed distorted acini with microcalcifications, and radial scar in B has a central fibroelastic core with radiating ducts.",
+        "Myoepithelial cells are preserved in a radial scar, which separates it from invasive carcinoma.",
+        "Sclerosing adenosis is a proliferative change, so calling it nonproliferative is wrong."
+      ],
+      "question_id": "q-compare-adeno-a",
+      "source_id": "s-dd78cc415b7d902dcc67",
+      "source_group_id": "g-45976d16947d7fa5c5ae",
+      "variant_id": "v-fa3f6f7e3f220aed4f93",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Sclerosing adenosis versus Radial scar",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/9073665dbf925475e930ba8198fcfd73cc7dd99a025a5edd91e4f22efbb82f8b.webp",
+      "zoom_image": "assets/zoom/9073665dbf925475e930ba8198fcfd73cc7dd99a025a5edd91e4f22efbb82f8b.webp",
+      "original_image": "assets/zoom/9073665dbf925475e930ba8198fcfd73cc7dd99a025a5edd91e4f22efbb82f8b.webp",
+      "original_filename": "Compare/Sclerosing adenosis vs Radial scar - Comparison.png",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 26
+        }
+      ],
+      "visual_clues": [
+        "A shows many small dark profiles clustered in pink stroma, sclerosing adenosis.",
+        "B shows central fibrosis with ducts and glands arranged in a stellate pattern, a radial scar."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two women have breast biopsies for mammographic abnormalities. The first lesion contained microcalcifications. The second formed a stellate spiculated lesion that mimicked invasive carcinoma. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Sclerosing adenosis vs Radial scar",
+      "condition_overview": "Sclerosing adenosis (image A). Sclerosing adenosis is a benign proliferative lesion in which lobular acini are increased in number and distorted by stromal fibrosis, compressing them and giving an infiltrative appearance, and microcalcifications may be seen. It is a proliferative change without atypia, with a slightly increased risk of carcinoma, and it can mimic invasive cancer. Radial scar (image B). Radial scar (complex sclerosing lesion) is a benign breast lesion with a central fibroelastic core and radiating ducts and lobules with sclerosis, hyperplasia, or cysts. It forms a stellate, spiculated lesion that mimics invasive carcinoma on mammography, but myoepithelial cells are preserved. It is associated with a modest increase in cancer risk, so it is usually excised.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement is true of the lesion in A but not the lesion in B?",
+      "options": [
+        "Lobular acini are increased in number and distorted by stromal fibrosis",
+        "It is a proliferative change without atypia that can mimic invasive cancer on microscopy",
+        "Compressed acini give an infiltrative appearance and microcalcifications may be seen",
+        "It has a central fibroelastic core with radiating ducts and is usually excised"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. A shows central pink fibrosis with ducts and glands arranged in a stellate pattern, a radial scar. B shows many small dark profiles clustered in pink stroma, sclerosing adenosis. Step 2. Radial scar has a central fibroelastic core with radiating ducts and lobules, mimics carcinoma on mammography, preserves myoepithelial cells, and is usually excised.",
+      "choice_rationales": [
+        "Increased distorted acini with stromal fibrosis describe sclerosing adenosis in B.",
+        "A proliferative change that can mimic invasive cancer on microscopy describes sclerosing adenosis in B.",
+        "Compressed acini with an infiltrative look and microcalcifications describe sclerosing adenosis in B.",
+        "Correct. A central fibroelastic core with radiating ducts and excision because of a modest risk increase describe the radial scar in A."
+      ],
+      "question_id": "q-compare-adeno-b",
+      "source_id": "s-02aeac821eab226b36b3",
+      "source_group_id": "g-ad3ac65bf4dde612aa6f",
+      "variant_id": "v-9a4e6b2af6924865b664",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Radial scar versus Sclerosing adenosis",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/3433d2bcfb9651bc8a738e92f3dad22a59b154ad35c831bc3c9856a8b90162cc.webp",
+      "zoom_image": "assets/zoom/3433d2bcfb9651bc8a738e92f3dad22a59b154ad35c831bc3c9856a8b90162cc.webp",
+      "original_image": "assets/zoom/3433d2bcfb9651bc8a738e92f3dad22a59b154ad35c831bc3c9856a8b90162cc.webp",
+      "original_filename": "Compare/Radial scar vs Sclerosing adenosis - Comparison.png",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 26
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 25
+        }
+      ],
+      "visual_clues": [
+        "A shows central pink fibrosis with ducts and glands arranged in a stellate pattern, a radial scar.",
+        "B shows many small dark profiles clustered in pink stroma, sclerosing adenosis."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with a stellate spiculated mammographic lesion and a woman with microcalcifications each have a breast biopsy. Sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Radial scar vs Sclerosing adenosis",
+      "condition_overview": "Radial scar (image A). Radial scar (complex sclerosing lesion) is a benign breast lesion with a central fibroelastic core and radiating ducts and lobules with sclerosis, hyperplasia, or cysts. It forms a stellate, spiculated lesion that mimics invasive carcinoma on mammography, but myoepithelial cells are preserved. It is associated with a modest increase in cancer risk, so it is usually excised. Sclerosing adenosis (image B). Sclerosing adenosis is a benign proliferative lesion in which lobular acini are increased in number and distorted by stromal fibrosis, compressing them and giving an infiltrative appearance, and microcalcifications may be seen. It is a proliferative change without atypia, with a slightly increased risk of carcinoma, and it can mimic invasive cancer.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A is a cut uterine wall thickened by small cystic or hemorrhagic foci within the myometrium, while B is a pelvic surface with reddish and dark foci of functional tissue outside the uterus",
+        "A is a pelvic surface with reddish and dark foci of functional tissue outside the uterus, while B is a cut uterine wall thickened by small cystic or hemorrhagic foci within the myometrium",
+        "A is a cut uterine wall with small foci within the myometrium and is treated definitively by hysterectomy, while B is ectopic tissue outside the uterus that does not bleed with the cycle",
+        "A is a cut uterine wall with small foci within the myometrium and is the usual cause of chocolate cysts, while B is a pelvic surface with dark foci"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A shows a pale cut wall with many small dark spots through its thickness, adenomyosis. B shows scattered reddish and dark foci on a pale folded surface, endometriosis. Step 2. Adenomyosis is endometrial tissue within the myometrium and is treated definitively by hysterectomy. Endometriosis is functional tissue outside the uterus that responds to cyclic hormones and bleeds, and ovarian disease forms chocolate cysts.",
+      "choice_rationales": [
+        "Correct. Adenomyosis in A has small foci within the myometrium, and endometriosis in B has dark and reddish foci of functional tissue outside the uterus.",
+        "This reverses the conditions. Small foci within the myometrium define adenomyosis in A.",
+        "Ectopic tissue in endometriosis does respond to cyclic hormones and bleeds, so this statement is wrong.",
+        "Chocolate cysts form in ovarian endometriosis, which is B, not adenomyosis."
+      ],
+      "question_id": "q-compare-uter-a",
+      "source_id": "s-9116bee6c0d2c73fe2b7",
+      "source_group_id": "g-39cff7f4390e5b0d9301",
+      "variant_id": "v-b729ace787cf7c445875",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Adenomyosis versus Endometriosis",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/5a831d0da0543d7c6959be7eb78e4096939fde67b4eb09e16cf0c31d94270cce.webp",
+      "zoom_image": "assets/zoom/5a831d0da0543d7c6959be7eb78e4096939fde67b4eb09e16cf0c31d94270cce.webp",
+      "original_image": "assets/zoom/5a831d0da0543d7c6959be7eb78e4096939fde67b4eb09e16cf0c31d94270cce.webp",
+      "original_filename": "Compare/Adenomyosis vs Endometriosis - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 58
+        },
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 20
+        }
+      ],
+      "visual_clues": [
+        "A shows a pale cut wall with many small dark spots through its thickness, adenomyosis.",
+        "B shows scattered reddish and dark foci on a pale folded surface, endometriosis."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two women have chronic pelvic symptoms. The first has heavy, painful menses and a boggy, tender uterus. The second has dysmenorrhea, dyspareunia, and infertility. Gross specimens from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Adenomyosis vs Endometriosis",
+      "condition_overview": "Adenomyosis (image A). Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy. Endometriosis (image B). Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement about the specimen in B is correct?",
+      "options": [
+        "Ectopic tissue on the ovary forms endometriomas filled with old blood",
+        "Two of three elements are needed microscopically: endometrial glands, stroma, and hemosiderin-laden macrophages",
+        "It enlarges the uterus symmetrically with a thickened trabeculated wall and thickens the junctional zone on MRI",
+        "Catamenial thoracic or bladder symptoms suggest distant implants"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. B shows a pale cut wall with many small dark spots through its thickness, adenomyosis. A shows scattered reddish and dark foci on a pale surface, endometriosis. Step 2. Adenomyosis enlarges the uterus symmetrically with a thickened, trabeculated wall, causes heavy painful menses, and thickens the junctional zone on MRI.",
+      "choice_rationales": [
+        "Endometriomas of the ovary describe endometriosis in A.",
+        "Microscopic criteria that include hemosiderin-laden macrophages describe endometriosis in A.",
+        "Correct. Symmetric enlargement with a trabeculated wall and a thickened junctional zone describe adenomyosis in B.",
+        "Catamenial symptoms from distant implants describe endometriosis in A."
+      ],
+      "question_id": "q-compare-uter-b",
+      "source_id": "s-d843b4b03293f63d831a",
+      "source_group_id": "g-23adb08c0c5e8c4d0087",
+      "variant_id": "v-dd5d081fbf5689a1c8c2",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Endometriosis versus Adenomyosis",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/202015fc7f3f75978c7fb3508042445028af86cf034c937a71cb1ef74f9fbcfa.webp",
+      "zoom_image": "assets/zoom/202015fc7f3f75978c7fb3508042445028af86cf034c937a71cb1ef74f9fbcfa.webp",
+      "original_image": "assets/zoom/202015fc7f3f75978c7fb3508042445028af86cf034c937a71cb1ef74f9fbcfa.webp",
+      "original_filename": "Compare/Endometriosis vs Adenomyosis - Comparison.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 58
+        }
+      ],
+      "visual_clues": [
+        "B shows a pale cut wall with many small dark spots through its thickness, adenomyosis.",
+        "A shows scattered reddish and dark foci on a pale surface, endometriosis."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with dysmenorrhea, dyspareunia, and infertility and a woman with heavy painful menses and a boggy tender uterus each have a gross specimen examined. The specimen from the first is shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Endometriosis vs Adenomyosis",
+      "condition_overview": "Endometriosis (image A). Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants. Adenomyosis (image B). Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A has pale radiating extensions that project into the surrounding fat, while B is a well-circumscribed lobulated nodule with a smooth outline",
+        "A is a well-circumscribed nodule with minimal cancer risk, while B is a smooth, rubbery, freely mobile mass",
+        "A is a well-circumscribed lobulated nodule with a smooth outline, while B has pale radiating extensions that project into the surrounding fat",
+        "A has pale radiating extensions into fat and is hormone responsive, while B is a circumscribed lobulated nodule that spreads to axillary nodes"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. A shows a pale lobulated nodule with a smooth defined outline, a fibroadenoma. B shows pale radiating extensions from a central mass into yellow fat, an invasive ductal carcinoma. Step 2. Fibroadenoma is a rubbery, freely mobile, hormone responsive mass with minimal cancer risk. Invasive ductal carcinoma is a hard, irregular, fixed mass with stellate borders that spreads to axillary nodes and distant sites.",
+      "choice_rationales": [
+        "This reverses the lesions. Radiating extensions into fat define the invasive carcinoma in B.",
+        "Invasive ductal carcinoma is a hard, irregular, fixed mass, not a rubbery freely mobile one.",
+        "Correct. The fibroadenoma in A is a smooth circumscribed nodule, and the invasive ductal carcinoma in B has radiating extensions into fat.",
+        "Hormone responsiveness belongs to the fibroadenoma, and axillary spread to the invasive carcinoma, so both are swapped."
+      ],
+      "question_id": "q-compare-brg-a",
+      "source_id": "s-c06081a0dc5f8563bb02",
+      "source_group_id": "g-73563d42dfbe85b251b0",
+      "variant_id": "v-b894e247272413278234",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Fibroadenoma versus Invasive ductal carcinoma",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/3f33d629bf8c6934f34e9979c017beb32ec4ae4d4905f5869c6a1ce103a622a1.webp",
+      "zoom_image": "assets/zoom/3f33d629bf8c6934f34e9979c017beb32ec4ae4d4905f5869c6a1ce103a622a1.webp",
+      "original_image": "assets/zoom/3f33d629bf8c6934f34e9979c017beb32ec4ae4d4905f5869c6a1ce103a622a1.webp",
+      "original_filename": "Compare/Fibroadenoma vs Invasive ductal carcinoma - Comparison.png",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 37
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 56
+        }
+      ],
+      "visual_clues": [
+        "A shows a pale lobulated nodule with a smooth defined outline, a fibroadenoma.",
+        "B shows pale radiating extensions from a central mass into yellow fat, an invasive ductal carcinoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman has a rubbery, freely mobile breast mass, and a 62-year-old woman has a hard, fixed breast mass with skin dimpling. Gross specimens from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Fibroadenoma vs Invasive ductal carcinoma",
+      "condition_overview": "Fibroadenoma (image A). Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision. Invasive ductal carcinoma (image B). Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement is true of the lesion in B but not the lesion in A?",
+      "options": [
+        "It is a rubbery, freely mobile mass that may enlarge in pregnancy and regress after menopause",
+        "It is a hard, irregular, fixed mass with stellate borders that may cause skin dimpling",
+        "It spreads to axillary nodes, bone, lung, liver, and brain",
+        "Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. B shows a pale lobulated nodule with a smooth defined outline, a fibroadenoma. A shows pale radiating extensions into yellow fat, an invasive ductal carcinoma. Step 2. Fibroadenoma is the most common benign breast tumor, is rubbery and freely mobile, and is hormone responsive, so it may enlarge in pregnancy and regress after menopause.",
+      "choice_rationales": [
+        "Correct. A rubbery mobile mass that is hormone responsive describes the fibroadenoma in B.",
+        "A hard fixed mass with stellate borders and skin dimpling describes the invasive carcinoma in A.",
+        "Spread to nodes, bone, lung, liver, and brain describes the invasive carcinoma in A.",
+        "Infiltrating cords, nests, and glands in desmoplastic stroma describe the invasive carcinoma in A."
+      ],
+      "question_id": "q-compare-brg-b",
+      "source_id": "s-0b2ef8a62d14a1b785d4",
+      "source_group_id": "g-6c8c189b4f86dce140a8",
+      "variant_id": "v-80718ccf8f4475ccf573",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Invasive ductal carcinoma versus Fibroadenoma",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/acba9028c03b1ed1d2f6a433eca41b39aa446b011827f90a2c2c4eba404a0495.webp",
+      "zoom_image": "assets/zoom/acba9028c03b1ed1d2f6a433eca41b39aa446b011827f90a2c2c4eba404a0495.webp",
+      "original_image": "assets/zoom/acba9028c03b1ed1d2f6a433eca41b39aa446b011827f90a2c2c4eba404a0495.webp",
+      "original_filename": "Compare/Invasive ductal carcinoma vs Fibroadenoma - Comparison.png",
+      "citations": [
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 56
+        },
+        {
+          "document": "R18 Pathology of Breast Diseases RLS.pdf",
+          "page": 37
+        }
+      ],
+      "visual_clues": [
+        "B shows a pale lobulated nodule with a smooth defined outline, a fibroadenoma.",
+        "A shows pale radiating extensions into yellow fat, an invasive ductal carcinoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 62-year-old woman has a hard, fixed breast mass with skin dimpling, and a 24-year-old woman has a rubbery, freely mobile breast mass. Gross specimens from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Invasive ductal carcinoma vs Fibroadenoma",
+      "condition_overview": "Invasive ductal carcinoma (image A). Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain. Fibroadenoma (image B). Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A has pale solid areas alternating with irregular cavities, while B has a yellow clustered papillary growth protruding into an open cavity",
+        "A has a yellow clustered growth in an open cavity and is often metastatic from the gastrointestinal tract, while B has pale solid areas alternating with cavities",
+        "A has pale solid areas alternating with irregular cavities, while B has a yellow clustered growth protruding into a cavity and is associated with BRCA mutations",
+        "A has a yellow clustered papillary growth protruding into an open cavity, while B has pale solid areas alternating with irregular cavities"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. A shows a large yellow clustered growth protruding from an open wall into the cavity, a serous carcinoma. B shows pale solid areas alternating with dark irregular cavities, a mucinous cystadenocarcinoma. Step 2. Serous carcinoma is the most common and deadly ovarian cancer, presents late with ascites and omental metastasis, and is associated with BRCA mutations. Ovarian mucinous tumors are often metastatic from the gastrointestinal tract and have a mixed solid and cystic cut surface.",
+      "choice_rationales": [
+        "This reverses the tumors. A clustered papillary growth in an open cavity is the serous carcinoma in A.",
+        "Gastrointestinal metastasis is a concern for ovarian mucinous tumors, which is B, not the serous carcinoma.",
+        "BRCA association belongs to serous carcinoma, so it describes A rather than the mixed solid and cystic tumor in B.",
+        "Correct. Serous carcinoma in A has a clustered papillary growth in a cavity, and mucinous carcinoma in B has mixed solid and cystic areas."
+      ],
+      "question_id": "q-compare-ovg-a",
+      "source_id": "s-6d3be1cb8bd49d8f9b7a",
+      "source_group_id": "g-4a3b7bfa293037cf260b",
+      "variant_id": "v-60e0d6911f338803068b",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Serous carcinoma of the ovary versus Mucinous cystadenocarcinoma",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/8bd07277787f9e7b06e8a99b68addb2a53488dc6afc123824261f05acf71a480.webp",
+      "zoom_image": "assets/zoom/8bd07277787f9e7b06e8a99b68addb2a53488dc6afc123824261f05acf71a480.webp",
+      "original_image": "assets/zoom/8bd07277787f9e7b06e8a99b68addb2a53488dc6afc123824261f05acf71a480.webp",
+      "original_filename": "Compare/Serous carcinoma of the ovary vs Mucinous cystadenocarcinoma - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 71
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 78
+        }
+      ],
+      "visual_clues": [
+        "A shows a large yellow clustered growth protruding from an open wall into the cavity, a serous carcinoma.",
+        "B shows pale solid areas alternating with dark irregular cavities, a mucinous cystadenocarcinoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two women have malignant ovarian epithelial tumors. The first presents late with ascites and omental metastasis. The second has a bilateral tumor with a mixed solid and cystic cut surface. Gross sections from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Serous carcinoma of the ovary vs Mucinous cystadenocarcinoma",
+      "condition_overview": "Serous carcinoma of the ovary (image A). Serous carcinoma, particularly high-grade serous carcinoma, is the most common and deadly ovarian cancer and is thought to arise commonly from serous tubal intraepithelial carcinoma in the fallopian tube fimbria. Papillary and solid sheets of markedly atypical cells invade stroma, with slitlike spaces and psammoma bodies (concentric laminated calcifications). TP53 mutation gives an aberrant p53 pattern, and BRCA1 or BRCA2 mutations are associated. Patients present late with ascites and omental metastasis, and CA-125 is elevated. Treatment is surgery with platinum chemotherapy, and PARP inhibitor maintenance is used in BRCA or HRD-deficient cases. Mucinous cystadenocarcinoma (image B). Mucinous cystadenocarcinoma is a malignant ovarian epithelial tumor with a mixed solid and cystic cut surface. Complex crowded glands and papillae are lined by atypical mucin-secreting cells and invade the stroma. Ovarian mucinous tumors are often metastatic from the gastrointestinal tract, so a bilateral or small tumor should prompt a search for a primary elsewhere. Treatment is surgery and chemotherapy.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement about the tumor in B is correct?",
+      "options": [
+        "A bilateral or small tumor of this type should prompt a search for a primary elsewhere",
+        "It is the most common and deadly ovarian cancer and presents late with ascites",
+        "It has a mixed solid and cystic cut surface and is lined by atypical mucin-secreting cells",
+        "It is often metastatic from the gastrointestinal tract and is treated with surgery and chemotherapy"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. B shows a large yellow clustered growth protruding into an open cavity, a serous carcinoma. A shows pale solid areas alternating with dark irregular cavities, a mucinous cystadenocarcinoma. Step 2. High-grade serous carcinoma is the most common and deadly ovarian cancer, presents late with ascites and omental metastasis, and has elevated CA-125.",
+      "choice_rationales": [
+        "Searching for a primary elsewhere after a bilateral or small tumor applies to the mucinous tumor in A.",
+        "Correct. The most common and deadly ovarian cancer with late presentation and elevated CA-125 is the serous carcinoma in B.",
+        "A mixed solid and cystic surface with mucin-secreting cells describes the mucinous tumor in A.",
+        "Frequent gastrointestinal metastasis describes the ovarian mucinous tumor in A."
+      ],
+      "question_id": "q-compare-ovg-b",
+      "source_id": "s-feb7f8ed0e681f541f01",
+      "source_group_id": "g-340f2a68a38e2ed09bf7",
+      "variant_id": "v-3c033b2eccc23e3f8cd7",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Mucinous cystadenocarcinoma versus Serous carcinoma of the ovary",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/a88c9db0dc76a44bb25793fbc1b5abce40bea2f4e81338f6dc2033d7cd8d85ec.webp",
+      "zoom_image": "assets/zoom/a88c9db0dc76a44bb25793fbc1b5abce40bea2f4e81338f6dc2033d7cd8d85ec.webp",
+      "original_image": "assets/zoom/a88c9db0dc76a44bb25793fbc1b5abce40bea2f4e81338f6dc2033d7cd8d85ec.webp",
+      "original_filename": "Compare/Mucinous cystadenocarcinoma vs Serous carcinoma of the ovary - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 78
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 71
+        }
+      ],
+      "visual_clues": [
+        "B shows a large yellow clustered growth protruding into an open cavity, a serous carcinoma.",
+        "A shows pale solid areas alternating with dark irregular cavities, a mucinous cystadenocarcinoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with a bilateral mixed solid and cystic ovarian tumor and a woman who presents late with ascites and omental metastasis each have a gross specimen examined. The first is shown in A and the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Mucinous cystadenocarcinoma vs Serous carcinoma of the ovary",
+      "condition_overview": "Mucinous cystadenocarcinoma (image A). Mucinous cystadenocarcinoma is a malignant ovarian epithelial tumor with a mixed solid and cystic cut surface. Complex crowded glands and papillae are lined by atypical mucin-secreting cells and invade the stroma. Ovarian mucinous tumors are often metastatic from the gastrointestinal tract, so a bilateral or small tumor should prompt a search for a primary elsewhere. Treatment is surgery and chemotherapy. Serous carcinoma of the ovary (image B). Serous carcinoma, particularly high-grade serous carcinoma, is the most common and deadly ovarian cancer and is thought to arise commonly from serous tubal intraepithelial carcinoma in the fallopian tube fimbria. Papillary and solid sheets of markedly atypical cells invade stroma, with slitlike spaces and psammoma bodies (concentric laminated calcifications). TP53 mutation gives an aberrant p53 pattern, and BRCA1 or BRCA2 mutations are associated. Patients present late with ascites and omental metastasis, and CA-125 is elevated. Treatment is surgery with platinum chemotherapy, and PARP inhibitor maintenance is used in BRCA or HRD-deficient cases.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement correctly contrasts A with B?",
+      "options": [
+        "A is a unilocular cyst containing hair and sebum, while B has many separate cystic compartments of different sizes filled with sticky mucin",
+        "A has many separate cystic compartments of different sizes filled with sticky mucin, while B is a unilocular cyst containing hair and sebum",
+        "A has many separate cystic compartments filled with sticky mucin, while B is a unilocular cyst lined by mucin-secreting columnar cells",
+        "A is a multiloculated cystic tumor that is bilateral in 10 to 15 percent, while B is a unilocular cyst filled with sticky mucin"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. A shows many separate cystic compartments of different sizes, a mucinous cystadenoma. B shows hair strands and pale sebaceous material in an opened cyst, a mature cystic teratoma. Step 2. Mucinous cystadenoma is multiloculated, filled with sticky mucin, and its rupture can seed mucin in the peritoneum. Mature cystic teratoma is a unilocular cyst lined by skin with hair and greasy sebum.",
+      "choice_rationales": [
+        "This reverses the tumors. Many cystic compartments with sticky mucin define the mucinous cystadenoma in A.",
+        "Correct. The mucinous cystadenoma in A is multiloculated with sticky mucin, and the mature teratoma in B is a unilocular cyst with hair and sebum.",
+        "A mature teratoma is lined by skin with hair follicles, not by mucin-secreting columnar cells.",
+        "Bilateral involvement in 10 to 15 percent describes the mature teratoma, and sticky mucin belongs to the mucinous tumor."
+      ],
+      "question_id": "q-compare-cys-a",
+      "source_id": "s-585bb574c6f0d98a4534",
+      "source_group_id": "g-a0671151e7cd93adea58",
+      "variant_id": "v-2f8a5ad89b5a17057c0f",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Mucinous cystadenoma versus Mature cystic teratoma (dermoid cyst)",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/6da863bfec9e967cda1e3e3d4b807a16ada7459abfc2d8343ded0d8252351fb5.webp",
+      "zoom_image": "assets/zoom/6da863bfec9e967cda1e3e3d4b807a16ada7459abfc2d8343ded0d8252351fb5.webp",
+      "original_image": "assets/zoom/6da863bfec9e967cda1e3e3d4b807a16ada7459abfc2d8343ded0d8252351fb5.webp",
+      "original_filename": "Compare/Mucinous cystadenoma vs Mature cystic teratoma (dermoid cyst) - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 77
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 92
+        }
+      ],
+      "visual_clues": [
+        "A shows many separate cystic compartments of different sizes, a mucinous cystadenoma.",
+        "B shows hair strands and pale sebaceous material in an opened cyst, a mature cystic teratoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two women have large benign ovarian cysts. Cut specimens from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Mucinous cystadenoma vs Mature cystic teratoma (dermoid cyst)",
+      "condition_overview": "Mucinous cystadenoma (image A). Mucinous cystadenoma is a benign ovarian surface epithelial tumor composed of multiloculated cysts, sometimes very large, lined by a single layer of tall columnar mucin-secreting cells resembling endocervical or intestinal epithelium, without atypia. Cysts are filled with sticky mucin. It occurs in reproductive-age women and is cured by complete excision, since rupture can seed mucin in the peritoneum. Mature cystic teratoma (dermoid cyst) (image B). Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which statement is true of the tumor in B but not the tumor in A?",
+      "options": [
+        "It is bilateral in about 10 to 15 percent and can cause torsion in young women",
+        "It rarely causes autoimmune anti-NMDA receptor encephalitis",
+        "A rare complication is malignant transformation to squamous cell carcinoma",
+        "Rupture can seed mucin in the peritoneum, so it is cured by complete excision"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. B shows many separate cystic compartments of different sizes, a mucinous cystadenoma. A shows hair strands and sebaceous material in an opened cyst, a mature cystic teratoma. Step 2. Mucinous cystadenoma has cysts filled with sticky mucin and is cured by complete excision, since rupture can seed mucin in the peritoneum.",
+      "choice_rationales": [
+        "Bilateral disease in 10 to 15 percent with torsion describes the mature teratoma in A.",
+        "Anti-NMDA receptor encephalitis is a rare complication of the mature teratoma in A.",
+        "Malignant transformation to squamous cell carcinoma is a rare complication of the mature teratoma in A.",
+        "Correct. Mucin seeding after rupture and cure by complete excision describe the mucinous cystadenoma in B."
+      ],
+      "question_id": "q-compare-cys-b",
+      "source_id": "s-1c7dfaebe6c3d6759056",
+      "source_group_id": "g-175d16173df4913d2818",
+      "variant_id": "v-8ce2b4fe135e03343849",
+      "question_type": "Visual interpretation",
+      "tested_concept": "Mature cystic teratoma (dermoid cyst) versus Mucinous cystadenoma",
+      "category": "Histology",
+      "collection": "Compare",
+      "source_origin": "lecture",
+      "image": "assets/display/0b177948aa501f1f28f610c00643c38e2d8b7ada03ff5fa762d620c4850430d0.webp",
+      "zoom_image": "assets/zoom/0b177948aa501f1f28f610c00643c38e2d8b7ada03ff5fa762d620c4850430d0.webp",
+      "original_image": "assets/zoom/0b177948aa501f1f28f610c00643c38e2d8b7ada03ff5fa762d620c4850430d0.webp",
+      "original_filename": "Compare/Mature cystic teratoma (dermoid cyst) vs Mucinous cystadenoma - Comparison.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 92
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 77
+        }
+      ],
+      "visual_clues": [
+        "B shows many separate cystic compartments of different sizes, a mucinous cystadenoma.",
+        "A shows hair strands and sebaceous material in an opened cyst, a mature cystic teratoma."
+      ],
+      "visual_target": "Compare image A with image B.",
+      "joint_panels": true,
+      "panels": "joint",
+      "ground_truth_confidence": "high for the stated visible target",
+      "ground_truth_basis": "Side by side composite of two lecture images, each already reviewed for its own question. Facts come from the cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 26-year-old woman has a unilocular ovarian cyst containing hair, and a 33-year-old woman has a large multiloculated ovarian cyst. Cut specimens from the first are shown in A and from the second in B.",
+      "study_skill": "interpretation",
+      "condition_name": "Mature cystic teratoma (dermoid cyst) vs Mucinous cystadenoma",
+      "condition_overview": "Mature cystic teratoma (dermoid cyst) (image A). Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression. Mucinous cystadenoma (image B). Mucinous cystadenoma is a benign ovarian surface epithelial tumor composed of multiloculated cysts, sometimes very large, lined by a single layer of tall columnar mucin-secreting cells resembling endocervical or intestinal epithelium, without atypia. Cysts are filled with sticky mucin. It occurs in reproductive-age women and is cured by complete excision, since rupture can seed mucin in the peritoneum.",
+      "reasoning_order": "second or third order"
     }
   ],
   "retired_questions": [
