@@ -12689,20 +12689,20 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "Which portion of the urine path narrows where the red arrows converge?",
+      "stem": "Which pair of drug classes treats this condition, and how do they differ in mechanism?",
       "options": [
-        "The urethral segment inside the glans of the penis",
-        "The urethral segment passing through the prostate",
-        "Both ureters as they enter the bladder",
-        "The bladder lumen at the dome of the bladder"
+        "Alpha blockers relax the prostatic urethra within days, while 5-alpha reductase inhibitors lower DHT and shrink the gland",
+        "Antibiotics shrink the gland, while alpha blockers kill bacteria",
+        "Alpha blockers shrink the gland, while 5-alpha reductase inhibitors relax the urethra within days",
+        "Antihypertensives raise DHT, while alpha blockers lower testosterone"
       ],
-      "correct_index": 1,
-      "explanation": "The arrows converge on the outlet channel immediately below the bladder within the green prostate. The paired ureters are upstream of the bladder and are not at the convergence.",
+      "correct_index": 0,
+      "explanation": "Step 1. Obstructive symptoms with enlargement of the gland around the prostatic urethra are due to benign prostatic hyperplasia compressing the urethra. Step 2. Alpha blockers (tamsulosin) work quickly by opening the prostatic urethra without shrinking the prostate, while 5-alpha reductase inhibitors (finasteride, dutasteride) block conversion of testosterone to DHT so the gland shrinks.",
       "choice_rationales": [
-        "The converging arrows are immediately below the bladder within the prostate. This choice describes stricture of the penile urethra.",
-        "The arrows converge on the outlet channel immediately below the bladder within the green prostate. This choice describes prostatic urethral narrowing (benign prostatic hyperplasia), which is what the image shows.",
-        "The paired ureters are upstream of the bladder and are not at the convergence. This choice describes ureterovesical obstruction.",
-        "The narrowing is at the outlet, away from the bladder dome. This choice describes bladder dome obstruction."
+        "Alpha blockers open the urethra quickly, and 5-ARIs shrink the gland by reducing DHT.",
+        "Antibiotics do not shrink the gland, and alpha blockers do not kill bacteria.",
+        "The effects are reversed in this option, since alpha blockers do not shrink the prostate.",
+        "Alpha blockers do not lower testosterone, and DHT is reduced, not raised, by treatment."
       ],
       "visual_clues": [
         "The arrows converge on the outlet channel immediately below the bladder within the green prostate.",
@@ -12712,7 +12712,7 @@
       "source_id": "s-1e47438b1b16bd64d902",
       "source_group_id": "g-dd05be1bdb0b95d199cd",
       "variant_id": "v-f629723c01768295bb1c",
-      "tested_concept": "BPH urethral compression diagram",
+      "tested_concept": "Which pair of drug classes treats this condition, and how do they differ in mechanism?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R22",
@@ -12733,26 +12733,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 68-year-old man has a weak stream, hesitancy, straining, and a feeling of incomplete emptying. Diagram and imaging show the prostate enlarged around the urethra just below the bladder.",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which growth arrangement is more conspicuous in the lower prostate field?",
+      "stem": "What Gleason pattern does the dominant finding represent, and how is the score calculated?",
       "options": [
-        "Large orderly glands with an intact continuous benign lining",
-        "Broad keratin pearls within rounded squamous nests",
-        "A smooth empty cystic space bounded by a thin wall",
-        "Irregular individual cells and small groups between pink stroma"
+        "Pattern 1 for the cells without glands, with the score being the lowest pattern only",
+        "Pattern 4 for the cells without glands, with the score being the highest pattern times two",
+        "Pattern 3 for the cells without glands, with the score being the sum of all patterns",
+        "Pattern 5 for the cells without glands, with the score being the most common pattern plus the second most common pattern"
       ],
       "correct_index": 3,
-      "explanation": "The lower field contains scattered small dark epithelial groups and individual profiles in pink stroma. The cells are dispersed in irregular small groups rather than forming large open glands.",
+      "explanation": "Step 1. Cancer cells infiltrating stroma with no gland formation are Gleason grade 5, while grade 4 shows irregular infiltrating glands and grade 3 shows uniform glands. Step 2. The score is the most common pattern plus the second most common, so 3+3 equals 6 and 5+5 equals 10, and higher scores are more aggressive and guide treatment.",
       "choice_rationales": [
-        "The cells are dispersed in irregular small groups rather than forming large open glands. This choice describes benign prostate glands.",
-        "The small dark epithelial groups do not contain pink laminated keratin. This choice describes squamous cell carcinoma.",
-        "The pale areas are supporting tissue around dispersed cells, not an empty cyst. This choice describes a cyst.",
-        "The lower field contains scattered small dark epithelial groups and individual profiles in pink stroma. This choice describes prostatic adenocarcinoma (high Gleason pattern), which is what the image shows."
+        "Grade 1 is not used for the lowest score on the 6 to 10 scale.",
+        "Grade 4 has irregular glands, and the score is not a product.",
+        "Grade 3 is uniform glands, and the score uses two patterns, not a sum of all.",
+        "Grade 5 is cells without glands and the score is the dominant plus second pattern."
       ],
       "visual_clues": [
         "The lower field contains scattered small dark epithelial groups and individual profiles in pink stroma.",
@@ -12762,7 +12763,7 @@
       "source_id": "s-3147d749f21a39248b71",
       "source_group_id": "g-2c3774c911340d68148b",
       "variant_id": "v-292dbc8ac7bc894b3024",
-      "tested_concept": "Prostate high-grade tumor architecture comparison",
+      "tested_concept": "What Gleason pattern does the dominant finding represent, and how is the score calculated?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R22",
@@ -12783,26 +12784,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 70-year-old man has a prostate biopsy. The pathologist reports that cancer cells in the core are infiltrating the stroma as individual cells with no attempt at gland formation, with a few poorly formed glands elsewhere.",
+      "study_skill": "interpretation",
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Where is the expanded fluid compartment shown in this hydrocele diagram?",
+      "stem": "What is the diagnosis, and how does it differ from a hernia?",
       "options": [
-        "Around the ureter above the kidney",
-        "Around the testis within the scrotum",
-        "Inside the urinary bladder lumen",
-        "Inside the center of the testicular tissue"
+        "Testicular torsion, which is painless and benign",
+        "A hydrocele, which is benign fluid around the testis that stays confined to the scrotum, unlike a hernia that enlarges on standing and reduces when lying down",
+        "Epididymo-orchitis, which is painless and treated with surgery",
+        "A varicocele, which is a dilated pampiniform plexus that enlarges on standing"
       ],
       "correct_index": 1,
-      "explanation": "A hydrocele is fluid around the testis. The pale collection in the diagram surrounds and displaces the testis within the scrotal sac. Fluid around the ureter would be in the upper urinary tract. A hydrocele collects around the testis within the scrotum.",
+      "explanation": "Step 1. A scrotal mass confined to the scrotum that does not change with position, with fluid around the testis on ultrasound, is a hydrocele. Step 2. A hernia starts in the inguinal region, enlarges on standing or straining, and goes away when lying down, and ultrasound is the way to diagnose scrotal conditions.",
       "choice_rationales": [
-        "Fluid around the ureter would be in the upper urinary tract. A hydrocele collects around the testis within the scrotum. This choice describes a hydronephrosis.",
-        "A hydrocele is fluid around the testis. The pale collection in the diagram surrounds and displaces the testis within the scrotal sac. This choice describes a hydrocele, which is what the image shows.",
-        "The urinary bladder is separate from the scrotal sac. The hydrocele in this diagram sits around the testis, outside the urinary tract. This choice describes bladder fluid.",
-        "The hydrocele is outside the testicular parenchyma. The drawing shows intact testicular tissue bounded by surrounding fluid. This choice describes a testicular cyst."
+        "Torsion is a painful emergency, not a painless swelling.",
+        "A hydrocele is benign fluid around the testis that does not change with position.",
+        "Epididymo-orchitis is infectious with pain, redness, and fever.",
+        "A varicocele is a dilated pampiniform venous plexus, not fluid around the testis."
       ],
       "visual_clues": [
         "The large pale compartment surrounds and displaces the testis in the scrotal sac.",
@@ -12812,7 +12814,7 @@
       "source_id": "s-c165c7bcc349b3c69f41",
       "source_group_id": "g-95a1be6fa9a4384ff51c",
       "variant_id": "v-7b2264e226d79b191050",
-      "tested_concept": "Hydrocele fluid compartment",
+      "tested_concept": "What is the diagnosis, and how does it differ from a hernia?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R22",
@@ -12833,26 +12835,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 45-year-old man has had a painless swelling confined to the left scrotum for 6 months. It does not change size when he stands or lies down, there is no redness, and there is no fever. Ultrasound shows fluid surrounding a normal testis.",
+      "study_skill": "interpretation",
       "condition_name": "Hydrocele",
-      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair."
+      "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What gross anatomic feature is illustrated superior to the testis?",
+      "stem": "What is the finding, and why is it clinically important?",
       "options": [
-        "A single smooth round fluid cavity within the testis tissue",
-        "A narrow straight duct without branches",
-        "Solid tissue replacing the entire testis",
-        "Multiple dilated tortuous vessels along the spermatic cord"
+        "A hydrocele, which is the most common cause of male infertility",
+        "A seminoma, which is the most common treatable cause of infertility",
+        "A varicocele, a dilated pampiniform plexus and the most common treatable cause of male infertility",
+        "A hernia, which only occurs in children"
       ],
-      "correct_index": 3,
-      "explanation": "Several widened tortuous veins are bundled above the separate oval testis. Several winding vessels are visible rather than one straight duct.",
+      "correct_index": 2,
+      "explanation": "Step 1. Dilated tortuous veins above the testis along the spermatic cord are a varicocele (dilated pampiniform plexus), and may be visible as varicose veins. Step 2. It can present with a painless swelling and infertility, and it is the most common treatable cause of male infertility.",
       "choice_rationales": [
-        "The abnormal structures are elongated tortuous channels along the cord. This choice describes an intratesticular cyst.",
-        "Several winding vessels are visible rather than one straight duct. This choice describes a normal vas deferens.",
-        "The testicular outline persists below the distinct cord vessels. This choice describes a testicular tumor.",
-        "Several widened tortuous veins are bundled above the separate oval testis. This choice describes a varicocele, which is what the image shows."
+        "A hydrocele is fluid around the testis and is not the main cause of infertility.",
+        "A neoplasm is a different scrotal cause and is not a standard treatable infertility cause.",
+        "A varicocele is a dilated pampiniform plexus that is a treatable cause of infertility.",
+        "Hernias occur in adults and are the most common cause of scrotal mass."
       ],
       "visual_clues": [
         "Several widened tortuous veins are bundled above the separate oval testis.",
@@ -12862,7 +12865,7 @@
       "source_id": "s-faa84789f239092c4bb0",
       "source_group_id": "g-f36a65d661350d7098d9",
       "variant_id": "v-04e7e2eec99ea4aa45bc",
-      "tested_concept": "Varicocele dilated veins above the testis",
+      "tested_concept": "What is the finding, and why is it clinically important?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R22",
@@ -12883,10 +12886,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 28-year-old man has been unable to conceive with his wife for 18 months. On standing he has a left scrotal swelling above the testis that feels like a bag of worms. It does not hurt.",
+      "study_skill": "interpretation",
       "condition_name": "Varicocele",
-      "condition_overview": "A varicocele is dilation of the pampiniform venous plexus of the spermatic cord, felt as a bag of worms and more common on the left because the left testicular vein drains into the left renal vein at a right angle. It can raise scrotal temperature and impair spermatogenesis, causing infertility or testicular atrophy. A new right-sided or non-reducing varicocele should prompt evaluation for a retroperitoneal mass."
+      "condition_overview": "A varicocele is dilation of the pampiniform venous plexus of the spermatic cord, felt as a bag of worms and more common on the left because the left testicular vein drains into the left renal vein at a right angle. It can raise scrotal temperature and impair spermatogenesis, causing infertility or testicular atrophy. A new right-sided or non-reducing varicocele should prompt evaluation for a retroperitoneal mass.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "What finding dominates the lower abdomen on this sagittal CT?",
@@ -13090,20 +13094,20 @@
       "study_skill": "morphology"
     },
     {
-      "stem": "What is shown at the end of the intralobular terminal duct in the right-hand drawing?",
+      "stem": "Which structure do these cysts arise from, and what is their cancer risk?",
       "options": [
-        "A cluster of small lobular acini within the surrounding stroma",
-        "One large unbranched duct continuing indefinitely",
-        "A mass of keratinizing squamous cells",
-        "A group of blood vessels lying well outside the lobular boundary"
+        "Fat necrosis after trauma, with a high risk of malignancy",
+        "Dilation and destruction of lobules and terminal ductules, with low malignancy risk, and they are influenced by ovarian hormones",
+        "Stromal and epithelial proliferation of a lobule, with a high risk of malignancy",
+        "Collections of milk in the lactiferous duct, with a high risk of malignancy"
       ],
-      "correct_index": 0,
-      "explanation": "The right drawing shows many small rounded acini grouped around the terminal duct. The terminal duct branches into a group of small acini rather than continuing unbranched.",
+      "correct_index": 1,
+      "explanation": "Step 1. A terminal duct leading to a cluster of acini is the terminal duct lobular unit. Step 2. Breast cysts are fluid-filled epithelial-lined cavities that arise from destruction and dilation of lobules and terminal ductules, are influenced by ovarian hormones, may be multiple or recurrent, and carry low risk of malignancy, confirmed by aspiration or ultrasound.",
       "choice_rationales": [
-        "The right drawing shows many small rounded acini grouped around the terminal duct. This choice describes the terminal duct lobular unit, which is what the image shows.",
-        "The terminal duct branches into a group of small acini rather than continuing unbranched. This choice describes a single unbranched duct.",
-        "The rounded units are glandular acini with lumina, not squamous nests. This choice describes keratinizing squamous cells.",
-        "The small units are connected to the duct inside the lobule. This choice describes vessels outside the lobule."
+        "Fat necrosis is a different post-trauma process.",
+        "Cysts arise from dilated lobules and terminal ductules and have low malignancy risk.",
+        "Proliferation of stroma and epithelium describes a fibroadenoma, a solid tumor.",
+        "Milk collections are not the described origin of breast cysts."
       ],
       "visual_clues": [
         "The right drawing shows many small rounded acini grouped around the terminal duct.",
@@ -13113,7 +13117,7 @@
       "source_id": "s-60fedec1c4958f4f14b4",
       "source_group_id": "g-918ad293de4143a04f77",
       "variant_id": "v-5624df6533eba340fa50",
-      "tested_concept": "Terminal duct lobular unit configuration",
+      "tested_concept": "Which structure do these cysts arise from, and what is their cancer risk?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R26",
@@ -13134,24 +13138,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 36-year-old woman has multiple recurrent, palpable, round fluid-filled lumps in both breasts that vary with her menstrual cycle. Ultrasound confirms cysts. The drawing shows a terminal duct leading to a cluster of small acini.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which appearance is visible in the central breast lesion on this ultrasound?",
+      "stem": "What is the most likely diagnosis, and what are its histologic components?",
       "options": [
-        "An entirely black simple fluid space without internal echoes",
-        "A band of bone with dense acoustic shadow",
-        "A bright branching network without a central mass",
-        "An oval hypoechoic mass containing internal echoes"
+        "Intraductal papilloma, a tumor that causes single-duct nipple discharge",
+        "Simple cyst, an epithelial-lined fluid cavity that is anechoic",
+        "Invasive ductal carcinoma, a tumor of the stroma only",
+        "Fibroadenoma, a benign solid tumor composed of stromal and epithelial elements and common in women under 30"
       ],
       "correct_index": 3,
-      "explanation": "The oval lesion is darker than the surrounding tissue and retains internal speckled echoes. Internal echoes remain visible within the lesion rather than a uniformly anechoic center.",
+      "explanation": "Step 1. A young woman with a firm, mobile lump and a solid oval mass on ultrasound has a fibroadenoma. Step 2. Fibroadenomas are benign solid tumors of stromal and epithelial elements, the second most common breast tumor, and occur in women under 30, whereas a cyst would be fluid filled.",
       "choice_rationales": [
-        "Internal echoes remain visible within the lesion rather than a uniformly anechoic center. This choice describes a simple cyst.",
-        "There is a defined soft tissue mass rather than a bright bony interface with shadow. This choice describes bone.",
-        "The lesion has a discrete oval outline and a darker center. This choice describes a normal ductal network.",
-        "The oval lesion is darker than the surrounding tissue and retains internal speckled echoes. This choice describes a solid breast mass (such as a fibroadenoma or carcinoma), which is what the image shows."
+        "Intraductal papilloma is the most common cause of single-duct spontaneous nipple discharge.",
+        "A simple cyst is fluid-filled and anechoic, not solid with internal echoes.",
+        "Ductal carcinoma is epithelial and not typical for a young woman with a mobile mass.",
+        "Fibroadenomas are benign solid stromal and epithelial tumors in women under 30."
       ],
       "visual_clues": [
         "The oval lesion is darker than the surrounding tissue and retains internal speckled echoes.",
@@ -13161,7 +13166,7 @@
       "source_id": "s-dff9cacc3407978b42a2",
       "source_group_id": "g-14ef706d027f3ec3d7d3",
       "variant_id": "v-48aaa8e7fc25b2c7ba24",
-      "tested_concept": "Solid-appearing breast mass ultrasound",
+      "tested_concept": "What is the most likely diagnosis, and what are its histologic components?",
       "question_type": "Visual interpretation",
       "category": "Ultrasound",
       "collection": "R26",
@@ -13182,24 +13187,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A 24-year-old woman has a firm, easily movable, painless breast lump that has grown over a few months. Ultrasound shows an oval solid hypoechoic mass with internal echoes.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What contrast is visible between the center of this supplied sentinel node field and its right edge?",
+      "stem": "What does a finding of tumor cells in this node indicate, and what is its role in staging?",
       "options": [
-        "Larger paler cells centrally beside smaller darker lymphoid cells",
-        "An empty cavity centrally with a thick keratin plate at the edge",
-        "Uniform clear adipocytes filling the whole field evenly",
-        "One continuous ciliated columnar lining around a central duct"
+        "Spread to regional lymph nodes, which is part of staging along with the size of the mass and a search for metastasis",
+        "Systemic spread to bone only",
+        "A benign finding that excludes spread",
+        "A reason to avoid adjuvant therapy"
       ],
       "correct_index": 0,
-      "explanation": "The center has larger paler cellular profiles, while the edge has dense small dark lymphoid nuclei. The central area contains large nucleated cells rather than an empty cavity.",
+      "explanation": "Step 1. Large pale tumor cells within a lymph node with small lymphoid cells at the edge represent nodal metastasis. Step 2. Staging uses the size of the mass and spread of disease, regional node involvement is a marker of regional spread (about 32 percent of cancers are regional), and adjuvant radiation, chemotherapy, or hormonal therapy is chosen according to spread and type.",
       "choice_rationales": [
-        "The center has larger paler cellular profiles, while the edge has dense small dark lymphoid nuclei. This choice describes a sentinel lymph node with metastatic carcinoma, which is what the image shows.",
-        "The central area contains large nucleated cells rather than an empty cavity. This choice describes a keratin cyst.",
-        "The field includes a dark rim of smaller lymphoid cells, not uniformly clear fat. This choice describes fat replacement.",
-        "Pale lesional cells form groups without a ciliated lining around a lumen. This choice describes a ciliated duct."
+        "Nodal involvement means regional spread and influences stage.",
+        "Lymph nodes are not limited to bone spread.",
+        "Tumor cells in the node are not benign and do not exclude spread.",
+        "Spread indicates the need for adjuvant therapy and not avoiding it."
       ],
       "visual_clues": [
         "The center has larger paler cellular profiles, while the edge has dense small dark lymphoid nuclei.",
@@ -13209,7 +13215,7 @@
       "source_id": "s-9a4609a9203eba3851e9",
       "source_group_id": "g-ae09ecdd4324879346b1",
       "variant_id": "v-e065d072d7d37d76991d",
-      "tested_concept": "Sentinel node histology tumor and lymphoid compartment",
+      "tested_concept": "What does a finding of tumor cells in this node indicate, and what is its role in staging?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R26",
@@ -13230,24 +13236,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 52-year-old woman with breast cancer has a lumpectomy with sentinel node dissection. A node is examined by frozen section. The center of the node contains larger pale cells while the edge contains dense small dark lymphoid cells.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "In the diagram, where do the green channels nearest the marked breast lesion lead first?",
+      "stem": "Where does this first node lie, and why is it examined?",
       "options": [
-        "Directly to the contralateral nipple",
-        "Into the central breast duct lumen",
-        "Down through the abdominal wall to the pelvis",
-        "Toward nodes in the axillary region"
+        "In the groin, because it drains the breast",
+        "In the pelvis, because it is the first node for all cancers",
+        "In the axilla, because its status predicts regional spread and guides further surgery",
+        "In the neck, because it always contains tumor"
       ],
-      "correct_index": 3,
-      "explanation": "Green channels extend from the breast toward nodes in the axilla above and lateral to the lesion. The green channels represent lymphatics rather than the duct lumen.",
+      "correct_index": 2,
+      "explanation": "Step 1. Lymphatic channels from a breast lesion lead first toward axillary nodes. Step 2. A sentinel node biopsy (part of lumpectomy and sentinel node dissection) tests the first draining node, which predicts regional spread and decides whether further axillary surgery and adjuvant therapy are needed.",
       "choice_rationales": [
-        "The illustrated channels lead laterally toward the ipsilateral axilla. This choice describes contralateral drainage.",
-        "The green channels represent lymphatics rather than the duct lumen. This choice describes intraductal drainage.",
-        "The first illustrated nodes lie above and lateral to the breast. This choice describes pelvic drainage.",
-        "Green channels extend from the breast toward nodes in the axilla above and lateral to the lesion. This choice describes axillary lymph node drainage, which is what the image shows."
+        "The groin drains the lower limb, not the breast.",
+        "Pelvic nodes drain pelvic organs.",
+        "The axilla is the first drainage site of the breast and guides treatment.",
+        "Neck nodes are not the first drainage site shown."
       ],
       "visual_clues": [
         "Green channels extend from the breast toward nodes in the axilla above and lateral to the lesion.",
@@ -13257,7 +13264,7 @@
       "source_id": "s-75ab403086820ddeea28",
       "source_group_id": "g-ae09ecdd4324879346b1",
       "variant_id": "v-e4ab93f87125772269b6",
-      "tested_concept": "Breast sentinel lymphatic pathway",
+      "tested_concept": "Where does this first node lie, and why is it examined?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R26",
@@ -13278,24 +13285,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A 58-year-old woman has a 2 cm breast carcinoma. Radiotracer is injected around the tumor to identify the first node that receives drainage. The diagram shows channels leading from the lesion toward the armpit.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which pattern is visible in this uterine tumor section?",
+      "stem": "What is the diagnosis, and how is it treated compared with endometrioid adenocarcinoma?",
       "options": [
-        "A single uniform benign gland without any stromal proliferation",
-        "A sheet made only of mature adipocytes without other cells",
-        "Pure squamous keratin without any nucleated tissue present",
-        "Atypical epithelial structures admixed with a cellular stromal component"
+        "Endometrioid adenocarcinoma, which is not estrogen dependent and has a poor prognosis",
+        "Carcinosarcoma (MMMT), a high-risk histology treated like high-grade endometrial cancer, whereas endometrioid is estrogen-driven and usually low grade",
+        "Adenosarcoma, which is a benign epithelial tumor",
+        "Low-grade stromal sarcoma, which is a malignant epithelial tumor"
       ],
-      "correct_index": 3,
-      "explanation": "Atypical epithelial profiles are interspersed with a separate densely cellular stromal population. The specimen contains dark lesional epithelium and nucleated stromal cells rather than clear fat.",
+      "correct_index": 1,
+      "explanation": "Step 1. A biphasic tumor with malignant epithelium and malignant mesenchyme is a carcinosarcoma (malignant mixed Mullerian tumor). Step 2. It is a high-risk histology that is not estrogen dependent, arises in atrophic endometrium or polyps, is aggressive, and is staged and treated like high-grade endometrial cancer, unlike low-grade endometrioid adenocarcinoma associated with unopposed estrogen.",
       "choice_rationales": [
-        "Multiple atypical epithelial structures and a distinct cellular stroma are present. This choice describes a benign gland.",
-        "The specimen contains dark lesional epithelium and nucleated stromal cells rather than clear fat. This choice describes a lipoma.",
-        "Viable nucleated epithelial and stromal populations make up the field. This choice describes keratin debris.",
-        "Atypical epithelial profiles are interspersed with a separate densely cellular stromal population. This choice describes carcinosarcoma (malignant mixed Müllerian tumor), which is what the image shows."
+        "Endometrioid cancer is associated with unopposed estrogen and has a favorable prognosis.",
+        "Carcinosarcoma is biphasic and high risk, whereas endometrioid is usually low grade.",
+        "Adenosarcoma is not the biphasic malignant epithelial plus mesenchymal tumor defined here.",
+        "A stromal sarcoma is mesenchymal and not epithelial."
       ],
       "visual_clues": [
         "Atypical epithelial profiles are interspersed with a separate densely cellular stromal population.",
@@ -13305,7 +13313,7 @@
       "source_id": "s-03fa7be1ca24a7c72420",
       "source_group_id": "g-9b222968071ad1a29bec",
       "variant_id": "v-4183d58599005bb64e2d",
-      "tested_concept": "Uterine carcinosarcoma biphasic architecture",
+      "tested_concept": "What is the diagnosis, and how is it treated compared with endometrioid adenocarcinoma?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R27",
@@ -13326,26 +13334,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 68-year-old woman has postmenopausal bleeding and a large polypoid uterine mass. Her endometrium is atrophic. Histology shows atypical epithelial structures mixed with a separate highly cellular malignant stromal component.",
+      "study_skill": "interpretation",
       "condition_name": "Carcinosarcoma",
-      "condition_overview": "Carcinosarcoma (malignant mixed Müllerian tumor) of the uterus is an aggressive, biphasic cancer composed of malignant epithelial (carcinomatous) and malignant mesenchymal (sarcomatous) elements, and the epithelial component is now regarded as the driver, so it is treated as a high-grade carcinoma that has undergone epithelial-to-mesenchymal transformation. It occurs in postmenopausal women with bleeding and a polypoid mass protruding through the cervix, and it is linked to tamoxifen and prior pelvic radiation. Prognosis is poor."
+      "condition_overview": "Carcinosarcoma (malignant mixed Müllerian tumor) of the uterus is an aggressive, biphasic cancer composed of malignant epithelial (carcinomatous) and malignant mesenchymal (sarcomatous) elements, and the epithelial component is now regarded as the driver, so it is treated as a high-grade carcinoma that has undergone epithelial-to-mesenchymal transformation. It occurs in postmenopausal women with bleeding and a polypoid mass protruding through the cervix, and it is linked to tamoxifen and prior pelvic radiation. Prognosis is poor.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which arrangement is visible on either side of the pink stromal band?",
+      "stem": "What is the diagnosis, and how will it be treated?",
       "options": [
-        "Concentric whorls of laminated keratin on either side of the band",
-        "A thin single-layered lining of a large simple cyst",
-        "Groups of large pale tumor cells with small dark inflammatory nuclei",
-        "A uniform sheet of elongated spindle cells and nothing else"
+        "Dysgerminoma, treated with fertility-sparing unilateral salpingo-oophorectomy and staging, with BEP for all but early stage disease",
+        "Mature teratoma, treated with BEP",
+        "Yolk sac tumor, treated by surveillance only",
+        "Choriocarcinoma, treated by hysterectomy only"
       ],
-      "correct_index": 2,
-      "explanation": "Large pale tumor cells form groups separated by the pink band and smaller dark cells. The cells occur in solid groups along the septum rather than a single cyst lining.",
+      "correct_index": 0,
+      "explanation": "Step 1. A solid mass in a young woman with elevated LDH and normal AFP and hCG, with large pale cells separated by lymphocyte-rich septa, is a dysgerminoma. Step 2. It is the most common malignant germ cell tumor, is bilateral in 10 to 15 percent, is highly chemosensitive with survival above 90 percent, and is managed with fertility-sparing surgery and surveillance for stage IA to IB or BEP otherwise.",
       "choice_rationales": [
-        "Large pale nucleated cells and small dark inflammatory cells are visible rather than laminated pink material. This choice describes keratin whorls.",
-        "The cells occur in solid groups along the septum rather than a single cyst lining. This choice describes a simple cyst lining.",
-        "Large pale tumor cells form groups separated by the pink band and smaller dark cells. This choice describes metastatic carcinoma with inflammatory cells (such as dysgerminoma or seminoma), which is what the image shows.",
-        "The large cells are rounded and pale, with smaller dark cells along the fibrous tissue. This choice describes a spindle cell tumor."
+        "Dysgerminoma has high LDH and is treated with fertility-sparing surgery and BEP when beyond early stage.",
+        "A mature teratoma is benign and has no need for BEP.",
+        "A yolk sac tumor would have elevated AFP and is treated with BEP in nearly all patients.",
+        "Choriocarcinoma has elevated hCG."
       ],
       "visual_clues": [
         "Large pale tumor cells form groups separated by the pink band and smaller dark cells.",
@@ -13355,7 +13364,7 @@
       "source_id": "s-7f1bdc050f6028a67aa3",
       "source_group_id": "g-90d185edfcef75bf31e6",
       "variant_id": "v-f0cc6c8f7517892e4709",
-      "tested_concept": "Dysgerminoma fibrous septum pattern",
+      "tested_concept": "What is the diagnosis, and how will it be treated?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R27",
@@ -13376,26 +13385,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "An 18-year-old woman has a 15 cm solid right ovarian mass. LDH is elevated, and AFP and hCG are normal. Histology shows groups of large pale cells separated by thin fibrous bands containing lymphocytes.",
+      "study_skill": "interpretation",
       "condition_name": "Dysgerminoma",
-      "condition_overview": "Dysgerminoma is the ovarian counterpart of testicular seminoma and the most common malignant ovarian germ cell tumor, typically in young women. It forms a solid, pale, fleshy, lobulated mass. Microscopically large round cells with clear cytoplasm, distinct cell borders, and central nuclei with prominent nucleoli are arranged in nests separated by fibrous septa infiltrated by lymphocytes. Cells are OCT3/4, CD117, and PLAP positive. Tumors are highly radiosensitive and chemosensitive with an excellent prognosis. It can occur in gonadal dysgenesis, such as Swyer syndrome."
+      "condition_overview": "Dysgerminoma is the ovarian counterpart of testicular seminoma and the most common malignant ovarian germ cell tumor, typically in young women. It forms a solid, pale, fleshy, lobulated mass. Microscopically large round cells with clear cytoplasm, distinct cell borders, and central nuclei with prominent nucleoli are arranged in nests separated by fibrous septa infiltrated by lymphocytes. Cells are OCT3/4, CD117, and PLAP positive. Tumors are highly radiosensitive and chemosensitive with an excellent prognosis. It can occur in gonadal dysgenesis, such as Swyer syndrome.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What structure occupies the center of the glomeruloid formation?",
+      "stem": "What is the diagnosis, and what is the prognosis with treatment?",
       "options": [
-        "A fat lobule composed of mature adipocytes",
-        "A vessel-containing stromal core surrounded by tumor epithelium",
-        "An anucleate laminated keratin pearl at the center",
-        "A mature oocyte surrounded by granulosa cells"
+        "Mature teratoma with a Rokitansky tubercle, which is aggressive",
+        "Dysgerminoma with Reinke crystals, which is slow growing",
+        "Granulosa cell tumor with Call-Exner bodies, which causes elevated hCG",
+        "Yolk sac (endodermal sinus) tumor with Schiller-Duval bodies, which is aggressive but highly chemosensitive"
       ],
-      "correct_index": 1,
-      "explanation": "The vascular core surrounded by a rim of tumor cells forms a Schiller–Duval body, a characteristic structure in yolk sac tumor. The structure is built around a vessel, without an oocyte at its center.",
+      "correct_index": 3,
+      "explanation": "Step 1. A glomeruloid structure with a central vessel is a Schiller-Duval body, and with a high AFP in a young woman it indicates a yolk sac tumor. Step 2. These tumors are rapidly growing and aggressive but highly chemosensitive, and essentially all patients get fertility-sparing surgery plus adjuvant BEP.",
       "choice_rationales": [
-        "The central focus contains a vessel and is encircled by tumor rather than adipocytes. This choice describes a fat lobule.",
-        "The vascular core surrounded by a rim of tumor cells forms a Schiller–Duval body, a characteristic structure in yolk sac tumor. This choice describes a Schiller-Duval body of yolk sac tumor, which is what the image shows.",
-        "The focus includes a vascular lumen and is not an anucleate pink whorl. This choice describes a keratin pearl.",
-        "The structure is built around a vessel, without an oocyte at its center. This choice describes a normal ovarian follicle."
+        "A Rokitansky protuberance is found in a mature teratoma, which is benign.",
+        "Reinke crystals belong to Leydig cell tumor, and dysgerminoma has lymphocytes.",
+        "Call-Exner bodies belong to granulosa cell tumor, which secretes estrogen and inhibin.",
+        "Schiller-Duval bodies mark yolk sac tumor, which is aggressive and chemosensitive."
       ],
       "visual_clues": [
         "A small vascular core sits within the central projection and is surrounded by a rim of tumor cells.",
@@ -13405,7 +13415,7 @@
       "source_id": "s-0a6d7a1ad3b59885b465",
       "source_group_id": "g-44a6717d235e03dedbf6",
       "variant_id": "v-f8f0d4e19cb7b4c8fe20",
-      "tested_concept": "Schiller-Duval central vascular profile",
+      "tested_concept": "What is the diagnosis, and what is the prognosis with treatment?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R27",
@@ -13426,26 +13436,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 17-year-old girl has a rapidly growing pelvic mass and an AFP of 5,000 ng/mL. Histology shows glomerulus-like structures with a central vessel surrounded by tumor cells.",
+      "study_skill": "interpretation",
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What gross material is visible between the exposed bowel loops?",
+      "stem": "What is the diagnosis, and what should be done with the appendix?",
       "options": [
-        "Only fresh dark blood without any pale deposits",
-        "Numerous hair shafts and teeth within the deposits",
-        "Pools and nodules of pale gelatinous mucinous material",
-        "A uniform thin dry fibrous membrane over the loops"
+        "Meigs syndrome, so the appendix is removed to treat ascites",
+        "Krukenberg tumor, so the appendix is left alone",
+        "Pseudomyxoma peritonei, which most often arises from the appendix, so the appendix is evaluated and usually removed",
+        "Omental cake from serous cancer, so the appendix is left alone"
       ],
       "correct_index": 2,
-      "explanation": "Shiny yellow-green gelatinous material and rounded deposits occupy spaces among the bowel loops. Thick irregular gelatinous deposits occupy spaces between loops rather than forming one thin membrane.",
+      "explanation": "Step 1. Diffuse gelatinous mucinous material and deposits over the bowel in a woman with a mucinous ovarian tumor is pseudomyxoma peritonei. Step 2. It most often arises from the appendix rather than the ovary, so the appendix should be evaluated and usually removed with any mucinous ovarian tumor.",
       "choice_rationales": [
-        "Pale gelatinous material is visible at multiple sites between bowel loops. This choice describes blood.",
-        "The deposits are amorphous and pale, without recognizable hair or teeth. This choice describes a mature teratoma.",
-        "Shiny yellow-green gelatinous material and rounded deposits occupy spaces among the bowel loops. This choice describes pseudomyxoma peritonei (mucinous deposits), which is what the image shows.",
-        "Thick irregular gelatinous deposits occupy spaces between loops rather than forming one thin membrane. This choice describes a fibrous adhesion."
+        "Meigs syndrome is a fibroma with ascites and effusion.",
+        "Krukenberg tumors are signet-ring metastases forming solid ovarian masses.",
+        "Pseudomyxoma peritonei usually arises from the appendix, so it is evaluated and removed.",
+        "Serous tumors have psammoma bodies and omental caking, not gelatinous deposits."
       ],
       "visual_clues": [
         "Shiny yellow-green gelatinous material and rounded deposits occupy spaces among the bowel loops.",
@@ -13455,7 +13466,7 @@
       "source_id": "s-76462d6b136f4031cbb0",
       "source_group_id": "g-6974b8ab91dbb920947c",
       "variant_id": "v-ad4da1b42b0ca2992df9",
-      "tested_concept": "Pseudomyxoma peritonei gross gelatinous deposits",
+      "tested_concept": "What is the diagnosis, and what should be done with the appendix?",
       "question_type": "Visual interpretation",
       "category": "Gross",
       "collection": "R27",
@@ -13476,10 +13487,11 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 47-year-old woman has progressive abdominal distension. At laparotomy, thick gelatinous material and nodules coat the bowel loops and peritoneum. She also has a mucinous ovarian tumor.",
+      "study_skill": "interpretation",
       "condition_name": "Pseudomyxoma peritonei",
-      "condition_overview": "Pseudomyxoma peritonei is the accumulation of abundant gelatinous mucin throughout the peritoneal cavity from a mucin-secreting tumor, usually a ruptured appendiceal mucinous neoplasm and less often an ovarian mucinous tumor. Pools and nodules of mucin contain scant epithelial cells, and mucin progressively fills the abdomen. It causes distension and bowel obstruction and is treated by cytoreductive surgery with hyperthermic intraperitoneal chemotherapy."
+      "condition_overview": "Pseudomyxoma peritonei is the accumulation of abundant gelatinous mucin throughout the peritoneal cavity from a mucin-secreting tumor, usually a ruptured appendiceal mucinous neoplasm and less often an ovarian mucinous tumor. Pools and nodules of mucin contain scant epithelial cells, and mucin progressively fills the abdomen. It causes distension and bowel obstruction and is treated by cytoreductive surgery with hyperthermic intraperitoneal chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which arrangement is visible in this cervical lesion?",
@@ -16904,7 +16916,7 @@
       "source_id": "s-08ef699cd1967dd6300e",
       "source_group_id": "g-e390edf9fb0475d16154",
       "variant_id": "v-b6ead658a60677bebfb6",
-      "tested_concept": "Benign prostate glandular architecture",
+      "tested_concept": "Which three components hypertrophy in the enlarged gland, and which predominates?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R22",
@@ -16925,28 +16937,29 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which pattern is visible across this supplied prostate section?",
+      "case_context": "A 62-year-old man has a benign prostate biopsy. Sections show many branching glandular spaces with distinct borders, separated by pink tissue containing smooth muscle fibers.",
+      "stem": "Which three components hypertrophy in the enlarged gland, and which predominates?",
       "options": [
-        "Only isolated small single cells between thick stromal bands",
-        "One large smooth cyst occupying almost the whole field",
-        "Repeated branching pale lumina separated by pink stroma",
-        "A uniform solid sheet with no luminal spaces"
+        "Glands, smooth muscle, and connective tissue, with the glandular tissue predominating",
+        "Seminal vesicle tissue only, with no gland change",
+        "Basal cells only, with no stromal change",
+        "Neurons, glands, and fat, with fat predominating"
       ],
-      "correct_index": 2,
-      "explanation": "Many branching glandular spaces have distinct borders and are separated by intervening pink tissue. The dark epithelial cells line repeated branching lumina.",
+      "correct_index": 0,
+      "explanation": "Step 1. Branching glandular spaces within muscular and connective tissue stroma are benign prostate. Step 2. The prostate is made of smooth muscle, connective tissue, and numerous small glands, and in benign prostatic hyperplasia all three elements enlarge, most of it glandular tissue, which is why alpha blockers (muscle) and 5-ARIs (gland) both help.",
       "choice_rationales": [
-        "The dark epithelial cells line repeated branching lumina. This choice describes a stromal-only lesion.",
-        "Multiple branching spaces are distributed across the field. This choice describes a prostatic cyst.",
-        "Many branching glandular spaces have distinct borders and are separated by intervening pink tissue. This choice describes benign prostatic hyperplasia (glandular nodule), which is what the image shows.",
-        "Pink stroma separates open lumina and their epithelial linings. This choice describes solid prostatic carcinoma."
+        "All three elements enlarge, and glandular tissue predominates.",
+        "The seminal vesicles are separate structures.",
+        "BPH involves glands, muscle, and connective tissue, not only basal cells.",
+        "Neurons and fat are not the main components of the prostate."
       ],
       "visual_clues": [
         "Many branching glandular spaces have distinct borders and are separated by intervening pink tissue."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostate glands",
-      "condition_overview": "Benign prostatic glands have two cell layers, an inner secretory luminal layer and an outer layer of basal cells that stain positive for p63 and high-molecular-weight cytokeratin. Cancer lacks basal cells, so retained p63 positive basal cells indicate a benign gland, which is a key immunohistochemical distinction."
+      "condition_overview": "Benign prostatic glands have two cell layers, an inner secretory luminal layer and an outer layer of basal cells that stain positive for p63 and high-molecular-weight cytokeratin. Cancer lacks basal cells, so retained p63 positive basal cells indicate a benign gland, which is a key immunohistochemical distinction.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-03e008f6d24b25c3ac6f",
