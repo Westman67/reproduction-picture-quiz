@@ -9701,7 +9701,7 @@
       "asset_id": "a-f71ac016c3b34c8da2c185b5d02860a827860f68458a9359ef59f595e48e51e7",
       "variant_id": "v-999557fe51cafedd1af3",
       "question_type": "Clinical visual question",
-      "tested_concept": "Timing of the menopausal transition",
+      "tested_concept": "Which statement about the timeline applies to her at four months since the last period?",
       "visual_target": "Timing of the menopausal transition",
       "category": "Diagram",
       "collection": "R30",
@@ -9710,23 +9710,23 @@
       "zoom_image": "assets/zoom/e6654d638cd440a64ebf18e27ba97e50639d36a4b93200da9c5d7a985cbd7664.webp",
       "original_image": "assets/zoom/24a58e008a13dfa360c4cf9a493bb1d406b04190995e63e7c1921ed4f973eb0e.webp",
       "original_filename": "Womans Lifetime Perimenopause and Menopause - Diagram.png",
-      "stem": "At four months since the last period, which statement about the two milestones applies to the case?",
+      "stem": "Which statement about the timeline applies to her at four months since the last period?",
       "options": [
-        "The later marker is the first sign of menstrual cycle change",
-        "The later marker is identified only after 12 months without menses",
-        "The earlier marker requires a full 12 months without menses",
-        "The later marker occurs after only four months without menses",
-        "The later marker must precede any menstrual cycle changes"
+        "Menopause is diagnosed retrospectively after 12 months without menses, so she is still in the transition and cannot yet be labeled postmenopausal",
+        "She has primary ovarian insufficiency because symptoms started early",
+        "She is already postmenopausal because the last period was the final menstrual period",
+        "She is postmenopausal only if FSH is elevated on one test",
+        "She is premenopausal because hot flashes occur only before menopause"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "choice_rationales": [
-        "The earlier arrow marks the first changes. This choice describes the later marker being the first sign of cycle change.",
-        "The diagram puts menopause after the start of perimenopausal changes. This choice describes menopause (confirmed only after 12 months without menses), which is what the image shows.",
-        "The 12-month criterion belongs to the later milestone. This choice describes an earlier marker needing 12 months.",
-        "Four months falls short of the retrospective interval described in the lecture. This choice describes a later marker after four months.",
-        "The perimenopause arrow comes first. This choice describes a later marker preceding all cycle changes."
+        "Menopause is identified only after 12 months without menses.",
+        "Age 53 is near the average age of menopause, and nothing indicates primary ovarian insufficiency.",
+        "A final period is only recognized as such after 12 months pass.",
+        "A single FSH value is not diagnostic because levels fluctuate.",
+        "Hot flashes occur commonly during perimenopause and after."
       ],
-      "explanation": "The earlier marker denotes first changes during perimenopause. The later marker denotes menopause, defined retrospectively after 12 months without menstruation in the lecture.",
+      "explanation": "Step 1. The lecture defines menopause as diagnosed retrospectively after 12 months without a period, and perimenopause as the interval beginning with the first signs of change. Step 2. At four months she has not completed the 12 months, so she is in the transition, even though her symptoms are typical. Hormone levels are not helpful for diagnosis during perimenopause, and as many as 75 percent of perimenopausal women in the US have hot flashes.",
       "visual_clues": [
         "Compare the labels under the two arrows and their order along the timeline."
       ],
@@ -9748,15 +9748,16 @@
         }
       ],
       "case_id": "r30-transition",
-      "scenario": "A 53-year-old last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "At four months since the last period, which statement about the two milestones applies to the case?",
+      "scenario": "A 53-year-old woman last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating. She asks whether she has reached menopause.",
+      "lead_in": "Which statement about the timeline applies to her at four months since the last period?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Menopause",
-      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients."
+      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-curves-case",
@@ -9765,7 +9766,7 @@
       "asset_id": "a-d0788bc126fa3d36f7f3262b246420a2ca9f4d1ad2a36a25b44af3a5549823ba",
       "variant_id": "v-1e737882bf829c11aaf2",
       "question_type": "Clinical visual question",
-      "tested_concept": "FSH and estradiol trajectories",
+      "tested_concept": "Which change in the curves supports the ovarian transition, and why is a single blood test of limited value for her?",
       "visual_target": "FSH and estradiol trajectories",
       "category": "Graphs",
       "collection": "R30",
@@ -9774,23 +9775,23 @@
       "zoom_image": "assets/zoom/ba6e2106cbdcdf46932f01c3f75e2a2fbe544eb3293030129e52a86e11af69f3.webp",
       "original_image": "assets/zoom/ba6e2106cbdcdf46932f01c3f75e2a2fbe544eb3293030129e52a86e11af69f3.webp",
       "original_filename": "FSH and Estradiol Around Final Menstrual Period - Diagram.png",
-      "stem": "Which change in the curves supports the ovarian transition being discussed?",
+      "stem": "Which change in the curves supports the ovarian transition, and why is a single blood test of limited value for her?",
       "options": [
-        "FSH falls and estradiol rises",
-        "Both hormones rise over the interval",
-        "FSH rises and estradiol falls",
-        "Both hormones fall over the interval",
-        "Both hormones remain near their earlier plateaus"
+        "FSH and estradiol stay flat so symptoms are not hormonal",
+        "FSH falls and estradiol rises because the pituitary stops responding",
+        "FSH rises and estradiol falls because lower ovarian estradiol reduces negative feedback, but estradiol fluctuates in perimenopause so a single test is unreliable",
+        "Both FSH and estradiol rise because of ovarian stimulation",
+        "FSH falls while estradiol falls because the hypothalamus fails"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "Over the interval around the final menstrual period FSH rises and estradiol falls, so this choice reverses both curves. This choice describes a rising estradiol with falling FSH.",
-        "FSH rises, but the E2 curve moves downward. This choice describes a rise in both hormones.",
-        "The curve labeled FSH climbs while the curve labeled E2 drops. This choice describes the menopausal transition (rising FSH and falling estradiol), which is what the image shows.",
-        "Estradiol falls while the FSH curve rises. This choice describes a fall in both hormones.",
-        "Each curve changes markedly around year zero. This choice describes stable hormone levels."
+        "The curves change over this interval, not flat.",
+        "FSH rises rather than falls when estradiol is low.",
+        "The graph shows FSH rising as estradiol falls, with loss of negative feedback.",
+        "Estradiol falls and does not rise during the transition.",
+        "A falling FSH with falling estradiol describes a central cause, not ovarian transition."
       ],
-      "explanation": "Over the interval around the final menstrual period, FSH rises and estradiol falls. The lecture relates rising gonadotropins to reduced ovarian negative feedback.",
+      "explanation": "Step 1. Around the final menstrual period estradiol production falls, and the reduced negative feedback on the hypothalamic pituitary axis raises FSH. Step 2. The lecture adds that in perimenopause estradiol levels are unpredictable and fluctuate, so measuring FSH and estradiol is not helpful for diagnosis and symptoms are a better marker. Low or normal FSH with low estradiol would instead suggest a central cause.",
       "visual_clues": [
         "Locate zero on the time axis and follow each labeled curve across it."
       ],
@@ -9808,15 +9809,16 @@
         }
       ],
       "case_id": "r30-transition",
-      "scenario": "A 53-year-old last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "Which change in the curves supports the ovarian transition being discussed?",
+      "scenario": "A 53-year-old woman last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating. Her clinician shows a graph of FSH and estradiol from two years before to two years after the final menstrual period.",
+      "lead_in": "Which change in the curves supports the ovarian transition, and why is a single blood test of limited value for her?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "study_skill": "interpretation",
       "condition_name": "Menopause",
-      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients."
+      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-flash-case",
@@ -9825,7 +9827,7 @@
       "asset_id": "a-39e6ef385a5f4aa6a249eb374694ee8eda99779c871f6a9807a4b3da1b16170b",
       "variant_id": "v-f7441dd6413ae0fc1c9a",
       "question_type": "Clinical visual question",
-      "tested_concept": "Sequence of flushing and chills",
+      "tested_concept": "Which sequence matches her episode, and what narrowing explains it?",
       "visual_target": "Sequence of flushing and chills",
       "category": "Diagram",
       "collection": "R30",
@@ -9834,23 +9836,23 @@
       "zoom_image": "assets/zoom/6dc1b90cdde94ade72545d3de8fa1d2c62ad33dcd955012385753f51a19e3972.webp",
       "original_image": "assets/zoom/2d84fc22aad29e0afd28e12fd9bd34dc36288ec2ca135036da026bf623e77113.webp",
       "original_filename": "Hot Flash Thermoregulatory Physiology - Diagram.png",
-      "stem": "Which visible sequence best matches the episode shown in the thermoregulation diagram?",
+      "stem": "Which sequence matches her episode, and what narrowing explains it?",
       "options": [
-        "Chills precede flushing and the thermometer level rises in the final figure shown",
-        "The final figure is the most flushed and shows the highest level",
-        "The thermometer level is identical in the second and fourth figures",
-        "Upper-body flushing is followed later by chills and a lower thermometer level",
-        "The final figure is flushed without any illustrated shivering"
+        "Upper body flushing with sweating, followed later by chills and a lower core temperature, because the thermoregulatory zone is narrowed and small temperature rises trigger heat dissipation",
+        "Constant flushing with no temperature change, because the zone is unaffected",
+        "Headache and severe hypertension first, because of catecholamines",
+        "A rise in temperature with no flushing, followed by shivering and a higher core temperature",
+        "Chills first, then flushing, because the zone is widened"
       ],
-      "correct_index": 3,
+      "correct_index": 0,
       "choice_rationales": [
-        "The shivering figure appears last and has the lowest illustrated level. This choice describes chills preceding flushing.",
-        "The final figure is blue-toned and shivering. This choice describes a hot flash peaking in the final figure.",
-        "The red column is visibly shorter in the last panel. This choice describes equal thermometer levels.",
-        "The final figure has shivering marks and a lower illustrated level than the flushed figure. This choice describes a hot flash (upper-body flushing followed by chills and a lower core temperature), which is what the image shows.",
-        "The final panel shows surrounding marks and a shivering posture. This choice describes flushing with no chills."
+        "Narrowed thermoregulatory zone leads to flushing and sweating, then chills.",
+        "The flushes are accompanied by vasodilation and sweating.",
+        "Severe hypertension with headache points to pheochromocytoma, not these episodes.",
+        "The lecture describes flushing and sweating, not a rise in core temperature with shivering.",
+        "The zone is narrowed, not widened."
       ],
-      "explanation": "The flushed figure has reddening over the upper body. The last figure is shivering with a lower illustrated thermometer level. The lecture’s original labels show sweating before the chills phase.",
+      "explanation": "Step 1. A vasomotor symptom is a sensation of warmth to intense heat on the upper body and face, with vasodilation and sweating. Step 2. The lecture states the cause is a narrowing of the normal thermoregulatory zone, so small increases in temperature trigger heat loss responses, which can overshoot and be followed by chills and a lower body temperature. The pattern is episodic and typically lasts years, with a median duration of 7.4 years.",
       "visual_clues": [
         "Compare upper-body color and the thermometer in the second and fourth figures."
       ],
@@ -9868,15 +9870,16 @@
         }
       ],
       "case_id": "r30-transition",
-      "scenario": "A 53-year-old last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "Which visible sequence best matches the episode shown in the thermoregulation diagram?",
+      "scenario": "A 53-year-old woman last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating. A thermoregulation diagram shows the sequence of one episode.",
+      "lead_in": "Which sequence matches her episode, and what narrowing explains it?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "mechanism",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Menopausal vasomotor symptoms",
-      "condition_overview": "Hot flashes are sudden sensations of heat with flushing and sweating, caused by estrogen withdrawal narrowing the thermoneutral zone in the hypothalamus so that small rises in core temperature trigger heat dissipation. Treatment includes hormone therapy, SSRIs or SNRIs, gabapentin, and fezolinetant. They must be distinguished from pheochromocytoma, thyroid disease, and carcinoid, which cause episodic flushing or sweating with other features."
+      "condition_overview": "Hot flashes are sudden sensations of heat with flushing and sweating, caused by estrogen withdrawal narrowing the thermoneutral zone in the hypothalamus so that small rises in core temperature trigger heat dissipation. Treatment includes hormone therapy, SSRIs or SNRIs, gabapentin, and fezolinetant. They must be distinguished from pheochromocytoma, thyroid disease, and carcinoid, which cause episodic flushing or sweating with other features.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-epithelium-case",
@@ -9885,7 +9888,7 @@
       "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
       "variant_id": "v-af21e15a60392d3dd4cf",
       "question_type": "Clinical visual question",
-      "tested_concept": "Epithelial response to low estrogen",
+      "tested_concept": "Which histologic change explains these symptoms, and how does hormone therapy relate to them?",
       "visual_target": "Epithelial response to low estrogen",
       "category": "Diagram",
       "collection": "R30",
@@ -9894,23 +9897,23 @@
       "zoom_image": "assets/zoom/fefb78268fa20e50d1f4a720a59670d2fee615f304a60aea2e0d70bf9226759f.webp",
       "original_image": "assets/zoom/f0a2d277a93d894a0f7062a678e60b6a5a9367cc16675b063a133020f1ccab8e.webp",
       "original_filename": "Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
-      "stem": "Which visible panel difference supports a low-estrogen effect on vaginal tissue?",
+      "stem": "Which histologic change explains these symptoms, and how does hormone therapy relate to them?",
       "options": [
-        "A thicker epithelium with more cell layers",
-        "A deeper and more undulating epithelial interface",
-        "Complete absence of surface epithelium",
-        "Replacement of the surface by large open glandular spaces",
-        "A thinner epithelial layer with fewer cell layers"
+        "An unchanged epithelium, and the symptoms are psychological",
+        "A thicker epithelium with more cell layers from low estrogen, and hormone therapy worsens it",
+        "A thinner epithelium from high estrogen, and hormone therapy is contraindicated",
+        "A thinner epithelium with fewer cell layers from low estrogen, and hormone therapy is effective for genitourinary symptoms of menopause",
+        "Koilocytic epithelium from HPV, and hormone therapy cures it"
       ],
-      "correct_index": 4,
+      "correct_index": 3,
       "choice_rationales": [
-        "The right-hand panel has a thinner epithelial layer with fewer cell layers, so a thicker layer describes the other panel. This choice describes a thicker vaginal epithelium.",
-        "The right interface is comparatively flat. This choice describes a deeper epithelial interface.",
-        "An epithelial layer remains visible on the right. This choice describes absent surface epithelium.",
-        "The right shows a thin continuous layer, without open glandular spaces. This choice describes open glandular spaces.",
-        "The epithelium on the right occupies much less depth than on the left. This choice describes vaginal atrophy (a thinner epithelium with fewer cell layers), which is what the image shows."
+        "The change is structural and measurable, not psychological.",
+        "Low estrogen thins and does not thicken the epithelium.",
+        "The thinning is from low, not high, estrogen.",
+        "Estrogen loss thins the epithelium, and hormone therapy treats it.",
+        "Koilocytes indicate HPV and are not the postmenopausal change."
       ],
-      "explanation": "The right-hand panel has a thinner epithelial layer with fewer cell layers and a flatter interface. The lecture identifies it as the low-estrogen postmenopausal illustration.",
+      "explanation": "Step 1. The low estrogen postmenopausal panel shows a thinner epithelium with fewer cell layers, which explains dryness and dyspareunia (genitourinary syndrome of menopause). Step 2. The lecture states hormone therapy is the most effective treatment for vasomotor symptoms and genitourinary symptoms, and that topical therapy should be used when only vaginal dryness is present. Estrogen is the cause of the thinning when low.",
       "visual_clues": [
         "Compare the thickness of the cellular layer above the pink supporting tissue."
       ],
@@ -9928,15 +9931,16 @@
         }
       ],
       "case_id": "r30-transition",
-      "scenario": "A 53-year-old last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "Which visible panel difference supports a low-estrogen effect on vaginal tissue?",
+      "scenario": "A 53-year-old woman last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating. She now also reports vaginal dryness and burning with intercourse. A teaching slide compares the vaginal epithelium before and after menopause.",
+      "lead_in": "Which histologic change explains these symptoms, and how does hormone therapy relate to them?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Menopause",
-      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients."
+      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-transition-depth-ovarian-origin",
@@ -9946,28 +9950,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R30",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "tested_concept": "Hormonal consequence of the initiating ovarian change",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which change belongs under the black rectangle to link the ovarian change to the epithelial effect?",
       "visual_target": "Hormonal consequence of the initiating ovarian change",
-      "scenario": "A 53-year-old last menstruated four months ago and reports brief episodes of upper chest heat, facial redness, and sweating.",
-      "lead_in": "Which change belongs under the black rectangle and connects the visible branch to a downstream epithelial effect?",
-      "stem": "Which change belongs under the black rectangle and connects the visible branch to a downstream epithelial effect?",
+      "scenario": "A 53-year-old woman last menstruated four months ago. She reports episodes of upper chest heat, facial redness, and sweating. A flow diagram shows the ovary at the top, a black rectangle in the middle, and an effect on vaginal epithelium at the bottom.",
+      "lead_in": "Which change belongs under the black rectangle to link the ovarian change to the epithelial effect?",
+      "stem": "Which change belongs under the black rectangle to link the ovarian change to the epithelial effect?",
       "options": [
-        "Increased estradiol in serum and tissue",
-        "Lower estradiol in serum and tissue",
-        "Increased follicular responsiveness to gonadotropins",
-        "Higher progesterone from expansion of the follicle pool",
-        "Reduced FSH through stronger ovarian negative feedback"
+        "Higher progesterone in serum",
+        "Higher estradiol in serum and tissue",
+        "Higher inhibin in serum",
+        "Lower FSH in serum",
+        "Lower estradiol in serum and tissue"
       ],
-      "correct_index": 1,
+      "correct_index": 4,
       "choice_rationales": [
-        "Loss of the follicle pool reduces ovarian estradiol production. This choice describes increased serum and tissue estradiol.",
-        "Loss of primary ovarian follicles leads to lower estradiol in serum and tissue. The lecture relates low estrogen exposure to thinning of the vaginal epithelium. This choice describes reduced estradiol in the serum and tissue (menopause), which is what the image shows.",
-        "The transition slide describes reduced ovarian sensitivity. This choice describes increased follicular responsiveness.",
-        "The visible branch shows follicle loss rather than expansion. This choice describes higher progesterone.",
-        "Lower estradiol weakens feedback; the lecture shows a rise in FSH. This choice describes reduced FSH."
+        "Progesterone falls with anovulation, not rises.",
+        "Higher estradiol would thicken the epithelium and is not seen.",
+        "Inhibin falls with follicle loss in the transition and would not explain epithelial thinning.",
+        "FSH rises, not falls, as feedback is lost.",
+        "Lower estradiol is the link between ovarian decline and epithelial thinning."
       ],
-      "explanation": "Loss of primary ovarian follicles leads to lower estradiol in serum and tissue. The lecture relates low estrogen exposure to thinning of the vaginal epithelium. Loss of the follicle pool reduces ovarian estradiol production.",
+      "explanation": "Step 1. In the menopausal transition the ovary produces less estradiol as follicles are depleted, so serum and tissue estradiol fall. Step 2. The lecture links falling estradiol to reduced negative feedback and a rise in FSH, and to the thin, low estrogen vaginal epithelium that causes dryness. The black rectangle therefore holds lower estradiol, which sits between the ovarian change and the downstream epithelial effect.",
       "visual_clues": [
         "Loss of primary ovarian follicles leads to lower estradiol in serum and tissue."
       ],
@@ -9998,35 +10002,36 @@
           "page": 54
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Menopause",
-      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients."
+      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-flushing-pattern",
       "collection": "R30",
       "study_skill": "interpretation",
       "category": "Clinical data",
-      "tested_concept": "Associated symptoms in the flushing differential",
+      "tested_concept": "Which added pattern would most strongly shift attention to catecholamine excess, and what test would follow?",
       "visual_target": "Associated symptoms in the flushing differential",
       "question_type": "Clinical visual question",
-      "stem": "Which added pattern would most strongly shift attention to catecholamine excess?",
+      "stem": "Which added pattern would most strongly shift attention to catecholamine excess, and what test would follow?",
       "options": [
-        "Pattern A, because heat and night sweats establish catecholamine excess.",
-        "Pattern C, because diarrhea is the distinguishing sign of a catecholamine surge.",
-        "Patterns A and C, because the shared flush is enough to establish the mechanism.",
-        "All three patterns, because the additional symptoms have no diagnostic value.",
-        "Pattern B, with severe hypertension, headache, and palpitations during spells."
+        "Pattern A, which fits menopause, confirmed with estradiol",
+        "Pattern A, which fits pheochromocytoma, confirmed with serum FSH",
+        "Pattern B, which fits carcinoid syndrome, confirmed with TSH",
+        "Neither, since catecholamines never cause flushing",
+        "Pattern B, which fits pheochromocytoma, confirmed with plasma free metanephrines or 24 hour urinary catecholamines and metanephrines"
       ],
       "choice_rationales": [
-        "Pattern A reproduces the original heat episodes without the more specific hypertensive pattern. This choice describes pattern A, hot flashes of menopause.",
-        "R30 discusses diarrhea with wheezing as part of the carcinoid pattern. This choice describes pattern C, a diarrheal syndrome (carcinoid-type).",
-        "Flushing is shared. The associated signs and symptoms distinguish the patterns. This choice describes a shared flush pattern.",
-        "The comparison distinguishes the hypertensive spells from other causes of flushing. This choice describes an insignificant symptom set.",
-        "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways. This choice describes pheochromocytoma-type catecholamine excess (spells with severe hypertension, headache, and palpitations), which is what the image shows."
+        "Estradiol does not test carcinoid flushing, and menopause does not cause severe hypertension spells.",
+        "FSH does not diagnose pheochromocytoma, and diarrhea with flushing points to carcinoid.",
+        "Carcinoid syndrome causes flushing with diarrhea, not severe hypertension, and TSH tests the thyroid.",
+        "Pheochromocytoma flushing with hypertension is a recognized pattern.",
+        "Spells with severe hypertension, headache, and palpitations indicate catecholamine excess."
       ],
       "correct_index": 4,
-      "explanation": "The lecture pairs spells of headache, palpitations, diaphoresis, and severe hypertension with a catecholamine-producing tumor. The other associated findings point to different pathways. Pattern A reproduces the original heat episodes without the more specific hypertensive pattern.",
+      "explanation": "Step 1. A pheochromocytoma is a tumor of adrenal medulla chromaffin cells that overproduces catecholamines (dopamine, norepinephrine, epinephrine) with spells of flushing in association with severe hypertension. Step 2. The lecture lists plasma metanephrine and 24 hour urinary catecholamine and metanephrine tests for diagnosis. Carcinoid flushing, by contrast, typically affects the head and neck with diarrhea in midgut tumors with metastases, and menopausal flushes come with narrowed thermoregulation.",
       "visual_clues": [
         "Focus on the accompanying symptoms rather than on flushing alone."
       ],
@@ -10037,9 +10042,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "The lecture revisits episodic flushing by comparing the original case with two systemic patterns.",
-      "lead_in": "Which added pattern would most strongly shift attention to catecholamine excess?",
+      "reasoning_type": "second or third order",
+      "scenario": "The lecture compares the original hot flash case with two other systemic flushing patterns. Pattern A has watery diarrhea and flushing of the head and neck. Pattern B has spells of flushing with severe hypertension, headache, and palpitations.",
+      "lead_in": "Which added pattern would most strongly shift attention to catecholamine excess, and what test would follow?",
       "visual_kind": "table",
       "source_group_id": "g-table-q-r30-flushing-pattern",
       "source_origin": "lecture-table",
@@ -10089,33 +10094,34 @@
         }
       ],
       "condition_name": "Menopausal vasomotor symptoms",
-      "condition_overview": "Hot flashes are sudden sensations of heat with flushing and sweating, caused by estrogen withdrawal narrowing the thermoneutral zone in the hypothalamus so that small rises in core temperature trigger heat dissipation. Treatment includes hormone therapy, SSRIs or SNRIs, gabapentin, and fezolinetant. They must be distinguished from pheochromocytoma, thyroid disease, and carcinoid, which cause episodic flushing or sweating with other features."
+      "condition_overview": "Hot flashes are sudden sensations of heat with flushing and sweating, caused by estrogen withdrawal narrowing the thermoneutral zone in the hypothalamus so that small rises in core temperature trigger heat dissipation. Treatment includes hormone therapy, SSRIs or SNRIs, gabapentin, and fezolinetant. They must be distinguished from pheochromocytoma, thyroid disease, and carcinoid, which cause episodic flushing or sweating with other features.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-endometrial-protection",
       "collection": "R30",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Clinical data",
-      "tested_concept": "Uterine status and the need for progestogen",
+      "tested_concept": "Why do the two regimens differ in uterine effect, and who would be offered the first regimen?",
       "visual_target": "Uterine status and the need for progestogen",
       "question_type": "Clinical visual question",
-      "stem": "Which reason explains the difference in the uterine effect listed in the table?",
+      "stem": "Why do the two regimens differ in uterine effect, and who would be offered the first regimen?",
       "options": [
-        "Adding a progestogen provides endometrial protection during systemic estrogen therapy.",
-        "Adding a progestogen removes the estrogen effect by ending all ovarian feedback.",
-        "Estrogen alone supplies the same endometrial protection as the combined regimen.",
-        "Adding a progestogen protects a patient by restoring an absent uterus.",
-        "The combined regimen serves only as local therapy for vaginal symptoms."
+        "Progestogen is added to increase vasomotor symptoms",
+        "Adding a progestogen protects the endometrium from the cancer risk of unopposed estrogen, so a woman with a uterus needs estrogen plus progestogen, and estrogen alone is reserved for women without a uterus",
+        "The regimens differ only in cost",
+        "Estrogen alone protects the endometrium, so progestogen is unnecessary",
+        "Adding a progestogen increases endometrial cancer risk, so it is avoided"
       ],
       "choice_rationales": [
-        "R30 explains that unopposed estrogen can promote endometrial pathology in a patient with a uterus. A progestogen is added for endometrial protection. This choice describes endometrial protection from adding a progestogen to systemic estrogen, which is what the image shows.",
-        "The difference addressed in the lecture is endometrial protection. This choice describes removal of estrogen action by ending ovarian feedback.",
-        "The lecture distinguishes estrogen alone from the regimen with added protection. This choice describes equal protection from estrogen alone.",
-        "The patient already has a uterus. The drug protects its endometrium. This choice describes restoration of an absent uterus.",
-        "This comparison concerns systemic estrogen in a patient with a uterus. This choice describes local vaginal therapy only."
+        "Progestogen is added for protection, not for symptom effects.",
+        "Progestogen counters estrogen driven endometrial hyperplasia and cancer risk.",
+        "The difference is the uterine protection.",
+        "Estrogen alone can cause endometrial cancer, so it is not protective.",
+        "Progestogen is added to reduce, not increase, endometrial cancer risk."
       ],
-      "correct_index": 0,
-      "explanation": "R30 explains that unopposed estrogen can promote endometrial pathology in a patient with a uterus. A progestogen is added for endometrial protection. The lecture distinguishes estrogen alone from the regimen with added protection.",
+      "correct_index": 1,
+      "explanation": "Step 1. The lecture defines estrogen therapy (ET) and estrogen progestogen therapy (EPT), with progestogen added to protect women with a uterus against endometrial cancer, which estrogen alone can cause. Step 2. This explains why a woman with a uterus is given EPT and why ET is appropriate when no uterus remains. Contraindications include personal history of breast or endometrial cancer, severe active liver disease, thromboembolic disorders, and undiagnosed vaginal bleeding.",
       "visual_clues": [
         "The two systemic regimens differ by the addition of a progestogen."
       ],
@@ -10126,9 +10132,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "The lecture compares two hormone regimens in a patient who still has a uterus.",
-      "lead_in": "Which reason explains the difference in the uterine effect listed in the table?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 55-year-old woman with a uterus has bothersome vasomotor symptoms and is considering systemic hormone therapy. A table compares estrogen alone with estrogen plus a progestogen and lists the effect on the uterus.",
+      "lead_in": "Why do the two regimens differ in uterine effect, and who would be offered the first regimen?",
       "visual_kind": "table",
       "source_group_id": "g-table-q-r30-endometrial-protection",
       "source_origin": "lecture-table",
@@ -10174,33 +10180,34 @@
         }
       ],
       "condition_name": "Menopausal vasomotor symptoms",
-      "condition_overview": "Hot flashes are sudden sensations of heat with flushing and sweating, caused by estrogen withdrawal narrowing the thermoneutral zone in the hypothalamus so that small rises in core temperature trigger heat dissipation. Treatment includes hormone therapy, SSRIs or SNRIs, gabapentin, and fezolinetant. They must be distinguished from pheochromocytoma, thyroid disease, and carcinoid, which cause episodic flushing or sweating with other features."
+      "condition_overview": "Hot flashes are sudden sensations of heat with flushing and sweating, caused by estrogen withdrawal narrowing the thermoneutral zone in the hypothalamus so that small rises in core temperature trigger heat dissipation. Treatment includes hormone therapy, SSRIs or SNRIs, gabapentin, and fezolinetant. They must be distinguished from pheochromocytoma, thyroid disease, and carcinoid, which cause episodic flushing or sweating with other features.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-local-treatment",
       "collection": "R30",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Diagram",
-      "tested_concept": "Local therapy for an isolated low-estrogen tissue effect",
+      "tested_concept": "Which treatment directly targets the epithelial change shown, and why is it preferred for this patient?",
       "visual_target": "Local therapy for an isolated low-estrogen tissue effect",
       "question_type": "Clinical visual question",
-      "stem": "Which treatment from the lecture directly targets the epithelial change shown in the right panel?",
+      "stem": "Which treatment directly targets the epithelial change shown, and why is it preferred for this patient?",
       "options": [
-        "Vaginal lubricant as a replacement for epithelial estrogen signaling.",
-        "Local vaginal estrogen.",
-        "A fan or cooling measures to restore epithelial thickness.",
-        "A progestogen alone to restore the estrogen effect on the vaginal epithelium.",
-        "Systemic nonhormonal treatment for vasomotor symptoms to thicken the vaginal epithelium."
+        "A GnRH agonist, because it raises estrogen",
+        "Local vaginal estrogen, because topical therapy is used for vaginal dryness alone and treats the thin low estrogen epithelium",
+        "Cognitive behavioral therapy alone, because the problem is behavioral",
+        "An SSRI, because it restores epithelial thickness",
+        "Systemic estrogen progestogen therapy, because vaginal dryness alone requires systemic treatment"
       ],
       "choice_rationales": [
-        "Vaginal lubricant can reduce discomfort from menopausal hypoestrogenism, but it does not replace the estrogen signal lost in the thinned vaginal epithelium. This choice describes vaginal lubricant.",
-        "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms. This choice describes local vaginal estrogen for vaginal atrophy, which is what the image shows.",
-        "Cooling measures help with menopausal hot flashes. The image shows low-estrogen vaginal epithelial thinning, which is a separate local tissue effect. This choice describes cooling measures.",
-        "The menopausal vaginal epithelium is thin because of reduced estrogen signaling. Progestogen alone does not restore that signal. This choice describes a progestogen alone.",
-        "Nonhormonal vasomotor therapy targets menopausal hot flashes. Local vaginal estrogen addresses the low-estrogen vaginal epithelial effect shown. This choice describes systemic nonhormonal treatment for vasomotor symptoms."
+        "A GnRH agonist suppresses estrogen and worsens the problem.",
+        "Local estrogen restores the epithelium and is the lecture's choice for dryness alone.",
+        "The change is hormonal and structural, not behavioral.",
+        "SSRIs treat vasomotor symptoms and do not restore the epithelium.",
+        "Systemic therapy is used for broader symptoms, and the lecture favors topical therapy for dryness alone."
       ],
       "correct_index": 1,
-      "explanation": "The right panel shows a thinner epithelium in a low-estrogen state. R30 lists local vaginal estrogen as a treatment for the corresponding local symptoms. The menopausal vaginal epithelium is thin because of reduced estrogen signaling. Progestogen alone does not restore that signal.",
+      "explanation": "Step 1. The right panel shows a thin epithelium with fewer cell layers from low estrogen, causing the dryness. Step 2. The lecture states to use topical therapy for vaginal dryness alone, which treats the cause locally, with systemic hormone therapy reserved for vasomotor symptoms, and nonhormonal drugs such as SSRIs and SNRIs treating hot flashes rather than the epithelium. She has no vasomotor symptoms.",
       "visual_clues": [
         "The right-hand epithelium is thinner and has fewer layers."
       ],
@@ -10211,9 +10218,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A teaching comparison shows vaginal epithelium in two hormonal states. The patient seeks treatment for persistent dryness and discomfort.",
-      "lead_in": "Which treatment from the lecture directly targets the epithelial change shown in the right panel?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 60-year-old postmenopausal woman has persistent vaginal dryness and discomfort with no hot flashes. A teaching comparison shows vaginal epithelium in a premenopausal state and a thin postmenopausal state.",
+      "lead_in": "Which treatment directly targets the epithelial change shown, and why is it preferred for this patient?",
       "source_id": "s-0101fcdae40a5e395739",
       "source_group_id": "g-de1b67d39c5f5cccd8e1",
       "asset_id": "a-de1b67d39c5f5cccd8e184fae5f17e32ecb13cdefa82777104184099eb3657a3",
@@ -10235,7 +10242,8 @@
         }
       ],
       "condition_name": "Menopause",
-      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients."
+      "condition_overview": "Menopause is the permanent end of menstruation after 12 months of amenorrhea, at an average age of about 51, caused by depletion of ovarian follicles. Estradiol and inhibin B fall, so FSH (and later LH) rise, and the main estrogen becomes extragonadal estrone from adipose aromatization of androstenedione. Estrogen deficiency causes hot flashes, vaginal atrophy, sleep disturbance, bone loss and osteoporosis, and adverse lipid changes. Perimenopause is the preceding transition with irregular cycles, and treatment is symptomatic, including hormone therapy in selected patients.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-axis-case",
@@ -10244,7 +10252,7 @@
       "asset_id": "a-2f5f33317ccbe15d3fb9bd7b0071e3c61cb13b3108e92511ec8df54761430195",
       "variant_id": "v-5dd505100f3187ccb1fa",
       "question_type": "Clinical visual question",
-      "tested_concept": "Direction of ovarian feedback",
+      "tested_concept": "Before interpreting the altered axis, which route in the baseline diagram carries long loop feedback, and why does it matter for her?",
       "visual_target": "Direction of ovarian feedback",
       "category": "Diagram",
       "collection": "R30",
@@ -10253,23 +10261,23 @@
       "zoom_image": "assets/zoom/9cd67f8ffa25a7a2e5d444cc8678da35b6c8365112d4ee8cc734c7ec0f7867d7.webp",
       "original_image": "assets/zoom/9cd67f8ffa25a7a2e5d444cc8678da35b6c8365112d4ee8cc734c7ec0f7867d7.webp",
       "original_filename": "Hypothalamic Pituitary Ovarian Axis - Diagram.png",
-      "stem": "Before interpreting the altered axis, which route in the baseline diagram carries long-loop feedback?",
+      "stem": "Before interpreting the altered axis, which route in the baseline diagram carries long loop feedback, and why does it matter for her?",
       "options": [
-        "Estradiol travels from the ovary back toward the brain and pituitary",
-        "GnRH travels from the ovary directly to the pituitary",
-        "FSH travels from ovarian granulosa cells directly to the hypothalamus",
-        "LH travels from the ovary to the hypothalamus",
-        "Inhibin travels from the pituitary to the ovary"
+        "FSH travels from the pituitary to the ovary, so it carries the feedback",
+        "Inhibin travels from the hypothalamus to the ovary",
+        "LH travels from the ovary to the pituitary",
+        "Estradiol travels from the ovary back toward the brain and pituitary, so low estradiol would normally reduce negative feedback, which makes the unchanged or low FSH in her case point away from an ovarian cause",
+        "GnRH travels from the ovary to the hypothalamus"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "choice_rationales": [
-        "The long E2 return arrow leads upward from the ovarian level. This choice describes long-loop feedback by ovarian estradiol to the brain and pituitary, which is what the image shows.",
-        "GnRH is shown originating in the hypothalamic region. This choice describes GnRH traveling from the ovary.",
-        "FSH is drawn from the pituitary toward the ovarian compartment. This choice describes FSH feeding back to the hypothalamus.",
-        "The LH branch runs downward toward ovarian cells. This choice describes LH feeding back from the ovary.",
-        "The inhibin feedback arrow runs from the ovarian side toward the pituitary. This choice describes inhibin traveling from the pituitary to the ovary."
+        "FSH travels toward the ovary and is an output, not the feedback route.",
+        "Inhibin comes from the ovary, not the hypothalamus.",
+        "LH travels toward the ovary and not toward the pituitary.",
+        "Estradiol returns from the ovary to the brain and pituitary as long loop feedback.",
+        "GnRH comes from the hypothalamus, not the ovary."
       ],
-      "explanation": "The long return path carries ovarian estradiol back toward the hypothalamic and pituitary level. The downward paths show GnRH and the gonadotropins going to their targets.",
+      "explanation": "Step 1. In the baseline axis, GnRH goes from the hypothalamus to the pituitary, FSH and LH from the pituitary to the ovary, and estradiol (and inhibin) from the ovary back to the hypothalamus and pituitary as long loop feedback. Step 2. In the ovarian transition low estradiol removes feedback and FSH rises, but in functional hypothalamic amenorrhea FSH is low or normal with low estradiol, which points to suppressed central drive rather than ovarian failure.",
       "visual_clues": [
         "Follow the long curved return path marked E2 instead of the downward hormone arrows."
       ],
@@ -10291,15 +10299,16 @@
         }
       ],
       "case_id": "r30-athlete",
-      "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles. The first figure shows the baseline axis. The second adds a mark to the altered pathway.",
-      "lead_in": "Before interpreting the altered axis, which route in the baseline diagram carries long-loop feedback?",
+      "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles. The first figure shows the baseline hypothalamic pituitary ovarian axis. The second adds a mark to the altered pathway.",
+      "lead_in": "Before interpreting the altered axis, which route in the baseline diagram carries long loop feedback, and why does it matter for her?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "mechanism",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Functional hypothalamic amenorrhea",
-      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
+      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-axis-low-case",
@@ -10308,7 +10317,7 @@
       "asset_id": "a-589889dd0816ff5af7794c75e887b342b7244c3abc4a5d11818d184d819cd884",
       "variant_id": "v-a10a327797b3939fdf14",
       "question_type": "Clinical visual question",
-      "tested_concept": "Site of suppression in the athlete's axis",
+      "tested_concept": "Which level of the axis best explains her change in reproductive function?",
       "visual_target": "Which level of the marked axis best explains the athlete’s change in reproductive function?",
       "category": "Diagram",
       "collection": "R30",
@@ -10317,23 +10326,23 @@
       "zoom_image": "assets/zoom/69d851df5d02962f436727e52de52fd4f2bd1479b9812acfd6fb4907288e44a0.webp",
       "original_image": "assets/zoom/25a7b43642594719a15dd31ef71ee188ae28dcc90a5153045949eb55c444006e.webp",
       "original_filename": "Functional Hypothalamic Amenorrhea Axis Changes - Diagram.png",
-      "stem": "Which level of the marked axis best explains the athlete’s change in reproductive function?",
+      "stem": "Which level of the axis best explains her change in reproductive function?",
       "options": [
-        "Pituitary FSH output as the primary site",
-        "Hypothalamic GnRH output",
-        "Ovarian aromatase within granulosa cells",
-        "Primary depletion of the depicted follicles",
-        "Ovarian inhibin secretion as the primary site"
+        "Pituitary FSH receptors, since FSH would be high",
+        "Uterine endometrium, since GnRH would be high",
+        "Hypothalamic GnRH output, since suppression of GnRH lowers LH and estradiol and mimics the prepubertal state",
+        "Adrenal cortex, since cortisol would be low",
+        "Ovarian estradiol secretion alone, since FSH would then be high"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "The FSH branch lies downstream of the red mark. This choice describes primary pituitary FSH failure.",
-        "The mark is next to the hypothalamic GnRH region above the pituitary. This choice describes hypothalamic GnRH suppression (functional hypothalamic amenorrhea), which is what the image shows.",
-        "Aromatase is labeled lower in the diagram, at the ovarian level. This choice describes a defect of ovarian aromatase.",
-        "The mark is in the central axis, far above the ovarian structures. This choice describes primary ovarian insufficiency.",
-        "The inhibin feedback branch is below the marked region. This choice describes primary inhibin failure."
+        "A defect at the pituitary receptor would not match low central drive.",
+        "A uterine problem would not explain low estradiol.",
+        "Suppressed GnRH explains low LH and estradiol with low or normal FSH.",
+        "The lecture identifies the hypothalamus, not the adrenal cortex, as the site.",
+        "Ovarian failure would produce high FSH, which does not fit."
       ],
-      "explanation": "The inhibitory mark is at the hypothalamic GnRH level. The lecture links functional hypothalamic amenorrhea in this exercise to reduced gonadotropin pulsation, low LH, and low estradiol.",
+      "explanation": "Step 1. Excessive exercise and low energy availability suppress GnRH secretion, leading to decreased gonadotropin secretion, low LH and low estradiol, and low or normal FSH with low leptin, a prepubertal like state. Step 2. If the defect were in the ovary, loss of feedback would raise FSH, which is not the case in functional hypothalamic amenorrhea. The hypothalamic level therefore explains her presentation.",
       "visual_clues": [
         "Find the small red mark and identify the immediately adjacent structure."
       ],
@@ -10359,15 +10368,16 @@
         }
       ],
       "case_id": "r30-athlete",
-      "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles. The first figure shows the baseline axis. The second adds a mark to the altered pathway.",
-      "lead_in": "Which level of the marked axis best explains the athlete’s change in reproductive function?",
+      "scenario": "An 18-year-old varsity track athlete has no menses for more than six months. She is lean and muscular, with a pulse of 50 per minute and blood pressure of 100/55. The marked axis diagram shows suppression at one level.",
+      "lead_in": "Which level of the axis best explains her change in reproductive function?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "mechanism",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Functional hypothalamic amenorrhea",
-      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
+      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-athlete-depth-pituitary-branch",
@@ -10377,28 +10387,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R30",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Distinguishing ovarian inhibin feedback from outgoing FSH",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Using the arrowheads, which difference is drawn between the inhibin branch and the FSH branch?",
       "visual_target": "Distinguishing ovarian inhibin feedback from outgoing FSH",
-      "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles.",
-      "lead_in": "Use the arrowheads to compare the inhibin branch with the FSH branch. Which difference is drawn?",
-      "stem": "Use the arrowheads to compare the inhibin branch with the FSH branch. Which difference is drawn?",
+      "scenario": "An 18-year-old varsity track athlete has no menses for more than six months. A diagram of the axis shows arrows from the pituitary to the ovary and from the ovary back to the pituitary.",
+      "lead_in": "Using the arrowheads, which difference is drawn between the inhibin branch and the FSH branch?",
+      "stem": "Using the arrowheads, which difference is drawn between the inhibin branch and the FSH branch?",
       "options": [
-        "Both branches carry output from the pituitary to the ovary",
-        "Both branches carry feedback from the ovary to the pituitary",
-        "Inhibin leaves the pituitary while FSH returns from the ovary",
-        "The two branches bypass the ovary entirely",
-        "Inhibin returns toward the pituitary while FSH travels toward the ovary"
+        "Inhibin returns toward the pituitary as feedback, whereas FSH travels toward the ovary to stimulate follicles",
+        "Both travel toward the hypothalamus",
+        "Inhibin travels toward the ovary, whereas FSH returns toward the pituitary",
+        "Both travel toward the ovary",
+        "Inhibin travels toward the uterus, whereas FSH returns to the hypothalamus"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "The inhibin arrow points back toward the pituitary. This choice describes two pituitary-to-ovary branches.",
-        "The FSH arrow points from the pituitary to the ovary. This choice describes two ovary-to-pituitary branches.",
-        "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary, so this choice reverses the arrows. This choice describes inhibin leaving the pituitary.",
-        "The inhibin and FSH branches both connect to the ovarian part of the diagram. This choice describes branches that bypass the ovary.",
-        "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary. The arrows distinguish ovarian feedback from pituitary output. This choice describes inhibin feedback returning to the pituitary while FSH travels to the ovary, which is what the image shows."
+        "Inhibin feeds back to the pituitary and FSH acts on the ovary.",
+        "Neither hormone is drawn toward the hypothalamus in this branch.",
+        "The arrow directions are reversed in this option.",
+        "Inhibin is an ovarian product and returns to the pituitary.",
+        "Neither travels to the uterus in this diagram."
       ],
-      "explanation": "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary. The arrows distinguish ovarian feedback from pituitary output. The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary, so this choice reverses the arrows.",
+      "explanation": "Step 1. In the axis diagram FSH is secreted by the pituitary and acts on the ovary to drive follicle growth, whereas inhibin made by the ovary returns toward the pituitary to inhibit FSH. Step 2. Knowing the direction of each arrow matters because the pattern of FSH, LH, and estradiol shows the level of the defect. In her case low drive from the hypothalamus makes FSH low or normal with low estradiol.",
       "visual_clues": [
         "The inhibin branch returns toward the pituitary while FSH travels from the pituitary toward the ovary."
       ],
@@ -10425,9 +10435,10 @@
           "page": 84
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Functional hypothalamic amenorrhea",
-      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
+      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-athlete-depth-downstream-consequence",
@@ -10437,28 +10448,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R30",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "tested_concept": "Downstream prediction from an inhibited reproductive axis",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Following the downstream arrows, what ovarian output and uterine consequence would you predict?",
       "visual_target": "Downstream prediction from an inhibited reproductive axis",
-      "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles.",
-      "lead_in": "The minus sign marks an altered part of the pathway. Following the downstream arrows, what ovarian output would you predict?",
-      "stem": "The minus sign marks an altered part of the pathway. Following the downstream arrows, what ovarian output would you predict?",
+      "scenario": "An 18-year-old varsity track athlete has no menses for more than six months. In the axis diagram a minus sign marks reduced hypothalamic output, with arrows leading to the pituitary, ovary, and uterus.",
+      "lead_in": "Following the downstream arrows, what ovarian output and uterine consequence would you predict?",
+      "stem": "Following the downstream arrows, what ovarian output and uterine consequence would you predict?",
       "options": [
-        "Lower estradiol output from the ovary",
-        "Higher estradiol output despite reduced downstream stimulation",
-        "Higher estradiol output from a direct brain to ovary bypass",
-        "Unchanged estradiol with isolated prolactin secretion by the ovary",
-        "Unchanged estradiol because the inhibited link is downstream of the ovary"
+        "Higher estradiol output, so menses are heavy",
+        "Higher androgen output only",
+        "Higher inhibin output, so FSH rises",
+        "Unchanged estradiol, so menses continue",
+        "Lower estradiol output from the ovary, so the endometrium is not stimulated and menses stop"
       ],
-      "correct_index": 0,
+      "correct_index": 4,
       "choice_rationales": [
-        "Reduced central stimulation reduces gonadotropin pulsation and ovarian estradiol output. The lecture describes low LH and low estradiol in this example, with FSH low or within the normal range. This choice describes reduced ovarian estradiol output, which is what the image shows.",
-        "The altered pathway reduces stimulation of the ovary. This choice describes higher estradiol despite reduced stimulation.",
-        "The diagram shows a pituitary relay rather than a bypass. This choice describes estradiol rise from a brain-to-ovary bypass.",
-        "The pathway predicts a change in ovarian estradiol and does not show that ovarian output. This choice describes unchanged estradiol with prolactin secretion.",
-        "The inhibition appears upstream of ovarian output. This choice describes unchanged estradiol."
+        "Higher estradiol would not follow a lower stimulus.",
+        "An androgen only pattern does not follow from reduced gonadotropins.",
+        "Inhibin follows follicle activity and would fall, not rise.",
+        "Unchanged estradiol would not cause amenorrhea.",
+        "Reduced gonadotropins cause low estradiol and amenorrhea."
       ],
-      "explanation": "Reduced central stimulation reduces gonadotropin pulsation and ovarian estradiol output. The lecture describes low LH and low estradiol in this example, with FSH low or within the normal range. The diagram shows a pituitary relay rather than a bypass.",
+      "explanation": "Step 1. Reduced GnRH decreases LH and FSH secretion, so the ovary receives less stimulation and makes less estradiol. Step 2. Low estradiol means the endometrium does not proliferate, so amenorrhea results, and the lecture notes supplementation with combined estrogen and progesterone may help maintain bone mass. Loss of the estrogen effect also lowers bone density over time.",
       "visual_clues": [
         "Reduced central stimulation reduces gonadotropin pulsation and ovarian estradiol output."
       ],
@@ -10493,9 +10504,10 @@
           "page": 83
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Functional hypothalamic amenorrhea",
-      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
+      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-athlete-depth-feedback-contrast",
@@ -10505,28 +10517,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R30",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Contrasting ovarian feedback patterns in the athlete and the lecture graph",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which part of that pattern helps distinguish it from reduced central drive in the athlete?",
       "visual_target": "Contrasting ovarian feedback patterns in the athlete and the lecture graph",
-      "scenario": "An 18-year-old varsity track athlete reports no menses for more than six months after previously infrequent cycles.",
-      "lead_in": "This graph is from a different lecture example. Which part of the pattern is especially useful for distinguishing it from reduced central drive in the athlete?",
-      "stem": "This graph is from a different lecture example. Which part of the pattern is especially useful for distinguishing it from reduced central drive in the athlete?",
+      "scenario": "An 18-year-old varsity track athlete has low estradiol and no periods. A graph from a different lecture example shows a patient whose estradiol falls and FSH keeps rising over years.",
+      "lead_in": "Which part of that pattern helps distinguish it from reduced central drive in the athlete?",
+      "stem": "Which part of that pattern helps distinguish it from reduced central drive in the athlete?",
       "options": [
-        "Both plotted hormones fall together and remain low",
-        "A sustained rise in FSH despite the fall in estradiol",
-        "FSH stays unchanged despite the fall in estradiol",
-        "Estradiol rises sharply while FSH falls",
-        "The two curves remain parallel without a meaningful change around the reference point"
+        "A rising estradiol with falling FSH, indicating an estrogen secreting tumor",
+        "A falling prolactin with rising estradiol",
+        "A falling FSH with falling estradiol, indicating pituitary suppression",
+        "A sustained rise in FSH despite falling estradiol, indicating ovarian failure with intact pituitary feedback",
+        "An unchanged FSH with falling estradiol, indicating hypothalamic suppression"
       ],
-      "correct_index": 1,
+      "correct_index": 3,
       "choice_rationales": [
-        "FSH rises on the displayed graph. This choice describes both hormones falling together.",
-        "The graph shows FSH rising around the reference point while estradiol falls. With reduced central stimulation in the athlete, the lecture instead describes FSH as low or normal; the compensatory rise is the useful discriminator. This choice describes primary ovarian insufficiency (rising FSH with falling estradiol), which is what the image shows.",
-        "The FSH curve shifts upward substantially. This choice describes a stable FSH with falling estradiol.",
-        "FSH rises while estradiol falls on the graph, so this choice reverses both directions. This choice describes a rise in estradiol with falling FSH.",
-        "The two curves diverge markedly. This choice describes parallel curves with no change."
+        "An estrogen secreting tumor would raise estradiol, which is not the case.",
+        "A rising estradiol is not part of the graph.",
+        "Falling FSH with falling estradiol describes central suppression, which fits the athlete.",
+        "A sustained FSH rise with low estradiol marks the ovary as the problem.",
+        "Low or normal FSH with low estradiol is the athlete's pattern, not the contrast."
       ],
-      "explanation": "The graph shows FSH rising around the reference point while estradiol falls. With reduced central stimulation in the athlete, the lecture instead describes FSH as low or normal; the compensatory rise is the useful discriminator. FSH rises while estradiol falls on the graph, so this choice reverses both directions.",
+      "explanation": "Step 1. In ovarian transition or insufficiency, estradiol is low and negative feedback is lost, so FSH rises and stays high (hypergonadotropic). Step 2. In the athlete, suppression of GnRH gives low or normal FSH with low estradiol, a hypogonadotropic pattern. Both have low estradiol, so FSH is the discriminating value.",
       "visual_clues": [
         "The graph shows FSH rising around the reference point while estradiol falls."
       ],
@@ -10561,35 +10573,36 @@
           "page": 84
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Hypergonadotropic hypogonadism",
-      "condition_overview": "In hypergonadotropic hypogonadism (primary), the gonads fail despite adequate pituitary drive, so loss of negative feedback from estradiol, testosterone, and inhibin raises FSH and LH. Causes include Turner syndrome, Klinefelter syndrome, premature ovarian insufficiency, gonadal injury from chemotherapy or radiation, and autoimmune oophoritis. It presents with delayed puberty or amenorrhea, infertility, and low sex steroids, and treatment is sex hormone replacement."
+      "condition_overview": "In hypergonadotropic hypogonadism (primary), the gonads fail despite adequate pituitary drive, so loss of negative feedback from estradiol, testosterone, and inhibin raises FSH and LH. Causes include Turner syndrome, Klinefelter syndrome, premature ovarian insufficiency, gonadal injury from chemotherapy or radiation, and autoimmune oophoritis. It presents with delayed puberty or amenorrhea, infertility, and low sex steroids, and treatment is sex hormone replacement.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-amenorrhea-labs",
       "collection": "R30",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Clinical data",
-      "tested_concept": "Initial screening before attributing amenorrhea to training",
+      "tested_concept": "Which test belongs in the masked row, and why is it done first?",
       "visual_target": "Initial screening before attributing amenorrhea to training",
       "question_type": "Clinical visual question",
-      "stem": "Which test belongs in the masked row?",
+      "stem": "Which test belongs in the masked row, and why is it done first?",
       "options": [
-        "Serum free T4 as the test for pregnancy.",
-        "Plasma metanephrines.",
-        "β-hCG.",
-        "Repeat prolactin as the pregnancy test.",
-        "Repeat TSH as the pregnancy test."
+        "Serum estradiol, since pregnancy is always excluded by the exam",
+        "Beta hCG, because pregnancy is the most common cause of secondary amenorrhea and must be excluded before other causes are pursued",
+        "Cortisol, since exercise only affects the adrenal gland",
+        "Bone density, since hCG is not used for amenorrhea",
+        "Karyotype, since all patients with amenorrhea are Turner syndrome"
       ],
       "choice_rationales": [
-        "Free T4 assesses thyroid function. The initial amenorrhea workup uses β-hCG to evaluate pregnancy before attributing the missed periods to hypothalamic suppression. This choice describes a serum free T4 pregnancy test.",
-        "Metanephrines evaluate suspected catecholamine excess. Initial evaluation of amenorrhea requires pregnancy testing with β-hCG. This choice describes plasma metanephrines.",
-        "β-hCG evaluates pregnancy, which should be considered before attributing amenorrhea to low energy availability or hypothalamic suppression. This choice describes a β-hCG pregnancy test, which is what the image shows.",
-        "Prolactin evaluates hyperprolactinemia as a cause of amenorrhea. Pregnancy is evaluated with β-hCG. This choice describes a repeat prolactin test.",
-        "TSH screens for thyroid dysfunction as a cause of amenorrhea. Pregnancy is evaluated with β-hCG. This choice describes a repeat TSH test."
+        "The exam does not exclude pregnancy reliably.",
+        "Beta hCG excludes pregnancy, the key initial test.",
+        "Cortisol is not one of the initial three tests.",
+        "Bone density is not an initial laboratory test.",
+        "A karyotype is not part of the initial workup of secondary amenorrhea."
       ],
-      "correct_index": 2,
-      "explanation": "R30 lists β-hCG, serum TSH and serum prolactin in the initial workup. Pregnancy testing addresses a distinct cause before assigning the amenorrhea to reduced hypothalamic drive.",
+      "correct_index": 1,
+      "explanation": "Step 1. The workup of secondary amenorrhea starts with excluding pregnancy, then checking prolactin and thyroid function (TSH), before diagnosing functional hypothalamic amenorrhea in an athlete with low energy availability. Step 2. The lecture lists serum prolactin among the initial tests and lists the differential of secondary amenorrhea to rule in or out. Pregnancy testing with beta hCG is the necessary first step because a positive test changes everything.",
       "visual_clues": [
         "Match the missing test to the cause being screened for in the first row."
       ],
@@ -10600,9 +10613,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "A varsity runner with secondary amenorrhea is being assessed. The lecture lists three initial laboratory checks before settling on a cause.",
-      "lead_in": "Which test belongs in the masked row?",
+      "reasoning_type": "second or third order",
+      "scenario": "A varsity runner with secondary amenorrhea is assessed. The lecture lists three initial laboratory checks before settling on a cause. The first is serum prolactin and the last row is masked.",
+      "lead_in": "Which test belongs in the masked row, and why is it done first?",
       "visual_kind": "table",
       "source_group_id": "g-table-q-r30-amenorrhea-labs",
       "source_origin": "lecture-table",
@@ -10649,33 +10662,34 @@
         }
       ],
       "condition_name": "Functional hypothalamic amenorrhea",
-      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
+      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r30-training-management",
       "collection": "R30",
-      "study_skill": "management",
+      "study_skill": "interpretation",
       "category": "Clinical data",
-      "tested_concept": "Restore energy availability to address hypothalamic suppression",
+      "tested_concept": "Which pair of changes addresses the upstream driver of her amenorrhea?",
       "visual_target": "Restore energy availability to address hypothalamic suppression",
       "question_type": "Clinical visual question",
-      "stem": "Which pair of changes addresses the upstream driver in this pattern?",
+      "stem": "Which pair of changes addresses the upstream driver of her amenorrhea?",
       "options": [
-        "Reduce intake and increase training intensity.",
-        "Increase training intensity while leaving the energy deficit unresolved.",
-        "Treat as ovarian failure from follicle depletion.",
-        "Increase energy availability and adjust training volume or intensity.",
-        "Focus only on replacement while keeping the restrictive intake and training pattern."
+        "Start an SSRI and double training",
+        "Start tamoxifen and increase running",
+        "Increase energy availability and adjust training volume or intensity",
+        "Start thyroid hormone and stop all exercise forever",
+        "Prescribe a GnRH antagonist and a low calorie diet"
       ],
       "choice_rationales": [
-        "Lower intake and more intense training worsen the low energy availability that suppresses GnRH in functional hypothalamic amenorrhea. This choice describes reduced intake with greater training intensity.",
-        "More exercise without increased intake preserves or worsens the energy deficit driving functional hypothalamic amenorrhea. This choice describes more training with an unresolved energy deficit.",
-        "Ovarian follicle depletion causes primary ovarian insufficiency. This case shows reduced central drive in the setting of low energy availability, favoring functional hypothalamic amenorrhea. This choice describes primary ovarian insufficiency treatment.",
-        "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case. This choice describes treatment of the energy deficit (functional hypothalamic amenorrhea in an athlete), which is what the image shows.",
-        "Hormone replacement alone leaves the energy deficit driving functional hypothalamic amenorrhea in place. The lecture targets intake and training to restore energy availability. This choice describes replacement therapy alone with ongoing restriction."
+        "An SSRI does not treat this and more training worsens energy deficit.",
+        "Tamoxifen is an antiestrogen and does not address the driver.",
+        "Restoring energy balance and adjusting training address the cause.",
+        "The lecture does not recommend thyroid hormone or permanent cessation of exercise.",
+        "A GnRH antagonist and caloric restriction would worsen suppression."
       ],
-      "correct_index": 3,
-      "explanation": "R30 traces energy deficit and excessive exercise to suppressed GnRH secretion. Dietary counseling and adjustments to training address the upstream drivers in the lecture case. More exercise without increased intake preserves or worsens the energy deficit driving functional hypothalamic amenorrhea.",
+      "correct_index": 2,
+      "explanation": "Step 1. The pattern arises from suppressed GnRH due to excessive exercise and inadequate energy, with low leptin. Step 2. The lecture states management primarily aims to restore normal cycles, through dietary counseling for positive energy balance with adequate calcium and vitamin D, advice on altering the volume and intensity of training, cognitive behavioral therapy for stressors, and sometimes estrogen and progesterone supplementation to maintain bone mass. Recombinant leptin is only preliminary.",
       "visual_clues": [
         "The altered hormone output follows the low-energy and high-training pattern."
       ],
@@ -10686,9 +10700,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "The case now moves from endocrine interpretation to management.",
-      "lead_in": "Which pair of changes addresses the upstream driver in this pattern?",
+      "reasoning_type": "second or third order",
+      "scenario": "After laboratory tests are normal, the athlete is diagnosed with functional hypothalamic amenorrhea. She asks what to do and whether pills alone can fix it.",
+      "lead_in": "Which pair of changes addresses the upstream driver of her amenorrhea?",
       "visual_kind": "table",
       "source_group_id": "g-table-q-r30-training-management",
       "source_origin": "lecture-table",
@@ -10730,7 +10744,8 @@
         }
       ],
       "condition_name": "Functional hypothalamic amenorrhea",
-      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia."
+      "condition_overview": "Functional hypothalamic amenorrhea is a reversible suppression of the hypothalamic GnRH pulse generator from energy deficiency, excessive exercise, low body weight, or stress. Low GnRH reduces LH and FSH pulses, so estradiol is low and menses stop, with no structural cause. It reflects hypogonadotropic hypogonadism, with low or normal FSH and LH. Low estrogen impairs bone density, so management restores energy balance, and the diagnosis is made after excluding pregnancy, pituitary disease, thyroid disease, and hyperprolactinemia.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-reassuring-tracing",
