@@ -5072,28 +5072,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "A separate metastatic growth pattern in ovarian stroma",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which origin is most likely, and why is this primary a more frequent ovarian metastasis than ductal carcinoma?",
       "visual_target": "A separate metastatic growth pattern in ovarian stroma",
-      "scenario": "An ovarian mass with a solid component is being evaluated for its origin.",
-      "lead_in": "This is a separate ovarian metastasis example. Which growth pattern distinguishes it from the conspicuous pale cell pattern in the original field?",
-      "stem": "This is a separate ovarian metastasis example. Which growth pattern distinguishes it from the conspicuous pale cell pattern in the original field?",
+      "scenario": "A 55-year-old woman had a lobular carcinoma of the breast treated years ago. She now has an ovarian mass. A section of the ovarian mass shows small cells infiltrating the ovarian stroma in narrow single files with little stromal reaction, unlike the large pale vacuolated signet ring cells of a gastric metastasis.",
+      "lead_in": "Which origin is most likely, and why is this primary a more frequent ovarian metastasis than ductal carcinoma?",
+      "stem": "Which origin is most likely, and why is this primary a more frequent ovarian metastasis than ductal carcinoma?",
       "options": [
-        "Large pale cells with peripheral nuclei dominating the field",
-        "Large intact follicles containing homogeneous colloid",
-        "Small cells infiltrating stroma in narrow files",
-        "Crowded primitive neural tubules within a solid nodule",
-        "Broad epithelial sheets around a central vascular stalk"
+        "Yolk sac, since single files indicate Schiller-Duval bodies",
+        "Stomach, since the single file pattern is a signet ring cell pattern from the gastric mucosa",
+        "Granulosa cells, since single files indicate Call-Exner bodies",
+        "Breast, since metastatic breast cancer is mostly bilateral and lobular carcinoma metastasizes to the ovary more often than ductal (36 percent versus 2.6 percent)",
+        "Thyroid, since single file cells indicate struma ovarii"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "The conspicuous arrangement here is linear infiltration by small cells. This choice describes a signet-ring cell metastasis.",
-        "The cells traverse stroma rather than lining rounded follicles. This choice describes struma ovarii.",
-        "Small tumor cells infiltrate ovarian stroma in narrow linear files. The original field instead emphasizes individual cells with prominent cytoplasmic vacuoles. This choice describes metastatic lobular-type carcinoma (single-file infiltration), which is what the image shows.",
-        "The lesional cells follow thin stromal tracks rather than forming tubules. This choice describes immature teratoma.",
-        "The epithelial component lies in slender files without a central stalk. This choice describes yolk sac tumor."
+        "Schiller-Duval bodies are vascular papillae of yolk sac tumor.",
+        "Gastric metastases show mucin rich signet ring cells, not single file small cells.",
+        "Call-Exner bodies are follicle like structures of granulosa cell tumor.",
+        "Lobular breast cancer metastasizes to the ovary far more often than ductal cancer and keeps its single file pattern.",
+        "Struma ovarii is thyroid follicles with colloid."
       ],
-      "explanation": "Small tumor cells infiltrate ovarian stroma in narrow linear files. The original field instead emphasizes individual cells with prominent cytoplasmic vacuoles. The epithelial component lies in slender files without a central stalk.",
+      "explanation": "Step 1. Narrow single file infiltration with little stromal response is the lobular (Indian file) pattern, so a metastasis from lobular breast carcinoma is expected. Step 2. The lecture states breast cancer accounts for about 40 percent of metastatic ovarian cancers, usually bilateral (about 80 percent), histologically similar to the primary, and lobular carcinoma metastasizes more often than ductal carcinoma (36 percent versus 2.6 percent). Krukenberg tumors are signet ring tumors from the gastrointestinal tract.",
       "visual_clues": [
         "Small tumor cells infiltrate ovarian stroma in narrow linear files."
       ],
@@ -5124,7 +5124,8 @@
           "page": 109
         }
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-plaque-1",
@@ -7316,32 +7317,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A fallopian tube is examined after salpingectomy. The section shows several mucosal folds.",
-      "lead_in": "Which conclusion is best supported by this section?",
-      "stem": "Which conclusion is best supported by this section?",
+      "scenario": "A 46-year-old BRCA1 carrier undergoes risk reducing surgery. The fallopian tube section shows several mucosal folds. One crowded surface segment shows atypical cells with stratification above normal stroma and no invasion.",
+      "lead_in": "What conclusion is supported, and why should the whole tube be examined carefully?",
+      "stem": "What conclusion is supported, and why should the whole tube be examined carefully?",
       "options": [
-        "Deep muscle invasion is demonstrated",
-        "Lymphovascular invasion is demonstrated",
-        "An invasive stromal tumor is demonstrated",
-        "An atypical proliferation is shown within tubal epithelium",
-        "All mucosal folds have a uniform bland epithelial lining"
+        "A normal tube, because a single field cannot show atypia",
+        "A teratoma with thyroid tissue, because there are several folds",
+        "An atypical proliferation within the tubal epithelium, serous tubal intraepithelial carcinoma, which is found in 11 to 61 percent of high grade serous ovarian cancers and requires serial sectioning to detect",
+        "An invasive ovarian carcinoma already spread, because the surface is crowded",
+        "A benign endometriosis implant, because the folds look crowded"
       ],
-      "correct_index": 3,
+      "correct_index": 2,
       "choice_rationales": [
-        "No deep infiltrating tumor in muscle is shown in this field. This choice describes deep muscle invasion.",
-        "The figure does not show an atypical tumor aggregate inside a vessel. This choice describes lymphovascular invasion.",
-        "The visible atypia is epithelial. The field does not demonstrate a distinct invasive stromal component. This choice describes an invasive stromal tumor.",
-        "The lecture identifies serous tubal intraepithelial carcinoma. In this field, the crowded dark atypical proliferation follows the tubal epithelial lining. This choice describes serous tubal intraepithelial carcinoma (an atypical tubal epithelial proliferation), which is what the image shows.",
-        "A segment of the surface is conspicuously more crowded and atypical than the surrounding tissue. This choice describes a normal tubal lining."
+        "The segment shows atypia and cannot be called normal.",
+        "A teratoma is a germ cell tumor of the ovary.",
+        "An atypical intraepithelial proliferation in the tube is STIC, which needs thorough serial sampling.",
+        "No invasion is shown, so this does not demonstrate spread.",
+        "Endometriosis shows endometrial glands and stroma, not atypical tubal epithelium."
       ],
-      "explanation": "The slide identifies this representative lesion as serous tubal intraepithelial carcinoma. The image demonstrates an abnormal epithelial segment. This field cannot establish the status of the rest of the specimen.",
+      "explanation": "Step 1. A crowded, atypical epithelial segment confined to the tubal lining is serous tubal intraepithelial carcinoma (STIC), the identified lesion in the slide. Step 2. The lecture states that 11 to 61 percent of high grade serous cancers have an associated STIC, that sampling error is a reason for missing it (SEE-FIM serial sectioning is required), and that BRCA1 and BRCA2 carriers have a very high lifetime ovarian cancer risk. One field cannot establish the status of the rest of the specimen.",
       "visual_clues": [
         "Compare the crowded surface segment with the stroma directly underneath it."
       ],
       "visual_target": "Atypical tubal epithelium without stromal invasion demonstrated here",
-      "tested_concept": "Tubal intraepithelial lesion interpretation",
+      "tested_concept": "What conclusion is supported, and why should the whole tube be examined carefully?",
       "category": "Histology",
       "collection": "R27",
       "source_origin": "lecture",
@@ -7366,9 +7367,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Serous tubal intraepithelial carcinoma",
-      "condition_overview": "Serous tubal intraepithelial carcinoma (STIC) is a noninvasive precursor lesion of high-grade serous carcinoma found in the fallopian tube, usually in the fimbria. Crowded, stratified secretory cells with enlarged hyperchromatic nuclei, loss of polarity, and mitoses replace the normal lining, with a strongly aberrant p53 pattern and high Ki-67. It is often found in women with BRCA mutations. This led to opportunistic salpingectomy as a risk-reducing strategy."
+      "condition_overview": "Serous tubal intraepithelial carcinoma (STIC) is a noninvasive precursor lesion of high-grade serous carcinoma found in the fallopian tube, usually in the fimbria. Crowded, stratified secretory cells with enlarged hyperchromatic nuclei, loss of polarity, and mitoses replace the normal lining, with a strongly aberrant p53 pattern and high Ki-67. It is often found in women with BRCA mutations. This led to opportunistic salpingectomy as a risk-reducing strategy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r27-tubal-lining-depth-focal-transition",
@@ -7378,28 +7380,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R27",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Abrupt transition in a tubal mucosal fold",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What makes this darkened segment a useful target for closer examination?",
       "visual_target": "Abrupt transition in a tubal mucosal fold",
-      "scenario": "A fallopian tube is examined after salpingectomy.",
-      "lead_in": "Compare the darkened lower left mucosal edge with the other folds. What makes the darkened segment a useful target for closer examination?",
-      "stem": "Compare the darkened lower left mucosal edge with the other folds. What makes the darkened segment a useful target for closer examination?",
+      "scenario": "A pathologist examines multiple mucosal folds of a salpingectomy specimen. One darkened edge at the lower left stands out from the adjacent folds, with a focal crowded nuclear band that stops abruptly.",
+      "lead_in": "What makes this darkened segment a useful target for closer examination?",
+      "stem": "What makes this darkened segment a useful target for closer examination?",
       "options": [
-        "A focal crowded nuclear band contrasting with adjacent lining",
-        "Uniform cellularity in every fold shown",
-        "An entirely denuded fold with no remaining epithelium whatsoever",
-        "A broad deposit filling the open lumen",
-        "Deeply scattered atypical cells without a lining change"
+        "The dark band is the myoepithelial layer of the breast",
+        "The dark band is an artifact that can be ignored",
+        "The dark band is a thyroid follicle",
+        "The dark band is a blood clot from ectopic pregnancy",
+        "A focal crowded nuclear band contrasting with the adjacent normal lining marks the transition into a STIC lesion"
       ],
-      "correct_index": 0,
+      "correct_index": 4,
       "choice_rationales": [
-        "The dark segment has a more crowded nuclear profile than adjacent epithelial segments. The change is focal along the fold, which makes the transition useful for sampling. This choice describes serous tubal intraepithelial carcinoma (a focal crowded nuclear band), which is what the image shows.",
-        "The darker segment stands out from the other lining. This choice describes a uniformly normal fold.",
-        "The conspicuous segment retains an epithelial covering. This choice describes a denuded fold.",
-        "The change follows the tissue edge rather than occupying the lumen. This choice describes a luminal deposit.",
-        "The visible contrast is along the lining. This choice describes deeply scattered atypical cells."
+        "The myoepithelial layer belongs to the breast, and the tube has no breast pattern.",
+        "Focal crowding is exactly the finding that sampling is meant to catch.",
+        "Thyroid follicles with colloid are a different tissue and are not seen here.",
+        "A blood clot would not form a nuclear band within the epithelium.",
+        "The abrupt change from normal to crowded nuclei marks a lesion that deserves closer examination."
       ],
-      "explanation": "The dark segment has a more crowded nuclear profile than adjacent epithelial segments. The change is focal along the fold, which makes the transition useful for sampling. The visible contrast is along the lining.",
+      "explanation": "Step 1. A focal crowded nuclear band abutting normal lining marks where epithelial cells become atypical, the transition into serous tubal intraepithelial carcinoma. Step 2. The lecture notes that STIC can be missed from sampling error, so a focal change is identified by comparing neighboring lining and then examined closely, including with immunostains, as part of serial sectioning. The dark segment has a more crowded nuclear profile than adjacent segments.",
       "visual_clues": [
         "The dark segment has a more crowded nuclear profile than adjacent epithelial segments."
       ],
@@ -7422,9 +7424,10 @@
           "page": 14
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Serous tubal intraepithelial carcinoma",
-      "condition_overview": "Serous tubal intraepithelial carcinoma (STIC) is a noninvasive precursor lesion of high-grade serous carcinoma found in the fallopian tube, usually in the fimbria. Crowded, stratified secretory cells with enlarged hyperchromatic nuclei, loss of polarity, and mitoses replace the normal lining, with a strongly aberrant p53 pattern and high Ki-67. It is often found in women with BRCA mutations. This led to opportunistic salpingectomy as a risk-reducing strategy."
+      "condition_overview": "Serous tubal intraepithelial carcinoma (STIC) is a noninvasive precursor lesion of high-grade serous carcinoma found in the fallopian tube, usually in the fimbria. Crowded, stratified secretory cells with enlarged hyperchromatic nuclei, loss of polarity, and mitoses replace the normal lining, with a strongly aberrant p53 pattern and high Ki-67. It is often found in women with BRCA mutations. This led to opportunistic salpingectomy as a risk-reducing strategy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r27-tubal-lining-risk-reduction",
@@ -7434,32 +7437,32 @@
       "collection": "R27",
       "generation_batch": "keanne-followups1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "management",
-      "scenario": "The focal lesion in the tubal section prompts a review of the prevention approach in the lecture.",
-      "lead_in": "Which implication follows from comparing the two operations shown?",
-      "stem": "Which implication follows from comparing the two operations shown?",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
+      "scenario": "A 35-year-old woman with a BRCA1 variant has completed childbearing. Her clinicians compare two operations. Operation A removes both fallopian tubes and leaves both ovaries. Operation B removes both tubes and ovaries (risk reducing salpingo-oophorectomy). She asks which is useful given the tubal location of precursor lesions.",
+      "lead_in": "Which implication follows from comparing the two operations?",
+      "stem": "Which implication follows from comparing the two operations?",
       "options": [
-        "Both operations remove the tubes and ovaries.",
-        "Operation A removes potential tubal precursor tissue while preserving the ovaries.",
-        "Operation A removes the ovaries and leaves potential tubal precursor tissue in place.",
-        "Operation B leaves both fallopian tubes in place.",
-        "Neither operation removes the potential tubal precursor tissue."
+        "Operation A removes potential tubal precursor tissue while preserving the ovaries, but only operation B is proven to reduce ovarian cancer specific mortality in carriers",
+        "Operation A is proven to reduce mortality in carriers more than operation B",
+        "Operation B leaves the tubes in place",
+        "Operation A increases ovarian cancer risk",
+        "Neither operation affects ovarian cancer risk"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "choice_rationales": [
-        "Only the bilateral salpingo-oophorectomy in row B removes the ovaries. Opportunistic salpingectomy in row A removes potential tubal precursor tissue while preserving the ovaries. This choice describes a bilateral salpingo-oophorectomy.",
-        "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers. This choice describes salpingectomy with ovarian preservation (removal of potential tubal precursor tissue), which is what the image shows.",
-        "Opportunistic salpingectomy in row A removes both tubes and leaves the ovaries in place, addressing a potential source of precursors to high-grade serous carcinoma. This choice describes an operation that removes the ovaries but leaves the tubes.",
-        "The table records that both tubes are removed in operation B. This choice describes an operation that leaves both tubes in place.",
-        "Both operations remove the fallopian tubes, including potential tubal precursor sites for high-grade serous carcinoma. Only operation B also removes the ovaries. This choice describes a procedure that removes no tubal tissue."
+        "Salpingectomy removes tubal precursors and preserves the ovaries, while only BSO is proven to reduce carrier mortality.",
+        "The lecture says RRSO is the only intervention proven to reduce mortality in carriers.",
+        "Operation B removes both the tubes and the ovaries.",
+        "Removing the tubes lowers, not raises, serous ovarian cancer risk.",
+        "Opportunistic salpingectomy was associated with a lower risk of serous ovarian cancer."
       ],
-      "explanation": "The operation in row A removes both fallopian tubes and leaves the ovaries in place. The lecture connects this to the tubal origin of many high-grade serous cancers. Opportunistic salpingectomy in row A removes both tubes and leaves the ovaries in place, addressing a potential source of precursors to high-grade serous carcinoma.",
+      "explanation": "Step 1. Many high grade serous cancers have a tubal STIC precursor, so removing the tubes eliminates a potential source while leaving the ovaries in place (opportunistic salpingectomy). Step 2. The lecture states that risk reducing BSO is the only intervention proven to reduce ovarian cancer specific mortality in BRCA carriers, with about an 80 percent reduction in ovarian and tubal cancer risk, so operation A is an option for lowering risk in the general population but does not replace RRSO in carriers.",
       "visual_clues": [
         "Row A removes both tubes and leaves both ovaries."
       ],
       "visual_target": "Tissue retained after opportunistic salpingectomy",
-      "tested_concept": "Tissue retained after opportunistic salpingectomy",
+      "tested_concept": "Which implication follows from comparing the two operations?",
       "citations": [
         {
           "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
@@ -7520,7 +7523,8 @@
         }
       },
       "condition_name": "Serous tubal intraepithelial carcinoma",
-      "condition_overview": "Serous tubal intraepithelial carcinoma (STIC) is a noninvasive precursor lesion of high-grade serous carcinoma found in the fallopian tube, usually in the fimbria. Crowded, stratified secretory cells with enlarged hyperchromatic nuclei, loss of polarity, and mitoses replace the normal lining, with a strongly aberrant p53 pattern and high Ki-67. It is often found in women with BRCA mutations. This led to opportunistic salpingectomy as a risk-reducing strategy."
+      "condition_overview": "Serous tubal intraepithelial carcinoma (STIC) is a noninvasive precursor lesion of high-grade serous carcinoma found in the fallopian tube, usually in the fimbria. Crowded, stratified secretory cells with enlarged hyperchromatic nuclei, loss of polarity, and mitoses replace the normal lining, with a strongly aberrant p53 pattern and high Ki-67. It is often found in women with BRCA mutations. This led to opportunistic salpingectomy as a risk-reducing strategy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pleural-a-case",
@@ -11061,32 +11065,32 @@
       "collection": "R27",
       "generation_batch": "keanne-followups1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "management",
-      "scenario": "The lecture follows this patient after surgery. The team reviews the case before finalizing the later phase of treatment.",
-      "lead_in": "Which decision is guided by the testing listed in the last row?",
-      "stem": "Which decision is guided by the testing listed in the last row?",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
+      "scenario": "A 62-year-old woman, Penny, has stage IIIC high grade serous carcinoma and underwent open surgical debulking. Her team plans carboplatin and paclitaxel. The last row of the workup lists germline and tumor BRCA testing and homologous recombination deficiency (HRD) testing.",
+      "lead_in": "Which decision is guided by the testing listed in the last row, and why does BRCA or HRD status matter?",
+      "stem": "Which decision is guided by the testing listed in the last row, and why does BRCA or HRD status matter?",
       "options": [
-        "Whether to obtain an initial CT scan.",
-        "Whether to repeat the initial colonoscopy.",
-        "Whether to use PARP inhibitor maintenance after initial chemotherapy.",
-        "Whether to replace the scheduled initial chemotherapy with endocrine therapy.",
-        "Whether to order the original CA-125 and CEA tests."
+        "Whether to perform debulking, since BRCA decides surgery",
+        "Whether to use PARP inhibitor maintenance after initial chemotherapy, since tumors deficient in homologous recombination repair double strand breaks poorly",
+        "Whether to screen her relatives for ovarian cancer with CA-125 only",
+        "Whether to use carboplatin and paclitaxel, since BRCA decides the first chemotherapy",
+        "Whether to use tamoxifen, since BRCA positive tumors are ER positive"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "CT was part of the initial evaluation before surgery. The listed testing belongs to the postoperative cancer treatment plan. This choice describes obtaining an initial CT.",
-        "The lecture uses the pending testing for tumor treatment planning, not for reassessing the original bowel compression. This choice describes repeating the colonoscopy.",
-        "The lecture lists carboplatin and paclitaxel as initial chemotherapy. Germline and tumor BRCA and homologous recombination deficiency testing guide selection of later maintenance therapy. This choice describes PARP inhibitor maintenance after chemotherapy (guided by BRCA and HRD testing), which is what the image shows.",
-        "The initial chemotherapy is already specified in the lecture. The pending testing guides later treatment. This choice describes replacing chemotherapy with endocrine therapy.",
-        "Those markers are reported earlier in the diagnostic workup. The listed testing concerns DNA repair status. This choice describes ordering the original CA-125 and CEA tests."
+        "Surgery has already been done, so the testing does not decide debulking.",
+        "BRCA and HRD results guide PARP inhibitor maintenance after chemotherapy.",
+        "The lecture says ovarian cancer screening is not recommended for average risk women, and CA-125 alone is not the decision here.",
+        "The initial chemotherapy is already specified and is not selected by this testing.",
+        "Tamoxifen is used in ER positive breast disease and is not the PARP decision."
       ],
-      "explanation": "The lecture lists carboplatin and paclitaxel as initial chemotherapy. Germline and tumor BRCA and homologous recombination deficiency testing guide selection of later maintenance therapy. The initial chemotherapy is already specified in the lecture. The pending testing guides later treatment.",
+      "explanation": "Step 1. The lecture lists carboplatin plus paclitaxel as the initial chemotherapy and germline and tumor testing at diagnosis. Step 2. Maintenance therapy with a PARP inhibitor (olaparib, niraparib), with or without bevacizumab, is guided by BRCA and HRD status. BRCA1 and BRCA2 are tumor suppressors that repair double strand DNA breaks by homologous recombination, so deficient tumors depend on PARP, which is why testing guides later treatment.",
       "visual_clues": [
         "The planned initial chemotherapy is listed. BRCA and homologous recombination deficiency testing inform the later plan."
       ],
       "visual_target": "Postoperative testing and maintenance therapy",
-      "tested_concept": "Postoperative testing and maintenance therapy",
+      "tested_concept": "Which decision is guided by the testing listed in the last row, and why does BRCA or HRD status matter?",
       "citations": [
         {
           "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
@@ -11145,7 +11149,8 @@
         }
       },
       "condition_name": "Ovarian cancer (epithelial)",
-      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy."
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-cervical-sampling",
@@ -11291,32 +11296,32 @@
       "collection": "R28",
       "generation_batch": "keanne-followups1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "stain",
-      "scenario": "A teaching comparison accompanies the cervical workup. The arrow in each panel marks the region to assess.",
-      "lead_in": "Which paired mechanism best explains the changes at the arrows?",
-      "stem": "Which paired mechanism best explains the changes at the arrows?",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
+      "scenario": "A 29-year-old woman with HSIL on Pap test undergoes colposcopy. A teaching comparison shows two panels. After Lugol iodine the arrow marks a yellow, nonstaining area next to dark brown tissue. After acetic acid the arrow marks a region that turns white.",
+      "lead_in": "Which paired mechanism explains the changes at the arrows?",
+      "stem": "Which paired mechanism explains the changes at the arrows?",
       "options": [
-        "Left: increased glycogen reduces iodine uptake. Right: acetic acid highlights the same glycogen.",
-        "Left: iodine uptake increases in the yellow area. Right: acetic acid produces a darker nuclear stain.",
-        "Left: reduced glycogen limits iodine uptake. Right: acetic acid makes epithelium with increased nuclear protein appear white.",
-        "Left: reduced nuclear protein limits iodine uptake. Right: increased glycogen causes whitening.",
-        "Left: high glycogen causes dark staining at the arrow. Right: reduced nuclear protein causes whitening."
+        "Iodine is taken up by abnormal cells and acetic acid dissolves glycogen",
+        "Both agents stain mucin in abnormal cells",
+        "Iodine stains keratin and acetic acid stains collagen",
+        "Iodine stains necrotic tissue and acetic acid stains fat",
+        "Iodine is taken up by glycogen and abnormal cells have less glycogen so they stay yellow, and acetic acid dehydrates cells so epithelium with more nuclear protein appears white"
       ],
-      "correct_index": 2,
+      "correct_index": 4,
       "choice_rationales": [
-        "Glycogen takes up iodine. The lecture attributes acetowhitening to the effect of acetic acid on cells with increased nuclear protein. This choice describes a glycogen-increase mechanism.",
-        "The yellow area has reduced iodine uptake and the acetic acid panel shows whitening. This choice describes increased iodine uptake in the yellow area.",
-        "The yellow Lugol region lacks the dark iodine uptake of glycogen-rich epithelium. The second region turns white after acetic acid, which the lecture links to dehydration and increased nuclear protein in abnormal cells. This choice describes reduced iodine uptake from glycogen loss with acetowhitening from dense nuclear protein, which is what the image shows.",
-        "The relevant substrate for iodine is glycogen, while the acetic acid appearance is linked to nuclear protein. This choice describes a mechanism based on reduced nuclear protein.",
-        "The left arrow marks a yellow area with reduced uptake. The lecture associates whitening with increased nuclear protein. This choice describes dark iodine staining caused by high glycogen."
+        "Normal glycogen rich cells take up iodine, not abnormal cells.",
+        "Neither agent works by staining mucin.",
+        "The lecture ties iodine to glycogen and not keratin.",
+        "The lecture does not describe staining of necrotic tissue or fat.",
+        "Iodine needs glycogen and acetic acid exposes nuclear protein, so abnormal areas are yellow and acetowhite."
       ],
-      "explanation": "The yellow Lugol region lacks the dark iodine uptake of glycogen-rich epithelium. The second region turns white after acetic acid, which the lecture links to dehydration and increased nuclear protein in abnormal cells. The relevant substrate for iodine is glycogen, while the acetic acid appearance is linked to nuclear protein.",
+      "explanation": "Step 1. The lecture states that Lugol iodine is taken up by glycogen, and abnormal cells have less glycogen, so they appear yellow and nonstaining. Step 2. Acetic acid (vinegar) dehydrates cells, and abnormal cells with more nuclear protein turn white (acetowhite). The two stains therefore highlight different properties of dysplastic epithelium and direct the biopsy.",
       "visual_clues": [
         "Compare the light area at the Lugol arrow with the darker adjacent tissue. The other arrow marks whitening after acetic acid."
       ],
       "visual_target": "Iodine uptake and acetowhitening on colposcopy",
-      "tested_concept": "Iodine uptake and acetowhitening on colposcopy",
+      "tested_concept": "Which paired mechanism explains the changes at the arrows?",
       "citations": [
         {
           "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
@@ -11346,7 +11351,8 @@
       "original_image": "assets/zoom/28c9e0e23c760a6891ef10434511e49da208dff616171af4c67de8141ad46f0b.webp",
       "original_filename": "Colposcopy Lugol and Acetic Acid - Clinical Photo.png",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
-      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma."
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-vulvar-biopsy",
@@ -11484,32 +11490,32 @@
       "collection": "R28",
       "generation_batch": "keanne-followups1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "management",
-      "scenario": "The lesion has been sampled. The team compares the biopsy findings with the course criteria for omitting groin evaluation.",
-      "lead_in": "Which finding in the table rules out omitting groin evaluation on the basis of shallow invasion?",
-      "stem": "Which finding in the table rules out omitting groin evaluation on the basis of shallow invasion?",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
+      "scenario": "A 68-year-old woman has a unifocal vulvar squamous cell carcinoma lateral to the midline with no inguinal lymphadenopathy. The biopsy shows well differentiated squamous cell carcinoma with 7 mm depth of invasion. The team compares the biopsy to the course criteria for omitting groin evaluation.",
+      "lead_in": "Which finding rules out omitting groin evaluation, and what plan does the lecture support?",
+      "stem": "Which finding rules out omitting groin evaluation, and what plan does the lecture support?",
       "options": [
-        "The measured depth of invasion exceeds 1 mm.",
-        "The visible lesion measures less than 4 cm.",
-        "The lesion lies 3 cm lateral to the midline.",
-        "The groins are negative on examination.",
-        "The lesion is well differentiated."
+        "The patient is over 65, so groin evaluation is omitted",
+        "The depth of invasion exceeds 1 mm, so groin evaluation is needed, and sentinel lymph node biopsy is an option for a unifocal tumor under 4 cm with negative groins",
+        "The groins are negative on exam, so groin evaluation is never needed",
+        "The tumor is lateral to midline, so a bilateral lymphadenectomy is always needed",
+        "The tumor is well differentiated, so no groin evaluation is needed"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "choice_rationales": [
-        "The biopsy shows 7 mm of invasion. The lecture limits the shallow-invasion exception to lesions with depth of 1 mm or less. This choice describes a depth of invasion greater than 1 mm (stage IB vulvar carcinoma requiring groin evaluation), which is what the image shows.",
-        "Size under 4 cm is one of the criteria for considering sentinel node biopsy, not a measure of depth. This choice describes a lesion under 4 cm.",
-        "The distance from midline helps choose the side of groin evaluation. It does not determine whether invasion is shallow. This choice describes a lesion lateral to the midline.",
-        "Negative groins on examination can support sentinel node assessment when otherwise eligible. They do not change the measured depth. This choice describes clinically negative groins.",
-        "The lecture bases this exception on measured invasion depth. Histologic grade is a different finding. This choice describes a well-differentiated lesion."
+        "Age is not part of the criteria.",
+        "Depth over 1 mm requires groin evaluation, and sentinel node biopsy may be used when criteria are met.",
+        "Negative groins support sentinel assessment but do not allow omission at this depth.",
+        "Bilateral evaluation applies when the lesion is within 2 cm of the midline, and this lesion is lateral.",
+        "Differentiation does not remove the need, since only depth of 1 mm or less qualifies."
       ],
-      "explanation": "The biopsy shows 7 mm of invasion. The lecture limits the shallow-invasion exception to lesions with depth of 1 mm or less. Negative groins on examination can support sentinel node assessment when otherwise eligible. They do not change the measured depth.",
+      "explanation": "Step 1. The lecture limits omission of groin evaluation to depth of invasion of 1 mm or less (stage IA), and this tumor invades 7 mm. Step 2. Treatment is radical local excision with 1 to 2 cm margins plus groin evaluation, which is ipsilateral if the lesion is not within 2 cm of the midline, and sentinel node biopsy is an option for unifocal tumors under 4 cm with negative groins on exam and imaging and no prior surgery or radiation. Negative groin exam does not change the depth.",
       "visual_clues": [
         "Compare the 7 mm depth with the course criterion of 1 mm or less."
       ],
       "visual_target": "Depth of invasion and groin evaluation",
-      "tested_concept": "Depth of invasion and groin evaluation",
+      "tested_concept": "Which finding rules out omitting groin evaluation, and what plan does the lecture support?",
       "citations": [
         {
           "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
@@ -11574,7 +11580,8 @@
         }
       },
       "condition_name": "Vulvar squamous cell carcinoma",
-      "condition_overview": "Vulvar squamous cell carcinoma has two main pathways. HPV-related tumors arise from usual-type VIN in younger women and are basaloid or warty. HPV-independent tumors arise from dVIN or lichen sclerosus in older women and are keratinizing. Keratinizing tumors show irregular nests of atypical squamous cells with keratin pearls and intercellular bridges invading dermis. Depth of invasion, tumor size, and groin node status determine stage and prognosis. Treatment is wide excision, and groin node assessment is needed when invasion exceeds 1 mm."
+      "condition_overview": "Vulvar squamous cell carcinoma has two main pathways. HPV-related tumors arise from usual-type VIN in younger women and are basaloid or warty. HPV-independent tumors arise from dVIN or lichen sclerosus in older women and are keratinizing. Keratinizing tumors show irregular nests of atypical squamous cells with keratin pearls and intercellular bridges invading dermis. Depth of invasion, tumor size, and groin node status determine stage and prognosis. Treatment is wide excision, and groin node assessment is needed when invasion exceeds 1 mm.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-postpartum-workup",
@@ -11712,32 +11719,32 @@
       "collection": "R28",
       "generation_batch": "keanne-followups1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "management",
-      "scenario": "The team reviews the findings from the postpartum evaluation before deciding whether to sample the visible lesion.",
-      "lead_in": "Which plan best addresses the concern raised by the findings in the table?",
-      "stem": "Which plan best addresses the concern raised by the findings in the table?",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
+      "scenario": "A 42-year-old woman presents with dyspnea and cough 5 months after term delivery. Chest x-ray shows multiple lung lesions, beta hCG is 32,567, and examination shows erythematous polypoid vaginal lesions. CT shows 5 pulmonary metastases of 2 to 4 cm.",
+      "lead_in": "Which plan best addresses the concern raised by these findings?",
+      "stem": "Which plan best addresses the concern raised by these findings?",
       "options": [
-        "Obtain a vaginal punch biopsy before beginning the trophoblastic workup.",
-        "Defer biopsy of the vaginal lesions because suspected vascular deposits can bleed.",
-        "Monitor the vaginal lesions without a trophoblastic evaluation.",
-        "Delay further evaluation until tissue from a vaginal lesion confirms the diagnosis.",
-        "Treat the vaginal lesions as a separate local process before addressing the lung findings."
+        "Observe, since hCG after a term birth is normal",
+        "Treat as breast cancer metastasis",
+        "Biopsy the vaginal lesions immediately to confirm the diagnosis",
+        "Defer biopsy of the vaginal lesions because they are vascular and can bleed, and treat gestational trophoblastic neoplasia without a histologic diagnosis",
+        "Treat for pneumonia and recheck hCG in a year"
       ],
-      "correct_index": 1,
+      "correct_index": 3,
       "choice_rationales": [
-        "The lecture identifies suspected vaginal deposits as highly vascular and warns of hemorrhage with biopsy. This choice describes a vaginal biopsy before the trophoblastic workup.",
-        "The postpartum timing, elevated β-hCG, pulmonary findings, and vaginal lesions support the lecture’s concern for gestational trophoblastic neoplasia. The vaginal lesions are a hemorrhage risk, and the lecture states that histology is not required to proceed with treatment. This choice describes deferring biopsy of vaginal lesions because metastatic choriocarcinoma deposits can bleed heavily, which is what the image shows.",
-        "The combination of elevated β-hCG, a recent delivery, and lesions in the lungs and vagina calls for trophoblastic evaluation. This choice describes monitoring without trophoblastic evaluation.",
-        "The lecture says histologic confirmation is not required before treatment in this setting. This choice describes delaying evaluation until biopsy.",
-        "The lecture connects the vaginal and lung findings to the same suspected gestational trophoblastic process. This choice describes local treatment of the vaginal lesions alone."
+        "Elevated hCG after any pregnancy, including a term birth, is abnormal in this context.",
+        "There is no evidence of breast disease, and the hCG is markedly elevated.",
+        "Biopsy carries a hemorrhage risk, so this option is not recommended.",
+        "The lecture advises against biopsy of the vascular vaginal lesions and says histology is not required.",
+        "Pneumonia does not explain markedly elevated hCG with vaginal lesions."
       ],
-      "explanation": "The postpartum timing, elevated β-hCG, pulmonary findings, and vaginal lesions support the lecture’s concern for gestational trophoblastic neoplasia. The vaginal lesions are a hemorrhage risk, and the lecture states that histology is not required to proceed with treatment. The lecture connects the vaginal and lung findings to the same suspected gestational trophoblastic process.",
+      "explanation": "Step 1. A markedly elevated hCG after a term birth with lung metastases and vaginal lesions indicates gestational trophoblastic neoplasia, here choriocarcinoma, which is composed of sheets of anaplastic cytotrophoblast and syncytiotrophoblast without villi. Step 2. The lecture states vaginal lesions are very vascular so they should not be biopsied because of hemorrhage risk, and a histologic diagnosis is not required to treat. Lung is the most common metastatic site, followed by vagina.",
       "visual_clues": [
         "The case pairs elevated β-hCG after a term birth with lung findings and erythematous vaginal lesions."
       ],
       "visual_target": "Biopsy decision for vascular vaginal lesions",
-      "tested_concept": "Biopsy decision for vascular vaginal lesions",
+      "tested_concept": "Which plan best addresses the concern raised by these findings?",
       "citations": [
         {
           "document": "R28 Clinical GYN Oncology Part II RLS.pdf",
@@ -11787,7 +11794,8 @@
         }
       },
       "condition_name": "Choriocarcinoma",
-      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed."
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-her2-therapy",
@@ -12008,28 +12016,28 @@
     {
       "question_id": "q-r31-breast-case-cyst",
       "collection": "R31",
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Transmission through cyst fluid",
+      "tested_concept": "Which mechanism accounts for the bright band of tissue deep to this lesion?",
       "visual_target": "Transmission through cyst fluid",
       "question_type": "Clinical visual question",
-      "stem": "Which mechanism accounts for the bright band of tissue deep to the lesion?",
+      "stem": "Which mechanism accounts for the bright band of tissue deep to this lesion?",
       "options": [
-        "Calcification blocks sound and produces a bright posterior band.",
-        "Diffuse solid tissue within the lesion generates the bright posterior band.",
-        "Low internal attenuation is ruled out by the anechoic center.",
-        "The band indicates identical transmission on either side of the lesion.",
-        "Sound passes through the cyst fluid with relatively little attenuation."
+        "Sound passes through the cyst fluid with little attenuation, producing posterior enhancement behind the fluid",
+        "Sound is reflected by calcification, producing a bright echo",
+        "Sound is amplified by a fibroadenoma",
+        "Sound is scattered by fat necrosis",
+        "Sound is absorbed by the lesion, producing a posterior shadow"
       ],
       "choice_rationales": [
-        "A strongly attenuating focus would leave a darker shadow. This choice describes calcification shadowing.",
-        "The lesion itself is dark and the enhancement is behind it. This choice describes solid-tissue brightening.",
-        "The dark fluid center and bright posterior region support transmission. This choice describes ruling out low attenuation.",
-        "The tissue deep to the cyst is visibly brighter than the nearby region. This choice describes equal transmission.",
-        "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example. This choice describes posterior acoustic enhancement from a simple cyst, which is what the image shows."
+        "Fluid transmits sound with little attenuation, so deeper tissue looks brighter.",
+        "A calcification would be a bright focus and not an anechoic lesion.",
+        "A fibroadenoma is a solid lesion with internal echoes.",
+        "Fat necrosis is not an anechoic fluid cyst.",
+        "Posterior shadowing is seen with dense solid or calcified masses, not fluid."
       ],
-      "correct_index": 4,
-      "explanation": "The lesion is anechoic and tissue immediately deep to it is brighter. This posterior enhancement supports fluid transmission in the simple cyst example. The lesion itself is dark and the enhancement is behind it.",
+      "correct_index": 0,
+      "explanation": "Step 1. An anechoic round lesion on ultrasound is fluid, a simple breast cyst, which develops when more fluid is produced than reabsorbed (a hormonally driven process, hence cyclic changes). Step 2. Fluid transmits sound with little attenuation, so tissue immediately deep to it appears brighter, called posterior enhancement. A solid lesion shows internal echoes and does not enhance the same way.",
       "visual_clues": [
         "Compare the tissue below the fluid region with adjoining tissue at the same depth."
       ],
@@ -12040,9 +12048,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "scenario": "The breast lecture compares a palpable breast lump with the solid lesion shown in the companion example.",
-      "lead_in": "Which mechanism accounts for the bright band of tissue deep to the lesion?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 45-year-old woman has a palpable breast lump whose size varies with her menstrual cycle. Ultrasound shows a round anechoic lesion with a bright band of tissue deep to it, in contrast to a solid lesion in a second patient.",
+      "lead_in": "Which mechanism accounts for the bright band of tissue deep to this lesion?",
       "source_id": "s-0387e1221febf514a070",
       "source_group_id": "g-af97811c946fd32ea73a",
       "asset_id": "a-bff35792180cdda776a594960dc3edf521954f753795e2f142e0b110c598f634",
@@ -12065,33 +12073,34 @@
         }
       ],
       "condition_name": "Fibrocystic changes",
-      "condition_overview": "Fibrocystic changes are the most common benign breast condition in premenopausal women and cause cyclical pain and lumpiness. Findings include cysts, stromal fibrosis, and adenosis. Nonproliferative changes carry no added cancer risk, whereas proliferative changes (usual ductal hyperplasia, sclerosing adenosis) carry a mild increase, and proliferative disease with atypia a moderate increase."
+      "condition_overview": "Fibrocystic changes are the most common benign breast condition in premenopausal women and cause cyclical pain and lumpiness. Findings include cysts, stromal fibrosis, and adenosis. Nonproliferative changes carry no added cancer risk, whereas proliferative changes (usual ductal hyperplasia, sclerosing adenosis) carry a mild increase, and proliferative disease with atypia a moderate increase.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-breast-case-fibro",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Imaging correlate of a firm mobile breast lump",
+      "tested_concept": "Which diagnosis matches, and how is it expected to behave with hormonal changes?",
       "visual_target": "Imaging correlate of a firm mobile breast lump",
       "question_type": "Clinical visual question",
-      "stem": "Which diagnosis matches the solid sonographic pattern and the smooth mammographic mass?",
+      "stem": "Which diagnosis matches, and how is it expected to behave with hormonal changes?",
       "options": [
-        "Fibroadenoma.",
-        "Simple breast cyst.",
-        "Invasive carcinoma with architectural distortion.",
-        "An in situ lesion presenting only as grouped calcifications.",
-        "Diffuse fibrocystic change without a dominant lesion."
+        "Malignant cystadenocarcinoma",
+        "Fibroadenoma, the most common breast neoplasm, which can enlarge in high estrogen states and regress with menopause",
+        "Simple breast cyst, which is anechoic and enhances posteriorly",
+        "Fibrocystic breast syndrome with tender nodules",
+        "Invasive ductal carcinoma, which is hard with spiculation"
       ],
       "choice_rationales": [
-        "The mammogram shows a discrete mass, and the ultrasound shows internal echoes rather than an anechoic fluid center. R31 pairs this appearance and exam history with fibroadenoma. This choice describes a fibroadenoma, which is what the image shows.",
-        "The ultrasound shows internal echoes instead of the simple cyst pattern. This choice describes a simple breast cyst.",
-        "The lecture’s invasive example has an irregular center with conspicuous radiating distortion. This choice describes invasive carcinoma.",
-        "The dominant finding is a discrete mass. This choice describes ductal carcinoma in situ with calcifications.",
-        "The two views show a focal mass. This choice describes fibrocystic change."
+        "Cystadenocarcinoma is a malignant cystic ovarian tumor, not a smooth breast mass.",
+        "Fibroadenoma is a smooth, mobile mass that responds to estrogen levels.",
+        "A simple cyst is anechoic with posterior enhancement.",
+        "Fibrocystic syndrome causes pain and tender nodules.",
+        "Invasive carcinoma is irregular and spiculated."
       ],
-      "correct_index": 0,
-      "explanation": "The mammogram shows a discrete mass, and the ultrasound shows internal echoes rather than an anechoic fluid center. R31 pairs this appearance and exam history with fibroadenoma. The lecture’s invasive example has an irregular center with conspicuous radiating distortion.",
+      "correct_index": 1,
+      "explanation": "Step 1. A firm, mobile, nontender mass with a smooth discrete mammographic mass and internal echoes is a fibroadenoma. Step 2. The lecture states fibroadenomas are the most common breast neoplasm (in about 25 percent of asymptomatic women), present as highly mobile, firm, nontender masses, enlarge during high estrogen times, and regress with menopause. The invasive example has irregular spiculation, not a smooth border.",
       "visual_clues": [
         "Compare the margin and internal echoes with the fluid-filled comparison."
       ],
@@ -12102,9 +12111,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "In the lecture’s second comparison, the patient has a firm, mobile, nontender breast lump.",
-      "lead_in": "Which diagnosis matches the solid sonographic pattern and the smooth mammographic mass?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 24-year-old woman has a firm, mobile, nontender breast lump that grew during pregnancy. Mammography shows a smooth discrete mass, and ultrasound shows internal echoes rather than an anechoic fluid center. A comparison invasive example has an irregular center with radiating distortion.",
+      "lead_in": "Which diagnosis matches, and how is it expected to behave with hormonal changes?",
       "source_id": "s-b01759503135627076ab",
       "source_group_id": "g-904b5900f6e9bfab1c61",
       "asset_id": "a-325d93fb83311569b356d9d330ac1d497b73f698df0cb5b8edc3f8fb365b35f4",
@@ -12131,33 +12140,34 @@
         }
       ],
       "condition_name": "Fibroadenoma",
-      "condition_overview": "Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision."
+      "condition_overview": "Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-cavity-saline",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "Ultrasound",
-      "tested_concept": "Saline outlines an intracavitary component",
+      "tested_concept": "What does the saline make easier to see, and which fibroid category does it demonstrate?",
       "visual_target": "Saline outlines an intracavitary component",
       "question_type": "Clinical visual question",
-      "stem": "What does the saline make easier to see in this example?",
+      "stem": "What does the saline make easier to see, and which fibroid category does it demonstrate?",
       "options": [
-        "The mass projects outward from the uterine serosa.",
-        "A rounded lesion projects into the cavity and is outlined by fluid.",
-        "The mass is in the ovarian cortex, separate from the uterus.",
-        "The entire uterine wall is uniformly thick with no focal lesion.",
-        "The lesion is wholly intramural with no cavity contact."
+        "A rounded lesion projecting into the cavity outlined by fluid, the intracavitary component of a submucosal fibroid",
+        "A normal endometrial stripe",
+        "A subserosal mass outside the uterus",
+        "A thickened ovary",
+        "A cyst in the myometrium far from the cavity"
       ],
       "choice_rationales": [
-        "The dark fluid outlines the lesion in the uterine cavity. This choice describes a subserosal fibroid.",
-        "The dark saline outlines the protruding rounded lesion. R31 uses this relationship to demonstrate the intracavitary component of a submucosal fibroid. This choice describes a submucosal fibroid or polyp (a lesion projecting into the cavity, outlined by saline), which is what the image shows.",
-        "The visible fluid outlines a uterine cavity lesion. This choice describes an ovarian mass.",
-        "The circled feature is focal and rounded. This choice describes diffuse myometrial thickening (adenomyosis).",
-        "The lesion projects into the saline-filled space. This choice describes an intramural fibroid."
+        "A protruding rounded lesion outlined by saline is a submucosal fibroid.",
+        "A normal stripe would not show a projecting lesion.",
+        "A subserosal mass projects outward, away from the cavity.",
+        "The ovary is not outlined by intrauterine saline.",
+        "A deep myometrial lesion would not be outlined by saline."
       ],
-      "correct_index": 1,
-      "explanation": "The dark saline outlines the protruding rounded lesion. R31 uses this relationship to demonstrate the intracavitary component of a submucosal fibroid. The lesion projects into the saline-filled space.",
+      "correct_index": 0,
+      "explanation": "Step 1. Saline distends the cavity so any mass contacting the endometrium is outlined by the dark fluid. Step 2. The lecture classifies fibroids as intramural, submucosal (within the endometrium), and subserosal, and uses saline infused sonography to show submucosal myoma, which projects into the cavity and often causes heavy bleeding. Subserosal lesions lie outside the cavity.",
       "visual_clues": [
         "Follow the dark saline to the edge of the circled projection."
       ],
@@ -12168,9 +12178,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "scenario": "The lecture compares uterine masses by their relationship to the endometrial cavity.",
-      "lead_in": "What does the saline make easier to see in this example?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 44-year-old woman has heavy menses. A saline infused sonogram is performed. The dark saline outlines a rounded structure that projects into the endometrial cavity from the wall.",
+      "lead_in": "What does the saline make easier to see, and which fibroid category does it demonstrate?",
       "source_id": "s-eaabf1f371226072b690",
       "source_group_id": "g-ae37ef72ee83540bcfb3",
       "asset_id": "a-a92f69f5f06729539b9073ca4f5d330dea2d9e992b48e2a9f0dbc83a91dd607f",
@@ -12197,33 +12207,34 @@
         }
       ],
       "condition_name": "Uterine leiomyoma",
-      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare."
+      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-cavity-treatment",
       "collection": "R31",
       "study_skill": "interpretation",
       "category": "MRI",
-      "tested_concept": "Size change following fibroid embolization",
+      "tested_concept": "Which comparison confirms the intended local effect, and what makes this approach attractive?",
       "visual_target": "Size change following fibroid embolization",
       "question_type": "Clinical visual question",
-      "stem": "Which comparison confirms the intended local effect in this teaching example?",
+      "stem": "Which comparison confirms the intended local effect, and what makes this approach attractive?",
       "options": [
-        "The intracavitary burden increases after embolization.",
-        "The MRI demonstrates complete removal of the uterus.",
-        "The bulky uterine masses are smaller after embolization.",
-        "The images show unchanged size with a new adnexal lesion.",
-        "The postprocedure image shows disappearance of the ovaries."
+        "The masses are unchanged, and it requires hysterectomy",
+        "The ovaries are removed after embolization",
+        "The bulky uterine masses are smaller after embolization, and it is minimally invasive and may preserve fertility",
+        "The masses are larger after embolization, and it is the definitive treatment",
+        "The uterus is absent after embolization"
       ],
       "choice_rationales": [
-        "The postprocedure image shows a reduction in the bulk of the masses. This choice describes an increase in intracavitary burden.",
-        "A uterus is still visible in the follow-up image. This choice describes uterine removal.",
-        "The paired sagittal MRI examples show a smaller uterine mass burden after treatment. The figure illustrates local change in the treated fibroids. This choice describes a decrease in fibroid size after uterine artery embolization, which is what the image shows.",
-        "The main comparison is a decrease in bulk of the uterine masses. This choice describes a new adnexal lesion.",
-        "The lesson concerns uterine rather than ovarian change. This choice describes ovarian loss."
+        "Unchanged masses would not confirm the intended effect.",
+        "Embolization does not remove the ovaries.",
+        "Smaller fibroids after embolization confirm devascularization, and the approach is minimally invasive.",
+        "Larger masses would indicate failure, and hysterectomy is the definitive treatment.",
+        "The uterus remains after embolization, unlike hysterectomy."
       ],
       "correct_index": 2,
-      "explanation": "The paired sagittal MRI examples show a smaller uterine mass burden after treatment. The figure illustrates local change in the treated fibroids. The postprocedure image shows a reduction in the bulk of the masses.",
+      "explanation": "Step 1. Uterine artery embolization blocks blood supply to the fibroids, so the treated masses shrink. Step 2. The lecture lists uterine artery embolization as a minimally invasive approach that may preserve fertility, alongside MRI guided focused ultrasound ablation, while hysterectomy remains the definitive treatment. A smaller uterine mass burden after treatment confirms the intended local effect.",
       "visual_clues": [
         "Use the adjacent pelvic structures as references when comparing uterine bulk."
       ],
@@ -12234,9 +12245,9 @@
       "format_version": "clinical-visual-v1",
       "generation_batch": "r30-r32-1",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "scenario": "The lecture shows MRI before and after uterine artery embolization in a patient with uterine fibroids.",
-      "lead_in": "Which comparison confirms the intended local effect in this teaching example?",
+      "reasoning_type": "second or third order",
+      "scenario": "A 41-year-old woman with symptomatic uterine fibroids who wishes to preserve her uterus undergoes uterine artery embolization. Paired sagittal MRI before and after the procedure are compared.",
+      "lead_in": "Which comparison confirms the intended local effect, and what makes this approach attractive?",
       "source_id": "s-0c770553951d9a31fe47",
       "source_group_id": "g-389f93b6ba2797f71ab0",
       "asset_id": "a-9eba2879fe49e3e57912d0e80959dfd21df4e9ae456c0ea78dc98db1405ead15",
@@ -12255,7 +12266,8 @@
         }
       ],
       "condition_name": "Uterine leiomyoma",
-      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare."
+      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r32-amenorrhea-mri",
