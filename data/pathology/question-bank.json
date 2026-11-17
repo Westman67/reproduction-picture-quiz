@@ -51,7 +51,9 @@
       "review_status": "USABLE",
       "case_context": "A 12-year-old girl and her 12-year-old male classmate are both 10th percentile for height. Their pediatrician tells them the girl will likely grow faster this year and the boy will not reach his fastest growth for about two more years.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Sequence of Pubertal Events by Sex",
+      "condition_overview": "On the height velocity curves, the female peak (around age 12) occurs earlier than the male peak (around age 14). The male peak comes later in pubertal development, is larger than the female peak, and both factors account for the adult height difference between the sexes."
     },
     {
       "stem": "Which pair of events is expected first in each sex, and what is the later order?",
@@ -100,7 +102,9 @@
       "review_status": "USABLE",
       "case_context": "A 10-year-old girl has new breast buds but no pubic hair or menses. Her 10-year-old brother has not yet begun puberty. Their mother asks which changes should appear first in each child. A plotted chart shows the age ranges of pubertal events for girls and boys.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Timing of Pubertal Events Girls and Boys",
+      "condition_overview": "The lecture states that in girls the first change is breast budding, often followed by pubic hair, then the growth spurt, then the period. In boys the first change is testicular enlargement and growth of the scrotum, followed by voice deepening, penile enlargement, and pubic hair, with the growth spurt in boys happening later than in girls."
     },
     {
       "stem": "Why is the nuclear location of the stain expected, and how will it affect therapy?",
@@ -148,8 +152,10 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman has a 1.5 cm breast carcinoma. Immunohistochemistry shows brown staining in the nuclei of most tumor cells and no staining of the cell membranes or cytoplasm. HER2 is negative.",
-      "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "study_skill": "stain",
+      "reasoning_order": "second or third order",
+      "condition_name": "ER Alpha Nuclear Immunostaining",
+      "condition_overview": "Nuclear brown staining is the pattern of estrogen receptor alpha, which is almost always expressed in the nucleus of ER positive cells. Breast tumors are routinely tested for ER, PR, and HER2, and ER positive tumors predict beneficial responses to endocrine therapy (tamoxifen, aromatase inhibitors), whereas trastuzumab applies to HER2 positive tumors."
     },
     {
       "stem": "Which test would most readily confirm the cause of her infection?",
@@ -197,7 +203,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 29-year-old woman has intense vulvar itching, dysuria, and a thick white curdlike vaginal discharge. Her Pap smear is shown.",
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "condition_name": "Candida vulvovaginitis",
       "condition_overview": "Candida vulvovaginitis is a yeast infection, most often from Candida albicans, that overgrows when the vaginal flora or immune balance shifts, for example after antibiotics, with diabetes, pregnancy, or immunosuppression. Patients have itching, burning, and a thick white curd-like discharge. On a Pap smear or tissue section the fungus appears as pale budding yeast and long, branching pseudohyphae that thread through and between squamous cells (the shish kebab appearance), often with neutrophils. It is a superficial infection of keratin and mucosa and does not invade deeply in healthy hosts. Treatment is with topical or oral azole antifungals.",
       "reasoning_order": "second or third order"
@@ -437,7 +443,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman has postmenopausal vaginal bleeding. Ultrasound shows a solid ovarian mass and thickened endometrium. The ovarian mass is sampled and shows small rosette-like groups of cells around pink material.",
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "condition_name": "Granulosa cell tumor",
       "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
       "reasoning_order": "second or third order",
@@ -615,7 +621,9 @@
             "source": "R12/Granulosa Cell Tumor - Histology.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Reinke Crystalloids",
+      "condition_overview": "Bright rodlike cytoplasmic crystals mark Leydig-type cells. Sertoli and Sertoli-Leydig cell tumors are the virilizing sex cord stromal tumors, which explains hirsutism and voice deepening, whereas granulosa cell tumors are feminizing."
     },
     {
       "stem": "Which serum marker would be expected to be elevated?",
@@ -734,7 +742,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Atretic Follicles",
+      "condition_overview": "Irregular follicles with a glassy membrane and degenerated oocyte and granulosa cells are atretic follicles. Most follicles are lost this way (about 1 million oocytes at birth fall to about 400,000 at puberty), whereas only the dominant follicle ruptures and becomes a corpus luteum."
     },
     {
       "stem": "Which pattern could explain her constant leakage, and what is the developmental basis?",
@@ -1298,7 +1308,9 @@
             "source": "R12/Struma Ovarii - Histology.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Clear Cell Carcinoma Hobnail Cells",
+      "condition_overview": "Hobnail cells with clear cytoplasm in an endometriotic cyst indicate clear cell carcinoma. This tumor has the highest association with endometriosis and with paraendocrine hypercalcemia, and is CK7 positive and CK20 negative."
     },
     {
       "stem": "What explains the cyclic pain and bleeding in these lesions?",
@@ -1397,7 +1409,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 47-year-old woman reports postcoital bleeding and dyspareunia. She smokes and has had multiple sexual partners. A cervical mass is biopsied.",
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "condition_name": "Cervical squamous cell carcinoma",
       "condition_overview": "Cervical squamous cell carcinoma is the most common cervical cancer and arises from persistently infected high-risk HPV lesions at the transformation zone through HSIL. Nests of malignant squamous cells with keratin pearls and intercellular bridges invade the cervical stroma. It presents with postcoital or abnormal bleeding, or may be found by screening. Staging uses tumor size, parametrial, pelvic wall, and nodal spread. Advanced disease can obstruct the ureters and cause hydronephrosis and renal failure, which is a major cause of death. Treatment is surgery for early disease and chemoradiation with brachytherapy for advanced disease.",
       "reasoning_order": "second or third order",
@@ -1473,7 +1485,9 @@
       "review_status": "USABLE",
       "case_context": "A 66-year-old man with painless hematuria undergoes cystoscopic biopsy. One field is read as normal with no cytologic or architectural atypia, and the pathologist wants a reference for what normal looks like before grading the tumor.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Collecting System Urothelium Histology",
+      "condition_overview": "Several orderly layers capped by broad umbrella cells with no atypia are normal urothelium. Flat urothelial carcinoma in situ has the same flat layout but shows marked nuclear atypia and disorder, so orderly maturation with umbrella cells argues against it."
     },
     {
       "stem": "What is the most appropriate management implication?",
@@ -1521,7 +1535,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 72-year-old man with a high-grade bladder tumor undergoes cystectomy. Histology shows dark tumor nests extending between thick smooth muscle bundles of the bladder wall.",
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "condition_name": "Invasive urothelial carcinoma",
       "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
       "reasoning_order": "second or third order"
@@ -1879,7 +1893,9 @@
         null,
         null,
         null
-      ]
+      ],
+      "condition_name": "Normal Hysterosalpingogram - Radiograph",
+      "condition_overview": "A smooth triangular cavity filled with contrast is a normal hysterosalpingogram. HSG is the diagnostic test for Asherman syndrome, in which adhesions appear as multiple filling defects in the cavity."
     },
     {
       "stem": "Which cell population explains why his libido and testosterone are preserved despite the tubular change?",
@@ -1951,7 +1967,9 @@
             "source": "3rd Party/Sertoli cells - Notes.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Normal vs Atrophic Seminiferous Tubules",
+      "condition_overview": "Panel B shows tubular atrophy with loss of the multilayered germ cell population. The testis has two compartments, so tubular damage spares the interstitial Leydig cells, which express LH receptors and secrete testosterone."
     },
     {
       "stem": "Which change in vaginal flora underlies her condition?",
@@ -2101,7 +2119,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 45-year-old woman has an erythematous, edematous vulva with intense pruritus. A biopsy shows a collection of neutrophils in the superficial epithelium.",
-      "study_skill": "interpretation",
+      "study_skill": "stain",
       "feedback_focus": [
         {
           "x": 56,
@@ -2445,7 +2463,9 @@
       "review_status": "USABLE",
       "case_context": "A 66-year-old postmenopausal woman has a vaginal biopsy showing normal-appearing nonkeratinized squamous epithelium with flattening of cells toward the surface.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Normal Squamous Epithelium Maturation",
+      "condition_overview": "The image shows maturation of nonkeratinized squamous epithelium. Estrogen drives glycogen synthesis in the vaginal epithelium, and bacteria convert it to lactic acid."
     },
     {
       "stem": "Which immunohistochemical profile supports the diagnosis?",
@@ -2596,7 +2616,9 @@
       "review_status": "USABLE",
       "case_context": "A 68-year-old postmenopausal woman has a Pap smear that contains small undifferentiated cells resembling histiocytes. Atrophy is noted.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Squamous Epithelium Layers",
+      "condition_overview": "The deepest epithelial compartment consists of small, dark basal cells at the connective tissue border. Basal cells are seldom seen in Pap smears but may appear with atrophy, as in this postmenopausal patient."
     },
     {
       "stem": "Which finding would distinguish a premalignant lesion from this condition?",
@@ -2838,7 +2860,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 64-year-old kidney transplant recipient has a high-grade vaginal lesion. Immunostaining for p16 shows strong brown staining of the lesional epithelium.",
-      "study_skill": "interpretation",
+      "study_skill": "stain",
       "feedback_focus": [
         {
           "x": 42,
@@ -3461,10 +3483,10 @@
     {
       "stem": "Which statement about these cells is correct?",
       "options": [
-        "They are superficial cells that normally have the lowest nuclear to cytoplasmic ratio",
-        "They are koilocytes",
-        "They are parabasal cells that normally lie in the deepest layer of the squamous epithelium",
-        "They are columnar endocervical cells"
+        "Superficial cells with the lowest nuclear-to-cytoplasmic ratio",
+        "Koilocytes with perinuclear halos from HPV infection",
+        "Parabasal cells from the deepest squamous epithelial layer",
+        "Columnar endocervical cells with mucin-rich cytoplasm"
       ],
       "correct_index": 2,
       "explanation": "Step 1. Small cells with limited cytoplasm and relatively large nuclei are the immature parabasal type. Step 2. The squamous epithelium matures from parabasal to intermediate to superficial cells, and the nucleus serves as the standard reference for judging abnormality, so a high N/C ratio is normal in parabasal cells but abnormal in a superficial cell.",
@@ -3523,7 +3545,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "Basal Cells",
+      "condition_overview": "Small cells with limited cytoplasm and relatively large nuclei are the immature parabasal type. The squamous epithelium matures from parabasal to intermediate to superficial cells, and the nucleus serves as the standard reference for judging abnormality, so a high N/C ratio is normal in parabasal cells but abnormal in a superficial cell."
     },
     {
       "stem": "What component is typically seen in the nodal metastasis?",
@@ -4098,10 +4122,10 @@
     {
       "stem": "Which statement best reflects the natural history if the lesion is left untreated?",
       "options": [
-        "About 60 percent persist and about 10 percent progress to carcinoma",
-        "It cannot progress because the basement membrane is thick",
-        "It becomes endometrial hyperplasia",
-        "Nearly all regress within a year"
+        "About 60% persist and about 10% progress to carcinoma",
+        "Progression is blocked by the thick basement membrane",
+        "Most lesions transform into endometrial hyperplasia",
+        "Nearly all lesions regress spontaneously within 1 year"
       ],
       "correct_index": 0,
       "explanation": "Step 1. Atypia involving more than the lower third with loss of maturation indicates HSIL (CIN 2 or 3). Step 2. HSIL carries a significant risk of invasive cancer if not treated, with about 30 percent regressing, 60 percent persisting, and 10 percent progressing, which is why excision such as LEEP or conization is performed.",
@@ -4945,7 +4969,9 @@
             "source": "R12/Omental Caking - Histology.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Normal Omentum",
+      "condition_overview": "Adipocytes separated by delicate septa are normal omentum. In serous carcinoma, widespread peritoneal involvement and omental caking are expected in advanced disease, so a negative sample shows no omental tumor in that tissue."
     },
     {
       "stem": "Which stage group is most likely?",
@@ -5200,7 +5226,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "Ovarian Metastasis from Breast Cancer",
+      "condition_overview": "Small atypical cells in single files in stroma suggest infiltrating carcinoma. With a breast cancer history, this is metastasis to the ovary. Breast carcinoma can metastasize to the ovary, with small cells infiltrating in linear files through stroma."
     },
     {
       "stem": "Which answer is correct?",
@@ -5249,7 +5277,9 @@
       "review_status": "USABLE",
       "case_context": "A 25-year-old woman has an ovarian section showing a primary follicle with a central oocyte. A student asks which hormones govern the maturation of such follicles.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Ovarian Stroma with Primary Follicle",
+      "condition_overview": "A central oocyte with a ring of granulosa cells is a small primary follicle. Follicle development, including the transition to a Graafian follicle with theca layers, is governed by FSH and LH."
     },
     {
       "stem": "What are the inner and outer layers called?",
@@ -5310,7 +5340,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "Ovarian Stroma with Primary Follicle",
+      "condition_overview": "The cell ring around the oocyte is the granulosa layer. In the Graafian follicle, the stromal cells around the granulosa layer differentiate into inner and outer theca, and the sex cord tumors thecoma and granulosa cell tumor derive from these elements."
     },
     {
       "stem": "What is the main reason the prognosis is poor?",
@@ -5478,7 +5510,9 @@
       "review_status": "USABLE",
       "case_context": "A 33-year-old woman with a regular 28-day cycle has an endometrial biopsy on day 9. Glands are tubular with pseudostratified nuclei and mitoses.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Proliferative Endometrium",
+      "condition_overview": "Tubular glands, pseudostratified nuclei, and mitoses define proliferative endometrium. This appears in the first part of the cycle during the follicular phase under estrogen, whereas secretory change follows ovulation."
     },
     {
       "stem": "What event has occurred in this cycle?",
@@ -5539,7 +5573,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Secretory Endometrium",
+      "condition_overview": "Round dilated glands with vacuoles indicate secretory endometrium. Secretory change follows ovulation, when the corpus luteum forms and the luteal phase, which remains constant at 14 days, begins."
     },
     {
       "stem": "Which statement is correct?",
@@ -5588,7 +5624,9 @@
       "review_status": "USABLE",
       "case_context": "A 29-year-old woman has a biopsy at day 17 of her cycle showing subnuclear vacuoles in glands. A pathologist asks whether mitoses can still be seen at this stage.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Secretory Endometrium Gland",
+      "condition_overview": "Subnuclear vacuoles indicate early secretory endometrium. Mitotic figures may be seen on days 16 through 19, so early secretory endometrium can still show mitoses, whereas later phases show sawtooth glands and luminal secretions."
     },
     {
       "stem": "Which finding most reliably separates the second tumor as high grade?",
@@ -6084,7 +6122,9 @@
             "source": "R15/Adenocarcinoma of Bladder - Gross.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Adenocarcinoma in Situ of Bladder Histology",
+      "condition_overview": "Atypical columnar cells confined to surface glands without invasion are adenocarcinoma in situ. Atypical columnar cells limited to glands on the surface without invasion are in situ, which is distinct from infiltrating glands, and metastasis from prostate or colon must still be excluded in glandular tumors."
     },
     {
       "stem": "Which origin is most likely for this tumor, and which exclusion is needed?",
@@ -6304,7 +6344,9 @@
         null,
         null,
         null
-      ]
+      ],
+      "condition_name": "Brunn Nests Histology",
+      "condition_overview": "Well circumscribed clusters of bland urothelial cells beneath the surface are Brunn nests. They are common and benign and, under chronic irritation, can develop lumina (cystitis cystica) and glandular metaplasia (cystitis glandularis)."
     },
     {
       "stem": "Which statement about the condition is correct?",
@@ -6479,7 +6521,9 @@
       "review_status": "USABLE",
       "case_context": "A 58-year-old man has a biopsy of the renal pelvis. The pathologist notes that the luminal cap of the mucosa consists of large rounded superficial cells, and states that the sample is unremarkable.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Collecting System Urothelium Histology",
+      "condition_overview": "Large rounded umbrella cells capping a layered lining with no atypia indicate normal urothelium. High-grade papillary carcinoma shows marked cytologic atypia, frequent mitoses, and common necrosis, so a bland umbrella-cell cap argues against it."
     },
     {
       "stem": "What is the expected behavior compared with a low-grade papillary tumor?",
@@ -6863,7 +6907,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A pathology trainee examines a papillary bladder lesion with round cross sections. Each has a central core containing a vessel with red blood cells covered by orderly urothelium.",
-      "study_skill": "interpretation",
+      "study_skill": "morphology",
       "condition_name": "Urothelial papilloma",
       "condition_overview": "Urothelial papilloma is a rare benign papillary tumor of the bladder composed of delicate fronds with fibrovascular cores covered by normal-appearing urothelium of normal thickness without atypia. It occurs in younger patients and has a low recurrence rate. Endoscopic resection is curative.",
       "reasoning_order": "second or third order"
@@ -7029,7 +7073,9 @@
       "review_status": "USABLE",
       "case_context": "A 62-year-old man from the Nile Valley with chronic Schistosoma infection has a bladder tumor. A section shows polygonal tumor cells connected by fine bridges.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "SCC Intercellular Bridges Histology",
+      "condition_overview": "Fine intercellular bridges between polygonal cells show squamous differentiation. Pure squamous cell carcinoma accounts for 2 to 7 percent of bladder cancers and is tied to chronic inflammation such as schistosomiasis, with keratin and keratin pearls as other signs."
     },
     {
       "stem": "What prognostic and diagnostic implication follows?",
@@ -7230,7 +7276,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 67-year-old man with hematuria has a urine cytology showing groups of small dark cells with high nuclear to cytoplasmic ratios and scant cytoplasm.",
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "condition_name": "Papillary urothelial carcinoma",
       "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
       "reasoning_order": "second or third order"
@@ -7282,7 +7328,9 @@
       "review_status": "USABLE",
       "case_context": "A 28-year-old woman has a luteal phase progesterone level drawn 7 days after ovulation. An ovarian section from this phase shows a thick yellow structure with large pale cells that contain lipid droplets.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "R9-lutein-cells",
+      "condition_overview": "Large pale lipid-rich cells in the postovulatory ovary are granulosa lutein cells of the corpus luteum. The corpus luteum is LH responsive and is the principal source of progesterone in the luteal phase, and without pregnancy it degenerates in 10 to 14 days into a corpus albicans."
     },
     {
       "stem": "Which clinical consequence follows from the lining cell type that is not ciliated?",
@@ -7349,7 +7397,9 @@
             "source": "R12/Uterine Cervix Transformation Zone - Diagram.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "R9-tubal-folds",
+      "condition_overview": "A highly folded lumen lined by ciliated and secretory (peg) cells is the uterine tube, most folded in the ampulla. Many high-grade serous ovarian carcinomas are thought to arise from fimbrial secretory cells, which is a clinical correlation of this histology."
     },
     {
       "stem": "Which functional unit do these clusters represent, and what is its role?",
@@ -7416,7 +7466,9 @@
             "source": "3rd Party/First Aid/Seminiferous tubules table - Diagram.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "R9-mammary-lobules",
+      "condition_overview": "Small glandular profiles clustered in loose stroma and divided by dense fibrous septa are lobules of the terminal duct lobular unit. The lobular (alveolar) component expands in lactation and the secretory cells make milk proteins and lipids, so this unit is the physiologic site that undergoes marked change with pregnancy."
     },
     {
       "stem": "What are the names of these two stromal compartments, and what do the dense bands separate?",
@@ -7477,7 +7529,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "R9-mammary-HE",
+      "condition_overview": "Cellular loose stroma around glands is intralobular, and broad dense collagen is interlobular stroma. Dense fibrous interlobular connective tissue separates the 15 to 20 lobes and lobules, so a lobule can be identified by its surrounding loose stroma."
     },
     {
       "stem": "Which cells are highlighted, and what is their physiologic role in lactation?",
@@ -7577,7 +7631,9 @@
       "review_status": "USABLE",
       "case_context": "A 62-year-old man has a prostate biopsy that was read as benign. The pathologist notes large open glands lined by tall cells with abundant pale cytoplasm that produce a secretion rich in PSA, with occasional concretions in the lumen.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "R9-prostate-secretory",
+      "condition_overview": "Tall secretory cells with pale cytoplasm, PSA secretion, and corpora amylacea are normal prostate glands. Benign prostate epithelium contains both secretory luminal cells and basal cells, so a preserved basal layer supports benignity, and loss of basal cells is the suspicious finding."
     },
     {
       "stem": "Which structure is described, and what concretions are likely in the lumen?",
@@ -7638,7 +7694,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "R9-prostate-secretory",
+      "condition_overview": "Pink interlacing tissue with elongated nuclei outside the glands is prostatic fibromuscular stroma. Corpora amylacea are concretions that may be present in prostatic glands with aging."
     },
     {
       "stem": "Why is p63 a useful stain in evaluating a small gland in a biopsy?",
@@ -7686,7 +7744,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A pathologist stains a benign prostate biopsy with p63. Small brown nuclei trace the outer contour of the glands while the luminal cells are not stained.",
-      "study_skill": "interpretation",
+      "study_skill": "stain",
       "condition_name": "Benign prostate glands",
       "condition_overview": "Benign prostatic glands have two cell layers, an inner secretory luminal layer and an outer layer of basal cells that stain positive for p63 and high-molecular-weight cytokeratin. Cancer lacks basal cells, so retained p63 positive basal cells indicate a benign gland, which is a key immunohistochemical distinction.",
       "reasoning_order": "second or third order"
@@ -7795,7 +7853,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 66-year-old man has a PSA of 11 ng/mL. A p63 stained biopsy shows small crowded glands without a brown nuclear rim next to larger glands that have one.",
-      "study_skill": "interpretation",
+      "study_skill": "stain",
       "feedback_focus": [
         {
           "x": 11,
@@ -7866,7 +7924,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "R9-bladder-umbrella",
+      "condition_overview": "Large rounded surface cells over a multilayered lining are umbrella cells of the urothelium. Umbrella cells permit expansion of the bladder, and they are not flat squamous cells."
     },
     {
       "stem": "Which hormone promotes the glycogen accumulation seen in these cells?",
@@ -7927,7 +7987,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Vagina",
+      "condition_overview": "A nonkeratinized stratified squamous lining with nucleated superficial cells is vaginal epithelium. Estrogen promotes glycogen accumulation in the intermediate and superficial cells of the vagina and ectocervix, which are the layers sampled by a Pap smear."
     },
     {
       "stem": "Which embryologic event normally brings the testes into the scrotum, and what does an undescended testis still produce?",
@@ -8153,7 +8215,9 @@
       "review_status": "USABLE",
       "case_context": "A 28-year-old woman has a pelvic ultrasound on day 3 of her cycle. The uterus shows a thin central bright line. She asks when the lining will be ready for implantation.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "R11-early-endometrium",
+      "condition_overview": "A thin echogenic endometrial line early in the cycle is early proliferative endometrium. After ovulation the corpus luteum produces progesterone that prepares the uterus for implantation and maintains early pregnancy, converting the lining to the secretory phase."
     },
     {
       "stem": "Which structure is this, and what is its function if pregnancy occurs?",
@@ -8214,7 +8278,9 @@
             "source": "R9/Corpus Luteum - Histology.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "R11-luteal-ovary",
+      "condition_overview": "A large rounded mostly cystic ovarian structure with faint echoes in the luteal phase is a corpus luteum. The corpus luteum produces progesterone that prepares the uterus for implantation and maintains early pregnancy."
     },
     {
       "stem": "What is the finding, and what structure is expected to appear next within it?",
@@ -8286,7 +8352,9 @@
             "source": "3rd Party/First Aid/Hydatidiform mole table - Diagram.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "R11-early-sac",
+      "condition_overview": "A tiny round fluid collection in the endometrial region with a positive pregnancy test is an early intrauterine gestational sac. The secondary yolk sac and then the embryo appear within the sac, and the yolk sac provides early nutrition until the umbilical cord and placenta form."
     },
     {
       "stem": "Which structures are shown, and what is the role of the round structure early in pregnancy?",
@@ -8335,7 +8403,9 @@
       "review_status": "USABLE",
       "case_context": "A 30-year-old woman is 6 weeks pregnant by dates. Ultrasound shows a small echogenic focus next to a round bright-rimmed sac inside the gestational sac.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "R11-embryo-yolk-sac",
+      "condition_overview": "A small echogenic embryonic focus beside a round bright-rimmed sac is the embryo and yolk sac. The yolk sac is the early site of blood cell formation, protein synthesis, and nutrient transport, providing nutrition and gas exchange until the umbilical cord and placenta form, after which it regresses."
     },
     {
       "stem": "What is the diagnosis, and what management is required?",
@@ -8504,7 +8574,9 @@
       "review_status": "USABLE",
       "case_context": "At 10 to 11 weeks a 46,XY fetus has testes that secrete testosterone, but a mutation prevents conversion of testosterone to dihydrotestosterone. The lecture compares the typical male external genitalia at this stage, where the ventral urethral folds approach and join at the midline, with the female panel, where the folds stay separate.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Male vs Female External Genitalia Development - EM",
+      "condition_overview": "The lecture states that circulating testosterone is converted by 5-alpha-reductase to DHT, which acts through the androgen receptor to masculinize the external genitalia. Masculinization means rapid elongation of the phallus, which pulls the urethral folds forward to form the urethral groove, and the folds then close over the urethral plate to form the penile urethra by the end of the third month."
     },
     {
       "stem": "What does the sleep related pattern reflect about the initiation of puberty?",
@@ -8553,7 +8625,9 @@
       "review_status": "USABLE",
       "case_context": "An endocrinologist monitors serum LH overnight in a 12-year-old girl in early puberty and in a 6-year-old prepubertal girl. The 12-year-old shows large LH peaks clustered during sleep and the 6-year-old shows a flat low tracing.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Gonadotropin Pulse Patterns Across Life",
+      "condition_overview": "Large LH peaks clustered during sleep indicate pubertal gonadotropin pulsatility. Puberty is initiated by a sleep-related increase in pulsatile GnRH from the hypothalamus, which stimulates pulsatile LH and FSH secretion from the anterior pituitary, along with resetting of the gonadostat to reduced negative feedback sensitivity."
     },
     {
       "stem": "What explains the rise in gonadotropins after menopause?",
@@ -8602,15 +8676,17 @@
       "review_status": "USABLE",
       "case_context": "A pediatric endocrinologist plots serum FSH and LH across a woman's life. The curves are low in childhood, rise at puberty, and rise again to high levels after menopause.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Gonadotropin Pulse Patterns Across Life",
+      "condition_overview": "Gonadotropins are low in childhood and rise markedly after menopause. Ovarian failure lowers estradiol, which removes negative feedback on the hypothalamus and pituitary so gonadotropins rise, the same mechanism as hypergonadotropic hypogonadism."
     },
     {
       "stem": "Which stage does the first boy fit, and how does the second differ?",
       "options": [
-        "Tanner stage 2, with the second boy at stage 3 because of larger testes and coarse dark hair",
-        "Tanner stage 1, with the second boy at stage 2",
-        "Tanner stage 2, with the second boy also at stage 2 because both have enlarged testes",
-        "Tanner stage 3, with the second boy at stage 2"
+        "Tanner stage 2 in the first boy and stage 3 in the second",
+        "Tanner stage 1 in the first boy and stage 2 in the second",
+        "Tanner stage 2 in both boys due to similar testicular size",
+        "Tanner stage 3 in the first boy and stage 2 in the second"
       ],
       "correct_index": 0,
       "explanation": "Step 1. Stage 1 has no development, with testes of about 3 mL. Testicular and scrotal enlargement with a similar penile outline and wispy, downy hair is stage 2. Step 2. The lecture works a case with testes of about 10 mL and dark, coarse hair at the base of the penis and gives stage 3. Hair type and testicular volume therefore separate stages 2 and 3.",
@@ -8681,7 +8757,9 @@
             "source": "3rd Party/Slide 024 - Tanner Stages - Male and Female Development.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "SMR Male Genital Stages with Testicular Volume",
+      "condition_overview": "Stage 1 has no development, with testes of about 3 mL. Testicular and scrotal enlargement with a similar penile outline and wispy, downy hair is stage 2. Enlarged testes and scrotum with little penile change and wispy hair indicate stage 2, and 10 mL with coarse hair is stage 3."
     },
     {
       "stem": "What are these bands, and what is the proposed consequence for her endometrium?",
@@ -8908,7 +8986,9 @@
       "review_status": "USABLE",
       "case_context": "A 28-year-old woman has a hysterosalpingogram for infertility. Contrast fills the triangular cavity, passes through both tubes, and forms irregular collections near each ovary.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Normal Hysterosalpingogram - Radiograph",
+      "condition_overview": "Spill of contrast from both tubal ends indicates bilateral tubal patency. A smooth cavity without filling defects argues against Asherman syndrome, though HSG does not evaluate ovulation or pituitary function."
     },
     {
       "stem": "What chromatin state supports transcription, and what recruits the machinery in response to hormone?",
@@ -8956,15 +9036,17 @@
       "review_status": "USABLE",
       "case_context": "A researcher studies why a gene is turned on in endometrial cells after estradiol exposure. DNA near the gene promoter is wound around widely spaced nucleosomes with acetylated histones and RNA polymerase II bound.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Chromatin Remodeling and Transcription",
+      "condition_overview": "Widely spaced nucleosomes with acetylated histones indicate loosely packaged, accessible chromatin where RNA polymerase II can bind. Coactivators bind the ligand binding domain in the presence of hormone and recruit chromatin remodeling complexes that destabilize nucleosomes, while HDAC and methylation condense DNA and silence genes."
     },
     {
       "stem": "Which region binds the ligand, and what is the function of region C?",
       "options": [
-        "Region E is the hinge and has no function, and region C is the ligand domain",
-        "Region E binds ligand and mediates dimerization, and region C binds hormone response elements in DNA",
-        "Region E binds coactivators only in the absence of hormone, and region C is the N-terminal domain",
-        "Region E binds DNA, and region C binds ligand"
+        "Region E is an inactive hinge, and region C binds ligand",
+        "Region E binds ligand/dimerizes, and region C binds DNA",
+        "Region E binds coactivators alone, and region C is N-terminal",
+        "Region E binds DNA elements, and region C binds hormone ligand"
       ],
       "correct_index": 1,
       "explanation": "Step 1. The large E region is the ligand binding domain with AF-2, which recruits coactivators and corepressors. Step 2. The C region is the DNA binding domain with two Cys4 zinc fingers that bind hormone response elements in target genes, so ligands such as tamoxifen bind E and alter coactivator recruitment.",
@@ -9004,7 +9086,9 @@
       "review_status": "USABLE",
       "case_context": "A pharmacologist examines a diagram of an estrogen receptor. The broad block (region E) lies near AF-2, and a small block (region C) contains two zinc fingers. A patient takes tamoxifen, which binds in one of these regions.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Nuclear Receptor Domain Structure",
+      "condition_overview": "The large E region is the ligand binding domain with AF-2, which recruits coactivators and corepressors. The C region is the DNA binding domain with two Cys4 zinc fingers that bind hormone response elements in target genes, so ligands such as tamoxifen bind E and alter coactivator recruitment."
     },
     {
       "stem": "Which explanation accounts for the continued rise in progesterone as hCG falls?",
@@ -9053,7 +9137,9 @@
       "review_status": "USABLE",
       "case_context": "A healthy 30-year-old woman has a normal pregnancy. Serial measurements are plotted for hCG (red), estrogen, and progesterone (black). Between weeks 14 and 22 her hCG falls while her progesterone and estrogen keep rising, and the pregnancy continues normally.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "hCG Estrogen and Progesterone Across Pregnancy",
+      "condition_overview": "The red curve falls over weeks 14 to 22 while the black progesterone curve rises. The lecture describes the placenta releasing estrogen and progesterone and shifting the estrogen to progesterone ratio near term, so late pregnancy hormone support is placental."
     },
     {
       "stem": "Which zone of the gland is the usual origin of this process, and why does it cause obstruction?",
@@ -9152,7 +9238,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 76-year-old man with recurrent urinary retention has a prostate that weighs more than 100 g at resection. Cut surface shows many rounded pale nodules.",
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "condition_name": "Benign prostatic hyperplasia",
       "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
       "reasoning_order": "second or third order"
@@ -9643,7 +9729,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "Normal Prostate Basal Cells Histology",
+      "condition_overview": "Small cells at the periphery of the epithelial lining are basal cells. Adenocarcinoma shows a single luminal cell layer with loss of basal cells, so basal cell markers such as the PIN-4 cocktail help confirm a benign gland, while racemase is overexpressed in cancer."
     },
     {
       "stem": "Which statement correctly explains why he may have no urinary obstruction?",
@@ -10163,7 +10251,9 @@
       "review_status": "USABLE",
       "case_context": "A 32-year-old woman delivers at term. Sections of the placenta show many separate rounded profiles with pale cellular cores and a thin cellular rim, surrounded by open spaces.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Chorionic Villi Histology",
+      "condition_overview": "Separate villous profiles with stromal cores and a trophoblastic rim around open spaces are normal chorionic villi. Umbilical vessels branch and terminate in the villi where nutrient exchange takes place, while maternal vessels from the decidua deliver blood to the intervillous spaces."
     },
     {
       "stem": "Which cell layer is this, and what disease involves excess proliferation of it?",
@@ -10224,7 +10314,9 @@
             "source": "3rd Party/Boards and Beyond Slides/Leiomyoma smooth muscle with caption - Histology.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Chorionic Villi Histology",
+      "condition_overview": "A thin cellular border on the outer edge of each villus facing the intervillous space is trophoblast. Gestational trophoblastic disease is the group of disorders defined by proliferation of placental villous or trophoblastic tissue, such as hydatidiform mole and choriocarcinoma."
     },
     {
       "stem": "Which cell types are present, and which marker do the tumor cells express?",
@@ -10733,10 +10825,10 @@
     {
       "stem": "What is the diagnosis, and what histologic finding is necessary for the diagnosis of the spectrum?",
       "options": [
-        "Ectopic pregnancy, and abundant decidua",
-        "Placenta percreta, and absence of decidua between the placental base and myometrium",
-        "Placenta increta, and perforation of the uterine wall",
-        "Placenta accreta, and abundant decidua between the placental base and myometrium"
+        "Ectopic pregnancy with abundant decidual tissue",
+        "Placenta percreta with absent decidua at the myometrium",
+        "Placenta increta with complete uterine wall perforation",
+        "Placenta accreta with abundant decidua at the myometrium"
       ],
       "correct_index": 1,
       "explanation": "Step 1. Placental tissue that perforates the uterine wall is placenta percreta, versus accreta reaching the myometrium and increta invading it. Step 2. Absent decidua between the base of the placenta and the myometrium is necessary for the diagnosis, and incidence has increased, possibly because of more cesarean deliveries.",
@@ -11017,7 +11109,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Breast Carcinoma Bone Metastasis Histology",
+      "condition_overview": "Epithelial tumor cell groups lying between trabeculae in bone are a metastatic deposit. Breast carcinoma extends locally and spreads to axillary, internal mammary, and supraclavicular nodes, and distantly to lung, liver, brain, and bone, so bone pain years later fits."
     },
     {
       "stem": "What is the most appropriate interpretation of this finding?",
@@ -11157,7 +11251,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Breast Duct Epithelium High Power Histology",
+      "condition_overview": "Normal terminal duct lobular units are lined by luminal epithelial cells that produce milk and by myoepithelial cells on the basement membrane. Invasive ductal carcinoma has no myoepithelial layer, so demonstrating that layer supports a benign or in situ process."
     },
     {
       "stem": "Which diagnosis best explains the clinical and imaging picture?",
@@ -11575,7 +11671,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 54-year-old woman has invasive ductal carcinoma. Immunostain for HER2 shows strong brown outlining of the cell borders.",
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "feedback_focus": [
         {
           "x": 63,
@@ -11633,7 +11729,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 64-year-old woman has invasive carcinoma. An immunostain shows brown signal in the nuclei of most tumor cells.",
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "feedback_focus": [
         {
           "x": 81,
@@ -11711,10 +11807,10 @@
     {
       "stem": "What process explains the stellate border and hard consistency?",
       "options": [
-        "Desmoplastic fibrous reaction around infiltrating malignant glands",
-        "A hormone-driven stromal proliferation with leaflike fronds",
-        "A fluid-filled cyst under pressure",
-        "A traumatic necrosis of fat"
+        "Desmoplastic fibrous reaction around infiltrating glands",
+        "Hormone-driven stromal proliferation with leaflike fronds",
+        "Fluid-filled dilated ductal cyst under high pressure",
+        "Traumatic fat necrosis with lipid-laden macrophages"
       ],
       "correct_index": 0,
       "explanation": "Step 1. A hard mass with a spiculated border and skin dimpling is invasive ductal carcinoma. Step 2. The fibrous desmoplastic reaction around the tumor produces the hard, spiculated mass, and tumor growth into tissues causes skin dimpling and nipple retraction.",
@@ -12469,7 +12565,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "Tubular Carcinoma Histology",
+      "condition_overview": "Well-formed angulated tubules in stroma with bland cytology are tubular carcinoma. It can be confused with radial scar, but absent myoepithelial cells show it is invasive, and it is often small and incidental, with an extremely good prognosis."
     },
     {
       "stem": "What is the relative risk of breast cancer associated with this finding?",
@@ -12569,7 +12667,9 @@
       "review_status": "USABLE",
       "case_context": "A healthy 27-year-old at 10 weeks has blood pressure 120/70. At 20 weeks it is 108/60. At 36 weeks it is 118/72. She asks whether the changes are a problem.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Blood Pressure in Normal Pregnancy Graph",
+      "condition_overview": "A mid pregnancy dip in pressure that rises again later is the normal pattern. Endothelium dependent vasodilation, mediated by nitric oxide upregulated by estradiol and vasodilatory prostaglandins, lowers systemic vascular resistance by 25 to 30 percent, so pressure dips and rises toward later pregnancy, and a pressure of 140/90 or higher defines hypertension."
     },
     {
       "stem": "What explains her lab values, and how is her condition interpreted?",
@@ -12621,7 +12721,9 @@
       "review_status": "USABLE",
       "case_context": "A 28-year-old woman at 34 weeks has hemoglobin of 10.8 g/dL and hematocrit that is lower than before pregnancy. She has a normal diet and iron stores. A graph shows plasma volume rising by more than red cell volume.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Blood Volume Changes in Pregnancy Graph",
+      "condition_overview": "Both plasma and red cell volumes rise in pregnancy, but plasma volume rises more. This relative increase dilutes the red cells and lowers hematocrit, so it is expected physiology rather than a disease."
     },
     {
       "stem": "Which pair of drug classes treats this condition, and how do they differ in mechanism?",
@@ -12669,7 +12771,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 68-year-old man has a weak stream, hesitancy, straining, and a feeling of incomplete emptying. Diagram and imaging show the prostate enlarged around the urethra just below the bladder.",
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "condition_name": "Benign prostatic hyperplasia",
       "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
       "reasoning_order": "second or third order"
@@ -12965,7 +13067,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 45-year-old woman who delivered three children vaginally leaks small amounts of urine when she coughs or lifts. She has no urgency and empties her bladder fully. A teaching diagram shows a downward arrow of abdominal pressure above the bladder and urine escaping at the outlet.",
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "condition_name": "Stress urinary incontinence",
       "condition_overview": "Stress urinary incontinence is involuntary urine leakage with increased abdominal pressure from coughing or sneezing, caused by weak pelvic floor support or an incompetent urethral sphincter. The urethra descends so pressure transmits to the bladder but not to the urethra. It is common after childbirth and with aging, and treatment includes pelvic floor exercises and surgical sling procedures.",
       "reasoning_order": "second or third order"
@@ -13017,7 +13119,9 @@
       "review_status": "USABLE",
       "case_context": "A 66-year-old man has a weak, erratic urine stream and a feeling that his bladder never empties fully. A diagram of the male urinary tract shows a gland encircling the first segment of the urethra just below the bladder.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Male and Female Urinary Tract Anatomy",
+      "condition_overview": "The male diagram places the prostate around the short outlet segment, the proximal urethra, so enlargement narrows that segment and produces a weak, erratic stream with incomplete emptying. The pharmacology lecture lists finasteride and dutasteride as 5-alpha-reductase inhibitors that block testosterone conversion to DHT, reducing hypertrophy over weeks."
     },
     {
       "stem": "Which two activated factors does this pathway normally inactivate, so that a defect at this step raises clot risk?",
@@ -13064,8 +13168,10 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 24-year-old woman taking ethinyl estradiol in a combined oral contraceptive develops a swollen, painful calf and is found to have a deep vein thrombosis. Testing shows a Factor V Leiden variant. A teaching diagram shows thrombin binding thrombomodulin, protein C activation, and activated protein C with protein S inactivating two activated clotting factors at the end of the pathway.",
-      "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "study_skill": "mechanism",
+      "reasoning_order": "second or third order",
+      "condition_name": "Thrombomodulin Protein C Pathway",
+      "condition_overview": "Thrombin bound to thrombomodulin activates protein C, and activated protein C (APC) with protein S inactivates factors Va and VIIIa. When this brake is impaired, as with a Factor V Leiden variant, clot formation is less restrained."
     },
     {
       "stem": "Which structure do these cysts arise from, and what is their cancer risk?",
@@ -13131,7 +13237,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Breast Lobule and Duct Anatomy",
+      "condition_overview": "A terminal duct leading to a cluster of acini is the terminal duct lobular unit. Breast cysts are fluid-filled epithelial-lined cavities that arise from destruction and dilation of lobules and terminal ductules, are influenced by ovarian hormones, may be multiple or recurrent, and carry low risk of malignancy, confirmed by aspiration or ultrasound."
     },
     {
       "stem": "What is the most likely diagnosis, and what are its histologic components?",
@@ -13198,7 +13306,9 @@
             "source": "3rd Party/Boards and Beyond Slides/Invasive ductal carcinoma with caption - Histology.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Breast Ultrasound Mass - Echo",
+      "condition_overview": "A young woman with a firm, mobile lump and a solid oval mass on ultrasound has a fibroadenoma. Fibroadenomas are benign solid tumors of stromal and epithelial elements, the second most common breast tumor, and occur in women under 30, whereas a cyst would be fluid filled."
     },
     {
       "stem": "What does a finding of tumor cells in this node indicate, and what is its role in staging?",
@@ -13247,7 +13357,9 @@
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman with breast cancer has a lumpectomy with sentinel node dissection. A node is examined by frozen section. The center of the node contains larger pale cells while the edge contains dense small dark lymphoid cells.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Sentinel Node Histology",
+      "condition_overview": "Large pale tumor cells within a lymph node with small lymphoid cells at the edge represent nodal metastasis. Staging uses the size of the mass and spread of disease, regional node involvement is a marker of regional spread (about 32 percent of cancers are regional), and adjuvant radiation, chemotherapy, or hormonal therapy is chosen according to spread and type."
     },
     {
       "stem": "Where does this first node lie, and why is it examined?",
@@ -13296,7 +13408,9 @@
       "review_status": "USABLE",
       "case_context": "A 58-year-old woman has a 2 cm breast carcinoma. Radiotracer is injected around the tumor to identify the first node that receives drainage. The diagram shows channels leading from the lesion toward the armpit.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Sentinel Node Mapping Lymphatic Drainage Illustration",
+      "condition_overview": "Lymphatic channels from a breast lesion lead first toward axillary nodes. A sentinel node biopsy (part of lumpectomy and sentinel node dissection) tests the first draining node, which predicts regional spread and decides whether further axillary surgery and adjuvant therapy are needed."
     },
     {
       "stem": "What is the diagnosis, and how is it treated compared with endometrioid adenocarcinoma?",
@@ -13647,7 +13761,7 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 44-year-old woman has a visible 4 cm friable cervical lesion. A biopsy shows irregular nests of atypical epithelial cells separated by pink stroma, and the cells are HPV 16 positive.",
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "condition_name": "Cervical squamous cell carcinoma",
       "condition_overview": "Cervical squamous cell carcinoma is the most common cervical cancer and arises from persistently infected high-risk HPV lesions at the transformation zone through HSIL. Nests of malignant squamous cells with keratin pearls and intercellular bridges invade the cervical stroma. It presents with postcoital or abnormal bleeding, or may be found by screening. Staging uses tumor size, parametrial, pelvic wall, and nodal spread. Advanced disease can obstruct the ureters and cause hydronephrosis and renal failure, which is a major cause of death. Treatment is surgery for early disease and chemoradiation with brachytherapy for advanced disease.",
       "reasoning_order": "second or third order",
@@ -14370,7 +14484,9 @@
       "review_status": "USABLE",
       "case_context": "Two women have mammographic calcifications. In one, biopsy shows fine pale deposits in a round cystic space. In the other, a larger irregular aggregate is seen. The radiologist suspects carcinoma in both.",
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Breast Calcifications Histology",
+      "condition_overview": "Calcifications in cysts or proliferative lesions and in carcinoma can look similar on imaging. They are seen with benign proliferative lesions and with carcinoma such as comedo DCIS, and fibroadenoma may produce popcorn calcifications, so biopsy distinguishes them."
     },
     {
       "question_id": "q-d20e306fa4ca836b7ced",
@@ -14732,7 +14848,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "Squamocolumnar Junction Cervix",
+      "condition_overview": "A transition from squamous to columnar epithelium marks the squamocolumnar junction. The transformation zone, where columnar epithelium abuts immature squamous cells, is susceptible to HPV infection, which is why Pap sampling and dysplasia arise there."
     },
     {
       "question_id": "q-f40117669a4b50700360",
@@ -14779,7 +14897,7 @@
       "visual_clues": [
         "Crowded columnar cells surround elongated, irregular slitlike lumina."
       ],
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "condition_name": "Ovarian endometrioid adenocarcinoma",
       "condition_overview": "Ovarian endometrioid adenocarcinoma is a surface epithelial cancer made of glands that resemble endometrial glands, often with squamous differentiation. It frequently arises from endometriosis and may coexist with endometrial carcinoma. Tumors are usually lower grade and are treated with surgery with or without chemotherapy.",
       "reasoning_order": "second or third order"
@@ -15592,7 +15710,7 @@
       "visual_clues": [
         "The central portion has uneven dark discoloration and tan ragged material within a surrounding fleshy elevation."
       ],
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "condition_name": "Bladder adenocarcinoma",
       "condition_overview": "Bladder adenocarcinoma is a rare cancer composed of malignant glands, arising from urothelial glandular metaplasia, from the urachal remnant at the dome, or in association with chronic irritation or bladder exstrophy. Variants include enteric-type, mucinous, and signet ring cell. Atypical glands infiltrate the bladder wall, and mucinous tumors have pools of extracellular mucin. Prognosis is poor and treatment is partial or radical cystectomy.",
       "reasoning_order": "second or third order"
@@ -15761,7 +15879,9 @@
         "Pale open spaces contain inward projections lined by dark epithelium."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Normal Prostate Histology",
+      "condition_overview": "Large glands with inward folds and a pseudostratified lining are normal prostate. Adenocarcinoma shows crowded small single-layered glands with enlarged nuclei, prominent nucleoli, and loss of basal cells, so a preserved basal layer supports benignity."
     },
     {
       "question_id": "q-7e27848d416f1b811175",
@@ -15826,7 +15946,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "Testis Histology Germ Cells",
+      "condition_overview": "Several ranks of germ cells with supporting Sertoli cells in seminiferous tubules are normal. Germ cells lie within the tubules with Sertoli cells as supporting cells, while Leydig cells sit in the stroma, so layered germ cells indicate active spermatogenesis."
     },
     {
       "question_id": "q-6852c85df7a7c39ef01f",
@@ -16262,7 +16384,9 @@
         null,
         null,
         null
-      ]
+      ],
+      "condition_name": "Breast Lobule Histology",
+      "condition_overview": "A duct with multiple small acini is the terminal duct lobular unit. The TDLU is hormonally responsive and milk producing, is lined by luminal and myoepithelial cells, and is where cancers arise, with the intralobular stroma forming the stromal component of fibroadenoma."
     },
     {
       "question_id": "q-57bce47a52e41ad13d03",
@@ -16310,7 +16434,9 @@
         "The dark signal outlines the outer edge of the epithelial structures rather than filling their pale lumina."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Breast Duct Immunostain",
+      "condition_overview": "A rim of stained cells at the periphery of ducts marks the myoepithelial layer on the basement membrane. Invasive carcinoma has no myoepithelial layer, so a continuous rim supports benign or in situ disease, such as DCIS with no metastatic potential."
     },
     {
       "question_id": "q-04f91cec8ac0b6724d15",
@@ -17137,7 +17263,9 @@
         "E sits inside the large pale fluid space occupying most of the follicle."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Graafian Follicle Lettered for Testing",
+      "condition_overview": "The largest follicle with a large fluid-filled space is the Graafian follicle, and the space is the antrum. Theca interna cells produce androgens, and granulosa cells convert them to estrogens under FSH, which is why the dominant follicle produces the preovulatory estrogen."
     },
     {
       "question_id": "q-63760e309e2380e57d96",
@@ -17197,7 +17325,9 @@
             "source": "3rd Party/Leydig cells mnemonic (Leydigs Love Testosterone) - Pearl.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Inhibin Staining of Granulosa Cells",
+      "condition_overview": "Inhibin is a histochemical marker for granulosa cells, so brown rings around follicular spaces are granulosa cells. Granulosa cells respond to FSH and convert theca androgens to estrogens."
     },
     {
       "question_id": "q-f9b2d380266bee9212da",
@@ -17251,7 +17381,9 @@
         null,
         null,
         null
-      ]
+      ],
+      "condition_name": "Corpus Luteum",
+      "condition_overview": "A thick folded cellular rim around a pale center after ovulation is a corpus luteum. Without pregnancy it degenerates within 10 to 14 days into a corpus albicans, and its lutein cells respond to LH and make progesterone."
     },
     {
       "question_id": "q-92c7cb3edc23f16e71c5",
@@ -17299,7 +17431,9 @@
         "The darker layered region abuts a different columnar lining along the irregular surface."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Cervical Squamocolumnar Junction Metaplasia",
+      "condition_overview": "A junction between stratified squamous and columnar epithelium with squamous metaplasia is the squamocolumnar junction in the transformation zone. Immature squamous cells in this zone are most susceptible to HPV, whose E6 and E7 proteins interfere with cell cycle control."
     },
     {
       "question_id": "q-0f7e9f079afcf9f7cb83",
@@ -17347,7 +17481,9 @@
         "The arrow indicates a dark line coursing inferiorly in the prostate below the bright bladder."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Prostate Central and Peripheral Zones MRI - EM",
+      "condition_overview": "A dark line running down through the prostate below the bladder is the urethra. It serves as a passageway for both urine and semen, and during ejaculation the sphincters close to keep semen from entering the bladder while during urination the central zone muscles close the prostatic ducts."
     },
     {
       "question_id": "q-d8725ca2ff6cf02d71c9",
@@ -17395,7 +17531,9 @@
         "Small dark round spaces are distributed near the periphery of the oval ovarian outline."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Ovary Transvaginal Ultrasound - EM",
+      "condition_overview": "Small round dark spaces at the ovarian periphery are follicles in the cortex. The ovary contains about 1 to 2 million oocytes at birth, 300,000 to 400,000 at puberty, about 25,000 at age 40, and fewer than 1,000 at menopause."
     },
     {
       "question_id": "q-13279fb459529a37f3e3",
@@ -17543,7 +17681,9 @@
         "The outlined focus lies centrally above the dark sphenoid region and below the brain on the midline view."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Sagittal Brain MRI Hypothalamic Pituitary Region - Radiograph",
+      "condition_overview": "A midline region above the sphenoid sinus and below the brain is the sella containing the pituitary. The pituitary releases LH and FSH in response to GnRH, so a pituitary lesion can cause delayed puberty, and MRI of the brain is considered if neurological symptoms are present."
     },
     {
       "question_id": "q-187d2a574685159e9d64",
@@ -18222,7 +18362,9 @@
         ],
         null,
         null
-      ]
+      ],
+      "condition_name": "SCC Keratin Pearl Histology",
+      "condition_overview": "Concentric pink keratin lamellae within tumor nests are keratin pearls. Squamous cell carcinoma of the bladder is associated with chronic inflammatory processes, bacterial infection, schistosomiasis, and renal or bladder calculi."
     },
     {
       "question_id": "q-12594b9bd9a44dd5c7cf",
@@ -18270,7 +18412,9 @@
         "Dark epithelial islands are widely separated by broad pale extracellular mucinous areas."
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Mucinous Carcinoma Histology",
+      "condition_overview": "Cell islands in extracellular mucin are mucinous carcinoma. This special type accounts for 1 to 5 percent of breast cancers, occurs in older patients, and is mostly low grade and ER positive."
     },
     {
       "stem": "Before uterine implantation, a conceptus is examined in section. Which developmental stage matches its cavity and cell arrangement?",
@@ -19460,7 +19604,7 @@
           "page": 3
         }
       ],
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "feedback_focus": [
         {
           "x": 30,
@@ -19597,7 +19741,7 @@
           "page": 10
         }
       ],
-      "study_skill": "interpretation",
+      "study_skill": "stain",
       "condition_name": "Benign prostatic hyperplasia",
       "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
       "case_context": "A 75-year-old diabetic man with obstructive urinary symptoms and a PSA of 6 ng/mL has a TURP that did not respond to prior medical therapy. Sections show hyperplastic glands with branching lumina and, in one focus, small compact glands with less apparent basal layering.",
@@ -19798,9 +19942,11 @@
           "page": 4
         }
       ],
-      "study_skill": "interpretation",
+      "study_skill": "management",
       "case_context": "A 58-year-old woman has vaginal dryness and painful intercourse. She has not had a menstrual period for 6 years. A teaching slide compares premenopausal vaginal epithelium (left) with the postmenopausal epithelium (right).",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Which histologic change explains her symptoms, and which treatment addresse",
+      "condition_overview": "The right panel is the low estrogen postmenopausal illustration with a thinner epithelial layer and fewer cell layers, which fits atrophic vaginitis. Because the cause is estrogen deficiency, replacing estrogen locally treats it, and the pharmacology lecture lists topical estrogen by vaginal tablets or creams for postmenopausal urogenital symptoms."
     },
     {
       "question_id": "q-reasoning-p53-limits",
@@ -19982,7 +20128,7 @@
         }
       ],
       "case_context": "A pathologist stains a nipple biopsy with large pale cells in the epidermis. HER2 immunostain gives strong brown signal outlining the cell membranes. The underlying high-grade DCIS stains similarly.",
-      "study_skill": "interpretation",
+      "study_skill": "stain",
       "condition_name": "Paget disease of the nipple",
       "condition_overview": "Paget disease of the nipple is an eczema-like, scaly, crusted lesion of the nipple and areola caused by malignant glandular cells (Paget cells) that spread within the epidermis from an underlying ductal carcinoma in situ or invasive carcinoma. Paget cells have large nuclei and abundant pale cytoplasm and are HER2 positive. It does not respond to topical steroids, and biopsy establishes the diagnosis."
     },
@@ -20323,7 +20469,9 @@
             "source": "R19/Imperforate Hymen - Diagram.png"
           }
         ]
-      ]
+      ],
+      "condition_name": "Normal Intrauterine Cavity Hysteroscopy",
+      "condition_overview": "A smooth continuous cavity without bridging bands argues against intrauterine adhesions. An intact estrogen-primed uterus can respond to progesterone withdrawal with menses, whereas adhesions of Asherman syndrome prevent withdrawal bleeding."
     },
     {
       "question_id": "q-r31-lobular-involution",
@@ -20388,7 +20536,9 @@
           }
         ],
         null
-      ]
+      ],
+      "condition_name": "What process explains the lower density, and how does the degree of this pr",
+      "condition_overview": "Abundant fat with few glandular units in a postmenopausal breast reflects involution of terminal duct lobular units (TDLUs). The TDLU is the major source of intraductal breast cancer, so lesser degrees of age-related involution are associated with increased breast cancer risk, which is why density is part of the mammogram result."
     },
     {
       "question_id": "q-r31-mammary-secretion",
@@ -20597,7 +20747,7 @@
     {
       "question_id": "q-r31-breast-fluid-or-solid",
       "collection": "R31",
-      "study_skill": "interpretation",
+      "study_skill": "mechanism",
       "category": "Ultrasound",
       "tested_concept": "Which diagnoses fit the two women, and what mechanism produces the sister's lesion?",
       "visual_target": "Compare the internal echoes and the tissue immediately deep to each lesion. Which paired description fits?",
@@ -20696,7 +20846,9 @@
         }
       ],
       "case_context": "A 25-year-old woman has a pelvic ultrasound to assess ovarian reserve before fertility treatment. The radiologist wants to count the developing follicles.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "In which part of the ovary does the radiologist look, and what is found in ",
+      "condition_overview": "Multiple follicles are located in the outer cortex of the ovary. The medulla is the more central region that supports vascular and stromal structures, so follicle counts are assessed in the cortex."
     },
     {
       "question_id": "q-r31-ovarian-composition",
@@ -21288,9 +21440,9 @@
       "stem": "Which zone is likely involved in each man, and why does the first man lack obstruction?",
       "options": [
         "Central zone in both, since it surrounds the urethra",
-        "Peripheral zone in the first man and transition zone in the second, since the peripheral zone is away from the urethra",
-        "Anterior fibromuscular stroma in both, since it contains most glands",
-        "Transition zone in the first man and peripheral zone in the second, since the transition zone surrounds the urethra"
+        "Peripheral zone in the first and transition zone in the second",
+        "Anterior fibromuscular stroma in both, rich in glands",
+        "Transition zone in the first and peripheral zone in the second"
       ],
       "choice_rationales": [
         "The central zone surrounds the ejaculatory ducts, with less than 5 percent of cancers.",
@@ -21544,7 +21696,9 @@
         }
       ],
       "case_context": "A 27-year-old woman has a transvaginal Doppler ultrasound on cycle day 12. One ovary is quiet. The other contains a dominant follicle. The teaching sequence labels the quiet ovary as resting and the other as active.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "condition_name": "Which Doppler finding marks the active ovary, and what event can follow aro",
+      "condition_overview": "The resting ovary has a high-resistance waveform, while the dominant follicle shifts to a low-resistance pattern with markedly increased flow. That flow is among the highest in the body, and around day 14 the follicle is supposed to rupture."
     },
     {
       "question_id": "q-r32-uterine-infiltration",
@@ -21624,7 +21778,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Complete hydatidiform mole versus Partial hydatidiform mole",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R17",
       "source_origin": "lecture",
       "image": "assets/display/1fa7e17d26ced3d9058e992505fd31c4f0afa52030f89e89bd59294b42ef6a43.webp",
       "zoom_image": "assets/zoom/1fa7e17d26ced3d9058e992505fd31c4f0afa52030f89e89bd59294b42ef6a43.webp",
@@ -21680,7 +21834,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Partial hydatidiform mole versus Complete hydatidiform mole",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R17",
       "source_origin": "lecture",
       "image": "assets/display/12154f3d845796b38f7f4f497eb244debae3565cfb7aed89c31292b8134f6dbb.webp",
       "zoom_image": "assets/zoom/12154f3d845796b38f7f4f497eb244debae3565cfb7aed89c31292b8134f6dbb.webp",
@@ -21736,7 +21890,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Seminoma versus Embryonal carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/ffa56933f9646d788ff1da504079fc0fb533d39677fa3c8cd190fc6af36e1971.webp",
       "zoom_image": "assets/zoom/ffa56933f9646d788ff1da504079fc0fb533d39677fa3c8cd190fc6af36e1971.webp",
@@ -21792,7 +21946,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Embryonal carcinoma versus Seminoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/19afde654fcebf260948f091e8d64334efa4997f9bf44152ea71132663848ac4.webp",
       "zoom_image": "assets/zoom/19afde654fcebf260948f091e8d64334efa4997f9bf44152ea71132663848ac4.webp",
@@ -21848,7 +22002,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Fibroadenoma versus Phyllodes tumor",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/7031369160d477539ceafe0430b9c51c40a0f3b51d28793110e81012771a7d7d.webp",
       "zoom_image": "assets/zoom/7031369160d477539ceafe0430b9c51c40a0f3b51d28793110e81012771a7d7d.webp",
@@ -21904,7 +22058,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Phyllodes tumor versus Fibroadenoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/2180060bd1b15cdf220551d5f6b8b28721f5523286c22e340024b8a412910caf.webp",
       "zoom_image": "assets/zoom/2180060bd1b15cdf220551d5f6b8b28721f5523286c22e340024b8a412910caf.webp",
@@ -21960,7 +22114,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Serous cystadenoma versus Mucinous cystadenoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/9f1c9feac568ca67403276f5bcbfc74950b87d1774a1e619de237ff3234e0f50.webp",
       "zoom_image": "assets/zoom/9f1c9feac568ca67403276f5bcbfc74950b87d1774a1e619de237ff3234e0f50.webp",
@@ -22016,7 +22170,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Mucinous cystadenoma versus Serous cystadenoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/a1eab549b860e43a5965fb848ae606c64bcdb62303ac0f9317df8787f273d912.webp",
       "zoom_image": "assets/zoom/a1eab549b860e43a5965fb848ae606c64bcdb62303ac0f9317df8787f273d912.webp",
@@ -22072,7 +22226,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Mature cystic teratoma (dermoid cyst) versus Immature teratoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/efbdc6b703500c270473b170f29accac1347a50e1fb440ba87ebe4732ba2930e.webp",
       "zoom_image": "assets/zoom/efbdc6b703500c270473b170f29accac1347a50e1fb440ba87ebe4732ba2930e.webp",
@@ -22128,7 +22282,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Immature teratoma versus Mature cystic teratoma (dermoid cyst)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/d342018f94708866ea435782cfc98a86b24620102d119695ba68686131b5fa46.webp",
       "zoom_image": "assets/zoom/d342018f94708866ea435782cfc98a86b24620102d119695ba68686131b5fa46.webp",
@@ -22184,7 +22338,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Dysgerminoma versus Yolk sac tumor",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/9a8e2f4f1504a75f23b702275e4b3226d09b38fce2fbc09522c61e65b3fdd898.webp",
       "zoom_image": "assets/zoom/9a8e2f4f1504a75f23b702275e4b3226d09b38fce2fbc09522c61e65b3fdd898.webp",
@@ -22240,7 +22394,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Yolk sac tumor versus Dysgerminoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/8fb335b70adb8970c3a49fa69dfba56e3f3038a890491a52174ac82b84d06f4f.webp",
       "zoom_image": "assets/zoom/8fb335b70adb8970c3a49fa69dfba56e3f3038a890491a52174ac82b84d06f4f.webp",
@@ -22296,7 +22450,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Adenomyosis versus Endometriosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/5357ee00e701999d60120fc69faf899a15f562691ce67cdac03bfb696be5388c.webp",
       "zoom_image": "assets/zoom/5357ee00e701999d60120fc69faf899a15f562691ce67cdac03bfb696be5388c.webp",
@@ -22352,7 +22506,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Endometriosis versus Adenomyosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R29",
       "source_origin": "lecture",
       "image": "assets/display/43eb118626ba9142c6dd10ca295fc8e79f5a239e857de4963184a6bd5824588a.webp",
       "zoom_image": "assets/zoom/43eb118626ba9142c6dd10ca295fc8e79f5a239e857de4963184a6bd5824588a.webp",
@@ -22408,7 +22562,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Benign prostatic hyperplasia versus Prostatic adenocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/1283fa97bd127c8611678b66279fa4868b96eea4d2d0a17ac678482e18da9be8.webp",
       "zoom_image": "assets/zoom/1283fa97bd127c8611678b66279fa4868b96eea4d2d0a17ac678482e18da9be8.webp",
@@ -22464,7 +22618,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Prostatic adenocarcinoma versus Benign prostatic hyperplasia",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/d74a1e9a3c3131186ce5efdf23ccde383d882e74e92059af7227ba902007a0cb.webp",
       "zoom_image": "assets/zoom/d74a1e9a3c3131186ce5efdf23ccde383d882e74e92059af7227ba902007a0cb.webp",
@@ -22520,7 +22674,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Ductal carcinoma in situ versus Lobular carcinoma in situ",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/9cb2698294897bf020ae39d167b72d864e23cc93da4faa84c3b3f2f3e7f375c9.webp",
       "zoom_image": "assets/zoom/9cb2698294897bf020ae39d167b72d864e23cc93da4faa84c3b3f2f3e7f375c9.webp",
@@ -22576,7 +22730,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Lobular carcinoma in situ versus Ductal carcinoma in situ",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/5fab374991ec14b4f1337cc237cd4204698d5477e75c5fe59fadec460cfa9de8.webp",
       "zoom_image": "assets/zoom/5fab374991ec14b4f1337cc237cd4204698d5477e75c5fe59fadec460cfa9de8.webp",
@@ -22632,7 +22786,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Invasive ductal carcinoma versus Invasive lobular carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/c44130c56f0853d957279ef4797f1d2776180f6eb3aae76e06af42be49313998.webp",
       "zoom_image": "assets/zoom/c44130c56f0853d957279ef4797f1d2776180f6eb3aae76e06af42be49313998.webp",
@@ -22688,7 +22842,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Invasive lobular carcinoma versus Invasive ductal carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/301809bc9c4802b45b88b5d784cf73e55ec4a18706972ec36f4ab27a467ec491.webp",
       "zoom_image": "assets/zoom/301809bc9c4802b45b88b5d784cf73e55ec4a18706972ec36f4ab27a467ec491.webp",
@@ -22744,7 +22898,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Paget disease of the nipple versus Extramammary Paget disease",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/cd7482324a9e1a53b6e61cabe5434217f448eab973a88be700967b6faa67139e.webp",
       "zoom_image": "assets/zoom/cd7482324a9e1a53b6e61cabe5434217f448eab973a88be700967b6faa67139e.webp",
@@ -22800,7 +22954,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Extramammary Paget disease versus Paget disease of the nipple",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/0e010d55db10826ffb5793ed1a1d46c67c783f21a79d9ba517cc9ae5608f89ee.webp",
       "zoom_image": "assets/zoom/0e010d55db10826ffb5793ed1a1d46c67c783f21a79d9ba517cc9ae5608f89ee.webp",
@@ -22856,7 +23010,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Lichen sclerosus versus Squamous hyperplasia of the vulva",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/21f0ff30569d008bcc57bc134592494a9ff37b1d40fe514845b4805045df9626.webp",
       "zoom_image": "assets/zoom/21f0ff30569d008bcc57bc134592494a9ff37b1d40fe514845b4805045df9626.webp",
@@ -22912,7 +23066,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Squamous hyperplasia of the vulva versus Lichen sclerosus",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/4a03c3dba24dc35330090dbafd1fb3e2b59a549de5179f447e2d8742cfaf5d31.webp",
       "zoom_image": "assets/zoom/4a03c3dba24dc35330090dbafd1fb3e2b59a549de5179f447e2d8742cfaf5d31.webp",
@@ -22968,7 +23122,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Candida vulvovaginitis versus Trichomonas vaginalis infection",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/b66483b3c072d2779c7d4c6e9dd425b7db5a4121df23185a4a46052e7cc119f5.webp",
       "zoom_image": "assets/zoom/b66483b3c072d2779c7d4c6e9dd425b7db5a4121df23185a4a46052e7cc119f5.webp",
@@ -23024,7 +23178,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Trichomonas vaginalis infection versus Candida vulvovaginitis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/ed62421f9d216982584b939b54ab8e68f8ff3a5a9b95a5341f7880f768090b65.webp",
       "zoom_image": "assets/zoom/ed62421f9d216982584b939b54ab8e68f8ff3a5a9b95a5341f7880f768090b65.webp",
@@ -23080,7 +23234,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Choriocarcinoma versus Invasive hydatidiform mole",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/26909d4574354ed2e25c9df4a50c6674b38e2801ce1bdba5c5dfaff5321beb5e.webp",
       "zoom_image": "assets/zoom/26909d4574354ed2e25c9df4a50c6674b38e2801ce1bdba5c5dfaff5321beb5e.webp",
@@ -23136,7 +23290,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Invasive hydatidiform mole versus Choriocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R17",
       "source_origin": "lecture",
       "image": "assets/display/d7d957fef52ee4aea65d504bb0b911d3a5013fe166b48b618bf84ebfe826a389.webp",
       "zoom_image": "assets/zoom/d7d957fef52ee4aea65d504bb0b911d3a5013fe166b48b618bf84ebfe826a389.webp",
@@ -23192,7 +23346,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Granulosa cell tumor versus Thecoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/212bcad47d6f8e2f450002634c946c8c004950d585647c50ef148a7e40d8d317.webp",
       "zoom_image": "assets/zoom/212bcad47d6f8e2f450002634c946c8c004950d585647c50ef148a7e40d8d317.webp",
@@ -23248,7 +23402,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Thecoma versus Granulosa cell tumor",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/5ff668f202cb4e43eee5d66682f33b6f6652ae43ca6de8d3052ba303d3d604ab.webp",
       "zoom_image": "assets/zoom/5ff668f202cb4e43eee5d66682f33b6f6652ae43ca6de8d3052ba303d3d604ab.webp",
@@ -23304,7 +23458,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Cervical squamous cell carcinoma versus Cervical adenocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/78bed0d34f3bade645b86c65caca1cf74c67f5b561fc6b4a353fe8925ecee6db.webp",
       "zoom_image": "assets/zoom/78bed0d34f3bade645b86c65caca1cf74c67f5b561fc6b4a353fe8925ecee6db.webp",
@@ -23360,7 +23514,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Cervical adenocarcinoma versus Cervical squamous cell carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/39b38dd558102a6b504487571832a27b97873633a696a8689b255633ac512309.webp",
       "zoom_image": "assets/zoom/39b38dd558102a6b504487571832a27b97873633a696a8689b255633ac512309.webp",
@@ -23416,7 +23570,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Bladder adenocarcinoma versus Bladder squamous cell carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/f50341c89ef7c80a737f106a7c235789ca2bfabe075d3576d0f5c5566a84de12.webp",
       "zoom_image": "assets/zoom/f50341c89ef7c80a737f106a7c235789ca2bfabe075d3576d0f5c5566a84de12.webp",
@@ -23472,7 +23626,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Bladder squamous cell carcinoma versus Bladder adenocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/354d5bc62eaa7e872b36085e1820be84ce9fe9c087145c7c08134c808d8a07f8.webp",
       "zoom_image": "assets/zoom/354d5bc62eaa7e872b36085e1820be84ce9fe9c087145c7c08134c808d8a07f8.webp",
@@ -23528,7 +23682,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "High-grade squamous intraepithelial lesion (HSIL) versus Low-grade squamous intraepithelial lesion (LSIL)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/30b6cc6d6817ad040c4d8218eda4ffc1ee24702a67f4a13a787a88a400957125.webp",
       "zoom_image": "assets/zoom/30b6cc6d6817ad040c4d8218eda4ffc1ee24702a67f4a13a787a88a400957125.webp",
@@ -23584,7 +23738,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Low-grade squamous intraepithelial lesion (LSIL) versus High-grade squamous intraepithelial lesion (HSIL)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/6277bebe93ff2d1b6dc7e095fc0fc241169529b6b02f021660bd905f384dac35.webp",
       "zoom_image": "assets/zoom/6277bebe93ff2d1b6dc7e095fc0fc241169529b6b02f021660bd905f384dac35.webp",
@@ -23640,7 +23794,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Atypical endometrial hyperplasia versus Endometrial hyperplasia without atypia",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/1a66729cdd5611d8367358a68e1d2027801fd629b827a00ab8a88e6abda7267b.webp",
       "zoom_image": "assets/zoom/1a66729cdd5611d8367358a68e1d2027801fd629b827a00ab8a88e6abda7267b.webp",
@@ -23696,7 +23850,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Endometrial hyperplasia without atypia versus Atypical endometrial hyperplasia",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/192bf0e4b1a669f244bf89d541c812a2051df4286300dbfb057ad7dff8fb373d.webp",
       "zoom_image": "assets/zoom/192bf0e4b1a669f244bf89d541c812a2051df4286300dbfb057ad7dff8fb373d.webp",
@@ -23752,7 +23906,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Usual ductal hyperplasia versus Atypical ductal hyperplasia",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/7849b1cc8c1e8afa20c7674282378c370e9bebeb08ce5c5fa11b2f5ee466031b.webp",
       "zoom_image": "assets/zoom/7849b1cc8c1e8afa20c7674282378c370e9bebeb08ce5c5fa11b2f5ee466031b.webp",
@@ -23808,7 +23962,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Atypical ductal hyperplasia versus Usual ductal hyperplasia",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/7bf72f5374f6483dc7d45bb0306d90fc02ec9134b26340de26bcbbc5706747f5.webp",
       "zoom_image": "assets/zoom/7bf72f5374f6483dc7d45bb0306d90fc02ec9134b26340de26bcbbc5706747f5.webp",
@@ -23864,7 +24018,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Ovarian fibroma versus Thecoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/51a6327b00823f1e70ff60bbc651e40b37980e3cdc929b2d9cd68fb9b032f7ab.webp",
       "zoom_image": "assets/zoom/51a6327b00823f1e70ff60bbc651e40b37980e3cdc929b2d9cd68fb9b032f7ab.webp",
@@ -23920,7 +24074,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Thecoma versus Ovarian fibroma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/7c2a0e52d2de6422a74696673cbeb58482bc8206d3e57266e1627efcb737ef99.webp",
       "zoom_image": "assets/zoom/7c2a0e52d2de6422a74696673cbeb58482bc8206d3e57266e1627efcb737ef99.webp",
@@ -23976,7 +24130,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Papillary urothelial carcinoma versus Urothelial carcinoma in situ",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/4eddce29040d7656efb180cf3aa7d9f191ef301b28ae07e8d8abcab69dc8708a.webp",
       "zoom_image": "assets/zoom/4eddce29040d7656efb180cf3aa7d9f191ef301b28ae07e8d8abcab69dc8708a.webp",
@@ -24032,7 +24186,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Urothelial carcinoma in situ versus Papillary urothelial carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/50db10ea5f32540c1f122f9a6003b171e757ab147d8b1d1347be03829ecc51fd.webp",
       "zoom_image": "assets/zoom/50db10ea5f32540c1f122f9a6003b171e757ab147d8b1d1347be03829ecc51fd.webp",
@@ -24088,7 +24242,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Seminoma versus Spermatocytic tumor",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/c8eb62175526d68e333c5fdfe3c8329fe8a33ce3d559b96baf7d096c1b5a0c4f.webp",
       "zoom_image": "assets/zoom/c8eb62175526d68e333c5fdfe3c8329fe8a33ce3d559b96baf7d096c1b5a0c4f.webp",
@@ -24144,7 +24298,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Spermatocytic tumor versus Seminoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/2c45428873d313f941a7de102054ad024d991178d01fa5c6f8f59fb90b4f56a2.webp",
       "zoom_image": "assets/zoom/2c45428873d313f941a7de102054ad024d991178d01fa5c6f8f59fb90b4f56a2.webp",
@@ -24200,7 +24354,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Usual-type vulvar intraepithelial neoplasia (HPV-related) versus Differentiated vulvar intraepithelial neoplasia (dVIN)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/388960d23badd73ebbc7fe13dfd675f67581a600d0e42cc5289847a970ff83c0.webp",
       "zoom_image": "assets/zoom/388960d23badd73ebbc7fe13dfd675f67581a600d0e42cc5289847a970ff83c0.webp",
@@ -24252,7 +24406,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Differentiated vulvar intraepithelial neoplasia (dVIN) versus Usual-type vulvar intraepithelial neoplasia (HPV-related)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/1911e3c5343ed7cec5139412213fadb68b4a11400eea5f8844aa6aab11342a0e.webp",
       "zoom_image": "assets/zoom/1911e3c5343ed7cec5139412213fadb68b4a11400eea5f8844aa6aab11342a0e.webp",
@@ -24304,7 +24458,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Malakoplakia versus Cystitis cystica et glandularis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/e3c81913561df073fd92934aad597d4f825897a2af082d5d878360044617af33.webp",
       "zoom_image": "assets/zoom/e3c81913561df073fd92934aad597d4f825897a2af082d5d878360044617af33.webp",
@@ -24360,7 +24514,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Cystitis cystica et glandularis versus Malakoplakia",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/3a421dc4dd56709f1522606b770673bd7ab0c3cdde8cfd72c74df8c43bb2e0c9.webp",
       "zoom_image": "assets/zoom/3a421dc4dd56709f1522606b770673bd7ab0c3cdde8cfd72c74df8c43bb2e0c9.webp",
@@ -24416,7 +24570,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Complete hydatidiform mole versus Choriocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R17",
       "source_origin": "lecture",
       "image": "assets/display/0e5822275fe3e2521b4e68e6148ec7e022eaa9ccf356e12120d883a9b4681493.webp",
       "zoom_image": "assets/zoom/0e5822275fe3e2521b4e68e6148ec7e022eaa9ccf356e12120d883a9b4681493.webp",
@@ -24472,7 +24626,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Choriocarcinoma versus Complete hydatidiform mole",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R16",
       "source_origin": "lecture",
       "image": "assets/display/faa83878e9208ac75f3fcd4881de7b84c65463c1e46ef197c3ebf05c8737b086.webp",
       "zoom_image": "assets/zoom/faa83878e9208ac75f3fcd4881de7b84c65463c1e46ef197c3ebf05c8737b086.webp",
@@ -24528,7 +24682,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Uterine leiomyoma versus Uterine leiomyosarcoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/da7d38b837a4e9132f5c40ba2ade901046baaa35aab751fa771bcae927d0fc64.webp",
       "zoom_image": "assets/zoom/da7d38b837a4e9132f5c40ba2ade901046baaa35aab751fa771bcae927d0fc64.webp",
@@ -24584,7 +24738,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Uterine leiomyosarcoma versus Uterine leiomyoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/4b5e0ec2520a67f5b6e280e76e0311072a36112b3d3abb511b6fc7be8679ee44.webp",
       "zoom_image": "assets/zoom/4b5e0ec2520a67f5b6e280e76e0311072a36112b3d3abb511b6fc7be8679ee44.webp",
@@ -24640,7 +24794,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Serous carcinoma of the ovary versus Mucinous cystadenocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/9d99eda77144e2320ff6aa1435aac4469fbde689bf979e1b0c39159e5dcf7ecc.webp",
       "zoom_image": "assets/zoom/9d99eda77144e2320ff6aa1435aac4469fbde689bf979e1b0c39159e5dcf7ecc.webp",
@@ -24696,7 +24850,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Mucinous cystadenocarcinoma versus Serous carcinoma of the ovary",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/97e6be6ad5a7334fc598579e431eec9fa12854dabf32cf28aff6f2f8257e4b2a.webp",
       "zoom_image": "assets/zoom/97e6be6ad5a7334fc598579e431eec9fa12854dabf32cf28aff6f2f8257e4b2a.webp",
@@ -24752,7 +24906,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Urothelial papilloma versus Papillary urothelial carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/da6cdc256efdc7d920ea9fd411ebf9a49ba3277c60fffe9ee034fcde4ffe7df6.webp",
       "zoom_image": "assets/zoom/da6cdc256efdc7d920ea9fd411ebf9a49ba3277c60fffe9ee034fcde4ffe7df6.webp",
@@ -24808,7 +24962,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Papillary urothelial carcinoma versus Urothelial papilloma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/7b905f5f90d67c1e4817b0e036af406eb34b8cfaa7e1c6367109c5c450044afe.webp",
       "zoom_image": "assets/zoom/7b905f5f90d67c1e4817b0e036af406eb34b8cfaa7e1c6367109c5c450044afe.webp",
@@ -24864,7 +25018,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Bacterial vaginosis versus Cytolytic vaginosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/97267deda6b955b486e8a8562f41337f94d6fd3253f31a38998ef860c1064f42.webp",
       "zoom_image": "assets/zoom/97267deda6b955b486e8a8562f41337f94d6fd3253f31a38998ef860c1064f42.webp",
@@ -24920,7 +25074,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Cytolytic vaginosis versus Bacterial vaginosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/16e50e589cf1ccb5a232b893873c4e8b39f6163587dc34b25db6389865d9057b.webp",
       "zoom_image": "assets/zoom/16e50e589cf1ccb5a232b893873c4e8b39f6163587dc34b25db6389865d9057b.webp",
@@ -24976,7 +25130,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Herpes simplex virus infection versus Condylomata acuminata",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/7b04b8e16e37d8a63b1b6d935779f2c9ebbb3fcbba500a9b246ecbef5c8d6de8.webp",
       "zoom_image": "assets/zoom/7b04b8e16e37d8a63b1b6d935779f2c9ebbb3fcbba500a9b246ecbef5c8d6de8.webp",
@@ -25032,7 +25186,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Condylomata acuminata versus Herpes simplex virus infection",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R10",
       "source_origin": "lecture",
       "image": "assets/display/49b37182af25dd60c1ff6a0c281f0396b6e64e9ef2b6b0967514f10e7fcce6f7.webp",
       "zoom_image": "assets/zoom/49b37182af25dd60c1ff6a0c281f0396b6e64e9ef2b6b0967514f10e7fcce6f7.webp",
@@ -25088,7 +25242,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Adenocarcinoma in situ of the cervix versus High-grade squamous intraepithelial lesion (HSIL)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/7709810a5c5790a8622c15ae28e0f3e62a312fd3b34b02eb2ff877ffb103b2c8.webp",
       "zoom_image": "assets/zoom/7709810a5c5790a8622c15ae28e0f3e62a312fd3b34b02eb2ff877ffb103b2c8.webp",
@@ -25144,7 +25298,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "High-grade squamous intraepithelial lesion (HSIL) versus Adenocarcinoma in situ of the cervix",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/4f7b537cd6778b6d313646376aab0389ce4f0fc09de59bc1d74c19454bd3669d.webp",
       "zoom_image": "assets/zoom/4f7b537cd6778b6d313646376aab0389ce4f0fc09de59bc1d74c19454bd3669d.webp",
@@ -25200,7 +25354,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Sclerosing adenosis versus Radial scar",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/9073665dbf925475e930ba8198fcfd73cc7dd99a025a5edd91e4f22efbb82f8b.webp",
       "zoom_image": "assets/zoom/9073665dbf925475e930ba8198fcfd73cc7dd99a025a5edd91e4f22efbb82f8b.webp",
@@ -25256,7 +25410,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Radial scar versus Sclerosing adenosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/3433d2bcfb9651bc8a738e92f3dad22a59b154ad35c831bc3c9856a8b90162cc.webp",
       "zoom_image": "assets/zoom/3433d2bcfb9651bc8a738e92f3dad22a59b154ad35c831bc3c9856a8b90162cc.webp",
@@ -25312,7 +25466,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Adenomyosis versus Endometriosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/5a831d0da0543d7c6959be7eb78e4096939fde67b4eb09e16cf0c31d94270cce.webp",
       "zoom_image": "assets/zoom/5a831d0da0543d7c6959be7eb78e4096939fde67b4eb09e16cf0c31d94270cce.webp",
@@ -25368,7 +25522,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Endometriosis versus Adenomyosis",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R15",
       "source_origin": "lecture",
       "image": "assets/display/202015fc7f3f75978c7fb3508042445028af86cf034c937a71cb1ef74f9fbcfa.webp",
       "zoom_image": "assets/zoom/202015fc7f3f75978c7fb3508042445028af86cf034c937a71cb1ef74f9fbcfa.webp",
@@ -25424,7 +25578,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Fibroadenoma versus Invasive ductal carcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/3f33d629bf8c6934f34e9979c017beb32ec4ae4d4905f5869c6a1ce103a622a1.webp",
       "zoom_image": "assets/zoom/3f33d629bf8c6934f34e9979c017beb32ec4ae4d4905f5869c6a1ce103a622a1.webp",
@@ -25480,7 +25634,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Invasive ductal carcinoma versus Fibroadenoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R18",
       "source_origin": "lecture",
       "image": "assets/display/acba9028c03b1ed1d2f6a433eca41b39aa446b011827f90a2c2c4eba404a0495.webp",
       "zoom_image": "assets/zoom/acba9028c03b1ed1d2f6a433eca41b39aa446b011827f90a2c2c4eba404a0495.webp",
@@ -25536,7 +25690,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Serous carcinoma of the ovary versus Mucinous cystadenocarcinoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/8bd07277787f9e7b06e8a99b68addb2a53488dc6afc123824261f05acf71a480.webp",
       "zoom_image": "assets/zoom/8bd07277787f9e7b06e8a99b68addb2a53488dc6afc123824261f05acf71a480.webp",
@@ -25592,7 +25746,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Mucinous cystadenocarcinoma versus Serous carcinoma of the ovary",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/a88c9db0dc76a44bb25793fbc1b5abce40bea2f4e81338f6dc2033d7cd8d85ec.webp",
       "zoom_image": "assets/zoom/a88c9db0dc76a44bb25793fbc1b5abce40bea2f4e81338f6dc2033d7cd8d85ec.webp",
@@ -25648,7 +25802,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Mucinous cystadenoma versus Mature cystic teratoma (dermoid cyst)",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/6da863bfec9e967cda1e3e3d4b807a16ada7459abfc2d8343ded0d8252351fb5.webp",
       "zoom_image": "assets/zoom/6da863bfec9e967cda1e3e3d4b807a16ada7459abfc2d8343ded0d8252351fb5.webp",
@@ -25704,7 +25858,7 @@
       "question_type": "Visual interpretation",
       "tested_concept": "Mature cystic teratoma (dermoid cyst) versus Mucinous cystadenoma",
       "category": "Histology",
-      "collection": "Compare",
+      "collection": "R12",
       "source_origin": "lecture",
       "image": "assets/display/0b177948aa501f1f28f610c00643c38e2d8b7ada03ff5fa762d620c4850430d0.webp",
       "zoom_image": "assets/zoom/0b177948aa501f1f28f610c00643c38e2d8b7ada03ff5fa762d620c4850430d0.webp",
