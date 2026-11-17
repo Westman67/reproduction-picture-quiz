@@ -29,6 +29,9 @@ The public site distributes WebP images capped at 1 MiB per file. High resolutio
 
 Source citations appear after answering and in the explicit Source review workspace. Client-side answer hiding is an interface feature, not cryptographic secrecy.
 
+
+Some answer choices also carry supplementary 3rd party pictures (Pathoma, Boards and Beyond, First Aid). They are captioned "3rd party" and only supplement lecture pictures. See reports/third-party-pictures-20261116.md.
+
 ## Image attribution
 
 The provided teaching images include excerpts attributed to course lectures, Boards and Beyond, First Aid, Pathoma, and third-party figures credited within those materials. This publication does not grant or imply ownership or a general redistribution license for those images. Individual question provenance records identify the supplied source document and page. The quiz uses the supplied images without generative modification of medical content.
