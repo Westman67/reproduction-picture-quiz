@@ -2183,33 +2183,33 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Two separate breast specimens are shown side by side. The fields show different patterns of tumor growth in breast tissue.",
-      "lead_in": "Which pair describes the way tumor cells grow in the two fields?",
-      "stem": "Which pair describes the way tumor cells grow in the two fields?",
+      "scenario": "Two women have breast cancers with different growth patterns on biopsy. In the left field, tumor cells form irregular tubules in a reactive fibrous stroma. In the right field, small noncohesive cells infiltrate in thin single files with little stromal reaction.",
+      "lead_in": "Which pair of tumors fits, and how do their expected mammographic and clinical behaviors differ?",
+      "stem": "Which pair of tumors fits, and how do their expected mammographic and clinical behaviors differ?",
       "options": [
-        "Left: thin files of separate tumor cells. Right: irregular tubules in reactive stroma.",
-        "Both fields: irregular tubules in reactive stroma.",
-        "Both fields: thin files of separate tumor cells.",
-        "Left: irregular tubules in reactive stroma. Right: thin files of separate tumor cells.",
-        "Left: tumor confined within a preexisting duct. Right: thin files of separate tumor cells."
+        "Left is invasive lobular carcinoma, usually a subtle mass, and right is invasive ductal carcinoma, usually spiculated",
+        "Both are tubular carcinoma with extremely good prognosis",
+        "Left is medullary carcinoma with lymphoid infiltrate, and right is mucinous carcinoma",
+        "Both are lobular carcinoma in situ with no invasion",
+        "Left is invasive ductal carcinoma, usually a hard spiculated mass from desmoplasia, and right is invasive lobular carcinoma, with little stromal response and often mammographically subtle"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "Irregular glands in desmoplastic stroma favor invasive ductal carcinoma on the left. Discohesive single-file growth favors invasive lobular carcinoma on the right. This choice describes invasive lobular carcinoma on the left and invasive ductal carcinoma on the right.",
-        "Irregular tubules in reactive stroma fit the invasive ductal carcinoma on the left. The lobular carcinoma on the right has rows of individual tumor cells without comparable glands. This choice describes ductal carcinoma on both sides.",
-        "Single-file growth fits invasive lobular carcinoma on the right. The ductal carcinoma on the left contains multiple irregular gland lumens in desmoplastic stroma. This choice describes lobular carcinoma on both sides.",
-        "Invasive ductal carcinoma on the left forms irregular glands in reactive fibrous stroma. Invasive lobular carcinoma on the right forms single files of discohesive cells. This choice describes invasive ductal carcinoma on the left and invasive lobular carcinoma on the right, which is what the image shows.",
-        "A proliferation confined to preexisting ducts would favor ductal carcinoma in situ. Haphazard glands in desmoplastic stroma on the left show invasion. The right has the single-file growth of invasive lobular carcinoma. This choice describes ductal carcinoma in situ on the left and invasive lobular carcinoma on the right."
+        "The two descriptions are swapped in this option.",
+        "Tubular carcinoma has well formed angulated tubules with bland cytology.",
+        "Medullary and mucinous carcinomas have distinct morphology that is not shown.",
+        "In situ lesions are confined to ducts or lobules and do not form invasive tubules or files.",
+        "Desmoplasia makes ductal tumors hard and spiculated, while lobular tumors have little stromal response and subtle imaging."
       ],
-      "explanation": "The left section shows irregular tubules in desmoplastic stroma. The right section shows single files of discohesive cells and little comparable stromal reaction.",
+      "explanation": "Step 1. Irregular tubules in desmoplastic stroma are invasive ductal carcinoma, the most common type (about 70 percent), and noncohesive cells invading in single file are invasive lobular carcinoma. Step 2. The lecture explains the ductal tumor presents as a hard spiculated mass due to desmoplastic reaction, whereas the lobular tumor induces little stromal response, has no calcifications, and can be mammographically occult or subtle.",
       "visual_clues": [
         "Look for the pale lumens on the left.",
         "Follow a row of dark nuclei between stromal fibers on the right."
       ],
       "visual_target": "Glandular tubules on the left and single files on the right",
-      "tested_concept": "Comparing gland formation and single file growth",
+      "tested_concept": "Which pair of tumors fits, and how do their expected mammographic and clinical behaviors differ?",
       "category": "Histology",
       "collection": "R18",
       "source_origin": "lecture",
@@ -2247,7 +2247,7 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "joint_panels": true,
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 23,
@@ -2261,7 +2261,8 @@
         }
       ],
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-breast-specimens-2",
@@ -2269,32 +2270,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Two separate breast specimens are shown side by side. The fields show different patterns of tumor growth in breast tissue.",
-      "lead_in": "Which diagnoses best match the two fields?",
-      "stem": "Which diagnoses best match the two fields?",
+      "scenario": "A pathologist reads two breast biopsies from different patients. The left shows ducts and glands haphazardly arranged and insinuating into a desmoplastic stroma with malignant epithelial cells and no myoepithelial layer. The right shows linear cords of noncohesive cells.",
+      "lead_in": "Which diagnoses fit, and which feature separates invasive ductal carcinoma from a benign duct?",
+      "stem": "Which diagnoses fit, and which feature separates invasive ductal carcinoma from a benign duct?",
       "options": [
-        "Left: invasive lobular carcinoma. Right: invasive ductal carcinoma.",
-        "Both specimens: invasive ductal carcinoma.",
-        "Both specimens: invasive lobular carcinoma.",
-        "Left: mucinous carcinoma. Right: invasive lobular carcinoma.",
-        "Left: invasive ductal carcinoma. Right: invasive lobular carcinoma."
+        "Left is a fibroadenoma and right is a phyllodes tumor, and myoepithelium is absent",
+        "Left is tubular carcinoma and right is mucinous carcinoma, and myoepithelium is present",
+        "Left is lobular carcinoma in situ and right is ductal carcinoma in situ, and myoepithelium is present",
+        "Left is invasive ductal carcinoma and right is invasive lobular carcinoma, and invasive carcinoma lacks the myoepithelial layer",
+        "Left is a fibrocystic change and right is a cyst, and myoepithelium is absent"
       ],
-      "correct_index": 4,
+      "correct_index": 3,
       "choice_rationales": [
-        "Tubule-forming invasive ductal carcinoma is on the left. Discohesive single-file invasive lobular carcinoma is on the right. This choice describes invasive lobular carcinoma on the left and invasive ductal carcinoma on the right.",
-        "The left fits invasive ductal carcinoma. The right shows rows of separate tumor cells instead of irregular glands. This choice describes invasive ductal carcinoma on both sides.",
-        "The right fits invasive lobular carcinoma. The left contains haphazard tubules in desmoplastic stroma. This choice describes invasive lobular carcinoma on both sides.",
-        "The right fits invasive lobular carcinoma. The left shows haphazard glands in reactive stroma, rather than islands of tumor cells floating in extracellular mucin. This choice describes mucinous carcinoma on the left and invasive lobular carcinoma on the right.",
-        "Irregular tubules in desmoplastic stroma favor ductal carcinoma on the left. Single files of discohesive cells favor lobular carcinoma on the right. This choice describes invasive ductal carcinoma on the left and invasive lobular carcinoma on the right, which is what the image shows."
+        "Fibroadenoma and phyllodes tumor are fibroepithelial tumors, not infiltrating glands in desmoplastic stroma.",
+        "Tubular carcinoma lacks myoepithelial cells too, but its angulated bland tubules do not match the field.",
+        "In situ lesions are confined within ducts or lobules and would retain a myoepithelial layer.",
+        "Invasive ductal carcinoma has haphazard glands without myoepithelium, and the right field is invasive lobular carcinoma.",
+        "Fibrocystic changes are benign and have a myoepithelial layer."
       ],
-      "explanation": "The irregular glands and desmoplasia on the left support invasive ductal carcinoma. The linear cords of noncohesive cells on the right support invasive lobular carcinoma.",
+      "explanation": "Step 1. Haphazard, complex ducts or glands in desmoplastic stroma with pleomorphic cells and frequent mitoses are invasive ductal carcinoma, and linear cords of noncohesive cells are invasive lobular carcinoma. Step 2. The lecture lists the absence of a myoepithelial layer as a feature of invasive ductal carcinoma, whereas in situ lesions remain within the basement membrane. Invasive lobular carcinoma is 5 to 10 percent of cancers and can be multicentric.",
       "visual_clues": [
         "Use the arrangement of cells in the stroma rather than the relative darkness of the two panels."
       ],
       "visual_target": "Contrasting ductal and lobular invasive growth patterns",
-      "tested_concept": "Ductal versus lobular breast carcinoma",
+      "tested_concept": "Which diagnoses fit, and which feature separates invasive ductal carcinoma from a benign duct?",
       "category": "Histology",
       "collection": "R18",
       "source_origin": "lecture",
@@ -2346,7 +2347,8 @@
         }
       ],
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-breast-specimens-3",
@@ -2354,32 +2356,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "The companion mammograms from the lecture figure show the two specimens’ corresponding imaging patterns.",
-      "lead_in": "Which comparison best describes the two mammograms?",
-      "stem": "Which comparison best describes the two mammograms?",
+      "scenario": "A 55-year-old woman has a mammogram showing a dense mass with spiculated margins on the left. A 52-year-old woman has a mammogram on the right with only subtle architectural distortion, and her physician is concerned because her symptoms persist.",
+      "lead_in": "Which pathologic basis explains the difference between the two mammograms?",
+      "stem": "Which pathologic basis explains the difference between the two mammograms?",
       "options": [
-        "Subtle distortion on the left and a dense spiculated center on the right",
-        "Prominent dense spiculation on the left and subtler distortion on the right",
-        "Two smooth round masses with sharply defined margins",
-        "Branching fine calcifications dominate both views",
-        "Only the right field contains any visible tissue distortion"
+        "The left tumor is DCIS with calcifications and the right is LCIS with calcifications",
+        "The left tumor provokes a fibrous desmoplastic reaction producing a dense spiculated mass, and the right tumor, an invasive lobular carcinoma, infiltrates in single files with little stromal response",
+        "The left tumor is fat necrosis and the right is mucinous carcinoma",
+        "The left tumor is a phyllodes tumor and the right is medullary carcinoma",
+        "The left tumor is a cyst and the right is a fibroadenoma"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The ductal carcinoma example on the left has dense spiculation. The lobular carcinoma on the right produces subtler architectural distortion. This choice describes subtle distortion in invasive ductal carcinoma and a dense spiculated mass in lobular carcinoma.",
-        "The ductal carcinoma on the left has a dense spiculated center. The paired lobular carcinoma on the right is more subtle, with distortion localized by the arrows. This choice describes a dense spiculated mass (invasive ductal carcinoma) and a subtler distortion (invasive lobular carcinoma), which is what the image shows.",
-        "The ductal carcinoma on the left radiates into nearby tissue. The lobular carcinoma on the right distorts the architecture. Neither has a smooth round margin. This choice describes two benign circumscribed masses (such as fibroadenomas).",
-        "Fine branching calcifications feature in the separate ductal carcinoma in situ example. This comparison shows spiculation in invasive ductal carcinoma and subtler distortion in invasive lobular carcinoma. This choice describes ductal carcinoma in situ with calcifications.",
-        "The lobular carcinoma on the right distorts tissue subtly, but the left ductal carcinoma also distorts adjacent tissue through its prominent radiating lines. This choice describes one abnormal view only."
+        "DCIS is associated with calcifications, but LCIS is only rarely associated with calcifications.",
+        "Desmoplasia makes ductal tumors dense and spiculated, and little stromal response makes lobular tumors subtle.",
+        "Fat necrosis and mucinous carcinoma would not produce this pairing.",
+        "Phyllodes tumors and medullary carcinomas are circumscribed and do not explain the subtle lobular pattern.",
+        "A cyst is smooth and fluid filled, and fibroadenoma is round and circumscribed."
       ],
-      "explanation": "The left has a dense center with conspicuous radiating lines. The right has subtler irregular distortion at the arrows. The lecture uses the pair to illustrate how lobular disease can be less conspicuous on mammography.",
+      "explanation": "Step 1. Dense mass with spiculated margins is the imaging correlate of invasive ductal carcinoma, caused by the desmoplastic reaction around it. Step 2. The lecture says invasive lobular carcinoma induces little stromal response, has no calcifications, and can be mammographically occult, so a subtle distortion with persistent symptoms still warrants biopsy. Ductal tumors grow as tubules with reactive stroma.",
       "visual_clues": [
         "Find the central density on the left, then follow the arrows on the right."
       ],
       "visual_target": "Dense spiculated focus on the left and subtler distortion on the right",
-      "tested_concept": "Comparing the companion breast mammograms",
+      "tested_concept": "Which pathologic basis explains the difference between the two mammograms?",
       "category": "Radiograph",
       "collection": "R18",
       "source_origin": "lecture",
@@ -2427,7 +2429,8 @@
         }
       ],
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-breast-specimens-depth-targetoid-arrangement",
@@ -2437,28 +2440,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R18",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Relationship of lobular tumor cells to a preexisting structure",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which tumor does this arrangement suggest, and what is the lecture's associated risk pattern?",
       "visual_target": "Relationship of lobular tumor cells to a preexisting structure",
-      "scenario": "Two separate breast teaching specimens show different growth patterns. The source also presents companion mammograms.",
-      "lead_in": "In a companion breast field, how does the small cell population relate to the larger central structure?",
-      "stem": "In a companion breast field, how does the small cell population relate to the larger central structure?",
+      "scenario": "A 58-year-old woman has a breast tumor. A companion field shows small, uniform cells arranged in curved rows that wrap concentrically around a normal duct, giving a target like look.",
+      "lead_in": "Which tumor does this arrangement suggest, and what is the lecture's associated risk pattern?",
+      "stem": "Which tumor does this arrangement suggest, and what is the lecture's associated risk pattern?",
       "options": [
-        "Large irregular glands replacing the center of the structure",
-        "A solid necrotic plug confined to the center of the structure",
-        "A broad pool of mucin with randomly floating cell clusters",
-        "A tall papillary projection entering the central lumen",
-        "Curved rows of small cells wrapping around the structure"
+        "Mucinous carcinoma with islands of cells in mucin",
+        "Invasive ductal carcinoma with desmoplastic stroma, always unilateral",
+        "Invasive lobular carcinoma with single file invasion, multicentric in about 30 percent, with a risk of contralateral carcinoma of 10 to 15 percent",
+        "Comedo DCIS with central necrosis",
+        "Tubular carcinoma with comma shaped glands, always benign"
       ],
-      "correct_index": 4,
+      "correct_index": 2,
       "choice_rationales": [
-        "The conspicuous small cells wrap around the structure instead of replacing it. This choice describes invasive ductal carcinoma.",
-        "Central necrosis within a duct is a feature of comedo-type ductal carcinoma in situ. The invasive lobular carcinoma cells in this field form rows around the outside of a structure. This choice describes comedo-type ductal carcinoma in situ.",
-        "Mucinous carcinoma contains tumor clusters in extracellular mucin. The small invasive lobular carcinoma cells here wrap concentrically around a preexisting structure. This choice describes mucinous carcinoma.",
-        "The small cells lie around the structure rather than projecting into a lumen. This choice describes an intraductal papilloma.",
-        "Small tumor cells curve around the structure in successive rows. This targetoid relationship is an additional growth pattern beyond straight files. This choice describes lobular carcinoma in situ or invasive lobular carcinoma (targetoid pattern), which is what the image shows."
+        "Mucinous carcinoma has islands of cells floating in mucin.",
+        "Invasive ductal carcinoma forms tubules in desmoplastic stroma.",
+        "Single file cells around ducts are invasive lobular carcinoma, with higher multicentricity and contralateral risk.",
+        "Comedo DCIS shows central necrosis within ducts.",
+        "Tubular carcinoma has well formed angulated tubules and an excellent prognosis."
       ],
-      "explanation": "Small tumor cells curve around the structure in successive rows. This targetoid relationship is an additional growth pattern beyond straight files. Mucinous carcinoma contains tumor clusters in extracellular mucin. The small invasive lobular carcinoma cells here wrap concentrically around a preexisting structure.",
+      "explanation": "Step 1. Small noncohesive cells infiltrating in single file, often wrapping around ducts, is the pattern of invasive lobular carcinoma. Step 2. The lecture states it accounts for 5 to 10 percent of breast cancers, is multicentric in about 30 percent versus 15 percent for ductal, and has a subsequent contralateral carcinoma rate of 10 to 15 percent. It induces little stromal response and can be mammographically occult.",
       "visual_clues": [
         "Small tumor cells curve around the structure in successive rows."
       ],
@@ -2489,9 +2492,10 @@
           "page": 61
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive lobular carcinoma",
-      "condition_overview": "Invasive lobular carcinoma is the second most common breast cancer. Small, discohesive cells with intracytoplasmic mucin infiltrate in single files (Indian files) and targetoid patterns around normal ducts, often without a discrete mass, and it can be missed on imaging. It is caused by loss of E-cadherin, so the cells are E-cadherin negative. It is frequently ER positive and often bilateral or multifocal, and it metastasizes to unusual sites such as the peritoneum, gastrointestinal tract, and ovaries."
+      "condition_overview": "Invasive lobular carcinoma is the second most common breast cancer. Small, discohesive cells with intracytoplasmic mucin infiltrate in single files (Indian files) and targetoid patterns around normal ducts, often without a discrete mass, and it can be missed on imaging. It is caused by loss of E-cadherin, so the cells are E-cadherin negative. It is frequently ER positive and often bilateral or multifocal, and it metastasizes to unusual sites such as the peritoneum, gastrointestinal tract, and ovaries.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-breast-specimens-depth-gross-stellate",
@@ -2501,28 +2505,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R18",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Gross counterpart to a radiating mammographic border",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What explains the radiating lines and the firm consistency?",
       "visual_target": "Gross counterpart to a radiating mammographic border",
-      "scenario": "Two separate breast teaching specimens show different growth patterns. The source also presents companion mammograms.",
-      "lead_in": "Which gross feature in this separate specimen provides an anatomic counterpart to radiating lines on mammography?",
-      "stem": "Which gross feature in this separate specimen provides an anatomic counterpart to radiating lines on mammography?",
+      "scenario": "A pathologist sectioning a mastectomy specimen finds a firm gray white mass whose cut surface sends pale stellate extensions into the surrounding fat, with a slightly concave contour from contraction. The radiologist had described radiating lines on the mammogram.",
+      "lead_in": "What explains the radiating lines and the firm consistency?",
+      "stem": "What explains the radiating lines and the firm consistency?",
       "options": [
-        "Pale stellate extensions radiating into surrounding fat",
-        "A complete smooth capsule around a round nodule",
-        "A thin rim around a simple open cyst",
-        "A compact cluster of isolated round cavities",
-        "A sharply flat interface between two uniform tissue blocks"
+        "The tumor is a mucinous carcinoma floating in mucin",
+        "The tumor is a smooth circumscribed fibroadenoma",
+        "The tumor is a fluid filled cyst that transmits sound",
+        "The tumor is a lobular carcinoma in situ with no stromal reaction",
+        "The tumor invades surrounding tissue and induces a fibrous (desmoplastic) reaction that contracts to produce a spiculated hard mass"
       ],
-      "correct_index": 0,
+      "correct_index": 4,
       "choice_rationales": [
-        "Pale tissue sends irregular rays into surrounding fat. A radiating edge on the cut surface provides the gross counterpart of the spiculated contour. This choice describes an invasive stellate carcinoma (pale rays into fat), which is what the image shows.",
-        "A smooth capsule would not account for the radiating lines. This choice describes a fibroadenoma (smooth capsule).",
-        "The gross field shows solid tissue with projecting extensions. This choice describes a simple cyst.",
-        "The dominant relationship is a central solid region with outward rays. This choice describes fibrocystic change (clustered cysts).",
-        "The outer edge is irregular and extends into adjacent tissue. This choice describes a flat tissue interface."
+        "Mucinous carcinoma is well circumscribed with a mucinous consistency.",
+        "Fibroadenoma is round and well circumscribed.",
+        "A cyst is fluid filled and transmits sound, which would not produce spicules.",
+        "LCIS is an incidental microscopic finding without a mass.",
+        "Desmoplastic contraction produces the spiculated hard mass."
       ],
-      "explanation": "Pale tissue sends irregular rays into surrounding fat. A radiating edge on the cut surface provides the gross counterpart of the spiculated contour. A smooth capsule would not account for the radiating lines.",
+      "explanation": "Step 1. A mass with irregular outline, stellate extensions, and a slightly concave cut surface from contraction is invasive ductal carcinoma. Step 2. The lecture states it presents as a hard, spiculated mass because of the fibrous desmoplastic reaction around it, and that it grows into surrounding tissues, which can cause skin dimpling and nipple changes.",
       "visual_clues": [
         "Pale tissue sends irregular rays into surrounding fat."
       ],
@@ -2553,9 +2557,10 @@
           "page": 61
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-breast-specimens-depth-gland-stroma",
@@ -2565,28 +2570,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R18",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Epithelial profile shape at the invasive breast interface",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which arrangement in this field supports carcinoma rather than a benign mimic?",
       "visual_target": "Epithelial profile shape at the invasive breast interface",
-      "scenario": "Two separate breast teaching specimens show different growth patterns. The source also presents companion mammograms.",
-      "lead_in": "This separate field is sampled near an infiltrative border. Which arrangement explains why it aligns more closely with a gland forming pattern than with straight files of separate cells?",
-      "stem": "This separate field is sampled near an infiltrative border. Which arrangement explains why it aligns more closely with a gland forming pattern than with straight files of separate cells?",
+      "scenario": "A needle biopsy is taken near the infiltrative border of a breast mass. The field shows angulated epithelial profiles dispersed in fibrous stroma. The pathologist considers radial scar, which is a benign cancer mimic with stellate architecture.",
+      "lead_in": "Which arrangement in this field supports carcinoma rather than a benign mimic?",
+      "stem": "Which arrangement in this field supports carcinoma rather than a benign mimic?",
       "options": [
-        "Thin lines of individual tumor cells without epithelial outlines",
-        "Angulated epithelial profiles dispersed in fibrous stroma",
-        "A central necrotic core confined to a rounded duct",
-        "Circumscribed pools of mucin containing floating islands",
-        "Curved rows of separate small cells around one duct"
+        "A central scar with trapped tubules and peripheral cysts and a myoepithelial layer",
+        "Angulated, haphazardly dispersed glands with malignant nuclei and no myoepithelial layer infiltrating stroma",
+        "A circumscribed lobulated nodule with demarcation from compressed tissue",
+        "Foamy macrophages from fat necrosis",
+        "Dilated lobular regions with apocrine metaplasia"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The field contains grouped angulated profiles. This choice describes invasive lobular carcinoma (single cells).",
-        "Small angulated epithelial profiles lie within fibrous stroma. The organized outlines of the profiles distinguish them from isolated cells arranged one behind another. This choice describes invasive ductal carcinoma (angulated glands in stroma), which is what the image shows.",
-        "The profiles are dispersed across stroma rather than limited to one duct. This choice describes comedo ductal carcinoma in situ.",
-        "The background is fibrous rather than broad mucin pools. This choice describes mucinous carcinoma.",
-        "The visible groups form their own profiles through the stroma. This choice describes targetoid invasive lobular carcinoma."
+        "A radial scar keeps its benign architecture, including myoepithelial cells.",
+        "Haphazard glands with malignant nuclei and no myoepithelium indicate carcinoma.",
+        "A circumscribed lobulated nodule describes fibroadenoma.",
+        "Foamy macrophages describe fat necrosis.",
+        "Dilated lobular regions describe fibrocystic cysts."
       ],
-      "explanation": "Small angulated epithelial profiles lie within fibrous stroma. The organized outlines of the profiles distinguish them from isolated cells arranged one behind another. The background is fibrous rather than broad mucin pools.",
+      "explanation": "Step 1. Irregular, haphazard glands in fibrous stroma at a mass border suggest invasive ductal carcinoma. Step 2. The lecture lists no myoepithelial layer and malignant nuclei (pleomorphism and prominent nucleoli, frequent mitoses) as features of carcinoma, whereas benign mimics such as radial scar have stellate architecture with trapped tubules and cysts but preserve the benign architecture. Tubular carcinoma is the carcinoma most easily confused with radial scar.",
       "visual_clues": [
         "Small angulated epithelial profiles lie within fibrous stroma."
       ],
@@ -2617,9 +2622,10 @@
           "page": 61
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-1",
@@ -6903,32 +6909,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A breast lesion is evaluated with histology and mammography. The supplied views illustrate the tissue and imaging patterns.",
-      "lead_in": "Where does the dense pink material lie?",
-      "stem": "Where does the dense pink material lie?",
+      "scenario": "A 49-year-old woman has screen detected microcalcifications. A biopsy shows expanded ducts whose centers contain dense pink material bounded by atypical cells, with the basement membrane intact.",
+      "lead_in": "What does the pink material represent, and why does the lesion lack metastatic potential?",
+      "stem": "What does the pink material represent, and why does the lesion lack metastatic potential?",
       "options": [
-        "In broad extracellular pools surrounding small tumor islands",
-        "Within linear files of cells between stromal fibers",
-        "Between irregular invasive tubules in dense desmoplastic stroma",
-        "Only at the outer edges of otherwise empty duct lumens",
-        "In the centers of expanded ducts bounded by atypical cells"
+        "Colloid of struma, since follicles have colloid",
+        "Mucin of mucinous carcinoma, since cells float in mucin",
+        "Necrotic debris of comedo type DCIS, and the malignant cells remain within the duct without invading through the basement membrane",
+        "Secretion of lactation, since the ducts are dilated",
+        "Amyloid deposits, since stroma is pink"
       ],
-      "correct_index": 4,
+      "correct_index": 2,
       "choice_rationales": [
-        "Mucinous carcinoma has tumor islands floating in extracellular mucin. This comedo-type ductal carcinoma in situ has necrosis centered within ducts. This choice describes mucinous carcinoma.",
-        "Linear stromal files support invasive lobular carcinoma. In comedo-type ductal carcinoma in situ, necrotic material lies centrally within expanded ducts. This choice describes invasive lobular carcinoma.",
-        "Here the dense centers are bounded by rounded duct profiles. This choice describes invasive ductal carcinoma.",
-        "The material occupies the center of several ducts. This choice describes empty duct lumens.",
-        "Comedo-type ductal carcinoma in situ fills and expands ducts with atypical epithelium around a central core of necrosis. This choice describes comedo-type ductal carcinoma in situ (central necrotic debris), which is what the image shows."
+        "Thyroid colloid is unrelated to breast ducts.",
+        "Mucinous carcinoma shows islands of cells in a sea of mucin, not necrosis within ducts.",
+        "Central comedonecrosis fills the ducts, and cells remain inside the basement membrane.",
+        "Lactational secretion is not a feature of atypical duct expansion.",
+        "The pink material is necrotic debris, not amyloid."
       ],
-      "explanation": "The material fills the centers of rounded ducts surrounded by dark epithelial cells. That intraductal distribution is characteristic of comedo necrosis in the supplied example.",
+      "explanation": "Step 1. Dense central necrosis within expanded ducts lined by atypical cells is comedo type ductal carcinoma in situ, which produces toothpaste like necrosis. Step 2. The lecture states DCIS proliferates within the duct with no invasion through the basement membrane and no metastatic potential, though it is a direct precursor to invasive carcinoma. The necrotic debris is the substrate for microcalcifications.",
       "visual_clues": [
         "Trace the cellular rim around several pink centers."
       ],
       "visual_target": "Dense necrotic material centered within expanded duct profiles",
-      "tested_concept": "Necrosis within expanded breast duct profiles",
+      "tested_concept": "What does the pink material represent, and why does the lesion lack metastatic potential?",
       "category": "Histology",
       "collection": "R18",
       "source_origin": "lecture",
@@ -6965,9 +6971,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
-      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive."
+      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-intraductal-lesion-2",
@@ -6975,32 +6982,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A breast lesion is evaluated with histology and mammography. The supplied views illustrate the tissue and imaging patterns.",
-      "lead_in": "Which pattern is visible in the bright foci?",
-      "stem": "Which pattern is visible in the bright foci?",
+      "scenario": "A mammogram of a 51-year-old woman shows grouped, fine, branching bright foci. She asks what they mean and whether they indicate cancer already spread.",
+      "lead_in": "What do these calcifications most likely reflect, and what is their significance?",
+      "stem": "What do these calcifications most likely reflect, and what is their significance?",
       "options": [
-        "Grouped fine calcifications with branching contours",
-        "A dominant dense mass with long radiating spicules",
-        "Subtle distortion with no bright branching foci",
-        "A single coarse rounded calcification",
-        "A smooth continuous rim of calcification"
+        "Spiculated masses from invasive lobular carcinoma",
+        "Sound transmission through cysts",
+        "Calcified necrotic debris or secretions in ducts involved by DCIS, which has no metastatic potential but is a direct precursor of invasive cancer",
+        "Smooth rounded masses from fibroadenoma",
+        "Fat necrosis from a prior injury only"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "The bright foci form several thin irregular branches. This choice describes ductal carcinoma in situ with branching fine pleomorphic calcifications, which is what the image shows.",
-        "The feature highlighted here is a group of fine bright lines rather than a solid spiculated center. This choice describes an invasive spiculated carcinoma.",
-        "Bright fine branches are present in the displayed field. This choice describes subtle architectural distortion.",
-        "There are multiple slender calcific densities rather than one round focus. This choice describes a benign coarse calcification.",
-        "The bright deposits form discrete branches rather than one peripheral ring. This choice describes an eggshell-type benign calcification."
+        "Lobular carcinoma induces little stromal response, has no calcifications, and can be mammographically occult.",
+        "Cysts are described by sonography with sound transmission.",
+        "Calcified necrotic debris in involved ducts explains the pattern, and DCIS is noninvasive.",
+        "Fibroadenomas are round circumscribed masses, with popcorn calcifications only when older.",
+        "Fat necrosis can also cause calcifications, but branching grouped foci in screening point to DCIS."
       ],
-      "explanation": "Several grouped bright densities branch in this mammogram. R18 relates ductal microcalcifications to necrotic debris or secretory material.",
+      "explanation": "Step 1. Grouped fine branching or linear calcifications are the mammographic hallmark of DCIS. Step 2. The lecture states they result from calcification of necrotic debris or secretory material in the duct, that DCIS has no metastatic potential because it has not invaded the basement membrane, and that it is a direct precursor to invasive carcinoma, so treatment with surgery and irradiation is used. Calcifications are also seen with benign proliferative lesions.",
       "visual_clues": [
         "Follow the small bright foci and look for short branches."
       ],
       "visual_target": "Fine branching calcifications",
-      "tested_concept": "Calcification pattern on a mammogram",
+      "tested_concept": "What do these calcifications most likely reflect, and what is their significance?",
       "category": "Radiograph",
       "collection": "R18",
       "source_origin": "lecture",
@@ -7031,7 +7038,8 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
-      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive."
+      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-intraductal-lesion-3",
@@ -7039,32 +7047,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A breast lesion is evaluated with histology and mammography. The supplied views illustrate the tissue and imaging patterns.",
-      "lead_in": "Which diagnosis best accounts for the arrangement in this section?",
-      "stem": "Which diagnosis best accounts for the arrangement in this section?",
+      "scenario": "A 47-year-old woman has linear branching microcalcifications. The biopsy section shows ducts distended and filled with solid tumor cells with a necrotic center, lacking invasion. The surgeon asks whether this is lobular or ductal and which pattern.",
+      "lead_in": "Which diagnosis best accounts for the arrangement, and what is the recommended treatment direction?",
+      "stem": "Which diagnosis best accounts for the arrangement, and what is the recommended treatment direction?",
       "options": [
-        "Lobular carcinoma in situ",
-        "Comedo type ductal carcinoma in situ",
-        "Invasive ductal carcinoma",
-        "Invasive lobular carcinoma",
-        "Mucinous carcinoma"
+        "Comedo type ductal carcinoma in situ, treated with surgery and irradiation, with anti-estrogen therapy to lower recurrence if ER positive",
+        "Invasive ductal carcinoma, which needs no surgery",
+        "Lobular carcinoma in situ, treated like DCIS with surgery and irradiation only",
+        "Fibrocystic change, which needs no follow up",
+        "Phyllodes tumor, treated with tamoxifen only"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "choice_rationales": [
-        "Lobular carcinoma in situ expands lobules with loosely cohesive cells. The necrotic central cores within expanded ducts favor comedo-type ductal carcinoma in situ. This choice describes lobular carcinoma in situ.",
-        "Central necrosis within expanded ducts rimmed by atypical epithelium is the characteristic pattern of comedo-type ductal carcinoma in situ. This choice describes comedo-type ductal carcinoma in situ, which is what the image shows.",
-        "Invasive ductal carcinoma would show irregular epithelial glands infiltrating desmoplastic stroma. The necrotic material here remains within expanded ducts. This choice describes invasive ductal carcinoma.",
-        "Invasive lobular carcinoma would show single files of discohesive cells in stroma. This field instead shows intraductal necrosis. This choice describes invasive lobular carcinoma.",
-        "Mucinous carcinoma has groups of tumor cells floating in extracellular mucin. The pink centers here are necrotic cores within expanded ducts. This choice describes mucinous carcinoma."
+        "Comedo DCIS is treated by surgery and irradiation, with tamoxifen when ER positive.",
+        "Invasive carcinoma is not managed without surgery.",
+        "LCIS is treated differently, with follow up and chemoprevention.",
+        "The tumor cells are atypical, so it is not fibrocystic change.",
+        "Phyllodes tumor is a fibroepithelial tumor and is not an intraductal necrotic lesion."
       ],
-      "explanation": "The atypical cells rim expanded ducts with central necrosis, supporting comedo type ductal carcinoma in situ in this example. The companion mammogram illustrates why this pattern can be detected by branching microcalcifications.",
+      "explanation": "Step 1. Ducts filled with solid tumor and central necrosis make comedo type DCIS. Step 2. The lecture states current treatment of DCIS is surgery and irradiation, with anti-estrogenic agents such as tamoxifen to decrease recurrence of ER positive DCIS. LCIS, by contrast, is a risk marker with bland loosely cohesive cells and is managed differently (follow up, chemoprevention, rarely mastectomy).",
       "visual_clues": [
         "Look for ducts rimmed by atypical cells around dense necrotic centers."
       ],
       "visual_target": "Central comedo necrosis within atypical duct profiles",
-      "tested_concept": "Interpreting the necrotic duct pattern",
+      "tested_concept": "Which diagnosis best accounts for the arrangement, and what is the recommended treatment direction?",
       "category": "Histology",
       "collection": "R18",
       "source_origin": "lecture",
@@ -7107,7 +7115,8 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
-      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive."
+      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-necrosis-calcification",
@@ -7117,28 +7126,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R18",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Microscopic substrate for the mammographic finding",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Where is the material that could calcify?",
       "visual_target": "Where is the material that could calcify and account for the mammographic finding?",
-      "scenario": "A patient has a breast lesion evaluated by biopsy and mammography.",
-      "lead_in": "Where is the material that could calcify and account for the mammographic finding?",
-      "stem": "Where is the material that could calcify and account for the mammographic finding?",
+      "scenario": "A radiology pathology conference reviews a mammographic calcification and asks the pathologist where the calcifiable material sits in the corresponding duct on the slide.",
+      "lead_in": "Where is the material that could calcify?",
+      "stem": "Where is the material that could calcify?",
       "options": [
-        "In the surrounding fibrous tissue far from the duct",
-        "In a vessel outside the duct",
-        "In the dense central core inside the expanded duct",
-        "Only in the outer layer of intact normal epithelium",
-        "Between fat cells remote from the lesional profile"
+        "In the surrounding fat as foamy macrophages only",
+        "In the nipple skin",
+        "In the lymph node draining the breast",
+        "In the dense necrotic central core inside the expanded duct",
+        "Within the myoepithelial layer of the duct"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "The dense candidate material lies within the ductal profile. This choice describes stromal calcification.",
-        "The structure of interest is a duct with a cellular rim. This choice describes vascular calcification.",
-        "A dense pale core occupies the center of an expanded duct and is surrounded by darker viable cells. The lecture links calcification to central necrotic material. This choice describes central necrotic debris in comedo-type ductal carcinoma in situ, which is what the image shows.",
-        "The core is central to the surrounding viable cells. This choice describes a normal epithelial layer.",
-        "The pale material lies in the involved duct. This choice describes fat necrosis calcification."
+        "Foamy macrophages in fat describe fat necrosis, a benign mimic.",
+        "The nipple skin is not involved in this lesion.",
+        "Lymph nodes are not where mammographic duct calcifications form.",
+        "The dense central necrosis is the source of calcifiable debris.",
+        "The myoepithelial layer is a thin cell layer and not necrotic debris."
       ],
-      "explanation": "A dense pale core occupies the center of an expanded duct and is surrounded by darker viable cells. The lecture links calcification to central necrotic material. The structure of interest is a duct with a cellular rim.",
+      "explanation": "Step 1. In comedo DCIS, rapidly proliferating cells outgrow their blood supply and the central portion undergoes necrosis. Step 2. The lecture states calcifications result from calcification of necrotic debris or secretory material within the duct, and that comedo DCIS has extensive central necrosis producing toothpaste like necrotic tissue. The core is therefore the site, whereas fat necrosis is a different benign cause.",
       "visual_clues": [
         "A dense pale core occupies the center of an expanded duct and is surrounded by darker viable cells."
       ],
@@ -7165,9 +7174,10 @@
           "page": 49
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
-      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive."
+      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-in-situ-comparison",
@@ -7177,28 +7187,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R18",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Low power compartment comparison in two separate breast lesions",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which low power difference and risk statement distinguish the two?",
       "visual_target": "Low power compartment comparison in two separate breast lesions",
-      "scenario": "A patient has a breast lesion evaluated by biopsy and mammography.",
-      "lead_in": "The slide pairs separate in situ patterns. Which low power difference helps distinguish the field with densely filled duct profiles?",
-      "stem": "The slide pairs separate in situ patterns. Which low power difference helps distinguish the field with densely filled duct profiles?",
+      "scenario": "A teaching slide pairs two in situ breast lesions at low power. In one, round filled ductlike profiles are expanded by tumor cells. In the other, bland loosely cohesive cells fill the units of the lobule. A student asks which one is a true direct precursor of invasive cancer.",
+      "lead_in": "Which low power difference and risk statement distinguish the two?",
+      "stem": "Which low power difference and risk statement distinguish the two?",
       "options": [
-        "A single large invasive gland versus multiple muscle bundles",
-        "Broad mucin pools versus a simple empty cyst",
-        "Two fields with identical solitary epithelial profiles",
-        "Round filled ductlike profiles versus grouped lobular units",
-        "Infiltrating cords extending to fat in both views"
+        "Round filled duct profiles are DCIS, a direct precursor of invasive carcinoma, whereas grouped lobular units filled by bland cells are LCIS, more a risk marker with about a 10 fold higher chance of invasive cancer in either breast",
+        "Both are invasive carcinomas with desmoplasia",
+        "Both are direct precursors with calcifications",
+        "Round filled duct profiles are LCIS, a risk marker, whereas grouped lobular units are DCIS, a direct precursor",
+        "Both are benign proliferations with no risk"
       ],
-      "correct_index": 3,
+      "correct_index": 0,
       "choice_rationales": [
-        "The comparison is between epithelial compartments within breast tissue. This choice describes a single invasive gland.",
-        "Neither pattern explains the tightly filled epithelial profiles. This choice describes mucin pools.",
-        "The arrangement of multiple profiles differs between the fields. This choice describes identical solitary profiles.",
-        "One field has several round densely filled ductlike profiles. In the companion, smaller expanded units are grouped in a lobular pattern. This choice describes ductal carcinoma in situ (round filled duct profiles) versus lobular carcinoma in situ (grouped lobular units), which is what the image shows.",
-        "The low power comparison emphasizes occupied ducts and lobular units. This choice describes infiltrating cords in fat."
+        "DCIS is a direct precursor in ducts, while LCIS is a lobular risk marker.",
+        "In situ lesions are not invasive and do not form desmoplastic masses.",
+        "LCIS is only rarely associated with calcifications and is not a direct precursor.",
+        "The structure assignments are reversed here.",
+        "Both carry risk, and LCIS raises cancer risk about tenfold."
       ],
-      "explanation": "One field has several round densely filled ductlike profiles. In the companion, smaller expanded units are grouped in a lobular pattern. The arrangement of multiple profiles differs between the fields.",
+      "explanation": "Step 1. Ducts filled by tumor cells are DCIS, and a proliferation of small bland loosely cohesive cells within the lobule is LCIS. Step 2. The lecture states DCIS is a direct precursor to invasive carcinoma and is usually associated with calcifications, whereas LCIS is an incidental finding, probably not a direct precursor, rarely associated with calcifications, and carries about a 10 fold increased risk of invasive cancer, not necessarily at the site and bilateral.",
       "visual_clues": [
         "One field has several round densely filled ductlike profiles."
       ],
@@ -7230,9 +7240,10 @@
           "page": 51
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
-      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive."
+      "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-invasion-comparison",
@@ -7242,28 +7253,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R18",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Invasive epithelial profiles in a separate breast field",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What visible finding establishes invasion in the second specimen?",
       "visual_target": "Invasive epithelial profiles in a separate breast field",
-      "scenario": "A patient has a breast lesion evaluated by biopsy and mammography.",
-      "lead_in": "What visible finding in this separate breast specimen establishes a different epithelial and stromal relationship from the lesion in the original case?",
-      "stem": "What visible finding in this separate breast specimen establishes a different epithelial and stromal relationship from the lesion in the original case?",
+      "scenario": "A pathologist compares an in situ duct filled with tumor to a separate specimen from a woman with a palpable mass. In the second specimen, irregular epithelial glands lie scattered through fibrous stroma without a surrounding myoepithelial layer.",
+      "lead_in": "What visible finding establishes invasion in the second specimen?",
+      "stem": "What visible finding establishes invasion in the second specimen?",
       "options": [
-        "Central material confined within expanded ducts",
-        "Orderly basal and luminal layers in a normal duct",
-        "Loose cells filling acini within a lobular outline",
-        "Grouped calcific foci without a tissue interface",
-        "Irregular epithelial glands scattered through fibrous stroma"
+        "Irregular glands dispersed through stroma outside any duct with no myoepithelial layer, which marks invasive ductal carcinoma",
+        "Dilated cysts lined by apocrine cells",
+        "A circumscribed nodule of stroma and glands",
+        "Bland loosely cohesive cells within the lobule",
+        "Cells confined within a round duct outlined by an intact basement membrane"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "That is the compartment in the original case, not the separate stromal field. This choice describes ductal carcinoma in situ.",
-        "The dispersed epithelial profiles are irregular. This choice describes a normal duct.",
-        "The profiles are distributed through stroma rather than contained by a lobular outline. This choice describes lobular carcinoma in situ.",
-        "The field directly shows epithelial glands in relation to stroma. This choice describes calcific foci.",
-        "Irregular epithelial glands lie scattered within fibrous stroma. In the original section, the malignant cells and necrotic material occupy expanded duct profiles. This choice describes invasive ductal carcinoma (irregular glands in fibrous stroma), which is what the image shows."
+        "Glands in stroma without myoepithelium show invasion and give metastatic potential.",
+        "Apocrine cysts are benign fibrocystic changes.",
+        "A circumscribed nodule describes fibroadenoma.",
+        "Bland cells within lobules describe LCIS.",
+        "Cells inside an intact duct describe DCIS."
       ],
-      "explanation": "Irregular epithelial glands lie scattered within fibrous stroma. In the original section, the malignant cells and necrotic material occupy expanded duct profiles. The profiles are distributed through stroma rather than contained by a lobular outline.",
+      "explanation": "Step 1. Tumor glands scattered in stroma outside ducts show that cells have crossed the basement membrane. Step 2. The lecture describes invasive ductal carcinoma as irregular complex glands with pleomorphic nuclei and frequent mitoses, without a myoepithelial layer, producing a desmoplastic spiculated mass. DCIS stays within the duct and has no metastatic potential.",
       "visual_clues": [
         "Irregular epithelial glands lie scattered within fibrous stroma."
       ],
@@ -7294,9 +7305,10 @@
           "page": 50
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r27-tubal-lining-2",
@@ -11932,32 +11944,32 @@
       "collection": "R18",
       "generation_batch": "keanne-followups1",
       "difficulty": "intermediate",
-      "reasoning_type": "mechanism",
-      "study_skill": "mechanism",
-      "scenario": "A companion immunostain from the breast lecture uses an antibody against HER2.",
-      "lead_in": "Which paired interpretation links the signal location in this field to the pathway discussed in the lecture?",
-      "stem": "Which paired interpretation links the signal location in this field to the pathway discussed in the lecture?",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
+      "scenario": "A 46-year-old woman has invasive ductal carcinoma. An immunostain shows strong complete membrane staining of the tumor cells. FISH confirms that the gene on chromosome 17 is amplified and the signal ratio is greater than the centromere 17 probe.",
+      "lead_in": "Which interpretation links the membrane signal to the treatment pathway?",
+      "stem": "Which interpretation links the membrane signal to the treatment pathway?",
       "options": [
-        "A nuclear signal identifies a receptor that regulates transcription in response to estrogen.",
-        "A cytoplasmic signal identifies a soluble factor released into the stroma.",
-        "A luminal signal identifies material secreted into duct spaces.",
-        "A membrane signal identifies a growth factor receptor linked to tyrosine kinase signaling.",
-        "A stromal signal identifies a receptor expressed only by surrounding connective tissue."
+        "The signal marks estrogen receptor, which sits in the membrane and responds to tamoxifen",
+        "The signal marks HER2, a plasma membrane growth factor receptor, and amplified tumors respond to the anti HER2 antibody trastuzumab",
+        "The signal marks BRCA1, a membrane receptor responding to trastuzumab",
+        "The signal marks a mucin, which responds to chemotherapy only",
+        "The signal marks progesterone receptor, which is a surface receptor targeted by raloxifene"
       ],
-      "correct_index": 3,
+      "correct_index": 1,
       "choice_rationales": [
-        "The brown signal outlines cells. Estrogen receptor nuclear staining is shown in a separate panel. This choice describes estrogen receptor signaling (nuclear signal).",
-        "The strongest signal follows epithelial cell borders. The lecture describes HER2 as a membrane receptor. This choice describes a released stromal factor (cytoplasmic signal).",
-        "The pale duct spaces are surrounded by positive cell outlines. The material in the lumen is not the target. This choice describes a secreted ductal product (luminal signal).",
-        "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling. This choice describes HER2 receptor tyrosine kinase signaling (membrane signal), which is what the image shows.",
-        "The positive outlines surround epithelial tumor cells. The surrounding stroma does not show the same pattern. This choice describes a stromal-only receptor."
+        "Estrogen receptor is nuclear, and tamoxifen is an antagonist used for ER positive tumors.",
+        "Membrane HER2 amplification predicts response to trastuzumab.",
+        "BRCA1 is a gene associated with hereditary cancer risk and is not a membrane receptor target.",
+        "Mucins are secreted material, not a membrane growth factor receptor target.",
+        "Progesterone receptor is a nuclear receptor, and raloxifene is an antiestrogen."
       ],
-      "explanation": "The brown outlines follow tumor cell membranes. The lecture identifies HER2 as a membrane growth factor receptor and links excess expression to tyrosine kinase signaling. The brown signal outlines cells. Estrogen receptor nuclear staining is shown in a separate panel.",
+      "explanation": "Step 1. Strong membrane staining with gene amplification on FISH is HER2 (HER2/neu), a plasma membrane growth factor receptor with tyrosine kinase signaling. Step 2. The lecture states HER2 amplified tumors respond to the anti HER2 antibody trastuzumab (receptor blockade), and HER2 positive tumors make up 10 to 20 percent of breast cancers. ER and PR are nuclear receptors, and ER or PR positive tumors respond to antiestrogens such as tamoxifen.",
       "visual_clues": [
         "The brown signal rims epithelial tumor cells. Compare the rims with the blue nuclei and pale lumina."
       ],
       "visual_target": "HER2 membrane localization and signaling",
-      "tested_concept": "HER2 membrane localization and signaling",
+      "tested_concept": "Which interpretation links the membrane signal to the treatment pathway?",
       "citations": [
         {
           "document": "R18 Pathology of Breast Diseases RLS.pdf",
@@ -11990,7 +12002,8 @@
         }
       ],
       "condition_name": "Invasive ductal carcinoma",
-      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain."
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-breast-case-cyst",
