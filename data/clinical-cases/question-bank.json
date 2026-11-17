@@ -791,7 +791,20 @@
       "study_skill": "interpretation",
       "condition_name": "Extramammary Paget disease",
       "condition_overview": "Extramammary Paget disease is an uncommon intraepidermal adenocarcinoma, most often on the vulva of older women, that presents as a red, scaly or eczematous, itchy plaque. Microscopically large pale cells with abundant cytoplasm and atypical nuclei are scattered singly and in nests among the keratinocytes of the epidermis, sometimes extending into skin appendages. The cells contain intracytoplasmic mucin (mucicarmine and PAS positive) and are CK7 positive, unlike squamous cells. It is usually confined to the epidermis, but some cases are associated with an underlying adnexal or visceral carcinoma, and the invasive form carries a worse prognosis. Treatment is wide excision.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
+            "caption": "Papillary Hidradenoma (Histology)",
+            "source": "R10/Papillary Hidradenoma - Histology.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-plaque-3",
@@ -913,7 +926,26 @@
       "study_skill": "interpretation",
       "condition_name": "Vulvar squamous cell carcinoma",
       "condition_overview": "Vulvar squamous cell carcinoma has two main pathways. HPV-related tumors arise from usual-type VIN in younger women and are basaloid or warty. HPV-independent tumors arise from dVIN or lichen sclerosus in older women and are keratinizing. Keratinizing tumors show irregular nests of atypical squamous cells with keratin pearls and intercellular bridges invading dermis. Depth of invasion, tumor size, and groin node status determine stage and prognosis. Treatment is wide excision, and groin node assessment is needed when invasion exceeds 1 mm.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
+            "caption": "Papillary Hidradenoma (Histology)",
+            "source": "R10/Papillary Hidradenoma - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r10-vulvar-plaque-depth-basal-maturation",
@@ -1188,7 +1220,20 @@
       "study_skill": "interpretation",
       "condition_name": "Struma ovarii",
       "condition_overview": "Struma ovarii is a monodermal form of ovarian teratoma composed predominantly (more than half) of mature thyroid tissue. It forms thyroid follicles filled with eosinophilic colloid, and it can rarely cause hyperthyroidism or undergo malignant change. Most cases are benign and are treated by surgical resection.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/4f44562e2c41762e5a03cc5249d1dbbfded4d3e23e4f3ebb1d7282b999e6ef52.webp",
+            "caption": "Immature Teratoma Neuroepithelium (Histology)",
+            "source": "R12/Immature Teratoma Neuroepithelium - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cartilage-comparison",
@@ -1249,7 +1294,37 @@
       "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
       "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/75003b2c50daa923132f286e08384458a7cf1d8dc6c3cd970de594d9d7ca56a5.webp",
+            "caption": "Bilateral Krukenberg Tumors (Gross)",
+            "source": "R12/Bilateral Krukenberg Tumors - Gross.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/1c60a7e1e4be2a3b0da1e5794b83a091ac758a53027b714210c997b2b7325182.webp",
+            "caption": "Mature Cystic Teratoma Gross and Histology (Gross)",
+            "source": "R12/Mature Cystic Teratoma Gross and Histology - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/9d3206da37cb0942d01975c2953acc477c0a903d0f7423a16619fa6426330f94.webp",
+            "caption": "Granulosa Cell Tumor (Gross)",
+            "source": "R12/Granulosa Cell Tumor - Gross.png"
+          },
+          {
+            "image": "assets/zoom/b9bb3304b2ab038f44e8d499700b54e2a985e6a8bdd05c5f108df8cc07a528d1.webp",
+            "caption": "Granulosa Cell Tumor (Histology)",
+            "source": "R12/Granulosa Cell Tumor - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cyst-lining-comparison",
@@ -1392,7 +1467,43 @@
       ],
       "condition_name": "Yolk sac tumor",
       "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+            "caption": "Krukenberg Tumor Signet Ring Cells (Histology)",
+            "source": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/d7c9cb094a363934d214ef1052baaa166aebbca9a80cda281b593ba5c4a6abdf.webp",
+            "caption": "Granulosa Cell Tumor Call-Exner Bodies (Histology)",
+            "source": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/fd65c09c08c83ed450899389fac2dff9a02d8215f1539e23f0fb158b4642eac7.webp",
+            "caption": "Mature Cystic Teratoma (Gross)",
+            "source": "R12/Mature Cystic Teratoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/70bc34fdbad2942463a60ca935b880366687d042c7943bb85809ea3d4dfc75d9.webp",
+            "caption": "Mature Cystic Teratoma (Histology)",
+            "source": "R12/Mature Cystic Teratoma - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-2-2",
@@ -1613,7 +1724,43 @@
       "study_skill": "interpretation",
       "condition_name": "Dysgerminoma",
       "condition_overview": "Dysgerminoma is the ovarian counterpart of testicular seminoma and the most common malignant ovarian germ cell tumor, typically in young women. It forms a solid, pale, fleshy, lobulated mass. Microscopically large round cells with clear cytoplasm, distinct cell borders, and central nuclei with prominent nucleoli are arranged in nests separated by fibrous septa infiltrated by lymphocytes. Cells are OCT3/4, CD117, and PLAP positive. Tumors are highly radiosensitive and chemosensitive with an excellent prognosis. It can occur in gonadal dysgenesis, such as Swyer syndrome.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/4e9e579f5df1c08c07055d5a994ac7e41578ba1fc858e780869d7f3d5397da90.webp",
+            "caption": "Embryonal Carcinoma (Gross)",
+            "source": "R12/Embryonal Carcinoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/aca5ab04a8321666145dda0611076e1314f4eb5c6492ef367c4c006080b45e15.webp",
+            "caption": "Embryonal Carcinoma (Histology)",
+            "source": "R12/Embryonal Carcinoma - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/d7c9cb094a363934d214ef1052baaa166aebbca9a80cda281b593ba5c4a6abdf.webp",
+            "caption": "Granulosa Cell Tumor Call-Exner Bodies (Histology)",
+            "source": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+            "caption": "Krukenberg Tumor Signet Ring Cells (Histology)",
+            "source": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r12-ovarian-mass-2-depth-crowded-alternative",
@@ -1674,7 +1821,37 @@
       "study_skill": "interpretation",
       "condition_name": "Embryonal carcinoma",
       "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/92d6b391f6f9b6f1092e90569d97c14d63ffccc1e79e0ba15f873b2ffe111c90.webp",
+            "caption": "Embryonal Carcinoma Gross (Gross)",
+            "source": "R16/Embryonal Carcinoma Gross - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/9d3206da37cb0942d01975c2953acc477c0a903d0f7423a16619fa6426330f94.webp",
+            "caption": "Granulosa Cell Tumor (Gross)",
+            "source": "R12/Granulosa Cell Tumor - Gross.png"
+          },
+          {
+            "image": "assets/zoom/b9bb3304b2ab038f44e8d499700b54e2a985e6a8bdd05c5f108df8cc07a528d1.webp",
+            "caption": "Granulosa Cell Tumor (Histology)",
+            "source": "R12/Granulosa Cell Tumor - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r17-placental-specimens-1",
@@ -2495,7 +2672,38 @@
       "study_skill": "interpretation",
       "condition_name": "Invasive lobular carcinoma",
       "condition_overview": "Invasive lobular carcinoma is the second most common breast cancer. Small, discohesive cells with intracytoplasmic mucin infiltrate in single files (Indian files) and targetoid patterns around normal ducts, often without a discrete mass, and it can be missed on imaging. It is caused by loss of E-cadherin, so the cells are E-cadherin negative. It is frequently ER positive and often bilateral or multifocal, and it metastasizes to unusual sites such as the peritoneum, gastrointestinal tract, and ovaries.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/91b7c18c041df235cca2a0fdcc4c7b30c6fac56043e02d88bbd34f2f3d82c322.webp",
+            "caption": "Invasive Lobular Carcinoma Single File Histology (Histology)",
+            "source": "R18/Invasive Lobular Carcinoma Single File Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2cc0c105fce869aaa44a65db45ca38bbcbd7ca634ed969672bf5cab48ba595b9.webp",
+            "caption": "Mucinous Carcinoma Histology (Histology)",
+            "source": "R18/Mucinous Carcinoma Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/56a0d8e7aa4fb02ff92bf80f375b1d79f95181ff286f9577cf29727b40ba7259.webp",
+            "caption": "Invasive Ductal Carcinoma Histology (Histology)",
+            "source": "R18/Invasive Ductal Carcinoma Histology - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/49ba94215bcca8f1bcf751c5f58f4b25dfb69803a77afaca112202056715161d.webp",
+            "caption": "Tubular Carcinoma Histology (Histology)",
+            "source": "R18/Tubular Carcinoma Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r18-breast-specimens-depth-gross-stellate",
@@ -2560,7 +2768,26 @@
       "study_skill": "interpretation",
       "condition_name": "Invasive ductal carcinoma",
       "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/2cc0c105fce869aaa44a65db45ca38bbcbd7ca634ed969672bf5cab48ba595b9.webp",
+            "caption": "Mucinous Carcinoma Histology (Histology)",
+            "source": "R18/Mucinous Carcinoma Histology - Histology.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/20c5947f4dd0f426b1b65b706382e2304ecf338b6d122cb4e8605f4c570b4bcc.webp",
+            "caption": "Lobular Carcinoma in Situ Histology (Histology)",
+            "source": "R18/Lobular Carcinoma in Situ Histology - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r18-breast-specimens-depth-gland-stroma",
@@ -2771,7 +2998,32 @@
       "study_skill": "interpretation",
       "condition_name": "Lichen sclerosus",
       "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
+            "caption": "Papillary Hidradenoma (Histology)",
+            "source": "R10/Papillary Hidradenoma - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/9206130abded28e79ff538841eb31948874aa4a58a9bf908a03e2e6dc721892b.webp",
+            "caption": "Squamous Hyperplasia (Histology)",
+            "source": "R10/Squamous Hyperplasia - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-surface-extent",
@@ -2828,7 +3080,20 @@
       "study_skill": "interpretation",
       "condition_name": "Lichen sclerosus",
       "condition_overview": "Lichen sclerosus is a chronic, probably autoimmune inflammatory skin disorder that mainly affects the vulva and perianal skin of postmenopausal women and also the penis (balanitis xerotica obliterans). Patients have intense itching and white, thin, parchment-like plaques that cause architectural change such as loss of labia minora and a narrowed introitus. Microscopically the epidermis is thin with loss of rete ridges, the superficial dermis is pale and homogenized (sclerotic), and a band of lymphocytes lies beneath it. It carries a small increased risk of vulvar squamous cell carcinoma, so persistent or ulcerated areas are biopsied. First-line therapy is a potent topical corticosteroid.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/9206130abded28e79ff538841eb31948874aa4a58a9bf908a03e2e6dc721892b.webp",
+            "caption": "Squamous Hyperplasia (Histology)",
+            "source": "R10/Squamous Hyperplasia - Histology.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-sclerosis-depth-deep-band",
@@ -2946,7 +3211,26 @@
       "study_skill": "interpretation",
       "condition_name": "Squamous hyperplasia of the vulva",
       "condition_overview": "Squamous hyperplasia (lichen simplex chronicus) is a benign thickening of vulvar epidermis from chronic rubbing and scratching, producing white, leathery plaques with acanthosis and hyperkeratosis without atypia. Intense pruritus is typical, and treatment involves high-potency topical corticosteroids and breaking the itch-scratch cycle. Biopsy of persistent lesions excludes lichen sclerosus and vulvar intraepithelial neoplasia.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/e111b46e9fc2ce47575abd8e3d5e4ed0011ef427a5bdc7b1ae9651df401b8aa0.webp",
+            "caption": "Condyloma Exophytic Papillary Architecture (Histology)",
+            "source": "R10/Condyloma Exophytic Papillary Architecture - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-wart-1",
@@ -3096,7 +3380,20 @@
       "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
       "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/4684fb7e31885fbd8ce8e9bb2c1ed94e2650c3d0e49d30b2d0601d315e8c2b69.webp",
+            "caption": "Papillary Hidradenoma (Histology)",
+            "source": "R10/Papillary Hidradenoma - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-raised-surface",
@@ -3157,7 +3454,26 @@
       "study_skill": "interpretation",
       "condition_name": "HPV-related condyloma acuminatum",
       "condition_overview": "Condyloma acuminatum is a benign, exophytic anogenital wart caused by low-risk human papillomavirus (mainly types 6 and 11). It appears as single or multiple raised, rough, cauliflower-like papules. Microscopically there are papillary fronds of acanthotic squamous epithelium over fibrovascular cores, with hyperkeratosis and koilocytes (cells with enlarged wrinkled nuclei and perinuclear clearing) in the upper layers. Condylomata are transmitted sexually, are not generally premalignant, and are treated by ablation, topical therapy, or excision. HPV vaccination prevents most cases.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-wart-depth-basal-alternative",
@@ -3218,7 +3534,26 @@
       "study_skill": "interpretation",
       "condition_name": "Differentiated vulvar intraepithelial neoplasia (dVIN)",
       "condition_overview": "Differentiated VIN is an HPV-independent precancer of the vulva that occurs in older women and is typically associated with lichen sclerosus or lichen planus. The atypia is confined to the basal and parabasal layers, with premature keratinization and maturing, eosinophilic superficial cells that make it easy to overlook. Mutated p53 is often present. dVIN is the usual precursor of HPV-independent keratinizing vulvar squamous cell carcinoma and progresses rapidly, so it is excised.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/9206130abded28e79ff538841eb31948874aa4a58a9bf908a03e2e6dc721892b.webp",
+            "caption": "Squamous Hyperplasia (Histology)",
+            "source": "R10/Squamous Hyperplasia - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-nodule-1",
@@ -3291,7 +3626,26 @@
       "study_skill": "interpretation",
       "condition_name": "Papillary hidradenoma",
       "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-nodule-2",
@@ -3421,7 +3775,26 @@
       "study_skill": "interpretation",
       "condition_name": "Papillary hidradenoma",
       "condition_overview": "Papillary hidradenoma is a benign tumor of the anogenital (mammary-like) sweat glands that forms a small, well-circumscribed, often asymptomatic nodule in the dermis of the vulva. Microscopically it shows branching papillary and tubular glands lined by two cell layers, an inner luminal layer and an outer myoepithelial layer (highlighted by calponin or p63), within a fibrous stroma. It resembles intraductal papilloma of the breast and can be mistaken for adenocarcinoma, but it is benign and cured by excision.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r10-vulvar-nodule-depth-papillary-mimic",
@@ -3797,7 +4170,38 @@
       "study_skill": "interpretation",
       "condition_name": "Low-grade squamous intraepithelial lesion (LSIL)",
       "condition_overview": "Low-grade squamous intraepithelial lesion (LSIL, CIN 1) is a productive HPV infection of the cervical squamous epithelium. Atypical cells with koilocytic change are confined mainly to the lower third of the epithelium, and the upper layers mature normally. It most often reflects low- or high-risk HPV, usually regresses spontaneously, especially in young women, and is generally followed rather than treated aggressively. On Pap smear the finding is koilocytes with mildly enlarged hyperchromatic nuclei in superficial and intermediate cells.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/9215f177fe22f3146dec847d9eab958964f1b4f6ae91b2e870df818b90c0c4ef.webp",
+            "caption": "Krukenberg Tumor (Gross)",
+            "source": "R12/Krukenberg Tumor - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/353438122da6df39c5700ccc970c0c63085969862a8e94970af78bc780c4ab9d.webp",
+            "caption": "LSIL Koilocytes (Histology)",
+            "source": "R12/LSIL Koilocytes - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r12-cervical-series-depth-stromal-limit",
@@ -3858,7 +4262,20 @@
       "study_skill": "interpretation",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
       "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/353438122da6df39c5700ccc970c0c63085969862a8e94970af78bc780c4ab9d.webp",
+            "caption": "LSIL Koilocytes (Histology)",
+            "source": "R12/LSIL Koilocytes - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r12-myometrial-section-1",
@@ -4211,7 +4628,20 @@
       "study_skill": "interpretation",
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/c51c8a997e14a8072b77ab01cbb76458a2953e87a214dff2261414ce49456b26.webp",
+            "caption": "Endometriosis Glands and Stroma in Smooth Muscle (Histology)",
+            "source": "R15/Endometriosis Glands and Stroma in Smooth Muscle - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-immature-1",
@@ -4357,7 +4787,37 @@
       "study_skill": "interpretation",
       "condition_name": "Immature teratoma",
       "condition_overview": "Immature teratoma is a malignant germ cell tumor of young women that contains immature, primitive tissue, most commonly neuroepithelium forming rosettes and tubules with crowded dark nuclei, along with mature elements such as cartilage and glands. It forms a bulky solid mass with hemorrhage and necrosis. Grade is determined by the amount of immature neuroepithelium, and it is treated with surgery and chemotherapy for higher grades.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+            "caption": "Krukenberg Tumor Signet Ring Cells (Histology)",
+            "source": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/fd65c09c08c83ed450899389fac2dff9a02d8215f1539e23f0fb158b4642eac7.webp",
+            "caption": "Mature Cystic Teratoma (Gross)",
+            "source": "R12/Mature Cystic Teratoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/70bc34fdbad2942463a60ca935b880366687d042c7943bb85809ea3d4dfc75d9.webp",
+            "caption": "Mature Cystic Teratoma (Histology)",
+            "source": "R12/Mature Cystic Teratoma - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-immature-depth-mature-tissue",
@@ -4418,7 +4878,32 @@
       "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
       "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/d7c9cb094a363934d214ef1052baaa166aebbca9a80cda281b593ba5c4a6abdf.webp",
+            "caption": "Granulosa Cell Tumor Call-Exner Bodies (Histology)",
+            "source": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/1c60a7e1e4be2a3b0da1e5794b83a091ac758a53027b714210c997b2b7325182.webp",
+            "caption": "Mature Cystic Teratoma Gross and Histology (Gross)",
+            "source": "R12/Mature Cystic Teratoma Gross and Histology - Gross.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-immature-depth-gross-mature-companion",
@@ -4483,7 +4968,32 @@
       "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
       "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/1c60a7e1e4be2a3b0da1e5794b83a091ac758a53027b714210c997b2b7325182.webp",
+            "caption": "Mature Cystic Teratoma Gross and Histology (Gross)",
+            "source": "R12/Mature Cystic Teratoma Gross and Histology - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
+            "caption": "Struma Ovarii (Histology)",
+            "source": "R12/Struma Ovarii - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/4f44562e2c41762e5a03cc5249d1dbbfded4d3e23e4f3ebb1d7282b999e6ef52.webp",
+            "caption": "Immature Teratoma Neuroepithelium (Histology)",
+            "source": "R12/Immature Teratoma Neuroepithelium - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r12-ovarian-granulosa-1",
@@ -4714,7 +5224,26 @@
       "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
       "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+            "caption": "Krukenberg Tumor Signet Ring Cells (Histology)",
+            "source": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
+            "caption": "Struma Ovarii (Histology)",
+            "source": "R12/Struma Ovarii - Histology.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-granulosa-depth-inhibin",
@@ -4775,7 +5304,31 @@
       "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
       "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/9d3206da37cb0942d01975c2953acc477c0a903d0f7423a16619fa6426330f94.webp",
+            "caption": "Granulosa Cell Tumor (Gross)",
+            "source": "R12/Granulosa Cell Tumor - Gross.png"
+          },
+          {
+            "image": "assets/zoom/b9bb3304b2ab038f44e8d499700b54e2a985e6a8bdd05c5f108df8cc07a528d1.webp",
+            "caption": "Granulosa Cell Tumor (Histology)",
+            "source": "R12/Granulosa Cell Tumor - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-reasoning-inhibin-panel",
@@ -4843,7 +5396,42 @@
       "reasoning_type": "second or third order",
       "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
-      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery."
+      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/4e9e579f5df1c08c07055d5a994ac7e41578ba1fc858e780869d7f3d5397da90.webp",
+            "caption": "Embryonal Carcinoma (Gross)",
+            "source": "R12/Embryonal Carcinoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/aca5ab04a8321666145dda0611076e1314f4eb5c6492ef367c4c006080b45e15.webp",
+            "caption": "Embryonal Carcinoma (Histology)",
+            "source": "R12/Embryonal Carcinoma - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/9d3206da37cb0942d01975c2953acc477c0a903d0f7423a16619fa6426330f94.webp",
+            "caption": "Granulosa Cell Tumor (Gross)",
+            "source": "R12/Granulosa Cell Tumor - Gross.png"
+          },
+          {
+            "image": "assets/zoom/b9bb3304b2ab038f44e8d499700b54e2a985e6a8bdd05c5f108df8cc07a528d1.webp",
+            "caption": "Granulosa Cell Tumor (Histology)",
+            "source": "R12/Granulosa Cell Tumor - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r12-ovarian-metastasis-1",
@@ -4920,7 +5508,20 @@
       "study_skill": "interpretation",
       "condition_name": "Krukenberg tumor",
       "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/6d06140cf07bfae426329625b46011d0f8bc9ab3cccf3dd08ce4fb9f846b3e7b.webp",
+            "caption": "Vulvar Paget Cells (Histology)",
+            "source": "R10/Vulvar Paget Cells - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-metastasis-2",
@@ -4997,7 +5598,26 @@
       "study_skill": "interpretation",
       "condition_name": "Krukenberg tumor",
       "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/75003b2c50daa923132f286e08384458a7cf1d8dc6c3cd970de594d9d7ca56a5.webp",
+            "caption": "Bilateral Krukenberg Tumors (Gross)",
+            "source": "R12/Bilateral Krukenberg Tumors - Gross.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/0909f01f65ed59902de3284fedbb0279263d121aa75209b0d15d1a024472c792.webp",
+            "caption": "High Grade Serous Carcinoma (Histology)",
+            "source": "R12/High Grade Serous Carcinoma - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r12-ovarian-metastasis-depth-bilateral-gross",
@@ -5194,7 +5814,32 @@
       "study_skill": "interpretation",
       "condition_name": "Malakoplakia",
       "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/1cf7c7bac4fb76f81fe5c0ad65e2724f1ec8ec76f5c1d951eed040fd233a0afa.webp",
+            "caption": "Signet Ring Cells (Histology)",
+            "source": "R12/Signet Ring Cells - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/d7c9cb094a363934d214ef1052baaa166aebbca9a80cda281b593ba5c4a6abdf.webp",
+            "caption": "Granulosa Cell Tumor Call-Exner Bodies (Histology)",
+            "source": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r15-bladder-plaque-2",
@@ -5263,7 +5908,32 @@
       "study_skill": "interpretation",
       "condition_name": "Malakoplakia",
       "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/92860ee8385e6d7bfcbb5f50dbfce1d95ba9d2ac4024e23d8f258b286d8dc1dc.webp",
+            "caption": "Flat Urothelial Carcinoma in Situ Histology (Histology)",
+            "source": "R15/Flat Urothelial Carcinoma in Situ Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/f729f0986ea83dfd8dcc11ae3434a6e74cde0176da16221b1b4aaa09b41596ea.webp",
+            "caption": "Chronic Cystitis Histology (Histology)",
+            "source": "R15/Chronic Cystitis Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/26fccb996ae52c0b621f4d0217bcefe51b6e77efe352d84ac7dcbfbf76723220.webp",
+            "caption": "Endometriosis of Bladder (Gross)",
+            "source": "R15/Endometriosis of Bladder - Gross.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-gross-plaques",
@@ -5324,7 +5994,20 @@
       "study_skill": "interpretation",
       "condition_name": "Malakoplakia",
       "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+            "caption": "Malakoplakia Michaelis-Gutmann Bodies Histology (Histology)",
+            "source": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-cystitis-comparison",
@@ -5385,7 +6068,26 @@
       "study_skill": "interpretation",
       "condition_name": "Chronic cystitis",
       "condition_overview": "Chronic cystitis is long-standing bladder inflammation from recurrent infection, stones, or irritation. The bladder mucosa is red and granular, and the lamina propria contains a dense infiltrate of lymphocytes and plasma cells, with sometimes lymphoid follicles. Symptoms are urgency, frequency, and dysuria. Treatment is directed at the cause.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+            "caption": "Malakoplakia Michaelis-Gutmann Bodies Histology (Histology)",
+            "source": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/92860ee8385e6d7bfcbb5f50dbfce1d95ba9d2ac4024e23d8f258b286d8dc1dc.webp",
+            "caption": "Flat Urothelial Carcinoma in Situ Histology (Histology)",
+            "source": "R15/Flat Urothelial Carcinoma in Situ Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r15-bladder-wall-1",
@@ -5527,7 +6229,20 @@
       "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
       "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/26fccb996ae52c0b621f4d0217bcefe51b6e77efe352d84ac7dcbfbf76723220.webp",
+            "caption": "Endometriosis of Bladder (Gross)",
+            "source": "R15/Endometriosis of Bladder - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r15-bladder-wall-3",
@@ -5661,7 +6376,20 @@
       "study_skill": "interpretation",
       "condition_name": "Urothelial carcinoma in situ",
       "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/7c8b91bcd8220ad4695b13ab5f2c13815a66be2ace02f07c29263a8bb3ebfd54.webp",
+            "caption": "Adenocarcinoma of Bladder (Gross)",
+            "source": "R15/Adenocarcinoma of Bladder - Gross.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r15-bladder-wall-depth-grade-depth",
@@ -5726,7 +6454,20 @@
       "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
       "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+            "caption": "Malakoplakia Michaelis-Gutmann Bodies Histology (Histology)",
+            "source": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r15-bladder-wall-depth-urine-comparison",
@@ -5791,7 +6532,20 @@
       "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
       "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+            "caption": "Malakoplakia Michaelis-Gutmann Bodies Histology (Histology)",
+            "source": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r16-prostate-stain-1",
@@ -6276,7 +7030,37 @@
       "study_skill": "interpretation",
       "condition_name": "Seminoma",
       "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/ddeed14e38463db6fd848b67c12d1eb2331eb6dc914b71038e2d6a2868a01bdc.webp",
+            "caption": "Leydig Cell Tumor Gross (Gross)",
+            "source": "R16/Leydig Cell Tumor Gross - Gross.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/4e9e579f5df1c08c07055d5a994ac7e41578ba1fc858e780869d7f3d5397da90.webp",
+            "caption": "Embryonal Carcinoma (Gross)",
+            "source": "R12/Embryonal Carcinoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/aca5ab04a8321666145dda0611076e1314f4eb5c6492ef367c4c006080b45e15.webp",
+            "caption": "Embryonal Carcinoma (Histology)",
+            "source": "R12/Embryonal Carcinoma - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/f8687d215d149b78c388664928edd55bf00db5b0fac81e754c233085cbd56ba4.webp",
+            "caption": "Choriocarcinoma Hemorrhagic Mass Gross (Gross)",
+            "source": "R17/Choriocarcinoma Hemorrhagic Mass Gross - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r16-testicular-mass-2",
@@ -6426,7 +7210,32 @@
       "study_skill": "interpretation",
       "condition_name": "Seminoma",
       "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/4cd94b90af3c99db36b43133783df2593355c0263bf6f790640c3702f2cd366e.webp",
+            "caption": "Spermatocytic Tumor Gross (Gross)",
+            "source": "R16/Spermatocytic Tumor Gross - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/e29df9b7023908c3f1953053490d6df98e043a88c86a3a2c109ca17b5c9711fb.webp",
+            "caption": "Sertoli Cell Tumor Gross (Gross)",
+            "source": "R16/Sertoli Cell Tumor Gross - Gross.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r16-testicular-mass-depth-cell-boundaries",
@@ -6546,7 +7355,20 @@
         }
       ],
       "study_skill": "interpretation",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/ddeed14e38463db6fd848b67c12d1eb2331eb6dc914b71038e2d6a2868a01bdc.webp",
+            "caption": "Leydig Cell Tumor Gross (Gross)",
+            "source": "R16/Leydig Cell Tumor Gross - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r16-testicular-mass-depth-intratubular-companion",
@@ -6614,7 +7436,32 @@
       ],
       "condition_name": "Germ cell neoplasia in situ",
       "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/e29df9b7023908c3f1953053490d6df98e043a88c86a3a2c109ca17b5c9711fb.webp",
+            "caption": "Sertoli Cell Tumor Gross (Gross)",
+            "source": "R16/Sertoli Cell Tumor Gross - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/4cd94b90af3c99db36b43133783df2593355c0263bf6f790640c3702f2cd366e.webp",
+            "caption": "Spermatocytic Tumor Gross (Gross)",
+            "source": "R16/Spermatocytic Tumor Gross - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+            "caption": "Malakoplakia Michaelis-Gutmann Bodies Histology (Histology)",
+            "source": "R15/Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-reasoning-germ-cell-stain",
@@ -6731,7 +7578,20 @@
       "study_skill": "interpretation",
       "condition_name": "Ectopic pregnancy",
       "condition_overview": "An ectopic pregnancy is implantation outside the uterine cavity, most commonly in the fallopian tube (ampulla most often, then isthmus and fimbria), and less often in the interstitial portion, ovary, cervix, cesarean scar, or abdomen. Risk factors include prior pelvic inflammatory disease, tubal surgery, and previous ectopic pregnancy. Patients have pain, bleeding, and amenorrhea, and rupture can cause fatal hemorrhage. hCG rises more slowly than normal and ultrasound shows no intrauterine pregnancy. Treatment is methotrexate or surgery.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/d27df132a39f2aa09fd7d8017e5b737d1e3d5593c5bfffa7bd4defc7492d8567.webp",
+            "caption": "Complete Mole Gross (Gross)",
+            "source": "R17/Complete Mole Gross - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r17-pelvic-operative-view-2",
@@ -6975,7 +7835,20 @@
       "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
       "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/2cc0c105fce869aaa44a65db45ca38bbcbd7ca634ed969672bf5cab48ba595b9.webp",
+            "caption": "Mucinous Carcinoma Histology (Histology)",
+            "source": "R18/Mucinous Carcinoma Histology - Histology.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r18-intraductal-lesion-2",
@@ -7117,7 +7990,38 @@
       "study_skill": "interpretation",
       "condition_name": "Ductal carcinoma in situ",
       "condition_overview": "Ductal carcinoma in situ (DCIS) is a malignant proliferation of ductal epithelial cells confined by the basement membrane. Patterns include comedo (high grade with central necrosis and calcifications), solid, cribriform, and papillary. It is usually detected as mammographic microcalcifications. Left untreated, a proportion progresses to invasive ductal carcinoma. Treatment is lumpectomy with radiation, or mastectomy, and endocrine therapy if ER positive.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/56a0d8e7aa4fb02ff92bf80f375b1d79f95181ff286f9577cf29727b40ba7259.webp",
+            "caption": "Invasive Ductal Carcinoma Histology (Histology)",
+            "source": "R18/Invasive Ductal Carcinoma Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/20c5947f4dd0f426b1b65b706382e2304ecf338b6d122cb4e8605f4c570b4bcc.webp",
+            "caption": "Lobular Carcinoma in Situ Histology (Histology)",
+            "source": "R18/Lobular Carcinoma in Situ Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/5505d7dad415f93992edefa185ce49ebad78274b0fb994eb1d2fb3bdd6995ab3.webp",
+            "caption": "Fibrocystic Changes Gross (Gross)",
+            "source": "R18/Fibrocystic Changes Gross - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/a987b2eeec838e0422d5ee9bd4267b51fb37b14b7346395da62bc207ba4db74d.webp",
+            "caption": "Phyllodes Tumor Gross (Gross)",
+            "source": "R18/Phyllodes Tumor Gross - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r18-intraductal-lesion-depth-necrosis-calcification",
@@ -7827,7 +8731,26 @@
       "study_skill": "interpretation",
       "condition_name": "Ovarian cancer (epithelial)",
       "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/8234aa5c01066202df01994591b25c0c271b85b32d507c58c59c8c0677de24ff.webp",
+            "caption": "Follicular Cysts (Gross)",
+            "source": "R12/Follicular Cysts - Gross.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/aa4641dd08370014de5b197f4b12b6dbcbe798fbf10666dc998fb60acdd950fc.webp",
+            "caption": "Mature Teratoma (Gross)",
+            "source": "R12/Mature Teratoma - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-reasoning-pleural-positive-pattern",
@@ -7989,7 +8912,20 @@
       "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
       "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/8955392d0677cb6bfeebd1e68fbe51219ca7c0ba174a59882a426636b4ade65d.webp",
+            "caption": "Trichomonas Strawberry Cervix (Clinical Photo)",
+            "source": "R15/Trichomonas Strawberry Cervix - Clinical Photo.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r29-pap-a-case",
@@ -8204,7 +9140,20 @@
       "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
       "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/104b5a08b92dccb3545b0d60797e3a361285be827614aff8d42b61c13c516f45.webp",
+            "caption": "Parabasal Cells (Histology)",
+            "source": "R12/Parabasal Cells - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r29-cervix-depth-halo-mimic",
@@ -8336,7 +9285,20 @@
       "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
       "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/55b8728b9f260643a7c7c7297f659d061201c3303aaa34aac7cab9b8f8b8ffd3.webp",
+            "caption": "Clue Cells Wet Prep (Histology)",
+            "source": "R10/Clue Cells Wet Prep - Histology.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r29-vag-low-case",
@@ -8405,7 +9367,20 @@
       "study_skill": "interpretation",
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/8f26eb225c5ce6af53644cdf098287072957cf86ec58f230381f23d36b7fd287.webp",
+            "caption": "Vulvar Paget Cells in Epidermis (Histology)",
+            "source": "R10/Vulvar Paget Cells in Epidermis - Histology.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r29-vag-medium-case",
@@ -8474,7 +9449,26 @@
       "study_skill": "interpretation",
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2cc0c105fce869aaa44a65db45ca38bbcbd7ca634ed969672bf5cab48ba595b9.webp",
+            "caption": "Mucinous Carcinoma Histology (Histology)",
+            "source": "R18/Mucinous Carcinoma Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r29-vag-high-case",
@@ -8547,7 +9541,26 @@
       "study_skill": "interpretation",
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+            "caption": "Krukenberg Tumor Signet Ring Cells (Histology)",
+            "source": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r29-vaginal-biopsy-depth-ovarian-companion",
@@ -8612,7 +9625,32 @@
       "study_skill": "interpretation",
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
+            "caption": "Struma Ovarii (Histology)",
+            "source": "R12/Struma Ovarii - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/8234aa5c01066202df01994591b25c0c271b85b32d507c58c59c8c0677de24ff.webp",
+            "caption": "Follicular Cysts (Gross)",
+            "source": "R12/Follicular Cysts - Gross.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/10f82bdbdf61adbd08e792976c247b392391aa491cea811553dbfddc46f0a476.webp",
+            "caption": "Mature Cystic Teratoma Dermoid Cyst (Gross)",
+            "source": "R15/Mature Cystic Teratoma Dermoid Cyst - Gross.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r29-vaginal-biopsy-depth-pulmonary-link",
@@ -9481,7 +10519,26 @@
       "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
       "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/5d1ca2812825b3b866ed1bb17571002a4d7a4402abb1d4700e04124379223cca.webp",
+            "caption": "Bladder Flat Carcinoma in Situ (Gross)",
+            "source": "R15/Bladder Flat Carcinoma in Situ - Gross.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/e55816ec48fe202200c79470f75cd829f3f20bcc9d66a281ca3ff1599d926b69.webp",
+            "caption": "Vulvar Lichen Sclerosus Histology (Histology)",
+            "source": "R10/Vulvar Lichen Sclerosus Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r29-bladder-depth-flat-comparison",
@@ -10908,7 +11965,20 @@
       "visual_kind": "image",
       "difficulty": "intermediate",
       "reasoning_type": "mechanism",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/9a311df2cc3a09694518f2ad5453c83020c4dbe268433f4e014d7e21e60582f5.webp",
+            "caption": "Fetal Station (Diagram)",
+            "source": "R14.1/Fetal Station - Diagram.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-reasoning-descent-prediction",
@@ -11095,7 +12165,25 @@
       "reasoning_type": "mechanism",
       "study_skill": "interpretation",
       "condition_name": "Ovarian cancer (epithelial)",
-      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy."
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/cd8fbb5452f17bb13eff0dbe6f57f61495003d059b9dc1c7d014a3fbbd62f0e8.webp",
+            "caption": "Omental Caking (Gross)",
+            "source": "R12/Omental Caking - Gross.png"
+          },
+          {
+            "image": "assets/zoom/58aa2c37ca3ffbf3dc7a1576fe9a8ca0fe0ad40f61a08a8109544645bd448d68.webp",
+            "caption": "Omental Caking (Histology)",
+            "source": "R12/Omental Caking - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-r27-pelvic-workup-maintenance-testing",
@@ -12181,7 +13269,20 @@
       ],
       "condition_name": "Fibroadenoma",
       "condition_overview": "Fibroadenoma is the most common benign breast tumor, typically in women under 35. It is a well-circumscribed, rubbery, freely mobile mass (breast mouse). Microscopically it combines proliferating duct-like epithelial structures with a loose cellular stroma, which can compress the glands into slit-like spaces. Growth is hormone responsive, so it may enlarge in pregnancy and regress after menopause. Risk of cancer is minimal, and management is observation or excision.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/56a0d8e7aa4fb02ff92bf80f375b1d79f95181ff286f9577cf29727b40ba7259.webp",
+            "caption": "Invasive Ductal Carcinoma Histology (Histology)",
+            "source": "R18/Invasive Ductal Carcinoma Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r31-cavity-saline",
@@ -12368,7 +13469,20 @@
           "page": 1
         }
       ],
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/259a9db3294cd1b3997eaa739e77cfc6d67f2f1b43974d9612b3c55e82848cb0.webp",
+            "caption": "Imperforate Hymen (Diagram)",
+            "source": "R19/Imperforate Hymen - Diagram.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r32-groin-mass",
@@ -12435,7 +13549,26 @@
       ],
       "condition_name": "Seminoma",
       "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/dc2123558fe093f43b16a404c2fb8a439486bee9f28b15faf35d6c5935b98c0d.webp",
+            "caption": "Seminoma Gross Testis (Gross)",
+            "source": "R16/Seminoma Gross Testis - Gross.png"
+          }
+        ],
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/ad4616a7335540365078a91a809676f3d3b7594b24498887fbf6fc8de749d00e.webp",
+            "caption": "Inguinal Hernia CT (CT)",
+            "source": "R32/Inguinal Hernia CT - CT.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r32-chest-spread",
@@ -12785,7 +13918,26 @@
       ],
       "condition_name": "Inguinal hernia (patent processus vaginalis)",
       "condition_overview": "An indirect inguinal hernia occurs when a patent processus vaginalis lets bowel or omentum descend through the deep inguinal ring and inguinal canal, sometimes into the scrotum. It presents as a reducible groin bulge that increases with straining, and incarceration or strangulation can cause bowel obstruction or ischemia. Ultrasound shows bowel loops in the swelling, and surgery repairs the defect.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/5a8f1350f8e15002a909544bbe008bf2555b351f02fc432260df0b3778c1ba0d.webp",
+            "caption": "Types of Hydrocele (Diagram)",
+            "source": "R32/Types of Hydrocele - Diagram.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/ad4616a7335540365078a91a809676f3d3b7594b24498887fbf6fc8de749d00e.webp",
+            "caption": "Inguinal Hernia CT (CT)",
+            "source": "R32/Inguinal Hernia CT - CT.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r32-groin-processus",
@@ -12848,7 +14000,20 @@
       ],
       "condition_name": "Inguinal hernia (patent processus vaginalis)",
       "condition_overview": "An indirect inguinal hernia occurs when a patent processus vaginalis lets bowel or omentum descend through the deep inguinal ring and inguinal canal, sometimes into the scrotum. It presents as a reducible groin bulge that increases with straining, and incarceration or strangulation can cause bowel obstruction or ischemia. Ultrasound shows bowel loops in the swelling, and surgery repairs the defect.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/ad31dd8925e99f392dffe04ec2b6dc435691c993f30acc967cbd3658c30d98a1.webp",
+            "caption": "Urachal Remnant Histology (Histology)",
+            "source": "R15/Urachal Remnant Histology - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r32-swelling-light",
@@ -13045,7 +14210,20 @@
       ],
       "condition_name": "Hydrocele",
       "condition_overview": "A hydrocele is a collection of serous fluid between the layers of the tunica vaginalis surrounding the testis. In infants it results from a patent processus vaginalis that allows peritoneal fluid to enter the scrotum (communicating hydrocele). In adults it can follow trauma, infection, or tumor. It presents as a painless scrotal swelling that transilluminates. Ultrasound shows an anechoic collection around a normal testis. Treatment is observation or surgical repair.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/33b34c6cc1038c41e31334623bd1de1fb919c5899f5662aa4e7867f857c0f000.webp",
+            "caption": "Bell Clapper Deformity and Torsion Illustration (Diagram)",
+            "source": "R32/Bell Clapper Deformity and Torsion Illustration - Diagram.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r32-renal-search",
@@ -13301,7 +14479,20 @@
       ],
       "condition_name": "Meigs syndrome",
       "condition_overview": "Meigs syndrome is the triad of a benign ovarian tumor, usually a fibroma, with ascites and right-sided pleural effusion. Fluid is a transudate or exudate that reaccumulates from the tumor, and it resolves completely after tumor removal. Because ovarian cancer can also cause these findings, malignancy must be excluded, and pleural cytology is helpful.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/674e6f5b08e25859620345e2570ee6ffbba64bdaa5534fd5ae08d1195d525e59.webp",
+            "caption": "Meigs Syndrome Box (Diagram)",
+            "source": "R31/Meigs Syndrome Box - Diagram.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r32-effusion-course",
@@ -13455,7 +14646,48 @@
       ],
       "condition_name": "Ovarian cancer (epithelial)",
       "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/cd8fbb5452f17bb13eff0dbe6f57f61495003d059b9dc1c7d014a3fbbd62f0e8.webp",
+            "caption": "Omental Caking (Gross)",
+            "source": "R12/Omental Caking - Gross.png"
+          },
+          {
+            "image": "assets/zoom/58aa2c37ca3ffbf3dc7a1576fe9a8ca0fe0ad40f61a08a8109544645bd448d68.webp",
+            "caption": "Omental Caking (Histology)",
+            "source": "R12/Omental Caking - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/fd65c09c08c83ed450899389fac2dff9a02d8215f1539e23f0fb158b4642eac7.webp",
+            "caption": "Mature Cystic Teratoma (Gross)",
+            "source": "R12/Mature Cystic Teratoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/70bc34fdbad2942463a60ca935b880366687d042c7943bb85809ea3d4dfc75d9.webp",
+            "caption": "Mature Cystic Teratoma (Histology)",
+            "source": "R12/Mature Cystic Teratoma - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/b649483c2dabbf9645a535bba3f959fd762e0b77fe91d61d893401435ae70ce6.webp",
+            "caption": "Mature Teratoma MRI (Radiograph)",
+            "source": "R31/Mature Teratoma MRI - Radiograph.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/aa5417589857a66e654454d962dde0abc964d69686956f92c4549d5274b90ae2.webp",
+            "caption": "Normal Omentum (Histology)",
+            "source": "R12/Normal Omentum - Histology.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-r32-endometrium-next",
@@ -13648,7 +14880,20 @@
       ],
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
       "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/10f82bdbdf61adbd08e792976c247b392391aa491cea811553dbfddc46f0a476.webp",
+            "caption": "Mature Cystic Teratoma Dermoid Cyst (Gross)",
+            "source": "R15/Mature Cystic Teratoma Dermoid Cyst - Gross.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r32-fat-suppression",
@@ -14040,7 +15285,20 @@
       ],
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
-      "reasoning_order": "second or third order"
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/zoom/aa4641dd08370014de5b197f4b12b6dbcbe798fbf10666dc998fb60acdd950fc.webp",
+            "caption": "Mature Teratoma (Gross)",
+            "source": "R12/Mature Teratoma - Gross.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-r32-cyclic-wall",

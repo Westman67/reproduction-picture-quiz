@@ -352,11 +352,16 @@ function wireImage(q,reveal){
     enablePan($('#frame'),()=>zoom>1);
     applyZoom(q);
 }
+function choiceImages(q,k){
+ const pics=q.choice_images?.[k];
+ if(!pics?.length)return '';
+ return `<div class="choice-images">${pics.map(({image,caption,source})=>`<figure class="choice-image"><a href="${esc(image)}" target="_blank" rel="noopener" title="Open full size"><img src="${esc(image)}" alt="${esc(caption)}" loading="lazy" onerror="this.closest('figure').hidden=true"></a><figcaption>${esc(caption)}<span class="fine"> · ${esc(source)}</span></figcaption></figure>`).join('')}</div>`;
+}
 function choiceFeedback(q,it){
  return it.order.map((k,position)=>{
   const correct=k===q.correct_index;
   const status=correct?'Correct':'Incorrect';
-  return `<div class="rationale"><p class="rationale-status ${correct?'correct-text':'wrong-text'}">${status}${k===it.draft?' · Your choice':''}</p><strong>${q.case_id?'ABCDE'[position]:position+1}. ${esc(q.options[k])}</strong><p>${esc(q.choice_rationales[k])}</p></div>`;
+  return `<div class="rationale"><p class="rationale-status ${correct?'correct-text':'wrong-text'}">${status}${k===it.draft?' · Your choice':''}</p><strong>${q.case_id?'ABCDE'[position]:position+1}. ${esc(q.options[k])}</strong><p>${esc(q.choice_rationales[k])}</p>${choiceImages(q,k)}</div>`;
  }).join('');
 }
 function explainHtml(t){const parts=String(t||'').split(/\s(?=Step \d+\.\s)/).filter(Boolean);return parts.map(x=>`<p>${esc(x)}</p>`).join('');}
