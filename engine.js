@@ -31,7 +31,7 @@ export function filtered(bank,p,{category='all',origin='all',collection='all',fi
  const x=p.questions[q.question_id]||{};return filter==='all'||filter==='unseen'&&!p.groups[q.source_group_id]?.times_seen||filter==='incorrect'&&x.last_result==='incorrect'||filter==='marked'&&x.marked;});
 }
 export function ordered(pool,rng=Math.random,previous=null){const groups=new Map(),used=new Map(),out=[];for(const q of shuffle(pool,rng)){const id=q.source_group_id;if(!groups.has(id)){groups.set(id,[]);used.set(id,0);}groups.get(id).push(q);}while(groups.size){const eligible=[...groups.keys()].filter(id=>id!==previous),choices=eligible.length?eligible:[...groups.keys()],minimum=Math.min(...choices.map(id=>used.get(id))),tied=choices.filter(id=>used.get(id)===minimum),id=tied[Math.floor(rng()*tied.length)],q=groups.get(id).shift();out.push(q);used.set(id,used.get(id)+1);if(!groups.get(id).length)groups.delete(id);previous=id;}return out;}
-export function item(q,rng=Math.random){return {id:q.question_id,attempt_id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${rng()}`,order:shuffle(q.options.map((_,index)=>index),rng),draft:null,locked:false,overridden:false,seen:false};}
+export function item(q,rng=Math.random){return {id:q.question_id,attempt_id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${rng()}`,order:shuffle(q.options.map((_,index)=>index),rng),draft:null,struck:[],locked:false,overridden:false,seen:false};}
 export function resurfaceWeight(p,q,now=Date.now()){
     const row=p?.questions?.[q.question_id];
     if(!row||!(row.times_seen||row.times_answered))return 1.5;

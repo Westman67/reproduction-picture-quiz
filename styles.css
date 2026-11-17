@@ -159,3 +159,21 @@
   max-height: 55vh;
   object-fit: contain;
 }
+
+/* NBME-Style Choice Strike-Through */
+.choice.struck {
+  opacity: 0.52;
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+.choice.struck .letter {
+  text-decoration: none;
+}
+
+/* Image Contrast / Brightness Filters */
+.image-frame.filter-contrast img {
+  filter: contrast(1.28) brightness(1.06);
+}
+.image-frame.filter-brighten img {
+  filter: brightness(1.22) contrast(1.08);
+}
