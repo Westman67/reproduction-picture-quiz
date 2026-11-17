@@ -838,22 +838,22 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "Compare both panels. In which sex does peak height velocity occur earlier on the age axis?",
+      "stem": "Why does the average boy end up taller than the average girl, based on the growth curves?",
       "options": [
-        "The two peaks occur at the same age",
-        "Both peaks occur before gonadal development begins",
-        "Female peak height velocity occurs earlier in age than the male peak",
-        "Male peak height velocity occurs earlier in age than the female peak"
+        "Girls peak earlier, but boys have a later and larger peak height velocity over a longer period of growth",
+        "Both sexes peak at the same age with the same size of peak",
+        "Boys peak earlier but for a shorter time",
+        "Girls peak later and have a larger peak, so girls end up taller"
       ],
-      "correct_index": 2,
-      "explanation": "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14. The male peak sits farther right on its age axis.",
+      "correct_index": 0,
+      "explanation": "Step 1. On the height velocity curves, the female peak (around age 12) occurs earlier than the male peak (around age 14). Step 2. The male peak comes later in pubertal development, is larger than the female peak, and both factors account for the adult height difference between the sexes.",
       "choice_rationales": [
-        "Female peak height velocity occurs earlier, around age 12, while the male peak is later, around age 14, so the peaks do not coincide. This choice describes synchronous growth spurts in both sexes.",
-        "The gonadal-development bars begin before the curve maxima. This choice describes a growth spurt before the start of gonadal development.",
-        "The female height-spurt curve peaks around age 12, while the male curve peaks around age 14. This choice describes an earlier pubertal growth spurt in girls than in boys, which is what the image shows.",
-        "The male peak sits farther right on its age axis. This choice describes an earlier pubertal growth spurt in boys than in girls."
+        "The male spurt is later and larger, so boys end up taller.",
+        "The curves peak at different ages.",
+        "The male peak comes after, not before, the female peak.",
+        "The male peak is later and larger, not the female."
       ],
-      "tested_concept": "Sex comparison of pubertal growth spurts",
+      "tested_concept": "Why does the average boy end up taller than the average girl, based on the growth curves?",
       "panels": "joint",
       "question_id": "q-252e47be5fa40a7c23ee",
       "source_id": "s-3bac125627cfb1c551bc",
@@ -882,8 +882,9 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A 12-year-old girl and her 12-year-old male classmate are both 10th percentile for height. Their pediatrician tells them the girl will likely grow faster this year and the boy will not reach his fastest growth for about two more years.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Using both panels, which pair of plotted ranges has the earliest left boundary for its sex?",
@@ -1649,22 +1650,22 @@
       "condition_overview": "Horseshoe kidney is a congenital fusion of the lower poles of the two kidneys across the midline by an isthmus, usually located low in the abdomen because the isthmus is trapped beneath the inferior mesenteric artery during ascent. It is the most common renal fusion anomaly and is associated with Turner syndrome. Most patients are asymptomatic, but ureteropelvic obstruction, infection, and stones are more common."
     },
     {
-      "stem": "Find the cross on the signaling chain. Which level contains the marked impairment?",
+      "stem": "At which level of the HPG axis is her defect, and which of the listed diagnoses best explains it?",
       "options": [
-        "Hypothalamic level",
-        "Anterior pituitary level",
-        "Gonadal level",
-        "Peripheral sex-hormone level"
+        "Gonadal level, due to Turner syndrome",
+        "Hypothalamic level, due to functional hypogonadotropic hypogonadism from an eating disorder",
+        "Outflow tract level, due to imperforate hymen",
+        "Pituitary level, due to prolactinoma"
       ],
-      "correct_index": 0,
-      "explanation": "The red cross lies over the hypothalamic brain image, upstream of the GnRH arrow. The hormone labels below the gonads are uncrossed.",
+      "correct_index": 1,
+      "explanation": "Step 1. Low LH, low FSH, and low estradiol with weight loss show suppression of the axis at the hypothalamus (decreased GnRH pulsation). Step 2. Functional hypogonadotropic hypogonadism is caused by eating disorders, chronic disease, celiac disease, and relative energy deficiency in sport, and this patient's weight loss and normal labs make an eating disorder the cause.",
       "choice_rationales": [
-        "The red cross lies over the hypothalamic brain image, upstream of the GnRH arrow. This choice describes hypothalamic hypogonadism (such as Kallmann syndrome), which is what the image shows.",
-        "The pituitary is below the crossed region. This choice describes anterior pituitary failure (hypopituitarism).",
-        "The gonads at the bottom are uncrossed. This choice describes primary gonadal failure.",
-        "The hormone labels below the gonads are uncrossed. This choice describes peripheral sex-hormone resistance (such as androgen insensitivity)."
+        "Turner syndrome would give high FSH and LH, not low.",
+        "Low gonadotropins indicate a central defect from energy deficiency.",
+        "An outflow obstruction would have normal gonadotropins and estradiol.",
+        "Prolactin is normal, so a prolactinoma is not the cause."
       ],
-      "tested_concept": "Central HPG axis impairment",
+      "tested_concept": "At which level of the HPG axis is her defect, and which of the listed diagnoses best explains it?",
       "question_id": "q-5df3c448db9be978593f",
       "source_id": "s-8db598db944dae03b981",
       "source_group_id": "g-eece7dbda2294229e325",
@@ -1692,28 +1693,29 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 15-year-old girl has lost 30 lb over 6 months and has never had a period. Breasts are Tanner stage 4 and pubic hair is Tanner stage 5. Estradiol is below 10, LH is 0.1, FSH is 3.0, and prolactin, TSH, and celiac screen are normal.",
+      "study_skill": "interpretation",
       "condition_name": "Hypogonadotropic hypogonadism",
-      "condition_overview": "In hypogonadotropic hypogonadism (central or secondary), the hypothalamus or pituitary fails to produce adequate GnRH, LH, or FSH, so the gonads are underdriven and sex steroids are low. Causes include Kallmann syndrome (with anosmia), pituitary tumors, hyperprolactinemia, functional causes such as low energy availability, and chronic illness. It presents with delayed or absent puberty or amenorrhea, with low LH and FSH, and treatment is directed at the cause, with hormone replacement or gonadotropin therapy for fertility."
+      "condition_overview": "In hypogonadotropic hypogonadism (central or secondary), the hypothalamus or pituitary fails to produce adequate GnRH, LH, or FSH, so the gonads are underdriven and sex steroids are low. Causes include Kallmann syndrome (with anosmia), pituitary tumors, hyperprolactinemia, functional causes such as low energy availability, and chronic illness. It presents with delayed or absent puberty or amenorrhea, with low LH and FSH, and treatment is directed at the cause, with hormone replacement or gonadotropin therapy for fertility.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Where is the marked impairment relative to the LH and FSH arrows leaving the pituitary?",
+      "stem": "Where is the defect in the HPG axis, and which test should be sent?",
       "options": [
-        "Hypothalamic level",
-        "Anterior pituitary level",
-        "GnRH secretion arrow",
-        "Gonadal level"
+        "Hypothalamic level, and an MRI of the brain",
+        "Gonadal level (hypergonadotropic hypogonadism), and a karyotype to rule out Turner syndrome",
+        "Outflow tract level, and a pelvic MRI for a uterus",
+        "Pituitary level, and a prolactin level only"
       ],
-      "correct_index": 3,
-      "explanation": "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow. The pituitary image is uncrossed.",
+      "correct_index": 1,
+      "explanation": "Step 1. High LH and FSH with low estradiol mean the gonads are not responding, so the lesion is at the gonadal level (hypergonadotropic hypogonadism). Step 2. Short stature or a webbed neck suggests Turner syndrome, so a karyotype is indicated, and most women with gonadal insufficiency are infertile with permanent absence of puberty.",
       "choice_rationales": [
-        "The brain at the top is uncrossed. This choice describes hypothalamic hypogonadism.",
-        "The pituitary image is uncrossed. This choice describes anterior pituitary failure.",
-        "The GnRH arrow is high above the crossed region. This choice describes impaired GnRH secretion.",
-        "The red cross is centered on the testes and ovaries, downstream of the LH/FSH arrow. This choice describes primary gonadal failure (hypergonadotropic hypogonadism), which is what the image shows."
+        "A central defect would give low gonadotropins.",
+        "Elevated gonadotropins with low estradiol place the defect in the gonad, and karyotype tests for Turner.",
+        "An outflow lesion would have normal hormones and normal breast development.",
+        "Prolactin does not explain high gonadotropins."
       ],
-      "tested_concept": "Primary gonadal HPG axis impairment",
+      "tested_concept": "Where is the defect in the HPG axis, and which test should be sent?",
       "question_id": "q-7935525bda53399b8741",
       "source_id": "s-8105c60b45881b70511e",
       "source_group_id": "g-eece7dbda2294229e325",
@@ -1741,10 +1743,11 @@
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 16-year-old girl has no breast development and has never had a period. Height is short, she has a webbed neck, and her estradiol is low. LH and FSH are markedly elevated.",
+      "study_skill": "interpretation",
       "condition_name": "Hypergonadotropic hypogonadism",
-      "condition_overview": "In hypergonadotropic hypogonadism (primary), the gonads fail despite adequate pituitary drive, so loss of negative feedback from estradiol, testosterone, and inhibin raises FSH and LH. Causes include Turner syndrome, Klinefelter syndrome, premature ovarian insufficiency, gonadal injury from chemotherapy or radiation, and autoimmune oophoritis. It presents with delayed puberty or amenorrhea, infertility, and low sex steroids, and treatment is sex hormone replacement."
+      "condition_overview": "In hypergonadotropic hypogonadism (primary), the gonads fail despite adequate pituitary drive, so loss of negative feedback from estradiol, testosterone, and inhibin raises FSH and LH. Causes include Turner syndrome, Klinefelter syndrome, premature ovarian insufficiency, gonadal injury from chemotherapy or radiation, and autoimmune oophoritis. It presents with delayed puberty or amenorrhea, infertility, and low sex steroids, and treatment is sex hormone replacement.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which cell type forms the flattened outer layer surrounding the illustrated secretory epithelium?",
@@ -2782,27 +2785,27 @@
       "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which abnormality is visible within the contrast-filled uterine cavity on this hysterosalpingogram?",
+      "stem": "What is the diagnosis, and what does the failed estrogen and progestin challenge tell you about the site of the problem?",
       "options": [
-        "A smooth uniformly filled triangular cavity",
-        "Complete absence of uterine contrast filling",
-        "Two separate widely divergent uterine cavities",
-        "Multiple irregular internal filling defects"
+        "Asherman syndrome, because the uterus cannot respond to hormones due to scarring",
+        "Hyperprolactinemia, because prolactin suppresses GnRH",
+        "Primary ovarian insufficiency, because the ovary failed and FSH is low",
+        "Sheehan syndrome, because the pituitary was damaged by postpartum hemorrhage"
       ],
-      "correct_index": 3,
-      "explanation": "Irregular non-opacified areas interrupt the contrast column within the uterine cavity. The internal contrast is interrupted rather than uniformly filling a smooth triangular cavity.",
+      "correct_index": 0,
+      "explanation": "Step 1. Irregular filling defects within the contrast column with amenorrhea after curettage are intrauterine adhesions of Asherman syndrome, whose number one cause is iatrogenic intrauterine manipulation such as D&C. Step 2. No withdrawal bleed after estrogen and progestin means the uterus is not intact or cannot respond, so the problem is the uterine outflow tract, not the hypothalamus, pituitary, or ovary.",
       "choice_rationales": [
-        "The internal contrast is interrupted rather than uniformly filling a smooth triangular cavity. This choice describes a normal uterine cavity.",
-        "Contrast clearly enters the uterine cavity despite the internal defects. This choice describes uterine agenesis or complete cervical obstruction.",
-        "The image shows one irregular cavity rather than two separate divergent cavities. This choice describes a bicornuate or didelphys uterus.",
-        "Irregular non-opacified areas interrupt the contrast column within the uterine cavity. This choice describes Asherman syndrome (intrauterine adhesions), which is what the image shows."
+        "No bleeding after estrogen and progestin points to a uterine scarring problem, as in Asherman.",
+        "Hyperprolactinemia is excluded by a normal prolactin level.",
+        "POI causes high FSH and would bleed after estrogen and progestin if the uterus is normal.",
+        "Sheehan syndrome follows postpartum hemorrhage and would give low gonadotropins."
       ],
       "question_id": "q-9da061b2bda1ffa824c1",
       "source_id": "s-24decf80b73e3305937d",
       "source_group_id": "g-d60ce84f60878cdf9407",
       "variant_id": "v-117ab7055a327a4bc0db",
       "question_type": "Visual interpretation",
-      "tested_concept": "Intrauterine filling defects on hysterosalpingography",
+      "tested_concept": "What is the diagnosis, and what does the failed estrogen and progestin challenge tell you about the site of the problem?",
       "category": "Radiograph",
       "collection": "R19",
       "source_origin": "lecture",
@@ -2825,33 +2828,34 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
+      "case_context": "A 33-year-old woman has seven months of amenorrhea after a dilation and curettage for a spontaneous abortion. Her cycles were regular before, pregnancy test is negative, and TSH and prolactin are normal. A progestin challenge produces no bleeding, and an estrogen plus progestin challenge also produces no bleeding. A hysterosalpingogram shows multiple irregular filling defects in the cavity.",
       "study_skill": "interpretation",
       "condition_name": "Asherman syndrome",
-      "condition_overview": "Asherman syndrome is the formation of intrauterine adhesions (synechiae) after endometrial injury, usually from curettage, infection, or surgery. Scarring partially or completely obliterates the uterine cavity and causes hypomenorrhea or amenorrhea, infertility, and recurrent pregnancy loss. Hysterosalpingography shows irregular filling defects, and hysteroscopy shows pale fibrous bands bridging the cavity. Treatment is hysteroscopic adhesiolysis followed by measures to restore the endometrium."
+      "condition_overview": "Asherman syndrome is the formation of intrauterine adhesions (synechiae) after endometrial injury, usually from curettage, infection, or surgery. Scarring partially or completely obliterates the uterine cavity and causes hypomenorrhea or amenorrhea, infertility, and recurrent pregnancy loss. Hysterosalpingography shows irregular filling defects, and hysteroscopy shows pale fibrous bands bridging the cavity. Treatment is hysteroscopic adhesiolysis followed by measures to restore the endometrium.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "In this supplied sagittal pelvic MRI, what structural finding is illustrated at the white arrow between the bladder and rectum?",
+      "stem": "What is the diagnosis, and which associated condition should be sought next?",
       "options": [
-        "A large solid uterine mass displacing the adjacent bladder",
-        "Two separate enlarged uterine bodies side by side",
-        "Absence of an identifiable uterine body in its expected location",
-        "An enlarged uterine body distended by fluid in its cavity"
+        "Primary ovarian insufficiency, with FSH monitoring",
+        "Complete androgen insensitivity, with a search for testes",
+        "Mullerian agenesis, with an abdominal CT or imaging to evaluate renal anomalies",
+        "Imperforate hymen, with a search for hematocolpos"
       ],
       "correct_index": 2,
-      "explanation": "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption. The marked region does not contain an enlarged fluid-distended uterine body.",
+      "explanation": "Step 1. Primary amenorrhea with normal secondary sexual characteristics, XX karyotype, normal gonadotropins, and absent uterus is Mullerian agenesis (MRKH). Step 2. About one third have urinary tract anomalies such as renal agenesis or horseshoe kidney and 12 percent have skeletal anomalies, so the work up includes imaging for renal anomalies.",
       "choice_rationales": [
-        "No large solid uterine mass occupies the arrowed region or displaces the bladder there. This choice describes a large uterine leiomyoma.",
-        "The marked region does not show duplicated enlarged uterine bodies. This choice describes uterine didelphys.",
-        "The arrow marks the expected uterine region without an identifiable uterine body, matching the supplied lecture caption. This choice describes Mayer-Rokitansky-Küster-Hauser syndrome (uterine agenesis), which is what the image shows.",
-        "The marked region does not contain an enlarged fluid-distended uterine body. This choice describes hydrometra or hematometra."
+        "POI would have high FSH, not normal gonadotropins.",
+        "Complete androgen insensitivity has an XY karyotype, not XX.",
+        "MRKH has a normal ovary and one third have renal anomalies, so imaging is required.",
+        "Imperforate hymen has a uterus and a bulging membrane."
       ],
       "question_id": "q-2b8bdccc317474991233",
       "source_id": "s-c1e2cb5b88a62f41967c",
       "source_group_id": "g-4e945486bbd2a926f6fe",
       "variant_id": "v-b9334df5060a3851f88f",
       "question_type": "Visual interpretation",
-      "tested_concept": "Absent uterine body in the supplied sagittal MRI",
+      "tested_concept": "What is the diagnosis, and which associated condition should be sought next?",
       "category": "MRI",
       "collection": "R19",
       "source_origin": "lecture",
@@ -2874,33 +2878,34 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
+      "case_context": "A 16-year-old girl has never had a period. She has normal breast development and normal pubic hair. Pelvic MRI shows no uterus between the bladder and rectum. Karyotype is 46,XX and LH and FSH are normal.",
       "study_skill": "interpretation",
       "condition_name": "Mullerian agenesis",
-      "condition_overview": "Müllerian agenesis (Mayer-Rokitansky-Küster-Hauser syndrome) is congenital absence or hypoplasia of the uterus and upper vagina from failure of the Müllerian ducts to develop, with normal ovaries and a normal 46,XX karyotype. Patients present with primary amenorrhea despite normal breast development and pubic hair, and often renal anomalies. Hormone levels are normal, and treatment includes vaginal dilation or surgical creation of a neovagina."
+      "condition_overview": "Müllerian agenesis (Mayer-Rokitansky-Küster-Hauser syndrome) is congenital absence or hypoplasia of the uterus and upper vagina from failure of the Müllerian ducts to develop, with normal ovaries and a normal 46,XX karyotype. Patients present with primary amenorrhea despite normal breast development and pubic hair, and often renal anomalies. Hormone levels are normal, and treatment includes vaginal dilation or surgical creation of a neovagina.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which description best fits the uterine cavity on this hysterosalpingogram?",
+      "stem": "What is the main value of this normal study, and what would an abnormal cavity such as multiple filling defects suggest?",
       "options": [
-        "No contrast entering the uterine cavity",
-        "A single smooth triangular contrast-filled cavity",
-        "A cavity interrupted by multiple irregular filling defects",
-        "Two widely divergent contrast-filled uterine horns"
+        "It confirms a normal cavity, whereas multiple filling defects suggest intrauterine adhesions of Asherman syndrome",
+        "It confirms a patent hymen, whereas filling defects suggest a vaginal septum",
+        "It confirms normal FSH, whereas filling defects suggest POI",
+        "It confirms ovulation, whereas filling defects suggest a prolactinoma"
       ],
-      "correct_index": 1,
-      "explanation": "Contrast outlines one smooth triangular uterine cavity with tubal contrast visible on both sides. The central uterine cavity is clearly filled with contrast.",
+      "correct_index": 0,
+      "explanation": "Step 1. A smooth triangular cavity filled with contrast is a normal hysterosalpingogram. Step 2. HSG is the diagnostic test for Asherman syndrome, in which adhesions appear as multiple filling defects in the cavity.",
       "choice_rationales": [
-        "The central uterine cavity is clearly filled with contrast. This choice describes uterine agenesis or complete cervical obstruction.",
-        "Contrast outlines one smooth triangular uterine cavity with tubal contrast visible on both sides. This choice describes a normal uterine cavity, which is what the image shows.",
-        "The cavity lacks the irregular internal defects shown in the supplied abnormal HSG example. This choice describes Asherman syndrome (intrauterine adhesions).",
-        "The upper cavity is a single continuous triangle rather than two separated divergent horns. This choice describes a bicornuate or didelphys uterus."
+        "HSG shows the cavity, and multiple filling defects suggest adhesions.",
+        "A hymen or vaginal septum is assessed by examination and MRI, not by HSG cavity shape.",
+        "FSH is a blood test and does not appear on HSG.",
+        "Ovulation is assessed by hormones and cycles, not by HSG."
       ],
       "question_id": "q-1e19a70c7a81a6763e47",
       "source_id": "s-758b3536e15c2512e544",
       "source_group_id": "g-204f4f0133f0522978b7",
       "variant_id": "v-a778c046ddca9b15f096",
       "question_type": "Visual interpretation",
-      "tested_concept": "Normal uterine cavity on hysterosalpingography",
+      "tested_concept": "What is the main value of this normal study, and what would an abnormal cavity such as multiple filling defects suggest?",
       "category": "Radiograph",
       "collection": "R19",
       "source_origin": "lecture",
@@ -2923,8 +2928,9 @@
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A 30-year-old woman has a hysterosalpingogram as part of an infertility evaluation. The radiologist reports a single smooth triangular cavity with contrast in both tubes.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which cell population explains why his libido and testosterone are preserved despite the tubular change?",
@@ -9101,20 +9107,20 @@
       "study_skill": "morphology"
     },
     {
-      "stem": "In the small LH plots at the top, when are the pulses most conspicuous in the puberty panel?",
+      "stem": "What does the sleep related pattern reflect about the initiation of puberty?",
       "options": [
-        "Only during the unshaded day interval",
-        "Equally throughout day and night",
-        "They are absent throughout the plotted interval",
-        "During the shaded night interval"
+        "A decrease in GnRH pulses at night, which lowers LH",
+        "Release of LH by the ovary, which stimulates GnRH",
+        "Release of LH by the adrenal cortex at night, which starts adrenarche",
+        "Increased pulsatile GnRH from the hypothalamus during sleep, which drives pulsatile LH and FSH from the anterior pituitary"
       ],
       "correct_index": 3,
-      "explanation": "In the puberty inset, larger repeated LH peaks cluster in the shaded night region. The larger peaks occur mainly after the shaded interval begins.",
+      "explanation": "Step 1. Large LH peaks clustered during sleep indicate pubertal gonadotropin pulsatility. Step 2. Puberty is initiated by a sleep-related increase in pulsatile GnRH from the hypothalamus, which stimulates pulsatile LH and FSH secretion from the anterior pituitary, along with resetting of the gonadostat to reduced negative feedback sensitivity.",
       "choice_rationales": [
-        "The larger peaks occur mainly after the shaded interval begins. This choice describes pulses limited to the day interval.",
-        "The trace amplitude changes across the day-night boundary. This choice describes equal day and night pulses.",
-        "Repeated peaks are visible in the night region. This choice describes absence of LH pulses.",
-        "In the puberty inset, larger repeated LH peaks cluster in the shaded night region. This choice describes nocturnal LH pulses of early puberty, which is what the image shows."
+        "GnRH pulses increase, not decrease, at night in puberty.",
+        "LH is made by the pituitary and is not released by the ovary.",
+        "LH comes from the pituitary, not the adrenal cortex.",
+        "Pubertal LH peaks reflect more pulsatile GnRH during sleep."
       ],
       "visual_clues": [
         "In the puberty inset, larger repeated LH peaks cluster in the shaded night region.",
@@ -9124,7 +9130,7 @@
       "source_id": "s-7dfecbb8aeb4f67f02e9",
       "source_group_id": "g-a9817dd46e9fee08480e",
       "variant_id": "v-95718150a5ab363d7d42",
-      "tested_concept": "Nocturnal LH pulses at puberty",
+      "tested_concept": "What does the sleep related pattern reflect about the initiation of puberty?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R13",
@@ -9145,24 +9151,25 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "An endocrinologist monitors serum LH overnight in a 12-year-old girl in early puberty and in a 6-year-old prepubertal girl. The 12-year-old shows large LH peaks clustered during sleep and the 6-year-old shows a flat low tracing.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which contrast is visible between the childhood region and the postmenopausal region of the large gonadotropin plot?",
+      "stem": "What explains the rise in gonadotropins after menopause?",
       "options": [
-        "The curves remain identical in the childhood and postmenopausal regions",
-        "The largest oscillations occur throughout the childhood interval",
-        "The curves are low in childhood and rise markedly after menopause",
-        "The curves are high throughout childhood and fall at menopause"
+        "Increased prolactin stimulates the pituitary",
+        "Increased inhibin from the adrenal cortex stimulates the pituitary",
+        "Loss of ovarian estradiol removes negative feedback on the hypothalamus and pituitary",
+        "Increased ovarian estradiol suppresses the pituitary"
       ],
       "correct_index": 2,
-      "explanation": "The plotted curves are low across childhood and rise substantially at the far right of the age axis. The curves differ substantially in the two labeled regions.",
+      "explanation": "Step 1. Gonadotropins are low in childhood and rise markedly after menopause. Step 2. Ovarian failure lowers estradiol, which removes negative feedback on the hypothalamus and pituitary so gonadotropins rise, the same mechanism as hypergonadotropic hypogonadism.",
       "choice_rationales": [
-        "The curves differ substantially in the two labeled regions. This choice describes an unchanging gonadotropin pattern.",
-        "The pronounced repeated oscillations occur in the reproductive years, after childhood. This choice describes large oscillations throughout childhood.",
-        "The plotted curves are low across childhood and rise substantially at the far right of the age axis. This choice describes low childhood gonadotropins with a rise after menopause, which is what the image shows.",
-        "The childhood region is near the bottom of the graph and the far-right region is elevated. This choice describes high childhood gonadotropins with a fall at menopause."
+        "Prolactin elevation suppresses GnRH and would lower gonadotropins.",
+        "The adrenal cortex does not produce inhibin in this lecture.",
+        "Low estradiol removes feedback, so FSH and LH rise.",
+        "Estradiol is low after menopause and does not suppress the pituitary."
       ],
       "visual_clues": [
         "The plotted curves are low across childhood and rise substantially at the far right of the age axis.",
@@ -9172,7 +9179,7 @@
       "source_id": "s-7dfecbb8aeb4f67f02e9",
       "source_group_id": "g-a9817dd46e9fee08480e",
       "variant_id": "v-95718150a5ab363d7d42",
-      "tested_concept": "Gonadotropin pattern across childhood and menopause",
+      "tested_concept": "What explains the rise in gonadotropins after menopause?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R13",
@@ -9193,8 +9200,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology"
+      "case_context": "A pediatric endocrinologist plots serum FSH and LH across a woman's life. The curves are low in childhood, rise at puberty, and rise again to high levels after menopause.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Across the numbered drawings, which visual change distinguishes stage II from stage I?",
@@ -9245,20 +9253,20 @@
       "study_skill": "morphology"
     },
     {
-      "stem": "Which finding interrupts the uterine cavity in this hysteroscopic view?",
+      "stem": "What are these bands, and what is the proposed consequence for her endometrium?",
       "options": [
-        "Multiple exophytic verrucous papules on external skin",
-        "Irregular pale tissue bands dividing small recesses",
-        "A smooth open cavity without bridging tissue",
-        "A single round ovarian follicle"
+        "Fibroids, which cause hormone-responsive bleeding",
+        "Polyps, which cause bleeding after progesterone",
+        "Intrauterine synechiae, scarring that prevents the endometrium from responding to estrogen and progesterone",
+        "Septum, which causes miscarriage and normal menses"
       ],
-      "correct_index": 1,
-      "explanation": "The irregular pale bands bridge the uterine cavity and separate recesses. R19 shows this scar pattern in its Asherman syndrome example. The field is intrauterine mucosa rather than external skin with projecting papules.",
+      "correct_index": 2,
+      "explanation": "Step 1. Fibrous bands bridging the cavity are intrauterine synechiae (adhesions), as in Asherman syndrome. Step 2. Scarring inside the cavity prevents a normal endometrium from forming, so no withdrawal bleed occurs after estrogen and progestin even though the hormone axis is normal.",
       "choice_rationales": [
-        "The field is intrauterine mucosa rather than external skin with projecting papules. This choice describes condyloma acuminatum.",
-        "The irregular pale bands bridge the uterine cavity and separate recesses. R19 shows this scar pattern in its Asherman syndrome example. This choice describes intrauterine adhesions (Asherman syndrome), which is what the image shows.",
-        "The cavity view has bridging tissue and irregular recesses. This choice describes a normal uterine cavity.",
-        "The circular boundary is the scope view of an intrauterine cavity, and the pale structures are internal bands. This choice describes an ovarian follicle."
+        "Fibroids are smooth muscle tumors, not bridging bands.",
+        "Polyps are focal masses and not bridging bands.",
+        "Synechiae scar the cavity and block menstrual response.",
+        "A septum is congenital and would not follow curettage."
       ],
       "visual_clues": [
         "Pale tissue bands cross the view between several smaller dark recesses.",
@@ -9268,7 +9276,7 @@
       "source_id": "s-c414c7d1f6aa3ac294ea",
       "source_group_id": "g-edc711eacbec47bfd415",
       "variant_id": "v-5367957b494071340bdd",
-      "tested_concept": "Asherman hysteroscopy bridging tissue",
+      "tested_concept": "What are these bands, and what is the proposed consequence for her endometrium?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R19",
@@ -9289,8 +9297,8 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 31-year-old woman with secondary amenorrhea after repeated curettage has hysteroscopy. Pale irregular bands bridge the cavity and divide it into small recesses.",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 45,
@@ -9299,23 +9307,24 @@
         }
       ],
       "condition_name": "Asherman syndrome",
-      "condition_overview": "Asherman syndrome is the formation of intrauterine adhesions (synechiae) after endometrial injury, usually from curettage, infection, or surgery. Scarring partially or completely obliterates the uterine cavity and causes hypomenorrhea or amenorrhea, infertility, and recurrent pregnancy loss. Hysterosalpingography shows irregular filling defects, and hysteroscopy shows pale fibrous bands bridging the cavity. Treatment is hysteroscopic adhesiolysis followed by measures to restore the endometrium."
+      "condition_overview": "Asherman syndrome is the formation of intrauterine adhesions (synechiae) after endometrial injury, usually from curettage, infection, or surgery. Scarring partially or completely obliterates the uterine cavity and causes hypomenorrhea or amenorrhea, infertility, and recurrent pregnancy loss. Hysterosalpingography shows irregular filling defects, and hysteroscopy shows pale fibrous bands bridging the cavity. Treatment is hysteroscopic adhesiolysis followed by measures to restore the endometrium.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "Which arrangement is present in this ovarian tumor section?",
+      "stem": "What is the underlying syndrome, and why does the mass develop?",
       "options": [
-        "Groups of large round tumor cells separated by intervening stroma",
-        "A single thin bland epithelial lining around one cyst",
-        "Concentric pink keratin whorls within squamous nests",
-        "Long parallel bundles of bland spindle cells with tapered nuclei"
+        "Complete androgen insensitivity, in which a blind vaginal pouch and absent uterus are present",
+        "Mullerian agenesis, in which ovaries are streak gonads",
+        "Turner syndrome 45,X, in which testes make AMH",
+        "Swyer syndrome, a 46,XY gonadal dysgenesis from SRY mutation, in which streak gonads carry about a 25 percent risk of germ cell tumors such as dysgerminoma"
       ],
-      "correct_index": 0,
-      "explanation": "Large round nucleated cells form groups separated by paler stromal tissue with scattered small dark nuclei. The tumor nuclei are round, and the cells form groups rather than parallel spindle fascicles.",
+      "correct_index": 3,
+      "explanation": "Step 1. A 46,XY patient with female genitalia, a normal uterus and tubes, streak gonads, absent breast development, and high FSH and LH has Swyer syndrome, caused by SRY mutation with no AMH or testosterone and no estrogen. Step 2. Streak gonads need removal because of an increased risk (25 percent) of germ cell tumors, most commonly gonadoblastoma, and a dysgerminoma can occur.",
       "choice_rationales": [
-        "Large round nucleated cells form groups separated by paler stromal tissue with scattered small dark nuclei. This choice describes dysgerminoma, which is what the image shows.",
-        "The large cells form solid groups in multiple areas of the field. This choice describes a simple cyst.",
-        "There are no rounded laminated eosinophilic centers in the groups. This choice describes squamous cell carcinoma.",
-        "The tumor nuclei are round, and the cells form groups rather than parallel spindle fascicles. This choice describes a spindle cell stromal tumor such as a fibroma."
+        "Complete androgen insensitivity has an absent uterus and normal breast development.",
+        "MRKH has a 46,XX karyotype with normal ovarian function.",
+        "Turner syndrome is 45,X and does not make testes or AMH.",
+        "Swyer syndrome has streak gonads that carry a tumor risk and a normal uterus."
       ],
       "visual_clues": [
         "Large round nucleated cells form groups separated by paler stromal tissue with scattered small dark nuclei.",
@@ -9325,7 +9334,7 @@
       "source_id": "s-ade473a90e347f77af87",
       "source_group_id": "g-c153899f9bac13591dff",
       "variant_id": "v-41ecd3d562719a5ef5ea",
-      "tested_concept": "Dysgerminoma cell group architecture",
+      "tested_concept": "What is the underlying syndrome, and why does the mass develop?",
       "question_type": "Visual interpretation",
       "category": "Histology",
       "collection": "R19",
@@ -9346,26 +9355,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 16-year-old girl has primary amenorrhea and no breast development. Examination shows female external genitalia. MRI shows a normal uterus and fallopian tubes with streak gonads. Karyotype is 46,XY. FSH and LH are elevated. She later develops a pelvic mass made of large round cells in groups separated by stroma.",
+      "study_skill": "interpretation",
       "condition_name": "Swyer syndrome",
-      "condition_overview": "Swyer syndrome is 46,XY complete gonadal dysgenesis, in which a female phenotype with normal Müllerian structures develops because functional testes fail to form. Patients present with primary amenorrhea and absent puberty and have streak gonads. The gonads carry a high risk of gonadoblastoma and dysgerminoma, so they are removed, and hormone replacement allows pubertal development."
+      "condition_overview": "Swyer syndrome is 46,XY complete gonadal dysgenesis, in which a female phenotype with normal Müllerian structures develops because functional testes fail to form. Patients present with primary amenorrhea and absent puberty and have streak gonads. The gonads carry a high risk of gonadoblastoma and dysgerminoma, so they are removed, and hormone replacement allows pubertal development.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "In this frontal diagram, which compartment is divided by the horizontal partition?",
+      "stem": "What is the diagnosis, and how does it differ from an imperforate hymen?",
       "options": [
-        "The uterine fundus above the cavity",
-        "The lumen of both fallopian tubes",
-        "The ovarian cortex on each side",
-        "The vaginal canal below the cervix"
+        "Complete androgen insensitivity, which has a uterus and bulging hymen",
+        "Transverse vaginal septum, which does not bulge with Valsalva, whereas an imperforate hymen bulges as a blue dome",
+        "Asherman syndrome, which has a vaginal partition",
+        "Imperforate hymen, which does not bulge with Valsalva"
       ],
-      "correct_index": 3,
-      "explanation": "The transverse partition spans the central canal below the cervix, interrupting the vaginal lumen. The fundal cavity is above the depicted partition.",
+      "correct_index": 1,
+      "explanation": "Step 1. A partition in the vaginal canal with hematocolpos, cyclic pain, and a normal hymen is a transverse vaginal septum from failure of canalization. Step 2. It does not bulge with Valsalva and MRI helps diagnosis, whereas an imperforate hymen is a bulging blue translucent membrane that can present with hematocolpos or urinary retention and is treated by surgical resection.",
       "choice_rationales": [
-        "The fundal cavity is above the depicted partition. This choice describes the uterine fundus (subseptate uterus).",
-        "Both tubes extend laterally well above the partition. This choice describes the fallopian tubes.",
-        "The septum spans the central canal, separate from the ovaries. This choice describes the ovarian cortex.",
-        "The transverse partition spans the central canal below the cervix, interrupting the vaginal lumen. This choice describes a transverse vaginal septum, which is what the image shows."
+        "Complete androgen insensitivity has no uterus.",
+        "A transverse septum does not bulge with Valsalva and is shown best by MRI.",
+        "Asherman syndrome is an intrauterine adhesion disorder.",
+        "An imperforate hymen is the one that bulges as a blue dome."
       ],
       "visual_clues": [
         "The transverse partition spans the central canal below the cervix, interrupting the vaginal lumen.",
@@ -9375,7 +9385,7 @@
       "source_id": "s-5bdcefedf0aecd12c649",
       "source_group_id": "g-0b286a46fb04666b8ecb",
       "variant_id": "v-45ec8b61d0dbd37955e2",
-      "tested_concept": "Transverse vaginal septum site",
+      "tested_concept": "What is the diagnosis, and how does it differ from an imperforate hymen?",
       "question_type": "Visual interpretation",
       "category": "Diagram",
       "collection": "R19",
@@ -9396,26 +9406,27 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "morphology",
+      "case_context": "A 15-year-old girl has had no menses, monthly cyclic pelvic pain, and normal breast and pubic hair development. Examination shows a normal hymen that does not bulge with Valsalva. MRI shows blood collected above a horizontal partition in the vagina.",
+      "study_skill": "interpretation",
       "condition_name": "Transverse vaginal septum",
-      "condition_overview": "A transverse vaginal septum is a congenital obstruction caused by failed canalization between the Müllerian-derived upper vagina and the urogenital sinus. It partitions the vaginal canal and can cause hematocolpos and primary amenorrhea with cyclic pelvic pain. Imaging shows a fluid-filled proximal vagina above a partition. Surgical resection of the septum restores outflow."
+      "condition_overview": "A transverse vaginal septum is a congenital obstruction caused by failed canalization between the Müllerian-derived upper vagina and the urogenital sinus. It partitions the vaginal canal and can cause hematocolpos and primary amenorrhea with cyclic pelvic pain. Imaging shows a fluid-filled proximal vagina above a partition. Surgical resection of the septum restores outflow.",
+      "reasoning_order": "second or third order"
     },
     {
-      "stem": "What finding beyond the uterine cavity supports bilateral tubal patency in this supplied study?",
+      "stem": "What does the lateral spill indicate, and which condition among causes of amenorrhea does a normal study help exclude?",
       "options": [
-        "Only one tube fills and spills contrast into the pelvis",
-        "Both tubes end abruptly with no contrast visible beyond them",
-        "Contrast passes through both tubes and spills laterally on both sides",
-        "Contrast remains confined to the triangular uterine cavity alone"
+        "Both tubes are patent, and the study excludes prolactinoma",
+        "Both tubes are patent, and the normal cavity argues against Asherman syndrome",
+        "Both tubes are blocked, and the cavity argues for Asherman syndrome",
+        "Both ovaries have ovulated, and the study excludes PMOS"
       ],
-      "correct_index": 2,
-      "explanation": "Contrast extends from both uterine corners through the tubes to irregular collections on both sides. Contrast visibly extends outside the triangular uterine cavity.",
+      "correct_index": 1,
+      "explanation": "Step 1. Spill of contrast from both tubal ends indicates bilateral tubal patency. Step 2. A smooth cavity without filling defects argues against Asherman syndrome, though HSG does not evaluate ovulation or pituitary function.",
       "choice_rationales": [
-        "Both sides show thin tubal channels with external contrast. This choice describes unilateral tubal patency with contralateral obstruction.",
-        "Contrast is present beyond both tubal ends. This choice describes bilateral tubal occlusion (hydrosalpinges or blocked tubes).",
-        "Contrast extends from both uterine corners through the tubes to irregular collections on both sides. This choice describes bilateral tubal patency, which is what the image shows.",
-        "Contrast visibly extends outside the triangular uterine cavity. This choice describes a normal uterine cavity with no tubal filling (bilateral proximal occlusion)."
+        "HSG cannot exclude pituitary tumors.",
+        "Peritoneal spill shows patent tubes, and a smooth cavity argues against adhesions.",
+        "Blocked tubes would not allow lateral spill.",
+        "HSG does not show ovulation and cannot exclude PMOS."
       ],
       "visual_clues": [
         "Contrast extends from both uterine corners through the tubes to irregular collections on both sides.",
@@ -9425,7 +9436,7 @@
       "source_id": "s-758b3536e15c2512e544",
       "source_group_id": "g-204f4f0133f0522978b7",
       "variant_id": "v-a778c046ddca9b15f096",
-      "tested_concept": "Hysterosalpingogram bilateral spill",
+      "tested_concept": "What does the lateral spill indicate, and which condition among causes of amenorrhea does a normal study help exclude?",
       "question_type": "Visual interpretation",
       "category": "Radiograph",
       "collection": "R19",
@@ -9446,8 +9457,9 @@
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "study_skill": "interpretation"
+      "case_context": "A 28-year-old woman has a hysterosalpingogram for infertility. Contrast fills the triangular cavity, passes through both tubes, and forms irregular collections near each ovary.",
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which feature in the upper chromatin drawing supports transcription?",
@@ -16844,7 +16856,7 @@
       "source_id": "s-e468296f928072f87df6",
       "source_group_id": "g-bbee8100740a1bd4ad5b",
       "variant_id": "v-0f1f14c0015586bb94c8",
-      "tested_concept": "Sellar lesion on sagittal pituitary MRI",
+      "tested_concept": "Which structure is involved, and why is MRI indicated for this patient?",
       "question_type": "Visual interpretation",
       "category": "MRI",
       "collection": "R13",
@@ -16865,26 +16877,27 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Where is the outlined region relative to the surrounding structures?",
+      "case_context": "A 14-year-old boy has delayed puberty, headaches, and loss of lateral vision. Midline sagittal MRI shows a mass in a small region above the sphenoid sinus and below the brain, with normal prolactin.",
+      "stem": "Which structure is involved, and why is MRI indicated for this patient?",
       "options": [
-        "At the posterior skull near the cerebellum",
-        "Within the nasal cavity below the hard palate",
-        "Inside the upper cervical spinal canal",
-        "Above the sphenoid sinus and beneath the brain"
+        "The pituitary in the sella, and MRI is indicated when delayed puberty comes with neurological symptoms",
+        "The testis, and MRI is indicated for gynecomastia",
+        "The adrenal gland, and MRI is indicated for acne",
+        "The thyroid, and MRI is indicated for a goiter"
       ],
-      "correct_index": 3,
-      "explanation": "The outlined focus lies centrally above the dark sphenoid region and below the brain on the midline view. The outlined tissue sits above the sphenoid air space, not within the nasal cavity.",
+      "correct_index": 0,
+      "explanation": "Step 1. A midline region above the sphenoid sinus and below the brain is the sella containing the pituitary. Step 2. The pituitary releases LH and FSH in response to GnRH, so a pituitary lesion can cause delayed puberty, and MRI of the brain is considered if neurological symptoms are present.",
       "choice_rationales": [
-        "The marked focus lies at the skull base anterior to the posterior fossa. This choice describes a posterior fossa structure.",
-        "The outlined tissue sits above the sphenoid air space, not within the nasal cavity. This choice describes a nasal cavity lesion.",
-        "The focus is above the sphenoid and separate from the spinal canal. This choice describes a cervical canal lesion.",
-        "The outlined focus lies centrally above the dark sphenoid region and below the brain on the midline view. This choice describes a pituitary gland or sellar mass (above the sphenoid sinus), which is what the image shows."
+        "The pituitary sits in the sella and brain MRI is indicated with neurological symptoms.",
+        "The testis is in the scrotum.",
+        "The adrenal gland is in the abdomen.",
+        "The thyroid is in the neck and not in the sella."
       ],
       "visual_clues": [
         "The outlined focus lies centrally above the dark sphenoid region and below the brain on the midline view."
       ],
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-187d2a574685159e9d64",
@@ -18787,7 +18800,7 @@
       "source_id": "s-351820e25d1913ad4b8d",
       "source_group_id": "g-2fbe3a98802f2f731100",
       "variant_id": "v-3c2c68bdb924e66f0de8",
-      "tested_concept": "Normal uterine cavity compared with intrauterine adhesions",
+      "tested_concept": "Why does the first patient have regular periods while the friend does not?",
       "question_type": "Visual interpretation",
       "category": "Clinical Photo",
       "collection": "R19",
@@ -18812,33 +18825,34 @@
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": null,
-      "stem": "Which feature of this hysteroscopic view argues against the intrauterine adhesions shown in the lecture comparison?",
+      "case_context": "A 34-year-old woman has hysteroscopy 3 months after a miscarriage. She has regular periods. The cavity looks smooth and continuous with normal tubal ostia. Her friend with amenorrhea after a D&C has bridging bands on hysteroscopy.",
+      "stem": "Why does the first patient have regular periods while the friend does not?",
       "options": [
-        "A smooth, continuous surface without bridging bands",
-        "Thick bridging bands dividing the view into compartments",
-        "Multiple projecting papillary fronds",
-        "A large rounded mass almost filling the field"
+        "Her ovaries produce no hormones, so bleeding is irregular",
+        "Her pituitary makes prolactin, so bleeding is regular",
+        "Her hymen is imperforate, so bleeding is regular",
+        "Her endometrium is intact without scarring, so it can respond to estrogen and progesterone and shed monthly"
       ],
-      "correct_index": 0,
-      "explanation": "The visible cavity is smooth and continuous. The Asherman syndrome image on the next lecture slide shows bands that bridge the cavity and form irregular recesses. This field serves as a normal comparison for that scar pattern. Bridging bands and divided recesses are visible in the Asherman comparison, while the pictured surface is continuous.",
+      "correct_index": 3,
+      "explanation": "Step 1. A smooth continuous cavity without bridging bands argues against intrauterine adhesions. Step 2. An intact estrogen-primed uterus can respond to progesterone withdrawal with menses, whereas adhesions of Asherman syndrome prevent withdrawal bleeding.",
       "choice_rationales": [
-        "The visible cavity is smooth and continuous. The Asherman syndrome image on the next lecture slide shows bands that bridge the cavity and form irregular recesses. This field serves as a normal comparison for that scar pattern. This choice describes a normal smooth endometrial cavity, which is what the image shows.",
-        "Bridging bands and divided recesses are visible in the Asherman comparison, while the pictured surface is continuous. This choice describes Asherman syndrome (intrauterine adhesions).",
-        "No fronds project from the visible surface. The comparison lesion is formed by bands of scar tissue. This choice describes a papillary lesion.",
-        "The central field remains a continuous cavity surface without a discrete rounded mass. This choice describes a large mass."
+        "Absent ovarian hormones would cause amenorrhea, not regular periods.",
+        "Elevated prolactin suppresses GnRH and causes amenorrhea.",
+        "An imperforate hymen causes primary amenorrhea.",
+        "An intact endometrium can respond and shed."
       ],
       "visual_clues": [
         "The visible surface remains continuous across the field, without bands bridging separate pockets."
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 52,
           "y": 52,
           "label": "The central cavity surface is continuous, without bridging bands."
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-lobular-involution",
