@@ -6,7 +6,7 @@ import {promisify} from 'node:util';
 
 const root = path.resolve(import.meta.dirname, '..');
 const out = path.resolve(process.env.DIST_DIR || path.join(root, 'dist'));
-const runtime = ['index.html', 'app.js', 'engine.js', 'bank-config.js', 'progress-migration.js', 'styles.css'];
+const runtime = ['index.html', 'app.js', 'engine.js', 'bank-config.js', 'progress-migration.js', 'styles.css', 'sw.js', 'manifest.webmanifest'];
 const dataNames = ['question-bank.json', 'source-manifest.json', 'coverage.json', 'flag-remediation.json'];
 const assetPath = /^assets\/(?:originals|display|zoom)\/[a-f0-9]+(?:-[a-z0-9-]+)?\.(?:png|webp)$/;
 const maxImageBytes = 1024 * 1024;
