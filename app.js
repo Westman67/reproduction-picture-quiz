@@ -13,7 +13,12 @@ const combinedFilters=[['all','Mixed practice'],['unseen','Unseen sources'],['in
 let cases=[],retired=[];
 const KEY=CONFIG.progressKey, PREF_KEY=CONFIG.preferencesKey, $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let bank,bankVersion,manifest,manifestRequest,coverageRequest,remediation=null,coverage={lectures:{}},p=empty(),screen='home',zoom=1,original=false,settings=defaultSettings();
-let storageLocked=false,lecturesOpen=false;let byId={};const root=$('#app');let timer;
+let storageLocked=false,lecturesOpen=false,reviewFilter='all',triageMode=false,triageIndex=0;let byId={};const root=$('#app');let timer;
+
+if('serviceWorker' in navigator && window.location.protocol.startsWith('http')){
+    navigator.serviceWorker.register('./sw.js').catch(()=>{});
+}
+
 function markNav(){
     const current={home:'home',quiz:'home',results:'home',review:'review',progress:'progress'}[screen];
     document.querySelectorAll('.view-nav button').forEach(button=>{
@@ -37,6 +42,25 @@ function skillPicker(id,pool){
     }).join('');
     return `<div><label for="${id}">Study skill</label><select id="${id}">
         ${option('all','All skills',settings.skill)}${choices}</select></div>`;
+}
+function weakestSkillInfo(){
+    const stats=studySkillStats(bank,q=>{
+        const row=p.questions[q.question_id];
+        return row?{correct:row.correct_count,answered:row.times_answered}:null;
+    });
+    let weakest=null;
+    for(const [key,label] of Object.entries(STUDY_SKILLS)){
+        const s=stats[key];
+        if(!s||s.answered<5)continue;
+        const accuracy=s.correct/s.answered;
+        if(accuracy>=0.85)continue;
+        const pool=bank.filter(q=>q.study_skill===key);
+        if(!pool.length)continue;
+        if(!weakest||accuracy<weakest.accuracy){
+            weakest={key,label,accuracy,pct:Math.round(accuracy*100),pool};
+        }
+    }
+    return weakest;
 }
 function skillReport(stats){
     const rows=Object.entries(STUDY_SKILLS).filter(([key])=>stats[key]).map(([key,label])=>{
@@ -117,6 +141,7 @@ function combinedHome() {
     const total=skillPool.filter(q=>selected.has(q.studySection)).length;
     const lectures=sortLectureIds(bank.map(q=>q.collection));
     const chosenLectures=settings.collection==='all'?lectures:settings.collection;
+    const weakest=weakestSkillInfo();
     root.innerHTML=`<section class="summary combined-summary">
         <h1>Combined Practice</h1>
         <p class="muted">Choose one or more sections. A skill filter includes the entire case when any of its questions match. Case explanations appear after the session.</p>
@@ -156,6 +181,7 @@ function combinedHome() {
             <label class="check-row mt"><input type="checkbox" id="combined-resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions when the session is shorter than the pool</label>
             <p class="fine mt" id="combined-count" role="status">${total?`${total} questions available`:'No questions match the selected sections, source type and filters.'}</p>
             <button id="start" class="primary full" ${!total?'disabled':''}>Start practice</button>
+            ${weakest?`<button id="drill-weakest" class="full mt">Drill weakest skill: ${esc(weakest.label)} (${weakest.pct}%)</button>`:''}
             ${p.session?`<button id="resume" class="full mt">${p.session.complete?'Review last session':'Resume saved session'}</button>`:''}
         </div>
     </section>`;
@@ -223,6 +249,15 @@ function combinedHome() {
         quiz();
         window.scrollTo(0,0);
     });
+    if(weakest){
+        bind('drill-weakest',()=>{
+            if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;
+            const weakMatchingCases=new Set(bank.filter(q=>q.case_id&&q.study_skill===weakest.key).map(q=>q.case_id));
+            const pools=STUDY_SECTIONS.map(section=>bank.filter(q=>q.studySection===section.id&&(q.case_id?weakMatchingCases.has(q.case_id):q.study_skill===weakest.key)));
+            p.session=combinedSession(pools,'learn','10',Math.random,{progress:p});
+            save();resetZoom();quiz();window.scrollTo(0,0);
+        });
+    }
     bind('resume',()=>{
         resetZoom();
         if(p.session.complete)results();else quiz();
@@ -230,8 +265,8 @@ function combinedHome() {
     });
 }
 
-function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHome();screen='home';const pool=filtered(bank,p,settings),available=bank.length,seen=bank.filter(q=>p.groups[q.source_group_id]?.times_seen).length,missed=filtered(bank,p,{filter:'incorrect'}).length,lectures=sortLectureIds(bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)),count=sessionSize(pool.length,settings.length);
- root.innerHTML=`<section class="hero"><div class="intro"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Look closely.<br>Learn what matters.</h1><p class="muted">${esc(CONFIG.description)} Every question starts with the image.</p><div class="stats"><div class="card stat"><strong>${available}</strong><span>Verified questions</span></div><div class="card stat"><strong>${new Set(bank.map(q=>q.source_group_id)).size}</strong><span>Visual groups</span></div><div class="card stat"><strong>${missed}</strong><span>To revisit</span></div></div><span class="tag">${seen} / ${available} questions from seen sources</span><p class="fine mt">Reviewed images from the selected Reproduction collection. See coverage below for included topics and remaining gaps. Related questions share source history.</p></div><div class="card practice-panel"><p class="eyebrow">Make this session yours</p><h2>Choose your practice</h2><fieldset class="box-group"><legend>Mode</legend><div class="mode-boxes">${[['learn','Learn','Feedback after each answer'],['exam','Exam','Feedback at the end']].map(([value,title,description])=>`<label class="select-box"><input type="radio" name="mode" value="${value}" aria-label="${title}" ${settings.mode===value?'checked':''}><span class="box-face"><strong>${title}</strong><small>${description}</small></span></label>`).join('')}</div></fieldset><fieldset class="box-group"><legend>Session length</legend><div class="length-boxes">${[['10','10','10 questions'],['20','20','20 questions'],['40','40','40 questions'],['all','All available','All available'],['endless','Endless','Endless practice']].map(([value,title,label])=>`<label class="select-box ${value==='all'||value==='endless'?'wide':''}"><input type="radio" name="length" value="${value}" aria-label="${label}" ${settings.length===value?'checked':''}><span class="box-face"><strong>${title}</strong></span></label>`).join('')}</div></fieldset><fieldset class="box-group lecture-picker"><legend>Lectures</legend><div class="lecture-boxes">${lectures.map(id=>{const n=bank.filter(q=>q.collection===id).length;return `<label class="select-box"><input type="checkbox" name="lecture" value="${esc(id)}" aria-label="${esc(id)}" ${settings.collection==='all'||settings.collection.includes(id)?'checked':''}><span class="box-face"><strong>${esc(id)}</strong><small>${n} ${n===1?'question':'questions'}</small></span></label>`;}).join('')}</div><button id="all-lectures" class="quiet">Select all lectures</button></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,origin:v,filter:'all'}).length})`,settings.origin)).join('')}</select></div><div><label for="category">Image category</label><select id="category">${option('all','All image types',settings.category)}${[...new Set(bank.map(q=>q.category))].map(x=>option(x,`${x} (${filtered(bank,p,{...settings,category:x,filter:'all'}).length})`,settings.category)).join('')}</select></div>${skillPicker('skill',filtered(bank,p,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><label class="check-row mt"><input type="checkbox" id="resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions in shorter sessions</label><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section><details class="mt" id="lecture-coverage"><summary>Lecture coverage</summary><div id="coverage-content"></div></details>`;
+function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHome();screen='home';const pool=filtered(bank,p,settings),available=bank.length,seen=bank.filter(q=>p.groups[q.source_group_id]?.times_seen).length,missed=filtered(bank,p,{filter:'incorrect'}).length,lectures=sortLectureIds(bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)),count=sessionSize(pool.length,settings.length),weakest=weakestSkillInfo();
+ root.innerHTML=`<section class="hero"><div class="intro"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Look closely.<br>Learn what matters.</h1><p class="muted">${esc(CONFIG.description)} Every question starts with the image.</p><div class="stats"><div class="card stat"><strong>${available}</strong><span>Verified questions</span></div><div class="card stat"><strong>${new Set(bank.map(q=>q.source_group_id)).size}</strong><span>Visual groups</span></div><div class="card stat"><strong>${missed}</strong><span>To revisit</span></div></div><span class="tag">${seen} / ${available} questions from seen sources</span>${weakest?`<p class="mt"><button id="drill-weakest" class="quiet">Drill weakest skill: ${esc(weakest.label)} (${weakest.pct}%)</button></p>`:''}<p class="fine mt">Reviewed images from the selected Reproduction collection. See coverage below for included topics and remaining gaps. Related questions share source history.</p></div><div class="card practice-panel"><p class="eyebrow">Make this session yours</p><h2>Choose your practice</h2><fieldset class="box-group"><legend>Mode</legend><div class="mode-boxes">${[['learn','Learn','Feedback after each answer'],['exam','Exam','Feedback at the end']].map(([value,title,description])=>`<label class="select-box"><input type="radio" name="mode" value="${value}" aria-label="${title}" ${settings.mode===value?'checked':''}><span class="box-face"><strong>${title}</strong><small>${description}</small></span></label>`).join('')}</div></fieldset><fieldset class="box-group"><legend>Session length</legend><div class="length-boxes">${[['10','10','10 questions'],['20','20','20 questions'],['40','40','40 questions'],['all','All available','All available'],['endless','Endless','Endless practice']].map(([value,title,label])=>`<label class="select-box ${value==='all'||value==='endless'?'wide':''}"><input type="radio" name="length" value="${value}" aria-label="${label}" ${settings.length===value?'checked':''}><span class="box-face"><strong>${title}</strong></span></label>`).join('')}</div></fieldset><fieldset class="box-group lecture-picker"><legend>Lectures</legend><div class="lecture-boxes">${lectures.map(id=>{const n=bank.filter(q=>q.collection===id).length;return `<label class="select-box"><input type="checkbox" name="lecture" value="${esc(id)}" aria-label="${esc(id)}" ${settings.collection==='all'||settings.collection.includes(id)?'checked':''}><span class="box-face"><strong>${esc(id)}</strong><small>${n} ${n===1?'question':'questions'}</small></span></label>`;}).join('')}</div><button id="all-lectures" class="quiet">Select all lectures</button></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,origin:v,filter:'all'}).length})`,settings.origin)).join('')}</select></div><div><label for="category">Image category</label><select id="category">${option('all','All image types',settings.category)}${[...new Set(bank.map(q=>q.category))].map(x=>option(x,`${x} (${filtered(bank,p,{...settings,category:x,filter:'all'}).length})`,settings.category)).join('')}</select></div>${skillPicker('skill',filtered(bank,p,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,p,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><label class="check-row mt"><input type="checkbox" id="resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions in shorter sessions</label><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section><details class="mt" id="lecture-coverage"><summary>Lecture coverage</summary><div id="coverage-content"></div></details>`;
  const coveragePanel=$('#lecture-coverage');
  coveragePanel.ontoggle=async ()=>{
     const content=coveragePanel.querySelector('#coverage-content');
@@ -243,6 +278,13 @@ function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHom
         content.dataset.loaded='true';
     }catch{content.textContent='Lecture coverage could not load. Close and reopen to retry.';}
  };
+ if(weakest){
+    bind('drill-weakest',()=>{
+        if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;
+        p.session=session(weakest.pool,'learn','10',Math.random,{progress:p});
+        save();resetZoom();quiz();window.scrollTo(0,0);
+    });
+ }
  $('#resurface').onchange=event=>{settings.resurface=event.target.checked;saveSettings();};
  for(const id of ['category','filter','origin','skill'])$('#'+id).onchange=e=>{settings[id]=e.target.value;saveSettings();home();$('#'+id).focus({preventScroll:true});};
  document.querySelectorAll('.select-box input[type=radio]').forEach(el=>el.onchange=()=>{const {name,value}=el;settings[name]=value;saveSettings();home();document.querySelector(`input[name="${name}"][value="${value}"]`).focus({preventScroll:true});});
@@ -357,6 +399,34 @@ function choiceImages(q,k){
  if(!pics?.length)return '';
  return `<div class="choice-images">${pics.map(({image,caption,source})=>`<figure class="choice-image"><a href="${esc(image)}" target="_blank" rel="noopener" title="Open full size"><img src="${esc(image)}" alt="${esc(caption)}" loading="lazy" onerror="this.closest('figure').hidden=true"></a><figcaption>${esc(caption)}<span class="fine"> · ${esc(source)}</span></figcaption></figure>`).join('')}</div>`;
 }
+function distractorCompareMarkup(q,it){
+ if(!q.image||q.visual_kind==='table')return '';
+ const optionsWithImages=it.order
+    .map((k,pos)=>({k,pos,pics:q.choice_images?.[k]||[]}))
+    .filter(entry=>entry.pics.length>0);
+ if(!optionsWithImages.length)return '';
+ const preferred=optionsWithImages.find(entry=>entry.k===it.draft&&entry.k!==q.correct_index)||optionsWithImages[0];
+ const firstPic=preferred.pics[0];
+ return `<div class="mt">
+    <button id="toggle-compare" class="quiet" aria-expanded="false">Compare distractor side-by-side</button>
+    <div id="compare-panel" class="compare-panel" hidden>
+        <div class="row spread">
+            <strong>Side-by-side visual comparison</strong>
+            ${optionsWithImages.length>1?`<label class="fine">Compare with: <select id="compare-select">${optionsWithImages.map(entry=>`<option value="${entry.k}" ${entry.k===preferred.k?'selected':''}>${q.case_id?'ABCDE'[entry.pos]:entry.pos+1}. ${esc(q.options[entry.k])}</option>`).join('')}</select></label>`:''}
+        </div>
+        <div class="compare-grid">
+            <figure class="compare-pane">
+                <img src="${esc(q.image)}" alt="Current question image">
+                <figcaption><strong>Question image</strong> · ${esc(q.options[q.correct_index])}</figcaption>
+            </figure>
+            <figure class="compare-pane" id="compare-target">
+                <img src="${esc(firstPic.image)}" alt="${esc(firstPic.caption||q.options[preferred.k])}">
+                <figcaption><strong>${esc(q.options[preferred.k])}</strong>${firstPic.caption?` · ${esc(firstPic.caption)}`:''}</figcaption>
+            </figure>
+        </div>
+    </div>
+ </div>`;
+}
 function choiceFeedback(q,it){
  return it.order.map((k,position)=>{
   const correct=k===q.correct_index;
@@ -365,7 +435,7 @@ function choiceFeedback(q,it){
  }).join('');
 }
 function explainHtml(t){const parts=String(t||'').split(/\s(?=Step \d+\.\s)/).filter(Boolean);return parts.map(x=>`<p>${esc(x)}</p>`).join('');}
-function feedback(q,it){const clues=distinctClues(q),result=!it.locked?'Unanswered':it.overridden?'Corrected with Keanne Button':it.correct?'Correct':'Not quite';return `<section class="feedback" id="feedback"><p class="result ${it.overridden?'override-text':it.locked&&!it.correct?'wrong-text':''}">${result}</p>${explainHtml(q.explanation)}${q.condition_overview?`<h3>About ${esc(q.condition_name)}</h3><p class="condition-overview">${esc(q.condition_overview)}</p>`:''}${clues.length?`<h3>What to notice</h3><ul>${clues.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}${visualFeedback(q)}<h3>Every option explained</h3>${choiceFeedback(q,it)}<p class="citation mt">${q.citations.map(c=>c.page==null?esc(c.document):`${esc(c.document)}, p. ${c.page}`).join('<br>')}</p>${q.visual_kind==='table'?'':`<details><summary>Image provenance</summary><p class="citation">${esc(q.original_filename)}<br>${esc(q.source_id)}<br>${esc(q.source_origin==='lecture'?'Lecture':'Third party')} · ${esc(q.collection)}</p></details>`}${it.locked&&!it.correct?'<button id="keanne">Keanne Button</button><p class="fine">Count this locked answer as correct without changing your selected option or adding an attempt.</p>':''}</section>`;}
+function feedback(q,it){const clues=distinctClues(q),result=!it.locked?'Unanswered':it.overridden?'Corrected with Keanne Button':it.correct?'Correct':'Not quite';return `<section class="feedback" id="feedback"><p class="result ${it.overridden?'override-text':it.locked&&!it.correct?'wrong-text':''}">${result}</p>${explainHtml(q.explanation)}${q.condition_overview?`<h3>About ${esc(q.condition_name)}</h3><p class="condition-overview">${esc(q.condition_overview)}</p>`:''}${clues.length?`<h3>What to notice</h3><ul>${clues.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}${visualFeedback(q)}${distractorCompareMarkup(q,it)}<h3>Every option explained</h3>${choiceFeedback(q,it)}<p class="citation mt">${q.citations.map(c=>c.page==null?esc(c.document):`${esc(c.document)}, p. ${c.page}`).join('<br>')}</p>${q.visual_kind==='table'?'':`<details><summary>Image provenance</summary><p class="citation">${esc(q.original_filename)}<br>${esc(q.source_id)}<br>${esc(q.source_origin==='lecture'?'Lecture':'Third party')} · ${esc(q.collection)}</p></details>`}${it.locked&&!it.correct?'<button id="keanne">Keanne Button</button><p class="fine">Count this locked answer as correct without changing your selected option or adding an attempt.</p>':''}</section>`;}
 const mobileLayout=window.matchMedia('(max-width:850px)');
 function positionQuestion(){const heading=$('#question-heading');if(!heading)return;if(mobileLayout.matches)document.querySelector('.quiz-layout').prepend(heading);else document.querySelector('.question').prepend(heading);}
 mobileLayout.addEventListener('change',positionQuestion);
@@ -407,22 +477,72 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
  const reveal=canReveal(s,it)&&(!caseQuestion||s.complete);
  const scenario=caseQuestion?q.scenario:q.case_context;
  const section=combinedMode?(caseQuestion?cases.find(c=>c.case_id===q.case_id)?.title:sectionLabels[q.studySection]):'';
- root.innerHTML=`<div class="quiz-meta"><span>${s.complete?'Session review':caseMode?'Clinical Cases':s.mode==='learn'?'Learn mode':'Exam mode'} · ${section?esc(section)+' · ':''}${esc(q.collection)}</span><span>${s.index+1} / ${s.items.length} ${s.endless?'· Endless':''}</span><progress max="${s.items.length}" value="${s.index+1}"></progress><button id="finish" class="quiet">${s.complete?'Back to results':caseMode?'Finish case':'Finish session'}</button></div><section class="quiz-layout">${tableQuestion?tableMarkup(q.context_table,reveal):imageMarkup(q,reveal)}<div class="card question"><div class="question-heading" id="question-heading"><p class="eyebrow">${esc(q.category)} · ${caseQuestion?'Visual Question':'Visual practical'}</p>${scenario?`<p class="case-scenario">${esc(scenario)}</p>`:''}<h2>${esc(caseQuestion?q.lead_in:q.stem)}</h2></div><div class="choices">${it.order.map((k,pos)=>`<button class="choice ${it.draft===k?'selected':''} ${reveal&&k===q.correct_index?'correct':''} ${reveal&&it.draft===k&&!it.correct?'wrong':''} ${reveal&&it.draft===k&&it.overridden?'overridden':''}" data-choice="${k}" ${it.locked||s.complete?'disabled':''}><span class="letter">${caseQuestion?'ABCDE'[pos]:pos+1}</span>${esc(q.options[k])}</button>`).join('')}</div><div class="controls"><button id="back" ${s.index===0?'disabled':''} aria-keyshortcuts="ArrowLeft">← Back</button><button id="submit" class="primary" ${it.draft===null||it.locked||s.complete?'disabled':''}>${it.locked?'Answer locked':'Submit answer'}</button><button id="next" aria-keyshortcuts="ArrowRight">${s.index===s.items.length-1&&!s.endless?'Finish':'Next'} →</button></div><div class="row mt"><button id="mark" class="quiet">${p.questions[q.question_id]?.marked?'★ Marked':'☆ Mark for review'}</button>${tableQuestion?'':`<button id="flag" class="quiet">${p.flags[q.question_id]?.status==='open'?'Image flagged':'Flag image'}</button>`}</div><p class="fine">1–${it.order.length} to choose · Enter to submit or advance · ← Back · → Next${tableQuestion?'':' · Z to zoom'}<br>You can skip and return without losing a draft.</p>${!reveal&&it.locked?`<p class="notice">Answer saved. Feedback appears after the ${caseMode?'case':combinedMode?'session':'exam'}.</p>`:''}${reveal?feedback(q,it):''}</div></section>`;
- document.querySelectorAll('[data-choice]').forEach(el=>el.onclick=()=>{it.draft=Number(el.dataset.choice);save();quiz();});
+ const isMarked=Boolean(p.questions[q.question_id]?.marked);
+ root.innerHTML=`<div class="quiz-meta"><span>${s.complete?'Session review':caseMode?'Clinical Cases':s.mode==='learn'?'Learn mode':'Exam mode'} · ${section?esc(section)+' · ':''}${esc(q.collection)}</span><span>${s.index+1} / ${s.items.length} ${s.endless?'· Endless':''}</span><progress max="${s.items.length}" value="${s.index+1}"></progress><button id="finish" class="quiet">${s.complete?'Back to results':caseMode?'Finish case':'Finish session'}</button></div><section class="quiz-layout">${tableQuestion?tableMarkup(q.context_table,reveal):imageMarkup(q,reveal)}<div class="card question"><div class="question-heading" id="question-heading"><p class="eyebrow">${esc(q.category)} · ${caseQuestion?'Visual Question':'Visual practical'}</p>${scenario?`<p class="case-scenario">${esc(scenario)}</p>`:''}<h2>${esc(caseQuestion?q.lead_in:q.stem)}</h2></div><div class="choices">${it.order.map((k,pos)=>`<button class="choice ${it.draft===k?'selected':''} ${reveal&&k===q.correct_index?'correct':''} ${reveal&&it.draft===k&&!it.correct?'wrong':''} ${reveal&&it.draft===k&&it.overridden?'overridden':''}" data-choice="${k}" aria-pressed="${it.draft===k}" ${it.locked||s.complete?'disabled':''}><span class="letter">${caseQuestion?'ABCDE'[pos]:pos+1}</span>${esc(q.options[k])}</button>`).join('')}</div><div class="controls"><button id="back" ${s.index===0?'disabled':''} aria-keyshortcuts="ArrowLeft">← Back</button><button id="submit" class="primary" ${it.draft===null||it.locked||s.complete?'disabled':''}>${it.locked?'Answer locked':'Submit answer'}</button><button id="next" aria-keyshortcuts="ArrowRight">${s.index===s.items.length-1&&!s.endless?'Finish':'Next'} →</button></div><div class="row mt"><button id="mark" class="quiet" aria-pressed="${isMarked}">${isMarked?'★ Marked':'☆ Mark for review'}</button>${tableQuestion?'':`<button id="flag" class="quiet">${p.flags[q.question_id]?.status==='open'?'Image flagged':'Flag image'}</button>`}</div><p class="fine">1–${it.order.length} to choose · Enter to submit or advance · ← Back · → Next · M mark${tableQuestion?'':' · F flag · Z zoom'}<br>You can skip and return without losing a draft.</p>${!reveal&&it.locked?`<p class="notice">Answer saved. Feedback appears after the ${caseMode?'case':combinedMode?'session':'exam'}.</p>`:''}${reveal?feedback(q,it):''}</div></section>`;
+ document.querySelectorAll('[data-choice]').forEach(el=>el.onclick=()=>{
+    if(it.locked||s.complete)return;
+    it.draft=Number(el.dataset.choice);
+    save();
+    document.querySelectorAll('[data-choice]').forEach(btn=>{
+        const active=Number(btn.dataset.choice)===it.draft;
+        btn.classList.toggle('selected',active);
+        btn.setAttribute('aria-pressed',String(active));
+    });
+    const submitBtn=$('#submit');
+    if(submitBtn)submitBtn.disabled=false;
+ });
  bind('submit',()=>{if(answer(p,q,it)){save();quiz();}});bind('back',()=>move(-1));bind('next',()=>move(1));bind('finish',()=>{if(s.complete)results();else if(confirm(caseMode?'Finish this case? Unanswered questions will be reported separately.':'Finish this session? Unanswered questions will be reported separately.'))finish();});
- bind('mark',()=>{const st=p.questions[q.question_id];st.marked=!st.marked;save();quiz();});
+ bind('mark',()=>{
+    const st=p.questions[q.question_id]??={times_seen:0,times_answered:0,correct_count:0,incorrect_count:0,last_result:null,marked:false};
+    st.marked=!st.marked;
+    save();
+    const btn=$('#mark');
+    if(btn){
+        btn.textContent=st.marked?'★ Marked':'☆ Mark for review';
+        btn.setAttribute('aria-pressed',String(st.marked));
+    }
+ });
  bind('flag',()=>{if(caseQuestion)return flagCaseImage(q);const note=prompt('What needs attention in this image?',p.flags[q.question_id]?.note||'');if(note===null)return;p.flags[q.question_id]={question_id:q.question_id,source_id:q.source_id,variant_id:q.variant_id,status:'open',note,date:new Date().toISOString()};save();quiz();toast('Image flagged for review.');});
- bind('keanne',()=>{if(override(p,q,it)){if(s.complete&&Number.isInteger(s.result_index))p.exams[s.result_index]={...p.exams[s.result_index],...totals(s)};save();quiz();}});positionQuestion();if(!tableQuestion)wireImage(q,reveal);
+ bind('keanne',()=>{if(override(p,q,it)){if(s.complete&&Number.isInteger(s.result_index))p.exams[s.result_index]={...p.exams[s.result_index],...totals(s)};save();quiz();}});
+ bind('toggle-compare',()=>{
+    const panel=$('#compare-panel');
+    const btn=$('#toggle-compare');
+    if(!panel||!btn)return;
+    const open=panel.hidden;
+    panel.hidden=!open;
+    btn.setAttribute('aria-expanded',String(open));
+    btn.textContent=open?'Hide side-by-side comparison':'Compare distractor side-by-side';
+ });
+ const compareSelect=$('#compare-select');
+ if(compareSelect){
+    compareSelect.onchange=()=>{
+        const k=Number(compareSelect.value);
+        const pic=q.choice_images?.[k]?.[0];
+        const target=$('#compare-target');
+        if(!pic||!target)return;
+        target.querySelector('img').src=pic.image;
+        target.querySelector('img').alt=pic.caption||q.options[k];
+        target.querySelector('figcaption').innerHTML=`<strong>${esc(q.options[k])}</strong>${pic.caption?` · ${esc(pic.caption)}`:''}`;
+    };
+ }
+ positionQuestion();
+ if(!tableQuestion)wireImage(q,reveal);
+ const nextItem=s.items[s.index+1];
+ const nextQ=nextItem?byId[nextItem.id]:null;
+ if(nextQ?.image&&nextQ.visual_kind!=='table'){
+    const preload=new Image();
+    preload.src=nextQ.image;
+ }
 }
 function move(delta){const s=p.session;if(s.index+delta<0)return;if(s.index+delta>=s.items.length){if(s.endless&&!s.complete){if(combinedMode){const wanted=new Set(s.pool);s.items.push(...combinedSession(STUDY_SECTIONS.map(section=>bank.filter(q=>q.studySection===section.id&&wanted.has(q.question_id))),s.mode,'all').items);}else{const prior=byId[s.items.at(-1).id].source_group_id;s.items.push(...ordered(bank.filter(q=>s.pool.includes(q.question_id)),Math.random,prior).map(q=>item(q)));}}else{return s.complete?results():finish();}}s.index+=delta;resetZoom();save();quiz();window.scrollTo(0,0);}
 function finish(){const s=p.session;if(!s.complete){s.complete=true;s.result_index=p.exams.length;p.exams.push({date:new Date().toISOString(),mode:s.mode,...(caseMode?{case_id:s.case_id}:{}),...totals(s)});save();}results();}
-function scoreBreakdown(s,keyFor){const out={};s.items.forEach(it=>{const q=byId[it.id],key=keyFor(q);let b=out[key]??={correct:0,answered:0};if(it.locked){b.answered++;if(it.correct)b.correct++;}});return out;}
-function results(){screen='results';const s=p.session,t=totals(s),categories=scoreBreakdown(s,q=>q.category),concepts=scoreBreakdown(s,q=>q.tested_concept),
-skills=studySkillStats(s.items.map(it=>({...it,study_skill:byId[it.id].study_skill})),it=>({
+function scoreBreakdown(s,keyFor){const out={};s.items.filter(it=>byId[it.id]).forEach(it=>{const q=byId[it.id],key=keyFor(q);let b=out[key]??={correct:0,answered:0};if(it.locked){b.answered++;if(it.correct)b.correct++;}});return out;}
+function results(){screen='results';const s=p.session,validItems=s.items.filter(it=>byId[it.id]),t=totals(s),categories=scoreBreakdown(s,q=>q.category),concepts=scoreBreakdown(s,q=>q.tested_concept),
+skills=studySkillStats(validItems.map(it=>({...it,study_skill:byId[it.id].study_skill})),it=>({
     correct:Number(it.locked&&!!it.correct),answered:Number(it.locked),
-})),focus=s.items.map((it,i)=>({it,i,q:byId[it.id]})).filter(({it,q})=>it.locked&&!it.correct||p.questions[q.question_id]?.marked);root.innerHTML=`<section class="summary"><p class="eyebrow">${caseMode?'Case complete':'Session complete'}</p><h1>${caseMode?esc(cases.find(c=>c.case_id===s.case_id)?.title):'A closer look,<br>a stronger memory.'}</h1><p class="muted">${t.total-t.unanswered?((t.correct/(t.total-t.unanswered))*100).toFixed(2):'0.00'}% of answered questions correct. Unanswered questions are not scored.</p><div class="stats"><div class="card stat"><strong>${t.correct}</strong><span>Correct</span></div><div class="card stat"><strong>${t.incorrect}</strong><span>Incorrect</span></div><div class="card stat"><strong>${t.unanswered}</strong><span>Unanswered</span></div></div><div class="card"><h2>${caseMode?'Review your case':'Review your session'}</h2>${skillReport(skills)}<h3>Performance by visual category</h3><p class="fine">${Object.entries(categories).map(([k,v])=>`${esc(k)} ${v.correct}/${v.answered} answered`).join(' · ')}</p><details><summary>Performance by tested concept · ${Object.keys(concepts).length} concepts</summary>${Object.entries(concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct}/${v.answered} answered</p>`).join('')}</details><div class="row mt">${caseMode?'':`<button id="retry" ${!t.incorrect?'disabled':''}>${combinedMode?'Retry missed questions and cases':'Retry missed questions'}</button>`}<button id="again" class="primary">${caseMode?'All cases':'New practice'}</button></div><h3 class="mt">Missed and marked questions</h3>${focus.length?focus.map(({it,i,q})=>`<p class="row spread"><span>${i+1}. ${esc(q.tested_concept)}${p.questions[q.question_id]?.marked?' ★':''}</span><button data-review="${i}" class="quiet">${it.overridden?'Corrected':it.correct?'Marked':'Incorrect'} · Review</button></p>`).join(''):'<p class="fine">No missed or marked questions in this session.</p>'}<details class="mt" ${caseMode?'open':''}><summary>Review every question</summary>${s.items.map((it,i)=>`<p class="row spread"><span>${i+1}. ${esc(byId[it.id].tested_concept)}${p.questions[it.id]?.marked?' ★':''}</span><button data-review="${i}" class="quiet">${!it.locked?'Unanswered':it.overridden?'Corrected':it.correct?'Correct':'Incorrect'} · Review</button></p>`).join('')}</details></div></section>`;
+})),focus=s.items.map((it,i)=>({it,i,q:byId[it.id]})).filter(({it,q})=>q&&(it.locked&&!it.correct||p.questions[q.question_id]?.marked));root.innerHTML=`<section class="summary"><p class="eyebrow">${caseMode?'Case complete':'Session complete'}</p><h1>${caseMode?esc(cases.find(c=>c.case_id===s.case_id)?.title):'A closer look,<br>a stronger memory.'}</h1><p class="muted">${t.total-t.unanswered?((t.correct/(t.total-t.unanswered))*100).toFixed(2):'0.00'}% of answered questions correct. Unanswered questions are not scored.</p><div class="stats"><div class="card stat"><strong>${t.correct}</strong><span>Correct</span></div><div class="card stat"><strong>${t.incorrect}</strong><span>Incorrect</span></div><div class="card stat"><strong>${t.unanswered}</strong><span>Unanswered</span></div></div><div class="card"><h2>${caseMode?'Review your case':'Review your session'}</h2>${skillReport(skills)}<h3>Performance by visual category</h3><p class="fine">${Object.entries(categories).map(([k,v])=>`${esc(k)} ${v.correct}/${v.answered} answered`).join(' · ')}</p><details><summary>Performance by tested concept · ${Object.keys(concepts).length} concepts</summary>${Object.entries(concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct}/${v.answered} answered</p>`).join('')}</details><div class="row mt">${caseMode?'':`<button id="retry" ${!t.incorrect?'disabled':''}>${combinedMode?'Retry missed questions and cases':'Retry missed questions'}</button>`}<button id="again" class="primary">${caseMode?'All cases':'New practice'}</button></div><h3 class="mt">Missed and marked questions</h3>${focus.length?focus.map(({it,i,q})=>`<p class="row spread"><span>${i+1}. ${esc(q.tested_concept)}${p.questions[q.question_id]?.marked?' ★':''}</span><button data-review="${i}" class="quiet">${it.overridden?'Corrected':it.correct?'Marked':'Incorrect'} · Review</button></p>`).join(''):'<p class="fine">No missed or marked questions in this session.</p>'}<details class="mt" ${caseMode?'open':''}><summary>Review every question</summary>${s.items.map((it,i)=>byId[it.id]?`<p class="row spread"><span>${i+1}. ${esc(byId[it.id].tested_concept)}${p.questions[it.id]?.marked?' ★':''}</span><button data-review="${i}" class="quiet">${!it.locked?'Unanswered':it.overridden?'Corrected':it.correct?'Correct':'Incorrect'} · Review</button></p>`:'').join('')}</details></div></section>`;
  document.querySelectorAll('[data-review]').forEach(el=>el.onclick=()=>{s.index=Number(el.dataset.review);resetZoom();quiz();});bind('again',home);bind('retry',()=>{
-    const missed=s.items.filter(i=>i.locked&&!i.correct).map(i=>byId[i.id]);
+    const missed=s.items.filter(i=>i.locked&&!i.correct&&byId[i.id]).map(i=>byId[i.id]);
     const ids=new Set(missed.map(q=>q.question_id));
     if(combinedMode){
         const missedCases=new Set(missed.filter(q=>q.case_id).map(q=>q.case_id));
@@ -458,7 +578,25 @@ function progress(){screen='progress';const stats=Object.values(p.questions),n=s
 }))}${sessionHistory()}<h3 class="mt">Concept practice</h3>${Object.entries(p.concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct} correct / ${v.correct+v.incorrect} answered</p>`).join('')||'<p class="fine">Your first session will appear here.</p>'}</div></section>`;
  bind('legacy-export',()=>{try{download('reproduction-previous-combined-progress.json',JSON.parse(localStorage.getItem(LEGACY_KEY)));}catch{toast('Previous progress could not be read.');}});bind('export',()=>download(CONFIG.exportName,p));bind('reset',()=>{if(confirm('Reset all local progress, sessions, flags, and review decisions? Source images and questions will not change.')){storageLocked=false;p=empty();if(CONFIG.id==='pathology')p.supplementaryProgressImported=true;save();progress();}});$('#import').onchange=async e=>{try{let f=e.target.files[0];if(!f)return;if(f.size>5e6)throw Error('File is too large.');let incoming=validateImport(JSON.parse(await f.text()),bank,caseMode?cases:[],retired);if(confirm('Replace this browser’s progress with this export?')){storageLocked=false;p=incoming;reconcileFlags(p,remediation);save();progress();toast('Progress imported.');}}catch(e){toast(e.message);}};
 }
+
 const reviewPageSize=48;
+const reviewActions=[['approve','approve transformation','A'],['retain','retain','R'],['crop','crop','C'],['exclude','exclude','E'],['needs_review','needs review','N']];
+
+function applyReviewDecision(sourceId,action){
+    const answerEl=document.getElementById('answer-'+sourceId);
+    const noteEl=document.getElementById('note-'+sourceId);
+    const statusEl=document.getElementById('decision-'+sourceId);
+    p.decisions[sourceId]={
+        action,
+        proposed_answer:answerEl?answerEl.value.trim():'',
+        note:noteEl?noteEl.value:'',
+        date:new Date().toISOString()
+    };
+    save();
+    if(statusEl)statusEl.textContent='Saved · '+action;
+    toast(`Saved · ${action}`);
+}
+
 async function review(page=0){
  screen='review';
  root.innerHTML='<p class="notice">Loading source review…</p>';
@@ -471,19 +609,111 @@ async function review(page=0){
     return;
  }
  if(screen!=='review'||root.firstElementChild!==loading)return;
- const count=manifest.sources.length;
+
+ const flags=Object.values(p.flags);
+ const openFlagSourceIds=new Set(flags.filter(f=>f.status==='open').map(f=>f.source_id));
+ const sourceQuestions=new Map(bank.map(q=>[q.source_id,q]));
+
+ const filteredSources=manifest.sources.filter(s=>{
+    if(reviewFilter==='flagged')return openFlagSourceIds.has(s.source_id);
+    if(reviewFilter==='unusable')return s.status!=='USABLE';
+    if(reviewFilter==='undecided')return !p.decisions[s.source_id];
+    return true;
+ });
+
+ const count=filteredSources.length;
+ const maxPage=Math.max(0,Math.ceil(count/reviewPageSize)-1);
+ page=Math.min(Math.max(0,page),maxPage);
+ triageIndex=Math.min(Math.max(0,triageIndex),Math.max(0,count-1));
+
+ const visibleSources=triageMode
+    ?(count?[filteredSources[triageIndex]]:[])
+    :filteredSources.slice(page*reviewPageSize,(page+1)*reviewPageSize);
+
  const start=page*reviewPageSize;
- const sourceNav=count<=reviewPageSize?'':`<div class="row mt" aria-label="Source pages"><button id="source-prev" ${page?'':'disabled'}>Previous sources</button><span class="fine" role="status">${count?start+1:0}–${Math.min(start+reviewPageSize,count)} of ${count}</span><button id="source-next" ${start+reviewPageSize<count?'':'disabled'}>Next sources</button></div>`;
+ const sourceNav=triageMode
+    ?(count?`<div class="row mt" aria-label="Triage navigation">
+        <button id="triage-prev" ${triageIndex===0?'disabled':''}>← Previous</button>
+        <span class="fine" role="status">Card ${triageIndex+1} of ${count}</span>
+        <button id="triage-next" ${triageIndex>=count-1?'disabled':''}>Next →</button>
+      </div>`:'')
+    :(count<=reviewPageSize?'':`<div class="row mt" aria-label="Source pages"><button id="source-prev" ${page?'':'disabled'}>Previous sources</button><span class="fine" role="status">${count?start+1:0}–${Math.min(start+reviewPageSize,count)} of ${count}</span><button id="source-next" ${start+reviewPageSize<count?'':'disabled'}>Next sources</button></div>`);
+
  const referenceCount=manifest.sources.filter(s=>s.status!=='USABLE').length;
- const flags=Object.values(p.flags),sourceQuestions=new Map(bank.map(q=>[q.source_id,q]));root.innerHTML=`<p class="eyebrow">Reviewer workspace · Answers visible</p><h1>Sources, not shortcuts.</h1><p class="muted">${manifest.sources.length} source files inventoried. ${new Set(bank.map(q=>q.source_group_id)).size} distinct visual source groups support scored tasks. ${referenceCount} ${referenceCount===1?'remains':'remain'} teaching references or alternate annotated views.</p><div class="row"><button id="export-flags">Export flags & decisions</button><button id="open-flags">${flags.filter(f=>f.status==='open').length} open image flags</button></div><div class="card mt"><h3>Learner image flags</h3>${flags.length?flags.map(f=>`<div class="rationale"><p>${esc(byId[f.question_id]?.tested_concept||retired.find(q=>q.question_id===f.question_id)?.tested_concept||f.question_id)} · ${esc(f.status)}${retired.some(q=>q.question_id===f.question_id)?' · Reference only':''}</p><p>${esc(f.note)}</p><button data-flag="${esc(f.question_id)}">${f.status==='open'?'Mark resolved':'Reopen flag'}</button></div>`).join(''):'<p class="fine">No image flags yet. Use Flag image during a quiz to record a problem.</p>'}</div>${sourceNav}<div class="grid mt">${manifest.sources.slice(start,start+reviewPageSize).map(s=>{const citation=s.source_citation||{},q=sourceQuestions.get(s.source_id),decision=p.decisions[s.source_id],variant=q?s.variants?.find(v=>v.variant_id===q.variant_id):null,proposed=decision?.proposed_answer||q?.options?.[q.correct_index]||s.tested_concept||'';return `<article class="card review-item"><span class="tag">${esc(s.status)}</span><h3 class="mt">${esc(s.tested_concept)}</h3><img class="review-img" src="${esc(s.display_asset||s.original_asset)}" alt="Teaching source for review" loading="lazy" decoding="async"><p>${esc(s.study_status_note||s.review_reason)}</p><p class="fine"><strong>Ground truth</strong><br>${esc(q?.ground_truth_confidence||'Not scored')} confidence · ${esc(q?.ground_truth_basis||s.ground_truth_basis||'No basis recorded')}</p><p class="fine"><strong>Accepted synonyms</strong><br>${q?.accepted_synonyms?.length?q.accepted_synonyms.map(esc).join(', '):'None recorded'}</p><p class="fine"><strong>Source group and transform</strong><br>${esc(s.source_group_id)} · ${esc(variant?.transform?.type||s.transform?.type||'No scored transform')} · ${esc(variant?.transform?.reason||s.transform?.reason||'')}</p><details><summary>Source and full image</summary><a href="${esc(s.original_asset||s.display_asset)}" target="_blank" rel="noopener">Open review image at full size</a><p>${esc(s.relative_path)}<br>${esc(citation.document||'Source not recorded')}${citation.page==null?' (page not verified)':`, p. ${citation.page}`}</p><p>${esc(s.source_id)}</p></details><label for="answer-${s.source_id}">Proposed correct answer</label><input id="answer-${s.source_id}" value="${esc(proposed)}"><label for="note-${s.source_id}" class="mt">Review note or correction rationale</label><textarea id="note-${s.source_id}">${esc(decision?.note||'')}</textarea><div class="pill-actions mt">${[['approve','approve transformation'],['retain','retain'],['crop','crop'],['exclude','exclude'],['needs_review','needs review']].map(([a,label])=>`<button data-decision="${esc(s.source_id)}" data-action="${a}" data-n="${s.source_id}">${label}</button>`).join('')}</div><p class="fine" id="decision-${s.source_id}">${esc(decision?.action||'No local decision')}</p></article>`;}).join('')}</div><p class="notice mt">Review decisions are saved locally and exportable. They do not silently alter the scored bank. Approved corrections need a rebuilt and validated bank before activation.</p>`;
+ const openFlagCount=flags.filter(f=>f.status==='open').length;
+ const undecidedCount=manifest.sources.filter(s=>!p.decisions[s.source_id]).length;
+
+ const filterOptions=[
+    ['all',`All (${manifest.sources.length})`],
+    ['flagged',`Open flags (${openFlagCount})`],
+    ['unusable',`Reference / non-USABLE (${referenceCount})`],
+    ['undecided',`No decision yet (${undecidedCount})`]
+ ];
+
+ root.innerHTML=`<p class="eyebrow">Reviewer workspace · Answers visible</p><h1>Sources, not shortcuts.</h1><p class="muted">${manifest.sources.length} source files inventoried. ${new Set(bank.map(q=>q.source_group_id)).size} distinct visual source groups support scored tasks. ${referenceCount} ${referenceCount===1?'remains':'remain'} teaching references or alternate annotated views.</p>
+ <div class="row">
+    <button id="export-flags">Export flags & decisions</button>
+    <button id="open-flags">${openFlagCount} open image flags</button>
+    <button id="toggle-triage" class="quiet" aria-pressed="${triageMode}">${triageMode?'Exit single-card triage (T)':'Single-card triage mode (T)'}</button>
+ </div>
+ ${triageMode?'<p class="fine mt">Triage shortcuts (when not typing in a field): <strong>A</strong> approve · <strong>R</strong> retain · <strong>C</strong> crop · <strong>E</strong> exclude · <strong>N</strong> needs review (auto-advances) · <strong>←/→</strong> step</p>':''}
+ <div class="filter-pills" role="group" aria-label="Filter review sources">
+    ${filterOptions.map(([id,label])=>`<button class="quiet" data-review-filter="${id}" aria-pressed="${reviewFilter===id}">${label}</button>`).join('')}
+ </div>
+ <div class="card mt"><h3>Learner image flags</h3>${flags.length?flags.map(f=>`<div class="rationale"><p>${esc(byId[f.question_id]?.tested_concept||retired.find(q=>q.question_id===f.question_id)?.tested_concept||f.question_id)} · ${esc(f.status)}${retired.some(q=>q.question_id===f.question_id)?' · Reference only':''}</p><p>${esc(f.note)}</p><button data-flag="${esc(f.question_id)}">${f.status==='open'?'Mark resolved':'Reopen flag'}</button></div>`).join(''):'<p class="fine">No image flags yet. Use Flag image during a quiz to record a problem.</p>'}</div>
+ ${sourceNav}
+ ${count?`<div class="grid ${triageMode?'triage-grid':''} mt">${visibleSources.map(s=>{const citation=s.source_citation||{},q=sourceQuestions.get(s.source_id),decision=p.decisions[s.source_id],variant=q?s.variants?.find(v=>v.variant_id===q.variant_id):null,proposed=decision?.proposed_answer||q?.options?.[q.correct_index]||s.tested_concept||'';return `<article class="card review-item" data-active-source="${esc(s.source_id)}"><span class="tag">${esc(s.status)}</span><h3 class="mt">${esc(s.tested_concept)}</h3><img class="review-img" src="${esc(s.display_asset||s.original_asset)}" alt="Teaching source for review" loading="lazy" decoding="async"><p>${esc(s.study_status_note||s.review_reason)}</p><p class="fine"><strong>Ground truth</strong><br>${esc(q?.ground_truth_confidence||'Not scored')} confidence · ${esc(q?.ground_truth_basis||s.ground_truth_basis||'No basis recorded')}</p><p class="fine"><strong>Accepted synonyms</strong><br>${q?.accepted_synonyms?.length?q.accepted_synonyms.map(esc).join(', '):'None recorded'}</p><p class="fine"><strong>Source group and transform</strong><br>${esc(s.source_group_id)} · ${esc(variant?.transform?.type||s.transform?.type||'No scored transform')} · ${esc(variant?.transform?.reason||s.transform?.reason||'')}</p><details><summary>Source and full image</summary><a href="${esc(s.original_asset||s.display_asset)}" target="_blank" rel="noopener">Open review image at full size</a><p>${esc(s.relative_path)}<br>${esc(citation.document||'Source not recorded')}${citation.page==null?' (page not verified)':`, p. ${citation.page}`}</p><p>${esc(s.source_id)}</p></details><label for="answer-${esc(s.source_id)}">Proposed correct answer</label><input id="answer-${esc(s.source_id)}" value="${esc(proposed)}"><label for="note-${esc(s.source_id)}" class="mt">Review note or correction rationale</label><textarea id="note-${esc(s.source_id)}">${esc(decision?.note||'')}</textarea><div class="pill-actions mt">${reviewActions.map(([a,label,shortcut])=>`<button data-decision="${esc(s.source_id)}" data-action="${a}">${label}${triageMode?` (${shortcut})`:''}</button>`).join('')}</div><p class="fine" id="decision-${esc(s.source_id)}">${esc(decision?.action||'No local decision')}</p></article>`;}).join('')}</div>`:'<p class="muted mt">No sources match the active filter.</p>'}
+ <p class="notice mt">Review decisions are saved locally and exportable. They do not silently alter the scored bank. Approved corrections need a rebuilt and validated bank before activation.</p>`;
+
  bind('source-prev',()=>{review(page-1);window.scrollTo(0,0);});
  bind('source-next',()=>{review(page+1);window.scrollTo(0,0);});
- bind('export-flags',()=>download('reproduction-image-review.json',{schema_version:1,bank_version:bankVersion,flags:p.flags,decisions:p.decisions}));bind('open-flags',()=>document.querySelector('.card.mt').scrollIntoView());document.querySelectorAll('[data-flag]').forEach(el=>el.onclick=()=>{const f=p.flags[el.dataset.flag];f.status=f.status==='open'?'resolved':'open';f.date=new Date().toISOString();save();review(page);});document.querySelectorAll('[data-decision]').forEach(el=>el.onclick=()=>{p.decisions[el.dataset.decision]={action:el.dataset.action,proposed_answer:$('#answer-'+el.dataset.n).value.trim(),note:$('#note-'+el.dataset.n).value,date:new Date().toISOString()};save();$('#decision-'+el.dataset.n).textContent='Saved · '+el.dataset.action;toast('Review decision saved locally.');});
+ bind('triage-prev',()=>{if(triageIndex>0){triageIndex--;review(page);window.scrollTo(0,0);}});
+ bind('triage-next',()=>{if(triageIndex<count-1){triageIndex++;review(page);window.scrollTo(0,0);}});
+ bind('toggle-triage',()=>{triageMode=!triageMode;triageIndex=page*reviewPageSize;review(page);});
+ document.querySelectorAll('[data-review-filter]').forEach(btn=>btn.onclick=()=>{
+    reviewFilter=btn.dataset.reviewFilter;
+    triageIndex=0;
+    review(0);
+ });
+ bind('export-flags',()=>download('reproduction-image-review.json',{schema_version:1,bank_version:bankVersion,flags:p.flags,decisions:p.decisions}));
+ bind('open-flags',()=>document.querySelector('.card.mt').scrollIntoView());
+ document.querySelectorAll('[data-flag]').forEach(el=>el.onclick=()=>{const f=p.flags[el.dataset.flag];f.status=f.status==='open'?'resolved':'open';f.date=new Date().toISOString();save();review(page);});
+ document.querySelectorAll('[data-decision]').forEach(el=>el.onclick=()=>{
+    applyReviewDecision(el.dataset.decision,el.dataset.action);
+    if(triageMode&&triageIndex<count-1){triageIndex++;review(page);window.scrollTo(0,0);}
+ });
 }
+
 document.addEventListener('keydown', event => {
     const { key, target } = event;
-    if (screen !== 'quiz' || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey ||
+    if (event.altKey || event.ctrlKey || event.metaKey ||
         target.isContentEditable || target.closest?.('input, textarea, select') || $('dialog[open]')) return;
+
+    if (screen === 'review') {
+        if (event.shiftKey) return;
+        const lower = key.toLowerCase();
+        if (lower === 't') {
+            event.preventDefault();
+            $('#toggle-triage')?.click();
+            return;
+        }
+        if (triageMode) {
+            if (key === 'ArrowLeft') { event.preventDefault(); $('#triage-prev')?.click(); return; }
+            if (key === 'ArrowRight') { event.preventDefault(); $('#triage-next')?.click(); return; }
+            const matched = reviewActions.find(([,, shortcut]) => shortcut.toLowerCase() === lower);
+            const activeCard = document.querySelector('[data-active-source]');
+            if (matched && activeCard) {
+                event.preventDefault();
+                applyReviewDecision(activeCard.dataset.activeSource, matched[0]);
+                const nextBtn = $('#triage-next');
+                if (nextBtn && !nextBtn.disabled) nextBtn.click();
+                return;
+            }
+        }
+        return;
+    }
+
+    if (screen !== 'quiz' || event.shiftKey) return;
 
     if (key === 'ArrowLeft' || key === 'ArrowRight') {
         event.preventDefault();
@@ -501,6 +731,10 @@ document.addEventListener('keydown', event => {
         else $('#next')?.click();
     } else if (key.toLowerCase() === 'z') {
         (zoom > 1 ? $('#fit') : $('#zoom-in'))?.click();
+    } else if (key.toLowerCase() === 'm') {
+        $('#mark')?.click();
+    } else if (key.toLowerCase() === 'f') {
+        $('#flag')?.click();
     }
 });
 const DATA_VERSION='dev';
