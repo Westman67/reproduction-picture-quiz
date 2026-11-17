@@ -7533,7 +7533,7 @@
       "asset_id": "a-e774edea37965764c7aefdb608019323a89b8e6e9200ff24f0a2f927d6746a35",
       "variant_id": "v-aca1bd8951bc84d81d3c",
       "question_type": "Clinical visual question",
-      "tested_concept": "Pleural fluid cytology and nuclear atypia",
+      "tested_concept": "Which feature makes the larger cell population concerning for malignancy, and what does that imply for the next step?",
       "visual_target": "Pleural fluid cytology and nuclear atypia",
       "category": "Cytology",
       "collection": "R29",
@@ -7542,23 +7542,23 @@
       "zoom_image": "assets/zoom/de2a24c04bcbcbaa318afe9a04ffc61f8ae0611c13201e394e929f78c0d0edb8.webp",
       "original_image": "assets/zoom/de2a24c04bcbcbaa318afe9a04ffc61f8ae0611c13201e394e929f78c0d0edb8.webp",
       "original_filename": "Case 1 Pleural Fluid Cytology A - Histology.png",
-      "stem": "In the pleural fluid sample, which feature makes the larger cell population concerning for malignancy?",
+      "stem": "Which feature makes the larger cell population concerning for malignancy, and what does that imply for the next step?",
       "options": [
-        "Uniform small round nuclei with fine chromatin throughout",
-        "Abundant cytoplasm surrounding tiny bland nuclei",
-        "High nuclear-to-cytoplasmic ratios with prominent nucleoli",
-        "Predominantly multilobed nuclei with segmented chromatin",
-        "Many elongated spindle cells with tapered nuclei"
+        "High nuclear to cytoplasmic ratios with prominent nucleoli, so additional stains on the fluid and a search for a primary site such as the ovary are needed",
+        "Small round uniform nuclei with abundant cytoplasm, so the fluid is benign and needs no work up",
+        "Multinucleated giant cells with granulomas, so the diagnosis is tuberculosis only",
+        "Foamy histiocytes with laminated inclusions, so the diagnosis is malakoplakia",
+        "Nuclear halos with perinuclear clearing, so the cells represent HPV infection"
       ],
-      "correct_index": 2,
+      "correct_index": 0,
       "choice_rationales": [
-        "Small nuclei belong to the background population. The larger population has much more conspicuous nuclei. This choice describes benign small round cells.",
-        "In the atypical cells the nucleus is large relative to the surrounding cytoplasm. This choice describes benign cells with abundant cytoplasm.",
-        "The large nuclei occupy much of the cell and show conspicuous nucleoli. This choice describes malignant cells with a high nuclear-to-cytoplasmic ratio and prominent nucleoli, which is what the image shows.",
-        "The atypical cells have large, mostly single nuclei. This choice describes neutrophils.",
-        "The abnormal cells in this field are rounded rather than spindle shaped. This choice describes spindle cell tumor cells."
+        "High N/C ratio and prominent nucleoli are malignant cytologic features that demand work up.",
+        "Uniform small nuclei would be reassuring and do not describe these cells.",
+        "Granulomas would not make the large cell population malignant.",
+        "Malakoplakia is a bladder condition.",
+        "Koilocytes are a cervical HPV change and not a pleural fluid finding."
       ],
-      "explanation": "Large atypical nuclei occupy much of the cells. Several have prominent nucleoli and irregular contours. Smaller background mononuclear cells provide a size comparison.",
+      "explanation": "Step 1. High nuclear to cytoplasmic ratios with prominent nucleoli are malignant features that make the large cell population concerning, so the smear is not normal. Step 2. In a woman with bloating and bilateral effusions, the differential includes ovarian and other metastatic carcinomas, so additional tests such as immunostains on the fluid and a clinical search for the primary tumor follow. The packet asks for the differential and next tests, and the inference about ovarian origin comes from the clinical setting.",
       "visual_clues": [
         "Compare a large atypical nucleus with the small dark nuclei nearby."
       ],
@@ -7584,20 +7584,21 @@
         }
       ],
       "case_id": "r29-pleural",
-      "scenario": "An older adult has progressive dyspnea, abdominal bloating, and bilateral pleural effusions. Two fields from the drained pleural fluid are shown.",
-      "lead_in": "In the pleural fluid sample, which feature makes the larger cell population concerning for malignancy?",
+      "scenario": "A 66-year-old obese woman has several months of worsening dyspnea and abdominal bloating. Chest x-ray shows bilateral pleural effusions, and a right thoracentesis drains about 500 cc of turbid fluid. The smear shows a population of large cells next to small inflammatory cells.",
+      "lead_in": "Which feature makes the larger cell population concerning for malignancy, and what does that imply for the next step?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 30,
           "y": 28,
           "label": "A larger atypical cell in the cluster contrasts with smaller background cells."
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pleural-b-case",
@@ -7606,7 +7607,7 @@
       "asset_id": "a-8b912641d3ee13d130b60eec3bb0a72885857ab5293925382ae333e56fae17f5",
       "variant_id": "v-ea9af0a83c7dc7fed982",
       "question_type": "Clinical visual question",
-      "tested_concept": "Papillary appearing clusters in pleural fluid",
+      "tested_concept": "Which interpretation best respects the limits of pleural fluid cytology for this cluster?",
       "visual_target": "Papillary appearing clusters in pleural fluid",
       "category": "Cytology",
       "collection": "R29",
@@ -7615,23 +7616,23 @@
       "zoom_image": "assets/zoom/a72e5ecbedf4c093384757816a9fe2174d14955dff6e5a52f8fd4661776f3482.webp",
       "original_image": "assets/zoom/a72e5ecbedf4c093384757816a9fe2174d14955dff6e5a52f8fd4661776f3482.webp",
       "original_filename": "Case 1 Pleural Fluid Cytology B - Histology.png",
-      "stem": "Given the cluster in this second field, which interpretation best respects the limits of pleural fluid cytology?",
+      "stem": "Which interpretation best respects the limits of pleural fluid cytology for this cluster?",
       "options": [
-        "Papillary cluster proves an ovarian primary site by morphology",
-        "Papillary cluster proves a primary pleural mesothelioma by itself",
-        "A flat sheet of evenly spaced bland cells without crowding",
-        "Papillary appearing atypical cluster with primary site unresolved",
-        "Only dispersed small lymphocytes without any atypical cluster"
+        "It proves lung origin because the fluid is pleural",
+        "It proves ovarian origin on cytology alone",
+        "It excludes malignancy because clusters are benign",
+        "It is a papillary appearing atypical cluster consistent with metastatic carcinoma, but cytology alone cannot name the primary site",
+        "It proves mesothelioma because papillary clusters are always mesothelial"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The guide identifies the ovarian primary after follow-up testing. This choice describes an ovarian primary proven by morphology.",
-        "Papillary appearance may occur in mesothelioma and several carcinomas. This choice describes primary pleural mesothelioma proven by morphology.",
-        "The large cluster is crowded and three dimensional. This choice describes a benign flat sheet.",
-        "The architecture supports a neoplastic differential. The cytology alone does not establish the organ of origin. This choice describes an atypical papillary cluster with an unresolved primary site, which is what the image shows.",
-        "Small background cells coexist with the prominent atypical cluster. This choice describes only lymphocytes."
+        "The fluid location does not prove the tumor originated in the lung.",
+        "Cytology alone cannot prove ovarian origin.",
+        "A malignant looking cluster does not exclude cancer.",
+        "Cytology shows malignant looking papillary clusters but cannot name the primary site.",
+        "Papillary clusters are not always mesothelial."
       ],
-      "explanation": "The crowded cluster has a papillary appearance. The guide includes metastatic carcinoma and mesothelioma in the initial differential. The subsequent workup established high-grade serous carcinoma of ovarian origin.",
+      "explanation": "Step 1. A papillary appearing cluster of atypical cells in an effusion is consistent with an adenocarcinoma, such as a papillary serous type from the ovary or other primaries. Step 2. Cytology shows cell morphology but does not by itself assign the origin, so immunostains and imaging are needed to resolve the primary site. The case stresses that the large cell population is malignant while the site remains unresolved.",
       "visual_clues": [
         "Examine the contour and crowding of the large central cluster."
       ],
@@ -7657,12 +7658,12 @@
         }
       ],
       "case_id": "r29-pleural",
-      "scenario": "An older adult has progressive dyspnea, abdominal bloating, and bilateral pleural effusions. Two fields from the drained pleural fluid are shown.",
-      "lead_in": "Given the cluster in this second field, which interpretation best respects the limits of pleural fluid cytology?",
+      "scenario": "A 66-year-old obese woman has several months of worsening dyspnea and abdominal bloating. Chest x-ray shows bilateral pleural effusions, and a right thoracentesis drains about 500 cc of turbid fluid. A second field shows a papillary appearing cluster of atypical cells.",
+      "lead_in": "Which interpretation best respects the limits of pleural fluid cytology for this cluster?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "study_skill": "interpretation",
       "feedback_focus": [
         {
@@ -7670,7 +7671,8 @@
           "y": 35,
           "label": "Crowded atypical cells in the second field."
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pleural-depth-stain-panel",
@@ -7680,28 +7682,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Interpreting a pleural fluid immunostain panel",
+      "reasoning_type": "second or third order",
+      "tested_concept": "How do these results weigh on the two alternatives?",
       "visual_target": "Interpreting a pleural fluid immunostain panel",
-      "scenario": "An older adult has progressive dyspnea, abdominal bloating, and bilateral pleural effusions. Initial cytology shows suspicious cells.",
-      "lead_in": "The guide uses CDX2 to assess colorectal origin and calretinin to assess mesothelial origin. How do this patient’s results weigh those two alternatives?",
-      "stem": "The guide uses CDX2 to assess colorectal origin and calretinin to assess mesothelial origin. How do this patient’s results weigh those two alternatives?",
+      "scenario": "A 66-year-old obese woman has several months of worsening dyspnea and abdominal bloating. Chest x-ray shows bilateral pleural effusions, and a right thoracentesis drains about 500 cc of turbid fluid. Suspicious cells are seen on cytology. The pathologist uses CDX2 to assess colorectal origin and calretinin to assess mesothelial origin. Both stains are negative in the tumor cells.",
+      "lead_in": "How do these results weigh on the two alternatives?",
+      "stem": "How do these results weigh on the two alternatives?",
       "options": [
-        "The colorectal alternative is supported while the mesothelial alternative is less supported",
-        "The mesothelial alternative is supported while the colorectal alternative is less supported",
-        "Both alternatives are supported because both relevant stains are positive",
-        "Both alternatives are less supported because both relevant stains are negative",
-        "The colorectal alternative can be evaluated but the mesothelial marker was not measured"
+        "Negative stains show the fluid is a transudate",
+        "Colorectal origin is proven because CDX2 is negative",
+        "Both stains negative prove the cells are benign",
+        "Mesothelioma is proven because calretinin is negative",
+        "Both alternatives are less supported because both relevant stains are negative, so another primary such as ovarian origin is more likely"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "CDX2 is negative, so the panel does not support a colorectal primary through that marker. Calretinin is also negative, weakening the mesothelial alternative. This choice describes a colorectal primary favored over a mesothelial one.",
-        "Calretinin is negative, weakening the mesothelial alternative. Negative CDX2 likewise supplies no support for a colorectal primary. This choice describes a mesothelial origin favored over a colorectal one.",
-        "CDX2 and calretinin are both negative in the effusion. These results weigh against colorectal and mesothelial origin, respectively. This choice describes support for both origins.",
-        "Negative CDX2 and calretinin weaken the colorectal and mesothelial alternatives, respectively. The combined positive pattern supports Müllerian origin in the case. This choice describes neither a colorectal nor a mesothelial origin (CDX2 and calretinin both negative), which is what the image shows.",
-        "The panel includes a measured negative calretinin result, which weakens the mesothelial alternative. CDX2 was also measured and is negative. This choice describes an unmeasured mesothelial marker."
+        "Stain results do not decide transudate versus exudate.",
+        "A negative CDX2 argues against, not for, colorectal origin.",
+        "Negative stains do not make malignant looking cells benign.",
+        "A negative calretinin argues against mesothelioma.",
+        "Negative CDX2 and calretinin lower the likelihood of colorectal and mesothelial origin."
       ],
-      "explanation": "CDX2 and calretinin are both negative in the fluid. The guide weighs those negative results against the combined positive pattern, which supports Müllerian origin.",
+      "explanation": "Step 1. CDX2 is a marker of intestinal (colorectal) differentiation and calretinin is a marker of mesothelial cells, so negativity argues against both origins. Step 2. With bloating and effusions in an older woman, the tumor is more likely a gynecologic primary, particularly ovarian, which would be pursued with additional markers and imaging. A negative stain does not make the cells benign.",
       "visual_clues": [
         "CDX2 and calretinin are both negative in the fluid."
       ],
@@ -7763,7 +7765,8 @@
           "page": 7
         }
       ],
-      "study_skill": "stain"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pleural-depth-gross-ovary",
@@ -7773,28 +7776,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Gross ovarian tissue in the follow-up differential",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which gross combination in the ovarian specimen would support an ovarian primary, and how does this explain her effusions?",
       "visual_target": "Gross ovarian tissue in the follow-up differential",
-      "scenario": "An older adult has progressive dyspnea, abdominal bloating, and bilateral pleural effusions. Initial cytology shows suspicious cells.",
-      "lead_in": "This companion ovarian specimen illustrates the gross changes discussed at follow-up. Which combination is visible across the abnormal surfaces?",
-      "stem": "This companion ovarian specimen illustrates the gross changes discussed at follow-up. Which combination is visible across the abnormal surfaces?",
+      "scenario": "A 66-year-old obese woman has several months of worsening dyspnea and abdominal bloating. Chest x-ray shows bilateral pleural effusions, and a right thoracentesis drains about 500 cc of turbid fluid. Initial cytology shows suspicious cells, and imaging shows pelvic masses. A companion ovarian specimen illustrates gross changes discussed at follow up.",
+      "lead_in": "Which gross combination in the ovarian specimen would support an ovarian primary, and how does this explain her effusions?",
+      "stem": "Which gross combination in the ovarian specimen would support an ovarian primary, and how does this explain her effusions?",
       "options": [
-        "A single thin walled cyst with a uniformly smooth inner surface lining",
-        "Two smooth ovaries without visible surface lesions",
-        "A solid smooth yellow nodule without any cavities",
-        "A cavity lined entirely by homogeneous dark clot",
-        "Solid irregular tissue with cavities and papillary appearing surfaces"
+        "A smooth thin walled cyst with clear fluid, indicating a benign follicular cyst that causes effusions",
+        "Solid irregular tissue with cavities and papillary appearing surfaces, indicating an epithelial ovarian cancer that spreads to the peritoneum and pleura",
+        "A uniformly yellow mass with no cavities, indicating a thecoma that always causes effusions",
+        "A tiny normal ovary, indicating pleural metastases from a vulvar primary",
+        "A hair containing cyst, indicating a mature teratoma that spreads to the pleura"
       ],
-      "correct_index": 4,
+      "correct_index": 1,
       "choice_rationales": [
-        "A simple unilocular cyst has a thin smooth wall. This specimen has multiple irregular solid projections interrupting the cavitary surfaces. This choice describes a single thin-walled cyst.",
-        "Normal smooth ovaries lack protruding nodular tissue. Both displayed adnexal surfaces have irregular masses. This choice describes two normal ovaries.",
-        "A uniform yellow solid nodule would have an even cut surface with no cavities. Here irregular projecting solid tissue surrounds multiple spaces. This choice describes a solid smooth nodule.",
-        "An organized clot may be dark and friable. It would not account for the attached nodular and papillary appearing tissue. This choice describes a hemorrhagic cyst (endometrioma).",
-        "The specimen combines irregular solid surfaces and papillary appearing projections with visible cavitary regions. This choice describes a solid and cystic ovarian tumor with papillary surfaces (such as ovarian carcinoma), which is what the image shows."
+        "A smooth thin walled cyst with clear fluid is benign and does not fit.",
+        "Solid papillary tissue with cavities is a malignant epithelial ovarian pattern linked to effusions.",
+        "Thecomas are benign estrogenic stromal tumors.",
+        "A normal ovary would not explain the pelvic masses.",
+        "Mature teratomas are usually benign and unilateral."
       ],
-      "explanation": "The enlarged, irregular, focally cystic ovaries in this case contained carcinoma on follow-up. The gross solid projections help distinguish this appearance from a smooth simple cyst. Histology and the ancillary workup establish the tumor type.",
+      "explanation": "Step 1. Solid, irregular tissue with cavities and papillary surfaces on the ovary is typical of epithelial ovarian carcinoma (serous type), which is about 90 percent of ovarian cancers. Step 2. Epithelial ovarian cancer commonly spreads through the peritoneal cavity, explaining abdominal bloating and effusions, and cytology of the fluid can show papillary clusters. This fits the case packet's picture of an older woman with bloating and effusions.",
       "visual_clues": [
         "The lesion has a substantial solid component with irregular papillary appearing surfaces and cavities."
       ],
@@ -7821,9 +7824,10 @@
           "page": 2
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Ovarian cancer (epithelial)",
-      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy."
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-pleural-positive-pattern",
@@ -7929,7 +7933,7 @@
       "asset_id": "a-37fbd2bdd7a90d68e2f2a576134c26b941e4804e2e02ebd3617499bc684ae902",
       "variant_id": "v-d413f52ab8021dee197d",
       "question_type": "Clinical visual question",
-      "tested_concept": "Punctate erythema of the ectocervix",
+      "tested_concept": "Which cervical change would be expected, and what organism does it suggest?",
       "visual_target": "Which change is visible on the exposed cervical surface?",
       "category": "Gross",
       "collection": "R29",
@@ -7938,23 +7942,23 @@
       "zoom_image": "assets/zoom/0be8e563f9f143842894e11436168d24ed32fb7be3711f78bbfd8893e0701a99.webp",
       "original_image": "assets/zoom/0be8e563f9f143842894e11436168d24ed32fb7be3711f78bbfd8893e0701a99.webp",
       "original_filename": "Case 2 Cervix - Gross.png",
-      "stem": "Which change is visible on the exposed cervical surface?",
+      "stem": "Which cervical change would be expected, and what organism does it suggest?",
       "options": [
-        "A solitary deep ulcer with a crater",
-        "An exophytic papillary mass",
-        "A sharply demarcated white plaque",
-        "An entirely uniform smooth pink surface",
-        "Scattered punctate erythema"
+        "A fishy odor with a clean cervix, suggesting HPV",
+        "A necrotic ulcer with vesicles, suggesting syphilis",
+        "A thinned atrophic cervix, suggesting menopause",
+        "A white curd like coating with no erythema, suggesting Candida",
+        "Scattered punctate erythema (strawberry cervix), suggesting Trichomonas vaginalis"
       ],
       "correct_index": 4,
       "choice_rationales": [
-        "The surface has dispersed punctate marks, without a dominant crater. This choice describes a deep ulcer.",
-        "The conspicuous abnormality is a surface color pattern rather than protruding fronds. This choice describes an exophytic papillary mass.",
-        "The visible foci are red rather than opaque white. This choice describes leukoplakia (a white plaque).",
-        "The small red foci interrupt the background color. This choice describes a normal cervical surface.",
-        "Numerous small red foci are visible on the cervical surface. This choice describes the strawberry cervix of trichomoniasis (punctate erythema), which is what the image shows."
+        "A fishy odor describes bacterial vaginosis.",
+        "Syphilis and herpes produce ulcers, not this pattern.",
+        "Atrophy does not produce a frothy discharge.",
+        "Candida gives a white curd like discharge with intense pruritus.",
+        "Strawberry cervix with frothy discharge is classic for trichomoniasis."
       ],
-      "explanation": "The exposed cervical surface has scattered punctate red areas. The guide describes this as the strawberry appearance that raises suspicion for Trichomonas in the appropriate context.",
+      "explanation": "Step 1. Fiery red or punctate erythema of the cervix, called strawberry cervix, accompanies trichomoniasis with a purulent yellow green discharge. Step 2. The R10 lecture lists the vulva as erythematous and edematous and notes the infection is commonly associated with other STDs and pregnancy complications such as preterm labor. Because it is common with other STDs, additional testing is reasonable.",
       "visual_clues": [
         "Look at the red surface around the external os."
       ],
@@ -7976,15 +7980,16 @@
         }
       ],
       "case_id": "r29-cervix",
-      "scenario": "A patient reports dysuria and vaginal discharge. A speculum examination is followed by cervical cytology.",
-      "lead_in": "Which change is visible on the exposed cervical surface?",
+      "scenario": "A patient has dysuria and a frothy, foul smelling yellow green vaginal discharge. Speculum examination shows the cervix.",
+      "lead_in": "Which cervical change would be expected, and what organism does it suggest?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
-      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners."
+      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pap-a-case",
@@ -7993,7 +7998,7 @@
       "asset_id": "a-3d4a001f05f3d59f3d21d2ff4cffc17a82742afd158d0b6458f808700c22a032",
       "variant_id": "v-30d836c2ddccacf308ad",
       "question_type": "Clinical visual question",
-      "tested_concept": "Inflammatory background on cervical cytology",
+      "tested_concept": "How does this first field support an inflammatory process, and what is the limit of this finding?",
       "visual_target": "Inflammatory background on cervical cytology",
       "category": "Cytology",
       "collection": "R29",
@@ -8002,23 +8007,23 @@
       "zoom_image": "assets/zoom/09e8f892b35c62f984be6431eec41405136c93e60e6d11b506c53843a940d944.webp",
       "original_image": "assets/zoom/09e8f892b35c62f984be6431eec41405136c93e60e6d11b506c53843a940d944.webp",
       "original_filename": "Case 2 Pap Smear 1 - Histology.png",
-      "stem": "How does this first smear field support an inflammatory process?",
+      "stem": "How does this first field support an inflammatory process, and what is the limit of this finding?",
       "options": [
-        "Mature squamous cells with numerous smaller inflammatory cells",
-        "Only large atypical epithelial clusters and no inflammation",
-        "A pure population of uniform mature squamous cells",
-        "Sheets of spindle cells with elongated tapered nuclei",
-        "Only acellular mucus and debris without recognizable cells"
+        "Numerous neutrophils among mature squamous cells show inflammation, but this background is nonspecific and the organism must be found separately",
+        "The field shows invasive carcinoma because inflammatory cells are present",
+        "The field proves HPV because squamous cells are mature",
+        "The field is normal because inflammatory cells are always present",
+        "The field proves trichomoniasis by itself"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Broad squamous cells and clusters of smaller inflammatory cells coexist. This choice describes a mixed inflammatory smear with squamous cells and inflammatory cells, which is what the image shows.",
-        "The mature squamous cells are accompanied by numerous small inflammatory cells. This choice describes a neoplastic smear.",
-        "Smaller inflammatory cells are interspersed throughout the field. This choice describes normal squamous cells only.",
-        "The large cells are flattened squamous cells. This choice describes a spindle cell tumor.",
-        "Recognizable squamous and inflammatory cells are present. This choice describes an acellular smear."
+        "Many neutrophils show inflammation but do not identify the cause.",
+        "Inflammatory cells do not indicate carcinoma.",
+        "Mature squamous cells do not indicate HPV.",
+        "A heavy inflammatory background is not normal.",
+        "The background cannot prove the organism alone."
       ],
-      "explanation": "Large mature squamous cells lie in a background with much smaller inflammatory cells. The guide describes the multilobated inflammatory cells in the smear.",
+      "explanation": "Step 1. Mature squamous cells surrounded by many smaller inflammatory cells show a cervicitis pattern. Step 2. This background does not name the organism, so the lecture directs attention to finding the pear shaped organism with faint outline, an indistinct ghostly appearance on Pap smear. The Pap smear has limited sensitivity, and culture is the most sensitive method.",
       "visual_clues": [
         "Compare the broad flat squamous cells with the small dark cells around them."
       ],
@@ -8048,15 +8053,16 @@
         }
       ],
       "case_id": "r29-cervix",
-      "scenario": "A patient presents with dysuria and frothy discharge. The examination is followed by cervical cytology at progressively higher magnification.",
-      "lead_in": "How does this first smear field support an inflammatory process?",
+      "scenario": "A patient has dysuria and a frothy, foul smelling yellow green vaginal discharge. Cervical cytology at low magnification shows mature squamous cells with many smaller inflammatory cells.",
+      "lead_in": "How does this first field support an inflammatory process, and what is the limit of this finding?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
-      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners."
+      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pap-b-case",
@@ -8065,7 +8071,7 @@
       "asset_id": "a-2833706a08c4522905052215eba07270ebeee5c0c91041fee9554c2135f31025",
       "variant_id": "v-3958df619107fe9c5af7",
       "question_type": "Clinical visual question",
-      "tested_concept": "Organisms overlying squamous cells",
+      "tested_concept": "Which finding is more direct evidence for the organism than the background inflammation, and how does the lecture describe it on Pap smear?",
       "visual_target": "Organisms overlying squamous cells",
       "category": "Cytology",
       "collection": "R29",
@@ -8074,23 +8080,23 @@
       "zoom_image": "assets/zoom/5596931037dc70a4589c4281291843be50487b39fc393e111f7cece6775a3875.webp",
       "original_image": "assets/zoom/5596931037dc70a4589c4281291843be50487b39fc393e111f7cece6775a3875.webp",
       "original_filename": "Case 2 Pap Smear 2 - Histology.png",
-      "stem": "Which finding in this magnified smear is more direct evidence for the organism than the background inflammation?",
+      "stem": "Which finding is more direct evidence for the organism than the background inflammation, and how does the lecture describe it on Pap smear?",
       "options": [
-        "Large central inclusions within squamous nuclei",
-        "Faint forms overlying the surfaces of two squamous cells",
-        "Thick branching filaments extending away from the cells",
-        "A continuous ring surrounding every squamous nucleus",
-        "A coherent epithelial sheet between the squamous cells"
+        "Clue cells with coating bacteria, which is Gardnerella",
+        "Large dark nuclei with irregular membranes inside squamous cells, which is koilocytosis",
+        "Branching hyphae and spores, which is Candida",
+        "Faint, ghostly pear shaped forms with a pale oval nucleus lying on squamous cells, which is the Trichomonas appearance",
+        "Multinucleated cells with molded nuclei, which is herpes"
       ],
-      "correct_index": 1,
+      "correct_index": 3,
       "choice_rationales": [
-        "The forms lie over the cell profiles, apart from their large nuclei. This choice describes viral nuclear inclusions.",
-        "The bluish structures are superimposed on the broad squamous cell profiles. This choice describes Trichomonas organisms or bacteria on squamous cell surfaces, which is what the image shows.",
-        "The highlighted forms are rounded or faintly outlined rather than branching filaments. This choice describes Candida pseudohyphae.",
-        "The forms cluster over selected cells rather than creating uniform halos. This choice describes bacterial vaginosis halos.",
-        "The faint forms are discrete and overlie the larger cells. This choice describes an epithelial sheet."
+        "Clue cells describe bacterial vaginosis.",
+        "Koilocytes are HPV cytopathic effect inside squamous cells.",
+        "Hyphae and spores describe Candida in the keratin layer.",
+        "The ghostly pear shaped organism with a pale oval nucleus is the lecture's Pap appearance of Trichomonas.",
+        "Molded multinucleated cells describe herpes infection."
       ],
-      "explanation": "The guide points to faint bluish mononuclear forms superimposed on two squamous cells. The separate higher-power field shows ovoid forms more clearly.",
+      "explanation": "Step 1. The lecture states that on Pap smears Trichomonas vaginalis has an indistinct, ghostly appearance, with a pale oval nucleus and faint cytoplasm, often pear shaped. Step 2. Seeing these faint forms over the squamous cells is more direct than background inflammation. The sensitivity of microscopy is only about 60 to 70 percent, and culture is the most sensitive test.",
       "visual_clues": [
         "Inspect the blue material overlying the central pink squamous cells."
       ],
@@ -8120,15 +8126,16 @@
         }
       ],
       "case_id": "r29-cervix",
-      "scenario": "A patient presents with dysuria and frothy discharge. The examination is followed by cervical cytology at progressively higher magnification.",
-      "lead_in": "Which finding in this magnified smear is more direct evidence for the organism than the background inflammation?",
+      "scenario": "A patient has dysuria and a frothy, foul smelling yellow green vaginal discharge. At higher magnification faint pale forms overlie the surfaces of two squamous cells.",
+      "lead_in": "Which finding is more direct evidence for the organism than the background inflammation, and how does the lecture describe it on Pap smear?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
-      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners."
+      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-pap-c-case",
@@ -8137,7 +8144,7 @@
       "asset_id": "a-ba32e25a15ea6f8d6c0a389f1945802a420c04cb4338be160e536cd3bbdebd1a",
       "variant_id": "v-9870e85ef816ec150d97",
       "question_type": "Clinical visual question",
-      "tested_concept": "Ovoid forms in cervical cytology",
+      "tested_concept": "Which finding distinguishes the small organisms from neighboring cells, and why can flagella be missed?",
       "visual_target": "Ovoid forms in cervical cytology",
       "category": "Cytology",
       "collection": "R29",
@@ -8146,23 +8153,23 @@
       "zoom_image": "assets/zoom/9ce0c90d44ce28a151897ec57f5431ec909136d3e2e1ec693357359a20e375c2.webp",
       "original_image": "assets/zoom/9ce0c90d44ce28a151897ec57f5431ec909136d3e2e1ec693357359a20e375c2.webp",
       "original_filename": "Case 2 Pap Smear 3 - Histology.png",
-      "stem": "Which finding in this field distinguishes the small organisms from the neighboring squamous and inflammatory cells?",
+      "stem": "Which finding distinguishes the small organisms from neighboring cells, and why can flagella be missed?",
       "options": [
-        "Long branching filaments",
-        "Multilobed inflammatory cells",
-        "Ovoid mononuclear forms without clearly visible flagella",
-        "A cluster of flat squamous cells",
-        "Nuclear halos within the cytoplasm of adjacent squamous cells"
+        "Square cells with thick walls, since flagella are fixed",
+        "Ovoid mononuclear forms of about parabasal cell size or smaller, since flagella are faint on Pap smears",
+        "Cells with perinuclear halos in the squamous layer, since flagella are large",
+        "Cells with intracellular mucin vacuoles, since flagella are visible",
+        "Large binucleate cells with prominent nucleoli, since flagella are always clear"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "The two targets have discrete oval contours. This choice describes Candida pseudohyphae.",
-        "Each target has a single discernible nucleus. This choice describes neutrophils.",
-        "Two ovoid structures have nuclei. Flagella cannot be resolved in this view. This choice describes Trichomonas vaginalis (ovoid forms), which is what the image shows.",
-        "The small forms are separate from the broad squamous cell profiles. This choice describes a squamous cell cluster.",
-        "The targets are discrete forms outside the adjacent cell profiles. This choice describes koilocytosis."
+        "The organism is a protozoan, not a thick walled square cell.",
+        "The organism is a small ovoid mononuclear form whose faint flagella are easily missed.",
+        "Perinuclear halos describe koilocytes.",
+        "Mucin vacuoles describe signet ring cells.",
+        "Large binucleate cells with prominent nucleoli describe malignant or other cells, not the organism."
       ],
-      "explanation": "Two discrete ovoid mononuclear structures are visible. The case guide identifies them as Trichomonas and points out that flagella are not apparent in this field.",
+      "explanation": "Step 1. The lecture describes Trichomonas as often pear shaped, 10 to 25 micrometers (from a parabasal nucleus to a parabasal cell in size), with a large nucleus in the broad anterior end and 4 anterior and 1 posterior flagella. Step 2. On fixed Pap smears the flagella are faint, so the organism is recognized by its ghostly ovoid outline and pale nucleus rather than visible flagella, whereas wet mounts show rapid movement.",
       "visual_clues": [
         "Compare the isolated ovoid forms with the much larger adjacent squamous cells."
       ],
@@ -8188,15 +8195,16 @@
         }
       ],
       "case_id": "r29-cervix",
-      "scenario": "A patient presents with dysuria and frothy discharge. The examination is followed by cervical cytology at progressively higher magnification.",
-      "lead_in": "Which finding in this field distinguishes the small organisms from the neighboring squamous and inflammatory cells?",
+      "scenario": "A patient has dysuria and a frothy, foul smelling yellow green vaginal discharge. A higher power field shows small ovoid organisms among squamous and inflammatory cells, without clearly visible flagella.",
+      "lead_in": "Which finding distinguishes the small organisms from neighboring cells, and why can flagella be missed?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
-      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners."
+      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-cervix-depth-halo-mimic",
@@ -8206,28 +8214,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Distinguishing a squamous cell halo from a separate organism",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Where are the clear spaces relative to the squamous cells in this mimic, and what does this mean for diagnosis?",
       "visual_target": "Distinguishing a squamous cell halo from a separate organism",
-      "scenario": "A patient with dysuria and frothy discharge has undergone a cervical examination and cytology.",
-      "lead_in": "This separate cervical teaching field shows a cytopathic mimic. Where are the clear spaces relative to the squamous cells?",
-      "stem": "This separate cervical teaching field shows a cytopathic mimic. Where are the clear spaces relative to the squamous cells?",
+      "scenario": "A patient has dysuria and a frothy, foul smelling yellow green vaginal discharge. A separate teaching field shows clear spaces in some squamous cells that mimic an organism's halo.",
+      "lead_in": "Where are the clear spaces relative to the squamous cells in this mimic, and what does this mean for diagnosis?",
+      "stem": "Where are the clear spaces relative to the squamous cells in this mimic, and what does this mean for diagnosis?",
       "options": [
-        "Outside the squamous cells as independent ovoid bodies",
-        "Within squamous cytoplasm immediately around its own nuclei",
-        "Between clusters of neutrophils at a separate tissue level",
-        "Within long filaments crossing the tissue surface",
-        "In the lumina of glands beneath the squamous layer"
+        "The clear spaces lie outside the cell borders, which proves an organism",
+        "The clear spaces lie within the squamous cytoplasm immediately around its own nuclei, which is a perinuclear halo of a cytopathic effect and not an organism",
+        "The clear spaces lie in the nucleus, which proves mitosis",
+        "The clear spaces lie in the stroma, which proves invasion",
+        "The clear spaces lie between sheets, which proves a mucin lake"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The clear zones are centered on nuclei within the squamous layer. This choice describes ovoid organisms outside the cells.",
-        "The broad halos lie around the nuclei of the squamous cells themselves. This differs from the smaller discrete organisms that can overlie squamous profiles in the original smear. This choice describes koilocytosis (perinuclear clearing within squamous cells), which is what the image shows.",
-        "The clear spaces belong to squamous cells. This choice describes inflammatory cells.",
-        "The target consists of halos around nuclei rather than filamentous structures. This choice describes fungal filaments.",
-        "The change is visible within the surface squamous cells. This choice describes glandular lumina."
+        "Spaces outside the cell are not a perinuclear halo.",
+        "A halo inside the cell's own cytoplasm around the nucleus is a cytopathic mimic.",
+        "A nuclear clearing is a different process and not the halo described.",
+        "The Pap smear does not show stroma.",
+        "Mucin lakes are seen with mucinous tumors."
       ],
-      "explanation": "The broad halos lie around the nuclei of the squamous cells themselves. This differs from the smaller discrete organisms that can overlie squamous profiles in the original smear. The clear zones are centered on nuclei within the squamous layer.",
+      "explanation": "Step 1. A clear space inside the cytoplasm immediately around the cell's own nucleus is a perinuclear halo, the cytoplasmic vacuolization of koilocytes in productive HPV infection. Step 2. This differs from Trichomonas, which lies on or between cells as a ghostly outlined organism. The lecture lists nuclear enlargement, hyperchromasia, irregular membranes, multinucleation, and perinuclear vacuolization as viral cytopathic effects.",
       "visual_clues": [
         "The broad halos lie around the nuclei of the squamous cells themselves."
       ],
@@ -8262,7 +8270,8 @@
           "page": 21
         }
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-cervix-depth-wet-prep",
@@ -8272,28 +8281,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Finding intact forms to assess in a wet preparation",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which structures should be tracked in a live preparation to assess for the organism?",
       "visual_target": "Which structures should be tracked in a live preparation to assess independent movement?",
-      "scenario": "A patient with dysuria and frothy discharge has undergone a cervical examination and cytology.",
-      "lead_in": "Which structures should be tracked in a live preparation to assess independent movement?",
-      "stem": "Which structures should be tracked in a live preparation to assess independent movement?",
+      "scenario": "A patient has dysuria and a frothy, foul smelling yellow green vaginal discharge. A wet preparation of the vaginal discharge is examined.",
+      "lead_in": "Which structures should be tracked in a live preparation to assess for the organism?",
+      "stem": "Which structures should be tracked in a live preparation to assess for the organism?",
       "options": [
-        "The fine grains in the background without individual outlines",
-        "A broad confluent sheet of squamous nuclei across the field",
-        "The discrete rounded bodies with outlines distinct from the background",
-        "Long branching filaments crossing the whole preparation",
-        "A continuous strip of material along the upper field edge"
+        "The clue cells coated with bacteria",
+        "The mucin lakes",
+        "The discrete rounded bodies with outlines distinct from the background that show rapid independent movement",
+        "The hyphae in keratin",
+        "The stationary squamous cells that float in clumps"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "These grains are smaller than the discrete bodies of interest. This choice describes background granular debris.",
-        "The useful targets are individual bodies in the open preparation. This choice describes squamous cell nuclei.",
-        "Focus on the discrete rounded or ovoid bodies that have definable boundaries against the granular background. The guide describes wobbling or rotating motion, which cannot be established by a still image. This choice describes motile Trichomonas organisms, which is what the image shows.",
-        "The visible targets are rounded rather than branching. This choice describes Candida pseudohyphae.",
-        "A continuous strip is less useful than tracking the discrete outlined forms. This choice describes an edge artifact."
+        "Clue cells are used for bacterial vaginosis.",
+        "Mucin lakes are not a wet prep finding.",
+        "Independent rapid movement of discrete rounded bodies identifies the protozoan.",
+        "Hyphae and spores indicate Candida in keratin.",
+        "Squamous cells do not move independently."
       ],
-      "explanation": "Focus on the discrete rounded or ovoid bodies that have definable boundaries against the granular background. The guide describes wobbling or rotating motion, which cannot be established by a still image. These grains are smaller than the discrete bodies of interest.",
+      "explanation": "Step 1. On a wet mount of vaginal discharge Trichomonas vaginalis is a large flagellated ovoid protozoan distinguished by rapid movement. Step 2. The lecture notes microscopy has a sensitivity of only about 60 to 70 percent and culture is the most sensitive commercially available test, so a negative wet prep does not exclude infection. Movement is the discriminating feature in a live preparation.",
       "visual_clues": [
         "Focus on the discrete rounded or ovoid bodies that have definable boundaries against the granular background."
       ],
@@ -8326,7 +8335,8 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Trichomonas vaginalis infection",
-      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners."
+      "condition_overview": "Trichomonas vaginalis is a flagellated protozoan sexually transmitted infection causing frothy yellow-green malodorous discharge, vulvovaginal itching, dysuria, and a strawberry cervix with punctate hemorrhages, with vaginal pH above 4.5. Wet mount shows motile pear-shaped trophozoites with flagella, and the Pap smear can show pear-shaped organisms. Perinuclear halos in squamous cells can mimic it but are a pseudoparasite. Treatment with metronidazole should include partners.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-vag-low-case",
@@ -8335,7 +8345,7 @@
       "asset_id": "a-86a32abea74ffae6de0255fbba9d09a716a8b3ce99d231775801a2d9a3c0106b",
       "variant_id": "v-913a0fa16e7cb9bb3bb0",
       "question_type": "Clinical visual question",
-      "tested_concept": "Cystic architecture of a vaginal biopsy",
+      "tested_concept": "Which low power feature identifies the areas that warrant closer inspection, and what does it predict about the cause of the blue color?",
       "visual_target": "Cystic architecture of a vaginal biopsy",
       "category": "Histology",
       "collection": "R29",
@@ -8344,23 +8354,23 @@
       "zoom_image": "assets/zoom/6acc660bf1ae1d766c0a8cd62d747be8ee59c2e768b1d30b9f886a3729183a83.webp",
       "original_image": "assets/zoom/6acc660bf1ae1d766c0a8cd62d747be8ee59c2e768b1d30b9f886a3729183a83.webp",
       "original_filename": "Case 3 Vaginal Biopsy Low Power - Histology.png",
-      "stem": "Which low-power feature identifies the areas that warrant closer inspection in this vaginal biopsy?",
+      "stem": "Which low power feature identifies the areas that warrant closer inspection, and what does it predict about the cause of the blue color?",
       "options": [
-        "A diffuse sheet of solid cells with no spaces",
-        "A single superficial erosion",
-        "A uniform compact field of small acini",
-        "Several cyst-like spaces embedded in the tissue",
-        "A single continuous lumen throughout the section"
+        "A flat thin epithelium with no spaces, which predicts atrophy",
+        "Several cystlike spaces embedded in the tissue, which predict old blood in endometrial type tissue",
+        "Sheets of large pale cells, which predict Paget disease",
+        "A circumscribed dermal nodule, which predicts hidradenoma",
+        "An exophytic papillary mass, which predicts condyloma"
       ],
-      "correct_index": 3,
+      "correct_index": 1,
       "choice_rationales": [
-        "The low-power field contains prominent luminal spaces. This choice describes a solid cell sheet.",
-        "Several spaces lie within the sampled tissue rather than one defect on its surface. This choice describes an erosion.",
-        "The conspicuous spaces are relatively large and irregular. This choice describes a compact lesion of small acini.",
-        "Multiple rounded pale lumens sit within the biopsy. This choice describes vaginal endometriosis (cyst-like spaces), which is what the image shows.",
-        "Separate profiles are visible across the field. This choice describes a single lumen."
+        "A flat thin epithelium does not explain blue cysts.",
+        "Cystlike spaces suggest cyclic bleeding into endometrial tissue.",
+        "Paget disease is intraepidermal and not cystic.",
+        "A hidradenoma is a dermal nodule on the vulva.",
+        "Condyloma is exophytic and not blue."
       ],
-      "explanation": "Several rounded cyst-like spaces lie within the tissue, with pink to red material along some of the spaces. The higher-power panels establish the lining and surrounding stroma.",
+      "explanation": "Step 1. Cystlike spaces within the tissue at low power are the areas to examine at higher power. Step 2. In endometriosis, endometrial type glands and stroma are present outside the uterus and bleed with the cycle, producing cystic spaces containing old blood that appear blue through the mucosa. This explains the blue vaginal areas and fits painful menses and dyspareunia.",
       "visual_clues": [
         "Scan for multiple pale lumens in the pink tissue."
       ],
@@ -8386,15 +8396,16 @@
         }
       ],
       "case_id": "r29-vaginal-biopsy",
-      "scenario": "A 25-year-old has recurrent right-sided pneumothorax, painful menses, and blue areas of the vaginal mucosa. The biopsy is shown at three powers.",
-      "lead_in": "Which low-power feature identifies the areas that warrant closer inspection in this vaginal biopsy?",
+      "scenario": "A 25-year-old woman has recurrent right sided pneumothorax, painful menses, painful intercourse, and discrete blue areas of the vaginal mucosa. A vaginal biopsy is shown at three powers.",
+      "lead_in": "Which low power feature identifies the areas that warrant closer inspection, and what does it predict about the cause of the blue color?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-vag-medium-case",
@@ -8403,7 +8414,7 @@
       "asset_id": "a-e893eed2d0493d9d50cb267acdd704520887af7b7dafc09a49b39c0fe7e98dea",
       "variant_id": "v-68a449a143c69b15dba0",
       "question_type": "Clinical visual question",
-      "tested_concept": "Hemorrhage in a vaginal biopsy",
+      "tested_concept": "Which feature in the middle power field helps account for the blue appearance, and what substance does it show?",
       "visual_target": "Hemorrhage in a vaginal biopsy",
       "category": "Histology",
       "collection": "R29",
@@ -8412,23 +8423,23 @@
       "zoom_image": "assets/zoom/56812d8dd82e6e7f8307c6c9ffb2afc0a5cbe480c7776846d07ca501a23cb73b.webp",
       "original_image": "assets/zoom/56812d8dd82e6e7f8307c6c9ffb2afc0a5cbe480c7776846d07ca501a23cb73b.webp",
       "original_filename": "Case 3 Vaginal Biopsy Medium Power - Histology.png",
-      "stem": "Which feature in the middle-power field helps account for the blue appearance described at examination?",
+      "stem": "Which feature in the middle power field helps account for the blue appearance, and what substance does it show?",
       "options": [
-        "Dense white calcific deposits",
-        "A thick band of keratin debris",
-        "Clear fat vacuoles replacing the lining",
-        "A uniform layer of mature squamous cells filling the lumens",
-        "Hemorrhagic material adjacent to the spaces"
+        "Hemorrhagic material adjacent to the spaces, with hemosiderin laden macrophages from repeated bleeding",
+        "Neutrophils filling the spaces, indicating abscess",
+        "Foamy histiocytes with inclusions, indicating malakoplakia",
+        "Sheets of lymphocytes, indicating lichen sclerosus",
+        "Mucin pools, indicating mucinous carcinoma"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "The conspicuous material is red, consistent with blood in this specimen. This choice describes calcification.",
-        "No layered keratin band surrounds the spaces. This choice describes keratin debris.",
-        "The material beside the spaces stains intensely red. This choice describes fat vacuoles.",
-        "The conspicuous red material is hemorrhagic rather than epithelial. This choice describes a squamous epithelial lining.",
-        "Dense red material is visible beside the irregular profiles. This choice describes hemorrhage (hemosiderin) in endometriosis, which is what the image shows."
+        "Cyclic hemorrhage with hemosiderin laden macrophages accounts for the color.",
+        "Neutrophils would suggest infection and do not explain a blue color.",
+        "Foamy histiocytes with inclusions describe malakoplakia in the bladder.",
+        "Lymphocytes describe lichen sclerosus.",
+        "Mucin pools describe mucinous tumors."
       ],
-      "explanation": "Red hemorrhagic material lies alongside the cyst-like spaces. The follow-up guide identifies hemorrhage as part of the lesion.",
+      "explanation": "Step 1. Hemorrhagic material beside the spaces explains the blue color seen through the mucosa. Step 2. The R15 lecture lists the components of endometriosis (in the bladder) as endometrial glands, endometrial stroma, and hemosiderin laden macrophages, which reflect repeated cyclic bleeding. The same mechanism accounts for chocolate colored cysts elsewhere.",
       "visual_clues": [
         "Trace the intensely red material at the edges of the spaces."
       ],
@@ -8454,15 +8465,16 @@
         }
       ],
       "case_id": "r29-vaginal-biopsy",
-      "scenario": "A 25-year-old has recurrent right-sided pneumothorax, painful menses, and blue areas of the vaginal mucosa. The biopsy is shown at three powers.",
-      "lead_in": "Which feature in the middle-power field helps account for the blue appearance described at examination?",
+      "scenario": "A 25-year-old woman has recurrent right sided pneumothorax, painful menses, painful intercourse, and discrete blue areas of the vaginal mucosa. A vaginal biopsy is shown at three powers.",
+      "lead_in": "Which feature in the middle power field helps account for the blue appearance, and what substance does it show?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "mechanism",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-vag-high-case",
@@ -8471,7 +8483,7 @@
       "asset_id": "a-a52c2a00e88c48992fe5c2eadefb5067cbaa0ee4c51d84fb0611a5764cc4da08",
       "variant_id": "v-ce9c6f09059c7f84fd14",
       "question_type": "Clinical visual question",
-      "tested_concept": "Glandular lining and stroma in a vaginal biopsy",
+      "tested_concept": "Which microscopic combination connects the vaginal biopsy to her painful menses, and what is the diagnosis?",
       "visual_target": "Glandular lining and stroma in a vaginal biopsy",
       "category": "Histology",
       "collection": "R29",
@@ -8480,23 +8492,23 @@
       "zoom_image": "assets/zoom/71a8b7c585783ee1f3326c75bf7742eedd7a98f952508e781c74ed140f75db1d.webp",
       "original_image": "assets/zoom/71a8b7c585783ee1f3326c75bf7742eedd7a98f952508e781c74ed140f75db1d.webp",
       "original_filename": "Case 3 Vaginal Biopsy High Power - Histology.png",
-      "stem": "Which microscopic combination connects the vaginal biopsy to the history of painful menses?",
+      "stem": "Which microscopic combination connects the vaginal biopsy to her painful menses, and what is the diagnosis?",
       "options": [
-        "Columnar glandular lining with adjacent spindle-cell stroma",
-        "Squamous keratin pearls in dense fibrous tissue",
-        "Vascular endothelium surrounding a solid thrombus",
-        "An unlined tissue cleft with only blood",
-        "Broad smooth muscle bundles surrounding a keratin-filled space"
+        "Large pale mucin positive cells in the epidermis, which defines Paget disease",
+        "Nests of keratinizing squamous cells in stroma, which defines invasive carcinoma",
+        "Signet ring cells with vacuoles, which defines Krukenberg tumor",
+        "Koilocytes in upper squamous cells, which defines condyloma",
+        "Columnar glandular lining with adjacent spindle cell stroma, which is endometrial type tissue and defines endometriosis"
       ],
-      "correct_index": 0,
+      "correct_index": 4,
       "choice_rationales": [
-        "The epithelial lining and surrounding stromal cells establish the gland and stroma pattern. This choice describes endometriosis (glandular lining with endometrial stroma), which is what the image shows.",
-        "The dark cells form a columnar lining around an open lumen. This choice describes squamous cell carcinoma.",
-        "The prominent lining is glandular columnar epithelium. This choice describes a thrombus.",
-        "A distinct dark epithelial lining is visible. This choice describes a cleft artifact.",
-        "The profile is lined by columnar cells and surrounded by stromal cells. This choice describes a leiomyoma."
+        "Paget disease is a vulvar epidermal process.",
+        "Invasive carcinoma shows atypical squamous nests.",
+        "Signet ring cells indicate metastatic mucinous adenocarcinoma.",
+        "Koilocytes indicate HPV effect in squamous cells.",
+        "Endometrial type glands and stroma outside the uterus define endometriosis."
       ],
-      "explanation": "Columnar epithelium lines the irregular lumen, with surrounding spindle-cell stroma and hemorrhage. In the vaginal location, the guide identifies this as ectopic endometrial tissue.",
+      "explanation": "Step 1. Glands lined by columnar epithelium with surrounding spindle cell stroma are endometrial type glands and stroma. Step 2. The lecture defines endometriosis as endometrial type glands and stroma in an extrauterine location, almost exclusively in women of reproductive age, causing dysmenorrhea, pelvic pain, and infertility. The vaginal lesion therefore links the biopsy to her painful menses and dyspareunia.",
       "visual_clues": [
         "Look for a dark epithelial lining and a separate cuff of spindle cells."
       ],
@@ -8526,15 +8538,16 @@
         }
       ],
       "case_id": "r29-vaginal-biopsy",
-      "scenario": "A 25-year-old has recurrent right-sided pneumothorax, painful menses, and blue areas of the vaginal mucosa. The biopsy is shown at three powers.",
-      "lead_in": "Which microscopic combination connects the vaginal biopsy to the history of painful menses?",
+      "scenario": "A 25-year-old woman has recurrent right sided pneumothorax, painful menses, painful intercourse, and discrete blue areas of the vaginal mucosa. A vaginal biopsy is shown at three powers.",
+      "lead_in": "Which microscopic combination connects the vaginal biopsy to her painful menses, and what is the diagnosis?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "mechanism",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-vaginal-biopsy-depth-ovarian-companion",
@@ -8544,28 +8557,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Old hemorrhage in a separate ovarian cyst specimen",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What feature of its contents illustrates how repeated bleeding changes the appearance of a lesion over time?",
       "visual_target": "Old hemorrhage in a separate ovarian cyst specimen",
-      "scenario": "A 25-year-old has recurrent right-sided pneumothorax, painful menses, and blue areas of the vaginal mucosa.",
-      "lead_in": "This is a separate ovarian teaching specimen. What feature of its contents illustrates how repeated bleeding can change the appearance of a lesion at another site?",
-      "stem": "This is a separate ovarian teaching specimen. What feature of its contents illustrates how repeated bleeding can change the appearance of a lesion at another site?",
+      "scenario": "A 25-year-old woman has recurrent right sided pneumothorax, painful menses, painful intercourse, and discrete blue areas of the vaginal mucosa. A vaginal biopsy is shown at three powers. A separate ovarian specimen is shown from a patient with a similar disease.",
+      "lead_in": "What feature of its contents illustrates how repeated bleeding changes the appearance of a lesion over time?",
+      "stem": "What feature of its contents illustrates how repeated bleeding changes the appearance of a lesion over time?",
       "options": [
-        "A cavity containing thin clear fluid only",
-        "A uniform solid tan surface with no cavity",
-        "A pale layered surface without any internal material",
-        "A cavity filled with dense dark brown material",
-        "A bright red vascular stalk projecting into an empty cavity"
+        "A cavity filled with thyroid colloid, which is struma ovarii",
+        "A cavity filled with clear fluid, which is a follicular cyst",
+        "A solid pale mass, which is a fibroma",
+        "A cavity filled with dense dark brown material, which is old blood in an endometrioma",
+        "A cavity filled with hair and sebum, which is a dermoid cyst"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The central contents are dark and opaque. This choice describes a serous cyst.",
-        "A large cavity dominates the cut surface. This choice describes a solid tumor.",
-        "The lesion contains abundant dark material. This choice describes a layered fibroma.",
-        "The opened cavity contains dense dark brown material. The course review attributes the color to old hemorrhage, a macroscopic companion to the microscopic blood products in the vaginal specimen. This choice describes an endometrioma (chocolate cyst filled with old blood), which is what the image shows.",
-        "The dark contents fill most of the space rather than arising as a stalk. This choice describes a vascular tumor."
+        "Thyroid colloid describes struma ovarii.",
+        "Clear fluid does not reflect repeated bleeding.",
+        "A solid pale mass describes fibroma.",
+        "Dark brown contents reflect old blood from cyclic bleeding.",
+        "Hair and sebum describe mature cystic teratoma."
       ],
-      "explanation": "The opened cavity contains dense dark brown material. The course review attributes the color to old hemorrhage, a macroscopic companion to the microscopic blood products in the vaginal specimen. A large cavity dominates the cut surface.",
+      "explanation": "Step 1. A cyst filled with dense dark brown material represents altered blood from repeated cyclic bleeding, an endometrioma (chocolate cyst). Step 2. The R32 lecture describes endometriomas as uniformly homogeneous on imaging, a feature that follows from this repeated bleeding, whereas dermoid cysts contain hair and sebum. The appearance changes as blood ages in a closed space.",
       "visual_clues": [
         "The opened cavity contains dense dark brown material."
       ],
@@ -8596,9 +8609,10 @@
           "page": 8
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-vaginal-biopsy-depth-pulmonary-link",
@@ -8608,28 +8622,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "What the vaginal biopsy contributes to the recurrent pneumothorax differential",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which interpretation best combines that history with this biopsy?",
       "visual_target": "What the vaginal biopsy contributes to the recurrent pneumothorax differential",
-      "scenario": "A 25-year-old has recurrent right-sided pneumothorax, painful menses, and blue areas of the vaginal mucosa.",
-      "lead_in": "If the respiratory episodes also cluster around menses, which interpretation best combines that history with this biopsy?",
-      "stem": "If the respiratory episodes also cluster around menses, which interpretation best combines that history with this biopsy?",
+      "scenario": "A 25-year-old woman has recurrent right sided pneumothorax, painful menses, painful intercourse, and discrete blue areas of the vaginal mucosa. A vaginal biopsy is shown at three powers. She notes that her chest symptoms cluster around menses.",
+      "lead_in": "Which interpretation best combines that history with this biopsy?",
+      "stem": "Which interpretation best combines that history with this biopsy?",
       "options": [
-        "The vaginal biopsy directly demonstrates the site of a pleural implant",
-        "The lesion establishes a primary vaginal malignancy that has spread to the lung",
-        "The biopsy excludes a cycle related chest process because it is from a different site",
-        "The respiratory timing makes the glandular and stromal findings irrelevant",
-        "The biopsy supports a cycle related explanation worth investigating in the chest"
+        "The biopsy supports a cycle related explanation worth investigating in the chest, such as thoracic endometriosis",
+        "The biopsy shows tuberculosis",
+        "The biopsy proves lung cancer",
+        "The biopsy shows the chest disease is unrelated because vaginal tissue never involves the chest",
+        "The biopsy shows the pneumothorax was caused by a vaginal infection"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "No pleural tissue is included in the section. This choice describes a vaginal biopsy showing a pleural implant.",
-        "The depicted gland and stromal combination supports a different process. This choice describes primary vaginal carcinoma metastatic to the lung.",
-        "Evidence at one extrauterine site does not exclude involvement at another. This choice describes exclusion of catamenial disease.",
-        "Both the timing and the tissue relationship contribute to the inference. This choice describes irrelevant glandular findings.",
-        "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue. That finding makes pleural involvement a plausible explanation for cycle linked episodes, but the vaginal tissue does not prove disease in the pleura. This choice describes catamenial (cycle-related) thoracic endometriosis, which is what the image shows."
+        "Endometriosis plus cyclic chest episodes supports investigating a thoracic cause.",
+        "The biopsy does not show tuberculosis.",
+        "The biopsy does not show lung cancer.",
+        "Extrauterine endometrial tissue can occur at distant sites.",
+        "The biopsy shows endometriosis, not infection."
       ],
-      "explanation": "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue. That finding makes pleural involvement a plausible explanation for cycle linked episodes, but the vaginal tissue does not prove disease in the pleura. Evidence at one extrauterine site does not exclude involvement at another.",
+      "explanation": "Step 1. Endometrial type tissue outside the uterus responds to the cycle, so a pneumothorax recurring with menses suggests endometrial tissue involving the chest. Step 2. The packet asks for supportive tests and management, and the biopsy establishes that the patient has endometriosis, which makes a cycle related thoracic cause plausible. The link is an inference that needs chest evaluation, not proof.",
       "visual_clues": [
         "Endometrial type glands with adjacent stroma at a vaginal site support ectopic endometrial tissue."
       ],
@@ -8670,7 +8684,8 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-cycle-linked-workup",
@@ -8755,7 +8770,7 @@
       "asset_id": "a-6c879aea511fcbad28ba85f3d9554ee18a067b52457393d344dc3f01c0324d61",
       "variant_id": "v-7ba28f12479fbf2c7464",
       "question_type": "Clinical visual question",
-      "tested_concept": "Dilated folded glands in a prostate specimen",
+      "tested_concept": "Which finding supports the hyperplastic component, and why does this tissue cause his symptoms?",
       "visual_target": "Dilated folded glands in a prostate specimen",
       "category": "Histology",
       "collection": "R29",
@@ -8764,23 +8779,23 @@
       "zoom_image": "assets/zoom/7256daf65a2e0332cd9eab6638ae718aef7a301508d3dda06126f1bfd42dfbf6.webp",
       "original_image": "assets/zoom/7256daf65a2e0332cd9eab6638ae718aef7a301508d3dda06126f1bfd42dfbf6.webp",
       "original_filename": "Case 4 Prostate Low Power - Histology.png",
-      "stem": "Which finding in this field supports the hyperplastic component of the resection?",
+      "stem": "Which finding supports the hyperplastic component, and why does this tissue cause his symptoms?",
       "options": [
-        "An infiltrate composed entirely of small crowded acini",
-        "Irregular dilated glands with epithelial infoldings",
-        "A solid sheet without identifiable lumens",
-        "A single large smooth cyst",
-        "Only stroma with no epithelial proliferation"
+        "Large pale cells in nests with lymphoid septa",
+        "Papillary urothelial fronds in the bladder",
+        "Irregular dilated glands with epithelial infoldings, in nodular hyperplasia of the central gland that compresses the urethra",
+        "Small crowded glands with a single cell layer, in the peripheral zone",
+        "Foamy histiocytes with inclusions"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "Many glands in this field are large and folded. This choice describes a small acinar infiltrate.",
-        "Several large lumens have conspicuously folded contours. This choice describes benign prostatic hyperplasia (dilated glands with infoldings), which is what the image shows.",
-        "Pale lumens are visible in numerous glands. This choice describes a solid sheet.",
-        "The field includes multiple irregular gland profiles. This choice describes a simple cyst.",
-        "Glands occupy much of the image. This choice describes stroma only."
+        "Large pale cells with lymphoid septa describe seminoma.",
+        "Urothelial fronds are a bladder finding.",
+        "Glandular infoldings with nodular hyperplasia of the central gland explain obstruction.",
+        "Small crowded single layer glands describe adenocarcinoma, not hyperplasia.",
+        "Foamy histiocytes with inclusions describe malakoplakia."
       ],
-      "explanation": "Irregular dilated glands with epithelial infoldings are separated by stroma. The guide identifies this field as a hyperplastic nodule and describes a dual cell layer.",
+      "explanation": "Step 1. Irregular dilated glands with infoldings are the glandular component of benign prostatic hyperplasia (nodular hyperplasia). Step 2. The lecture states BPH is a proliferation of stromal and glandular elements involving the central gland, enlarging the prostate (weight may exceed 100 g versus a normal 20 to 30 g), and causing urinary obstruction, so the weak stream and nocturia follow.",
       "visual_clues": [
         "Find the pale lumens and follow the folds along their edges."
       ],
@@ -8810,15 +8825,16 @@
         }
       ],
       "case_id": "r29-prostate",
-      "scenario": "A 75-year-old with a weak urinary stream, nocturia, and an enlarged prostate undergoes transurethral resection. Two tissue fields are shown.",
-      "lead_in": "Which finding in this field supports the hyperplastic component of the resection?",
+      "scenario": "A 75-year-old man has a weak urinary stream, nocturia, and an enlarged prostate and undergoes transurethral resection. Two tissue fields are shown.",
+      "lead_in": "Which finding supports the hyperplastic component, and why does this tissue cause his symptoms?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-prostate-high-case",
@@ -8827,7 +8843,7 @@
       "asset_id": "a-f14f98b3b75ae39eb01be25fcb65e5d9e22ff57e7723b640a061de3d38393dca",
       "variant_id": "v-2b04a65539dc0ffea8eb",
       "question_type": "Clinical visual question",
-      "tested_concept": "Focal crowded glands in a prostate resection",
+      "tested_concept": "How does this field change the interpretation of the resection?",
       "visual_target": "Focal crowded glands in a prostate resection",
       "category": "Histology",
       "collection": "R29",
@@ -8836,23 +8852,23 @@
       "zoom_image": "assets/zoom/1eabb2ade3d312238d8e992285b32a93691887d192b37045895cff4dbc2806ff.webp",
       "original_image": "assets/zoom/1eabb2ade3d312238d8e992285b32a93691887d192b37045895cff4dbc2806ff.webp",
       "original_filename": "Case 4 Prostate High Power - Histology.png",
-      "stem": "How does this higher-power field change the interpretation of the resection?",
+      "stem": "How does this field change the interpretation of the resection?",
       "options": [
-        "Uniformly dilated glands with prominent folds throughout the field",
-        "A diffuse solid sheet without gland formation",
-        "Focally crowded small glands with less apparent dual layering",
-        "A simple empty cyst lined by one flat layer",
-        "A uniform dual layer around every gland in the field"
+        "It proves seminoma",
+        "It proves benign hyperplasia needs no further testing",
+        "It proves bladder cancer",
+        "It proves malakoplakia",
+        "It raises concern for an adenocarcinoma focus that needs basal cell marker staining, since cancer glands lack the basal layer"
       ],
-      "correct_index": 2,
+      "correct_index": 4,
       "choice_rationales": [
-        "This pattern is more evident in the low-power hyperplastic field. This choice describes uniform glandular dilation.",
-        "Multiple compact glands retain recognizable lumens. This choice describes a solid sheet.",
-        "The guide highlights this contrast on the left and describes better-preserved layering on the right. This choice describes focally crowded small glands (suspicious for prostatic adenocarcinoma), which is what the image shows.",
-        "There are numerous small gland profiles in a stromal background. This choice describes a simple cyst.",
-        "The guide specifically notes that the outer layer is less apparent in some glands on the left. This choice describes a normal dual-layered gland pattern."
+        "Seminoma is a testicular tumor.",
+        "Atypical looking crowded glands cannot be dismissed as benign without staining.",
+        "Bladder cancer is a different organ.",
+        "Malakoplakia is a histiocytic condition.",
+        "A suspicious focus with lost dual layering needs basal cell stains to rule out carcinoma."
       ],
-      "explanation": "Small compact glands on the left show less apparent dual layering than glands on the right. The guide interprets the two fields together as hyperplasia with a focus of prostatic adenocarcinoma and discusses basal cell staining as an adjunct.",
+      "explanation": "Step 1. Crowded small glands that lose their dual cell layering are suspicious because prostate adenocarcinoma shows small single layer glands with the basal layer missing. Step 2. The lecture states 70 to 80 percent of cancers arise in the peripheral zone, but a focus can occur in resections, and basal cell markers such as CK903 or p63 plus AMACR are used to confirm. The hyperplasia explanation still stands for the obstruction but does not exclude carcinoma.",
       "visual_clues": [
         "Compare the crowded left-sided profiles with glands that retain an apparent outer layer."
       ],
@@ -8882,15 +8898,16 @@
         }
       ],
       "case_id": "r29-prostate",
-      "scenario": "A 75-year-old with a weak urinary stream, nocturia, and an enlarged prostate undergoes transurethral resection. Two tissue fields are shown.",
-      "lead_in": "How does this higher-power field change the interpretation of the resection?",
+      "scenario": "A 75-year-old man has a weak urinary stream, nocturia, and an enlarged prostate and undergoes transurethral resection. Two tissue fields are shown. A higher power field shows a focus of crowded small glands with less apparent dual layering.",
+      "lead_in": "How does this field change the interpretation of the resection?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-prostate-depth-urethral-compression",
@@ -8900,28 +8917,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Gross counterpart to urinary obstruction in the prostate case",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which relationship in the gross specimen helps explain the weak stream?",
       "visual_target": "Gross counterpart to urinary obstruction in the prostate case",
-      "scenario": "A 75-year-old with a weak urinary stream, nocturia, and an enlarged prostate undergoes transurethral resection.",
-      "lead_in": "Which relationship in this separate gross teaching specimen helps explain the weak stream described in the original case?",
-      "stem": "Which relationship in this separate gross teaching specimen helps explain the weak stream described in the original case?",
+      "scenario": "A 75-year-old man has a weak urinary stream, nocturia, and an enlarged prostate and undergoes transurethral resection. Two tissue fields are shown. A separate gross teaching specimen is shown.",
+      "lead_in": "Which relationship in the gross specimen helps explain the weak stream?",
+      "stem": "Which relationship in the gross specimen helps explain the weak stream?",
       "options": [
-        "Rounded nodules crowding the central urethral channel",
-        "A small isolated peripheral nodule far from the channel",
-        "An empty fluid filled cavity replacing the urethral lumen",
-        "A flat surface lesion confined to the bladder lining",
-        "Diffuse smooth enlargement without any visible relation to the channel"
+        "A dilated ureter with a normal prostate",
+        "Rounded nodules crowding the central urethral channel, since BPH involves the central gland and compresses the urethra",
+        "A mass in the seminal vesicle displacing the bladder",
+        "A mass in the peripheral zone away from the urethra, since cancers obstruct first",
+        "A smooth thin wall bladder with no prostate enlargement"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "choice_rationales": [
-        "Rounded nodules crowd the slitlike central urethral channel. Periurethral growth provides a structural explanation for the obstructive symptoms. This choice describes benign prostatic hyperplasia (nodules around the urethra), which is what the image shows.",
-        "The prominent nodules surround the central slit. This choice describes a peripheral nodule.",
-        "The visible pattern is solid nodules next to a narrowed channel. This choice describes a prostatic cyst.",
-        "This is a cut prostate with nodules surrounding its channel. This choice describes a bladder lining lesion.",
-        "The nodules directly border the central channel. This choice describes diffuse smooth enlargement."
+        "The symptoms point to the outlet, not the ureter.",
+        "Central gland nodules crowd the urethra, causing obstruction.",
+        "The seminal vesicles do not surround the proximal urethra.",
+        "Peripheral cancers are less likely to obstruct early.",
+        "A normal prostate would not explain the symptoms."
       ],
-      "explanation": "Rounded nodules crowd the slitlike central urethral channel. Periurethral growth provides a structural explanation for the obstructive symptoms. The prominent nodules surround the central slit.",
+      "explanation": "Step 1. BPH is a nodular hyperplasia of the central gland that surrounds the proximal urethra. Step 2. The lecture states BPH compresses adjacent tissue and causes urinary obstruction, whereas 70 to 80 percent of cancers arise in the outer peripheral glands and are less likely to cause urethral obstruction in early stages. Nodules crowding the urethral channel explain the weak stream and incomplete emptying.",
       "visual_clues": [
         "Rounded nodules crowd the slitlike central urethral channel."
       ],
@@ -8960,9 +8977,10 @@
           "page": 44
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-prostate-depth-basal-control",
@@ -8972,28 +8990,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Using a retained basal cell stain as a prostate comparison",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which finding would reassure the pathologist that a basal cell rim can be detected on the slide?",
       "visual_target": "Using a retained basal cell stain as a prostate comparison",
-      "scenario": "A 75-year-old with a weak urinary stream, nocturia, and an enlarged prostate undergoes transurethral resection.",
-      "lead_in": "This separate control field was stained with p63. Which finding would reassure the pathologist that a basal cell rim can be detected on the slide?",
-      "stem": "This separate control field was stained with p63. Which finding would reassure the pathologist that a basal cell rim can be detected on the slide?",
+      "scenario": "A 75-year-old man has a weak urinary stream, nocturia, and an enlarged prostate and undergoes transurethral resection. Two tissue fields are shown. A separate control field is stained with p63 to confirm the stain works on the slide.",
+      "lead_in": "Which finding would reassure the pathologist that a basal cell rim can be detected on the slide?",
+      "stem": "Which finding would reassure the pathologist that a basal cell rim can be detected on the slide?",
       "options": [
-        "Red cytoplasmic staining confined to a luminal cluster",
-        "Brown nuclear signal tracing the outer contours of glands",
-        "Diffuse stain in muscle with no gland associated signal",
-        "Isolated color only in secretions within the lumen",
-        "Complete absence of signal across all glands"
+        "Brown signal only in the stroma fibers",
+        "Red signal in the cytoplasm of cancer cells only",
+        "Brown signal filling the lumen of all glands",
+        "No signal anywhere on the slide",
+        "Brown nuclear signal tracing the outer contours of benign glands"
       ],
-      "correct_index": 1,
+      "correct_index": 4,
       "choice_rationales": [
-        "The relevant stain marks basal nuclei rather than luminal cytoplasm. This choice describes cytoplasmic staining in a luminal cluster.",
-        "The brown nuclear signal traces the outer contours of multiple benign glands. Such a positive control makes absence in a suspicious focus more informative than a globally blank stain. This choice describes retained p63-positive basal nuclei, which is what the image shows.",
-        "Stromal staining does not demonstrate a basal cell rim. This choice describes muscle staining.",
-        "Luminal secretions do not mark basal cells. This choice describes luminal secretions.",
-        "A globally blank field cannot show that the stain worked in benign glands. This choice describes a failed stain."
+        "Stromal staining would not mark basal cells.",
+        "Cytoplasmic cancer staining refers to AMACR, not a basal marker.",
+        "Luminal signal would not mark the basal layer.",
+        "No signal would mean the stain failed.",
+        "A nuclear rim along the outer gland contours confirms basal cells can be stained."
       ],
-      "explanation": "The brown nuclear signal traces the outer contours of multiple benign glands. Such a positive control makes absence in a suspicious focus more informative than a globally blank stain. A globally blank field cannot show that the stain worked in benign glands.",
+      "explanation": "Step 1. Basal cells lie at the outer edge of benign glands, and p63 is a nuclear basal cell marker, so a brown nuclear rim around benign glands shows the stain is working. Step 2. The lecture states that in invasive prostate cancer basal cells are absent, so a suspicious focus without a rim is meaningful only if a positive control rim is seen in the benign glands on the same slide.",
       "visual_clues": [
         "The brown nuclear signal traces the outer contours of multiple benign glands."
       ],
@@ -9024,9 +9042,10 @@
           "page": 45
         }
       ],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostate glands",
-      "condition_overview": "Benign prostatic glands have two cell layers, an inner secretory luminal layer and an outer layer of basal cells that stain positive for p63 and high-molecular-weight cytokeratin. Cancer lacks basal cells, so retained p63 positive basal cells indicate a benign gland, which is a key immunohistochemical distinction."
+      "condition_overview": "Benign prostatic glands have two cell layers, an inner secretory luminal layer and an outer layer of basal cells that stain positive for p63 and high-molecular-weight cytokeratin. Cancer lacks basal cells, so retained p63 positive basal cells indicate a benign gland, which is a key immunohistochemical distinction.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-prostate-depth-obstruction-attribution",
@@ -9036,28 +9055,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Why the two prostate components should be interpreted separately",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which interpretation is appropriate?",
       "visual_target": "Why the two prostate components should be interpreted separately",
-      "scenario": "A 75-year-old with a weak urinary stream, nocturia, and an enlarged prostate undergoes transurethral resection.",
-      "lead_in": "Which interpretation connects the displayed field to the symptoms while allowing the separate higher power focus to require its own assessment?",
-      "stem": "Which interpretation connects the displayed field to the symptoms while allowing the separate higher power focus to require its own assessment?",
+      "scenario": "A 75-year-old man has a weak urinary stream, nocturia, and an enlarged prostate and undergoes transurethral resection. Two tissue fields are shown. The pathologist wants to connect the displayed field to his symptoms while a separate higher power focus requires its own assessment.",
+      "lead_in": "Which interpretation is appropriate?",
+      "stem": "Which interpretation is appropriate?",
       "options": [
-        "Every dilated gland in this field demonstrates carcinoma",
-        "The specimen proves that a distant metastasis caused the weak stream",
-        "The folded glands support a hyperplastic explanation for the obstruction",
-        "The gland dilation establishes invasion of the bladder muscle",
-        "The visible architecture rules out a separate malignant focus elsewhere"
+        "The folded glands prove carcinoma and cause the symptoms",
+        "The separate focus proves BPH caused the symptoms",
+        "The folded glands support a hyperplastic explanation for the obstruction, while the separate focus is assessed independently for carcinoma",
+        "The separate focus and folded glands must be the same diagnosis",
+        "The folded glands are normal and cannot cause obstruction"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "The large folded profiles represent the hyperplastic component. This choice describes prostatic adenocarcinoma throughout.",
-        "Local prostate tissue cannot demonstrate that conclusion. This choice describes distant metastasis.",
-        "The dilated folded glands in this field are the hyperplastic component. The follow-up distinguishes that obstructive process from the focal small gland carcinoma elsewhere in the specimen. This choice describes benign prostatic hyperplasia causing urinary obstruction, which is what the image shows.",
-        "The field shows prostate glands rather than a bladder wall interface. This choice describes bladder muscle invasion.",
-        "A representative field cannot exclude a different pattern in another area. This choice describes exclusion of cancer elsewhere."
+        "Folded glands are characteristic of hyperplasia, not carcinoma.",
+        "A separate focus does not establish the cause of symptoms.",
+        "The hyperplastic field explains obstruction, and the other focus is judged on its own.",
+        "Two fields can show different diagnoses.",
+        "BPH nodules compress the urethra and can obstruct."
       ],
-      "explanation": "The dilated folded glands in this field are the hyperplastic component. The follow-up distinguishes that obstructive process from the focal small gland carcinoma elsewhere in the specimen. The field shows prostate glands rather than a bladder wall interface.",
+      "explanation": "Step 1. Folded, dilated glands in nodular hyperplasia of the central gland account for obstruction. Step 2. A different focus of crowded glands needs its own evaluation, since carcinoma commonly coexists in the elderly and arises mostly in the peripheral zone. The lecture notes PSA of 10 or greater and firm irregular nodules suggest cancer, whereas BPH is a clinical term with nodular hyperplasia on pathology.",
       "visual_clues": [
         "The dilated folded glands in this field are the hyperplastic component."
       ],
@@ -9100,9 +9119,10 @@
           "page": 43
         }
       ],
-      "study_skill": "mechanism",
+      "study_skill": "interpretation",
       "condition_name": "Benign prostatic hyperplasia",
-      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection."
+      "condition_overview": "Benign prostatic hyperplasia (BPH) is a nodular proliferation of glands and stroma in the periurethral transition zone, driven by dihydrotestosterone and increasing with age. Enlarged nodules compress the prostatic urethra, causing hesitancy, weak stream, nocturia, and incomplete emptying, with risks of retention, infection, and bladder hypertrophy. Microscopically there are large glands with papillary infoldings with two cell layers, and basal cells are preserved. It does not become cancer. Treatment is with alpha-blockers, 5-alpha-reductase inhibitors, or resection.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-r29-prostate-next",
@@ -9179,7 +9199,7 @@
       "asset_id": "a-5c76c45ecf1ad8c87d23609914f369464a30155845c2230201d855378c20e0b8",
       "variant_id": "v-f6c54a00cbf791d23553",
       "question_type": "Clinical visual question",
-      "tested_concept": "Urine cytology and the limits of staging",
+      "tested_concept": "What does the urine cytology contribute before the bladder wall is sampled?",
       "visual_target": "Urine cytology and the limits of staging",
       "category": "Urine Microscopy",
       "collection": "R29",
@@ -9188,23 +9208,23 @@
       "zoom_image": "assets/zoom/48a2394a1cdecb4846e6f22ee617867a8c52ada1852a8681d5deec6b4acc61dc.webp",
       "original_image": "assets/zoom/48a2394a1cdecb4846e6f22ee617867a8c52ada1852a8681d5deec6b4acc61dc.webp",
       "original_filename": "Case 5 Urine Cytology - Urine Microscopy.png",
-      "stem": "What does this urine cytology contribute before the bladder wall is sampled?",
+      "stem": "What does the urine cytology contribute before the bladder wall is sampled?",
       "options": [
-        "Muscle invasion can be staged directly from this cluster",
-        "Only a bland population of small uniform nuclei is present",
-        "Normal detrusor muscle bundles dominate the specimen",
-        "Malignant-appearing cells are shed into urine, with invasion depth unresolved",
-        "An intact noninvasive papillary lesion is demonstrated"
+        "It establishes invasion of muscle",
+        "It proves prostate adenocarcinoma",
+        "It excludes cancer because cells are shed normally",
+        "Malignant appearing cells are shed into urine, supporting urothelial carcinoma, but depth of invasion is unresolved",
+        "It proves the hematuria is from BPH"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "No detrusor tissue is shown in the urine preparation. This choice describes staged muscle invasion.",
-        "The crowded cells have conspicuous nuclei and irregular outlines. This choice describes a bland population.",
-        "The preparation contains shed cells, without intact bladder wall. This choice describes normal detrusor muscle.",
-        "Cytology shows atypia but contains no oriented bladder wall for staging. This choice describes malignant urothelial cells shed into urine (depth unknown), which is what the image shows.",
-        "A small cell cluster lacks the tissue architecture required for that conclusion. This choice describes a noninvasive papillary tumor."
+        "Muscle invasion can only be shown in tissue.",
+        "Prostate adenocarcinoma is not shown by urine cytology of this kind.",
+        "Malignant cells in urine are not normal shedding.",
+        "Cytology shows malignant cells but not depth, so biopsy is needed.",
+        "BPH does not explain malignant cells."
       ],
-      "explanation": "The crowded poorly cohesive cells have large irregular nuclei relative to the cytoplasm. The guide interprets them as malignant and emphasizes that shed cells cannot establish the depth of invasion.",
+      "explanation": "Step 1. Atypical urothelial cells with enlarged irregular nuclei in the urine support urothelial carcinoma, a risk with painless hematuria. Step 2. The R15 lecture states that staging, meaning the extent of invasion, is the most important prognostic factor and requires cystoscopic biopsy, since cytology does not show depth. BPH and infections can cause hematuria but do not explain malignant appearing cells.",
       "visual_clues": [
         "Inspect the crowded nuclei and the relatively small amount of cytoplasm."
       ],
@@ -9226,13 +9246,13 @@
         }
       ],
       "case_id": "r29-bladder",
-      "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology is followed by a bladder biopsy.",
-      "lead_in": "What does this urine cytology contribute before the bladder wall is sampled?",
+      "scenario": "A 65-year-old man with recurrent urinary tract infections due to benign prostatic hyperplasia has had gross hematuria for one week. Urine cytology is followed by a bladder biopsy.",
+      "lead_in": "What does the urine cytology contribute before the bladder wall is sampled?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 45,
@@ -9241,7 +9261,8 @@
         }
       ],
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-bladder-a-case",
@@ -9250,7 +9271,7 @@
       "asset_id": "a-16be5374bb8964b281641e3dc5286a85d928b8c403ca474810d0127420ccf935",
       "variant_id": "v-9d5cac35afc6a3b7ad64",
       "question_type": "Clinical visual question",
-      "tested_concept": "Bladder biopsy and muscle invasion",
+      "tested_concept": "What does the tissue sample establish that the urine cytology could not?",
       "visual_target": "Bladder biopsy and muscle invasion",
       "category": "Histology",
       "collection": "R29",
@@ -9259,23 +9280,23 @@
       "zoom_image": "assets/zoom/5f5e7deb925a40229470912a84ddb6466ea8e045b1ac63595ae49b5172fafba4.webp",
       "original_image": "assets/zoom/5f5e7deb925a40229470912a84ddb6466ea8e045b1ac63595ae49b5172fafba4.webp",
       "original_filename": "Case 5 Bladder Biopsy 1 - Histology.png",
-      "stem": "What does this tissue sample establish that the urine cytology could not?",
+      "stem": "What does the tissue sample establish that the urine cytology could not?",
       "options": [
-        "The atypical cells stay entirely on the mucosal surface",
-        "The muscle is separated from the tumor by a clean plane",
-        "Only acellular debris lies between the bundles",
-        "A well-defined epithelial-lined cyst displaces the wall",
-        "Atypical cells infiltrate among muscle bundles"
+        "Atypical cells infiltrate among muscle bundles, showing invasion of the muscularis propria and a high stage tumor",
+        "The cells are shed into urine",
+        "The cells are benign inflammatory cells",
+        "The tumor is a metastasis from the ovary",
+        "The tumor is confined to the surface"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "Atypical cells are intermixed with deeper wall tissue. This choice describes surface-confined disease.",
-        "Dark cells extend between the bundles. This choice describes a tumor separated from muscle.",
-        "The dark infiltrate contains many discernible nuclei. This choice describes acellular debris.",
-        "There is no dominant smooth cyst separating the tumor from muscle. This choice describes a cyst.",
-        "The dark proliferation interrupts and separates the pink bundles. This choice describes muscle-invasive urothelial carcinoma, which is what the image shows."
+        "Biopsy shows invasion into muscle, which cytology cannot.",
+        "Shedding into urine was already known from cytology.",
+        "The cells are atypical and not inflammatory.",
+        "An ovarian metastasis is not suggested.",
+        "Muscle involvement shows the tumor is not confined to the surface."
       ],
-      "explanation": "Atypical cells infiltrate between broad pink muscle bundles. The follow-up guide identifies invasion of the bladder muscle layer in these biopsy fields.",
+      "explanation": "Step 1. Tissue shows the relationship of tumor to the bladder wall, while urine cytology shows only cells. Step 2. Atypical cells among muscle bundles establish detrusor invasion, and the R15 lecture states that extent of invasion at diagnosis is the most important prognostic factor, with high grade tumors with muscle invasion needing more aggressive therapy than resection with BCG.",
       "visual_clues": [
         "Follow the pink bundles and look for dark tumor cells between them."
       ],
@@ -9305,15 +9326,16 @@
         }
       ],
       "case_id": "r29-bladder",
-      "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology is followed by a bladder biopsy.",
-      "lead_in": "What does this tissue sample establish that the urine cytology could not?",
+      "scenario": "A 65-year-old man with recurrent urinary tract infections due to benign prostatic hyperplasia has had gross hematuria for one week. Urine cytology is followed by a bladder biopsy.",
+      "lead_in": "What does the tissue sample establish that the urine cytology could not?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-bladder-b-case",
@@ -9322,7 +9344,7 @@
       "asset_id": "a-701ba3698b743b76c87673f0e58688c7593fdb05ec523437c84b4a3da1640a35",
       "variant_id": "v-6ebb7052557b5d46791e",
       "question_type": "Clinical visual question",
-      "tested_concept": "Tumor nests and bladder wall architecture",
+      "tested_concept": "Which architecture is present, and what does it imply about invasion?",
       "visual_target": "Inspect the junction between the darker cells and the pink wall tissue. Which architecture is present?",
       "category": "Histology",
       "collection": "R29",
@@ -9331,23 +9353,23 @@
       "zoom_image": "assets/zoom/2d2b374c4f3188f4f6e249616a6860589bdf34c5f4e7f8a8b82752f964d976ec.webp",
       "original_image": "assets/zoom/2d2b374c4f3188f4f6e249616a6860589bdf34c5f4e7f8a8b82752f964d976ec.webp",
       "original_filename": "Case 5 Bladder Biopsy 2 - Histology.png",
-      "stem": "Inspect the junction between the darker cells and the pink wall tissue. Which architecture is present?",
+      "stem": "Which architecture is present, and what does it imply about invasion?",
       "options": [
-        "Dark irregular nests extend between wall bundles.",
-        "A continuous bland lining rests above the wall.",
-        "Smooth rounded urothelial nests remain confined to superficial lamina propria.",
-        "A detached papillary fragment lies beside the wall without a tissue interface.",
-        "A flat atypical population remains confined to the surface epithelium."
+        "A circumscribed lymphoid aggregate, indicating chronic cystitis",
+        "Papillary fronds around stromal cores above an intact wall, indicating a noninvasive papillary tumor",
+        "Dark irregular nests extend between wall bundles, indicating invasive urothelial carcinoma growing as nests and cords",
+        "A smooth line of cells on a basement membrane, indicating carcinoma in situ",
+        "Foamy histiocytes with laminated inclusions, indicating malakoplakia"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "Irregular dark nests interdigitate with the pink wall tissue rather than remaining on its surface. This choice describes invasive urothelial carcinoma (nests between wall bundles), which is what the image shows.",
-        "A bland surface lining would sit above the wall. The darker cells here form irregular nests among wall bundles. This choice describes a bland lining.",
-        "Regular superficial urothelial nests would remain in the lamina propria. These nests lie among broad wall bundles in the supplied invasive biopsy. This choice describes noninvasive Brunn nests.",
-        "A detached papillary fragment does not by itself establish invasion. This field shows a persistent relationship between tumor nests and the wall. This choice describes a detached papillary fragment.",
-        "A flat in situ lesion may be markedly atypical but stays within the surface lining. These dark nests lie beneath that compartment. This choice describes urothelial carcinoma in situ."
+        "A lymphoid aggregate describes chronic cystitis.",
+        "Papillary fronds above an intact wall describe noninvasive papillary neoplasms.",
+        "Irregular nests between muscle bundles show invasion.",
+        "A smooth surface line on the basement membrane describes in situ disease.",
+        "Foamy histiocytes with inclusions describe malakoplakia."
       ],
-      "explanation": "Depth depends on where the tumor cells are, not simply how abnormal their nuclei appear. The companion fields show wall infiltration; detached papillae or flat atypia alone could not establish muscle involvement.",
+      "explanation": "Step 1. Dark irregular nests between pink muscle bundles show tumor infiltrating the wall. Step 2. The R15 lecture describes invasive urothelial carcinoma as invading diffusely in thin finger like cords (tentacular pattern) with detrusor involvement. Noninvasive papillary tumors and flat CIS are confined above the wall.",
       "visual_clues": [
         "Compare the dark rounded nests with the pink bundles that surround them."
       ],
@@ -9377,15 +9399,16 @@
         }
       ],
       "case_id": "r29-bladder",
-      "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology is followed by a bladder biopsy.",
-      "lead_in": "Inspect the junction between the darker cells and the pink wall tissue. Which architecture is present?",
+      "scenario": "A 65-year-old man with recurrent urinary tract infections due to benign prostatic hyperplasia has had gross hematuria for one week. Urine cytology is followed by a bladder biopsy. At the junction of dark cells and the pink wall, the field is inspected.",
+      "lead_in": "Which architecture is present, and what does it imply about invasion?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "morphology",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-bladder-depth-papillary-comparison",
@@ -9395,28 +9418,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Raised papillary architecture in a separate urothelial lesion",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which relationship between epithelium and stroma defines the pattern?",
       "visual_target": "Follow the pink tissue through the center of the epithelial proliferation. Which relationship between epithelium and stroma is present?",
-      "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology and biopsy are obtained.",
-      "lead_in": "Follow the pink tissue through the center of the epithelial proliferation. Which relationship between epithelium and stroma is present?",
-      "stem": "Follow the pink tissue through the center of the epithelial proliferation. Which relationship between epithelium and stroma is present?",
+      "scenario": "A 65-year-old man with recurrent urinary tract infections due to benign prostatic hyperplasia has had gross hematuria for one week. Urine cytology is followed by a bladder biopsy. A comparison field shows a papillary urothelial tumor.",
+      "lead_in": "Which relationship between epithelium and stroma defines the pattern?",
+      "stem": "Which relationship between epithelium and stroma defines the pattern?",
       "options": [
-        "Small epithelial nests extend inward between detrusor fascicles",
-        "A single flat atypical layer follows a level mucosal surface",
-        "Detached malignant cells float in a urine specimen",
-        "An epithelial frond projects outward around a stromal core",
-        "Rounded glandular spaces distend a deeply embedded nodule"
+        "A flat strip of atypical cells on the surface, indicating CIS",
+        "A dermal nodule without epidermal connection",
+        "Irregular cords of cells in muscle, indicating invasion",
+        "An epithelial frond projects outward around a fibrovascular stromal core, a papillary tumor that may be noninvasive",
+        "A scarred dermis under thin epidermis"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "Muscle-invasive urothelial carcinoma would form separate nests between detrusor bundles. This epithelial layer follows a branching fibrovascular axis. This choice describes invasive carcinoma between detrusor fascicles.",
-        "Urothelial carcinoma in situ follows a flat mucosal surface. The field shows epithelium around a projecting core. This choice describes flat carcinoma in situ.",
-        "Urine cytology could contain detached cell groups. This biopsy preserves a continuous layer of epithelium on a tissue core. This choice describes cells floating in urine.",
-        "Urothelium lines the outside of a projecting fibrovascular core. This choice describes a papillary urothelial tumor with a stromal core, which is what the image shows.",
-        "A deep glandular nodule would show enclosed lumens within wall tissue. Here the epithelial layer is wrapped around a central stromal projection. This choice describes a glandular nodule (cystitis glandularis)."
+        "A flat atypical strip describes CIS.",
+        "A dermal nodule describes hidradenoma on the vulva.",
+        "Cords in muscle describe invasive carcinoma.",
+        "A frond with a stromal core defines papillary architecture.",
+        "Scarred dermis describes lichen sclerosus."
       ],
-      "explanation": "Papillary urothelial growth is organized around fibrovascular cores. The projection extends toward the lumen and must be distinguished from irregular epithelial nests scattered within the bladder wall.",
+      "explanation": "Step 1. Papillary means finger like exophytic growth, here an epithelial frond around a stromal core. Step 2. The R15 lecture states low grade papillary urothelial carcinoma is the most common urothelial tumor with a recurrence rate of about 45 percent and under 10 percent coexistent invasion, whereas high grade tumors have up to 80 percent coexistent invasion. The frond architecture alone does not show invasion, so the wall must be sampled.",
       "visual_clues": [
         "The tissue forms a papillary frond with a stromal core and epithelium over its outer surface."
       ],
@@ -9455,9 +9478,10 @@
           "page": 59
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r29-bladder-depth-flat-comparison",
@@ -9467,28 +9491,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R29",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Flat urothelial atypia as a separate pattern from muscle invasion",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What is the important compartment difference between this companion field and the deeper biopsy from the original case?",
       "visual_target": "Flat urothelial atypia as a separate pattern from muscle invasion",
-      "scenario": "A 65-year-old with recurrent urinary tract infections develops gross hematuria. Urine cytology and biopsy are obtained.",
-      "lead_in": "What is the important compartment difference between the pictured companion field and the deeper biopsy from the original case?",
-      "stem": "What is the important compartment difference between the pictured companion field and the deeper biopsy from the original case?",
+      "scenario": "A 65-year-old man with recurrent urinary tract infections due to benign prostatic hyperplasia has had gross hematuria for one week. Urine cytology is followed by a bladder biopsy. A separate companion field shows the surface only.",
+      "lead_in": "What is the important compartment difference between this companion field and the deeper biopsy from the original case?",
+      "stem": "What is the important compartment difference between this companion field and the deeper biopsy from the original case?",
       "options": [
-        "Tumor nests occupy the spaces between thick muscle bundles",
-        "The abnormal cells form a detached group in urine",
-        "A tall epithelial frond wraps around a central vascular stalk",
-        "The atypical cells occupy a broad pool of extracellular mucin",
-        "The abnormal cells form an atypical surface epithelial strip"
+        "The companion field shows metastasis in a lymph node",
+        "The companion field shows benign cystitis only",
+        "The abnormal cells form an atypical surface epithelial strip confined to the urothelium (flat carcinoma in situ), whereas the deeper biopsy shows tumor in the muscle wall",
+        "Both show tumor in the muscle wall",
+        "The companion field shows prostatic basal cells"
       ],
-      "correct_index": 4,
+      "correct_index": 2,
       "choice_rationales": [
-        "There is no demonstrated detrusor relationship in this field. This choice describes muscle-invasive carcinoma.",
-        "Urine cytology can show detached atypical urothelial cells. This tissue section preserves a flat attached epithelial layer and demonstrates the intraepithelial pattern of urothelial carcinoma in situ. This choice describes urine cytology cells.",
-        "The abnormal lining is flat rather than papillary. This choice describes a papillary tumor with a vascular stalk.",
-        "The prominent feature is a densely cellular epithelial strip. This choice describes mucinous carcinoma.",
-        "Crowded pleomorphic cells follow the surface epithelial strip in this field. The visual shows where the abnormality is located, while the original biopsy can be assessed for tumor within the bladder wall. This choice describes a flat surface urothelial carcinoma in situ, which is what the image shows."
+        "No lymph node is shown here.",
+        "The atypical cells are not just benign cystitis.",
+        "A surface strip of atypical cells is carcinoma in situ confined to the urothelium.",
+        "Only the deeper biopsy shows muscle involvement.",
+        "Prostatic basal cells are not shown in bladder surface epithelium."
       ],
-      "explanation": "Crowded pleomorphic cells follow the surface epithelial strip in this field. The visual shows where the abnormality is located, while the original biopsy can be assessed for tumor within the bladder wall. Urine cytology can show detached atypical urothelial cells. This tissue section preserves a flat attached epithelial layer and demonstrates the intraepithelial pattern of urothelial carcinoma in situ.",
+      "explanation": "Step 1. A flat strip of markedly atypical urothelial cells with no mass is flat urothelial carcinoma in situ, a high grade lesion that appears velvety and poorly cohesive. Step 2. The compartment matters because staging depends on depth, and the lecture states high grade superficial disease is treated with resection and BCG, while muscle invasive disease needs more aggressive therapy.",
       "visual_clues": [
         "Crowded pleomorphic cells follow the surface epithelial strip in this field."
       ],
@@ -9527,9 +9551,10 @@
           "page": 59
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial carcinoma in situ",
-      "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG."
+      "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-bladder-treatment",
