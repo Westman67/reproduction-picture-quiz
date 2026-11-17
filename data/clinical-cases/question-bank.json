@@ -5786,32 +5786,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Small crowded glands are found in a prostate specimen. The pathologist orders a basal-cell stain and uses larger glands in the same section as the internal control.",
-      "lead_in": "Which difference in staining is visible across the field?",
-      "stem": "Which difference in staining is visible across the field?",
+      "scenario": "A 66-year-old man with a PSA of 12 has an abnormal digital rectal exam. A needle core is stained with a basal cell marker (CK903). Larger gland profiles retain a dark rim of staining around the lumen, while many smaller crowded glands show no rim.",
+      "lead_in": "What does the absent rim indicate about the small glands?",
+      "stem": "What does the absent rim indicate about the small glands?",
       "options": [
-        "Only the small profiles have a complete dark peripheral rim",
-        "Both populations have equally strong dark rims",
-        "Larger gland profiles retain a dark rim that many smaller profiles lack",
-        "Dark staining is confined to the middle of the small gland lumens only",
-        "No gland in the section has a visible dark rim"
+        "The basal cell layer is intact, so these glands are benign",
+        "The glands are normal peripheral zone glands expected to be negative",
+        "The glands are inflamed by neutrophils",
+        "The glands are lined by double layers, so they are hyperplastic",
+        "The basal cell layer is missing, so these glands are malignant and invasive"
       ],
-      "correct_index": 2,
+      "correct_index": 4,
       "choice_rationales": [
-        "The clearest dark rings surround larger profiles. This choice describes a dark rim confined to the small glands.",
-        "There is a conspicuous difference in peripheral staining. This choice describes equal rims in both populations.",
-        "Dark peripheral staining surrounds several larger glands. This choice describes a basal cell rim retained in benign glands but lost in many small glands (suspicious for carcinoma), which is what the image shows.",
-        "The dark signal follows the edge of several larger profiles. This choice describes a lumen-only stain.",
-        "Several distinct rings provide an internal comparison. This choice describes no basal rim in any gland."
+        "An intact basal layer would produce a rim, as in the benign larger glands.",
+        "Benign glands retain basal cells, so negativity is abnormal.",
+        "Neutrophils are not what a basal marker shows.",
+        "Hyperplastic glands retain their basal cell layer.",
+        "Absent basal cells in small crowded glands indicate invasive adenocarcinoma."
       ],
-      "explanation": "Several larger profiles have a distinct dark peripheral rim. Many nearby smaller profiles lack a comparable rim.",
+      "explanation": "Step 1. A basal cell marker highlights the outer cell layer of benign prostate glands. Step 2. The lecture states that in invasive prostate cancer basal cells are absent, and carcinoma forms small, single layer, crowded glands lacking a basal layer. The dark rim around larger glands marks benign glands and the missing rim marks the cancer.",
       "visual_clues": [
         "Compare the edges of the small pink profiles with the dark rings around larger glands."
       ],
       "visual_target": "Retained basal rim around larger profiles and loss around suspicious small profiles",
-      "tested_concept": "Internal control in a prostate PIN4 field",
+      "tested_concept": "What does the absent rim indicate about the small glands?",
       "category": "Histology",
       "collection": "R16",
       "source_origin": "lecture",
@@ -5840,7 +5840,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 69,
@@ -5854,7 +5854,8 @@
         }
       ],
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-prostate-stain-2",
@@ -5862,32 +5863,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A prostate specimen contains small suspicious glands. A PIN4 teaching field includes other glands for comparison.",
-      "lead_in": "Which interpretation best integrates the two gland populations?",
-      "stem": "Which interpretation best integrates the two gland populations?",
+      "scenario": "A pathologist integrates a stain field containing larger rimmed glands and smaller atypical glands without rims. The patient, a 70-year-old man, has a firm irregular nodule in the peripheral prostate and PSA 14. He asks if the cancer is likely to cause urinary obstruction early.",
+      "lead_in": "Which statement correctly interprets the two gland populations and the clinical presentation?",
+      "stem": "Which statement correctly interprets the two gland populations and the clinical presentation?",
       "options": [
-        "The stain failed across the entire specimen",
-        "A preserved basal layer surrounds all the small suspicious glands",
-        "The small glands show the same architecture and rim as the larger benign glands",
-        "Rim loss in the smaller atypical glands supports invasion",
-        "Positive luminal staining alone establishes invasive disease"
+        "Rim loss supports normal glands and requires no biopsy",
+        "Rim loss supports invasion, and since 70 to 80 percent of cancers arise in the peripheral glands they are less likely than BPH to obstruct the urethra early",
+        "Rim loss indicates a testicular germ cell tumor metastasis",
+        "Rim loss supports BPH, which arises in the peripheral zone and obstructs early",
+        "Rim loss is expected in all benign glands, so PSA is unreliable"
       ],
-      "correct_index": 3,
+      "correct_index": 1,
       "choice_rationales": [
-        "The dark rings around larger glands show that the basal stain worked within the field. This choice describes a failed stain.",
-        "Most of the smaller pink profiles lack the dark peripheral rim. This choice describes preserved basal cells around all small glands.",
-        "The two populations differ in both profile size and basal staining. This choice describes the same architecture in small and large glands.",
-        "The small atypical prostate glands lose the basal rim, while the larger benign glands retain it as an internal control. In this context, basal cell loss supports invasive prostatic adenocarcinoma. This choice describes loss of the basal layer in small atypical glands, supporting prostatic adenocarcinoma, which is what the image shows.",
-        "Luminal AMACR positivity can also be seen in prostatic intraepithelial neoplasia. Interpreting suspected invasive adenocarcinoma requires attention to gland architecture and the basal cell layer. This choice describes luminal staining as proof of invasion."
+        "Missing basal cells are abnormal and require diagnosis.",
+        "Loss of basal cells supports cancer, and peripheral origin explains delayed obstruction.",
+        "Testicular germ cell tumors are unrelated to prostatic basal cells.",
+        "BPH arises centrally and periurethrally, not peripherally.",
+        "Benign glands retain basal cells."
       ],
-      "explanation": "In this teaching field, rim loss around the smaller atypical glands supports invasive adenocarcinoma when interpreted with their morphology. The larger glands with retained basal staining serve as an internal comparison.",
+      "explanation": "Step 1. The smaller atypical glands lack basal cells, which supports invasive adenocarcinoma. Step 2. The lecture states 70 to 80 percent of prostate cancers arise in the outer peripheral glands and are less likely than BPH to cause urethral obstruction early. BPH involves the central gland and periurethral transition zone, which is why it obstructs. A PSA of 10 or greater and a firm irregular nodule are expected findings.",
       "visual_clues": [
         "Check both the gland architecture and the presence or absence of a dark basal rim."
       ],
       "visual_target": "Absence of basal staining in the smaller suspicious glands",
-      "tested_concept": "Interpreting basal rim loss in prostate glands",
+      "tested_concept": "Which statement correctly interprets the two gland populations and the clinical presentation?",
       "category": "Histology",
       "collection": "R16",
       "source_origin": "lecture",
@@ -5920,7 +5921,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 69,
@@ -5934,7 +5935,8 @@
         }
       ],
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-prostate-stain-depth-he-trigger",
@@ -5944,28 +5946,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R16",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Routine histologic clue that warrants a basal cell stain",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which gland group on the routine stain would be the trigger?",
       "visual_target": "Routine histologic clue that warrants a basal cell stain",
-      "scenario": "A prostate specimen contains small suspicious glands that prompted immunostaining.",
-      "lead_in": "A separate routine stain shows prostate tissue before immunostaining. Which group would be the best target for assessing the basal layer?",
-      "stem": "A separate routine stain shows prostate tissue before immunostaining. Which group would be the best target for assessing the basal layer?",
+      "scenario": "A urologist reviews a routine H&E stain from a needle biopsy before immunostaining was ordered. The pathologist says that one group of glands made her order the basal cell stain.",
+      "lead_in": "Which gland group on the routine stain would be the trigger?",
+      "stem": "Which gland group on the routine stain would be the trigger?",
       "options": [
-        "Large folded glands with ample intervening stroma",
-        "A vessel with an open red cell filled lumen",
-        "A broad smooth muscle bundle without glands",
-        "Small tightly spaced glands infiltrating pink stroma",
-        "Free pink secretion in an otherwise empty lumen"
+        "Nests of large clear cells separated by lymphoid septa",
+        "Large glands with papillary infolding and a double cell layer",
+        "Small, tightly spaced glands infiltrating pink stroma, in a single cell layer",
+        "Foamy histiocytes with laminated inclusions",
+        "A circumscribed nodule of pure stroma"
       ],
-      "correct_index": 3,
+      "correct_index": 2,
       "choice_rationales": [
-        "Broad folded glands are not the densely crowded suspicious population. This choice describes large folded benign glands.",
-        "A vascular profile is not the epithelial target. This choice describes a blood vessel.",
-        "The stain question concerns epithelial gland profiles. This choice describes a smooth muscle bundle.",
-        "The small crowded atypical glands lie between pink fibromuscular tissue. Their architecture draws attention to the glands whose basal cell status could be informative. This choice describes small crowded glands (suspicious for prostatic adenocarcinoma), which is what the image shows.",
-        "Luminal material alone cannot demonstrate a basal cell layer. This choice describes free secretion in a lumen."
+        "Large clear cells with lymphoid septa describe seminoma of the testis.",
+        "Large infolded glands with two layers resemble benign hyperplasia.",
+        "Small, crowded, single layer glands infiltrating stroma are the suspicious pattern.",
+        "Foamy histiocytes with inclusions describe malakoplakia.",
+        "A nodule of pure stroma is a pattern of BPH nodules, not cancer."
       ],
-      "explanation": "The small crowded atypical glands lie between pink fibromuscular tissue. Their architecture draws attention to the glands whose basal cell status could be informative. Broad folded glands are not the densely crowded suspicious population.",
+      "explanation": "Step 1. On routine staining, prostate adenocarcinoma shows small, single layer, crowded glands infiltrating stroma with enlarged nuclei, prominent nucleoli, and pink amorphous or blue mucinous secretions. Step 2. The lecture states the basal layer is missing in cancer, so the pathologist confirms this with basal cell markers such as CK903, with racemase (AMACR) as a positive marker in cancer cells.",
       "visual_clues": [
         "The small crowded atypical glands lie between pink fibromuscular tissue."
       ],
@@ -5996,9 +5998,10 @@
           "page": 18
         }
       ],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "condition_name": "Prostatic adenocarcinoma",
-      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic."
+      "condition_overview": "Prostatic adenocarcinoma is the most common nonskin cancer in men and typically arises in the peripheral zone, so it presents late with urinary symptoms and is often found by PSA or digital rectal examination. Small crowded glands infiltrate between benign glands and stroma, lined by a single layer of cells with prominent nucleoli, and the basal cell layer is absent (p63 and high-molecular-weight keratin negative), while AMACR is often positive. Grading uses the Gleason system by glandular architecture: pattern 3 well-formed glands, pattern 4 fused or cribriform glands, and pattern 5 solid sheets, cords, or single cells with comedonecrosis. Bone metastases are typically osteoblastic.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-prostate-stain-depth-retained-duct",
@@ -6008,28 +6011,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R16",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Prostatic duct architecture as an alternative to invasive small glands",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does the retained ductal outline and basal layer suggest about this lesion?",
       "visual_target": "Prostatic duct architecture as an alternative to invasive small glands",
-      "scenario": "A prostate specimen contains small suspicious glands that prompted immunostaining.",
-      "lead_in": "The pathologist reviews a separate prostatic lesion with atypical epithelium. Which feature explains why its appearance cannot be equated with isolated invasive small glands?",
-      "stem": "The pathologist reviews a separate prostatic lesion with atypical epithelium. Which feature explains why its appearance cannot be equated with isolated invasive small glands?",
+      "scenario": "A 62-year-old man has a prostate biopsy showing atypical epithelium with enlarged nuclei and prominent nucleoli forming projections within a recognizable ductal outline. A basal cell marker still highlights an outer layer around this duct.",
+      "lead_in": "What does the retained ductal outline and basal layer suggest about this lesion?",
+      "stem": "What does the retained ductal outline and basal layer suggest about this lesion?",
       "options": [
-        "Numerous separate small glands dispersed throughout the stroma",
-        "Single atypical cells scattered among muscle bundles",
-        "Solid sheets with no recognizable epithelial compartment",
-        "Pale stromal expansion with no epithelial proliferation",
-        "Atypical projections within a recognizable ductal outline"
+        "It is a seminoma, because large nuclei are present",
+        "It is invasive adenocarcinoma, because atypia is present",
+        "It is malakoplakia, because the duct contains histiocytes",
+        "It is confined within a duct, as in prostatic intraepithelial neoplasia, and is not invasive, though it often accompanies cancer",
+        "It is BPH, because it shows atypia and requires no follow up"
       ],
-      "correct_index": 4,
+      "correct_index": 3,
       "choice_rationales": [
-        "The main proliferation is within a shared ductal profile. This choice describes numerous separate small glands.",
-        "The atypical cells are organized into intraductal projections. This choice describes single atypical cells.",
-        "A distinct duct and lumen remain visible. This choice describes solid sheets.",
-        "The projections arise from epithelium. This choice describes stromal expansion.",
-        "The abnormal epithelium projects inward into a recognizable preexisting duct. In this teaching example, the ductal boundary is retained around the proliferation. This choice describes intraductal carcinoma of the prostate, which is what the image shows."
+        "Seminoma is a testicular germ cell tumor and is not a prostate lesion.",
+        "Invasive cancer lacks basal cells, which are retained here.",
+        "Malakoplakia is a histiocytic inflammatory condition.",
+        "Atypia within an intact duct with basal cells is noninvasive and is often found with cancer.",
+        "Atypical nuclei are not a feature of simple hyperplasia."
       ],
-      "explanation": "The abnormal epithelium projects inward into a recognizable preexisting duct. In this teaching example, the ductal boundary is retained around the proliferation. The atypical cells are organized into intraductal projections.",
+      "explanation": "Step 1. Atypical epithelium confined within an intact duct with a preserved outer basal layer is a noninvasive precursor type of lesion, consistent with high grade PIN. Step 2. The lecture states that 80 percent of cancer cases show high grade PIN, and that invasive cancer lacks basal cells, so retained basal cells argue against invasion here. The inference about the duct outline follows from that principle.",
       "visual_clues": [
         "The abnormal epithelium projects inward into a recognizable preexisting duct."
       ],
@@ -6060,14 +6063,15 @@
           "page": 18
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 50,
           "y": 46,
           "label": "Atypical epithelium projects into a recognizable ductal lumen."
         }
-      ]
+      ],
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-prostate-stain-depth-normal-basal",
@@ -6077,28 +6081,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R16",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Orientation to basal cells in an unstained comparison gland",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Where is this layer located?",
       "visual_target": "Orientation to basal cells in an unstained comparison gland",
-      "scenario": "A prostate specimen contains small suspicious glands that prompted immunostaining.",
-      "lead_in": "In the normal comparison field on routine stain, where should the learner look for the cell layer assessed by the dark rim on the immunostain?",
-      "stem": "In the normal comparison field on routine stain, where should the learner look for the cell layer assessed by the dark rim on the immunostain?",
+      "scenario": "A medical student reviews a normal prostate gland on routine stain and is asked where she would find the basal cell layer that is lost in cancer.",
+      "lead_in": "Where is this layer located?",
+      "stem": "Where is this layer located?",
       "options": [
-        "At the outer edge of the gland beside the stroma",
-        "At the edge of the gland facing its open lumen",
-        "Floating free in the center of the lumen",
-        "In the center of adjacent muscle bundles",
-        "Around a neighboring vessel only"
+        "At the outer edge of the gland beside the stroma, beneath the luminal secretory cells",
+        "In the center of the lumen as the secretory layer",
+        "Within the periurethral glands only",
+        "In the lumen as crystalloids",
+        "Within the stroma as scattered histiocytes"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Small basal cells sit at the outer edge of the gland epithelium next to stroma. The luminal cell surface lies on the opposite side. This choice describes the basal cell layer, which is what the image shows.",
-        "The luminal surface is on the inner side of the epithelial layer. This choice describes the luminal surface.",
-        "The basal layer is attached along the outside of the epithelium. This choice describes luminal debris.",
-        "The cells in question are part of the gland lining. This choice describes muscle.",
-        "The layer follows the epithelial gland profile. This choice describes a vessel wall."
+        "Basal cells lie outside the secretory layer, adjacent to the stroma.",
+        "The secretory cells face the lumen, not the basal cells.",
+        "Basal cells are not limited to the periurethral glands.",
+        "Crystalloids may be seen in cancer secretions and are not a cell layer.",
+        "Histiocytes are inflammatory cells and are not basal cells."
       ],
-      "explanation": "Small basal cells sit at the outer edge of the gland epithelium next to stroma. The luminal cell surface lies on the opposite side. The luminal surface is on the inner side of the epithelial layer.",
+      "explanation": "Step 1. Benign prostate glands are lined by secretory cells with basal cells lying at the outer edge beside the stroma (yellow arrows in the lecture figure). Step 2. Because the basal layer is absent in invasive adenocarcinoma, locating it in benign glands is the basis of immunostains such as CK903. Cancer glands have a single luminal cell layer.",
       "visual_clues": [
         "Small basal cells sit at the outer edge of the gland epithelium next to stroma."
       ],
@@ -6129,7 +6133,8 @@
           "page": 18
         }
       ],
-      "study_skill": "stain"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-pin4-pattern",
@@ -6205,32 +6210,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A young adult is evaluated for painless testicular swelling. After resection, the pathologist compares the cut surface with the microscopic architecture.",
-      "lead_in": "Which pattern best describes the cut surface?",
-      "stem": "Which pattern best describes the cut surface?",
+      "scenario": "A 29-year-old man with a history of cryptorchidism has a painless testicular swelling. An orchiectomy specimen shows a bulky, homogeneous, grey white to cream colored, lobulated mass with pale fleshy lobules, with little hemorrhage or necrosis.",
+      "lead_in": "What does this gross appearance predict about behavior and treatment?",
+      "stem": "What does this gross appearance predict about behavior and treatment?",
       "options": [
-        "A heterogeneous dark mass dominated by hemorrhage",
-        "Several large fluid filled cysts separated by thin walls",
-        "A single sharply demarcated cavity with a thick wall",
-        "Only a narrow pale rim around otherwise dark testicular tissue",
-        "Pale fleshy lobules with relatively uniform cut surfaces"
+        "It is typical of Leydig cell tumor, which is yellow and benign",
+        "It is typical of seminoma, which is usually limited by the tunica albuginea, radiosensitive, and highly curable",
+        "It is typical of yolk sac tumor, which is cystic and AFP negative",
+        "It is typical of embryonal carcinoma, which is necrotic and aggressive",
+        "It is typical of choriocarcinoma, which is hemorrhagic and radioresistant"
       ],
-      "correct_index": 4,
+      "correct_index": 1,
       "choice_rationales": [
-        "The large pale lobules dominate the cut surface. This choice describes a hemorrhagic tumor (such as choriocarcinoma).",
-        "The pale lobules are solid and fleshy. This choice describes multiple cysts (such as a cystic teratoma).",
-        "The lesion fills both displayed halves as a multilobulated solid mass. This choice describes a cavitary lesion.",
-        "The pale tissue occupies most of the cut surface. This choice describes a narrow pale rim around atrophic testis.",
-        "The pale, fleshy, relatively uniform lobulated cut surface is characteristic of the illustrated seminoma. This choice describes seminoma (pale fleshy lobules), which is what the image shows."
+        "Leydig cell tumors are sex cord tumors and are not the typical germ cell mass.",
+        "Homogeneous fleshy cut surface without necrosis fits seminoma, which is radiosensitive and curable.",
+        "Yolk sac tumor is a different germ cell tumor, and AFP is elevated.",
+        "Embryonal carcinoma shows necrosis and is more aggressive.",
+        "Choriocarcinoma is hemorrhagic and not described as a pale homogeneous mass."
       ],
-      "explanation": "Most of the section is replaced by a pale fleshy mass with rounded lobules and relatively uniform cut surfaces.",
+      "explanation": "Step 1. A bulky, homogeneous, fleshy cream to tan lobulated mass with rare hemorrhage and necrosis is a seminoma. Step 2. The lecture states it is the most common testicular germ cell tumor in ages 15 to 40, usually limited by the tunica albuginea, radiosensitive with a high cure rate, and history of cryptorchidism in 10 percent. Embryonal carcinoma is more aggressive and often metastatic, with necrosis.",
       "visual_clues": [
         "Compare the pale lobules with the darker tissue between the two halves."
       ],
       "visual_target": "Lobulated homogeneous pale cut surface",
-      "tested_concept": "Gross architecture of a testicular mass",
+      "tested_concept": "What does this gross appearance predict about behavior and treatment?",
       "category": "Gross",
       "collection": "R16",
       "source_origin": "lecture",
@@ -6255,9 +6260,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-testicular-mass-2",
@@ -6265,32 +6271,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An adult presents with a painless testicular swelling. Review representative gross and microscopic teaching views.",
-      "lead_in": "Which combination is present microscopically?",
-      "stem": "Which combination is present microscopically?",
+      "scenario": "A pathologist reviews the testicular mass from the cryptorchid patient. The slide shows nests of large pale cells separated by fibrous septa containing abundant lymphocytes, with an occasional granuloma. The surgeon asks which tumor in the ovary is analogous.",
+      "lead_in": "Which combination fits, and what is the ovarian analog?",
+      "stem": "Which combination fits, and what is the ovarian analog?",
       "options": [
-        "Nests of large pale cells with lymphocyte rich septa",
-        "Three distinct sizes of tumor cells with few lymphocytes",
-        "Irregular glands and papillae formed by anaplastic cells",
-        "A loose reticular network around irregular spaces",
-        "Tumor cuffs wrapped around central blood vessels"
+        "Seminoma, analogous to ovarian dysgerminoma, with nests of large clear cells and lymphocyte rich septa",
+        "Choriocarcinoma, analogous to ovarian thecoma, with spindle cells",
+        "Embryonal carcinoma, analogous to ovarian yolk sac tumor, with papillary growth and necrosis",
+        "Yolk sac tumor, analogous to ovarian granulosa cell tumor, with Call-Exner bodies",
+        "Teratoma, analogous to ovarian Krukenberg tumor, with signet ring cells"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Seminoma forms nests of large pale tumor cells divided by fibrous septa containing small dark lymphocytes. This choice describes seminoma (large pale cells with lymphocyte-rich septa), which is what the image shows.",
-        "A triphasic tumor cell population would support spermatocytic tumor. This choice describes spermatocytic tumor.",
-        "Embryonal carcinoma may show that architecture. This field shows pale nests with septa. This choice describes an anaplastic carcinoma.",
-        "Reticular architecture favors yolk sac tumor. Seminoma here forms cohesive-looking nests separated by lymphocyte-rich septa. This choice describes yolk sac tumor.",
-        "A tumor cuff around a central vessel is a Schiller–Duval body seen in yolk sac tumor. Seminoma here is organized in pale nests with lymphocyte-rich septa. This choice describes a perivascular papillary tumor."
+        "Seminoma and dysgerminoma share nests of large clear cells and lymphoid septa.",
+        "Choriocarcinoma has trophoblastic cells, not lymphoid septa.",
+        "Embryonal carcinoma has papillary growth and necrosis, not lymphoid septa.",
+        "Yolk sac tumor is not analogous to a sex cord tumor.",
+        "Teratoma contains mixed differentiated tissue and Krukenberg tumors are metastases."
       ],
-      "explanation": "Nests of large pale cells are separated by fibrous bands containing small dark lymphocytes.",
+      "explanation": "Step 1. Large clear cells in nests separated by lymphocyte rich fibrous septa, sometimes with granulomas, are seminoma. Step 2. The lecture equates seminoma with ovarian dysgerminoma, which has the same histology and is radiosensitive. Embryonal carcinoma shows solid, glandular, and papillary growth with anaplastic cells and necrosis.",
       "visual_clues": [
         "Compare the large pale cells in nests with the small dark cells in the bands."
       ],
       "visual_target": "Pale tumor cells with lymphocyte rich fibrous septa",
-      "tested_concept": "Testicular tumor cells and septa",
+      "tested_concept": "Which combination fits, and what is the ovarian analog?",
       "category": "Histology",
       "collection": "R16",
       "source_origin": "lecture",
@@ -6327,9 +6333,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-testicular-mass-3",
@@ -6337,32 +6344,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An adult presents with a painless testicular swelling. Review representative gross and microscopic teaching views.",
-      "lead_in": "Which diagnosis best integrates the tissue pattern and the testicular setting?",
-      "stem": "Which diagnosis best integrates the tissue pattern and the testicular setting?",
+      "scenario": "A 33-year-old man has a painless testicular mass. A biopsy shows the tissue pattern of nests of large cells with lymphocytes. Immunostains are positive for OCT3/4 and CD117, and serum beta hCG is mildly elevated.",
+      "lead_in": "Which diagnosis does this integrate, and how can a mild hCG rise be explained?",
+      "stem": "Which diagnosis does this integrate, and how can a mild hCG rise be explained?",
       "options": [
-        "Spermatocytic tumor",
-        "Seminoma",
-        "Embryonal carcinoma",
-        "Yolk sac tumor",
-        "Mixed germ cell tumor demonstrated in the field"
+        "Seminoma, in which syncytiotrophoblasts are present in about 15 percent of cases and can raise hCG",
+        "Spermatocytic tumor, since it is OCT3/4 positive",
+        "Sertoli cell tumor, since it is CD117 positive",
+        "Choriocarcinoma, since hCG elevation always means choriocarcinoma",
+        "Yolk sac tumor, since OCT3/4 marks yolk sac cells"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "choice_rationales": [
-        "Expect a triphasic population of tumor cells with few lymphocytes. This choice describes spermatocytic tumor.",
-        "Pale tumor nests and lymphocyte rich fibrous septa support seminoma. This choice describes seminoma, which is what the image shows.",
-        "Anaplastic glandular or papillary growth and necrosis would favor embryonal carcinoma. This choice describes embryonal carcinoma.",
-        "A reticular pattern or Schiller–Duval structures would favor yolk sac differentiation. This choice describes yolk sac tumor.",
-        "This teaching field demonstrates a characteristic seminoma pattern without a distinct second component. This choice describes a mixed germ cell tumor."
+        "Seminoma can contain syncytiotrophoblasts that raise hCG modestly.",
+        "Spermatocytic tumor is OCT3/4 negative and lacks lymphocytes.",
+        "Sertoli cell tumors are sex cord tumors and do not match germ cell markers.",
+        "Choriocarcinoma needs trophoblastic tumor morphology, and hCG alone is not diagnostic.",
+        "Yolk sac tumor is AFP positive, not OCT3/4 positive."
       ],
-      "explanation": "The combination of pale tumor cells and lymphocytes in septa supports seminoma. The relatively homogeneous pale gross appearance is consistent with the microscopy.",
+      "explanation": "Step 1. Nests of large cells with lymphocytes and OCT3/4 and CD117 positivity are a seminoma. Step 2. The lecture states that beta hCG positivity occurs in about 15 percent of cases from syncytiotrophoblasts, so a mild hCG rise does not by itself change the diagnosis. Spermatocytic tumor is distinct, being CD117 and SALL4 positive but PLAP and OCT3/4 negative, with no lymphocytes, granulomas, or GCNIS.",
       "visual_clues": [
         "The dark lymphocytes cluster in the septa, between the pale tumor nests."
       ],
       "visual_target": "Large pale cells separated by lymphocyte rich septa",
-      "tested_concept": "Diagnosis of a testicular tumor with pale nests",
+      "tested_concept": "Which diagnosis does this integrate, and how can a mild hCG rise be explained?",
       "category": "Histology",
       "collection": "R16",
       "source_origin": "lecture",
@@ -6405,7 +6412,8 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-cell-boundaries",
@@ -6415,28 +6423,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R16",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Cell borders and nuclei within the testicular tumor nests",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which relationship between cell borders and nuclei helps characterize seminoma?",
       "visual_target": "Cell borders and nuclei within the testicular tumor nests",
-      "scenario": "An adult presents with a painless testicular swelling.",
-      "lead_in": "Within the larger cell population, which relationship between cell borders and nuclei helps characterize the individual tumor cells?",
-      "stem": "Within the larger cell population, which relationship between cell borders and nuclei helps characterize the individual tumor cells?",
+      "scenario": "A pathologist looks closely at seminoma cells and notes that each tumor cell has a distinct border. She asks which cytologic combination typifies this tumor.",
+      "lead_in": "Which relationship between cell borders and nuclei helps characterize seminoma?",
+      "stem": "Which relationship between cell borders and nuclei helps characterize seminoma?",
       "options": [
-        "Faint cell borders with nuclei flattened against the edge",
-        "Distinct cell borders with large central nuclei",
-        "Many small lymphocyte sized nuclei sharing one broad cell",
-        "Three conspicuously different size classes of tumor cells",
-        "Spindled cells with narrow elongated nuclei"
+        "Grooved oval nuclei with small follicle like structures",
+        "Spindle cells with central nuclei in whorls",
+        "Distinct cell borders with clear cytoplasm and large central nuclei with prominent nucleoli",
+        "Indistinct borders with vacuolated cytoplasm pushing the nucleus aside",
+        "Small dark cells with scant cytoplasm and no nucleoli"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "The nuclei are prominent and generally central. This choice describes faint cell borders with flat nuclei.",
-        "The large cells have distinct outlines and centrally located round nuclei. These are features of the large population rather than of the small dark septal cells. This choice describes a seminoma cell (distinct borders with large central nuclei), which is what the image shows.",
-        "The large cells have discernible individual outlines. This choice describes a lymphocytic infiltrate.",
-        "A dominant large pale population is apparent in these nests. This choice describes spermatocytic tumor (three size classes).",
-        "The large lesional cells have rounded or polygonal outlines. This choice describes a spindle cell tumor."
+        "Grooved nuclei with follicles describe granulosa cell tumor.",
+        "Spindle cells in whorls describe a stromal tumor.",
+        "Distinct borders with large central nuclei and prominent nucleoli describe seminoma cells.",
+        "Peripheral nuclei in vacuolated cells describe signet ring cells.",
+        "Small dark cells with scant cytoplasm do not match the large clear cells."
       ],
-      "explanation": "The large cells have distinct outlines and centrally located round nuclei. These are features of the large population rather than of the small dark septal cells. The nuclei are prominent and generally central.",
+      "explanation": "Step 1. The lecture describes seminoma cells as having distinct membranes, clear or light cytoplasm, and a large central nucleus with a prominent nucleolus, arranged in nests divided by fibrous bands with lymphocytes. Step 2. Signet ring cells have peripheral nuclei, spindle cells with central nuclei describe thecoma or fibroma, and grooved nuclei with follicles describe granulosa cell tumor, so the cytology separates seminoma from these.",
       "visual_clues": [
         "The large cells have distinct outlines and centrally located round nuclei."
       ],
@@ -6463,9 +6471,10 @@
           "page": 41
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Seminoma",
-      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes."
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-gross-alternative",
@@ -6475,28 +6484,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R16",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Heterogeneity in a separate testicular mass",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Why does this gross pattern argue against a pure seminoma?",
       "visual_target": "Heterogeneity in a separate testicular mass",
-      "scenario": "An adult presents with a painless testicular swelling.",
-      "lead_in": "This separate testicular mass is shown before microscopy. Which feature makes its cut surface a poor match for the original mass?",
-      "stem": "This separate testicular mass is shown before microscopy. Which feature makes its cut surface a poor match for the original mass?",
+      "scenario": "A 24-year-old man has a rapidly growing testicular mass with elevated markers and lung nodules. The cut surface of a separate specimen shows patchy dark and pale areas within a solid lobulated mass, with hemorrhage and necrosis.",
+      "lead_in": "Why does this gross pattern argue against a pure seminoma?",
+      "stem": "Why does this gross pattern argue against a pure seminoma?",
       "options": [
-        "Even pale fleshy tissue throughout the entire cut surface",
-        "A single simple fluid filled cavity",
-        "Patchy dark and pale areas within a solid lobulated mass",
-        "An isolated twisted cord without an internal mass",
-        "Several clear fluid vesicles without solid tissue"
+        "Hemorrhage and necrosis are expected in seminoma, which is homogeneous only after fixation",
+        "Dark and pale areas show a benign spermatocytic tumor",
+        "Dark and pale areas show BPH nodules",
+        "Hemorrhage and necrosis suggest a nonseminomatous germ cell tumor such as embryonal carcinoma, which is more aggressive and often metastatic",
+        "Dark and pale areas show a benign Leydig cell tumor"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "The comparison surface contains conspicuous changes in color. This choice describes a seminoma.",
-        "The dominant tissue is solid and heterogeneous. This choice describes a simple cyst.",
-        "Irregular dark and pale areas interrupt the tan lobulated surface. The gross heterogeneity contrasts with the relatively uniform pale cut surface of the original specimen. This choice describes a mixed germ cell tumor (patchy dark and pale areas), which is what the image shows.",
-        "The visual target is an internal lobulated mass. This choice describes testicular torsion.",
-        "The cut surface contains abundant solid tan tissue. This choice describes a hydrocele."
+        "Hemorrhage and necrosis are rare in seminoma.",
+        "Spermatocytic tumor is distinct and is not the aggressive tumor described.",
+        "BPH is a prostate condition.",
+        "Variegated hemorrhagic, necrotic tumors favor nonseminomatous types such as embryonal carcinoma.",
+        "A Leydig cell tumor is a sex cord tumor and does not account for metastasis here."
       ],
-      "explanation": "Irregular dark and pale areas interrupt the tan lobulated surface. The gross heterogeneity contrasts with the relatively uniform pale cut surface of the original specimen. The visual target is an internal lobulated mass.",
+      "explanation": "Step 1. Seminoma is a homogeneous, fleshy mass with rare hemorrhage and necrosis. Step 2. The lecture describes embryonal carcinoma as more aggressive than seminoma, often metastatic, with solid, glandular, and papillary growth, anaplastic cells, and necrosis. A variegated cut surface with hemorrhage and necrosis therefore favors a nonseminomatous or mixed germ cell tumor.",
       "visual_clues": [
         "Irregular dark and pale areas interrupt the tan lobulated surface."
       ],
@@ -6523,7 +6532,8 @@
           "page": 38
         }
       ],
-      "study_skill": "morphology"
+      "study_skill": "interpretation",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-testicular-mass-depth-intratubular-companion",
@@ -6533,28 +6543,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R16",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Tubular boundary in a separate testicular precursor field",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does this boundary distinguish, and why does it matter?",
       "visual_target": "Tubular boundary in a separate testicular precursor field",
-      "scenario": "An adult presents with a painless testicular swelling.",
-      "lead_in": "A separate testicular teaching field contains large atypical cells. Which visible boundary distinguishes this pattern from broad tumor nests separated by septa?",
-      "stem": "A separate testicular teaching field contains large atypical cells. Which visible boundary distinguishes this pattern from broad tumor nests separated by septa?",
+      "scenario": "A 28-year-old man with cryptorchidism has a testicular biopsy from tissue next to his tumor. The field shows large atypical cells lining a recognizable seminiferous tubule, with no invasion into the stroma. The cells stain for PLAP.",
+      "lead_in": "What does this boundary distinguish, and why does it matter?",
+      "stem": "What does this boundary distinguish, and why does it matter?",
       "options": [
-        "A fibrous septum traversing a broad extra tubular nest",
-        "A clear cyst enclosing a single vascular stalk",
-        "A lymphocyte band covering an exposed epithelial surface",
-        "A recognizable seminiferous tubule encircling the atypical population",
-        "A smooth muscle layer dividing invasive epithelial glands"
+        "Invasive seminoma already spreading in the stroma",
+        "A benign Sertoli cell tumor",
+        "A spermatocytic tumor that is unrelated to GCNIS",
+        "Malakoplakia of the testis",
+        "Intratubular germ cell neoplasia (GCNIS) confined within a tubule, the precursor from which most germ cell tumors arise"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "The key boundary encloses the abnormal cells as a tubule. This choice describes a seminoma.",
-        "The field shows a recognizable seminiferous tubular contour. This choice describes a cyst.",
-        "The cells occupy a tubular compartment, not a surface band. This choice describes lymphocytic exposure.",
-        "Germ cell neoplasia in situ is represented by atypical cells remaining within the contour of a seminiferous tubule. This choice describes germ cell neoplasia in situ (atypical cells within a seminiferous tubule), which is what the image shows.",
-        "The structure is a seminiferous tubule rather than a muscle wall. This choice describes a stromal tumor."
+        "Invasive seminoma would extend into stroma, which is absent here.",
+        "Sertoli cell tumors are sex cord tumors and do not stain with PLAP.",
+        "Spermatocytic tumor is PLAP negative and unrelated to GCNIS.",
+        "Malakoplakia is a histiocytic condition of the urinary tract.",
+        "A tubule encircling atypical germ cells is intratubular germ cell neoplasia, the precursor lesion."
       ],
-      "explanation": "The large abnormal cells stay within the contour of a seminiferous tubule. This field illustrates an intratubular process, in contrast to the original mass architecture.",
+      "explanation": "Step 1. Large atypical cells confined within a recognizable seminiferous tubule and positive for PLAP are intratubular germ cell neoplasia (GCNIS). Step 2. The lecture states most germ cell tumors are preceded by intratubular germ cell neoplasia, and that cryptorchidism increases risk three to five times. PLAP stains germ cell tumors and intratubular neoplasia, whereas spermatocytic tumor is unrelated to GCNIS and is PLAP negative.",
       "visual_clues": [
         "The large abnormal cells stay within the contour of a seminiferous tubule."
       ],
@@ -6581,7 +6591,7 @@
           "page": 39
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 45,
@@ -6590,7 +6600,8 @@
         }
       ],
       "condition_name": "Germ cell neoplasia in situ",
-      "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years."
+      "condition_overview": "Germ cell neoplasia in situ (GCNIS) is the precursor lesion of most testicular germ cell tumors. Large atypical cells with clear cytoplasm, large nuclei, and prominent nucleoli line the base of seminiferous tubules next to the basement membrane, and they stain for PLAP, OCT3/4, and CD117. Risk factors include cryptorchidism and gonadal dysgenesis. It can progress to invasive tumors over years.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-germ-cell-stain",
