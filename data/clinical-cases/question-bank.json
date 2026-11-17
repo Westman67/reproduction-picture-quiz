@@ -5120,100 +5120,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A pale plaque on the bladder mucosa is biopsied. Two inclusions are indicated in the microscopic field.",
-      "lead_in": "What best describes the material at the two arrows?",
-      "stem": "What best describes the material at the two arrows?",
+      "scenario": "A 58-year-old woman with recurrent E. coli urinary tract infections has soft yellow plaques on cystoscopy. A biopsy shows foamy histiocytes containing rounded, dense, laminated inclusions at the two arrows.",
+      "lead_in": "What do these inclusions represent, and what failure in the macrophages produces them?",
+      "stem": "What do these inclusions represent, and what failure in the macrophages produces them?",
       "options": [
-        "Cystic spaces lined by urothelial nests",
-        "Neutrophils collecting in a glandular lumen",
-        "Rounded dense inclusions among granular histiocytes",
-        "Endometrial gland lumens within specialized stroma",
-        "Elongated fibrous bands dividing urothelium"
+        "Schiller-Duval bodies, papillations from yolk sac differentiation",
+        "Michaelis-Gutmann bodies, mineralized remnants of partially digested bacteria caused by insufficient bacterial killing",
+        "Koilocytes, enlarged nuclei with halos from HPV",
+        "Signet ring vacuoles, mucin displacing nuclei",
+        "Call-Exner bodies, follicle like structures in granulosa cells"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "Cystitis cystica forms epithelial lined spaces larger than these rounded inclusions. This choice describes urothelial cystic nests.",
-        "Acute suppuration would show neutrophils with lobulated nuclei, rather than these rounded bodies. This choice describes a glandular neutrophilic abscess.",
-        "The rounded Michaelis–Gutmann bodies among granular histiocytes support malakoplakia. This choice describes Michaelis-Gutmann bodies in malakoplakia, which is what the image shows.",
-        "Endometriosis would show a gland and stroma relationship. This choice describes endometrial glands with stroma (endometriosis).",
-        "The arrowed structures are round and lie among granular cells. This choice describes fibrous bands."
+        "Schiller-Duval bodies are yolk sac tumor structures in the ovary.",
+        "Michaelis-Gutmann bodies are mineralized debris in macrophages with defective bacterial killing.",
+        "Koilocytes are squamous cells showing HPV effect.",
+        "Signet ring cells are tumor cells in Krukenberg tumor.",
+        "Call-Exner bodies are found in granulosa cell tumors."
       ],
-      "explanation": "The arrows point to rounded bodies among large granular histiocytes. The lecture identifies them as Michaelis–Gutmann bodies.",
+      "explanation": "Step 1. Foamy histiocytes with basophilic, laminated, mineralized inclusions are Michaelis-Gutmann bodies, the hallmark of malakoplakia. Step 2. The lecture explains the pathogenesis as insufficient killing of bacteria by macrophages, so partially digested bacteria accumulate with deposition of iron and calcium. This explains the link with chronic bacterial infection.",
       "visual_clues": [
         "Trace the arrows to the rounded dense bodies among the pink cells."
       ],
       "visual_target": "Rounded dense inclusions within histiocyte-rich tissue",
-      "tested_concept": "Inclusions in a bladder plaque",
-      "category": "Histology",
-      "collection": "R15",
-      "source_origin": "lecture",
-      "source_id": "s-cdc0834a2484d28439cb",
-      "source_group_id": "g-9d30b5dd9a0b100c9732",
-      "asset_id": "a-13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0",
-      "variant_id": "v-b4e5c24868f874e8ce2c",
-      "image": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
-      "zoom_image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
-      "original_image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
-      "original_filename": "Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png",
-      "citations": [
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 19
-        },
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 16
-        },
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 18
-        },
-        {
-          "document": "R15 GU Pathology I RLS.pdf",
-          "page": 20
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
-      "accepted_synonyms": [],
-      "study_skill": "morphology",
-      "condition_name": "Malakoplakia",
-      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages."
-    },
-    {
-      "question_id": "q-r15-bladder-plaque-2",
-      "case_id": "r15-bladder-plaque",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "question_type": "Clinical visual question",
-      "scenario": "A pale plaque on the bladder mucosa is biopsied. Two inclusions are indicated in the microscopic field.",
-      "lead_in": "Which diagnosis best fits the plaque and its microscopic inclusions?",
-      "stem": "Which diagnosis best fits the plaque and its microscopic inclusions?",
-      "options": [
-        "Cystitis cystica",
-        "Cystitis glandularis",
-        "Acute suppurative cystitis",
-        "Malakoplakia",
-        "Bladder endometriosis"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "Expect cystically dilated urothelial nests with identifiable epithelial lining. This choice describes cystitis cystica.",
-        "Expect glandular change within reactive urothelial nests. This choice describes cystitis glandularis.",
-        "Expect acute inflammatory cells and purulent exudate. This choice describes acute suppurative cystitis.",
-        "The rounded Michaelis–Gutmann bodies in a histiocyte rich plaque support this diagnosis. This choice describes malakoplakia, which is what the image shows.",
-        "Expect endometrial glands and stroma, sometimes with hemosiderin laden macrophages. This choice describes bladder endometriosis."
-      ],
-      "explanation": "Malakoplakia links the pale bladder plaque to granular histiocytes and Michaelis–Gutmann bodies. The lecture relates the inclusions to defective degradation of ingested bacteria.",
-      "visual_clues": [
-        "Use the inclusions together with the cell population around them."
-      ],
-      "visual_target": "Michaelis–Gutmann bodies in a bladder plaque",
-      "tested_concept": "Diagnosis of a histiocyte-rich bladder plaque",
+      "tested_concept": "What do these inclusions represent, and what failure in the macrophages produces them?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -5248,7 +5180,77 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Malakoplakia",
-      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages."
+      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r15-bladder-plaque-2",
+      "case_id": "r15-bladder-plaque",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A 62-year-old woman has a bladder plaque that biopsy shows to contain granular histiocytes with basophilic laminated inclusions. Urine cultures grow gram negative bacteria. A resident wonders if this is cancer.",
+      "lead_in": "What is the diagnosis, and what treatment does the lecture list?",
+      "stem": "What is the diagnosis, and what treatment does the lecture list?",
+      "options": [
+        "Flat urothelial carcinoma in situ, treated with cystectomy only",
+        "Chronic cystitis, treated by catheter removal",
+        "Endometriosis of the bladder, treated with hormones",
+        "Invasive urothelial carcinoma, treated with BCG",
+        "Malakoplakia, an inflammatory condition, treated with antibiotics"
+      ],
+      "correct_index": 4,
+      "choice_rationales": [
+        "Flat carcinoma in situ shows high grade atypia of the urothelium.",
+        "Chronic cystitis shows chronic inflammation, fibrosis, and metaplasia without Michaelis-Gutmann bodies.",
+        "Bladder endometriosis contains endometrial glands, stroma, and hemosiderin laden macrophages.",
+        "Invasive urothelial carcinoma shows tumor nests and cords in the wall, not histiocytes.",
+        "The lecture identifies malakoplakia as an inflammatory condition treated with antibiotics."
+      ],
+      "explanation": "Step 1. Soft plaques with foamy histiocytes and Michaelis-Gutmann bodies in a patient with infection is malakoplakia, a rare chronic inflammatory condition that is not neoplastic. Step 2. The lecture lists antibiotics as the treatment, consistent with its link to inadequate bacterial killing. It most commonly affects the bladder but can occur in other organs.",
+      "visual_clues": [
+        "Use the inclusions together with the cell population around them."
+      ],
+      "visual_target": "Michaelis–Gutmann bodies in a bladder plaque",
+      "tested_concept": "What is the diagnosis, and what treatment does the lecture list?",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "source_id": "s-cdc0834a2484d28439cb",
+      "source_group_id": "g-9d30b5dd9a0b100c9732",
+      "asset_id": "a-13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0",
+      "variant_id": "v-b4e5c24868f874e8ce2c",
+      "image": "assets/display/13bd1c0f5dbec0e226b7b7565fd369439503d1f194a7e46adc684ac36970fbf0.webp",
+      "zoom_image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+      "original_image": "assets/zoom/8a8c433587054802cdb0a088be6b3d9ea888c8f9b677015d289f2a936daec7dc.webp",
+      "original_filename": "Malakoplakia Michaelis-Gutmann Bodies Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 19
+        },
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 16
+        },
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 20
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
+      "accepted_synonyms": [],
+      "study_skill": "interpretation",
+      "condition_name": "Malakoplakia",
+      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-gross-plaques",
@@ -5258,28 +5260,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R15",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Gross pattern accompanying a histiocyte rich bladder lesion",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Why does this gross pattern direct the biopsy, and what is expected histologically?",
       "visual_target": "Gross pattern accompanying a histiocyte rich bladder lesion",
-      "scenario": "A pale plaque on the bladder mucosa was biopsied.",
-      "lead_in": "Which gross pattern in this teaching view accounts for how the biopsy target was selected?",
-      "stem": "Which gross pattern in this teaching view accounts for how the biopsy target was selected?",
+      "scenario": "A cystoscopist notes multiple irregular pale plaques against reddened mucosa and chooses to biopsy one. A comparison urothelial carcinoma in situ lesion appears velvety and flat.",
+      "lead_in": "Why does this gross pattern direct the biopsy, and what is expected histologically?",
+      "stem": "Why does this gross pattern direct the biopsy, and what is expected histologically?",
       "options": [
-        "One stalked papillary mass with an intact surrounding surface",
-        "A thin circumferential band around a deep cyst",
-        "Diffuse wall thickening without a mucosal lesion",
-        "Multiple irregular pale plaques against reddened mucosa",
-        "Several isolated dark ulcers surrounded by pale normal mucosa"
+        "Plaques are typical of schistosomiasis, expected to show only squamous carcinoma",
+        "Plaques are typical of papillary urothelial carcinoma, expected to show fibrovascular fronds",
+        "Pale plaques are typical of squamous hyperplasia, expected to show glycogen rich cells",
+        "Soft yellow plaques are typical of malakoplakia, expected to show foamy histiocytes with Michaelis-Gutmann bodies",
+        "Plaques are typical of CIS, expected to show cohesive normal urothelium"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "The changes are multiple surface plaques rather than one projecting mass. This choice describes a papillary urothelial carcinoma.",
-        "No deep cyst accounts for the visible plaque distribution. This choice describes a cyst.",
-        "Distinct lesions are visible on the mucosal surface. This choice describes diffuse bladder wall thickening.",
-        "Several irregular pale plaques stand out against red bladder mucosa. The patchy surface change explains why a visibly abnormal region was sampled. This choice describes malakoplakia (multiple pale plaques on reddened mucosa), which is what the image shows.",
-        "The pale areas themselves stand out against a red background. This choice describes ulcers."
+        "Schistosomiasis is a risk factor for squamous carcinoma and does not describe these histiocytes.",
+        "Papillary carcinoma forms projecting fronds, not flat plaques.",
+        "Squamous hyperplasia is a vulvar lesion and is not what the lecture describes here.",
+        "Soft plaques with foamy histiocytes and Michaelis-Gutmann bodies fit malakoplakia.",
+        "Carcinoma in situ is velvety and poorly cohesive, not a plaque with histiocytes."
       ],
-      "explanation": "Several irregular pale plaques stand out against red bladder mucosa. The patchy surface change explains why a visibly abnormal region was sampled. The changes are multiple surface plaques rather than one projecting mass.",
+      "explanation": "Step 1. Papules, plaques, or ulceration of the bladder mucosa, originally described as soft yellowish plaques, fit malakoplakia. Step 2. Histology shows foamy histiocytes with Michaelis-Gutmann bodies. Flat urothelial carcinoma in situ instead appears velvety with no mass and poorly cohesive high grade cells, and papillary carcinoma forms papillary fronds.",
       "visual_clues": [
         "Several irregular pale plaques stand out against red bladder mucosa."
       ],
@@ -5306,9 +5308,10 @@
           "page": 18
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Malakoplakia",
-      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages."
+      "condition_overview": "Malakoplakia is a chronic inflammatory condition, most often of the bladder, caused by defective bacterial killing by macrophages, usually with Escherichia coli infection. Soft yellow-tan plaques form on the mucosa. Microscopically sheets of foamy, granular histiocytes (von Hansemann cells) contain round, targetoid, laminated, calcified Michaelis-Gutmann bodies. It is treated with antibiotics that penetrate macrophages.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-plaque-depth-cystitis-comparison",
@@ -5318,28 +5321,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R15",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Inflammatory compartment in a separate bladder biopsy",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What is the best interpretation, and how does it differ from acute cystitis?",
       "visual_target": "Inflammatory compartment in a separate bladder biopsy",
-      "scenario": "A pale plaque on the bladder mucosa was biopsied.",
-      "lead_in": "A separate chronic cystitis biopsy is shown. Which finding can account for inflammation in this field without supplying the distinctive inclusion evidence from the original plaque?",
-      "stem": "A separate chronic cystitis biopsy is shown. Which finding can account for inflammation in this field without supplying the distinctive inclusion evidence from the original plaque?",
+      "scenario": "A 70-year-old woman with a long term indwelling catheter has frequent bladder symptoms. A cystitis biopsy shows lamina propria containing eosinophils, plasma cells, lymphocytes, and rare neutrophils under an unremarkable urothelium. Her urine is negative for pyuria.",
+      "lead_in": "What is the best interpretation, and how does it differ from acute cystitis?",
+      "stem": "What is the best interpretation, and how does it differ from acute cystitis?",
       "options": [
-        "Dense round inclusions within sheets of granular histiocytes",
-        "Irregular tumor nests embedded among detrusor bundles",
-        "Tightly packed atypical nuclei along a flat surface lining",
-        "Branching papillae with an intact vascular core",
-        "A lamina propria infiltrate of small inflammatory cells"
+        "Chronic cystitis with chronic inflammatory cells and fibrosis, whereas acute cystitis shows edema, congestion, and acute inflammatory cells",
+        "Acute suppurative cystitis with purulent exudate",
+        "Invasive carcinoma with tentacular cords",
+        "Malakoplakia with Michaelis-Gutmann bodies",
+        "Urothelial carcinoma in situ with poorly cohesive cells"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "Those inclusions are the distinguishing evidence in the original case. This choice describes malakoplakia.",
-        "Nests interdigitating with detrusor bundles would demonstrate muscle-invasive urothelial carcinoma. This chronic cystitis comparison instead shows an inflammatory infiltrate in the lamina propria. This choice describes invasive urothelial carcinoma.",
-        "The dark population sits mainly under the lining. This choice describes urothelial carcinoma in situ.",
-        "The architecture here is an inflammatory tissue field, not branching fronds. This choice describes papillary urothelial carcinoma.",
-        "The dense small inflammatory cells are beneath the lining in the lamina propria. The pattern supports inflammation without demonstrating the characteristic inclusions of the original plaque. This choice describes chronic cystitis, which is what the image shows."
+        "Chronic inflammatory cells and fibrosis define chronic cystitis, versus edema and acute cells in acute cystitis.",
+        "Suppurative cystitis has a purulent exudate and pyuria, which is absent.",
+        "Invasive carcinoma needs tumor infiltration of the wall.",
+        "Malakoplakia needs foamy histiocytes with Michaelis-Gutmann bodies.",
+        "Carcinoma in situ is a high grade atypical flat lesion, and the urothelium here is unremarkable."
       ],
-      "explanation": "The dense small inflammatory cells are beneath the lining in the lamina propria. The pattern supports inflammation without demonstrating the characteristic inclusions of the original plaque. Nests interdigitating with detrusor bundles would demonstrate muscle-invasive urothelial carcinoma. This chronic cystitis comparison instead shows an inflammatory infiltrate in the lamina propria.",
+      "explanation": "Step 1. A lamina propria infiltrate of lymphocytes, plasma cells, and eosinophils with few neutrophils is chronic cystitis. Step 2. The lecture lists chronic inflammatory cells and fibrosis with squamous metaplasia or urothelial hyperplasia, and subtypes such as papillary or polypoid from long term indwelling catheters, whereas acute cystitis has edema, congestion, and acute inflammatory cells (suppurative, hemorrhagic, and others).",
       "visual_clues": [
         "The dense small inflammatory cells are beneath the lining in the lamina propria."
       ],
@@ -5366,9 +5369,10 @@
           "page": 19
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Chronic cystitis",
-      "condition_overview": "Chronic cystitis is long-standing bladder inflammation from recurrent infection, stones, or irritation. The bladder mucosa is red and granular, and the lamina propria contains a dense infiltrate of lymphocytes and plasma cells, with sometimes lymphoid follicles. Symptoms are urgency, frequency, and dysuria. Treatment is directed at the cause."
+      "condition_overview": "Chronic cystitis is long-standing bladder inflammation from recurrent infection, stones, or irritation. The bladder mucosa is red and granular, and the lamina propria contains a dense infiltrate of lymphocytes and plasma cells, with sometimes lymphoid follicles. Symptoms are urgency, frequency, and dysuria. Treatment is directed at the cause.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-wall-1",
@@ -5376,32 +5380,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A bladder tumor is sampled with underlying wall tissue. The pathologist needs to establish how far the lesion extends.",
-      "lead_in": "Which relationship between tumor and wall is visible?",
-      "stem": "Which relationship between tumor and wall is visible?",
+      "scenario": "A 67-year-old man with a 40 pack year smoking history has painless gross hematuria. A transurethral resection shows tumor nests interdigitating with broad bundles of smooth muscle.",
+      "lead_in": "What does this finding mean for his prognosis and management?",
+      "stem": "What does this finding mean for his prognosis and management?",
       "options": [
-        "Tumor cells are confined to a flat surface lining",
-        "A papillary tumor remains entirely above the wall",
-        "The muscle lies entirely below and separate from tumor",
-        "The dark cells form only a rim around an open cyst",
-        "Tumor nests interdigitate with broad muscle bundles"
+        "It shows endometriosis treated with hormone therapy",
+        "It shows muscularis propria (detrusor) invasion, a high stage tumor needing treatment beyond local resection, and stage is the most important prognostic factor",
+        "It shows only superficial disease, so follow up and resection are sufficient",
+        "It shows a benign inflammatory process treated with antibiotics",
+        "It shows carcinoma in situ treated with BCG alone"
       ],
-      "correct_index": 4,
+      "correct_index": 1,
       "choice_rationales": [
-        "Urothelial carcinoma in situ remains within a flat surface lining. In this invasive carcinoma example, irregular tumor nests extend into muscularis propria. This choice describes urothelial carcinoma in situ.",
-        "Papillary growth at the surface does not account for deep nests between bundles. This choice describes a noninvasive papillary tumor.",
-        "Tumor and muscle are intermingled in the field. This choice describes a tumor separate from muscle.",
-        "The field shows multiple irregular nests interspersed through muscle. This choice describes a cyst.",
-        "Urothelial carcinoma invades muscularis propria here, with dark irregular nests interdigitating with broad pink detrusor muscle bundles. This choice describes muscle-invasive urothelial carcinoma, which is what the image shows."
+        "Endometriosis consists of endometrial glands and stroma and not tumor nests in muscle.",
+        "Muscle invasion is high stage disease and staging drives prognosis.",
+        "Low grade, superficial tumors are the ones managed by follow up and resection.",
+        "Antibiotics treat malakoplakia, not a tumor in muscle.",
+        "BCG is used for high grade tumors that are non or superficially invasive."
       ],
-      "explanation": "Dark tumor nests interrupt and separate broad detrusor muscle bundles. The relationship supports invasion of muscularis propria.",
+      "explanation": "Step 1. Tumor nests among broad muscle bundles are invasion of the detrusor, which is invasive urothelial carcinoma. Step 2. The lecture states that extent of invasion at diagnosis (staging) is the most important prognostic factor. Low grade tumors are followed and resected, high grade superficial tumors receive resection with BCG or chemotherapy, and high grade tumors with muscle invasion need more aggressive treatment. Smoking is a listed risk factor.",
       "visual_clues": [
         "Follow the pink bundles and find dark tumor between adjacent bundles."
       ],
       "visual_target": "Irregular tumor nests among thick muscle bundles",
-      "tested_concept": "Detrusor muscle invasion on a bladder section",
+      "tested_concept": "What does this finding mean for his prognosis and management?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -5438,9 +5442,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-wall-2",
@@ -5448,32 +5453,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A bladder tumor is sampled with underlying wall tissue. The pathologist needs to establish how far the lesion extends.",
-      "lead_in": "What pattern is visible below the surface in this additional teaching field?",
-      "stem": "What pattern is visible below the surface in this additional teaching field?",
+      "scenario": "A 72-year-old man has a bladder tumor. At another field the tumor below the surface shows slender irregular cords of cells infiltrating the underlying stroma in thin finger like strands.",
+      "lead_in": "Which description from the lecture matches this pattern, and what does it imply about spread?",
+      "stem": "Which description from the lecture matches this pattern, and what does it imply about spread?",
       "options": [
-        "Slender irregular cords infiltrating underlying stroma",
-        "Papillary fronds projecting outward into the lumen",
-        "A flat atypical lining confined to the surface",
-        "Only a broad superficial band with a smooth lower border",
-        "Discrete round cystic nests with smooth contours"
+        "Tentacular pattern of invasive urothelial carcinoma, which spreads by local extension to surrounding tissues",
+        "Simple papillary architecture of a low grade papillary neoplasm with normal cytology",
+        "Foamy histiocytes of malakoplakia",
+        "A cohesive dome shaped nodule of hidradenoma",
+        "Endometrial glands with hemosiderin of endometriosis"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "The narrow dark projections extend into the tissue below the surface. This choice describes invasive urothelial carcinoma (infiltrating cords), which is what the image shows.",
-        "Papillary fronds extend away from the wall and have fibrovascular cores. This choice describes papillary urothelial carcinoma.",
-        "The dark proliferation extends well below the surface. This choice describes urothelial carcinoma in situ.",
-        "The lower edge is irregular and broken into infiltrating projections. This choice describes a smooth superficial lesion.",
-        "The conspicuous profiles are elongated and fingerlike. This choice describes cystitis cystica."
+        "Thin cords invading diffusely are described as the tentacular pattern of invasive carcinoma.",
+        "Simple papillary architecture with normal cells describes a noninvasive neoplasm.",
+        "Malakoplakia is a histiocytic inflammatory plaque.",
+        "Hidradenoma is a vulvar dermal nodule.",
+        "Endometriosis is a benign condition of endometrial glands and stroma."
       ],
-      "explanation": "Slender, irregular tumor cords extend into the underlying stroma. The lecture calls this tentacular invasion.",
+      "explanation": "Step 1. The lecture describes invasive urothelial carcinoma as invading diffusely in thin finger like cords, called a tentacular pattern. Step 2. Urothelial carcinoma tends to spread by local extension to surrounding tissues, so infiltrating cords in the stroma indicate invasion beyond the surface. Noninvasive papillary lesions have simple papillary architecture without invasion.",
       "visual_clues": [
         "Follow individual dark cords down from the surface region."
       ],
       "visual_target": "Irregular tentacular cords extending into stroma",
-      "tested_concept": "Invasive architecture at the tumor edge",
+      "tested_concept": "Which description from the lecture matches this pattern, and what does it imply about spread?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -5506,9 +5511,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-wall-3",
@@ -5516,32 +5522,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A bladder tumor is sampled with underlying wall tissue. The pathologist needs to establish how far the lesion extends.",
-      "lead_in": "Which conclusion does the first field support about the tumor’s extent?",
-      "stem": "Which conclusion does the first field support about the tumor’s extent?",
+      "scenario": "A pathologist reviews the first field of a bladder tumor resection in a 64-year-old smoker. The field shows tumor interdigitating with detrusor muscle. The urologist asks what this changes in the staging.",
+      "lead_in": "Which conclusion about the extent of the tumor is supported?",
+      "stem": "Which conclusion about the extent of the tumor is supported?",
       "options": [
-        "A flat in situ lesion is the deepest finding",
-        "Muscularis propria invasion is demonstrated",
-        "Invasion is limited to lamina propria",
-        "Spread through the wall into perivesical tissue is demonstrated",
-        "Distant metastasis is demonstrated"
+        "The tumor is a metastasis from the ovary",
+        "The tumor is confined to the urothelium, so it is carcinoma in situ",
+        "The tumor is a benign papilloma with no invasion",
+        "The tumor is an inflammatory plaque",
+        "Muscularis propria invasion is demonstrated, so the tumor is not a superficial lesion"
       ],
-      "correct_index": 1,
+      "correct_index": 4,
       "choice_rationales": [
-        "The visible tumor extends into muscle below the epithelial lining. This choice describes urothelial carcinoma in situ.",
-        "Tumor nests separate detrusor bundles in the supplied example. This choice describes muscle-invasive urothelial carcinoma, which is what the image shows.",
-        "The dark nests also enter the thicker detrusor muscle compartment. This choice describes lamina propria invasion.",
-        "The image shows tumor in detrusor. It does not show the outer boundary or perivesical tissue. This choice describes perivesical extension.",
-        "This is a section of the primary bladder wall, with no distant tissue represented. This choice describes distant metastasis."
+        "Metastasis from the ovary is not suggested by this pattern.",
+        "Carcinoma in situ is flat and confined to the urothelium without invasion.",
+        "A papilloma would not invade muscle.",
+        "Malakoplakia is a histiocytic condition without tumor nests.",
+        "Muscle bundles interdigitating with tumor show muscularis propria invasion."
       ],
-      "explanation": "The field supports detrusor invasion. R15 emphasizes the extent of invasion as a major prognostic factor. A single field does not establish spread beyond the bladder.",
+      "explanation": "Step 1. Tumor intermixed with smooth muscle bundles in the bladder wall proves detrusor (muscularis propria) invasion. Step 2. The lecture identifies the extent of invasion as the key prognostic factor, so this field moves the tumor out of the superficial category managed by resection with BCG and into the deep muscle invasive category. High grade papillary carcinomas have up to 80 percent coexistent invasion.",
       "visual_clues": [
         "Look for tumor separating the broad muscle bundles."
       ],
       "visual_target": "Tumor between detrusor muscle bundles",
-      "tested_concept": "Bladder cancer depth interpretation",
+      "tested_concept": "Which conclusion about the extent of the tumor is supported?",
       "category": "Histology",
       "collection": "R15",
       "source_origin": "lecture",
@@ -5574,9 +5580,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible feature and exact supplied PDF page inspected. The filename is not used as sole diagnostic evidence.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Invasive urothelial carcinoma",
-      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth."
+      "condition_overview": "Invasive urothelial carcinoma grows beyond the urothelial basement membrane into the lamina propria and, in more advanced disease, the muscularis propria (detrusor), perivesical fat, and beyond. Irregular nests and cords of atypical cells infiltrate between smooth muscle bundles with a desmoplastic stroma. Depth of invasion, especially muscle invasion, is the most important prognostic factor. Muscle-invasive disease is treated by radical cystectomy with neoadjuvant chemotherapy, and urine cytology alone cannot determine depth.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-flat-comparison",
@@ -5586,28 +5593,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R15",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Flat urothelial atypia versus invasion",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What can this biopsy establish compared with the deep tumor biopsy?",
       "visual_target": "Flat urothelial atypia versus invasion",
-      "scenario": "A patient has a bladder tumor. The pathologist is evaluating the tissue type and depth of involvement.",
-      "lead_in": "What can this separate flat bladder lesion establish compared with the deeper tumor biopsy?",
-      "stem": "What can this separate flat bladder lesion establish compared with the deeper tumor biopsy?",
+      "scenario": "A 69-year-old man has urinary irritation and positive urine cytology, but cystoscopy shows only a velvety red patch without a mass. A flat biopsy shows marked atypia in a flat urothelial lining with poorly cohesive cells.",
+      "lead_in": "What can this biopsy establish compared with the deep tumor biopsy?",
+      "stem": "What can this biopsy establish compared with the deep tumor biopsy?",
       "options": [
-        "Marked atypia in a flat urothelial lining",
-        "Muscle invasion by nests separating broad bundles",
-        "Papillary growth around intact vascular stalks",
-        "A benign epithelial surface with only stromal inflammation",
-        "Depth of invasion proved by a detached urine cluster"
+        "A metastasis from the stomach",
+        "An adenocarcinoma of the bladder base",
+        "A flat high grade lesion, urothelial carcinoma in situ, without a mass, which is a different pattern from an invasive tumor with muscle involvement",
+        "A low grade papillary neoplasm with 45 percent recurrence",
+        "A benign inflammatory plaque of histiocytes"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "The flat atypical urothelial lining supports urothelial carcinoma in situ in this teaching field. It does not demonstrate detrusor invasion. This choice describes flat urothelial carcinoma in situ, which is what the image shows.",
-        "Muscle-invasive urothelial carcinoma would place nests between detrusor bundles. The abnormal cells here follow the flat epithelial lining. This choice describes muscle-invasive urothelial carcinoma.",
-        "The lesional surface here is flat. This choice describes a papillary urothelial tumor.",
-        "The lining itself is conspicuously atypical. This choice describes benign inflammation.",
-        "This is a tissue section, and the shown atypia is epithelial. This choice describes depth-proven invasion from urine cytology."
+        "Gastric metastasis would show signet ring cells.",
+        "Adenocarcinoma is mucin producing glandular tumor, which is not described.",
+        "Flat, velvety, poorly cohesive high grade atypia without a mass defines CIS.",
+        "Low grade papillary tumors have mild atypia and a papillary architecture.",
+        "Malakoplakia is made of foamy histiocytes with inclusions."
       ],
-      "explanation": "The flat surface lining contains markedly atypical cells. This field demonstrates epithelial atypia; it does not show lesional cells between detrusor bundles.",
+      "explanation": "Step 1. Marked atypia in a flat, velvety, poorly cohesive urothelium without a mass is flat urothelial carcinoma in situ, a high grade lesion. Step 2. The lecture contrasts it with papillary tumors and with invasive carcinoma, which invades the detrusor, so this biopsy shows high grade cytology but does not by itself show invasion. High grade lesions are managed with resection and BCG or chemotherapy if non or superficially invasive.",
       "visual_clues": [
         "The flat surface lining contains markedly atypical cells."
       ],
@@ -5638,9 +5645,10 @@
           "page": 32
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Urothelial carcinoma in situ",
-      "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG."
+      "condition_overview": "Urothelial carcinoma in situ is a flat, high-grade noninvasive malignancy in which markedly atypical cells with large hyperchromatic pleomorphic nuclei replace the urothelium without papillae. It appears as red velvety patches, causes irritative symptoms, and cells are often shed into urine, so cytology is usually positive. It often progresses to muscle-invasive disease if untreated, and standard therapy is intravesical BCG.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-grade-depth",
@@ -5650,28 +5658,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R15",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "High grade cytology versus depth in a bladder specimen",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which inference does the field support, and what remains unproven?",
       "visual_target": "High grade cytology versus depth in a bladder specimen",
-      "scenario": "A patient has a bladder tumor. The pathologist is evaluating the tissue type and depth of involvement.",
-      "lead_in": "This separate biopsy is offered for grading. Which inference is supported by the field without relying on evidence from the original deeper sample?",
-      "stem": "This separate biopsy is offered for grading. Which inference is supported by the field without relying on evidence from the original deeper sample?",
+      "scenario": "A 66-year-old man has a papillary bladder tumor. A biopsy shows papillary architecture, marked variation in nuclear size and shape, frequent mitoses, and necrosis. The sample is small and does not include the underlying wall.",
+      "lead_in": "Which inference does the field support, and what remains unproven?",
+      "stem": "Which inference does the field support, and what remains unproven?",
       "options": [
-        "Low grade appearance based on nearly uniform oval nuclei",
-        "High grade atypia based on nuclear variation and disordered polarity",
-        "Muscle-wall invasion based on nuclear size alone in this field",
-        "A normal urothelial lining based on preserved maturation",
-        "Benign papillary architecture based on an orderly covering"
+        "Malakoplakia with Michaelis-Gutmann bodies",
+        "Low grade papillary carcinoma, which almost never invades",
+        "High grade papillary urothelial carcinoma, with a high chance of coexistent invasion that the small sample cannot exclude",
+        "A benign papilloma with cytologically normal cells",
+        "A papillary urothelial neoplasm of uncertain malignant potential with no atypia"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "The nuclei are conspicuously variable rather than uniform. This choice describes low-grade urothelial carcinoma.",
-        "The nuclei vary markedly in size and shape, and the cells lose orderly polarity. Those features support a high grade appearance; depth requires a demonstrable wall interface. This choice describes high-grade urothelial carcinoma, which is what the image shows.",
-        "Nuclear size does not locate the tumor relative to muscle. This choice describes muscle-invasive carcinoma.",
-        "The cell population is disordered rather than normally polarized. This choice describes normal urothelium.",
-        "The conspicuous cytology here is markedly atypical. This choice describes a benign papilloma."
+        "Malakoplakia is an inflammatory plaque and has no necrotic papillary tumor.",
+        "Low grade tumors have mild atypia and under 10 percent coexistent invasion.",
+        "High grade papillary carcinoma has frequent atypia and up to 80 percent coexistent invasion.",
+        "Cytologically normal cells describe a low risk lesion, not this one.",
+        "A neoplasm of uncertain potential lacks marked atypia."
       ],
-      "explanation": "The nuclei vary markedly in size and shape, and the cells lose orderly polarity. Those features support a high grade appearance; depth requires a demonstrable wall interface. Nuclear size does not locate the tumor relative to muscle.",
+      "explanation": "Step 1. Marked cytologic atypia, frequent mitoses, and necrosis in a papillary tumor define high grade papillary urothelial carcinoma. Step 2. The lecture states up to 80 percent have coexistent invasion, compared with under 10 percent for low grade, so depth must be assessed by adequate sampling that includes muscle. Grade is established by nuclear features and architecture, whereas stage requires the wall.",
       "visual_clues": [
         "The nuclei vary markedly in size and shape, and the cells lose orderly polarity."
       ],
@@ -5702,9 +5710,10 @@
           "page": 32
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r15-bladder-wall-depth-urine-comparison",
@@ -5714,28 +5723,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R15",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Cytologic warning signs when a bladder wall is not sampled",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which conclusion should be carried forward?",
       "visual_target": "Cytologic warning signs when a bladder wall is not sampled",
-      "scenario": "A patient has a bladder tumor. The pathologist is evaluating the tissue type and depth of involvement.",
-      "lead_in": "A urine specimen from a separate teaching example is shown. Which conclusion should be carried forward to biopsy?",
-      "stem": "A urine specimen from a separate teaching example is shown. Which conclusion should be carried forward to biopsy?",
+      "scenario": "A 71-year-old man has hematuria. A urine specimen from a comparison case shows clusters of atypical urothelial cells with enlarged irregular nuclei. The urologist asks what this proves.",
+      "lead_in": "Which conclusion should be carried forward?",
+      "stem": "Which conclusion should be carried forward?",
       "options": [
-        "The dark nuclei establish detrusor invasion by themselves",
-        "The specimen establishes confinement of the lesion to the mucosa",
-        "The atypical cells support malignancy; wall depth remains to be assessed",
-        "The cells prove an orderly papillary lesion with no atypia",
-        "The absence of an intact wall excludes a bladder lesion"
+        "The cytology proves the tumor is benign",
+        "The cytology establishes an ovarian primary",
+        "The cytology identifies malakoplakia",
+        "The atypical cells support malignancy, but the depth of invasion still has to be determined by tissue biopsy",
+        "The cytology establishes muscle invasion and stage"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "Exfoliated nuclei do not show a muscle interface. This choice describes detrusor invasion.",
-        "Lack of attached muscle cannot establish mucosal confinement. This choice describes mucosa-confined disease.",
-        "Dark atypical urothelial cells with large nuclei relative to their cytoplasm support concern for malignancy. Exfoliated cells cannot locate the deepest point of tumor invasion. This choice describes malignant urothelial cells on urine cytology (depth requires biopsy), which is what the image shows.",
-        "Their high nuclear to cytoplasmic ratios and hyperchromasia argue against that reading. This choice describes a benign papillary lesion.",
-        "Urine cytology can show lesional cells without a wall section. This choice describes no bladder lesion."
+        "Atypical cells with irregular nuclei are not benign.",
+        "Cytology of urine cannot assign an ovarian origin.",
+        "Malakoplakia is identified by foamy histiocytes in tissue.",
+        "Cytology supports malignancy, and depth still requires biopsy.",
+        "Urine cells cannot show invasion of muscle."
       ],
-      "explanation": "Dark atypical urothelial cells with large nuclei relative to their cytoplasm support concern for malignancy. Exfoliated cells cannot locate the deepest point of tumor invasion. Urine cytology can show lesional cells without a wall section.",
+      "explanation": "Step 1. Atypical urothelial cells with enlarged irregular nuclei in urine support urothelial carcinoma. Step 2. The lecture lists urine cytology and tests such as FISH, ImmunoCyt, and NMP22 as diagnostic aids, but staging, meaning depth of invasion, is the most important prognostic factor and needs cystoscopic biopsy. Cytology cannot show wall depth.",
       "visual_clues": [
         "Dark atypical urothelial cells with large nuclei relative to their cytoplasm support concern for malignancy."
       ],
@@ -5768,7 +5777,8 @@
       ],
       "study_skill": "interpretation",
       "condition_name": "Papillary urothelial carcinoma",
-      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease."
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r16-prostate-stain-1",
