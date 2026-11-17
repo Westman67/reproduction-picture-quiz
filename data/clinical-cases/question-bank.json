@@ -1042,108 +1042,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is excised. A representative histologic field is shown.",
-      "lead_in": "Which tissue pattern dominates the displayed field?",
-      "stem": "Which tissue pattern dominates the displayed field?",
+      "scenario": "A 48-year-old woman has weight loss, tremor, and heat intolerance. Her TSH is suppressed, but a thyroid scan shows no thyroid nodule. Pelvic imaging shows a unilateral ovarian mass. The ovarian section shows round follicles filled with dense eosinophilic colloid.",
+      "lead_in": "Which explanation accounts for her hyperthyroid symptoms?",
+      "stem": "Which explanation accounts for her hyperthyroid symptoms?",
       "options": [
-        "Primitive neuroepithelial tubules in immature tissue",
-        "Short fascicles of bland spindle cells",
-        "Round follicles filled with dense eosinophilic material",
-        "Mucin rich signet ring cells infiltrating ovarian stroma",
-        "Nests of large cells separated by lymphocyte rich septa"
+        "A Krukenberg tumor is releasing mucin that mimics TSH",
+        "Functioning thyroid tissue within the ovarian tumor, a monodermal teratoma, is producing thyroid hormone",
+        "A granulosa cell tumor is secreting inhibin that stimulates the thyroid",
+        "A yolk sac tumor is secreting alpha fetoprotein with thyroid stimulating activity",
+        "A dysgerminoma is producing thyroid hormone from fibrous septa"
       ],
-      "correct_index": 2,
+      "correct_index": 1,
       "choice_rationales": [
-        "Immature teratoma can contain crowded primitive neuroepithelial tubules. The follicles here contain dense luminal colloid, supporting thyroid tissue in struma ovarii. This choice describes immature teratoma.",
-        "Fibroma shows interweaving spindle cells. This field is dominated by rounded luminal profiles rather than fascicles. This choice describes a fibroma.",
-        "Struma ovarii contains mature thyroid tissue. The round follicles with dense pink luminal colloid identify that tissue in the ovarian mass. This choice describes struma ovarii (colloid-filled thyroid follicles), which is what the image shows.",
-        "In a Krukenberg tumor, mucin fills individual signet-ring cells. The dense pink material in this struma ovarii field is extracellular colloid within thyroid follicles. This choice describes Krukenberg tumor.",
-        "Dysgerminoma shows nests or sheets of tumor cells and lymphocytes in fibrous septa. Here the largest pink structures are filled lumens. This choice describes dysgerminoma."
+        "Krukenberg tumors are metastatic signet ring tumors and do not make thyroid hormone.",
+        "Struma ovarii is a monodermal teratoma with thyroid elements that can cause hyperthyroidism.",
+        "Inhibin is a marker of granulosa cell tumor and does not stimulate the thyroid.",
+        "Alpha fetoprotein is a yolk sac marker and has no thyroid stimulating role in the lecture.",
+        "Dysgerminoma is a germ cell tumor of large primitive cells and is not thyroid tissue."
       ],
-      "explanation": "The rounded spaces contain dense pink colloid. Their epithelial rims establish a thyroid follicular pattern.",
+      "explanation": "Step 1. Follicles filled with colloid in an ovarian tumor are thyroid tissue, so this is struma ovarii. Step 2. The lecture lists struma ovarii among specialized monodermal teratomas, which contain only thyroid elements (follicles and colloid), and notes that they may cause hyperthyroidism. A suppressed TSH with a normal thyroid gland fits an ectopic source.",
       "visual_clues": [
         "Look for the thin cellular rims around the dense pink centers."
       ],
       "visual_target": "Rounded follicles containing dense colloid",
-      "tested_concept": "Differentiated tissue in an ovarian mass",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "source_id": "s-9687caee87bbfb900821",
-      "source_group_id": "g-a8d86ebdfeed95b189e8",
-      "asset_id": "a-a52edbecc2aaa1d0ce272bfa3001c24976a9eeada287e0ca5be844d1e7de3257",
-      "variant_id": "v-a10846889faa0a633bce",
-      "image": "assets/display/a52edbecc2aaa1d0ce272bfa3001c24976a9eeada287e0ca5be844d1e7de3257.webp",
-      "zoom_image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
-      "original_image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
-      "original_filename": "Struma Ovarii - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 94
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 93
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 101
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 108
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 109
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 90
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
-      "accepted_synonyms": [],
-      "study_skill": "morphology",
-      "condition_name": "Struma ovarii",
-      "condition_overview": "Struma ovarii is a monodermal form of ovarian teratoma composed predominantly (more than half) of mature thyroid tissue. It forms thyroid follicles filled with eosinophilic colloid, and it can rarely cause hyperthyroidism or undergo malignant change. Most cases are benign and are treated by surgical resection."
-    },
-    {
-      "question_id": "q-r12-ovarian-mass-1-2",
-      "case_id": "r12-ovarian-mass-1",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is excised. A representative histologic field is shown.",
-      "lead_in": "Which diagnosis best fits the dominant tissue pattern in this ovarian mass?",
-      "stem": "Which diagnosis best fits the dominant tissue pattern in this ovarian mass?",
-      "options": [
-        "Immature teratoma",
-        "Ovarian fibroma",
-        "Krukenberg tumor",
-        "Struma ovarii",
-        "Dysgerminoma"
-      ],
-      "correct_index": 3,
-      "choice_rationales": [
-        "Primitive neuroepithelium or other immature tissue would support this diagnosis. The displayed field instead shows differentiated colloid filled follicles. This choice describes immature teratoma.",
-        "The short bland spindle cell fascicles described for fibroma do not account for these epithelial lined lumens. This choice describes ovarian fibroma.",
-        "Mucin rich signet ring cells are the clue to this metastasis. The prominent material here sits within follicles rather than within signet ring cells. This choice describes Krukenberg tumor.",
-        "The ovarian mass contains the thyroid follicles and colloid characteristic of this monodermal teratoma. This choice describes struma ovarii, which is what the image shows.",
-        "Large primitive germ cells in sheets or nests with lymphocyte rich fibrous septa would favor dysgerminoma. This choice describes dysgerminoma."
-      ],
-      "explanation": "The thyroid type follicles support struma ovarii in an ovarian mass. The lecture associates this specialized teratoma with hyperthyroidism.",
-      "visual_clues": [
-        "Trace several epithelial rims. The pink material is luminal across multiple follicles."
-      ],
-      "visual_target": "Colloid filled follicles of thyroid type",
-      "tested_concept": "Diagnosis of an ovarian mass from differentiated tissue",
+      "tested_concept": "Which explanation accounts for her hyperthyroid symptoms?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -1186,7 +1110,85 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Struma ovarii",
-      "condition_overview": "Struma ovarii is a monodermal form of ovarian teratoma composed predominantly (more than half) of mature thyroid tissue. It forms thyroid follicles filled with eosinophilic colloid, and it can rarely cause hyperthyroidism or undergo malignant change. Most cases are benign and are treated by surgical resection."
+      "condition_overview": "Struma ovarii is a monodermal form of ovarian teratoma composed predominantly (more than half) of mature thyroid tissue. It forms thyroid follicles filled with eosinophilic colloid, and it can rarely cause hyperthyroidism or undergo malignant change. Most cases are benign and are treated by surgical resection.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r12-ovarian-mass-1-2",
+      "case_id": "r12-ovarian-mass-1",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A 40-year-old woman has a unilateral ovarian mass removed. The pathologist reports that most of the tumor is mature thyroid follicles with colloid and cannot find skin, cartilage, or neural tissue after thorough sampling.",
+      "lead_in": "How should this tumor be classified within the ovarian tumor groups?",
+      "stem": "How should this tumor be classified within the ovarian tumor groups?",
+      "options": [
+        "A specialized, monodermal teratoma, a type of germ cell tumor",
+        "A dysgerminoma analogous to seminoma",
+        "A sex cord stromal tumor that is feminizing",
+        "An immature teratoma with primitive neuroepithelium",
+        "A metastatic signet ring tumor from the stomach"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Germ cell tumors that differentiate along one line include struma ovarii as a monodermal teratoma.",
+        "Dysgerminoma shows sheets of large primitive cells with lymphoid septa.",
+        "Sex cord stromal tumors such as granulosa cell tumor are composed of stroma and sex cord elements.",
+        "Immature teratoma shows primitive neuroepithelial tissue, which was not found.",
+        "Krukenberg tumors are metastatic and bilateral in about 70 percent, which does not fit a thyroid only mass."
+      ],
+      "explanation": "Step 1. A tumor made almost entirely of thyroid follicles is struma ovarii. Step 2. The lecture places it among teratomas, which are germ cell tumors, as a specialized monodermal type that contains only thyroid elements. A related variant, strumal carcinoid, contains thyroid tissue and carcinoid tissue. A single tissue type does not make it a sex cord tumor.",
+      "visual_clues": [
+        "Trace several epithelial rims. The pink material is luminal across multiple follicles."
+      ],
+      "visual_target": "Colloid filled follicles of thyroid type",
+      "tested_concept": "How should this tumor be classified within the ovarian tumor groups?",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "source_id": "s-9687caee87bbfb900821",
+      "source_group_id": "g-a8d86ebdfeed95b189e8",
+      "asset_id": "a-a52edbecc2aaa1d0ce272bfa3001c24976a9eeada287e0ca5be844d1e7de3257",
+      "variant_id": "v-a10846889faa0a633bce",
+      "image": "assets/display/a52edbecc2aaa1d0ce272bfa3001c24976a9eeada287e0ca5be844d1e7de3257.webp",
+      "zoom_image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
+      "original_image": "assets/zoom/25fd1698299e5547497b6b6a23263b6643f10b50015662ddd6cd95ef42df35fc.webp",
+      "original_filename": "Struma Ovarii - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 94
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 93
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 101
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 108
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 109
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 90
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "study_skill": "interpretation",
+      "condition_name": "Struma ovarii",
+      "condition_overview": "Struma ovarii is a monodermal form of ovarian teratoma composed predominantly (more than half) of mature thyroid tissue. It forms thyroid follicles filled with eosinophilic colloid, and it can rarely cause hyperthyroidism or undergo malignant change. Most cases are benign and are treated by surgical resection.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cartilage-comparison",
@@ -1196,28 +1198,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Mature cartilage as a separate ovarian tissue pattern",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does this well differentiated cartilage imply about the tumor's behavior?",
       "visual_target": "Mature cartilage as a separate ovarian tissue pattern",
-      "scenario": "An ovarian mass was excised and sampled for histology.",
-      "lead_in": "This is a different ovarian teaching specimen. Which feature shows that its prominent tissue component differs from the round structures in the original case?",
-      "stem": "This is a different ovarian teaching specimen. Which feature shows that its prominent tissue component differs from the round structures in the original case?",
+      "scenario": "A 24-year-old woman has an incidental 8 cm right ovarian cystic mass. A section from a different teaching specimen of this kind shows isolated chondrocytes in lacunae within a broad matrix, along with skin elements.",
+      "lead_in": "What does this well differentiated cartilage imply about the tumor's behavior?",
+      "stem": "What does this well differentiated cartilage imply about the tumor's behavior?",
       "options": [
-        "A continuous epithelial ring enclosing dense luminal material",
-        "Crowded primitive tubules with dark nuclei",
-        "Isolated cells in lacunae within a broad matrix",
-        "A vascular stalk projecting into a cystic space",
-        "Pale tumor cells arranged in narrow files"
+        "It supports a Krukenberg tumor from a gastrointestinal primary",
+        "It supports an immature teratoma that needs prophylactic chemotherapy",
+        "It supports a dysgerminoma that is responsive to chemotherapy",
+        "It supports a mature cystic teratoma, which is benign in more than 90 percent of teratomas",
+        "It supports a granulosa cell tumor with estrogen secretion"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "The small rounded spaces contain cells dispersed through matrix, not a central luminal pool. This choice describes a thyroid-type follicular lesion.",
-        "The visible cells are separated by abundant matrix. This choice describes immature teratoma.",
-        "Rounded cells lie in lacunae in a continuous matrix. These are chondrocytes in mature cartilage; they are not a lining around a lumen. This choice describes a mature teratoma with cartilage, which is what the image shows.",
-        "No vessel centered stalk accounts for the matrix and lacunae. This choice describes a papillary tumor with a vascular stalk (such as yolk sac tumor).",
-        "The cells are dispersed in lacunae, not aligned in files. This choice describes a metastatic carcinoma growing in single files (such as Krukenberg tumor)."
+        "Krukenberg tumors have signet ring cells and a gastrointestinal primary.",
+        "Immature teratoma requires primitive tissue such as neuroepithelium, not mature cartilage.",
+        "Dysgerminoma is a sheet like proliferation of large primitive cells.",
+        "Mature, well differentiated tissue is the hallmark of the benign mature cystic teratoma.",
+        "Granulosa cell tumors are sex cord stromal tumors with Call-Exner bodies."
       ],
-      "explanation": "Rounded cells lie in lacunae in a continuous matrix. These are chondrocytes in mature cartilage; they are not a lining around a lumen. The cells are dispersed in lacunae, not aligned in files.",
+      "explanation": "Step 1. Mature cartilage with chondrocytes in lacunae, combined with skin elements, shows differentiation into multiple tissues, which is a mature cystic teratoma. Step 2. The lecture states that more than 90 percent of teratomas are benign mature cystic teratomas. Malignant transformation is rare and usually to squamous cell carcinoma, whereas immature teratomas contain primitive tissue such as neuroepithelium.",
       "visual_clues": [
         "Rounded cells lie in lacunae in a continuous matrix."
       ],
@@ -1244,9 +1246,10 @@
           "page": 94
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-1-depth-cyst-lining-comparison",
@@ -1256,28 +1259,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Gross cavity and squamous lining in a separate ovarian specimen",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which complication would be most likely in the older patient?",
       "visual_target": "Gross cavity and squamous lining in a separate ovarian specimen",
-      "scenario": "An ovarian mass was excised and sampled for histology.",
-      "lead_in": "The paired views show a different ovarian teaching specimen. Which gross and microscopic relationship demonstrates a second way differentiated tissue can appear in an ovarian mass?",
-      "stem": "The paired views show a different ovarian teaching specimen. Which gross and microscopic relationship demonstrates a second way differentiated tissue can appear in an ovarian mass?",
+      "scenario": "A 29-year-old woman has a pelvic mass. At surgery a right ovarian cyst is opened. The cavity is lined by a stratified squamous epithelium, with sebaceous secretion inside. Years later, a 60-year-old woman with an untreated lesion of this type develops a mass in the wall.",
+      "lead_in": "Which complication would be most likely in the older patient?",
+      "stem": "Which complication would be most likely in the older patient?",
       "options": [
-        "A solid lobule paired with immature neuroepithelial tubules",
-        "Multiple small follicles paired with a uniform vascular septum",
-        "Diffuse mucin lakes paired with floating epithelial clusters",
-        "An opened cavity paired with a stratified squamous lining",
-        "Irregular solid nodules paired with elongated single cell files"
+        "Transformation to a dysgerminoma",
+        "Spontaneous progression to extramammary Paget disease",
+        "Conversion to a granulosa cell tumor",
+        "Development of a Krukenberg tumor",
+        "Malignant transformation, usually to squamous cell carcinoma"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "The gross view contains a cavity and the lining is stratified. This choice describes a mixed teratoma with immature neuroepithelial tubules.",
-        "The paired panels show an open cyst and layered surface epithelium. This choice describes a follicular lesion.",
-        "The visible epithelium forms an attached lining rather than floating islands. This choice describes mucinous tumor.",
-        "A grossly open cavity is paired with a stratified squamous lining. A lining around a single cyst is a different arrangement from multiple separate small follicles. This choice describes a mature cystic teratoma (opened cyst with squamous lining), which is what the image shows.",
-        "Neither a solid nodular surface nor infiltrative files explains these paired views. This choice describes a fibroma or lobular-type metastasis."
+        "Dysgerminoma is a separate pure germ cell tumor.",
+        "Paget disease is a vulvar intraepidermal lesion.",
+        "Granulosa cell tumors are sex cord stromal tumors and are a different lineage.",
+        "Krukenberg tumors are metastases and do not arise from a dermoid cyst.",
+        "Malignant change in a dermoid cyst is usually squamous cell carcinoma, arising from the squamous lining."
       ],
-      "explanation": "A grossly open cavity is paired with a stratified squamous lining. A lining around a single cyst is a different arrangement from multiple separate small follicles. Neither a solid nodular surface nor infiltrative files explains these paired views.",
+      "explanation": "Step 1. A cyst lined by stratified squamous epithelium with sebaceous secretion is a mature cystic teratoma (dermoid cyst), about 90 percent unilateral and more often on the right. Step 2. The lecture notes that malignant transformation can occur and is usually to squamous cell carcinoma, which would be suspected when a mass develops in the wall of a long standing lesion.",
       "visual_clues": [
         "A grossly open cavity is paired with a stratified squamous lining."
       ],
@@ -1305,9 +1308,10 @@
           "page": 94
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-1",
@@ -1315,33 +1319,33 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A histologic section from an ovarian tumor is reviewed to classify the lesion.",
-      "lead_in": "Which structural arrangement is present near the center of the field?",
-      "stem": "Which structural arrangement is present near the center of the field?",
+      "scenario": "A 17-year-old woman has a rapidly growing pelvic mass and a serum alpha fetoprotein of 2,400. A section from the tumor shows a vascular core wrapped by tumor cells that projects into a space.",
+      "lead_in": "Which tumor does this structure indicate, and how does the AFP result fit?",
+      "stem": "Which tumor does this structure indicate, and how does the AFP result fit?",
       "options": [
-        "A cluster of cells surrounding a small pool of eosinophilic secretion",
-        "A laminated calcific sphere between tumor cells",
-        "A primitive neuroepithelial tubule lined by crowded immature cells",
-        "A thyroid follicle with smooth luminal colloid",
-        "A vascular core wrapped by tumor cells and projecting into a space"
+        "Krukenberg tumor, whose signet ring cells produce alpha fetoprotein",
+        "Granulosa cell tumor, whose Call-Exner bodies produce alpha fetoprotein",
+        "Mature cystic teratoma, whose chondrocytes produce alpha fetoprotein",
+        "Yolk sac tumor, whose cells produce alpha fetoprotein and form Schiller-Duval bodies",
+        "Dysgerminoma, whose cells produce alpha fetoprotein in fibrous septa"
       ],
-      "correct_index": 4,
+      "correct_index": 3,
       "choice_rationales": [
-        "A small ring of cells around secretion suggests a Call–Exner body in a granulosa cell tumor. A Schiller–Duval body in yolk sac tumor has a central vessel surrounded by tumor cells. This choice describes granulosa cell tumor (Call-Exner bodies).",
-        "A psammoma body is a laminated calcification. The center here has a vessel with red cells and an adjacent cellular cuff. This choice describes psammomatous calcification.",
-        "Primitive neuroepithelial tubules support immature teratoma. The structure here is a vessel-centered Schiller–Duval body in yolk sac tumor. This choice describes immature teratoma.",
-        "A colloid-filled thyroid follicle supports struma ovarii. The highlighted structure in yolk sac tumor contains a central vessel rather than colloid. This choice describes struma ovarii.",
-        "A vessel cuffed by tumor cells and projecting into a space is a Schiller–Duval body, which supports yolk sac tumor. This choice describes a Schiller-Duval body of yolk sac tumor, which is what the image shows."
+        "Krukenberg tumors are mucin rich metastases and are not AFP tumors.",
+        "Granulosa cell tumors are marked by inhibin, not AFP.",
+        "Benign mature teratoma does not secrete AFP from cartilage.",
+        "Schiller-Duval bodies and AFP elevation define yolk sac tumor.",
+        "Dysgerminoma has large cells in sheets with lymphocytic septa and is not the AFP secreting tumor."
       ],
-      "explanation": "The central vessel, surrounding tumor cells and outer space form a glomerulus like Schiller–Duval body.",
+      "explanation": "Step 1. A papilla with a central vessel covered by tumor cells and projecting into a space is a Schiller-Duval body, characteristic of yolk sac tumor. Step 2. The lecture lists elevated alpha fetoprotein as the laboratory finding and alpha fetoprotein positivity on immunostains, with hyaline PAS positive bodies containing AFP. The tumor is a germ cell tumor of young women and children.",
       "visual_clues": [
         "Locate the cluster of red cells near the center.",
         "Follow the rim of tumor around the vessel and the space outside that rim."
       ],
       "visual_target": "Glomeruloid projection with a central vessel",
-      "tested_concept": "Architecture of a Schiller–Duval body",
+      "tested_concept": "Which tumor does this structure indicate, and how does the AFP result fit?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -1378,7 +1382,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 52,
@@ -1387,7 +1391,8 @@
         }
       ],
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-2",
@@ -1395,32 +1400,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A histologic section from an ovarian tumor is reviewed to classify the lesion.",
-      "lead_in": "Which ovarian germ cell tumor is best supported by the central architecture?",
-      "stem": "Which ovarian germ cell tumor is best supported by the central architecture?",
+      "scenario": "A 22-year-old woman has a large pelvic mass. Her serum AFP is high and hCG is normal. Immunostains on the tumor are positive for alpha fetoprotein, glypican 3, SALL4, and cytokeratin.",
+      "lead_in": "Which diagnosis is supported, and which marker would instead point to embryonal carcinoma?",
+      "stem": "Which diagnosis is supported, and which marker would instead point to embryonal carcinoma?",
       "options": [
-        "Yolk sac tumor",
-        "Dysgerminoma",
-        "Immature teratoma",
-        "Embryonal carcinoma",
-        "Struma ovarii"
+        "Dysgerminoma, whereas embryonal carcinoma is characterized by inhibin positivity",
+        "Struma ovarii, whereas embryonal carcinoma is characterized by thyroglobulin positivity",
+        "Yolk sac tumor, whereas embryonal carcinoma is characterized by CD30 and OCT3/4 positivity",
+        "Immature teratoma, whereas embryonal carcinoma is characterized by calponin positivity",
+        "Granulosa cell tumor, whereas embryonal carcinoma is characterized by AFP positivity"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "The vessel centered Schiller–Duval body is the characteristic architecture described for yolk sac tumor. This choice describes yolk sac tumor, which is what the image shows.",
-        "Sheets or nests of large cells with lymphocyte rich septa would support dysgerminoma. The central structure instead has a vascular core wrapped by tumor. This choice describes dysgerminoma.",
-        "Immature neuroepithelial tubules would favor immature teratoma. The visible central red cells identify a vascular core. This choice describes immature teratoma.",
-        "The lecture lists CD30 and OCT3/4 among the findings used to characterize embryonal carcinoma. The visible Schiller–Duval architecture points to yolk sac differentiation. This choice describes embryonal carcinoma.",
-        "Colloid filled thyroid follicles would support struma ovarii. The pink red center here is an erythrocyte containing vessel. This choice describes struma ovarii."
+        "Dysgerminoma does not stain for AFP, and inhibin is a granulosa marker.",
+        "Struma ovarii is thyroid tissue and does not have these germ cell markers.",
+        "Yolk sac tumor is AFP and glypican 3 positive, and embryonal carcinoma is CD30 and OCT3/4 positive.",
+        "Immature teratoma is defined by primitive tissue and calponin marks myoepithelium.",
+        "Granulosa cell tumor is inhibin positive and is not the AFP tumor described here."
       ],
-      "explanation": "The Schiller–Duval body identifies yolk sac differentiation in this ovarian tumor. R12 also lists AFP and glypican 3 as positive stains for yolk sac tumor.",
+      "explanation": "Step 1. Positivity for AFP, glypican 3, SALL4, and cytokeratin in a germ cell tumor with high AFP is a yolk sac tumor. Step 2. The lecture lists embryonal carcinoma with keratin, CD30, OCT3/4, NANOG, SALL4, and SOX2 positivity, so CD30 and OCT3/4 help separate it from yolk sac tumor, which is AFP and glypican 3 positive.",
       "visual_clues": [
         "Distinguish the blood filled core from the outer space around the projection."
       ],
       "visual_target": "Vessel centered Schiller–Duval body",
-      "tested_concept": "Ovarian germ cell tumor diagnosis",
+      "tested_concept": "Which diagnosis is supported, and which marker would instead point to embryonal carcinoma?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -1457,7 +1462,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 52,
@@ -1466,7 +1471,8 @@
         }
       ],
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-3",
@@ -1474,32 +1480,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An additional teaching field illustrates a second growth pattern in this category of ovarian tumor.",
-      "lead_in": "Which additional architecture is present in this field?",
-      "stem": "Which additional architecture is present in this field?",
+      "scenario": "A pathologist examines a yolk sac tumor and is surprised to see a loose reticular network around irregular spaces in one area and solid sheets and glandular areas in another.",
+      "lead_in": "What explains the variety of architectural patterns in the same tumor?",
+      "stem": "What explains the variety of architectural patterns in the same tumor?",
       "options": [
-        "A loose reticular network around irregular spaces",
-        "A single central vessel cuffed by tumor and surrounded by a cleft",
-        "Closely packed thyroid follicles with smooth pink colloid",
-        "Thick sheets of pale cells separated by lymphocyte rich septa",
-        "Crowded elongated tubules made of primitive neural cells"
+        "The patterns recapitulate stages of yolk sac development, including reticular, myxoid, solid, glandular, and polyvesicular forms",
+        "Epidermal invasion has occurred, producing a mixed squamous tumor",
+        "The tumor is a metastatic signet ring tumor with variable mucin",
+        "The tumor has transformed into a granulosa cell tumor with Call-Exner bodies",
+        "Different tumors have collided, because yolk sac tumors never show more than one pattern"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Thin tumor strands form a loose irregular mesh. This choice describes yolk sac tumor (reticular pattern), which is what the image shows.",
-        "That describes a Schiller–Duval body. The dominant pattern here is a diffuse network. This choice describes a Schiller-Duval body.",
-        "The irregular spaces lack the uniform colloid filled appearance of thyroid follicles. This choice describes struma ovarii.",
-        "That would favor dysgerminoma. The displayed strands are thin and irregular. This choice describes dysgerminoma.",
-        "Immature teratoma shows densely cellular neural tubules instead of this loose mesh. This choice describes immature teratoma."
+        "The lecture lists multiple patterns that mirror yolk sac development.",
+        "Yolk sac tumors are germ cell tumors and are not squamous epithelial lesions.",
+        "Signet ring cells have intracellular mucin vacuoles and a gastrointestinal primary.",
+        "Granulosa tumors are sex cord stromal tumors, and one tumor type does not convert into another here.",
+        "The lecture describes a range of patterns in a single yolk sac tumor, not collision of separate tumors."
       ],
-      "explanation": "The second field shows a loose reticular network of tumor around irregular spaces. The lecture describes several yolk sac tumor patterns, so a vessel centered structure need not appear in every field.",
+      "explanation": "Step 1. A loose reticular network with irregular spaces is one pattern of yolk sac tumor. Step 2. The lecture states that its microscopic patterns recapitulate yolk sac development and include reticular, myxoid, solid, glandular, and polyvesicular forms, along with Schiller-Duval bodies and hyaline PAS positive bodies. Several patterns can therefore coexist in a single tumor.",
       "visual_clues": [
         "Trace the thin tumor strands around the irregular pale spaces."
       ],
       "visual_target": "Loose reticular network surrounding irregular spaces",
-      "tested_concept": "Reticular growth in an ovarian yolk sac tumor",
+      "tested_concept": "What explains the variety of architectural patterns in the same tumor?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -1536,7 +1542,7 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 51,
@@ -1545,7 +1551,8 @@
         }
       ],
       "condition_name": "Yolk sac tumor",
-      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive."
+      "condition_overview": "Yolk sac (endodermal sinus) tumor is a malignant germ cell tumor, the most common testicular tumor in infants and children, and it occurs in young women in the ovary. Microscopically a loose reticular or lacelike pattern of cuboidal cells surrounds open spaces. Schiller-Duval bodies are glomerulus-like structures with a central vessel surrounded by tumor cells within a space, and eosinophilic hyaline globules are common. Tumor cells secrete alpha-fetoprotein, which is a serum marker. It is chemosensitive.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-depth-septa-alternative",
@@ -1555,28 +1562,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Inflammatory septa as an alternative to a central vascular core",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which tumor is this, and what clinical association does the lecture give?",
       "visual_target": "Inflammatory septa as an alternative to a central vascular core",
-      "scenario": "A pathologist is classifying an ovarian tumor from its histologic patterns.",
-      "lead_in": "A separate ovarian germ cell tumor is shown for comparison. Where are the small dark nuclei concentrated relative to the larger pale tumor cells?",
-      "stem": "A separate ovarian germ cell tumor is shown for comparison. Where are the small dark nuclei concentrated relative to the larger pale tumor cells?",
+      "scenario": "A 19-year-old woman has primary amenorrhea and a streak gonad on one side. She now has a unilateral, solid, gray, soft ovarian mass. A biopsy shows sheets of large cells separated by fibrous septa that contain small dark lymphocyte nuclei.",
+      "lead_in": "Which tumor is this, and what clinical association does the lecture give?",
+      "stem": "Which tumor is this, and what clinical association does the lecture give?",
       "options": [
-        "Within a single central stalk projecting into a lumen",
-        "Along a continuous lining of colloid filled follicles",
-        "Inside clear cytoplasmic vacuoles in the large cells",
-        "Only in debris at the center of a necrotic sheet",
-        "In fibrous septa between groups of large cells"
+        "Embryonal carcinoma, with CD30 positive cells and necrosis",
+        "Dysgerminoma, the most common malignant ovarian germ cell tumor, with 5 to 10 percent associated with gonadal dysgenesis and good chemotherapy response",
+        "Yolk sac tumor, with elevated AFP and Schiller-Duval bodies",
+        "Granulosa cell tumor, with estrogen effects and inhibin",
+        "Krukenberg tumor, with signet ring cells and bilateral masses"
       ],
-      "correct_index": 4,
+      "correct_index": 1,
       "choice_rationales": [
-        "A central vascular stalk cuffed by tumor cells suggests a Schiller–Duval body in yolk sac tumor. The small lymphocytes here occupy fibrous septa separating dysgerminoma nests. This choice describes a Schiller-Duval body.",
-        "The large cells lie in groups rather than around colloid. This choice describes struma ovarii.",
-        "The small nuclei belong to separate cells between the groups. This choice describes clear cell vacuolation.",
-        "The dark nuclei populate a fibrous band rather than a central necrotic space. This choice describes a necrotic sheet.",
-        "Dysgerminoma shows groups of large tumor cells separated by fibrous septa rich in small lymphocytes. This choice describes dysgerminoma (lymphocytes in fibrous septa), which is what the image shows."
+        "Embryonal carcinoma is crowded, atypical epithelium with necrosis.",
+        "Dysgerminoma matches the septa, the age, and the gonadal dysgenesis association.",
+        "Yolk sac tumor is recognized by Schiller-Duval bodies and AFP, not lymphoid septa.",
+        "Granulosa tumors are estrogenic sex cord tumors.",
+        "Krukenberg tumors are bilateral signet ring metastases."
       ],
-      "explanation": "The small lymphocytes cluster in a fibrous septum between groups of large pale cells. A septum dividing cell groups is different from a core projecting into a space.",
+      "explanation": "Step 1. Sheets of large primitive cells separated by fibrous septa infiltrated by lymphocytes is a dysgerminoma, the analog of seminoma. Step 2. The lecture says it is the most common malignant ovarian germ cell tumor, most often under age 30, can be seen in pregnancy, is responsive to chemotherapy, and is associated with gonadal dysgenesis in 5 to 10 percent. The streak gonad and amenorrhea point to that association.",
       "visual_clues": [
         "The small lymphocytes cluster in a fibrous septum between groups of large pale cells."
       ],
@@ -1603,9 +1610,10 @@
           "page": 97
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Dysgerminoma",
-      "condition_overview": "Dysgerminoma is the ovarian counterpart of testicular seminoma and the most common malignant ovarian germ cell tumor, typically in young women. It forms a solid, pale, fleshy, lobulated mass. Microscopically large round cells with clear cytoplasm, distinct cell borders, and central nuclei with prominent nucleoli are arranged in nests separated by fibrous septa infiltrated by lymphocytes. Cells are OCT3/4, CD117, and PLAP positive. Tumors are highly radiosensitive and chemosensitive with an excellent prognosis. It can occur in gonadal dysgenesis, such as Swyer syndrome."
+      "condition_overview": "Dysgerminoma is the ovarian counterpart of testicular seminoma and the most common malignant ovarian germ cell tumor, typically in young women. It forms a solid, pale, fleshy, lobulated mass. Microscopically large round cells with clear cytoplasm, distinct cell borders, and central nuclei with prominent nucleoli are arranged in nests separated by fibrous septa infiltrated by lymphocytes. Cells are OCT3/4, CD117, and PLAP positive. Tumors are highly radiosensitive and chemosensitive with an excellent prognosis. It can occur in gonadal dysgenesis, such as Swyer syndrome.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-mass-2-depth-crowded-alternative",
@@ -1615,28 +1623,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Solid primitive epithelium versus a reticular growth pattern",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which immunophenotype pair points to this tumor?",
       "visual_target": "Solid primitive epithelium versus a reticular growth pattern",
-      "scenario": "A pathologist is classifying an ovarian tumor from its histologic patterns.",
-      "lead_in": "Another ovarian germ cell tumor field is shown. Which feature makes it a poor match for the open reticular pattern in the original case?",
-      "stem": "Another ovarian germ cell tumor field is shown. Which feature makes it a poor match for the open reticular pattern in the original case?",
+      "scenario": "A 20-year-old woman has a necrotic, hemorrhagic ovarian tumor. The section shows crowded, atypical epithelium with necrotic debris and no open reticular network. Immunostains are positive for keratin and CD30.",
+      "lead_in": "Which immunophenotype pair points to this tumor?",
+      "stem": "Which immunophenotype pair points to this tumor?",
       "options": [
-        "Crowded atypical epithelium with necrotic debris",
-        "Thin epithelial strands outlining numerous open spaces",
-        "Broad fibrous septa filled with small lymphocytes",
-        "Uniform pale follicles filled with colloid",
-        "Well formed cartilage with individual lacunae"
+        "CD30 and OCT3/4 positivity, as in embryonal carcinoma",
+        "Inhibin and calponin positivity, as in granulosa cell tumor",
+        "Alpha fetoprotein and glypican 3 positivity only, as in yolk sac tumor",
+        "Mucicarmine and diastase PAS positivity, as in Paget disease",
+        "EMA and SMA positivity, as in hidradenoma"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Embryonal carcinoma in this comparison shows densely crowded primitive epithelium with necrotic debris. This choice describes embryonal carcinoma, which is what the image shows.",
-        "The open reticular mesh is a yolk sac tumor pattern. The embryonal carcinoma comparison is dominated by crowded primitive epithelium and necrosis. This choice describes yolk sac tumor (reticular pattern).",
-        "Lymphocyte-rich fibrous septa support dysgerminoma. The embryonal carcinoma field is dominated by dense atypical epithelium with necrotic debris. This choice describes dysgerminoma.",
-        "Uniform colloid-filled thyroid follicles favor struma ovarii. The embryonal carcinoma field instead contains densely crowded atypical epithelial cells. This choice describes struma ovarii.",
-        "Mature cartilage can be found in a mature cystic teratoma. The crowded cells of this embryonal carcinoma lack the abundant matrix and lacunae of cartilage. This choice describes a mature teratoma."
+        "CD30 and OCT3/4 are listed for embryonal carcinoma.",
+        "Inhibin marks granulosa cell tumor, a sex cord stromal tumor.",
+        "AFP and glypican 3 mark yolk sac tumor, not embryonal carcinoma.",
+        "Mucin stains confirm Paget disease of the vulva.",
+        "EMA and SMA are positive in vulvar hidradenoma."
       ],
-      "explanation": "The comparison field shows densely crowded primitive epithelial cells with necrotic debris. The crowded architecture differs from an open mesh of cell strands.",
+      "explanation": "Step 1. Crowded atypical epithelium with necrosis and CD30 positivity is embryonal carcinoma, and not the open reticular network of yolk sac tumor. Step 2. The lecture lists the immunostains for embryonal carcinoma as keratin, CD30, OCT3/4, NANOG, SALL4, and SOX2, while yolk sac tumor is AFP and glypican 3 positive.",
       "visual_clues": [
         "The comparison field shows densely crowded primitive epithelial cells with necrotic debris."
       ],
@@ -1663,9 +1671,10 @@
           "page": 97
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Embryonal carcinoma",
-      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy."
+      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r17-placental-specimens-1",
@@ -3529,32 +3538,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Four cervical teaching sections are arranged side by side. Use the epithelial thickness and surface maturation to compare the fields.",
-      "lead_in": "Which comparison best describes the displayed series?",
-      "stem": "Which comparison best describes the displayed series?",
+      "scenario": "A 28-year-old woman has an abnormal Pap test with koilocytes and no prior screening for 5 years. A teaching series shows biopsies in which atypical cells occupy a progressively larger fraction of epithelial thickness from left to right.",
+      "lead_in": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
+      "stem": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
       "options": [
-        "Surface maturation increases toward the right",
-        "Atypical cells occupy more epithelial thickness toward the right",
-        "All sections preserve an equally mature surface",
-        "Abnormal cells remain in the lowest third of every section",
-        "The second panel has less surface maturation than the far right"
+        "Both lesions progress to carcinoma in most cases",
+        "The lower third lesion (LSIL) usually regresses, about 60 percent, while the full thickness lesion (HSIL) more often persists, about 60 percent, with about 10 percent progressing to carcinoma",
+        "The lower third lesion is always HSIL and the full thickness lesion is always LSIL",
+        "The lower third lesion usually progresses to cancer within 10 years, while the full thickness lesion usually regresses",
+        "Both lesions regress in 90 percent of cases"
       ],
       "correct_index": 1,
       "choice_rationales": [
-        "The mature squamous appearance is best preserved on the far left. This choice describes a decreasing degree of epithelial atypia.",
-        "The far right has the least preserved maturation and the most extensive atypia. This choice describes squamous dysplasia progressing from LSIL to HSIL (more thickness involved), which is what the image shows.",
-        "The far right stays crowded and dark up to the surface. This choice describes identical surface maturation in all panels.",
-        "The two right panels show atypia extending well beyond the lower third. This choice describes atypia confined to the lowest third.",
-        "The second panel retains more mature upper cells than the far right. This choice describes a second panel with less maturation than the third."
+        "Only a small fraction of HSIL progresses to carcinoma.",
+        "The lecture percentages show LSIL mostly regresses and HSIL mostly persists with about 10 percent progressing to carcinoma.",
+        "LSIL is lower third and HSIL is full thickness, so the labels are reversed here.",
+        "Most LSIL regresses, so the claim that it usually becomes cancer is incorrect.",
+        "Regression is much more common in LSIL than HSIL."
       ],
-      "explanation": "The far left has a mature surface. The far right is densely atypical through nearly the whole thickness. The middle panels show intermediate patterns.",
+      "explanation": "Step 1. Atypia limited to the lower third with koilocytes is LSIL (CIN I), and atypia that expands toward the surface is HSIL (CIN II and III). Step 2. The lecture gives LSIL as about 60 percent regress, 30 percent persist, and 10 percent progress to HSIL, and HSIL as about 30 percent regress, 60 percent persist, and 10 percent progress to carcinoma. Greater thickness therefore means higher risk of persistence and cancer.",
       "visual_clues": [
         "Compare each epithelial surface with the basal region directly below it."
       ],
       "visual_target": "Maturation decreases toward the far right",
-      "tested_concept": "Depth of cervical epithelial atypia",
+      "tested_concept": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -3580,9 +3589,10 @@
       "ground_truth_basis": "Pending individual answer-key review.",
       "accepted_synonyms": [],
       "joint_panels": true,
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
-      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma."
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-cervical-series-2",
@@ -3590,32 +3600,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "Four cervical teaching sections are arranged side by side. Use the epithelial thickness and surface maturation to compare the fields.",
-      "lead_in": "Which interpretation best fits the far right panel?",
-      "stem": "Which interpretation best fits the far right panel?",
+      "scenario": "A 31-year-old woman has a Pap result of HSIL. Colposcopic biopsy shows diffuse atypia, loss of maturation, and expansion of immature basal type cells to the epithelial surface. She asks about her risk and whether the vaccine would help.",
+      "lead_in": "Which statement correctly describes this lesion and the vaccine?",
+      "stem": "Which statement correctly describes this lesion and the vaccine?",
       "options": [
-        "HSIL with a CIN II pattern",
-        "LSIL with a CIN I pattern",
-        "HSIL with a CIN III pattern",
-        "Mature squamous epithelium",
-        "Invasive squamous carcinoma demonstrated in this field"
+        "It is LSIL (CIN I), and vaccines can clear an established infection",
+        "It is Paget disease, and vaccines protect against it",
+        "It is LSIL, and HPV 16 and 18 are never involved",
+        "It is HSIL (CIN III), and HPV vaccines protect against types 16 and 18 but cannot treat established infection",
+        "It is invasive carcinoma, since the surface is involved"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "The CIN II teaching panel retains more upper maturation than the far right. This choice describes CIN II (HSIL).",
-        "The low grade panel retains more surface maturation and has koilocytic atypia. This choice describes CIN I (LSIL).",
-        "Extensive atypia and absent maturation support the highest intraepithelial grade in the series. This choice describes CIN III (HSIL), which is what the image shows.",
-        "The normal panel has orderly maturation with lighter superficial cells. This choice describes normal squamous epithelium.",
-        "This panel demonstrates extensive epithelial atypia. It does not demonstrate stromal invasion. This choice describes invasive squamous carcinoma."
+        "CIN I is LSIL and is limited to the lower third.",
+        "Paget disease is vulvar and is unrelated to HPV vaccination.",
+        "HPV 16 and 18 account for about half of HSIL.",
+        "CIN III is HSIL, and vaccines prevent but do not treat established infection.",
+        "Invasive carcinoma requires invasion into the underlying stroma."
       ],
-      "explanation": "Near full thickness atypia and loss of maturation support the CIN III pattern in this representative field.",
+      "explanation": "Step 1. Full thickness atypia with no maturation is HSIL (CIN III). Step 2. The lecture states HPV types 16 and 18 account for about half of HSILs, and that vaccines made of L1 capsid protein protect against these types but cannot protect against established infections, so screening continues. Invasion needs stromal penetration, not surface involvement alone.",
       "visual_clues": [
         "The crowded nuclei approach the epithelial surface."
       ],
       "visual_target": "Near full thickness atypia with loss of surface maturation",
-      "tested_concept": "CIN grading from epithelial maturation",
+      "tested_concept": "Which statement correctly describes this lesion and the vaccine?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -3643,7 +3653,8 @@
       "joint_panels": true,
       "study_skill": "interpretation",
       "condition_name": "High-grade squamous intraepithelial lesion (HSIL)",
-      "condition_overview": "High-grade squamous intraepithelial lesion (HSIL, CIN 2 and CIN 3) is the true cervical precancer. It arises from persistent infection with high-risk HPV (types 16 and 18 most often), in which viral E6 and E7 proteins inactivate p53 and Rb. Immature basaloid cells with high nuclear-to-cytoplasmic ratios, hyperchromatic nuclei, and mitoses occupy at least the lower two thirds up to the full thickness of the epithelium, with loss of maturation toward the surface. Diffuse strong p16 staining supports the diagnosis. HSIL is treated by excision or ablation because it can progress to invasive squamous cell carcinoma."
+      "condition_overview": "High-grade squamous intraepithelial lesion (HSIL, CIN 2 and CIN 3) is the true cervical precancer. It arises from persistent infection with high-risk HPV (types 16 and 18 most often), in which viral E6 and E7 proteins inactivate p53 and Rb. Immature basaloid cells with high nuclear-to-cytoplasmic ratios, hyperchromatic nuclei, and mitoses occupy at least the lower two thirds up to the full thickness of the epithelium, with loss of maturation toward the surface. Diffuse strong p16 staining supports the diagnosis. HSIL is treated by excision or ablation because it can progress to invasive squamous cell carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-cervical-series-depth-intermediate-panels",
@@ -3653,28 +3664,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Relative maturation in the middle cervical sections",
+      "reasoning_type": "second or third order",
+      "tested_concept": "How are these two panels classified, and what is the clinical consequence?",
       "visual_target": "Relative maturation in the middle cervical sections",
-      "scenario": "A pathologist compares cervical teaching specimens with varying epithelial changes.",
-      "lead_in": "Compare the two middle panels. Which difference can be read directly from their surface and basal layers?",
-      "stem": "Compare the two middle panels. Which difference can be read directly from their surface and basal layers?",
+      "scenario": "A pathologist compares two middle panels of a cervical series. In the second panel atypical cells fill about the lower half of the epithelium. In the third panel immature cells extend through nearly the full thickness with little maturation.",
+      "lead_in": "How are these two panels classified, and what is the clinical consequence?",
+      "stem": "How are these two panels classified, and what is the clinical consequence?",
       "options": [
-        "The second panel shows atypical cells reaching higher than the third",
-        "The third panel has less mature epithelium above the basal layer",
-        "Both panels have the same degree of surface maturation",
-        "The third panel loses its entire epithelial covering",
-        "The second panel lacks any basal epithelial population"
+        "Both are LSIL because atypia remains above the basal layer",
+        "Both are koilocytic changes of condyloma with no cancer risk",
+        "Both fall in the HSIL group, so management addresses a lesion with higher persistence and cancer risk than LSIL",
+        "The second panel is LSIL and the third is invasive carcinoma",
+        "The second panel is normal and the third is LSIL"
       ],
-      "correct_index": 1,
+      "correct_index": 2,
       "choice_rationales": [
-        "The third shows the greater upward extent. This choice describes more atypia in the second panel than in the third.",
-        "In the second panel the surface retains greater maturation. In the third, immature atypical cells extend farther upward, without the uniformly immature appearance of the far right field. This choice describes a less mature epithelium in the third panel (CIN progression), which is what the image shows.",
-        "The third has a more expanded immature population. This choice describes equal maturation.",
-        "The layer remains intact in both panels. This choice describes loss of epithelium.",
-        "Both fields retain a basal layer for comparison. This choice describes absence of a basal layer."
+        "LSIL is limited to the lower third with koilocytic atypia.",
+        "Cervical condyloma is exophytic and not the CIN spectrum shown.",
+        "CIN II and III are both HSIL with higher risk than LSIL.",
+        "Neither panel shows invasion, so labeling the third panel carcinoma is not supported.",
+        "Atypia beyond the lower third is not normal."
       ],
-      "explanation": "In the second panel the surface retains greater maturation. In the third, immature atypical cells extend farther upward, without the uniformly immature appearance of the far right field. The third shows the greater upward extent.",
+      "explanation": "Step 1. Atypia beyond the lower third is CIN II, and full thickness atypia with loss of maturation is CIN III. Step 2. The lecture merges CIN II and CIN III into HSIL, which has about 60 percent persistence and about 10 percent progression to carcinoma, compared with the mostly regressing LSIL. Neither panel shows stromal invasion.",
       "visual_clues": [
         "In the second panel the surface retains greater maturation."
       ],
@@ -3706,9 +3717,10 @@
           "page": 25
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
-      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma."
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-cervical-series-depth-cytology-correlation",
@@ -3718,28 +3730,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Cervical cytology clues and limits of epithelial grading",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does this cytology finding indicate, and how is the lesion classified?",
       "visual_target": "Cervical cytology clues and limits of epithelial grading",
-      "scenario": "A pathologist compares cervical teaching specimens with varying epithelial changes.",
-      "lead_in": "A cervical smear from a separate teaching example is shown. What can this specimen add to the interpretation without showing epithelial thickness?",
-      "stem": "A cervical smear from a separate teaching example is shown. What can this specimen add to the interpretation without showing epithelial thickness?",
+      "scenario": "A 26-year-old woman has a Pap smear showing squamous cells with enlarged, hyperchromatic, irregular nuclei, multinucleation, and perinuclear halos. Her clinician explains how the smear complements a biopsy.",
+      "lead_in": "What does this cytology finding indicate, and how is the lesion classified?",
+      "stem": "What does this cytology finding indicate, and how is the lesion classified?",
       "options": [
-        "It maps atypical cells across the entire epithelium",
-        "It shows the depth of invasion into cervical stroma",
-        "It shows viral cytopathic changes in squamous cells",
-        "It shows a glandular proliferation within the endocervix",
-        "It shows maturation relative to an intact basement membrane"
+        "Intracellular mucin vacuoles, classified as Krukenberg tumor",
+        "Dermal fibrosis, classified as lichen sclerosus",
+        "Call-Exner bodies, classified as granulosa tumor",
+        "Viral cytopathic effect of HPV (koilocytes), classified as LSIL",
+        "Schiller-Duval bodies, classified as yolk sac tumor"
       ],
-      "correct_index": 2,
+      "correct_index": 3,
       "choice_rationales": [
-        "Detached cells do not preserve the epithelial layers. This choice describes mapping of atypia across the epithelium.",
-        "A stromal interface is not displayed in this smear. This choice describes stromal invasion depth.",
-        "The smear reveals haloed squamous cells with enlarged irregular dark nuclei. A smear shows cell morphology but does not show the full basal to surface thickness used for grading. This choice describes viral cytopathic effect (koilocytes) on cytology, which is what the image shows.",
-        "The diagnostic cells shown have squamous profiles. This choice describes a glandular lesion.",
-        "The cells are detached from their tissue architecture. This choice describes maturation relative to the basement membrane."
+        "Intracellular mucin vacuoles are signet ring cells in Krukenberg tumor.",
+        "Dermal fibrosis is a histologic feature of lichen sclerosus.",
+        "Call-Exner bodies are follicle like structures in granulosa tumors.",
+        "Koilocytes are the HPV cytopathic effect and define LSIL.",
+        "Schiller-Duval bodies are architectural patterns in yolk sac tumors."
       ],
-      "explanation": "The smear reveals haloed squamous cells with enlarged irregular dark nuclei. A smear shows cell morphology but does not show the full basal to surface thickness used for grading. Detached cells do not preserve the epithelial layers.",
+      "explanation": "Step 1. Multinucleation, nuclear enlargement and hyperchromasia, irregular membranes, and perinuclear halos are koilocytes, the diagnostic HPV cytopathic effect. Step 2. The lecture classifies a lesion with HPV cytopathic effect and limited basal atypia as LSIL (CIN I). The Pap test samples cells from the cervix and can be conventional or liquid based.",
       "visual_clues": [
         "The smear reveals haloed squamous cells with enlarged irregular dark nuclei."
       ],
@@ -3770,9 +3782,10 @@
           "page": 26
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Low-grade squamous intraepithelial lesion (LSIL)",
-      "condition_overview": "Low-grade squamous intraepithelial lesion (LSIL, CIN 1) is a productive HPV infection of the cervical squamous epithelium. Atypical cells with koilocytic change are confined mainly to the lower third of the epithelium, and the upper layers mature normally. It most often reflects low- or high-risk HPV, usually regresses spontaneously, especially in young women, and is generally followed rather than treated aggressively. On Pap smear the finding is koilocytes with mildly enlarged hyperchromatic nuclei in superficial and intermediate cells."
+      "condition_overview": "Low-grade squamous intraepithelial lesion (LSIL, CIN 1) is a productive HPV infection of the cervical squamous epithelium. Atypical cells with koilocytic change are confined mainly to the lower third of the epithelium, and the upper layers mature normally. It most often reflects low- or high-risk HPV, usually regresses spontaneously, especially in young women, and is generally followed rather than treated aggressively. On Pap smear the finding is koilocytes with mildly enlarged hyperchromatic nuclei in superficial and intermediate cells.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-cervical-series-depth-stromal-limit",
@@ -3782,28 +3795,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "What an atypical cervical epithelial strip establishes",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What evidence would be required?",
       "visual_target": "What an atypical cervical epithelial strip establishes",
-      "scenario": "A pathologist compares cervical teaching specimens with varying epithelial changes.",
-      "lead_in": "This companion biopsy shows a crowded epithelial strip. What evidence would be needed to demonstrate invasion beyond the changes seen here?",
-      "stem": "This companion biopsy shows a crowded epithelial strip. What evidence would be needed to demonstrate invasion beyond the changes seen here?",
+      "scenario": "A 40-year-old woman has HSIL on biopsy. A companion biopsy from another patient shows a crowded epithelial strip. The surgeon asks what finding would change the diagnosis from a precancer to invasive carcinoma.",
+      "lead_in": "What evidence would be required?",
+      "stem": "What evidence would be required?",
       "options": [
-        "Nuclear enlargement within the epithelial strip itself",
-        "Loss of maturation in the upper epithelial cell layers",
-        "Mitotic activity above the basal region of the epithelium",
+        "Koilocytes in the superficial layers",
+        "Immature cells present in the lower third only",
+        "Loss of maturation within the epithelium",
         "Atypical epithelial cells extending into the underlying stroma",
-        "A sharply visible surface of the epithelial strip"
+        "Multinucleation of surface cells"
       ],
       "correct_index": 3,
       "choice_rationales": [
-        "Nuclear size supports atypia, not breach of the tissue boundary. This choice describes nuclear enlargement.",
-        "This concerns epithelial extent, not stromal extension. This choice describes loss of upper epithelial maturation.",
-        "An elevated mitotic position is still an epithelial finding. This choice describes mitotic activity above the basal layer.",
-        "The densely packed abnormal nuclei are in the epithelial strip. Invasion would require lesional epithelium beyond its epithelial boundary in the underlying stroma. This choice describes invasive carcinoma (atypical cells in the stroma), which is what the image shows.",
-        "The surface does not demonstrate the deep tissue relationship. This choice describes a visible surface."
+        "Koilocytes occur in LSIL and do not prove invasion.",
+        "Lower third immaturity describes LSIL.",
+        "Loss of maturation is a feature of HSIL, which is still confined to the epithelium.",
+        "Stromal invasion distinguishes carcinoma from carcinoma in situ.",
+        "Multinucleation is part of HPV cytopathic effect and is not invasion."
       ],
-      "explanation": "The densely packed abnormal nuclei are in the epithelial strip. Invasion would require lesional epithelium beyond its epithelial boundary in the underlying stroma. This concerns epithelial extent, not stromal extension.",
+      "explanation": "Step 1. Crowded atypical epithelium with full thickness immaturity but confined to the epithelium is HSIL, carcinoma in situ (CIN III). Step 2. Invasive squamous cell carcinoma requires atypical cells breaching the epithelium and extending into the underlying stroma, so confirming stromal invasion is what changes the diagnosis. HSIL progresses to carcinoma in about 10 percent.",
       "visual_clues": [
         "The densely packed abnormal nuclei are in the epithelial strip."
       ],
@@ -3830,9 +3843,10 @@
           "page": 26
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Cervical dysplasia (CIN) on colposcopy",
-      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma."
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-myometrial-section-1",
@@ -3840,112 +3854,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "A uterine wall specimen is sectioned. Review the muscle and the darker structures embedded within it.",
-      "lead_in": "Which relationship is visible in the wall?",
-      "stem": "Which relationship is visible in the wall?",
+      "scenario": "A 44-year-old woman has heavy, painful periods and a diffusely enlarged, firm uterus. A hysterectomy section shows endometrial glands with endometrial stroma lying among smooth muscle bundles deep in the wall.",
+      "lead_in": "Which gross finding is expected and what defines this condition?",
+      "stem": "Which gross finding is expected and what defines this condition?",
       "options": [
-        "A sharply bounded nodule of smooth muscle without glands",
-        "Glands restricted to an intact surface lining",
-        "Sheets of pleomorphic spindle cells replacing the wall",
-        "Glands with endometrial stroma among smooth muscle bundles",
-        "Endometrial tissue attached to a separate ovarian specimen"
+        "A white thinned vulvar patch, because of dermal sclerosis",
+        "A sharply circumscribed whorled nodule, because smooth muscle forms a tumor",
+        "A bulky solid ovarian mass with cartilage, because teratoma tissue grows",
+        "A mucin rich bilateral ovarian mass, because signet ring cells spread",
+        "Ill-defined smooth muscle hyperplasia with foci of blood or hemosiderin, because endometrial glands and stroma lie within the myometrium"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "A circumscribed smooth muscle nodule favors leiomyoma. In adenomyosis, endometrial glands with accompanying stroma lie among the myometrial bundles. This choice describes a leiomyoma.",
-        "Normal endometrial glands lie in the surface lining. With adenomyosis, the endometrial glands and stroma are embedded within uterine muscle. This choice describes a glandular lesion confined to the surface.",
-        "Pleomorphic spindle cells would suggest a malignant smooth muscle proliferation. The myometrial finding here is endometrial glands and stroma in adenomyosis. This choice describes leiomyosarcoma.",
-        "Endometrial glands and stroma within smooth muscle bundles demonstrate the myometrial location that defines adenomyosis. This choice describes adenomyosis (endometrial glands and stroma in the myometrium), which is what the image shows.",
-        "Endometrial-type tissue on the ovary would be extrauterine endometriosis. The abnormal tissue here is within the uterine muscular wall, supporting adenomyosis. This choice describes ovarian endometriosis."
+        "Lichen sclerosus affects vulvar skin.",
+        "Leiomyomas are sharply circumscribed whorled nodules.",
+        "Teratomas arise in the ovary and not the uterine wall.",
+        "Krukenberg tumors affect the ovaries and are not uterine wall lesions.",
+        "Adenomyosis is ectopic endometrial tissue within the myometrium with ill defined hyperplasia and bleeding foci."
       ],
-      "explanation": "Gland profiles sit within dark endometrial stroma surrounded by pink smooth muscle.",
+      "explanation": "Step 1. Endometrial glands and stroma within the myometrium, well beyond the endometrial interface, define adenomyosis. Step 2. The lecture describes the gross appearance as ill defined smooth muscle hyperplasia with foci of hemosiderin or blood deep within the myometrium, explaining a uniformly enlarged uterus. This differs from a discrete leiomyoma.",
       "visual_clues": [
         "Trace the dark stromal rim around the pale gland lumens."
       ],
       "visual_target": "Glands and stroma embedded among myometrial bundles",
-      "tested_concept": "Endometrial tissue within uterine muscle",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "source_id": "s-4fb4e8925cc77acafd44",
-      "source_group_id": "g-9c21eabf7d7177f5b816",
-      "asset_id": "a-a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027",
-      "variant_id": "v-a7607cf3973b2f96e2f4",
-      "image": "assets/display/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.webp",
-      "zoom_image": "assets/zoom/7ff439e90fae90c86d1821c0466056868a0e5015b8ffa00350a8b4382803f15c.webp",
-      "original_image": "assets/zoom/7ff439e90fae90c86d1821c0466056868a0e5015b8ffa00350a8b4382803f15c.webp",
-      "original_filename": "Adenomyosis - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 58
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 55
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 57
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 59
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": [],
-      "study_skill": "morphology",
-      "feedback_focus": [
-        {
-          "x": 22,
-          "y": 53,
-          "label": "Endometrial gland with adjacent darker stroma within smooth muscle."
-        },
-        {
-          "x": 66,
-          "y": 74,
-          "label": "Another irregular gland profile in the myometrium."
-        }
-      ],
-      "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
-    },
-    {
-      "question_id": "q-r12-myometrial-section-2",
-      "case_id": "r12-myometrial-section",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "question_type": "Clinical visual question",
-      "scenario": "A uterine wall specimen is sectioned. Review the muscle and the darker structures embedded within it.",
-      "lead_in": "Which diagnosis best fits the location and composition of the dark foci?",
-      "stem": "Which diagnosis best fits the location and composition of the dark foci?",
-      "options": [
-        "Extrauterine endometriosis",
-        "Leiomyoma",
-        "Leiomyosarcoma",
-        "Normal endometrial lining",
-        "Adenomyosis"
-      ],
-      "correct_index": 4,
-      "choice_rationales": [
-        "The lecture defines this pattern by glands and stroma at an extrauterine site. This choice describes extrauterine endometriosis.",
-        "A circumscribed nodule of smooth muscle does not account for the embedded endometrial complexes. This choice describes a leiomyoma.",
-        "The expected lesion is an atypical mitotically active smooth muscle proliferation. This choice describes leiomyosarcoma.",
-        "Normal glands line the cavity with their stroma. Here several complexes lie within muscle. This choice describes normal endometrium.",
-        "The gland and stroma complexes are embedded within the uterine muscle. This choice describes adenomyosis, which is what the image shows."
-      ],
-      "explanation": "Adenomyosis places endometrial glands and stroma inside the uterine muscle. The location is what separates this pattern from extrauterine endometriosis.",
-      "visual_clues": [
-        "Identify the tissue surrounding each gland and the larger compartment around it."
-      ],
-      "visual_target": "Endometrial glands and stroma deep within myometrium",
-      "tested_concept": "Diagnosis of endometrial tissue in myometrium",
+      "tested_concept": "Which gross finding is expected and what defines this condition?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -3992,7 +3926,89 @@
         }
       ],
       "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r12-myometrial-section-2",
+      "case_id": "r12-myometrial-section",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A 37-year-old woman has dysmenorrhea and infertility. Her hysterectomy specimen has dark foci within the muscular wall, composed of endometrial glands and stroma. Her sister has similar tissue on the ovary and in the pelvis, and the family asks if these are the same disease.",
+      "lead_in": "How does this uterine condition differ from the sister's?",
+      "stem": "How does this uterine condition differ from the sister's?",
+      "options": [
+        "Adenomyosis has endometrial tissue within the myometrium, whereas endometriosis has endometrial type tissue in an extrauterine location",
+        "Adenomyosis is a germ cell tumor, whereas endometriosis is a sex cord tumor",
+        "Both are identical because location is irrelevant",
+        "Adenomyosis is a benign smooth muscle tumor, whereas endometriosis is a malignant stromal tumor",
+        "Adenomyosis has tissue outside the uterus, whereas endometriosis is within the myometrium"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Adenomyosis is within the uterine wall and endometriosis is extrauterine.",
+        "Neither is a germ cell or sex cord tumor.",
+        "Location defines the two conditions.",
+        "Neither is a smooth muscle or stromal tumor.",
+        "The locations are reversed in this option."
+      ],
+      "explanation": "Step 1. Dark foci of endometrial glands and stroma deep in the muscular wall are adenomyosis. Step 2. The lecture defines endometriosis as endometrial type glands and stroma in an extrauterine location, almost exclusively in women of reproductive age, causing dysmenorrhea, pelvic pain, and infertility, and the theories include regurgitation and metaplasia. Location therefore separates the two.",
+      "visual_clues": [
+        "Identify the tissue surrounding each gland and the larger compartment around it."
+      ],
+      "visual_target": "Endometrial glands and stroma deep within myometrium",
+      "tested_concept": "How does this uterine condition differ from the sister's?",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "source_id": "s-4fb4e8925cc77acafd44",
+      "source_group_id": "g-9c21eabf7d7177f5b816",
+      "asset_id": "a-a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027",
+      "variant_id": "v-a7607cf3973b2f96e2f4",
+      "image": "assets/display/a7607cf3973b2f96e2f4fc61ca8474df5a7e5c543f0b69f8946c74c7de344027.webp",
+      "zoom_image": "assets/zoom/7ff439e90fae90c86d1821c0466056868a0e5015b8ffa00350a8b4382803f15c.webp",
+      "original_image": "assets/zoom/7ff439e90fae90c86d1821c0466056868a0e5015b8ffa00350a8b4382803f15c.webp",
+      "original_filename": "Adenomyosis - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 58
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 55
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 57
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 59
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "study_skill": "interpretation",
+      "feedback_focus": [
+        {
+          "x": 22,
+          "y": 53,
+          "label": "Endometrial gland with adjacent darker stroma within smooth muscle."
+        },
+        {
+          "x": 66,
+          "y": 74,
+          "label": "Another irregular gland profile in the myometrium."
+        }
+      ],
+      "condition_name": "Adenomyosis",
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-myometrial-section-depth-gross-wall",
@@ -4002,28 +4018,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "Gross localization of hemorrhagic foci in uterine muscle",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which interpretation best connects this gross appearance to the microscopic finding of adenomyosis?",
       "visual_target": "Gross localization of hemorrhagic foci in uterine muscle",
-      "scenario": "A uterine wall specimen is being evaluated for darker structures within the muscle.",
-      "lead_in": "In this gross view, which location of the dark foci connects the image to the original microscopic wall finding?",
-      "stem": "In this gross view, which location of the dark foci connects the image to the original microscopic wall finding?",
+      "scenario": "A pathologist opens a hysterectomy specimen from a woman with heavy periods. The wall is thick, and dark foci are scattered through the muscle near the cavity without a clear border.",
+      "lead_in": "Which interpretation best connects this gross appearance to the microscopic finding of adenomyosis?",
+      "stem": "Which interpretation best connects this gross appearance to the microscopic finding of adenomyosis?",
       "options": [
-        "Restricted to material lying free in the cavity",
-        "Confined to one pale, sharply bounded subserosal nodule",
-        "Limited to the external surface of the uterus",
-        "Continuous with a single linear cavity surface lesion",
-        "Scattered through the thick muscular wall near the cavity"
+        "The dark foci are blood or hemosiderin in ectopic endometrial tissue within an ill defined, thickened myometrium",
+        "The dark foci are bilateral ovarian metastases",
+        "The dark foci are Schiller-Duval bodies",
+        "The dark foci are Call-Exner bodies in a sex cord tumor",
+        "The dark foci are discrete tumors bulging into the cavity as submucosal nodules"
       ],
-      "correct_index": 4,
+      "correct_index": 0,
       "choice_rationales": [
-        "Several foci are embedded in tissue beyond the cavity. This choice describes free intracavitary material.",
-        "The dark spots are scattered rather than concentrated inside one nodule. This choice describes a subserosal leiomyoma.",
-        "The visible foci are present in the cut wall. This choice describes serosal surface disease.",
-        "The spots are discontinuous and deeper than the lining. This choice describes a single linear cavity lesion.",
-        "The dark foci are scattered in the thick muscular wall beside the narrow cavity. The lecture describes blood or hemosiderin deep in the myometrium. This choice describes adenomyosis (scattered dark foci within the thick myometrium), which is what the image shows."
+        "Ill defined thickening with hemosiderin or blood foci is the lecture's gross description.",
+        "Ovarian metastases are not in the uterine wall.",
+        "Schiller-Duval bodies are microscopic yolk sac tumor structures.",
+        "Call-Exner bodies are microscopic structures in granulosa cell tumor.",
+        "Submucosal leiomyomas are sharply circumscribed nodules."
       ],
-      "explanation": "The dark foci are scattered in the thick muscular wall beside the narrow cavity. The lecture describes blood or hemosiderin deep in the myometrium. The dark spots are scattered rather than concentrated inside one nodule.",
+      "explanation": "Step 1. Dark, ill defined foci scattered through a thick muscular wall match the macroscopic features of adenomyosis. Step 2. The lecture lists ill defined smooth muscle hyperplasia with foci of hemosiderin or blood deep within the myometrium. Leiomyomas are sharply circumscribed, and the other options describe ovarian or germ cell lesions.",
       "visual_clues": [
         "The dark foci are scattered in the thick muscular wall beside the narrow cavity."
       ],
@@ -4050,7 +4066,7 @@
           "page": 55
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "feedback_focus": [
         {
           "x": 67,
@@ -4059,7 +4075,8 @@
         }
       ],
       "condition_name": "Adenomyosis",
-      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy."
+      "condition_overview": "Adenomyosis is the presence of benign endometrial glands and stroma within the myometrium, deeper than the usual endometrial-myometrial junction. The uterus enlarges symmetrically and has a thickened, trabeculated wall with small cystic or hemorrhagic foci. Patients have heavy, painful menses and a boggy, tender uterus. Microscopically there are islands of endometrial-type glands with stromal cuffs among smooth muscle bundles, with hypertrophy of the surrounding muscle. On MRI it thickens the junctional zone. Definitive treatment is hysterectomy.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-myometrial-section-depth-fibroid-comparison",
@@ -4069,28 +4086,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Gross and microscopic boundary of a uterine wall mimic",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which statement explains the hormonal behavior of this tumor?",
       "visual_target": "Gross and microscopic boundary of a uterine wall mimic",
-      "scenario": "A uterine wall specimen is being evaluated for darker structures within the muscle.",
-      "lead_in": "Another uterine wall specimen is shown. Which pair of findings favors a discrete muscular nodule over the original wall pattern?",
-      "stem": "Another uterine wall specimen is shown. Which pair of findings favors a discrete muscular nodule over the original wall pattern?",
+      "scenario": "A 46-year-old woman has menorrhagia and a pelvic exam suggests multiple uterine masses. A uterine wall specimen shows sharply outlined pale nodules composed of regular spindle cell fascicles. The masses were smaller on a scan after menopause in her mother.",
+      "lead_in": "Which statement explains the hormonal behavior of this tumor?",
+      "stem": "Which statement explains the hormonal behavior of this tumor?",
       "options": [
-        "Sharply outlined pale nodules and regular spindle cell fascicles",
-        "Scattered dark wall foci and endometrial glands within muscle",
-        "Diffuse cavity lining and atypical crowded glands",
-        "Hemorrhagic cysts and a stratified squamous lining",
-        "Pale mucin pools and floating epithelial groups"
+        "Leiomyomas enlarge after menopause because estrogen rises",
+        "Leiomyomas are caused by HPV and regress with the vaccine",
+        "Estrogen and progesterone stimulate leiomyoma growth, so they shrink after menopause, and malignant transformation is extremely rare",
+        "Leiomyomas contain endometrial glands and stroma",
+        "Leiomyomas are malignant and frequently transform to leiomyosarcoma"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "The gross nodules are pale and circumscribed. The microscopic companion shows regular smooth muscle cells, matching the uniform muscular process. This choice describes leiomyomas (sharply outlined pale nodules with regular spindle fascicles), which is what the image shows.",
-        "Those findings fit the original wall process rather than these circumscribed nodules. This choice describes adenomyosis.",
-        "The tissue forms distinct intramural nodules. This choice describes endometrial glandular atypia (hyperplasia or carcinoma).",
-        "The microscopic image shows spindle cells rather than squamous epithelium. This choice describes hemorrhagic cysts with a squamous lining (endometriosis-like or teratoma-like).",
-        "There are solid smooth muscle fascicles rather than mucin pools. This choice describes mucinous tumor."
+        "Falling hormones after menopause make them shrink, not enlarge.",
+        "HPV is linked to cervical lesions and is not a cause of leiomyomas.",
+        "The lecture ties leiomyoma growth to estrogen and progesterone and shrinkage after menopause.",
+        "Endometrial glands and stroma in the wall define adenomyosis.",
+        "Malignant transformation is extremely rare."
       ],
-      "explanation": "The gross nodules are pale and circumscribed. The microscopic companion shows regular smooth muscle cells, matching the uniform muscular process. There are solid smooth muscle fascicles rather than mucin pools.",
+      "explanation": "Step 1. Sharply outlined nodules of regular spindle cell fascicles are leiomyomas, benign smooth muscle neoplasms. Step 2. The lecture states estrogen and progesterone stimulate their growth and that they shrink after menopause, they are often multiple, often asymptomatic, and cause menorrhagia when symptomatic. Transformation to leiomyosarcoma is extremely rare.",
       "visual_clues": [
         "The gross nodules are pale and circumscribed."
       ],
@@ -4118,9 +4135,10 @@
           "page": 58
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Uterine leiomyoma",
-      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare."
+      "condition_overview": "Uterine leiomyomas (fibroids) are benign smooth muscle tumors and the most common tumor in women, growth being estrogen and progesterone dependent. They are classified as submucosal (beneath the endometrium, causing the most bleeding), intramural (within the wall), or subserosal (beneath the serosa, causing pressure effects). They are well-circumscribed, firm, whorled, white-tan masses with interlacing bundles of uniform spindle cells without atypia. Symptoms include heavy menstrual bleeding, pelvic pressure, and infertility, and they shrink after menopause. Malignant transformation (leiomyosarcoma) is rare.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-myometrial-section-depth-site-comparison",
@@ -4130,28 +4148,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "advanced",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Location as the discriminator between two endometrial tissue patterns",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Why is the location of this tissue essential to the diagnosis?",
       "visual_target": "Location as the discriminator between two endometrial tissue patterns",
-      "scenario": "A uterine wall specimen is being evaluated for darker structures within the muscle.",
-      "lead_in": "The slide identifies this separate tissue sample as extrauterine. What feature makes location essential when comparing it with the original uterine wall section?",
-      "stem": "The slide identifies this separate tissue sample as extrauterine. What feature makes location essential when comparing it with the original uterine wall section?",
+      "scenario": "A 29-year-old woman has pelvic pain, dysmenorrhea, and infertility. A laparoscopic biopsy from the peritoneum shows a gland with an adjacent cuff of endometrial stroma. The uterus is normal.",
+      "lead_in": "Why is the location of this tissue essential to the diagnosis?",
+      "stem": "Why is the location of this tissue essential to the diagnosis?",
       "options": [
-        "A broad fascicle composed only of uniform smooth muscle",
-        "A gland with an adjacent endometrial stromal cuff",
-        "A patch of squamous epithelium with surface keratin",
-        "A blood vessel with a muscular wall and no gland",
-        "A necrotic epithelial nest devoid of organized stroma"
+        "Endometrial tissue outside the uterus defines a leiomyoma",
+        "Endometrial tissue within the cavity defines adenomyosis",
+        "Endometrial tissue within the myometrium defines endometriosis",
+        "Tissue location is irrelevant because both entities are identical",
+        "Endometrial type glands and stroma outside the uterus define endometriosis, which explains pain and infertility in reproductive age women"
       ],
-      "correct_index": 1,
+      "correct_index": 4,
       "choice_rationales": [
-        "The companion contains an epithelial gland and supporting stroma. This choice describes a leiomyoma.",
-        "The companion also contains an endometrial type gland with associated endometrial stroma. Similar tissue constituents can have different implications in uterine muscle and at an extrauterine site. This choice describes endometriosis outside the uterus (a gland with an endometrial stromal cuff), which is what the image shows.",
-        "The lining and associated stroma are glandular and endometrial type. This choice describes squamous epithelium with keratin.",
-        "The section shows an endometrial type gland. This choice describes a normal blood vessel.",
-        "An organized gland and stromal cuff are present. This choice describes necrotic carcinoma."
+        "Leiomyomas are smooth muscle tumors without endometrial glands.",
+        "Tissue in the endometrial cavity is normal and is not adenomyosis.",
+        "Tissue within the myometrium is adenomyosis, not endometriosis.",
+        "Location distinguishes the two conditions.",
+        "Extrauterine endometrial type tissue defines endometriosis."
       ],
-      "explanation": "The companion also contains an endometrial type gland with associated endometrial stroma. Similar tissue constituents can have different implications in uterine muscle and at an extrauterine site. The section shows an endometrial type gland.",
+      "explanation": "Step 1. A gland with an endometrial stromal cuff in a peritoneal biopsy is endometrial type tissue outside the uterus, which is endometriosis. Step 2. The lecture states it almost exclusively affects women of reproductive age and most commonly causes dysmenorrhea, pelvic pain, and infertility, and the cause is uncertain, with theories including regurgitation, benign metastasis, and metaplasia. In adenomyosis the same tissue lies within the myometrium.",
       "visual_clues": [
         "The companion also contains an endometrial type gland with associated endometrial stroma."
       ],
@@ -4178,9 +4196,10 @@
           "page": 58
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Endometriosis",
-      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants."
+      "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-immature-1",
@@ -4188,32 +4207,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is excised in a young patient. The displayed section comes from its solid tissue.",
-      "lead_in": "Which component occupies the dark crowded areas?",
-      "stem": "Which component occupies the dark crowded areas?",
+      "scenario": "A 15-year-old girl has a rapidly growing pelvic mass. The surgeon removes a bulky solid ovarian tumor. The section shows dark crowded areas of primitive neuroepithelial tubules among cartilage and other tissues. The tumor is confined to the ovary.",
+      "lead_in": "What is the expected prognosis and treatment for this stage I tumor?",
+      "stem": "What is the expected prognosis and treatment for this stage I tumor?",
       "options": [
-        "Primitive neuroepithelial tubules",
-        "Thyroid follicles with dense colloid",
-        "Sheets of pale cells separated by lymphocyte rich septa",
-        "A central vessel cuffed by tumor within a space",
-        "Small follicle like spaces with eosinophilic secretion"
+        "Poor prognosis in all cases, with no effective chemotherapy",
+        "Excellent prognosis, with prophylactic chemotherapy, and most recurrences appear within 2 years",
+        "Hormonal therapy with estrogen blockers because the tumor secretes estrogen",
+        "Guaranteed cure by oophorectomy alone, as with dysgerminoma",
+        "Excellent prognosis with no follow up needed because it is a benign dermoid cyst"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "choice_rationales": [
-        "Dark immature cells are arranged in crowded tubular profiles. This choice describes immature teratoma (primitive neuroepithelial tubules), which is what the image shows.",
-        "Thyroid tissue would have rounded follicles with smooth pink luminal colloid. This choice describes struma ovarii.",
-        "This field has primitive dark tubules instead of the septated pattern of dysgerminoma. This choice describes dysgerminoma.",
-        "A Schiller–Duval body has an identifiable central vessel. This choice describes yolk sac tumor.",
-        "Call–Exner bodies are small rosettes. The conspicuous structures here are elongated primitive tubules. This choice describes a granulosa cell tumor (Call-Exner bodies)."
+        "Stage I tumors carry an excellent prognosis, not a poor one in all cases.",
+        "Stage I immature teratoma has an excellent prognosis with prophylactic chemotherapy and early recurrences.",
+        "This tumor is not an estrogen secreting tumor.",
+        "Dysgerminoma is the tumor that is highly responsive to chemotherapy, and teratoma is treated differently.",
+        "A mature dermoid cyst is cystic and benign, which does not match primitive tissue."
       ],
-      "explanation": "Crowded dark cells form primitive neural tubules in the solid tissue.",
+      "explanation": "Step 1. Primitive neuroepithelial tubules in a bulky solid ovarian tumor of a young patient are an immature (malignant) teratoma. Step 2. The lecture states stage I tumors have an excellent prognosis, treatment is prophylactic chemotherapy, most recurrences occur within the first 2 years, and absence of disease beyond that period gives an excellent chance of cure. Rapid growth and capsular penetration can occur.",
       "visual_clues": [
         "Look for tightly packed nuclei around elongated lumens."
       ],
       "visual_target": "Primitive neuroepithelial tubules",
-      "tested_concept": "Immature neural differentiation in an ovarian mass",
+      "tested_concept": "What is the expected prognosis and treatment for this stage I tumor?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -4250,9 +4269,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Immature teratoma",
-      "condition_overview": "Immature teratoma is a malignant germ cell tumor of young women that contains immature, primitive tissue, most commonly neuroepithelium forming rosettes and tubules with crowded dark nuclei, along with mature elements such as cartilage and glands. It forms a bulky solid mass with hemorrhage and necrosis. Grade is determined by the amount of immature neuroepithelium, and it is treated with surgery and chemotherapy for higher grades."
+      "condition_overview": "Immature teratoma is a malignant germ cell tumor of young women that contains immature, primitive tissue, most commonly neuroepithelium forming rosettes and tubules with crowded dark nuclei, along with mature elements such as cartilage and glands. It forms a bulky solid mass with hemorrhage and necrosis. Grade is determined by the amount of immature neuroepithelium, and it is treated with surgery and chemotherapy for higher grades.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-immature-2",
@@ -4260,32 +4280,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is excised in a young patient. The displayed section comes from its solid tissue.",
-      "lead_in": "Which ovarian tumor best fits the tissue shown?",
-      "stem": "Which ovarian tumor best fits the tissue shown?",
+      "scenario": "A 16-year-old has a large pelvic mass that is solid on imaging, with hair, sebaceous material, cartilage, and calcification on gross exam. Her older sister had a cystic ovarian mass removed that was benign.",
+      "lead_in": "Which pairing best distinguishes this teenager's tumor from her sister's?",
+      "stem": "Which pairing best distinguishes this teenager's tumor from her sister's?",
       "options": [
-        "Mature cystic teratoma",
-        "Immature teratoma",
-        "Struma ovarii",
-        "Dysgerminoma",
-        "Yolk sac tumor"
+        "Hers is an immature teratoma, bulky and mostly solid with primitive tissue, and her sister's is a mature cystic teratoma",
+        "Hers is a Krukenberg tumor and her sister's is a dysgerminoma",
+        "Hers is a yolk sac tumor and her sister's is a thecoma",
+        "Hers is a mature cystic teratoma and her sister's is an immature teratoma",
+        "Hers is a dysgerminoma and her sister's is a granulosa cell tumor"
       ],
-      "correct_index": 1,
+      "correct_index": 0,
       "choice_rationales": [
-        "A mature cystic teratoma contains differentiated tissues. Primitive neuroepithelium is evidence of immaturity. This choice describes a mature cystic teratoma.",
-        "Primitive neuroepithelium is the immature tissue emphasized in the lecture. This choice describes immature teratoma, which is what the image shows.",
-        "Thyroid follicles with colloid would support struma ovarii. This choice describes struma ovarii.",
-        "Nests of pale germ cells with lymphocyte rich septa would support dysgerminoma. This choice describes dysgerminoma.",
-        "A vessel centered Schiller–Duval body or reticular pattern would support yolk sac tumor. This choice describes yolk sac tumor."
+        "Immature teratoma is solid with primitive tissue, while a mature cystic teratoma is cystic and benign.",
+        "Krukenberg tumors are metastatic and bilateral, which does not fit.",
+        "Yolk sac tumor is marked by AFP and Schiller-Duval bodies, not hair and cartilage.",
+        "The terms are reversed in this option.",
+        "The tissue types described are teratomas, not dysgerminoma and granulosa tumor."
       ],
-      "explanation": "Primitive neuroepithelial tubules support immature teratoma. Immature tissue is the decisive finding in this section.",
+      "explanation": "Step 1. A bulky, predominantly solid tumor with primitive tissue in an adolescent is an immature teratoma. Step 2. The lecture contrasts it with mature cystic teratomas, which are more than 90 percent of teratomas, usually cystic and benign. Immature teratomas have embryonal tissue, frequently neuroepithelium, grow rapidly, and may penetrate the capsule.",
       "visual_clues": [
         "Focus on the poorly differentiated dark tubular component."
       ],
       "visual_target": "Immature neuroepithelium in a solid ovarian lesion",
-      "tested_concept": "Immature ovarian teratoma diagnosis",
+      "tested_concept": "Which pairing best distinguishes this teenager's tumor from her sister's?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -4322,9 +4342,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Immature teratoma",
-      "condition_overview": "Immature teratoma is a malignant germ cell tumor of young women that contains immature, primitive tissue, most commonly neuroepithelium forming rosettes and tubules with crowded dark nuclei, along with mature elements such as cartilage and glands. It forms a bulky solid mass with hemorrhage and necrosis. Grade is determined by the amount of immature neuroepithelium, and it is treated with surgery and chemotherapy for higher grades."
+      "condition_overview": "Immature teratoma is a malignant germ cell tumor of young women that contains immature, primitive tissue, most commonly neuroepithelium forming rosettes and tubules with crowded dark nuclei, along with mature elements such as cartilage and glands. It forms a bulky solid mass with hemorrhage and necrosis. Grade is determined by the amount of immature neuroepithelium, and it is treated with surgery and chemotherapy for higher grades.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-immature-depth-mature-tissue",
@@ -4334,28 +4355,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Mature tissue as a comparison for primitive ovarian structures",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does well differentiated tissue of this type imply about the tumor?",
       "visual_target": "Mature tissue as a comparison for primitive ovarian structures",
-      "scenario": "A young patient had an ovarian mass sampled through its solid component.",
-      "lead_in": "This separate ovarian specimen is a comparison. Which feature supports well differentiated tissue in the field rather than the crowded primitive component of the original mass?",
-      "stem": "This separate ovarian specimen is a comparison. Which feature supports well differentiated tissue in the field rather than the crowded primitive component of the original mass?",
+      "scenario": "A pathologist reviews a comparison ovarian tumor with chondrocytes in individual lacunae within a normal appearing matrix, skin, and no neuroepithelial tubules, in a 26-year-old woman.",
+      "lead_in": "What does well differentiated tissue of this type imply about the tumor?",
+      "stem": "What does well differentiated tissue of this type imply about the tumor?",
       "options": [
-        "Crowded dark nuclei forming primitive tubules",
-        "Irregular epithelial cells in diffuse solid sheets",
-        "Chondrocytes in individual lacunae within a matrix",
-        "Small lymphocytes dividing pale epithelial nests",
-        "A vascular core with a peripheral epithelial sleeve"
+        "It supports a yolk sac tumor with AFP elevation",
+        "It supports a granulosa cell tumor with estrogen effects",
+        "It supports a mature cystic teratoma, which is benign in the great majority of cases",
+        "It supports an immature teratoma that needs chemotherapy",
+        "It supports a dysgerminoma with lymphoid septa"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "The cells sit apart in lacunae rather than lining tubules. This choice describes an immature teratoma.",
-        "The cellular population is separated by recognizable matrix. This choice describes embryonal carcinoma.",
-        "The cells occupy individual lacunae in a cartilage matrix. The organized mature matrix contrasts with densely packed primitive tubules. This choice describes mature cartilage in a mature teratoma, which is what the image shows.",
-        "The matrix contains lacunar cells without lymphocyte rich septa. This choice describes dysgerminoma.",
-        "No projecting vascular core explains the tissue architecture. This choice describes a yolk sac tumor Schiller-Duval body."
+        "Yolk sac tumor is recognized by reticular patterns and AFP.",
+        "Granulosa tumors are sex cord stromal tumors.",
+        "Well differentiated tissue without primitive elements is a mature teratoma.",
+        "Immature teratoma requires primitive tissue such as neuroepithelium.",
+        "Dysgerminoma has sheets of large cells and lymphoid septa."
       ],
-      "explanation": "The cells occupy individual lacunae in a cartilage matrix. The organized mature matrix contrasts with densely packed primitive tubules. The cells sit apart in lacunae rather than lining tubules.",
+      "explanation": "Step 1. Chondrocytes in individual lacunae and skin with no primitive neuroepithelium indicate fully differentiated tissue, a mature cystic teratoma. Step 2. The lecture states that more than 90 percent of teratomas are benign mature cystic teratomas, whereas the immature malignant variant contains embryonal tissue, frequently neuroepithelium, in young patients.",
       "visual_clues": [
         "The cells occupy individual lacunae in a cartilage matrix."
       ],
@@ -4382,9 +4403,10 @@
           "page": 93
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-immature-depth-gross-mature-companion",
@@ -4394,28 +4416,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
-      "tested_concept": "How gross contents narrow a separate ovarian differential",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which interpretation is supported by the hair, and what tissue layer does it represent?",
       "visual_target": "How gross contents narrow a separate ovarian differential",
-      "scenario": "A young patient had an ovarian mass sampled through its solid component.",
-      "lead_in": "Which gross feature of this different ovarian specimen gives direct evidence of a differentiated ectodermal component?",
-      "stem": "Which gross feature of this different ovarian specimen gives direct evidence of a differentiated ectodermal component?",
+      "scenario": "A 27-year-old woman has a cystic ovarian mass opened at surgery. Strands of hair lie within the cavity with sebaceous material.",
+      "lead_in": "Which interpretation is supported by the hair, and what tissue layer does it represent?",
+      "stem": "Which interpretation is supported by the hair, and what tissue layer does it represent?",
       "options": [
-        "A pale uniform solid cut surface",
-        "A glistening cyst wall with no visible contents",
-        "A dark hemorrhagic nodule alone",
-        "Hairlike strands lying within the cavity",
-        "Fine septa dividing a multiloculated cavity"
+        "Differentiated endodermal tissue from the yolk sac, supporting a yolk sac tumor",
+        "Differentiated ectodermal tissue (skin and appendages), supporting a mature cystic teratoma",
+        "Thyroid tissue, supporting a monodermal struma ovarii",
+        "Mucin secreting tissue, supporting a Krukenberg tumor",
+        "Undifferentiated primitive neuroepithelium, supporting an immature teratoma"
       ],
-      "correct_index": 3,
+      "correct_index": 1,
       "choice_rationales": [
-        "A homogeneous solid surface would not identify an ectodermal derivative. This choice describes a solid fibroma.",
-        "The visible strands inside the cavity supply the clue. This choice describes an empty simple cyst.",
-        "Hemorrhage in an ovarian mass is nonspecific. Visible hair in the mature cystic teratoma comparison demonstrates differentiated ectoderm. This choice describes a hemorrhagic lesion.",
-        "Hairlike strands lie in the opened cavity. Visible hair is direct evidence of a mature ectodermal derivative; the solid portion of the original case was assessed microscopically. This choice describes hair within the cavity of a mature cystic teratoma, which is what the image shows.",
-        "The material in the cavity is more specific than the shape of a septum. This choice describes a multiloculated mucinous tumor."
+        "Yolk sac tumor is recognized by Schiller-Duval bodies and AFP, not hair.",
+        "Hair and sebaceous material are differentiated skin derivatives of a mature cystic teratoma.",
+        "Thyroid tissue forms follicles with colloid.",
+        "Krukenberg tumors have signet ring cells and no hair.",
+        "Neuroepithelium is primitive tissue and not hair."
       ],
-      "explanation": "Hairlike strands lie in the opened cavity. Visible hair is direct evidence of a mature ectodermal derivative; the solid portion of the original case was assessed microscopically. The material in the cavity is more specific than the shape of a septum.",
+      "explanation": "Step 1. Hair and sebaceous material are skin and appendage structures, which are ectodermal derivatives. Step 2. The lecture describes mature cystic teratoma (dermoid cyst) as a cystic mass that may contain sebaceous secretions and hair. Its multiple differentiated tissues show germ cell tumor differentiation toward somatic tissues, and most are unilateral.",
       "visual_clues": [
         "Hairlike strands lie in the opened cavity."
       ],
@@ -4446,9 +4468,10 @@
           "page": 93
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Mature cystic teratoma (dermoid cyst)",
-      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression."
+      "condition_overview": "Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-1",
@@ -4456,32 +4479,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is sampled. Review the architecture first, then examine a second teaching field at higher power.",
-      "lead_in": "Which recurring arrangement is visible at this power?",
-      "stem": "Which recurring arrangement is visible at this power?",
+      "scenario": "A 56-year-old postmenopausal woman has vaginal bleeding. Endometrial biopsy shows hyperplasia. An ovarian tumor is removed that shows small cellular rosettes around pale centers (Call-Exner bodies).",
+      "lead_in": "What explains her endometrial finding?",
+      "stem": "What explains her endometrial finding?",
       "options": [
-        "Large follicles filled with dense pink colloid",
-        "Tumor wrapped around central blood vessels",
-        "Small cellular rosettes around pale centers",
-        "Interlacing bland spindle cell fascicles",
-        "Dispersed mucin filled signet ring cells"
+        "Androgen secretion by a Sertoli-Leydig tumor causing virilization",
+        "Mucin secretion by a Krukenberg tumor",
+        "Estrogen secretion by the granulosa cell tumor, which can cause endometrial hyperplasia and carcinoma",
+        "Alpha fetoprotein secretion by a yolk sac tumor",
+        "Thyroid hormone secretion by struma ovarii"
       ],
       "correct_index": 2,
       "choice_rationales": [
-        "The follicles in struma ovarii have conspicuous dense luminal colloid. This choice describes struma ovarii.",
-        "A vessel-centered Schiller–Duval body supports yolk sac tumor. In the granulosa cell tumor shown here, the small spaces within rosettes are the centers of Call–Exner bodies. This choice describes yolk sac tumor.",
-        "Call–Exner bodies are small rosettes of granulosa tumor cells surrounding pale centers. Their repeated appearance supports a granulosa cell tumor. This choice describes Call-Exner body formation in granulosa cell tumor, which is what the image shows.",
-        "Fibroma forms bundles of elongated cells. This field is predominantly round celled. This choice describes a spindle cell tumor (fibroma).",
-        "In Krukenberg tumor, intracellular mucin displaces the nucleus of a signet-ring cell. The pale spaces here lie between cells in the Call–Exner bodies. This choice describes Krukenberg tumor."
+        "Sertoli-Leydig tumors are the virilizing tumors, which would not cause hyperplasia.",
+        "Krukenberg tumors are metastatic mucin rich tumors.",
+        "Granulosa cell tumors are mostly estrogenic and cause endometrial hyperplasia.",
+        "AFP is a marker and not an endometrial stimulant.",
+        "Struma ovarii produces thyroid hormone, which does not cause this."
       ],
-      "explanation": "The field contains repeated small follicle like spaces surrounded by tumor cells, consistent with Call–Exner bodies.",
+      "explanation": "Step 1. Small follicle like structures with eosinophilic secretions around pale centers are Call-Exner bodies, characteristic of granulosa cell tumor. Step 2. The lecture states these tumors are hormonally active and mostly estrogenic, and in adults cause endometrial hyperplasia, cystic breast disease, and endometrial carcinoma in about 10 percent. Hyperplasia in a postmenopausal woman fits an estrogen source.",
       "visual_clues": [
         "Find several round pale centers among the dark nuclei."
       ],
       "visual_target": "Small rosettes with pale centers",
-      "tested_concept": "Ovarian microfollicular architecture",
+      "tested_concept": "What explains her endometrial finding?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -4522,9 +4545,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
-      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery."
+      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-2",
@@ -4532,32 +4556,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is sampled. Review the architecture first, then examine a second teaching field at higher power.",
-      "lead_in": "Which nuclear feature adds support in this higher power field?",
-      "stem": "Which nuclear feature adds support in this higher power field?",
+      "scenario": "A 6-year-old girl has breast development and vaginal bleeding. Imaging shows a unilateral ovarian mass. At higher power the oval tumor nuclei have longitudinal grooves.",
+      "lead_in": "Which tumor and clinical effect fit this child?",
+      "stem": "Which tumor and clinical effect fit this child?",
       "options": [
-        "Peripheral nuclei displaced by a mucin vacuole",
-        "Prominent central nucleoli in large pale cells",
-        "Crowded dark nuclei aligned in elongated primitive tubules",
-        "Longitudinal grooves in oval nuclei",
-        "Marked pleomorphism with many differently shaped giant nuclei"
+        "Mature cystic teratoma, with hair causing precocious puberty",
+        "Thecoma, with Meigs syndrome causing breast growth",
+        "Krukenberg tumor, with GI metastasis causing breast growth",
+        "Dysgerminoma, with chemotherapy response causing early puberty",
+        "Juvenile granulosa cell tumor, with estrogen causing precocious sexual development"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "A peripheral nucleus displaced by mucin supports a signet-ring cell, as in Krukenberg tumor. Longitudinal nuclear grooves support granulosa cell tumor here. This choice describes signet-ring cell carcinoma.",
-        "The salient detail here is the recurrent linear groove in smaller oval nuclei. This choice describes dysgerminoma.",
-        "That is the neuroepithelial pattern of immature teratoma. This choice describes immature teratoma.",
-        "Longitudinal grooves in oval nuclei support granulosa cell tumor and complement the Call–Exner bodies seen in the companion field. This choice describes the nuclear grooves of granulosa cell tumor, which is what the image shows.",
-        "The nuclei are relatively uniform in the displayed field. This choice describes a pleomorphic carcinoma."
+        "A mature teratoma does not secrete hormone that causes precocious puberty.",
+        "Meigs syndrome is ascites with right hydrothorax associated with fibroma, not this case.",
+        "Krukenberg tumors are adult metastases and do not occur this way in a child.",
+        "Dysgerminoma is a germ cell tumor, not an estrogenic tumor.",
+        "Estrogen from a juvenile granulosa cell tumor causes precocious sexual development."
       ],
-      "explanation": "Several nuclei show longitudinal grooves. This feature complements the microfollicular architecture in the first field.",
+      "explanation": "Step 1. Oval nuclei with longitudinal grooves in an ovarian tumor point to granulosa cell tumor. Step 2. The lecture says the tumor is mostly estrogenic and in young patients produces precocious sexual development in prepubertal girls. About 95 percent are adult type and 5 percent are juvenile, and most are unilateral and diagnosed early.",
       "visual_clues": [
         "Look for narrow lines through the middle of multiple oval nuclei."
       ],
       "visual_target": "Longitudinal grooves through oval nuclei",
-      "tested_concept": "Nuclear grooves in an ovarian tumor",
+      "tested_concept": "Which tumor and clinical effect fit this child?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -4594,9 +4618,10 @@
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
       "accepted_synonyms": [],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
-      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery."
+      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-3",
@@ -4604,32 +4629,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is sampled. Review the architecture first, then examine a second teaching field at higher power.",
-      "lead_in": "Which diagnosis best integrates the architecture in this field with the case?",
-      "stem": "Which diagnosis best integrates the architecture in this field with the case?",
+      "scenario": "A 38-year-old woman has a unilateral ovarian mass found at an early stage because of irregular uterine bleeding. The tumor consists of uniform cells with grooved nuclei forming microfollicular patterns. Her surgeon asks why such tumors are often diagnosed early.",
+      "lead_in": "Which feature explains the early diagnosis and the tumor's classification?",
+      "stem": "Which feature explains the early diagnosis and the tumor's classification?",
       "options": [
-        "Struma ovarii",
-        "Yolk sac tumor",
-        "Ovarian fibroma",
-        "Krukenberg tumor",
-        "Granulosa cell tumor"
+        "It is a metastatic tumor with signet ring cells",
+        "Hormonal activity produces symptoms, and it is a sex cord stromal tumor",
+        "It is a monodermal teratoma with thyroid follicles",
+        "It is a benign dermoid cyst with hair",
+        "It is a germ cell tumor with elevated AFP"
       ],
-      "correct_index": 4,
+      "correct_index": 1,
       "choice_rationales": [
-        "The follicles would contain dense thyroid colloid and usually have conspicuous epithelial rims. This choice describes struma ovarii.",
-        "A central vessel within a Schiller–Duval body would support yolk sac tumor. This choice describes yolk sac tumor.",
-        "Bland spindle fascicles would favor a stromal fibroma. This choice describes ovarian fibroma.",
-        "Mucin filled signet ring cells would favor this metastatic tumor. This choice describes Krukenberg tumor.",
-        "The small follicle like structures are the characteristic Call–Exner bodies. This choice describes granulosa cell tumor, which is what the image shows."
+        "Krukenberg tumors have signet ring cells and are metastatic.",
+        "Hormonal activity causes symptoms and the tumor is a sex cord stromal tumor.",
+        "Struma ovarii shows thyroid follicles.",
+        "Dermoid cysts contain hair and sebaceous material.",
+        "Germ cell tumors such as yolk sac tumor are AFP secreting."
       ],
-      "explanation": "The microfollicles and the nuclear grooves seen in the teaching fields support granulosa cell tumor. R12 also notes that these tumors can produce estrogen.",
+      "explanation": "Step 1. Uniform cells with grooved nuclei and microfollicular patterns are granulosa cell tumor. Step 2. The lecture classifies it among sex cord stromal tumors, which are uncommon, hormonally active tumors, and notes most are unilateral and diagnosed in early stages. Estrogen related bleeding draws attention, explaining early detection.",
       "visual_clues": [
         "Use the repeated microfollicles to identify the tumor pattern."
       ],
       "visual_target": "Call–Exner bodies in an ovarian mass",
-      "tested_concept": "Diagnosis from a microfollicular ovarian tumor",
+      "tested_concept": "Which feature explains the early diagnosis and the tumor's classification?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -4676,7 +4701,8 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
-      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery."
+      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-granulosa-depth-inhibin",
@@ -4686,28 +4712,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Inhibin signal in the lesional compartment",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does this staining show and how can it be used?",
       "visual_target": "In the inhibin stain, which cells contain the brown signal?",
-      "scenario": "An ovarian mass is being classified using its gross and microscopic features.",
-      "lead_in": "In the inhibin stain, which cells contain the brown signal?",
-      "stem": "In the inhibin stain, which cells contain the brown signal?",
+      "scenario": "A pathologist stains an ovarian tumor with inhibin and finds brown cytoplasmic signal in the lesional cells and not in the surrounding stroma. The clinical team wants a marker to monitor recurrence.",
+      "lead_in": "What does this staining show and how can it be used?",
+      "stem": "What does this staining show and how can it be used?",
       "options": [
-        "The lesional cells",
-        "The cells lining vascular spaces",
-        "The supporting stromal cells",
-        "The cells lining open nonlesional spaces",
-        "The isolated background cells"
+        "The tumor cells are inhibin positive, supporting granulosa cell tumor, and serum inhibin can be used for identifying and monitoring",
+        "The tumor is mucicarmine positive, supporting Paget disease",
+        "The tumor is calponin positive, supporting hidradenoma",
+        "The stromal cells are inhibin positive, supporting fibroma, and serum inhibin monitors teratoma",
+        "The tumor is AFP positive, supporting yolk sac tumor"
       ],
       "correct_index": 0,
       "choice_rationales": [
-        "Brown signal occupies groups of cells in the lesion. This choice describes granulosa cell tumor (inhibin-positive tumor cells), which is what the image shows.",
-        "Signal is present in lesional groups beyond small vascular profiles. This choice describes vascular endothelium.",
-        "Brown labeling follows the lesional cell groups. This choice describes stroma.",
-        "The signal follows the tumor groups instead of outlining separate open spaces. This choice describes a nonlesional lining.",
-        "Staining appears in groups of lesional cells. This choice describes background cells."
+        "Inhibin positivity in lesional cells supports granulosa cell tumor and serum inhibin tracks it.",
+        "Mucicarmine is used for Paget cell mucin.",
+        "Calponin is used for myoepithelium in hidradenoma.",
+        "The signal is in the lesional cells, not in the stroma, so a stromal tumor is not supported.",
+        "AFP is the marker of yolk sac tumor, a germ cell tumor, not of this sex cord lesion."
       ],
-      "explanation": "Brown signal occupies groups of cells in the lesion. The signal follows the tumor groups instead of outlining separate open spaces.",
+      "explanation": "Step 1. Brown inhibin positivity in the lesional cells identifies a sex cord tumor of granulosa cell type. Step 2. The lecture notes elevated inhibin in tissue and serum for identifying and monitoring these tumors. Inhibin is not a marker of yolk sac tumor (AFP) or hidradenoma (calponin).",
       "visual_clues": [
         "The signal is in groups of lesional cells."
       ],
@@ -4734,37 +4760,38 @@
           "page": 103
         }
       ],
-      "study_skill": "stain",
+      "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
-      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery."
+      "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-reasoning-inhibin-panel",
       "collection": "R12",
       "question_type": "Clinical visual question",
-      "tested_concept": "Inhibin panel",
+      "tested_concept": "Which immunostain best tests the suspected line of differentiation?",
       "visual_target": "Which immunostain best tests the differentiation suggested by the architecture in this field?",
-      "stem": "Which immunostain best tests the differentiation suggested by the architecture in this field?",
+      "stem": "Which immunostain best tests the suspected line of differentiation?",
       "options": [
-        "p63",
-        "HER2",
-        "p53",
-        "Inhibin",
-        "PLAP"
+        "Mucicarmine",
+        "CD30",
+        "Calponin",
+        "Alpha fetoprotein",
+        "Inhibin"
       ],
-      "correct_index": 3,
+      "correct_index": 4,
       "choice_rationales": [
-        "A basal layer marker does not test the sex cord differentiation suggested by the rosettes. This choice describes p63 (squamous or basal cell marker).",
-        "HER2 testing addresses receptor status rather than the follicle-like architecture shown here. This choice describes HER2.",
-        "The R12 p53 teaching example illustrates a different process in endometrial tissue. This choice describes p53.",
-        "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population. This choice describes inhibin (sex cord-stromal marker), which is what the image shows.",
-        "PLAP supports a germ cell differential. The pictured microfollicular architecture points toward granulosa differentiation. This choice describes PLAP (germ cell marker)."
+        "Mucicarmine tests for intracytoplasmic mucin.",
+        "CD30 would test for embryonal carcinoma.",
+        "Calponin marks the myoepithelial layer of hidradenoma.",
+        "AFP would test for yolk sac tumor, not a sex cord tumor.",
+        "Inhibin is the marker for granulosa cell tumor differentiation."
       ],
-      "explanation": "The small rosettes around pale centers suggest a granulosa cell pattern. R12 describes strong inhibin immunoreactivity in this tumor population. PLAP supports a germ cell differential. The pictured microfollicular architecture points toward granulosa differentiation.",
+      "explanation": "Step 1. Follicle like structures with uniform cells suggest a granulosa cell tumor, a sex cord stromal tumor. Step 2. The lecture identifies strong inhibin positivity as characteristic of these tumors, while AFP marks yolk sac tumor, CD30 marks embryonal carcinoma, mucicarmine marks Paget disease mucin, and calponin marks myoepithelium.",
       "visual_clues": [
         "The small rosettes around pale centers suggest a granulosa cell pattern."
       ],
-      "reasoning_order": 2,
+      "reasoning_order": "second or third order",
       "reasoning_task": "stain",
       "generation_batch": "2026-11-12-visual-reasoning",
       "ground_truth_confidence": "high for the stated visual target",
@@ -4796,13 +4823,13 @@
         }
       ],
       "case_id": "r12-ovarian-granulosa",
-      "scenario": "An ovarian mass has a solid component sampled for histology.",
-      "lead_in": "Which immunostain best tests the differentiation suggested by the architecture in this field?",
+      "scenario": "A pathologist has an ovarian tumor with uniform cells arranged in small follicle like structures. The differential includes yolk sac tumor, embryonal carcinoma, and a sex cord stromal tumor, and she wants one stain to test the suspected differentiation.",
+      "lead_in": "Which immunostain best tests the suspected line of differentiation?",
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "study_skill": "stain",
+      "reasoning_type": "second or third order",
+      "study_skill": "interpretation",
       "condition_name": "Granulosa cell tumor",
       "condition_overview": "Granulosa cell tumor is a sex cord-stromal tumor of the ovary that often secretes estrogen, causing precocious puberty in girls, or abnormal bleeding and endometrial hyperplasia or carcinoma in older women. Microscopically small uniform cells with pale grooved (coffee-bean) nuclei form microfollicular patterns around Call-Exner bodies (small spaces with eosinophilic material), and tumor cells stain for inhibin and calretinin. Most are low grade and unilateral, but late recurrence can occur. Treatment is surgery."
     },
@@ -4812,108 +4839,32 @@
       "format_version": "clinical-visual-v1",
       "visual_kind": "image",
       "difficulty": "intermediate",
-      "reasoning_type": "interpretation",
+      "reasoning_type": "second or third order",
       "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is sampled. The displayed field is from the solid tumor.",
-      "lead_in": "Which feature identifies the pale tumor cells?",
-      "stem": "Which feature identifies the pale tumor cells?",
+      "scenario": "A 52-year-old woman with epigastric discomfort and weight loss has bilateral ovarian masses. A section shows pale tumor cells with large intracellular vacuoles that push the nuclei to the cell edge.",
+      "lead_in": "Where should the search for the primary tumor begin?",
+      "stem": "Where should the search for the primary tumor begin?",
       "options": [
-        "Large intracellular vacuoles displacing the nuclei toward the edge",
-        "Dense colloid within epithelial lined follicles",
-        "Small rosettes with central extracellular material",
-        "Uniform pale cells in nests separated by lymphocyte rich septa",
-        "Short fascicles of elongated bland spindle cells"
+        "The vulvar skin, since the cells are Paget cells",
+        "The thyroid, since the vacuoles are colloid",
+        "The gastrointestinal tract, especially the stomach, since this signet ring pattern most often originates there",
+        "The germ cells of the other ovary, since they are teratoma components",
+        "The uterine myometrium, since the cells are endometrial"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "choice_rationales": [
-        "Krukenberg tumor shows signet-ring cells in which intracellular mucin vacuoles displace the nucleus to the periphery. This choice describes Krukenberg tumor (signet-ring cells), which is what the image shows.",
-        "Colloid in struma ovarii occupies a shared follicular lumen. In a Krukenberg tumor, the pale mucin vacuole is within a single cell. This choice describes struma ovarii.",
-        "Call–Exner bodies in granulosa cell tumor have extracellular centers rimmed by several cells. The pale material in this Krukenberg specimen is intracellular. This choice describes granulosa cell tumor.",
-        "That organized pattern favors dysgerminoma. Here many cells have individual large vacuoles. This choice describes dysgerminoma.",
-        "Fibroma forms elongated cellular bundles. The pale cells here are rounded and vacuolated. This choice describes ovarian fibroma."
+        "Paget cells are vulvar, not ovarian metastases.",
+        "Thyroid follicles contain colloid, not signet ring vacuoles.",
+        "Krukenberg tumors most often come from a gastrointestinal primary, especially gastric.",
+        "A teratoma is a primary germ cell tumor, not a mucin rich metastasis.",
+        "Endometrial cells do not form this pattern in the lecture."
       ],
-      "explanation": "Many tumor cells contain a large pale vacuole that displaces the nucleus, producing signet ring morphology.",
+      "explanation": "Step 1. Mucin rich cells with intracellular vacuoles displacing the nucleus are signet ring cells, and bilateral ovarian involvement defines Krukenberg tumor. Step 2. The lecture states Krukenberg tumors are metastatic signet ring adenocarcinomas, from a gastrointestinal primary in about 70 percent of cases (gastric origin is typical), and can also arise from colon, breast, appendix, and biliary tract. Her epigastric symptoms point to the stomach.",
       "visual_clues": [
         "Check whether the pale material lies inside a cell or in a shared lumen."
       ],
       "visual_target": "Large intracellular vacuoles with peripheral nuclei",
-      "tested_concept": "Signet ring architecture in an ovarian mass",
-      "category": "Histology",
-      "collection": "R12",
-      "source_origin": "lecture",
-      "source_id": "s-1cd0d8102d9547ef4110",
-      "source_group_id": "g-a1d7b369c16abd8e19bd",
-      "asset_id": "a-25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00",
-      "variant_id": "v-25182158bf91bcbe1f6f",
-      "image": "assets/display/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.webp",
-      "zoom_image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
-      "original_image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
-      "original_filename": "Krukenberg Tumor Signet Ring Cells - Histology.png",
-      "citations": [
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 109
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 90
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 94
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 101
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 103
-        },
-        {
-          "document": "R12 Gyn Pathology II RLS.pdf",
-          "page": 108
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
-      "accepted_synonyms": [],
-      "study_skill": "morphology",
-      "condition_name": "Krukenberg tumor",
-      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary."
-    },
-    {
-      "question_id": "q-r12-ovarian-metastasis-2",
-      "case_id": "r12-ovarian-metastasis",
-      "format_version": "clinical-visual-v1",
-      "visual_kind": "image",
-      "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "question_type": "Clinical visual question",
-      "scenario": "An ovarian mass is sampled. The displayed field is from the solid tumor.",
-      "lead_in": "Which diagnosis best fits the ovarian tumor morphology?",
-      "stem": "Which diagnosis best fits the ovarian tumor morphology?",
-      "options": [
-        "Dysgerminoma",
-        "Krukenberg tumor",
-        "Struma ovarii",
-        "Ovarian fibroma",
-        "Granulosa cell tumor"
-      ],
-      "correct_index": 1,
-      "choice_rationales": [
-        "Expect large pale germ cells arranged in nests with lymphocytic fibrous septa. This choice describes dysgerminoma.",
-        "The lecture identifies this metastatic ovarian pattern by mucin rich signet ring cells. This choice describes Krukenberg tumor, which is what the image shows.",
-        "Expect thyroid follicles containing luminal colloid. This choice describes struma ovarii.",
-        "Expect interlacing bland spindle cell fascicles. This choice describes ovarian fibroma.",
-        "Expect microfollicles and grooved nuclei among the typical patterns. This choice describes granulosa cell tumor."
-      ],
-      "explanation": "Signet ring cells support a Krukenberg tumor in this setting. The ovarian field supports the tumor pattern and cannot by itself identify the primary site.",
-      "visual_clues": [
-        "The nuclei at the edges of the pale vacuolated cells are the key feature."
-      ],
-      "visual_target": "Mucin rich signet ring cells in the ovarian tumor",
-      "tested_concept": "Metastatic signet ring tumor diagnosis",
+      "tested_concept": "Where should the search for the primary tumor begin?",
       "category": "Histology",
       "collection": "R12",
       "source_origin": "lecture",
@@ -4956,7 +4907,85 @@
       "accepted_synonyms": [],
       "study_skill": "interpretation",
       "condition_name": "Krukenberg tumor",
-      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary."
+      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r12-ovarian-metastasis-2",
+      "case_id": "r12-ovarian-metastasis",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A 60-year-old woman has bilateral solid and cystic ovarian masses with mucin rich signet ring cells. Her oncologist explains that ovarian tumors can be primary or metastatic and that this pattern matters for treatment.",
+      "lead_in": "What does this morphology establish about the tumor?",
+      "stem": "What does this morphology establish about the tumor?",
+      "options": [
+        "A benign dermoid cyst with hair",
+        "A primary sex cord tumor with Call-Exner bodies",
+        "A primary serous carcinoma with papillary growth",
+        "A metastatic signet ring cell adenocarcinoma (Krukenberg tumor), usually from a gastrointestinal primary, often bilateral",
+        "A primary ovarian germ cell tumor with Schiller-Duval bodies"
+      ],
+      "correct_index": 3,
+      "choice_rationales": [
+        "Dermoid cysts contain hair and differentiated tissue.",
+        "Call-Exner bodies define granulosa cell tumor.",
+        "Serous carcinoma is papillary and does not have intracellular mucin vacuoles.",
+        "Signet ring cells and bilateral masses establish metastatic Krukenberg tumor.",
+        "Schiller-Duval bodies define yolk sac tumor, not signet ring cells."
+      ],
+      "explanation": "Step 1. Mucin rich signet ring cells in bilateral solid and cystic ovarian masses fit Krukenberg tumor. Step 2. The lecture states metastatic tumors are about 70 percent bilateral, often with multiple nodules, and that Krukenberg tumors are signet ring adenocarcinomas of gastrointestinal origin in about 70 percent. Treatment therefore targets the primary site.",
+      "visual_clues": [
+        "The nuclei at the edges of the pale vacuolated cells are the key feature."
+      ],
+      "visual_target": "Mucin rich signet ring cells in the ovarian tumor",
+      "tested_concept": "What does this morphology establish about the tumor?",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "source_id": "s-1cd0d8102d9547ef4110",
+      "source_group_id": "g-a1d7b369c16abd8e19bd",
+      "asset_id": "a-25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00",
+      "variant_id": "v-25182158bf91bcbe1f6f",
+      "image": "assets/display/25182158bf91bcbe1f6fe20435e23a7e293294bf27649a552e55880865da4a00.webp",
+      "zoom_image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+      "original_image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+      "original_filename": "Krukenberg Tumor Signet Ring Cells - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 109
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 90
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 94
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 101
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 103
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 108
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "study_skill": "interpretation",
+      "condition_name": "Krukenberg tumor",
+      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-depth-bilateral-gross",
@@ -4966,28 +4995,28 @@
       "generation_batch": "2026-11-12-case-depth",
       "collection": "R12",
       "difficulty": "intermediate",
-      "reasoning_type": "clinical_integration",
-      "tested_concept": "Gross distribution of a separate ovarian metastasis example",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does the distribution add?",
       "visual_target": "Gross distribution of a separate ovarian metastasis example",
-      "scenario": "An ovarian mass with a solid component is being evaluated for its origin.",
-      "lead_in": "What gross finding in this companion specimen adds distributional evidence to the evaluation of an ovarian mass?",
-      "stem": "What gross finding in this companion specimen adds distributional evidence to the evaluation of an ovarian mass?",
+      "scenario": "A pathologist receives a hysterectomy and oophorectomy specimen. Nodular masses lie on both sides of the uterus. The surgeon asks whether bilateral involvement favors a primary ovarian germ cell tumor or a metastasis.",
+      "lead_in": "What does the distribution add?",
+      "stem": "What does the distribution add?",
       "options": [
-        "One isolated unilocular ovarian cyst",
-        "Nodular ovarian masses on both sides of the uterus",
-        "A lesion restricted to the uterine cavity",
-        "Diffuse wall thickening without adnexal masses",
-        "A focal surface projection confined to one fallopian tube"
+        "Bilateral masses prove the primary is in the uterus",
+        "Bilateral masses favor a mature cystic teratoma, since most are bilateral",
+        "Bilateral masses favor a dysgerminoma, since most are bilateral",
+        "Bilateral masses favor a granulosa cell tumor, since most are bilateral",
+        "Bilateral nodular ovarian masses favor metastasis, since about 70 percent of metastatic tumors are bilateral"
       ],
-      "correct_index": 1,
+      "correct_index": 4,
       "choice_rationales": [
-        "There are nodular structures on both sides. This choice describes a unilocular ovarian cyst.",
-        "Rounded nodular masses lie on both sides of the uterus. The lecture describes bilaterality as a clue in evaluating metastatic ovarian tumors alongside microscopy. This choice describes bilateral ovarian masses (typical of Krukenberg tumor), which is what the image shows.",
-        "The conspicuous masses are lateral to the uterus. This choice describes a uterine cavity lesion.",
-        "Discrete extrauterine nodules are visible. This choice describes diffuse wall thickening.",
-        "The pattern is bilateral and multinodular rather than a focal tubal projection. This choice describes a fallopian tube lesion."
+        "Bilaterality does not by itself prove a uterine primary.",
+        "Mature cystic teratomas are about 90 percent unilateral.",
+        "Dysgerminomas are typically unilateral.",
+        "Granulosa cell tumors are mostly unilateral.",
+        "Bilateral nodular involvement is typical of metastatic ovarian tumors."
       ],
-      "explanation": "Rounded nodular masses lie on both sides of the uterus. The lecture describes bilaterality as a clue in evaluating metastatic ovarian tumors alongside microscopy. The pattern is bilateral and multinodular rather than a focal tubal projection.",
+      "explanation": "Step 1. Nodular masses on both ovaries suggest tumor spread to both organs. Step 2. The lecture states about 70 percent of metastatic ovarian cancers are bilateral with multiple nodules, whereas dysgerminoma and granulosa cell tumor are mostly unilateral and about 90 percent of dermoid cysts are unilateral. This distributional evidence supports metastasis, with the GI tract, breast, and others as primaries.",
       "visual_clues": [
         "Rounded nodular masses lie on both sides of the uterus."
       ],
@@ -5018,9 +5047,10 @@
           "page": 109
         }
       ],
-      "study_skill": "morphology",
+      "study_skill": "interpretation",
       "condition_name": "Krukenberg tumor",
-      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary."
+      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r12-ovarian-metastasis-depth-linear-comparison",
