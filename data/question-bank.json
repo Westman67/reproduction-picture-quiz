@@ -6262,6 +6262,64 @@
       ]
     },
     {
+      "stem": "What is the most appropriate interpretation of the finding?",
+      "options": [
+        "A common colonizer, asymptomatic in up to 20 percent of women, needing clinical correlation",
+        "Invasive deep fungal disease that requires surgical resection and prolonged antifungal therapy",
+        "A premalignant squamous lesion that requires colposcopy and excision",
+        "An HPV cytopathic effect that requires repeat cytology and HPV typing"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Hyphae and yeast in superficial keratin identify Candida. Step 2. As many as 20 percent of women are asymptomatic carriers, and organisms confined to the keratin with minimal dermal inflammation need clinical correlation. The lecture notes that clinically unsuspected candidiasis can be first recognized by the pathologist.",
+      "choice_rationales": [
+        "Up to 20 percent of women carry Candida without symptoms, so the finding is interpreted with the clinical picture.",
+        "The organisms are confined to superficial keratin with minimal dermal inflammation, which does not indicate invasive disease.",
+        "Candida does not cause intraepithelial neoplasia.",
+        "The organisms are fungal hyphae and yeast, not koilocytes."
+      ],
+      "visual_clues": [
+        "Long dark fungal filaments and small yeastlike profiles lie within the thick surface keratin.",
+        "The underlying viable squamous layer establishes the superficial tissue location."
+      ],
+      "question_id": "q-98e544a2455b25155de2",
+      "source_id": "s-e7980b5adfc54b356536",
+      "source_group_id": "g-38a2fc6c9b3311fd9ff1",
+      "variant_id": "v-67f1b46a8c1a33456c5b",
+      "tested_concept": "What is the most appropriate interpretation of the finding?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R10",
+      "source_origin": "lecture",
+      "image": "assets/display/82df93ffcd2bb91ffabed77bab73f192f826d3625a2c3f828bc300ab371fb457.webp",
+      "zoom_image": "assets/zoom/74ae88594860156119843effcea74db336431600dc96758839508696554ff352.webp",
+      "original_image": "assets/zoom/74ae88594860156119843effcea74db336431600dc96758839508696554ff352.webp",
+      "original_filename": "R10/Candida in Tissue Biopsy - Histology.png",
+      "citations": [
+        {
+          "document": "R10 Gyn Pathology I RLS.pdf",
+          "page": 12
+        }
+      ],
+      "visual_target": "Which organism pattern is present in the superficial keratin of this biopsy?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 40-year-old woman has vulvar erythema with itching. A biopsy shows long filaments and small yeast forms in thickened keratin with minimal dermal inflammation. She has no discharge, and a vaginal swab culture later grows the same organism.",
+      "study_skill": "interpretation",
+      "feedback_focus": [
+        {
+          "x": 46,
+          "y": 47,
+          "label": "Elongated branching forms in superficial keratin."
+        }
+      ],
+      "condition_name": "Candida vulvovaginitis",
+      "condition_overview": "Candida vulvovaginitis is a yeast infection, most often from Candida albicans, that overgrows when the vaginal flora or immune balance shifts, for example after antibiotics, with diabetes, pregnancy, or immunosuppression. Patients have itching, burning, and a thick white curd-like discharge. On a Pap smear or tissue section the fungus appears as pale budding yeast and long, branching pseudohyphae that thread through and between squamous cells (the shish kebab appearance), often with neutrophils. It is a superficial infection of keratin and mucosa and does not invade deeply in healthy hosts. Treatment is with topical or oral azole antifungals.",
+      "reasoning_order": "second or third order"
+    },
+    {
       "stem": "Which stains would confirm the diagnosis?",
       "options": [
         "Mucicarmine or diastase-PAS histochemical stains",
@@ -6588,6 +6646,57 @@
       "study_skill": "interpretation",
       "condition_name": "Adenocarcinoma in situ of the cervix",
       "condition_overview": "Adenocarcinoma in situ (AIS) is the precursor of HPV-related endocervical adenocarcinoma. Endocervical glands retain their architecture but are lined by crowded, stratified, hyperchromatic cells with nuclear enlargement, mitoses, and apoptotic bodies, often with a sharp transition to normal glands. Strong diffuse p16 staining is typical. Because it occurs high in the endocervical canal and is easily missed on Pap smears, AIS is treated by conization, and hysterectomy is used if childbearing is complete.",
+      "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Statement 1: Atypical endometrial hyperplasia carries about a 25 to 50 percent cancer risk. Statement 2: Endometrial hyperplasia without atypia carries about a 1 to 3 percent cancer risk. Which of the following best describes these statements?",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "The first statement is true and the second statement is false",
+        "The first statement is false and the second statement is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Judge each statement separately. Step 2. Nuclear atypia with crowded glands indicates atypical hyperplasia, which carries about a 25 to 50 percent cancer risk. Step 3. Hyperplasia without atypia carries about 1 to 3 percent, so both statements are true.",
+      "choice_rationales": [
+        "Correct. Atypical hyperplasia carries about a 25 to 50 percent risk, and hyperplasia without atypia carries about 1 to 3 percent.",
+        "The first statement is true, since atypical hyperplasia is a neoplastic precursor with substantial cancer risk.",
+        "The second statement is true, since hyperplasia without atypia carries a low risk of about 1 to 3 percent.",
+        "The first statement is true, so this choice wrongly calls it false."
+      ],
+      "visual_clues": [
+        "The glandular cells have rounded enlarged nuclei, stratification, and disordered orientation.",
+        "The source identifies this lesion as atypical hyperplasia; the task is nuclear morphology rather than a claim of invasion."
+      ],
+      "question_id": "q-512d94812e35bfe3843a",
+      "source_id": "s-f2b9ee80293278cf1509",
+      "source_group_id": "g-b6431443085783e8f2d3",
+      "variant_id": "v-ab2fd333e48d783d12fd",
+      "tested_concept": "What is the approximate cancer risk associated with this finding?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/d6e14f43d3137f58ce6e7efc0e16aa39cb1dfdc8ddfb564e200d70715ffbd04e.webp",
+      "zoom_image": "assets/zoom/9bb65f99330bb01d07ee297b336fbffb6fd3ac08f00c7a5c58de19e75ce758d4.webp",
+      "original_image": "assets/zoom/9bb65f99330bb01d07ee297b336fbffb6fd3ac08f00c7a5c58de19e75ce758d4.webp",
+      "original_filename": "R12/Atypical Hyperplasia - Histology (2).png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 45
+        }
+      ],
+      "visual_target": "Which nuclear feature is visible in these crowded endometrial glands?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 55-year-old woman with obesity has postmenopausal bleeding. Endometrial sampling shows crowded glands with enlarged rounded nuclei, stratification, loss of polarity, and nucleoli.",
+      "study_skill": "interpretation",
+      "condition_name": "Atypical endometrial hyperplasia",
+      "condition_overview": "Atypical endometrial hyperplasia (endometrioid intraepithelial neoplasia) is the precursor of endometrioid endometrial carcinoma. It results from unopposed estrogen from obesity, anovulation, or estrogen therapy. Crowded glands with little intervening stroma are lined by cells with rounded, enlarged nuclei, loss of polarity, and nuclear stratification, which differ from the surrounding glands. A substantial fraction coexist with carcinoma, so treatment is progestin therapy or hysterectomy, based on the patient's wishes.",
       "reasoning_order": "second or third order"
     },
     {
@@ -7218,6 +7327,57 @@
       ]
     },
     {
+      "stem": "Statement 1: If untreated, about 60 percent of high-grade squamous intraepithelial lesions persist and about 10 percent progress to carcinoma. Statement 2: Nearly all of these lesions regress spontaneously within 1 year. Which of the following best describes these statements?",
+      "options": [
+        "Both statements are false",
+        "The first statement is false and the second statement is true",
+        "Both statements are true",
+        "The first statement is true and the second statement is false"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Judge each statement separately. Step 2. HSIL carries about 30 percent regression, 60 percent persistence and 10 percent progression to carcinoma, so the first statement is true. Step 3. Nearly all regressing within a year is incorrect, so the second statement is false.",
+      "choice_rationales": [
+        "The first statement is true, so both cannot be false.",
+        "The first statement is true, so this choice wrongly calls it false.",
+        "The second statement is false, so both cannot be true.",
+        "Correct. About 60 percent persist and 10 percent progress, and regression is less common than in LSIL."
+      ],
+      "visual_clues": [
+        "Crowded enlarged dark nuclei extend through much of the epithelial thickness with reduced orderly maturation.",
+        "The lecture identifies HSIL; this static field does not establish a separate invasive stage."
+      ],
+      "question_id": "q-1efc74b9ef1dcfe8eb45",
+      "source_id": "s-9fbdc7aec670a9e28131",
+      "source_group_id": "g-ae0df54cb6b6dd6447df",
+      "variant_id": "v-19c14742bec3c28e6bc3",
+      "tested_concept": "Which statement best reflects the natural history if the lesion is left untreated?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/6737f5b21b1042d53c0788792a65138fc963ffe075c97ba984634e8886af0af4.webp",
+      "zoom_image": "assets/zoom/9725053b3b10901781e4710caf42d660ee6f9557a5422ca17537e85d2f2d65be.webp",
+      "original_image": "assets/zoom/9725053b3b10901781e4710caf42d660ee6f9557a5422ca17537e85d2f2d65be.webp",
+      "original_filename": "R12/HSIL - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 25
+        }
+      ],
+      "visual_target": "Which feature distinguishes this cervical epithelium from a normally maturing squamous lining?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 33-year-old woman has a Pap result of HSIL. Colposcopic biopsy shows crowded atypical nuclei extending well above the lower third of the epithelium.",
+      "study_skill": "interpretation",
+      "condition_name": "High-grade squamous intraepithelial lesion (HSIL)",
+      "condition_overview": "High-grade squamous intraepithelial lesion (HSIL, CIN 2 and CIN 3) is the true cervical precancer. It arises from persistent infection with high-risk HPV (types 16 and 18 most often), in which viral E6 and E7 proteins inactivate p53 and Rb. Immature basaloid cells with high nuclear-to-cytoplasmic ratios, hyperchromatic nuclei, and mitoses occupy at least the lower two thirds up to the full thickness of the epithelium, with loss of maturation toward the surface. Diffuse strong p16 staining supports the diagnosis. HSIL is treated by excision or ablation because it can progress to invasive squamous cell carcinoma.",
+      "reasoning_order": "second or third order"
+    },
+    {
       "stem": "Which statement about the pathogenesis of this tumor is correct?",
       "options": [
         "It arises from tubal or inclusion cyst epithelium through a precursor with the same p53 mutation, and progresses rapidly",
@@ -7381,6 +7541,57 @@
         null,
         null
       ]
+    },
+    {
+      "stem": "Regarding the natural history of the lesion shown, all of the following are correct EXCEPT:",
+      "options": [
+        "About 60 percent regress",
+        "About 30 percent persist",
+        "LSIL rarely regresses, so conization is the standard counseling",
+        "About 10 percent progress to HSIL"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. About 60 percent of LSIL regress, 30 percent persist and 10 percent progress to HSIL. Step 3. Rare regression with routine conization contradicts this natural history.",
+      "choice_rationales": [
+        "Correct statement. Most LSIL regress.",
+        "Correct statement. About 30 percent persist.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. Most LSIL regress, so conization is not the standard counseling.",
+        "Correct statement. About 10 percent progress to a high grade lesion."
+      ],
+      "visual_clues": [
+        "Several squamous cells have clear perinuclear halos surrounding enlarged irregular hyperchromatic nuclei.",
+        "The combination of nuclear atypia and a cytoplasmic halo supports the supplied HPV cytopathic example."
+      ],
+      "question_id": "q-ee9f80fd15f88f6c6a57",
+      "source_id": "s-206110eaf141ed57b686",
+      "source_group_id": "g-572a9f1f2807e5e23cf4",
+      "variant_id": "v-1f537da0d8de1fedee30",
+      "tested_concept": "Which counseling statement is most accurate based on the natural history of this lesion?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "image": "assets/display/f044ba5abdb8d4156d92c409bae28ddd975cfacaa682e5a35892010b0733086c.webp",
+      "zoom_image": "assets/zoom/7a1ead7ffbfd59ef1126281b7c71ca22cb81a9134ed75426f6322b31aaf05afd.webp",
+      "original_image": "assets/zoom/7a1ead7ffbfd59ef1126281b7c71ca22cb81a9134ed75426f6322b31aaf05afd.webp",
+      "original_filename": "R12/LSIL Cytologic Features - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 24
+        }
+      ],
+      "visual_target": "Which cytologic change is visible in these cervical squamous cells?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman has a Pap result of LSIL. Cells show perinuclear halos and enlarged irregular dark nuclei. She worries about cancer.",
+      "study_skill": "interpretation",
+      "condition_name": "Low-grade squamous intraepithelial lesion (LSIL)",
+      "condition_overview": "Low-grade squamous intraepithelial lesion (LSIL, CIN 1) is a productive HPV infection of the cervical squamous epithelium. Atypical cells with koilocytic change are confined mainly to the lower third of the epithelium, and the upper layers mature normally. It most often reflects low- or high-risk HPV, usually regresses spontaneously, especially in young women, and is generally followed rather than treated aggressively. On Pap smear the finding is koilocytes with mildly enlarged hyperchromatic nuclei in superficial and intermediate cells.",
+      "reasoning_order": "second or third order"
     },
     {
       "stem": "Which factor explains why her symptoms may improve after menopause?",
@@ -9429,6 +9640,57 @@
       "condition_overview": "Large rounded umbrella cells capping a layered lining with no atypia indicate normal urothelium. High-grade papillary carcinoma shows marked cytologic atypia, frequent mitoses, and common necrosis, so a bland umbrella-cell cap argues against it."
     },
     {
+      "stem": "What is the expected behavior compared with a low-grade papillary tumor?",
+      "options": [
+        "Up to 80 percent have coexistent invasion, versus under 10 percent",
+        "It never recurs after complete transurethral resection",
+        "It progresses in under 5 percent of cases over many years",
+        "It has a genetically stable course with few molecular changes"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Marked nuclear pleomorphism and frequent mitoses indicate high-grade papillary urothelial carcinoma. Step 2. It follows the genetically unstable dysplasia pathway with TP53 inactivation in some cases, up to 80 percent coexistent invasion, and a high risk of progression, whereas low-grade tumors have under 10 percent invasion.",
+      "choice_rationales": [
+        "High-grade tumors have up to 80 percent coexistent invasion.",
+        "Both grades recur, with a recurrence rate around 45 percent.",
+        "Progression under 5 percent describes the low-grade pathway.",
+        "Genetic stability describes the low-grade FGFR3 pathway."
+      ],
+      "visual_clues": [
+        "The crowded nuclei vary markedly in size and shape and have disordered orientations.",
+        "The source identifies high-grade papillary urothelial carcinoma; the task tests cytologic atypia."
+      ],
+      "question_id": "q-15c13e25fb1386a1c565",
+      "source_id": "s-93021f2b6edf64a8d461",
+      "source_group_id": "g-55f6364544dca9e302f3",
+      "variant_id": "v-a3d5af97561c5fbb7dd9",
+      "tested_concept": "What is the expected behavior compared with a low-grade papillary tumor?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/d4960a9ce0bbac483a3cb4e2a84310e78ed3e539c0a72fea77d4fac8a7e3ff1f.webp",
+      "zoom_image": "assets/zoom/f778afcc92b1ffb0f035b5da6e1a3745fb3470fe0ae334c681e478e812cce234.webp",
+      "original_image": "assets/zoom/f778afcc92b1ffb0f035b5da6e1a3745fb3470fe0ae334c681e478e812cce234.webp",
+      "original_filename": "R15/High Grade Papillary Urothelial Carcinoma Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 29
+        }
+      ],
+      "visual_target": "Which nuclear finding is conspicuous in the urothelial cells?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 64-year-old man has a papillary bladder tumor. Nuclei vary markedly in size and shape and are disordered, and mitoses are frequent.",
+      "study_skill": "interpretation",
+      "condition_name": "Papillary urothelial carcinoma",
+      "condition_overview": "Papillary urothelial carcinoma is the most common bladder cancer pattern and forms exophytic fronds with fibrovascular cores covered by urothelium. Low-grade tumors show orderly layering with mild nuclear atypia, while high-grade tumors show marked nuclear pleomorphism, mitoses, disordered polarity, and often necrosis. Smoking and certain chemicals are major risk factors, and patients have painless hematuria. Low-grade tumors recur often but rarely invade, whereas high-grade tumors can invade the muscle wall and metastasize. Treatment is transurethral resection, with BCG for high-risk non-muscle-invasive disease.",
+      "reasoning_order": "second or third order"
+    },
+    {
       "stem": "Which grade is most consistent with necrosis in a papillary urothelial tumor?",
       "options": [
         "Low grade",
@@ -9763,6 +10025,69 @@
       "condition_name": "Paraphimosis",
       "condition_overview": "Paraphimosis is a urologic emergency in which a retracted foreskin becomes trapped behind the glans and cannot be returned. The constricting band impairs venous and lymphatic drainage, so the glans and prepuce become swollen and painful, and arterial supply can eventually be compromised. It is often caused by failure to replace the foreskin after catheterization or examination.",
       "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "What is the risk associated with this lesion?",
+      "options": [
+        "It has a low chance to evolve to invasive squamous cell carcinoma",
+        "It is a precursor of adenocarcinoma of the penile urethra",
+        "It is a benign condyloma with koilocytes that has a low chance to evolve to invasive squamous cell carcinoma",
+        "It is a low grade lesion that regresses after circumcision and does not progress to invasive cancer"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A solitary erythematous plaque with full thickness dysplasia is penile intraepithelial neoplasia. Step 2. PeIN is the precursor of squamous cell carcinoma, usually in uncircumcised men over 40, with a low chance of evolving to invasion, with HPV 16 and 18 and poor hygiene as risk factors.",
+      "choice_rationales": [
+        "PeIN has a low chance to evolve to invasive SCC.",
+        "The precursor is for squamous carcinoma and not adenocarcinoma.",
+        "Condyloma is an exophytic papillary lesion and not a flat plaque, so it is not what penile intraepithelial neoplasia is.",
+        "PeIN is a dysplastic lesion that can evolve to invasive squamous cell carcinoma, so progression does occur."
+      ],
+      "visual_clues": [
+        "A localized erythematous plaque is visible on the skin adjacent to the glans.",
+        "The lecture establishes this as a PeIN example; a photograph alone is not used to claim histologic invasion."
+      ],
+      "question_id": "q-955f03b669da64fbf24b",
+      "source_id": "s-ebbe37e2b9090b5e3acd",
+      "source_group_id": "g-0a73b0e9db16cf328e99",
+      "variant_id": "v-ad4cd454fb5d5473d542",
+      "tested_concept": "What is the risk associated with this lesion?",
+      "question_type": "Visual interpretation",
+      "category": "Clinical Photo",
+      "collection": "R15",
+      "source_origin": "lecture",
+      "image": "assets/display/b53e21dd596f917b455f4382772fbfe71e02b4692884cdfd3ef2e1c2337d56b6.webp",
+      "zoom_image": "assets/zoom/7cd0512a154f1d962b08342946b6fa198b89014d7aed8bf045f674b100a2d1b7.webp",
+      "original_image": "assets/zoom/7cd0512a154f1d962b08342946b6fa198b89014d7aed8bf045f674b100a2d1b7.webp",
+      "original_filename": "R15/Penile Intraepithelial Neoplasia Plaque - Clinical Photo.png",
+      "citations": [
+        {
+          "document": "R15 GU Pathology I RLS.pdf",
+          "page": 49
+        }
+      ],
+      "visual_target": "Which surface morphology is present in the supplied penile lesion?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 52-year-old uncircumcised man has a solitary red plaque on the penile shaft that has not resolved with topical therapy. Biopsy shows full-thickness dysplasia without invasion.",
+      "study_skill": "interpretation",
+      "condition_name": "Penile intraepithelial neoplasia",
+      "condition_overview": "Penile intraepithelial neoplasia (squamous carcinoma in situ of the penis) presents as a persistent red or velvety plaque on the glans, prepuce, or shaft. Atypical squamous cells fill the full thickness of the epithelium without crossing the basement membrane. It is associated with HPV and with chronic inflammation, especially in uncircumcised men, and may progress to invasive squamous cell carcinoma. Biopsy is required for persistent plaques, and treatment is topical therapy, ablation, or excision.",
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/07a1f8d412455b5b9d4c6693d42cd9c58691e7663e2224b1289c7f5d0ccc2197.webp",
+            "caption": "Condyloma Koilocytes (Histology)",
+            "source": "R10/Condyloma Koilocytes - Histology.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "stem": "Which diagnosis do these features support?",
@@ -12175,6 +12500,57 @@
       ]
     },
     {
+      "stem": "Which clinical feature should be anticipated?",
+      "options": [
+        "Spread through blood to distant sites at presentation, with beta hCG elevated most of the time",
+        "A painless mass limited to the testis, with no elevation of tumor markers, in most patients at presentation",
+        "Excellent prognosis from orchiectomy alone in most patients, with chemotherapy reserved for relapse",
+        "Occurrence mainly in men over 60, with slow growth and spread only to lymph nodes"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Papillary and solid anaplastic epithelium with necrosis is embryonal carcinoma. Step 2. It peaks in the 20s to 30s, often presents with hematogenous metastasis, and beta-hCG is elevated most of the time.",
+      "choice_rationales": [
+        "Embryonal carcinoma frequently has hematogenous spread and hCG elevation.",
+        "It is aggressive and often not limited to the testis.",
+        "Embryonal carcinoma is aggressive and often metastatic at diagnosis, so surgery alone is not adequate.",
+        "It peaks in young men and not over 60."
+      ],
+      "visual_clues": [
+        "Crowded irregular epithelial projections surround open spaces, and the arrows indicate solid pink necrotic foci.",
+        "The lecture pairs glandular and papillary architecture with necrosis in this example."
+      ],
+      "question_id": "q-ad88ef7b3d884733482b",
+      "source_id": "s-9f889fd449685a9fdfc1",
+      "source_group_id": "g-d4d275b48829d90bd26d",
+      "variant_id": "v-628f9b29b8dcc738507e",
+      "tested_concept": "Which clinical feature should be anticipated?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R16",
+      "source_origin": "lecture",
+      "image": "assets/display/c7943675da0ce9c5499df604eb8ce84627c3f07ad62f6851b62ec27831290de4.webp",
+      "zoom_image": "assets/zoom/247c3e1e669dabcf593526e0bd4b3b94cd5c350b5a5e0bae4e082de4c7ba7f46.webp",
+      "original_image": "assets/zoom/247c3e1e669dabcf593526e0bd4b3b94cd5c350b5a5e0bae4e082de4c7ba7f46.webp",
+      "original_filename": "R16/Embryonal Carcinoma Papillary Histology - Histology.png",
+      "citations": [
+        {
+          "document": "R16 GU Pathology II RLS.pdf",
+          "page": 43
+        }
+      ],
+      "visual_target": "What combination is present in this testicular tumor field?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 29-year-old man has a testicular tumor with irregular papillary epithelial projections around open spaces and pink necrotic foci.",
+      "study_skill": "interpretation",
+      "condition_name": "Embryonal carcinoma",
+      "condition_overview": "Embryonal carcinoma is an aggressive malignant germ cell tumor of the testis and, rarely, the ovary, composed of primitive epithelial cells in glands, papillae, and solid sheets with crowded, overlapping, pleomorphic nuclei and frequent necrosis and hemorrhage. Cells express CD30 and cytokeratin and OCT3/4. The cut surface is variegated with hemorrhagic and necrotic areas. It spreads hematogenously and lymphatically and is a component of many mixed germ cell tumors. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
+    },
+    {
       "stem": "What is the significance of this finding in the adjacent tubules?",
       "options": [
         "Intratubular germ cell neoplasia is the precursor to most germ cell tumors",
@@ -13018,6 +13394,75 @@
             "image": "assets/display/e0b1473d6eb543abe29d69366ed3b9b509f4159bdfe3c0929b28a1f2f47e6ce6.webp",
             "caption": "3rd party: Cytotrophoblast vs syncytiotrophoblast mnemonic - Pearl",
             "source": "3rd Party/Cytotrophoblast vs syncytiotrophoblast mnemonic - Pearl.png"
+          }
+        ]
+      ]
+    },
+    {
+      "stem": "What is the most likely diagnosis, and from which preceding conditions can it arise?",
+      "options": [
+        "Choriocarcinoma, arising 50 percent from moles, 25 percent from abortions and 22 percent from normal pregnancies",
+        "Placenta accreta, which arises from prior molar pregnancies in women over the age of forty",
+        "Complete mole, which arises from normal pregnancies only and never follows abortions or ectopics",
+        "Leiomyoma, which arises from abortions and is composed of whorled smooth muscle bundles"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A soft dark red hemorrhagic mass projecting into the uterine cavity with a very high hCG is a uterine choriocarcinoma. Step 2. About 50 percent arise in hydatidiform moles, 25 percent in previous abortions, and about 22 percent in normal pregnancies, and a few follow ectopic pregnancy.",
+      "choice_rationales": [
+        "Choriocarcinoma follows moles, abortions, normal pregnancy, or ectopic pregnancy.",
+        "Accreta is abnormal adherence of normal placenta.",
+        "A complete mole is a vesicular mass of swollen villi, not a dark hemorrhagic tumor.",
+        "Leiomyoma is a pale whorled smooth muscle tumor."
+      ],
+      "visual_clues": [
+        "A broad dark red mass projects into the uterine cavity above the cervical canal.",
+        "The source identifies choriocarcinoma and emphasizes the hemorrhagic gross appearance."
+      ],
+      "question_id": "q-7973a3daa314519baade",
+      "source_id": "s-28f7e00e48882def13af",
+      "source_group_id": "g-eb7337c1a3940598b02d",
+      "variant_id": "v-540420c3899985afa2c2",
+      "tested_concept": "What is the most likely diagnosis, and from which preceding conditions can it arise?",
+      "question_type": "Visual interpretation",
+      "category": "Gross",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "image": "assets/display/0272b175698e4302f9105d7b1cfcc83bd771a29046c8ff93357e0690ceb1dbfd.webp",
+      "zoom_image": "assets/zoom/87fdd214eb7ba59b8cabc207b1a015eb4f0b0f0e0633af880c6572318a6d63c3.webp",
+      "original_image": "assets/zoom/87fdd214eb7ba59b8cabc207b1a015eb4f0b0f0e0633af880c6572318a6d63c3.webp",
+      "original_filename": "R17/Choriocarcinoma Uterus Gross - Gross.png",
+      "citations": [
+        {
+          "document": "R17 Placenta Pathology RLS.pdf",
+          "page": 34
+        }
+      ],
+      "visual_target": "What is the dominant lesion in this supplied opened uterus?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 30-year-old woman has heavy vaginal bleeding 3 months after a miscarriage and a markedly elevated hCG. A hysterectomy specimen shows a large dark red soft mass projecting into the cavity.",
+      "study_skill": "interpretation",
+      "condition_name": "Choriocarcinoma",
+      "condition_overview": "Choriocarcinoma is a highly malignant tumor of trophoblast with no villi, composed of sheets of syncytiotrophoblast, cytotrophoblast, and intermediate trophoblast. It follows a hydatidiform mole, an abortion, or a normal pregnancy, or arises as a germ cell tumor of the testis or ovary. It forms a soft, dark, hemorrhagic, necrotic mass that invades the myometrium and vessels and spreads early to the lung, vagina, brain, and liver. hCG is markedly elevated. It is highly chemosensitive, and vaginal metastases should not be biopsied because they bleed.",
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/zoom/d27df132a39f2aa09fd7d8017e5b737d1e3d5593c5bfffa7bd4defc7492d8567.webp",
+            "caption": "Complete Mole Gross (Gross)",
+            "source": "R17/Complete Mole Gross - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/display/8256973c1edac4718c37bdadb9a7e9b39deaca2134d6917f2ea86a5d53f3b85a.webp",
+            "caption": "3rd party (Boards and Beyond): Leiomyoma smooth muscle - Histology",
+            "source": "3rd Party/Boards and Beyond Slides/Leiomyoma smooth muscle with caption - Histology.png"
           }
         ]
       ]
@@ -20365,6 +20810,56 @@
       ]
     },
     {
+      "question_id": "q-cb42cc8bf474bb98a68f",
+      "source_id": "s-52655d2da7b7b3362fb3",
+      "source_group_id": "g-7ec36236fc76bf76cdc2",
+      "variant_id": "v-29648ca3004e50e8d5b7",
+      "tested_concept": "What is the diagnostic value of this structure?",
+      "question_type": "Visual interpretation",
+      "category": "Histology",
+      "collection": "R16",
+      "source_origin": "lecture",
+      "image": "assets/display/8c2e2524c4f452d63ce2e9850514757f1ae546fb38e995a96521afb4183aaccd.webp",
+      "zoom_image": "assets/zoom/9b0ae7dc7b374db9fd6d12288b9112d9e8308629babce2c895e69ba4d17ae66f.webp",
+      "original_image": "assets/zoom/9b0ae7dc7b374db9fd6d12288b9112d9e8308629babce2c895e69ba4d17ae66f.webp",
+      "original_filename": "App-local PDF panels/R16-p50-xref450.png",
+      "citations": [
+        {
+          "document": "R16 GU Pathology II RLS.pdf",
+          "page": 50
+        }
+      ],
+      "visual_target": "How is the central cellular tuft positioned relative to the pale space?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible finding on the supplied panel, with the lecture slide as context.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 14-month-old boy has a testicular tumor. A section shows a central vessel surrounded by loose primitive stroma, with cuboidal tumor cells in a space lined by flattened tumor cells.",
+      "stem": "What is the diagnostic value of this structure?",
+      "options": [
+        "It is pathognomonic for yolk sac tumor but found only about half the time",
+        "It is found in all yolk sac tumors and is needed for the diagnosis",
+        "It is diagnostic of seminoma and is found in most of those tumors",
+        "It is diagnostic of choriocarcinoma and is found in all of those tumors"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A central vessel surrounded by primitive stroma and an outer mantle of tumor cells in a space is a Schiller-Duval body. Step 2. It is pathognomonic of yolk sac tumor but present in only about half of cases, so its absence does not exclude the tumor.",
+      "choice_rationales": [
+        "Schiller-Duval bodies are specific but present in a minority.",
+        "They are not found in all cases.",
+        "Seminoma shows nests and lymphocytes.",
+        "Choriocarcinoma shows two trophoblastic cell types."
+      ],
+      "visual_clues": [
+        "The central tuft sits in a pale surrounding space with tumor cells visible along the outer boundary."
+      ],
+      "study_skill": "interpretation",
+      "condition_name": "Testicular embryonal carcinoma, yolk sac tumor, and choriocarcinoma",
+      "condition_overview": "Nonseminomatous testicular germ cell tumors are often mixed. Embryonal carcinoma forms primitive glands and sheets with necrosis and CD30 positivity, yolk sac tumor shows reticular patterns, Schiller-Duval bodies, and AFP production, and choriocarcinoma shows syncytiotrophoblast and cytotrophoblast with hCG production and hemorrhage. They metastasize early, to retroperitoneal nodes and lung, and tumor markers AFP and hCG help diagnosis and monitoring. Treatment is orchiectomy and chemotherapy.",
+      "reasoning_order": "second or third order"
+    },
+    {
       "question_id": "q-e42668b1f38432041624",
       "source_id": "s-ac04c39a690feec3238b",
       "source_group_id": "g-cae112bf3e885d58c6ab",
@@ -21894,6 +22389,86 @@
       ]
     },
     {
+      "question_id": "q-r31-duct-boundary",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "Histology",
+      "tested_concept": "What does this finding imply about the basement membrane, and how common is this tumor type?",
+      "visual_target": "At the interface between the crowded tissue on the left and the pink tissue on the right, how are the epithelial profiles arranged?",
+      "question_type": "Visual interpretation",
+      "stem": "What does this finding imply about the basement membrane, and how common is this tumor type?",
+      "options": [
+        "The basement membrane has been breached, and invasive ductal carcinoma is up to 80 percent of new cancers",
+        "The basement membrane is intact, and DCIS makes up most new breast cancers",
+        "The basement membrane is irrelevant, since fibroadenoma is the most common breast malignancy",
+        "The basement membrane is intact, and invasive lobular carcinoma is more common than ductal"
+      ],
+      "choice_rationales": [
+        "Invasion means the basement membrane is breached, and invasive ductal is the most common type.",
+        "About one in five new cancers is DCIS, and DCIS has an intact basement membrane.",
+        "Fibroadenoma is a benign neoplasm and not a malignancy.",
+        "Invasive lobular carcinoma is much rarer than invasive ductal."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Epithelial glands extending into stroma across the duct boundary indicate invasive ductal carcinoma. Step 2. DCIS keeps the basement membranes intact, so crossing into stroma means invasion, and invasive ductal carcinomas account for up to 80 percent of new breast cancers while invasive lobular carcinomas are rarer.",
+      "visual_clues": [
+        "Track several separate irregular glands among the pink stromal bands."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-bed3dcd7b6fe7a7882e5",
+      "source_group_id": "g-7f6299babf86b000bf8a",
+      "asset_id": "a-76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9",
+      "variant_id": "v-4fe5199c0f041cda1610",
+      "image": "assets/display/76446891431744da3856446f77b1055057a2fb712f51e21d3bd7ac27a1c110d9.webp",
+      "zoom_image": "assets/zoom/2db4d1e84a487001633ae9137830fd2597697cfb387c7421a3447b3b14afe551.webp",
+      "original_image": "assets/zoom/2db4d1e84a487001633ae9137830fd2597697cfb387c7421a3447b3b14afe551.webp",
+      "original_filename": "Mammographic Appearances Breast Cancer Histology - Histology.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 6
+        }
+      ],
+      "feedback_focus": [
+        {
+          "x": 37,
+          "y": 61,
+          "label": "Irregular gland profiles among fibrous tissue."
+        }
+      ],
+      "condition_name": "Invasive ductal carcinoma",
+      "condition_overview": "Invasive ductal carcinoma, no special type, is the most common breast cancer (about 75 percent). It presents as a hard, irregular, fixed mass with stellate borders that may cause skin dimpling or nipple retraction. Cords, nests, and glands of atypical cells infiltrate a desmoplastic stroma. It is graded by tubule formation, nuclear grade, and mitotic rate, and receptor status (ER, PR, HER2) guides therapy. It spreads to axillary nodes, bone, lung, liver, and brain.",
+      "case_context": "A 58-year-old woman has a 2 cm irregular mass on mammography. Core biopsy shows epithelial glands that cross the boundary of a duct and extend between bundles of fibrous stroma.",
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/display/536c8f3ef1914bc2cfab0347557722dbc9da5560e7a6070a2e7246afc781781e.webp",
+            "caption": "3rd party (Boards and Beyond): Invasive ductal carcinoma - Histology",
+            "source": "3rd Party/Boards and Beyond Slides/Invasive ductal carcinoma with caption - Histology.png"
+          }
+        ],
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/ae647b4f0183cd55cf287a743769c7a3091d56e51e00c9653143b85512841cf2.webp",
+            "caption": "3rd party (Pathoma): Invasive lobular carcinoma - Histology",
+            "source": "3rd Party/Pathoma/Invasive lobular carcinoma with caption - Histology.png"
+          }
+        ]
+      ]
+    },
+    {
       "question_id": "q-r31-mammographic-morphology",
       "collection": "R31",
       "study_skill": "interpretation",
@@ -22053,6 +22628,61 @@
       "reasoning_order": "second or third order",
       "condition_name": "In which part of the ovary does the radiologist look, and what is found in ",
       "condition_overview": "Multiple follicles are located in the outer cortex of the ovary. The medulla is the more central region that supports vascular and stromal structures, so follicle counts are assessed in the cortex."
+    },
+    {
+      "question_id": "q-r31-ovarian-composition",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "CT",
+      "tested_concept": "Which statement about this tumor group is correct?",
+      "visual_target": "Mixed fluid and soft tissue in an ovarian tumor",
+      "question_type": "Visual interpretation",
+      "stem": "Which statement about this tumor group is correct?",
+      "options": [
+        "Serous tumors are about 75 percent of epithelial ovarian cancers, and high grade ones occur over 50",
+        "Mucinous tumors are the most common epithelial type, about 75 percent, and are mostly found in people over 50",
+        "Epithelial tumors are predominantly solid, with a cystic component only in the benign cystadenoma",
+        "Epithelial tumors are usually found before age 20, in girls and young women"
+      ],
+      "choice_rationales": [
+        "Serous tumors are 75 percent of epithelial cancers and high-grade tumors occur over age 50.",
+        "Serous tumors are the most common epithelial type, and mucinous tumors are more often found in people under 40.",
+        "Epithelial tumors are predominantly cystic, whether benign (cystadenoma) or malignant (cystadenocarcinoma).",
+        "The lecture links epithelial tumors with older age, not with before age 20."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A complex cystic and solid adnexal mass in an older woman with high-grade serous carcinoma is an epithelial ovarian tumor. Step 2. Epithelial tumors are predominantly cystic and may be benign (cystadenoma) or malignant (cystadenocarcinoma), serous tumors are 75 percent of epithelial cancers, and mucinous tumors are more often found under age 40.",
+      "visual_clues": [
+        "Compare the dark regions with the denser internal material."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-89b264b9905a3b913bdf",
+      "source_group_id": "g-444fcf1e60873ad7b2b3",
+      "asset_id": "a-f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389",
+      "variant_id": "v-644429416553765a1d92",
+      "image": "assets/display/f7af2819a3da9648d02b24cf36b7713c99ec674b4023f3ca8b819fc37a937389.webp",
+      "zoom_image": "assets/zoom/d3a03ed06750cc94b204867ffaa89f5214a97081a224e15669c2a69436f9bb2b.webp",
+      "original_image": "assets/zoom/d3a03ed06750cc94b204867ffaa89f5214a97081a224e15669c2a69436f9bb2b.webp",
+      "original_filename": "Epithelial Ovarian Tumors US and CT - Radiograph.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 19
+        }
+      ],
+      "condition_name": "Ovarian cancer (epithelial)",
+      "condition_overview": "Epithelial ovarian cancer arises from the ovarian surface epithelium or fallopian tube and includes serous, endometrioid, clear cell, and mucinous types. It is often silent until advanced, with ascites and omental disease. Ultrasound shows complex solid and cystic masses with papillary projections, and CA-125 is often elevated. Staging is surgical, and treatment is cytoreductive surgery with platinum-based chemotherapy.",
+      "case_context": "A 56-year-old woman has abdominal bloating. Ultrasound and CT show an adnexal mass with fluid spaces and soft tissue components. Pathology is a high-grade serous carcinoma.",
+      "reasoning_order": "second or third order"
     },
     {
       "question_id": "q-r31-omental-spread",
@@ -22251,6 +22881,85 @@
         null,
         null,
         null
+      ]
+    },
+    {
+      "question_id": "q-r31-seminoma-ultrasound",
+      "collection": "R31",
+      "study_skill": "interpretation",
+      "category": "Ultrasound",
+      "tested_concept": "What is the diagnosis, and what is the survival if it is confined to the testis?",
+      "visual_target": "Homogeneous solid testicular mass",
+      "question_type": "Visual interpretation",
+      "stem": "What is the diagnosis, and what is the survival if it is confined to the testis?",
+      "options": [
+        "Seminoma, with survival of 70 percent when confined to the testicle",
+        "Yolk sac tumor, with survival of 99 percent in adults",
+        "Teratoma, with survival below 50 percent",
+        "Seminoma, with about 99 percent survival when confined to the testicle"
+      ],
+      "choice_rationales": [
+        "The 70 percent figure applies to distant metastases, not to disease confined to the testis.",
+        "Yolk sac tumor is the most common testicular malignancy in males under 3 years.",
+        "Teratoma is not described here as having survival below 50 percent.",
+        "Seminoma confined to the testis has about 99 percent survival."
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. A well-defined homogeneous hypoechoic ovoid intratesticular mass in a young man is a seminoma, the most common cancer in males aged 15 to 35. Step 2. Survival is 99 percent when confined to the testicle, 96 percent with nodal spread, and over 70 percent with distant metastases.",
+      "visual_clues": [
+        "The arrow points to a dark solid lesion inside the testicular outline."
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Visible findings and the associated teaching discussion on the cited pages.",
+      "accepted_synonyms": [],
+      "source_id": "s-5d6e0ce8eb258e92972c",
+      "source_group_id": "g-7196fd108bc7d9527d1b",
+      "asset_id": "a-710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7",
+      "variant_id": "v-ab8e0153dd44d8d1ff8a",
+      "image": "assets/display/710e1dd5d25317cc8af0079f5c5f37db4c7aadd123712a8f41e424edb2328bb7.webp",
+      "zoom_image": "assets/zoom/86489f9c2f4cd26f709483ecbd2b2cbe28340385012740333138905f03c3e5bb.webp",
+      "original_image": "assets/zoom/86489f9c2f4cd26f709483ecbd2b2cbe28340385012740333138905f03c3e5bb.webp",
+      "original_filename": "Seminoma Testicular Ultrasound - Echo.png",
+      "source_origin": "lecture",
+      "joint_panels": false,
+      "visual_kind": "image",
+      "citations": [
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 29
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 28
+        }
+      ],
+      "condition_name": "Seminoma",
+      "condition_overview": "Seminoma is the most common testicular germ cell tumor, in men aged 15 to 45. It forms a homogeneous, pale tan-white, fleshy, bulging mass. Microscopically sheets or nests of uniform large cells with clear glycogen-rich cytoplasm, distinct cell borders, and round central nuclei with prominent nucleoli are separated by fibrous septa with lymphocytes. Cells express OCT3/4, CD117, and PLAP. It is highly radiosensitive and has an excellent prognosis, and it commonly arises in undescended testes.",
+      "case_context": "A 27-year-old man has a painless testicular swelling. Ultrasound shows a well-defined, ovoid, homogeneous hypoechoic mass within the testis. Tumor markers are mildly elevated.",
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/dc2123558fe093f43b16a404c2fb8a439486bee9f28b15faf35d6c5935b98c0d.webp",
+            "caption": "Seminoma Gross Testis (Gross)",
+            "source": "R16/Seminoma Gross Testis - Gross.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/dc2123558fe093f43b16a404c2fb8a439486bee9f28b15faf35d6c5935b98c0d.webp",
+            "caption": "Seminoma Gross Testis (Gross)",
+            "source": "R16/Seminoma Gross Testis - Gross.png"
+          }
+        ]
       ]
     },
     {
@@ -30111,60 +30820,10 @@
       "retired_reason": "Depends on drug treatment not stated in the lecture material."
     },
     {
-      "question_id": "q-98e544a2455b25155de2",
-      "source_group_id": "g-38a2fc6c9b3311fd9ff1",
-      "source_id": "s-e7980b5adfc54b356536",
-      "tested_concept": "What is the most appropriate interpretation of the finding?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-512d94812e35bfe3843a",
-      "source_group_id": "g-b6431443085783e8f2d3",
-      "source_id": "s-f2b9ee80293278cf1509",
-      "tested_concept": "What is the approximate cancer risk associated with this finding?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-1efc74b9ef1dcfe8eb45",
-      "source_group_id": "g-ae0df54cb6b6dd6447df",
-      "source_id": "s-9fbdc7aec670a9e28131",
-      "tested_concept": "Which statement best reflects the natural history if the lesion is left untreated?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
       "question_id": "q-6d06272c1f35059e5e7d",
       "source_group_id": "g-a90d8535ebad83955b40",
       "source_id": "s-d46630d737676a562cc9",
       "tested_concept": "What is the approximate cancer risk for this diagnosis?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-ee9f80fd15f88f6c6a57",
-      "source_group_id": "g-572a9f1f2807e5e23cf4",
-      "source_id": "s-206110eaf141ed57b686",
-      "tested_concept": "Which counseling statement is most accurate based on the natural history of this lesion?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-15c13e25fb1386a1c565",
-      "source_group_id": "g-55f6364544dca9e302f3",
-      "source_id": "s-93021f2b6edf64a8d461",
-      "tested_concept": "What is the expected behavior compared with a low-grade papillary tumor?",
       "case_id": null,
       "option_count": 4,
       "category": "Histology",
@@ -30181,50 +30840,10 @@
       "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
     },
     {
-      "question_id": "q-955f03b669da64fbf24b",
-      "source_group_id": "g-0a73b0e9db16cf328e99",
-      "source_id": "s-ebbe37e2b9090b5e3acd",
-      "tested_concept": "What is the risk associated with this lesion?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Clinical Photo",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
       "question_id": "q-6918ed0723793ba8edcb",
       "source_group_id": "g-7baf4843d4b8b64e5dd8",
       "source_id": "s-1f8ba61752c380578385",
       "tested_concept": "Why does this matter for diagnosis?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-ad88ef7b3d884733482b",
-      "source_group_id": "g-d4d275b48829d90bd26d",
-      "source_id": "s-9f889fd449685a9fdfc1",
-      "tested_concept": "Which clinical feature should be anticipated?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-7973a3daa314519baade",
-      "source_group_id": "g-eb7337c1a3940598b02d",
-      "source_id": "s-28f7e00e48882def13af",
-      "tested_concept": "What is the most likely diagnosis, and from which preceding conditions can it arise?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Gross",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-cb42cc8bf474bb98a68f",
-      "source_group_id": "g-7ec36236fc76bf76cdc2",
-      "source_id": "s-52655d2da7b7b3362fb3",
-      "tested_concept": "What is the diagnostic value of this structure?",
       "case_id": null,
       "option_count": 4,
       "category": "Histology",
@@ -30248,36 +30867,6 @@
       "case_id": null,
       "option_count": 4,
       "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-r31-duct-boundary",
-      "source_group_id": "g-7f6299babf86b000bf8a",
-      "source_id": "s-bed3dcd7b6fe7a7882e5",
-      "tested_concept": "What does this finding imply about the basement membrane, and how common is this tumor type?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-r31-ovarian-composition",
-      "source_group_id": "g-444fcf1e60873ad7b2b3",
-      "source_id": "s-89b264b9905a3b913bdf",
-      "tested_concept": "Which statement about this tumor group is correct?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "CT",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-r31-seminoma-ultrasound",
-      "source_group_id": "g-7196fd108bc7d9527d1b",
-      "source_id": "s-5d6e0ce8eb258e92972c",
-      "tested_concept": "What is the diagnosis, and what is the survival if it is confined to the testis?",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Ultrasound",
       "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
     },
     {

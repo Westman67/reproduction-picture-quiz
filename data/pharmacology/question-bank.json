@@ -61,16 +61,6 @@
       "option_count": 4,
       "category": "Pharmacology",
       "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "rx-r20-levonorgestrel-ec",
-      "source_group_id": "g-rx-r20-levonorgestrel-ec",
-      "source_id": null,
-      "tested_concept": "Levonorgestrel emergency contraception",
-      "case_id": null,
-      "option_count": 4,
-      "category": "Pharmacology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
     }
   ],
   "questions": [
@@ -3643,6 +3633,48 @@
       "review_status": "USABLE",
       "case_context": "A student reviewing contraceptive pharmacology notes that norethindrone is the progestin in the daily minipill and in many combination pills. She is asked to describe the chemical feature that makes it work by mouth and what the drug does to the pituitary.",
       "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which statement matches R20?",
+      "options": [
+        "Both are SPRMs that act by impairing implantation after fertilization",
+        "Both are anti-aldosterone progestins given for 5 days after intercourse",
+        "Plan B adds ethinyl estradiol and Preven is levonorgestrel alone, both about 60 percent effective within 120 hours",
+        "Plan B is levonorgestrel alone and Preven adds ethinyl estradiol, both about 80 percent effective within 72 hours"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Levonorgestrel is a 19 nortestosterone progestin. Step 2. R20 teaches Plan B as levonorgestrel alone and Preven as levonorgestrel plus ethinyl estradiol. Step 3. Both are about 80 percent effective within 72 hours. Step 4. Ulipristal covers a longer window of 120 hours, so it would be used if she presented later.",
+      "choice_rationales": [
+        "Levonorgestrel is a progestin and prevents ovulation.",
+        "The 5 day course describes ulipristal.",
+        "The compositions are reversed and the 120 hour window belongs to ulipristal.",
+        "R20 states Plan B is levonorgestrel alone and Preven adds ethinyl estradiol, both about 80 percent effective within 72 hours."
+      ],
+      "tested_concept": "Levonorgestrel emergency contraception",
+      "question_id": "rx-r20-levonorgestrel-ec",
+      "source_group_id": "g-rx-r20-levonorgestrel-ec",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 30
+        },
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 31
+        }
+      ],
+      "visual_target": "Which statement matches R20?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 22-year-old woman presents 2 days after unprotected intercourse and asks which emergency contraceptives are available over the counter. The clinic offers levonorgestrel alone or a product that combines levonorgestrel with ethinyl estradiol. She asks whether the two differ in how well they work and in how long after sex they can be used.",
+      "study_skill": "management"
     },
     {
       "stem": "Which IV drug is an acceptable alternative to ceftriaxone for her, and what is its mechanism?",

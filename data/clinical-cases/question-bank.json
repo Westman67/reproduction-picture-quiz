@@ -42,6 +42,7 @@
         "q-r12-ovarian-mass-2-1",
         "q-r12-ovarian-mass-2-2",
         "q-r12-ovarian-mass-2-3",
+        "q-r12-ovarian-mass-2-depth-septa-alternative",
         "q-r12-ovarian-mass-2-depth-crowded-alternative"
       ],
       "previous_question_counts": [
@@ -133,6 +134,7 @@
       "title": "Keanne’s Four Frames of the Cervix",
       "lecture": "R12",
       "question_ids": [
+        "q-r12-cervical-series-1",
         "q-r12-cervical-series-2",
         "q-r12-cervical-series-depth-intermediate-panels",
         "q-r12-cervical-series-depth-cytology-correlation",
@@ -194,6 +196,7 @@
       "question_ids": [
         "q-r12-ovarian-metastasis-1",
         "q-r12-ovarian-metastasis-2",
+        "q-r12-ovarian-metastasis-depth-bilateral-gross",
         "q-r12-ovarian-metastasis-depth-linear-comparison"
       ],
       "previous_question_counts": [
@@ -1628,6 +1631,103 @@
           }
         ],
         null
+      ]
+    },
+    {
+      "question_id": "q-r12-ovarian-mass-2-depth-septa-alternative",
+      "case_id": "r12-ovarian-mass-2",
+      "question_type": "Clinical visual question",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "2026-11-12-case-depth",
+      "collection": "R12",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "tested_concept": "Which tumor is this, and what clinical association does the lecture give?",
+      "visual_target": "Inflammatory septa as an alternative to a central vascular core",
+      "scenario": "A 19-year-old woman has primary amenorrhea and a streak gonad on one side. She now has a unilateral, solid, gray, soft ovarian mass. A biopsy shows sheets of large cells separated by fibrous septa that contain small dark lymphocyte nuclei.",
+      "lead_in": "Which tumor is this, and what clinical association does the lecture give?",
+      "stem": "Which tumor is this, and what clinical association does the lecture give?",
+      "options": [
+        "Embryonal carcinoma, with CD30 positive cells, necrosis and elevated hCG in young adults",
+        "Dysgerminoma, the most common malignant germ cell tumor, with a low chance of gonadal dysgenesis",
+        "Yolk sac tumor, with elevated AFP, Schiller-Duval bodies and hyaline globules in the tumor",
+        "Granulosa cell tumor, with estrogen effects, inhibin positivity and Call-Exner bodies",
+        "Krukenberg tumor, with signet ring cells, intracellular mucin and bilateral ovarian masses"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Embryonal carcinoma is crowded, atypical epithelium with necrosis.",
+        "Dysgerminoma matches the septa, the age, and the gonadal dysgenesis association.",
+        "Yolk sac tumor is recognized by Schiller-Duval bodies and AFP, not lymphoid septa.",
+        "Granulosa tumors are estrogenic sex cord tumors.",
+        "Krukenberg tumors are bilateral signet ring metastases."
+      ],
+      "explanation": "Step 1. Sheets of large primitive cells separated by fibrous septa infiltrated by lymphocytes is a dysgerminoma, the analog of seminoma. Step 2. The lecture says it is the most common malignant ovarian germ cell tumor, most often under age 30, can be seen in pregnancy, is responsive to chemotherapy, and has a low chance of association with gonadal dysgenesis. The streak gonad and amenorrhea point to that association.",
+      "visual_clues": [
+        "The small lymphocytes cluster in a fibrous septum between groups of large pale cells."
+      ],
+      "ground_truth_confidence": "high",
+      "source_id": "s-c4d40367e81d7b7cd996",
+      "source_group_id": "g-d87d4027fc4b80bdd744",
+      "asset_id": "a-11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f",
+      "variant_id": "v-cba42a7893a6dc02ad60",
+      "image": "assets/display/11b09d84ab5fd9f159968c4c509ab8f342308ad8f37d5b336709b0b6afef0e4f.webp",
+      "zoom_image": "assets/zoom/8bbe0f20ca1586cb386b5eef97d48a6f34dba434fe053d9a394f7b8a69e62894.webp",
+      "original_image": "assets/zoom/8bbe0f20ca1586cb386b5eef97d48a6f34dba434fe053d9a394f7b8a69e62894.webp",
+      "original_filename": "R12/Dysgerminoma - Histology.png",
+      "category": "Histology",
+      "source_origin": "lecture",
+      "visual_kind": "image",
+      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 90
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 97
+        }
+      ],
+      "study_skill": "interpretation",
+      "condition_name": "Dysgerminoma",
+      "condition_overview": "Dysgerminoma is the ovarian counterpart of testicular seminoma and the most common malignant ovarian germ cell tumor, typically in young women. It forms a solid, pale, fleshy, lobulated mass. Microscopically large round cells with clear cytoplasm, distinct cell borders, and central nuclei with prominent nucleoli are arranged in nests separated by fibrous septa infiltrated by lymphocytes. Cells are OCT3/4, CD117, and PLAP positive. Tumors are highly radiosensitive and chemosensitive with an excellent prognosis. It can occur in gonadal dysgenesis, such as Swyer syndrome.",
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        [
+          {
+            "image": "assets/zoom/4e9e579f5df1c08c07055d5a994ac7e41578ba1fc858e780869d7f3d5397da90.webp",
+            "caption": "Embryonal Carcinoma (Gross)",
+            "source": "R12/Embryonal Carcinoma - Gross.png"
+          },
+          {
+            "image": "assets/zoom/aca5ab04a8321666145dda0611076e1314f4eb5c6492ef367c4c006080b45e15.webp",
+            "caption": "Embryonal Carcinoma (Histology)",
+            "source": "R12/Embryonal Carcinoma - Histology.png"
+          }
+        ],
+        null,
+        [
+          {
+            "image": "assets/zoom/2aff33767bba6e40ac64574aefe9044fb6d8e6ec674150603e8f0b6776bf65ef.webp",
+            "caption": "Yolk Sac Tumor (Histology)",
+            "source": "R12/Yolk Sac Tumor - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/d7c9cb094a363934d214ef1052baaa166aebbca9a80cda281b593ba5c4a6abdf.webp",
+            "caption": "Granulosa Cell Tumor Call-Exner Bodies (Histology)",
+            "source": "R12/Granulosa Cell Tumor Call-Exner Bodies - Histology.png"
+          }
+        ],
+        [
+          {
+            "image": "assets/zoom/2162677086fd96236c5606ebbf4c5e67ecebfeb1839e6c021785d501290336ab.webp",
+            "caption": "Krukenberg Tumor Signet Ring Cells (Histology)",
+            "source": "R12/Krukenberg Tumor Signet Ring Cells - Histology.png"
+          }
+        ]
       ]
     },
     {
@@ -3886,6 +3986,68 @@
       ]
     },
     {
+      "question_id": "q-r12-cervical-series-1",
+      "case_id": "r12-cervical-series",
+      "format_version": "clinical-visual-v1",
+      "visual_kind": "image",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "question_type": "Clinical visual question",
+      "scenario": "A 28-year-old woman has an abnormal Pap test with koilocytes and no prior screening for 5 years. A teaching series shows biopsies in which atypical cells occupy a progressively larger fraction of epithelial thickness from left to right.",
+      "lead_in": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
+      "stem": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
+      "options": [
+        "Lower third (LSIL) usually regresses, about 60 percent, whereas full thickness (HSIL) persists in about 60 percent, with 10 percent progressing",
+        "Both lesions progress to carcinoma in most cases within a few years, so both need immediate surgery",
+        "The lower third lesion is always HSIL and the full thickness lesion is always LSIL",
+        "The lower third lesion usually progresses to cancer within 10 years, while the full thickness lesion usually regresses",
+        "Lower third (LSIL) persists in about 60 percent, whereas full thickness (HSIL) regresses in about 60 percent, with 10 percent progressing"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "The lecture percentages show LSIL mostly regresses and HSIL mostly persists with about 10 percent progressing to carcinoma.",
+        "Only a small fraction of HSIL, about 10 percent, progresses to carcinoma, and most LSIL regresses.",
+        "LSIL is lower third and HSIL is full thickness, so the labels are reversed here.",
+        "Most LSIL regresses, so the claim that it usually becomes cancer is incorrect.",
+        "The percentages are reversed, because LSIL regresses in about 60 percent and HSIL persists in about 60 percent."
+      ],
+      "explanation": "Step 1. Atypia limited to the lower third with koilocytes is LSIL (CIN I), and atypia that expands toward the surface is HSIL (CIN II and III). Step 2. The lecture gives LSIL as about 60 percent regress, 30 percent persist, and 10 percent progress to HSIL, and HSIL as about 30 percent regress, 60 percent persist, and 10 percent progress to carcinoma. Greater thickness therefore means higher risk of persistence and cancer.",
+      "visual_clues": [
+        "Compare each epithelial surface with the basal region directly below it."
+      ],
+      "visual_target": "Maturation decreases toward the far right",
+      "tested_concept": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
+      "category": "Histology",
+      "collection": "R12",
+      "source_origin": "lecture",
+      "source_id": "s-a420fcd31f5af2fd25a3",
+      "source_group_id": "g-c2f4d398318c977cd713",
+      "asset_id": "a-036ad82134154614eb82bf6e76545e9fc114f721ddb68b550ccabc88a9a6bedf",
+      "variant_id": "v-6170ea284b86a8150c82",
+      "image": "assets/zoom/5c6e5bcec4721930013ed81aa2a8221004a24b83b0e183bd356ed8d1e4a404f3.webp",
+      "zoom_image": "assets/zoom/5c6e5bcec4721930013ed81aa2a8221004a24b83b0e183bd356ed8d1e4a404f3.webp",
+      "original_image": "assets/zoom/2567d120129af47afac8520bd29b03b9de6050b2b9910e5595a146112661c567.webp",
+      "original_filename": "Spectrum of CIN - Histology.png",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 26
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 23
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Pending individual answer-key review.",
+      "accepted_synonyms": [],
+      "joint_panels": true,
+      "study_skill": "interpretation",
+      "condition_name": "Cervical dysplasia (CIN) on colposcopy",
+      "condition_overview": "Cervical intraepithelial neoplasia (CIN) is HPV-driven dysplasia of the cervical squamous epithelium graded by the depth of epithelium replaced by atypical cells (CIN 1 lower third, CIN 2 two thirds, CIN 3 full thickness). At colposcopy, application of acetic acid whitens areas with dense nuclear protein (acetowhite epithelium) because of a high nuclear-to-cytoplasmic ratio. Lugol iodine fails to stain dysplastic cells because they lack glycogen, giving a mustard-yellow area. These findings guide biopsy. Higher grades are treated by excision or ablation to prevent invasive carcinoma.",
+      "reasoning_order": "second or third order"
+    },
+    {
       "question_id": "q-r12-cervical-series-2",
       "case_id": "r12-cervical-series",
       "format_version": "clinical-visual-v1",
@@ -5619,6 +5781,84 @@
             "source": "R12/High Grade Serous Carcinoma - Histology.png"
           }
         ],
+        null
+      ]
+    },
+    {
+      "question_id": "q-r12-ovarian-metastasis-depth-bilateral-gross",
+      "case_id": "r12-ovarian-metastasis",
+      "question_type": "Clinical visual question",
+      "format_version": "clinical-visual-v1",
+      "generation_batch": "2026-11-12-case-depth",
+      "collection": "R12",
+      "difficulty": "intermediate",
+      "reasoning_type": "second or third order",
+      "tested_concept": "What does the distribution add?",
+      "visual_target": "Gross distribution of a separate ovarian metastasis example",
+      "scenario": "A pathologist receives a hysterectomy and oophorectomy specimen. Nodular masses lie on both sides of the uterus. The surgeon asks whether bilateral involvement favors a primary ovarian germ cell tumor or a metastasis.",
+      "lead_in": "What does the distribution add?",
+      "stem": "What does the distribution add?",
+      "options": [
+        "Bilateral nodular masses favor metastasis, since about 70 percent of metastatic ovarian tumors are bilateral",
+        "Bilateral masses prove the primary tumor is in the uterus and has spread to both ovaries",
+        "Bilateral masses favor a mature cystic teratoma, since about 90 percent of mature teratomas are bilateral and multinodular in young women",
+        "Bilateral masses favor a dysgerminoma, since most dysgerminomas are bilateral and multinodular in young women with an elevated LDH",
+        "Bilateral masses favor a granulosa cell tumor, since most granulosa tumors are bilateral"
+      ],
+      "correct_index": 0,
+      "choice_rationales": [
+        "Bilateral nodular involvement is typical of metastatic ovarian tumors.",
+        "Bilaterality does not by itself prove a uterine primary.",
+        "Mature cystic teratomas are about 90 percent unilateral.",
+        "Dysgerminomas are typically unilateral.",
+        "Granulosa cell tumors are mostly unilateral."
+      ],
+      "explanation": "Step 1. Nodular masses on both ovaries suggest tumor spread to both organs. Step 2. The lecture states about 70 percent of metastatic ovarian cancers are bilateral with multiple nodules, whereas dysgerminoma and granulosa cell tumor are mostly unilateral and about 90 percent of dermoid cysts are unilateral. This distributional evidence supports metastasis, with the GI tract, breast, and others as primaries.",
+      "visual_clues": [
+        "Rounded nodular masses lie on both sides of the uterus."
+      ],
+      "ground_truth_confidence": "high",
+      "source_id": "s-f6007ed62229ee6492b1",
+      "source_group_id": "g-ba6ecc8f38a013398069",
+      "asset_id": "a-0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d",
+      "variant_id": "v-19cdf78001efdd73cd8f",
+      "image": "assets/display/0153d4eddb866656ac1068e094e4b12ef202b87b2bc02cdc03c6a9ff899bb69d.webp",
+      "zoom_image": "assets/zoom/75003b2c50daa923132f286e08384458a7cf1d8dc6c3cd970de594d9d7ca56a5.webp",
+      "original_image": "assets/zoom/75003b2c50daa923132f286e08384458a7cf1d8dc6c3cd970de594d9d7ca56a5.webp",
+      "original_filename": "R12/Bilateral Krukenberg Tumors - Gross.png",
+      "category": "Gross",
+      "source_origin": "lecture",
+      "visual_kind": "image",
+      "ground_truth_basis": "Visible findings in the cited learner image interpreted with the cited teaching pages.",
+      "citations": [
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 110
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 108
+        },
+        {
+          "document": "R12 Gyn Pathology II RLS.pdf",
+          "page": 109
+        }
+      ],
+      "study_skill": "interpretation",
+      "condition_name": "Krukenberg tumor",
+      "condition_overview": "Krukenberg tumor is a metastasis to the ovary, usually bilateral, from a mucin-producing adenocarcinoma, most often of the stomach, and also the colon or breast. The ovaries are enlarged and nodular. Microscopically, signet-ring cells with intracytoplasmic mucin displacing the nucleus infiltrate a cellular, reactive ovarian stroma, often with mucin pools. Prognosis is poor and depends on the primary site, and the finding of a bilateral solid ovarian mass should prompt a search for a gastrointestinal primary.",
+      "reasoning_order": "second or third order",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/c07e8d87fbcd5dccf68a1917d6fd086046423fec2f5362b9d97258c50b2ab529.webp",
+            "caption": "3rd party: Slide 046 - Mature Cystic Teratoma - Gross Pathology",
+            "source": "3rd Party/Slide 046 - Mature Cystic Teratoma - Gross Pathology.png"
+          }
+        ],
+        null,
         null
       ]
     },
@@ -15736,16 +15976,6 @@
       "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
     },
     {
-      "question_id": "q-r12-ovarian-mass-2-depth-septa-alternative",
-      "source_group_id": "g-d87d4027fc4b80bdd744",
-      "source_id": "s-c4d40367e81d7b7cd996",
-      "tested_concept": "Which tumor is this, and what clinical association does the lecture give?",
-      "case_id": "r12-ovarian-mass-2",
-      "option_count": 5,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
       "question_id": "q-r18-breast-specimens-depth-targetoid-arrangement",
       "source_group_id": "g-2ea53ef5bd59a3c0e358",
       "source_id": "s-4dbd0f72aeece960ea17",
@@ -15753,26 +15983,6 @@
       "case_id": "r18-breast-specimens",
       "option_count": 5,
       "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-r12-cervical-series-1",
-      "source_group_id": "g-c2f4d398318c977cd713",
-      "source_id": "s-a420fcd31f5af2fd25a3",
-      "tested_concept": "What is the expected natural history of a lesion confined to the lower third compared with one that fills the full thickness?",
-      "case_id": "r12-cervical-series",
-      "option_count": 5,
-      "category": "Histology",
-      "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
-    },
-    {
-      "question_id": "q-r12-ovarian-metastasis-depth-bilateral-gross",
-      "source_group_id": "g-ba6ecc8f38a013398069",
-      "source_id": "s-f6007ed62229ee6492b1",
-      "tested_concept": "What does the distribution add?",
-      "case_id": "r12-ovarian-metastasis",
-      "option_count": 5,
-      "category": "Gross",
       "retired_reason": "Correct answer depends on a memorized percentage or statistic rather than a mechanism."
     },
     {
