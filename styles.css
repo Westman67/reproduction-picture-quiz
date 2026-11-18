@@ -177,3 +177,5 @@
 .image-frame.filter-brighten img {
   filter: brightness(1.22) contrast(1.08);
 }
+
+.quiz-layout.text-only{grid-template-columns:minmax(0,780px);justify-content:center}

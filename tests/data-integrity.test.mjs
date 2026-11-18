@@ -5,7 +5,7 @@ import test from 'node:test';
 import {empty, validateImport} from '../engine.js';
 
 const base = path.resolve(import.meta.dirname, '..');
-const banks = ['physiology', 'pathology', 'clinical-cases'];
+const banks = ['physiology', 'pathology', 'pharmacology', 'clinical-cases'];
 const read = id => JSON.parse(fs.readFileSync(path.join(base, 'data', id, 'question-bank.json'), 'utf8'));
 
 test('every bank has valid image files, option counts and correct-answer rationales', () => {
@@ -13,7 +13,7 @@ test('every bank has valid image files, option counts and correct-answer rationa
         for (const q of read(id).questions) {
             const label = `${id}/${q.question_id}`;
             const count = q.format_version === 'clinical-visual-v1' ? 5 : 4;
-            if (q.visual_kind !== 'table') {
+            if (q.visual_kind !== 'table' && q.visual_kind !== 'text') {
                 for (const key of ['image', 'original_image', 'zoom_image']) {
                     const data = fs.readFileSync(path.join(base, q[key]));
                     assert(data.length > 100, `${label} ${key} too small`);

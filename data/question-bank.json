@@ -29012,6 +29012,488 @@
       "condition_name": "Mature cystic teratoma (dermoid cyst) vs Mucinous cystadenoma",
       "condition_overview": "Mature cystic teratoma (dermoid cyst) (image A). Mature cystic teratoma is the most common ovarian germ cell tumor and is benign. It is a unilocular cyst lined by skin with sebaceous glands and hair follicles, containing hair and greasy sebum and often teeth, bone, cartilage, thyroid, and brain tissue derived from all three germ layers. It is a frequent cause of adnexal masses in young women, is bilateral in about 10 to 15 percent, and can cause torsion or, rarely, autoimmune anti-NMDA receptor encephalitis. A rare complication is malignant transformation to squamous cell carcinoma. Imaging shows fat that loses signal on fat suppression. Mucinous cystadenoma (image B). Mucinous cystadenoma is a benign ovarian surface epithelial tumor composed of multiloculated cysts, sometimes very large, lined by a single layer of tall columnar mucin-secreting cells resembling endocervical or intestinal epithelium, without atypia. Cysts are filled with sticky mucin. It occurs in reproductive-age women and is cured by complete excision, since rupture can seed mucin in the peritoneum.",
       "reasoning_order": "second or third order"
+    },
+    {
+      "stem": "Which interpretation of the graph best applies to her?",
+      "options": [
+        "The pill raises clot risk only in carriers of the variant, because noncarriers on the pill have a rate no higher than women taking no pill",
+        "The two risks simply add, so a lower estrogen pill would keep her risk close to the carrier only value on the graph",
+        "Estrogen and the variant each raise clot risk, and together the risk is multiplied rather than added, so an estrogen containing pill is a poor choice for her",
+        "The variant alone carries a higher risk than the variant plus the pill, so adding the pill brings no meaningful extra risk to her"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The graph compares thrombosis rates with neither factor, the pill alone, the factor V Leiden variant alone, and both. Step 2. The lecture states that estrogen containing contraceptives raise VTE risk and synergize with factor V Leiden, and that carriers of this variant are at greatest risk, so progestin only options are preferred when estrogen is contraindicated.",
+      "choice_rationales": [
+        "Noncarriers on the pill (about 3.0) already have a higher rate than women with neither factor (about 0.8), so the pill raises risk on its own.",
+        "The combined bar is far above the sum of the separate effects, which shows synergy and not simple addition.",
+        "The graph shows about 0.8 with neither factor, 3.0 with the pill, 5.7 with the variant and 28.5 with both, a synergy far above the sum of the two.",
+        "The variant alone is about 5.7 and the variant plus the pill is about 28.5, so adding the pill multiplies the risk."
+      ],
+      "tested_concept": "Estrogen and factor V Leiden synergy in thrombosis risk",
+      "question_id": "rx-r20-ocp-fvl-graph",
+      "source_id": "s-rx-p01",
+      "source_group_id": "g-rx-p01",
+      "variant_id": "v-rx-p01",
+      "question_type": "Visual reasoning",
+      "category": "Graphs",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "image": "assets/zoom/1a43fdc98a07105713ccc765f4de97ab9d524d6b78ebe3b096dcdb9eae260b46.webp",
+      "zoom_image": "assets/zoom/1a43fdc98a07105713ccc765f4de97ab9d524d6b78ebe3b096dcdb9eae260b46.webp",
+      "original_image": "assets/zoom/1a43fdc98a07105713ccc765f4de97ab9d524d6b78ebe3b096dcdb9eae260b46.webp",
+      "original_filename": "R20/DVT Rate with Oral Contraceptives and Factor V Leiden - Diagram.png",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 40
+        },
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 41
+        }
+      ],
+      "visual_clues": [
+        "Four bars compare deep vein thrombosis rates with neither factor, the pill alone, the variant alone and both."
+      ],
+      "visual_target": "Which interpretation of the graph best applies to her?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 22-year-old woman with a family history of venous clots asks about a combined oral contraceptive. Genetic testing shows she carries a clotting factor variant. The graph shows deep vein thrombosis rates in four groups of women.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which choice is most appropriate going forward, and why?",
+      "options": [
+        "A progestin only method, because the estrogen component is the part that raises clot risk and the variant multiplies it",
+        "A combination patch, because transdermal delivery avoids first pass hepatic metabolism and so the clotting risk of estrogen",
+        "A combination pill containing drospirenone, because this progestin lowers clot risk and offsets the effect of the variant",
+        "A combination vaginal ring, because the vaginal route bypasses the liver and so removes the clotting effect of the estrogen"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The diagram shows the protein C pathway, and factor V Leiden is a variant that produces resistance to activated protein C. Step 2. Estrogen containing contraceptives synergize with this variant to raise VTE risk, so a progestin only method, which suits women in whom estrogen is contraindicated, is the better choice.",
+      "choice_rationales": [
+        "Progestin only contraceptives are advantageous for women in whom estrogens are contraindicated.",
+        "A patch still contains estrogen, and with a variant that causes APC resistance, estrogen containing methods remain a poor choice for her.",
+        "Ethinyl estradiol plus drospirenone is associated with an increased VTE risk in some users, and the pill still contains estrogen.",
+        "A ring still delivers an estrogen and the gene variant still multiplies the clot risk, so a different route does not make it appropriate."
+      ],
+      "tested_concept": "Contraception choice with activated protein C resistance",
+      "question_id": "rx-r20-apc-alternative",
+      "source_id": "s-rx-p02",
+      "source_group_id": "g-rx-p02",
+      "variant_id": "v-rx-p02",
+      "question_type": "Visual reasoning",
+      "category": "Diagram",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "image": "assets/zoom/9e070956438f3e6efa5edb2de7f9bc289ab166418595bb3ed22955ce49dc6e55.webp",
+      "zoom_image": "assets/zoom/9e070956438f3e6efa5edb2de7f9bc289ab166418595bb3ed22955ce49dc6e55.webp",
+      "original_image": "assets/zoom/9e070956438f3e6efa5edb2de7f9bc289ab166418595bb3ed22955ce49dc6e55.webp",
+      "original_filename": "R20/Activated Protein C Pathway and Factor V Leiden - Diagram.png",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 29
+        }
+      ],
+      "visual_clues": [
+        "The activated protein C complex cleaves factor Va and factor VIIIa on the phospholipid surface."
+      ],
+      "visual_target": "Which choice is most appropriate going forward, and why?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman develops a deep vein thrombosis three months after starting a combined oral contraceptive. Testing shows a gene variant that makes the clotting factors in the diagram resistant to inactivation by activated protein C. She still wants hormonal contraception.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which feature of the graph does the pill primarily prevent, and how?",
+      "options": [
+        "The late luteal fall in estradiol, because the pill keeps the corpus luteum functioning and so prevents menstruation altogether",
+        "The early cycle FSH rise, because the progestin blocks the FSH receptor on the follicle and so stops recruitment of follicles",
+        "The mid cycle LH surge, because the pill strengthens estradiol negative feedback and so holds GnRH pulses at the early follicular rate",
+        "The mid cycle LH surge, because the pill interferes with estradiol positive feedback on the hypothalamus that triggers it"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The graph shows the mid cycle estradiol rise, the LH surge and the FSH pattern over the GnRH pulses. Step 2. Combination pills act mainly by inhibiting ovulation. They interfere with the estradiol positive feedback at mid cycle that triggers the LH surge, and estrogen is the main ingredient for this effect.",
+      "choice_rationales": [
+        "The pill produces a prompt, brief withdrawal bleed, so menstruation is not prevented, and the contraceptive action is inhibition of ovulation.",
+        "Contraception reflects inhibition of ovulation through disrupted feedback, and the progestin is not described as an FSH receptor blocker.",
+        "The key effect is interference with positive feedback, and the pill does not work by strengthening negative feedback to hold the follicular GnRH pattern.",
+        "Combination contraceptives disrupt the mid cycle estradiol positive feedback circuit, which prevents ovulation."
+      ],
+      "tested_concept": "How combination contraceptives prevent the LH surge",
+      "question_id": "rx-r20-ocp-positive-feedback",
+      "source_id": "s-rx-p03",
+      "source_group_id": "g-rx-p03",
+      "variant_id": "v-rx-p03",
+      "question_type": "Visual reasoning",
+      "category": "Graphs",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "image": "assets/zoom/1cde5b23cf948cff4138b01e5a515089a58235ba80d20427642eb3c42d493c07.webp",
+      "zoom_image": "assets/zoom/1cde5b23cf948cff4138b01e5a515089a58235ba80d20427642eb3c42d493c07.webp",
+      "original_image": "assets/zoom/1cde5b23cf948cff4138b01e5a515089a58235ba80d20427642eb3c42d493c07.webp",
+      "original_filename": "R20/LH FSH Estradiol and GnRH Pulses - Diagram.png",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 13
+        }
+      ],
+      "visual_clues": [
+        "LH and FSH peak at midcycle, estradiol rises before the surge and GnRH pulses are marked beneath."
+      ],
+      "visual_target": "Which feature of the graph does the pill primarily prevent, and how?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 26-year-old woman takes a combination oral contraceptive. The graph shows LH, FSH, estradiol and GnRH pulses across a normal untreated cycle.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "In her, where do the androgen precursor and the aromatase enzyme come from, and what does that mean for therapy?",
+      "options": [
+        "The adrenal gland supplies both precursor and aromatase, so the drug works without a GnRH analog and blocks adrenal output",
+        "The adrenal gland supplies the precursor and adipose tissue supplies aromatase, so the drug works without a GnRH analog",
+        "The ovary supplies both precursor and aromatase, so a GnRH analog is also needed to suppress LH and FSH for the drug to work",
+        "Adipose tissue supplies the precursor and the adrenal gland supplies aromatase, so the drug works only if cortisol is also blocked"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The diagram shows letrozole and exemestane blocking aromatase, which converts testosterone or androstenedione to estradiol or estrone. Step 2. After menopause the adrenal supplies the androgen precursor and adipose tissue supplies aromatase. A GnRH analog is only needed in premenopausal women to suppress LH and FSH.",
+      "choice_rationales": [
+        "Adipose tissue, not the adrenal, is the aromatase source in postmenopausal women.",
+        "In postmenopausal women the adrenal is the source of androgen precursor and adipose tissue is the source of aromatase.",
+        "That describes premenopausal women, where ovaries and placenta supply precursor and aromatase and a GnRH analog is required.",
+        "The roles are reversed, since the adrenal supplies precursor and adipose tissue supplies aromatase, and cortisol is not part of this pathway."
+      ],
+      "tested_concept": "Estrogen source after menopause and aromatase inhibitor therapy",
+      "question_id": "rx-r25-ai-postmenopausal-source",
+      "source_id": "s-rx-p04",
+      "source_group_id": "g-rx-p04",
+      "variant_id": "v-rx-p04",
+      "question_type": "Visual reasoning",
+      "category": "Diagram",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "image": "assets/zoom/4f551f5c65453026807f508e6cae66a662aced4a9de4a79708dde43d94c90d38.webp",
+      "zoom_image": "assets/zoom/4f551f5c65453026807f508e6cae66a662aced4a9de4a79708dde43d94c90d38.webp",
+      "original_image": "assets/zoom/4f551f5c65453026807f508e6cae66a662aced4a9de4a79708dde43d94c90d38.webp",
+      "original_filename": "R25/Aromatase Inhibitors Mechanism - Diagram.png",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 66
+        }
+      ],
+      "visual_clues": [
+        "The red X sits on the aromatase box between androgens and estrogens."
+      ],
+      "visual_target": "In her, where do the androgen precursor and the aromatase enzyme come from, and what does that mean for therapy?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image. Answer revealing text was masked on the image: banner text over the drug names removed.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 64-year-old postmenopausal woman has ER positive breast cancer. Her oncologist prescribes one of the oral drugs shown, which blocks the reaction in the diagram.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Why is the GnRH analog added to these oral drugs?",
+      "options": [
+        "These drugs inhibit 17 hydroxylase, so cortisol would fall unless a GnRH analog replaces glucocorticoid effects",
+        "These drugs block 5 alpha reductase, so testosterone would be converted to dihydrotestosterone unless a GnRH analog is given",
+        "Androgen receptor blockade removes androgen feedback, so LH, FSH and testosterone rise unless a GnRH analog is given",
+        "These drugs partly activate the androgen receptor, so the GnRH analog is needed to cancel their agonist activity in tumor cells"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The structures shown are bicalutamide and enzalutamide, which are androgen receptor antagonists. Step 2. They have no agonist activity and cause loss of androgen negative feedback, so LH, FSH and testosterone rise. A GnRH analog prevents this, and without it AR blockade alone reliably produces gynecomastia.",
+      "choice_rationales": [
+        "That is abiraterone, which needs prednisone, and a GnRH analog would not replace glucocorticoid effects.",
+        "That is the mechanism of finasteride and dutasteride, and these drugs block the receptor itself.",
+        "AR antagonists raise testosterone unless given with a GnRH analog because of the loss of androgen feedback.",
+        "The listed AR antagonists are potent antagonists with no agonist activity, and the added GnRH analog addresses the hormone rise, not receptor activation."
+      ],
+      "tested_concept": "Why antiandrogens are paired with a GnRH analog",
+      "question_id": "rx-r25-ar-antagonist-gnrh",
+      "source_id": "s-rx-p05",
+      "source_group_id": "g-rx-p05",
+      "variant_id": "v-rx-p05",
+      "question_type": "Visual reasoning",
+      "category": "Diagram",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "image": "assets/zoom/a20c381ce8a1fe71cc7c8abbc6a27dfa34acd4f9593217b30b6e6da4f214891b.webp",
+      "zoom_image": "assets/zoom/a20c381ce8a1fe71cc7c8abbc6a27dfa34acd4f9593217b30b6e6da4f214891b.webp",
+      "original_image": "assets/zoom/a20c381ce8a1fe71cc7c8abbc6a27dfa34acd4f9593217b30b6e6da4f214891b.webp",
+      "original_filename": "R25/The antiandrogens bicalutamide, nilutamide and - Diagram.png",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 57
+        },
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 58
+        }
+      ],
+      "visual_clues": [
+        "Both structures share a cyano and trifluoromethyl substituted aromatic ring."
+      ],
+      "visual_target": "Why is the GnRH analog added to these oral drugs?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image. Answer revealing text was masked on the image: drug name labels removed.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 68-year-old man with metastatic prostate cancer takes the oral drugs shown, together with a GnRH analog.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which panel matches her pattern, and what does the lecture say about drug therapy?",
+      "options": [
+        "The right panel, and tamsulosin is the FDA approved drug because it relaxes the bladder outlet and restores detrusor contraction",
+        "The left panel, and the beta 3 agonist mirabegron is the FDA approved drug that increases urethral sphincter tone for it",
+        "The middle panel, and oxybutynin is the FDA approved drug because it blocks M3 receptors and strengthens the urethral sphincter",
+        "The left panel, and no drug is FDA approved for it, so weight loss and pelvic floor rehabilitation are offered with only modest drug options"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Leakage with high intra-abdominal pressure from coughing and lifting matches the left panel, where the arrows press down on the bladder, which is stress incontinence from an underactive urethral sphincter. Step 2. No drug is FDA approved for stress incontinence. Estrogen, pseudoephedrine and duloxetine give modest benefit, and drugs for urge incontinence are only used off label.",
+      "choice_rationales": [
+        "Her leakage with coughing matches the left panel with downward pressure arrows, not the distended bladder of the right panel, and no drug is effective for overflow incontinence.",
+        "The left panel is right, but mirabegron is approved for urge incontinence by relaxing the detrusor, and nothing is approved for stress incontinence.",
+        "Her coughing pattern matches the left panel with downward pressure arrows, not the middle panel of detrusor overactivity, and oxybutynin is approved for urge incontinence where it blocks M3 receptors in the detrusor.",
+        "The left panel shows downward intra-abdominal pressure on the bladder, which is stress incontinence. Drug treatments for it are not very effective and none are FDA approved, so weight loss and pelvic floor rehabilitation may help."
+      ],
+      "tested_concept": "Drug therapy for stress urinary incontinence",
+      "question_id": "rx-r24-stress-incontinence-drugs",
+      "source_id": "s-rx-p06",
+      "source_group_id": "g-rx-p06",
+      "variant_id": "v-rx-p06",
+      "question_type": "Visual reasoning",
+      "category": "Diagram",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "image": "assets/zoom/9f48118f7d4ef9a9b61dfaf3506f054d192cc2d02aed87e552dd3182e0a53db5.webp",
+      "zoom_image": "assets/zoom/9f48118f7d4ef9a9b61dfaf3506f054d192cc2d02aed87e552dd3182e0a53db5.webp",
+      "original_image": "assets/zoom/9f48118f7d4ef9a9b61dfaf3506f054d192cc2d02aed87e552dd3182e0a53db5.webp",
+      "original_filename": "R24/Types of Urinary Incontinence - Diagram.png",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 12
+        },
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 13
+        }
+      ],
+      "visual_clues": [
+        "The three bladder panels differ by pressure arrows, detrusor vibration or a distended bladder with outward arrows."
+      ],
+      "visual_target": "Which panel matches her pattern, and what does the lecture say about drug therapy?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image. Answer revealing text was masked on the image: panel titles and captions removed.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 45-year-old woman leaks urine when she coughs or lifts her child and has no urge to void beforehand. She asks for a pill to fix this.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which therapy best fits her symptoms?",
+      "options": [
+        "Local vaginal estrogen, because her symptoms are limited to the vagina and are unlikely to resolve on their own",
+        "Paroxetine, because it is the only FDA approved nonhormonal drug and treats vaginal atrophy as well as hot flashes",
+        "Observation alone, because vaginal atrophy usually abates over time like hot flashes once the transition is complete",
+        "Oral estrogen plus a progestogen, because isolated vaginal symptoms require full systemic hormone therapy to resolve"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The picture contrasts a well estrogenized premenopausal epithelium with a thin low estrogen postmenopausal epithelium. Step 2. Vaginal dryness and dyspareunia are progressive and are treated with lubricants and local vaginal estrogen, and guidelines advise local therapy when symptoms are only vaginal.",
+      "choice_rationales": [
+        "The lecture treats vaginal atrophy with local vaginal estrogen, and NAMS and FDA guidance say to use local therapy for vaginal symptoms alone.",
+        "Paroxetine is approved for vasomotor symptoms, and she has none.",
+        "Unlike vasomotor symptoms, vaginal atrophy is typically progressive and unlikely to resolve on its own.",
+        "Guidelines advise topical or local therapy for vaginal dryness alone, and systemic therapy adds risk without need."
+      ],
+      "tested_concept": "Local estrogen for vaginal atrophy",
+      "question_id": "rx-r30-vaginal-atrophy-local",
+      "source_id": "s-rx-p07",
+      "source_group_id": "g-rx-p07",
+      "variant_id": "v-rx-p07",
+      "question_type": "Visual reasoning",
+      "category": "Histology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "image": "assets/zoom/12114d36551d0c31b01ef5e11acb5b72b758345676722d1f8386c2b551b455b1.webp",
+      "zoom_image": "assets/zoom/12114d36551d0c31b01ef5e11acb5b72b758345676722d1f8386c2b551b455b1.webp",
+      "original_image": "assets/zoom/12114d36551d0c31b01ef5e11acb5b72b758345676722d1f8386c2b551b455b1.webp",
+      "original_filename": "R30/Vaginal Epithelium Premenopausal vs Postmenopausal - Diagram.png",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_clues": [
+        "The left epithelium is thick with folds and the right epithelium is thin and flat."
+      ],
+      "visual_target": "Which therapy best fits her symptoms?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image. Answer revealing text was masked on the image: panel labels removed.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 56-year-old woman, five years past menopause, reports vaginal dryness and painful intercourse. She has no hot flashes. The right panel shows her vaginal epithelium compared with a premenopausal sample.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which endocrine therapy is first line for this tumor, and why?",
+      "options": [
+        "Tamoxifen, because it remains the preferred first line drug in postmenopausal women and is more effective than aromatase inhibitors",
+        "An aromatase inhibitor, because it is now first line for ER positive disease after menopause and is more effective than tamoxifen",
+        "Fulvestrant, because a pure ER antagonist without agonist effects is preferred as the initial treatment of ER positive disease",
+        "Raloxifene, because it blocks breast ER as effectively as tamoxifen and also protects bone in postmenopausal women"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Strong nuclear ER alpha staining marks an ER positive tumor that predicts benefit from endocrine therapy. Step 2. For postmenopausal women with ER positive breast cancer, aromatase inhibitors are first line, more effective than tamoxifen, and do not raise VTE or endometrial cancer risk.",
+      "choice_rationales": [
+        "Aromatase inhibitors are now considered first line and more effective than tamoxifen in postmenopausal women.",
+        "Aromatase inhibitors are first line for ER positive breast cancer in postmenopausal women and are more effective than tamoxifen.",
+        "Fulvestrant is given by depot injection for advanced breast cancer resistant to other therapies, not as first line.",
+        "Raloxifene is not as effective as tamoxifen in blocking ER and is used for prevention in high risk postmenopausal women and for osteoporosis."
+      ],
+      "tested_concept": "First line endocrine therapy for ER positive breast cancer",
+      "question_id": "rx-r25-er-positive-first-line",
+      "source_id": "s-rx-p08",
+      "source_group_id": "g-rx-p08",
+      "variant_id": "v-rx-p08",
+      "question_type": "Visual reasoning",
+      "category": "Histology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "image": "assets/zoom/b34468444707633af6016cd55c52176490c8591477cff08c481beabbf57694a2.webp",
+      "zoom_image": "assets/zoom/b34468444707633af6016cd55c52176490c8591477cff08c481beabbf57694a2.webp",
+      "original_image": "assets/zoom/b34468444707633af6016cd55c52176490c8591477cff08c481beabbf57694a2.webp",
+      "original_filename": "R20/ER Alpha Nuclear Immunostaining - Histology.png",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 64
+        }
+      ],
+      "visual_clues": [
+        "Many tumor nuclei stain brown, others stay blue."
+      ],
+      "visual_target": "Which endocrine therapy is first line for this tumor, and why?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 59-year-old postmenopausal woman has an invasive breast carcinoma. The immunostain shown has strong brown nuclear signal in most tumor cells.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which adjuvant regimen applies, and what is the reasoning?",
+      "options": [
+        "Tamoxifen, because the tumor is hormone driven and responds to estrogen receptor blockade after surgery",
+        "Carboplatin and paclitaxel with PARP inhibitor maintenance, because this is the standard regimen for advanced ovarian tumors of any cell type",
+        "Surveillance alone, because ovarian germ cell tumors are resistant to chemotherapy and relapse is managed by repeat surgery",
+        "BEP (bleomycin, etoposide, cisplatin), because malignant ovarian germ cell tumors are very chemosensitive"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Central vessels surrounded by tumor cells are the Schiller-Duval bodies of an endodermal sinus (yolk sac) tumor, a malignant germ cell tumor. Step 2. These tumors are very chemosensitive and are treated with BEP, whereas advanced epithelial ovarian cancer gets carboplatin and paclitaxel.",
+      "choice_rationales": [
+        "Germ cell tumors are treated with BEP and are not managed with ER blockade.",
+        "That regimen is for advanced epithelial ovarian cancer guided by BRCA and HRD status, and germ cell tumors use BEP.",
+        "Germ cell tumors are very chemosensitive, so chemotherapy is the key treatment.",
+        "Malignant ovarian germ cell tumors are very chemosensitive and are treated with BEP, which the lecturer flagged as possible exam content."
+      ],
+      "tested_concept": "Chemotherapy for malignant ovarian germ cell tumors",
+      "question_id": "rx-r27-yolk-sac-bep",
+      "source_id": "s-rx-p09",
+      "source_group_id": "g-rx-p09",
+      "variant_id": "v-rx-p09",
+      "question_type": "Visual reasoning",
+      "category": "Histology",
+      "collection": "R27",
+      "source_origin": "lecture",
+      "image": "assets/zoom/e02fd3645f5d840cdf246469dbb0ca7fda2f6e917e6e4135f14d66c996e2125a.webp",
+      "zoom_image": "assets/zoom/e02fd3645f5d840cdf246469dbb0ca7fda2f6e917e6e4135f14d66c996e2125a.webp",
+      "original_image": "assets/zoom/e02fd3645f5d840cdf246469dbb0ca7fda2f6e917e6e4135f14d66c996e2125a.webp",
+      "original_filename": "R27/Endodermal Sinus Tumor Schiller-Duval Bodies - Histology.png",
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 24
+        }
+      ],
+      "visual_clues": [
+        "A central vessel is surrounded by cuboidal tumor cells."
+      ],
+      "visual_target": "Which adjuvant regimen applies, and what is the reasoning?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 17-year-old girl has a large unilateral ovarian mass. After salpingo-oophorectomy, the tumor shows the structures in the micrograph with central vessels surrounded by tumor cells.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which option would best lower her risk of pregnancy, and why?",
+      "options": [
+        "A progestin only mini pill, because its initial failure rate is well below that of the combination pill",
+        "A male condom, because its initial failure rate is lower than the failure rate of the daily pill on the chart",
+        "A long acting reversible method such as an IUD or implant, because its initial failure rate is below 1 percent compared with about 9 percent for the pill",
+        "A lower dose combination pill, because the first year failure rate of the pill is mostly explained by the estrogen dose"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The chart gives initial failure rates of about 9 percent for the pill, about 18 percent for the male condom, and 0.8 to 0.05 percent for long acting reversible contraception. Step 2. Because she misses daily pills, a method that does not depend on daily adherence, such as an IUD or implant, reduces her risk the most.",
+      "choice_rationales": [
+        "The progestin only pill has a failure rate similar to the combination pill (about 9 percent), and its efficacy declines quickly with missed doses.",
+        "The condom failure rate on the chart is about 18 percent, higher than the pill.",
+        "Long acting reversible methods have initial failure rates of 0.8 to 0.05 percent, versus about 9 percent for the pill.",
+        "Failure of the pill is mostly about adherence, and the pill failure rate stays near 9 percent compared with under 1 percent for IUDs and implants."
+      ],
+      "tested_concept": "Contraceptive failure rates and long acting methods",
+      "question_id": "rx-r20-larc-failure",
+      "source_id": "s-rx-p10",
+      "source_group_id": "g-rx-p10",
+      "variant_id": "v-rx-p10",
+      "question_type": "Visual reasoning",
+      "category": "Graphs",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "image": "assets/zoom/229d727d8ef37c1960cfe35cc293381cd27ec4d2cd783e156b6a0ba118479066.webp",
+      "zoom_image": "assets/zoom/229d727d8ef37c1960cfe35cc293381cd27ec4d2cd783e156b6a0ba118479066.webp",
+      "original_image": "assets/zoom/229d727d8ef37c1960cfe35cc293381cd27ec4d2cd783e156b6a0ba118479066.webp",
+      "original_filename": "R20/Contraceptive Methods with Initial Failure Rates - Diagram.png",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 6
+        }
+      ],
+      "visual_clues": [
+        "Each slice of the pie is paired with a stated initial failure rate for the pill, male condom and long acting reversible methods."
+      ],
+      "visual_target": "Which option would best lower her risk of pregnancy, and why?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman often misses her daily pill. The chart shows how common each method is, with initial failure rates for the pill, the male condom and long acting reversible contraception.",
+      "study_skill": "management"
     }
   ],
   "retired_questions": [

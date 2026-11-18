@@ -27,7 +27,7 @@ let browser;
 try {
     const base=process.env.QUIZ_URL||await getLocalURL(server);
     browser=await chromium.launch();
-    for(const bank of ['physiology','pathology','clinical-cases','combined']){
+    for(const bank of ['physiology','pathology','pharmacology','clinical-cases','combined']){
         const page=await browser.newPage({serviceWorkers:'block',viewport:{width:bank==='physiology'?390:1280,height:840}});
         page.setDefaultTimeout(12000);
         const errors=[];
@@ -88,11 +88,12 @@ try {
             await page.locator('.coverage-card').first().waitFor();
         }
         await page.locator('.view-nav #review').click();
-        await page.locator('.review-item').first().waitFor();
+        if(bank!=='pharmacology')await page.locator('.review-item').first().waitFor();
+        else await page.locator('.view-nav #review[aria-current], .view-nav #review').first().waitFor();
         assert(requested.some(url=>url.endsWith('/source-manifest.json')));
         assert(await page.locator('.review-item').count()<=48);
         const nextSources=page.locator('#source-next');
-        if(await nextSources.count()&&await nextSources.isEnabled()){
+        if(bank!=='pharmacology'&&await nextSources.count()&&await nextSources.isEnabled()){
             const first=await page.locator('.review-item').first().innerText();
             await page.locator('#source-next').click();
             await page.locator('.review-item').first().waitFor();

@@ -7,7 +7,7 @@ const stop = new Set('the a an of and or to in with is are for that this it as b
 const tokens = s => new Set((s.toLowerCase().match(/[a-z0-9]+/g) || []).filter(w => !stop.has(w)));
 const overlap = (a, b) => { const A = tokens(a), B = tokens(b); let n = 0; for (const w of A) if (B.has(w)) n++; return n / Math.max(1, new Set([...A, ...B]).size); };
 const perms = n => n <= 1 ? [[0]] : perms(n - 1).flatMap(p => Array.from({length: n}, (_, i) => [...p.slice(0, i), n - 1, ...p.slice(i)]));
-const banks = ['physiology', 'pathology', 'clinical-cases'];
+const banks = ['physiology', 'pathology', 'pharmacology', 'clinical-cases'];
 const key = read('tests/fixtures/answer-key.json');
 
 for (const bank of banks) {

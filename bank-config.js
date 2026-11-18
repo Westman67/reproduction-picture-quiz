@@ -12,8 +12,23 @@ export const CLINICAL_CASES = {
     homeUrl: '?bank=clinical-cases',
 };
 
+export const PHARMACOLOGY = {
+    id: 'pharmacology',
+    dataRoot: './data/pharmacology',
+    progressKey: 'reproduction-pharmacology-quiz-v1',
+    preferencesKey: 'reproduction-pharmacology-quiz-preferences-v1',
+    exportName: 'reproduction-pharmacology-progress.json',
+    title: 'Reproduction · Pharmacology Quiz',
+    brand: 'PHARMACOLOGY QUIZ',
+    eyebrow: 'Reproduction · Pharmacology',
+    description: 'Drug mechanism, adverse effect and therapy reasoning drawn from the reproduction lectures.',
+    footer: 'Reproduction · Pharmacology · Local quiz',
+    homeUrl: '?bank=pharmacology',
+};
+
 export const STUDY_SECTIONS = [
     ...BANK_OPTIONS.map(option => ({ ...option, dataRoot: BANKS[option.id].dataRoot })),
+    { id: PHARMACOLOGY.id, label: 'Pharmacology', href: PHARMACOLOGY.homeUrl, dataRoot: PHARMACOLOGY.dataRoot },
     { id: CLINICAL_CASES.id, label: 'Clinical Cases', href: CLINICAL_CASES.homeUrl, dataRoot: CLINICAL_CASES.dataRoot },
 ];
 
@@ -33,6 +48,7 @@ export function resolveBankConfig(search = '') {
     const bank = params.get('bank');
     if (bank === CLINICAL_CASES.id || (bank === 'pathology' && params.get('mode') === 'cases')) return CLINICAL_CASES;
     if (bank === COMBINED.id) return COMBINED;
+    if (bank === PHARMACOLOGY.id) return PHARMACOLOGY;
     if (bank === 'supplementary') return BANKS.pathology;
     return Object.hasOwn(BANKS, bank) ? BANKS[bank] : BANKS.physiology;
 }

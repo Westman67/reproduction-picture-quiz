@@ -1,0 +1,393 @@
+{
+  "schema_version": 2,
+  "title": "Reproduction Pharmacology Quiz",
+  "bank_version": "pharmacology-1",
+  "release_status": "Pilot lecture based drug reasoning questions.",
+  "retired_questions": [],
+  "questions": [
+    {
+      "stem": "Which regimen is appropriate, and how does each drug act?",
+      "options": [
+        "Ceftriaxone, which inhibits cell wall synthesis, or ciprofloxacin, which inhibits DNA gyrase, then therapy guided by culture for 7 to 14 days",
+        "Nitrofurantoin by mouth for 1 to 3 days, which concentrates in urine, because culture is not routinely needed in infections of this type",
+        "Ceftriaxone, which inhibits DNA gyrase, or ciprofloxacin, which inhibits cell wall synthesis, then therapy is guided by culture for 7 to 14 days",
+        "Fosfomycin as a single oral powder, which inhibits cell wall synthesis, because it treats pyelonephritis and does not need follow up culture"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Fever, vomiting and flank pain indicate a complicated or upper tract UTI. Step 2. Initial IV ceftriaxone (cell wall synthesis) or ciprofloxacin (DNA gyrase) is used and culture guides therapy for 7 to 14 days.",
+      "choice_rationales": [
+        "Complicated UTI and suspected pyelonephritis are treated with IV ceftriaxone or ciprofloxacin and then guided by culture.",
+        "Nitrofurantoin is for uncomplicated lower UTI, and fever with flank pain suggests an upper tract infection needing IV therapy.",
+        "The mechanisms are reversed, since ceftriaxone inhibits cell wall synthesis and ciprofloxacin inhibits DNA gyrase.",
+        "Fosfomycin is a first line option for uncomplicated lower UTI, not for pyelonephritis."
+      ],
+      "tested_concept": "Antibiotic choice in complicated urinary tract infection",
+      "question_id": "rx-r24-complicated-uti",
+      "source_group_id": "g-rx-r24-complicated-uti",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which regimen is appropriate, and how does each drug act?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 34-year-old woman has fever, vomiting and flank pain. She is hospitalized and started on IV therapy while cultures are pending.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which first line agent should be avoided, and which is acceptable?",
+      "options": [
+        "Avoid fosfomycin, because it inhibits cell wall synthesis, and use trimethoprim sulfamethoxazole or nitrofurantoin",
+        "Avoid trimethoprim sulfamethoxazole, which blocks bacterial folate production, and use nitrofurantoin or fosfomycin",
+        "Avoid all oral agents in pregnancy and give IV ceftriaxone, because oral options carry hemolysis risk in every patient",
+        "Avoid nitrofurantoin, because it concentrates in urine, and use trimethoprim sulfamethoxazole or fosfomycin"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. This is an uncomplicated lower UTI, treated empirically with nitrofurantoin, trimethoprim sulfamethoxazole or fosfomycin. Step 2. Trimethoprim sulfamethoxazole inhibits tetrahydrofolate production and is avoided in pregnancy and in G6PD deficiency, whereas nitrofurantoin and fosfomycin are safe in pregnancy.",
+      "choice_rationales": [
+        "Fosfomycin is safe in pregnancy, and trimethoprim sulfamethoxazole should be avoided.",
+        "Trimethoprim sulfamethoxazole is avoided in pregnancy, while nitrofurantoin and fosfomycin are safe in pregnancy.",
+        "Safe oral options exist, and IV ceftriaxone is for complicated UTI, while the hemolysis warning applies to G6PD deficiency.",
+        "Nitrofurantoin is well tolerated and safe in pregnancy, and trimethoprim sulfamethoxazole is the one to avoid."
+      ],
+      "tested_concept": "Uncomplicated UTI therapy in pregnancy",
+      "question_id": "rx-r24-uti-pregnancy",
+      "source_group_id": "g-rx-r24-uti-pregnancy",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 7
+        }
+      ],
+      "visual_target": "Which first line agent should be avoided, and which is acceptable?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 27-year-old woman at 10 weeks of pregnancy has dysuria and frequency without fever. Empiric oral therapy is planned without culture.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What is the mechanism, and which adverse effect needs attention in him?",
+      "options": [
+        "Beta 3 agonism coupled to Gq and IP3 contracts the detrusor, and dry mouth and constipation are the main adverse effects",
+        "Blockade of acetylcholine release paralyzes the detrusor for weeks, and hypertension may raise cardiovascular risk in an elderly patient",
+        "Beta 3 agonism coupled to Gs and cAMP relaxes the detrusor, and hypertension may raise cardiovascular risk in an elderly patient",
+        "M3 antagonism blocks IP3 and calcium release in the detrusor, and hypertension may raise cardiovascular risk in an elderly patient"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. A drug that raises cAMP to relax the detrusor is a beta 3 agonist, mirabegron. Step 2. Gs coupled cAMP inhibits detrusor contraction, and the key adverse effect is hypertension, which may raise cardiovascular risk in elderly patients with existing cardiovascular disease.",
+      "choice_rationales": [
+        "Beta 3 receptors couple to Gs and cAMP, which relaxes the detrusor, and dry mouth is typical of antimuscarinics.",
+        "That is botulinum toxin A, which is infused in small doses, not an oral drug that raises cAMP.",
+        "Mirabegron is a beta 3 agonist where cAMP inhibits detrusor contraction, and its adverse effects include hypertension.",
+        "That is the mechanism of antimuscarinics such as oxybutynin, whose adverse effects are dry mouth and constipation."
+      ],
+      "tested_concept": "Beta 3 agonist mechanism in overactive bladder",
+      "question_id": "rx-r24-mirabegron",
+      "source_group_id": "g-rx-r24-mirabegron",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 15
+        }
+      ],
+      "visual_target": "What is the mechanism, and which adverse effect needs attention in him?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 72-year-old man with coronary artery disease has urge incontinence from an overactive bladder. His urologist prescribes a drug that raises cAMP in the detrusor.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which drug fits, and by what mechanism?",
+      "options": [
+        "Dutasteride, a 5 alpha reductase inhibitor that blocks DHT formation and quickly reduces transmural pressure on the urethra",
+        "Finasteride, a 5 alpha reductase inhibitor that relaxes prostatic smooth muscle and improves voiding within days",
+        "Oxybutynin, an M3 antagonist that relaxes the prostate and improves urine flow through IP3 and calcium blockade within days",
+        "Tamsulosin, an alpha 1A and 1D antagonist that blocks Gq signaling and relaxes prostate smooth muscle within days"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. BPH causing impaired flow can be treated with an alpha 1A and 1D antagonist or a 5 alpha reductase inhibitor. Step 2. Tamsulosin acts within days by blocking Gq mediated smooth muscle contraction, whereas finasteride and dutasteride lower DHT and take weeks.",
+      "choice_rationales": [
+        "Dutasteride works like finasteride, with benefit that takes weeks to become evident.",
+        "Finasteride lowers DHT and shrinks the prostate, and its benefit takes weeks to appear.",
+        "Oxybutynin is an antimuscarinic for urge incontinence, and it does not relax the prostate to improve flow.",
+        "Tamsulosin is an alpha 1A and 1D antagonist that may work quickly to improve voiding."
+      ],
+      "tested_concept": "Alpha 1 antagonist versus 5 alpha reductase inhibitor in BPH",
+      "question_id": "rx-r24-tamsulosin-vs-finasteride",
+      "source_group_id": "g-rx-r24-tamsulosin-vs-finasteride",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which drug fits, and by what mechanism?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old man with a weak urine stream and incomplete bladder emptying from BPH wants a drug that improves voiding within days.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Why is prednisone given together with it?",
+      "options": [
+        "It blocks the androgen receptor, so prednisone prevents the testosterone rise caused by loss of feedback on LH and FSH",
+        "It lowers cortisol along with adrenal androgens, so prednisone replaces the lost glucocorticoid effect",
+        "It raises cortisol through adrenal stimulation, so prednisone suppresses the excess ACTH driven glucocorticoid output",
+        "It inhibits 5 alpha reductase, so prednisone replaces the lost dihydrotestosterone in tissues that depend on it"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. A 17 hydroxylase inhibitor for castration resistant prostate cancer is abiraterone. Step 2. It blocks adrenal androgen and cortisol synthesis, so prednisone replaces glucocorticoid effect and prevents ACTH and aldosterone increases.",
+      "choice_rationales": [
+        "That describes AR antagonists with a GnRH analog, and abiraterone blocks androgen synthesis.",
+        "Abiraterone inhibits both adrenal androgen and cortisol synthesis, so prednisone is given to replace glucocorticoid effects and prevent ACTH and aldosterone increases.",
+        "Abiraterone lowers cortisol synthesis, so prednisone replaces it and does not suppress excess output.",
+        "That is finasteride and dutasteride, which are not useful for prostate cancer treatment."
+      ],
+      "tested_concept": "Why abiraterone is given with prednisone",
+      "question_id": "rx-r25-abiraterone-prednisone",
+      "source_group_id": "g-rx-r25-abiraterone-prednisone",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Why is prednisone given together with it?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 70-year-old man with castration resistant metastatic prostate cancer starts a drug that inhibits 17 hydroxylase.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which statement best guides the choice?",
+      "options": [
+        "An aromatase inhibitor avoids VTE and endometrial cancer risk but raises osteoporosis risk, so bone health needs attention",
+        "Tamoxifen acts as an estrogen antagonist in bone and worsens osteoporosis, so an aromatase inhibitor is the safer option for bone",
+        "Tamoxifen lowers VTE risk and protects the endometrium, so it is the safer option given her prior deep vein thrombosis",
+        "An aromatase inhibitor raises VTE risk through hepatic effects like other estrogen receptor drugs, so tamoxifen is the safer option"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The choice is between a SERM and an aromatase inhibitor. Step 2. All SERMs raise VTE risk and tamoxifen is a partial agonist in the uterus (cancer risk beyond 5 years), while aromatase inhibitors avoid VTE and endometrial risk but raise osteoporosis risk.",
+      "choice_rationales": [
+        "Aromatase inhibitors do not increase VTE or endometrial cancer risk, and unlike tamoxifen they increase osteoporosis risk.",
+        "Tamoxifen is an ER agonist on bone, and aromatase inhibitors are the ones that raise osteoporosis risk.",
+        "Tamoxifen shares estrogen effects that raise VTE risk through the liver, and chronic use beyond 5 years increases uterine cancer risk.",
+        "VTE risk is raised by SERMs such as tamoxifen, not by aromatase inhibitors."
+      ],
+      "tested_concept": "Adverse effects of aromatase inhibitors versus tamoxifen",
+      "question_id": "rx-r25-ai-vs-tamoxifen-ae",
+      "source_group_id": "g-rx-r25-ai-vs-tamoxifen-ae",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 63
+        },
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 64
+        }
+      ],
+      "visual_target": "Which statement best guides the choice?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 61-year-old postmenopausal woman with ER positive breast cancer has osteopenia and a prior deep vein thrombosis. She is choosing between tamoxifen and an aromatase inhibitor.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What are the mechanisms of the two drugs?",
+      "options": [
+        "Mifepristone is an estrogen receptor antagonist that blocks implantation, and misoprostol is an oxytocin analog that causes expulsion",
+        "Mifepristone is a PGE1 analog that stimulates contractions, and misoprostol antagonizes the progesterone receptor to end the pregnancy",
+        "Mifepristone is a GnRH antagonist that stops ovulation, and misoprostol is a PGE2 analog that is given only as a vaginal suppository",
+        "Mifepristone antagonizes the progesterone receptor, and misoprostol, a PGE1 analog, stimulates contractions that expel the embryo"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The two drug sequence for first trimester medical abortion is mifepristone then misoprostol. Step 2. Mifepristone is a progesterone receptor antagonist and misoprostol is a PGE1 analog that stimulates uterine contractions, with about 95 percent effectiveness in the first 7 weeks.",
+      "choice_rationales": [
+        "Mifepristone antagonizes the progesterone receptor, and misoprostol is a PGE1 analog and not an oxytocin analog.",
+        "The roles are reversed, since mifepristone blocks the progesterone receptor and misoprostol stimulates contractions.",
+        "Mifepristone blocks the progesterone receptor, and misoprostol is a PGE1 analog while dinoprostone is the PGE2 agent.",
+        "Mifepristone is a progesterone receptor antagonist and misoprostol is a PGE1 analog that stimulates uterine contractions."
+      ],
+      "tested_concept": "Medication abortion mechanism",
+      "question_id": "rx-r25-mifepristone-misoprostol",
+      "source_group_id": "g-rx-r25-mifepristone-misoprostol",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "What are the mechanisms of the two drugs?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 23-year-old woman at 6 weeks of pregnancy requests medical abortion. She takes one oral drug and, two days later, a second drug if the embryo has not been expelled.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What is the best advice?",
+      "options": [
+        "Estrogen alone is acceptable, because a progestogen is needed only when therapy continues past age 60",
+        "Add a progestogen to the estrogen, because estrogen alone can cause endometrial cancer in a woman with a uterus",
+        "Add a progestogen, because combined therapy prevents coronary heart disease and so offsets the risk of treatment",
+        "Use paroxetine instead, because hormone therapy is not approved for menopausal symptoms and paroxetine is"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. She meets the criteria of bothersome symptoms and no contraindications, so hormone therapy is reasonable. Step 2. A woman with a uterus needs a progestogen added, because estrogen alone can cause endometrial cancer.",
+      "choice_rationales": [
+        "The progestogen is needed whenever the uterus is present, not only past age 60.",
+        "Progestogen is added to estrogen to protect women with a uterus against endometrial cancer caused by estrogen alone.",
+        "Hormone therapy is not for prevention of cardiac disease, and the progestogen protects the endometrium.",
+        "Hormone therapy is the only pharmacologic class approved for menopausal symptoms, and paroxetine is the only nonhormonal option."
+      ],
+      "tested_concept": "Progestogen added to estrogen in women with a uterus",
+      "question_id": "rx-r30-estrogen-needs-progestogen",
+      "source_group_id": "g-rx-r30-estrogen-needs-progestogen",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 67
+        }
+      ],
+      "visual_target": "What is the best advice?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 52-year-old woman with an intact uterus has disabling hot flashes despite lifestyle measures and has no contraindications. She asks to take estrogen alone.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "How does the drug induce ovulation?",
+      "options": [
+        "It antagonizes estrogen receptors in the ovary, so follicle growth is stimulated directly without any change in pituitary output",
+        "It activates estrogen positive feedback at the hypothalamus, so the mid cycle LH surge is triggered directly by the drug",
+        "It blocks estrogen negative feedback, so LH and FSH release from the pituitary increases and ovulation follows",
+        "It is a GnRH agonist that desensitizes the pituitary, so FSH falls and the dominant follicle matures without a surge"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. A drug similar to tamoxifen used only for infertility is clomiphene, the infertility drug of choice for PCOS. Step 2. It blocks estradiol negative feedback, raising LH and FSH release and inducing ovulation in women with adequate pituitary reserves.",
+      "choice_rationales": [
+        "Clomiphene acts at the hypothalamus and pituitary feedback, and the infertility benefit depends on adequate pituitary LH and FSH reserves.",
+        "The mechanism is blocking negative feedback, and positive feedback activation is what ovulation inhibiting contraceptives interfere with.",
+        "Clomiphene is a SERM that blocks estradiol negative feedback to trigger LH and FSH release and ovulation.",
+        "GnRH agonists suppress LH and FSH after an initial rise, and clomiphene increases LH and FSH."
+      ],
+      "tested_concept": "Clomiphene mechanism in ovulation induction",
+      "question_id": "rx-r25-clomiphene-mechanism",
+      "source_group_id": "g-rx-r25-clomiphene-mechanism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "How does the drug induce ovulation?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 27-year-old woman with PCOS and infertility is given an oral drug related to tamoxifen to induce ovulation.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What is the best next step?",
+      "options": [
+        "Stop the infusion and give calcium gluconate, because loss of reflexes and respiratory depression are signs of magnesium toxicity",
+        "Continue the infusion and give IV hydralazine, because the reflex loss is a sign of reflex tachycardia from vasodilation",
+        "Continue the infusion and give sublingual nifedipine, because the absent reflexes reflect uncontrolled blood pressure",
+        "Stop the infusion and give labetalol, because the respiratory depression reflects excess beta blockade from the magnesium"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Magnesium sulfate prevents eclamptic seizures by antagonizing NMDA receptors and calcium channels. Step 2. Toxicity shows as lost reflexes and respiratory depression and is reversed by calcium gluconate after stopping the infusion.",
+      "choice_rationales": [
+        "Toxicity appears as lost reflexes, respiratory depression and arrest, and it is reversed by calcium gluconate.",
+        "Hydralazine causes reflex tachycardia and does not explain or treat absent reflexes.",
+        "Nifedipine is never given sublingually, and absent reflexes point to magnesium toxicity.",
+        "Magnesium does not cause beta blockade, and the antidote is calcium gluconate."
+      ],
+      "tested_concept": "Magnesium sulfate toxicity monitoring and antidote",
+      "question_id": "rx-r21-magnesium-toxicity",
+      "source_group_id": "g-rx-r21-magnesium-toxicity",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 70
+        }
+      ],
+      "visual_target": "What is the best next step?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 30-year-old woman at 34 weeks with severe preeclampsia receives an IV loading dose and then an infusion for seizure prophylaxis. Her patellar reflexes are now absent and her respiratory rate is 9.",
+      "study_skill": "management"
+    }
+  ]
+}

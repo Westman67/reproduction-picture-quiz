@@ -200,7 +200,13 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
         seen_questions.add(label)
 
         is_table = question.get("visual_kind") == "table"
-        if is_table:
+        is_text = question.get("visual_kind") == "text"
+        if is_text:
+            if not question.get("citations"):
+                errors.append(f"{label}: text question has no citations")
+            if any(question.get(field) for field in ("source_id", "asset_id", "variant_id", "image", "zoom_image", "original_image")):
+                errors.append(f"{label}: text question has image lineage")
+        elif is_table:
             validate_table(question, label, errors)
         else:
             source_id = question.get("source_id")
@@ -249,8 +255,8 @@ def validate(manifest_path: Path, bank_path: Path) -> list[str]:
 
         if question.get("study_skill") is not None and question.get("study_skill") not in STUDY_SKILLS:
             errors.append(f"{label}: invalid study_skill {question['study_skill']!r}")
-        required = ("question_type", "tested_concept", "stem", "explanation", "visual_clues")
-        if not is_table:
+        required = ("question_type", "tested_concept", "stem", "explanation") + (() if is_text else ("visual_clues",))
+        if not is_table and not is_text:
             required += ("variant_id",)
         for field in required:
             if not question.get(field):

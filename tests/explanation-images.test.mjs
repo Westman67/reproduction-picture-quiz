@@ -4,7 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 
 const base = path.resolve(import.meta.dirname, '..');
-const banks = ['physiology', 'pathology', 'clinical-cases'];
+const banks = ['physiology', 'pathology', 'pharmacology', 'clinical-cases'];
 
 test('choice pictures align with options and point to real PNG or WebP files', () => {
     let linked = 0;

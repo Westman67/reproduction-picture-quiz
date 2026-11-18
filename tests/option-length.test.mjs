@@ -4,8 +4,8 @@ import { readFileSync } from 'node:fs';
 
 // Guards against the "longest answer is usually correct" bias.
 // Targets: the correct option is the longest in at most 45 percent of questions, and 20 percent longer than every distractor in at most 3 percent.
-const ceiling = {pathology: {longest: 0.45, flagged: 0.03}, physiology: {longest: 0.45, flagged: 0.03}, 'clinical-cases': {longest: 0.45, flagged: 0.03}};
-for (const bank of ['pathology', 'physiology', 'clinical-cases']) {
+const ceiling = {pathology: {longest: 0.45, flagged: 0.03}, physiology: {longest: 0.45, flagged: 0.03}, 'clinical-cases': {longest: 0.45, flagged: 0.03}, pharmacology: {longest: 0.45, flagged: 0.03}};
+for (const bank of ['pathology', 'physiology', 'clinical-cases', 'pharmacology']) {
   test(`option length bias: ${bank}`, () => {
     const d = JSON.parse(readFileSync(`data/${bank}/question-bank.json`, 'utf8'));
     const qs = (Array.isArray(d) ? d : d.questions).filter(q => q.source_origin !== 'third_party');
