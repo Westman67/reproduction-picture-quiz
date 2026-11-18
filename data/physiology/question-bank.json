@@ -3125,6 +3125,100 @@
       "case_context": null,
       "condition_name": "Overview of Functional Cardiac Development",
       "condition_overview": "The neonatal heart faces a rising workload as oxygen availability improves. Read the aligned tracks together to distinguish the postnatal oxidative shift from the earlier glycolytic pattern."
+    },
+    {
+      "stem": "Which combination of changes does the diagram predict in him?",
+      "options": [
+        "Lower GnRH, LH and FSH, so Leydig and Sertoli stimulation falls and intratesticular testosterone and sperm production decline",
+        "Unchanged gonadotropins, because inhibin from the Sertoli cells blocks the feedback of testosterone on the pituitary",
+        "Higher LH and FSH, so Leydig and Sertoli cells are stimulated more and sperm production rises along with the androgen effects",
+        "Lower LH but higher FSH, so Sertoli cells keep sperm production up while the Leydig cells shut down alone"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The diagram shows testosterone feeding back on the hypothalamus and pituitary. Step 2. Exogenous testosterone suppresses GnRH, LH and FSH, so endogenous testicular testosterone and sperm production fall while androgenic effects on target tissues continue.",
+      "choice_rationales": [
+        "The elevated androgen exerts negative feedback on GnRH, LH and FSH, which reduces both Leydig and Sertoli cell stimulation.",
+        "Elevated circulating androgen suppresses GnRH, LH and FSH, and inhibin does not block that feedback.",
+        "The feedback is negative, so the gonadotropins fall and do not rise.",
+        "Both LH and FSH are suppressed, and reduced FSH impairs Sertoli cell function too."
+      ],
+      "tested_concept": "Negative feedback with exogenous testosterone",
+      "question_id": "rx-r2-exogenous-testosterone-axis",
+      "source_id": "s-rx-p11",
+      "source_group_id": "g-rx-p11",
+      "variant_id": "v-rx-p11",
+      "question_type": "Visual reasoning",
+      "category": "Diagram",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "image": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+      "zoom_image": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+      "original_image": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+      "original_filename": "R2/HPG Axis Feedback with Exogenous Testosterone - Diagram.png",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 32
+        }
+      ],
+      "visual_clues": [
+        "A hypothalamus, pituitary, Leydig cell and Sertoli cell pathway shows feedback arrows that end in blocked symbols."
+      ],
+      "visual_target": "Which combination of changes does the diagram predict in him?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 27-year-old man injects testosterone for muscle gain. The diagram shows the hypothalamic pituitary testicular axis with feedback arrows from testosterone.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "How do her low estrogen levels increase bone loss, and which drug targets the signal in the box that carries RANK ligand?",
+      "options": [
+        "Loss of estrogen raises M-CSF, which shrinks the osteoclast pool, so a bisphosphonate is given to restore it",
+        "Loss of estrogen raises PTH and vitamin D only, so RANK ligand is unchanged and denosumab has no target",
+        "Loss of estrogen allows more IL-6 and RANK ligand signaling to precursors, so resorption rises, and denosumab blocks RANK ligand",
+        "Loss of estrogen lowers IL-6 and RANK ligand, so resorption falls and a bisphosphonate is unnecessary"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The diagram shows osteoclast precursors turning into resorbing osteoclasts under signals that include IL-6 and RANK ligand, with estrogen acting on the lining cells. Step 2. Estrogen loss increases bone resorption. Denosumab is an antibody that blocks RANKL binding to RANK, which lowers osteoclastogenesis and osteoclast activity.",
+      "choice_rationales": [
+        "Bisphosphonates are toxic to osteoclasts and are not given to restore their numbers.",
+        "RANKL binding to RANK induces osteoclastogenesis, and denosumab acts on exactly this ligand.",
+        "The lecture states osteoporosis is secondary to estrogen loss and increased bone resorption, and denosumab blocks RANKL binding to RANK.",
+        "Estrogen loss increases bone resorption, so resorption does not fall."
+      ],
+      "tested_concept": "Estrogen loss and RANK ligand driven bone resorption",
+      "question_id": "rx-r4-rankl-diagram",
+      "source_id": "s-rx-p21",
+      "source_group_id": "g-rx-p21",
+      "variant_id": "v-rx-p21",
+      "question_type": "Visual reasoning",
+      "category": "Diagram",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "image": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+      "zoom_image": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+      "original_image": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+      "original_filename": "R4/Estrogen and Bone Remodeling Diagram - Diagram.png",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 17
+        }
+      ],
+      "visual_clues": [
+        "Osteoclast precursors, stem cells, M-CSF, IL-6 with RANK ligand, vitamin D, PTH and estrogen are drawn around a resorbing osteoclast."
+      ],
+      "visual_target": "How do her low estrogen levels increase bone loss, and which drug targets the signal in the box that carries RANK ligand?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "The diagram shows signals that drive osteoclast formation at a bone surface, with an arrow showing estrogen acting on the lining cells. A 58-year-old woman is postmenopausal and has osteoporosis.",
+      "study_skill": "mechanism"
     }
   ],
   "retired_questions": [

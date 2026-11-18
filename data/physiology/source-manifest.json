@@ -4453,6 +4453,82 @@
         "method": "page_render"
       },
       "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page."
+    },
+    {
+      "source_id": "s-rx-p11",
+      "source_group_id": "g-rx-p11",
+      "lecture_id": "R2",
+      "relative_path": "R2/HPG Axis Feedback with Exogenous Testosterone - Diagram.png",
+      "sha256": "9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9",
+      "dimensions": [
+        440,
+        625
+      ],
+      "status": "USABLE",
+      "review_reason": "Drug question image reviewed against the cited lecture.",
+      "tested_concept": "Negative feedback with exogenous testosterone",
+      "original_asset": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+      "display_asset": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R2 Male Physiology RLS.pdf",
+        "page": 32
+      },
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "variants": [
+        {
+          "variant_id": "v-rx-p11",
+          "asset": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+          "zoom_asset": "assets/zoom/9eb3c358de9cc2855281e91fa83998ef1c037451daecd402000f089018379ef9.webp",
+          "transform": {
+            "type": "crop",
+            "reason": "Keep the teaching panel only."
+          },
+          "output_dimensions": [
+            440,
+            625
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "s-rx-p21",
+      "source_group_id": "g-rx-p21",
+      "lecture_id": "R4",
+      "relative_path": "R4/Estrogen and Bone Remodeling Diagram - Diagram.png",
+      "sha256": "8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243",
+      "dimensions": [
+        969,
+        657
+      ],
+      "status": "USABLE",
+      "review_reason": "Drug question image reviewed against the cited lecture.",
+      "tested_concept": "Estrogen loss and RANK ligand driven bone resorption",
+      "original_asset": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+      "display_asset": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R4 Menopause RLS.pdf",
+        "page": 17
+      },
+      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image.",
+      "rights_status": "Underlying image rights retained by original owners; no image license granted by this project.",
+      "variants": [
+        {
+          "variant_id": "v-rx-p21",
+          "asset": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+          "zoom_asset": "assets/zoom/8685d14a8aeb3d9089fd712921a374dca62da1ccb1467a441c9e5673e9897243.webp",
+          "transform": {
+            "type": "crop",
+            "reason": "Keep the teaching panel only."
+          },
+          "output_dimensions": [
+            969,
+            657
+          ]
+        }
+      ]
     }
   ],
   "audit_date": "2026-11-09",
