@@ -863,7 +863,7 @@ document.addEventListener('keydown', event => {
     if (/^[1-5]$/.test(key)) {
         document.querySelectorAll('[data-choice]')[Number(key) - 1]?.click();
     } else if (key === 'Enter') {
-        if ((caseMode||combinedMode) && target.closest?.('button, a, summary')) return;
+        if (target.closest?.('a, summary, button:not([data-choice])')) return;
         event.preventDefault();
         const submit = $('#submit');
         if (submit && !submit.disabled) submit.click();
