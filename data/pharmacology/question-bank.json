@@ -388,6 +388,926 @@
       "review_status": "USABLE",
       "case_context": "A 30-year-old woman at 34 weeks with severe preeclampsia receives an IV loading dose and then an infusion for seizure prophylaxis. Her patellar reflexes are now absent and her respiratory rate is 9.",
       "study_skill": "management"
+    },
+    {
+      "stem": "Which pairing of drug and mechanism is correct?",
+      "options": [
+        "Ciprofloxacin is the empiric first line agent because it forms reactive intermediates in urine",
+        "Nitrofurantoin inhibits MurA, an enzyme of bacterial cell wall synthesis",
+        "Trimethoprim sulfamethoxazole blocks bacterial tetrahydrofolate production",
+        "Fosfomycin blocks bacterial tetrahydrofolate production through a two drug combination"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The lecture lists nitrofurantoin, trimethoprim sulfamethoxazole and fosfomycin as first line for uncomplicated lower UTI. Step 2. Nitrofurantoin forms reactive intermediates in urine, trimethoprim sulfamethoxazole inhibits folate production, and fosfomycin inhibits the cell wall enzyme MurA.",
+      "choice_rationales": [
+        "Ciprofloxacin is a fluoroquinolone used for complicated infection, and reactive urinary intermediates describe nitrofurantoin.",
+        "MurA is the target of fosfomycin. Nitrofurantoin is concentrated in urine and converted to reactive intermediates.",
+        "Both components act on the bacterial folate pathway, so this pairing is correct.",
+        "Fosfomycin is a single agent that inhibits MurA in cell wall synthesis and has no effect on folate production."
+      ],
+      "tested_concept": "Mechanisms of first line UTI drugs",
+      "question_id": "rx-r24-uti-drug-mechanisms",
+      "source_group_id": "g-rx-r24-uti-drug-mechanisms",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 7
+        }
+      ],
+      "visual_target": "Which pairing of drug and mechanism is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A resident reviews the first line empiric drugs for uncomplicated lower urinary tract infection and tries to match each drug with its mechanism.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which drug choice fits both problems, and why?",
+      "options": [
+        "A calcium tablet taken daily, because extra calcium treats the bone loss and binds oxalate to prevent stones",
+        "A thiazide diuretic, because it lowers urinary calcium and offers some protection against postmenopausal bone loss",
+        "A low calcium diet, because less dietary calcium reduces calcium oxalate stone formation",
+        "Allopurinol, because inhibiting xanthine oxidase lowers urinary calcium and protects bone"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Calcium oxalate stones are reduced by decreasing urinary calcium excretion, which thiazide diuretics do. Step 2. The lecture adds that thiazides give some protection against postmenopausal bone loss, so one drug serves both problems.",
+      "choice_rationales": [
+        "The lecture advises calcium rich foods but warns to avoid calcium tablets in stone formers.",
+        "This choice names the drug whose urinary calcium effect and bone effect both match her two problems.",
+        "The lecture advises dietary calcium from food, so cutting calcium is not the recommended approach, and diet changes target animal protein and oxalate instead.",
+        "Allopurinol blocks conversion of xanthine to uric acid and targets xanthine or uric acid crystals, not calcium oxalate."
+      ],
+      "tested_concept": "Thiazide use in calcium oxalate stones",
+      "question_id": "rx-r24-stones-thiazide",
+      "source_group_id": "g-rx-r24-stones-thiazide",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 5
+        }
+      ],
+      "visual_target": "Which drug choice fits both problems, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 61-year-old postmenopausal woman has recurrent calcium oxalate kidney stones. Bone density testing also shows early bone loss.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which explanation is best?",
+      "options": [
+        "The drug raises cAMP in detrusor muscle, and the same cAMP rise slows saliva and bowel motility",
+        "The drug is only somewhat selective for M3 receptors and also blocks other muscarinic receptors in the salivary glands and gut",
+        "The drug blocks acetylcholine release from nerve terminals, so every cholinergic organ is affected equally",
+        "The drug stimulates beta 3 receptors in the bladder, and the same signal reduces secretions in the mouth and bowel"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Oxybutynin blocks excitatory M3 receptors coupled to IP3 and diacylglycerol, which reduces detrusor contraction. Step 2. The block is only somewhat selective, so muscarinic receptors in salivary glands and the gut are also blocked and cause dry mouth and constipation.",
+      "choice_rationales": [
+        "A cAMP rise through Gs describes the beta 3 pathway of mirabegron, which oxybutynin does not use.",
+        "This choice matches the lecture statement that these agents have some antagonist effects at other muscarinic receptors.",
+        "Blocking acetylcholine release describes botulinum toxin, whereas oxybutynin blocks the receptor.",
+        "Beta 3 agonism describes mirabegron, and oxybutynin acts as a muscarinic antagonist."
+      ],
+      "tested_concept": "Antimuscarinic selectivity and adverse effects",
+      "question_id": "rx-r24-antimuscarinic-dry-mouth",
+      "source_group_id": "g-rx-r24-antimuscarinic-dry-mouth",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 14
+        }
+      ],
+      "visual_target": "Which explanation is best?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 70-year-old woman with urge incontinence takes oxybutynin and reports dry mouth and constipation. Her daughter asks why a bladder drug causes these symptoms.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which concern is most specific to mirabegron in this patient?",
+      "options": [
+        "It acts through Gq and IP3, so it raises intracellular calcium in vascular smooth muscle and so produces a pressor effect that antimuscarinics lack",
+        "It can raise blood pressure, which may increase cardiovascular events in elderly patients with existing cardiovascular disease",
+        "It blocks acetylcholine release, so it removes parasympathetic tone from the heart",
+        "It blocks M3 receptors, so it causes the same hypertension as antimuscarinic drugs"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Mirabegron is a beta 3 agonist that increases cAMP through Gs and relaxes the detrusor. Step 2. Its lecture adverse effect is hypertension, which matters in an elderly patient with coronary disease and hypertension, and its effects may be additive with an antimuscarinic.",
+      "choice_rationales": [
+        "Mirabegron couples through Gs to cAMP. Gq and IP3 describe M3 receptor signaling.",
+        "The lecture lists hypertension as the adverse effect of mirabegron and notes the risk in older patients with cardiovascular disease.",
+        "Blocking acetylcholine release describes botulinum toxin and not mirabegron.",
+        "Hypertension is not the lecture adverse effect of antimuscarinics, which cause dry mouth and constipation."
+      ],
+      "tested_concept": "Mirabegron cardiovascular caution",
+      "question_id": "rx-r24-mirabegron-htn",
+      "source_group_id": "g-rx-r24-mirabegron-htn",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 15
+        }
+      ],
+      "visual_target": "Which concern is most specific to mirabegron in this patient?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 78-year-old man has overactive bladder, long standing coronary artery disease and hypertension. His clinician weighs mirabegron against an antimuscarinic.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which mechanism explains the benefit, and how long does it last?",
+      "options": [
+        "It activates beta 3 receptors and raises cAMP, with benefit that fades within hours",
+        "It blocks alpha 1A receptors in the bladder outlet, which improves voiding within days",
+        "It blocks exocytosis of acetylcholine and calms detrusor overactivity, with benefit lasting weeks after one infusion",
+        "It blocks M3 receptors on detrusor muscle, so it must be taken several times daily to keep working"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Anabotulinum toxin A blocks release of acetylcholine from detrusor nerve terminals. Step 2. This reduces inappropriate detrusor contraction, and a single careful infusion gives benefit lasting weeks.",
+      "choice_rationales": [
+        "This describes mirabegron, and a single infusion of the toxin lasts far longer than hours.",
+        "Alpha 1A blockade describes tamsulosin for prostate related outflow obstruction.",
+        "This choice states the lecture mechanism and the long lasting benefit from a single infusion.",
+        "Receptor blockade describes the oral antimuscarinics that she has already failed."
+      ],
+      "tested_concept": "Botulinum toxin mechanism in the bladder",
+      "question_id": "rx-r24-botulinum-oab",
+      "source_group_id": "g-rx-r24-botulinum-oab",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 15
+        }
+      ],
+      "visual_target": "Which mechanism explains the benefit, and how long does it last?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old woman with severe urge incontinence has not improved on two antimuscarinic drugs and one beta 3 agonist. Her urologist offers a small dose infused into the bladder wall.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which approach best matches the lecture for his incontinence?",
+      "options": [
+        "Start mirabegron, because beta 3 stimulation raises cAMP and drives detrusor contraction",
+        "Start duloxetine, because it is FDA approved for overflow incontinence from outlet obstruction",
+        "Treat the cause of obstruction, using BPH drugs, surgery to relieve the blockage, or clean catheterization to empty the bladder",
+        "Start oxybutynin, because blocking M3 receptors strengthens detrusor contraction and empties the bladder, the same effect it has in urge incontinence"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. A distended bladder with weak stream and dribbling fits overflow incontinence from outlet obstruction. Step 2. No drug treats overflow incontinence directly, so therapy is aimed at BPH when it is the cause, surgery to remove the blockage, or clean catheters.",
+      "choice_rationales": [
+        "Beta 3 stimulation relaxes the detrusor, which is the opposite of what he needs.",
+        "Duloxetine is a modest option for stress incontinence, and no drug is approved for overflow incontinence.",
+        "The lecture states that no drug treats overflow incontinence itself, so therapy targets the obstruction or empties the bladder.",
+        "M3 blockade weakens detrusor contraction and would worsen retention."
+      ],
+      "tested_concept": "Overflow incontinence management",
+      "question_id": "rx-r24-overflow-no-drug",
+      "source_group_id": "g-rx-r24-overflow-no-drug",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 16
+        }
+      ],
+      "visual_target": "Which approach best matches the lecture for his incontinence?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 72-year-old man dribbles urine, has a weak stream and incomplete emptying, and the bladder is distended on examination. He asks for an overactive bladder pill.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which explanation best accounts for this?",
+      "options": [
+        "Dihydrotestosterone is a more potent androgen receptor agonist than testosterone and is needed for full androgen effects in the prostate",
+        "Finasteride blocks alpha 1A receptors, so prostate smooth muscle relaxes and the gland gets smaller, which would leave testosterone unable to act on prostate cells",
+        "Finasteride blocks aromatase, so lower estrogen removes growth stimulation of the prostate",
+        "Finasteride blocks the androgen receptor, so testosterone can no longer bind prostate cells"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Finasteride inhibits 5 alpha reductase and blocks conversion of testosterone to dihydrotestosterone. Step 2. Dihydrotestosterone is the more potent agonist at the androgen receptor, so its loss reduces prostate hypertrophy and the benefit takes weeks to appear.",
+      "choice_rationales": [
+        "This choice explains why blocking conversion to dihydrotestosterone shrinks the prostate even when testosterone is unchanged.",
+        "Alpha 1A blockade describes tamsulosin, which relaxes muscle quickly but does not shrink the gland.",
+        "Aromatase inhibitors act in breast cancer therapy, and finasteride acts on 5 alpha reductase.",
+        "Receptor blockade describes drugs such as bicalutamide, whereas finasteride blocks an enzyme."
+      ],
+      "tested_concept": "Why DHT lowering shrinks the prostate",
+      "question_id": "rx-r24-finasteride-dht",
+      "source_group_id": "g-rx-r24-finasteride-dht",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 17
+        }
+      ],
+      "visual_target": "Which explanation best accounts for this?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old man with BPH starts finasteride. His serum testosterone barely changes, yet his prostate volume decreases over months.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Why does the GnRH analog help the gynecomastia?",
+      "options": [
+        "It lowers testosterone, so less testosterone is available for conversion to estrogens",
+        "It blocks estrogen receptors in the breast, so breast tissue stops responding to estrogen",
+        "It blocks aromatase, so testosterone can no longer be converted to estradiol",
+        "It restores androgen receptor signaling in the breast, so breast sensitivity to estrogen falls"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Androgen receptor blockade alone removes androgen effects that normally lower breast sensitivity to estrogens, so gynecomastia is reliable. Step 2. A GnRH analog suppresses LH and FSH, lowers testosterone and so reduces the testosterone available to become estrogen.",
+      "choice_rationales": [
+        "The lecture states that GnRH analogs reduce gynecomastia by reducing testosterone available for conversion to estrogens.",
+        "Estrogen receptor blockade describes tamoxifen or fulvestrant and not a GnRH analog.",
+        "Aromatase inhibition is a separate drug class, and the GnRH analog works through the pituitary.",
+        "The androgen receptor remains blocked by the antagonist, and the GnRH analog acts upstream on LH and FSH."
+      ],
+      "tested_concept": "Gynecomastia with antiandrogens",
+      "question_id": "rx-r25-gynecomastia-gnrh",
+      "source_group_id": "g-rx-r25-gynecomastia-gnrh",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 58
+        }
+      ],
+      "visual_target": "Why does the GnRH analog help the gynecomastia?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A man with metastatic prostate cancer on an androgen receptor antagonist alone develops breast enlargement. His oncologist adds a GnRH analog, and the breast tenderness improves.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Why does an androgen receptor antagonist still help him?",
+      "options": [
+        "The antagonist blocks 5 alpha reductase, so dihydrotestosterone formation in the tumor stops",
+        "The antagonist blocks estrogen receptors in tumor cells, so estrogen driven growth stops",
+        "Adrenal androgens persist after castration, and the antagonist blocks their signaling through the androgen receptor",
+        "The antagonist raises testosterone, which overcomes the low testosterone left by the GnRH analog, which would restore her normal testosterone levels"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. A GnRH analog lowers LH and FSH and so lowers testicular testosterone, but the adrenal glands still make androstenedione and DHEA. Step 2. Bicalutamide, nilutamide and enzalutamide block the androgen receptor, so they stop signaling by those adrenal androgens.",
+      "choice_rationales": [
+        "Blocking 5 alpha reductase describes finasteride and dutasteride, which are not useful for prostate cancer treatment.",
+        "Prostate cancer in this setting is driven by androgen receptor signaling, not by estrogen receptors.",
+        "The lecture states that these drugs block androgen receptor signaling by adrenal androgens that persist after castration.",
+        "Antagonists can raise testosterone when used alone, but this does not treat castration resistant disease."
+      ],
+      "tested_concept": "Castration resistant prostate cancer and adrenal androgens",
+      "question_id": "rx-r25-crpc-adrenal",
+      "source_group_id": "g-rx-r25-crpc-adrenal",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 58
+        }
+      ],
+      "visual_target": "Why does an androgen receptor antagonist still help him?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A man treated with a GnRH analog has low testosterone, but his prostate cancer progresses and imaging shows new bone metastases.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which drug and mechanism best fit?",
+      "options": [
+        "Enzalutamide, which is a potent androgen receptor antagonist often used for hirsutism in women, and is given with prednisone to replace glucocorticoid effects",
+        "Finasteride, which blocks 5 alpha reductase and is the first choice for hirsutism in women",
+        "Abiraterone, which inhibits 17 hydroxylase and is often used for hirsutism in women",
+        "Spironolactone, which weakly blocks the androgen receptor and also lowers steroid 17 hydroxylase"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Hirsutism reflects androgen driven hair growth. Step 2. Spironolactone is a weak androgen receptor antagonist and also lowers levels of steroid 17 hydroxylase involved in androgen synthesis, which is why it is often used for hirsutism.",
+      "choice_rationales": [
+        "Enzalutamide is a potent antagonist approved for prostate cancer and is not the lecture choice for hirsutism.",
+        "Finasteride is described for BPH and male pattern baldness and not as the hirsutism drug for women.",
+        "Abiraterone is used for castration resistant prostate cancer and needs prednisone, so it is not the usual hirsutism drug.",
+        "This drug and its two actions are the lecture example for hirsutism in women."
+      ],
+      "tested_concept": "Spironolactone for hirsutism",
+      "question_id": "rx-r25-spironolactone-hirsutism",
+      "source_group_id": "g-rx-r25-spironolactone-hirsutism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 59
+        },
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 60
+        }
+      ],
+      "visual_target": "Which drug and mechanism best fit?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 27-year-old woman with polycystic ovary syndrome has troublesome facial hair growth. Her physician chooses an oral drug that is often used for hirsutism in women.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which mechanism best explains both findings?",
+      "options": [
+        "It blocks the androgen receptor and the glucocorticoid receptor in target tissues, so neither hormone could still act on its target tissues",
+        "It blocks LH and FSH release, which lowers gonadal androgens and adrenal cortisol together",
+        "It blocks only 5 alpha reductase, which lowers dihydrotestosterone but cannot lower cortisol",
+        "It inhibits several cytochrome P450 enzymes of steroid synthesis, so both androgen and corticosteroid production fall"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Androgens and cortisol are built by several cytochrome P450 enzymes. Step 2. Ketoconazole inhibits multiple CYP enzymes, so it lowers androgen and corticosteroid synthesis together.",
+      "choice_rationales": [
+        "Receptor blockade would not lower hormone production, and ketoconazole acts on synthesis.",
+        "LH and FSH do not drive adrenal cortisol, which is controlled by ACTH.",
+        "5 alpha reductase inhibition would not explain a fall in cortisol.",
+        "The lecture states that ketoconazole inhibits multiple steroidogenic CYP enzymes and so lowers androgen and corticosteroid synthesis."
+      ],
+      "tested_concept": "Ketoconazole steroid synthesis inhibition",
+      "question_id": "rx-r25-ketoconazole",
+      "source_group_id": "g-rx-r25-ketoconazole",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 60
+        }
+      ],
+      "visual_target": "Which mechanism best explains both findings?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A patient given the systemic antifungal ketoconazole is found to have lower androgen levels and signs of reduced cortisol.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which explanation matches the lecture?",
+      "options": [
+        "Tamoxifen degrades the receptor in breast but stabilizes it in bone and liver",
+        "Tissues use different coactivators, and tamoxifen shifts the receptor into a shape that recruits only a limited set of them",
+        "Tamoxifen is converted to estradiol in bone and liver, and the estradiol produces the agonist effect",
+        "Tamoxifen binds a different estrogen receptor gene in bone and liver than the one expressed in breast, which the drug recognizes selectively"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Different target genes need different coactivators. Step 2. A SERM such as tamoxifen changes the estrogen receptor conformation so that it recruits only a subset of coactivators, giving antagonism in breast and agonism in tissues such as bone and liver.",
+      "choice_rationales": [
+        "Receptor degradation is described for fulvestrant and not as the basis of SERM selectivity.",
+        "The lecture links tissue selectivity to coactivator diversity and a receptor conformation that recruits a limited subset.",
+        "The lecture gives no such conversion, and selectivity reflects coactivators and receptor shape.",
+        "The same receptor ligands act on estrogen receptors in all tissues, and selectivity comes from coactivators."
+      ],
+      "tested_concept": "Tissue selectivity of SERMs",
+      "question_id": "rx-r25-serm-selectivity",
+      "source_group_id": "g-rx-r25-serm-selectivity",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 11
+        }
+      ],
+      "visual_target": "Which explanation matches the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A student asks why tamoxifen blocks estrogen receptors in breast tumors yet acts like an estrogen in bone and liver.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which drug best fits, and why?",
+      "options": [
+        "Fulvestrant, because a pure antagonist protects bone while blocking breast estrogen receptors",
+        "Tamoxifen, because it is approved for osteoporosis treatment as well as breast cancer prevention",
+        "Anastrozole, because aromatase inhibitors prevent breast cancer and also protect bone by lowering estrogen driven bone turnover",
+        "Raloxifene, because it antagonizes breast estrogen receptors, acts as an agonist in bone and has minimal uterine agonist effect"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. She needs breast antagonism and bone agonism. Step 2. Raloxifene is used for prevention of breast cancer in high risk postmenopausal women and for treatment and prevention of osteoporosis, with minimal uterine effect, though it still raises VTE risk like other SERMs.",
+      "choice_rationales": [
+        "Fulvestrant lacks agonist effects and would be expected to increase osteoporosis risk.",
+        "Tamoxifen acts as an agonist on bone but is not approved for osteoporosis treatment.",
+        "Aromatase inhibitors increase the risk of osteoporosis and are not used for prevention in this way.",
+        "This combination of actions matches her need and gives a low risk of uterine cancer."
+      ],
+      "tested_concept": "Raloxifene for osteoporosis with breast cancer risk",
+      "question_id": "rx-r25-raloxifene-choice",
+      "source_group_id": "g-rx-r25-raloxifene-choice",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 64
+        }
+      ],
+      "visual_target": "Which drug best fits, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 63-year-old postmenopausal woman has osteoporosis and a high risk of breast cancer. She wants one drug that treats the bone problem and lowers her breast cancer risk, and she has no history of clots.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which statement about fulvestrant is supported?",
+      "options": [
+        "It is given orally and works by inhibiting aromatase",
+        "It acts only by degrading the receptor, and degradation is proven necessary for its antagonism in all target tissues",
+        "It is a pure estrogen receptor antagonist without tissue selective agonist effects, so bone loss would be expected",
+        "It is a SERM with partial agonist effects, so it protects bone like raloxifene"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Fulvestrant is a steroidal pure estrogen receptor antagonist. Step 2. Unlike SERMs it has no tissue selective agonist effects, it may lower receptor levels but degradation is not proven necessary, and bone loss would be expected.",
+      "choice_rationales": [
+        "Fulvestrant is given by subcutaneous depot injection and does not inhibit aromatase.",
+        "The lecture says there is no evidence that degradation is necessary for potent antagonism.",
+        "This choice states its lack of agonist effects and the bone consequence.",
+        "Fulvestrant is not a SERM and has no agonist activity, so it does not protect bone."
+      ],
+      "tested_concept": "Fulvestrant compared with SERMs",
+      "question_id": "rx-r25-fulvestrant",
+      "source_group_id": "g-rx-r25-fulvestrant",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 68
+        }
+      ],
+      "visual_target": "Which statement about fulvestrant is supported?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with advanced breast cancer that no longer responds to other endocrine therapy is offered a subcutaneous depot injection of fulvestrant.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which prediction is best?",
+      "options": [
+        "Neither will respond because clomiphene stimulates estrogen receptors and raises negative feedback",
+        "The first woman may ovulate because clomiphene needs adequate pituitary LH and FSH reserves to release",
+        "Both will respond equally because clomiphene acts directly on the ovary to trigger ovulation",
+        "The second woman will respond better because clomiphene supplies LH and FSH directly"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Clomiphene blocks estrogen negative feedback so LH and FSH release rises. Step 2. This only works if the pituitary has gonadotropin reserve to release, so the woman with a normal pituitary can respond and the one with pituitary failure cannot.",
+      "choice_rationales": [
+        "Clomiphene is a SERM that blocks estrogen negative feedback, so it removes restraint and raises LH and FSH.",
+        "The lecture states clomiphene can enable pregnancy in patients with adequate pituitary LH and FSH reserves.",
+        "Clomiphene acts through feedback on LH and FSH release, not directly on the ovary.",
+        "Clomiphene does not supply gonadotropins, it works by blocking estrogen feedback at the hypothalamus and pituitary."
+      ],
+      "tested_concept": "Clomiphene requires pituitary reserve",
+      "question_id": "rx-r25-clomiphene-pituitary",
+      "source_group_id": "g-rx-r25-clomiphene-pituitary",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 65
+        }
+      ],
+      "visual_target": "Which prediction is best?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two infertile women are considered for clomiphene. One has anovulation with a normal pituitary. The other has pituitary failure after a pituitary infarct with very low LH and FSH.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which explanation is correct?",
+      "options": [
+        "It is a PGE1 analog that raises insulin release from the pancreas",
+        "At higher doses it also blocks glucocorticoid receptors, which reduces cortisol driven hyperglycemia",
+        "It blocks the progesterone receptor, and progesterone is the hormone driving the hyperglycemia",
+        "It inhibits 11 beta hydroxylase, so cortisol synthesis stops"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Mifepristone is a progesterone receptor antagonist approved for induction of abortion. Step 2. At higher doses it also blocks glucocorticoid receptors, so it is approved for hyperglycemia due to hypercortisolism in Cushing syndrome.",
+      "choice_rationales": [
+        "Misoprostol is the PGE1 analog and it is used with mifepristone for abortion, not for glucose control.",
+        "The lecture states higher doses block glucocorticoid receptors and that it is approved for hyperglycemia in Cushing syndrome.",
+        "The progesterone receptor block underlies abortion induction but not the glucose benefit.",
+        "Mifepristone acts at receptors and is not described as an enzyme inhibitor."
+      ],
+      "tested_concept": "Mifepristone glucocorticoid antagonism",
+      "question_id": "rx-r25-mifepristone-cushing",
+      "source_group_id": "g-rx-r25-mifepristone-cushing",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 69
+        }
+      ],
+      "visual_target": "Which explanation is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A patient with Cushing syndrome and hyperglycemia is started on mifepristone. A student recalls it is the abortion pill and asks why it helps her glucose.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which option is best, and why?",
+      "options": [
+        "Levonorgestrel alone, because it is the most effective emergency method at any delay, including after 120 hours have passed",
+        "Levonorgestrel plus ethinyl estradiol, because adding estrogen extends the effective window to 120 hours",
+        "No emergency method, because every option must be started within 72 hours",
+        "Ulipristal acetate, because it is effective when started within 120 hours and prevents ovulation and impairs implantation"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. At 100 hours she is past the 72 hour window for levonorgestrel based products. Step 2. Ulipristal acetate is a selective progesterone receptor modulator with a 120 hour window that prevents ovulation and impairs implantation.",
+      "choice_rationales": [
+        "Levonorgestrel is described as about 80 percent effective within 72 hours, and she is past that window.",
+        "The lecture does not extend the window with estrogen, and the combination is also tied to the 72 hour limit.",
+        "Ulipristal has a longer lecture window of 120 hours.",
+        "The lecture gives ulipristal a 120 hour window, which covers her presentation."
+      ],
+      "tested_concept": "Emergency contraception timing",
+      "question_id": "rx-r25-emergency-contraception-timing",
+      "source_group_id": "g-rx-r25-emergency-contraception-timing",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 31
+        }
+      ],
+      "visual_target": "Which option is best, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 22-year-old woman presents 100 hours after unprotected intercourse and requests emergency contraception.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which structural feature explains the choice?",
+      "options": [
+        "The nonsteroidal structure avoids hepatic metabolism, which gives its oral activity",
+        "The ester linked oil vehicle slows release, which gives the long half life of ethinyl estradiol",
+        "The 17 ethinyl group reduces hepatic first pass metabolism, which gives oral activity and a long half life",
+        "The sulfate group is removed in the gut, which gives the oral absorption of ethinyl estradiol"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Estradiol is rapidly inactivated by hepatic metabolism and has poor oral bioavailability. Step 2. The 17 ethinyl group of ethinyl estradiol and mestranol cuts first pass elimination, giving a long half life of 13 to 27 hours and making these drugs the estrogens of choice in pills.",
+      "choice_rationales": [
+        "A nonsteroidal structure describes diethylstilbestrol, and ethinyl estradiol is steroidal.",
+        "Ester forms in oil are given by injection and are not the feature of ethinyl estradiol.",
+        "The lecture states that the ethinyl group decreases first pass elimination and gives a long elimination half life.",
+        "Removal of a sulfate group describes conjugated estrogens such as estrone sulfate."
+      ],
+      "tested_concept": "Why ethinyl estradiol is orally active",
+      "question_id": "rx-r20-ethinyl-oral",
+      "source_group_id": "g-rx-r20-ethinyl-oral",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_target": "Which structural feature explains the choice?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A pharmacology student asks why contraceptive pills contain ethinyl estradiol and not estradiol itself.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which formulation best fits, and why?",
+      "options": [
+        "Ethinyl estradiol with drospirenone, which is FDA approved for acne and has anti mineralocorticoid and anti androgenic activity",
+        "Ethinyl estradiol with levonorgestrel, because levonorgestrel is the most anti androgenic progestin and gives the least water retention",
+        "Ethinyl estradiol alone, because estrogen alone is the approved acne treatment",
+        "Depot medroxyprogesterone acetate, because it improves acne and prevents weight gain"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Combination pills reduce free testosterone by raising SHBG and lower ovarian androgen production. Step 2. Drospirenone is related to spironolactone, so it is anti mineralocorticoid and anti androgenic, may cause less water retention and breast tenderness, and its pill with ethinyl estradiol is FDA approved for acne.",
+      "choice_rationales": [
+        "This formulation is a lecture example approved for acne and matches her water retention history.",
+        "Levonorgestrel is described with weak androgen and antiestrogen effects, not as the strongest anti androgen.",
+        "Acne approvals in the lecture are for combination products with a progestin, not estrogen alone.",
+        "Depot medroxyprogesterone is not an acne product and is linked to weight gain and abnormal bleeding."
+      ],
+      "tested_concept": "Drospirenone containing pill for acne",
+      "question_id": "rx-r20-drospirenone-acne",
+      "source_group_id": "g-rx-r20-drospirenone-acne",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 24
+        },
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 28
+        }
+      ],
+      "visual_target": "Which formulation best fits, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 19-year-old woman with moderate acne asks for a combination pill. She also notes water retention and breast tenderness on a prior pill.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which response is best?",
+      "options": [
+        "Use a progestin only method for now, because combination pills are contraindicated in the first 21 days postpartum due to higher VTE risk",
+        "Start the combination pill, because pregnancy carries a larger VTE risk, so the postpartum restriction does not apply, and that comparison removes the restriction for her in every circumstance",
+        "Avoid all hormonal methods, because progestin only methods carry the same VTE risk as combination pills",
+        "Start the combination pill, because estrogen lowers clot risk after delivery"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Estrogen containing contraceptives raise VTE risk and the postpartum period already carries high risk. Step 2. Combination pills are contraindicated in the first 21 days after delivery, so a progestin only method is the choice even though pregnancy itself carries greater VTE risk.",
+      "choice_rationales": [
+        "The lecture states this contraindication and that progestin only methods suit women who cannot take estrogen.",
+        "The comparison of pregnancy risk does not remove the specific contraindication in the first 21 days postpartum.",
+        "The lecture presents progestin only contraception as the option when estrogen is contraindicated.",
+        "Estrogen raises VTE risk and does not lower it."
+      ],
+      "tested_concept": "Contraception in the first weeks postpartum",
+      "question_id": "rx-r20-postpartum-estrogen",
+      "source_group_id": "g-rx-r20-postpartum-estrogen",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 40
+        }
+      ],
+      "visual_target": "Which response is best?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman 10 days after delivery asks to start her old combination oral contraceptive. A classmate argues that pregnancy carries more clot risk than the pill, so it is fine.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which statement about factor V Leiden and this pill is supported?",
+      "options": [
+        "Factor V Leiden synergizes with estrogen for venous thromboembolism but does not raise the risk of myocardial infarction",
+        "Factor V Leiden is the main reason combination pills raise myocardial infarction risk in women over 35",
+        "Factor V Leiden protects against myocardial infarction, so it offsets smoking and hypercholesterolemia",
+        "Factor V Leiden synergizes with estrogen to raise both venous thromboembolism and myocardial infarction risk in women over 35"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Factor V Leiden causes resistance to activated protein C and magnifies the venous clot risk of estrogen. Step 2. Estrogens modestly raise myocardial infarction risk and synergize with smoking, hypercholesterolemia and diabetes, but factor V Leiden does not add to that arterial risk.",
+      "choice_rationales": [
+        "The lecture graph marks that factor V Leiden does not increase myocardial infarction risk.",
+        "The lecture attributes arterial risk to smoking, diabetes, hypercholesterolemia and prior cardiovascular disease.",
+        "The lecture notes no effect on myocardial infarction, not protection.",
+        "The lecture explicitly notes that factor V Leiden does not increase the risk of myocardial infarction."
+      ],
+      "tested_concept": "Factor V Leiden and arterial risk",
+      "question_id": "rx-r20-fvl-mi",
+      "source_group_id": "g-rx-r20-fvl-mi",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 43
+        }
+      ],
+      "visual_target": "Which statement about factor V Leiden and this pill is supported?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 38-year-old smoker with hypercholesterolemia takes an estrogen containing pill. Her sister carries factor V Leiden and had a deep vein thrombosis.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which addition and timing best fit the lecture?",
+      "options": [
+        "Medroxyprogesterone acetate with growth hormone, because progestins stimulate longitudinal growth",
+        "High dose estrogen first with growth hormone, because estrogen enhances longitudinal growth throughout puberty",
+        "Low dose androgen only after estrogen, because androgens are needed to close the epiphyses",
+        "Low dose androgen such as oxandrolone with growth hormone before estrogen, because estrogen later closes the epiphyses"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Growth hormone effects on height are enhanced by low dose androgen therapy before puberty is induced. Step 2. Estrogens induce female pubertal changes including calcification of the epiphyses, which ends longitudinal growth, so they come later.",
+      "choice_rationales": [
+        "Progestins are not described as growth promoters in Turner syndrome.",
+        "Estrogens terminate longitudinal growth by closing the epiphyses, so starting them early would limit height.",
+        "Closure of the epiphyses is attributed to estrogens in the lecture, and androgens are used before estrogen.",
+        "The lecture states androgens enhance growth hormone effects early and estrogens induce epiphyseal calcification that ends growth."
+      ],
+      "tested_concept": "Androgen and estrogen sequence in Turner syndrome",
+      "question_id": "rx-r20-turner-sequence",
+      "source_group_id": "g-rx-r20-turner-sequence",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 53
+        }
+      ],
+      "visual_target": "Which addition and timing best fit the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "An 11-year-old girl with Turner syndrome has short stature and ovarian failure. Her team plans growth hormone and later estrogen to induce puberty.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which tocolytic should be avoided at this gestational age?",
+      "options": [
+        "Indomethacin, because it is a COX inhibitor limited to pregnancies under 30 weeks",
+        "Terbutaline, because beta 2 agonists are contraindicated for every use in pregnancy",
+        "Magnesium sulfate, because it cannot be given intravenously in obstetric care",
+        "Nifedipine, because calcium channel blockade is not used as a tocolytic"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Tocolytics are used to buy time, limited to 48 hours, so corticosteroids can mature the lungs and the mother can reach a center able to care for premature infants. Step 2. Nifedipine and magnesium sulfate are options, terbutaline is second line, and indomethacin is only used before 30 weeks.",
+      "choice_rationales": [
+        "The lecture restricts indomethacin to gestations under 30 weeks, so it should be avoided at 33 weeks.",
+        "The lecture lists terbutaline as a second line tocolytic because of more adverse events, not as contraindicated.",
+        "The lecture lists intravenous magnesium sulfate as a tocolytic and as seizure prophylaxis in preeclampsia.",
+        "The lecture lists intravenous nifedipine as one of the tocolytic choices."
+      ],
+      "tested_concept": "Tocolytic choice by gestational age",
+      "question_id": "rx-r20-tocolytic-indomethacin",
+      "source_group_id": "g-rx-r20-tocolytic-indomethacin",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 21
+        }
+      ],
+      "visual_target": "Which tocolytic should be avoided at this gestational age?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman at 33 weeks has acute preterm labor. The team wants a tocolytic to buy time for corticosteroids and transfer to a neonatal center.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which option fits, and how does it work?",
+      "options": [
+        "The contraceptive vaginal ring, which is nonhormonal and changed monthly",
+        "Depot medroxyprogesterone acetate, which is nonhormonal and lasts 12 weeks",
+        "The levonorgestrel intrauterine system, which lasts up to 10 years and contains no hormones",
+        "The copper intrauterine device, which causes an inflammatory reaction that prevents implantation"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. She wants no hormones and a duration up to ten years. Step 2. The copper T meets both and produces an inflammatory reaction in the uterus that prevents implantation, with a first year failure rate of about 0.8 percent.",
+      "choice_rationales": [
+        "The vaginal ring contains combination hormones and is replaced on a schedule of weeks.",
+        "Depot medroxyprogesterone is hormonal and lasts about 3 months.",
+        "Levonorgestrel systems contain hormone and are listed as lasting 3 to 5 years.",
+        "The lecture describes the copper T as nonhormonal, lasting up to 10 years, and acting by inflammation that prevents implantation."
+      ],
+      "tested_concept": "Copper IUD features",
+      "question_id": "rx-r20-copper-iud",
+      "source_group_id": "g-rx-r20-copper-iud",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 32
+        }
+      ],
+      "visual_target": "Which option fits, and how does it work?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 26-year-old woman wants highly effective long term contraception that contains no hormones and lasts up to ten years.",
+      "study_skill": "management"
     }
   ]
 }
