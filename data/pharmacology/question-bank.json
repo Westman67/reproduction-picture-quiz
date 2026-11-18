@@ -1844,6 +1844,1082 @@
       "review_status": "USABLE",
       "case_context": "A 49-year-old woman has had irregular periods and hot flashes. Her last menstrual period was 8 months ago.",
       "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which first line IV drug is the better choice for her?",
+      "options": [
+        "Sublingual nifedipine, because it acts fastest and sits at the top of the IV algorithm",
+        "Hydralazine, a direct arteriolar vasodilator that does not block beta receptors",
+        "Labetalol, because its beta blockade protects the heart from reflex drive and is safe in any patient",
+        "Oral methyldopa, because it is a first line drug for severe hypertension and has no pulmonary effects"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Severe hypertension in pregnancy is treated urgently with IV labetalol or IV hydralazine as first line drugs. Step 2. Labetalol is avoided in asthma because beta blockade causes bronchoconstriction, so hydralazine is the better IV choice.",
+      "choice_rationales": [
+        "The sublingual form is not used, and nifedipine is the oral option when IV access is lacking.",
+        "It releases nitric oxide to relax arterioles and has no bronchoconstrictive beta blockade.",
+        "The lecture avoids labetalol in asthma because its beta blocking effect causes bronchoconstriction.",
+        "Methyldopa is an oral chronic agent that may be less effective in severe hypertension."
+      ],
+      "tested_concept": "Choice of IV antihypertensive in pregnancy",
+      "question_id": "rx-r21-labetalol-asthma",
+      "source_group_id": "g-rx-r21-labetalol-asthma",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 70
+        }
+      ],
+      "visual_target": "Which first line IV drug is the better choice for her?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 29-year-old woman at 35 weeks has a confirmed blood pressure of 172/112 and a history of asthma. She has IV access.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which explanation accounts for these findings?",
+      "options": [
+        "Calcium channel blockade in the sinoatrial node accelerates conduction and raises the heart rate",
+        "Central alpha 2 stimulation lowers sympathetic outflow, so the rebound raises heart rate on withdrawal",
+        "Arteriolar dilation lowers peripheral resistance, and the baroreflex and renal salt retention raise heart rate and fluid",
+        "Beta receptor blockade removes sympathetic tone, so the heart rate rises as a rebound effect"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Hydralazine releases nitric oxide from arteriolar endothelium, which relaxes smooth muscle and lowers peripheral resistance. Step 2. The fall in pressure triggers reflex tachycardia and salt and water retention, and drug induced lupus is the other listed adverse effect.",
+      "choice_rationales": [
+        "Hydralazine acts by releasing nitric oxide and not by blocking calcium channels.",
+        "Central alpha 2 stimulation describes methyldopa and not hydralazine.",
+        "Reflex tachycardia and salt and water retention are the stated adverse effects of this direct vasodilator.",
+        "Hydralazine does not block beta receptors, and labetalol is the drug that does."
+      ],
+      "tested_concept": "Hydralazine adverse effects",
+      "question_id": "rx-r21-hydralazine-reflex",
+      "source_group_id": "g-rx-r21-hydralazine-reflex",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 70
+        }
+      ],
+      "visual_target": "Which explanation accounts for these findings?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A pregnant woman with severe hypertension receives IV hydralazine. Her pressure falls to 148/96 but her heart rate rises from 84 to 112 and she later develops ankle swelling.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which drug and limiting adverse effect fit the lecture?",
+      "options": [
+        "Extended release nifedipine, limited by reflex tachycardia and tolerance",
+        "Methyldopa, limited by sedation, depression and dizziness",
+        "Hydralazine, limited by drug induced lupus and salt retention",
+        "Labetalol, limited by bronchoconstriction in asthma and heart block"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Methyldopa is a centrally acting oral drug with safety data in offspring up to 7 years of age. Step 2. It may be less effective than other drugs, especially in severe hypertension, and sedation, depression and dizziness limit its use.",
+      "choice_rationales": [
+        "Nifedipine does not carry the 7 year offspring data and is avoided when tachycardia is present.",
+        "The lecture gives methyldopa offspring data to 7 years and lists sedation, depression and dizziness.",
+        "Hydralazine is mainly a first line IV drug and the lecture does not give it the 7 year offspring data.",
+        "Labetalol is a chronic oral option but the 7 year offspring data belong to methyldopa."
+      ],
+      "tested_concept": "Chronic hypertension drugs in pregnancy",
+      "question_id": "rx-r21-methyldopa-chronic",
+      "source_group_id": "g-rx-r21-methyldopa-chronic",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which drug and limiting adverse effect fit the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 31-year-old woman with chronic hypertension wants an oral drug with offspring safety data followed to age 7 years. She also asks about side effects.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which plan matches the lecture?",
+      "options": [
+        "Extended release 60 mg as the first acute dose, to avoid repeated dosing",
+        "Sublingual capsule, because absorption by that route is fastest and it is preferred",
+        "Nifedipine regardless of heart rate, because it lowers rate and is preferred in tachycardia",
+        "Oral immediate release 10 mg, with a recheck at 20 minutes and escalation if pressure stays high"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Nifedipine blocks calcium channels in vascular smooth muscle and is the oral option for severe hypertension without IV access. Step 2. The algorithm gives 10 mg orally, rechecks at 20 minutes, then gives 20 mg and 40 mg if the pressure stays at 160/110 or more.",
+      "choice_rationales": [
+        "Extended release forms are for chronic use, and immediate release is the severe hospital form.",
+        "The lecture states that the sublingual form is not used.",
+        "The lecture states nifedipine is avoided in tachycardia.",
+        "The oral algorithm starts at 10 mg and rechecks at 20 minutes before escalating."
+      ],
+      "tested_concept": "Nifedipine use in severe hypertension",
+      "question_id": "rx-r21-nifedipine-formulation",
+      "source_group_id": "g-rx-r21-nifedipine-formulation",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 72
+        }
+      ],
+      "visual_target": "Which plan matches the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A resident plans to give nifedipine to a pregnant woman with blood pressure 168/108 and no IV access.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Why does this drug reduce her vasomotor symptoms?",
+      "options": [
+        "It blocks serotonin reuptake in the hypothalamus, so it works like paroxetine and venlafaxine",
+        "It stimulates hypothalamic estrogen receptors, so it works as a hormone without added endometrial risk",
+        "It suppresses GnRH release, so it lowers FSH and LH and prevents the flash, so the pituitary releases less LH and the hypothalamic signal driving flashes is lost",
+        "Low estrogen increases neurokinin B secretion by hypothalamic neurons, and blocking its receptor reduces the signal that causes flashes"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Reduced estrogen causes hypothalamic neurons to secrete more neurokinin B, which binds NK1R, NK2R and NK3R, with highest affinity for NK3R. Step 2. Veozah reduces neurokinin B receptor binding and so reduces hot flashes without any hormone effect.",
+      "choice_rationales": [
+        "SSRIs and SNRIs are separate nonhormonal options with a different mechanism.",
+        "It is described as non hormonal and acts on neurokinin receptors.",
+        "The mechanism taught is reduced neurokinin B receptor binding and not suppression of GnRH.",
+        "The lecture states reduced estrogen raises neurokinin B and the drug lowers receptor binding."
+      ],
+      "tested_concept": "Neurokinin 3 antagonist for hot flashes",
+      "question_id": "rx-r4-nk3-mechanism",
+      "source_group_id": "g-rx-r4-nk3-mechanism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 14
+        }
+      ],
+      "visual_target": "Why does this drug reduce her vasomotor symptoms?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 52-year-old woman who cannot take estrogen is prescribed a neurokinin 3 receptor antagonist for hot flashes.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which statement distinguishes their receptor targets?",
+      "options": [
+        "Elinzanetant blocks both NK1 and NK3 receptors, while Veozah is described as a neurokinin 3 receptor antagonist",
+        "Veozah blocks NK1 and NK3 receptors, while elinzanetant acts only on NK2 receptors",
+        "Both drugs are estrogen receptor modulators that differ in tissue selectivity, so neither drug needs to act on a neurokinin receptor at all",
+        "Elinzanetant is a serotonin reuptake inhibitor while Veozah is a neurokinin antagonist"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Neurokinin B binds NK1R, NK2R and NK3R, with the highest affinity for NK3R. Step 2. Veozah is an NK3 antagonist and elinzanetant blocks NK1 and NK3, and both reduce neurokinin B receptor binding to lessen hot flashes.",
+      "choice_rationales": [
+        "The lecture lists elinzanetant as an NK1 and NK3 antagonist and Veozah as an NK3 antagonist.",
+        "The dual NK1 and NK3 action belongs to elinzanetant, not Veozah.",
+        "Both are nonhormonal neurokinin receptor antagonists.",
+        "Elinzanetant is a neurokinin receptor antagonist and not a serotonergic drug."
+      ],
+      "tested_concept": "Receptor targets of neurokinin antagonists",
+      "question_id": "rx-r4-elinzanetant-targets",
+      "source_group_id": "g-rx-r4-elinzanetant-targets",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 14
+        }
+      ],
+      "visual_target": "Which statement distinguishes their receptor targets?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Two nonhormonal drugs for hot flashes are discussed, Veozah and elinzanetant.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "How does the drug lower bone resorption?",
+      "options": [
+        "It inhibits farnesyl diphosphate synthase in osteoclasts, which triggers apoptosis of the cells",
+        "It binds RANK ligand so RANKL cannot bind RANK, which lowers osteoclast formation and activity",
+        "It activates estrogen receptors on osteoblasts, which raises bone formation and lowers resorption",
+        "It binds calcium in the gut, so less is absorbed and osteoclasts are not stimulated"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. RANKL is a cytokine of the TNF family, and RANKL binding to RANK induces osteoclastogenesis. Step 2. Denosumab is an antibody that blocks this binding, so osteoclast activity falls.",
+      "choice_rationales": [
+        "This is the mechanism of the bisphosphonates and not of denosumab.",
+        "The lecture describes an antibody that blocks RANKL binding to RANK and decreases osteoclast activity.",
+        "Denosumab is an antibody against a TNF family cytokine and does not act at estrogen receptors.",
+        "The lecture does not describe an effect on calcium absorption."
+      ],
+      "tested_concept": "Denosumab in osteoporosis",
+      "question_id": "rx-r4-denosumab-mechanism",
+      "source_group_id": "g-rx-r4-denosumab-mechanism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_target": "How does the drug lower bone resorption?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old woman with osteoporosis is started on denosumab.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which statement describes how this class works?",
+      "options": [
+        "It binds RANK ligand and prevents osteoclast formation, which is why it is given by injection",
+        "It increases osteoblast activity directly, which rebuilds bone faster than it is broken down",
+        "It acts as an estrogen agonist on bone, which restores the premenopausal bone balance, acting through estrogen receptors on osteoclast precursors",
+        "It blocks farnesyl diphosphate synthase and is directly toxic to osteoclasts, causing apoptosis and less attachment to bone"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Bisphosphonates are directly toxic to osteoclasts. Step 2. They block farnesyl diphosphate synthase in the HMG-CoA reductase pathway, increase osteoclast apoptosis and decrease osteoclast migration and attachment to bone.",
+      "choice_rationales": [
+        "Blocking RANKL describes denosumab.",
+        "The lecture describes toxicity to osteoclasts and not stimulation of osteoblasts.",
+        "Estrogen agonists are a separate class and this class is not a hormone.",
+        "The lecture lists increased osteoclast apoptosis, farnesyl diphosphate synthase blockade and reduced migration and attachment."
+      ],
+      "tested_concept": "Bisphosphonate mechanism",
+      "question_id": "rx-r4-bisphosphonate-mechanism",
+      "source_group_id": "g-rx-r4-bisphosphonate-mechanism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_target": "Which statement describes how this class works?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 70-year-old woman with osteoporosis begins a bisphosphonate.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What is the concern about starting a bisphosphonate?",
+      "options": [
+        "They raise estrogen levels, which would worsen her reflux and fluid retention, and are cleared only by the liver so renal function is irrelevant",
+        "They are contraindicated in renal insufficiency and cause esophagitis, which concomitant NSAIDs may worsen",
+        "They block RANK ligand, which would raise her infection risk through immune suppression",
+        "There is no concern, because the class is cleared by the liver and has no gastrointestinal effects"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Bisphosphonate side effects include epigastric distress, heartburn and esophagitis. Step 2. They are contraindicated in renal insufficiency, and concomitant NSAIDs may worsen the gastrointestinal effects, so this woman is a poor candidate.",
+      "choice_rationales": [
+        "They are not hormonal agents and have no estrogenic effect.",
+        "The lecture lists renal insufficiency as a contraindication and esophagitis with NSAIDs as a worsening factor.",
+        "RANKL blockade describes denosumab and not this class.",
+        "The lecture lists epigastric distress, heartburn and esophagitis as side effects."
+      ],
+      "tested_concept": "Contraindications to bisphosphonates",
+      "question_id": "rx-r4-bisphosphonate-renal",
+      "source_group_id": "g-rx-r4-bisphosphonate-renal",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_target": "What is the concern about starting a bisphosphonate?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 72-year-old woman with osteoporosis has an eGFR of 25, reflux esophagitis and takes ibuprofen daily.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What is the best interpretation?",
+      "options": [
+        "The fall means the drug is blocking the androgen receptor, as flutamide does",
+        "A small fall in PSA is an expected drug effect, and dutasteride is not useful for prostate cancer",
+        "The fall shows that the drug is shrinking an early prostate cancer, so it can replace androgen deprivation",
+        "The fall means PSA is unreliable only in men on alpha blockers, so the dutasteride is unrelated"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Dutasteride blocks conversion of testosterone to DHT like finasteride and treats BPH over weeks. Step 2. It lowers PSA slightly and does not treat prostate cancer, so the small fall is a drug effect and not a cancer response.",
+      "choice_rationales": [
+        "It blocks conversion of testosterone to DHT and does not block the receptor.",
+        "The lecture states it lowers PSA slightly and is not useful for prostate cancer.",
+        "The drug is not useful for prostate cancer and the fall is a drug effect.",
+        "The lecture links the PSA lowering to the 5 alpha reductase inhibitor itself."
+      ],
+      "tested_concept": "Dutasteride and PSA",
+      "question_id": "rx-r22-dutasteride-psa",
+      "source_group_id": "g-rx-r22-dutasteride-psa",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "What is the best interpretation?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old man with BPH takes dutasteride for six months. His symptoms improve and his PSA is slightly lower than before. He asks whether this means the drug treats prostate cancer.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which property of trospium supports this choice?",
+      "options": [
+        "It is a toxin that blocks acetylcholine release in the bladder wall",
+        "It is a beta 3 agonist that relaxes detrusor muscle without any muscarinic blockade",
+        "It is a quaternary amine that does not cross the blood brain barrier and concentrates in the bladder",
+        "It is a lipophilic tertiary amine that enters the brain but is cleared quickly from the body"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Trospium is an antimuscarinic given twice daily for overactive bladder. Step 2. As a quaternary amine it does not cross the blood brain barrier, so central side effects such as confusion are avoided.",
+      "choice_rationales": [
+        "This describes botulinum toxin and not an oral antimuscarinic.",
+        "This describes mirabegron and not trospium.",
+        "The lecture states trospium does not cross the blood brain barrier and concentrates in the bladder.",
+        "Trospium is a quaternary amine and its advantage is poor central penetration."
+      ],
+      "tested_concept": "Trospium and the blood brain barrier",
+      "question_id": "rx-r24-trospium-bbb",
+      "source_group_id": "g-rx-r24-trospium-bbb",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 14
+        }
+      ],
+      "visual_target": "Which property of trospium supports this choice?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "An older woman with overactive bladder worries about confusion from anticholinergic drugs. Her physician chooses trospium.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which statement is correct?",
+      "options": [
+        "Both are appropriate because high urinary levels will also treat the infected kidney",
+        "Fosfomycin is appropriate but nitrofurantoin is not, because only fosfomycin reaches kidney tissue",
+        "Both concentrate in urine but do not reach kidney tissue, so IV ceftriaxone is the better empiric drug",
+        "Nitrofurantoin is appropriate but fosfomycin is not, because only nitrofurantoin reaches kidney tissue"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Fever and flank pain indicate pyelonephritis, an upper tract infection. Step 2. Nitrofurantoin and fosfomycin concentrate in urine and treat uncomplicated lower UTI, but they do not reach kidney tissue, so IV ceftriaxone for 7 to 14 days guided by culture is used.",
+      "choice_rationales": [
+        "Neither reaches kidney tissue, so they are wrong for suspected upper tract infection.",
+        "The lecture states fosfomycin also does not reach kidney tissue.",
+        "The lecture states neither reaches kidney tissue and gives ceftriaxone IV for pyelonephritis.",
+        "The lecture states nitrofurantoin also does not reach kidney tissue."
+      ],
+      "tested_concept": "Urinary concentrating antibiotics and kidney tissue",
+      "question_id": "rx-r24-pyelo-oral-agents",
+      "source_group_id": "g-rx-r24-pyelo-oral-agents",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 8
+        }
+      ],
+      "visual_target": "Which statement is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 34-year-old woman has fever, flank pain and costovertebral tenderness. Urine culture is pending. A colleague suggests oral nitrofurantoin or a single fosfomycin sachet.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "How does allopurinol reduce stone formation?",
+      "options": [
+        "It lowers urinary calcium, which prevents calcium oxalate stones from forming",
+        "It inhibits bacterial urease, which prevents alkalinization and struvite stones",
+        "It increases urinary uric acid excretion, so more urate crystals reach the collecting system",
+        "It blocks conversion of xanthine to uric acid, so less uric acid is available to crystallize"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Uric acid comes from conversion of xanthine. Step 2. Allopurinol blocks that step so stones are less likely to crystallize, and it also treats gout, whereas thiazides prevent calcium oxalate stones.",
+      "choice_rationales": [
+        "Lowering urinary calcium describes the thiazide effect that prevents calcium oxalate stones.",
+        "The lecture does not describe an effect on urease or struvite stones.",
+        "It lowers uric acid production and does not raise excretion.",
+        "The lecture states allopurinol blocks conversion of xanthine to uric acid."
+      ],
+      "tested_concept": "Allopurinol for uric acid stones",
+      "question_id": "rx-r24-allopurinol-stones",
+      "source_group_id": "g-rx-r24-allopurinol-stones",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 5
+        }
+      ],
+      "visual_target": "How does allopurinol reduce stone formation?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 49-year-old man with gout has recurrent radiolucent uric acid stones. His physician starts allopurinol.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Why does phenylephrine help?",
+      "options": [
+        "It blocks alpha 1 receptors, which lowers sympathetic tone and softens the erection",
+        "It relaxes cavernosal smooth muscle, which opens venous outflow and drains the trapped blood",
+        "It dissolves clot in the sinusoids, which restores normal venous drainage",
+        "It causes smooth muscle contraction, which reduces arterial inflow and promotes detumescence"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Ischemic priapism traps blood in the corpora, so the blood is aspirated first. Step 2. Intracavernosal phenylephrine contracts smooth muscle and reduces arterial inflow, and surgical shunting is the next step if it fails.",
+      "choice_rationales": [
+        "Phenylephrine stimulates alpha receptors and does not block them.",
+        "Relaxation would increase inflow, and aspiration removes trapped blood.",
+        "The lecture describes smooth muscle contraction and not clot lysis.",
+        "The lecture states phenylephrine contracts smooth muscle and reduces arterial inflow."
+      ],
+      "tested_concept": "Phenylephrine for ischemic priapism",
+      "question_id": "rx-r23-phenylephrine-priapism",
+      "source_group_id": "g-rx-r23-phenylephrine-priapism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R23",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R23 Clinical GU II RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Why does phenylephrine help?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A man has a painful erection lasting 8 hours. Blood gas from the corpora is ischemic. After aspiration, intracavernosal phenylephrine is injected.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which mechanism best explains the retention?",
+      "options": [
+        "Beta 3 stimulation relaxes the detrusor, so the bladder cannot generate pressure",
+        "Inhibition of 5 alpha reductase shrinks the prostate, so the urethra narrows",
+        "Antimuscarinic blockade weakens detrusor contraction, so the bladder cannot empty",
+        "Alpha effects tighten the bladder neck and urethral sphincter, which raises outlet resistance"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Pseudoephedrine acts peripherally, partly by releasing catecholamines, through alpha effects. Step 2. It tightens the bladder neck and raises sphincter tone, so a man with a large prostate can develop retention.",
+      "choice_rationales": [
+        "Beta 3 stimulation describes mirabegron and is not the mechanism for this drug.",
+        "That would reduce prostate size and does not describe pseudoephedrine.",
+        "Pseudoephedrine acts through adrenergic effects and not by blocking muscarinic receptors.",
+        "The lecture states pseudoephedrine raises urethral sphincter tone and tightens the bladder neck."
+      ],
+      "tested_concept": "Pseudoephedrine and urinary retention",
+      "question_id": "rx-r24-pseudoephedrine-retention",
+      "source_group_id": "g-rx-r24-pseudoephedrine-retention",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 11
+        }
+      ],
+      "visual_target": "Which mechanism best explains the retention?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 70-year-old man with a large prostate takes pseudoephedrine for a cold and cannot void that evening.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which property of duloxetine makes this combination a concern?",
+      "options": [
+        "It inhibits hepatic CYP2D6, so it has many drug interactions",
+        "It induces CYP2D6, so the other drug would be activated too quickly and become toxic",
+        "It is renally cleared unchanged, so the other drug would accumulate in kidney disease",
+        "It is approved for stress incontinence, so the combination is already studied"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Duloxetine is oral and labeled for depression, anxiety and chronic pain, and it may modestly raise urethral sphincter tone. Step 2. It inhibits hepatic CYP2D6, so a prodrug that needs that enzyme for activation could lose effect.",
+      "choice_rationales": [
+        "The lecture states duloxetine inhibits hepatic CYP2D6 and has many interactions.",
+        "The lecture describes inhibition and not induction of the enzyme.",
+        "The lecture does not describe renal clearance of duloxetine.",
+        "The lecture states it may modestly raise sphincter tone but is not approved for stress incontinence."
+      ],
+      "tested_concept": "Duloxetine interactions",
+      "question_id": "rx-r24-duloxetine-2d6",
+      "source_group_id": "g-rx-r24-duloxetine-2d6",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 11
+        }
+      ],
+      "visual_target": "Which property of duloxetine makes this combination a concern?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman takes duloxetine and is offered an additional drug that depends on CYP2D6 for activation.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Why is paroxetine a poor choice for her?",
+      "options": [
+        "It blocks neurokinin receptors and would amplify the hot flashes that tamoxifen causes",
+        "It is a hormone and would stimulate the breast tissue that tamoxifen is protecting",
+        "It strongly inhibits CYP2D6, the enzyme that activates tamoxifen, unlike venlafaxine",
+        "It is not FDA approved for hot flashes, so it cannot be used with any drug"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Paroxetine is an SSRI and the only FDA approved nonhormonal therapy for vasomotor symptoms. Step 2. It strongly inhibits CYP2D6, which activates tamoxifen, so venlafaxine is the recommended choice in a woman taking tamoxifen.",
+      "choice_rationales": [
+        "Paroxetine is an SSRI and does not act on neurokinin receptors.",
+        "Paroxetine is an SSRI and is not a hormone.",
+        "The lecture annotations contrast paroxetine and fluoxetine with venlafaxine, which does not strongly inhibit CYP2D6.",
+        "It is the only FDA approved nonhormonal therapy for vasomotor symptoms."
+      ],
+      "tested_concept": "Paroxetine and tamoxifen",
+      "question_id": "rx-r30-paroxetine-tamoxifen",
+      "source_group_id": "g-rx-r30-paroxetine-tamoxifen",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 75
+        }
+      ],
+      "visual_target": "Why is paroxetine a poor choice for her?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman taking tamoxifen asks about paroxetine, the only FDA approved nonhormonal drug for hot flashes.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which mechanism explains his testes and sperm count?",
+      "options": [
+        "Exogenous testosterone suppresses GnRH, LH and FSH, which lowers intratesticular testosterone and Sertoli cell support",
+        "Exogenous testosterone destroys Leydig cells directly, which removes the source of the hormone",
+        "Exogenous testosterone raises FSH, which overstimulates the Sertoli cells until spermatogenesis stops",
+        "Exogenous testosterone is converted to DHT in the testis, which blocks the androgen receptor, so the testes shrink from direct androgen toxicity"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Testosterone from outside the body feeds back on the hypothalamus and pituitary. Step 2. GnRH, LH and FSH fall, so intratesticular testosterone and Sertoli support fall, causing subfertility despite normal peripheral androgenic effects.",
+      "choice_rationales": [
+        "The lecture states exogenous testosterone suppresses GnRH, LH and FSH, reducing intratesticular testosterone and Sertoli support.",
+        "The lecture describes suppression through the axis and not direct destruction.",
+        "The gonadotropins fall and do not rise with exogenous testosterone.",
+        "The explanation given is loss of gonadotropin drive and not receptor blockade."
+      ],
+      "tested_concept": "Exogenous testosterone and fertility",
+      "question_id": "rx-r2-exogenous-testosterone",
+      "source_group_id": "g-rx-r2-exogenous-testosterone",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 32
+        }
+      ],
+      "visual_target": "Which mechanism explains his testes and sperm count?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 26-year-old bodybuilder takes injectable testosterone. He has large muscles, small soft testes and a very low sperm count.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which course of serum testosterone is expected?",
+      "options": [
+        "A sustained rise for months, since continuous exposure keeps LH high",
+        "No change in testosterone, but a fall in PSA from direct tumor toxicity",
+        "An immediate and sustained fall from the first injection, with no early change",
+        "An initial rise, then a fall after about 1 to 3 weeks as the pituitary is desensitized"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. A GnRH agonist first stimulates LH release, which causes a transient testosterone flare. Step 2. Continuous exposure desensitizes the pituitary after about 1 to 3 weeks, lowering LH and testicular testosterone.",
+      "choice_rationales": [
+        "Continuous exposure desensitizes the pituitary and lowers LH.",
+        "The drug works by lowering LH and testicular testosterone.",
+        "A flare precedes the fall with a continuous GnRH agonist.",
+        "The lecture notes describe an initial flare and desensitization after roughly 1 to 3 weeks."
+      ],
+      "tested_concept": "GnRH agonist time course",
+      "question_id": "rx-r2-gnrh-agonist-flare",
+      "source_group_id": "g-rx-r2-gnrh-agonist-flare",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 31
+        }
+      ],
+      "visual_target": "Which course of serum testosterone is expected?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 68-year-old man with prostate cancer begins continuous leuprolide.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which statement about her risk is supported?",
+      "options": [
+        "In utero exposure raises the risk of reproductive tract cancers in female offspring",
+        "The risk is limited to breast cancer, because the drug acts only at breast tissue",
+        "In utero exposure lowers the risk, because the drug is a potent long acting estrogen",
+        "Only her mother carries a risk, because the harm is limited to women who took the drug"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Diethylstilbestrol is a potent long acting nonsteroidal estrogen once given to prevent miscarriage. Step 2. Female fetuses exposed in utero have a higher risk of reproductive tract cancers, which is why the drug is of historical interest.",
+      "choice_rationales": [
+        "The lecture states female fetuses exposed in utero have a higher risk of reproductive tract cancers.",
+        "The lecture describes reproductive tract cancers in exposed female fetuses.",
+        "The lecture describes harm from in utero exposure and not protection.",
+        "The lecture states harm to the exposed female fetus."
+      ],
+      "tested_concept": "Diethylstilbestrol exposure",
+      "question_id": "rx-r20-des-offspring",
+      "source_group_id": "g-rx-r20-des-offspring",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 19
+        }
+      ],
+      "visual_target": "Which statement about her risk is supported?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 28-year-old woman learns that her mother took diethylstilbestrol to prevent a miscarriage.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "What should she be told?",
+      "options": [
+        "Return of fertility may be delayed, and long term use carries a possible osteoporosis risk beyond 2 years",
+        "Fertility returns immediately, as it does after stopping a combined oral contraceptive pill",
+        "Fertility is permanently lost after more than 2 years of use, because the ovary and endometrium lose their function irreversibly after two years",
+        "Her risk of osteoporosis falls with duration of use, as with estrogen therapy"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Depot medroxyprogesterone acetate is a 3 month injection that blunts GnRH and the mid cycle LH surge. Step 2. It causes weight gain, irregular bleeding, delayed return of fertility and a possible osteoporosis risk beyond 2 years.",
+      "choice_rationales": [
+        "The lecture lists delayed return of fertility and a possible osteoporosis risk beyond 2 years.",
+        "Depot use carries delayed return of fertility.",
+        "The effect is a delay and not permanent infertility.",
+        "Depot use carries a possible osteoporosis risk beyond 2 years."
+      ],
+      "tested_concept": "DMPA counseling",
+      "question_id": "rx-r20-dmpa-fertility",
+      "source_group_id": "g-rx-r20-dmpa-fertility",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 36
+        }
+      ],
+      "visual_target": "What should she be told?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman has used depot medroxyprogesterone for 3 years. She stops injections and hopes to conceive in the next month.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which adverse effect should be monitored?",
+      "options": [
+        "Cardiac valve fibrosis, because the drug acts through a serotonin pathway, because the drug acts through a serotonin pathway in the heart valves",
+        "Cholestatic jaundice, liver toxicity and benign hepatic tumors, as with other 17 alkyl androgens",
+        "Hypoglycemia, because the drug raises insulin secretion at high dose",
+        "Endometrial hyperplasia, because the drug is a strong estrogen agonist"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. High dose danazol raises complement C1 inhibitor in hereditary angioedema, through an action that is not androgenic and needs the 17 alkyl group. Step 2. The 17 alkyl group also carries the risk of cholestatic jaundice, liver toxicity and benign hepatic tumors.",
+      "choice_rationales": [
+        "The lecture does not describe a serotonergic mechanism for danazol.",
+        "The lecture lists these effects for 17 alkyl androgens.",
+        "The lecture does not list this adverse effect.",
+        "Danazol is an androgen with weak progestin and glucocorticoid activity and not a strong estrogen."
+      ],
+      "tested_concept": "Danazol adverse effects",
+      "question_id": "rx-r20-danazol-liver",
+      "source_group_id": "g-rx-r20-danazol-liver",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 53
+        },
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 54
+        }
+      ],
+      "visual_target": "Which adverse effect should be monitored?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 33-year-old woman with hereditary angioedema and recurrent airway swelling improves on high dose danazol.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "How should the benefit be described?",
+      "options": [
+        "It eliminates preterm birth risk if started before 20 weeks, but only when started after 28 weeks of gestation",
+        "It acts as an acute tocolytic and stops preterm labor once contractions begin",
+        "It was associated with lower preterm birth risk, but the benefit was modest and uncertain",
+        "It is indicated for any pregnant woman regardless of prior preterm birth"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Hydroxyprogesterone caproate is a weekly intramuscular progestin begun at 16 to 20 weeks and continued to 36 weeks. Step 2. The lecture describes a borderline effect on morbidity, and the slide annotation calls the preterm birth benefit modest and uncertain.",
+      "choice_rationales": [
+        "The lecture describes a borderline effect and not elimination of risk.",
+        "It is a weekly drug used from 16 to 20 weeks to 36 weeks to lower risk, not an acute tocolytic.",
+        "The lecture describes a borderline effect, and the annotation calls the benefit modest and uncertain.",
+        "The use is in women with prior spontaneous preterm birth."
+      ],
+      "tested_concept": "Hydroxyprogesterone caproate",
+      "question_id": "rx-r20-hpc-benefit",
+      "source_group_id": "g-rx-r20-hpc-benefit",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 20
+        }
+      ],
+      "visual_target": "How should the benefit be described?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 30-year-old woman had a prior spontaneous preterm birth and is offered weekly intramuscular hydroxyprogesterone caproate from 16 weeks.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "What is the next pharmacologic step?",
+      "options": [
+        "No treatment, because hyperemesis needs weight loss over 5 percent before drugs are used",
+        "Switch back to a full prenatal vitamin, because the folate only step has failed",
+        "Pyridoxine with doxylamine, with antihistamines or dopamine antagonists as second line drugs",
+        "IV thiamine and dextrose, because they treat the vomiting itself, which also supplies the antihistamine component"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Dietary steps include smaller meals, a folate only supplement and ginger with acupuncture. Step 2. Pharmacologic doses of pyridoxine with doxylamine are the next step, and antihistamines and dopamine antagonists are second line.",
+      "choice_rationales": [
+        "Drug therapy follows failed dietary steps and does not wait for weight loss over 5 percent.",
+        "The folate only supplement is a dietary step and not part of the drug pair.",
+        "The lecture names pharmacologic doses of pyridoxine and doxylamine and lists antihistamines and dopamine antagonists as second line.",
+        "Thiamine is a precaution before dextrose and not a treatment for the vomiting."
+      ],
+      "tested_concept": "Pharmacologic treatment of hyperemesis",
+      "question_id": "rx-r33-doxylamine-step",
+      "source_group_id": "g-rx-r33-doxylamine-step",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R33",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 28
+        }
+      ],
+      "visual_target": "What is the next pharmacologic step?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 9 week pregnant woman vomits daily despite smaller meals, a folate only prenatal vitamin, ginger and acupressure. She is not dehydrated.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What should be given first, and why?",
+      "options": [
+        "Thiamine, to prevent Wernicke encephalopathy and refeeding syndrome",
+        "Dextrose alone, because thiamine would delay correction of the electrolyte disturbance",
+        "Folate, because deficiency is the main cause of the encephalopathy",
+        "Pyridoxine, because it replaces thiamine in carbohydrate metabolism"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Hyperemesis is intractable vomiting with weight loss over 5 percent, dehydration and electrolyte disturbance. Step 2. Severe cases need IV hydration or nutrition, with thiamine before dextrose to prevent Wernicke encephalopathy and refeeding syndrome.",
+      "choice_rationales": [
+        "The lecture states thiamine is given before dextrose to prevent these complications.",
+        "The lecture gives thiamine before dextrose to prevent Wernicke encephalopathy.",
+        "The lecture names thiamine and not folate as the preventive step.",
+        "Pyridoxine with doxylamine treats the vomiting and does not replace thiamine."
+      ],
+      "tested_concept": "Thiamine before dextrose",
+      "question_id": "rx-r33-thiamine-dextrose",
+      "source_group_id": "g-rx-r33-thiamine-dextrose",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R33",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 28
+        }
+      ],
+      "visual_target": "What should be given first, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with hyperemesis gravidarum has lost 7 percent of her weight and has dehydration and electrolyte disturbance. She needs IV fluids with dextrose.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which drug targets her tumor biology?",
+      "options": [
+        "Fulvestrant, because it degrades the estrogen receptor in all target tissues",
+        "Tamoxifen, because it blocks the estrogen receptor in breast tissue",
+        "Trastuzumab, an antibody that blocks the HER2 receptor",
+        "Anastrozole, because it lowers estrogen made in peripheral tissues"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. HER2 is a membrane tyrosine kinase amplified in 20 to 30 percent of invasive breast cancers and is a predictive marker. Step 2. Trastuzumab blocks the HER2 receptor, whereas tamoxifen, anastrozole and fulvestrant act on the estrogen pathway, which is absent in this tumor.",
+      "choice_rationales": [
+        "Her tumor has no estrogen receptor to degrade.",
+        "Her tumor is estrogen receptor negative, so an estrogen receptor drug has no target.",
+        "The lecture describes trastuzumab as an antibody that blocks HER2, amplified in 20 to 30 percent of invasive breast cancers.",
+        "An aromatase inhibitor lowers estrogen, which does not matter in an estrogen receptor negative tumor."
+      ],
+      "tested_concept": "HER2 directed therapy",
+      "question_id": "rx-r25-trastuzumab-her2",
+      "source_group_id": "g-rx-r25-trastuzumab-her2",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 10
+        }
+      ],
+      "visual_target": "Which drug targets her tumor biology?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 47-year-old woman has invasive breast cancer that is HER2 amplified on FISH and estrogen receptor negative.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which explanation matches the lecture?",
+      "options": [
+        "The sulfates are absorbed in the stomach and bypass the liver completely",
+        "Gut bacteria remove the sulfate, so estrone and equilin are absorbed from the lower GI tract with milder effects than estradiol",
+        "The sulfated forms bind the estrogen receptor intact and are more potent than estradiol, so smaller doses than estradiol are needed",
+        "The liver activates the sulfates to ethinyl estradiol, which then enters the circulation"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Estrone sulfate and equilin sulfate are the predominant oral hormone replacement estrogens. Step 2. Gut bacteria remove the sulfate, the lower GI tract absorbs estrone and equilin, the liver inactivates most, and the effects are milder than estradiol.",
+      "choice_rationales": [
+        "They are absorbed in the lower GI tract after bacterial action and pass through the liver.",
+        "The lecture describes bacterial desulfation, lower GI absorption and milder effects than estradiol.",
+        "The lecture states the effects are milder than estradiol and the sulfate is removed first.",
+        "The liver inactivates estrone and equilin, with only a little converted to estradiol."
+      ],
+      "tested_concept": "Oral conjugated estrogens",
+      "question_id": "rx-r20-conjugated-estrogens",
+      "source_group_id": "g-rx-r20-conjugated-estrogens",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 17
+        }
+      ],
+      "visual_target": "Which explanation matches the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 54-year-old woman takes oral conjugated estrogens. A student asks how sulfated estrogens work when swallowed.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What is the best advice?",
+      "options": [
+        "Continue the antibiotic, because the drug relieves dysuria without treating the infection, and the urine color is expected",
+        "Seek urgent care, because yellow urine is a sign of hematuria from the drug, and instead should be treated as an adverse reaction needing a change of drug",
+        "Continue it indefinitely, because it prevents recurrent infection by acidifying the urine",
+        "Stop the antibiotic, because phenazopyridine is a urinary antiseptic that clears the infection"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Phenazopyridine is an over the counter urinary analgesic that modulates urinary sensory nerve activity. Step 2. It relieves dysuria without treating the infection and turns urine fluorescent yellow, so the antibiotic is still required.",
+      "choice_rationales": [
+        "The lecture states phenazopyridine relieves dysuria without treating the infection and turns urine fluorescent yellow.",
+        "The discoloration is an expected effect of the drug.",
+        "The lecture describes symptom relief only and no preventive effect.",
+        "It is an analgesic and does not treat the infection."
+      ],
+      "tested_concept": "Phenazopyridine counseling",
+      "question_id": "rx-r23-phenazopyridine",
+      "source_group_id": "g-rx-r23-phenazopyridine",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R23",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R23 Clinical GU II RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "What is the best advice?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with cystitis takes over the counter phenazopyridine and notices fluorescent yellow urine. Her dysuria improves and she asks to skip her antibiotic.",
+      "study_skill": "interpretation"
     }
   ]
 }
