@@ -26857,6 +26857,55 @@
       "review_status": "USABLE",
       "condition_name": "Ascending vs Hematogenous Placental Infections",
       "condition_overview": "Ascending placental infections (chorioamnionitis) are mainly bacterial (GBS, E. coli, Mycoplasma, Ureaplasma, Chlamydia) plus HSV and Candida. Hematogenous infections reach the villi via maternal blood and include Listeria monocytogenes, Treponema pallidum, and TORCH pathogens."
+    },
+    {
+      "question_id": "q-r22-fournier-gangrene-emergency",
+      "source_id": "s-c165c7bcc349b3c69f41",
+      "source_group_id": "g-95a1be6fa9a4384ff51c",
+      "asset_id": "a-ef29def6336f70c381d04fddf6953fbb4503614ac49a519befa0fa37608c424a",
+      "variant_id": "v-7b2264e226d79b191050",
+      "image": "assets/display/ef29def6336f70c381d04fddf6953fbb4503614ac49a519befa0fa37608c424a.webp",
+      "zoom_image": "assets/zoom/1463c3647f31eb1b679ae83835fd01c269fbbde15c17008f8df83e38de6a1797.webp",
+      "original_image": "assets/zoom/1463c3647f31eb1b679ae83835fd01c269fbbde15c17008f8df83e38de6a1797.webp",
+      "original_filename": "R22/Simple Hydrocele - Diagram.png",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R22 Clinical GU I RLS.pdf",
+          "page": 60
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "management",
+      "case_context": "In contrast to the benign, painless fluid collection shown in the scrotal diagram, a 68-year-old man with poorly controlled diabetes and obesity presents with severe lower abdominal and scrotal pain, marked tenderness, purulent drainage, and palpable gas (crepitus) in the scrotal wall.",
+      "stem": "What is the diagnosis, and what is the immediate management?",
+      "visual_target": "What is the diagnosis, and what is the immediate management?",
+      "tested_concept": "Fournier gangrene presentation, risk factors, and immediate surgical debridement",
+      "options": [
+        "Fournier gangrene (necrotizing fasciitis of the perineum and scrotum), requiring immediate surgical debridement and drainage of any abscess",
+        "Simple hydrocele complicated by pampiniform plexus dilation, managed with outpatient scrotal elevation and oral NSAIDs for 2 weeks",
+        "Acute epididymo-orchitis from Chlamydia trachomatis, managed with outpatient oral doxycycline without surgical exploration",
+        "Spermatocele rupture into the tunica vaginalis, managed with elective needle aspiration and routine follow-up ultrasound in 6 months"
+      ],
+      "choice_rationales": [
+        "Fournier gangrene is a rare necrotizing fasciitis of the scrotum and perineum seen especially in older men (ages 60 to 80) with diabetes and obesity, presenting with severe pain, tenderness, purulent drainage, and palpable subcutaneous gas requiring immediate surgical debridement and abscess drainage.",
+        "A simple hydrocele is a benign, painless collection of fluid around the testis rather than an acute gas-forming necrotizing infection.",
+        "Epididymo-orchitis in younger men (<35 years) is commonly due to Chlamydia or Neisseria gonorrhoeae and does not cause gas in the scrotal wall.",
+        "A spermatocele is a benign painless cystic collection rather than a rapidly progressive necrotizing fasciitis with scrotal crepitus."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A simple hydrocele (shown) is a benign, painless fluid collection around the testis. Step 2. By contrast, Fournier gangrene is a life-threatening necrotizing fasciitis of the perineum and scrotum typically affecting men aged 60 to 80 with comorbidities such as diabetes and obesity. Step 3. Presentation includes severe lower abdominal/scrotal pain, tenderness, purulent drainage, and palpable gas in the scrotum, and treatment requires immediate surgical debridement and drainage of any abscess.",
+      "visual_clues": [
+        "The diagram depicts a benign simple hydrocele (fluid within the tunica vaginalis), contrasting with an acute gas-forming necrotizing infection of the scrotal wall."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied R22 lecture transcript and scrotal diagram.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "condition_name": "Fournier Gangrene vs Simple Hydrocele",
+      "condition_overview": "Fournier gangrene is necrotizing fasciitis of the scrotum and perineum, typically in men aged 60-80 with diabetes and obesity, presenting with severe pain, purulent drainage, and palpable gas requiring immediate surgical debridement."
     }
   ],
   "retired_questions": [

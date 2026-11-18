@@ -4189,6 +4189,82 @@
       "review_status": "USABLE",
       "case_context": "A 29-year-old woman at 8 weeks' gestation asks at her first prenatal visit how much fish and coffee she can have, why cold deli turkey and soft unpasteurized cheeses are on the avoidance list, and what internal temperatures she should use when cooking chicken, ground beef, and fish at home.",
       "study_skill": "management"
+    },
+    {
+      "question_id": "rx-r23-asymptomatic-bacteriuria-cauti",
+      "source_group_id": "g-rx-r23-asymptomatic-bacteriuria-cauti",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R23",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R23 Clinical GU II RLS.pdf",
+          "page": null
+        }
+      ],
+      "case_context": "A 72-year-old woman has a positive urine culture during a routine annual checkup with no dysuria, frequency, or fever. Meanwhile, two other patients also have bacteriuria without urinary symptoms: a 28-year-old pregnant woman at 12 weeks' gestation, and a 58-year-old man scheduled for ureteroscopic kidney stone manipulation tomorrow.",
+      "stem": "Which antibiotic management strategy matches the R23 lecture rules for asymptomatic bacteriuria and indwelling catheter biofilms?",
+      "visual_target": "Which antibiotic management strategy matches the R23 lecture rules for asymptomatic bacteriuria and indwelling catheter biofilms?",
+      "tested_concept": "Asymptomatic bacteriuria treatment indications and 48-hour catheter biofilm formation",
+      "options": [
+        "Avoid antibiotics in the asymptomatic 72-year-old, treat the pregnant patient and pre-ureteroscopy stone patient, and remove indwelling catheters early since biofilms form after 48 hours",
+        "Treat all three asymptomatic patients with a 14-day fluoroquinolone course, and leave inpatient urinary catheters in place for 4 weeks before replacement",
+        "Treat the 72-year-old woman because sterile pyuria is diagnostic of commensal vaginal flora, while withholding antibiotics before kidney stone manipulation",
+        "Avoid antibiotics in pregnancy until fever develops, and treat every hospitalized patient with an indwelling catheter as soon as bacteria appear on urinalysis"
+      ],
+      "choice_rationales": [
+        "R23 teaches that asymptomatic bacteriuria is left untreated in routine checkups (to avoid antibiotic overuse from contaminated/commensal flora) except in pregnancy (worse fetal outcomes) and before urologic GU tract manipulation such as kidney stone treatment; catheters develop bacterial biofilms via quorum sensing after 48 hours and should be removed as soon as possible.",
+        "Treating asymptomatic bacteriuria in non-pregnant, non-surgical patients promotes antibiotic overuse, and inpatient catheters should be removed promptly (or changed every 2 weeks in hospital / 4 weeks chronically if unavoidable).",
+        "Sterile pyuria (WBCs with no bacterial growth) is the classic exam clue for urinary tuberculosis rather than vaginal contamination.",
+        "Asymptomatic bacteriuria in pregnancy must be treated to prevent worse fetal outcomes, and colonized catheters without symptoms do not warrant routine antibiotics."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Asymptomatic bacteriuria (bacteria in urine without illness or symptoms) should generally not be treated during routine visits to avoid antibiotic overuse from commensal/contaminated samples. Step 2. Key exceptions taught in R23 are pregnancy (associated with worse fetal outcomes) and prior to urologic manipulation of the GU tract (such as kidney stone procedures, where sterile urine is required). Step 3. Indwelling urinary catheters act as foreign bodies that develop quorum-sensing bacterial biofilms after 48 hours, so the primary rule is to remove catheters as soon as possible (or change every 2 weeks in hospital / 4 weeks in chronic catheterization).",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied R23 lecture transcript.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "study_skill": "management"
+    },
+    {
+      "question_id": "rx-r33-gdm-multiple-gestation",
+      "source_group_id": "g-rx-r33-gdm-multiple-gestation",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R33",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": null
+        }
+      ],
+      "case_context": "A 33-year-old woman with a normal pre-pregnancy BMI is pregnant with dichorionic twins and asks how her caloric, iron, folic acid, and total weight-gain targets differ from a singleton pregnancy, and what risks gestational diabetes would pose.",
+      "stem": "Which nutritional targets and gestational diabetes risks match the R33 lecture?",
+      "visual_target": "Which nutritional targets and gestational diabetes risks match the R33 lecture?",
+      "tested_concept": "Multiple gestation caloric/iron/folate/weight-gain targets and gestational diabetes consequences",
+      "options": [
+        "Twin targets are 37 to 54 lb weight gain, +300/+340/+452 kcal per baby across trimesters 1/2/3, 100 g protein, 60 mg iron in trimesters 2–3, and 1,000 mcg/day folic acid; GDM raises preeclampsia, polyhydramnios, and neonatal hypoglycemia risk",
+        "Twin targets match singleton targets (+0 kcal in trimester 1, 25 to 35 lb total weight gain, and 27 mg iron throughout), while gestational diabetes reduces amniotic fluid volume and protects against cesarean delivery",
+        "Twin pregnancies require restricting weight gain to 11 lb total and keeping folic acid below 400 mcg/day, while gestational diabetes primarily causes fetal hypercalcemia and post-term delivery",
+        "Lactation after delivery requires 0 extra calories beyond non-pregnant intake and allows discontinuing all multivitamins immediately after placental delivery"
+      ],
+      "choice_rationales": [
+        "R33 specifies 37 to 54 lb weight gain for normal-BMI twins (vs 25 to 35 lb singleton), +300/+340/+452 kcal/baby in trimesters 1/2/3, 100 g protein, 60 mg iron in trimesters 2–3, and 1,000 mcg/day folic acid; GDM increases preeclampsia, cesarean delivery, polyhydramnios, neonatal hypoglycemia, hyperbilirubinemia, and respiratory distress.",
+        "Multiple gestations add 300 kcal/baby even in the first trimester (unlike singletons) and raise weight-gain and iron targets, while GDM causes polyhydramnios rather than oligohydramnios.",
+        "11 to 20 lb is the singleton weight-gain guideline for obesity, whereas twins require higher weight gain (37 to 54 lb) and 1,000 mcg/day folic acid.",
+        "Lactation requires an extra 300 to 400 kcal/day and continued multivitamin/folate support."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Compared with a normal-BMI singleton pregnancy (25 to 35 lb weight gain, +0/+340/+452 kcal across trimesters 1/2/3), a twin gestation increases recommended weight gain to 37 to 54 lb, adds 300 kcal/baby in trimester 1 (+340 in trimester 2, +452 in trimester 3), and increases protein (~100 g), second/third-trimester iron (60 mg), and folic acid (1,000 mcg/day). Step 2. Gestational diabetes raises maternal risks (preeclampsia, infections, lacerations, cesarean delivery) and fetal/neonatal risks (abnormal growth, polyhydramnios, fetal demise, birth injury, neonatal hypoglycemia, electrolyte abnormalities, hyperbilirubinemia, respiratory distress, NICU admission). Step 3. Postpartum lactation requires an additional 300 to 400 kcal/day and continued multivitamin support.",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied R33 lecture transcript and slides.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "study_skill": "management"
     }
   ]
 }
