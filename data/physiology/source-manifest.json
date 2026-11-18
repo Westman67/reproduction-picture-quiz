@@ -4529,6 +4529,174 @@
           ]
         }
       ]
+    },
+    {
+      "asset_id": "a-fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e",
+      "source_id": "s-fc3e6c7aa733e571b09b",
+      "source_group_id": "g-fc3e6c7aa733e571b09b",
+      "lecture_id": "R5",
+      "relative_path": "R5/Extracted page 5 - Sexual differentiation pathway.png",
+      "sha256": "fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e",
+      "dimensions": [
+        1089,
+        1173
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Sexual differentiation pathway (SRY, Sertoli AMH, Leydig testosterone)",
+      "original_asset": "assets/zoom/fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e.webp",
+      "display_asset": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "document_hash_matches": true,
+      "document_available": true,
+      "variants": [
+        {
+          "variant_id": "v-b5b338497d8bd72ddb37",
+          "asset": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+          "zoom_asset": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+          "output_dimensions": [
+            1089,
+            1173
+          ],
+          "display_sha256": "b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f",
+          "zoom_sha256": "b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to cropped teaching original",
+            "input_dimensions": [
+              1089,
+              1173
+            ],
+            "normalized_boxes": [
+              [
+                0.19,
+                0.6,
+                0.33,
+                0.67
+              ],
+              [
+                0.41,
+                0.6,
+                0.55,
+                0.645
+              ],
+              [
+                0.75,
+                0.6,
+                0.99,
+                0.68
+              ]
+            ],
+            "crop": [
+              0.11,
+              0.14,
+              0.605,
+              0.83
+            ],
+            "reason": "Preserve flowchart arrows and cell labels while masking hormone answer text."
+          }
+        }
+      ],
+      "rights_status": "supplied lecture",
+      "extraction": {
+        "pdf_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+        "pdf_page": 5,
+        "method": "page_render"
+      },
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page."
+    },
+    {
+      "asset_id": "a-531081993c3fee9b9b783778f3c4a2da0d0899ec17e513184606dc365074b28e",
+      "source_id": "s-531081993c3fee9b9b78",
+      "source_group_id": "g-531081993c3fee9b9b78",
+      "lecture_id": "R5",
+      "relative_path": "R5/Extracted page 7 - Male and female duct development.png",
+      "sha256": "531081993c3fee9b9b783778f3c4a2da0d0899ec17e513184606dc365074b28e",
+      "dimensions": [
+        1518,
+        850
+      ],
+      "status": "USABLE",
+      "review_reason": "Scored tasks require the reviewed visual or a source-supported inference.",
+      "tested_concept": "Wolffian and Müllerian duct differentiation in male and female development",
+      "original_asset": "assets/zoom/531081993c3fee9b9b783778f3c4a2da0d0899ec17e513184606dc365074b28e.webp",
+      "display_asset": "assets/zoom/c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089.webp",
+      "source_origin": "lecture",
+      "source_citation": {
+        "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "current_document_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+      "document_hash_matches": true,
+      "document_available": true,
+      "variants": [
+        {
+          "variant_id": "v-c0785be3287c60828858",
+          "asset": "assets/zoom/c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089.webp",
+          "zoom_asset": "assets/zoom/c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089.webp",
+          "output_dimensions": [
+            1518,
+            850
+          ],
+          "display_sha256": "c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089",
+          "zoom_sha256": "c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089",
+          "transform": {
+            "type": "selective_label_mask",
+            "coordinate_basis": "normalized to cropped teaching original",
+            "input_dimensions": [
+              1518,
+              850
+            ],
+            "normalized_boxes": [
+              [
+                0.195,
+                0.33,
+                0.295,
+                0.522
+              ],
+              [
+                0.345,
+                0.685,
+                0.485,
+                0.79
+              ],
+              [
+                0.51,
+                0.685,
+                0.64,
+                0.79
+              ],
+              [
+                0.845,
+                0.645,
+                0.995,
+                0.76
+              ]
+            ],
+            "crop": [
+              0.17,
+              0.22,
+              0.86,
+              0.72
+            ],
+            "reason": "Preserve male and female duct anatomy while masking Wolffian and Müllerian duct labels."
+          }
+        }
+      ],
+      "rights_status": "supplied lecture",
+      "extraction": {
+        "pdf_sha256": "9468ca72e515f43a83180a96a80333cd602af4e59ad08035217f56223b6608e9",
+        "pdf_page": 7,
+        "method": "page_render"
+      },
+      "ground_truth_basis": "Verified the panel, learner variant, keyed inference, and cited lecture page."
     }
   ],
   "audit_date": "2026-11-09",

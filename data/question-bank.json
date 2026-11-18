@@ -28981,6 +28981,923 @@
       "condition_name": "Endometriosis",
       "condition_overview": "Endometriosis is the presence of functional endometrial glands and stroma outside the uterus, most often on the ovaries, pelvic peritoneum, and rectovaginal septum, and rarely in the bladder, vagina, or even the lung. Ectopic tissue responds to cyclic hormones, bleeds, and causes chronic inflammation and fibrosis. Patients have dysmenorrhea, pelvic pain, dyspareunia, and infertility. Ovarian involvement forms endometriomas (chocolate cysts) filled with old blood. Microscopically two of three elements are needed: endometrial glands, stroma, and hemosiderin-laden macrophages. Catamenial symptoms, such as thoracic or bladder symptoms with menses, suggest distant implants.",
       "reasoning_order": "second or third order"
+    },
+    {
+      "question_id": "q-r1-bbt-progesterone-shift",
+      "source_id": "s-d377b914041ddbc3b705",
+      "source_group_id": "g-23ef6449e3fbe51e6a91",
+      "asset_id": "a-53006adfe25edcd91b4485c77991648969a507447fc704b61480f2b7dd723c0b",
+      "variant_id": "v-27504b4b2b1a36b0f842",
+      "image": "assets/zoom/27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61.webp",
+      "zoom_image": "assets/zoom/27504b4b2b1a36b0f84220ca4c15e634997cab88cc7ceb90e8be01debf3aea61.webp",
+      "original_image": "assets/zoom/b36dab4ac6ce85ccbbe1dc2631ea9068de74a38d952b5db6fb6972ef746ac60a.webp",
+      "original_filename": "R1/Ovarian and Endometrial Cycle Phases - Diagram.png",
+      "collection": "R1",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 31
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Using the ovarian and endometrial cycle timeline shown, which hormonal change explains the 0.5 to 1 degree F rise in basal body temperature detected roughly 24 hours after day 14?",
+      "visual_target": "Using the ovarian and endometrial cycle timeline shown, which hormonal change explains the 0.5 to 1 degree F rise in basal body temperature detected roughly 24 hours after day 14?",
+      "tested_concept": "Basal body temperature rise driven by luteal progesterone",
+      "options": [
+        "Peak follicular estradiol secretion immediately before ovulation",
+        "Corpus luteum progesterone secretion during the luteal phase",
+        "Pituitary FSH rebound following luteal regression and menses",
+        "Placental human chorionic gonadotropin surge prior to implantation"
+      ],
+      "choice_rationales": [
+        "High follicular estradiol before ovulation keeps basal body temperature low rather than raising it.",
+        "Progesterone released by the corpus luteum after ovulation raises basal body temperature by 0.5 to 1 degree F, typically detected 24 hours post-ovulation.",
+        "Pituitary FSH rises when the corpus luteum disintegrates, which corresponds to a drop in basal body temperature rather than an elevation.",
+        "Human chorionic gonadotropin is secreted roughly 8 days after ovulation by syncytiotrophoblast to rescue the corpus luteum, not 24 hours after ovulation."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Before day 14, high follicular-phase estrogen keeps basal body temperature (BBT) low. Step 2. After ovulation, luteinized cells of the corpus luteum secrete progesterone, which raises BBT by 0.5 to 1 degree F within about 24 hours; BBT drops when the corpus luteum disintegrates unless pregnancy maintains luteal progesterone through the first trimester.",
+      "visual_clues": [
+        "The cycle diagram marks ovulation at day 14 transitioning from the follicular phase into the luteal phase."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Basal Body Temperature and Luteal Progesterone",
+      "condition_overview": "High follicular estrogen keeps basal body temperature low, whereas post-ovulatory corpus luteum progesterone raises BBT by 0.5 to 1 degree F within 24 hours."
+    },
+    {
+      "question_id": "q-r1-endometrial-hormone-regulation",
+      "source_id": "s-c00307597f84470ea8e0",
+      "source_group_id": "g-0f84b72b224950232653",
+      "variant_id": "v-53a6ba0a0574cc2d276a",
+      "image": "assets/zoom/97e64b0d27aed6c4d727e267518a28a30c0328998969b42d8ea47a5ff0537dfd.webp",
+      "zoom_image": "assets/zoom/97e64b0d27aed6c4d727e267518a28a30c0328998969b42d8ea47a5ff0537dfd.webp",
+      "original_image": "assets/zoom/c2c4c70fb27ba16db26257e7706f98b078bf3d9f0ee5e11b0ed7383ef2e86ffa.webp",
+      "original_filename": "R1/Menstrual Cycle of the Uterine Endometrium - Diagram.png",
+      "collection": "R1",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 29
+        },
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 30
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the endometrial cycle diagram shown, which pairing accurately links the dominant ovarian steroid signal to its cellular effect on the endometrium?",
+      "visual_target": "In the endometrial cycle diagram shown, which pairing accurately links the dominant ovarian steroid signal to its cellular effect on the endometrium?",
+      "tested_concept": "Estrogen proliferative hyperplasia versus progesterone secretory differentiation",
+      "options": [
+        "Proliferative-phase estrogen drives epithelial hyperplasia and extracellular matrix production",
+        "Proliferative-phase progesterone triggers endometrial shedding and spiral artery breakdown",
+        "Secretory-phase estrogen halts epithelial proliferation and blocks glandular differentiation",
+        "Menstrual-phase progesterone surge restores the functionalis layer after day 5"
+      ],
+      "choice_rationales": [
+        "During the proliferative phase, rising estrogen acts on both epithelial and stromal cells to promote cellular hyperplasia and increased extracellular matrix production.",
+        "Endometrial degeneration and menstrual breakdown are caused by falling estrogen and progesterone levels, not by proliferative-phase progesterone.",
+        "Rising progesterone—not estrogen—inhibits epithelial cell proliferation and shifts the endometrium into the secretory phase.",
+        "Menstruation reflects withdrawal of estrogen and progesterone, and restoration of the endometrium starting around day 5 is driven by rising follicular estrogen."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Falling estrogen and progesterone trigger menstrual breakdown of the functionalis layer while preserving the basalis. Step 2. Starting around day 5, rising estrogen stimulates epithelial and stromal hyperplasia plus extracellular matrix production (proliferative phase), after which rising luteal progesterone inhibits epithelial proliferation and drives secretory maturation.",
+      "visual_clues": [
+        "The endometrial diagram contrasts the menstrual, proliferative, and secretory phases across the 28-day uterine cycle."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Steroid Control of the Endometrial Cycle",
+      "condition_overview": "Rising estrogen drives proliferative-phase epithelial and stromal hyperplasia, rising progesterone halts proliferation and induces secretory changes, and withdrawal of both triggers menses."
+    },
+    {
+      "question_id": "q-r2-pulsatile-vs-continuous-gnrh",
+      "source_id": "s-e53252917b7f4f82b6c9",
+      "source_group_id": "g-702564900f1e07fc42db",
+      "asset_id": "a-52f24094c7c39efbe69ce038b161b02f42fbf17f72f095f31ef90cf9229d39f6",
+      "variant_id": "v-035890cda1a403acb3f4",
+      "image": "assets/zoom/035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46.webp",
+      "zoom_image": "assets/zoom/035890cda1a403acb3f4c0eb456ee96eb0f1c73b2ab271404d1e215799633d46.webp",
+      "original_image": "assets/zoom/ac3f9b691726fc14ad8b3777d9e665b46bd4b4f29e81f81c1d9a2657d5b5b176.webp",
+      "original_filename": "R2/Kisspeptin and GnRH Neuron Pathway - Diagram.png",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 26
+        },
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 27
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the hypothalamic-pituitary GnRH pathway shown, why does continuous GnRH exposure suppress gonadotropin release whereas pulsatile GnRH stimulates it?",
+      "visual_target": "In the hypothalamic-pituitary GnRH pathway shown, why does continuous GnRH exposure suppress gonadotropin release whereas pulsatile GnRH stimulates it?",
+      "tested_concept": "Pulsatile GnRH receptor replenishment versus continuous GnRH desensitization",
+      "options": [
+        "Continuous GnRH accelerates Leydig cell testosterone clearance and removes pituitary drive",
+        "Continuous GnRH blocks kisspeptin synthesis in arcuate neurons and halts portal blood flow",
+        "Continuous GnRH desensitizes intracellular signaling and downregulates surface GnRH receptors",
+        "Continuous GnRH selectively stimulates Sertoli inhibin secretion while sparing LH pulses"
+      ],
+      "choice_rationales": [
+        "Continuous GnRH acts directly on pituitary gonadotrophs rather than accelerating peripheral testosterone clearance.",
+        "Kisspeptin acts upstream to stimulate GnRH neurons; continuous exogenous GnRH suppresses the axis at the pituitary receptor level.",
+        "Pulsatile GnRH (5 to 25 minutes every 60 to 90 minutes) allows time for receptor replenishment, whereas continuous GnRH desensitizes intracellular signaling and depletes surface GnRH receptors.",
+        "Continuous GnRH downregulates gonadotroph receptors and suppresses both LH and FSH rather than selectively sparing LH pulses."
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Normal pubertal and adult HPG activation relies on pulsatile GnRH release (5–25 min every 60–90 min), which provides a recovery interval for gonadotroph receptor replenishment; LH secretion closely mirrors this pulsatile pattern. Step 2. By contrast, continuous GnRH infusion desensitizes intracellular signaling and downregulates/depletes surface GnRH receptors on anterior pituitary gonadotrophs, suppressing FSH and LH.",
+      "visual_clues": [
+        "The diagram illustrates kisspeptin input to hypothalamic GnRH neurons driving anterior pituitary gonadotrophs."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Pulsatile Versus Continuous GnRH Signaling",
+      "condition_overview": "Pulsatile GnRH preserves receptor replenishment and drives LH/FSH secretion, whereas continuous GnRH desensitizes signaling and downregulates surface GnRH receptors."
+    },
+    {
+      "question_id": "q-r2-erection-corpus-spongiosum",
+      "source_id": "s-ade393e39a021284e7de",
+      "source_group_id": "g-fd5d52a09d789cc75793",
+      "asset_id": "a-379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3",
+      "variant_id": "v-c494d36dd43a08fa60f2",
+      "image": "assets/display/379c865629cb28f7368c17eafa583e98bb0a065dbd1818904bd8ee0e1bdab2b3.webp",
+      "zoom_image": "assets/zoom/033e3cbce0eb1386b662a579206d06f41015e6d3f3fdab5595f3581fc13b6a64.webp",
+      "original_image": "assets/zoom/033e3cbce0eb1386b662a579206d06f41015e6d3f3fdab5595f3581fc13b6a64.webp",
+      "original_filename": "R2/Mechanism of Penile Erection - Diagram.png",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 18
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the penile erection mechanism shown, nitric oxide-mediated vasodilation directs roughly 90% of increased blood perfusion into the cavernous spaces. What is the primary functional role of the remaining 10% entering the corpus spongiosum?",
+      "visual_target": "In the penile erection mechanism shown, nitric oxide-mediated vasodilation directs roughly 90% of increased blood perfusion into the cavernous spaces. What is the primary functional role of the remaining 10% entering the corpus spongiosum?",
+      "tested_concept": "Nitric oxide vasodilation and corpus spongiosum urethral patency",
+      "options": [
+        "Maintaining rigidity equal to the corpora cavernosa to compress the prostatic urethra",
+        "Triggering sympathetic vasoconstriction to initiate seminal vesicle emission",
+        "Accelerating phosphodiesterase breakdown of cGMP during smooth muscle relaxation",
+        "Keeping the penile urethra open so semen can pass unobstructed during ejaculation"
+      ],
+      "choice_rationales": [
+        "Compressing the urethra would obstruct ejaculation; the corpus spongiosum receives lower perfusion pressure specifically to avoid urethral collapse.",
+        "Sympathetic vasoconstriction mediates detumescence and emission rather than the nitric oxide-mediated perfusion of the corpus spongiosum.",
+        "Phosphodiesterase degrades cGMP to terminate erection, not to mediate the 10% blood flow into the corpus spongiosum.",
+        "Directing about 10% of the increased blood volume into the corpus spongiosum keeps the urethra open during ejaculation while the cavernous spaces provide engorgement."
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Penile erection is a coitus-initiated neurovascular event activating autonomic and somatic nerves to produce nitric oxide (NO)-mediated vasodilation. Step 2. Approximately 90% of the increased blood perfusion fills the cavernous spaces to produce engorgement and erection, while the remaining ~10% enters the corpus spongiosum to keep the urethra patent during ejaculation.",
+      "visual_clues": [
+        "The diagram maps autonomic nitric oxide-mediated vasodilation and cavernous blood flow during penile erection."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Neurovascular Mechanism of Penile Erection",
+      "condition_overview": "Nitric oxide-mediated vasodilation directs ~90% of increased penile blood flow to the cavernous spaces for engorgement and ~10% to the corpus spongiosum to keep the urethra open during ejaculation."
+    },
+    {
+      "question_id": "q-r3-positive-feedback-progesterone-estradiol",
+      "source_id": "s-985d3bf017d9611d12ff",
+      "source_group_id": "g-d21920192db11b222bc9",
+      "asset_id": "a-38338f9dabd2e94891b2b23537c19d04c5916d146e7e416284a6f7c1d4426c5c",
+      "variant_id": "v-a35e53478ce0edc4e330",
+      "image": "assets/zoom/a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00.webp",
+      "zoom_image": "assets/zoom/a35e53478ce0edc4e330b717ba517b2dc569ccfb3e8180b90cd70a52a5392d00.webp",
+      "original_image": "assets/zoom/d15dd1a914514005279e42609994721d93b3a3b63b7e13e7e7fbf8f12c50fc8a.webp",
+      "original_filename": "R3/Hormonal Changes During Menstrual Cycle - Diagram.png",
+      "collection": "R3",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R1 Female Physiology RLS.pdf",
+          "page": 16
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the menstrual cycle hormone curves shown, how does pituitary feedback regulation differ between low early-follicular steroids and high late-follicular estradiol?",
+      "visual_target": "In the menstrual cycle hormone curves shown, how does pituitary feedback regulation differ between low early-follicular steroids and high late-follicular estradiol?",
+      "tested_concept": "Reversal from negative to positive pituitary feedback in the late follicular phase",
+      "options": [
+        "Low estrogen and high progestin exert negative feedback, whereas rising late-follicular estradiol flips to positive feedback",
+        "Low estrogen exerts positive feedback on FSH, whereas high late-follicular estradiol suppresses the LH surge",
+        "Both low and high progestin concentrations exert positive feedback throughout the entire luteal phase",
+        "Pituitary gonadotrophs respond only to inhibin until ovulation removes estradiol from the circulation"
+      ],
+      "choice_rationales": [
+        "Both low and high estrogen can provide negative feedback (while only high progestins do), but during the late follicular phase rising estradiol reverses pituitary sensitivity to produce positive feedback and the LH surge.",
+        "Low early-follicular estrogen inhibits rather than stimulates pituitary gonadotropins, and high late-follicular estradiol triggers rather than suppresses the LH surge.",
+        "High luteal-phase progesterone exerts negative feedback on the hypothalamus and pituitary rather than positive feedback.",
+        "Pituitary gonadotrophs respond directly to estradiol and progesterone as well as inhibin, and estradiol remains present after ovulation."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Throughout most of the cycle, ovarian estrogens (at both low and high concentrations) and high concentrations of progestins exert negative feedback on the hypothalamus and pituitary to reduce LH and FSH release. Step 2. In the late follicular phase, sustained rising estradiol (and small follicular progesterone increases) reverses pituitary sensitivity to positive feedback, generating the mid-cycle LH surge that triggers ovulation.",
+      "visual_clues": [
+        "The multi-curve graph shows estradiol peaking just before the sharp mid-cycle LH surge, followed by the luteal progesterone rise."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Biphasic Estrogen Feedback and the LH Surge",
+      "condition_overview": "Estrogens and high progestins normally inhibit LH and FSH, but sustained late-follicular estradiol reverses pituitary sensitivity to positive feedback, triggering the ovulatory LH surge."
+    },
+    {
+      "question_id": "q-r3-lifespan-senescence-gonadotropins",
+      "source_id": "s-b5d106778c439860f43c",
+      "source_group_id": "g-2a22925846985faa9291",
+      "variant_id": "v-b94c5262131af825d009",
+      "image": "assets/display/b94c5262131af825d0091476aa4d59d2b78c15cefba8653ea0e0572745d10c0a.webp",
+      "zoom_image": "assets/zoom/80b5bcebca2ee562187dcf6daf023f0ace78748fcf5bdfa21b86101c02c85f20.webp",
+      "original_image": "assets/zoom/80b5bcebca2ee562187dcf6daf023f0ace78748fcf5bdfa21b86101c02c85f20.webp",
+      "original_filename": "R3/LH and FSH Secretion Throughout Life - Diagram.png",
+      "collection": "R3",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R3 Physiology of the Menstrual Cycle RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 28
+        },
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 30
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual interpretation",
+      "study_skill": "interpretation",
+      "stem": "Comparing the childhood, reproductive, and postmenopausal/senescent segments of this lifespan gonadotropin curve, why do plasma FSH and LH rise sharply in late life?",
+      "visual_target": "Comparing the childhood, reproductive, and postmenopausal/senescent segments of this lifespan gonadotropin curve, why do plasma FSH and LH rise sharply in late life?",
+      "tested_concept": "Loss of gonadal negative feedback driving elevated gonadotropins in senescence",
+      "options": [
+        "Increased hypothalamic sensitivity to low circulating sex steroids during aging",
+        "Loss of gonadal steroid and inhibin negative feedback inhibition on the HPG axis",
+        "Autonomous pituitary lactotroph hyperplasia driving continuous gonadotropin release",
+        "Peripheral adipose aromatization stimulating positive feedback on pituitary LH"
+      ],
+      "choice_rationales": [
+        "High hypothalamic sensitivity to low steroids characterizes childhood quiescence rather than the elevated gonadotropins of menopause and senescence.",
+        "Reduced ovarian or testicular steroid and inhibin production removes negative feedback inhibition on the hypothalamus and anterior pituitary, raising circulating FSH and LH.",
+        "Lactotrophs secrete prolactin rather than FSH and LH, and hyperprolactinemia suppresses GnRH instead of elevating gonadotropins.",
+        "Peripheral estrone production from adipose tissue does not generate a sustained positive-feedback LH surge in postmenopause."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. During reproductive years, gonadal sex steroids and inhibin maintain steady negative feedback on the hypothalamic-pituitary-gonadal (HPG) axis. Step 2. During menopause and male senescence, declining gonadal steroid output and germ-cell/follicular depletion remove negative feedback inhibition, causing a marked rise in pituitary FSH and LH.",
+      "visual_clues": [
+        "The lifespan plot shows low gonadotropins in childhood, cyclic/moderate levels in adulthood, and markedly elevated FSH and LH in later life."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Gonadotropin Trajectory Across the Lifespan",
+      "condition_overview": "Childhood shows low gonadotropins, reproductive adulthood reflects intact negative feedback, and menopause/senescence produces high FSH and LH from loss of gonadal feedback inhibition."
+    },
+    {
+      "question_id": "q-r4-vasomotor-thermoregulatory-zone",
+      "source_id": "s-b00b6bef1d515e743c21",
+      "source_group_id": "g-e519b8035bc48253279b",
+      "asset_id": "a-3545e9b12e3e1498c03ab2797589d9dd87ad3e933b26fb0da27d91466c647a56",
+      "variant_id": "v-64da243aba1428589ad4",
+      "image": "assets/zoom/64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6.webp",
+      "zoom_image": "assets/zoom/64da243aba1428589ad4f0f9e587dc176ce924f71051635504d7898bbba333c6.webp",
+      "original_image": "assets/zoom/23285cd4bf8f7eef2f0a2556d637fc3b435e7880eca21187bce2499abc99f64a.webp",
+      "original_filename": "R4/Menopause Hormone Levels LH and FSH - Diagram.png",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 8
+        },
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 12
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Given the menopausal drop in estrogen illustrated alongside rising gonadotropins, which hypothalamic mechanism produces vasomotor hot flashes?",
+      "visual_target": "Given the menopausal drop in estrogen illustrated alongside rising gonadotropins, which hypothalamic mechanism produces vasomotor hot flashes?",
+      "tested_concept": "Hypothalamic norepinephrine and narrowed thermoregulatory neutral zone in hot flashes",
+      "options": [
+        "Decreased hypothalamic norepinephrine and widening of the thermoregulatory neutral zone",
+        "Increased circulating serotonin inhibiting alpha-2 adrenoceptors in peripheral arterioles",
+        "Elevated norepinephrine and alpha-2 adrenoceptor activation narrowing the neutral zone",
+        "Direct pituitary FSH binding to cutaneous sweat glands causing peripheral vasoconstriction"
+      ],
+      "choice_rationales": [
+        "Estrogen withdrawal increases rather than decreases hypothalamic norepinephrine and narrows—not widens—the thermoregulatory neutral zone.",
+        "Menopausal estrogen decline is associated with decreased circulating serotonin and increased hypothalamic alpha-2 adrenoceptor activation.",
+        "Decreased estrogen raises hypothalamic norepinephrine, lowers serotonin, and increases alpha-2 adrenoceptor activation, narrowing the thermoregulatory neutral zone so small core temperature rises trigger peripheral vasodilation.",
+        "Hot flashes are mediated by hypothalamic thermoregulatory pathways triggering peripheral vasodilation rather than direct FSH action causing vasoconstriction."
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Fluctuating and declining estrogen during late menopause and early postmenopause increases hypothalamic norepinephrine stimulation, lowers circulating serotonin, and increases hypothalamic alpha-2 adrenoceptor activation. Step 2. This narrows the hypothalamic thermoregulatory neutral zone so minor elevations in core temperature cross the upper threshold and trigger autonomic cooling responses (peripheral vasodilation, increased skin temperature, and transient rises in heart rate and blood pressure).",
+      "visual_clues": [
+        "The menopausal hormone curves show declining estrogen accompanied by elevated LH and FSH."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Vasomotor Symptoms (Hot Flashes) in Menopause",
+      "condition_overview": "Estrogen decline raises hypothalamic norepinephrine and alpha-2 adrenoceptor activation while lowering serotonin, narrowing the thermoregulatory neutral zone and triggering peripheral vasodilation."
+    },
+    {
+      "question_id": "q-r4-neurokinin-b-nk3r-hot-flashes",
+      "source_id": "s-2bca46ebc3b5fca40b06",
+      "source_group_id": "g-c91065199d6eb818143d",
+      "variant_id": "v-243b5579e945b163146c",
+      "image": "assets/zoom/243b5579e945b163146c44b3173fc875f3e5018503b875227441e69c7b8533dc.webp",
+      "zoom_image": "assets/zoom/243b5579e945b163146c44b3173fc875f3e5018503b875227441e69c7b8533dc.webp",
+      "original_image": "assets/zoom/8538da8361420870a2e9b36155eab9b316fb04a0937c3bbed8fc698727197eda.webp",
+      "original_filename": "R4/Estrone Excretion Across Lifespan - Diagram.png",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 14
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "As estrogen levels decline across the menopausal transition shown, hypothalamic neurons increase secretion of a neuropeptide targeted by non-hormonal vasomotor therapies. Which peptide and highest-affinity receptor pair is responsible?",
+      "visual_target": "As estrogen levels decline across the menopausal transition shown, hypothalamic neurons increase secretion of a neuropeptide targeted by non-hormonal vasomotor therapies. Which peptide and highest-affinity receptor pair is responsible?",
+      "tested_concept": "Hypothalamic neurokinin B and NK3R signaling in menopausal hot flashes",
+      "options": [
+        "Kisspeptin acting selectively on pituitary GnRH receptors",
+        "Oxytocin acting primarily on hypothalamic dopamine receptors",
+        "Inhibin B acting selectively on anterior pituitary FSH receptors",
+        "Neurokinin B binding with highest affinity to the NK3 receptor"
+      ],
+      "choice_rationales": [
+        "Kisspeptin drives GnRH neurons, whereas the lecture identifies neurokinin B binding NK3R as the target of non-hormonal hot flash antagonists.",
+        "Oxytocin mediates uterine contraction and milk ejection rather than the hypothalamic neurokinin pathway of menopausal hot flashes.",
+        "Inhibin B is an ovarian peptide that falls—not rises—at menopause and is not the target of neurokinin antagonists.",
+        "In response to reduced estrogen, hypothalamic neurons secrete neurokinin B, which binds NK1R, NK2R, and NK3R with highest affinity for NK3R; NK3R antagonists block this signaling."
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Reduced postmenopausal estrogen removes inhibition on hypothalamic neurons, increasing secretion of neurokinin B. Step 2. Although neurokinin B can bind NK1R, NK2R, and NK3R, it has the highest affinity for NK3R; non-hormonal agents such as fezolinetant (Veozah, NK3R antagonist) and elinzanetant (NK1R/NK3R antagonist) reduce hot flashes by blocking neurokinin B receptor binding.",
+      "visual_clues": [
+        "The lifespan estrogen curve highlights the steep postmenopausal decline in circulating estrogen."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Neurokinin B and NK3R Signaling in Menopause",
+      "condition_overview": "Reduced estrogen stimulates hypothalamic neurokinin B secretion, which binds NK3R with highest affinity to drive vasomotor hot flashes and is targeted by NK3R antagonists."
+    },
+    {
+      "question_id": "q-r5-hpl-insulin-resistance",
+      "source_id": "s-fb80b9844e2ab41c596c",
+      "source_group_id": "g-30d4a3847b1a7fada26f",
+      "variant_id": "v-016145a15cf105b86e07",
+      "image": "assets/zoom/9d07deb922527c60ad0d39bffd83140015fee40733f3012220fa45eef473063b.webp",
+      "zoom_image": "assets/zoom/9d07deb922527c60ad0d39bffd83140015fee40733f3012220fa45eef473063b.webp",
+      "original_image": "assets/zoom/a9fd14205793badb3478088bcc15e9985a956ad79208c591331629acce83cabe.webp",
+      "original_filename": "R5/Hormone Levels During Pregnancy - Diagram.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 24
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the pregnancy hormone profile shown, which placental hormone rises progressively across gestation to increase maternal insulin resistance and preserve glucose for fetal uptake?",
+      "visual_target": "In the pregnancy hormone profile shown, which placental hormone rises progressively across gestation to increase maternal insulin resistance and preserve glucose for fetal uptake?",
+      "tested_concept": "Human placental lactogen (hPL/HCS) and diabetogenicity of pregnancy",
+      "options": [
+        "Human placental lactogen (human chorionic somatomammotropin)",
+        "First-trimester human chorionic gonadotropin from syncytiotrophoblast",
+        "Posterior pituitary oxytocin released in response to uterine distension",
+        "Corpus luteum inhibin suppressing maternal pancreatic glucagon"
+      ],
+      "choice_rationales": [
+        "Human placental lactogen (hPL/HCS) reduces maternal insulin sensitivity—the primary driver of diabetogenicity of pregnancy—to facilitate fetal glucose uptake and fatty acid/ketone supply.",
+        "Human chorionic gonadotropin peaks in the first trimester to rescue the corpus luteum, promote male fetal androgen secretion, and mature the fetal adrenal/liver rather than driving late-gestation insulin resistance.",
+        "Oxytocin acts on myometrium during parturition and mammary myoepithelial cells during lactation rather than inducing maternal insulin resistance.",
+        "Inhibin regulates pituitary FSH and is not the placental hormone responsible for pregnancy-associated insulin resistance."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Human placental lactogen (hPL, also called human chorionic somatomammotropin, HCS) increases maternal insulin resistance (reducing maternal insulin sensitivity), which R5 identifies as the major cause of the diabetogenicity of pregnancy. Step 2. This metabolic shift preserves glucose for fetal uptake, converts glucose into fatty acids and ketones as additional fetal fuels, and helps prepare maternal mammary glands for postpartum lactation.",
+      "visual_clues": [
+        "The pregnancy hormone graph displays gestational hormone trajectories across trimesters."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Human Placental Lactogen and Maternal Metabolism",
+      "condition_overview": "Human placental lactogen (hPL/HCS) reduces maternal insulin sensitivity to divert glucose and fatty acids/ketones to the fetus and prepares mammary glands for lactation."
+    },
+    {
+      "question_id": "q-r5-maternal-respiratory-alkalosis",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "variant_id": "v-2bd51742da1ef6bd9774",
+      "image": "assets/display/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.webp",
+      "zoom_image": "assets/zoom/95587fb9c4de4bdc374213e4654bf6149bba2d91fa96fbbb4a884f7db1fd483b.webp",
+      "original_image": "assets/zoom/06943b706ff1b692035fee5f021ade32d4195449d0e6fafeb6575ce6324e15d5.webp",
+      "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 23
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "To support oxygen delivery and CO2 transfer across the maternal-placental-fetal unit shown, how does the maternal respiratory system adapt during pregnancy?",
+      "visual_target": "To support oxygen delivery and CO2 transfer across the maternal-placental-fetal unit shown, how does the maternal respiratory system adapt during pregnancy?",
+      "tested_concept": "Progesterone-driven maternal hyperventilation and physiologic respiratory alkalosis",
+      "options": [
+        "Estrogen blunts medullary CO2 sensitivity, lowering alveolar ventilation and causing respiratory acidosis",
+        "Progesterone heightens respiratory center CO2 sensitivity, raising alveolar ventilation ~50% with respiratory alkalosis",
+        "Upward diaphragmatic shift increases total diaphragmatic excursion, producing slow deep respirations",
+        "Human chorionic gonadotropin decreases basal metabolic rate by 15%, reducing maternal oxygen consumption"
+      ],
+      "choice_rationales": [
+        "Pregnancy increases—not blunts—respiratory center CO2 sensitivity via progesterone, resulting in lower PCO2 and respiratory alkalosis rather than acidosis.",
+        "Progesterone increases sensitivity of the respiratory center to CO2, raising alveolar ventilation by ~50% to increase oxygen consumption, reduce PCO2, and create physiologic respiratory alkalosis.",
+        "The enlarged uterus pushes the diaphragm upward and reduces its moving space (excursion), leading to an increased but shallower respiratory rate.",
+        "Maternal basal metabolic rate increases by 15% during pregnancy rather than decreasing, raising oxygen demand."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Maternal alveolar ventilation increases by approximately 50% during pregnancy to meet higher oxygen consumption and lower arterial PCO2, driven by elevated metabolism and progesterone-induced sensitization of the respiratory center to CO2. Step 2. This over-exhalation produces a physiologic respiratory alkalosis, while upward displacement of the diaphragm by the enlarging uterus reduces diaphragmatic excursion and causes faster, shallower breathing.",
+      "visual_clues": [
+        "The maternal-placental-fetal unit diagram highlights gas and nutrient exchange between maternal intervillous blood and fetal villous capillaries."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Maternal Respiratory Adaptation to Pregnancy",
+      "condition_overview": "Progesterone increases CO2 sensitivity to raise maternal alveolar ventilation ~50%, lowering PCO2 into physiologic respiratory alkalosis while uterine enlargement makes breathing faster and shallower."
+    },
+    {
+      "question_id": "q-r5-maternal-cardiovascular-renal",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "variant_id": "v-2bd51742da1ef6bd9774",
+      "image": "assets/display/96a8acfa652b6d6105ecb1a6a7ed7d32b90f3c48b1e7775de6d5d9c02fab7061.webp",
+      "zoom_image": "assets/zoom/95587fb9c4de4bdc374213e4654bf6149bba2d91fa96fbbb4a884f7db1fd483b.webp",
+      "original_image": "assets/zoom/06943b706ff1b692035fee5f021ade32d4195449d0e6fafeb6575ce6324e15d5.webp",
+      "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 23
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "To sustain perfusion of the maternal-placental-fetal unit shown, which pair of circulatory and renal adaptations occurs in normal maternal pregnancy physiology?",
+      "visual_target": "To sustain perfusion of the maternal-placental-fetal unit shown, which pair of circulatory and renal adaptations occurs in normal maternal pregnancy physiology?",
+      "tested_concept": "Maternal cardiac output, blood volume, and renal GFR/reabsorption increases",
+      "options": [
+        "Cardiac output falls ~30% at 27 to 30 weeks while glomerular filtration drops to conserve maternal volume",
+        "Blood volume expands via aldosterone suppression while renal tubular Na+ and water reabsorption fall by 50%",
+        "Cardiac output rises ~40%, blood volume rises ~30%, and GFR plus tubular Na+/Cl-/water reabsorption rise ~50%",
+        "Bone marrow erythropoiesis shuts down during gestation while cardiac output remains unchanged from baseline"
+      ],
+      "choice_rationales": [
+        "Maternal cardiac output rises by ~40% (peaking around 27–30 weeks) and glomerular filtration rises by ~50% rather than falling.",
+        "Increased—not suppressed—estrogen and aldosterone enhance renal fluid retention, and tubular reabsorption of Na+, Cl-, and water increases by 50%.",
+        "R5 teaches that maternal cardiac output rises ~40% (at ~27–30 weeks), blood volume rises ~30% (1–2 L) via estrogen/aldosterone fluid retention plus increased bone marrow output, and both GFR and Na+/Cl-/water reabsorption rise ~50%.",
+        "Bone marrow becomes more active to generate extra blood cells matching the expanded fluid volume, alongside a ~40% rise in cardiac output."
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Maternal cardiac output increases by roughly 40% (peaking around 27–30 weeks) and blood volume increases by about 30% (1–2 liters) because elevated estrogen and aldosterone promote renal fluid retention while bone marrow activity increases to produce extra blood cells. Step 2. In parallel, glomerular filtration rate (GFR) increases by ~50%, matched by a ~50% rise in renal tubular reabsorption of Na+, Cl-, and water.",
+      "visual_clues": [
+        "The maternal-placental-fetal diagram illustrates maternal vascular inflow perfusing the intervillous space."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Maternal Circulatory and Renal Adaptations",
+      "condition_overview": "Normal pregnancy raises maternal cardiac output ~40%, blood volume ~30% via estrogen/aldosterone retention and marrow activity, and both GFR and tubular Na+/Cl-/water reabsorption ~50%."
+    },
+    {
+      "question_id": "q-r6-crh-prostaglandins-parturition",
+      "source_id": "s-0554c6d6dd70815e571b",
+      "source_group_id": "g-0554c6d6dd70815e571b",
+      "asset_id": "a-e8a4cbf7a16eb93d5e91c4522cd6b2ac6d834add50b0c264273e796fb97a530d",
+      "variant_id": "v-d2208c04147617feb31c",
+      "image": "assets/zoom/d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122.webp",
+      "zoom_image": "assets/zoom/d2208c04147617feb31c383366f244a001d8e36db2f7bdd3811ba86c86952122.webp",
+      "original_image": "assets/zoom/14945d181a0a44da25cfc56d029fa9a8cb3aea2c22e83b2027134dc0688cc50c.webp",
+      "original_filename": "R6/Extracted page 4 - Parturition phases and delivery.png",
+      "collection": "R6",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 1
+        },
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 2
+        },
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 4
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the parturition cascade shown, how do prostaglandins and the rising estrogen-to-progesterone ratio coordinate cervical ripening and active uterine contractions?",
+      "visual_target": "In the parturition cascade shown, how do prostaglandins and the rising estrogen-to-progesterone ratio coordinate cervical ripening and active uterine contractions?",
+      "tested_concept": "CRH/cortisol E/P shift and distinct roles of PGE2/PGI2 versus PGF2alpha",
+      "options": [
+        "PGF2alpha softens and dilates the cervix while rising progesterone upregulates myometrial gap junctions",
+        "High progesterone upregulates oxytocin receptors while CRH suppresses fetal adrenal cortisol release",
+        "Oxytocin initiates cervical ripening during phase 1 quiescence before prostaglandins are synthesized",
+        "Rising E/P ratio upregulates gap junctions and oxytocin receptors while PGE2/PGI2 ripen the cervix and PGF2alpha contracts uterus"
+      ],
+      "choice_rationales": [
+        "PGE2 and PGI2 mediate cervical ripening (softening, dilating, thinning), whereas PGF2alpha stimulates uterine smooth muscle contraction; estrogen—not progesterone—upregulates gap junctions.",
+        "CRH stimulates fetal pituitary ACTH and fetal adrenal cortisol (plus placental estrogen) to raise the E/P ratio (functional progesterone withdrawal), not suppress cortisol.",
+        "Prostaglandins (PGE2 and PGI2) trigger cervical ripening toward the end of pregnancy, whereas oxytocin acts as a potentiator amplified by estrogen, prostaglandins, and cervical stretch.",
+        "CRH-driven fetal ACTH/cortisol raises the estrogen-to-progesterone ratio, which upregulates myometrial gap junctions, prostaglandin synthesis, and oxytocin receptors, while PGE2/PGI2 ripen the cervix and PGF2alpha drives contractions."
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Placental/hypothalamic CRH stimulates fetal pituitary ACTH and fetal adrenal cortisol (and placental estrogen), raising the estrogen-to-progesterone (E/P) ratio (functional progesterone withdrawal). Step 2. Estrogen increases myometrial gap junctions for synchronous contraction, stimulates prostaglandin synthesis, and upregulates prostaglandin and oxytocin receptors; PGE2 and PGI2 ripen the cervix while PGF2alpha contracts uterine smooth muscle.",
+      "visual_clues": [
+        "The parturition figure maps hormonal transitions across quiescence, activation, stimulation, and involution."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Endocrine and Prostaglandin Cascade of Parturition",
+      "condition_overview": "CRH-ACTH-cortisol raises the E/P ratio to upregulate myometrial gap junctions and oxytocin receptors, while PGE2/PGI2 ripen the cervix and PGF2alpha stimulates uterine contraction."
+    },
+    {
+      "question_id": "q-r6-lactational-amenorrhea-suckling",
+      "source_id": "s-bbbe6e7aa9ebdd17f6e1",
+      "source_group_id": "g-22dc7fb864b26703a544",
+      "variant_id": "v-6588d6a0d2024598fd35",
+      "image": "assets/display/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.webp",
+      "zoom_image": "assets/zoom/4ccb85275ca9f02188ad5640534af021dbbe78dc9e6749162b971b33ab1eb8b7.webp",
+      "original_image": "assets/zoom/4ccb85275ca9f02188ad5640534af021dbbe78dc9e6749162b971b33ab1eb8b7.webp",
+      "original_filename": "PDF panel extraction/R6.png",
+      "collection": "R6",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 11
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Based on the suckling-driven neuroendocrine reflex illustrated, why does frequent breastfeeding suppress the maternal menstrual cycle and how does sympathetic stress affect lactation?",
+      "visual_target": "Based on the suckling-driven neuroendocrine reflex illustrated, why does frequent breastfeeding suppress the maternal menstrual cycle and how does sympathetic stress affect lactation?",
+      "tested_concept": "Lactational amenorrhea via GnRH inhibition and sympathetic inhibition of milk release",
+      "options": [
+        "Elevated prolactin and oxytocin inhibit hypothalamic GnRH to lower FSH/LH, while sympathetic stress inhibits milk release",
+        "Elevated prolactin stimulates pulsatile GnRH to raise LH, while sympathetic activation accelerates oxytocin let-down",
+        "Suckling elevates hypothalamic dopamine (PIH) to block FSH, while sympathetic input boosts alveolar prolactin receptors",
+        "Postpartum placental estrogen suppresses pituitary FSH, while psychogenic stress directly stimulates myoepithelial contraction"
+      ],
+      "choice_rationales": [
+        "As summarized in R6, nursing-elevated prolactin and oxytocin inhibit hypothalamic GnRH release (reducing FSH and LH and suppressing the menstrual cycle), whereas sympathetic stimulation or postpartum depression inhibits prolactin/oxytocin release.",
+        "Prolactin and oxytocin inhibit—not stimulate—GnRH release, and sympathetic activation suppresses rather than accelerates lactation.",
+        "Suckling reduces rather than elevates hypothalamic dopamine (PIH) so prolactin can rise, and sympathetic input inhibits lactation.",
+        "Placental estrogen falls sharply after delivery when placental circulation terminates, and psychogenic stress inhibits rather than stimulates milk ejection."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Nipple suckling triggers neurogenic signals that reduce hypothalamic dopamine (PIH) and stimulate pituitary release of prolactin (milk synthesis in alveolar epithelial cells) and oxytocin (milk ejection via myoepithelial contraction). Step 2. Elevated prolactin and oxytocin inhibit hypothalamic GnRH release, lowering FSH and LH and suppressing the menstrual cycle; psychogenic stress (such as postpartum depression) or sympathetic stimulation inhibits prolactin/oxytocin release and reduces milk production and ejection.",
+      "visual_clues": [
+        "The lactation panel shows alveolar epithelial secretory cells, surrounding myoepithelial cells, and nipple neurogenic signaling."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Lactational Amenorrhea and Autonomic Modulation",
+      "condition_overview": "Suckling-induced prolactin and oxytocin inhibit hypothalamic GnRH (lowering FSH/LH to suppress menstruation), while sympathetic stimulation or psychogenic stress inhibits milk production and ejection."
+    },
+    {
+      "question_id": "q-r7-fetal-pvr-vasoconstrictors",
+      "source_id": "s-1aea6b2ec22c65f3e713",
+      "source_group_id": "g-dd19844f28fd57697223",
+      "variant_id": "v-075385c286db6c30e572",
+      "image": "assets/display/075385c286db6c30e5727f3413ef2dd62a3f95af395672577bc7f160c5142333.webp",
+      "zoom_image": "assets/zoom/47498812a835e549ffc78523eefa2b9918b430e911686d13df24b57ee02d8c0c.webp",
+      "original_image": "assets/zoom/47498812a835e549ffc78523eefa2b9918b430e911686d13df24b57ee02d8c0c.webp",
+      "original_filename": "R7/Pulmonary Vascular Resistance Fetus to Adult - Diagram.png",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 6
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Looking at the high fetal segment of this pulmonary vascular resistance curve before birth, which combination of local factors maintains high fetal PVR and low pulmonary blood flow?",
+      "visual_target": "Looking at the high fetal segment of this pulmonary vascular resistance curve before birth, which combination of local factors maintains high fetal PVR and low pulmonary blood flow?",
+      "tested_concept": "Vascular and mediator determinants of high fetal pulmonary vascular resistance",
+      "options": [
+        "Air-filled alveolar expansion, high oxygen tension, elevated nitric oxide, and suppressed thromboxane",
+        "Fluid-filled compressed vessels, hypoxic vasoconstriction, low NO/PGI2, and elevated thromboxane",
+        "Systemic umbilical cord clamping, high prostacyclin (PGI2), and fetal breathing gas exchange",
+        "Elevated left atrial pressure, high alveolar surfactant, and parasympathetic pulmonary vasodilation"
+      ],
+      "choice_rationales": [
+        "Air-filled lung expansion, rising oxygen tension, and increased nitric oxide occur after birth to drop pulmonary vascular resistance.",
+        "R7 lists five drivers of high fetal PVR and low pulmonary blood flow: compressed vessels in unexpanded fluid-filled lungs, hypoxia-induced vasoconstriction, low vasodilators (NO and PGI2), and elevated vasoconstrictor thromboxane (TXA).",
+        "Umbilical cord clamping occurs at birth rather than in utero, high PGI2 lowers PVR, and fetal breathing movements support lung development without performing gas exchange.",
+        "Left atrial pressure rises after birth when pulmonary venous return increases, and vasodilation lowers rather than maintains high PVR."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. In utero, fetal pulmonary vascular resistance (PVR) remains high and pulmonary blood flow (PBF) stays low because blood vessels are compressed in unexpanded, fluid-filled lungs, low oxygen tension causes hypoxic vasoconstriction, vasodilators (NO and PGI2) are low, and vasoconstrictor prostaglandins (thromboxane, TXA) are high. Step 2. Fetal breathing movements aid lung development but do not perform gas exchange; continuous postnatal breathing rapidly reverses these factors and drops PVR.",
+      "visual_clues": [
+        "The PVR curve contrasts markedly elevated fetal pulmonary vascular resistance against the sharp drop after birth."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Determinants of High Fetal Pulmonary Vascular Resistance",
+      "condition_overview": "High fetal PVR results from fluid-filled compressed vessels, hypoxic vasoconstriction, low NO and PGI2, and high thromboxane (TXA), reversing rapidly at birth."
+    },
+    {
+      "question_id": "q-r5-sry-gonadal-phenotypic-sex",
+      "source_id": "s-fc3e6c7aa733e571b09b",
+      "source_group_id": "g-fc3e6c7aa733e571b09b",
+      "asset_id": "a-fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e",
+      "variant_id": "v-b5b338497d8bd72ddb37",
+      "image": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+      "zoom_image": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+      "original_image": "assets/zoom/fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e.webp",
+      "original_filename": "R5/Extracted page 5 - Sexual differentiation pathway.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) Lecture Notes.pdf",
+          "page": 2
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the sexual differentiation flowchart shown, both red arrows from absent testes (XY) and absent ovaries (XX) converge on a female genital tract and external genitalia. What does this pathway demonstrate about gonadal and phenotypic sex determination?",
+      "visual_target": "In the sexual differentiation flowchart shown, both red arrows from absent testes (XY) and absent ovaries (XX) converge on a female genital tract and external genitalia. What does this pathway demonstrate about gonadal and phenotypic sex determination?",
+      "tested_concept": "SRY testis determination and female phenotype as default in absence of testes",
+      "options": [
+        "Ovarian estrogen and progesterone are strictly required during fetal life to induce female external genitalia",
+        "Testis formation requires the Y-chromosome SRY gene, whereas female phenotype develops whenever testes and their hormones are absent",
+        "Genetic sex directly sets external genital phenotype even if both embryonic gonads fail to develop",
+        "An XX embryo without ovaries develops male internal ducts because ovarian hormones normally suppress Wolffian ducts"
+      ],
+      "choice_rationales": [
+        "As shown by the red arrow from absent ovaries to the female phenotype box, female phenotypic differentiation does not depend on the presence of ovaries.",
+        "The Y chromosome carries the testis-determining SRY gene directing testis formation; without testes and their two hormones, the embryo develops a female genital tract and external genitalia regardless of XX or XY karyotype.",
+        "Genetic sex determines gonadal sex, but phenotypic sex depends on the presence or absence of functional testes and their hormones, so an XY fetus without testes develops a female phenotype.",
+        "Wolffian ducts regress automatically in the absence of testosterone rather than being suppressed by ovarian hormones."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Sexual differentiation proceeds in three steps: genetic sex (XX or XY) determines gonadal sex because the Y chromosome carries the testis-determining SRY gene, while absence of a Y chromosome yields ovaries. Step 2. Phenotypic sex is determined by the presence or absence of testes and their two hormones: as the red arrows show, female phenotypic differentiation is independent of ovaries and occurs whenever testes (and their hormones) are absent.",
+      "visual_clues": [
+        "Red X marks over both Testes and Ovaries each redirect via red arrows to the Female genital tract and external genitalia box."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Genetic, Gonadal, and Phenotypic Sexual Differentiation",
+      "condition_overview": "The Y-chromosome SRY gene directs testis formation, whereas female phenotypic sex develops independently of ovaries whenever testes and testicular hormones are absent."
+    },
+    {
+      "question_id": "q-r5-sertoli-amh-leydig-testosterone",
+      "source_id": "s-fc3e6c7aa733e571b09b",
+      "source_group_id": "g-fc3e6c7aa733e571b09b",
+      "asset_id": "a-fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e",
+      "variant_id": "v-b5b338497d8bd72ddb37",
+      "image": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+      "zoom_image": "assets/zoom/b5b338497d8bd72ddb37c6c6f1c6e3eff7e64f68286e61c3ae9f4f219ec4681f.webp",
+      "original_image": "assets/zoom/fc3e6c7aa733e571b09b0e9b2c0b6c93f366d4832f200b25b5169cf90af2734e.webp",
+      "original_filename": "R5/Extracted page 5 - Sexual differentiation pathway.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) Lecture Notes.pdf",
+          "page": 3
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the male branch of the sexual differentiation diagram shown, which hormones correspond to the masked boxes directly beneath Sertoli cells and Leydig cells, and what is each hormone's primary role?",
+      "visual_target": "In the male branch of the sexual differentiation diagram shown, which hormones correspond to the masked boxes directly beneath Sertoli cells and Leydig cells, and what is each hormone's primary role?",
+      "tested_concept": "Sertoli anti-Müllerian hormone versus Leydig testosterone in male differentiation",
+      "options": [
+        "Sertoli cells secrete testosterone to masculinize external genitalia, while Leydig cells secrete AMH to regress Müllerian ducts",
+        "Sertoli cells secrete inhibin B to stimulate Wolffian ducts, while Leydig cells secrete estradiol to close the urogenital sinus",
+        "Sertoli cells secrete anti-Müllerian hormone (AMH) to suppress Müllerian ducts, while Leydig cells secrete testosterone to masculinize the male tract",
+        "Both Sertoli and Leydig cells secrete hCG to maintain the embryonic gonad until fetal pituitary LH begins at birth"
+      ],
+      "choice_rationales": [
+        "This reverses the two testicular cell types: Sertoli cells produce anti-Müllerian hormone (AMH), whereas Leydig cells produce testosterone.",
+        "Inhibin B regulates pituitary FSH rather than driving fetal Wolffian duct differentiation, and Leydig testosterone—not estradiol—masculinizes male genitalia.",
+        "Sertoli cells secrete anti-Müllerian hormone (AMH), which suppresses Müllerian duct development, while Leydig cells secrete testosterone to drive male internal and external phenotypic differentiation.",
+        "Human chorionic gonadotropin (hCG) is secreted by placental syncytiotrophoblast—not fetal Sertoli or Leydig cells—to stimulate fetal male hormone release."
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Under the male XY branch, fetal testes contain two hormone-secreting cell populations: Sertoli cells and Leydig cells. Step 2. Sertoli cells secrete anti-Müllerian hormone (AMH) to suppress Müllerian duct development (preventing female internal tract formation), while Leydig cells secrete testosterone to promote Wolffian duct differentiation and masculinize external genitalia.",
+      "visual_clues": [
+        "Two masked boxes sit directly beneath the Sertoli cells and Leydig cells arrows feeding into Male genital tract and external genitalia."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Sertoli AMH and Leydig Testosterone in Fetal Male Differentiation",
+      "condition_overview": "Fetal Sertoli cells secrete anti-Müllerian hormone (AMH) to suppress Müllerian ducts, while Leydig cells secrete testosterone to drive male genital tract and external genital development."
+    },
+    {
+      "question_id": "q-r5-wolffian-mullerian-duct-fates",
+      "source_id": "s-531081993c3fee9b9b78",
+      "source_group_id": "g-531081993c3fee9b9b78",
+      "asset_id": "a-531081993c3fee9b9b783778f3c4a2da0d0899ec17e513184606dc365074b28e",
+      "variant_id": "v-c0785be3287c60828858",
+      "image": "assets/zoom/c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089.webp",
+      "zoom_image": "assets/zoom/c0785be3287c60828858aa06f3f6a53df8e1e2acc6af9b12dc4ab1cbcb3b7089.webp",
+      "original_image": "assets/zoom/531081993c3fee9b9b783778f3c4a2da0d0899ec17e513184606dc365074b28e.webp",
+      "original_filename": "R5/Extracted page 7 - Male and female duct development.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) Lecture Notes.pdf",
+          "page": 3
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Comparing Panel B (male development) and Panel C (female development) with the duct labels masked, how do the persistent solid ducts and dashed degenerated ducts map to embryonic duct origin?",
+      "visual_target": "Comparing Panel B (male development) and Panel C (female development) with the duct labels masked, how do the persistent solid ducts and dashed degenerated ducts map to embryonic duct origin?",
+      "tested_concept": "Wolffian versus Müllerian duct persistence and regression in male and female embryos",
+      "options": [
+        "In Panel B, the persistent purple duct is the Müllerian duct and the dashed duct is the degenerated Wolffian duct",
+        "In Panel C, ovarian testosterone maintains the blue Müllerian duct while ovarian AMH eliminates the purple Wolffian duct",
+        "Both male and female internal genital tracts derive from the Wolffian duct while the Müllerian duct forms only the ureters",
+        "In Panel B, testosterone maintains the Wolffian duct while AMH regresses the Müllerian duct; in Panel C, lacking both hormones preserves the Müllerian duct and regresses the Wolffian duct"
+      ],
+      "choice_rationales": [
+        "In Panel B (male), the persistent purple duct forming the epididymis, vas deferens, seminal vesicles, and ejaculatory duct is the Wolffian duct, whereas the dashed structure is the degenerated Müllerian duct.",
+        "Female differentiation does not require ovarian testosterone or AMH; absence of AMH allows the Müllerian duct to form fallopian tubes, uterus, and upper vagina while absence of testosterone causes Wolffian regression.",
+        "The male genital tract derives from the Wolffian (mesonephric) duct and the female tract derives from the Müllerian (paramesonephric) duct; ureters arise separately from the metanephric system.",
+        "In males (Panel B), Leydig testosterone preserves the Wolffian duct and Sertoli AMH causes Müllerian degeneration; in females (Panel C), the absence of AMH lets the Müllerian duct form oviducts, uterus, and upper vagina while lack of testosterone causes Wolffian regression."
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Every sexually indifferent embryo begins with both paired mesonephric (Wolffian) and paramesonephric (Müllerian) ducts. Step 2. In males (Panel B), Leydig testosterone maintains the Wolffian duct (epididymis, vas deferens, seminal vesicles, ejaculatory duct) while Sertoli AMH causes the Müllerian duct to degenerate (dashed). In females (Panel C), absence of AMH allows the Müllerian duct to form the fallopian tubes, uterus, and upper vagina while absence of testosterone causes the Wolffian duct to regress (dashed).",
+      "visual_clues": [
+        "Panel B shows a solid purple duct connecting testis to seminal vesicle/ejaculatory duct beside a dashed degenerated duct; Panel C shows a solid teal duct forming oviduct/uterus/vagina beside a dashed degenerated duct."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Wolffian and Müllerian Duct Differentiation",
+      "condition_overview": "Male Wolffian ducts persist under testosterone while AMH regresses Müllerian ducts; in the absence of AMH and testosterone, female Müllerian ducts persist and Wolffian ducts regress."
     }
   ],
   "retired_questions": [
