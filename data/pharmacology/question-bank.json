@@ -3768,6 +3768,318 @@
       "review_status": "USABLE",
       "case_context": "A 22-year-old woman presents 2 days after unprotected intercourse and asks which emergency contraceptives are available over the counter. The clinic offers levonorgestrel alone or a product that combines levonorgestrel with ethinyl estradiol. She asks whether the two differ in how well they work and in how long after sex they can be used.",
       "study_skill": "management"
+    },
+    {
+      "stem": "Which IV drug is an acceptable alternative to ceftriaxone for her, and what is its mechanism?",
+      "options": [
+        "Ciprofloxacin, which inhibits DNA gyrase, so supercoiling cannot be reversed for gene expression and the organism dies",
+        "Fosfomycin, which inhibits the cell wall enzyme MurA, because a single dose also treats infection that has reached the kidney",
+        "Nitrofurantoin, which forms reactive intermediates in urine, because it reaches high levels in kidney tissue in upper tract infection",
+        "Trimethoprim sulfamethoxazole, which blocks tetrahydrofolate production, because it is a safe empiric choice for pyelonephritis in every patient"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Fever, vomiting and flank pain indicate an upper tract infection that needs IV therapy while culture is pending. Step 2. Ceftriaxone, which inhibits cell wall synthesis, is the usual drug, and penicillin allergy does not automatically bar it. Step 3. When the allergy makes a cephalosporin undesirable, ciprofloxacin is offered, and it acts by inhibiting DNA gyrase. Step 4. The oral urinary drugs concentrate in urine but do not reach kidney tissue.",
+      "choice_rationales": [
+        "The lecture offers ciprofloxacin when a penicillin allergy makes a cephalosporin undesirable, and DNA gyrase blockade is lethal to the organism.",
+        "Fosfomycin concentrates in urine, does not reach kidney tissue and is not for upper tract infection.",
+        "Nitrofurantoin concentrates in urine but does not reach kidney tissue, so it is wrong for suspected upper tract infection.",
+        "It is a first line drug for uncomplicated lower tract infection and is not the taught choice for a hospitalized upper tract infection."
+      ],
+      "tested_concept": "Ciprofloxacin when a cephalosporin is undesirable",
+      "question_id": "rx-r24-cipro-allergy",
+      "source_group_id": "g-rx-r24-cipro-allergy",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 8
+        }
+      ],
+      "visual_target": "Which IV drug is an acceptable alternative to ceftriaxone for her, and what is its mechanism?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 36-year-old woman is admitted with fever, vomiting and flank pain, and a urine culture is pending. She reports an itchy rash after amoxicillin as a child and her admitting physician hesitates to give a cephalosporin. A pharmacist asks which IV drug is reasonable and how it works.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What caution about nitrofurantoin applies to her, and which alternative is acceptable?",
+      "options": [
+        "It does not reach kidney tissue, so it cannot be used for any lower tract infection in pregnant women, and this is why it is also avoided in uncomplicated cystitis",
+        "The slide annotation says to avoid it near delivery, so fosfomycin as a single oral powder mixed in water is a safe alternative",
+        "It blocks folate production, so trimethoprim sulfamethoxazole is the preferred substitute near delivery, and it is taken as a single sachet mixed in water",
+        "It is contraindicated at any point in pregnancy, so IV ceftriaxone should be given even for simple cystitis, and this is why oral drugs are never used in late pregnancy"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. She has uncomplicated lower tract infection, so the three first line drugs are nitrofurantoin, trimethoprim sulfamethoxazole and fosfomycin. Step 2. Nitrofurantoin is oral, well tolerated and listed as safe in pregnancy, but the annotation says it should be avoided near delivery. Step 3. Trimethoprim sulfamethoxazole is avoided in pregnancy. Step 4. Fosfomycin is a powder mixed in water, concentrates in urine and is safe in pregnancy.",
+      "choice_rationales": [
+        "The lack of kidney tissue levels makes it wrong for pyelonephritis and not for uncomplicated cystitis.",
+        "The lecture lists nitrofurantoin as safe in pregnancy but annotates that it should be avoided near delivery, and fosfomycin is safe in pregnancy.",
+        "Trimethoprim sulfamethoxazole blocks folate production and is avoided in pregnancy, and nitrofurantoin acts through reactive intermediates in urine.",
+        "It is listed as safe in pregnancy, and IV ceftriaxone is for complicated or upper tract infection."
+      ],
+      "tested_concept": "Nitrofurantoin in late pregnancy",
+      "question_id": "rx-r24-nitrofurantoin-delivery",
+      "source_group_id": "g-rx-r24-nitrofurantoin-delivery",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 7
+        }
+      ],
+      "visual_target": "What caution about nitrofurantoin applies to her, and which alternative is acceptable?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 38-week pregnant woman with dysuria and frequency but no fever or flank pain asks for an oral antibiotic for her cystitis. She is due in 4 days. A resident remembers that nitrofurantoin is listed as safe in pregnancy and wants to prescribe it.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which statement about fosfomycin is correct?",
+      "options": [
+        "It forms reactive intermediates in urine and is given by IV infusion for hospitalized patients with pyelonephritis, and it requires cultures before the first dose",
+        "It inhibits the cell wall enzyme MurA and concentrates in urine, but it does not reach kidney tissue, so it is wrong for upper tract infection",
+        "It inhibits DNA gyrase and reaches kidney tissue, so one dose is enough even if fever and flank pain develop, and it is the drug of choice when fever develops",
+        "It blocks tetrahydrofolate production and is avoided in pregnancy, so it is used only in men, and it needs to be taken for 7 to 14 days"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Her symptoms fit uncomplicated lower tract infection. Step 2. Fosfomycin is a powder mixed in water and taken orally, it concentrates in urine and it is safe in pregnancy. Step 3. It inhibits MurA, an enzyme of cell wall synthesis. Step 4. It does not reach kidney tissue, so it would be the wrong choice if she developed fever and flank pain.",
+      "choice_rationales": [
+        "Forming reactive intermediates describes nitrofurantoin, and fosfomycin is taken orally as a powder.",
+        "The lecture states fosfomycin inhibits MurA, concentrates in urine, is a powder taken orally and does not reach kidney tissue.",
+        "DNA gyrase inhibition describes ciprofloxacin, and fosfomycin does not reach kidney tissue.",
+        "This describes trimethoprim sulfamethoxazole, and fosfomycin is safe in pregnancy."
+      ],
+      "tested_concept": "Fosfomycin delivery and limits",
+      "question_id": "rx-r24-fosfomycin-pyelo",
+      "source_group_id": "g-rx-r24-fosfomycin-pyelo",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 7
+        }
+      ],
+      "visual_target": "Which statement about fosfomycin is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman has 2 days of dysuria with no fever, flank pain or vomiting. She prefers a single dose she can take at home. The pharmacist describes a powder that is mixed in water and swallowed and asks a student to explain where the drug acts and where it does not.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which description of the drug class matches the lecture?",
+      "options": [
+        "It raises testosterone and estradiol after a delay, so it is used to complete pubertal development in the second year, and it is typically given for only a few weeks",
+        "It blocks estrogen and androgen receptors in target tissues, so sex steroids are unaffected but their effects stop and bone density is unchanged, and the effect persists permanently after the drug is stopped",
+        "Continuous exposure first stimulates then downregulates pituitary GnRH receptors, so LH, FSH and sex steroids fall, and use is temporary and reversible and lowers bone mineral density accrual for a time",
+        "Pulsatile exposure suppresses LH and FSH, so it can be started before any signs of puberty and permanently halts development, and the family should expect rapid pubertal progression in the first weeks"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Continuous GnRH agonist exposure first stimulates and then downregulates pituitary GnRH receptors. Step 2. LH, FSH and sex steroids fall, which treats central precocious puberty and is used in gender affirming care. Step 3. It is started only after central puberty has begun at Tanner 2 or 3. Step 4. Blockers are temporary and reversible, typically last about 2 years and lower bone mineral density accrual for a time.",
+      "choice_rationales": [
+        "It lowers sex steroid levels and does not complete development.",
+        "It lowers gonadotropins and sex steroids through receptor downregulation and does not block steroid receptors.",
+        "The lecture describes initial stimulation then downregulation, temporary and reversible use started after puberty begins, and lower bone density accrual for a time.",
+        "Continuous and not pulsatile exposure suppresses gonadotropins, and blockers are started only after central puberty has begun and are reversible."
+      ],
+      "tested_concept": "GnRH agonist puberty blockers",
+      "question_id": "rx-r13-puberty-blocker",
+      "source_group_id": "g-rx-r13-puberty-blocker",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R13",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 55
+        },
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 63
+        },
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 64
+        }
+      ],
+      "visual_target": "Which description of the drug class matches the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 12-year-old transgender boy has begun central puberty at Tanner stage 2 and has persistent distress. His team starts a GnRH agonist and counsels the family that it is a temporary option. His mother asks how long it is usually given and what it does to his bones.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What explains the rise in testosterone, and what is added to prevent it?",
+      "options": [
+        "The drug stimulates the adrenal gland, so a glucocorticoid such as prednisone must be paired to restore cortisol, and the rise reflects a lack of cortisol rather than feedback",
+        "The drug is a GnRH agonist, so the flare is expected and no other drug is needed because it resolves within 3 weeks, and the rise would therefore be harmless in men with bone metastases",
+        "Blocking the receptor removes negative feedback on LH, so testosterone rises unless a GnRH analog is paired with the antagonist",
+        "The drug converts to testosterone in the liver, so a 5 alpha reductase inhibitor must be paired to block the conversion, and the rise is therefore a sign of a hepatic effect"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Androgen receptor antagonists block the receptor but do not lower androgen production. Step 2. Loss of receptor feedback at the pituitary raises LH and so raises testosterone. Step 3. Pairing with a GnRH analog suppresses LH and testosterone. Step 4. The antagonists also block adrenal androgens, which is why they are used in castration resistant metastatic prostate cancer.",
+      "choice_rationales": [
+        "Prednisone is paired with abiraterone because of its cortisol blockade and not with these antagonists.",
+        "The antagonists are not GnRH agonists, and a testosterone rise persists unless a GnRH analog is paired.",
+        "The lecture states these antagonists raise testosterone unless paired with a GnRH analog.",
+        "The antagonists block the receptor and are not converted to testosterone."
+      ],
+      "tested_concept": "Androgen receptor antagonists without castration",
+      "question_id": "rx-r25-ar-antagonist-alone",
+      "source_group_id": "g-rx-r25-ar-antagonist-alone",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 58
+        }
+      ],
+      "visual_target": "What explains the rise in testosterone, and what is added to prevent it?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old man with prostate cancer is started on an androgen receptor antagonist alone as an early trial. Three weeks later his serum testosterone has risen and his LH is higher. His resident worries that the drug is failing and asks whether this finding is expected.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which regimen fits, and does she need a progestogen?",
+      "options": [
+        "Low dose local vaginal estrogen, which needs no progestogen, whereas systemic estrogen in a woman with a uterus needs one to protect the endometrium",
+        "Oral estrogen with progestin, because local products cannot relieve vaginal atrophy and dryness, and a progestogen must always be added to any vaginal product",
+        "Oral conjugated estrogens alone, because a progestogen is needed only when symptoms include hot flashes and bleeding, and she should also have regular endometrial biopsies on treatment",
+        "Paroxetine, because it is the only government approved therapy for vaginal symptoms of menopause, and she should avoid all hormone products permanently"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Her problem is localized genitourinary symptoms. Step 2. Localized preparations generally have fewer systemic side effects, and vaginal creams treat epithelial atrophy and dryness. Step 3. Low dose local vaginal estrogen needs no progestogen. Step 4. Systemic estrogen in a woman with a uterus needs a progestogen because unopposed estrogen causes endometrial cancer.",
+      "choice_rationales": [
+        "The lecture states a woman with a uterus needs a progestogen because unopposed estrogen causes endometrial cancer, and low dose local vaginal estrogen needs none.",
+        "Vaginal estrogen creams are taught to treat vaginal epithelial atrophy and dryness with fewer systemic effects.",
+        "The progestogen is needed with systemic estrogen in a woman with a uterus regardless of symptoms.",
+        "Hormone therapy is the approved therapy, and paroxetine is the approved nonhormonal drug for vasomotor symptoms."
+      ],
+      "tested_concept": "Low dose local vaginal estrogen",
+      "question_id": "rx-r30-local-estrogen",
+      "source_group_id": "g-rx-r30-local-estrogen",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which regimen fits, and does she need a progestogen?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 63-year-old woman with an intact uterus has vaginal dryness and pain with intercourse but no hot flashes. She worries about the progestogen that her friend had to take with her pills. She has no personal history of breast cancer or clots and asks what she can use.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Why can she take estrogen without a progestin, and which adverse effects should she be warned about?",
+      "options": [
+        "Oral estrogen alone is used only for vaginal dryness, and the listed adverse effects are hypertension and drowsiness, and the drug has no systemic effects at standard doses",
+        "Oral estrogen alone is safe in every woman, and the only listed adverse effect is nausea and vomiting, and she would need regular checks for endometrial hyperplasia on the drug",
+        "Oral estrogen alone requires a progestin in every woman, and the listed adverse effects are hypoglycemia and tendon rupture, and a progestin is required first to prevent breast cancer",
+        "Oral estrogen alone is limited to women without a uterus, and the listed risks are thromboembolism, endometrial hyperplasia in women who have one, and breast cancer"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. She has no uterus, so there is no endometrium to protect from unopposed estrogen. Step 2. Oral conjugated estrogens and transdermal patches treat hot flashes, vaginal atrophy, mood and osteoporosis risk. Step 3. Their listed adverse effects are thromboembolism, endometrial hyperplasia and breast cancer. Step 4. Use alone is limited to women without a uterus, and a woman with a uterus needs a progestogen added.",
+      "choice_rationales": [
+        "Oral and patch estrogen is listed for hot flashes, vaginal atrophy, mood and osteoporosis risk.",
+        "The lecture lists several serious adverse effects and limits estrogen alone to women without a uterus.",
+        "The lecture limits estrogen alone to women without a uterus, and these adverse effects are not listed.",
+        "The lecture lists thromboembolism, endometrial hyperplasia and breast cancer, and limits oral or patch estrogen alone to women without a uterus."
+      ],
+      "tested_concept": "Oral estrogen alone and its limits",
+      "question_id": "rx-r4-oral-estrogen-no-uterus",
+      "source_group_id": "g-rx-r4-oral-estrogen-no-uterus",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 16
+        }
+      ],
+      "visual_target": "Why can she take estrogen without a progestin, and which adverse effects should she be warned about?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 49-year-old woman had a hysterectomy for fibroids 3 years ago and now has disabling hot flashes and night sweats. She asks about taking oral conjugated estrogens or a patch by themselves. Her physician reviews the adverse effects listed in the lecture.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "How long should magnesium sulfate be continued, and what does it prevent?",
+      "options": [
+        "For 72 hours after delivery regardless of symptoms, because the seizure risk keeps rising after the first day, and the infusion is increased if the reflexes become brisk after delivery",
+        "Only until the load is complete, because maintenance infusion adds no benefit and raises the risk of toxicity, and it is also stopped if the patient reports a headache",
+        "Until the blood pressure falls below 140/90, because the drug is an antihypertensive that treats the pressure, and the infusion is stopped as soon as the first dose of an antihypertensive is given",
+        "For 24 hours after delivery or after the last seizure, because it raises the seizure threshold to prevent eclamptic seizures"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Magnesium sulfate prevents eclamptic seizures by antagonizing NMDA receptors and calcium channels. Step 2. The dose is a 4 to 6 g load followed by 1 to 2 g per hour. Step 3. It is continued for 24 hours after delivery or after the last seizure. Step 4. It is not an antihypertensive, so blood pressure is managed with other drugs, and reflexes and respiratory rate are watched for toxicity.",
+      "choice_rationales": [
+        "The lecture gives 24 hours after delivery or the last seizure.",
+        "The lecture gives a maintenance infusion of 1 to 2 g per hour after the 4 to 6 g load.",
+        "The drug is not an antihypertensive, so duration is not tied to blood pressure.",
+        "The lecture gives 24 hours after the last seizure or delivery, with a 4 to 6 g load and 1 to 2 g per hour maintenance."
+      ],
+      "tested_concept": "Magnesium sulfate dosing and duration",
+      "question_id": "rx-r21-mag-duration",
+      "source_group_id": "g-rx-r21-mag-duration",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "How long should magnesium sulfate be continued, and what does it prevent?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 31-year-old woman delivered vaginally 2 hours ago after severe preeclampsia. She received a 4 to 6 g IV load and is on a maintenance infusion of 1 to 2 g per hour. Her pressure is now 146/92 with no symptoms. The new nurse asks when the infusion should stop.",
+      "study_skill": "management"
     }
   ]
 }
