@@ -439,20 +439,20 @@
       "study_skill": "management"
     },
     {
-      "stem": "Which pairing of drug and mechanism is correct?",
+      "stem": "Regarding the first line empiric drugs for uncomplicated lower urinary tract infection, all of the following are correct EXCEPT:",
       "options": [
         "Trimethoprim sulfamethoxazole blocks bacterial tetrahydrofolate production",
-        "Nitrofurantoin inhibits MurA, an enzyme of bacterial cell wall synthesis",
-        "Fosfomycin blocks bacterial tetrahydrofolate production through a two drug combination",
-        "Ciprofloxacin is the empiric first line agent because it forms reactive intermediates in urine"
+        "Nitrofurantoin is concentrated in urine and forms reactive intermediates",
+        "Fosfomycin inhibits MurA, an enzyme of bacterial cell wall synthesis",
+        "Ciprofloxacin is a first line empiric choice for simple cystitis"
       ],
-      "correct_index": 0,
-      "explanation": "Step 1. The first line empiric drugs for uncomplicated lower UTI are nitrofurantoin, trimethoprim sulfamethoxazole and fosfomycin. Step 2. Nitrofurantoin forms reactive intermediates in urine. Step 3. Trimethoprim sulfamethoxazole blocks bacterial tetrahydrofolate production. Step 4. Fosfomycin inhibits MurA, an enzyme of cell wall synthesis, and ciprofloxacin, which inhibits DNA gyrase, is not a first line empiric choice for simple cystitis.",
+      "correct_index": 3,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. The first line empiric drugs are nitrofurantoin, trimethoprim sulfamethoxazole and fosfomycin, with the mechanisms stated in the first three choices. Step 3. Ciprofloxacin inhibits DNA gyrase and is not a first line empiric choice for simple cystitis.",
       "choice_rationales": [
-        "Both components act on the bacterial folate pathway, so this pairing is correct.",
-        "MurA is the target of fosfomycin. Nitrofurantoin is concentrated in urine and converted to reactive intermediates.",
-        "Fosfomycin is a single agent that inhibits MurA in cell wall synthesis and has no effect on folate production.",
-        "Ciprofloxacin is a fluoroquinolone used for complicated infection, and reactive urinary intermediates describe nitrofurantoin."
+        "Correct statement. Both components act on the bacterial folate pathway.",
+        "Correct statement. Reactive urinary intermediates describe nitrofurantoin.",
+        "Correct statement. MurA inhibition is the mechanism of fosfomycin.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. Ciprofloxacin is a gyrase inhibitor that is not a first line empiric choice for simple cystitis, and reactive urinary intermediates describe nitrofurantoin."
       ],
       "tested_concept": "Mechanisms of first line UTI drugs",
       "question_id": "rx-r24-uti-drug-mechanisms",
@@ -473,7 +473,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A resident reviewing for an exam writes down the three first line empiric drugs for uncomplicated lower urinary tract infection and tries to pair each with its mechanism. She is unsure about two of the pairs and asks a senior which is correct.",
+      "case_context": null,
       "study_skill": "mechanism"
     },
     {
@@ -937,20 +937,20 @@
       "study_skill": "management"
     },
     {
-      "stem": "Which statement about fulvestrant is supported, and what does it mean for her bones?",
+      "stem": "Statement 1: Fulvestrant is a pure estrogen receptor antagonist without tissue selective agonist effects, so bone loss would be expected. Statement 2: Receptor degradation has been proven necessary for its antagonism in all target tissues. Which of the following best describes these statements?",
       "options": [
-        "It is a pure estrogen receptor antagonist without tissue selective agonist effects, so bone loss would be expected",
-        "It acts by degrading the receptor, and degradation is proven necessary for its antagonism in all target tissues",
-        "It is a SERM with partial agonist effects, so it protects bone like raloxifene",
-        "It is given orally and works by inhibiting aromatase"
+        "Both statements are true",
+        "Both statements are false",
+        "The first statement is true and the second statement is false",
+        "The first statement is false and the second statement is true"
       ],
-      "correct_index": 0,
-      "explanation": "Step 1. Fulvestrant is a steroidal pure estrogen receptor antagonist given as a depot injection for resistant advanced breast cancer. Step 2. Unlike SERMs, it has no tissue selective agonist effect, so it does not protect bone as tamoxifen and raloxifene do, and bone loss would be expected. Step 3. It may lower receptor levels, but receptor degradation is not proven to be necessary for its antagonism. Step 4. Aromatase inhibitors are oral drugs, so they are a different class.",
+      "correct_index": 2,
+      "explanation": "Step 1. Judge each statement separately. Step 2. Fulvestrant is a pure antagonist given as a depot injection, and unlike SERMs it does not protect bone. Step 3. It may lower receptor levels, but degradation is not proven necessary for antagonism, so the second statement is false.",
       "choice_rationales": [
-        "This choice states its lack of agonist effects and the bone consequence.",
-        "The lecture says there is no evidence that degradation is necessary for potent antagonism.",
-        "Fulvestrant is not a SERM and has no agonist activity, so it does not protect bone.",
-        "Fulvestrant is given by subcutaneous depot injection and does not inhibit aromatase."
+        "The second statement is not true, so both cannot be true.",
+        "The first statement is true, since fulvestrant has no agonist effect and does not protect bone.",
+        "Correct. Fulvestrant lacks agonist effects, but the lecture says there is no evidence that degradation is necessary for potent antagonism.",
+        "The first statement is true, so this choice wrongly calls it false."
       ],
       "tested_concept": "Fulvestrant compared with SERMs",
       "question_id": "rx-r25-fulvestrant",
@@ -971,7 +971,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A 59-year-old woman with ER positive metastatic breast cancer has progressed on tamoxifen and then on an aromatase inhibitor. Her oncologist offers a subcutaneous depot injection as a drug of last resort. She also has osteopenia and asks how this drug differs from tamoxifen and from the oral drugs she took.",
+      "case_context": null,
       "study_skill": "mechanism"
     },
     {
@@ -1819,20 +1819,20 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "Which statement is supported by the lecture?",
+      "stem": "Regarding bone loss after menopause, all of the following are correct EXCEPT:",
       "options": [
-        "About two thirds of bone loss occurs in the 5 to 7 years around menopause, from increased bone resorption caused by estrogen loss",
-        "Bone loss results from decreased bone formation caused by rising FSH",
-        "Most bone loss occurs after age 80, because estrogen loss has little effect on bone in the first decade, since estrogen has little effect on bone early on",
-        "Bone loss is limited to women with early menopause, and averages out in everyone else"
+        "About two thirds of bone loss occurs in the 5 to 7 years around menopause",
+        "The mechanism is increased bone resorption secondary to estrogen loss",
+        "Prevention matters most in the years around menopause",
+        "Most bone loss occurs after age 80, long after menopause"
       ],
-      "correct_index": 0,
-      "explanation": "Step 1. Osteoporosis in postmenopausal women is secondary to estrogen loss. Step 2. It works through increased bone resorption and not decreased formation. Step 3. About two thirds of bone loss occurs in the 5 to 7 years around menopause. Step 4. That is when prevention matters most, so waiting until age 80 would miss the window.",
+      "correct_index": 3,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. About two thirds of bone loss occurs in the 5 to 7 years around menopause through increased resorption after estrogen loss. Step 3. Waiting until age 80 would miss the window, so the statement placing most loss there is the exception.",
       "choice_rationales": [
-        "The lecture gives this fraction and window and names increased bone resorption as the mechanism.",
-        "The lecture names increased bone resorption secondary to estrogen loss as the mechanism.",
-        "The lecture places most loss in the 5 to 7 years around menopause.",
-        "Early menopause is a risk factor, but bone loss around menopause affects postmenopausal women generally."
+        "Correct statement. The lecture gives this fraction and window.",
+        "Correct statement. Bone loss is from increased resorption and not decreased formation.",
+        "Correct statement. The early window is when prevention matters most.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. The lecture places most loss in the 5 to 7 years around menopause."
       ],
       "tested_concept": "Timing of bone loss around menopause",
       "question_id": "rx-r30-bone-loss-window",
@@ -1853,7 +1853,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A 52-year-old woman who recently became menopausal asks when most of her lifetime postmenopausal bone loss will happen. Her sister believes that bone loss mainly begins after age 80. She is trying to decide how early to think about prevention.",
+      "case_context": null,
       "study_skill": "interpretation"
     },
     {
@@ -2123,20 +2123,20 @@
       "study_skill": "mechanism"
     },
     {
-      "stem": "Which statement describes how this class works?",
+      "stem": "Statement 1: Bisphosphonates block farnesyl diphosphate synthase and are directly toxic to osteoclasts. Statement 2: Bisphosphonates bind RANK ligand to prevent osteoclast formation, which is why they are given by injection. Which of the following best describes these statements?",
       "options": [
-        "It acts as an estrogen receptor agonist on osteoclast precursors, which restores the premenopausal bone balance",
-        "It blocks farnesyl diphosphate synthase and is directly toxic to osteoclasts, causing apoptosis and less attachment to bone",
-        "It increases osteoblast activity directly, which rebuilds bone faster than it is broken down",
-        "It binds RANK ligand and prevents osteoclast formation, which is why it is given by injection"
+        "The first statement is false and the second statement is true",
+        "Both statements are true",
+        "The first statement is true and the second statement is false",
+        "Both statements are false"
       ],
-      "correct_index": 1,
-      "explanation": "Step 1. Bisphosphonates are directly toxic to osteoclasts. Step 2. They block farnesyl diphosphate synthase in the HMG-CoA reductase pathway. Step 3. This increases osteoclast apoptosis and decreases osteoclast migration and attachment to bone. Step 4. The antibody injection her friend takes is denosumab, which works by blocking RANK ligand instead.",
+      "correct_index": 2,
+      "explanation": "Step 1. Judge each statement separately. Step 2. Bisphosphonates block farnesyl diphosphate synthase and are directly toxic to osteoclasts, increasing apoptosis and reducing attachment, so the first statement is true. Step 3. Binding RANK ligand describes denosumab, so the second statement is false.",
       "choice_rationales": [
-        "Bisphosphonates act directly on osteoclasts and not through estrogen receptors, and raloxifene is the bone agonist SERM.",
-        "The lecture lists increased osteoclast apoptosis, farnesyl diphosphate synthase blockade and reduced migration and attachment.",
-        "The lecture describes toxicity to osteoclasts and not stimulation of osteoblasts.",
-        "Blocking RANKL describes denosumab."
+        "The first statement is true, so this choice wrongly calls it false.",
+        "The second statement is false, because blocking RANK ligand describes denosumab.",
+        "Correct. Bisphosphonates act directly on osteoclasts, while RANK ligand blockade describes the antibody denosumab.",
+        "The first statement is true, so both cannot be false."
       ],
       "tested_concept": "Bisphosphonate mechanism",
       "question_id": "rx-r4-bisphosphonate-mechanism",
@@ -2157,7 +2157,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A 70-year-old woman with osteoporosis begins a bisphosphonate. Her endocrinologist explains that it will not rebuild bone directly. She asks how the pill works and why it differs from the antibody injection her friend takes every 6 months.",
+      "case_context": null,
       "study_skill": "mechanism"
     },
     {
@@ -3013,20 +3013,20 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "Which statement about estradiol delivery is correct?",
+      "stem": "Regarding estradiol delivery, all of the following are correct EXCEPT:",
       "options": [
-        "Plain estradiol is well absorbed orally, because it has a 17 ethinyl group that blocks hepatic metabolism",
-        "Plain estradiol has poor oral bioavailability because the liver inactivates it, so a patch or micronized tablet is preferred",
-        "Plain estradiol is best given as the sulfate, because gut bacteria convert it to the more potent estrone",
-        "Plain estradiol works best by intramuscular injection in oil, because the injection is released over days"
+        "The liver inactivates estradiol quickly after oral intake",
+        "Patches avoid hepatic metabolism",
+        "Micronized tablets can be given by mouth",
+        "Injected esters are the preferred route for hot flashes"
       ],
-      "correct_index": 1,
-      "explanation": "Step 1. 17 beta estradiol is the major physiologic estrogen, but the liver inactivates it quickly after oral intake. Step 2. Patches avoid hepatic metabolism. Step 3. Micronized tablets can be given by mouth, and creams, pessaries and rings give local effects for vaginal dryness. Step 4. Injected esters release estradiol over weeks and are used for hypogonadism rather than hot flashes.",
+      "correct_index": 3,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. The liver inactivates estradiol quickly, so patches or micronized tablets are used. Step 3. Injected esters release over weeks and are used for hypogonadism rather than hot flashes.",
       "choice_rationales": [
-        "The 17 ethinyl group belongs to ethinyl estradiol, and plain estradiol is inactivated by the liver.",
-        "The lecture states the liver inactivates estradiol quickly, patches avoid hepatic metabolism and micronized tablets work by mouth.",
-        "Estrone is about one tenth as potent, and the sulfate route describes conjugated estrogens.",
-        "Injected esters release estradiol over 2 to 4 weeks and are used for hypogonadism rather than hot flashes."
+        "Correct statement. Rapid hepatic inactivation is why plain oral estradiol is poorly bioavailable.",
+        "Correct statement. Transdermal delivery bypasses first pass hepatic metabolism.",
+        "Correct statement. Micronization allows oral use of estradiol.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. Injected esters release over weeks and are used for hypogonadism rather than hot flashes."
       ],
       "tested_concept": "Routes of estradiol delivery",
       "question_id": "rx-r20-estradiol-route",
@@ -3047,7 +3047,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A 52-year-old woman with hot flashes wants an estrogen that avoids rapid inactivation by the liver. A friend suggests swallowing estradiol powder. The woman also has mild vaginal dryness and asks which route would help both problems.",
+      "case_context": null,
       "study_skill": "management"
     },
     {
@@ -3089,20 +3089,20 @@
       "study_skill": "management"
     },
     {
-      "stem": "Which statement is correct?",
+      "stem": "Statement 1: Ethinyl estradiol is a prodrug that the liver must demethylate before it activates the receptor. Statement 2: The 17 ethinyl group lowers hepatic first pass metabolism and gives good oral bioavailability. Which of the following best describes these statements?",
       "options": [
-        "Mestranol is a prodrug that the liver demethylates, whereas ethinyl estradiol directly activates the receptor",
-        "Ethinyl estradiol is the prodrug that the liver activates, whereas mestranol acts directly on the receptor",
-        "Both are prodrugs that gut bacteria convert to estrone, which then acts at the receptor",
-        "Both are inactive by mouth, because both are inactivated on first pass through the liver"
+        "Both statements are false",
+        "The first statement is true and the second statement is false",
+        "Both statements are true",
+        "The first statement is false and the second statement is true"
       ],
-      "correct_index": 0,
-      "explanation": "Step 1. The 17 ethinyl group lowers first pass metabolism and gives ethinyl estradiol good oral bioavailability, a half life of 13 to 27 hours and enterohepatic cycling. Step 2. Mestranol is a prodrug that needs hepatic demethylation. Step 3. Ethinyl estradiol activates the receptor directly. Step 4. Neither is inactivated by first pass, which is why both work in pills.",
+      "correct_index": 3,
+      "explanation": "Step 1. Judge each statement separately. Step 2. Mestranol is the prodrug that needs hepatic demethylation, and ethinyl estradiol activates the receptor directly, so the first statement is false. Step 3. The 17 ethinyl group lowers first pass metabolism and gives good oral bioavailability, so the second statement is true.",
       "choice_rationales": [
-        "The lecture describes mestranol as a prodrug demethylated by the liver and ethinyl estradiol as having direct receptor activation.",
-        "The roles are reversed, since mestranol is the prodrug.",
-        "The prodrug conversion is hepatic demethylation, and gut bacterial conversion describes conjugated estrogens.",
-        "The 17 ethinyl group lowers hepatic first pass metabolism and gives good oral bioavailability."
+        "The second statement is true, so both cannot be false.",
+        "The first statement is false, because mestranol is the prodrug and ethinyl estradiol acts directly.",
+        "The first statement is false, so both cannot be true.",
+        "Correct. Mestranol is the hepatically demethylated prodrug, while the ethinyl group does lower first pass metabolism."
       ],
       "tested_concept": "Mestranol as a prodrug",
       "question_id": "rx-r20-mestranol-prodrug",
@@ -3123,7 +3123,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A pharmacology student compares two estrogens used in contraceptive pills, ethinyl estradiol and mestranol. She notes that both have a 17 ethinyl group and asks whether they differ in how they reach the estrogen receptor after swallowing.",
+      "case_context": null,
       "study_skill": "mechanism"
     },
     {
@@ -3781,20 +3781,20 @@
       "study_skill": "management"
     },
     {
-      "stem": "Which statement about fosfomycin is correct?",
+      "stem": "Which of the following statements about fosfomycin is incorrect?",
       "options": [
-        "It forms reactive intermediates in urine and is given by IV infusion for hospitalized patients with pyelonephritis, and it requires cultures before the first dose",
-        "It inhibits the cell wall enzyme MurA and concentrates in urine, but it does not reach kidney tissue, so it is wrong for upper tract infection",
-        "It inhibits DNA gyrase and reaches kidney tissue, so one dose is enough even if fever and flank pain develop, and it is the drug of choice when fever develops",
-        "It blocks tetrahydrofolate production and is avoided in pregnancy, so it is used in men, and it needs to be taken for 7 to 14 days"
+        "It inhibits MurA, an enzyme of bacterial cell wall synthesis",
+        "It is a powder mixed in water and taken orally",
+        "It reaches kidney tissue, so one dose is appropriate for pyelonephritis",
+        "It concentrates in urine and is safe in pregnancy"
       ],
-      "correct_index": 1,
-      "explanation": "Step 1. Her symptoms fit uncomplicated lower tract infection. Step 2. Fosfomycin is a powder mixed in water and taken orally, it concentrates in urine and it is safe in pregnancy. Step 3. It inhibits MurA, an enzyme of cell wall synthesis. Step 4. It does not reach kidney tissue, so it would be the wrong choice if she developed fever and flank pain.",
+      "correct_index": 2,
+      "explanation": "Step 1. The stem asks for the incorrect statement. Step 2. Fosfomycin is an oral powder that inhibits MurA, concentrates in urine and is safe in pregnancy. Step 3. It does not reach kidney tissue, so it would be the wrong choice for fever and flank pain.",
       "choice_rationales": [
-        "Forming reactive intermediates describes nitrofurantoin, and fosfomycin is taken orally as a powder.",
-        "The lecture states fosfomycin inhibits MurA, concentrates in urine, is a powder taken orally and does not reach kidney tissue.",
-        "DNA gyrase inhibition describes ciprofloxacin, and fosfomycin does not reach kidney tissue.",
-        "This describes trimethoprim sulfamethoxazole, and fosfomycin is safe in pregnancy."
+        "Correct statement. MurA inhibition is its mechanism.",
+        "Correct statement. It is taken orally as a powder in water.",
+        "This is the incorrect statement. Fosfomycin concentrates in urine but does not reach kidney tissue, so it is the wrong choice for upper tract infection.",
+        "Correct statement. It concentrates in urine and is safe in pregnancy."
       ],
       "tested_concept": "Fosfomycin delivery and limits",
       "question_id": "rx-r24-fosfomycin-pyelo",
@@ -3815,7 +3815,7 @@
       "ground_truth_basis": "Supplied lecture slides and drug notes.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
-      "case_context": "A 24-year-old woman has 2 days of dysuria with no fever, flank pain or vomiting. She prefers a single dose she can take at home. The pharmacist describes a powder that is mixed in water and swallowed and asks a student to explain where the drug acts and where it does not.",
+      "case_context": null,
       "study_skill": "mechanism"
     },
     {
@@ -4106,7 +4106,7 @@
         "Tamoxifen, like other SERMs, raises the risk of venous thromboembolism",
         "Chronic tamoxifen use beyond 5 years increases the risk of uterine cancer",
         "Aromatase inhibitors lower estrogen and so raise the risk of osteoporosis",
-        "Aromatase inhibitors raise venous thromboembolism risk through hepatic estrogen effects more than tamoxifen does"
+        "Aromatase inhibitors raise venous thromboembolism risk more than tamoxifen"
       ],
       "correct_index": 3,
       "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. Tamoxifen raises VTE risk and, beyond 5 years, uterine cancer risk. Step 3. Aromatase inhibitors lower estrogen, so they raise osteoporosis risk, but they avoid the VTE and endometrial risks of tamoxifen.",

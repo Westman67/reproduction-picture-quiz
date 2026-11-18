@@ -631,7 +631,7 @@
       "condition_overview": "This shunt is at the atrial level and routes blood toward the left atrium in the fetus. The ductus arteriosus bypasses part of the pulmonary circuit at a different level, between two great vessels."
     },
     {
-      "stem": "The upper right shunt label is hidden. Which connection is reached by its diagonal leader above the heart?",
+      "stem": "For the fetal connection described, select the shunt. It joins the pulmonary trunk to the aortic arch so that blood in the pulmonary trunk can reach the aorta.",
       "options": [
         "Ductus arteriosus",
         "Foramen ovale",
@@ -2085,23 +2085,23 @@
       "category": "Graphs",
       "question_type": "Visual reasoning",
       "study_skill": "mechanism",
-      "stem": "The female curve on the right rises much more steeply than the male curve around the marked transition. Which change best accounts for this divergence?",
+      "stem": "Regarding the female gonadotropin curve that rises steeply around the marked transition, all of the following are correct EXCEPT:",
       "visual_target": "The female curve on the right rises much more steeply than the male curve around the marked transition. Which change best accounts for this divergence?",
       "tested_concept": "Loss of ovarian feedback at menopause",
       "options": [
-        "An abrupt switch to ovarian positive feedback that triggers a single LH surge",
-        "Loss of ovarian negative feedback",
-        "Increased ovarian steroid feedback",
-        "Loss of hypothalamic GnRH output"
+        "The rise is sustained and age related rather than a single midcycle surge",
+        "Falling ovarian steroid and inhibin feedback accounts for the rise",
+        "Low ovarian steroid output can coexist with high gonadotropins",
+        "Loss of hypothalamic GnRH output accounts for the steep rise"
       ],
       "choice_rationales": [
-        "The graph shows a sustained age-related increase, not a transient midcycle surge. This choice describes an abrupt switch to positive feedback with an LH surge.",
-        "The rise is in gonadotropins at menopause, consistent with falling ovarian steroid and inhibin feedback. This choice describes loss of ovarian negative feedback at menopause, which is what the figure shows.",
-        "Greater inhibitory feedback would lower gonadotropin output rather than produce the plotted rise. This choice describes increased ovarian steroid feedback.",
-        "Reduced GnRH would weaken pituitary drive, producing low gonadotropins rather than the abrupt increase. This choice describes loss of GnRH output."
+        "Correct statement. The graph shows a sustained increase and not a transient surge.",
+        "Correct statement. Loss of ovarian negative feedback raises pituitary output.",
+        "Correct statement. The inverse relationship identifies loss of feedback at the ovary.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. Reduced GnRH would weaken pituitary drive and lower gonadotropins, and the plotted change is a rise."
       ],
-      "correct_index": 1,
-      "explanation": "Step 1. Low ovarian steroid output can coexist with high gonadotropins. Step 2. The inverse relationship identifies loss of feedback at the ovary, whereas central suppression would tend to lower gonadotropins.",
+      "correct_index": 3,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. Low ovarian steroid output with high gonadotropins identifies loss of ovarian negative feedback. Step 3. Central suppression would lower gonadotropins, so a loss of GnRH output cannot explain the rise.",
       "visual_clues": [
         "The rise is in gonadotropins at menopause, consistent with falling ovarian steroid and inhibin feedback."
       ],
@@ -2183,23 +2183,23 @@
       "category": "Graphs",
       "question_type": "Visual reasoning",
       "study_skill": "mechanism",
-      "stem": "The graph on the right shows a steeper early decline in women after the marked event. Which process on the left best links that timing to bone loss?",
+      "stem": "Statement 1: The steeper early decline in women after the marked event reflects bone formation that exceeds resorption. Statement 2: Loss of ovarian estrogen removes restraint on osteoclast activity and increases resorption. Which of the following best describes these statements?",
       "visual_target": "The graph on the right shows a steeper early decline in women after the marked event. Which process on the left best links that timing to bone loss?",
       "tested_concept": "Estrogen and osteoclast resorption",
       "options": [
-        "Increased osteoclast-mediated resorption",
-        "A shift from trabecular to cortical bone with no loss of either",
-        "An increase in bone formation that exceeds resorption",
-        "An abrupt shutdown of osteoclast-mediated resorption"
+        "Both statements are true",
+        "The first statement is false and the second statement is true",
+        "Both statements are false",
+        "The first statement is true and the second statement is false"
       ],
       "choice_rationales": [
-        "The left diagram connects estrogen to regulation of osteoclast activity. Loss of ovarian estrogen removes restraint on resorption. This choice describes increased osteoclast-mediated bone resorption after estrogen loss, which is what the figure shows.",
-        "Both plotted bone compartments decline. A compartment shift does not explain simultaneous loss. This choice describes a trabecular-to-cortical shift without bone loss.",
-        "A positive formation balance would increase bone mass rather than produce the plotted loss. This choice describes bone formation exceeding resorption.",
-        "Inhibiting resorption would oppose the plotted fall after menopause. This choice describes an abrupt end to bone resorption."
+        "The first statement is false, so both cannot be true.",
+        "Correct. Estrogen loss increases osteoclast mediated resorption, and a formation surplus would increase bone mass and not produce the plotted loss.",
+        "The second statement is true, so both cannot be false.",
+        "The first statement is false, because a positive formation balance would raise bone mass."
       ],
-      "correct_index": 0,
-      "explanation": "Step 1. Bone loss after menopause reflects an imbalance in remodeling. Step 2. The timing of the decline supports the estrogen link, while the differently marked curves show that both trabecular and cortical compartments are affected.",
+      "correct_index": 1,
+      "explanation": "Step 1. Judge each statement separately. Step 2. Bone loss after menopause reflects increased osteoclast mediated resorption after estrogen loss, so the second statement is true. Step 3. A formation surplus would increase bone mass, so the first statement is false.",
       "visual_clues": [
         "The left diagram connects estrogen to regulation of osteoclast activity. Loss of ovarian estrogen removes restraint on resorption."
       ],
