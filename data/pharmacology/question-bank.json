@@ -3,7 +3,16 @@
   "title": "Reproduction Pharmacology Quiz",
   "bank_version": "pharmacology-1",
   "release_status": "Pilot lecture based drug reasoning questions.",
-  "retired_questions": [],
+  "retired_questions": [
+    {
+      "question_id": "rx-r25-bazedoxifene",
+      "source_id": null,
+      "source_group_id": "g-rx-r25-bazedoxifene",
+      "tested_concept": "Bazedoxifene with conjugated estrogens",
+      "option_count": 4,
+      "retired_reason": "Bazedoxifene will not be tested per user instruction."
+    }
+  ],
   "questions": [
     {
       "stem": "Which initial regimen fits, and how will the culture guide the rest of therapy?",
@@ -3576,6 +3585,7 @@
       "study_skill": "management"
     },
     {
+<<<<<<< HEAD
       "stem": "What does the SERM component contribute?",
       "options": [
         "It prevents endometrial hyperplasia, so no progestin is needed and uterine bleeding is avoided",
@@ -3614,6 +3624,8 @@
       "study_skill": "management"
     },
     {
+=======
+>>>>>>> cbc1dea (Remove chemical-structure and bazedoxifene questions; add PCOS and indifferent-stage questions)
       "stem": "Which description of ulipristal fits the lecture?",
       "options": [
         "A GnRH antagonist that blocks the LH surge and is effective only within 72 hours, so it is mainly given to women with irregular cycles",
