@@ -4099,6 +4099,166 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "study_skill": "management"
+    },
+    {
+      "stem": "Regarding tamoxifen and aromatase inhibitors in postmenopausal women with ER positive breast cancer, all of the following are correct EXCEPT:",
+      "options": [
+        "Tamoxifen, like other SERMs, raises the risk of venous thromboembolism",
+        "Chronic tamoxifen use beyond 5 years increases the risk of uterine cancer",
+        "Aromatase inhibitors lower estrogen and so raise the risk of osteoporosis",
+        "Aromatase inhibitors raise venous thromboembolism risk through hepatic estrogen effects more than tamoxifen does"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. Tamoxifen raises VTE risk and, beyond 5 years, uterine cancer risk. Step 3. Aromatase inhibitors lower estrogen, so they raise osteoporosis risk, but they avoid the VTE and endometrial risks of tamoxifen.",
+      "choice_rationales": [
+        "Correct statement. All SERMs raise VTE risk through hepatic estrogen like effects.",
+        "Correct statement. Tamoxifen is a partial agonist in the uterus, and use beyond 5 years raises uterine cancer risk.",
+        "Correct statement. Aromatase inhibitors lower estrogen levels and increase osteoporosis risk.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. VTE risk is raised by SERMs such as tamoxifen, and aromatase inhibitors do not raise it."
+      ],
+      "tested_concept": "Adverse effects of tamoxifen versus aromatase inhibitors (EXCEPT format)",
+      "question_id": "rx-exam-ai-tamoxifen-except",
+      "source_group_id": "g-rx-r25-ai-vs-tamoxifen-ae",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 63
+        },
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 64
+        }
+      ],
+      "visual_target": "Which statement best guides the choice for her?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Statement 1: Tamsulosin is an alpha 1A and 1D antagonist that blocks Gq signaling, relaxes prostate smooth muscle and can improve flow within days. Statement 2: Finasteride and dutasteride block 5 alpha reductase and lower DHT, so the gland shrinks and benefit takes weeks to months. Which of the following best describes these statements?",
+      "options": [
+        "The first statement is false and the second statement is true",
+        "The first statement is true and the second statement is false",
+        "Both statements are true",
+        "Both statements are false"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Judge each statement separately. Step 2. Tamsulosin blocks alpha 1A and 1D receptors and Gq signaling, so prostate smooth muscle relaxes and flow improves within days. Step 3. Finasteride and dutasteride lower DHT and shrink the gland, so benefit takes weeks to months. Both statements are true.",
+      "choice_rationales": [
+        "The first statement is true, since tamsulosin relaxes prostate smooth muscle and works within days.",
+        "The second statement is true, since 5 alpha reductase inhibitors lower DHT and shrink the gland over weeks to months.",
+        "Correct. Tamsulosin acts quickly through smooth muscle relaxation, while 5 alpha reductase inhibitors act slowly by shrinking the gland.",
+        "Both statements are true, so neither can be called false."
+      ],
+      "tested_concept": "Tamsulosin versus 5 alpha reductase inhibitors (two statement format)",
+      "question_id": "rx-exam-bph-statements",
+      "source_group_id": "g-rx-r24-tamsulosin-vs-finasteride",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which drug fits his goal, and what mechanism explains the speed?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 66-year-old man has a weak urine stream, hesitancy and incomplete emptying from BPH. Prostate size is moderately enlarged on examination. He travels often and wants the drug that improves voiding within days and not months. He asks about tamsulosin, finasteride and dutasteride.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Regarding magnesium sulfate in severe preeclampsia and eclampsia, all of the following are correct EXCEPT:",
+      "options": [
+        "It antagonizes NMDA receptors and calcium channels to raise the seizure threshold",
+        "It lowers blood pressure through arteriolar vasodilation, so no other antihypertensive is needed",
+        "Toxicity appears as loss of reflexes and respiratory depression",
+        "Calcium gluconate reverses magnesium toxicity"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. Magnesium sulfate prevents eclamptic seizures by antagonizing NMDA receptors and calcium channels. Step 3. It is not an antihypertensive, so blood pressure control needs a separate drug. Toxicity shows as lost reflexes and respiratory depression and is reversed with calcium gluconate.",
+      "choice_rationales": [
+        "Correct statement. The lecture describes NMDA and calcium channel antagonism that raises the seizure threshold.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. Magnesium sulfate is not an antihypertensive, so severe hypertension needs its own drug such as labetalol or hydralazine.",
+        "Correct statement. Absent reflexes and respiratory depression are the signs of toxicity that are monitored.",
+        "Correct statement. Calcium gluconate is the antidote for magnesium toxicity."
+      ],
+      "tested_concept": "Magnesium sulfate actions and toxicity (EXCEPT format)",
+      "question_id": "rx-exam-magnesium-except",
+      "source_group_id": "g-rx-r21-mag-mechanism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 61
+        },
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 62
+        }
+      ],
+      "visual_target": "Why is magnesium sulfate given, and why is a second drug needed?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which of the following statements about SERMs is incorrect?",
+      "options": [
+        "Tamoxifen is a potent estrogen receptor antagonist in breast and an agonist in bone",
+        "Tamoxifen is a partial agonist in the uterus, so use beyond 5 years raises uterine cancer risk",
+        "Tissue selectivity arises because tamoxifen degrades the estrogen receptor in breast but stabilizes it in bone and liver",
+        "Raloxifene is the SERM with minimal uterine agonism"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The stem asks for the incorrect statement. Step 2. SERMs change the receptor shape so that only a subset of coactivators is recruited, which gives antagonism in breast and agonism in bone and liver. Step 3. Degrading the receptor is the mechanism of fulvestrant, not of tissue selectivity for SERMs.",
+      "choice_rationales": [
+        "Correct statement. Tamoxifen antagonizes the receptor in breast and acts as an agonist in bone.",
+        "Correct statement. The partial uterine agonism explains the uterine cancer risk with chronic use.",
+        "This is the incorrect statement. Receptor degradation is described for fulvestrant, and SERM selectivity comes from coactivator diversity and a receptor shape that recruits only a subset of coactivators.",
+        "Correct statement. Raloxifene has minimal uterine effect compared with tamoxifen."
+      ],
+      "tested_concept": "SERM selectivity and tissue effects (incorrect statement format)",
+      "question_id": "rx-exam-serm-incorrect",
+      "source_group_id": "g-rx-r25-serm-selectivity",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 11
+        }
+      ],
+      "visual_target": "Which explanation matches the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "study_skill": "mechanism"
     }
   ]
 }

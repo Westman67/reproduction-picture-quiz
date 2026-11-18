@@ -3483,6 +3483,314 @@
       "case_context": null,
       "condition_name": "Phases of Parturition and Clinical Stages of Labor",
       "condition_overview": "Clinical stage 1 spans physiologic phase 2 (activation) and most of phase 3 (stimulation), stage 2 is delivery of the baby, and stage 3 is delivery of the placenta; phase 4 is postpartum involution."
+    },
+    {
+      "question_id": "q-exam-hpg-feedback-except",
+      "source_id": "s-7f4e373c08a300c0f308",
+      "source_group_id": "g-4a282f89c49c9d90e021",
+      "asset_id": "a-9bae8e409d968bd406d68e0194bca3313b5954075542d6efadbc5da3a0cb3b1a",
+      "variant_id": "v-8dbc927b7a9fda30cb26",
+      "image": "assets/zoom/8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97.webp",
+      "zoom_image": "assets/zoom/8dbc927b7a9fda30cb263512ac0fa2386c99de7af48f1c6a6e8a206001cd4d97.webp",
+      "original_image": "assets/zoom/42ff465f1e91a7045307e2bceb30982e0301b288acf4b8485417c8e8174fc10d.webp",
+      "original_filename": "R2/Negative Feedback Control of HPT Axis - Diagram.png",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 29
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Regarding the feedback pathways of the male hypothalamic-pituitary-testicular axis shown in this diagram, all of the following are correct EXCEPT:",
+      "visual_target": "A defect removes the signal traveling along the far-right dashed return line but preserves testosterone output. What happens first to the two pituitary hormones in the diagram?",
+      "tested_concept": "Male axis feedback, inhibin and testosterone (EXCEPT format)",
+      "options": [
+        "Testosterone from Leydig cells returns negative feedback to the hypothalamus and pituitary",
+        "Inhibin from Sertoli cells selectively suppresses pituitary FSH secretion",
+        "Loss of the inhibin return signal raises FSH without a direct rise in LH",
+        "Inhibin from Sertoli cells suppresses both LH and FSH, which removes LH drive from Leydig cells"
+      ],
+      "choice_rationales": [
+        "Correct statement. Testosterone returns inhibitory feedback to the hypothalamic and pituitary levels of the axis.",
+        "Correct statement. The return line from the Sertoli cells carries inhibin, which selectively restrains FSH.",
+        "Correct statement. Without the inhibin return signal FSH is disinhibited, while LH remains restrained by sex steroid feedback.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. Inhibin selectively suppresses FSH, and LH is restrained by sex steroid feedback."
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. An EXCEPT stem asks for the one false statement, so test each statement against the diagram. Step 2. Testosterone returns negative feedback to the hypothalamus and pituitary, and Sertoli inhibin selectively suppresses FSH, so losing inhibin raises FSH without a direct LH rise. Step 3. Inhibin does not suppress both gonadotropins, so the statement claiming that it does is the exception.",
+      "visual_clues": [
+        "The return line from Sertoli-derived inhibin selectively suppresses FSH."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture page.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Negative Feedback Control of HPT Axis",
+      "condition_overview": "Disproportionate FSH elevation is consistent with impaired Sertoli feedback when Leydig steroid feedback is preserved. Trace the origin and destination of the dashed line before choosing the affected hormone."
+    },
+    {
+      "question_id": "q-exam-shunt-closure-statements",
+      "collection": "R7",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Foramen ovale and ductus arteriosus closure (two statement format)",
+      "visual_target": "Following the leader into the atrial septum, what postnatal pressure change favors functional closure of the indicated shunt?",
+      "stem": "Statement 1: After birth, a left atrial pressure that exceeds right atrial pressure favors functional closure of the foramen ovale. Statement 2: The ductus arteriosus closes as arterial oxygen falls and placental prostaglandin support continues. Which of the following best describes these statements?",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "The first statement is true and the second statement is false",
+        "The first statement is false and the second statement is true"
+      ],
+      "correct_index": 2,
+      "choice_rationales": [
+        "The second statement is not true. Ductus arteriosus closure follows a rise in arterial oxygen and loss of placental prostaglandin support.",
+        "The first statement is true, because falling pulmonary vascular resistance raises left atrial pressure above right atrial pressure and closes the foramen ovale.",
+        "Correct. The first statement describes foramen ovale closure accurately, while the second reverses the mechanism of ductus arteriosus closure.",
+        "Neither part of this choice holds. The first statement is true and the second statement is false."
+      ],
+      "explanation": "Step 1. Judge each statement separately. Step 2. Falling pulmonary vascular resistance raises left atrial pressure relative to right atrial pressure, which functionally closes the foramen ovale, so the first statement is true. Step 3. The ductus arteriosus closes with increased arterial oxygen and loss of placental prostaglandin support, so the second statement is false.",
+      "visual_clues": [
+        "The leader points to the interatrial foramen ovale."
+      ],
+      "reasoning_order": "second or third order",
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-629d99f7cc406d24fd58",
+      "source_group_id": "g-971bb779793a84358a57",
+      "variant_id": "v-19c25195991ebbee1800",
+      "image": "assets/display/50ce7d1094bfdda203e3853e72ad28e1d837b38178d173e42be8529469663acf.webp",
+      "zoom_image": "assets/zoom/eb2e27e4470acdcca886bbb87b4d11f92ed0f55d87c50e5223e9d3ad3f37bffc.webp",
+      "original_image": "assets/zoom/fa69c866d27758004cfde38434ed095ec3a939ad7a12b6adb0312e131de1d011.webp",
+      "original_filename": "R7/Fetal Circulation - Diagram.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-cbf5d45f5eb7b59e0c492e72d514a8adb18b04890fadf4753d279cecf00bfe66",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 7
+        }
+      ],
+      "case_context": null,
+      "study_skill": "mechanism",
+      "condition_name": "Fetal Circulation",
+      "condition_overview": "A change in the pressure gradient closes the atrial flap after lung expansion. Contrast that mechanical event with ductus arteriosus closure, which relies on increased arterial oxygen and changed prostaglandin support."
+    },
+    {
+      "question_id": "q-exam-lactation-statements",
+      "source_id": "s-7bf5a5400e2c20097740",
+      "source_group_id": "g-7bf5a5400e2c20097740",
+      "asset_id": "a-f0fc79b53c8ed51d7900c5edf2055c91c2ed355ce342ed317735bc130c18bfbb",
+      "variant_id": "v-ff07d76173f80b06bab5",
+      "image": "assets/zoom/ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60.webp",
+      "zoom_image": "assets/zoom/ff07d76173f80b06bab55f9bff4fad8d97ea5d7b056dd5eb0023c1ceb133df60.webp",
+      "original_image": "assets/zoom/98c4739bec3bf847fefa2bffe4bc87fe44468c98aed2af644de817972196f212.webp",
+      "original_filename": "R6/Extracted page 9 - Pregnancy hormone curves before lactation.png",
+      "collection": "R6",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 9
+        }
+      ],
+      "category": "Graphs",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Statement 1: During pregnancy, rising placental estrogen and progesterone promote the action of prolactin on the breast, so substantial milk is secreted before delivery. Statement 2: Oxytocin causes the outer myoepithelial cells of the mammary secretory unit to contract and eject milk. Which of the following best describes these statements?",
+      "visual_target": "The graph shows prolactin rising during pregnancy while placental steroid output also rises. Why does substantial milk secretion become possible after the right edge of the graph?",
+      "tested_concept": "Steroid inhibition of prolactin and oxytocin let-down (two statement format)",
+      "options": [
+        "The first statement is true and the second statement is false",
+        "Both statements are false",
+        "The first statement is false and the second statement is true",
+        "Both statements are true"
+      ],
+      "choice_rationales": [
+        "The second statement is also true, so this choice wrongly calls the first statement true and the second false.",
+        "The second statement is true, so this choice wrongly calls both statements false.",
+        "Correct. High placental steroids inhibit prolactin action during pregnancy, and oxytocin contracts the myoepithelial cells to eject milk.",
+        "The first statement is false, because placental steroids inhibit prolactin action on the breast until they fall after delivery."
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Placental estrogen and progesterone inhibit the action of prolactin on the breast during pregnancy, so the first statement is false. Step 2. After delivery the steroids fall, which allows prolactin to drive milk synthesis. Step 3. Oxytocin acts on the outer myoepithelial cells to eject milk, so the second statement is true.",
+      "visual_clues": [
+        "Delivery ends placental estrogen and progesterone support. Their fall removes the inhibition of prolactin action despite prolactin already being present."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture page.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Extracted page 9 - Pregnancy hormone curves before lactation",
+      "condition_overview": "The key change is the breast's response to prolactin. Rising prolactin during pregnancy is compatible with little milk secretion when placental steroids still inhibit its effect."
+    },
+    {
+      "question_id": "q-exam-nst-except",
+      "source_id": "s-10c6063feebd1abac846",
+      "source_group_id": "g-fc916150c4fc142777f3",
+      "asset_id": "a-a03af5b367f3f5dede273646ada4bff6580d51ebd1d56090aa0162bbb150d4f2",
+      "variant_id": "v-eb948a4e27766c379070",
+      "image": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+      "zoom_image": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+      "original_image": "assets/zoom/8388df71057478738baf986c22db694e19fabdf252d732b4e9422d3693a88d30.webp",
+      "original_filename": "R7/Thermoregulation Control Pathways in Neonates - Diagram.png",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 12
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Regarding nonshivering thermogenesis in the newborn, all of the following are correct EXCEPT:",
+      "visual_target": "A pathway loses the sympathetic input ending at the leftmost effector, while the pathways ending in muscle and sweat glands remain active. Which neonatal response is specifically reduced?",
+      "tested_concept": "Nonshivering thermogenesis in brown fat (EXCEPT format)",
+      "options": [
+        "Brown adipose tissue can generate heat without repeated skeletal muscle contraction",
+        "Uncoupling protein 1 converts the proton gradient into ATP efficiently, which makes brown fat a major source of ATP",
+        "Sympathetic input to brown fat is a pathway separate from the inputs to skeletal muscle and sweat glands",
+        "Sympathetic beta receptors and DIO2 conversion of thyroid hormone raise UCP1 in brown fat"
+      ],
+      "choice_rationales": [
+        "Correct statement. Brown fat produces heat without the repeated muscle contraction of shivering.",
+        "This is the false statement, so it is the answer to an EXCEPT stem. UCP1 dissipates the proton gradient as heat with no direct ATP gain.",
+        "Correct statement. The brown fat branch is distinct from the branches to skeletal muscle and sweat glands.",
+        "Correct statement. Sympathetic beta signaling and DIO2 conversion of T4 to T3 upregulate UCP1 in brown fat."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. An EXCEPT stem asks for the false statement. Step 2. Brown fat makes heat without shivering through UCP1, which is raised by sympathetic beta signaling and DIO2 mediated thyroid hormone activation. Step 3. UCP1 lets the proton gradient dissipate as heat with no direct ATP gain, so the claim that it makes ATP efficiently is the exception.",
+      "visual_clues": [
+        "The leftmost effector receives sympathetic input and is labeled as the pathway for brown-fat thermogenesis."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture page.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Thermoregulation Control Pathways in Neonates",
+      "condition_overview": "A newborn can increase heat production through brown fat without repeated muscle contraction. The diagram distinguishes that effector from separate paths for heat conservation and shivering."
+    },
+    {
+      "stem": "For the physiologic effect described, select the hormone that is primarily responsible. Serves as a luteinizing hormone analog that maintains corpus luteum steroid secretion during early gestation.",
+      "options": [
+        "Placental progesterone",
+        "Oxytocin",
+        "Human chorionic gonadotropin",
+        "Placental estrogens"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The description matches the early peaked curve on the graph. Step 2. hCG has LH-like activity and rescues the corpus luteum in early pregnancy. Step 3. Progesterone and estrogens rise later and act downstream, and oxytocin acts near parturition.",
+      "choice_rationales": [
+        "Progesterone rises through much of pregnancy and is a luteal and placental steroid, not the early signal that rescues the corpus luteum.",
+        "Oxytocin acts on the uterus and breast late in pregnancy and in parturition, not on the corpus luteum in early gestation.",
+        "Correct. hCG peaks in the first trimester, acts like LH, and keeps the corpus luteum producing steroids until the placenta takes over.",
+        "Estrogens rise markedly in later pregnancy and are products of luteal and placental steroid synthesis rather than the rescuing signal."
+      ],
+      "tested_concept": "hCG as an LH analog (matching format)",
+      "question_id": "q-exam-gestation-hormone-match",
+      "source_id": "s-fb80b9844e2ab41c596c",
+      "source_group_id": "g-30d4a3847b1a7fada26f",
+      "variant_id": "v-016145a15cf105b86e07",
+      "question_type": "Visual interpretation",
+      "category": "Graphs",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "image": "assets/zoom/9d07deb922527c60ad0d39bffd83140015fee40733f3012220fa45eef473063b.webp",
+      "zoom_image": "assets/zoom/9d07deb922527c60ad0d39bffd83140015fee40733f3012220fa45eef473063b.webp",
+      "original_image": "assets/zoom/a9fd14205793badb3478088bcc15e9985a956ad79208c591331629acce83cabe.webp",
+      "original_filename": "R5/Hormone Levels During Pregnancy - Diagram.png",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 24
+        }
+      ],
+      "visual_clues": [
+        "The red hCG curve peaks near weeks 10 to 12 and falls while the other two rise later."
+      ],
+      "visual_target": "Which hormone is represented by the curve that peaks in the first trimester and then falls to a lower plateau?",
+      "joint_panels": false,
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible morphology checked against supplied lecture page and extraction provenance.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "study_skill": "interpretation",
+      "condition_name": "Hormone Levels During Pregnancy",
+      "condition_overview": "The early hormone peak occurs during the interval when luteal support is important. The later rises in progesterone and estrogen reflect a different trajectory and do not identify the early peaked curve."
+    },
+    {
+      "question_id": "q-exam-let-down-vignette",
+      "collection": "R6",
+      "question_type": "Visual reasoning",
+      "tested_concept": "Milk synthesis versus milk ejection (vignette)",
+      "visual_target": "What response follows oxytocin signaling to the cells along the outer border of this mammary secretory unit?",
+      "stem": "Which of the following best explains her reduced milk ejection?",
+      "options": [
+        "Persistent placental steroid inhibition of prolactin action on the breast",
+        "Reduced oxytocin signaling that limits contraction of the myoepithelial cells",
+        "Absent prolactin action on the cuboidal secretory cells, so no milk is made",
+        "Loss of milk synthesis by the outer flattened cell layer"
+      ],
+      "correct_index": 1,
+      "choice_rationales": [
+        "Placental steroids fall after delivery, and engorgement shows that milk was already made, so steroid inhibition does not explain the finding.",
+        "Correct. Full, engorged breasts show that milk is being made, so the defect is in let-down, which depends on oxytocin contracting the myoepithelial cells.",
+        "A prolactin defect would reduce milk production and would not produce engorged breasts.",
+        "The outer flattened cells are myoepithelial cells that eject milk, and milk is synthesized by the cuboidal secretory epithelium."
+      ],
+      "explanation": "Step 1. Engorgement means milk has been synthesized and secreted into the lumen under prolactin. Step 2. Poor flow with suckling points to failed ejection. Step 3. Ejection is oxytocin mediated contraction of the outer myoepithelial cells.",
+      "visual_clues": [
+        "The outer flattened cells are myoepithelial."
+      ],
+      "reasoning_order": "second or third order",
+      "reasoning_task": "mechanism",
+      "generation_batch": "2026-11-12-visual-reasoning",
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Visible findings interpreted with the cited course materials.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "source_id": "s-bbbe6e7aa9ebdd17f6e1",
+      "source_group_id": "g-22dc7fb864b26703a544",
+      "variant_id": "v-6588d6a0d2024598fd35",
+      "image": "assets/display/6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4.webp",
+      "zoom_image": "assets/zoom/4ccb85275ca9f02188ad5640534af021dbbe78dc9e6749162b971b33ab1eb8b7.webp",
+      "original_image": "assets/zoom/4ccb85275ca9f02188ad5640534af021dbbe78dc9e6749162b971b33ab1eb8b7.webp",
+      "original_filename": "PDF panel extraction/R6.png",
+      "category": "Diagram",
+      "source_origin": "lecture",
+      "asset_id": "a-6588d6a0d2024598fd3514bab683cf4a9ed75c1a0e5119e001d1d3a38e99a5c4",
+      "citations": [
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R6 Physiology of Pregnancy (Part 3 & 4) RLS.pdf",
+          "page": 9
+        }
+      ],
+      "case_context": "A mother with her first newborn reports that her breasts feel full and engorged, but little milk flows when the infant suckles.",
+      "study_skill": "mechanism",
+      "condition_name": "R6",
+      "condition_overview": "Oxytocin-mediated let-down moves milk already in the lumen. Prolactin stimulates milk production by the secretory epithelial cells, so an ejection defect and a production defect affect different layers."
     }
   ],
   "retired_questions": [
