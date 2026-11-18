@@ -1,5 +1,5 @@
 import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js';
-import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats,distinctClues} from './engine.js';
+import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,FILTER_KINDS,normalizeFilterList,effectiveFilters,studySkillStats,distinctClues} from './engine.js';
 import {BANKS,PHARMACOLOGY,STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js';
 const query=new URLSearchParams(window.location.search);
 const CONFIG=resolveBankConfig(window.location.search);
@@ -9,11 +9,11 @@ const caseMode=CONFIG===CLINICAL_CASES;
 const combinedMode=CONFIG===COMBINED;
 const sectionLabels=Object.fromEntries(STUDY_SECTIONS.map(section=>[section.id,section.label]));
 const combinedLengths=['10','20','40','all','endless'];
-const combinedFilters=[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']];
+const combinedFilters=[['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']];
 let cases=[],retired=[];
 const KEY=CONFIG.progressKey, PREF_KEY=CONFIG.preferencesKey, $=s=>document.querySelector(s), esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let bank,bankVersion,manifest,manifestRequest,coverageRequest,remediation=null,coverage={lectures:{}},p=empty(),screen='home',zoom=1,original=false,imageTone='normal',settings=defaultSettings();
-let storageLocked=false,lecturesOpen=false,reviewFilter='all',triageMode=false,triageIndex=0;let byId={};const root=$('#app');let timer;
+let storageLocked=false,lecturesOpen=false,sectionFiltersOpen=false,reviewFilter='all',triageMode=false,triageIndex=0;let byId={};const root=$('#app');let timer;
 
 const IMAGE_TONES=[['normal','Tone: Normal'],['contrast','Tone: High Contrast'],['brighten','Tone: Brighten']];
 
@@ -197,7 +197,7 @@ function withGlobalSeen(progress){
 }
 function combinedPool(s,progress=withGlobalSeen(p)){
     const base=filtered(bank,progress,{origin:s.origin,collection:s.collection});
-    const ok=q=>(s.skill==='all'||q.study_skill===s.skill)&&filtered([q],progress,{filter:s.filter}).length>0;
+    const ok=q=>(s.skill==='all'||q.study_skill===s.skill)&&filtered([q],progress,{filter:effectiveFilters(s,q.studySection)}).length>0;
     const matchingCases=new Set(base.filter(q=>q.case_id&&ok(q)).map(q=>q.case_id));
     return base.filter(q=>q.case_id?matchingCases.has(q.case_id):ok(q));
 }
@@ -210,7 +210,7 @@ function combinedHome() {
     const sectionPool=selected.size?bank.filter(q=>selected.has(q.studySection)):bank;
     const lectures=sortLectureIds(sectionPool.map(q=>q.collection));
     const chosenLectures=settings.collection==='all'?lectures:settings.collection.filter(id=>lectures.includes(id));
-    const lectureFiltered=settings.origin!=='all'||settings.skill!=='all'||settings.filter!=='all';
+    const lectureFiltered=settings.origin!=='all'||settings.skill!=='all'||settings.filters.length>0||Object.keys(settings.sectionFilters).length>0;
     const combinedSkillPool=combinedPool({...settings,skill:'all'}).filter(q=>selected.has(q.studySection));
     const weakest=weakestSkillInfo();
     root.innerHTML=`<section class="summary combined-summary">
@@ -233,12 +233,27 @@ function combinedHome() {
                     <button id="clear-sections" class="quiet" ${!selected.size?'disabled':''}>Clear selection</button>
                 </div>
             </fieldset>
+            <fieldset class="box-group">
+                <legend>Question selection</legend>
+                <div class="filter-boxes">
+                    ${combinedFilters.map(([value,label])=>`<label class="select-box"><input type="checkbox" name="global-filter" value="${value}" ${settings.filters.includes(value)?'checked':''}><span class="box-face"><strong>${label}</strong><small>${combinedPool({...settings,filters:[value],sectionFilters:{}}).filter(q=>selected.has(q.studySection)).length} questions</small></span></label>`).join('')}
+                </div>
+                <p class="fine mt">${settings.filters.length?'Questions that match any selected type are included.':'None selected, so every question is included (mixed practice).'}</p>
+                <details class="mt" id="section-filters" ${sectionFiltersOpen?'open':''}>
+                    <summary>Different selection for each section${Object.keys(settings.sectionFilters).length?` · ${Object.keys(settings.sectionFilters).length} customized`:''}</summary>
+                    ${STUDY_SECTIONS.map(section=>{
+                        const custom=Object.hasOwn(settings.sectionFilters,section.id),list=effectiveFilters(settings,section.id);
+                        return `<div class="section-filter"><strong>${section.label}</strong>
+                            <label class="check-row"><input type="checkbox" name="section-filter-global" value="${section.id}" ${custom?'':'checked'}>Use the global selection</label>
+                            <div class="filter-boxes">${combinedFilters.map(([value,label])=>`<label class="select-box"><input type="checkbox" name="section-filter" data-section="${section.id}" value="${value}" ${list.includes(value)?'checked':''} ${custom?'':'disabled'}><span class="box-face"><strong>${label}</strong><small>${combinedPool({...settings,filters:[value],sectionFilters:{}}).filter(q=>q.studySection===section.id).length} questions</small></span></label>`).join('')}</div>
+                        </div>`;
+                    }).join('')}
+                </details>
+            </fieldset>
             <div class="form-grid">
                 <div><label for="combined-origin">Source type</label>
                     <select id="combined-origin">${sourceTypes.map(([value,label])=>option(value,`${label} (${combinedPool({...settings,origin:value}).filter(q=>selected.has(q.studySection)).length})`,settings.origin)).join('')}</select></div>
                 ${skillPicker('combined-skill',combinedSkillPool)}
-                <div><label for="combined-filter">Question selection</label>
-                    <select id="combined-filter">${combinedFilters.map(([value,label])=>option(value,`${label} (${combinedPool({...settings,filter:value}).filter(q=>selected.has(q.studySection)).length})`,settings.filter)).join('')}</select></div>
                 <div><label for="combined-mode">Feedback mode</label>
                     <select id="combined-mode">${option('learn','Learn',settings.mode)}${option('exam','Exam',settings.mode)}</select></div>
                 <div><label for="combined-length">Session length</label>
@@ -289,12 +304,28 @@ function combinedHome() {
         combinedHome();
         $('#combined-skill').focus({preventScroll:true});
     };
-    $('#combined-filter').onchange=event=>{
-        settings.filter=event.target.value;
+    root.querySelectorAll('input[name=global-filter]').forEach((input,index)=>input.onchange=()=>{
+        settings.filters=FILTER_KINDS.filter(kind=>root.querySelector(`input[name=global-filter][value="${kind}"]`).checked);
         saveSettings();
         combinedHome();
-        $('#combined-filter').focus({preventScroll:true});
-    };
+        root.querySelectorAll('input[name=global-filter]')[index].focus({preventScroll:true});
+    });
+    $('#section-filters').addEventListener('toggle',event=>{sectionFiltersOpen=event.target.open;});
+    root.querySelectorAll('input[name=section-filter-global]').forEach(input=>input.onchange=()=>{
+        if(input.checked)delete settings.sectionFilters[input.value];else settings.sectionFilters[input.value]=[...settings.filters];
+        sectionFiltersOpen=true;
+        saveSettings();
+        combinedHome();
+        root.querySelector(`input[name=section-filter-global][value="${input.value}"]`).focus({preventScroll:true});
+    });
+    root.querySelectorAll('input[name=section-filter]').forEach(input=>input.onchange=()=>{
+        const id=input.dataset.section;
+        settings.sectionFilters[id]=FILTER_KINDS.filter(kind=>root.querySelector(`input[name=section-filter][data-section="${id}"][value="${kind}"]`).checked);
+        sectionFiltersOpen=true;
+        saveSettings();
+        combinedHome();
+        root.querySelector(`input[name=section-filter][data-section="${id}"][value="${input.value}"]`).focus({preventScroll:true});
+    });
     $('#combined-resurface').onchange=event=>{settings.resurface=event.target.checked;saveSettings();};
     $('#combined-lectures').addEventListener('toggle',event=>{lecturesOpen=event.target.open;});
     root.querySelectorAll('input[name=lecture]').forEach((input,index)=>input.onchange=()=>{
@@ -932,7 +963,8 @@ function combinedSettings(saved){
         skill:Object.hasOwn(STUDY_SKILLS,saved?.skill)?saved.skill:'all',
         mode:saved?.mode==='exam'?'exam':'learn',
         length:combinedLengths.includes(saved?.length)?saved.length:'10',
-        filter:combinedFilters.some(([value])=>value===saved?.filter)?saved.filter:'all',
+        filters:normalizeFilterList(saved?.filters??saved?.filter),
+        sectionFilters:Object.fromEntries(Object.entries(saved?.sectionFilters&&typeof saved.sectionFilters==='object'?saved.sectionFilters:{}).filter(([id,list])=>ids.includes(id)&&Array.isArray(list)).map(([id,list])=>[id,normalizeFilterList(list)])),
         collection:Array.isArray(saved?.collection)?[...new Set(saved.collection.filter(id=>bank.some(q=>q.collection===id)))]:'all',
         resurface:saved?.resurface!==false,
     };

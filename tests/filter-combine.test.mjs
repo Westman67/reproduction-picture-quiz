@@ -1,0 +1,30 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {empty,filtered,see,session,normalizeFilterList,effectiveFilters} from '../engine.js';
+const mk=(id,group)=>({question_id:id,source_group_id:group,source_origin:'lecture',collection:'R1',category:'c',study_skill:'x',options:['a','b','c','d'],correct_index:0});
+const bank=[mk('a','g1'),mk('b','g2'),mk('c','g3'),mk('d','g4')];
+test('selected question types combine as a union and none means everything',()=>{
+ const p=empty();
+ see(p,bank[0],session([bank[0]]).items[0]);
+ p.questions.b={...(p.questions.b||{}),last_result:'incorrect'};
+ p.questions.c={...(p.questions.c||{}),marked:true};
+ const ids=f=>filtered(bank,p,{filter:f}).map(q=>q.question_id).sort().join();
+ assert.equal(ids(['unseen']),'b,c,d');
+ assert.equal(ids(['incorrect']),'b');
+ assert.equal(ids(['marked']),'c');
+ assert.equal(ids(['incorrect','marked']),'b,c');
+ assert.equal(ids(['unseen','incorrect','marked']),'b,c,d');
+ assert.equal(ids([]),'a,b,c,d');
+ assert.equal(ids('all'),'a,b,c,d');
+ assert.equal(ids('incorrect'),'b');
+});
+test('filter lists are normalized and sections can override the global selection',()=>{
+ assert.deepEqual(normalizeFilterList(['marked','bogus','unseen','unseen']),['unseen','marked']);
+ assert.deepEqual(normalizeFilterList('incorrect'),['incorrect']);
+ assert.deepEqual(normalizeFilterList('all'),[]);
+ assert.deepEqual(normalizeFilterList(undefined),[]);
+ const settings={filters:['unseen'],sectionFilters:{pathology:['marked'],physiology:[]}};
+ assert.deepEqual(effectiveFilters(settings,'pharmacology'),['unseen']);
+ assert.deepEqual(effectiveFilters(settings,'pathology'),['marked']);
+ assert.deepEqual(effectiveFilters(settings,'physiology'),[]);
+});

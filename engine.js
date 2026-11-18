@@ -26,9 +26,13 @@ export function reconcileFlags(p,batch){
  return resolved;
 }
 export function shuffle(a,rng=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+export const FILTER_KINDS=['unseen','incorrect','marked'];
+export function normalizeFilterList(raw){const list=Array.isArray(raw)?raw:typeof raw==='string'?[raw]:[];return FILTER_KINDS.filter(kind=>list.includes(kind));}
+export function effectiveFilters(settings,sectionId){const own=settings?.sectionFilters;return own&&Object.hasOwn(own,sectionId)?own[sectionId]:settings?.filters??[];}
 export function filtered(bank,p,{category='all',origin='all',collection='all',filter='all',skill='all'}={}){
+ const kinds=Array.isArray(filter)?filter:[filter],everything=!kinds.length||kinds.includes('all');
  return bank.filter(q=>(skill==='all'||q.study_skill===skill)&&(origin==='all'||q.source_origin===origin||origin==='lecture'&&q.source_origin==='lecture-table')&&(category==='all'||q.category===category)&&(origin==='third_party'||collection==='all'||(Array.isArray(collection)?collection.includes(q.collection):q.collection===collection))).filter(q=>{
- const x=p.questions[q.question_id]||{};return filter==='all'||filter==='unseen'&&!p.groups[q.source_group_id]?.times_seen||filter==='incorrect'&&x.last_result==='incorrect'||filter==='marked'&&x.marked;});
+ const x=p.questions[q.question_id]||{};return everything||kinds.some(kind=>kind==='unseen'&&!p.groups[q.source_group_id]?.times_seen||kind==='incorrect'&&x.last_result==='incorrect'||kind==='marked'&&x.marked);});
 }
 export function ordered(pool,rng=Math.random,previous=null){const groups=new Map(),used=new Map(),out=[];for(const q of shuffle(pool,rng)){const id=q.source_group_id;if(!groups.has(id)){groups.set(id,[]);used.set(id,0);}groups.get(id).push(q);}while(groups.size){const eligible=[...groups.keys()].filter(id=>id!==previous),choices=eligible.length?eligible:[...groups.keys()],minimum=Math.min(...choices.map(id=>used.get(id))),tied=choices.filter(id=>used.get(id)===minimum),id=tied[Math.floor(rng()*tied.length)],q=groups.get(id).shift();out.push(q);used.set(id,used.get(id)+1);if(!groups.get(id).length)groups.delete(id);previous=id;}return out;}
 export function item(q,rng=Math.random){return {id:q.question_id,attempt_id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${rng()}`,order:shuffle(q.options.map((_,index)=>index),rng),draft:null,struck:[],locked:false,overridden:false,seen:false};}

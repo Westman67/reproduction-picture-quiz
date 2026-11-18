@@ -179,3 +179,5 @@
 }
 
 .quiz-layout.text-only{grid-template-columns:minmax(0,780px);justify-content:center}
+
+.filter-boxes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.filter-boxes .box-face{min-height:62px}.section-filter{border-top:1px solid var(--line);padding:12px 0}.section-filter>strong{display:block;margin-bottom:6px}.section-filter .check-row{margin:0 0 10px}.select-box input:disabled+.box-face{opacity:.5;cursor:not-allowed}@media(max-width:560px){.filter-boxes{grid-template-columns:1fr}}
