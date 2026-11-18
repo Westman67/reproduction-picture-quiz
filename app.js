@@ -47,8 +47,9 @@ function skillPicker(id,pool){
         ${option('all',allLabel,settings.skill)}${choices}</select></div>`;
 }
 function weakestSkillInfo(){
+    const gp=withGlobalSeen(p);
     const stats=studySkillStats(bank,q=>{
-        const row=p.questions[q.question_id];
+        const row=gp.questions[q.question_id];
         return row?{correct:row.correct_count,answered:row.times_answered}:null;
     });
     let weakest=null;
@@ -151,6 +152,7 @@ function caseHome() {
 }
 
 function withGlobalSeen(progress){
+    const questions={...(progress?.questions||{})};
     const groups={...(progress?.groups||{})};
     const keys=[...Object.values(BANKS).map(b=>b.progressKey),PHARMACOLOGY.progressKey,CLINICAL_CASES.progressKey,COMBINED.progressKey,LEGACY_KEY];
     for(const key of keys){
@@ -158,13 +160,40 @@ function withGlobalSeen(progress){
             const raw=localStorage.getItem(key);
             if(!raw)continue;
             const parsed=JSON.parse(raw);
+            for(const [qid,qstat] of Object.entries(parsed?.questions||{})){
+                const cur=questions[qid];
+                if(!cur){
+                    questions[qid]={...qstat};
+                }else{
+                    const curDate=Date.parse(cur.last_date)||0;
+                    const newDate=Date.parse(qstat.last_date)||0;
+                    questions[qid]={
+                        ...cur,
+                        times_seen:Math.max(cur.times_seen||0,qstat.times_seen||0),
+                        times_answered:Math.max(cur.times_answered||0,qstat.times_answered||0),
+                        correct_count:Math.max(cur.correct_count||0,qstat.correct_count||0),
+                        incorrect_count:Math.max(cur.incorrect_count||0,qstat.incorrect_count||0),
+                        last_result:newDate>curDate?(qstat.last_result??cur.last_result):(cur.last_result??qstat.last_result),
+                        last_date:newDate>curDate?qstat.last_date:cur.last_date,
+                        marked:Boolean(cur.marked||qstat.marked),
+                    };
+                }
+            }
             for(const [gid,entry] of Object.entries(parsed?.groups||{})){
                 const seen=entry?.times_seen||0;
                 if(seen>(groups[gid]?.times_seen||0))groups[gid]={...(groups[gid]||{}),times_seen:seen};
             }
         }catch{}
     }
-    return {...progress,groups};
+    for(const q of bank||[]){
+        if(questions[q.question_id]?.times_seen>0){
+            const gid=q.source_group_id;
+            if(gid&&!(groups[gid]?.times_seen>0)){
+                groups[gid]={...(groups[gid]||{}),times_seen:questions[q.question_id].times_seen};
+            }
+        }
+    }
+    return {...progress,questions,groups};
 }
 function combinedPool(s,progress=withGlobalSeen(p)){
     const base=filtered(bank,progress,{origin:s.origin,collection:s.collection});
@@ -294,7 +323,7 @@ function combinedHome() {
         if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;
         const pools=STUDY_SECTIONS.filter(section=>selected.has(section.id))
             .map(section=>skillPool.filter(q=>q.studySection===section.id));
-        p.session=combinedSession(pools,settings.mode,settings.length,Math.random,settings.resurface?{progress:p}:{});
+        p.session=combinedSession(pools,settings.mode,settings.length,Math.random,settings.resurface?{progress:withGlobalSeen(p)}:{});
         save();
         resetZoom();
         quiz();
