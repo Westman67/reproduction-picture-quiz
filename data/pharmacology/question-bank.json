@@ -1,7 +1,6 @@
 {
   "schema_version": 2,
   "title": "Reproduction Pharmacology Quiz",
-  "bank_version": "pharmacology-1",
   "release_status": "Pilot lecture based drug reasoning questions.",
   "retired_questions": [],
   "questions": [
@@ -41,7 +40,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 34-year-old woman has fever, vomiting and flank pain. She is hospitalized and started on IV therapy while cultures are pending.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Antibiotic choice in complicated urinary tract infection",
+      "condition_overview": "Fever, vomiting and flank pain indicate a complicated or upper tract UTI. Initial IV ceftriaxone (cell wall synthesis) or ciprofloxacin (DNA gyrase) is used and culture guides therapy for 7 to 14 days."
     },
     {
       "stem": "Which first line agent should be avoided, and which is acceptable?",
@@ -79,7 +80,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 27-year-old woman at 10 weeks of pregnancy has dysuria and frequency without fever. Empiric oral therapy is planned without culture.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Uncomplicated UTI therapy in pregnancy",
+      "condition_overview": "This is an uncomplicated lower UTI, treated empirically with nitrofurantoin, trimethoprim sulfamethoxazole or fosfomycin. Trimethoprim sulfamethoxazole inhibits tetrahydrofolate production and is avoided in pregnancy and in G6PD deficiency, whereas nitrofurantoin and fosfomycin are safe in pregnancy."
     },
     {
       "stem": "What is the mechanism, and which adverse effect needs attention in him?",
@@ -117,7 +120,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 72-year-old man with coronary artery disease has urge incontinence from an overactive bladder. His urologist prescribes a drug that raises cAMP in the detrusor.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Beta 3 agonist mechanism in overactive bladder",
+      "condition_overview": "A drug that raises cAMP to relax the detrusor is a beta 3 agonist, mirabegron. Gs coupled cAMP inhibits detrusor contraction, and the key adverse effect is hypertension, which may raise cardiovascular risk in elderly patients with existing cardiovascular disease."
     },
     {
       "stem": "Which drug fits, and by what mechanism?",
@@ -155,7 +160,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 66-year-old man with a weak urine stream and incomplete bladder emptying from BPH wants a drug that improves voiding within days.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Alpha 1 antagonist versus 5 alpha reductase inhibitor in BPH",
+      "condition_overview": "BPH causing impaired flow can be treated with an alpha 1A and 1D antagonist or a 5 alpha reductase inhibitor. Tamsulosin acts within days by blocking Gq mediated smooth muscle contraction, whereas finasteride and dutasteride lower DHT and take weeks."
     },
     {
       "stem": "Why is prednisone given together with it?",
@@ -193,7 +200,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 70-year-old man with castration resistant metastatic prostate cancer starts a drug that inhibits 17 hydroxylase.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Why abiraterone is given with prednisone",
+      "condition_overview": "A 17 hydroxylase inhibitor for castration resistant prostate cancer is abiraterone. It blocks adrenal androgen and cortisol synthesis, so prednisone replaces glucocorticoid effect and prevents ACTH and aldosterone increases."
     },
     {
       "stem": "Which statement best guides the choice?",
@@ -235,7 +244,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 61-year-old postmenopausal woman with ER positive breast cancer has osteopenia and a prior deep vein thrombosis. She is choosing between tamoxifen and an aromatase inhibitor.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Adverse effects of aromatase inhibitors versus tamoxifen",
+      "condition_overview": "The choice is between a SERM and an aromatase inhibitor. All SERMs raise VTE risk and tamoxifen is a partial agonist in the uterus (cancer risk beyond 5 years), while aromatase inhibitors avoid VTE and endometrial risk but raise osteoporosis risk."
     },
     {
       "stem": "What are the mechanisms of the two drugs?",
@@ -273,7 +284,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 23-year-old woman at 6 weeks of pregnancy requests medical abortion. She takes one oral drug and, two days later, a second drug if the embryo has not been expelled.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Medication abortion mechanism",
+      "condition_overview": "The two drug sequence for first trimester medical abortion is mifepristone then misoprostol. Mifepristone is a progesterone receptor antagonist and misoprostol is a PGE1 analog that stimulates uterine contractions, with about 95 percent effectiveness in the first 7 weeks."
     },
     {
       "stem": "What is the best advice?",
@@ -311,7 +324,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman with an intact uterus has disabling hot flashes despite lifestyle measures and has no contraindications. She asks to take estrogen alone.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Progestogen added to estrogen in women with a uterus",
+      "condition_overview": "She meets the criteria of bothersome symptoms and no contraindications, so hormone therapy is reasonable. A woman with a uterus needs a progestogen added, because estrogen alone can cause endometrial cancer."
     },
     {
       "stem": "How does the drug induce ovulation?",
@@ -349,7 +364,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 27-year-old woman with PCOS and infertility is given an oral drug related to tamoxifen to induce ovulation.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Clomiphene mechanism in ovulation induction",
+      "condition_overview": "A drug similar to tamoxifen used only for infertility is clomiphene, the infertility drug of choice for PCOS. It blocks estradiol negative feedback, raising LH and FSH release and inducing ovulation in women with adequate pituitary reserves."
     },
     {
       "stem": "What is the best next step?",
@@ -387,7 +404,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 30-year-old woman at 34 weeks with severe preeclampsia receives an IV loading dose and then an infusion for seizure prophylaxis. Her patellar reflexes are now absent and her respiratory rate is 9.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Magnesium sulfate toxicity monitoring and antidote",
+      "condition_overview": "Magnesium sulfate prevents eclamptic seizures by antagonizing NMDA receptors and calcium channels. Toxicity shows as lost reflexes and respiratory depression and is reversed by calcium gluconate after stopping the infusion."
     },
     {
       "stem": "Which pairing of drug and mechanism is correct?",
@@ -425,7 +444,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A resident reviews the first line empiric drugs for uncomplicated lower urinary tract infection and tries to match each drug with its mechanism.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Mechanisms of first line UTI drugs",
+      "condition_overview": "The lecture lists nitrofurantoin, trimethoprim sulfamethoxazole and fosfomycin as first line for uncomplicated lower UTI. Nitrofurantoin forms reactive intermediates in urine, trimethoprim sulfamethoxazole inhibits folate production, and fosfomycin inhibits the cell wall enzyme MurA."
     },
     {
       "stem": "Which drug choice fits both problems, and why?",
@@ -463,7 +484,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 61-year-old postmenopausal woman has recurrent calcium oxalate kidney stones. Bone density testing also shows early bone loss.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Thiazide use in calcium oxalate stones",
+      "condition_overview": "Calcium oxalate stones are reduced by decreasing urinary calcium excretion, which thiazide diuretics do. The lecture adds that thiazides give some protection against postmenopausal bone loss, so one drug serves both problems."
     },
     {
       "stem": "Which explanation is best?",
@@ -501,7 +524,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 70-year-old woman with urge incontinence takes oxybutynin and reports dry mouth and constipation. Her daughter asks why a bladder drug causes these symptoms.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Antimuscarinic selectivity and adverse effects",
+      "condition_overview": "Oxybutynin blocks excitatory M3 receptors coupled to IP3 and diacylglycerol, which reduces detrusor contraction. The block is only somewhat selective, so muscarinic receptors in salivary glands and the gut are also blocked and cause dry mouth and constipation."
     },
     {
       "stem": "Which concern is most specific to mirabegron in this patient?",
@@ -539,7 +564,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 78-year-old man has overactive bladder, long standing coronary artery disease and hypertension. His clinician weighs mirabegron against an antimuscarinic.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Mirabegron cardiovascular caution",
+      "condition_overview": "Mirabegron is a beta 3 agonist that increases cAMP through Gs and relaxes the detrusor. Its lecture adverse effect is hypertension, which matters in an elderly patient with coronary disease and hypertension, and its effects may be additive with an antimuscarinic."
     },
     {
       "stem": "Which mechanism explains the benefit, and how long does it last?",
@@ -577,7 +604,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 66-year-old woman with severe urge incontinence has not improved on two antimuscarinic drugs and one beta 3 agonist. Her urologist offers a small dose infused into the bladder wall.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Botulinum toxin mechanism in the bladder",
+      "condition_overview": "Anabotulinum toxin A blocks release of acetylcholine from detrusor nerve terminals. This reduces inappropriate detrusor contraction, and a single careful infusion gives benefit lasting weeks."
     },
     {
       "stem": "Which approach best matches the lecture for his incontinence?",
@@ -615,7 +644,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 72-year-old man dribbles urine, has a weak stream and incomplete emptying, and the bladder is distended on examination. He asks for an overactive bladder pill.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Overflow incontinence management",
+      "condition_overview": "A distended bladder with weak stream and dribbling fits overflow incontinence from outlet obstruction. No drug treats overflow incontinence directly, so therapy is aimed at BPH when it is the cause, surgery to remove the blockage, or clean catheters."
     },
     {
       "stem": "Which explanation best accounts for this?",
@@ -653,7 +684,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 66-year-old man with BPH starts finasteride. His serum testosterone barely changes, yet his prostate volume decreases over months.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Why DHT lowering shrinks the prostate",
+      "condition_overview": "Finasteride inhibits 5 alpha reductase and blocks conversion of testosterone to dihydrotestosterone. Dihydrotestosterone is the more potent agonist at the androgen receptor, so its loss reduces prostate hypertrophy and the benefit takes weeks to appear."
     },
     {
       "stem": "Why does the GnRH analog help the gynecomastia?",
@@ -691,7 +724,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A man with metastatic prostate cancer on an androgen receptor antagonist alone develops breast enlargement. His oncologist adds a GnRH analog, and the breast tenderness improves.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Gynecomastia with antiandrogens",
+      "condition_overview": "Androgen receptor blockade alone removes androgen effects that normally lower breast sensitivity to estrogens, so gynecomastia is reliable. A GnRH analog suppresses LH and FSH, lowers testosterone and so reduces the testosterone available to become estrogen."
     },
     {
       "stem": "Why does an androgen receptor antagonist still help him?",
@@ -729,7 +764,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A man treated with a GnRH analog has low testosterone, but his prostate cancer progresses and imaging shows new bone metastases.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Castration resistant prostate cancer and adrenal androgens",
+      "condition_overview": "A GnRH analog lowers LH and FSH and so lowers testicular testosterone, but the adrenal glands still make androstenedione and DHEA. Bicalutamide, nilutamide and enzalutamide block the androgen receptor, so they stop signaling by those adrenal androgens."
     },
     {
       "stem": "Which drug and mechanism best fit?",
@@ -771,7 +808,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 27-year-old woman with polycystic ovary syndrome has troublesome facial hair growth. Her physician chooses an oral drug that is often used for hirsutism in women.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Spironolactone for hirsutism",
+      "condition_overview": "Hirsutism reflects androgen driven hair growth. Spironolactone is a weak androgen receptor antagonist and also lowers levels of steroid 17 hydroxylase involved in androgen synthesis, which is why it is often used for hirsutism."
     },
     {
       "stem": "Which mechanism best explains both findings?",
@@ -809,7 +848,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A patient given the systemic antifungal ketoconazole is found to have lower androgen levels and signs of reduced cortisol.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Ketoconazole steroid synthesis inhibition",
+      "condition_overview": "Androgens and cortisol are built by several cytochrome P450 enzymes. Ketoconazole inhibits multiple CYP enzymes, so it lowers androgen and corticosteroid synthesis together."
     },
     {
       "stem": "Which explanation matches the lecture?",
@@ -847,7 +888,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A student asks why tamoxifen blocks estrogen receptors in breast tumors yet acts like an estrogen in bone and liver.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Tissue selectivity of SERMs",
+      "condition_overview": "Different target genes need different coactivators. A SERM such as tamoxifen changes the estrogen receptor conformation so that it recruits only a subset of coactivators, giving antagonism in breast and agonism in tissues such as bone and liver."
     },
     {
       "stem": "Which drug best fits, and why?",
@@ -885,7 +928,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 63-year-old postmenopausal woman has osteoporosis and a high risk of breast cancer. She wants one drug that treats the bone problem and lowers her breast cancer risk, and she has no history of clots.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Raloxifene for osteoporosis with breast cancer risk",
+      "condition_overview": "She needs breast antagonism and bone agonism. Raloxifene is used for prevention of breast cancer in high risk postmenopausal women and for treatment and prevention of osteoporosis, with minimal uterine effect, though it still raises VTE risk like other SERMs."
     },
     {
       "stem": "Which statement about fulvestrant is supported?",
@@ -923,7 +968,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman with advanced breast cancer that no longer responds to other endocrine therapy is offered a subcutaneous depot injection of fulvestrant.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Fulvestrant compared with SERMs",
+      "condition_overview": "Fulvestrant is a steroidal pure estrogen receptor antagonist. Unlike SERMs it has no tissue selective agonist effects, it may lower receptor levels but degradation is not proven necessary, and bone loss would be expected."
     },
     {
       "stem": "Which prediction is best?",
@@ -961,15 +1008,17 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "Two infertile women are considered for clomiphene. One has anovulation with a normal pituitary. The other has pituitary failure after a pituitary infarct with very low LH and FSH.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Clomiphene requires pituitary reserve",
+      "condition_overview": "Clomiphene blocks estrogen negative feedback so LH and FSH release rises. This only works if the pituitary has gonadotropin reserve to release, so the woman with a normal pituitary can respond and the one with pituitary failure cannot."
     },
     {
       "stem": "Which explanation is correct?",
       "options": [
-        "It is a PGE1 analog that raises insulin release from the pancreas",
-        "At higher doses it also blocks glucocorticoid receptors, which reduces cortisol driven hyperglycemia",
-        "It blocks the progesterone receptor, and progesterone is the hormone driving the hyperglycemia",
-        "It inhibits 11 beta hydroxylase, so cortisol synthesis stops"
+        "It is a PGE1 analog that directly increases pancreatic insulin release",
+        "At higher doses it blocks glucocorticoid receptors, reducing hyperglycemia",
+        "It blocks progesterone receptors, stopping progesterone-driven hyperglycemia",
+        "It inhibits 11-beta-hydroxylase, halting adrenal cortisol synthesis"
       ],
       "correct_index": 1,
       "explanation": "Step 1. Mifepristone is a progesterone receptor antagonist approved for induction of abortion. Step 2. At higher doses it also blocks glucocorticoid receptors, so it is approved for hyperglycemia due to hypercortisolism in Cushing syndrome.",
@@ -999,7 +1048,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A patient with Cushing syndrome and hyperglycemia is started on mifepristone. A student recalls it is the abortion pill and asks why it helps her glucose.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Mifepristone glucocorticoid antagonism",
+      "condition_overview": "Mifepristone is a progesterone receptor antagonist approved for induction of abortion. At higher doses it also blocks glucocorticoid receptors, so it is approved for hyperglycemia due to hypercortisolism in Cushing syndrome."
     },
     {
       "stem": "Which option is best, and why?",
@@ -1037,7 +1088,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 22-year-old woman presents 100 hours after unprotected intercourse and requests emergency contraception.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Emergency contraception timing",
+      "condition_overview": "At 100 hours she is past the 72 hour window for levonorgestrel based products. Ulipristal acetate is a selective progesterone receptor modulator with a 120 hour window that prevents ovulation and impairs implantation."
     },
     {
       "stem": "Which structural feature explains the choice?",
@@ -1075,7 +1128,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A pharmacology student asks why contraceptive pills contain ethinyl estradiol and not estradiol itself.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Why ethinyl estradiol is orally active",
+      "condition_overview": "Estradiol is rapidly inactivated by hepatic metabolism and has poor oral bioavailability. The 17 ethinyl group of ethinyl estradiol and mestranol cuts first pass elimination, giving a long half life of 13 to 27 hours and making these drugs the estrogens of choice in pills."
     },
     {
       "stem": "Which formulation best fits, and why?",
@@ -1117,7 +1172,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 19-year-old woman with moderate acne asks for a combination pill. She also notes water retention and breast tenderness on a prior pill.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Drospirenone containing pill for acne",
+      "condition_overview": "Combination pills reduce free testosterone by raising SHBG and lower ovarian androgen production. Drospirenone is related to spironolactone, so it is anti mineralocorticoid and anti androgenic, may cause less water retention and breast tenderness, and its pill with ethinyl estradiol is FDA approved for acne."
     },
     {
       "stem": "Which response is best?",
@@ -1155,7 +1212,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman 10 days after delivery asks to start her old combination oral contraceptive. A classmate argues that pregnancy carries more clot risk than the pill, so it is fine.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Contraception in the first weeks postpartum",
+      "condition_overview": "Estrogen containing contraceptives raise VTE risk and the postpartum period already carries high risk. Combination pills are contraindicated in the first 21 days after delivery, so a progestin only method is the choice even though pregnancy itself carries greater VTE risk."
     },
     {
       "stem": "Which statement about factor V Leiden and this pill is supported?",
@@ -1193,7 +1252,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 38-year-old smoker with hypercholesterolemia takes an estrogen containing pill. Her sister carries factor V Leiden and had a deep vein thrombosis.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Factor V Leiden and arterial risk",
+      "condition_overview": "Factor V Leiden causes resistance to activated protein C and magnifies the venous clot risk of estrogen. Estrogens modestly raise myocardial infarction risk and synergize with smoking, hypercholesterolemia and diabetes, but factor V Leiden does not add to that arterial risk."
     },
     {
       "stem": "Which addition and timing best fit the lecture?",
@@ -1231,7 +1292,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "An 11-year-old girl with Turner syndrome has short stature and ovarian failure. Her team plans growth hormone and later estrogen to induce puberty.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Androgen and estrogen sequence in Turner syndrome",
+      "condition_overview": "Growth hormone effects on height are enhanced by low dose androgen therapy before puberty is induced. Estrogens induce female pubertal changes including calcification of the epiphyses, which ends longitudinal growth, so they come later."
     },
     {
       "stem": "Which tocolytic should be avoided at this gestational age?",
@@ -1269,7 +1332,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman at 33 weeks has acute preterm labor. The team wants a tocolytic to buy time for corticosteroids and transfer to a neonatal center.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Tocolytic choice by gestational age",
+      "condition_overview": "Tocolytics are used to buy time, limited to 48 hours, so corticosteroids can mature the lungs and the mother can reach a center able to care for premature infants. Nifedipine and magnesium sulfate are options, terbutaline is second line, and indomethacin is only used before 30 weeks."
     },
     {
       "stem": "Which option fits, and how does it work?",
@@ -1307,7 +1372,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 26-year-old woman wants highly effective long term contraception that contains no hormones and lasts up to ten years.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Copper IUD features",
+      "condition_overview": "She wants no hormones and a duration up to ten years. The copper T meets both and produces an inflammatory reaction in the uterus that prevents implantation, with a first year failure rate of about 0.8 percent."
     },
     {
       "stem": "How does the timing hypothesis bear on her request?",
@@ -1345,7 +1412,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 68-year-old woman, 18 years past menopause, has bothersome hot flashes and asks to start oral estrogen. She has no listed contraindication.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Timing of menopausal hormone therapy",
+      "condition_overview": "The timing hypothesis says the benefit and risk ratio is favorable under age 60 or within 10 years of menopause onset in women without contraindications. She is 18 years out and over 60, so absolute risks of coronary disease, stroke and VTE are greater and the ratio is less favorable than in a younger woman."
     },
     {
       "stem": "Which woman has none of the general contraindications listed in the lecture?",
@@ -1383,7 +1452,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "Four women ask a clinician about hormone therapy for menopausal symptoms.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Contraindications to hormone therapy",
+      "condition_overview": "The lecture lists personal history of breast cancer, personal history of endometrial cancer, severe active liver disease, thromboembolic disorders and undiagnosed vaginal bleeding as general contraindications. Only the woman with controlled hypertension and no listed condition remains a candidate."
     },
     {
       "stem": "Which nonhormonal choice does the lecture recommend for her?",
@@ -1421,7 +1492,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 49-year-old woman takes tamoxifen for ER positive breast cancer and has frequent hot flashes. Estrogen therapy is not an option for her.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Nonhormonal therapy for hot flashes with tamoxifen",
+      "condition_overview": "Hormone therapy is contraindicated after breast cancer, so a nonhormonal drug is needed. Paroxetine is the only FDA approved option, but the lecture recommends venlafaxine, an SNRI used off label, for hot flashes in a woman taking tamoxifen, and tamoxifen itself can cause hot flashes."
     },
     {
       "stem": "What is the best advice?",
@@ -1459,7 +1532,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 48-year-old woman has skipped periods, night sweats and lighter bleeding. Her friend urges her to get FSH and estradiol levels to confirm perimenopause.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Diagnosis of perimenopause",
+      "condition_overview": "During perimenopause ovarian estrogen production is erratic, so estradiol and FSH swing between normal, high and low. Menopause is a clinical diagnosis and symptoms are a better marker of perimenopausal status than hormone tests."
     },
     {
       "stem": "Which prediction is correct, and why?",
@@ -1497,7 +1572,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 55-year-old woman, two years after her last period, has hot flashes. A student predicts her gonadotropins and estradiol.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Hormones in ovarian failure",
+      "condition_overview": "Menopause follows loss of ovarian follicles with ovarian failure, so estradiol and progesterone are low. The hypothalamus loses negative feedback from sex steroids, so both FSH and LH rise, a hypergonadotropic hypogonadism."
     },
     {
       "stem": "What is the most appropriate next step?",
@@ -1535,7 +1612,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 62-year-old woman, ten years past menopause, reports new episodes of facial flushing with watery diarrhea and wheezing.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Warning signs of non menopausal flushing",
+      "condition_overview": "Warning signs that trigger evaluation include new onset vasomotor symptoms in late menopause and symptoms such as diarrhea, wheezing or flushing. Flushing with diarrhea and wheezing fits carcinoid syndrome, so another cause should be sought before attributing it to menopause."
     },
     {
       "stem": "Which statement matches the FDA guideline in the lecture?",
@@ -1573,7 +1652,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 58-year-old woman has no hot flashes or vaginal symptoms but a family history of osteoporosis. She asks whether to start estrogen only to protect her bones.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Hormone therapy for osteoporosis prevention alone",
+      "condition_overview": "Hormone therapy prevents bone loss and fracture. The FDA, ACOG and NAMS guidance in the lecture does not support it for prevention alone, so the FDA advises using it as a last resort for osteoporosis prevention only."
     },
     {
       "stem": "Which mechanism best explains this?",
@@ -1611,7 +1692,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 53-year-old woman notices that a slightly warm room triggers a flash with flushing and sweating, but a similar room never bothered her before menopause.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Hot flash physiology",
+      "condition_overview": "Hot flashes are recurrent transient flushing with a sensation of warmth caused by estrogen withdrawal. The normal thermoregulatory zone narrows, so small temperature increases trigger vasodilation, sweating and decreased skin resistance."
     },
     {
       "stem": "Which explanation fits the lecture?",
@@ -1649,7 +1732,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 54-year-old woman is woken by night sweats in the first half of the night but sleeps through the second half. She asks why the timing differs.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Timing of night sweats and REM sleep",
+      "condition_overview": "Hot flashes can trigger awakenings in the first half of the night. REM sleep in the second half suppresses thermoregulation and therefore the flashes, so she is not woken then."
     },
     {
       "stem": "Which pattern fits the changes expected after menopause?",
@@ -1687,7 +1772,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 59-year-old woman, six years postmenopausal, has a lipid panel drawn. Her premenopausal values were normal.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Lipid changes after menopause",
+      "condition_overview": "Estrogen loss shifts lipid metabolism toward an atherogenic profile. Total cholesterol, LDL and triglycerides increase and HDL decreases, which helps explain why the male to female ratio of atherosclerotic disease moves from 3 to 1 toward 1 to 1."
     },
     {
       "stem": "Which statement about evaluation is supported?",
@@ -1729,7 +1816,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 31-year-old woman has had no periods for eight months and hot flashes. Her FSH is high and the clinician diagnoses primary ovarian insufficiency.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Primary ovarian insufficiency evaluation",
+      "condition_overview": "Primary ovarian insufficiency is ovarian failure before age 40. Most cases are idiopathic, yet the workup should exclude X chromosome abnormalities and fragile X, autoimmune ovarian damage, and iatrogenic causes such as radiation or chemotherapy."
     },
     {
       "stem": "Which hormone pattern is most likely?",
@@ -1767,7 +1856,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "An 18-year-old varsity runner has had no period for six months. She is lean, her pulse is 50 per minute and her pregnancy, TSH and prolactin tests are normal.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Functional hypothalamic amenorrhea hormones",
+      "condition_overview": "Energy deficit from excessive exercise or low intake suppresses GnRH secretion and gonadotropin pulsation. That gives low LH, low estradiol, low or normal FSH and low leptin, mimicking a prepubertal state, and management aims to restore energy balance and normal cycles."
     },
     {
       "stem": "Which statement is supported by the lecture?",
@@ -1805,7 +1896,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman asks when most of her lifetime postmenopausal bone loss will happen.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Timing of bone loss around menopause",
+      "condition_overview": "Osteoporosis in postmenopausal women is secondary to estrogen loss and works through increased bone resorption. About two thirds of bone loss occurs in the 5 to 7 years around menopause, so that is when prevention matters most."
     },
     {
       "stem": "How should her status be described?",
@@ -1843,7 +1936,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 49-year-old woman has had irregular periods and hot flashes. Her last menstrual period was 8 months ago.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Defining menopause and perimenopause",
+      "condition_overview": "Perimenopause begins with the first signs of change and menopause is diagnosed retrospectively after 12 months without menses. At 8 months she is perimenopausal, and hot flashes are common in perimenopause."
     },
     {
       "stem": "Which first line IV drug is the better choice for her?",
@@ -1881,7 +1976,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 29-year-old woman at 35 weeks has a confirmed blood pressure of 172/112 and a history of asthma. She has IV access.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Choice of IV antihypertensive in pregnancy",
+      "condition_overview": "Severe hypertension in pregnancy is treated urgently with IV labetalol or IV hydralazine as first line drugs. Labetalol is avoided in asthma because beta blockade causes bronchoconstriction, so hydralazine is the better IV choice."
     },
     {
       "stem": "Which explanation accounts for these findings?",
@@ -1919,7 +2016,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A pregnant woman with severe hypertension receives IV hydralazine. Her pressure falls to 148/96 but her heart rate rises from 84 to 112 and she later develops ankle swelling.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Hydralazine adverse effects",
+      "condition_overview": "Hydralazine releases nitric oxide from arteriolar endothelium, which relaxes smooth muscle and lowers peripheral resistance. The fall in pressure triggers reflex tachycardia and salt and water retention, and drug induced lupus is the other listed adverse effect."
     },
     {
       "stem": "Which drug and limiting adverse effect fit the lecture?",
@@ -1957,7 +2056,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 31-year-old woman with chronic hypertension wants an oral drug with offspring safety data followed to age 7 years. She also asks about side effects.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Chronic hypertension drugs in pregnancy",
+      "condition_overview": "Methyldopa is a centrally acting oral drug with safety data in offspring up to 7 years of age. It may be less effective than other drugs, especially in severe hypertension, and sedation, depression and dizziness limit its use."
     },
     {
       "stem": "Which plan matches the lecture?",
@@ -1995,7 +2096,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A resident plans to give nifedipine to a pregnant woman with blood pressure 168/108 and no IV access.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Nifedipine use in severe hypertension",
+      "condition_overview": "Nifedipine blocks calcium channels in vascular smooth muscle and is the oral option for severe hypertension without IV access. The algorithm gives 10 mg orally, rechecks at 20 minutes, then gives 20 mg and 40 mg if the pressure stays at 160/110 or more."
     },
     {
       "stem": "Why does this drug reduce her vasomotor symptoms?",
@@ -2033,7 +2136,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman who cannot take estrogen is prescribed a neurokinin 3 receptor antagonist for hot flashes.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Neurokinin 3 antagonist for hot flashes",
+      "condition_overview": "Reduced estrogen causes hypothalamic neurons to secrete more neurokinin B, which binds NK1R, NK2R and NK3R, with highest affinity for NK3R. Veozah reduces neurokinin B receptor binding and so reduces hot flashes without any hormone effect."
     },
     {
       "stem": "Which statement distinguishes their receptor targets?",
@@ -2071,7 +2176,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "Two nonhormonal drugs for hot flashes are discussed, Veozah and elinzanetant.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Receptor targets of neurokinin antagonists",
+      "condition_overview": "Neurokinin B binds NK1R, NK2R and NK3R, with the highest affinity for NK3R. Veozah is an NK3 antagonist and elinzanetant blocks NK1 and NK3, and both reduce neurokinin B receptor binding to lessen hot flashes."
     },
     {
       "stem": "How does the drug lower bone resorption?",
@@ -2109,7 +2216,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 66-year-old woman with osteoporosis is started on denosumab.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Denosumab in osteoporosis",
+      "condition_overview": "RANKL is a cytokine of the TNF family, and RANKL binding to RANK induces osteoclastogenesis. Denosumab is an antibody that blocks this binding, so osteoclast activity falls."
     },
     {
       "stem": "Which statement describes how this class works?",
@@ -2147,7 +2256,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 70-year-old woman with osteoporosis begins a bisphosphonate.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Bisphosphonate mechanism",
+      "condition_overview": "Bisphosphonates are directly toxic to osteoclasts. They block farnesyl diphosphate synthase in the HMG-CoA reductase pathway, increase osteoclast apoptosis and decrease osteoclast migration and attachment to bone."
     },
     {
       "stem": "What is the concern about starting a bisphosphonate?",
@@ -2185,7 +2296,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 72-year-old woman with osteoporosis has an eGFR of 25, reflux esophagitis and takes ibuprofen daily.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Contraindications to bisphosphonates",
+      "condition_overview": "Bisphosphonate side effects include epigastric distress, heartburn and esophagitis. They are contraindicated in renal insufficiency, and concomitant NSAIDs may worsen the gastrointestinal effects, so this woman is a poor candidate."
     },
     {
       "stem": "What is the best interpretation?",
@@ -2223,7 +2336,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 66-year-old man with BPH takes dutasteride for six months. His symptoms improve and his PSA is slightly lower than before. He asks whether this means the drug treats prostate cancer.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Dutasteride and PSA",
+      "condition_overview": "Dutasteride blocks conversion of testosterone to DHT like finasteride and treats BPH over weeks. It lowers PSA slightly and does not treat prostate cancer, so the small fall is a drug effect and not a cancer response."
     },
     {
       "stem": "Which property of trospium supports this choice?",
@@ -2261,7 +2376,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "An older woman with overactive bladder worries about confusion from anticholinergic drugs. Her physician chooses trospium.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Trospium and the blood brain barrier",
+      "condition_overview": "Trospium is an antimuscarinic given twice daily for overactive bladder. As a quaternary amine it does not cross the blood brain barrier, so central side effects such as confusion are avoided."
     },
     {
       "stem": "Which statement is correct?",
@@ -2303,7 +2420,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 34-year-old woman has fever, flank pain and costovertebral tenderness. Urine culture is pending. A colleague suggests oral nitrofurantoin or a single fosfomycin sachet.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Urinary concentrating antibiotics and kidney tissue",
+      "condition_overview": "Fever and flank pain indicate pyelonephritis, an upper tract infection. Nitrofurantoin and fosfomycin concentrate in urine and treat uncomplicated lower UTI, but they do not reach kidney tissue, so IV ceftriaxone for 7 to 14 days guided by culture is used."
     },
     {
       "stem": "How does allopurinol reduce stone formation?",
@@ -2341,7 +2460,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 49-year-old man with gout has recurrent radiolucent uric acid stones. His physician starts allopurinol.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Allopurinol for uric acid stones",
+      "condition_overview": "Uric acid comes from conversion of xanthine. Allopurinol blocks that step so stones are less likely to crystallize, and it also treats gout, whereas thiazides prevent calcium oxalate stones."
     },
     {
       "stem": "Why does phenylephrine help?",
@@ -2379,7 +2500,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A man has a painful erection lasting 8 hours. Blood gas from the corpora is ischemic. After aspiration, intracavernosal phenylephrine is injected.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Phenylephrine for ischemic priapism",
+      "condition_overview": "Ischemic priapism traps blood in the corpora, so the blood is aspirated first. Intracavernosal phenylephrine contracts smooth muscle and reduces arterial inflow, and surgical shunting is the next step if it fails."
     },
     {
       "stem": "Which mechanism best explains the retention?",
@@ -2417,7 +2540,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 70-year-old man with a large prostate takes pseudoephedrine for a cold and cannot void that evening.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Pseudoephedrine and urinary retention",
+      "condition_overview": "Pseudoephedrine acts peripherally, partly by releasing catecholamines, through alpha effects. It tightens the bladder neck and raises sphincter tone, so a man with a large prostate can develop retention."
     },
     {
       "stem": "Which property of duloxetine makes this combination a concern?",
@@ -2455,7 +2580,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman takes duloxetine and is offered an additional drug that depends on CYP2D6 for activation.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Duloxetine interactions",
+      "condition_overview": "Duloxetine is oral and labeled for depression, anxiety and chronic pain, and it may modestly raise urethral sphincter tone. It inhibits hepatic CYP2D6, so a prodrug that needs that enzyme for activation could lose effect."
     },
     {
       "stem": "Why is paroxetine a poor choice for her?",
@@ -2493,7 +2620,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman taking tamoxifen asks about paroxetine, the only FDA approved nonhormonal drug for hot flashes.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Paroxetine and tamoxifen",
+      "condition_overview": "Paroxetine is an SSRI and the only FDA approved nonhormonal therapy for vasomotor symptoms. It strongly inhibits CYP2D6, which activates tamoxifen, so venlafaxine is the recommended choice in a woman taking tamoxifen."
     },
     {
       "stem": "Which mechanism explains his testes and sperm count?",
@@ -2531,7 +2660,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 26-year-old bodybuilder takes injectable testosterone. He has large muscles, small soft testes and a very low sperm count.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Exogenous testosterone and fertility",
+      "condition_overview": "Testosterone from outside the body feeds back on the hypothalamus and pituitary. GnRH, LH and FSH fall, so intratesticular testosterone and Sertoli support fall, causing subfertility despite normal peripheral androgenic effects."
     },
     {
       "stem": "Which course of serum testosterone is expected?",
@@ -2569,7 +2700,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 68-year-old man with prostate cancer begins continuous leuprolide.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "GnRH agonist time course",
+      "condition_overview": "A GnRH agonist first stimulates LH release, which causes a transient testosterone flare. Continuous exposure desensitizes the pituitary after about 1 to 3 weeks, lowering LH and testicular testosterone."
     },
     {
       "stem": "Which statement about her risk is supported?",
@@ -2607,7 +2740,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 28-year-old woman learns that her mother took diethylstilbestrol to prevent a miscarriage.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Diethylstilbestrol exposure",
+      "condition_overview": "Diethylstilbestrol is a potent long acting nonsteroidal estrogen once given to prevent miscarriage. Female fetuses exposed in utero have a higher risk of reproductive tract cancers, which is why the drug is of historical interest."
     },
     {
       "stem": "What should she be told?",
@@ -2649,7 +2784,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 24-year-old woman has used depot medroxyprogesterone for 3 years. She stops injections and hopes to conceive in the next month.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "DMPA counseling",
+      "condition_overview": "Depot medroxyprogesterone acetate is a 3 month injection that blunts GnRH and the mid cycle LH surge. It causes weight gain, irregular bleeding, delayed return of fertility and a possible osteoporosis risk beyond 2 years."
     },
     {
       "stem": "Which adverse effect should be monitored?",
@@ -2691,7 +2828,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 33-year-old woman with hereditary angioedema and recurrent airway swelling improves on high dose danazol.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Danazol adverse effects",
+      "condition_overview": "High dose danazol raises complement C1 inhibitor in hereditary angioedema, through an action that is not androgenic and needs the 17 alkyl group. The 17 alkyl group also carries the risk of cholestatic jaundice, liver toxicity and benign hepatic tumors."
     },
     {
       "stem": "How should the benefit be described?",
@@ -2729,7 +2868,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 30-year-old woman had a prior spontaneous preterm birth and is offered weekly intramuscular hydroxyprogesterone caproate from 16 weeks.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Hydroxyprogesterone caproate",
+      "condition_overview": "Hydroxyprogesterone caproate is a weekly intramuscular progestin begun at 16 to 20 weeks and continued to 36 weeks. The lecture describes a borderline effect on morbidity, and the slide annotation calls the preterm birth benefit modest and uncertain."
     },
     {
       "stem": "What is the next pharmacologic step?",
@@ -2767,7 +2908,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 9 week pregnant woman vomits daily despite smaller meals, a folate only prenatal vitamin, ginger and acupressure. She is not dehydrated.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Pharmacologic treatment of hyperemesis",
+      "condition_overview": "Dietary steps include smaller meals, a folate only supplement and ginger with acupuncture. Pharmacologic doses of pyridoxine with doxylamine are the next step, and antihistamines and dopamine antagonists are second line."
     },
     {
       "stem": "What should be given first, and why?",
@@ -2805,7 +2948,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman with hyperemesis gravidarum has lost 7 percent of her weight and has dehydration and electrolyte disturbance. She needs IV fluids with dextrose.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Thiamine before dextrose",
+      "condition_overview": "Hyperemesis is intractable vomiting with weight loss over 5 percent, dehydration and electrolyte disturbance. Severe cases need IV hydration or nutrition, with thiamine before dextrose to prevent Wernicke encephalopathy and refeeding syndrome."
     },
     {
       "stem": "Which drug targets her tumor biology?",
@@ -2843,7 +2988,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 47-year-old woman has invasive breast cancer that is HER2 amplified on FISH and estrogen receptor negative.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "HER2 directed therapy",
+      "condition_overview": "HER2 is a membrane tyrosine kinase amplified in 20 to 30 percent of invasive breast cancers and is a predictive marker. Trastuzumab blocks the HER2 receptor, whereas tamoxifen, anastrozole and fulvestrant act on the estrogen pathway, which is absent in this tumor."
     },
     {
       "stem": "Which explanation matches the lecture?",
@@ -2881,7 +3028,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 54-year-old woman takes oral conjugated estrogens. A student asks how sulfated estrogens work when swallowed.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Oral conjugated estrogens",
+      "condition_overview": "Estrone sulfate and equilin sulfate are the predominant oral hormone replacement estrogens. Gut bacteria remove the sulfate, the lower GI tract absorbs estrone and equilin, the liver inactivates most, and the effects are milder than estradiol."
     },
     {
       "stem": "What is the best advice?",
@@ -2919,7 +3068,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman with cystitis takes over the counter phenazopyridine and notices fluorescent yellow urine. Her dysuria improves and she asks to skip her antibiotic.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Phenazopyridine counseling",
+      "condition_overview": "Phenazopyridine is an over the counter urinary analgesic that modulates urinary sensory nerve activity. It relieves dysuria without treating the infection and turns urine fluorescent yellow, so the antibiotic is still required."
     },
     {
       "stem": "Why is magnesium sulfate given, and why is a second drug needed?",
@@ -2961,7 +3112,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 24-year-old woman at 37 weeks has a generalized seizure with blood pressure 176/114. The team starts IV magnesium sulfate and a separate antihypertensive.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Magnesium sulfate mechanism in eclampsia",
+      "condition_overview": "Magnesium sulfate antagonizes NMDA receptors and calcium channels, which raises the seizure threshold, and it is the first drug for an eclamptic seizure. It acts on cerebral endothelium but is not an antihypertensive, so blood pressure at this level still needs labetalol or hydralazine."
     },
     {
       "stem": "Which summary matches the lecture?",
@@ -2999,7 +3152,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A resident summarizes the MAGPIE trial of magnesium sulfate in preeclampsia for a journal club.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "MAGPIE trial results",
+      "condition_overview": "MAGPIE tested magnesium sulfate in preeclampsia. The lecture reports 58 percent fewer seizures and 33 percent fewer placental abruptions, plus 45 percent fewer maternal deaths that did not reach statistical significance."
     },
     {
       "stem": "Which statement is correct?",
@@ -3037,7 +3192,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 52-year-old woman with hot flashes wants an estrogen that avoids rapid inactivation by the liver. A friend suggests swallowing estradiol powder.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Routes of estradiol delivery",
+      "condition_overview": "17 beta estradiol is the major physiologic estrogen but the liver inactivates it quickly after oral intake. Patches avoid hepatic metabolism, creams, pessaries and rings give local effects, and micronized tablets can be given by mouth."
     },
     {
       "stem": "Which choice fits, and why?",
@@ -3075,7 +3232,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 17-year-old girl with hypogonadism needs an estrogen that can be dosed every few weeks without daily pills.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Esterified estrogens",
+      "condition_overview": "Esterified estrogens, estradiol valerate and cypionate, are given intramuscularly in an oil vehicle. The ester bond is hydrolyzed slowly in plasma, so a single injection delivers estradiol for 2 to 4 weeks, and the drugs treat hypogonadism."
     },
     {
       "stem": "Which statement is correct?",
@@ -3113,7 +3272,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A pharmacology student compares two estrogens in contraceptive pills, ethinyl estradiol and mestranol.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Mestranol as a prodrug",
+      "condition_overview": "The 17 ethinyl group lowers first pass metabolism and gives ethinyl estradiol good oral bioavailability, a half life of 13 to 27 hours and enterohepatic cycling. Mestranol is a prodrug that needs hepatic demethylation, while ethinyl estradiol activates the receptor directly."
     },
     {
       "stem": "Which property of tamoxifen makes this concerning?",
@@ -3151,7 +3312,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 63-year-old woman has taken tamoxifen for ER positive breast cancer for 7 years. She reports new postmenopausal vaginal bleeding.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Tamoxifen uterine effect",
+      "condition_overview": "Tamoxifen is a potent ER antagonist in breast but an agonist in bone and a partial agonist in the uterus. Chronic use for more than 5 years increases uterine cancer risk, so new postmenopausal bleeding should be investigated."
     },
     {
       "stem": "What else is required for the drug to be effective, and why?",
@@ -3189,7 +3352,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 41-year-old premenopausal woman with ER positive breast cancer is offered letrozole.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Aromatase inhibitor in premenopausal women",
+      "condition_overview": "In premenopausal women the ovaries and placenta are the major source of androgen precursor and aromatase. A GnRH analog is therefore required to suppress LH and FSH for an aromatase inhibitor to be effective, unlike in postmenopausal women."
     },
     {
       "stem": "Which adverse effects does the lecture list for the combined regimen?",
@@ -3227,7 +3392,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 54-year-old woman starts an oral estrogen with progesterone for hot flashes. The lecturer compares the regimen with oral contraceptives.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Shared adverse effects of hormone therapy and contraceptives",
+      "condition_overview": "Oral and patch estrogen with progesterone treats hot flashes, vaginal atrophy, mood and osteoporosis risk. Its side effects are nausea and vomiting, breast tenderness, weight changes and deep vein thrombosis, similar to oral contraceptives."
     },
     {
       "stem": "Which drug and effect fit?",
@@ -3265,7 +3432,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 38-year-old man with advanced AIDS has lost 12 kg and has poor appetite. His physician considers a 21 carbon progestin.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Megestrol acetate",
+      "condition_overview": "Three 21 carbon progestins are taught with different uses. Megestrol acetate in large oral doses increases appetite and weight in patients with AIDS, while the depot and caproate drugs serve contraception and preterm birth prevention."
     },
     {
       "stem": "What is the first step in management?",
@@ -3303,7 +3472,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 74-year-old man with BPH takes oxybutynin for urgency and presents with a distended bladder and dribbling.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Anticholinergic induced retention",
+      "condition_overview": "Oxybutynin blocks M3 receptors and reduces involuntary detrusor contractions, so it can cause urinary retention. In a man with BPH who retains urine, stopping anticholinergic drugs is the first step."
     },
     {
       "stem": "Which choice fits, and what adverse effect should he expect?",
@@ -3341,7 +3512,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 63-year-old man has BPH with weak stream and stage 2 hypertension. His physician wants one alpha blocker that helps both conditions.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Alpha blockers with antihypertensive effect",
+      "condition_overview": "Alpha 1 receptors in the prostatic urethra and bladder neck mediate smooth muscle contraction, and alpha blockers open the outlet without shrinking the gland. Terazosin and doxazosin are also antihypertensives, and the side effects are orthostatic hypotension and retrograde ejaculation."
     },
     {
       "stem": "Which pathway is correct?",
@@ -3379,7 +3552,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A student asks how alpha 1 receptor activation in prostatic smooth muscle leads to contraction, and how tamsulosin interrupts it.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Alpha 1 signaling in the prostate",
+      "condition_overview": "Alpha 1 receptors couple to Gq, which activates phospholipase C and generates IP3, raising intracellular calcium and contracting smooth muscle. Tamsulosin, an alpha 1A and 1D antagonist, blocks this at the receptor, relaxing the prostate and bladder outlet within days."
     },
     {
       "stem": "Which description is correct?",
@@ -3421,7 +3596,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A pharmacology student explains how oxybutynin reduces involuntary bladder contractions.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "M3 receptor signaling and antimuscarinics",
+      "condition_overview": "Antimuscarinics for urge incontinence are somewhat selective antagonists at excitatory M3 receptors, which couple to IP3 and diacylglycerol. Blocking them lowers calcium release and PKC activation, so involuntary detrusor contractions fall, with dry mouth and constipation as effects at other muscarinic receptors."
     },
     {
       "stem": "What best explains the fall?",
@@ -3459,7 +3636,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 71-year-old man with metastatic prostate cancer on bicalutamide and a GnRH analog has rising PSA and progressing disease. His oncologist stops the bicalutamide, and a month later the PSA falls.",
-      "study_skill": "interpretation"
+      "study_skill": "interpretation",
+      "condition_name": "Antiandrogen withdrawal",
+      "condition_overview": "The drug has no agonist activity at the normal androgen receptor. Resistance can arise from mutation of the receptor so the antagonist acts as an agonist, and discontinuing it may be associated with a fall in PSA and in disease progression."
     },
     {
       "stem": "Which statement is correct?",
@@ -3497,7 +3676,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman with hirsutism wants an antiandrogen that also suppresses gonadotropins through a progestational effect. A colleague suggests cyproterone acetate and spironolactone.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Cyproterone acetate",
+      "condition_overview": "Spironolactone has weak androgen receptor antagonist activity and is useful for hirsutism in women. Cyproterone acetate is a steroidal AR antagonist with orphan drug status in the US and also has progestational activity that lowers LH and FSH."
     },
     {
       "stem": "Which explanation fits the lecture?",
@@ -3535,7 +3716,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 30-year-old man asks why a drug used for BPH also helps male pattern baldness.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Finasteride in male pattern baldness",
+      "condition_overview": "Finasteride and dutasteride inhibit 5 alpha reductase, which converts testosterone to dihydrotestosterone. DHT is a more potent receptor agonist and is required for full androgen effects in some tissues, so finasteride is also used for male pattern baldness, with about 2 percent sexual dysfunction."
     },
     {
       "stem": "How does the drug slow her puberty?",
@@ -3573,7 +3756,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 7-year-old girl has breast development and rapid growth from early activation of the hypothalamic pituitary gonadal axis. Her physician starts a continuous GnRH agonist.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "GnRH agonists in central precocious puberty",
+      "condition_overview": "Pulsatile GnRH drives LH and FSH, and continuous exposure to a GnRH agonist suppresses them through receptor downregulation and desensitization. The same principle treats central precocious puberty by lowering sex steroids, which slows or halts pubertal progression."
     },
     {
       "stem": "What does the SERM component contribute?",
@@ -3611,7 +3796,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 53-year-old woman with a uterus has vasomotor symptoms and does not want a progestin. Her physician describes a single oral tablet that combines conjugated estrogens with a third generation SERM.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Bazedoxifene with conjugated estrogens",
+      "condition_overview": "Bazedoxifene is a third generation SERM given in one oral tablet with conjugated estrogens. The conjugated estrogens relieve vasomotor symptoms while bazedoxifene prevents endometrial hyperplasia, so a progestin is not needed, and VTE risk is increased like other SERMs."
     },
     {
       "stem": "Which description of ulipristal fits the lecture?",
@@ -3649,7 +3836,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 26-year-old woman presents 4 days after unprotected intercourse and asks for emergency contraception. The physician considers a selective progesterone receptor modulator.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Ulipristal acetate emergency contraception",
+      "condition_overview": "Ulipristal acetate is a prescription selective progesterone receptor modulator with agonist and antagonist effects. It prevents ovulation and impairs implantation, is about 60 percent effective when begun within 120 hours, and can cause headache, nausea and dysmenorrhea."
     },
     {
       "stem": "Which statement matches the lecture?",
@@ -3687,7 +3876,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A student reviews norethindrone, the progestin in the daily minipill and in many combination pills.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Features of 19-nortestosterone progestins",
+      "condition_overview": "Norethindrone is a 19 nortestosterone progestin used in combination pills and the daily progestin only minipill. Its 17 ethinyl group gives good oral bioavailability, and it strongly inhibits LH and FSH with weak androgen and antiestrogen effects and little anti-aldosterone activity."
     },
     {
       "stem": "Which statement is correct?",
@@ -3725,7 +3916,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "After mifepristone, a patient has not yet passed the embryo. A resident asks which prostaglandin options the lecture lists.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Prostaglandin partner drugs",
+      "condition_overview": "Mifepristone sensitizes the uterus by blocking progesterone. Misoprostol 400 micrograms orally stimulates contractions to expel the embryo, and dinoprostone (PGE2) 1 mg vaginally could also be used."
     },
     {
       "stem": "Which statement matches R20?",
@@ -3767,7 +3960,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 22-year-old woman presents 2 days after unprotected sex. The clinic offers a single-agent progestin emergency contraceptive.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Levonorgestrel emergency contraception",
+      "condition_overview": "Levonorgestrel is a 19 nortestosterone progestin. R20 teaches Plan B as levonorgestrel alone and Preven as levonorgestrel plus ethinyl estradiol, both about 80 percent effective within 72 hours, while ulipristal covers 120 hours."
     }
   ]
 }

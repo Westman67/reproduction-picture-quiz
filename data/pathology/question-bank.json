@@ -1,7 +1,6 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "option-feedback-1",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -25503,9 +25502,9 @@
       "stem": "Which statement about the specimen in B is correct?",
       "options": [
         "Ectopic tissue on the ovary forms endometriomas filled with old blood",
-        "Two of three elements are needed microscopically: endometrial glands, stroma, and hemosiderin-laden macrophages",
-        "It enlarges the uterus symmetrically with a thickened trabeculated wall and thickens the junctional zone on MRI",
-        "Catamenial thoracic or bladder symptoms suggest distant implants"
+        "Two of three elements are needed: endometrial glands, stroma, or hemosiderin",
+        "It enlarges the uterus symmetrically with a thickened junctional zone on MRI",
+        "Catamenial thoracic or bladder symptoms suggest distant endometrial implants"
       ],
       "correct_index": 2,
       "explanation": "Step 1. B shows a pale cut wall with many small dark spots through its thickness, adenomyosis. A shows scattered reddish and dark foci on a pale surface, endometriosis. Step 2. Adenomyosis enlarges the uterus symmetrically with a thickened, trabeculated wall, causes heavy painful menses, and thickens the junctional zone on MRI.",
@@ -25940,7 +25939,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 22-year-old woman with a family history of venous clots asks about a combined oral contraceptive. Genetic testing shows she carries a clotting factor variant. The graph shows deep vein thrombosis rates in four groups of women.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "DVT Rate with Oral Contraceptives and Factor V Leiden",
+      "condition_overview": "The graph compares thrombosis rates with neither factor, the pill alone, the factor V Leiden variant alone, and both. The lecture states that estrogen containing contraceptives raise VTE risk and synergize with factor V Leiden, and that carriers of this variant are at greatest risk, so progestin only options are preferred when estrogen is contraindicated."
     },
     {
       "stem": "Which choice is most appropriate going forward, and why?",
@@ -25987,7 +25988,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 24-year-old woman develops a deep vein thrombosis three months after starting a combined oral contraceptive. Testing shows a gene variant that makes the clotting factors in the diagram resistant to inactivation by activated protein C. She still wants hormonal contraception.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Activated Protein C Pathway and Factor V Leiden",
+      "condition_overview": "The diagram shows the protein C pathway, and factor V Leiden is a variant that produces resistance to activated protein C. Estrogen containing contraceptives synergize with this variant to raise VTE risk, so a progestin only method, which suits women in whom estrogen is contraindicated, is the better choice."
     },
     {
       "stem": "Which feature of the graph does the pill primarily prevent, and how?",
@@ -26034,7 +26037,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 26-year-old woman takes a combination oral contraceptive. The graph shows LH, FSH, estradiol and GnRH pulses across a normal untreated cycle.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "LH FSH Estradiol and GnRH Pulses",
+      "condition_overview": "The graph shows the mid cycle estradiol rise, the LH surge and the FSH pattern over the GnRH pulses. Combination pills act mainly by inhibiting ovulation. Combination contraceptives disrupt the mid cycle estradiol positive feedback circuit, which prevents ovulation."
     },
     {
       "stem": "In her, where do the androgen precursor and the aromatase enzyme come from, and what does that mean for therapy?",
@@ -26081,7 +26086,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 64-year-old postmenopausal woman has ER positive breast cancer. Her oncologist prescribes one of the oral drugs shown, which blocks the reaction in the diagram.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Aromatase Inhibitors Mechanism",
+      "condition_overview": "The diagram shows letrozole and exemestane blocking aromatase, which converts testosterone or androstenedione to estradiol or estrone. After menopause the adrenal supplies the androgen precursor and adipose tissue supplies aromatase."
     },
     {
       "stem": "Why is the GnRH analog added to these oral drugs?",
@@ -26132,7 +26139,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 68-year-old man with metastatic prostate cancer takes the oral drugs shown, together with a GnRH analog.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "The antiandrogens bicalutamide, nilutamide and",
+      "condition_overview": "The structures shown are bicalutamide and enzalutamide, which are androgen receptor antagonists. They have no agonist activity and cause loss of androgen negative feedback, so LH, FSH and testosterone rise."
     },
     {
       "stem": "Which panel matches her pattern, and what does the lecture say about drug therapy?",
@@ -26183,7 +26192,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 45-year-old woman leaks urine when she coughs or lifts her child and has no urge to void beforehand. She asks for a pill to fix this.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Types of Urinary Incontinence",
+      "condition_overview": "Leakage with high intra-abdominal pressure from coughing and lifting matches the left panel, where the arrows press down on the bladder, which is stress incontinence from an underactive urethral sphincter. No drug is FDA approved for stress incontinence."
     },
     {
       "stem": "Which therapy best fits her symptoms?",
@@ -26230,7 +26241,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 56-year-old woman, five years past menopause, reports vaginal dryness and painful intercourse. She has no hot flashes. The right panel shows her vaginal epithelium compared with a premenopausal sample.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Vaginal Epithelium Premenopausal vs Postmenopausal",
+      "condition_overview": "The picture contrasts a well estrogenized premenopausal epithelium with a thin low estrogen postmenopausal epithelium. Vaginal dryness and dyspareunia are progressive and are treated with lubricants and local vaginal estrogen, and guidelines advise local therapy when symptoms are only vaginal."
     },
     {
       "stem": "Which endocrine therapy is first line for this tumor, and why?",
@@ -26277,7 +26290,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 59-year-old postmenopausal woman has an invasive breast carcinoma. The immunostain shown has strong brown nuclear signal in most tumor cells.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "ER Alpha Nuclear Immunostaining",
+      "condition_overview": "Strong nuclear ER alpha staining marks an ER positive tumor that predicts benefit from endocrine therapy. For postmenopausal women with ER positive breast cancer, aromatase inhibitors are first line, more effective than tamoxifen, and do not raise VTE or endometrial cancer risk."
     },
     {
       "stem": "Which adjuvant regimen applies, and what is the reasoning?",
@@ -26324,15 +26339,17 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 17-year-old girl has a large unilateral ovarian mass. After salpingo-oophorectomy, the tumor shows the structures in the micrograph with central vessels surrounded by tumor cells.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Endodermal Sinus Tumor Schiller-Duval Bodies",
+      "condition_overview": "Central vessels surrounded by tumor cells are the Schiller-Duval bodies of an endodermal sinus (yolk sac) tumor, a malignant germ cell tumor. These tumors are very chemosensitive and are treated with BEP, whereas advanced epithelial ovarian cancer gets carboplatin and paclitaxel."
     },
     {
       "stem": "Which option would best lower her risk of pregnancy, and why?",
       "options": [
-        "A progestin only mini pill, because its initial failure rate is well below that of the combination pill",
-        "A male condom, because its initial failure rate is lower than the failure rate of the daily pill on the chart",
-        "A long acting reversible method such as an IUD or implant, because its initial failure rate is below 1 percent compared with about 9 percent for the pill",
-        "A lower dose combination pill, because the first year failure rate of the pill is mostly explained by the estrogen dose"
+        "Progestin-only mini-pill, because its initial failure rate is well below the pill",
+        "Male condom, because its initial failure rate is lower than the daily pill rate",
+        "Long-acting IUD or implant, because initial failure is <1% vs ~9% for the pill",
+        "Lower-dose combination pill, because first-year pill failure tracks estrogen dose"
       ],
       "correct_index": 2,
       "explanation": "Step 1. The chart gives initial failure rates of about 9 percent for the pill, about 18 percent for the male condom, and 0.8 to 0.05 percent for long acting reversible contraception. Step 2. Because she misses daily pills, a method that does not depend on daily adherence, such as an IUD or implant, reduces her risk the most.",
@@ -26371,7 +26388,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 24-year-old woman often misses her daily pill. The chart shows how common each method is, with initial failure rates for the pill, the male condom and long acting reversible contraception.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Contraceptive Methods with Initial Failure Rates",
+      "condition_overview": "The chart gives initial failure rates of about 9 percent for the pill, about 18 percent for the male condom, and 0.8 to 0.05 percent for long acting reversible contraception. Because she misses daily pills, a method that does not depend on daily adherence, such as an IUD or implant, reduces her risk the most."
     },
     {
       "stem": "In which woman should this drug be avoided?",
@@ -26418,7 +26437,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "The diagram shows how a first line IV drug for severe hypertension in pregnancy lowers blood pressure through two receptor actions. A resident considers it for four women.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Mechanism of Action Flowchart",
+      "condition_overview": "The left arm blocks alpha 1 receptors for vasodilation and the right arm blocks beta receptors to protect the heart from reflex sympathetic drive. The beta blocking action also causes bronchoconstriction, so the drug is avoided in asthma, preexisting myocardial disease, decompensated heart function, heart block and bradycardia."
     },
     {
       "stem": "According to the protocol, what is the next step?",
@@ -26465,7 +26486,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A woman at 36 weeks has pressure above threshold. She receives labetalol 20 mg, 40 mg and 80 mg IV over 2 minutes with rechecks every 10 minutes, then a repeat 80 mg dose for a total of 220 mg. Pressure is still above threshold.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "ACOG Protocol for Labetalol Treatment - Algorithm",
+      "condition_overview": "The protocol gives 20, 40 and 80 mg IV with rechecks every 10 minutes and allows a repeat 80 mg dose to a maximum of 220 mg. When pressure stays above threshold after the maximum, it switches to hydralazine 10 mg over 2 minutes."
     },
     {
       "stem": "Which statement about the sulfated structures is correct?",
@@ -26512,7 +26535,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "The structures show an estrogen and two sulfated estrogens used for oral hormone replacement in a 55-year-old postmenopausal woman. The labels were removed.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Estrone and Sulfated Estrogens Structures",
+      "condition_overview": "The middle and right structures carry a charged sulfate group on the A ring. Microbial flora hydrolyze it in the gut, the lower GI tract absorbs estrone and equilin, the liver inactivates most of them, and effects are milder than estradiol."
     },
     {
       "stem": "Which structure fits that use, and what identifies it?",
@@ -26559,7 +26584,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "Four 21 carbon progestin structures are shown with their labels removed. A woman with a prior spontaneous preterm birth needs a weekly intramuscular progestin begun at 16 to 20 weeks.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "21-Carbon Progestin Structures",
+      "condition_overview": "The structures are progesterone, hydroxyprogesterone caproate, medroxyprogesterone acetate and megestrol acetate. The long caproate ester on C17 marks hydroxyprogesterone caproate, given intramuscularly once a week from 16 to 20 weeks to 36 weeks in women with a prior spontaneous preterm birth."
     },
     {
       "stem": "What is the clinical consequence of in utero exposure to this drug?",
@@ -26606,7 +26633,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "The structure shown is a potent nonsteroidal estrogen with prolonged effects that was once given to pregnant women to prevent miscarriage.",
-      "study_skill": "management"
+      "study_skill": "management",
+      "condition_name": "Nonsteroidal Estrogen Structure",
+      "condition_overview": "The two phenol rings and absent steroid nucleus identify a nonsteroidal estrogen. Female fetuses exposed in utero have a higher risk of reproductive tract cancers, which is why the drug is mainly of historical interest."
     },
     {
       "stem": "Which shared structural feature explains their oral activity and liver toxicity?",
@@ -26653,7 +26682,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "Two oral androgens are shown with their names removed. Both are given by mouth, and high doses of such drugs carry a risk of hepatotoxicity not seen with testosterone.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Oral Androgens Structures",
+      "condition_overview": "The structures are danazol and fluoxymesterone, and both carry an alkyl group on C17. This 17 alkyl substitution impairs hepatic metabolism so oral doses have systemic effects, and high doses risk cholestatic jaundice, liver toxicity and benign hepatic tumors."
     },
     {
       "stem": "Which effect on her circulation follows?",
@@ -26700,7 +26731,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "The picture shows ion channels in a vascular smooth muscle membrane. A pregnant woman with severe hypertension takes a drug that places the blocking symbol on the calcium channel.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Calcium Channel Blocker Membrane Diagram",
+      "condition_overview": "The symbol blocks the calcium channel in vascular smooth muscle. Blocking calcium entry decreases or prevents contraction, so vessels relax and total peripheral resistance falls, which is the basis of nifedipine in hypertension."
     },
     {
       "stem": "Which effect does the diagram predict, and what is a limit of the drug?",
@@ -26747,7 +26780,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 62-year-old man with BPH and a weak urinary stream takes the drug whose structure and action are shown. The drug names were removed.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "5 Alpha Reductase Inhibition",
+      "condition_overview": "The red arrow inhibits 5 alpha reductase, which converts testosterone to dihydrotestosterone. DHT is a more potent agonist at the androgen receptor, so lowering it reduces prostate hypertrophy and urinary obstruction over weeks, and the drug is not useful for prostate cancer treatment."
     }
   ],
   "retired_questions": [

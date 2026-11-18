@@ -1,7 +1,6 @@
 {
   "schema_version": 2,
   "title": "Reproduction Picture Quiz",
-  "bank_version": "option-feedback-1",
   "release_status": "Expanded lecture practice with image-based explanations.",
   "questions": [
     {
@@ -3171,7 +3170,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "A 27-year-old man injects testosterone for muscle gain. The diagram shows the hypothalamic pituitary testicular axis with feedback arrows from testosterone.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "HPG Axis Feedback with Exogenous Testosterone",
+      "condition_overview": "The diagram shows testosterone feeding back on the hypothalamus and pituitary. Exogenous testosterone suppresses GnRH, LH and FSH, so endogenous testicular testosterone and sperm production fall while androgenic effects on target tissues continue."
     },
     {
       "stem": "How do her low estrogen levels increase bone loss, and which drug targets the signal in the box that carries RANK ligand?",
@@ -3218,7 +3219,9 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": "The diagram shows signals that drive osteoclast formation at a bone surface, with an arrow showing estrogen acting on the lining cells. A 58-year-old woman is postmenopausal and has osteoporosis.",
-      "study_skill": "mechanism"
+      "study_skill": "mechanism",
+      "condition_name": "Estrogen and Bone Remodeling Diagram",
+      "condition_overview": "The diagram shows osteoclast precursors turning into resorbing osteoclasts under signals that include IL-6 and RANK ligand, with estrogen acting on the lining cells. Estrogen loss increases bone resorption."
     }
   ],
   "retired_questions": [
