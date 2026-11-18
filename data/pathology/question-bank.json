@@ -26637,6 +26637,226 @@
       "reasoning_order": "second",
       "condition_name": "Indifferent stage external genitalia",
       "condition_overview": "In 46,XY embryos, DHT converts the genital tubercle into the glans/corpora of the penis, the urethral folds into the ventral penile urethra, and the genital swellings into the scrotum."
+    },
+    {
+      "question_id": "q-r31-lynch-vs-brca-endometrial",
+      "source_id": "s-6229b0b5f591be12a01b",
+      "source_group_id": "g-1a831eabe1e4e9c7dc81",
+      "asset_id": "a-600efff42c401116b8920066b51be797a3f7e7f4975f4bcec610c9e7a1562278",
+      "variant_id": "v-721ee7b5dd10d75b5f54",
+      "image": "assets/display/d826fb7da7833b4891ff33746cb65b7f30b4d8335cfccf35d71a85037d29e9fa.webp",
+      "zoom_image": "assets/zoom/96943e1c556e01f6e9e3294748408aff3ca5d22f080dab392ba321c352da7721.webp",
+      "original_image": "assets/zoom/8407169aadb3f95646727268ae0d488c9b21cc3f1ad092aa2c6daac76a91cf28.webp",
+      "original_filename": "R31/Endometrial Cancer Ultrasound - Echo.png + Endometrial Hyperplasia Ultrasound - Echo.png",
+      "collection": "R27",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R27 Clinical GYN Oncology Part I RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 38
+        }
+      ],
+      "category": "Echo",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "case_context": "A 48-year-old woman with abnormal uterine bleeding undergoes the pelvic ultrasound shown on the left, and endometrial biopsy confirms endometrioid adenocarcinoma. Her family history includes colon cancer in her father and uncle.",
+      "stem": "Which hereditary syndrome and molecular repair defect most strongly predispose to her sentinel gynecologic malignancy, and how does its breast cancer risk compare with BRCA1/2?",
+      "visual_target": "Which hereditary syndrome and molecular repair defect most strongly predispose to her sentinel gynecologic malignancy, and how does its breast cancer risk compare with BRCA1/2?",
+      "tested_concept": "Lynch syndrome versus BRCA1/2 in hereditary endometrial and ovarian cancer",
+      "options": [
+        "Lynch syndrome from mismatch repair defects (MLH1, MSH2, MSH6, PMS2, EPCAM), with up to 60% endometrial cancer risk and no clear breast risk",
+        "BRCA1 on chromosome 17q from mismatch repair loss, which causes colon and endometrial cancer as the sentinel tumor without elevating ovarian cancer risk",
+        "Lynch syndrome from homologous recombination double-strand break defects, which raises breast cancer risk to 60 to 70% while sparing the endometrium and colon",
+        "BRCA2 on chromosome 13q from microsatellite instability, which requires universal colonoscopic screening starting at age 20 and endometrial biopsy at age 30"
+      ],
+      "choice_rationales": [
+        "Lynch syndrome is an autosomal dominant mismatch repair defect (MLH1, MSH2, MSH6, PMS2, EPCAM) that raises lifetime endometrial cancer risk up to about 60% (mean age 46 to 54, often the sentinel cancer) plus colon and ovarian (10 to 20%) cancer, with no clearly increased breast cancer risk.",
+        "BRCA1 (on 17q) and BRCA2 (on 13q) repair double-strand DNA breaks via homologous recombination and primarily raise breast (60 to 70%) and ovarian cancer risk.",
+        "Homologous recombination defects and a 60 to 70% breast cancer risk characterize BRCA1/2 rather than Lynch syndrome.",
+        "Colonoscopy from age 20 to 25 and endometrial biopsy from age 30 are the prevention rules taught for Lynch syndrome, not BRCA2."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Thickened endometrium on ultrasound requires tissue biopsy because hyperplasia and carcinoma both thicken the lining. Step 2. In a patient with endometrial carcinoma and a family history of colon cancer, Lynch syndrome (autosomal dominant mismatch repair mutation in MLH1, MSH2, MSH6, PMS2, or EPCAM) confers up to a 60% lifetime endometrial cancer risk (versus about 3% in the general population), and endometrial cancer is often the sentinel malignancy. Step 3. Universal tumor MMR/MSI testing triages for Lynch syndrome (though most endometrial cancers with MMR loss are sporadic, so the tumor is tested first), and unlike BRCA1 (17q) and BRCA2 (13q), Lynch syndrome carries no clearly increased breast cancer risk.",
+      "visual_clues": [
+        "The left transvaginal ultrasound panel shows a thickened echogenic endometrial stripe requiring tissue biopsy to distinguish endometrial carcinoma from hyperplasia."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture pages and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "condition_name": "Hereditary Gynecologic Cancer: Lynch Syndrome vs BRCA",
+      "condition_overview": "Lynch syndrome (MMR genes MLH1, MSH2, MSH6, PMS2, EPCAM) raises endometrial (up to 60%, often sentinel) and colon cancer risk with no clear breast risk, whereas BRCA1 (17q) and BRCA2 (13q) impair homologous recombination and raise breast (60-70%) and ovarian risk."
+    },
+    {
+      "question_id": "q-r31-birads-breast-screening",
+      "source_id": "s-a3e5ffecf8d966d6a603",
+      "source_group_id": "g-36ad9ff9b6deb214157a",
+      "asset_id": "a-a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248",
+      "variant_id": "v-d273903a488da2ef58b3",
+      "image": "assets/display/a56f4f8bd768124f450794fd01b2c09131d7c6d5ff399c75a2cea24e34899248.webp",
+      "zoom_image": "assets/zoom/246ab7fdd81019a4248fe9e4354b2f965afbed8ded7e86209cb69b106381a610.webp",
+      "original_image": "assets/zoom/246ab7fdd81019a4248fe9e4354b2f965afbed8ded7e86209cb69b106381a610.webp",
+      "original_filename": "R31/DCIS Mammogram - Radiograph.png + Invasive Carcinoma Mammogram - Radiograph.png",
+      "collection": "R26",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R26 Clinical Breast Diseases - A Surgeon Perspective I RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "R26 Clinical Breast Diseases - A Surgeon Perspective I RLS.pdf",
+          "page": 40
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 7
+        }
+      ],
+      "category": "Radiograph",
+      "question_type": "Visual reasoning",
+      "study_skill": "management",
+      "case_context": "A 52-year-old woman undergoes routine CC and MLO screening mammography and is found to have the spiculated, crab-like mass shown in Patient 2.",
+      "stem": "Which BI-RADS category and diagnostic tissue step match a finding that is highly suggestive of malignancy (over 95% likelihood), and why is ultrasound not used as the primary population screening test?",
+      "visual_target": "Which BI-RADS category and diagnostic tissue step match a finding that is highly suggestive of malignancy (over 95% likelihood), and why is ultrasound not used as the primary population screening test?",
+      "tested_concept": "BI-RADS categories, core needle biopsy, and breast imaging modalities",
+      "options": [
+        "BI-RADS 5 with core needle biopsy for tissue diagnosis, whereas ultrasound is an operator-dependent adjunct for solid versus cystic lesions",
+        "BI-RADS 3 with fine-needle aspiration cytology for definitive invasion status, whereas ultrasound is avoided because it exposes dense breasts to ionizing radiation",
+        "BI-RADS 6 before any biopsy is performed, whereas breast MRI is the primary screening tool for all average-risk women starting at age 40",
+        "BI-RADS 0 indicating benign calcifications requiring routine annual screening, whereas 3D tomosynthesis replaces core needle biopsy for tissue confirmation"
+      ],
+      "choice_rationales": [
+        "BI-RADS 5 denotes a lesion highly suggestive of malignancy (>95%) and BI-RADS 4 denotes a suspicious lesion requiring biopsy; core needle biopsy is the standard of care for tissue diagnosis, while ultrasound is operator dependent and used as a targeted adjunct rather than primary screening.",
+        "BI-RADS 3 means probably benign (short-interval follow-up), core needle biopsy is preferred over cytology because histology assesses invasion and receptors, and ultrasound uses sound waves rather than ionizing radiation.",
+        "BI-RADS 6 is reserved for biopsy-proven malignancy, and MRI is an expensive adjunct used for BRCA carriers, dense breasts, or extent of disease rather than routine average-risk screening.",
+        "BI-RADS 0 means incomplete (needs additional imaging evaluation), BI-RADS 1 and 2 are negative or benign, and 3D tomosynthesis improves mammographic detection but does not replace biopsy."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Mammography (CC and MLO views, enhanced by 3D tomosynthesis) is the primary breast cancer screening modality (~20% mortality reduction, starting at age 40 per ACR/SBI guidelines), whereas ultrasound is operator dependent and serves as a targeted adjunct to distinguish solid from cystic lesions. Step 2. BI-RADS standardizes reporting: 0 is incomplete, 1 and 2 are negative/benign, 3 is probably benign (follow-up), 4 is suspicious (biopsy), 5 is highly suggestive of malignancy (>95%, such as a classic spiculated crab-like mass), and 6 is biopsy-proven malignancy. Step 3. Core needle biopsy is the standard of care to obtain tissue histology before surgical planning.",
+      "visual_clues": [
+        "Patient 1 shows pleomorphic ductal calcifications of DCIS and Patient 2 shows a hyperdense mass with radiating spiculated margins characteristic of invasive carcinoma."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture pages and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "condition_name": "Breast Cancer Screening and BI-RADS Classification",
+      "condition_overview": "Mammography (CC and MLO views, plus 3D tomosynthesis) is the screening mainstay, ultrasound is an operator-dependent adjunct for solid vs cystic lesions, and MRI is used for high-risk/BRCA patients. BI-RADS 4 (suspicious) and 5 (>95% highly suggestive) require core needle biopsy."
+    },
+    {
+      "question_id": "q-r8-alternative-androgen-cah",
+      "source_id": "s-faf850beb6f111679998",
+      "source_group_id": "g-4bfe684e3635bdad76c5",
+      "asset_id": "a-9fccbae6a0b69295b1d39c760a7268a76d5d761297c5f089618274e7125535e0",
+      "variant_id": "v-2811c288d1985ed0e9fe",
+      "image": "assets/display/9fccbae6a0b69295b1d39c760a7268a76d5d761297c5f089618274e7125535e0.webp",
+      "zoom_image": "assets/zoom/9a7b29e8c3d70d0d6f4d1ad8bb5e88e5e22b945e759fe3a6ed2c5a84591c62b4.webp",
+      "original_image": "assets/zoom/9a7b29e8c3d70d0d6f4d1ad8bb5e88e5e22b945e759fe3a6ed2c5a84591c62b4.webp",
+      "original_filename": "R8/Male vs Female External Genitalia Development - EM.png",
+      "collection": "R8",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R8 GU:Gyn:Breast Anatomy and Embryology Review Urogenital System.pdf",
+          "page": 25
+        }
+      ],
+      "category": "EM",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "case_context": "A 46,XX fetus with ovaries and no testes develops virilized external genitalia shifting toward the upper (male) panel during weeks 7 to 12 of gestation.",
+      "stem": "What hormonal mechanism normally protects a 46,XX fetus from adrenal dihydrotestosterone (DHT) during weeks 7 to 12, and why does cytochrome P450 oxidoreductase deficiency (PORD) cause both 46,XX and 46,XY disorders of sex development?",
+      "visual_target": "What hormonal mechanism normally protects a 46,XX fetus from adrenal dihydrotestosterone (DHT) during weeks 7 to 12, and why does cytochrome P450 oxidoreductase deficiency (PORD) cause both 46,XX and 46,XY disorders of sex development?",
+      "tested_concept": "Alternative androgen pathway, 21-hydroxylase CAH, and PORD in 46,XX and 46,XY DSD",
+      "options": [
+        "Fetal cortisol suppresses ACTH; in CAH or PORD, 17OHP drives alternative DHT to virilize XX fetuses, but cannot overcome low testicular testosterone in XY PORD",
+        "Maternal estriol blocks 5alpha-reductase in the genital tubercle; in PORD, excess placental aromatase converts maternal testosterone into DHT in XX fetuses while destroying Mullerian ducts",
+        "Fetal aldosterone inhibits adrenal 17alpha-hydroxylase; in 17alpha-hydroxylase deficiency, massive 17-hydroxyprogesterone accumulation virilizes XX fetuses while causing precocious puberty in XY fetuses",
+        "Fetal anti-Mullerian hormone suppresses adrenal androgen synthesis; in 21-hydroxylase deficiency, loss of AMH causes persistence of Wolffian ducts in XX fetuses and complete labile fusion failure"
+      ],
+      "choice_rationales": [
+        "Fetal cortisol normally feeds back on the pituitary glucocorticoid receptor to suppress ACTH and keep the adrenal alternative DHT pathway quiet in weeks 7 to 12; in 21-hydroxylase deficiency (90% of CAH) or PORD, low cortisol and high ACTH build up 17OHP, driving alternative DHT synthesis that virilizes 46,XX genitalia, whereas in 46,XY PORD the alternative pathway cannot make enough androgen to overcome the classical testicular testosterone deficiency.",
+        "Fetal cortisol feedback on pituitary ACTH (not maternal estriol inhibition of 5alpha-reductase) protects the female fetus from the ACTH-driven adrenal alternative pathway.",
+        "In 17alpha-hydroxylase deficiency, prenatal and pubertal sex steroids fall, so females lack pubertal development and 46,XY fetuses have normal-female to mildly underdeveloped external genitalia rather than excess 17OHP virilization.",
+        "AMH is secreted by Sertoli cells to regress Mullerian structures and does not regulate the ACTH-driven adrenal alternative androgen pathway."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Between weeks 7 and 12, both sexes possess an ACTH-driven adrenal alternative ('backdoor') pathway capable of synthesizing DHT without going through classical testosterone. Step 2. In a normal 46,XX fetus, fetal cortisol feeds back on the pituitary glucocorticoid receptor to keep ACTH low and protect the female external genitalia from virilization. Step 3. In congenital adrenal hyperplasia (which causes about 60% of DSDs, with 21-hydroxylase deficiency accounting for 90% of CAH), impaired cortisol synthesis raises ACTH and accumulates 17-hydroxyprogesterone (17OHP), driving adrenal DHT synthesis and masculinizing the female external genitalia. Step 4. In PORD, 17OHP accumulation drives the alternative pathway enough to virilize a 46,XX fetus, but cannot generate enough androgen to overcome the block in classical testicular and adrenal steroidogenesis, resulting in both 46,XX DSD and undervirilized 46,XY DSD.",
+      "visual_clues": [
+        "The scanning electron micrographs compare androgen-driven phallic elongation and labioscrotal/urethral fold fusion in the male pathway with the un-fused female pathway."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture pages and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "condition_name": "Alternative Androgen Pathway and Congenital Adrenal Hyperplasia",
+      "condition_overview": "Fetal cortisol normally suppresses pituitary ACTH to prevent adrenal alternative pathway DHT synthesis in weeks 7 to 12. In 21-hydroxylase deficiency (90% of CAH) and PORD, 17OHP accumulates and drives DHT virilization in 46,XX fetuses, while PORD also causes 46,XY DSD by impairing classical testosterone synthesis."
+    },
+    {
+      "question_id": "q-r17-placental-hematogenous-organisms",
+      "source_id": "s-44d3e6f2bcc7a5b52ad4",
+      "source_group_id": "g-0bacca23e4e63e06ef55",
+      "asset_id": "a-34e3fe1e710a12d8b3557bd3b0ed997a99149eef83b05912aaba65587b5d004d",
+      "variant_id": "v-5de5cf511f611cc3cff8",
+      "image": "assets/display/34e3fe1e710a12d8b3557bd3b0ed997a99149eef83b05912aaba65587b5d004d.webp",
+      "zoom_image": "assets/zoom/8724b8259ae14b2a61059ef0c791769c57dd31938b70f1b9424109ea3e07515d.webp",
+      "original_image": "assets/zoom/8724b8259ae14b2a61059ef0c791769c57dd31938b70f1b9424109ea3e07515d.webp",
+      "original_filename": "App-local PDF panels/R17-p11-xref172.png",
+      "collection": "R17",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R17 Placenta Pathology RLS.pdf",
+          "page": 9
+        },
+        {
+          "document": "R17 Placenta Pathology RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "R17 Placenta Pathology RLS.pdf",
+          "page": 11
+        }
+      ],
+      "category": "Gross",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "case_context": "The placenta shown has opaque, clouded fetal membranes from an acute placental infection.",
+      "stem": "How do the organisms that cause ascending transcervical placental infection differ from the bacterial and TORCH pathogens that reach the placenta hematogenously through maternal blood?",
+      "visual_target": "How do the organisms that cause ascending transcervical placental infection differ from the bacterial and TORCH pathogens that reach the placenta hematogenously through maternal blood?",
+      "tested_concept": "Ascending versus hematogenous placental infections (Listeria, syphilis, TORCH, GBS)",
+      "options": [
+        "Ascending is mainly bacterial (group B Strep, E. coli, Ureaplasma, Mycoplasma, Chlamydia) plus HSV/Candida; hematogenous includes Listeria, syphilis, and TORCH",
+        "Ascending infection is caused almost exclusively by Toxoplasma gondii and rubella virus, whereas group B Streptococcus and Ureaplasma reach the chorionic villi by bacteremia",
+        "Hematogenous infection remains confined to the fetal membranes without entering chorionic villi, whereas Listeria monocytogenes and Treponema pallidum are non-invasive vaginal commensals",
+        "Infections before 32 weeks protect against preterm premature rupture of membranes, whereas tuberculosis bacteria are small enough to cross the placental barrier in all trimesters"
+      ],
+      "choice_rationales": [
+        "Ascending transcervical infections are predominantly bacterial (group B Streptococcus, E. coli, S. aureus, Pseudomonas, Mycoplasma, Ureaplasma, Chlamydia) along with HSV and Candida, whereas hematogenous transplacental infections include Listeria monocytogenes, Treponema pallidum, and TORCH agents (Toxoplasma, rubella, CMV, herpes).",
+        "Toxoplasma and rubella are hematogenous TORCH agents, whereas group B Streptococcus (screened in pregnancy) and Ureaplasma/Mycoplasma ascend from the lower genital tract.",
+        "Hematogenous pathogens infect the chorionic villi via maternal blood, and Listeria monocytogenes and Treponema pallidum are classic hematogenous bacterial threats to the fetus.",
+        "Placental infection before 32 weeks increases the risk of PPROM and preterm delivery, and the large bacteria of tuberculosis are taught in R5 as the classic example blocked by the placental barrier."
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Clouded, opaque placental membranes reflect acute chorioamnionitis, most commonly from ascending transcervical infection by lower genital tract bacteria (group B Streptococcus, E. coli, S. aureus, Pseudomonas, Mycoplasma, Ureaplasma, Chlamydia trachomatis) as well as HSV and Candida. Step 2. By contrast, hematogenous placental infection spreads through maternal blood into the chorionic villi and includes Listeria monocytogenes (tied to unpasteurized dairy and ready-to-eat deli meats), Treponema pallidum, and the TORCH agents (Toxoplasma, rubella, cytomegalovirus, HSV). Step 3. Placental infection before 32 weeks risks PPROM and preterm delivery, and near term it raises neonatal complications 2- to 3-fold.",
+      "visual_clues": [
+        "Gross inspection of the placenta demonstrates dull, yellow-white opaque membranes characteristic of inflammatory exudate in chorioamnionitis."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Supplied lecture pages and visible evidence on the selected image.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "condition_name": "Ascending vs Hematogenous Placental Infections",
+      "condition_overview": "Ascending placental infections (chorioamnionitis) are mainly bacterial (GBS, E. coli, Mycoplasma, Ureaplasma, Chlamydia) plus HSV and Candida. Hematogenous infections reach the villi via maternal blood and include Listeria monocytogenes, Treponema pallidum, and TORCH pathogens."
     }
   ],
   "retired_questions": [

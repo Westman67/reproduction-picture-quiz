@@ -3222,6 +3222,214 @@
       "study_skill": "mechanism",
       "condition_name": "Estrogen and Bone Remodeling Diagram",
       "condition_overview": "The diagram shows osteoclast precursors turning into resorbing osteoclasts under signals that include IL-6 and RANK ligand, with estrogen acting on the lining cells. Estrogen loss increases bone resorption."
+    },
+    {
+      "question_id": "q-r5-fetoplacental-estriol",
+      "source_id": "s-1f36b2bcb507ae62ca8f",
+      "source_group_id": "g-ea046d03e32e92dabc58",
+      "asset_id": "a-00f7338493baf5096cd9d61c1079bcee9b40f5748647ecbe986f1c430919d5c0",
+      "variant_id": "v-a5968cea4fb9839c1501",
+      "image": "assets/display/a5968cea4fb9839c150143db618ee143807f968736e3c2518148b4354e689b6e.webp",
+      "zoom_image": "assets/zoom/89ef95053782197e2d392900fad41263c0e64cae5cb33927d0b3ea240c945735.webp",
+      "original_image": "assets/zoom/06943b706ff1b692035fee5f021ade32d4195449d0e6fafeb6575ce6324e15d5.webp",
+      "original_filename": "R5/Maternal Placental Fetal Unit - Diagram.png",
+      "collection": "R5",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 19
+        },
+        {
+          "document": "R5 Physiology of Pregnancy (Part 1 & 2) RLS.pdf",
+          "page": 20
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the maternal-placental-fetal unit shown, the placenta synthesizes progesterone from maternal cholesterol on its own, yet estriol (E3) synthesis requires fetal organs. Which enzymes are absent from the placenta and supplied by the fetal adrenal gland and fetal liver?",
+      "visual_target": "In the maternal-placental-fetal unit shown, the placenta synthesizes progesterone from maternal cholesterol on its own, yet estriol (E3) synthesis requires fetal organs. Which enzymes are absent from the placenta and supplied by the fetal adrenal gland and fetal liver?",
+      "tested_concept": "Fetoplacental estriol synthesis and missing placental enzymes",
+      "options": [
+        "Placental aromatase and sulfatase are absent, so the fetal adrenal makes estradiol and the fetal liver sulfates it into estriol while bypassing placental steroidogenesis",
+        "Placental 17alpha-hydroxylase, 17,20-lyase, and 16alpha-hydroxylase are absent, so the fetal adrenal makes DHEA-S and the fetal liver 16-hydroxylates it",
+        "Placental 3beta-hydroxysteroid dehydrogenase is absent, so the fetal liver makes progesterone and the fetal adrenal converts it into estriol during the second trimester",
+        "Placental cholesterol side-chain cleavage enzyme is absent, so the maternal liver supplies DHEA-S and the fetal kidney hydroxylates it before placental sulfation"
+      ],
+      "choice_rationales": [
+        "The placenta possesses both sulfatase and aromatase, which it uses to convert 16-OH DHEA-sulfate into estriol.",
+        "The placenta lacks 17alpha-hydroxylase, 17,20-lyase, and 16alpha-hydroxylase; the fetal adrenal supplies 17alpha-hydroxylase and 17,20-lyase to make DHEA-sulfate, and the fetal liver supplies 16alpha-hydroxylase to form 16-OH DHEA-sulfate.",
+        "The placenta converts maternal cholesterol into pregnenolone and progesterone on its own without requiring the fetal liver for progesterone synthesis.",
+        "The placenta converts maternal LDL cholesterol into pregnenolone and progesterone directly, and 16alpha-hydroxylation occurs in the fetal liver rather than the kidney."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The placenta converts maternal LDL cholesterol into pregnenolone and progesterone on its own. Step 2. Because the placenta lacks 17alpha-hydroxylase, 17,20-lyase, and 16alpha-hydroxylase, it cannot synthesize estriol (E3) independently. Step 3. The fetal adrenal gland uses 17alpha-hydroxylase and 17,20-lyase to produce DHEA-sulfate, the fetal liver adds 16alpha-hydroxylase to form 16-OH DHEA-sulfate, and placental sulfatase and aromatase convert that precursor into estriol, making a high E3-to-E2 ratio an index of fetoplacental health.",
+      "visual_clues": [
+        "The diagram illustrates exchange across the maternal-placental-fetal unit connecting maternal blood, placental villi, and the fetal circulation."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Fetoplacental Estriol Synthesis",
+      "condition_overview": "The placenta makes progesterone from maternal cholesterol but lacks 17alpha-hydroxylase, 17,20-lyase, and 16alpha-hydroxylase. Fetal adrenal DHEA-S and fetal liver 16-OH DHEA-S are required for placental aromatase to produce estriol (E3)."
+    },
+    {
+      "question_id": "q-r7-bilirubin-phototherapy",
+      "source_id": "s-77f4b7dd450325f66335",
+      "source_group_id": "g-ceb1def7e17dc17633bd",
+      "asset_id": "a-3cbf2c698075511fb5ec4d6896b52ce73059df450a2afef50bd66f7cb9455e05",
+      "variant_id": "v-0c16c98020ae5baf6cd0",
+      "image": "assets/zoom/0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c.webp",
+      "zoom_image": "assets/zoom/0c16c98020ae5baf6cd07608e7ef7ecc82c4ff6aa4dc373ad502dd01a7e39a7c.webp",
+      "original_image": "assets/zoom/d74599454e9b41d64fc51d83a7cbc39a46dffa704dea46ab101f9f8a2520931a.webp",
+      "original_filename": "R7/Bilirubin Metabolism - Diagram.png",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 14
+        },
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 15
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the bilirubin pathway shown, why does unconjugated bilirubin rise above 5 mg/dL in most newborns during the first days of life, and how does phototherapy prevent kernicterus?",
+      "visual_target": "In the bilirubin pathway shown, why does unconjugated bilirubin rise above 5 mg/dL in most newborns during the first days of life, and how does phototherapy prevent kernicterus?",
+      "tested_concept": "Physiologic neonatal jaundice and phototherapy mechanism",
+      "options": [
+        "Neonatal red cells last about 150 days and hepatic UGT1A1 is overactive, so phototherapy blocks red cell hemolysis in the spleen and bone marrow during week one",
+        "Neonatal red cells last about 80 days and hepatic UGT1A1 is low for the first 3 to 7 days, and phototherapy converts bilirubin into water-soluble photoisomers",
+        "Conjugated bilirubin is hydrophobic and crosses the blood-brain barrier to cause kernicterus, and phototherapy hydrolyzes it back to albumin-bound unconjugated pigment",
+        "Biliary atresia transiently blocks the bile duct in most newborns for 3 days, and phototherapy stimulates intestinal bacteria to oxidize urobilinogen into bile"
+      ],
+      "choice_rationales": [
+        "Neonatal red cells have a shorter lifespan of about 80 days compared with 120 days in adults, and hepatic UGT1A1 activity is low rather than overactive.",
+        "Shorter neonatal RBC lifespan (about 80 vs 120 days) plus low hepatic UGT1A1 over the first 3 to 7 days raises unconjugated bilirubin, and phototherapy converts bilirubin into water-soluble photoisomers excreted without conjugation.",
+        "Unconjugated bilirubin is the hydrophobic, neurotoxic form that crosses the blood-brain barrier to cause kernicterus, whereas conjugated bilirubin is water-soluble and nontoxic.",
+        "Physiologic jaundice results from increased RBC turnover and immature hepatic UGT1A1 rather than bile duct obstruction, and phototherapy forms water-soluble photoisomers directly."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Newborns produce more bilirubin because neonatal red blood cells survive about 80 days (versus 120 days in adults) and higher postnatal oxygen speeds hemolysis. Step 2. Clearance is reduced because hepatic UGT1A1 is low during the first 3 days and matures over 3 to 7 days. Step 3. Because hydrophobic unconjugated bilirubin can cross the blood-brain barrier and deposit in brain tissue (kernicterus), phototherapy converts unconjugated bilirubin into water-soluble photoisomers that are excreted in bile and urine without needing hepatic conjugation.",
+      "visual_clues": [
+        "The diagram contrasts red blood cell turnover and hepatic UGT1A1 glucuronidation of hydrophobic unconjugated bilirubin into water-soluble conjugated bilirubin."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Neonatal Bilirubin Metabolism",
+      "condition_overview": "Physiologic neonatal jaundice reflects shorter red blood cell survival (about 80 days) and immature hepatic UGT1A1 in the first 3 to 7 days. Unconjugated bilirubin is hydrophobic and neurotoxic (kernicterus), and phototherapy converts it into water-soluble photoisomers excreted without conjugation."
+    },
+    {
+      "question_id": "q-r7-nst-neuroendocrine-pathway",
+      "source_id": "s-10c6063feebd1abac846",
+      "source_group_id": "g-fc916150c4fc142777f3",
+      "asset_id": "a-a03af5b367f3f5dede273646ada4bff6580d51ebd1d56090aa0162bbb150d4f2",
+      "variant_id": "v-eb948a4e27766c379070",
+      "image": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+      "zoom_image": "assets/zoom/eb948a4e27766c3790709245635d569662d44711b9e3d67eb09cf86ccd250bc1.webp",
+      "original_image": "assets/zoom/8388df71057478738baf986c22db694e19fabdf252d732b4e9422d3693a88d30.webp",
+      "original_filename": "R7/Thermoregulation Control Pathways in Neonates - Diagram.png",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 12
+        },
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 13
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "In the neonatal cold-defense pathway shown, how do sympathetic adrenergic receptors and thyroid hormone work together in brown adipose tissue versus cutaneous blood vessels?",
+      "visual_target": "In the neonatal cold-defense pathway shown, how do sympathetic adrenergic receptors and thyroid hormone work together in brown adipose tissue versus cutaneous blood vessels?",
+      "tested_concept": "Non-shivering thermogenesis sympathetic and thyroid control",
+      "options": [
+        "Sympathetic alpha receptors drive brown fat uncoupling while beta receptors dilate skin vessels, and T4 directly blocks ATP synthase without conversion to T3 in adipocytes",
+        "Sympathetic beta receptors and DIO2 conversion of T4 to T3 upregulate UCP1 in brown fat to make heat, while alpha receptors vasoconstrict skin vessels",
+        "Parasympathetic muscarinic receptors activate brown fat UCP1 during the first 6 months, while thyroid hormone suppresses norepinephrine release in the hypothalamus",
+        "Skeletal muscle shivering is the primary heat source in the first month, while brown fat beta receptors store ATP by closing the inner mitochondrial proton channel"
+      ],
+      "choice_rationales": [
+        "Alpha-adrenergic receptors mediate cutaneous vasoconstriction to limit heat loss, whereas beta-adrenergic receptors and intracellular T3 drive UCP1 thermogenesis in brown adipose tissue.",
+        "Cold signals the hypothalamic paraventricular nucleus, driving sympathetic norepinephrine onto brown fat beta receptors and DIO2 conversion of T4 to T3 to upregulate UCP1, while alpha receptors cause peripheral vasoconstriction.",
+        "Sympathetic norepinephrine rather than parasympathetic muscarinic signaling activates brown adipose tissue, and the thyroid axis works synergistically with norepinephrine to upregulate UCP1.",
+        "Neonates cannot shiver effectively for the first 6 months and rely on brown fat non-shivering thermogenesis, where UCP1 dissipates the proton gradient as heat rather than storing ATP."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Cutaneous cold receptors signal the paraventricular nucleus of the hypothalamus to activate sympathetic and TSH outflow. Step 2. Peripheral alpha-adrenergic receptors cause vasoconstriction to minimize heat loss, while brown adipose tissue beta-adrenergic receptors and type 2 deiodinase (DIO2) conversion of T4 to T3 upregulate UCP1. Step 3. UCP1 dissipates the mitochondrial proton gradient so heat is produced instead of ATP during the first 6 months of life before shivering matures.",
+      "visual_clues": [
+        "The diagram traces cold receptor input through the hypothalamus to sympathetic nerve fibers and thyroid hormone signaling in brown adipose tissue and peripheral blood vessels."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture pages.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Non-Shivering Thermogenesis",
+      "condition_overview": "During the first 6 months, neonates rely on brown adipose tissue (interscapular, neck, upper back, perirenal) for non-shivering thermogenesis. Cold activates sympathetic beta receptors and DIO2 conversion of T4 to T3 to upregulate UCP1, while alpha receptors vasoconstrict skin vessels."
+    },
+    {
+      "question_id": "q-r7-surfactant-timing-rds",
+      "source_id": "s-084d2559caaa1e90d27c",
+      "source_group_id": "g-b533cf7c011d0d10e07d",
+      "asset_id": "a-dbac5813708343832f01d6190b3d245d98bae2e936f3dda82717bbc0972a4e52",
+      "variant_id": "v-9dfe3f6b365bd01cd870",
+      "image": "assets/zoom/9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4.webp",
+      "zoom_image": "assets/zoom/9dfe3f6b365bd01cd870bc19a99fc19e91a0e6a98bd76c69db7c6fc02c8c2bf4.webp",
+      "original_image": "assets/zoom/77cb08b2eaaca56f58204933c2bc5f6590bbf909936d82132c0bbdbe87ba041c.webp",
+      "original_filename": "R7/Pulmonary Surfactant Alveolar Surface Tension - Diagram.png",
+      "collection": "R7",
+      "source_origin": "lecture",
+      "citations": [
+        {
+          "document": "R7 Neo-Natal Physiology RLS.pdf",
+          "page": 8
+        }
+      ],
+      "category": "Diagram",
+      "question_type": "Visual reasoning",
+      "study_skill": "mechanism",
+      "stem": "Which cell secretes the amphipathic phospholipid-protein complex represented by the triangles in the right alveolus, when does production begin in gestation, and which hormones accelerate it before preterm birth?",
+      "visual_target": "Which cell secretes the amphipathic phospholipid-protein complex represented by the triangles in the right alveolus, when does production begin in gestation, and which hormones accelerate it before preterm birth?",
+      "tested_concept": "Pulmonary surfactant source, gestational timing, and cortisol induction",
+      "options": [
+        "Type I pneumocytes beginning at 16 to 20 weeks of gestation, accelerated by maternal insulin and fetal aldosterone across the third trimester",
+        "Type II pneumocytes beginning at 24 to 28 weeks and sufficient by about 34 to 36 weeks, accelerated by cortisol and thyroid hormones",
+        "Club (Clara) cells beginning at 36 to 38 weeks of gestation, accelerated by fetal prolactin and maternal progesterone during labor",
+        "Alveolar macrophages beginning at 20 to 22 weeks of gestation, accelerated by maternal human placental lactogen and unconjugated estriol"
+      ],
+      "choice_rationales": [
+        "Type I pneumocytes form the thin gas-exchange barrier rather than secreting surfactant, and maternal hyperinsulinemia delays rather than accelerates surfactant maturation.",
+        "Type II alveolar cells synthesize pulmonary surfactant starting around 24 to 28 weeks with adequate levels by about 34 to 36 weeks, and glucocorticoids (cortisol/antenatal corticosteroids) and thyroid hormones stimulate production.",
+        "Surfactant is secreted by type II pneumocytes starting at 24 to 28 weeks rather than waiting until 36 to 38 weeks.",
+        "Alveolar macrophages clear debris rather than synthesizing surfactant phospholipids and proteins."
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Pulmonary surfactant is a phospholipid-protein complex secreted by type II alveolar pneumocytes that reduces air-liquid surface tension and prevents alveolar collapse (atelectasis). Step 2. Synthesis begins around 24 to 28 weeks of gestation and reaches sufficient levels by about 34 to 36 weeks. Step 3. Fetal cortisol and thyroid hormones stimulate surfactant maturation, which is why antenatal corticosteroids reduce neonatal respiratory distress syndrome (RDS) when preterm delivery is anticipated.",
+      "visual_clues": [
+        "The right panel shows surfactant molecules lining the alveolar air-water interface to oppose inward collapsing surface tension forces shown on the left."
+      ],
+      "ground_truth_confidence": "high for the stated visual target",
+      "ground_truth_basis": "Verified against the figure and cited lecture page.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Neonatal Respiratory Distress Syndrome and Surfactant",
+      "condition_overview": "Type II pneumocytes produce surfactant beginning at 24 to 28 weeks to lower alveolar surface tension. Prematurity causes surfactant deficiency and neonatal RDS, and glucocorticoids accelerate lung maturation."
     }
   ],
   "retired_questions": [

@@ -4051,6 +4051,144 @@
       "review_status": "USABLE",
       "case_context": "A 31-year-old woman delivered vaginally 2 hours ago after severe preeclampsia. She received a 4 to 6 g IV load and is on a maintenance infusion of 1 to 2 g per hour. Her pressure is now 146/92 with no symptoms. The new nurse asks when the infusion should stop.",
       "study_skill": "management"
+    },
+    {
+      "stem": "Which targeted immunotherapy is used before surgery to shrink this aggressive triple-negative breast tumor, and what is its mechanism?",
+      "options": [
+        "Trastuzumab, a monoclonal antibody that blocks HER2 signaling and is selected when ER and PR are strongly positive in invasive ductal breast tumors",
+        "Pembrolizumab, an anti-PD-1 immune checkpoint antibody used preoperatively in aggressive triple-negative (basaloid) breast cancer to shrink large tumors",
+        "Tamoxifen, a selective estrogen receptor modulator that downregulates PD-L1 expression in hormone receptor-negative basaloid breast carcinoma cells",
+        "Letrozole, a nonsteroidal aromatase inhibitor that shrinks triple-negative tumors by halting peripheral androgen-to-estrogen conversion in adipose tissue"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Triple-negative (basaloid) breast cancers lack ER, PR, and HER2 overexpression, so endocrine therapy (SERMs, aromatase inhibitors) and HER2-targeted agents do not apply. Step 2. As taught in R26, pembrolizumab (Keytruda) is an anti-PD-1 immune checkpoint antibody given preoperatively (neoadjuvantly) for large, aggressive triple-negative/basaloid breast tumors (such as an 8 cm mass), causing marked tumor shrinkage before surgical resection.",
+      "choice_rationales": [
+        "Trastuzumab targets HER2-overexpressing tumors and is not active in triple-negative breast cancer.",
+        "The R26 lecture teaches pembrolizumab (Keytruda), an anti-PD-1 immune checkpoint antibody, for large aggressive triple-negative/basaloid breast tumors before surgery to shrink the tumor.",
+        "Tamoxifen targets estrogen receptors and is ineffective when ER and PR are negative.",
+        "Aromatase inhibitors lower estrogen synthesis for ER-positive disease in postmenopausal women and do not treat triple-negative tumors."
+      ],
+      "tested_concept": "Pembrolizumab in triple-negative (basaloid) breast cancer",
+      "question_id": "rx-r26-pembrolizumab-tnbc",
+      "source_group_id": "g-rx-r26-pembrolizumab-tnbc",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R26",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R26 Clinical Breast Diseases - A Surgeon Perspective I RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which targeted immunotherapy is used before surgery to shrink this aggressive triple-negative breast tumor, and what is its mechanism?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture transcript and drug notes (R26 transcript pp. 16-17).",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 44-year-old woman presents with an 8 cm palpable breast mass. Core needle biopsy reveals a high-grade basaloid invasive ductal carcinoma that is negative for estrogen receptor (ER), progesterone receptor (PR), and HER2. Before attempting surgical resection, the oncology team starts a systemic immunotherapy agent that causes the tumor to shrink dramatically.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which named continuous GnRH agonists share this mechanism, and how are they applied across prostate cancer, central precocious puberty, and uterine fibroids?",
+      "options": [
+        "Leuprolide and goserelin, which cause a 1 to 3 week flare before GnRH receptor downregulation lowers LH, FSH, and sex steroids in prostate cancer, puberty blockade, and fibroids",
+        "Degarelix and relugolix, which act as continuous GnRH agonists that stimulate a 6-month surge in bone mineral density when started before Tanner stage 1 in prepubertal children",
+        "Leuprolide and goserelin, which must be infused in 90-minute pulses to desensitize the pituitary and permanently sterilize adolescents after 2 months of continuous therapy",
+        "Finasteride and dutasteride, which downregulate pituitary GnRH receptors to shrink uterine fibroids and halt central precocious puberty without causing an initial androgen flare"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The lectures name leuprolide and goserelin as continuous GnRH agonists. Step 2. Continuous exposure initially stimulates pituitary GnRH receptors (causing a 1 to 3 week LH and testosterone flare in prostate cancer) and then downregulates/desensitizes the receptors so LH, FSH, and gonadal sex steroids fall. Step 3. Across the course, this same suppressive mechanism is taught for metastatic prostate cancer (R2), medical management of uterine fibroids (R31, leuprolide), and central precocious puberty or gender-affirming puberty suppression (R2, R13, R14.2), where blockers are started only after central puberty begins at Tanner stage 2 or 3, are temporary and reversible (~2 years), and transiently lower bone mineral density accrual.",
+      "choice_rationales": [
+        "R2, R13, R14.2, and R31 name leuprolide and goserelin as continuous GnRH agonists that cause a 1 to 3 week flare followed by pituitary desensitization, used in prostate cancer, uterine fibroids, and puberty suppression (started at Tanner 2 or 3, reversible, with temporary lower bone mineral density accrual).",
+        "Degarelix is a GnRH antagonist rather than an agonist, and GnRH agonist puberty blockers are started only after central puberty begins (Tanner 2 or 3) and transiently slow bone mineral density accrual.",
+        "Pulsatile GnRH maintains LH and FSH secretion, whereas continuous administration causes receptor downregulation, and puberty blockade is temporary and reversible rather than permanent.",
+        "Finasteride and dutasteride are 5alpha-reductase inhibitors that block conversion of testosterone to DHT rather than acting on pituitary GnRH receptors."
+      ],
+      "tested_concept": "Leuprolide and goserelin continuous GnRH agonist indications and counseling",
+      "question_id": "rx-r2-leuprolide-goserelin-uses",
+      "source_group_id": "g-rx-r2-leuprolide-goserelin-uses",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 31
+        },
+        {
+          "document": "R13 Puberty:Transgender Health RLS.pdf",
+          "page": 55
+        },
+        {
+          "document": "R31 Pathology of the GU System Radiology RLS.pdf",
+          "page": 36
+        }
+      ],
+      "visual_target": "Which named continuous GnRH agonists share this mechanism, and how are they applied across prostate cancer, central precocious puberty, and uterine fibroids?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes (R2, R13, R14.2, R31).",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A pharmacology review compares three patients receiving continuous gonadotropin-releasing hormone (GnRH) agonist therapy: a 70-year-old man with prostate cancer, a 41-year-old woman with symptomatic uterine fibroids, and an adolescent starting reversible puberty suppression at Tanner stage 2.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which counseling matches the lecture guidelines on fish intake, caffeine, alcohol, foodborne pathogens, and safe cooking temperatures in pregnancy?",
+      "options": [
+        "Eat 8 to 12 oz/week of low-mercury fish, keep caffeine under 200 mg/day, skip alcohol and unpasteurized or deli foods, and cook poultry/leftovers to 165 F, ground meat to 160 F, and roasts/fish to 145 F",
+        "Avoid all fish during gestation because cooking eliminates methylmercury, keep caffeine under 500 mg/day, limit wine to the third trimester, and cook all poultry, ground meat, and whole steaks to 135 F",
+        "Eat up to 24 oz/week of swordfish or king mackerel for omega-3 fatty acids, avoid caffeine, eat cold deli meats freely because Listeria dies in refrigeration, and cook ground meat and poultry to 145 F",
+        "Eat 8 to 12 oz/week of shark or tilefish because the placenta blocks mercury, keep caffeine under 400 mg/day, and cook whole beef steaks to 165 F while ground beef and leftovers are cooked to 145 F"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Mercury, caffeine, and alcohol all cross the placenta: pregnant patients should eat 8 to 12 oz/week of best-choice low-mercury fish while avoiding high-mercury species (shark, swordfish, king mackerel, marlin, orange roughy, tilefish, bigeye tuna; cooking does not remove mercury), keep caffeine below 200 mg/day, and avoid alcohol completely. Step 2. To prevent foodborne infections (Listeria from unpasteurized dairy or contaminated deli slicers, Salmonella, toxoplasmosis, E. coli, botulism from home-canned low-acid foods, hepatitis A, campylobacteriosis, norovirus), patients should avoid raw/undercooked animal foods, unpasteurized dairy/soft cheeses, ready-to-eat deli meats, raw sprouts, and home-canned goods. Step 3. Safe internal cooking temperatures are 165 F for poultry and leftovers, 160 F for ground meat (higher than whole cuts because grinding distributes surface bacteria throughout the meat), and 145 F for whole chops, roasts, fish, shellfish, and ham.",
+      "choice_rationales": [
+        "R33 teaches 8 to 12 oz/week of low-mercury fish (avoiding shark, swordfish, king mackerel, marlin, orange roughy, tilefish, bigeye tuna), caffeine < 200 mg/day, no alcohol, avoiding unpasteurized dairy/deli meats/raw sprouts/home-canned goods, and cooking poultry/leftovers to 165 F, ground meat to 160 F, and chops/roasts/fish to 145 F.",
+        "Cooking lowers infection risk but does not remove mercury, caffeine should stay under 200 mg/day, no safe alcohol level exists in pregnancy, and poultry requires 165 F.",
+        "Swordfish and king mackerel are high-mercury fish to avoid, ready-to-eat deli meats carry Listeria risk from slicer cross-contamination, and ground meat requires 160 F.",
+        "Mercury crosses the placenta and injures the developing fetal brain, caffeine is limited to < 200 mg/day, and ground meat requires a higher temperature (160 F) than whole steaks/roasts (145 F)."
+      ],
+      "tested_concept": "Pregnancy nutrition: mercury, caffeine, foodborne pathogens, and safe cooking temperatures",
+      "question_id": "rx-r33-pregnancy-exposures-temps",
+      "source_group_id": "g-rx-r33-pregnancy-exposures-temps",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R33",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 21
+        },
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 23
+        },
+        {
+          "document": "R33 Nutrition And Pregnancy RLS.pdf",
+          "page": 24
+        }
+      ],
+      "visual_target": "Which counseling matches the lecture guidelines on fish intake, caffeine, alcohol, foodborne pathogens, and safe cooking temperatures in pregnancy?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and study notes (R33 RLS pp. 20-24).",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 29-year-old woman at 8 weeks' gestation asks at her first prenatal visit how much fish and coffee she can have, why cold deli turkey and soft unpasteurized cheeses are on the avoidance list, and what internal temperatures she should use when cooking chicken, ground beef, and fish at home.",
+      "study_skill": "management"
     }
   ]
 }
