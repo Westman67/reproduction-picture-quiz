@@ -1308,6 +1308,542 @@
       "review_status": "USABLE",
       "case_context": "A 26-year-old woman wants highly effective long term contraception that contains no hormones and lasts up to ten years.",
       "study_skill": "management"
+    },
+    {
+      "stem": "How does the timing hypothesis bear on her request?",
+      "options": [
+        "Starting now is acceptable only if progestogen is omitted, because progestogen drives the added clot and stroke risk",
+        "Starting now is as favorable as starting at 52, because the benefit and risk ratio does not depend on age or years since menopause and the risk profile does not shift with age",
+        "Starting this long after menopause has a less favorable benefit and risk ratio because absolute risks of coronary disease, stroke and VTE are greater",
+        "Starting now is most favorable, because estrogen given late reverses established atherosclerosis and lowers coronary risk"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The timing hypothesis says the benefit and risk ratio is favorable under age 60 or within 10 years of menopause onset in women without contraindications. Step 2. She is 18 years out and over 60, so absolute risks of coronary disease, stroke and VTE are greater and the ratio is less favorable than in a younger woman.",
+      "choice_rationales": [
+        "Progestogen is added to protect the uterus from endometrial cancer, and it is not the stated reason for greater risk with late initiation.",
+        "The lecture ties a favorable ratio to women younger than 60 or within 10 years of menopause onset.",
+        "The lecture states that initiation more than 10 to 20 years after menopause onset, or at age 60 or older, carries greater absolute risks.",
+        "Hormone therapy is not for prevention of cardiac disease, and late initiation raises absolute risk."
+      ],
+      "tested_concept": "Timing of menopausal hormone therapy",
+      "question_id": "rx-r30-timing-hypothesis",
+      "source_group_id": "g-rx-r30-timing-hypothesis",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 68
+        }
+      ],
+      "visual_target": "How does the timing hypothesis bear on her request?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 68-year-old woman, 18 years past menopause, has bothersome hot flashes and asks to start oral estrogen. She has no listed contraindication.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which woman has none of the general contraindications listed in the lecture?",
+      "options": [
+        "A 51-year-old with irregular bleeding that has not been evaluated and night sweats and which has been fully evaluated and treated",
+        "A 53-year-old with severe hot flashes, controlled hypertension and no personal history of breast cancer",
+        "A 57-year-old with severe active liver disease and hot flashes that disrupt sleep",
+        "A 55-year-old with a deep vein thrombosis two years ago and daily hot flashes"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The lecture lists personal history of breast cancer, personal history of endometrial cancer, severe active liver disease, thromboembolic disorders and undiagnosed vaginal bleeding as general contraindications. Step 2. Only the woman with controlled hypertension and no listed condition remains a candidate.",
+      "choice_rationales": [
+        "Undiagnosed vaginal bleeding is a listed contraindication until it is evaluated.",
+        "None of the lecture contraindications applies to her, so hormone therapy can be considered.",
+        "Severe active liver disease is a listed contraindication to hormone therapy.",
+        "Thromboembolic disorders, such as deep vein thrombosis, are listed contraindications."
+      ],
+      "tested_concept": "Contraindications to hormone therapy",
+      "question_id": "rx-r30-ht-contraindication",
+      "source_group_id": "g-rx-r30-ht-contraindication",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 69
+        }
+      ],
+      "visual_target": "Which woman has none of the general contraindications listed in the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "Four women ask a clinician about hormone therapy for menopausal symptoms.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which nonhormonal choice does the lecture recommend for her?",
+      "options": [
+        "Venlafaxine, which is not FDA approved for hot flashes but is recommended for women taking tamoxifen",
+        "Paroxetine, because it is the only FDA approved nonhormonal drug and is therefore the recommended choice with tamoxifen",
+        "Gabapentin, because anticonvulsants are FDA approved for vasomotor symptoms and are required with tamoxifen",
+        "Raloxifene, because it acts as a SERM that relieves hot flashes and can replace estrogen"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Hormone therapy is contraindicated after breast cancer, so a nonhormonal drug is needed. Step 2. Paroxetine is the only FDA approved option, but the lecture recommends venlafaxine, an SNRI used off label, for hot flashes in a woman taking tamoxifen, and tamoxifen itself can cause hot flashes.",
+      "choice_rationales": [
+        "The lecture names venlafaxine for hot flashes in a woman taking tamoxifen.",
+        "Paroxetine is the only FDA approved nonhormonal treatment, but the lecture recommends venlafaxine in a woman on tamoxifen.",
+        "Gabapentin is an off label option and is not FDA approved for vasomotor symptoms.",
+        "Tamoxifen and raloxifene are listed among drugs that can cause hot flashes."
+      ],
+      "tested_concept": "Nonhormonal therapy for hot flashes with tamoxifen",
+      "question_id": "rx-r30-venlafaxine-tamoxifen",
+      "source_group_id": "g-rx-r30-venlafaxine-tamoxifen",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 75
+        }
+      ],
+      "visual_target": "Which nonhormonal choice does the lecture recommend for her?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 49-year-old woman takes tamoxifen for ER positive breast cancer and has frequent hot flashes. Estrogen therapy is not an option for her.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What is the best advice?",
+      "options": [
+        "Diagnosis requires 12 months without menses, so nothing can be said until then",
+        "Hormone levels are unreliable because ovarian estrogen production is erratic, and symptoms are the better marker of perimenopause",
+        "A high FSH is required for the diagnosis, and a normal value would exclude perimenopause",
+        "A low estradiol is required for the diagnosis, and a normal value would exclude perimenopause, so a single value taken on any day of the cycle settles it"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. During perimenopause ovarian estrogen production is erratic, so estradiol and FSH swing between normal, high and low. Step 2. Menopause is a clinical diagnosis and symptoms are a better marker of perimenopausal status than hormone tests.",
+      "choice_rationales": [
+        "Menopause is diagnosed retrospectively after 12 months, but perimenopause is recognized by symptoms before that point.",
+        "The lecture states that estradiol fluctuates between normal, high and low, so FSH and estradiol are not helpful.",
+        "Because hormone levels fluctuate, a normal value does not exclude perimenopause.",
+        "Estradiol can be normal, high or low during perimenopause, so a normal level does not rule it out."
+      ],
+      "tested_concept": "Diagnosis of perimenopause",
+      "question_id": "rx-r30-perimenopause-testing",
+      "source_group_id": "g-rx-r30-perimenopause-testing",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 41
+        }
+      ],
+      "visual_target": "What is the best advice?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 48-year-old woman has skipped periods, night sweats and lighter bleeding. Her friend urges her to get FSH and estradiol levels to confirm perimenopause.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which prediction is correct, and why?",
+      "options": [
+        "High estradiol with high FSH and LH, because the remaining follicles overproduce estrogen",
+        "Low estradiol with high FSH and LH, because loss of negative feedback on the hypothalamus raises gonadotropins",
+        "Low estradiol with low FSH and LH, because the pituitary stops making gonadotropins after menopause",
+        "Normal estradiol with high FSH only, because LH is not affected by loss of ovarian feedback"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Menopause follows loss of ovarian follicles with ovarian failure, so estradiol and progesterone are low. Step 2. The hypothalamus loses negative feedback from sex steroids, so both FSH and LH rise, a hypergonadotropic hypogonadism.",
+      "choice_rationales": [
+        "There are no functioning follicles, so estradiol is low and not high.",
+        "The lecture describes hypergonadotropic hypogonadism with low estrogen and loss of negative feedback causing high FSH and LH.",
+        "Pituitary gonadotropins rise, because the ovary no longer supplies negative feedback.",
+        "Both FSH and LH rise when sex steroid negative feedback is lost."
+      ],
+      "tested_concept": "Hormones in ovarian failure",
+      "question_id": "rx-r30-postmenopause-hormones",
+      "source_group_id": "g-rx-r30-postmenopause-hormones",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 39
+        }
+      ],
+      "visual_target": "Which prediction is correct, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 55-year-old woman, two years after her last period, has hot flashes. A student predicts her gonadotropins and estradiol.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What is the most appropriate next step?",
+      "options": [
+        "Evaluate for another cause of flushing such as a carcinoid tumor, since these are warning signs unrelated to menopause",
+        "Reassure her that this is genitourinary syndrome of menopause, which improves with local estrogen",
+        "Start hormone therapy, because new hot flashes at this age are expected in late menopause, because new flushing this late is the expected course of menopause itself",
+        "Measure FSH and estradiol, because the values will confirm that menopause is causing the flushing"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Warning signs that trigger evaluation include new onset vasomotor symptoms in late menopause and symptoms such as diarrhea, wheezing or flushing. Step 2. Flushing with diarrhea and wheezing fits carcinoid syndrome, so another cause should be sought before attributing it to menopause.",
+      "choice_rationales": [
+        "The lecture lists new onset in late menopause and diarrhea or wheezing as triggers for evaluation, and describes carcinoid syndrome.",
+        "Genitourinary syndrome involves vaginal and urinary symptoms and not flushing with diarrhea.",
+        "New onset vasomotor symptoms in late menopause are a warning sign for another cause.",
+        "Menopause is a clinical diagnosis, and hormone levels would not explain diarrhea and wheezing."
+      ],
+      "tested_concept": "Warning signs of non menopausal flushing",
+      "question_id": "rx-r30-alternative-vms-cause",
+      "source_group_id": "g-rx-r30-alternative-vms-cause",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 43
+        }
+      ],
+      "visual_target": "What is the most appropriate next step?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 62-year-old woman, ten years past menopause, reports new episodes of facial flushing with watery diarrhea and wheezing.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which statement matches the FDA guideline in the lecture?",
+      "options": [
+        "Estrogen should not be used because it has no effect on bone loss",
+        "Estrogen should be given topically, because topical therapy is the FDA preferred route for bone protection",
+        "Estrogen can prevent bone loss, but it should be a last resort when osteoporosis prevention is the only reason",
+        "Estrogen is the preferred first line choice for prevention of osteoporosis in every postmenopausal woman"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Hormone therapy prevents bone loss and fracture. Step 2. The FDA, ACOG and NAMS guidance in the lecture does not support it for prevention alone, so the FDA advises using it as a last resort for osteoporosis prevention only.",
+      "choice_rationales": [
+        "The lecture states that hormone therapy has been shown to prevent bone loss and fracture.",
+        "Topical therapy is advised for vaginal dryness alone and does not describe bone protection.",
+        "The lecture states that the FDA advises hormone therapy only as a last resort for osteoporosis prevention alone.",
+        "The lecture advises against using it first for prevention alone, and ACOG and NAMS do not support it for prevention."
+      ],
+      "tested_concept": "Hormone therapy for osteoporosis prevention alone",
+      "question_id": "rx-r30-osteoporosis-last-resort",
+      "source_group_id": "g-rx-r30-osteoporosis-last-resort",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 74
+        }
+      ],
+      "visual_target": "Which statement matches the FDA guideline in the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 58-year-old woman has no hot flashes or vaginal symptoms but a family history of osteoporosis. She asks whether to start estrogen only to protect her bones.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which mechanism best explains this?",
+      "options": [
+        "Excess estrogen from fat tissue raises her set point, so the room feels cold and the body overheats",
+        "Rising FSH acts on skin vessels directly, so the room temperature does not matter",
+        "Estrogen withdrawal narrows her thermoregulatory zone, so a small rise in temperature triggers vasodilation and sweating",
+        "Estrogen withdrawal widens her thermoregulatory zone, so only large temperature rises trigger flushing"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Hot flashes are recurrent transient flushing with a sensation of warmth caused by estrogen withdrawal. Step 2. The normal thermoregulatory zone narrows, so small temperature increases trigger vasodilation, sweating and decreased skin resistance.",
+      "choice_rationales": [
+        "The trigger is withdrawal of estrogen and not excess estrogen.",
+        "The lecture links flashes to estrogen withdrawal and a narrowed thermoregulatory zone and not to a direct FSH effect.",
+        "The lecture states that estrogen withdrawal narrows the normal thermoregulatory zone so small increases trigger the flash.",
+        "A narrowed, not widened, zone explains the lowered threshold."
+      ],
+      "tested_concept": "Hot flash physiology",
+      "question_id": "rx-r30-thermoneutral-zone",
+      "source_group_id": "g-rx-r30-thermoneutral-zone",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 48
+        }
+      ],
+      "visual_target": "Which mechanism best explains this?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 53-year-old woman notices that a slightly warm room triggers a flash with flushing and sweating, but a similar room never bothered her before menopause.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which explanation fits the lecture?",
+      "options": [
+        "Estrogen levels climb in the second half of the night, which stops the flashes",
+        "REM sleep in the first half of the night raises body temperature, which makes flashes occur then",
+        "Hot flashes stop in the second half because FSH falls, which is why she sleeps through",
+        "REM sleep in the second half of the night suppresses thermoregulation, and hot flashes are suppressed with it"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Hot flashes can trigger awakenings in the first half of the night. Step 2. REM sleep in the second half suppresses thermoregulation and therefore the flashes, so she is not woken then.",
+      "choice_rationales": [
+        "The lecture attributes the timing to REM suppression of thermoregulation and not to a nightly rise in estrogen.",
+        "The lecture places the awakenings in the first half and the REM suppression in the second half.",
+        "The lecture does not link the timing of flashes to nightly FSH change.",
+        "The lecture states REM in the second half suppresses thermoregulation and so hot flashes."
+      ],
+      "tested_concept": "Timing of night sweats and REM sleep",
+      "question_id": "rx-r30-rem-night-sweats",
+      "source_group_id": "g-rx-r30-rem-night-sweats",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 51
+        }
+      ],
+      "visual_target": "Which explanation fits the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 54-year-old woman is woken by night sweats in the first half of the night but sleeps through the second half. She asks why the timing differs.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which pattern fits the changes expected after menopause?",
+      "options": [
+        "Lower total cholesterol and LDL with higher HDL and triglycerides",
+        "Unchanged lipids, because estrogen loss affects bone but not lipid metabolism",
+        "Higher total cholesterol and HDL with lower LDL and triglycerides",
+        "Higher total cholesterol, LDL and triglycerides with lower HDL"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Estrogen loss shifts lipid metabolism toward an atherogenic profile. Step 2. Total cholesterol, LDL and triglycerides increase and HDL decreases, which helps explain why the male to female ratio of atherosclerotic disease moves from 3 to 1 toward 1 to 1.",
+      "choice_rationales": [
+        "This pattern is the opposite of the postmenopausal change in total cholesterol, LDL and HDL.",
+        "The lecture lists lipid changes among the cardiovascular consequences of estrogen loss.",
+        "HDL falls and LDL and triglycerides rise after menopause.",
+        "The lecture lists increases in total cholesterol, LDL and triglycerides and a decrease in HDL, all promoting atherosclerosis."
+      ],
+      "tested_concept": "Lipid changes after menopause",
+      "question_id": "rx-r30-lipids-menopause",
+      "source_group_id": "g-rx-r30-lipids-menopause",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 60
+        }
+      ],
+      "visual_target": "Which pattern fits the changes expected after menopause?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 59-year-old woman, six years postmenopausal, has a lipid panel drawn. Her premenopausal values were normal.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which statement about evaluation is supported?",
+      "options": [
+        "It is excluded if she has regular withdrawal bleeding after a progestin challenge",
+        "A cause is found in nearly every case once a thorough evaluation is done",
+        "It is defined as ovarian failure before age 50, so her age is not relevant",
+        "Most cases are idiopathic, but genetic, autoimmune and iatrogenic causes should be ruled out"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Primary ovarian insufficiency is ovarian failure before age 40. Step 2. Most cases are idiopathic, yet the workup should exclude X chromosome abnormalities and fragile X, autoimmune ovarian damage, and iatrogenic causes such as radiation or chemotherapy.",
+      "choice_rationales": [
+        "The lecture does not make this statement, and the diagnosis rests on ovarian failure under age 40.",
+        "The lecture states that most cases have no identifiable cause even after thorough evaluation.",
+        "The lecture defines it as ovarian failure before age 40.",
+        "The lecture states most cases are idiopathic and lists genetic aberrations, autoimmune damage and iatrogenic factors to rule out."
+      ],
+      "tested_concept": "Primary ovarian insufficiency evaluation",
+      "question_id": "rx-r30-poi-workup",
+      "source_group_id": "g-rx-r30-poi-workup",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 29
+        },
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 63
+        }
+      ],
+      "visual_target": "Which statement about evaluation is supported?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 31-year-old woman has had no periods for eight months and hot flashes. Her FSH is high and the clinician diagnoses primary ovarian insufficiency.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which hormone pattern is most likely?",
+      "options": [
+        "High prolactin with low LH and low estradiol, from a pituitary tumor",
+        "High FSH and LH with low estradiol, from loss of ovarian follicles",
+        "High leptin with high LH and normal estradiol, from excess fat tissue, acting through leptin signaling from the adipose tissue",
+        "Low LH and low estradiol with low or normal FSH and low leptin, from suppressed GnRH pulsation"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Energy deficit from excessive exercise or low intake suppresses GnRH secretion and gonadotropin pulsation. Step 2. That gives low LH, low estradiol, low or normal FSH and low leptin, mimicking a prepubertal state, and management aims to restore energy balance and normal cycles.",
+      "choice_rationales": [
+        "Her prolactin is normal, so a prolactinoma does not explain the amenorrhea.",
+        "This is the pattern of ovarian failure and not of an energy deficit.",
+        "Her leptin is low with the energy deficit, and she is lean rather than adipose rich.",
+        "The lecture describes an energy deficit that suppresses GnRH pulsation, with low LH, low estradiol, low or normal FSH and low leptin."
+      ],
+      "tested_concept": "Functional hypothalamic amenorrhea hormones",
+      "question_id": "rx-r30-hypothalamic-amenorrhea",
+      "source_group_id": "g-rx-r30-hypothalamic-amenorrhea",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 84
+        }
+      ],
+      "visual_target": "Which hormone pattern is most likely?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "An 18-year-old varsity runner has had no period for six months. She is lean, her pulse is 50 per minute and her pregnancy, TSH and prolactin tests are normal.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which statement is supported by the lecture?",
+      "options": [
+        "About two thirds of bone loss occurs in the 5 to 7 years around menopause, from increased bone resorption caused by estrogen loss",
+        "Most bone loss occurs after age 80, because estrogen loss has little effect on bone in the first decade, since estrogen has little effect on bone early on",
+        "Bone loss results from decreased bone formation caused by rising FSH",
+        "Bone loss is limited to women with early menopause, and averages out in everyone else"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Osteoporosis in postmenopausal women is secondary to estrogen loss and works through increased bone resorption. Step 2. About two thirds of bone loss occurs in the 5 to 7 years around menopause, so that is when prevention matters most.",
+      "choice_rationales": [
+        "The lecture gives this fraction and window and names increased bone resorption as the mechanism.",
+        "The lecture places most loss in the 5 to 7 years around menopause.",
+        "The lecture names increased bone resorption secondary to estrogen loss as the mechanism.",
+        "Early menopause is a risk factor, but bone loss around menopause affects postmenopausal women generally."
+      ],
+      "tested_concept": "Timing of bone loss around menopause",
+      "question_id": "rx-r30-bone-loss-window",
+      "source_group_id": "g-rx-r30-bone-loss-window",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 57
+        }
+      ],
+      "visual_target": "Which statement is supported by the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 52-year-old woman asks when most of her lifetime postmenopausal bone loss will happen.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "How should her status be described?",
+      "options": [
+        "Perimenopause, because menopause is diagnosed retrospectively after 12 months without menses",
+        "Premenopause, because hot flashes occur only after menopause is established",
+        "Menopause, because any gap of more than six months in menses confirms it",
+        "Primary ovarian insufficiency, because irregular periods at 49 meet the definition"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Perimenopause begins with the first signs of change and menopause is diagnosed retrospectively after 12 months without menses. Step 2. At 8 months she is perimenopausal, and hot flashes are common in perimenopause.",
+      "choice_rationales": [
+        "The lecture defines menopause as diagnosed retrospectively after 12 months, so 8 months is still perimenopause.",
+        "Hot flashes occur in as many as 75 percent of perimenopausal women.",
+        "The lecture sets the retrospective diagnosis at 12 months.",
+        "Primary ovarian insufficiency is ovarian failure before age 40."
+      ],
+      "tested_concept": "Defining menopause and perimenopause",
+      "question_id": "rx-r30-menopause-definition",
+      "source_group_id": "g-rx-r30-menopause-definition",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R30",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R30 Mystery Illness RLS.pdf",
+          "page": 31
+        }
+      ],
+      "visual_target": "How should her status be described?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 49-year-old woman has had irregular periods and hot flashes. Her last menstrual period was 8 months ago.",
+      "study_skill": "interpretation"
     }
   ]
 }
