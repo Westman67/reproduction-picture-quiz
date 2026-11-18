@@ -2920,6 +2920,698 @@
       "review_status": "USABLE",
       "case_context": "A woman with cystitis takes over the counter phenazopyridine and notices fluorescent yellow urine. Her dysuria improves and she asks to skip her antibiotic.",
       "study_skill": "interpretation"
+    },
+    {
+      "stem": "Why is magnesium sulfate given, and why is a second drug needed?",
+      "options": [
+        "It antagonizes NMDA receptors and calcium channels to raise the seizure threshold, but it is not an antihypertensive",
+        "It stimulates GABA receptors like a benzodiazepine, so it acts only while the seizure is ongoing and does not prevent recurrence",
+        "It lowers blood pressure through arteriolar vasodilation, so the second drug is only a backup if she seizes again",
+        "It blocks beta receptors and so lowers heart rate, so the second drug is needed only to prevent reflex tachycardia"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Magnesium sulfate antagonizes NMDA receptors and calcium channels, which raises the seizure threshold, and it is the first drug for an eclamptic seizure. Step 2. It acts on cerebral endothelium but is not an antihypertensive, so blood pressure at this level still needs labetalol or hydralazine.",
+      "choice_rationales": [
+        "The lecture describes NMDA and calcium channel antagonism that raises the seizure threshold, and states it does not lower blood pressure.",
+        "It raises the seizure threshold and is used to prevent eclamptic seizures, and it is the first drug for an eclamptic seizure.",
+        "Magnesium sulfate is not an antihypertensive, so blood pressure control needs its own drug.",
+        "It acts on NMDA receptors and calcium channels and has no beta blocking effect."
+      ],
+      "tested_concept": "Magnesium sulfate mechanism in eclampsia",
+      "question_id": "rx-r21-mag-mechanism",
+      "source_group_id": "g-rx-r21-mag-mechanism",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 61
+        },
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 62
+        }
+      ],
+      "visual_target": "Why is magnesium sulfate given, and why is a second drug needed?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 24-year-old woman at 37 weeks has a generalized seizure with blood pressure 176/114. The team starts IV magnesium sulfate and a separate antihypertensive.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which summary matches the lecture?",
+      "options": [
+        "It cut maternal deaths by about 45 percent with statistical significance, and seizures were unchanged, and the trial was stopped early for harm to mothers",
+        "It showed no change in seizures, but it lowered maternal blood pressure and delivered more babies at term",
+        "It cut seizures by about 33 percent and placental abruption by about 58 percent, with both significant, and neither outcome changed the maternal death rate at all",
+        "It cut seizures by about 58 percent and placental abruption by about 33 percent, and the fall in maternal death was not significant"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. MAGPIE tested magnesium sulfate in preeclampsia. Step 2. The lecture reports 58 percent fewer seizures and 33 percent fewer placental abruptions, plus 45 percent fewer maternal deaths that did not reach statistical significance.",
+      "choice_rationales": [
+        "The seizure reduction was the main effect and the maternal death reduction was not statistically significant.",
+        "The trial showed fewer seizures, and magnesium sulfate is not an antihypertensive.",
+        "The 58 percent figure belongs to seizures and the 33 percent figure belongs to abruption.",
+        "The lecture gives 58 percent fewer seizures, 33 percent fewer abruptions and 45 percent fewer maternal deaths that were not statistically significant."
+      ],
+      "tested_concept": "MAGPIE trial results",
+      "question_id": "rx-r21-magpie-outcomes",
+      "source_group_id": "g-rx-r21-magpie-outcomes",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R21",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
+          "page": 61
+        }
+      ],
+      "visual_target": "Which summary matches the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A resident summarizes the MAGPIE trial of magnesium sulfate in preeclampsia for a journal club.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which statement is correct?",
+      "options": [
+        "Plain estradiol is well absorbed orally, because it has a 17 ethinyl group that blocks hepatic metabolism, and the drug is then taken up directly by the thyroid",
+        "Plain estradiol works best by intramuscular injection in oil, because the injection is released over days",
+        "Plain estradiol has poor oral bioavailability because the liver inactivates it, so a patch or micronized tablet is preferred",
+        "Plain estradiol is best given as the sulfate, because gut bacteria convert it to the more potent estrone"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. 17 beta estradiol is the major physiologic estrogen but the liver inactivates it quickly after oral intake. Step 2. Patches avoid hepatic metabolism, creams, pessaries and rings give local effects, and micronized tablets can be given by mouth.",
+      "choice_rationales": [
+        "The 17 ethinyl group belongs to ethinyl estradiol, and plain estradiol is inactivated by the liver.",
+        "Injected esters release estradiol over 2 to 4 weeks and are used for hypogonadism rather than hot flashes.",
+        "The lecture states the liver inactivates estradiol quickly, patches avoid hepatic metabolism and micronized tablets work by mouth.",
+        "Estrone is about one tenth as potent, and the sulfate route describes conjugated estrogens."
+      ],
+      "tested_concept": "Routes of estradiol delivery",
+      "question_id": "rx-r20-estradiol-route",
+      "source_group_id": "g-rx-r20-estradiol-route",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 16
+        }
+      ],
+      "visual_target": "Which statement is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 52-year-old woman with hot flashes wants an estrogen that avoids rapid inactivation by the liver. A friend suggests swallowing estradiol powder.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which choice fits, and why?",
+      "options": [
+        "Conjugated estrogens by mouth, because bacterial flora release estrone over 2 to 4 weeks",
+        "Ethinyl estradiol by mouth, because the ethinyl group makes it release estradiol over 2 to 4 weeks, and it must be taken twice daily to keep levels steady",
+        "Estradiol cream applied weekly, because the skin absorbs it slowly and releases it over 2 to 4 weeks, so no injection or pill is needed at all",
+        "Estradiol valerate or cypionate injected intramuscularly in oil, because the ester is hydrolyzed slowly and releases estradiol for 2 to 4 weeks"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Esterified estrogens, estradiol valerate and cypionate, are given intramuscularly in an oil vehicle. Step 2. The ester bond is hydrolyzed slowly in plasma, so a single injection delivers estradiol for 2 to 4 weeks, and the drugs treat hypogonadism.",
+      "choice_rationales": [
+        "Conjugated estrogens are oral drugs desulfated by gut flora and are not given at 2 to 4 week intervals.",
+        "Ethinyl estradiol is an oral drug with a half life of 13 to 27 hours.",
+        "Creams give local effects, and the slow release over 2 to 4 weeks is described for injected esters.",
+        "The lecture states these esters in oil release estradiol over 2 to 4 weeks and are used for hypogonadism."
+      ],
+      "tested_concept": "Esterified estrogens",
+      "question_id": "rx-r20-estradiol-valerate",
+      "source_group_id": "g-rx-r20-estradiol-valerate",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_target": "Which choice fits, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 17-year-old girl with hypogonadism needs an estrogen that can be dosed every few weeks without daily pills.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which statement is correct?",
+      "options": [
+        "Mestranol is a prodrug that the liver demethylates, whereas ethinyl estradiol directly activates the receptor",
+        "Neither is active by mouth, because both are inactivated on first pass through the liver",
+        "Ethinyl estradiol is the prodrug that the liver activates, whereas mestranol acts directly on the receptor",
+        "Both are prodrugs that gut bacteria convert to estrone, which then acts at the receptor"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The 17 ethinyl group lowers first pass metabolism and gives ethinyl estradiol good oral bioavailability, a half life of 13 to 27 hours and enterohepatic cycling. Step 2. Mestranol is a prodrug that needs hepatic demethylation, while ethinyl estradiol activates the receptor directly.",
+      "choice_rationales": [
+        "The lecture describes mestranol as a prodrug demethylated by the liver and ethinyl estradiol as having direct receptor activation.",
+        "The 17 ethinyl group lowers hepatic first pass metabolism and gives good oral bioavailability.",
+        "The roles are reversed, since mestranol is the prodrug.",
+        "The prodrug conversion is hepatic demethylation, and gut bacterial conversion describes conjugated estrogens."
+      ],
+      "tested_concept": "Mestranol as a prodrug",
+      "question_id": "rx-r20-mestranol-prodrug",
+      "source_group_id": "g-rx-r20-mestranol-prodrug",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 18
+        }
+      ],
+      "visual_target": "Which statement is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A pharmacology student compares two estrogens in contraceptive pills, ethinyl estradiol and mestranol.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which property of tamoxifen makes this concerning?",
+      "options": [
+        "It is a partial ER agonist in the uterus, and chronic use beyond 5 years increases uterine cancer risk",
+        "It has minimal uterine effect, like raloxifene, so the bleeding is expected, so the symptom can be safely observed for a year",
+        "It stimulates aromatase in fat tissue, so estrogen rises and thickens the endometrium, so the endometrium is thinned and bleeding is not expected",
+        "It is a pure ER antagonist in every tissue, so bleeding means an unrelated cause, so uterine bleeding on treatment has no link to the drug"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Tamoxifen is a potent ER antagonist in breast but an agonist in bone and a partial agonist in the uterus. Step 2. Chronic use for more than 5 years increases uterine cancer risk, so new postmenopausal bleeding should be investigated.",
+      "choice_rationales": [
+        "The lecture states tamoxifen is a partial estrogen agonist on the uterus and chronic use for more than 5 years increases uterine cancer risk.",
+        "Raloxifene is the SERM with minimal uterine agonism, and tamoxifen raises uterine cancer risk.",
+        "Aromatase is blocked by a different class, and tamoxifen acts at the estrogen receptor.",
+        "It is an antagonist in breast but an agonist in bone and uterus, and a pure antagonist describes fulvestrant."
+      ],
+      "tested_concept": "Tamoxifen uterine effect",
+      "question_id": "rx-r25-tamoxifen-uterus",
+      "source_group_id": "g-rx-r25-tamoxifen-uterus",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 64
+        }
+      ],
+      "visual_target": "Which property of tamoxifen makes this concerning?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 63-year-old woman has taken tamoxifen for ER positive breast cancer for 7 years. She reports new postmenopausal vaginal bleeding.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What else is required for the drug to be effective, and why?",
+      "options": [
+        "Raloxifene, because the drug lowers estrogen so much that bone must be protected by an agonist, so a bone agent is given in place of ovarian suppression",
+        "Nothing, because adipose tissue supplies aromatase in every woman and the ovary is not involved, so the drug works alone with no added agent at all",
+        "Prednisone, because the drug blocks adrenal cortisol synthesis as abiraterone does, so a steroid is given to cover the lost cortisol output",
+        "A GnRH analog, because ovaries are the main source of androgen precursor and aromatase and LH and FSH must be suppressed"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. In premenopausal women the ovaries and placenta are the major source of androgen precursor and aromatase. Step 2. A GnRH analog is therefore required to suppress LH and FSH for an aromatase inhibitor to be effective, unlike in postmenopausal women.",
+      "choice_rationales": [
+        "The lecture does not pair raloxifene with aromatase inhibitors, and it names the GnRH analog as required.",
+        "In postmenopausal women the adrenal supplies precursor and adipose supplies aromatase, but premenopausal ovaries are the major source.",
+        "Prednisone accompanies abiraterone and is not part of aromatase inhibitor therapy.",
+        "The lecture states a GnRH analog is needed in premenopausal women to suppress LH and FSH, because the ovaries and placenta are major sources."
+      ],
+      "tested_concept": "Aromatase inhibitor in premenopausal women",
+      "question_id": "rx-r25-ai-premenopausal",
+      "source_group_id": "g-rx-r25-ai-premenopausal",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 66
+        }
+      ],
+      "visual_target": "What else is required for the drug to be effective, and why?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 41-year-old premenopausal woman with ER positive breast cancer is offered letrozole.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which adverse effects does the lecture list for the combined regimen?",
+      "options": [
+        "Hypoglycemia, tinnitus, hair loss and tendon rupture, with low blood sugar and ringing in the ears",
+        "Hyperkalemia, cough, angioedema and ankle swelling, with a dry cough and swelling of the face",
+        "Nausea, breast tenderness, weight changes and deep vein thrombosis",
+        "Hypertension, drowsiness, depression and dry mouth, with sleepiness and low mood as the main effects"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Oral and patch estrogen with progesterone treats hot flashes, vaginal atrophy, mood and osteoporosis risk. Step 2. Its side effects are nausea and vomiting, breast tenderness, weight changes and deep vein thrombosis, similar to oral contraceptives.",
+      "choice_rationales": [
+        "These effects are not listed for estrogen with progesterone in the lecture.",
+        "These are not listed, and no antihypertensive effect is described for the regimen.",
+        "The lecture lists nausea and vomiting, breast tenderness, weight changes and deep vein thrombosis, shared with oral contraceptives.",
+        "Sedation, depression and dizziness are listed for methyldopa and dry mouth for antimuscarinics."
+      ],
+      "tested_concept": "Shared adverse effects of hormone therapy and contraceptives",
+      "question_id": "rx-r4-hrt-oc-adverse",
+      "source_group_id": "g-rx-r4-hrt-oc-adverse",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R4",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R4 Menopause RLS.pdf",
+          "page": 16
+        }
+      ],
+      "visual_target": "Which adverse effects does the lecture list for the combined regimen?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 54-year-old woman starts an oral estrogen with progesterone for hot flashes. The lecturer compares the regimen with oral contraceptives.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which drug and effect fit?",
+      "options": [
+        "Hydroxyprogesterone caproate weekly by injection, which raises appetite and causes weight gain",
+        "Megestrol acetate in large oral doses, which raises appetite and causes weight gain",
+        "Drospirenone with ethinyl estradiol, which raises appetite and lowers water retention",
+        "Medroxyprogesterone acetate every three months, which raises appetite and causes weight gain"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Three 21 carbon progestins are taught with different uses. Step 2. Megestrol acetate in large oral doses increases appetite and weight in patients with AIDS, while the depot and caproate drugs serve contraception and preterm birth prevention.",
+      "choice_rationales": [
+        "This drug is given weekly to lower preterm labor risk.",
+        "The lecture lists large oral doses of megestrol acetate that increase appetite and weight gain in patients with AIDS.",
+        "Drospirenone has anti mineralocorticoid effects and is used in contraceptive pills.",
+        "This drug is the depot contraceptive and the progestin added to estrogen in menopausal therapy."
+      ],
+      "tested_concept": "Megestrol acetate",
+      "question_id": "rx-r20-megestrol-appetite",
+      "source_group_id": "g-rx-r20-megestrol-appetite",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R20",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R20 Sex Hormones Pharm RLS.pdf",
+          "page": 20
+        }
+      ],
+      "visual_target": "Which drug and effect fit?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 38-year-old man with advanced AIDS has lost 12 kg and has poor appetite. His physician considers a 21 carbon progestin.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What is the first step in management?",
+      "options": [
+        "Stop the anticholinergic drug, because antimuscarinics can cause urinary retention",
+        "Add a second antimuscarinic, because combined blockade lowers the residual volume",
+        "Increase the oxybutynin dose, because a stronger detrusor block will relax the bladder outlet",
+        "Add mirabegron alone, because beta 3 stimulation increases detrusor contraction"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Oxybutynin blocks M3 receptors and reduces involuntary detrusor contractions, so it can cause urinary retention. Step 2. In a man with BPH who retains urine, stopping anticholinergic drugs is the first step.",
+      "choice_rationales": [
+        "The lecture states that stopping anticholinergics is the first step for retention, since they can cause it.",
+        "Antimuscarinics reduce detrusor contraction and would worsen emptying.",
+        "A larger dose would worsen retention.",
+        "Mirabegron relaxes the detrusor by raising cAMP, and it would not improve emptying."
+      ],
+      "tested_concept": "Anticholinergic induced retention",
+      "question_id": "rx-r23-oxybutynin-retention",
+      "source_group_id": "g-rx-r23-oxybutynin-retention",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R23",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R23 Clinical GU II RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "What is the first step in management?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 74-year-old man with BPH takes oxybutynin for urgency and presents with a distended bladder and dribbling.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which choice fits, and what adverse effect should he expect?",
+      "options": [
+        "Tamsulosin, because it is the only alpha blocker with antihypertensive effect",
+        "Doxazosin or terazosin, with orthostatic hypotension as a main adverse effect",
+        "Doxazosin or terazosin, with hyperkalemia as a main adverse effect",
+        "Finasteride, with orthostatic hypotension as a main adverse effect"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Alpha 1 receptors in the prostatic urethra and bladder neck mediate smooth muscle contraction, and alpha blockers open the outlet without shrinking the gland. Step 2. Terazosin and doxazosin are also antihypertensives, and the side effects are orthostatic hypotension and retrograde ejaculation.",
+      "choice_rationales": [
+        "Tamsulosin is the most commonly used for BPH, but terazosin and doxazosin carry the antihypertensive effect.",
+        "The lecture states terazosin and doxazosin are also antihypertensives, and orthostatic hypotension is a listed side effect.",
+        "Orthostatic hypotension and retrograde ejaculation are listed and hyperkalemia is not.",
+        "Finasteride is a 5 alpha reductase inhibitor and not an alpha blocker."
+      ],
+      "tested_concept": "Alpha blockers with antihypertensive effect",
+      "question_id": "rx-r22-doxazosin-bph-htn",
+      "source_group_id": "g-rx-r22-doxazosin-bph-htn",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R22",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R22 Clinical GU I RLS.pdf",
+          "page": null
+        }
+      ],
+      "visual_target": "Which choice fits, and what adverse effect should he expect?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 63-year-old man has BPH with weak stream and stage 2 hypertension. His physician wants one alpha blocker that helps both conditions.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "Which pathway is correct?",
+      "options": [
+        "Gq activates phospholipase C and IP3 raises intracellular calcium, and tamsulosin blocks the receptor at the start",
+        "Gi lowers cAMP and opens potassium channels, and tamsulosin blocks the receptor at the start, and the pathway ends in lowered calcium inside the cell",
+        "Gs activates adenylyl cyclase and cAMP rises, and tamsulosin blocks the receptor at the start, and the same pathway explains the effect of mirabegron",
+        "Calcium enters through voltage gated channels without a receptor, and tamsulosin blocks those channels"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Alpha 1 receptors couple to Gq, which activates phospholipase C and generates IP3, raising intracellular calcium and contracting smooth muscle. Step 2. Tamsulosin, an alpha 1A and 1D antagonist, blocks this at the receptor, relaxing the prostate and bladder outlet within days.",
+      "choice_rationales": [
+        "The lecture poll teaches alpha 1 signaling through Gq, phospholipase C and IP3 to raise intracellular calcium.",
+        "The lecture teaches Gq signaling with IP3 and calcium for alpha 1 receptors.",
+        "Gs and cAMP describe the beta 3 pathway of mirabegron, which relaxes the detrusor.",
+        "Tamsulosin is an alpha 1A and 1D antagonist and not a calcium channel blocker."
+      ],
+      "tested_concept": "Alpha 1 signaling in the prostate",
+      "question_id": "rx-r24-alpha1-gq",
+      "source_group_id": "g-rx-r24-alpha1-gq",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 17
+        }
+      ],
+      "visual_target": "Which pathway is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A student asks how alpha 1 receptor activation in prostatic smooth muscle leads to contraction, and how tamsulosin interrupts it.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which description is correct?",
+      "options": [
+        "It stimulates beta 3 receptors coupled to cAMP, which relaxes the detrusor muscle, so that detrusor muscle relaxes through cAMP",
+        "It blocks acetylcholine release from nerve endings, which weakens the detrusor for months, so that nerve endings stop releasing acetylcholine",
+        "It blocks excitatory M3 receptors coupled to IP3 and diacylglycerol, which lowers calcium and protein kinase C activation",
+        "It blocks alpha 1 receptors coupled to Gq, which relaxes the bladder neck, so that the bladder neck opens and flow rises"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Antimuscarinics for urge incontinence are somewhat selective antagonists at excitatory M3 receptors, which couple to IP3 and diacylglycerol. Step 2. Blocking them lowers calcium release and PKC activation, so involuntary detrusor contractions fall, with dry mouth and constipation as effects at other muscarinic receptors.",
+      "choice_rationales": [
+        "This describes mirabegron and not an antimuscarinic.",
+        "Blocking acetylcholine release describes botulinum toxin A and not an oral antimuscarinic.",
+        "The lecture states these drugs are selective antagonists at excitatory M3 receptors coupled to IP3 release of calcium and DAG activation of PKC.",
+        "This describes tamsulosin, which acts at the bladder outlet and not on detrusor muscarinic receptors."
+      ],
+      "tested_concept": "M3 receptor signaling and antimuscarinics",
+      "question_id": "rx-r24-m3-signaling",
+      "source_group_id": "g-rx-r24-m3-signaling",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R24",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 13
+        },
+        {
+          "document": "R24 Pharmacology Therapy for GU Disorders RLS.pdf",
+          "page": 14
+        }
+      ],
+      "visual_target": "Which description is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A pharmacology student explains how oxybutynin reduces involuntary bladder contractions.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "What best explains the fall?",
+      "options": [
+        "The drug had been raising PSA directly as a toxic effect on the liver, so stopping it clears the marker, so stopping it clears the marker of toxicity",
+        "Resistance has arisen through androgen receptor changes that let the antagonist act as an agonist, so stopping it removes the stimulus",
+        "Stopping the drug restored the testosterone surge, which kills tumor cells, so the tumor shrinks once testosterone surges back",
+        "PSA fell because aromatase was reactivated, which restored normal estrogen, so estrogen levels return to normal after stopping"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The drug has no agonist activity at the normal androgen receptor. Step 2. Resistance can arise from mutation of the receptor so the antagonist acts as an agonist, and discontinuing it may be associated with a fall in PSA and in disease progression.",
+      "choice_rationales": [
+        "The explanation given is a receptor mutation that makes the antagonist act as an agonist.",
+        "The lecture states discontinuation may reduce PSA and disease progression, and resistance can arise from receptor mutation that turns the antagonist into an agonist.",
+        "Testosterone is held low by the GnRH analog, and no surge is the cause of the fall.",
+        "This is not part of the antiandrogen mechanism in the lecture."
+      ],
+      "tested_concept": "Antiandrogen withdrawal",
+      "question_id": "rx-r25-ar-withdrawal",
+      "source_group_id": "g-rx-r25-ar-withdrawal",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 72
+        }
+      ],
+      "visual_target": "What best explains the fall?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 71-year-old man with metastatic prostate cancer on bicalutamide and a GnRH analog has rising PSA and progressing disease. His oncologist stops the bicalutamide, and a month later the PSA falls.",
+      "study_skill": "interpretation"
+    },
+    {
+      "stem": "Which statement is correct?",
+      "options": [
+        "Both lower LH and FSH by blocking 5 alpha reductase in the prostate and skin",
+        "Cyproterone acetate is a steroidal AR antagonist with progestational activity that reduces LH and FSH release, while spironolactone has weak AR antagonist activity",
+        "Spironolactone is the steroidal antagonist that lowers LH and FSH, while cyproterone has weak AR antagonist activity, while cyproterone has only weak receptor antagonist activity",
+        "Both are pure nonsteroidal antagonists like flutamide that raise testosterone unless a GnRH analog is given, and neither lowers LH and FSH unless a GnRH analog is added"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Spironolactone has weak androgen receptor antagonist activity and is useful for hirsutism in women. Step 2. Cyproterone acetate is a steroidal AR antagonist with orphan drug status in the US and also has progestational activity that lowers LH and FSH.",
+      "choice_rationales": [
+        "The lecture does not describe 5 alpha reductase blockade for these drugs.",
+        "The lecture describes cyproterone as a steroidal AR antagonist with progestational activity that lowers LH and FSH, and spironolactone as weak and useful for hirsutism.",
+        "The roles are reversed, since cyproterone carries the progestational gonadotropin lowering effect.",
+        "The lecture describes them as other antiandrogens, with cyproterone acting as a steroidal drug."
+      ],
+      "tested_concept": "Cyproterone acetate",
+      "question_id": "rx-r25-cyproterone",
+      "source_group_id": "g-rx-r25-cyproterone",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 59
+        }
+      ],
+      "visual_target": "Which statement is correct?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A woman with hirsutism wants an antiandrogen that also suppresses gonadotropins through a progestational effect. A colleague suggests cyproterone acetate and spironolactone.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "Which explanation fits the lecture?",
+      "options": [
+        "The drug blocks the androgen receptor everywhere, so testosterone can no longer act on scalp follicles, so testosterone can no longer reach the scalp follicles",
+        "The drug raises testosterone by blocking aromatase, which regrows hair, so aromatase is blocked and hair regrows from estrogen",
+        "The drug lowers LH and FSH, which lowers testosterone production in the testes, so testicular testosterone output falls and hair regrows",
+        "DHT is a more potent agonist at the androgen receptor and is needed for full androgen effects in some tissues, so blocking its synthesis helps"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Finasteride and dutasteride inhibit 5 alpha reductase, which converts testosterone to dihydrotestosterone. Step 2. DHT is a more potent receptor agonist and is required for full androgen effects in some tissues, so finasteride is also used for male pattern baldness, with about 2 percent sexual dysfunction.",
+      "choice_rationales": [
+        "It inhibits 5 alpha reductase and does not block the receptor.",
+        "The drug blocks conversion of testosterone to DHT and does not act on aromatase.",
+        "The drug acts on 5 alpha reductase and not on gonadotropin release.",
+        "The lecture states DHT is more potent than testosterone and required for full androgen effects in some tissues, and finasteride is used for baldness."
+      ],
+      "tested_concept": "Finasteride in male pattern baldness",
+      "question_id": "rx-r25-finasteride-hair",
+      "source_group_id": "g-rx-r25-finasteride-hair",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 61
+        }
+      ],
+      "visual_target": "Which explanation fits the lecture?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 30-year-old man asks why a drug used for BPH also helps male pattern baldness.",
+      "study_skill": "mechanism"
+    },
+    {
+      "stem": "How does the drug slow her puberty?",
+      "options": [
+        "It inhibits aromatase in fat tissue, so estrogen made from androgens falls, so estrogen made from androgens in fat tissue falls",
+        "It blocks estrogen receptors in the breast, so growth and development are halted directly, so breast tissue cannot respond to circulating estrogen",
+        "Continuous exposure desensitizes and downregulates GnRH receptors, so LH and FSH and sex steroid production fall",
+        "Pulsatile exposure amplifies the LH surge, so puberty completes sooner and then stops, so puberty completes sooner and then stops on its own"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Pulsatile GnRH drives LH and FSH, and continuous exposure to a GnRH agonist suppresses them through receptor downregulation and desensitization. Step 2. The same principle treats central precocious puberty by lowering sex steroids, which slows or halts pubertal progression.",
+      "choice_rationales": [
+        "The mechanism is gonadotropin suppression through receptor desensitization and not aromatase inhibition.",
+        "It acts at the pituitary to lower gonadotropins and does not block estrogen receptors.",
+        "The lecture notes describe downregulation and desensitization of GnRH receptors lowering LH and FSH to slow pubertal progression.",
+        "Continuous and not pulsatile exposure produces the suppression."
+      ],
+      "tested_concept": "GnRH agonists in central precocious puberty",
+      "question_id": "rx-r2-gnrh-cpp",
+      "source_group_id": "g-rx-r2-gnrh-cpp",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R2",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R2 Male Physiology RLS.pdf",
+          "page": 31
+        }
+      ],
+      "visual_target": "How does the drug slow her puberty?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 7-year-old girl has breast development and rapid growth from early activation of the hypothalamic pituitary gonadal axis. Her physician starts a continuous GnRH agonist.",
+      "study_skill": "management"
+    },
+    {
+      "stem": "What does the SERM component contribute?",
+      "options": [
+        "It removes all risk of venous thromboembolism, since SERMs do not affect clotting",
+        "It prevents endometrial hyperplasia, so no progestin is needed and uterine bleeding is avoided",
+        "It adds a progestin effect through the progesterone receptor, which opposes the estrogen",
+        "It relieves the hot flashes, while the conjugated estrogens protect the uterus"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Bazedoxifene is a third generation SERM given in one oral tablet with conjugated estrogens. Step 2. The conjugated estrogens relieve vasomotor symptoms while bazedoxifene prevents endometrial hyperplasia, so a progestin is not needed, and VTE risk is increased like other SERMs.",
+      "choice_rationales": [
+        "The lecture states bazedoxifene increases VTE risk like other SERMs.",
+        "The lecture states bazedoxifene prevents endometrial hyperplasia, avoiding the need for a progestin.",
+        "It acts as an estrogen receptor modulator and not as a progestin.",
+        "The conjugated estrogens relieve vasomotor symptoms and the SERM protects the endometrium."
+      ],
+      "tested_concept": "Bazedoxifene with conjugated estrogens",
+      "question_id": "rx-r25-bazedoxifene",
+      "source_group_id": "g-rx-r25-bazedoxifene",
+      "question_type": "Pharmacology reasoning",
+      "category": "Pharmacology",
+      "collection": "R25",
+      "source_origin": "lecture",
+      "visual_kind": "text",
+      "citations": [
+        {
+          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
+          "page": 65
+        }
+      ],
+      "visual_target": "What does the SERM component contribute?",
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Supplied lecture slides and drug notes.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": "A 53-year-old woman with a uterus has vasomotor symptoms and does not want a progestin. Her physician describes a single oral tablet that combines conjugated estrogens with a third generation SERM.",
+      "study_skill": "management"
     }
   ]
 }
