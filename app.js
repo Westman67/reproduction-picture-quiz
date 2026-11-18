@@ -1,6 +1,6 @@
 import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js';
 import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,STUDY_SKILLS,studySkillStats,distinctClues} from './engine.js';
-import {BANKS,STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js';
+import {BANKS,PHARMACOLOGY,STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js';
 const query=new URLSearchParams(window.location.search);
 const CONFIG=resolveBankConfig(window.location.search);
 const thirdPartyLink=CONFIG.id==='pathology'&&(query.get('bank')==='supplementary'||query.get('origin')==='third_party');
@@ -152,7 +152,7 @@ function caseHome() {
 
 function withGlobalSeen(progress){
     const groups={...(progress?.groups||{})};
-    const keys=[...Object.values(BANKS).map(b=>b.progressKey),CLINICAL_CASES.progressKey,COMBINED.progressKey];
+    const keys=[...Object.values(BANKS).map(b=>b.progressKey),PHARMACOLOGY.progressKey,CLINICAL_CASES.progressKey,COMBINED.progressKey,LEGACY_KEY];
     for(const key of keys){
         try{
             const raw=localStorage.getItem(key);
