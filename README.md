@@ -3,7 +3,7 @@
 624 visual questions across three sections.
 
 - Physiology covers R1 through R7 with 59 questions.
-- Pathology contains 369 questions, covering R8 through R32 and including 19 3rd Party questions available under Source type.
+- Pathology contains 369 questions, covering R8 through R32.
 
 Clinical Cases contains 45 cases with 196 linked visual questions. Open Clinical Cases from the top menu. Combined Practice lets you select any of the three sections for one session. It keeps each case together and saves its own session and progress. Clinical Cases uses a separate progress record from picture drills. Each case reveals explanations after completion.
 

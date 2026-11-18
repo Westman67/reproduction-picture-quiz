@@ -5,30 +5,8 @@ test('bank split partitions every question and preserves question records',()=>{
 test('bank URLs and persistence are isolated',()=>{assert.equal(resolveBankConfig('').id,'physiology');assert.equal(resolveBankConfig('?bank=pathology').id,'pathology');assert.equal(resolveBankConfig('?bank=unknown').id,'physiology');assert.equal(resolveBankConfig('?bank=supplementary').id,'pathology');for(const k of ['progressKey','preferencesKey','dataRoot'])assert.equal(new Set(Object.values(BANKS).map(b=>b[k])).size,Object.keys(BANKS).length);});
 test('legacy history is copied into matching bank without changing original',()=>{const legacy=empty();for(const q of whole){const it=session([q]).items[0];see(legacy,q,it);it.draft=q.correct_index;answer(legacy,q,it);legacy.questions[q.question_id].marked=true;}legacy.exams=[{mode:'exam',total:40}];const snapshot=JSON.stringify(legacy);for(const id of Object.keys(BANKS)){const b=read(`data/${id}/question-bank.json`).questions,m=read(`data/${id}/source-manifest.json`).sources,p=splitLegacyProgress(legacy,b,m);assert.equal(Object.keys(p.questions).length,b.length);assert(Object.values(p.questions).every(s=>s.marked&&s.correct_count===1));assert.equal(p.exams.length,0);assert.equal(p.session,null);}assert.equal(JSON.stringify(legacy),snapshot);});
 
-test('3rd Party questions use the Pathology source filter and earlier progress imports once',()=>{
+test('no 3rd Party questions remain because only lecture material is used',()=>{
     const bank=read('data/pathology/question-bank.json').questions;
-    const sources=read('data/pathology/source-manifest.json').sources;
-    const thirdParty=bank.filter(q=>q.source_origin==='third_party');
-    assert.equal(thirdParty.length,19);
-    assert.deepEqual(filtered(bank,empty(),{origin:'third_party',collection:['R10']}),thirdParty);
-
-    const original=empty();
-    original.session=session([bank.find(q=>q.source_origin==='lecture')]);
-    const previous=empty();
-    previous.session=session(thirdParty.slice(0,2));
-    const entry=previous.session.items[0];
-    const question=thirdParty.find(q=>q.question_id===entry.id);
-    see(previous,question,entry);
-    entry.draft=question.correct_index;
-    assert.ok(answer(previous,question,entry));
-    previous.questions[question.question_id].marked=true;
-    previous.exams.push({mode:'exam',total:2});
-    const merged=mergeSupplementaryProgress(original,previous,thirdParty,sources);
-    assert.deepEqual(merged.session,original.session);
-    assert.deepEqual(merged.parkedSession,previous.session);
-    assert.deepEqual(merged.questions[question.question_id],previous.questions[question.question_id]);
-    assert.equal(merged.groups[question.source_group_id].times_seen,1);
-    assert.equal(merged.exams.length,1);
-    assert.equal(mergeSupplementaryProgress(merged,previous,thirdParty,sources),merged);
-    assert.deepEqual(validateImport(JSON.parse(JSON.stringify(merged)),bank),merged);
+    assert.equal(bank.filter(q=>q.source_origin==='third_party').length,0);
+    assert.ok(bank.every(q=>q.source_origin==='lecture'||q.source_origin==='lecture-table'));
 });
