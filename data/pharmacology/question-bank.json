@@ -11,6 +11,46 @@
       "tested_concept": "Bazedoxifene with conjugated estrogens",
       "option_count": 4,
       "retired_reason": "Bazedoxifene will not be tested per user instruction."
+    },
+    {
+      "question_id": "rx-r21-nifedipine-formulation",
+      "source_id": null,
+      "source_group_id": "g-rx-r21-nifedipine-formulation",
+      "tested_concept": "Nifedipine use in severe hypertension",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
+    },
+    {
+      "question_id": "rx-r25-misoprostol-dinoprostone",
+      "source_id": null,
+      "source_group_id": "g-rx-r25-misoprostol-dinoprostone",
+      "tested_concept": "Prostaglandin partner drugs",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
+    },
+    {
+      "question_id": "rx-r21-mag-duration",
+      "source_id": null,
+      "source_group_id": "g-rx-r21-mag-duration",
+      "tested_concept": "Magnesium sulfate dosing and duration",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
+    },
+    {
+      "question_id": "rx-r33-pregnancy-exposures-temps",
+      "source_id": null,
+      "source_group_id": "g-rx-r33-pregnancy-exposures-temps",
+      "tested_concept": "Pregnancy nutrition: mercury, caffeine, foodborne pathogens, and safe cooking temperatures",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
+    },
+    {
+      "question_id": "rx-r33-gdm-multiple-gestation",
+      "source_id": null,
+      "source_group_id": "g-rx-r33-gdm-multiple-gestation",
+      "tested_concept": "Multiple gestation caloric/iron/folate/weight-gain targets and gestational diabetes consequences",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
     }
   ],
   "questions": [
@@ -1969,44 +2009,6 @@
       "study_skill": "management"
     },
     {
-      "stem": "Which plan matches the lecture?",
-      "options": [
-        "Extended release 60 mg as the first acute dose, to avoid repeated dosing",
-        "Sublingual capsule, because absorption by that route is fastest and it is preferred",
-        "Nifedipine regardless of heart rate, because it lowers rate and is preferred in tachycardia",
-        "Oral immediate release 10 mg, with a recheck at 20 minutes and escalation if pressure stays high"
-      ],
-      "correct_index": 3,
-      "explanation": "Step 1. Nifedipine blocks calcium channels in vascular smooth muscle and is the oral option for severe hypertension when IV access is lacking. Step 2. The algorithm gives 10 mg immediate release orally and rechecks pressure at 20 minutes. Step 3. If pressure remains at 160/110 or more, the dose is repeated at 20 mg and then 40 mg. Step 4. Extended release tablets and the sublingual route are not used for the acute dose.",
-      "choice_rationales": [
-        "Extended release forms are for chronic use, and immediate release is the severe hospital form.",
-        "The lecture states that the sublingual form is not used.",
-        "The lecture states nifedipine is avoided in tachycardia.",
-        "The oral algorithm starts at 10 mg and rechecks at 20 minutes before escalating."
-      ],
-      "tested_concept": "Nifedipine use in severe hypertension",
-      "question_id": "rx-r21-nifedipine-formulation",
-      "source_group_id": "g-rx-r21-nifedipine-formulation",
-      "question_type": "Pharmacology reasoning",
-      "category": "Pharmacology",
-      "collection": "R21",
-      "source_origin": "lecture",
-      "visual_kind": "text",
-      "citations": [
-        {
-          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
-          "page": 72
-        }
-      ],
-      "visual_target": "Which plan matches the lecture?",
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture slides and drug notes.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A 28-year-old woman at 37 weeks arrives with blood pressure 168/108 and severe headache. Two attempts at IV access have failed. The resident plans to give nifedipine from the cabinet and asks which formulation and dose the algorithm uses, and what to do if pressure does not fall.",
-      "study_skill": "management"
-    },
-    {
       "stem": "Why does this drug reduce her vasomotor symptoms?",
       "options": [
         "It blocks serotonin reuptake in the hypothalamus, so it works like paroxetine and venlafaxine",
@@ -3661,44 +3663,6 @@
       "study_skill": "mechanism"
     },
     {
-      "stem": "Which statement about the prostaglandin step is correct?",
-      "options": [
-        "Misoprostol blocks prostaglandin synthesis, so the uterus relaxes and the embryo is retained, so contractions are reduced and the pregnancy continues",
-        "Dinoprostone is an oral progesterone antagonist that replaces mifepristone, and is given by mouth in 400 microgram doses",
-        "Misoprostol, a prostaglandin E1 analog, stimulates uterine contractions, and dinoprostone as a 1 mg vaginal suppository could also be used",
-        "Both drugs act by blocking the glucocorticoid receptor in the uterus, and the lecture lists them as alternatives to mifepristone"
-      ],
-      "correct_index": 2,
-      "explanation": "Step 1. Mifepristone sensitizes the uterus by blocking progesterone. Step 2. Misoprostol, a PGE1 analog, is given as 400 micrograms orally and stimulates contractions to expel the embryo. Step 3. Dinoprostone, a PGE2, can also be used as a 1 mg vaginal suppository. Step 4. Both act as prostaglandins and not through the progesterone or glucocorticoid receptor.",
-      "choice_rationales": [
-        "Misoprostol is a prostaglandin analog that stimulates contractions.",
-        "Dinoprostone is a prostaglandin E2 given vaginally.",
-        "The lecture gives misoprostol 400 micrograms orally and dinoprostone PGE2 as a 1 mg vaginal suppository.",
-        "They act as prostaglandins and not through glucocorticoid receptors."
-      ],
-      "tested_concept": "Prostaglandin partner drugs",
-      "question_id": "rx-r25-misoprostol-dinoprostone",
-      "source_group_id": "g-rx-r25-misoprostol-dinoprostone",
-      "question_type": "Pharmacology reasoning",
-      "category": "Pharmacology",
-      "collection": "R25",
-      "source_origin": "lecture",
-      "visual_kind": "text",
-      "citations": [
-        {
-          "document": "R25 Sex Hormones - Pharmacology III RLS.pdf",
-          "page": 69
-        }
-      ],
-      "visual_target": "Which statement about the prostaglandin step is correct?",
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture slides and drug notes.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A 23-year-old woman at 6 weeks took mifepristone 2 days ago and has not yet passed the embryo. A resident asks which prostaglandin options the lecture lists, and the attending asks the resident to explain how the prostaglandin acts on the uterus.",
-      "study_skill": "mechanism"
-    },
-    {
       "stem": "Which statement matches R20?",
       "options": [
         "Both are SPRMs that act by impairing implantation after fertilization",
@@ -4015,44 +3979,6 @@
       "study_skill": "interpretation"
     },
     {
-      "stem": "How long should magnesium sulfate be continued, and what does it prevent?",
-      "options": [
-        "For 72 hours after delivery regardless of symptoms, because the seizure risk keeps rising after the first day, and the infusion is increased if the reflexes become brisk after delivery",
-        "Only until the load is complete, because maintenance infusion adds no benefit and raises the risk of toxicity, and it is also stopped if the patient reports a headache",
-        "Until the blood pressure falls below 140/90, because the drug is an antihypertensive that treats the pressure, and the infusion is stopped as soon as the first dose of an antihypertensive is given",
-        "For 24 hours after delivery or after the last seizure, because it raises the seizure threshold to prevent eclamptic seizures"
-      ],
-      "correct_index": 3,
-      "explanation": "Step 1. Magnesium sulfate prevents eclamptic seizures by antagonizing NMDA receptors and calcium channels. Step 2. The dose is a 4 to 6 g load followed by 1 to 2 g per hour. Step 3. It is continued for 24 hours after delivery or after the last seizure. Step 4. It is not an antihypertensive, so blood pressure is managed with other drugs, and reflexes and respiratory rate are watched for toxicity.",
-      "choice_rationales": [
-        "The lecture gives 24 hours after delivery or the last seizure.",
-        "The lecture gives a maintenance infusion of 1 to 2 g per hour after the 4 to 6 g load.",
-        "The drug is not an antihypertensive, so duration is not tied to blood pressure.",
-        "The lecture gives 24 hours after the last seizure or delivery, with a 4 to 6 g load and 1 to 2 g per hour maintenance."
-      ],
-      "tested_concept": "Magnesium sulfate dosing and duration",
-      "question_id": "rx-r21-mag-duration",
-      "source_group_id": "g-rx-r21-mag-duration",
-      "question_type": "Pharmacology reasoning",
-      "category": "Pharmacology",
-      "collection": "R21",
-      "source_origin": "lecture",
-      "visual_kind": "text",
-      "citations": [
-        {
-          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
-          "page": null
-        }
-      ],
-      "visual_target": "How long should magnesium sulfate be continued, and what does it prevent?",
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture slides and drug notes.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A 31-year-old woman delivered vaginally 2 hours ago after severe preeclampsia. She received a 4 to 6 g IV load and is on a maintenance infusion of 1 to 2 g per hour. Her pressure is now 146/92 with no symptoms. The new nurse asks when the infusion should stop.",
-      "study_skill": "management"
-    },
-    {
       "stem": "Which targeted immunotherapy is used before surgery to shrink this aggressive triple-negative breast tumor, and what is its mechanism?",
       "options": [
         "Trastuzumab, a monoclonal antibody that blocks HER2 signaling and is selected when ER and PR are strongly positive in invasive ductal breast tumors",
@@ -4137,60 +4063,6 @@
       "study_skill": "mechanism"
     },
     {
-      "stem": "Which counseling matches the lecture guidelines on fish intake, caffeine, alcohol, foodborne pathogens, and safe cooking temperatures in pregnancy?",
-      "options": [
-        "Eat 8 to 12 oz/week of low-mercury fish, keep caffeine under 200 mg/day, skip alcohol and unpasteurized or deli foods, and cook poultry/leftovers to 165 F, ground meat to 160 F, and roasts/fish to 145 F",
-        "Avoid all fish during gestation because cooking eliminates methylmercury, keep caffeine under 500 mg/day, limit wine to the third trimester, and cook all poultry, ground meat, and whole steaks to 135 F",
-        "Eat up to 24 oz/week of swordfish or king mackerel for omega-3 fatty acids, avoid caffeine, eat cold deli meats freely because Listeria dies in refrigeration, and cook ground meat and poultry to 145 F",
-        "Eat 8 to 12 oz/week of shark or tilefish because the placenta blocks mercury, keep caffeine under 400 mg/day, and cook whole beef steaks to 165 F while ground beef and leftovers are cooked to 145 F"
-      ],
-      "correct_index": 0,
-      "explanation": "Step 1. Mercury, caffeine, and alcohol all cross the placenta: pregnant patients should eat 8 to 12 oz/week of best-choice low-mercury fish while avoiding high-mercury species (shark, swordfish, king mackerel, marlin, orange roughy, tilefish, bigeye tuna; cooking does not remove mercury), keep caffeine below 200 mg/day, and avoid alcohol completely. Step 2. To prevent foodborne infections (Listeria from unpasteurized dairy or contaminated deli slicers, Salmonella, toxoplasmosis, E. coli, botulism from home-canned low-acid foods, hepatitis A, campylobacteriosis, norovirus), patients should avoid raw/undercooked animal foods, unpasteurized dairy/soft cheeses, ready-to-eat deli meats, raw sprouts, and home-canned goods. Step 3. Safe internal cooking temperatures are 165 F for poultry and leftovers, 160 F for ground meat (higher than whole cuts because grinding distributes surface bacteria throughout the meat), and 145 F for whole chops, roasts, fish, shellfish, and ham.",
-      "choice_rationales": [
-        "R33 teaches 8 to 12 oz/week of low-mercury fish (avoiding shark, swordfish, king mackerel, marlin, orange roughy, tilefish, bigeye tuna), caffeine < 200 mg/day, no alcohol, avoiding unpasteurized dairy/deli meats/raw sprouts/home-canned goods, and cooking poultry/leftovers to 165 F, ground meat to 160 F, and chops/roasts/fish to 145 F.",
-        "Cooking lowers infection risk but does not remove mercury, caffeine should stay under 200 mg/day, no safe alcohol level exists in pregnancy, and poultry requires 165 F.",
-        "Swordfish and king mackerel are high-mercury fish to avoid, ready-to-eat deli meats carry Listeria risk from slicer cross-contamination, and ground meat requires 160 F.",
-        "Mercury crosses the placenta and injures the developing fetal brain, caffeine is limited to < 200 mg/day, and ground meat requires a higher temperature (160 F) than whole steaks/roasts (145 F)."
-      ],
-      "tested_concept": "Pregnancy nutrition: mercury, caffeine, foodborne pathogens, and safe cooking temperatures",
-      "question_id": "rx-r33-pregnancy-exposures-temps",
-      "source_group_id": "g-rx-r33-pregnancy-exposures-temps",
-      "question_type": "Pharmacology reasoning",
-      "category": "Pharmacology",
-      "collection": "R33",
-      "source_origin": "lecture",
-      "visual_kind": "text",
-      "citations": [
-        {
-          "document": "R33 Nutrition And Pregnancy RLS.pdf",
-          "page": 20
-        },
-        {
-          "document": "R33 Nutrition And Pregnancy RLS.pdf",
-          "page": 21
-        },
-        {
-          "document": "R33 Nutrition And Pregnancy RLS.pdf",
-          "page": 22
-        },
-        {
-          "document": "R33 Nutrition And Pregnancy RLS.pdf",
-          "page": 23
-        },
-        {
-          "document": "R33 Nutrition And Pregnancy RLS.pdf",
-          "page": 24
-        }
-      ],
-      "visual_target": "Which counseling matches the lecture guidelines on fish intake, caffeine, alcohol, foodborne pathogens, and safe cooking temperatures in pregnancy?",
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied lecture slides and study notes (R33 RLS pp. 20-24).",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A 29-year-old woman at 8 weeks' gestation asks at her first prenatal visit how much fish and coffee she can have, why cold deli turkey and soft unpasteurized cheeses are on the avoidance list, and what internal temperatures she should use when cooking chicken, ground beef, and fish at home.",
-      "study_skill": "management"
-    },
-    {
       "question_id": "rx-r23-asymptomatic-bacteriuria-cauti",
       "source_group_id": "g-rx-r23-asymptomatic-bacteriuria-cauti",
       "question_type": "Pharmacology reasoning",
@@ -4224,44 +4096,6 @@
       "explanation": "Step 1. Asymptomatic bacteriuria (bacteria in urine without illness or symptoms) should generally not be treated during routine visits to avoid antibiotic overuse from commensal/contaminated samples. Step 2. Key exceptions taught in R23 are pregnancy (associated with worse fetal outcomes) and prior to urologic manipulation of the GU tract (such as kidney stone procedures, where sterile urine is required). Step 3. Indwelling urinary catheters act as foreign bodies that develop quorum-sensing bacterial biofilms after 48 hours, so the primary rule is to remove catheters as soon as possible (or change every 2 weeks in hospital / 4 weeks in chronic catheterization).",
       "ground_truth_confidence": "high",
       "ground_truth_basis": "Supplied R23 lecture transcript.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "study_skill": "management"
-    },
-    {
-      "question_id": "rx-r33-gdm-multiple-gestation",
-      "source_group_id": "g-rx-r33-gdm-multiple-gestation",
-      "question_type": "Pharmacology reasoning",
-      "category": "Pharmacology",
-      "collection": "R33",
-      "source_origin": "lecture",
-      "visual_kind": "text",
-      "citations": [
-        {
-          "document": "R33 Nutrition And Pregnancy RLS.pdf",
-          "page": null
-        }
-      ],
-      "case_context": "A 33-year-old woman with a normal pre-pregnancy BMI is pregnant with dichorionic twins and asks how her caloric, iron, folic acid, and total weight-gain targets differ from a singleton pregnancy, and what risks gestational diabetes would pose.",
-      "stem": "Which nutritional targets and gestational diabetes risks match the R33 lecture?",
-      "visual_target": "Which nutritional targets and gestational diabetes risks match the R33 lecture?",
-      "tested_concept": "Multiple gestation caloric/iron/folate/weight-gain targets and gestational diabetes consequences",
-      "options": [
-        "Twin targets are 37 to 54 lb weight gain, +300/+340/+452 kcal per baby across trimesters 1/2/3, 100 g protein, 60 mg iron in trimesters 2–3, and 1,000 mcg/day folic acid; GDM raises preeclampsia, polyhydramnios, and neonatal hypoglycemia risk",
-        "Twin targets match singleton targets (+0 kcal in trimester 1, 25 to 35 lb total weight gain, and 27 mg iron throughout), while gestational diabetes reduces amniotic fluid volume and protects against cesarean delivery",
-        "Twin pregnancies require restricting weight gain to 11 lb total and keeping folic acid below 400 mcg/day, while gestational diabetes primarily causes fetal hypercalcemia and post-term delivery",
-        "Lactation after delivery requires 0 extra calories beyond non-pregnant intake and allows discontinuing all multivitamins immediately after placental delivery"
-      ],
-      "choice_rationales": [
-        "R33 specifies 37 to 54 lb weight gain for normal-BMI twins (vs 25 to 35 lb singleton), +300/+340/+452 kcal/baby in trimesters 1/2/3, 100 g protein, 60 mg iron in trimesters 2–3, and 1,000 mcg/day folic acid; GDM increases preeclampsia, cesarean delivery, polyhydramnios, neonatal hypoglycemia, hyperbilirubinemia, and respiratory distress.",
-        "Multiple gestations add 300 kcal/baby even in the first trimester (unlike singletons) and raise weight-gain and iron targets, while GDM causes polyhydramnios rather than oligohydramnios.",
-        "11 to 20 lb is the singleton weight-gain guideline for obesity, whereas twins require higher weight gain (37 to 54 lb) and 1,000 mcg/day folic acid.",
-        "Lactation requires an extra 300 to 400 kcal/day and continued multivitamin/folate support."
-      ],
-      "correct_index": 0,
-      "explanation": "Step 1. Compared with a normal-BMI singleton pregnancy (25 to 35 lb weight gain, +0/+340/+452 kcal across trimesters 1/2/3), a twin gestation increases recommended weight gain to 37 to 54 lb, adds 300 kcal/baby in trimester 1 (+340 in trimester 2, +452 in trimester 3), and increases protein (~100 g), second/third-trimester iron (60 mg), and folic acid (1,000 mcg/day). Step 2. Gestational diabetes raises maternal risks (preeclampsia, infections, lacerations, cesarean delivery) and fetal/neonatal risks (abnormal growth, polyhydramnios, fetal demise, birth injury, neonatal hypoglycemia, electrolyte abnormalities, hyperbilirubinemia, respiratory distress, NICU admission). Step 3. Postpartum lactation requires an additional 300 to 400 kcal/day and continued multivitamin support.",
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Supplied R33 lecture transcript and slides.",
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "study_skill": "management"

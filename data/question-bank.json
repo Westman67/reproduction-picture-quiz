@@ -29560,104 +29560,6 @@
       "condition_overview": "The chart gives initial failure rates of about 9 percent for the pill, about 18 percent for the male condom, and 0.8 to 0.05 percent for long acting reversible contraception. Because she misses daily pills, a method that does not depend on daily adherence, such as an IUD or implant, reduces her risk the most."
     },
     {
-      "stem": "In which woman should this drug be avoided?",
-      "options": [
-        "A woman with no IV access, because the drug can only be given intravenously",
-        "A woman with asthma, because the beta blocking action causes bronchoconstriction",
-        "A woman with severe hypertension at term, because alpha 1 blockade drops placental perfusion too far",
-        "A woman with reflex tachycardia after another vasodilator, because beta blockade would worsen her heart rate"
-      ],
-      "correct_index": 1,
-      "explanation": "Step 1. The left arm blocks alpha 1 receptors for vasodilation and the right arm blocks beta receptors to protect the heart from reflex sympathetic drive. Step 2. The beta blocking action also causes bronchoconstriction, so the drug is avoided in asthma, preexisting myocardial disease, decompensated heart function, heart block and bradycardia.",
-      "choice_rationales": [
-        "An oral 200 mg dose is used when there is no IV access.",
-        "The lecture avoids this drug in asthma because beta blockade causes bronchoconstriction.",
-        "It is a first line drug once the threshold of 160 systolic or 105 to 110 diastolic is met.",
-        "The beta blocking arm protects the heart from reflex sympathetic drive, so it helps in this setting."
-      ],
-      "tested_concept": "Alpha and beta blockade and when to avoid it",
-      "question_id": "rx-r21-labetalol-diagram",
-      "source_id": "s-rx-p12",
-      "source_group_id": "g-rx-p12",
-      "variant_id": "v-rx-p12",
-      "question_type": "Visual reasoning",
-      "category": "Diagram",
-      "collection": "R21",
-      "source_origin": "lecture",
-      "image": "assets/zoom/16a399cfaa20b20d5012963a2787e4cb1fd9105d0f4b7f7fe0cd3b5636509141.webp",
-      "zoom_image": "assets/zoom/16a399cfaa20b20d5012963a2787e4cb1fd9105d0f4b7f7fe0cd3b5636509141.webp",
-      "original_image": "assets/zoom/214f4249d43e967c638cf249951457629abad7937d53f24d1e17badcf7f983cd.webp",
-      "original_filename": "R21/Mechanism of Action Flowchart - Diagram.png",
-      "citations": [
-        {
-          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
-          "page": 71
-        }
-      ],
-      "visual_clues": [
-        "Two arms from the drug box lead to alpha 1 blockade with vasodilation and to beta blockade that protects the heart from reflex drive."
-      ],
-      "visual_target": "In which woman should this drug be avoided?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image. Answer revealing text was masked on the image: drug name box removed.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "The diagram shows how a first line IV drug for severe hypertension in pregnancy lowers blood pressure through two receptor actions. A resident considers it for four women.",
-      "study_skill": "management",
-      "condition_name": "Mechanism of Action Flowchart",
-      "condition_overview": "The left arm blocks alpha 1 receptors for vasodilation and the right arm blocks beta receptors to protect the heart from reflex sympathetic drive. The beta blocking action also causes bronchoconstriction, so the drug is avoided in asthma, preexisting myocardial disease, decompensated heart function, heart block and bradycardia."
-    },
-    {
-      "stem": "According to the protocol, what is the next step?",
-      "options": [
-        "Switch to a direct arteriolar vasodilator given IV as 10 mg over 2 minutes",
-        "Give magnesium sulfate alone, because it lowers pressure while it prevents seizures",
-        "Give another 80 mg dose after 10 minutes, because the pressure remains above the threshold",
-        "Give oral nifedipine 10 mg, because oral nifedipine replaces the IV drug above the maximum"
-      ],
-      "correct_index": 0,
-      "explanation": "Step 1. The protocol gives 20, 40 and 80 mg IV with rechecks every 10 minutes and allows a repeat 80 mg dose to a maximum of 220 mg. Step 2. When pressure stays above threshold after the maximum, it switches to hydralazine 10 mg over 2 minutes.",
-      "choice_rationales": [
-        "The protocol switches to hydralazine 10 mg over 2 minutes once the 220 mg maximum is reached.",
-        "Magnesium sulfate is seizure prophylaxis and is not the antihypertensive switch.",
-        "The maximum labetalol dose of 220 mg has already been given.",
-        "Oral nifedipine is the alternative for a woman with no IV access and not the step after the ceiling."
-      ],
-      "tested_concept": "Switching drugs after the labetalol ceiling",
-      "question_id": "rx-r21-labetalol-ceiling",
-      "source_id": "s-rx-p13",
-      "source_group_id": "g-rx-p13",
-      "variant_id": "v-rx-p13",
-      "question_type": "Visual reasoning",
-      "category": "Diagram",
-      "collection": "R21",
-      "source_origin": "lecture",
-      "image": "assets/zoom/bf4e8475d76ac0ca89e93553ffcc8750beeb2ecb4444c8969a20b66755db7991.webp",
-      "zoom_image": "assets/zoom/bf4e8475d76ac0ca89e93553ffcc8750beeb2ecb4444c8969a20b66755db7991.webp",
-      "original_image": "assets/zoom/8eee89152628b37e8c367f826516eac480a272e98759795d0a1919d366ea0631.webp",
-      "original_filename": "R21/ACOG Protocol for Labetalol Treatment - Algorithm.png",
-      "citations": [
-        {
-          "document": "R21 Clinical Obstetrics Hypertension in Pregnancy RLS.pdf",
-          "page": 72
-        }
-      ],
-      "visual_clues": [
-        "A stepped protocol lists IV doses with rechecks every 10 minutes, a maximum dose and a switch arrow to a second drug box."
-      ],
-      "visual_target": "According to the protocol, what is the next step?",
-      "joint_panels": false,
-      "ground_truth_confidence": "high for the stated visual target",
-      "ground_truth_basis": "Supplied lecture page and visible evidence on the selected image. Answer revealing text was masked on the image: hydralazine box text removed.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": "A woman at 36 weeks has pressure above threshold. She receives labetalol 20 mg, 40 mg and 80 mg IV over 2 minutes with rechecks every 10 minutes, then a repeat 80 mg dose for a total of 220 mg. Pressure is still above threshold.",
-      "study_skill": "management",
-      "condition_name": "ACOG Protocol for Labetalol Treatment - Algorithm",
-      "condition_overview": "The protocol gives 20, 40 and 80 mg IV with rechecks every 10 minutes and allows a repeat 80 mg dose to a maximum of 220 mg. When pressure stays above threshold after the maximum, it switches to hydralazine 10 mg over 2 minutes."
-    },
-    {
       "stem": "Which effect on her circulation follows?",
       "options": [
         "Vascular contraction with increased total peripheral resistance, because less calcium enters the cell",
@@ -31968,6 +31870,22 @@
       "tested_concept": "17 alkyl androgens and hepatotoxicity",
       "option_count": 4,
       "retired_reason": "Chemical-structure-only question removed per learner flag."
+    },
+    {
+      "question_id": "rx-r21-labetalol-diagram",
+      "source_id": "s-rx-p12",
+      "source_group_id": "g-rx-p12",
+      "tested_concept": "Alpha and beta blockade and when to avoid it",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
+    },
+    {
+      "question_id": "rx-r21-labetalol-ceiling",
+      "source_id": "s-rx-p13",
+      "source_group_id": "g-rx-p13",
+      "tested_concept": "Switching drugs after the labetalol ceiling",
+      "option_count": 4,
+      "retired_reason": "Specific drug dosage question removed per learner request."
     }
   ]
 }
